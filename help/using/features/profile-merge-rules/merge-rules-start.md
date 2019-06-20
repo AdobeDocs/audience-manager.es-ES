@@ -1,0 +1,199 @@
+---
+description: Para crear reglas de combinación de perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
+seo-description: Para crear reglas de combinación de perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
+seo-title: Introducción a las reglas de combinación de perfiles
+solution: Audience Manager
+title: Introducción a las reglas de combinación de perfiles
+uuid: 7 d 32 c 60 f -467 c -42 dd-afa 9-437 fd 7 c 473 c 5
+translation-type: tm+mt
+source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+
+---
+
+
+# Getting Started with Profile Merge Rules {#getting-started-with-profile-merge-rules}
+
+To create [!UICONTROL Profile Merge Rules], review and complete the steps in each of the procedures described in this section.
+
+<!-- merge-rules-start.xml -->
+
+## Create a Cross-Device Data Source {#create-data-source}
+
+To create a cross-device data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Los permisos de administrador son necesarios para crear o editar una fuente de datos entre dispositivos.
+
+<!-- create-cross-device-datasource.xml -->
+
+>[!TIP]
+>
+>See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
+
+## Data Source Details {#details}
+
+To complete the [!UICONTROL Data Source Details] section:
+
+1. Asigne un nombre al origen de datos.
+1. *(Opcional)* Describa el origen de datos. Una descripción concisa le ayuda a definir la función o el propósito del origen de datos.
+1. Proporcione un código de integración. Un código de integración es su propio ID exclusivo para esta fuente de datos.
+1. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**.
+1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Las opciones incluyen:
+   * **[!UICONTROL Person]**: ID que define una sola persona. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
+   * **[!UICONTROL Household]**: ID que define un grupo de personas. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
+
+## Controles de exportación de datos {#export-controls}
+
+[Los controles de exportación de datos](../../features/data-export-controls.md) son reglas opcionales de clasificación que se pueden aplicar a un origen de datos y a un destino. Evita que envíe datos a un destino cuando esa acción infringe una privacidad de datos o utilice un acuerdo. Skip this section if you do not use [!UICONTROL Data Export Controls].
+
+## Data Source Settings {#settings}
+
+[!UICONTROL Data Source Settings] proporciona varias opciones, pero estas 2 son importantes para crear una fuente de datos entre dispositivos:
+
+* **[!UICONTROL Use as Authenticated Profile]**: Esta opción, seleccionada de forma predeterminada, permite crear con [!UICONTROL Profile Merge Rule] sus propios datos autenticados.
+
+* **[!UICONTROL Use as a Device Graph]**: Este control solo está disponible para cuentas enumeradas como proveedor de datos. Selecting this check box creates your data source as a device graph and lets you share it with other [!DNL Audience Manager] customers. Work with your [!DNL Audience Manager] consultant to get set up as a data provider and to specify which customers this [!UICONTROL Data Source] should be shared with. Su consultor aprovisionará su cuenta y el uso compartido de gráficos de dispositivos a través de procesos de aprovisionamiento internos.
+
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Este control permite establecer el período de retención de datos para los ID de cliente inactivos. Esto determina el tiempo que Audience Manager mantiene los ID de cliente en nuestra base de datos después de que se vean por última vez en la plataforma de Audience Manager. El valor predeterminado es de 24 meses (720 días). El valor mínimo que puede configurar es 1 mes y el valor máximo es de 5 años. Tenga en cuenta que se cuentan todos los meses como 30 días. Audience Manager ejecuta un proceso que elimina los ID de cliente inactivos una vez a la semana, de acuerdo con la retención de datos establecida para los ID de cliente inactivos.
+
+The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../features/profile-merge-rules/merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
+
+>[!MORE_ LIKE_ THIS]
+>
+>* [Crear una fuente de datos](../../features/manage-datasources.md#create-data-source)
+
+
+## Create a Profile Merge Rule {#create-profile-merge-rule}
+
+To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. Puede crear hasta 3 reglas de combinación después de configurar una fuente de datos entre dispositivos. Los permisos de administrador son necesarios para crear, editar o eliminar una regla. All users can view and use existing [!UICONTROL Profile Merge Rules].
+
+<!-- create-profile-merge-rule.xml -->
+
+**Requisitos previos:** Se requiere una fuente de datos entre dispositivos para crear [!UICONTROL Profile Merge Rule]una. See [Create a Data Source](../../features/manage-datasources.md#create-data-source).
+
+>[!TIP]
+>
+>See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md) for descriptions of these different controls.
+
+## Información básica {#basic-info}
+
+To complete the [!UICONTROL Basic Information] section:
+
+1. Name the [!UICONTROL Profile Merge Rule].
+2. *(Opcional)* Describa el [!UICONTROL Profile Merge Rule]. Una descripción concisa le ayuda a definir la función o el propósito de la regla.
+3. *(Opcional)* Seleccione **[!UICONTROL Set as default]** si desea hacerlo predeterminado [!UICONTROL Profile Merge Rule]. Los nuevos segmentos se asocian automáticamente con la regla predeterminada.
+
+## Controles de exportación de datos {#data-export-controls}
+
+[Los controles de exportación de datos](../../features/data-export-controls.md) son reglas opcionales de clasificación que puede aplicar a [!UICONTROL Profile Merge Rule]su. Evita que envíe datos a un destino cuando esa acción infringe una privacidad de datos o utilice un acuerdo. Skip this section if you do not use [!UICONTROL Data Export Controls].
+
+## Profile Merge Rule Setup {#profile-merge-rule-setup}
+
+To complete the [!UICONTROL Proflie Merge Rule Setup] section:
+
+1. Select an **[!UICONTROL Authenticated Option]**. Las opciones incluyen:
+   * **[!UICONTROL No Authenticated Profile]**
+   * **[!UICONTROL Current Authenticated Profile]**
+   * **[!UICONTROL Last Authenticated Profile]**
+2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). [Estas son las fuentes](../../features/profile-merge-rules/merge-rules-start.md) de datos entre dispositivos que ha creado anteriormente.
+3. Seleccione una **[!UICONTROL Device Option]**. Las opciones incluyen:
+   * **[!UICONTROL No Device Profile]**
+   * **[!UICONTROL Current Device Profile]**
+   * **[!UICONTROL Profile Link Device Graph]**
+   * **[!UICONTROL Device Co-op]**
+4. Haga clic en **[!UICONTROL Save]**.
+
+## Configure Merge Rule Code {#configure-merge-rule-code}
+
+Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL], and mobile [!DNL SDK] code to work with your merge rules.
+
+<!-- merge-rules-configure-code.xml -->
+
+### Requisitos previos
+
+You must set up a [cross-device data source](#create-data-source) and [profile merge rules](#create-profile-merge-rule) *before* completing these procedures.
+
+## For Experience Cloud ID Service Customers {#id-service-customers}
+
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don&#39;t have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you&#39;re just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
+
+### Configurar la función Configurar ID de cliente
+
+When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you&#39;ve created a cross-device data source with the integration code `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en la muestra de código modificada abajo.
+
+#### Ejemplo de código genérico
+
+```javascript
+visitor.setCustomerIDs({
+  "userid":{
+      "id":"12345",
+      "authState":Visitor.AuthState.AUTHENTICATED
+```
+
+#### Ejemplo de código modificado
+
+```javascript
+visitor.setCustomerIDs({
+  "my_datasource_ic":{
+     "id":"12345",
+     "authState":Visitor.AuthState.AUTHENTICATED
+```
+
+For more information, see [Create a Cross-Device Data Source](#create-data-source) and [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html).
+
+### Configure `DIL.create` function
+
+The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../features/declared-ids.md#declared-id-variables)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+
+<pre class="js"><code>var vdil = DIL. create ({partner: " nombre del socio ",
+ visitorservice: {namespace: "<i>INSERT-MCORG-ID-HERE</i>"}});</code>
+</pre>
+
+In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don&#39;t have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Necesita permisos de administrador para ver este tablero. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+
+### Configurar SDK
+
+See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#configure-sdks) section below.
+
+## Legacy DIL {#legacy-dil}
+
+If you&#39;re not using [!DNL Experience Cloud ID Service] yet, you really ought to. Sin embargo, somos conscientes de que al pasar a un nuevo código se requiere de un pensamiento y una prueba cuidadosos. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+
+<pre class="js"><code>DIL. create ({partner: " nombre del socio ",
+ declaredid: {dpuuid:<i>dpuuid</i>,
+ dpid:<i>dpid</i>}});</code>
+</pre>
+
+For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#declared-id-variables).
+
+### Configure SDKs {#configure-sdks-legacy-dil}
+
+Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared IDs] from [!DNL Android] and [!DNL iOS] mobile devices. The variable names for the [!DNL Android] and [!DNL iOS] code libraries are the same:
+
+* `dpid`: ID de fuente de datos entre dispositivos.
+* `dpuuid`: El [!UICONTROL declared ID] (es decir, el ID de usuario).
+
+<table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Tipo de dispositivo </th> 
+   <th colname="col2" class="entry"> Método </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <b> Android </b> </p> </td> 
+   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Sintaxis:</b> </p> <p> <pre> public static void setdpidanddpuuid (String dpid, String dpuuid); </pre> </p> <p> <b>Ejemplo:</b> </p> <p> <pre> Audiencemanager. setdpidanddpuuid ("mydpid", "mydpuuid"); </pre> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <b> iOS </b> </p> </td> 
+   <td colname="col2"> <p> <code> Audiencesetdpid: dpuuid </code> </p> <p> <b>Sintaxis:</b> </p><p>
+    <code class="javascript">+ (void) audiencesetdpid: (Nsstring *) dpid 
+ dpuuid: (Nsstring *) dpuuid; </code>
+ </p>
+    <p> <b>Ejemplo:</b> </p><p>
+    <code class="javascript">[Adbmobile audiencesetdpid: @ "290" dpuuid: @ "99301393923940"]; </code>
+ </p>
+    </td>
+  </tr>
+ </tbody>
+</table>
+
+See also, [Audience Manager Methods for Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) and [Audience Manager Methods for iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
