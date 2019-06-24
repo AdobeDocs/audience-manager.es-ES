@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de estado de carga
 uuid: 6 ca 8 a 90 a -436 b -4 fce-adf 1-48 f 3 b 96 b 3 ed 2
 translation-type: tm+mt
-source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -121,7 +121,6 @@ Guía de referencia para las etiquetas y los términos utilizados en este inform
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>El procesamiento de archivos fallará si el nombre del archivo no tiene el formato correcto. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. Para obtener instrucciones sobre cómo asignar nombres a los archivos, consulte: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisitos de nombre de Amazon S3 para archivos de datos de entrada </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> Requisitos de nombre de FTP para archivos de datos de entrada </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
