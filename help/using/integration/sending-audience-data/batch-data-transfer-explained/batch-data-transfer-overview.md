@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Enviar datos de lote a información general del Administrador de audiencia
 uuid: 472583 b 1-5057-4 add -8 e 3 c -5 e 50762 c 88 e 0
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -52,7 +52,6 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 Los nombres de archivo y el contenido siguen directrices estrictas. You *must* name and organize data files according to these specifications in this guide. Consulte:
 
 * [Requisitos de nombre de Amazon S3 para archivos de datos de entrada](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nombre de FTP para archivos de datos de entrada](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 * [Contenido del archivo de datos de entrada: Sintaxis, variables y ejemplos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Los datos en línea están disponibles para los esfuerzos de mercadotecnia sin conexión
