@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Preguntas frecuentes sobre la ingesta de datos de clientes de entrada
 uuid: 491 e 9 ec 1-4731-46 a 8-86 e 7-d 8 c 613 e 6 cedc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ Los siguientes casos de uso muestran cómo estos tipos de archivos afectan los p
 Para obtener más información sobre los tipos de archivos completos e incrementales, consulte:
 
 * [Requisitos de tamaño de archivo y nombre de Amazon S 3 para datos de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nombre de archivo y nombre de FTP para archivos de datos de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 Las marcas de hora se utilizan para registrar y registrar. Son requeridos por la sintaxis utilizada para un nombre de archivo de entrada con formato correcto. Consulte:
 
 * [Requisitos de nombre de Amazon S3 para archivos de datos de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nombre de archivo y nombre de FTP para archivos de datos de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ Sí, consulte:
 
 * [Compresión de archivos para archivos de transferencia de datos entrantes](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Requisitos de nombre de Amazon S3 para archivos de datos de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nombre de FTP para archivos de datos de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
