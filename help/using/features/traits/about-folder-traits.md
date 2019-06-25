@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Características de carpeta acerca de
 uuid: e 561 ce 8 f -6 c 90-44 a 7-b 034-685533 f 29030
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -62,6 +62,6 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 | Elemento | Descripción |
 |---|---|
 | Tipo de característica | [!UICONTROL Onboarded traits] y [!UICONTROL algorithmic traits] contribuye en mayor medida 1 a la frecuencia de una [!UICONTROL folder trait]. |
-| Desplazamiento de características entre carpetas | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Esto significa que, si elimina o mueve un rasgo de la carpeta, los usuarios de la población de características no se segmentarán de los segmentos utilizando el rasgo de carpeta como expresión de segmento. |
+| Desplazamiento de características entre carpetas | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Esto significa que, si elimina o mueve un rasgo de la carpeta, los usuarios de la población de características no se segmentarán de los segmentos utilizando el rasgo de carpeta como expresión de segmento. <br> Al asignar segmentos o grupos de informes de Adobe Analytics a su organización de Experience Cloud, Audience Manager crea automáticamente nuevos segmentos y características de solo lectura. No se puede editar ni modificar la ubicación de almacenamiento de estas características de Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos o grupos de informes de Adobe Analytics asignados reflejará en Audience Manager. |
 | Variables del sistema | [!UICONTROL Folder traits] no se puede activar en las llamadas de evento mediante `d_sid` el parámetro. |
 | Creación de informes | [!UICONTROL Folder traits] son características autocalculadas y no aparecen en **[!UICONTROL Overlap Reports]**. |
