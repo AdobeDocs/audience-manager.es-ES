@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Objetivo de segmentos, Composición y reglas
 uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -26,6 +26,10 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 ## Composición de segmentos
 
 Un segmento de Audience Manager es una regla del lado del servidor que consta de individuos o grupos de características. Las características están compuestas de elementos de datos denominados pares clave-valor. Junto con las reglas que configure en el nivel de segmento, estos pares de valor clave contienen los criterios que califican a los visitantes para su pertenencia y pertenencia a segmentos.
+
+## Consideraciones sobre la asignación de segmentos de Adobe Analytics
+
+Al asignar segmentos o grupos de informes de Adobe Analytics a su organización de Experience Cloud, Audience Manager crea automáticamente nuevos segmentos y características de solo lectura. No se puede editar ni modificar la ubicación de almacenamiento de estos segmentos desde Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos o grupos de informes de Adobe Analytics asignados reflejará en Audience Manager.
 
 >[!TIP]
 >
