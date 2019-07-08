@@ -5,7 +5,7 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: 0e32fcaee617e7f18ce4223ffacc39708fb32786
 
 ---
 
@@ -132,7 +132,7 @@ El caso de uso se describe en la imagen y en los pasos siguientes. Comience desd
 
 ## Activation partners that support IAB TCF {#aam-activation-partners}
 
-El complemento de Audience Manager para IAB TCF permite reenviar la cadena de consentimiento IAB TCF a los socios de activación respetando las opciones de privacidad de los usuarios. For information on which activation partners support IAB TCF (accurate as of March 21st, 2019), refer to our **[Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx)**.
+El complemento de Audience Manager para IAB TCF permite reenviar la cadena de consentimiento IAB TCF a los socios de activación respetando las opciones de privacidad de los usuarios. For information on which activation partners support IAB TCF (accurate as of July 7th, 2019), refer to our **[Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)**.
 
 ## Test your IAB implementation {#test-iab-implementation}
 
