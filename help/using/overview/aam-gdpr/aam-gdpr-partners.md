@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Consideraciones del RGPD para destinos
 uuid: e 8 a 40060-086 c -4 f 03-b 48 c -9 c 903 acb 7891
 translation-type: tm+mt
-source-git-commit: 0ddc86391cbc751dfd4d46946222d555cefbfe38
+source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
 
@@ -68,4 +68,4 @@ Sin embargo, algunos de nuestros socios de activación:
 1. No es posible admitir solicitudes de segmentación de Adobe y/o
 1. No se pueden recibir actualizaciones con más frecuencia de una en 30 días.
 
-En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automática a través de Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx) to see which Audience Manager activation partners support unsegment.
+En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automática a través de Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) to see which Audience Manager activation partners support unsegment.
