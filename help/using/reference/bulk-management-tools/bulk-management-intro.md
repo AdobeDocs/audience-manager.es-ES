@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
 translation-type: tm+mt
-source-git-commit: 349cc962c993b361e2dea00ba693337391b87e5e
+source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
 
 ---
 
