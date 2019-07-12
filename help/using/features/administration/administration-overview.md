@@ -8,7 +8,7 @@ title: Administración
 topic: API DIL
 uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
 translation-type: tm+mt
-source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
+source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ---
 
@@ -84,11 +84,11 @@ Lea más abajo para obtener una descripción del significado de cada comodín:
 
 **Rasgo**
 
-* `MAP_ALL_TRAITS_TO_MODELS` -¿Necesita aclarar?
-* `EDIT_ALL_TRAITS` - Los usuarios pueden editar todas las características pertenecientes a su empresa (PID)
-* `VIEW_ALL_TRAITS` - Los usuarios pueden ver todas las características pertenecientes a su empresa (PID)
+* `MAP_ALL_TRAITS_TO_MODELS` - Los usuarios pueden seleccionar características como punto de referencia para los modelos.
+* `EDIT_ALL_TRAITS` - Los usuarios pueden editar todas las características pertenecientes a su empresa (PID).
+* `VIEW_ALL_TRAITS` - Los usuarios pueden ver todas las características pertenecientes a su empresa (PID).
 * `DELETE_ALL_TRAITS` - Los usuarios pueden eliminar todas las características que pertenecen a su empresa (PID).
-* `CREATE_ALL_ALGO_TRAITS` - debe aclarar
+* `CREATE_ALL_ALGO_TRAITS` - Los usuarios pueden crear características algorítmicas.
 * `MAP_ALL_TO_SEGMENTS` - Los usuarios pueden agregar cualquiera de las características pertenecientes a su empresa a segmentos.
 * `CREATE_ALL_TRAITS` - Los usuarios pueden crear características.
 
@@ -128,7 +128,7 @@ Lea más abajo para obtener una descripción del significado de cada comodín:
 * `DELETE_ALL_SEGMENTS` - Los usuarios pueden eliminar todos los segmentos configurados dentro de su cuenta de empresa.
 * `MAP_ALL_TO_DESTINATIONS` - Los usuarios pueden asignar cualquiera de los segmentos pertenecientes a su empresa a destinos.
 * `EDIT_ALL_SEGMENTS` - Los usuarios pueden editar todos los segmentos configurados en su cuenta de empresa.
-* `MAP_ALL_SEGMENTS_TO_MODELS` -¿Necesita aclarar?
+* `MAP_ALL_SEGMENTS_TO_MODELS` - Los usuarios pueden seleccionar segmentos como punto de referencia para los modelos.
 * `VIEW_ALL_SEGMENTS` - Los usuarios pueden ver todos los segmentos configurados dentro de su cuenta de empresa.
 
 **Señales**
