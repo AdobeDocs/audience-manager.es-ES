@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Cambios importantes de los empleados de Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it&#39;s your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Herramientas y configuración
 
