@@ -33,7 +33,7 @@ Los errores pueden producirse en informes que generan datos superpuestos. Se def
 * No debe haberse incluido en un informe pero se agregó de todas maneras.
 * Debe haberse incluido en un informe pero se ha eliminado.
 
-It&#39;s important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Los conjuntos de datos que tienen muchos registros generan menos errores que los conjuntos con un pequeño número de registros. Observemos esta afirmación de manera más cuantitativa. Como se muestra en la tabla siguiente, para un número de registros establecido, el 95% de los resultados del informe será inferior a una tasa de error específica.
+It's important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Los conjuntos de datos que tienen muchos registros generan menos errores que los conjuntos con un pequeño número de registros. Observemos esta afirmación de manera más cuantitativa. Como se muestra en la tabla siguiente, para un número de registros establecido, el 95% de los resultados del informe será inferior a una tasa de error específica.
 
 | Número de registros | Tasa de error |
 |--- |--- |
