@@ -45,7 +45,7 @@ See [Data Collection Components](../../reference/system-components/components-da
 
 In Greek mythology, [!UICONTROL Iris] is a figure who travels and delivers messages rapidly. [!UICONTROL IRIS] El sistema es un namesake que refleja las características de esta figura del mundo antiguo. In modern terms, [!UICONTROL IRIS] is a low-latency, high-frequency cookie synchronization and data transfer service.
 
-[!UICONTROL IRIS] funciona con el mismo tipo de datos que [!UICONTROL SFTP/S3] el sistema. However, [!UICONTROL IRIS] is different because it sends data to destinations in real time rather than at set intervals. This is a separate system because the [!UICONTROL SFTP/S3] publishers can&#39;t send data to an HTTP destination and they&#39;re not designed for real-time data transfers.
+[!UICONTROL IRIS] funciona con el mismo tipo de datos que [!UICONTROL SFTP/S3] el sistema. However, [!UICONTROL IRIS] is different because it sends data to destinations in real time rather than at set intervals. This is a separate system because the [!UICONTROL SFTP/S3] publishers can't send data to an HTTP destination and they're not designed for real-time data transfers.
 
 There are no UI controls that let customers work directly with [!UICONTROL IRIS]. Customers work with [!UICONTROL IRIS] indirectly when they create and send data to destinations, and for other processes that require rapid data transfers.
 
@@ -72,7 +72,7 @@ To optimize traffic between [!UICONTROL IRIS] and segment destinations, [!UICONT
 
 >[!IMPORTANT]
 >
->If Audience Manager doesn&#39;t detect any of the updates above for 3 consecutive days, [!UICONTROL IRIS] sends all segments associated to a device to all of the destinations mapped to these segments, the next time Audience Manager sees the device.
+>If Audience Manager doesn't detect any of the updates above for 3 consecutive days, [!UICONTROL IRIS] sends all segments associated to a device to all of the destinations mapped to these segments, the next time Audience Manager sees the device.
 
 **Archivo de datos de ejemplo**
 
