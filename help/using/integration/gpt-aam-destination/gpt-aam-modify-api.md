@@ -17,7 +17,7 @@ Add an if statement to check for Audience Manager cookies before calling the [!D
 
 ## Check for Audience Manager Cookies With an `IF` Statement
 
-`.setTargeting` El método obtiene datos de la cookie de destino de Audience Manager y la cookie de ID de usuario única ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they&#39;re not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
+`.setTargeting` El método obtiene datos de la cookie de destino de Audience Manager y la cookie de ID de usuario única ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
 ### `IF` Ejemplo de código de sentencia
 
