@@ -42,7 +42,7 @@ Las funciones incluyen:
 * **Descripción:** Informe a los compradores sobre el contenido de su fuente de datos.
 * **Características:** Número de características en cada fuente de datos. Puede ocultarlo de compradores con una fuente de datos privada.
 * **Únicos únicos de los 30 días:** Número de usuarios únicos que se vieron en los últimos 30 días. Puede ocultarlo de compradores con una fuente de datos privada.
-* **Tarifas totales del mes pasado:** Se requiere la cantidad de compradores de datos suscritos. El período de informe termina el día 10 de cada mes. Las cuentas atrasadas se marcan con el icono triángulo/signo de exclamación. You can [deactivate a subscriber&#39;s data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
+* **Tarifas totales del mes pasado:** Se requiere la cantidad de compradores de datos suscritos. El período de informe termina el día 10 de cada mes. Las cuentas atrasadas se marcan con el icono triángulo/signo de exclamación. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
 * **Estado:** Muestra si una fuente está activa, inactiva, privada o pública.
 * **Suscriptores:** Muestra cuántos compradores utilizan una fuente de datos. Haga clic en el número de esta columna para ver el nombre de la empresa, las suscripciones, la facturación y el estado de suscripción de un comprador.
 * **Solicitudes:** Número de solicitudes de acceso para una fuente de datos.
