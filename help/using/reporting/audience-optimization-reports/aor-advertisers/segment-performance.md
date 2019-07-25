@@ -54,7 +54,7 @@ Las etiquetas del ejemplo y de la tabla siguiente pueden ayudarle a comprender e
 
 ## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven&#39;t considered for targeting. De hecho, algunos de estos segmentos pueden superar los segmentos asignados. Esto se debe a que un segmento sin asignar tiene que cumplir un conjunto de criterios de cualificación que se incluirán en este informe. Para incluir en este informe, un segmento sin asignar debe:
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. De hecho, algunos de estos segmentos pueden superar los segmentos asignados. Esto se debe a que un segmento sin asignar tiene que cumplir un conjunto de criterios de cualificación que se incluirán en este informe. Para incluir en este informe, un segmento sin asignar debe:
 
 * Tener conversiones mayores que la media de todos los segmentos asignados.
 * Esté en los 100 segmentos sin asignar por tasa de conversión.
