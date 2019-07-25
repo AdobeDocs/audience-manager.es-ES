@@ -114,7 +114,7 @@ A standard [!UICONTROL Profile Link] report looks like the following example. Co
 
 ## Profile Link Trend Graphs {#profile-link-trend}
 
-In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. El gráfico de líneas está diseñado para mostrar las tendencias a lo largo del tiempo para las reglas de perfil. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you&#39;re a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Haga clic en una línea de tendencias para ver los datos subyacentes.
+In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. El gráfico de líneas está diseñado para mostrar las tendencias a lo largo del tiempo para las reglas de perfil. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Haga clic en una línea de tendencias para ver los datos subyacentes.
 
 ![](assets/authenticated_trends.png)
 
