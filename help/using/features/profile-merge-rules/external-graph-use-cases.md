@@ -27,7 +27,7 @@ Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph o
 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
-Una campaña de marca está diseñada para llegar a la mayor cantidad de personas posibles. Coloca pocos límites en la cualificación de segmentos. Sin embargo, estas campañas pueden desperdiciar presupuesto e impresiones dirigiendo constantemente a personas que ven el contenido varias veces y no convierten. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. Por ejemplo, puede agregar a estos usuarios desconocidos a un segmento &quot;no en mercado&quot; después de verlos en varios dispositivos para el límite de frecuencia de su conjunto.
+Una campaña de marca está diseñada para llegar a la mayor cantidad de personas posibles. Coloca pocos límites en la cualificación de segmentos. Sin embargo, estas campañas pueden desperdiciar presupuesto e impresiones dirigiendo constantemente a personas que ven el contenido varias veces y no convierten. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. Por ejemplo, puede agregar a estos usuarios desconocidos a un segmento "no en mercado" después de verlos en varios dispositivos para el límite de frecuencia de su conjunto.
 
 <table id="table_00F6EED172574E80A38CADA8A92A23B1"> 
  <thead> 
