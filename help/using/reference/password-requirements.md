@@ -68,7 +68,7 @@ For information about resetting your password, see [Edit Your Account Settings](
 
 **Bloqueo de cuenta**
 
-Las cuentas se bloquean tras 5 intentos fallidos de inicio de sesión. Contact your company&#39;s [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
+Las cuentas se bloquean tras 5 intentos fallidos de inicio de sesión. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **Contraseña perdida/olvidada**
 
