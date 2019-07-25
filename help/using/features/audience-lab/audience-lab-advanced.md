@@ -77,4 +77,4 @@ Utilice esta función para evitar que parte de la audiencia se incluya en la pru
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you&#39;re satisfied with your selection. Ahora tiene un grupo de prueba con parte de la audiencia que se elimina de las pruebas.
+1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you're satisfied with your selection. Ahora tiene un grupo de prueba con parte de la audiencia que se elimina de las pruebas.
