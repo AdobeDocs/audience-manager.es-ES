@@ -43,7 +43,7 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 
 ## Server-Side Integration {#server-side-integration}
 
-Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You&#39;ll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
+Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
 
 >[!IMPORTANT]
 >
