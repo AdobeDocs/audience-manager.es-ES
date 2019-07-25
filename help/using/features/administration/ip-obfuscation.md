@@ -41,7 +41,7 @@ Siga los pasos a continuación para configurar la confusión de direcciones IP.
 1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
 2. Elija el tipo de confusión de IP que desee utilizar.
    1. **Proteger todas las direcciones IP:** seleccione esta opción para que Audience Manager confunda el último octeto de todas las direcciones IP del visitante, independientemente de la región donde se originan.
-   2. **Proteger direcciones IP para países específicos:** seleccione esta opción para que Audience Manager obtenga el último octeto de direcciones IP de visitantes para países específicos. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you&#39;ve added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+   2. **Proteger direcciones IP para países específicos:** seleccione esta opción para que Audience Manager obtenga el último octeto de direcciones IP de visitantes para países específicos. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
 
 ![](assets/ip-obfuscation.png)
 
@@ -49,7 +49,7 @@ Siga los pasos a continuación para configurar la confusión de direcciones IP.
 
 To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you&#39;re done.
+To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
 
 ## Conceptos relacionados {#related-concepts}
 
