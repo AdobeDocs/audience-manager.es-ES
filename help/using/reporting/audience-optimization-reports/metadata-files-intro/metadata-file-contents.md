@@ -31,7 +31,7 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 **Entradas de archivo independientes con ^ a (control-A o ASCII 001)**
 
-Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Dado que estos caracteres no se imprimen, el ejemplo de sintaxis anterior muestra una barra vertical &quot;|&quot; solo para fines de visualización.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Dado que estos caracteres no se imprimen, el ejemplo de sintaxis anterior muestra una barra vertical "|" solo para fines de visualización.
 
 If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Descomprima y edite en el editor de opciones y ajuste según el contenido de metadatos real, ya que ya contiene el delimitador requerido.
 
