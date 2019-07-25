@@ -50,10 +50,10 @@ Say you run the [!UICONTROL Daily Trait Variation] report on the 20th of Decembe
 
 Debido a la reconfiguración de su tienda, está dividiendo la página smartphones en varias páginas, según los nombres de marcas. However, you forget to update the traits defined in [!DNL Audience Manager].
 
-One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven&#39;t updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
+One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
 
-* Productpage = = &quot;samsung&quot;
-* Productpage = = &quot;manzana&quot;
-* Productpage = = &quot;huawei&quot;
+* Productpage = = "samsung"
+* Productpage = = "manzana"
+* Productpage = = "huawei"
 
 Una vez que realice esto, verá que la audiencia cumple los requisitos de las características recién creadas.
