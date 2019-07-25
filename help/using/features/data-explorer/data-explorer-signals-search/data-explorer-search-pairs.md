@@ -39,7 +39,7 @@ Los campos de búsqueda de valor y clave no distinguen mayúsculas de minúscula
 
 ![](assets/signal-search-suggestions.png)
 
-Let&#39;s say [!DNL Audience Manager] received the following signals:
+Let's say [!DNL Audience Manager] received the following signals:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
