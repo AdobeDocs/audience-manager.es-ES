@@ -91,7 +91,7 @@ Depende. El costo se basa en usuarios únicos. Si una campaña da como resultado
 
 <br> 
 
-**Audience Manager muestra[!UICONTROL Addressable Audiences]las métricas y tasas de coincidencia solo para[!UICONTROL Server-to-Server]destinos. Can you explain why we don&#39;t see these figures for Cookie and URL destinations?**
+**Audience Manager muestra[!UICONTROL Addressable Audiences]las métricas y tasas de coincidencia solo para[!UICONTROL Server-to-Server]destinos. Can you explain why we don't see these figures for Cookie and URL destinations?**
 
 Se reduce a las sincronizaciones de ID. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. El número objetivo de segmentos es un subconjunto de la población total de segmentos.
 
