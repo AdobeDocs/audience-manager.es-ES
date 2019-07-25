@@ -21,7 +21,7 @@ Compare tendencias y volumen de las métricas seleccionadas para obtener una mej
 
 ## Caso de uso {#use-cases}
 
-Use the [!UICONTROL Segment Trend] report to validate a segment&#39;s performance over time and to pinpoint trends based on strong performance or scale.
+Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
 
 Con este informe, puede saber qué propiedades web muestran una caída o un aumento defecty y solucionar los problemas según sea necesario. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
 
