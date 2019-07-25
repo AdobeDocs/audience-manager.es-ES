@@ -112,11 +112,11 @@ You must set up a [cross-device data source](#create-data-source) and [profile m
 
 ## For Experience Cloud ID Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don&#39;t have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you&#39;re just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
 
 ### Configurar la función Configurar ID de cliente
 
-When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you&#39;ve created a cross-device data source with the integration code `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en la muestra de código modificada abajo.
+When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en la muestra de código modificada abajo.
 
 #### Ejemplo de código genérico
 
@@ -146,7 +146,7 @@ The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTRO
  visitorservice: {namespace: "<i>INSERT-MCORG-ID-HERE</i>"}});</code>
 </pre>
 
-In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don&#39;t have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Necesita permisos de administrador para ver este tablero. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Necesita permisos de administrador para ver este tablero. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
 ### Configurar SDK
 
@@ -154,7 +154,7 @@ See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md
 
 ## Legacy DIL {#legacy-dil}
 
-If you&#39;re not using [!DNL Experience Cloud ID Service] yet, you really ought to. Sin embargo, somos conscientes de que al pasar a un nuevo código se requiere de un pensamiento y una prueba cuidadosos. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. Sin embargo, somos conscientes de que al pasar a un nuevo código se requiere de un pensamiento y una prueba cuidadosos. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 <pre class="js"><code>DIL. create ({partner: " nombre del socio ",
  declaredid: {dpuuid:<i>dpuuid</i>,
