@@ -27,7 +27,7 @@ c_api_overview.xml
 When working with the instance-level [!UICONTROL DIL] APIs:
 
 * Access requiere un nombre de socio y un ID de espacio de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas de Audience Manager para obtener esta información.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 
 <!-- 
 
@@ -659,7 +659,7 @@ dil-use-cors-only.xml
 
 >[!IMPORTANT]
 >
->* We recommend that you set `useCORSOnly: true` only when you&#39;re sure that your site visitors have browsers that support this feature.
+>* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature.
 >* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older.
 >
 
