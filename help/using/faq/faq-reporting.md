@@ -25,9 +25,9 @@ faq_reports.xml
 
 **Para las nuevas características integradas,¿por qué la visualización[!UICONTROL Trait Graph]a veces es menor que los números esperados o 0?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn&#39;t show any results or shows lower than expected numbers. Esto sucede cuando el volumen de datos que recibimos es tan genial que el trabajo de procesamiento de entrada no puede terminar de ingestar esta información hasta que la fecha límite del informe para ese día.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. Esto sucede cuando el volumen de datos que recibimos es tan genial que el trabajo de procesamiento de entrada no puede terminar de ingestar esta información hasta que la fecha límite del informe para ese día.
 
-As a result, this data is sent to the reporting system late and won&#39;t show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 
