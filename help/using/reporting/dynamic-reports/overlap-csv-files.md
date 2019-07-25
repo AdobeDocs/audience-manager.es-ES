@@ -13,7 +13,7 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 
 # Archivos CSV para informes superpuestos{#csv-files-for-overlap-reports}
 
-Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando aparezca el mensaje &quot;Error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo. csv comprimido, que puede importar y trabajar con su propio sistema de bases de datos. Los archivos están disponibles para los informes superpuestos de segmento a segmento, segmento a rasgo y rasgo a rasgo.
+Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando aparezca el mensaje "Error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo. csv comprimido, que puede importar y trabajar con su propio sistema de bases de datos. Los archivos están disponibles para los informes superpuestos de segmento a segmento, segmento a rasgo y rasgo a rasgo.
 
 ## File Name Metadata {#file-name-metadata}
 
