@@ -18,26 +18,26 @@ TÉRMINOS Y CONDICIONES PARA USAR, REPRODUCIR Y DISTRIBUCIÓN
    «Licencia»
 significa los términos y condiciones de uso, reproducción y distribución definidos por las secciones 1 a 9 de este documento.
 
-   &quot; Licenciador &quot;significa el propietario de copyright o entidad autorizada por
+   " Licenciador "significa el propietario de copyright o entidad autorizada por
 el propietario del copyright que concede la licencia.
 
-   &quot; Entidad legal &quot;significa la unión de la entidad que actúa y todas
+   " Entidad legal "significa la unión de la entidad que actúa y todas
 las demás entidades que controlan, están controladas por o están bajo control común
 con esa entidad. A los fines de esta definición,
-&quot;control&quot; significa (i) la potencia, directa o indirecta, para causar la dirección o administración de dicha entidad, ya sea contractual o
+"control" significa (i) la potencia, directa o indirecta, para causar la dirección o administración de dicha entidad, ya sea contractual o
 de otro tipo, o (ii) propiedad del 5% (50%) o más de los elementos compartidos pendientes, o (iii) propiedad beneficiosa de dicha entidad.
 
-   &quot; Usted &quot; (o&quot; Su &quot;) significa un individuo o entidad
+   " Usted " (o" Su ") significa un individuo o entidad
 legal que ejerce permisos concedidos por esta licencia.
 
    El formulario «Fuente» debe ser el formulario preferido para realizar modificaciones, incluso, entre otras, código fuente de software, fuente de documentación
 y archivos de configuración.
 
-   El formulario &quot;Objeto&quot; significa cualquier formulario resultante de la transformación mecánica
+   El formulario "Objeto" significa cualquier formulario resultante de la transformación mecánica
 o traducción de un formulario de origen, incluso, entre otros,
 código de objeto compilado, documentación generada y conversiones a otros tipos de papel.
 
-   &quot; Trabajo &quot;significa el trabajo de la entidad, ya sea en el formulario Origen o
+   " Trabajo "significa el trabajo de la entidad, ya sea en el formulario Origen o
 Objeto, disponible en la Licencia, tal como indica un
 aviso de copyright que se incluye o adjunta al trabajo
 (se proporciona un ejemplo en el Apéndice siguiente).
@@ -50,18 +50,18 @@ de esta Licencia, Derivative Works no debe incluir trabajos que se puedan
 separar o simplemente vincular (o enlazar por nombre) a las interfaces de,
 Work and Derivative Works.
 
-   &quot; Contribución &quot;significa cualquier trabajo de la entidad, incluida
+   " Contribución "significa cualquier trabajo de la entidad, incluida
 la versión original del trabajo y cualquier modificación o adiciones
 a ese trabajo o derivative works de manera intencionada, que se envía de forma intencionada
 al Licenciador para su inclusión en el trabajo por parte del propietario
-del copyright o por una persona o entidad legal autorizada para enviarla en nombre del propietario del copyright. Para esta definición, &quot;enviado&quot;
+del copyright o por una persona o entidad legal autorizada para enviarla en nombre del propietario del copyright. Para esta definición, "enviado"
 significa cualquier forma de comunicación electrónica, verbal o escrita por escrito enviada
 al licenciador o a sus representantes, incluso, entre otros, la comunicación en listas de distribución electrónica, sistemas de control de código fuente y sistemas de seguimiento de problemas administrados por el
 Licenciador, o en nombre del mismo, con el fin de analizar y mejorar el trabajo, pero
 excluyendo la comunicación que sea conmutada. marcada de forma spicuosa o designada por
-escrito por el propietario del copyright como &quot;No es una contribución&quot;.
+escrito por el propietario del copyright como "No es una contribución".
 
-   &quot; Colaborador &quot;significa el Licenciador y cualquier Individuo o Entidad
+   " Colaborador "significa el Licenciador y cualquier Individuo o Entidad
 Legal en cuyo nombre se haya recibido una Contribución por Licenciador y
 luego se haya incorporado dentro del Trabajo.
 
@@ -97,7 +97,7 @@ atribución desde la forma fuente del trabajo,
 excluyendo aquellos avisos que no pertenezcan a ninguna parte de
 Derivative Works; y
 
-   (d) Si el trabajo incluye un archivo de texto &quot;NOTICE&quot; como parte de su distribución, cualquier Derivative Works que usted distribuya debe
+   (d) Si el trabajo incluye un archivo de texto "NOTICE" como parte de su distribución, cualquier Derivative Works que usted distribuya debe
 incluir una copia legible de los avisos de atribución contenidos
 en dicho archivo NOTICE, excluyendo los avisos que no
 pertenecen a ninguna parte de Derivative Works, en al menos uno
@@ -130,7 +130,7 @@ marcas comerciales, marcas de servicio o nombres de producto del licenciador, ex
 
 7. Renuncia de responsabilidad. A menos que la legislación aplicable o
 los aceptados por escrito, el Licenciador proporcione el Trabajo (y cada
-colaborador proporcione sus contribuciones) en base a la Base &quot;Tal CUAL&quot;,
+colaborador proporcione sus contribuciones) en base a la Base "Tal CUAL",
 SIN GARANTÍA O CONDICIONES DE NINGÚN TIPO, YA SEA EXPLÍCITA O
 IMPLÍCITA, INCLUSO, SIN LIMITACIÓN, CUALQUIER GARANTÍA O CONDICIÓN
 DEL TÍTULO, NO CONTRAVENCIÓN, COMERCIABILIDAD O ADECUACIÓN PARA UN
@@ -160,23 +160,23 @@ FINAL DE TÉRMINOS Y CONDICIONES
 APÉNDICE: Cómo aplicar la licencia de Apache a su trabajo.
 
     Para aplicar la licencia de Apache a su trabajo, adjunte
-    el aviso de seguidores, con los campos delimitados por corchetes &quot; {}&quot;
-    reemplazados por su propia información de identificación. (Don&#39;t include
+    el aviso de seguidores, con los campos delimitados por corchetes " {}"
+    reemplazados por su propia información de identificación. (Don't include
     the brackets!)  The text should be enclosed in the appropriate
     comment syntax for the file format. We also recommend that a
     file or class name and description of purpose be included on the
-    same &quot;printed page&quot; as the copyright notice for easier
+    same "printed page" as the copyright notice for easier
     identification within third-party archives.
 
 Copyright 2018 Adobe Systems, Inc
 
-Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+Licensed under the Apache License, Version 2.0 (the "License");
 no puede utilizar este archivo excepto en cumplimiento con la Licencia.
 Puede obtener una copia de la licencia en
 
     https://www.apache.org/licenses/LICENSE-2.0
 
 A menos que la legislación aplicable o los aceptados por escrito, el software
-distribuido en la Licencia se distribuya en base a &quot;Tal y como está&quot;, SIN GARANTÍA NI CONDICIONES DE NINGUNA CLASE, YA SEA EXPLÍCITA O IMPLÍCITA.
+distribuido en la Licencia se distribuya en base a "Tal y como está", SIN GARANTÍA NI CONDICIONES DE NINGUNA CLASE, YA SEA EXPLÍCITA O IMPLÍCITA.
 Consulte la Licencia del idioma específico que rige los permisos y
 las limitaciones de la Licencia.
