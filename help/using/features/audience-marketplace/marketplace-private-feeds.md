@@ -19,7 +19,7 @@ Una fuente de datos privada es una opción que permite a los proveedores limitar
 
 ## Private Data Feeds for Providers {#private-data-feeds-providers}
 
-Como proveedor, sus fuentes de datos pueden ser públicas o privadas. Una fuente de datos privada permite limitar el acceso de los compradores a los datos, incluido el nombre del proveedor de datos. Es posible que desee crear una fuente de datos privada para ofrecer ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes. Con una fuente de datos privada, puede revisar y aprobar solicitudes de compradores. Después de aprobar una solicitud, la fuente tiene el mismo aspecto que una fuente de datos pública al comprador. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Como se muestra a continuación, este tipo de fuente se marca como &quot;Privado&quot; en la columna de estado.
+Como proveedor, sus fuentes de datos pueden ser públicas o privadas. Una fuente de datos privada permite limitar el acceso de los compradores a los datos, incluido el nombre del proveedor de datos. Es posible que desee crear una fuente de datos privada para ofrecer ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes. Con una fuente de datos privada, puede revisar y aprobar solicitudes de compradores. Después de aprobar una solicitud, la fuente tiene el mismo aspecto que una fuente de datos pública al comprador. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Como se muestra a continuación, este tipo de fuente se marca como "Privado" en la columna de estado.
 
 ![](assets/my_shared_data.png)
 
