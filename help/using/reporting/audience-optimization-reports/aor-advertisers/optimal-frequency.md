@@ -19,7 +19,7 @@ Normalmente, el volumen de conversión disminuye con bloques de frecuencia de im
 
 Sin embargo, el porcentaje total de conversión aumenta con cada contenedor de frecuencia de impresión. Se generan más conversiones con cada contenedor, por lo que la suma de conversiones (el numerador) se aproxima al número total de posibles conversiones (el denominador) y, por lo tanto, aumenta el porcentaje.
 
-Como se muestra en el informe de muestra, la intersección de los dos esquemas de línea proporciona una guía para la frecuencia de impresión &quot;óptima&quot;, es decir, el número óptimo de impresiones que se deben ofrecer, antes de que el cliente comience a ver que disminuye la rentabilidad.
+Como se muestra en el informe de muestra, la intersección de los dos esquemas de línea proporciona una guía para la frecuencia de impresión "óptima", es decir, el número óptimo de impresiones que se deben ofrecer, antes de que el cliente comience a ver que disminuye la rentabilidad.
 
 ## Informe de muestra
 
