@@ -35,7 +35,7 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 ![](assets/buyer_marketplace.png)
 
-The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that&#39;s right for you. Items in the [!UICONTROL Marketplace] buyer&#39;s list include:
+The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
 
 * **[!UICONTROL Search]:** Buscar fuentes de datos por nombre o descripción del texto.
 * **[!UICONTROL Name]:** Nombre de la fuente de datos.
@@ -50,7 +50,7 @@ The [!UICONTROL Marketplace] list contains information that you can sort and sea
 
 ## Fuentes de datos privadas {#private-data-feeds}
 
-In the [!UICONTROL Marketplace] list, sometimes the provider&#39;s name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Una fuente de datos privada permite a los vendedores limitar el acceso de los compradores a sus datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando son importantes para ellos. Como comprador, debe enviar una solicitud de suscripción al vendedor si desea acceder a una fuente privada. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
+In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Una fuente de datos privada permite a los vendedores limitar el acceso de los compradores a sus datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando son importantes para ellos. Como comprador, debe enviar una solicitud de suscripción al vendedor si desea acceder a una fuente privada. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
 >[!MORE_ LIKE_ THIS]
 >
