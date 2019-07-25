@@ -81,7 +81,7 @@ Esto suele ocurrir cuando:
 
 **¿Qué versiones de[!DNL Analytics]trabajo con[!UICONTROL DIL]?**
 
-You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don&#39;t know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Información de la versión que se muestra a continuación:
+You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don't know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Información de la versión que se muestra a continuación:
 
 This customer uses [!DNL Analytics] version 24.4:
 
@@ -99,7 +99,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **¿Puedo recopilar datos de página si no soy[!DNL Analytics]cliente?**
 
-Sí. The [!UICONTROL DIL] module helps you collect page data even if you&#39;re not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
+Sí. The [!UICONTROL DIL] module helps you collect page data even if you're not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
 
 * Etiquetas meta
 * Direcciones URL y encabezados URL
@@ -121,7 +121,7 @@ Sí. [!UICONTROL DIL] puede recopilar algunos [!DNL Google Analytics] elementos 
 
 **¿Puedo obtener datos sin procesar y[!DNL Audience Manager]cuán granular es?**
 
-Yes, [!DNL Audience Manager] can provide you with data collected for users we&#39;ve seen on your inventory. Esto incluye:
+Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. Esto incluye:
 
 * The unique user ID (UUID) assigned by [!DNL Audience Manager]
 * ID de características y segmentos
@@ -131,7 +131,7 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we&#3
 
 <br> 
 
-**Deseo recopilar datos en un sitio y dirigir a los usuarios a través de DFP en un sitio diferente. Do I need to deploy code on the other property if I don&#39;t want to collect data from that location?**
+**Deseo recopilar datos en un sitio y dirigir a los usuarios a través de DFP en un sitio diferente. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
 No. Si la recopilación de datos en el segundo sitio no es necesaria, no es necesario implementar DIL allí. Siempre que tenga acceso al inventario en el segundo sitio a través de DFP, puede utilizar la recopilación de datos desde el sitio inicial y segmentar por medio de DFP.
 
