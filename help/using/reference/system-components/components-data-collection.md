@@ -75,7 +75,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-The [!UICONTROL PCS] flushes traits if they&#39;re inactive for 17-days. Sin embargo, estas características no se pierden. Se almacenan en Hadoop. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
+The [!UICONTROL PCS] flushes traits if they're inactive for 17-days. Sin embargo, estas características no se pierden. Se almacenan en Hadoop. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
 
 **Otros[!UICONTROL DCS/PCS]procesos: Exclusión de privacidad**
 
