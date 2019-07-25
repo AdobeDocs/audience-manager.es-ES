@@ -48,7 +48,7 @@ La siguiente sintaxis define la estructura de contenido en el archivo de datos b
 En el contenido del archivo:
 
 * Las etiquetas de encabezado deben aparecer en el orden, como se muestra en la siguiente tabla. Las impresiones y los clics utilizan las mismas etiquetas. Los archivos de conversión contienen encabezados adicionales.
-* If you don&#39;t have data for a particular column, populate that field with a `NULL` object or `-1`.
+* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`.
 
 * Files *must* end with a version number. La versión actual es 1.1.
 * Separe los encabezados y los contenidos de archivos con el carácter ASCII 001 no imprimible. Si no puede utilizar ASCII 001, separe los encabezados y los datos con un delimitador de tabuladores. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
