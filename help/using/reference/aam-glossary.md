@@ -19,7 +19,7 @@ Definiciones y vínculos para leer más.
 
 **Modelado algorítmico**
 
-Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you&#39;ve identified. La función ayuda a descubrir audiencias únicas y únicas a través del análisis automatizado de datos. Manage your [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
+Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you've identified. La función ayuda a descubrir audiencias únicas y únicas a través del análisis automatizado de datos. Manage your [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
 
 See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#understanding-models).
 
@@ -78,7 +78,7 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md), this m
 
 **demdex.net**
 
-Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]&#39;s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] adquiridos [!DNL Demdex] en 2011 y se vuelve a personalizar la empresa como [!DNL Audience Manager]. All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
+Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]'s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] adquiridos [!DNL Demdex] en 2011 y se vuelve a personalizar la empresa como [!DNL Audience Manager]. All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
 
 Consulte [Explicación de las llamadas al dominio Demdex](../reference/demdex-calls.md).
 
@@ -140,7 +140,7 @@ ID de publicidad de Google, el ID de dispositivo único que Google asigna a disp
 
 **GUID**
 
-Siglas para identificador único global. We don&#39;t use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
+Siglas para identificador único global. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
 See [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 ## I-J {#i-j}
