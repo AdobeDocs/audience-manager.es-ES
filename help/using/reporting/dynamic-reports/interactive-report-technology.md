@@ -126,5 +126,5 @@ La búsqueda se representa mediante un icono de lupa genérico (no se muestra). 
 
 | Informe | Para buscar búsqueda, coloque el puntero sobre |
 |---|---|
-| [!UICONTROL Delivery and Performance] informe | La etiqueta &quot;Nombre del anunciante&quot;. |
-| [!UICONTROL Overlap] informes | La etiqueta &quot;Nombre del SID&quot;. |
+| [!UICONTROL Delivery and Performance] informe | La etiqueta "Nombre del anunciante". |
+| [!UICONTROL Overlap] informes | La etiqueta "Nombre del SID". |
