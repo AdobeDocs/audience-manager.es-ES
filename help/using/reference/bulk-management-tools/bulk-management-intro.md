@@ -104,7 +104,7 @@ Los cambios masivos requieren autenticación. Cuando selecciona una acción, la 
 Para configurar la autenticación de API, debe:
 
 * Copie y guarde la clave secreta en un archivo de texto (.txt).
-* Asigne un nombre al archivo de texto con su ID de cliente de API. Por ejemplo, si su ID de cliente es &quot;Usuario masivo&quot;, guarde la clave en un archivo llamado &quot;User-User. txt&quot;.
+* Asigne un nombre al archivo de texto con su ID de cliente de API. Por ejemplo, si su ID de cliente es "Usuario masivo", guarde la clave en un archivo llamado "User-User. txt".
 * Guarde la clave secreta y la hoja de cálculo en la misma carpeta.
 
 Cuando realice cambios masivos, tendrá que introducir un nombre de usuario, contraseña, ID de cliente y dominio, pero la autenticación de API es automática.
