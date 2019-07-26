@@ -35,7 +35,7 @@ Los clientes no tienen acceso directo a estos sistemas. Sin embargo, los cliente
 
 ## Snowflake {#snowflake}
 
-[Copo de nieve](https://www.snowflake.net/) es una base de datos nube masiva. Proporciona datos a muchos de los gráficos de tableros y a sus cuadros de texto relacionados que muestran el cambio de % para cada elemento del gráfico. If you use [!DNL Audience Manager] and look at the dashboard reports, you&#39;re interacting with data provided by [!UICONTROL Snowflake].
+[Copo de nieve](https://www.snowflake.net/) es una base de datos nube masiva. Proporciona datos a muchos de los gráficos de tableros y a sus cuadros de texto relacionados que muestran el cambio de % para cada elemento del gráfico. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
 
 
