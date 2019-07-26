@@ -20,7 +20,7 @@ translation-type: tm+mt
    + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
 + All image assets are stored in `/assets` at the root of the user guide.
    + All images in the `/assets` directory will be localized.
-   + Any images in the `/no-localize` directory will not be localized (there&#39;s a surprise!). Esto se puede utilizar para asegurar en versiones loc que los recursos específicos no se reproducen de forma innecesaria.
+   + Any images in the `/no-localize` directory will not be localized (there's a surprise!). Esto se puede utilizar para asegurar en versiones loc que los recursos específicos no se reproducen de forma innecesaria.
 
 ## Metadatos del nivel de guía del usuario
 
