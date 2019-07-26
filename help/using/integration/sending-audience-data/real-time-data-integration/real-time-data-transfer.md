@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}
 
-The real-time inbound data ingestion process uses a series of `HTTP` requests from a user&#39;s browser to pass in data to Audience Manager.
+The real-time inbound data ingestion process uses a series of `HTTP` requests from a user's browser to pass in data to Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
