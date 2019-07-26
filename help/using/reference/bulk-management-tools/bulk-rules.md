@@ -31,9 +31,9 @@ En la hoja de cálculo, la columna de regla de características devuelve y acept
 
 ## Rule builder example {#rule-builder-example}
 
-Let&#39;s take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. Sin embargo, este no es un conjunto de instrucciones paso a paso para estas herramientas. En su lugar, vamos a comenzar con una regla simple que ya se ha creado. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md) and [Trait Builder](../../features/traits/about-trait-builder.md).
+Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. Sin embargo, este no es un conjunto de instrucciones paso a paso para estas herramientas. En su lugar, vamos a comenzar con una regla simple que ya se ha creado. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md) and [Trait Builder](../../features/traits/about-trait-builder.md).
 
-With the visual rule builder, we&#39;ve created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
+With the visual rule builder, we've created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
 
 ![](assets/visualrule.png)
 
