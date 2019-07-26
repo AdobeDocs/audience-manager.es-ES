@@ -25,7 +25,7 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
 1. Go to **[!UICONTROL Audience Data > Traits]** to navigate to the **Traits** dashboard.
 1. In the [!UICONTROL Trait Storage] window, hover over:
 
-   * Texto &quot;Todas las características&quot; para agregar una nueva carpeta de nivel raíz.
+   * Texto "Todas las características" para agregar una nueva carpeta de nivel raíz.
    * Una carpeta principal existente para agregar una nueva carpeta subordinada.
    ![](assets/folder_traits_create.PNG)
 
