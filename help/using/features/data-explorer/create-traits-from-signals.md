@@ -30,7 +30,7 @@ To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the si
 
 ![](assets/signals-create-trait.png)
 
-You&#39;ll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
+You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
 
 ## Create Traits from Signal Search {#create-traits-from-signal-search}
 
