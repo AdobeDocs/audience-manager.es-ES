@@ -57,10 +57,10 @@ La tabla siguiente define las variables importantes en la muestra de código.
 
 | Parámetro | Descripción |
 |--- |--- |
-| `partner` | Requerido. Es un nombre asociado que Adobe le asigna. A veces se denomina «ID de socio» o «subdominio asociado». Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don&#39;t know your partner name. |
+| `partner` | Requerido. Es un nombre asociado que Adobe le asigna. A veces se denomina «ID de socio» o «subdominio asociado». Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name. |
 | `containerNSID` | Requerido. Most customers can just set  `"containerNSID":0` . Sin embargo, si su empresa necesita personalizar sincronizaciones de ID con otro contenedor, puede especificar ese ID de contenedor aquí. |
 | `uuidCookie` | Opcional. Esta configuración permite establecer una cookie de Adobe en el dominio de origen. This cookie contains the [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Requerido. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>Es [!UICONTROL Experience Cloud Organization ID] el ID con el que se proporciona una empresa al registrarse para [!UICONTROL Experience Cloud]. Find out your company&#39;s Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `visitorService` - `namespace` | Requerido. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>Es [!UICONTROL Experience Cloud Organization ID] el ID con el que se proporciona una empresa al registrarse para [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
 ## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
 
