@@ -25,7 +25,7 @@ Familiarícese con los términos clave utilizados con el RGPD. Hemos resaltado a
 
 <br> 
 
-**Controlador de datos:** El RGPD define &quot;Controller&quot; como &quot;the… legal person… which alone or together with others determina los propósitos y medios del procesamiento de datos personales. »» Los clientes de Audience Manager son controladores de datos. Los clientes controlan cómo se administran los datos en Audience Manager.
+**Controlador de datos:** El RGPD define "Controller" como "the… legal person… which alone or together with others determina los propósitos y medios del procesamiento de datos personales. »» Los clientes de Audience Manager son controladores de datos. Los clientes controlan cómo se administran los datos en Audience Manager.
 
 <br> 
 
@@ -37,7 +37,7 @@ Familiarícese con los términos clave utilizados con el RGPD. Hemos resaltado a
 
 <br> 
 
-**Consentimiento:** El consentimiento significa &quot;cualquier indicación libre, específica, informada y sin ambigüedades de los deseos del sujeto de datos por los cuales, por medio de una declaración o de una acción afirmativa clara, significa que usted acepta el procesamiento de datos personales relacionados con usted o su&quot;. El consentimiento es responsabilidad del controlador de datos, no de Adobe a través de Audience Manager.
+**Consentimiento:** El consentimiento significa "cualquier indicación libre, específica, informada y sin ambigüedades de los deseos del sujeto de datos por los cuales, por medio de una declaración o de una acción afirmativa clara, significa que usted acepta el procesamiento de datos personales relacionados con usted o su". El consentimiento es responsabilidad del controlador de datos, no de Adobe a través de Audience Manager.
 
 <br> 
 
