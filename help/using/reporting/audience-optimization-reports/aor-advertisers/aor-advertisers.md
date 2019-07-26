@@ -25,7 +25,7 @@ You can send data to [!DNL Audience Manager] for use in these reports by either 
 
 ## Role-Based Access Controls (RBAC) {#rbac}
 
-The type of reports you can view depend on the [!UICONTROL RBAC] group you&#39;re assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
+The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
 
 [!UICONTROL RBAC] los grupos deben tener algunas fuentes de datos configuradas para ver [!UICONTROL Audience Optimization] los informes. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. Como mínimo, su asesor configurará al menos una de estas fuentes de datos:
 
@@ -33,7 +33,7 @@ The type of reports you can view depend on the [!UICONTROL RBAC] group you&#39;r
 * Fuente de datos de marca
 * Fuente de datos de plataforma
 
-Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group&#39;s view. Los datos mostrados se actualizarán para respetar el grupo seleccionado. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
+Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group's view. Los datos mostrados se actualizarán para respetar el grupo seleccionado. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
 
 ## Conversion Groups {#conversion-groups}
 
