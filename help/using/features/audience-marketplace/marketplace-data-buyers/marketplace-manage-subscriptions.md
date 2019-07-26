@@ -72,10 +72,10 @@ Para suscribirse a una fuente de datos privada:
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. Haga clic en **[!UICONTROL Request Access]**. Se abre el cuadro de diálogo de solicitud.
-1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. El vendedor revisará su mensaje y aprobará o rechazará su solicitud. While waiting for approval, &quot;Requested&quot; appears in the [!UICONTROL Marketplace] list for that data feed.
+1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. El vendedor revisará su mensaje y aprobará o rechazará su solicitud. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
 
-   * **[!UICONTROL Request approved]**: El estado de [!UICONTROL Marketplace] la lista cambia a &quot;Acceso denegado&quot; y recibirá una notificación automatizada. En este punto puede suscribirse a la fuente. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
-   * **[!UICONTROL Request denied]**: El texto &quot;Solicitado&quot; se elimina de [!UICONTROL Marketplace] la lista para la fuente. Puede volver a suscribirse o elegir otra fuente.
+   * **[!UICONTROL Request approved]**: El estado de [!UICONTROL Marketplace] la lista cambia a "Acceso denegado" y recibirá una notificación automatizada. En este punto puede suscribirse a la fuente. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
+   * **[!UICONTROL Request denied]**: El texto "Solicitado" se elimina de [!UICONTROL Marketplace] la lista para la fuente. Puede volver a suscribirse o elegir otra fuente.
 
 >[!MORE_ LIKE_ THIS]
 >
@@ -85,7 +85,7 @@ Para suscribirse a una fuente de datos privada:
 
 ## Data Feed Discounts for Buyers {#buyer-discount}
 
-In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren&#39;t visible to buyers in the [!DNL Marketplace] feed list. Sin embargo, también puede solicitar un descuento cuando se suscriba a una fuente de datos privada o cuando solicite más información sobre una fuente en particular.
+In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren't visible to buyers in the [!DNL Marketplace] feed list. Sin embargo, también puede solicitar un descuento cuando se suscriba a una fuente de datos privada o cuando solicite más información sobre una fuente en particular.
 
 ## Request a Discount {#request-discount}
 
@@ -195,7 +195,7 @@ When a data provider deactivates one of your data feeds, [!DNL Audience Manager]
 
 * **Línea de asunto:** Se canceló la suscripción al *nombre de fuente de datos aquí* .
 
-* **Archivos adjuntos:** El correo electrónico incluye un adjunto titulado, &quot; `list-of-affected-entities-by-feed-revocation.csv`.&quot; Es una manera circunvolutada de indicar que el archivo adjunto enumera todas las características incluidas en la fuente cancelada. Como comprador de datos, debe revisar este archivo adjunto. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
+* **Archivos adjuntos:** El correo electrónico incluye un adjunto titulado, " `list-of-affected-entities-by-feed-revocation.csv`." Es una manera circunvolutada de indicar que el archivo adjunto enumera todas las características incluidas en la fuente cancelada. Como comprador de datos, debe revisar este archivo adjunto. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
 
 ## Deactivated Trait List {#deactivation-trait-list}
 
@@ -269,7 +269,7 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
 Esta página proporciona la siguiente información:
 
 1. **Información básica del plan**. Esto incluye información de la fuente como:
-   * Nombre de fuente de datos. Por ejemplo, como se muestra arriba, el nombre de esta fuente es &quot;Fuente de datos de muestra&quot;.
+   * Nombre de fuente de datos. Por ejemplo, como se muestra arriba, el nombre de esta fuente es "Fuente de datos de muestra".
    * Nombre del proveedor de datos;
    * ID de fuente de datos;
    * Descripción;
