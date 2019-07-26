@@ -27,7 +27,7 @@ The [!UICONTROL Data Sources] dashboard is a centralized workspace for managing 
 
 The [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**) contains features and tools that help you:
 
-* See all your existing data sources, including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
 * Busque fuentes de datos por nombre.
 * Crear, editar y eliminar fuentes de datos.
 
