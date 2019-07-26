@@ -31,7 +31,7 @@ La lógica booleana es una rama de algebra que utiliza unas pocas expresiones b�
 
 >[!NOTE]
 >
->[!UICONTROL NOT] El operador utiliza una condición &quot;and&quot; implícita y a veces se escribe como [!UICONTROL AND NOT].
+>[!UICONTROL NOT] El operador utiliza una condición "and" implícita y a veces se escribe como [!UICONTROL AND NOT].
 
 **Cómo utilizar expresiones booleanas en el Generador de segmentos y características**
 
