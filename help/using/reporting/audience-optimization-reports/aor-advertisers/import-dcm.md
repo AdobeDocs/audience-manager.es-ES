@@ -33,7 +33,7 @@ However, the set up procedure is well documented in the [DoubleClick Campaign Ma
 
 1. [Crear un grupo](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
 
-   Los grupos controlan el acceso a los datos de DCM. Eventually, you&#39;ll invite and add [!DNL Audience Manager] to this group.
+   Los grupos controlan el acceso a los datos de DCM. Eventually, you'll invite and add [!DNL Audience Manager] to this group.
 
 1. [Compruebe su estado de Almacenamiento en la nube de Google](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
 
@@ -54,7 +54,7 @@ However, the set up procedure is well documented in the [DoubleClick Campaign Ma
    As an authorized third-party, [!DNL Audience Manager] can receive DCM data, but cannot decode the IDs. However, on the [!DNL Audience Manager] side, we know how the encoded IDs match our IDs. Esto significa que podemos hacer coincidir y sincronizar usuarios con confianza y precisión.
 
    >[!NOTE]
-   >You cannot import DCM files into [!DNL Audience Manager] if you&#39;re already sharing data with 2 other third-party partners.
+   >You cannot import DCM files into [!DNL Audience Manager] if you're already sharing data with 2 other third-party partners.
 
 1. Invite [!DNL Audience Manager] to join the group.
 
