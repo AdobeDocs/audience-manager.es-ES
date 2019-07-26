@@ -41,4 +41,4 @@ Adobe es compatible con la última versión de estos navegadores:
 
    Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
 
-Otros exploradores pueden funcionar, pero nuestros equipos técnicos y de productos no son compatibles. If you&#39;re having trouble working with [!DNL Audience Manager], make sure you&#39;re using an up to date and supported browser.
+Otros exploradores pueden funcionar, pero nuestros equipos técnicos y de productos no son compatibles. If you're having trouble working with [!DNL Audience Manager], make sure you're using an up to date and supported browser.
