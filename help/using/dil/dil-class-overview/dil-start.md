@@ -28,6 +28,6 @@ c_class_start.xml
 When working with the class-level [!UICONTROL DIL] APIs:
 
 * Access requiere un nombre de socio y un ID de espacio de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas de Audience Manager para obtener esta información.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 * [!UICONTROL DIL] escribe datos codificados en una cookie de destino. For example, spaces are encoded as `%20` and semicolons as `%3B`.
 
