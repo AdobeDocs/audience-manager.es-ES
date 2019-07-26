@@ -28,7 +28,7 @@ Crear características basadas en perspectivas existentes relacionadas con su au
 
 Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 
-* **Céntrese en las audiencias de valor máximo**. Monitoree los cambios de tendencia en la búsqueda y en el comportamiento de exploración de las páginas, luego cree características específicas para su comportamiento. Elimine la necesidad de crear características &quot;solo en caso de&quot; y céntrese en señales relevantes.
+* **Céntrese en las audiencias de valor máximo**. Monitoree los cambios de tendencia en la búsqueda y en el comportamiento de exploración de las páginas, luego cree características específicas para su comportamiento. Elimine la necesidad de crear características "solo en caso de" y céntrese en señales relevantes.
 * **Evite la pérdida de datos**. Rellena características con características históricas para que no se pierdan los segmentos de audiencia porque no ha creado características antes de recibir las señales.
 * **Mejorar el flujo de trabajo**. Descubrir las señales de tendencias y convertirlas rápidamente en características procesables.
 
