@@ -40,7 +40,7 @@ En este caso de uso, está comparando distintos modelos. You can either use mode
 1. Examine los resultados:
 
    * The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md) will show the number of conversions each model is driving. Para las campañas basadas en conversión, el segmento de prueba que genera la mayor cantidad de conversiones significará el modelo que tiene mejor rendimiento.
-   * Como tiene segmentos de control, también puede evaluar cómo se hizo el modelo con &quot;targeting estándar&quot;. No solo está probando un modelo en comparación con el otro, sino que pruebe la pregunta de &quot;¿este modelo hace mejor que las prácticas normales?&quot;
+   * Como tiene segmentos de control, también puede evaluar cómo se hizo el modelo con "targeting estándar". No solo está probando un modelo en comparación con el otro, sino que pruebe la pregunta de "¿este modelo hace mejor que las prácticas normales?"
 
 ## Testing Creatives Across Destinations {#testing-creatives}
 
@@ -55,4 +55,4 @@ Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is
 1. Especifique una fecha de inicio y una fecha de finalización para la prueba.
 1. Configure el segmento y el elemento creativo en los destinos.
 1. [La vista](../../features/audience-lab/audience-lab-reporting-view.md) de informes Lab Lab mostrará el número de conversiones que el creativo está impulsando en los destinos.
-1. Debido a que creó un segmento de control, también puede evaluar cómo hizo el elemento creativo contra conversiones naturales. Está probando la pregunta: &quot;¿Ha generado este creativo una tasa de conversión mayor que las prácticas normales? &quot;
+1. Debido a que creó un segmento de control, también puede evaluar cómo hizo el elemento creativo contra conversiones naturales. Está probando la pregunta: "¿Ha generado este creativo una tasa de conversión mayor que las prácticas normales? "
