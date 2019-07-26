@@ -28,7 +28,7 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 * Audience Manager muestra un máximo de cincuenta características similares a la de la regla de segmentos.
 * Puede filtrar las fuentes de datos desde las cuales no desee ver ninguna recomendación.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
-* Si ve el mensaje de error &quot;No se encontraron características similares&quot;. Las características pueden ser demasiado nuevas. &quot;, esto significa que no había actividad para esa característica en los últimos 30 días, o que Audience Manager aún no ha actualizado las recomendaciones para esa característica. Inténtelo nuevamente en 24 horas.
+* Si ve el mensaje de error "No se encontraron características similares". Las características pueden ser demasiado nuevas. ", esto significa que no había actividad para esa característica en los últimos 30 días, o que Audience Manager aún no ha actualizado las recomendaciones para esa característica. Inténtelo nuevamente en 24 horas.
 
 ## Casos de uso
 
@@ -125,7 +125,7 @@ Consulte también los dos ejemplos siguientes.
 
 ### Ejemplo 1 - Puntuación de similitud de rasgo baja
 
-Given two traits A and B, let&#39;s say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
+Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
 Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
