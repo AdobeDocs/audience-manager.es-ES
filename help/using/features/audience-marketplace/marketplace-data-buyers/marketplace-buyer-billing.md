@@ -40,7 +40,7 @@ To report [!DNL CPM] usage at segment level:
 3. Complete el uso de sus segmentos. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
 4. Haga clic en **[!UICONTROL Edit Segments Usage]**.
 5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you&#39;re done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Haga clic en **[!UICONTROL Confirm]**.
 
@@ -55,7 +55,7 @@ To report [!DNL CPM] usage at segment level:
 3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
 4. Haga clic en **[!UICONTROL Edit Feeds Usage]**.
 5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you&#39;re done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
