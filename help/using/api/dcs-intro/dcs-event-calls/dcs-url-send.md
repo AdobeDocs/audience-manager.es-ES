@@ -90,7 +90,7 @@ This example shows the fictional company [!DNL Acme, Inc.] sending data to the [
 
 ## Pasos siguientes {#dcs-next-steps}
 
-Now that you&#39;re familiar with sending data to the [!UICONTROL DCS], it&#39;s time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORE_ LIKE_ THIS]
 >
