@@ -53,7 +53,7 @@ Added re: AAM-30826.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifique que el DCS beta ofrezca su solicitud buscando &quot;simulador para pruebas&quot; en el encabezado de respuesta de DCS.
+1. Verifique que el DCS beta ofrezca su solicitud buscando "simulador para pruebas" en el encabezado de respuesta de DCS.
 
    Por ejemplo:
 
