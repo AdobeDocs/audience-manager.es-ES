@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. La API proporciona los métodos y servicios que permiten realizar cambios de forma masiva. No tiene que saber cómo crear código o trabajar con nuestras API para usarlo. La hoja de cálculo contiene encabezados de columna y fichas que realizan funciones de cambio masivas específicas. Para realizar cambios masivos, basta con agregar los encabezados predefinidos a hojas de cálculo específicas, proporcionar la información que desee cambiar de forma masiva y hacer clic en un botón de acción. La hoja de cálculo y las API realizan el resto del trabajo por usted.
 
+## Descargar {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## Requisitos previos {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. Como cliente, ya debería tener estas credenciales.
 * ID de cliente de API y clave secreta. El administrador de cuentas puede proporcionarle estos datos.
-* The [!UICONTROL Bulk Management Tools] worksheet. **[Descargue la hoja de cálculo](assets/BAAAM_August_2018.xlsm)** para obtener la versión más reciente.
+* The [!UICONTROL Bulk Management Tools] worksheet. [Descargue la hoja de cálculo](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) para obtener la versión más reciente.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
