@@ -7,7 +7,7 @@ title: Administrar suscripciones de fuentes de datos
 topic: API DIL
 uuid: 7305 adb 6-cbb 8-4430-8204-2243095 c 0 ba 5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
 
@@ -280,7 +280,7 @@ Esta página proporciona la siguiente información:
    * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. Esta función envía sus comentarios y preguntas directamente al proveedor de datos.
 
 1. Métricas de informes de fuentes de datos. El diagrama de Venn (y métricas relacionadas) muestra los datos superpuestos de características de los últimos 30 días. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Número de usuarios únicos de su cuenta que se superponen con los usuarios de la cuenta del proveedor.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Número de usuarios únicos de su cuenta que se superponen con los usuarios de la cuenta del proveedor. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Número de usuarios únicos provenientes de la cuenta del proveedor.
    * **[!UICONTROL Your Unique Users]**: Número de usuarios únicos provenientes de su cuenta.
 
