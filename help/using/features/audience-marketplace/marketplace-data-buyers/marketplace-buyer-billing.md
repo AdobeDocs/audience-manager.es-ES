@@ -4,10 +4,10 @@ seo-description: Los compradores de datos de Audience Marketplace aceptan inform
 seo-title: Facturación de compradores de fuentes de datos
 solution: Audience Manager
 title: Facturación de compradores de fuentes de datos
-topic: API DIL
+keywords: Informes a nivel de segmento, nivel de segmento, nivel de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
 
 ---
 
