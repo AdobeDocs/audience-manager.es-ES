@@ -7,7 +7,7 @@ title: Facturación de compradores de fuentes de datos
 keywords: Informes a nivel de segmento, nivel de segmento, nivel de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ Para informar [!DNL CPM] el uso en el nivel de segmento:
 6. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Haga clic en **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## Uso del CPM de informes en el nivel de fuente de datos {#feed-level-report}
 
@@ -221,6 +223,8 @@ Este segmento contiene 3 características de proveedores de datos separados. Deb
 No podemos saber cuál es el rasgo responsable de la impresión porque la cualificación se basa en [!UICONTROL OR] una condición. Como resultado, en [!UICONTROL Audience Marketplace > Payables] la sección debe acreditar a cada proveedor con una asignación ponderada de las impresiones totales, según la población de características.
 
 ![facturación-segmento-o](assets/billing-segment-or.png)
+
+<br> 
 
 ### Caso 3: Segmentos con modelado y casos de uso de activación
 
