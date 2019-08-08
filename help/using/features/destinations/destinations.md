@@ -7,16 +7,16 @@ solution: Audience Manager
 title: Destinos
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# Destinos {#destinations}
+# Información general de destinos {#destinations}
 
-In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) a los que desee compartir datos. [!UICONTROL Destination Builder] es la herramienta que utilizó para crear y administrar [!DNL URL]destinos de servidor a servidor.
+En Audience Manager, un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP]red de publicidad, etc.) a los que desee compartir datos. [!UICONTROL Destination Builder] es la herramienta que utilizó para crear y administrar [!DNL URL]destinos de servidor a servidor.
 
-## Purpose and Advantages {#purposes}
+## Propósito y ventajas {#purposes}
 
 <!-- c_destinations.xml -->
 
@@ -24,13 +24,13 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 * **Proteger valor de datos:** En lugar de enviar todos los datos de usuario a un destino, [!UICONTROL Destination Builder] le permiten compartir información específica sobre usuarios cualificados.
 * **Tome medidas en los datos:** El envío de datos a un socio de destino ayuda a desarrollar y dirigirse rápidamente a segmentos de audiencia cualificados.
-* **Reducir la sobrecarga técnica:** Los usuarios comerciales pueden configurar destinos de forma segura en [!UICONTROL Destination Builder] la interfaz. Esto ayuda a reducir el tiempo necesario para las pruebas previas a la implementación. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
+* **Reducir la sobrecarga técnica:** Los usuarios comerciales pueden configurar destinos de forma segura en [!UICONTROL Destination Builder] la interfaz. Esto ayuda a reducir el tiempo necesario para las pruebas previas a la implementación. Con [!UICONTROL Destination Builder]ellas, se crean, administran y eliminan destinos a medida que cambian sus necesidades comerciales, sin necesidad de trabajar a través de un ciclo de desarrollo largo.
 
 ## Consideraciones técnicas {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-La entrega de datos depende de cómo desee el socio de datos, o puede, recibir información de destino. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. Trabaje con su socio de terceros para determinar qué método pueden utilizar.
+La entrega de datos depende de cómo desee el socio de datos, o puede, recibir información de destino. Las restricciones técnicas o de ingeniería pueden impedir que un destino reciba datos a través [!DNL URL]de procesos, cookies o procesos servidor a servidor. Trabaje con su socio de terceros para determinar qué método pueden utilizar.
 
 ## Consideraciones empresariales {#business-considerations}
 
@@ -39,7 +39,7 @@ Las decisiones comerciales para seleccionar un método de entrega sobre otro dep
 * [!DNL URL]los destinos basados en cookies y s funcionan casi sincrónicamente con acciones de usuario en una página.
 * Los métodos de servidor a servidor son buenos para crear segmentos de audiencia profundos con el paso del tiempo.
 
-## Destination Types and Typical Uses {#destination-types}
+## Tipos de destino y usos típicos {#destination-types}
 
 Los ejemplos de la tabla siguiente pueden ayudarle a comprender cuándo utilizar un destino concreto y las diferencias entre cada tipo.
 
