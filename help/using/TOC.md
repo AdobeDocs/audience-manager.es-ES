@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
 
@@ -94,7 +94,6 @@ source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
          + [Macros de destino definidas](features/destinations/destination-macros.md)
          + [Pares de clave-valor estándar y de serie](features/destinations/key-value-pairs.md)
          + [Agregar controles de exportación de datos a un destino](/help/using/features/destinations/add-data-export-labels.md)
-      + [Administrar destinos](features/destinations/manage-destinations.md)
    + Reglas de combinación de perfiles{#profile-merge-rules}
       + [Información general sobre reglas de combinación de perfiles](features/profile-merge-rules/merge-rules-overview.md)
       + [Introducción a las reglas de combinación de perfiles](features/profile-merge-rules/merge-rules-start.md)
