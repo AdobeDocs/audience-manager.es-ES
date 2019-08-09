@@ -6,13 +6,13 @@ solution: Audience Manager
 title: Husos horarios en Audience Manager
 uuid: ff 4710 a 9-edee -470 c -9 ab 0-85 c 1789 a 2837
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Time Zones in Audience Manager{#time-zones-in-audience-manager}
+# Husos horarios en Audience Manager{#time-zones-in-audience-manager}
 
 Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
 
-Unless otherwise specified, all the dates and date ranges you can select in the [!DNL Adobe] [!DNL Audience Manager] UI are [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). For example, in the [Create Destination](../features/destinations/manage-destinations.md#segment-mappings) flow, when mapping segments to your destination, the start and end date you select are midnight UTC. The same applies for all the dates in [!DNL Audience Manager].
+A menos que se especifique lo contrario, todas las fechas e intervalos de fechas que se pueden seleccionar en [!DNL Adobe][!DNL Audience Manager] la interfaz de usuario son [Hora universal coordinada (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). Por ejemplo, en [el](../features/destinations/create-cookie-destination.md#segments-mapping) flujo Crear destino, al asignar segmentos a su destino, la fecha de inicio y finalización seleccionada es UTC medianoche. Lo mismo ocurre con todas las fechas de [!DNL Audience Manager]la.
