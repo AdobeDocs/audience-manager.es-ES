@@ -5,7 +5,7 @@ seo-title: Agregar controles de exportación de datos a un destino
 solution: Audience Manager
 title: Agregar controles de exportación de datos a un destino
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 Para agregar etiquetas de exportación a un destino:
 
 1. Haga clic en **[!UICONTROL Audience Data]**:
-   * Para nuevos destinos: Haga clic **[!UICONTROL Create New Destination]** en. Complete [!UICONTROL Basic Information] la sección antes de seleccionar una etiqueta de exportación de datos. Consulte [Creación de un destino de cookie](../../features/destinations/manage-destinations.md#create-cookie-destination) o [Creación de un destino de URL para](../../features/destinations/manage-destinations.md#configure-url-destination) obtener información.
+   * Para nuevos destinos: Haga clic **[!UICONTROL Create New Destination]** en. Complete [!UICONTROL Basic Information] la sección antes de seleccionar una etiqueta de exportación de datos. Consulte [Creación de un destino de cookie](../../features/destinations/create-cookie-destination.md) o [Creación de un destino de URL para](../../features/destinations/create-url-destination.md) obtener información.
    * Para destinos existentes: Utilice [!DNL Search] el cuadro para encontrar el destino o desplazarse por la lista y hacer clic en el nombre de destino para abrirlo.
 1. Seleccione una [!DNL Data Export Label]. Deje las casillas de verificación en blanco si no desea establecer restricciones de exportación. Las etiquetas de exportación incluyen las siguientes opciones:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
