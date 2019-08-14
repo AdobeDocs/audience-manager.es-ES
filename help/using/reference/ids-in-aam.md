@@ -1,18 +1,18 @@
 ---
 description: Consulte este documento para ver la lista completa de los ID de Audience Manager de Adobe.
-keywords: DPID; DPUUID; CID; UUID; uuid; uuid
+keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: Consulte este documento para ver la lista completa de los ID de Audience Manager de Adobe.
 seo-title: Índice de ID en Audience Manager
 solution: Audience Manager
 title: Índice de ID en Audience Manager
 uuid: 292185 ec -7 c 6 a -414 b-ab 17-800 c 21 cb 1 f 01
 translation-type: tm+mt
-source-git-commit: cf0cec2fdf1272f075a825b09cf2fa11a3815432
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# Index of IDs in Audience Manager{#index-of-ids-in-audience-manager}
+# Índice de ID en Audience Manager{#index-of-ids-in-audience-manager}
 
 Consulte este documento para ver la lista completa de los ID de Audience Manager de Adobe.
 
@@ -27,42 +27,42 @@ Consulte este documento para ver la lista completa de los ID de Audience Manager
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"> ID de usuario único de</span> Audience Manager </b> </p> <p> A numerical, 38-digit device ID that <span class="keyword"> Audience Manager</span> associates to each device it interacts with. Piense en este ID siempre que vea una mención de usuarios únicos en la interfaz de usuario de Audience Manager.<p><span class="keyword"> Audience Manager</span> intenta guardar este ID como una cookie en el dominio de terceros "demdex. net".</p> </p> <p>El UUID de Audience Manager se envía en llamadas de evento como la señal d_ uuid. </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword"> ID de usuario único de</span> Audience Manager </b> </p> <p> ID de dispositivo numérico de 38 dígitos que <span class="keyword"> Audience Manager</span> asocia a cada dispositivo con el que interactúa. Piense en este ID siempre que vea una mención de usuarios únicos en la interfaz de usuario de Audience Manager.<p><span class="keyword"> Audience Manager</span> intenta guardar este ID como una cookie en el dominio de terceros "demdex. net".</p> </p> <p>El UUID de Audience Manager se envía en llamadas de evento como la señal d_ uuid. </p> </td> 
    <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Imsorgid </p> </td> 
-   <td colname="col2"> <p> <b>Identificador de organización</b> </p> <p>Este es el ID con el que se proporciona una empresa al registrarse para Experience Cloud. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
+   <td colname="col2"> <p> <b>Identificador de organización</b> </p> <p>Este es el ID con el que se proporciona una empresa al registrarse para Experience Cloud. Para aprender cómo puede encontrar el ID de organización de su empresa, lea <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizaciones y vinculación de cuentas</a> y desplácese hacia abajo para encontrar el identificador de su organización.</p> </td> 
    <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>PID </p> </td> 
-   <td colname="col2"> <p> <b>ID del socio</b> </p> <p> The PID is a company's ID in <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> asocia un imsorgid a un PID. </p> </td> 
+   <td colname="col2"> <p> <b>ID del socio</b> </p> <p> El PID es un ID de empresa en <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> asocia un imsorgid a un PID. </p> </td> 
    <td colname="col3"> <p><code> 1352</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ECID, MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>The Experience Cloud ID (ECID, legacy abbreviations MID or MCID) is derived mathematically from your Organization ID and the <span class="keyword"> Audience Manager</span> Unique User ID. Siempre que estos ID sean constantes, la generación de la ECID derecha para un usuario específico es simplemente un problema matemático. Con el mismo ID de organización y Audience Manager UUID obtiene el mismo valor ECID siempre. You can read more about the ECID in the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and Experience Cloud ID</a> document. </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>El ID de Experience Cloud (ECID, abreviaturas heredadas MID o MCID) se deriva matemáticamente del ID de organización y del ID de usuario único <span class="keyword"> de Audience Manager</span> . Siempre que estos ID sean constantes, la generación de la ECID derecha para un usuario específico es simplemente un problema matemático. Con el mismo ID de organización y Audience Manager UUID obtiene el mismo valor ECID siempre. Puede leer más sobre ECID en el documento <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> de ID</a> de cookies y Experience Cloud. </p> </td> 
    <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>ID de característica</b> </p> <p>The Trait ID uniquely identifies traits in the <span class="keyword"> Audience Manager</span> environment. Se asigna un ID de característica a cada característica de la interfaz de usuario (interfaz de usuario). </p> </td> 
+   <td colname="col2"> <p> <b>ID de característica</b> </p> <p>El ID de características identifica de forma exclusiva las características del entorno <span class="keyword"> de Audience Manager</span> . Se asigna un ID de característica a cada característica de la interfaz de usuario (interfaz de usuario). </p> </td> 
    <td colname="col3"> <p><code> 289983</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>ID de segmento </b> </p> <p>The Segment ID uniquely identifies segments in the <span class="keyword"> Audience Manager</span> environment. Se asigna un ID de segmento a cada segmento de la interfaz de usuario. </p> </td> 
+   <td colname="col2"> <p> <b>ID de segmento </b> </p> <p>El ID de segmento identifica de forma exclusiva los segmentos en el entorno <span class="keyword"> de Audience Manager</span> . Se asigna un ID de segmento a cada segmento de la interfaz de usuario. </p> </td> 
    <td colname="col3"> <p><code> 4798574</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Csegid </p> </td> 
-   <td colname="col2"> <p> <b>ID de segmento heredado </b> </p> <p>This ID uniquely identifies segments in the <span class="keyword"> Audience Manager</span> environment. Se asigna un ID de segmento heredado a cada segmento de la interfaz de usuario. </p> </td> 
+   <td colname="col2"> <p> <b>ID de segmento heredado </b> </p> <p>Este ID identifica de forma exclusiva los segmentos en el entorno <span class="keyword"> de Audience Manager</span> . Se asigna un ID de segmento heredado a cada segmento de la interfaz de usuario. </p> </td> 
    <td colname="col3"> <p><code> 741232</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destid </p> </td> 
-   <td colname="col2"> <p> <b>ID de destino </b> </p> <p>The Destination ID uniquely identifies destinations in the <span class="keyword"> Audience Manager</span> environment. Se asigna un ID a cada destino en la interfaz de usuario. </p> </td> 
+   <td colname="col2"> <p> <b>ID de destino </b> </p> <p>El ID de destino identifica de forma exclusiva los destinos en el entorno <span class="keyword"> de Audience Manager</span> . Se asigna un ID a cada destino en la interfaz de usuario. </p> </td> 
    <td colname="col3"> <p><code> 2523</code> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Consulte este documento para ver la lista completa de los ID de Audience Manager
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p> <b>ID de usuario único del proveedor de datos </b><b>(también denominado ID CRM)</b> </p> <p>Un ID de terceros. Este es el ID por el que se identifica a los usuarios finales en su propio sistema CRM. You can sync DPUUIDs with <span class="keyword"> Audience Manager</span> UUIDs and you can sync DPUUIDs from your different <span class="wintitle"> Data Sources</span> (DPIDs) in the <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md"> ID synchronization process</a>. </p> </td> 
+   <td colname="col2"> <p> <b>ID de usuario único del proveedor de datos </b><b>(también denominado ID CRM)</b> </p> <p>Un ID de terceros. Este es el ID por el que se identifica a los usuarios finales en su propio sistema CRM. Puede sincronizar dpuuids con <span class="keyword"> los UUID de Audience Manager</span> y sincronizar los DPUUID desde las diferentes <span class="wintitle"> fuentes de datos</span> (dpid) en el proceso de sincronización <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md"> de ID</a>. </p> </td> 
    <td colname="col3"> <p><code> 2132-3423 vn -343 fds -3432 r</code> </p> </td> 
   </tr> 
   <tr> 
@@ -99,15 +99,15 @@ Consulte este documento para ver la lista completa de los ID de Audience Manager
   </tr> 
   <tr> 
    <td colname="col2"> <p> <b>ID de publicidad de dispositivo - IDFA - Dispositivos iOS</b> </p> <p> <b>Los ID IDFA</b> son identificadores de dispositivo móvil proporcionados por el fabricante del dispositivo. Estos ID representan dispositivos que ejecutan el sistema operativo iOS. </p> </td> 
-   <td colname="col3"> <p> The format strictly consists of 32 <i>uppercase</i> hexadecimal digits, displayed in five groups and separated by hyphens, in the form 8-4-4-4-12, for a total of 36 characters. </p> <p><code> AEBE 52 E 7-03 EE -455 A-B 3 C 4-E 57283966239</code> </p> </td> 
+   <td colname="col3"> <p> El formato consiste estrictamente en 32 <i>dígitos</i> hexadecimales en mayúsculas, mostrados en cinco grupos y separados por guiones, en el formato 8-4-4-4-12, para un total de 36 caracteres. </p> <p><code> AEBE 52 E 7-03 EE -455 A-B 3 C 4-E 57283966239</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <b>ID de publicidad de dispositivo: GAID - Dispositivos Android</b> </p> <p><b>Los ID de GAID</b> son identificadores de dispositivo móvil proporcionados por el fabricante del dispositivo. Estos ID representan dispositivos que ejecutan el sistema operativo Android. </p> </td> 
-   <td colname="col3"> <p>The format strictly consists of 32 <i>lowercase</i> hexadecimal digits, displayed in five groups and separated by hyphens, in the form 8-4-4-4-12, for a total of 36 characters. </p> <p> <code> e 4 fe 9 bde-caa 0-47 b 6-908 d-ffba 3 fa 184 f 2</code> </p> </td> 
+   <td colname="col3"> <p>El formato consta estrictamente de 32 <i>dígitos</i> hexadecimales en minúsculas, mostrados en cinco grupos y separados por guiones, en el formato 8-4-4-4-12, para un total de 36 caracteres. </p> <p> <code> e 4 fe 9 bde-caa 0-47 b 6-908 d-ffba 3 fa 184 f 2</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col2"> <p> <b>Roku - RIDA - Dispositivos de flujo Roku</b> </p> <p><b>Los ID</b> RAID RIDES son identificadores de dispositivos de flujo continuo proporcionados por el fabricante de dispositivos Roku.</p> </td>
-   <td colname="col3"> <p>The format strictly consists of 32 <i>lowercase</i> hexadecimal digits, displayed in five groups and separated by hyphens, in the form 8-4-4-4-12, for a total of 36 characters. </p> <p> <code> fcb 2 a 29 c -315 a -5 e 6 b-bcfd-d 889 ba 19 aada</code> </p> </td> 
+   <td colname="col3"> <p>El formato consta estrictamente de 32 <i>dígitos</i> hexadecimales en minúsculas, mostrados en cinco grupos y separados por guiones, en el formato 8-4-4-4-12, para un total de 36 caracteres. </p> <p> <code> fcb 2 a 29 c -315 a -5 e 6 b-bcfd-d 889 ba 19 aada</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col2"> <p> <b>ID de publicidad de Microsoft: MAID - Dispositivos Windows 10</b> </p> <p><b>Los ID de MAID</b> son identificadores de dispositivo generados por Windows 10 en cada dispositivo por usuario.</p> </td>
