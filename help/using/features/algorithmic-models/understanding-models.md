@@ -1,6 +1,6 @@
 ---
 description: Cree y administre las características o segmentos utilizados en el modelado algorítmico, también denominado modelado similar. Las funciones del modelo se encuentran en Datos de audiencia > Modelos.
-keywords: peso relativo
+keywords: peso relativo, lookequal
 seo-description: Cree y administre las características o segmentos utilizados en el modelado algorítmico, también denominado modelado similar. Las funciones del modelo se encuentran en Datos de audiencia > Modelos.
 seo-title: Acerca de modelos algorítmicos
 solution: Audience Manager
@@ -8,30 +8,30 @@ title: Acerca de modelos algorítmicos
 topic: API DIL
 uuid: 39441 e 72-5316-453 d -9 aff -0 e 0 b 633 aabcd
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 
 ---
 
 
-# About Algorithmic Models {#about-algorithmic-models}
+# Acerca de modelos algorítmicos {#about-algorithmic-models}
 
-Cree y administre las características o segmentos utilizados en el modelado algorítmico, también denominado modelado similar. Model features are located in **[!UICONTROL Audience Data > Models]**.
+Cree y administre las características o segmentos utilizados en el modelado algorítmico, también denominado modelado similar. Las funciones modelo se encuentran en **[!UICONTROL Audience Data > Models]**.
 
 <!-- c_models.xml -->
 
-## Understanding Algorithmic Models {#understanding-models}
+## Explicación de modelos algorítmicos {#understanding-models}
 
-The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. Describen cómo funciona el modelado, los beneficios y el flujo de trabajo.
+Las secciones siguientes representan una revisión del modelado algorítmico en [!DNL Audience Manager]. Describen cómo funciona el modelado, los beneficios y el flujo de trabajo.
 
 <!-- understanding-models.xml -->
 
-## Find New Users with Algorithmic Modeling {#find-new-users}
+## Buscar nuevos usuarios con modelado algorítmico {#find-new-users}
 
-El modelado algorítmico ayuda a descubrir audiencias únicas y únicas a través del análisis automatizado de datos. El proceso comienza cuando se selecciona un rasgo o segmento, un intervalo de tiempo y fuentes de datos individuales y de terceros. Las opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios elegibles en función de características compartidas de la población seleccionada. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Además, puede crear segmentos que combinen características algorítmicas con características basadas en reglas y agregue otros requisitos de cualificación con expresiones booleanas y operadores de comparación. El modelado algorítmico proporciona una forma dinámica de extraer valor de todos los datos de características disponibles.
+El modelado algorítmico ayuda a descubrir audiencias únicas y únicas a través del análisis automatizado de datos. El proceso comienza cuando se selecciona un rasgo o segmento, un intervalo de tiempo y fuentes de datos individuales y de terceros. Las opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios elegibles en función de características compartidas de la población seleccionada. Una vez completado, estos datos están disponibles en [el Generador](../../features/traits/about-trait-builder.md) de rasgos, donde puede utilizarlos para crear características basadas en [la precisión y el alcance](../../features/traits/trait-accuracy-reach.md). Además, puede crear segmentos que combinen características algorítmicas con características basadas en reglas y agregue otros requisitos de cualificación con expresiones booleanas y operadores de comparación. El modelado algorítmico proporciona una forma dinámica de extraer valor de todos los datos de características disponibles.
 
 ## Ventajas {#advantages}
 
-The major benefits of using [!DNL Audience Manager] modeling include:
+Los principales beneficios de utilizar [!DNL Audience Manager] modelado son:
 
 * **Precisión de los datos:** El algoritmo se ejecuta regularmente, lo que ayuda a mantener los resultados actuales y relevantes.
 * **Automatización:** No es necesario gestionar un gran conjunto de reglas estáticas. El algoritmo buscará audiencias para usted.
@@ -40,12 +40,12 @@ The major benefits of using [!DNL Audience Manager] modeling include:
 
 ## Flujo de trabajo {#workflow}
 
-You manage models in **[!UICONTROL Audience Data > Models]**. En un nivel alto, el proceso de flujo de trabajo implica lo siguiente:
+Los modelos se administran **[!UICONTROL Audience Data > Models]**. En un nivel alto, el proceso de flujo de trabajo implica lo siguiente:
 
-* Seleccione los datos de línea de base que desee que evalúen el algoritmo. This includes a trait or segment, time range, and data sources (your own data and third-party data you already have access to through [!DNL Audience Manager]). En el flujo de trabajo de creación del modelo, puede excluir las características que no desee interferir con el modelo.
+* Seleccione los datos de línea de base que desee que evalúen el algoritmo. Esto incluye un rasgo o un segmento, un intervalo de tiempo y fuentes de datos (sus propios datos y datos de terceros a los que [!DNL Audience Manager]ya tiene acceso). En el flujo de trabajo de creación del modelo, puede excluir las características que no desee interferir con el modelo.
 * Guarde el modelo. Una vez guardada, el proceso de evaluación algorítmico se ejecuta automáticamente. No obstante, tenga en cuenta que este proceso puede tardar hasta 7 días en completarse. [!DNL Audience Manager] le envía un mensaje de correo electrónico cuando ha finalizado el algoritmo y los resultados están disponibles para la creación de características.
-* Build algorithmic traits in [!UICONTROL Trait Builder].
-* Combine traits into segments in [!UICONTROL Segment Builder].
+* Cree características algorítmicas en [!UICONTROL Trait Builder].
+* Combine características en segmentos.[!UICONTROL Segment Builder]
 * Cree y envíe datos de segmentos a un destino.
 
 ## Resolución de problemas {#troubleshooting}
@@ -59,27 +59,27 @@ Desactivamos cualquier modelo algorítmico que no genere datos para tres ejecuci
 >* [Segmentos](../../features/segments/segments-purpose.md)
 
 
-## Understanding TraitWeight {#understanding-traitweight}
+## Explicación de traitweight {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir nuevas características automáticamente. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
+[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir nuevas características automáticamente. Compara los datos de características de sus características y segmentos actuales con los demás datos de origen y terceros a los que [!DNL Audience Manager]tiene acceso. Consulte esta sección para ver una descripción del proceso de detección [!UICONTROL TraitWeight] algorítmica.
 
 <!-- traitweight.xml -->
 
 ![](assets/algo_model.png)
 
-The following steps describe the [!UICONTROL TraitWeight] evaluation process.
+Los pasos siguientes describen el proceso [!UICONTROL TraitWeight] de evaluación.
 
 ### Paso 1: Generar una línea base para comparación de características
 
-To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90 day interval. A continuación, clasifica las características según su frecuencia y su correlación. El recuento de frecuencia mide la naturaleza común. La correlación mide la probabilidad de que un rasgo esté presente solo en la audiencia de línea de base. Las características que aparecen con frecuencia muestran un alto nivel común, una característica importante utilizada para configurar una puntuación ponderada cuando se combina con características detectadas en las fuentes de datos seleccionadas.
+Para generar una línea base [!UICONTROL TraitWeight] , mide todas las características asociadas a una audiencia para un intervalo de 30, 60 o 90 días. A continuación, clasifica las características según su frecuencia y su correlación. El recuento de frecuencia mide la naturaleza común. La correlación mide la probabilidad de que un rasgo esté presente solo en la audiencia de línea de base. Las características que aparecen con frecuencia muestran un alto nivel común, una característica importante utilizada para configurar una puntuación ponderada cuando se combina con características detectadas en las fuentes de datos seleccionadas.
 
 ### Paso 2: Buscar las mismas características en la fuente de datos
 
-Después de crear una línea de base para la comparación, el algoritmo busca características idénticas en las fuentes de datos seleccionadas. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered traits and compares them to the baseline. Sin embargo, a diferencia de la línea base, las características poco comunes se clasifican más arriba que las que aparecen con más frecuencia. Se dice que las características raras muestran un alto grado de especificidad. [!UICONTROL TraitWeight] evalúa las combinaciones de características de base comunes y características poco comunes (muy específicas) como características más influyentes u deseables que las características comunes de ambos conjuntos de datos. De hecho, nuestro modelo reconoce estas características comunes grandes y no asigna prioridad excesiva a los conjuntos de datos con correlaciones altas. Las características raras reciben mayor prioridad porque es más probable que representen a usuarios únicos nuevos y únicos que características con alta uniformidad en el tablero.
+Después de crear una línea de base para la comparación, el algoritmo busca características idénticas en las fuentes de datos seleccionadas. En este paso [!UICONTROL TraitWeight] , realiza un recuento de frecuencia de todas las características detectadas y las compara con la línea base. Sin embargo, a diferencia de la línea base, las características poco comunes se clasifican más arriba que las que aparecen con más frecuencia. Se dice que las características raras muestran un alto grado de especificidad. [!UICONTROL TraitWeight] evalúa las combinaciones de características de base comunes y características poco comunes (muy específicas) como características más influyentes u deseables que las características comunes de ambos conjuntos de datos. De hecho, nuestro modelo reconoce estas características comunes grandes y no asigna prioridad excesiva a los conjuntos de datos con correlaciones altas. Las características raras reciben mayor prioridad porque es más probable que representen a usuarios únicos nuevos y únicos que características con alta uniformidad en el tablero.
 
 ### Paso 3: Asignar grosor
 
-In this step, [!UICONTROL TraitWeight] ranks newly discovered traits in order of influence or desirability. La escala de ponderación es un porcentaje que se ejecuta entre 0% y 100%. Las características clasificadas más cerca del 100% suponen que son más parecidas a las de la población de línea de base. Además, las características ponderadas son valiosas porque representan usuarios únicos nuevos y únicos que pueden comportarse de manera similar a la audiencia de línea base establecida. Remember, [!UICONTROL TraitWeight] considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
+En este paso [!UICONTROL TraitWeight] , clasifica las características recién detectadas en orden de influencia o conveniencia. La escala de ponderación es un porcentaje que se ejecuta entre 0% y 100%. Las características clasificadas más cerca del 100% suponen que son más parecidas a las de la población de línea de base. Además, las características ponderadas son valiosas porque representan usuarios únicos nuevos y únicos que pueden comportarse de manera similar a la audiencia de línea base establecida. Recuerde, [!UICONTROL TraitWeight] considera que las características con un alto nivel común en la línea de base y la mayor especificidad en las fuentes de datos comparadas son más valiosas que las características comunes de cada conjunto de datos.
 
 ### Paso 4: Puntuación de usuarios
 
@@ -87,18 +87,18 @@ A cada usuario de las fuentes de datos seleccionadas se le asigna una puntuació
 
 ### Paso 5: Mostrar y trabajar con resultados
 
-Audience Manager displays your weighted model results in [!UICONTROL Trait Builder]. When you want to build an algorithmic trait, [!UICONTROL Trait Builder] lets you create traits based on the weighted score generated by the algorithm during a data run. Puede elegir una precisión mayor para calificar únicamente a los usuarios que tienen puntuaciones de usuario muy altas y, por lo tanto, son muy similares a la audiencia de línea de base, en lugar del resto de la audiencia. Si desea llegar a una audiencia más grande (alcance), puede reducir la precisión.
+Audience Manager muestra los resultados del modelo ponderado. [!UICONTROL Trait Builder] Cuando desee crear un rasgo algorítmico, [!UICONTROL Trait Builder] le permite crear características basadas en la puntuación ponderada generada por el algoritmo durante una ejecución de datos. Puede elegir una precisión mayor para calificar únicamente a los usuarios que tienen puntuaciones de usuario muy altas y, por lo tanto, son muy similares a la audiencia de línea de base, en lugar del resto de la audiencia. Si desea llegar a una audiencia más grande (alcance), puede reducir la precisión.
 
 ### Paso 6: Reevaluar el significado de una característica en los ciclos de procesamiento
 
-Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait based on the size and change in the population of that trait. Esto sucede como el número de usuarios cualificados para esa característica que aumentan o disminuye con el tiempo. Este comportamiento se ve con mayor claridad en características muy grandes. Por ejemplo, supongamos que el algoritmo usa características A para modelado. As the population of trait A increases, [!UICONTROL TraitWeight] re-evaluates the importance of that trait and may assign a lower score or ignore it. En este caso, la característica A es demasiado común o grande para decir algo significativo sobre su población. After [!UICONTROL TraitWeight] reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. La lista de características influyentes refleja la evolución de la población de línea de base. Utilice la lista de características influyentes para comprender por qué se están produciendo estos cambios.
+Periódicamente [!UICONTROL TraitWeight] , vuelve a evaluar la importancia de un rasgo según el tamaño y el cambio de la población de dicha característica. Esto sucede como el número de usuarios cualificados para esa característica que aumentan o disminuye con el tiempo. Este comportamiento se ve con mayor claridad en características muy grandes. Por ejemplo, supongamos que el algoritmo usa características A para modelado. A medida que aumenta la población de características A, [!UICONTROL TraitWeight] vuelva a evaluar la importancia de esa característica y puede asignar una puntuación inferior o ignorarla. En este caso, la característica A es demasiado común o grande para decir algo significativo sobre su población. Después [!UICONTROL TraitWeight] de reducir el valor de Rasit A (o se lo omite en el modelo), la población del atributo algorítmico disminuye. La lista de características influyentes refleja la evolución de la población de línea de base. Utilice la lista de características influyentes para comprender por qué se están produciendo estos cambios.
 
 Vínculos relacionados:
 
 * [Generador de modelos](../../features/algorithmic-models/create-model.md)
 * [Precisión y alcance](../../features/traits/trait-accuracy-reach.md)
 
-## Update Schedule for Algorithmic Models and Traits {#update-schedule}
+## Actualizar programación para modelos algorítmicos y características {#update-schedule}
 
 Creación y actualización programados para modelos algorítmicos nuevos o existentes.
 
@@ -120,7 +120,7 @@ Creación y actualización programados para modelos algorítmicos nuevos o exist
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (de noviembre a marzo) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (de marzo a noviembre) </li> 
-     </ul> </p> <p>Los modelos creados o clonados después de la fecha de creación se procesan al día siguiente. </p> <p>Si la primera ejecución de un modelo no genera datos, se ejecutará por segunda vez al día siguiente. Si el segundo intento no genera ningún dato, habrá un tercer intento, el día siguiente. El modelo dejará de ejecutarse si el tercer intento tampoco genera datos. En este caso, desactivaremos el modelo. See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Algorithmic Models</a>. </p> </td>
+     </ul> </p> <p>Los modelos creados o clonados después de la fecha de creación se procesan al día siguiente. </p> <p>Si la primera ejecución de un modelo no genera datos, se ejecutará por segunda vez al día siguiente. Si el segundo intento no genera ningún dato, habrá un tercer intento, el día siguiente. El modelo dejará de ejecutarse si el tercer intento tampoco genera datos. En este caso, desactivaremos el modelo. Consulte Más en <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Resolución de problemas algorítmicos</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Actualizar un modelo</b> </td> 
@@ -154,7 +154,7 @@ Creación y actualización programados para modelos algorítmicos nuevos o exist
  </tbody> 
 </table>
 
-## Models List View {#models-list-view}
+## Vista de lista de modelos {#models-list-view}
 
 La vista de lista es un espacio de trabajo central que ayuda a crear, revisar y administrar modelos.
 
@@ -167,7 +167,7 @@ La página de lista Modelos contiene funciones y herramientas que le ayudan a:
 * Busque modelos por nombre.
 * Crear características algorítmicas con cualquier modelo dado.
 
-## Models Summary View {#models-summary-view}
+## Vista de resumen de modelos {#models-summary-view}
 
 La página de resumen muestra detalles del modelo como nombre, alcance/precisión, historial de procesamiento y características creadas a partir del modelo. La página también incluye ajustes que permiten crear y administrar modelos. Haga clic en un nombre de modelo de la lista de resumen para ver sus detalles.
 
@@ -189,7 +189,7 @@ La página de resumen del modelo incluye las secciones siguientes.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Precisión y alcance del modelo</span> </p> </td> 
-   <td colname="col2"> <p>Shows <a href="../../features/traits/trait-accuracy-reach.md"> accuracy and reach</a> data for the last model run. </p> </td>
+   <td colname="col2"> <p>Muestra <a href="../../features/traits/trait-accuracy-reach.md"> la precisión y los</a> datos de alcance del último modelo ejecutado. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Historial de procesamiento modelo</span> </p> </td> 
@@ -197,16 +197,16 @@ La página de resumen del modelo incluye las secciones siguientes.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Características influyentes</span> </p> </td> 
-   <td colname="col2"> <p>The <span class="wintitle"> Influential Traits</span> table: </p> <p> 
+   <td colname="col2"> <p>La tabla <span class="wintitle"> Características</span> influyentes: </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> Enumera las 50 características influyentes más importantes que se representan mejor en la población de línea de base del modelo. </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. The <span class="wintitle"> Relative Weight</span> sorts newly discovered traits in order of influence or desirability. La escala de ponderación es un porcentaje que se ejecuta entre 0% y 100%. Las características clasificadas más cerca del 100% suponen que son más parecidas a las de la población de línea de base. See <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Understanding TraitWeight</a>. </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E">Clasifica cada característica en orden de <span class="wintitle"> su clasificación de Peso</span> relativo. El grosor <span class="wintitle"> Relativo</span> ordena los rasgos recién encontrados en orden de influencia o conveniencia. La escala de ponderación es un porcentaje que se ejecuta entre 0% y 100%. Las características clasificadas más cerca del 100% suponen que son más parecidas a las de la población de línea de base. Consulte <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Explicación de traitweight</a>. </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">Muestra los únicos únicos de 30 días y la población de rasgos total para cada característica. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Características con modelo</span> </p> </td>
-   <td colname="col2"> <p>Muestra una lista de las características algorítmicas basadas en el modelo seleccionado. Haga clic en un nombre de característica o ID de rasgo para obtener más información sobre la característica. Select <b><span class="uicontrol"> Create New Trait with Model</span></b> to go to the algorithmic trait creation process. </p> <p>La etiqueta de sección cambia según el nombre del modelo. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td>
+   <td colname="col2"> <p>Muestra una lista de las características algorítmicas basadas en el modelo seleccionado. Haga clic en un nombre de característica o ID de rasgo para obtener más información sobre la característica. Seleccione <b><span class="uicontrol"> Crear nueva característica con modelo</span></b> para ir al proceso de creación de rasgos algorítmicos. </p> <p>La etiqueta de sección cambia según el nombre del modelo. Por ejemplo, supongamos que crea un modelo y lo asigna al Modelo A. Cuando carga la página de resumen, el nombre de esta sección cambia a <span class="wintitle"> Características usando el modelo A</span>. </p> </td>
   </tr>
  </tbody>
 </table>
