@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Señales derivadas](features/derived-signals.md)
    + Destinos{#destinations}
       + [Información general de destinos](features/destinations/destinations.md)
-      + [Página principal de destinos](/help/using/features/destinations/destinations-home.md)
+      + [Página principal de destinos](features/destinations/destinations-home.md)
       + Destinos de Adobe Experience Cloud{#experience-cloud-destinations}
-         + [Configurar un destino de Analytics](/help/using/features/destinations/create-analytics-destination.md)
-      + Destinos basados en personas {#pbd}
+         + [Configurar un destino de Analytics](features/destinations/create-analytics-destination.md)
+      + Destinos basados en personas {#people-based-destinations}
+         + [Información general y casos de uso](features/destinations/people-based-destinations-overview.md)
+         + [Requisitos previos y consideraciones](features/destinations/people-based-destinations-prerequisites.md)
+         + SiteCatalyst {#pbd-implementation}
+            + [Información general de implementación](features/destinations/people-based-destinations-workflow.md)
+            + [Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Flujo de trabajo B: Personalización basada en datos sin conexión](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Flujo de trabajo C: Personalización basada en actividades autenticadas combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [Autenticación con plataformas basadas en personas](features/destinations/people-based-destinations-authentication.md)
+         + [Audiencias compartibles](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinos basados en dispositivos (servidor a servidor) {#device-based}
-         + [Agregar nuevos destinos basados en dispositivo](/help/using/features/destinations/add-device-based-destinations.md)
-         + [Agregar o editar segmentos para destinos de servidor a servidor](/help/using/features/destinations/add-edit-segments.md)
-         + [Configurar audiencias adaptadas para Twitter como destino basado en dispositivos autoservicio](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [Agregar nuevos destinos basados en dispositivo](features/destinations/add-device-based-destinations.md)
+         + [Agregar o editar segmentos para destinos de servidor a servidor](features/destinations/add-edit-segments.md)
+         + [Configurar audiencias adaptadas para Twitter como destino basado en dispositivos autoservicio](features/destinations/twitter-tailored-audiences.md)
       + Destinos personalizados {#custom-destinations}
-         + [Configurar un destino de URL](/help/using/features/destinations/create-url-destination.md)
-         + [Configurar un destino de cookie](/help/using/features/destinations/create-cookie-destination.md)
-         + [Configuración opcional para destinos de cookie](/help/using/features/destinations/cookie-destination-options.md)
+         + [Configurar un destino de URL](features/destinations/create-url-destination.md)
+         + [Configurar un destino de cookie](features/destinations/create-cookie-destination.md)
+         + [Configuración opcional para destinos de cookie](features/destinations/cookie-destination-options.md)
       + Referencia de destinos {#destinations-reference}
-         + [Generador de destino](/help/using/features/destinations/destination-builder.md)
+         + [Generador de destino](features/destinations/destination-builder.md)
          + [get_ aamcookie Code](features/destinations/get-aam-cookie-code.md)
          + [Macros de destino definidas](features/destinations/destination-macros.md)
          + [Pares de clave-valor estándar y de serie](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Preguntas frecuentes sobre la integración de productos y recopilación de datos](faq/faq-data-collection.md)
    + [Preguntas frecuentes sobre la ingesta de datos de clientes de entrada](faq/faq-inbound-data-ingestion.md)
    + [Preguntas frecuentes sobre retención de datos y privacidad](faq/faq-privacy.md)
+   + [Preguntas frecuentes sobre destinos basados en personas](faq/faq-people-based-destinations.md)
    + [Preguntas frecuentes sobre funciones y funciones de productos](faq/faq-features.md)
    + [Preguntas frecuentes sobre las reglas de combinación de perfiles y Device Graph](faq/faq-profile-merge.md)
    + [Preguntas más frecuentes sobre objetivo](faq/faq-targeting.md)
