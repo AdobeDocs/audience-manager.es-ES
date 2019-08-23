@@ -5,7 +5,7 @@ seo-title: Configurar audiencias adaptadas para Twitter como destino basado en d
 solution: Audience Manager
 title: Configurar audiencias adaptadas para Twitter como destino basado en dispositivos autoservicio
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ Antes de configurar [!DNL Twitter Tailored Audiences] el destino, asegúrese de 
 1. Su [!DNL Twitter Ads] cuenta debe ser calificada para publicidad. Las cuentas nuevas [!DNL Twitter Ads] no son elegibles para la publicidad en las dos primeras semanas después de crearlas.
 2. La cuenta de usuario de Twitter a la que autorizó el acceso en Audience Manager debe tener habilitado el permiso [de administrador de audiencia](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) asociado.
 3. Si [está actualizando la integración de Twitter existente a la administración de autoservicio](#update-existing-twitter-integrations), su cuenta de usuario de Twitter debe habilitar el permiso [de administrador](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) de publicidad.
-
-
 
 ## Agregar [!DNL Twitter Tailored Audiences] un nuevo destino {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Para mejorar la experiencia del usuario y optimizar el proceso de configuración
 Siga los pasos a continuación para migrar [!DNL Twitter Tailored Audiences] el destino existente al modelo de autoservicio.
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya **[!DNL Administration > Integrated Accounts]** a.
-2. Haga clic en **[!DNL Add Account]**.
-3. Seleccione [!DNL Twitter Tailored Audiences] y haga clic **[!DNL Confirm]** para que se le redirija a la página de autenticación. ![plataformas integradas](assets/dbd-integrated-platforms.png)
-4. Una vez que haya autenticado con su cuenta de Twitter, se le redirigirá a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic **[!DNL Confirm]** en.
+1. Haga clic en **[!DNL Add Account]**.
+1. Seleccione [!DNL Twitter Tailored Audiences] y haga clic **[!DNL Confirm]** para que se le redirija a la página de autenticación. ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Una vez que haya autenticado a [!DNL Twitter] su cuenta, se le redirigirá a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic **[!DNL Confirm]** en.
+1. Vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** y haga clic en el destino de Twitter que necesita configurar.
+1. Haga clic en **[!UICONTROL Edit]**. En **[!UICONTROL Basic Information]** la sección, haga clic en **[!UICONTROL Integrated Account]** el menú desplegable y seleccione la [!DNL Twitter] cuenta con la que ha autenticado en el paso 4.
+1. **[!UICONTROL Save]** el destino.
+
+## Validación de la migración a administración de autoservicio {#migration-validation}
+
+La migración completa de integraciones existentes [!DNL Twitter] a administración de autoservicio puede tardar hasta 7 días. Una vez completada la migración, Audience Manager muestra una notificación en la interfaz de usuario.
+
+También verá un nuevo grupo de audiencias en [!DNL Twitter] su cuenta, con sus nombres con el prefijo [! DNL [Adobe DMP Audience]]. Permita que la población de audiencias se rellene hasta siete días. Una vez completada la migración, debe utilizar estas nuevas audiencias en lugar de las antiguas.
 
 ## Consideraciones de asignación de segmentos {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Cuando asigne segmentos de audiencia a Twitter, asegúrese de cumplir los siguie
 * Proporcione nombres de asignación de segmentos legibles en lenguaje natural. Recomendamos utilizar el mismo nombre que utilizó para los segmentos de Audience Manager.
 * No utilice comas en nombres de asignación de segmentos y segmentos.
 
-**Ejemplo**
+### Ejemplo
 
 * Correcto segmento o nombre de asignación: " US y compradores europeos ";
 * Nombre de segmento o segmento incorrecto: " EE. UU., Europa 5 h 0 pP 3 rs ".
