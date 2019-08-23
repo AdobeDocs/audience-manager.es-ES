@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
+source-git-commit: 8ceeee38dc798810559467ffc12177a2f1968b44
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
       + Destinos basados en personas {#people-based-destinations}
          + [Información general y casos de uso](features/destinations/people-based-destinations-overview.md)
          + [Requisitos previos y consideraciones](features/destinations/people-based-destinations-prerequisites.md)
-         + SiteCatalyst {#pbd-implementation}
+         + SiteCatalyst {#implementation-guide}
             + [Información general de implementación](features/destinations/people-based-destinations-workflow.md)
             + [Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-combined.md)
             + [Flujo de trabajo B: Personalización basada en datos sin conexión](features/destinations/people-based-destinations-workflow-offline.md)
