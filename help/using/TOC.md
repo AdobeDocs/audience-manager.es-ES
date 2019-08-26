@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
+source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
 
 ---
 
@@ -277,7 +277,6 @@ source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
       + [Modificar la llamada de API de settargeting GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código de Audience Manager para etiquetas de editor de Google](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + Integración con destinos de terceros {#integrating-third-party}
-      + [Socios de tecnología de Audience Manager](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Integración de WCA de Facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS como destino de Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [Openx como destino de Audience Manager](integration/integrating-third-party/openx-destination.md)
