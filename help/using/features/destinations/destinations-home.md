@@ -5,7 +5,7 @@ seo-title: Administrar destinos
 solution: Audience Manager
 title: Administrar destinos
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
@@ -23,7 +23,7 @@ La página de aterrizaje predeterminada enumera los destinos según el tipo. Pue
 
 * **Todos**: muestra todos los tipos de destinos.
 * **Adobe Experience Cloud**: muestra destinos que envían datos a otras soluciones de Adobe Experience Cloud. Actualmente, la única opción compatible es Adobe Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **Plataformas integradas**: muestra destinos basados en las personas y en los dispositivos (también denominados destinos servidor a servidor). Tenga en cuenta que los destinos basados en personas actualmente son una función beta que solo está disponible para clientes seleccionados.
+* **Plataformas integradas**: muestra destinos basados en las personas y en los dispositivos (también denominados destinos servidor a servidor).
 * **Personalizado**: muestra destinos de URL y cookie.
 
 
