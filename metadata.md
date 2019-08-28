@@ -7,10 +7,10 @@ getting-started-title: Introducción
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.en
-index: false
+git-repo: https://github.com/AdobeDocs/audience-manager.en
+index: y
 translation-type: tm+mt
-source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
+source-git-commit: 6002bc689dea162014d197d4081c6ec87a22c4d4
 
 ---
 
