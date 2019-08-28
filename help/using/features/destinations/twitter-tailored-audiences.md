@@ -5,7 +5,7 @@ seo-title: Configurar audiencias adaptadas para Twitter como destino basado en d
 solution: Audience Manager
 title: Configurar audiencias adaptadas para Twitter como destino basado en dispositivos autoservicio
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Siga los pasos a continuación para migrar [!DNL Twitter Tailored Audiences] el 
 
 La migración completa de integraciones existentes [!DNL Twitter] a administración de autoservicio puede tardar hasta 7 días. Una vez completada la migración, Audience Manager muestra una notificación en la interfaz de usuario.
 
-También verá un nuevo grupo de audiencias en [!DNL Twitter] su cuenta, con sus nombres con el prefijo [! DNL [Adobe DMP Audience]]. Permita que la población de audiencias se rellene hasta siete días. Una vez completada la migración, debe utilizar estas nuevas audiencias en lugar de las antiguas.
+También verá un nuevo grupo de audiencias en [!DNL Twitter] su cuenta, con sus nombres añadidos por [[!DNL Adobe DMP Audience]]. Permita que la población de audiencias se rellene hasta siete días. Una vez completada la migración, debe utilizar estas nuevas audiencias en lugar de las antiguas.
 
 ## Consideraciones de asignación de segmentos {#segment-mapping-considerations}
 
