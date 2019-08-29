@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo C: Personalización basada en actividades autentica
 solution: Audience Manager
 title: 'Flujo de trabajo C: Personalización basada en actividades autenticadas combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ Para calificar a los usuarios autenticados para características basadas en regl
 
 Supongamos que ha creado las dos fuentes de datos siguientes.
 
-| Datos ID de origen | Datos contenido de origen |
-|-|-|
-| 999999 | Existente Dpuuids (ID de CRM)|
-| 987654 | Hashed direcciones de correo electrónico|
+| ID de fuente de datos | Contenido de fuente de datos |
+|---|---|
+| 999999 | DPUUIDS existentes (ID de CRM) |
+| 987654 | Direcciones de correo electrónico con hash |
 
 A continuación, debe calificar los ID de CRM a continuación para la característica de la tabla.
 
-| DPUUID (ID de CRM)| Correo electrónico dirección | Dirección de correo electrónico con hash | Características|
-|-|-|-|-|
-|68079982765673198504052656074456196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 feb 12 f 120 f 116625093 a 19 bc 32 fff 15041149 | location = EE. UU. |
+| DPUUID (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash | Rasgo |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
 El ID declarado debe seguir esta sintaxis:
 
