@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Página Detalles de características
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,15 +29,16 @@ La [!UICONTROL Basic Information] sección muestra detalles sobre los campos opc
 
 * Para las características basadas en reglas, la cualificación de características se produce en tiempo real, ya que los usuarios cumplen los requisitos de un rasgo en el navegador.
 * Para características integradas, la cualificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante [se alimenta en Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es cuando se produce la cualificación de características.
-* **Realización de características únicas**: Recuento de usuarios únicos que agregaron esta característica a su perfil durante un intervalo de tiempo determinado.
-* **Población total de características**: Número de usuarios únicos que actualmente están cualificados para esta característica.
+* **[!UICONTROL Unique Trait Realizations]**: Recuento de usuarios únicos que agregaron esta característica a su perfil durante un intervalo de tiempo determinado.
+* **[!UICONTROL Total Trait Population]**: Número de usuarios únicos que actualmente están cualificados para esta característica.
 
    ![trait-graph](assets/trait-summary.png)
 
-* **Desglose de tipo de identidad**: Las tres primeras entradas muestran las tres fuentes de datos entre dispositivos principales con el recuento de población más alto que se califica para el rasgo, en orden descendente. La cuarta entrada muestra la suma de todos los demás [!DNL DPUUIDs] ([!DNL CRM IDs]) que califican para la característica, de las fuentes de datos entre dispositivos que no están en los tres primeros. Este informe aparece únicamente si selecciona ID entre dispositivos en el menú [!UICONTROL Show Results By] desplegable en la parte superior derecha de la página. La [!UICONTROL Device ID]opción desplegable predeterminada es, donde no se muestra este informe.
+* **[!UICONTROL Identity Type Breakdown]**: Las tres primeras entradas muestran las tres fuentes de datos entre dispositivos principales con el recuento de población más alto que se califica para el rasgo, en orden descendente. La cuarta entrada muestra la suma de todos los demás [!DNL DPUUIDs] ([!DNL CRM IDs]) que califican para la característica, de las fuentes de datos entre dispositivos que no están en los tres primeros. Este informe aparece únicamente si selecciona ID entre dispositivos en el menú [!UICONTROL Show Results By] desplegable en la parte superior derecha de la página. La [!UICONTROL Device ID]opción desplegable predeterminada es, donde no se muestra este informe.
 
    ![trait-graph](assets/trait-identity.png)
-
+   > [!NOTE]
+   > Audience Manager solo muestra el [!UICONTROL Identity Type Breakdown] informe si tiene ID entre dispositivos cualificado para la característica.
 
 ## Expresión de rasgos {#trait-expression}
 
