@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo A: Personalización basada en toda la actividad en 
 solution: Audience Manager
 title: 'Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que guarde
 Supongamos que desea hacer coincidir los [dpuuid existentes](../../reference/ids-in-aam.md) con las direcciones de correo electrónico con hash de la tabla siguiente (columna derecha) y almacenar las direcciones de correo electrónico con hash en la nueva fuente de datos que creó en [el paso 1 - Configurar la configuración de fuentes de datos](people-based-destinations-workflow-combined.md#configure-data-source-settings).
 
 | DPUUID (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ Puede vincular hasta 10 direcciones de correo electrónico con hash a un único 
 En nuestro ejemplo, ahora tendrá dos fuentes de datos.
 
 | ID de fuente de datos | Contenido de fuente de datos |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | DPUUIDS existentes (ID de CRM) |
 | 987654 | Direcciones de correo electrónico con hash |
 
