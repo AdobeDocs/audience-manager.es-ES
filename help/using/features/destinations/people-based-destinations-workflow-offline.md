@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos sin conexión'
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -34,7 +34,7 @@ Desea clasificar los ID de cliente de la tabla siguiente para los ID de rasgos o
 | 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
-Para calificar los ID de cliente en el ejemplo anterior para las características integradas correspondientes, debe cargar un [archivo de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) con los siguientes contenidos:
+<br />Para calificar los ID de cliente en el ejemplo anterior para las características integradas correspondientes, debe cargar un [archivo de datos de entrada] (../../integration/sending-audience-data/batch-data-transfer-explained/inbound-data-contents. md) con los siguientes contenidos:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -49,6 +49,8 @@ Consulte [los requisitos de tamaño de archivo y nombre de Amazon S 3 para archi
 
 Según si [los DPUUID](../../reference/ids-in-aam.md) tienen en minúscula y direcciones de correo electrónico con hash, es posible que necesite configurar la fuente de datos que almacenará las direcciones de correo electrónico con hash.
 
+ 
+
 **Escenario 1: los[dpuuid](../../reference/ids-in-aam.md)ya están en minúsculas y tienen direcciones de correo electrónico con hash.**
 
 En este caso, debe tener que etiquetar la fuente de datos correspondiente como tal:
@@ -57,6 +59,8 @@ En este caso, debe tener que etiquetar la fuente de datos correspondiente como t
 1. Busque la fuente de datos que contiene [los dpuuid](../../reference/ids-in-aam.md)y haga clic en ella.
 1. Asegúrese de que la opción **[!UICONTROL Cannot be tied to personally identifiable information]** esté desactivada.
 1. Guarde la configuración de fuente de datos.
+
+ 
 
 **Escenario 2: los[DPUUID](../../reference/ids-in-aam.md)no tienen en minúsculas las direcciones de correo electrónico con hash.**
 
@@ -98,7 +102,7 @@ Como recordatorio, ahora tendrá dos fuentes de datos:
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
-<br/>
+ 
 
 El archivo de sincronización [de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) tendría el siguiente contenido:
 
@@ -108,15 +112,16 @@ El archivo de sincronización [de ID](../../integration/sending-audience-data/ba
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
-<br/>
+ 
 
 El archivo de sincronización [de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) debe seguir esta estructura de nombres:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
-<br/>
+ 
 
-En el ejemplo anterior, el nombre del archivo tendría este aspecto: `c2c_id_999999_987654_1560431657.sync`
+En el ejemplo anterior, el nombre del archivo tendría este aspecto:`c2c_id_999999_987654_1560431657.sync`
+
 
 [Descargue aquí el archivo de ejemplo](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
