@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Controles de exportación de datos
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 En función de las clasificaciones aplicadas a un origen de datos y a un destino, los controles de exportación se detienen de:
 
 * Adición de un rasgo a un segmento cuando pertenece a un origen de datos que tiene un control de exportación de datos incompatible con una etiqueta de exportación de datos en uno o más de los destinos a los que se asigna el segmento.
-Por ejemplo, supongamos que un segmento se asigna a un destino con la etiqueta de exportación **[UICONTROL! Este destino puede permitir una combinación con información personal (PII)]**. Los controles de exportación impiden que agregue un rasgo a ese segmento si el origen de datos pertenece a un control de exportación de datos que dice **[UICONTROL! No se puede asociar a información de identificación personal (PII)]**.
+Por ejemplo, supongamos que un segmento se asigna a un destino con la etiqueta **[!DNL This destination may enable a combination with personally identifiable information (PII)]** de exportación. Los controles de exportación impiden que agregue un rasgo a ese segmento si el origen de datos pertenece a un control de exportación de datos que dice **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * Enviar cualquier dato a un destino de destino tiene una etiqueta de exportación de datos bloqueada por un control de exportación de datos en cualquiera de los siguientes casos:
    * La fuente de datos de un rasgo incluido;
    * La fuente de datos de una característica que se utiliza en un segmento incluido;
@@ -44,7 +44,7 @@ Además, al menos una etiqueta de exportación debe coincidir con un control de 
 
 >[!IMPORTANT]
 >
->[No se puede bloquear la exportación de un segmento colocando un control de exportación de datos en la fuente de datos del segmento, debe definir el control en cualquiera de las siguientes opciones:
+>No se puede bloquear la exportación de un segmento colocando un control de exportación de datos en la fuente de datos del segmento, debe definir el control en cualquiera de las siguientes opciones:
 > * Fuentes de datos de las características utilizadas en el segmento;
 > * La regla de combinación de perfiles aprovechada por el segmento;
 > * Cualquiera de las fuentes de datos que utiliza la regla de combinación de perfiles del segmento.
