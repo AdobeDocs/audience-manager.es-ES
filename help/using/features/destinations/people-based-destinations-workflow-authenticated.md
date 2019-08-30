@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo C: Personalización basada en actividades autentica
 solution: Audience Manager
 title: 'Flujo de trabajo C: Personalización basada en actividades autenticadas combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ Esta página incluye instrucciones paso a paso sobre cómo combinar datos sin co
 
 Según si [los DPUUID](../../reference/ids-in-aam.md) tienen en minúscula y direcciones de correo electrónico con hash, es posible que necesite configurar la fuente de datos que almacenará las direcciones de correo electrónico con hash.
 
+ 
+
 **Escenario 1: los[dpuuid](../../reference/ids-in-aam.md)ya están en minúsculas y tienen direcciones de correo electrónico con hash.**
 
 En este caso, pase al [paso 5 - Configurar la autenticación de plataforma basada en personas](#configure-authentication).
+
+ 
 
 **Escenario 2: los[DPUUID](../../reference/ids-in-aam.md)no tienen en minúsculas las direcciones de correo electrónico con hash.**
 
@@ -54,15 +58,21 @@ Supongamos que ha creado las dos fuentes de datos siguientes.
 | 999999 | DPUUIDS existentes (ID de CRM) |
 | 987654 | Direcciones de correo electrónico con hash |
 
+ 
+
 A continuación, debe calificar los ID de CRM a continuación para la característica de la tabla.
 
 | DPUUID (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash | Rasgo |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
+ 
+
 El ID declarado debe seguir esta sintaxis:
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 En el ejemplo anterior, la llamada de ID declarada debería tener este aspecto:
 
