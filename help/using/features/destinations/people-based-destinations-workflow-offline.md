@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos sin conexión'
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -28,11 +28,11 @@ Independientemente de si los ID de cliente de Audience Manager ([DPUUID](../../r
 
 Desea clasificar los ID de cliente de la tabla siguiente para los ID de rasgos onbogged correspondientes. Consideremos que [los dpuuid](../../reference/ids-in-aam.md) se almacenan en un origen de datos con el ID 999999, y que el ID de socio de Audience Manager es 123.
 
-| Cliente ID (DPUUID)| ID de rasgo integrado |
-|-|-|
-|68079982765673198504052656074456196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|89159024796760343733111707646026763 53 |11223, 93342, 27341|
+| ID de cliente (DPUUID) | ID de rasgo integrado |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 Para calificar los ID de cliente en el ejemplo anterior para las características integradas correspondientes, debe cargar un [archivo de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) con los siguientes contenidos:
 
@@ -88,15 +88,17 @@ Supongamos que desea hacer coincidir los [DPUUID existentes](../../reference/ids
 Como recordatorio, ahora tendrá dos fuentes de datos:
 
 | ID de fuente de datos | Contenido de fuente de datos |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | DPUUIDS existentes (ID de CRM) |
 | 987654 | Direcciones de correo electrónico con hash |
 
 | Dpuuids (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash |
-|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 El archivo de sincronización [de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) tendría el siguiente contenido:
 
@@ -106,9 +108,13 @@ El archivo de sincronización [de ID](../../integration/sending-audience-data/ba
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 El archivo de sincronización [de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) debe seguir esta estructura de nombres:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 En el ejemplo anterior, el nombre del archivo tendría este aspecto: `c2c_id_999999_987654_1560431657.sync`
 
