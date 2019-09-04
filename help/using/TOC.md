@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
+source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
 
 ---
 
@@ -267,7 +267,7 @@ source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
    + [Casos de uso DIL y Muestras de código](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [Notas de la versión DIL](/help/using/dil/dil-release-notes.md)
-+ Guías de implementación y integración{#implemenation-integration-guides}
++ Guías de implementación y integración{#implementation-integration-guides}
    + [Guías de implementación y integración](integration/implementation-and-integration.md)
    + [Métodos de integración de datos](integration/data-integration-methods.md)
    + Integrar DFP con etiquetas de editor de Google (GPT){#integrate-dfp-using-gpt}
