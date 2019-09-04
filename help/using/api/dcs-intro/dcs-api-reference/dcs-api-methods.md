@@ -6,46 +6,39 @@ solution: Audience Manager
 title: Métodos de API de DCS
 uuid: 6 e 407458-11 d 4-4342-a 84 a -512 afa 5 fc 183
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# DCS API Methods {#dcs-api-methods}
+# Métodos de API de DCS {#dcs-api-methods}
 
-Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
+Enviar datos al [!UICONTROL DCS][!DNL API] uso o `GET``POST` a los métodos.
 
-You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST` methods. Take a look at the sample calls below, using [curl](https://curl.haxx.se/). In all three sample calls, we are adding the signals `c_likes = famous popstar` and `c_loves = famous actress` to the device profile `12345678901234567890123456789012345678`.
+Puede enviar datos al [!UICONTROL DCS] uso de uno o varios `GET``POST` métodos. Eche un vistazo a las llamadas de muestra a continuación usando [curl](https://curl.haxx.se/). En las tres llamadas de ejemplo, agregamos las señales `c_likes = famous popstar` y `c_loves = famous actress` el perfil `12345678901234567890123456789012345678`del dispositivo.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
+>In the code and examples, *italics* represents a variable placeholder. Sustituya un valor real del marcador de posición cuando envíe datos al [!UICONTROL DCS] con este método.
 
-## Send Data via GET {#send-data-via-get}
+## Enviar datos a través de GET {#send-data-via-get}
 
-Note that the maximum allowed size for `GET` calls is 8K.
+Tenga en cuenta que el tamaño máximo permitido para `GET` llamadas es de 8 K.
 
-<pre><code>curl -i "<i>yourcompany.demdex.net/event</i>?
-d_uuid=<i>12345678901234567890123456789012345678</i>&amp;d_rtbd=json&amp;<i>c_likes=famous%20popstar</i>&amp;<i>c_loves=famous%20actress</i>"
-</code></pre>
+<pre><code>curl -i "<i>yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&amp;d_rtbd=jsonc_likes=famous%20popstar&amp;c_loves=famous%20actress</i><i></i><i></i><i></i>"</code></pre>
 
-## Send Data via POST {#send-data-via-post}
+## Enviar datos a través de POST {#send-data-via-post}
 
-Note the requirements for sending data using the `POST` method:
+Tenga en cuenta los requisitos para enviar datos mediante `POST` el método:
 
 * El tamaño máximo permitido es 32 K.
-* Set the content type to `application/x-www-form-urlencoded`.
+* Defina el tipo de contenido como `application/x-www-form-urlencoded`.
 
 ### Llamada de muestra
 
-<pre><code>curl -x POST\ 
- https://yourcompany.demdex.net/event<i></i>\ 
- -h'content-type: application/x-www-form-urlencoded '\ 
- -d'<i>c_ like = fam% 20 popstar</i>&amp;<i>c_ loves = famoso % 20 actriz</i>&amp;<i>d_ uuid = 12345678901234567890123456789012345678</i>'</code>
-</pre>
-
-<pre><code>curl -x POST\ 
- https://yourcompany.demdex.net/event<i></i>\ 
- -h'content-type: application/x-www-form-urlencoded '\ 
- -d'<i>c_ like = fam% 20 popstar</i>&amp; <i>c_ loves = famoso % 20 actriz</i>&amp;<i>d_ uuid = 12345678901234567890123456789012345678</i>'</code>
-</pre>
+```js
+curl -X POST \
+  https://yourcompany.demdex.net/event \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -d 'c_likes=famous%20popstar&c_loves=famous%20actress&d_uuid=12345678901234567890123456789012345678'
+```
