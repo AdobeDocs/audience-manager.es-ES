@@ -5,7 +5,7 @@ seo-title: Configurar audiencias adaptadas para Twitter como destino basado en d
 solution: Audience Manager
 title: Configurar audiencias adaptadas para Twitter como destino basado en dispositivos autoservicio
 translation-type: tm+mt
-source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
+source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
 
 ---
 
@@ -21,7 +21,7 @@ Antes de configurar [!DNL Twitter Tailored Audiences] el destino, asegúrese de 
 1. Su [!DNL Twitter Ads] cuenta debe ser calificada para publicidad. Las cuentas nuevas [!DNL Twitter Ads] no son elegibles para la publicidad en las dos primeras semanas después de crearlas.
 1. La cuenta de usuario de Twitter a la que autorizó el acceso en Audience Manager debe tener habilitado el permiso [de administrador de audiencia](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) asociado.
 1. Si [está actualizando la integración de Twitter existente a la administración de autoservicio](#update-existing-twitter-integrations), su cuenta de usuario de Twitter debe habilitar el permiso [de administrador](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) de publicidad.
-2. Al crear el primer [!DNL Twitter Tailored Audiences] destino en la instancia de Audience Manager, póngase en contacto con el consultor de Adobe o con el Servicio de atención al cliente para habilitar la sincronización [!DNL Twitter] de ID (ID de fuente de datos = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre Audience Manager y [!DNL Twitter].
+1. Al crear el primer [!DNL Twitter Tailored Audiences] destino en la instancia de Audience Manager, póngase en contacto con el consultor de Adobe o con el Servicio de atención al cliente para habilitar la sincronización [!DNL Twitter] de ID (ID de fuente de datos = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre Audience Manager y [!DNL Twitter].
 
 ## Agregar [!DNL Twitter Tailored Audiences] un nuevo destino {#add-new-twitter-destination}
 
