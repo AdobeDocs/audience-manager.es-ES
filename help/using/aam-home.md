@@ -1,19 +1,19 @@
 ---
 description: Audience Manager ofrece servicios líderes en el sector para la administración de datos de audiencia. Nuestros productos y servicios proporcionan a los editores y publicistas digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos con el fin de mejorar el éxito de ventas.
-seo-description: Audience Manager ofrece servicios líderes en el sector para la administración de datos de audiencia. Nuestros productos y servicios proporcionan a los editores y publicistas digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos con el fin de mejorar el éxito de ventas.
-seo-title: Documentación del producto de Audience Manager
+seo-description: Documentación técnica y autoayuda para Audience Manager (AAM). AAM proporciona servicios líderes en la industria para la administración de datos de audiencia en línea, y proporciona a los anunciantes y editores digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos para ayudar a impulsar el éxito de las ventas.
+seo-title: Documentación técnica de producto de Adobe Audience Manager
 solution: Audience Manager
 title: Documentación del producto de Audience Manager
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Documentación del producto de Audience Manager {#audience-manager-product-documentation}
 
-Audience Manager ofrece servicios líderes en el sector para la administración de datos de audiencia. Nuestros productos y servicios proporcionan a los editores y publicistas digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos con el fin de mejorar el éxito de ventas.
+Esta guía de documentación técnica proporciona asistencia autoayuda para Audience Manager: servicio líder del sector para la administración de datos de audiencia en línea. Nuestros productos y servicios proporcionan a los editores y publicistas digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos con el fin de mejorar el éxito de ventas.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
