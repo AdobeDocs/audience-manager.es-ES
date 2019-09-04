@@ -7,7 +7,7 @@ title: Facturación de compradores de fuentes de datos
 keywords: Informes a nivel de segmento, nivel de segmento, nivel de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Después de informar [!DNL CPM] el uso en el nivel de segmento, [!UICONTROL Audi
 Para informar [!DNL CPM] el uso en el nivel de segmento:
 
 1. Vaya **[!UICONTROL Audience Marketplace > Payables]** a.
-2. Seleccione **[!UICONTROL Segment Usage]** la ficha.
-3. Complete el uso de sus segmentos. Puede utilizar [!UICONTROL Search] el cuadro para filtrar los segmentos si solo necesita informar para algunos de ellos.
-4. Haga clic en **[!UICONTROL Edit Segments Usage]**.
-5. Introduzca la cantidad [!DNL CPM] de uso en [!UICONTROL Usage] la columna.
-6. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
-   ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. Haga clic en **[!UICONTROL Confirm]**.
+1. Seleccione **[!UICONTROL Segment Usage]** la ficha.
+1. Complete el uso de sus segmentos. Puede utilizar [!UICONTROL Search] el cuadro para filtrar los segmentos si solo necesita informar para algunos de ellos.
+1. Haga clic en **[!UICONTROL Edit Segments Usage]**.
+1. Introduzca la cantidad [!DNL CPM] de uso en [!UICONTROL Usage] la columna.
+1. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
 
-<br> 
+   ![confirm-segment-usage](assets/confirm-segment-usage.png)
+
+1. Haga clic en **[!UICONTROL Confirm]**.
+
+ 
 
 ## Uso del CPM de informes en el nivel de fuente de datos {#feed-level-report}
 
@@ -57,15 +59,15 @@ Los informes de nivel de fuente de datos son un proceso más tedioso y propenso 
 Para informar [!DNL CPM] el uso en el nivel de segmento:
 
 1. Vaya **[!UICONTROL Audience Marketplace > Payables]** a.
-2. Seleccione **[!UICONTROL Feed Usage]** la ficha.
-3. Utilice [!UICONTROL Search] el cuadro para filtrar las fuentes de datos e identificar las a las que debe informar el uso.
-4. Haga clic en **[!UICONTROL Edit Feeds Usage]**.
-5. Calcule [!DNL CPM] el uso de cada fuente de datos en función de [la atribución de costes de las fuentes de datos CPM](#cost-attribution)e introdúzcala en [!UICONTROL Usage] la columna.
-6. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
+1. Seleccione **[!UICONTROL Feed Usage]** la ficha.
+1. Utilice [!UICONTROL Search] el cuadro para filtrar las fuentes de datos e identificar las a las que debe informar el uso.
+1. Haga clic en **[!UICONTROL Edit Feeds Usage]**.
+1. Calcule [!DNL CPM] el uso de cada fuente de datos en función de [la atribución de costes de las fuentes de datos CPM](#cost-attribution)e introdúzcala en [!UICONTROL Usage] la columna.
+1. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ Después de registrar [!DNL CPM] el número del mes natural anterior, [!DNL Adob
 
 ## Asignar impresiones en el nivel de fuente basadas en reglas de cualificación de características {#assign-impressions}
 
-El caso [!UICONTROL Activation] de uso permite utilizar características en la fuente de datos correspondiente para crear segmentos en [el Generador](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) de segmentos y asignar dichos segmentos a un destino. Los operadores [!UICONTROL AND]booleanos, [!UICONTROL OR]y [!UICONTROL NOT] permiten definir las condiciones para la calificación de segmentos y características.
+El caso [!UICONTROL Activation] de uso permite utilizar características en la fuente de datos correspondiente para crear segmentos en [el Generador](../../../features/segments/segment-builder.md) de segmentos y asignar dichos segmentos a un destino. Los operadores [!UICONTROL AND]booleanos, [!UICONTROL OR]y [!UICONTROL NOT] permiten definir las condiciones para la calificación de segmentos y características.
 
 Al [informar el uso CPM en el nivel de fuente de datos](#feed-level-report), debe asignar impresiones proporcionalmente para cada fuente de datos, según [!DNL Boolean] los operadores utilizados en las reglas de cualificación de características. La siguiente tabla muestra cómo asignar impresiones correctamente por tipo de regla booleana o tipo de característica.
 
