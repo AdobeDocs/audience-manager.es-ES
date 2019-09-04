@@ -4,12 +4,12 @@ seo-description: Se busca señales utilizadas y no utilizadas en determinados pe
 seo-title: Señales de búsqueda
 title: Señales de búsqueda
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# Indica Información general de búsqueda {#signals-search}
 
 Se busca señales utilizadas y no utilizadas en determinados períodos de tiempo. Para buscar señales, vaya a Datos de audiencia &gt; Señales &gt; Buscar.
 
