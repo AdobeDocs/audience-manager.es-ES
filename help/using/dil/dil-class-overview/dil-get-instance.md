@@ -7,12 +7,12 @@ solution: Audience Manager
 title: Getdil
 uuid: 7 b 95 f 9 bf -14 c 0-4 c 74-b 6 b 9-d 6 b 38513 d 487
 translation-type: tm+mt
-source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# getDil{#getdil}
+# Getdil{#getdil}
 
 Recupera una instancia DIL específica del socio.
 
@@ -25,14 +25,13 @@ Recupera una instancia DIL específica del socio.
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | `partner` | Cadena | Nombre del socio que buscar. |
-| `containerNSID` | Número entero | Defaults is `0`. El NSID del contenedor que está buscando. Opcional. |
+| `containerNSID` | Número entero | Los valores predeterminados `0`son. El NSID del contenedor que está buscando. Opcional. |
 
 ## Respuesta
 
-A successful partner and container NSID match returns a partner-specific [!UICONTROL DIL] instance. If there is no match, the API returns (does not throw) an error with the message, " `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
+Una coincidencia exitosa de socio y contenedor NSID devuelve [!UICONTROL DIL] una instancia específica del socio. Si no hay coincidencia, la API devuelve (no devuelve) un error con el mensaje " `The DIL instance with partner <name> and containerNSID <ID> was not found.`",
 
 ## Código de muestra
 
 <pre class="java"><code>DIL. getdil ('<i>partner</i>', <i>containernsid</i>); 
-DIL. getdil ('<i>partner</i>');</code>
-</pre>
+DIL. getdil ('<i>partner</i>');</code></pre>
