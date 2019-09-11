@@ -7,7 +7,7 @@ title: Facturación de compradores de fuentes de datos
 keywords: Informes a nivel de segmento, nivel de segmento, nivel de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Para informar [!DNL CPM] el uso en el nivel de segmento:
 
 1. Haga clic en **[!UICONTROL Confirm]**.
 
+Consulte también nuestra demostración de video sobre cómo puede informar el uso a nivel de segmento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=spa)
+
  
 
 ## Uso del CPM de informes en el nivel de fuente de datos {#feed-level-report}
@@ -59,15 +63,15 @@ Los informes de nivel de fuente de datos son un proceso más tedioso y propenso 
 Para informar [!DNL CPM] el uso en el nivel de segmento:
 
 1. Vaya **[!UICONTROL Audience Marketplace > Payables]** a.
-1. Seleccione **[!UICONTROL Feed Usage]** la ficha.
-1. Utilice [!UICONTROL Search] el cuadro para filtrar las fuentes de datos e identificar las a las que debe informar el uso.
-1. Haga clic en **[!UICONTROL Edit Feeds Usage]**.
-1. Calcule [!DNL CPM] el uso de cada fuente de datos en función de [la atribución de costes de las fuentes de datos CPM](#cost-attribution)e introdúzcala en [!UICONTROL Usage] la columna.
-1. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
+2. Seleccione **[!UICONTROL Feed Usage]** la ficha.
+3. Utilice [!UICONTROL Search] el cuadro para filtrar las fuentes de datos e identificar las a las que debe informar el uso.
+4. Haga clic en **[!UICONTROL Edit Feeds Usage]**.
+5. Calcule [!DNL CPM] el uso de cada fuente de datos en función de [la atribución de costes de las fuentes de datos CPM](#cost-attribution)e introdúzcala en [!UICONTROL Usage] la columna.
+6. Haga clic **[!UICONTROL Save]** en una vez que haya terminado y revise el cuadro de diálogo de confirmación.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+7. Haga clic en **[!UICONTROL Confirm]**.
 
 <br> 
 
