@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5 ca 924 a 5-2 b 29-4802-ab 02-e 292 d 77 a 0 aae
 translation-type: tm+mt
-source-git-commit: 2733080505760bbcf39737f0ad0d2d7605d1f477
+source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
 
 ---
 
@@ -17,9 +17,7 @@ Describe los pasos opcionales y requeridos que crean un segmento.[!UICONTROL Seg
 
 ## Demostración de vídeo
 
-El siguiente vídeo lo lleva a través del proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
-
->[!VIDEO](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)
+Comience por ver el vídeo [Crear segmentos en Audience Manager](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). El vídeo lo acompaña durante el proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
 
 ## Creación de segmentos {#create-segment}
 
