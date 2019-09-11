@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Página Detalles de características
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -39,6 +39,8 @@ La [!UICONTROL Basic Information] sección muestra detalles sobre los campos opc
    ![trait-graph](assets/trait-identity.png)
    > [!NOTE]
    > Audience Manager solo muestra el [!UICONTROL Identity Type Breakdown] informe si tiene ID entre dispositivos cualificado para la característica.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=spa)
 
 ## Expresión de rasgos {#trait-expression}
 
