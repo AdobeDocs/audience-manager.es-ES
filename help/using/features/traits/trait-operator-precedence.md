@@ -1,19 +1,19 @@
 ---
-description: El Generador de rasgos evalúa las expresiones según el orden de operaciones que se indican a continuación, de alta a baja prioridad. Los elementos de características definidos por los operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alta a baja.
-seo-description: El Generador de rasgos evalúa las expresiones según el orden de operaciones que se indican a continuación, de alta a baja prioridad. Los elementos de características definidos por los operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alta a baja.
-seo-title: Orden de las operaciones en el Generador de rasgos
+description: El Generador de características evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
+seo-description: El Generador de características evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
+seo-title: Orden de las operaciones en el generador de características
 solution: Audience Manager
-title: Orden de las operaciones en el Generador de rasgos
-uuid: df 325047-af 62-45 ad -9 ca 1-046 bfcbe 5341
+title: Orden de las operaciones en el generador de características
+uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
+# Orden de las operaciones en el generador de características {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] evalúa las expresiones según el orden de operaciones que se indica a continuación, de alta a baja prioridad. Los elementos de características definidos por los operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alta a baja.
+[!UICONTROL Trait Builder] evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -34,28 +34,28 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> Operadores de comparación </td> 
    <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
-   <td colname="col3"> Menor que, mayor que, menor que/igual a, mayor que/igual a que se evalúa a continuación. </td> 
+   <td colname="col3"> A continuación se evalúan los valores menores que, mayores que, menores o iguales que, mayores o iguales a. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de igualdad </td> 
    <td colname="col2"> == != </td> 
-   <td colname="col3"> Igual a, no es igual a se evalúa después de los operadores anteriores. </td> 
+   <td colname="col3"> Igual a, no igual a, se evalúan después de los operadores anteriores. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
-   <td colname="col2"><span class="wintitle"> AND</span> </td> 
+   <td colname="col2"><span class="wintitle"> Y</span> </td> 
    <td colname="col3" morerows="1"> n.d. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> O</span> </td> 
    <td colname="col3" morerows="1"> n.d. </td> 
   </tr> 
  </tbody>
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Uso de expresiones booleanas (AND, OR, NOT) en traitbuilder](../../reference/boolean-expressions-tsb.md)
->* [Uso de operadores de comparación en traitbuilder](../../features/traits/trait-comparison-operators.md)
+>* [Uso de expresiones booleanas (AND, OR, NOT) en TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Uso de operadores de comparación en TraitBuilder](../../features/traits/trait-comparison-operators.md)
 
