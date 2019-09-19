@@ -1,35 +1,35 @@
 ---
-description: Información general y flujo de trabajo para proveedores de datos que desean vender datos desde Audience Manager.
+description: Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde Audience Manager.
 keywords: Análisis de Google
-seo-description: Información general y flujo de trabajo para proveedores de datos que desean vender datos desde Audience Manager.
+seo-description: Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde Audience Manager.
 seo-title: Mercado de audiencias para proveedores de datos
 solution: Audience Manager
 title: Mercado de audiencias para proveedores de datos
-topic: API DIL
-uuid: 80 e 60 d 33-63 e 7-496 c -82 c 5-205 ecf 0 ec 03 a
+topic: DIL API
+uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
+# Mercado de audiencias para proveedores de datos {#audience-marketplace-for-data-providers}
 
-Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
+Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde dentro [!DNL Audience Manager].
 
 <!-- c_marketplace_provider.xml -->
 
 >[!NOTE]
 >
->[Los permisos basados en roles](../../../reporting/reports-dashboard.md) controlan el acceso [!UICONTROL Audience Marketplace] a las funciones.
+>[Los permisos](../../../reporting/reports-dashboard.md) basados en roles controlan el acceso a [!UICONTROL Audience Marketplace] las funciones.
 >
 >* Los administradores pueden crear fuentes de datos, administrar suscriptores y suscribirse a fuentes de datos.
->* Los usuarios pueden buscar y ver solo fuentes.
+>* Los usuarios solo pueden buscar y ver fuentes.
 
 
-## My Shared Data: About {#my-shared-data-about}
+## Mis datos compartidos: Acerca de {#my-shared-data-about}
 
-[!UICONTROL My Shared Data] es [!UICONTROL Audience Marketplace] una función para proveedores de datos (vendedores). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or [!DNL CPM] rate to buyers from within [!DNL Audience Manager]. Cuando se activa, los compradores pueden suscribirse a una fuente con unos pocos clics del ratón. Además, las herramientas de informes simples rastrean los ingresos y administran suscriptores. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. Estas funciones permiten concentrarse en generar las fuentes de datos eficaces y rentables que los compradores desean.
+[!UICONTROL My Shared Data] es una [!UICONTROL Audience Marketplace] función para proveedores de datos (vendedores). Como proveedor, le permite agrupar características en fuentes de datos y venderlas por una tarifa fija o [!DNL CPM] a compradores desde dentro [!DNL Audience Manager]. Cuando se activa, los compradores pueden suscribirse a una fuente con unos pocos clics del ratón. Además, las sencillas herramientas de informes rastrean los ingresos y administran a los suscriptores. Finalmente, con [!UICONTROL Audience Marketplace], [!DNL Adobe] se encarga de los pagos de facturas, facturación y honorarios. Estas funciones le permiten concentrarse en crear las fuentes de datos eficaces y rentables que los compradores desean.
 
 ![](assets/seller_marketplace.png)
 
@@ -37,21 +37,21 @@ Overview and workflow for data providers who want to sell data from within [!DNL
 
 Las funciones incluyen:
 
-* **Buscar:** Los campos de búsqueda le ayudan a encontrar fuentes de datos por nombre o por descripciones de texto.
-* **Nombre:** El nombre de su fuente de datos. Puede ocultarlo de compradores con una fuente de datos privada sin marca.
-* **Descripción:** Informe a los compradores sobre el contenido de su fuente de datos.
-* **Características:** Número de características en cada fuente de datos. Puede ocultarlo de compradores con una fuente de datos privada.
-* **Únicos únicos de los 30 días:** Número de usuarios únicos que se vieron en los últimos 30 días. Puede ocultarlo de compradores con una fuente de datos privada.
-* **Tarifas totales del mes pasado:** Se requiere la cantidad de compradores de datos suscritos. El período de informe termina el día 10 de cada mes. Las cuentas atrasadas se marcan con el icono triángulo/signo de exclamación. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
-* **Estado:** Muestra si una fuente está activa, inactiva, privada o pública.
-* **Suscriptores:** Muestra cuántos compradores utilizan una fuente de datos. Haga clic en el número de esta columna para ver el nombre de la empresa, las suscripciones, la facturación y el estado de suscripción de un comprador.
-* **Solicitudes:** Número de solicitudes de acceso para una fuente de datos.
+* **** Buscar: Los campos de búsqueda le ayudan a encontrar fuentes de datos por nombre o descripción de texto.
+* **** Nombre: El nombre de la fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada sin marca.
+* **** Descripción: Informe a los compradores sobre el contenido de su fuente de datos.
+* **** Características: Número de características de cada fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada.
+* **** Únicos de los últimos 30 días: Número de usuarios únicos vistos en los últimos 30 días. Puede ocultarlo a los compradores con una fuente de datos privada.
+* **** Tarifas totales del mes pasado: La cantidad que los compradores de datos suscritos le deben. El período de presentación de informes finaliza el 10 de cada mes. Las cuentas vencidas se marcan con el icono de triángulo o signo de exclamación. Puede [desactivar la fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) de datos de un suscriptor si hace un uso indebido de sus datos o si su cuenta ha vencido.
+* **** Estado:  Muestra si una fuente está activa, inactiva, privada o pública.
+* **** Suscriptores: Muestra cuántos compradores utilizan una fuente de datos. Haga clic en el número de esta columna para ver el nombre de la empresa, las suscripciones, la facturación y el estado de la suscripción del comprador.
+* **** Solicitudes: Número de solicitudes de acceso para una fuente de datos.
 
 ## Fuentes de datos privadas {#private-data-feeds}
 
-In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. Esto indica una fuente de datos privada. Una fuente de datos privada permite a los vendedores limitar el acceso de los compradores a sus datos e incluso el nombre de la fuente de datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando son importantes la privacidad y el control de acceso. Con fuentes de datos privadas, los proveedores revisan y aprueban todas las solicitudes de acceso de los compradores. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
+En [!UICONTROL My Shared Data]ocasiones, el estado de una fuente se marca como privada. Esto indica una fuente de datos privada. Una fuente de datos privada permite a los vendedores limitar el acceso del comprador a sus datos e incluso al nombre de la fuente de datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes. Con las fuentes de datos privadas, los proveedores revisan y aprueban todas las solicitudes de acceso del comprador. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). Para crear una fuente de datos pública o privada, consulte [Creación de una fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)de datos pública o privada.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Descuentos para proveedores de datos](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
