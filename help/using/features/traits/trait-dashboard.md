@@ -1,29 +1,29 @@
 ---
-description: El panel Características es un espacio de trabajo centralizado para gestionar características.
-seo-description: El panel Características es un espacio de trabajo centralizado para gestionar características.
-seo-title: Panel de características
+description: El tablero Características es un espacio de trabajo centralizado para administrar características.
+seo-description: El tablero Características es un espacio de trabajo centralizado para administrar características.
+seo-title: Tablero de características
 solution: Audience Manager
-title: Panel de características
-uuid: 31 b 8 f 958-f 67 d -4 af 2-8 d 78-e 37 e 2 dfe 810 d
+title: Tablero de características
+uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 translation-type: tm+mt
 source-git-commit: 8a616bcf9583abfb2a94ec2a0cabcaf97ea2aeeb
 
 ---
 
 
-# Traits Dashboard {#traits-dashboard}
+# Tablero de características {#traits-dashboard}
 
-The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
+El [!UICONTROL Traits] tablero es un espacio de trabajo centralizado para administrar características.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-The [!UICONTROL Traits] dashboard contains features and tools that help you:
+El [!UICONTROL Traits] tablero contiene funciones y herramientas que le ayudan a:
 
-1. Vea todas las características y los detalles relacionados en una tabla con columnas que puede ordenar.
-1. Review and work with [Active Audience Traits and Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md).
-1. Crear, editar y eliminar características.
-1. Vea y administre carpetas de almacenamiento de rasgos.
-1. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras intenta limitar los resultados a esa carpeta y sus subcarpetas.
-1. Filtra características por tipo de característica (onbogged, basado en reglas, algorítmico o características de carpeta).
+1. Vea todas sus características y detalles relacionados en una tabla con columnas que puede ordenar.
+1. Revise y trabaje con características de audiencia [activas y características](../../features/traits/client-activity-synced-audience-traits.md)sincronizadas de fuentes de datos.
+1. Cree, edite y elimine características.
+1. Ver y administrar carpetas de almacenamiento de características.
+1. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas.
+1. Filtre las características por tipo de característica (integradas, basadas en reglas, algorítmicas, características de carpeta).
