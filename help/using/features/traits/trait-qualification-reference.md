@@ -1,11 +1,11 @@
 ---
-description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la cualificación de características.
-keywords: características de características; trait implementation; Realización de características únicas; UTR; Población total de características; TTP
-seo-description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la cualificación de características.
+description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
+keywords: cualificación de características;realización de características;Realizaciones de características únicas;UTR;Población total de características;TTP
+seo-description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
 seo-title: Referencia de calificación de características
 solution: Audience Manager
 title: Referencia de calificación de características
-uuid: 07 e 0 a 639-2 fb 2-45 d 8-bad 7-10 fb 46 b 08 ba 9
+uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
 source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
@@ -14,9 +14,9 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 # Referencia de calificación de características {#trait-qualification-reference}
 
-La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la cualificación de características.
+La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
 
-## Trait Qualification by Trait Type {#trait-type}
+## Cualificación de características por tipo de característica {#trait-type}
 
 <table id="table_14CD705F376B44EEA9A6C011984356F0"> 
  <thead> 
@@ -28,41 +28,41 @@ La cualificación de características, o realización de características, se tr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Características basadas en reglas </p> </td> 
-   <td colname="col2"> <p>La cualificación de características se produce en tiempo real, ya que los usuarios cumplen los requisitos de un rasgo en el navegador. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../features/segments/recency-and-frequency.md"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
+   <td colname="col2"> <p>La calificación de características se realiza en tiempo real, ya que los usuarios cumplen los requisitos para una característica en su explorador. Los usuarios empezarán a cumplir los requisitos para una característica basada en reglas aproximadamente 4 horas después de <a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits"> crear la característica</a> en la interfaz de usuario. </p> <p>Las características basadas en reglas le permiten utilizar controles de frecuencia <a href="../../features/segments/recency-and-frequency.md"></a> y actualización para los límites de frecuencia de publicidad y otros casos de uso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características integradas </p> </td> 
-   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md"> imported into Audience Manager</a> and that is when the trait qualification happens. </p> <p> Para características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. </p> </td> 
+   <td colname="col2"> <p>La calificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante se importa a Audience Manager <a href="../../faq/faq-inbound-data-ingestion.md"></a> y es cuando se produce la calificación de características. </p> <p> Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características algorítmicas </p> </td> 
    <td colname="col2"> <p>Para las características algorítmicas, el número máximo de cualificaciones para un perfil de usuario es 1. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Características de carpeta </p> </td> 
-   <td colname="col2"> <p>Una característica de carpeta suma las calificaciones de características de las características que contiene. </p> <p>Read <a href="../../features/traits/about-folder-traits.md"> Folder Traits: About</a> for more information. </p> </td> 
+   <td colname="col1"> <p>Características de la carpeta </p> </td> 
+   <td colname="col2"> <p>Una característica de carpeta resume las calificaciones de características de las características que contiene. </p> <p>Leer características <a href="../../features/traits/about-folder-traits.md"> de la carpeta: Acerca</a> de para obtener más información. </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p>Características de audiencia activas y características sincronizadas de fuentes de datos </p> </td> 
-   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Características sincronizadas de fuentes de datos</span> Realiza un seguimiento de todos los usuarios asociados a un origen de datos. </p> <p>Read more about <a href="../../features/traits/client-activity-synced-audience-traits.md"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td>
+   <td colname="col1"> <p>Características de audiencias activas y características sincronizadas de fuentes de datos </p> </td> 
+   <td colname="col2"> <p>Una característica de Audiencia <span class="wintitle"> activa contiene todos los dispositivos que se administran en la cuenta de</span> Audience Manager <span class="wintitle"></span> . </p> <p><span class="wintitle"> Las características</span> sincronizadas de la fuente de datos rastrean a todos los usuarios asociados a una fuente de datos. </p> <p>Obtenga más información sobre <a href="../../features/traits/client-activity-synced-audience-traits.md"> las características de audiencia activa y las características</a>de la fuente de datos. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Unique Trait Realizations and Total Trait Population {#unique-trait-realizations}
+## Realizaciones únicas de características y población total de características {#unique-trait-realizations}
 
 ![](assets/utr-ttp1.png)
 
-**[!UICONTROL Unique Trait Realizations]** El recuento de los visitantes que han agregado la característica a su perfil, dentro de intervalos de tiempo diferentes.
+El **[!UICONTROL Unique Trait Realizations]** recuento del número de visitantes que agregaron la característica a su perfil, dentro de diferentes intervalos de tiempo.
 
-**[!UICONTROL Total Trait Population]** Representa el número de visitantes que tienen este rasgo en su perfil.
+Representa el **[!UICONTROL Total Trait Population]** número de visitantes que tienen esta característica en su perfil.
 
-Considere los números de esta manera. In the image above, from the [Trait Details](../../features/traits/trait-details-page.md) view, 181 represents the number of active devices, that visited your properties yesterday. The [!UICONTROL Total Trait Population] of 1,595 represents the amount of users currently qualified for this trait. The [!UICONTROL Total Trait Population] figure is meant to show the total amount of users who could be used for segmentation/targeting. Normalmente, los usuarios permanecerán formados parte de un rasgo durante 120 días.
+Piensen en los números de esta manera. En la imagen anterior, desde la vista Detalles [de](../../features/traits/trait-details-page.md) características, 181 representa el número de dispositivos activos que visitaron sus propiedades ayer. El [!UICONTROL Total Trait Population] de 1.595 representa la cantidad de usuarios cualificados actualmente para esta característica. La [!UICONTROL Total Trait Population] figura muestra la cantidad total de usuarios que podrían utilizarse para segmentación/segmentación. Normalmente, los usuarios permanecerán como parte de una característica durante 120 días.
 
-Because we run two different computational jobs to calculate the two populations, the [!UICONTROL Total Trait Population] always lags behind the [!UICONTROL Unique Trait Realizations] by 24 hours. In the graph above, you can see 175 [!UICONTROL Unique Trait Realizations] and a [!UICONTROL Total Trait Population] of 6 for February 11. The 175 profiles are added to the [!UICONTROL Total Trait Population] on the following day.
+Porque ejecutamos dos trabajos computacionales diferentes para calcular las dos poblaciones, las [!UICONTROL Total Trait Population] mismas siempre están rezagadas en 24 horas [!UICONTROL Unique Trait Realizations] . En el gráfico de arriba, pueden ver 175 [!UICONTROL Unique Trait Realizations] y un [!UICONTROL Total Trait Population] 6 para el 11 de febrero. Los 175 perfiles se agregan al [!UICONTROL Total Trait Population] día siguiente.
 
-To further drive the point home, if you experienced a spike of 10,000 visitors right now, they would show up in tomorrow's [!UICONTROL Unique Trait Realizations], but would only show up 24 hours later in the [!UICONTROL Total Trait Population].
+Para llevar el punto a casa, si experimentaste un pico de 10.000 visitantes en este momento, aparecerían en la página de mañana [!UICONTROL Unique Trait Realizations], pero solo aparecerían 24 horas después en la [!UICONTROL Total Trait Population].
 
-## Trait Qualification Limit {#trait-qualification-limit}
+## Límite de cualificación de características {#trait-qualification-limit}
 
-We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md)) or a device ID ( [UUID](../../reference/ids-in-aam.md)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].
+Aplicamos un límite de 150.000 cualificaciones de características para cada perfil de usuario, ya sea un perfil autenticado ( [DPUUID](../../reference/ids-in-aam.md)) o un ID de dispositivo ( [UUID](../../reference/ids-in-aam.md)). Tenga en cuenta que aunque los DPUUID son exclusivos de una instancia específica de [!DNL Audience Manager], los UUID se comparten en la [!DNL Audience Manager] plataforma. Para [!UICONTROL UUID]los adultos, imponemos una política de equidad al almacenar las calificaciones de rasgos. Un algoritmo garantiza que una parte igual del [!UICONTROL UUID] perfil esté disponible para cada instancia de [!DNL Audience Manager].
