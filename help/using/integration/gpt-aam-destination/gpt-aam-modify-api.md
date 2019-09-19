@@ -1,27 +1,27 @@
 ---
-description: Agregue una sentencia if para comprobar si hay cookies de Audience Manager antes de llamar al método Google Publisher Tag. settargeting.
-seo-description: Agregue una sentencia if para comprobar si hay cookies de Audience Manager antes de llamar al método Google Publisher Tag. settargeting.
-seo-title: Modificar la llamada de API de settargeting GPT
+description: Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
+seo-description: Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
+seo-title: Modificar la llamada de API de setTargeting de GPT
 solution: Audience Manager
-title: Modificar la llamada de API de settargeting GPT
-uuid: 0 cd 38 f 30-5 d 29-4511-a 779-d 32587 f 1 dafb
+title: Modificar la llamada de API de setTargeting de GPT
+uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
+# Modificación de la llamada de `setTargeting` API de GPT {#modify-the-gpt-settargeting-api-call}
 
-Add an if statement to check for Audience Manager cookies before calling the [!DNL Google Publisher Tag] `.setTargeting` method.
+Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al [!DNL Google Publisher Tag] método `.setTargeting` .
 
-## Check for Audience Manager Cookies With an `IF` Statement
+## Buscar cookies de Audience Manager con una `IF` instrucción
 
-`.setTargeting` El método obtiene datos de la cookie de destino de Audience Manager y la cookie de ID de usuario única ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
+El `.setTargeting` método obtiene datos de la cookie de destino de Audience Manager y de la cookie de ID de usuario única ( `aam_uuid`). Sin embargo, si `.setTargeting` se invoca antes de [!UICONTROL DIL] escribir estas cookies, o si las cookies están vacías, es posible que se produzcan errores al cargar la página. Para evitar esto, ajuste el `.setTargeting` método en una `if` instrucción que compruebe si hay cookies. Si no están configurados, esta instrucción evita `.setTargeting` llamar a la `AamGpt` función.
 
-### `IF` Ejemplo de código de sentencia
+### `IF` Ejemplo de código de instrucción
 
-In this example, the Audience Manager destination cookie name is `Sample`. Este nombre se establece cuando se crea la cookie de destino en la interfaz de usuario de Audience Manager. [!UICONTROL DIL] establece `aam_uuid` la cookie y el nombre no se puede cambiar.
+En este ejemplo, el nombre de la cookie de destino de Audience Manager es `Sample`. Este nombre se establece al crear la cookie de destino en la interfaz de usuario de Audience Manager. [!UICONTROL DIL] establece la `aam_uuid` cookie y no se puede cambiar el nombre.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -34,16 +34,16 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Depending on how you want to integrate with [!DNL DFP], you only need some of the lines in the code sample above:
+>Según la integración con [!DNL DFP], solo necesita algunas de las líneas del ejemplo de código anterior:
 >
->* Integración del lado del cliente: utilice líneas 1-3 solamente.
->* Integración del lado del servidor: no se necesitan las líneas.
->* Ingest [!DNL DFP] log files for reporting in [!DNL Audience Manager]: use lines 4-6 only. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
+>* Integración del cliente: utilice únicamente las líneas 1-3.
+>* Integración del lado del servidor: no se necesita ninguna de las líneas.
+>* Ingestar archivos [!DNL DFP] de registro para crear informes en [!DNL Audience Manager]: utilice únicamente las líneas 4-6. Este código inserta el valor de la `aam_uuid` cookie en los registros para que se puedan ingerir en los informes.
 
 
 ### `AamGpt` Funciones y tipos de datos
 
-Defines the key variables used in the `if` statement.
+Define las variables clave utilizadas en la `if` sentencia.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -55,25 +55,25 @@ Defines the key variables used in the `if` statement.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Aamgpt. getkey </code> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Devuelve la clave en el par de segmentos clave-valor. For example, if your key-value pair consisted of <code> color=blue </code>, this returns <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve la clave del par de segmentos clave-valor. Por ejemplo, si el par clave-valor consiste en <code> color=azul </code>, devuelve <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Aamgpt. getvalues </code> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>Matriz de cadenas </p> </td> 
-   <td colname="col3"> <p>Returns values in an array, e.g., <code> ["value1","value2"] </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve valores en una matriz, por ejemplo, <code> ["valor1","valor2"] </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Aamgpt. getcookie </code> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Returns the Audience Manager user ID, e.g., <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve el ID de usuario de Audience Manager, por ejemplo, <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Crear un destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Código de Audience Manager para etiquetas de editor de Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Código de Audience Manager para etiquetas de publicador de Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
