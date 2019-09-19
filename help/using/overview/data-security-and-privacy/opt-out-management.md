@@ -1,23 +1,23 @@
 ---
-description: Adobe cumple todos los estándares de la industria con respecto a la administración de exclusiones. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
-seo-description: Adobe cumple todos los estándares de la industria con respecto a la administración de exclusiones. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
+description: Adobe cumple con todos los estándares del sector con respecto a la administración de la exclusión. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
+seo-description: Adobe cumple con todos los estándares del sector con respecto a la administración de la exclusión. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
 seo-title: Administración de exclusión
 solution: Audience Manager
 title: Administración de exclusión
-uuid: 61 b 43 e 0 e-bfe 3-497 e-ade 2-6 a 942 a 98407 e
+uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
 translation-type: tm+mt
 source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 ---
 
 
-# Opt-out Management{#opt-out-management}
+# Administración de exclusión{#opt-out-management}
 
-Adobe cumple todos los estándares de la industria con respecto a la administración de exclusiones. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
+Adobe cumple con todos los estándares del sector con respecto a la administración de la exclusión. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por Audience Manager.
 
-## Global Opt-Out {#global-opt-out}
+## Exclusión global {#global-opt-out}
 
-La opción de exclusión global representa una exclusión entre Audience Manager y otras soluciones de Adobe Experience Cloud para todas las marcas. La tabla siguiente enumera los métodos utilizados para la exclusión global:
+La exclusión global representa una exclusión en Audience Manager y otras soluciones de Adobe Experience Cloud para todas las marcas. La tabla siguiente enumera los métodos utilizados para la exclusión global:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -29,11 +29,11 @@ La opción de exclusión global representa una exclusión entre Audience Manager
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
+   <td colname="col2"> <p>La página <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Opciones de privacidad </a> proporciona funciones de 1 clic que permiten a los usuarios finales controlar y excluir la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (incluido Audience Manager). Concretamente, consulte la sección <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> cliente comercial </a> de la página Opciones de privacidad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Llamadas directas de API a Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col1"> <p>Llamadas de API directas a Audience Manager </p> </td> 
+   <td colname="col2"> <p>Todas las marcas de Audience Manager pueden desactivar la recopilación de datos haciendo una llamada a la API de DCS a continuación e incluyendo el ID de usuario de <a href="../../reference/ids-in-aam.md"> Audience Manager </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST 12" </code> </p> <p>Como resultado, estableceremos <code>las cookies demdex=NOTARGET</code> y <code>dextp=NOTARGET</code> para el ID de usuario de Audience Manager enviado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dispositivos móviles </p> </td> 
@@ -46,33 +46,33 @@ La opción de exclusión global representa una exclusión entre Audience Manager
  </tbody> 
 </table>
 
-Los usuarios finales también pueden desactivar la recopilación de datos globales visitando los sitios web de nuestros socios de estándares del sector.
+Los usuarios finales también pueden desactivar la recopilación global de datos visitando los sitios web de nuestros socios de estándares del sector.
 
-* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
-* [Iniciativa publicitaria de red (NAI)](https://optout.networkadvertising.org/?c=1#!/).
+* [La Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
+* [Iniciativa de publicidad en red (NAI)](https://optout.networkadvertising.org/?c=1#!/).
 
-Después de las solicitudes de exclusión descritas anteriormente:
+Siguiendo las solicitudes de exclusión descritas anteriormente:
 
-* Audience Manager dejará de publicar, segmentar o activar toda la recopilación de datos.
-* Los datos históricos se eliminan del perfil de usuario después de 120 días.
+* Audience Manager dejará de recopilar, segmentar o activar datos en adelante.
+* Los datos históricos se eliminan del perfil del usuario pasados 120 días.
 
-## Partner Level Opt-Out {#partner-opt-out}
+## Opción de exclusión de nivel de socio {#partner-opt-out}
 
-La exclusión a nivel de socio permite excluir la recopilación de datos por parte de socios específicos de Audience Manager. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
+La exclusión a nivel de socio permite la exclusión de la recopilación de datos por parte de socios específicos de Audience Manager. La exclusión de nivel de socio funciona con llamadas de ID [](../../features/declared-ids.md) declarados y llamadas de ID de dispositivo, tal como se describe en las secciones siguientes.
 
-### Desactivación de nivel de socio con llamadas de ID declaradas
+### Opción de exclusión de nivel de socio con llamadas de ID declaradas
 
-Después de una exclusión de nivel de socio con una llamada de ID declarada:
+Después de una exclusión a nivel de socio con una llamada de ID declarada:
 
-* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
-* Audience Manager detendrá toda la recopilación, segmentación o activación de datos para el último ID de dispositivo vinculado al ID de CRM.
+* El último ID de dispositivo (ID[de usuario único de](../../reference/ids-in-aam.md)Audience Manager) vinculado al ID [de](../../reference/ids-in-aam.md) CRM se excluye de la recopilación de datos.
+* Audience Manager dejará de recopilar, segmentar o activar todos los datos a partir del último ID de dispositivo vinculado al ID de CRM.
 * No se eliminan datos históricos.
 
 <br/>
 
 **Llamadas de exclusión**
 
-When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
+Cuando Audience Manager recibe una solicitud de exclusión a nivel de socio, el JSON devuelto por el DCS contiene el código de [error 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), con el mensaje [!UICONTROL "Encountered opt out tag"], en lugar del ID de usuario de Audience Manager.
 
 <!-- 
 
@@ -94,31 +94,31 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 **Ejemplos**
 
-You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. Consulte [CID sustituye DPID y DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+Puede realizar una solicitud de exclusión de ID declarada con los pares `d_cid` y `d_cid_ic` clave-valor. Los parámetros heredados como `d_dpid` y `d_dpuuid` siguen funcionando, pero se consideran obsoletos. Consulte [CID sustituye DPID y DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-**Opciones de exclusión con CID y CID_ IC**
+**Opciones de exclusión con CID y CID_IC**
 
-For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
+Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de los ID](../../features/declared-ids.md#variables-and-syntax)declarados.
 
-| Opción de exclusión con | Ejemplo de código |
+| Opción de exclusión mediante | Ejemplo de código |
 |--- |--- |
-| ID de proveedor de datos y ID de usuario. | `https://domain name/demoptout.jpg?d_cid=123%01987...` |
-| Un código de integración y un ID de usuario. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
-| Pares de clave-valor muld_ cid y d_ cid_ ic. | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
+| ID de proveedor de datos e ID de usuario. | `https://domain name/demoptout.jpg?d_cid=123%01987...` |
+| Código de integración e ID de usuario. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
+| Varios pares de clave-valor d_cid y d_cid_ic. | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
 
-### Desactivación de nivel de socio con las llamadas ID del dispositivo
+### Opción de exclusión de nivel de socio con llamadas de ID de dispositivo
 
-You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+Puede desactivar la recopilación de datos en un ID de dispositivo determinado para una marca haciendo las siguientes llamadas a la API [de](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS:
 
-| Opción de exclusión con | Ejemplo de código |
+| Opción de exclusión mediante | Ejemplo de código |
 |--- |--- |
-| An Audience Manager Unique User ID (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
-| An Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
+| Un ID de usuario único (`uuid`) de Audience Manager. | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| Un ID de Experience Cloud (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
+Obtenga más información sobre `uuid`los ID `mid` y `imsOrgId` en el [índice de ID de Audience Manager](/help/using/reference/ids-in-aam.md).
 
-Después de una exclusión de nivel de socio con una llamada de ID de dispositivo:
+Después de una exclusión a nivel de socio con una llamada de ID de dispositivo:
 
-* El ID del dispositivo no está excluido de la recopilación de datos.
-* Audience Manager detendrá toda la recopilación, segmentación o activación de datos para el socio, en adelante para el ID del dispositivo.
+* El ID del dispositivo no se selecciona en la recopilación de datos.
+* Audience Manager dejará de recopilar, segmentar o activar todos los datos del socio a partir del ID del dispositivo.
 * No se eliminan datos históricos.
