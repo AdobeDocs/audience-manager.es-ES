@@ -1,11 +1,11 @@
 ---
-description: Cree segmentos de prueba mutuamente excluyentes en Grupos de prueba de segmentos para comparar y medir la eficacia de los diferentes destinos. Puede apartar un grupo de control y dividir el segmento en porcentajes del mismo para probar la eficacia.
-seo-description: Cree segmentos de prueba mutuamente excluyentes en Grupos de prueba de segmentos para comparar y medir la eficacia de los diferentes destinos. Puede apartar un grupo de control y dividir el segmento en porcentajes del mismo para probar la eficacia.
+description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
+seo-description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
 seo-title: Audiencia Lab
 solution: Audience Manager
 title: Audiencia Lab
-topic: API DIL
-uuid: aaee 820 c -1 e 78-4 fd 4-bd 8 f -2629085 d 78 e 9
+topic: DIL API
+uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -14,36 +14,36 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Lab {#audience-lab}
 
-Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. Puede apartar un grupo de control y dividir el segmento en porcentajes del mismo para probar la eficacia.
+Cree segmentos de prueba mutuamente excluyentes en [!UICONTROL Segment Test Groups] para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
 
 ## Información general {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utiliza [el vínculo de perfil](../../features/profile-merge-rules/merge-rules-overview.md) para realizar pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumpla los mismos segmentos de prueba y recibe el mismo tratamiento en todos los dispositivos. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) the base segment has assigned to it.
+[!UICONTROL Audience Lab] utiliza el vínculo [](../../features/profile-merge-rules/merge-rules-overview.md) de perfil para alimentar las pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumple los requisitos para el mismo segmento de prueba y recibe el mismo tratamiento en todos los dispositivos. Los segmentos de prueba de los grupos de prueba heredarán la regla [de combinación de](../../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que el segmento base le ha asignado.
 
-The [!UICONTROL Audience Lab] default view displays a card for each of the test groups. Click a card to access the **[!UICONTROL Test Group]** view. Esta vista incluye la siguiente información:
+La vista predeterminada muestra una tarjeta para cada uno de los grupos de prueba. [!UICONTROL Audience Lab] Haga clic en una tarjeta para acceder a la **[!UICONTROL Test Group]** vista. Esta vista incluye la siguiente información:
 
-* **[Información de grupo de prueba](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Informes de grupos de prueba](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Información del grupo de prueba](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Informes de grupo de prueba](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-You are able to create **up to 10 test groups**, each one with **up to 15 test segments**.
+Puede crear **hasta 10 grupos** de prueba, cada uno con **hasta 15 segmentos** de prueba.
 
 ![](assets/test-groups-view.PNG)
 
-## Search and Filter Test Groups {#search-and-filter}
+## Buscar y filtrar grupos de prueba {#search-and-filter}
 
-Una vez que comience a crear varios grupos de prueba con varios segmentos de prueba, puede ser más fácil utilizar el cuadro de búsqueda para encontrar un grupo de prueba específico. Puede buscar un grupo de prueba por:
+Una vez que comience a crear varios grupos de prueba con varios segmentos de prueba, puede ser más fácil utilizar el cuadro de búsqueda para encontrar un grupo de prueba específico. Puede buscar un grupo de prueba mediante:
 
-* El nombre del grupo de prueba;
+* Nombre del grupo de ensayo;
 * Nombre de cualquiera de los segmentos de prueba del grupo de prueba;
 * Descripción del grupo de prueba.
 
 ![](assets/search_and_filter_audience_lab.png)
 
-También puede filtrar los grupos de prueba por estado. All available statuses are described in the [Status](../../features/audience-lab/audience-lab.md#status) section below.
+También puede filtrar los grupos de prueba por estado. Todos los estados disponibles se describen en la sección [Estado](../../features/audience-lab/audience-lab.md#status) a continuación.
 
 ## Estado {#status}
 
-El estado de un grupo de prueba puede estar activo, programado, pausado, borrador o completado. Más información sobre cada una de ellas en la siguiente tabla:
+El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador o completado. Más información sobre cada una de ellas en la tabla siguiente:
 
 <table id="table_7A0388BA02E045AC971C06A22DAC2C63"> 
  <thead> 
@@ -55,23 +55,23 @@ El estado de un grupo de prueba puede estar activo, programado, pausado, borrado
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Activo </span></b> </p> </td> 
-   <td colname="col2"> <p>An <i>active</i> test group means that data is currently being sent to destinations. Press <b><span class="uicontrol"> Pause Test </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to suspend sending data to destinations. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>activo</i> significa que los datos se están enviando a los destinos. Pulse <b><span class="uicontrol"> Pausar prueba </span></b> en la tarjeta <b><span class="uicontrol"> Grupo de prueba </span></b> para suspender el envío de datos a los destinos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Programado </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>scheduled</i> test group is not yet active but cannot be edited anymore. It will become active at the start date you selected in the <b>Create Test Groups</b> wizard. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>programado</i> aún no está activo pero ya no se puede editar. Se activará en la fecha de inicio seleccionada en el asistente <b>Crear grupos</b> de prueba. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> En pausa </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>paused</i> test group does not currently send data to destinations. Press <b><span class="uicontrol"> Make Active </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to resume sending traits. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos a los destinos. Pulse <b><span class="uicontrol"> Activar </span></b> en la tarjeta <b><span class="uicontrol"> Grupo de prueba </span></b> para reanudar el envío de características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Borrador </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>draft</i> test group is not yet active and can still be edited. Todavía no envía datos a los destinos asignados. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba de <i>borrador</i> aún no está activo y puede editarse. Todavía no envía datos a los destinos asignados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completado </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <b><span class="uicontrol"> Create Test Groups </span></b> wizard and has stopped sending reporting data. </p> </td>
+   <td colname="col2"> <p>Un grupo de prueba <i>completado</i> ha alcanzado la fecha de finalización seleccionada en el asistente <b><span class="uicontrol"> Crear grupos de prueba </span></b> y ha dejado de enviar datos de informes. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -88,15 +88,15 @@ El estado de un grupo de prueba puede estar activo, programado, pausado, borrado
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Editar </span></b> </p> </td>
-   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <b><span class="uicontrol"> Create New Test Group </span></b> wizard. </p> </td>
+   <td colname="col2"> <p>Disponible <b>solo</b> para grupos de prueba de borrador. Le permite reanudar el <b><span class="uicontrol"> asistente Crear nuevo grupo de pruebas </span></b> . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>
    <td colname="col2"> <p>Disponible para grupos de prueba activos. Permite pausar el envío de segmentos de prueba a destinos. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Active </span></b> </p> </td>
-   <td colname="col2"> <p>Disponible para grupos de prueba en pausa. Permite reanudar el envío de segmentos de prueba a destinos. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Activar </span></b> </p> </td>
+   <td colname="col2"> <p>Disponible para grupos de prueba en pausa. Le permite reanudar el envío de los segmentos de prueba a destinos. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Ver </span></b> </p> </td>
@@ -104,11 +104,11 @@ El estado de un grupo de prueba puede estar activo, programado, pausado, borrado
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Duplicar </span></b> </p> </td>
-   <td colname="col2"> <p>Permite crear un nuevo grupo de prueba con la misma configuración que la que está duplicando. </p> </td>
+   <td colname="col2"> <p>Le permite crear un nuevo grupo de prueba con la misma configuración que el grupo que está duplicando. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Eliminar </span></b> </p> </td>
-   <td colname="col2"> <p>Permite eliminar un grupo de prueba. Los segmentos de prueba no se asignarán a los destinos, el segmento de línea base y las características de conversión asociadas al grupo de prueba son totalmente editables. Una alerta le solicitará que descargue el archivo CSV cuando elimine un grupo de prueba para guardar los informes si lo desea. </p> </td>
+   <td colname="col2"> <p>Permite eliminar un grupo de prueba. Los segmentos de prueba no se asignarán a los destinos, el segmento de línea de base y las características de conversión asociadas al grupo de prueba se podrán editar por completo. Una alerta le pedirá que descargue el archivo CSV cuando elimine un grupo de prueba para guardar el informe si lo desea. </p> </td>
   </tr>
  </tbody>
 </table>
