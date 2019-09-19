@@ -1,27 +1,27 @@
 ---
-description: El Generador de rasgos es una característica que mejora según los procesos tradicionales de creación de segmentos y creación de audiencias basados en píxeles. Funciona procesando los datos de página con reglas del lado del servidor creadas en la interfaz de usuario.
-seo-description: El Generador de rasgos es una característica que mejora según los procesos tradicionales de creación de segmentos y creación de audiencias basados en píxeles. Funciona procesando los datos de página con reglas del lado del servidor creadas en la interfaz de usuario.
-seo-title: Acerca del Generador de rasgos
+description: El Generador de características es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
+seo-description: El Generador de características es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
+seo-title: Acerca del Generador de características
 solution: Audience Manager
-title: Acerca del Generador de rasgos
-uuid: 4258616 c -7 a 9 f -4 fe 9-95 e 2-9 f 51896 a 14 ab
+title: Acerca del Generador de características
+uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# About Trait Builder {#about-trait-builder}
+# Acerca del Generador de características {#about-trait-builder}
 
-[!UICONTROL Trait Builder] es una característica que mejora con los procesos tradicionales de creación de audiencia y de creación de segmentos basados en píxeles. Funciona procesando los datos de página con reglas del lado del servidor creadas en la interfaz de usuario.
+[!UICONTROL Trait Builder] es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
 
 <!-- c_tb_about.xml -->
 
-Compared to pixels, which fire in response to simple "yes" or "true" conditions, [!UICONTROL Trait Builder] lets you:
+En comparación con los píxeles, que se activan en respuesta a condiciones simples de "sí" o "verdadero", [!UICONTROL Trait Builder] permite:
 
-* Collect *all* page data so you can use it later to build relevant, useful traits.
-* Build traits based on [key-value pairs](../../reference/key-value-pairs-explained.md) passed in during data collection.
-* Evaluate complex data conditions with server-side rules that work with [Boolean expressions](../../reference/boolean-expressions-tsb.md) and [comparison operators](../../features/traits/trait-comparison-operators.md).
+* Recopile *todos* los datos de la página para poder usarlos más adelante para crear características útiles y relevantes.
+* Genere características basadas en pares [de valor](../../reference/key-value-pairs-explained.md) clave pasados durante la recopilación de datos.
+* Evalúe condiciones de datos complejas con reglas del lado del servidor que funcionan con expresiones [](../../reference/boolean-expressions-tsb.md) booleanas y operadores [de](../../features/traits/trait-comparison-operators.md)comparación.
 
 * Reduzca o elimine la necesidad de mantener píxeles de recopilación de datos en el inventario.
-* Monitor performance with [!DNL Audience Manager] reports.
+* Monitorear el rendimiento con [!DNL Audience Manager] los informes.
