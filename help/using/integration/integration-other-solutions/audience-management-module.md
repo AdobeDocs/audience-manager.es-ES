@@ -1,37 +1,37 @@
 ---
-description: Agregue el módulo Gestión de público a Adobe Analytics appmeasurement para reenviar datos de Analytics a Audience Manager en lugar de tener un código de biblioteca de integración de datos (DIL) de Audience Manager que envíe un píxel desde la página.
-keywords: audience analytics; analytics; ssf; reenvío de servidor
-seo-description: Agregue el módulo Gestión de público a Adobe Analytics appmeasurement para reenviar datos de Analytics a Audience Manager en lugar de tener un código de biblioteca de integración de datos (DIL) de Audience Manager que envíe un píxel desde la página.
-seo-title: Implementación del módulo Gestión de público
+description: Agregue el módulo Gestión de público a AppMeasurement de Adobe Analytics para reenviar datos de Analytics a Audience Manager en lugar de que el código DIL (Biblioteca de integración de datos de Audience Manager) envíe un píxel desde la página.
+keywords: análisis de audiencia; analytics; ssf; reenvío del lado del servidor
+seo-description: Agregue el módulo Gestión de público a AppMeasurement de Adobe Analytics para reenviar datos de Analytics a Audience Manager en lugar de que el código DIL (Biblioteca de integración de datos de Audience Manager) envíe un píxel desde la página.
+seo-title: Implementar el módulo Gestión de público
 solution: Audience Manager
-title: Implementación del módulo Gestión de público
-uuid: 08846427-def 3-4 a 15-88 e 5-08882 d 8 d 57 ce
+title: Implementar el módulo Gestión de público
+uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
 source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 ---
 
 
-# Implement the Audience Management Module {#implement-the-audience-management-module}
+# Implementar el módulo Gestión de público {#implement-the-audience-management-module}
 
-Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
+Agregue el [!UICONTROL Audience Management Module] a [!DNL Adobe Analytics] para reenviar [!UICONTROL AppMeasurement] datos a Audience Manager en lugar de hacer que el código de Audience Manager [!DNL Analytics] ( [!UICONTROL Data Integration Library][!UICONTROL DIL]) envíe un píxel desde la página.
 
 ## Requisitos previos {#prereqs}
 
 Además de implementar el código descrito en este documento, también debe:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
+* Habilite [!UICONTROL Server-Side Forwarding] para grupos de informes en la [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementación {#implementation}
 
-To implement the [!UICONTROL Audience Management Module]:
+Para implementar la [!UICONTROL Audience Management Module]:
 
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
-1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
-1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
-1. Add the code, `s.loadModule("AudienceManagement");`, just above the `AppMeasurement_Module_AudienceManagement.js` code you just added in the previous step.
-1. Update and copy the code below and add it to the `doPlugins` function in your `AppMeasurement.js` file.
+1. Descargue [!UICONTROL AppMeasurement] mediante el Administrador [de códigos](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) de Analytics (requiere la versión 1.5 o posterior).
+1. Actualice su [!UICONTROL AppMeasurement] código a la versión incluida en el archivo zip descargado.
+1. Copie todo el código del `AppMeasurement_Module_AudienceManagement.js` archivo zip. Pegue el archivo en el `appMeasurement.js` archivo justo encima del texto, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
+1. Agregue el código, `s.loadModule("AudienceManagement");`, justo encima del `AppMeasurement_Module_AudienceManagement.js` código que acaba de agregar en el paso anterior.
+1. Actualice y copie el código siguiente y agréguelo a la `doPlugins` función del `AppMeasurement.js` archivo.
 
 ```js
 s.AudienceManagement.setup({ 
@@ -49,33 +49,33 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
+>La `audienceManagement.setup` función comparte parámetros con la función Audience Manager `DIL.create` , que puede configurar en este código. Para obtener más información sobre estos parámetros, consulte [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
 
-## Code Elements Defined {#code-elements-defined}
+## Elementos de código definidos {#code-elements-defined}
 
-La tabla siguiente define las variables importantes en la muestra de código.
+La siguiente tabla define variables importantes en el ejemplo de código.
 
 | Parámetro | Descripción |
 |--- |--- |
-| `partner` | Requerido. Es un nombre asociado que Adobe le asigna. A veces se denomina «ID de socio» o «subdominio asociado». Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name. |
-| `containerNSID` | Requerido. Most customers can just set  `"containerNSID":0` . Sin embargo, si su empresa necesita personalizar sincronizaciones de ID con otro contenedor, puede especificar ese ID de contenedor aquí. |
-| `uuidCookie` | Opcional. Esta configuración permite establecer una cookie de Adobe en el dominio de origen. This cookie contains the [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Requerido. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>Es [!UICONTROL Experience Cloud Organization ID] el ID con el que se proporciona una empresa al registrarse para [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `partner` | Requerido. Es un nombre de socio que Adobe le asigna. A veces se le denomina "ID de socio" o "subdominio de socio".  Póngase en contacto con su asesor de Adobe o con el Servicio de atención [al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html) si no conoce el nombre de su socio. |
+| `containerNSID` | Requerido. La mayoría de los clientes pueden establecer `"containerNSID":0` . Sin embargo, si su empresa necesita personalizar la sincronización de ID con un contenedor diferente, puede especificar ese ID de contenedor aquí. |
+| `uuidCookie` | Opcional. Esta configuración le permite establecer una cookie de Adobe en el dominio de origen. Esta cookie contiene el [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | Requerido. El `namespace` parámetro es obligatorio si utiliza el módulo AudienceManagement incluido con [!UICONTROL AppMeasurement] la versión 2.10 o posterior. Este [!UICONTROL AudienceManagement] módulo requiere que utilice [!UICONTROL Experience Cloud ID Service] 3.3 o posterior. <br> El [!UICONTROL Experience Cloud Organization ID] es el ID que se proporciona a una empresa al registrarse para el [!UICONTROL Experience Cloud]. Descubra el identificador de organización de su empresa en [Organizaciones y vinculación](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)de cuentas. |
 
-## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
+## Resultados: Reenvío de datos a Audience Manager {#results-data-forwarding}
 
-[!DNL Analytics] La implementación envía datos a Audience Manager una vez que haya:
+La [!DNL Analytics] implementación envía datos a Audience Manager después de:
 
-* Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
+* Habilitado [!UICONTROL Server-Side Forwarding] (consulte con su asesor sobre esta función);
 * Se ha implementado el servicio de ID;
-* Installed the [!UICONTROL Audience Management Module].
+* Se instaló el [!UICONTROL Audience Management Module].
 
-This process sends data to [!DNL Audience Manager]:
+Este proceso envía datos a [!DNL Audience Manager]:
 
 * En las llamadas de vista de página;
 * Desde vínculos rastreados;
-* Desde las vistas de vídeo de hitos de vídeo y de latidos.
+* Desde las vistas de vídeo de hito y latido.
 
 >[!NOTE]
 >
->The variables sent to Audience Manager from [!DNL Analytics] use special prefixes. Debe comprender y tener en cuenta estos prefijos al crear características de Audience Manager. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md).
+>Las variables enviadas a Audience Manager desde [!DNL Analytics] utilizan prefijos especiales. Debe comprender y tener en cuenta estos prefijos al crear características de Audience Manager. Para obtener más información sobre estos prefijos, consulte Requisitos de [prefijo para variables](../../features/traits/trait-variable-prefixes.md)clave.
