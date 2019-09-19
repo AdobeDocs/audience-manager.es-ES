@@ -1,17 +1,17 @@
 ---
 description: Preguntas y problemas comunes de API.
 seo-description: Preguntas y problemas comunes de API.
-seo-title: Preguntas más frecuentes sobre API
+seo-title: Preguntas frecuentes sobre API
 solution: Audience Manager
-title: Preguntas más frecuentes sobre API
-uuid: 8222 ebf 0-b 50 e -4 f 48-8021-dbfca 2828 b 7 c
+title: Preguntas frecuentes sobre API
+uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# API FAQ{#api-faq}
+# Preguntas frecuentes sobre API{#api-faq}
 
 Preguntas y problemas comunes de API.
 
@@ -21,28 +21,28 @@ faq_api.xml
 
  -->
 
-The [REST API](../api/rest-api-main/rest-api-main.md) documentation contains details about specific methods and code samples.
+La documentación de la API [de](../api/rest-api-main/rest-api-main.md) REST contiene detalles sobre métodos específicos y ejemplos de código.
 
 <br> 
 
-**¿Por qué[!UICONTROL DIL]realiza llamadas y[!UICONTROL GET][!UICONTROL POST]métodos de eventos?**
+**¿Por qué[!UICONTROL DIL]se realizan llamadas de eventos con[!UICONTROL GET]y con[!UICONTROL POST]métodos?**
 
-[!UICONTROL DIL] envía datos a [!DNL Audience Manager] un método `GET` o `POST` a un método basado en la longitud de la cadena de consulta de la llamada de evento. This behavior is built in to `GET` and `POST` methods by default. It is not specific to [!DNL Audience Manager].
+[!UICONTROL DIL] pasa datos a [!DNL Audience Manager] con un `GET` método o `POST` según la longitud de la cadena de consulta de la llamada al evento. Este comportamiento está integrado en `GET` y `POST` los métodos de forma predeterminada. No es específico de [!DNL Audience Manager].
 
-* [!UICONTROL DIL] hace llamadas a eventos `GET` cuando una dirección URL contiene 2048 caracteres o menos. A `GET` event call includes data in the URL as query string parameters, which are passed in as key-value pairs.
+* [!UICONTROL DIL] realiza llamadas de evento con `GET` cuando una dirección URL contiene 2048 caracteres o menos. Una llamada `GET` de evento incluye datos en la dirección URL como parámetros de cadena de consulta, que se pasan como pares clave-valor.
 
-* [!UICONTROL DIL] hace llamadas de evento cuando `POST` una URL contiene más de 2048 caracteres. A `POST` event call includes data in the body of the request. [!UICONTROL DIL] coloca los datos en pares de valor clave y pasa información como datos de formulario en lugar de en la cadena de consulta URL.
+* [!UICONTROL DIL] realiza llamadas de eventos con `POST` cuando una dirección URL contiene más de 2048 caracteres. Una llamada `POST` de evento incluye datos en el cuerpo de la solicitud. [!UICONTROL DIL] coloca los datos en pares clave-valor y pasa la información como datos de formulario en lugar de hacerlo en la cadena de consulta URL.
 
-Aunque cada método pasa datos de una forma diferente, esto no afecta a la funcionalidad. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.
-
-<br> 
-
-**¿Qué debo hacer[!UICONTROL REST API]para hacer?**
-
-The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.
+Aunque cada método pasa los datos de una manera diferente, esto no afecta a la funcionalidad. Por ejemplo, con cualquiera de los métodos, [!DNL Audience Manager] sigue enviando datos a destinos, la sincronización de ID funciona normalmente y puede crear características a partir de señales de datos.
 
 <br> 
 
-**¿Cómo se obtiene un[!UICONTROL REST API]ID de cliente y un secreto?**
+**¿Qué me permiten[!UICONTROL REST API]hacer?**
 
-Contact your Partner Solutions representative to obtain [!DNL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#oauth) for more information.
+Los [!UICONTROL REST API]s le permiten trabajar mediante programación con la mayoría de [!DNL Audience Manager] las funciones y características disponibles en la interfaz de usuario.
+
+<br> 
+
+**¿Cómo obtengo un ID de[!UICONTROL REST API]cliente y un secreto?**
+
+Póngase en contacto con el representante de soluciones de socio para obtener las credenciales de [!DNL API] acceso. Nuestras API utilizan los estándares [OAuth 2.0](https://oauth.net/2/) para la autenticación, autorización y renovación de testigos. Consulte Autenticación [OAuth](../api/rest-api-main/aam-api-getting-started.md#oauth) para obtener más información.
