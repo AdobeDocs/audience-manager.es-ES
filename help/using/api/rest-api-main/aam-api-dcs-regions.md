@@ -1,27 +1,27 @@
 ---
-description: Métodos que permiten enumerar mediante programación regiones de DCS de Audience Manager.
-seo-description: Métodos que permiten enumerar mediante programación regiones de DCS de Audience Manager.
+description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
+seo-description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
 seo-title: Métodos de API de región DCS
 solution: Audience Manager
 title: Métodos de API de región DCS
-uuid: 00 b 70927-b 3 b 7-46 bb -8 be 1-37 c 6100 ecf 80
+uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# DCS Region API Methods {#dcs-region-api-methods}
+# Métodos de API de región DCS {#dcs-region-api-methods}
 
-Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
+Métodos que le permiten enumerar mediante programación [!UICONTROL DCS] regiones de Audience Manager.
 
 <!-- c_rest_api_regions.xml -->
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## List a Specific DCS Region {#list-specific-dcs-region}
+## Enumerar una región específica de DCS {#list-specific-dcs-region}
 
-`GET` Método para enumerar una [!UICONTROL DCS] región específica.
+Un `GET` método para mostrar una [!UICONTROL DCS] región específica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -45,13 +45,13 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
   }
 ```
 
-Returns `200 OK` if successful.
+Devuelve `200 OK` si se realiza correctamente.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## List DCS Regions {#list-dcs-regions}
+## Lista de regiones DCS {#list-dcs-regions}
 
-`GET` Método de lista [!UICONTROL DCS] de regiones.
+Un `GET` método para enumerar [!UICONTROL DCS] regiones.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -78,6 +78,6 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 ]
 ```
 
-Returns `200 OK` if successful.
+Devuelve `200 OK` si se realiza correctamente.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
