@@ -1,19 +1,19 @@
 ---
-description: Una solicitud masiva devuelve datos que puede utilizar con los distintos encabezados en las hojas de cálculo Actualizar, Crear, Estimar y Eliminar.
-seo-description: Una solicitud masiva devuelve datos que puede utilizar con los distintos encabezados en las hojas de cálculo Actualizar, Crear, Estimar y Eliminar.
+description: Una solicitud masiva devuelve datos que puede utilizar con los diferentes encabezados de las hojas de cálculo de actualización, creación, estimación y eliminación.
+seo-description: Una solicitud masiva devuelve datos que puede utilizar con los diferentes encabezados de las hojas de cálculo de actualización, creación, estimación y eliminación.
 seo-title: Solicitudes masivas
 solution: Audience Manager
 title: Solicitudes masivas
-uuid: 0192 d 26 a -4 cea -4 e 12-9 fea -388 b 92 b 382 f 1
+uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Requests{#bulk-requests}
+# Solicitudes masivas{#bulk-requests}
 
-Una solicitud masiva devuelve datos que puede utilizar con los distintos encabezados en las hojas de cálculo Actualizar, Crear, Estimar y Eliminar.
+Una solicitud masiva devuelve datos que puede utilizar con los diferentes encabezados de las hojas de cálculo de actualización, creación, estimación y eliminación.
 
 <!-- 
 
@@ -23,25 +23,26 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools]*No* se admite [!DNL Audience Manager]en. Esta herramienta se proporciona para su comodidad y solo como cortesía. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Los permisos de grupo RBAC](../../features/administration/administration-overview.md) asignados en [!DNL Audience Manager] la interfaz de usuario se aceptan en [!UICONTROL Bulk Management Tools]la.
+>Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
-The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. sino que devuelve datos basados en el botón de acción que se hace clic en la barra de herramientas. Además, una función opcional de informes devuelve un recuento de frecuencia para los píxeles activados y el recuento de usuarios únicos para varios intervalos de tiempo fijo.
+La hoja de cálculo no tiene su propio conjunto de encabezados de columna y no es necesario copiar los ID en ninguna de las columnas. [!UICONTROL Request] En su lugar, devuelve datos basados en el botón de acción en el que se hace clic en la barra de herramientas. Además, una función de informes opcional devuelve un recuento de frecuencia para los incendios de píxeles y un recuento de usuarios únicos durante varios intervalos de tiempo fijos.
 
-To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Para realizar solicitudes masivas, abra la [!UICONTROL Bulk Management Tools] hoja de cálculo y:
 
 1. Click the **[!UICONTROL Request]** tab.
-2. En la barra de herramientas situada en la parte superior de la hoja de cálculo, haga clic en un botón de solicitud correspondiente a los datos con los que desee trabajar. Puede solicitar:
+2. En la barra de herramientas de la parte superior de la hoja de cálculo, haga clic en un botón de solicitud correspondiente a los datos con los que desee trabajar. Puede solicitar:
 
    * ID del proveedor de datos
    * Señales derivadas
    * Asignaciones de destino
-   * Características basadas en reglas y en variables
+   * Características basadas en reglas y integradas
    * Segmentos
-   * ID de carpetas de segmentos y características
-   [!DNL Audience Manager] La API escribe datos masivos en la [!UICONTROL Request] hoja de cálculo.
+   * ID de carpeta de segmentos y características
+   La [!DNL Audience Manager] API devuelve los datos masivos a la [!UICONTROL Request] hoja de cálculo.
 
 >[!NOTE]
 >
->In your results, the `createTime` and `updateTime` columns return data in exponential notation. Las marcas de fecha y hora subyacentes se registran en UNIX UTC. Actualmente, la hoja de cálculo no puede devolver marcas de fecha y hora en formato legible.
+>En los resultados, las `createTime` columnas y `updateTime` devuelven datos en notación exponencial. Las marcas de fecha y hora subyacentes se registran en la hora UNIX UTC. Actualmente, la hoja de cálculo no puede devolver marcas de fecha y hora en un formato legible.
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+
+Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
