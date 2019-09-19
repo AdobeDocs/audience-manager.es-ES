@@ -4,7 +4,7 @@ seo-description: Una configuración booleana opcional que determina si DIL enví
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
-uuid: c 5362 a 38-93 c 0-4 edb-bdcb -106 e 43 f 33 a 92
+uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
@@ -19,10 +19,10 @@ Una configuración booleana opcional que determina si DIL envía datos (o no) da
 
 To use `isCoopSafe` you must:
 
-* Use [!UICONTROL DIL] v6.11 or higher.
+* Utilice [!UICONTROL DIL] v6.11 o superior.
 * Participar en [Device Co-Op de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
-* Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No hay ruta de autoservicio para habilitar estos indicadores.
+* Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No hay una ruta de autoservicio para habilitar estos indicadores.
 
 ## Casos de uso {#use-cases}
 
@@ -63,7 +63,7 @@ Las opciones booleanas determinan cómo Device Co-Op utiliza o no los datos de c
 
 **Ejemplo de código**
 
-Configúrelo cuando DIL se instancie.
+Establezca esta opción cuando DIL cree instancias.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -113,11 +113,11 @@ Estas API permiten sobrescribir el estado de `isCoopSafe`. Son necesarias porque
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
    <td colname="col2"> <p>Establece el parámetro POST <code>d_coop_safe=1</code> en todas las llamadas de evento posteriores. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopunsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
    <td colname="col2"> <p>Establece el parámetro POST <code>d_coop_unsafe=1</code> en todas las llamadas de evento posteriores. </p> </td> 
   </tr> 
  </tbody> 
