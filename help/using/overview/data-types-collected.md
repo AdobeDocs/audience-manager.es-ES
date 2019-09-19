@@ -4,28 +4,28 @@ seo-description: Audience Manager le ayuda a recopilar y administrar datos de or
 seo-title: Tipos de datos recopilados
 solution: Audience Manager
 title: Tipos de datos recopilados
-uuid: a 2 ddf 470-32 e 6-41 ec-a 1 d 7-a 6232 ef 084 b 9
+uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
 source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 
 ---
 
 
-# Types of Data Collected{#types-of-data-collected}
+# Tipos de datos recopilados{#types-of-data-collected}
 
 Audience Manager le ayuda a recopilar y administrar datos de origen, de terceros y de terceros.
 
-Desbloquear los recursos de información del cliente almacenados en varios silos es uno de los mayores desafíos de datos que enfrentan las empresas hoy. A partir de bases de datos CRM, a sistemas de registro, a servidores de publicidad, etc., las empresas necesitan herramientas que ayuden a centralizar datos valiosos y administrar la información de clientes/visitantes como un único recurso de datos estratégicos. Audience Manager le ayuda a desbloquear información de clientes aislada y administrar la recopilación de datos desde varias fuentes. Los datos recopilados se pueden administrar en función de los valores de tiempo invertido en el elemento de datos (TTL), lo que ayuda al editor a controlar la caducidad de los datos en todas las fuentes. Audience Manager está diseñado para ayudarle a administrar los siguientes tipos de datos:
+Desbloquear los activos de información de los clientes almacenados en varios silos es uno de los mayores desafíos de datos que enfrentan las empresas en la actualidad. Desde las bases de datos CRM, los sistemas de registro, los servidores de publicidad, etc., las empresas necesitan herramientas que ayuden a centralizar datos valiosos y a administrar la información de clientes y audiencias como un único recurso de datos estratégico. Audience Manager le ayuda a desbloquear la información del cliente aislado y a administrar la recopilación de datos de varias fuentes. Los datos recopilados se pueden administrar en función de los valores de tiempo de vida (TTL) del elemento de datos, lo que ayuda al editor a controlar la caducidad de los datos en todas las fuentes. Audience Manager está diseñado para ayudarle a administrar los siguientes tipos de datos:
 
-| Tipo de datos | Donde los datos proceden de |
+| Tipo de datos | De dónde provienen los datos |
 |---|---|
-| **Origen** | Clientes. Los datos se recopilan en línea (de interacciones del consumidor en sus sitios web) o sin conexión. |
+| **Origen** | Clientes. Los datos se recopilan en línea (a partir de las interacciones de los consumidores en sus sitios web) o sin conexión. |
 | **Segundo nivel** | Socios estratégicos y anunciantes. |
-| **Terceros** | Proveedores de datos o intercambios. Los datos pueden incluir información como intención, demografía, social/estilo de vida, psicografía, etc. |
+| **Terceros** | Proveedores de datos y/o intercambios. Los datos pueden incluir información como intención, demografía, estilo de vida o social, psicografía, etc. |
 
 ## First-Party Data Collection {#first-party-data}
 
-La recopilación de datos de origen es una función principal de Audience Manager. Esta competencia básica cubre las necesidades de nuestros clientes (editores o anunciantes) que desean utilizar datos propietarios como la piedra angular de sus programas de mercadotecnia o para dirigir y modelar con otras fuentes de datos.
+La recopilación de datos de origen es una función principal de Audience Manager. Esta competencia básica responde a las necesidades de nuestros clientes (editores o anunciantes) que desean utilizar los datos propios como la piedra angular de sus programas de marketing o para dirigir y modelar con otras fuentes de datos.
 
 <!-- 
 
@@ -33,17 +33,17 @@ c_1st_party_data.xml
 
  -->
 
-Audience Manager trabaja con los clientes para comprender su estrategia de datos y, a continuación, vuelve a asignar dicha estrategia a un plan personalizado de recopilación de datos. Nuestro equipo de soluciones de socio trabaja con usted para evaluar sitios, señales de datos sin procesar y otras interacciones de usuario en sus sitios web. Con esta información, le ayudaremos a crear una estrategia de recopilación de datos que capture señales de datos de nivel de usuario desde varias páginas del inventario. Los datos capturados se almacenan y se asignan a una taxonomía predefinida, que se puede actualizar en cualquier momento, ya que sus necesidades comerciales cambian.
+Audience Manager trabaja con los clientes para comprender su estrategia de datos y, a continuación, asigna esa estrategia a un plan de recopilación de datos personalizado. Nuestro equipo de Soluciones para Socios trabaja con usted para evaluar los sitios, las señales de datos sin procesar y otras interacciones del usuario en sus sitios web. Con esta información, le ayudaremos a crear una estrategia de recopilación de datos personalizada que capture las señales de datos de nivel de usuario de diversas páginas del inventario. Los datos capturados se almacenan y se asignan de nuevo a una taxonomía predefinida, que se puede actualizar en cualquier momento, a medida que cambian las necesidades comerciales.
 
-El siguiente ejemplo ilustra cómo se pueden capturar los elementos de datos potenciales desde una página de compra de muestra.
+El siguiente ejemplo ilustra cómo se pueden capturar los elementos de datos potenciales desde una página de compras de muestra.
 
 ![](assets/1st_party_800px.png)
 
-Una vez recopilados los datos sin procesar, se vuelve a asignar a características definidas por el cliente en la plataforma de Audience Manager. Tanto la taxonomía como las asignaciones de datos pueden ajustarse en cualquier momento sin realizar cambios en el código de recopilación de datos.
+Una vez recopilados los datos sin procesar, se vuelven a asignar a características definidas por el cliente dentro de la plataforma de Audience Manager. Tanto la taxonomía como las asignaciones de datos se pueden ajustar en cualquier momento sin realizar cambios en el código de recopilación de datos.
 
-## Second-Party Data Collection {#second-party-data}
+## Recopilación de datos de terceros {#second-party-data}
 
-Los datos de origen proceden de un socio comercial estratégico (no son datos del editor). Esta información se recopila y administra igual que los datos de origen.
+Los datos de terceros provienen de un socio comercial estratégico (no son datos del editor). Esta información se recopila y gestiona como los datos de origen.
 
 <!-- 
 
@@ -51,15 +51,15 @@ c_2nd_party_data.xml
 
  -->
 
-En un escenario de datos de segundo nivel, los anunciantes envían sus propios recursos de datos a editores para que puedan combinar dicha información con los datos del editor y ejecutar un programa publicitario más dirigido. Además, los editores pueden ampliar su grupo de audiencia asociando con sus anunciantes. En la mayoría de los casos, estos arreglos implican relaciones contractuales limitadas a colocar la etiqueta de contenedor de Audience Manager en el sitio del socio para facilitar la recopilación y el uso compartido de datos.
+En un escenario de datos de terceros, los anunciantes envían sus propios recursos de datos a los editores para que puedan combinar esa información con los datos del editor y, a continuación, ejecutar un programa de publicidad más dirigido. Además, los editores pueden ampliar su grupo de audiencias asociándose con sus anunciantes. En la mayoría de los casos, estos acuerdos implican relaciones contractuales limitadas a poner la etiqueta de contenedor de Audience Manager en el sitio del socio para facilitar la recopilación y el uso compartido de datos.
 
-Un ejemplo de recopilación de datos de origen y remercadotecnia podría involucrar a un fabricante de automóviles que recopila datos en sus páginas de configuración de automóviles y luego compartir esta información con socios clave. En este caso, el fabricante del automóvil podría proporcionar diferentes publicidades en un sitio de socios de Audience Manager para consumidores que configuraron diferentes tipos de opciones de vehículo (por ejemplo: color, modelo, etc.).
+Un ejemplo de recopilación y remercadotecnia de datos de terceros podría consistir en que un fabricante de automóviles recopile datos en las páginas de configuración de su automóvil y luego comparta esta información con socios clave. En este caso, el fabricante del automóvil podría ofrecer diferentes anuncios en un sitio de socios de Audience Manager para los consumidores que configuraron diferentes tipos de opciones del vehículo (por ejemplo, color, modelo, etc.).
 
 ![](assets/2nd_party_700px.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
-Los datos de terceros son información recopilada y compartida por proveedores fuera de Audience Manager.
+Los datos de terceros son información recopilada y compartida por proveedores externos a Audience Manager.
 
 <!-- 
 
@@ -67,17 +67,17 @@ c_3rd_party_data.xml
 
  -->
 
-Los datos de terceros pueden utilizarse para calificar segmentos de datos existentes (por ejemplo, edad, ingresos del hogar, etc.), proporcionar datos en demanda pero no disponibles de otra manera, o utilizarse en modelos de looklike para una base de usuarios conocida desde datos de origen y de terceros. Audience Manager funciona con muchos proveedores de datos de terceros y le ayudará a comprender el tipo de datos que recopilan estos proveedores de datos para poder realizar los acuerdos estratégicos adecuados con cada proveedor.
+Los datos de terceros se pueden utilizar para calificar segmentos de datos existentes (por ejemplo, edad, ingresos del hogar, etc.), proporcionar datos que están en demanda pero que no están disponibles de otro modo, o utilizarse en modelos parecidos a los de una base de usuarios conocida a partir de datos de origen y de terceros. Audience Manager trabaja con muchos proveedores de datos de terceros y le ayudará a comprender el tipo de datos que estos proveedores de datos recopilan para que pueda realizar los tratos estratégicos adecuados con cada proveedor.
 
 >[!NOTE]
 >
->For a full list of third-party data providers supported by [!DNL Audience Manager], see the [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
+>Para obtener una lista completa de proveedores de datos de terceros admitidos por [!DNL Audience Manager], consulte [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
 
-Audience Manager se integra con otros proveedores de datos en función de sus API y conjuntos de datos disponibles. La recopilación de datos funciona en tiempo real, cuando un usuario explora el sitio o a través de metodologías fuera de banda, donde los ID se sincronizan entre socios y los datos se transfieren entre servidores después de que un usuario haya abandonado el sitio. En ambos casos, los clientes de Audience Manager obtienen la ventaja de tener datos de terceros sincronizados en nuestra plataforma, lo que significa que cada cliente o dominio no tiene que realizar su propia sincronización. Esto ayuda a aumentar el alcance y reduce las llamadas al servidor de la página.
+Audience Manager se integra con otros proveedores de datos en función de sus API y conjuntos de datos disponibles. La recopilación de datos funciona en tiempo real, a medida que un usuario navega por el sitio o a través de metodologías fuera de banda en las que los ID se sincronizan entre socios y los datos se transfieren entre servidores después de que un usuario abandona el sitio. En cualquier caso, los clientes de Audience Manager obtienen la ventaja de tener datos de terceros sincronizados en nuestra plataforma, lo que significa que cada cliente o dominio no tiene que realizar su propia sincronización. Esto ayuda a aumentar el alcance y reduce las llamadas al servidor desde la página.
 
-## Match Partners {#match-partners}
+## Asociados de Negocios de Coincidencia {#match-partners}
 
-Muchos clientes eligen trabajar con socios de coincidencia de datos de terceros. Estas entidades tienen relaciones con sitios que tienen requisitos de registro y pueden procesar archivos de datos de clientes haciendo coincidir (en tiempo real) según la red de registros.
+Muchos clientes eligen trabajar con socios de coincidencia de datos de terceros. Estas entidades tienen relaciones con sitios que tienen requisitos de registro y pueden procesar archivos de datos de clientes al hacerlos coincidir (en tiempo real) según su red de registro.
 
 ![](assets/data_provider_match_700px.png)
 
