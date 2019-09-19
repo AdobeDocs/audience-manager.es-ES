@@ -1,43 +1,43 @@
 ---
-description: Utilice el Explorador de datos para capitalizar audiencias históricas creando características basadas en señales utilizadas y no utilizadas, y llenarlas con datos históricos para evitar la posible pérdida de audiencias relevantes.
-seo-description: Utilice el Explorador de datos para capitalizar audiencias históricas creando características basadas en señales utilizadas y no utilizadas, y llenarlas con datos históricos para evitar la posible pérdida de audiencias relevantes.
+description: Utilice el Explorador de datos para capitalizar audiencias históricas mediante la creación de características basadas en señales utilizadas y no utilizadas, y rellenándolas con datos históricos para evitar posibles pérdidas de audiencias relevantes.
+seo-description: Utilice el Explorador de datos para capitalizar audiencias históricas mediante la creación de características basadas en señales utilizadas y no utilizadas, y rellenándolas con datos históricos para evitar posibles pérdidas de audiencias relevantes.
 seo-title: Información general, beneficios y casos de uso
 title: Información general, beneficios y casos de uso
-uuid: 3 bd 32 d 4 a-ade 3-413 d -837 a -9 edd 14 d 415 a 5
+uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
 
 
-# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
+# Explorador de datos: información general, beneficios y casos de uso {#overview-benefits-and-use-cases}
 
-Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+Utilice [!UICONTROL Data Explorer] para capitalizar audiencias históricas mediante la creación de características basadas en señales usadas y no utilizadas, y rellenándolas con datos históricos para evitar posibles pérdidas de audiencias relevantes.
 
 ## Información general {#overview}
 
-Crear características basadas en perspectivas existentes relacionadas con su audiencia es un proceso bastante directo, siempre y cuando siempre sepa quién es la audiencia. ¿Pero con qué frecuencia sucede?
+Crear características basadas en perspectivas existentes relacionadas con la audiencia es un proceso bastante sencillo, siempre que siempre sepa quién es la audiencia. Pero, ¿con qué frecuencia sucede eso?
 
-[!UICONTROL Data Explorer] simplifica el proceso de administración de características al mismo tiempo que ofrece un mayor grado de flexibilidad cuando se trata de la depuración de taxonomía. Two [!UICONTROL Data Explorer] components help you achieve this:
+[!UICONTROL Data Explorer] simplifica el proceso de administración de características, al tiempo que le ofrece un mayor grado de flexibilidad en cuanto a la depuración de la taxonomía. Dos [!UICONTROL Data Explorer] componentes ayudan a lograr esto:
 
-* [Señales](../../features/data-explorer/data-explorer-signals-dashboard.md) y [!UICONTROL Signals Search] ayuda a rastrear las señales recibidas por [!DNL Audience Manager] las que puede utilizar para generar nuevas características o agregar a las existentes.
+* [Señales Tablero](../../features/data-explorer/data-explorer-signals-dashboard.md) y [!UICONTROL Signals Search] ayuda a realizar un seguimiento de las señales recibidas por [!DNL Audience Manager] el usuario para crear nuevas características o agregarlas a las existentes.
 
-* [El relleno de realización de características](../../features/data-explorer/data-explorer-trait-backfill.md) ayuda a calificar audiencias históricas para características creadas recientemente, para que pueda incluirlas en futuros esfuerzos de segmentación.
+* [El relleno](../../features/data-explorer/data-explorer-trait-backfill.md) de realización de características le ayuda a calificar audiencias históricas para características creadas recientemente, de modo que pueda incluirlas en futuros esfuerzos de segmentación.
 
 ## Ventajas {#benefits}
 
-Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
+Utilícelo [!UICONTROL Data Explorer] para optimizar la creación de audiencias de varias formas:
 
-* **Céntrese en las audiencias de valor máximo**. Monitoree los cambios de tendencia en la búsqueda y en el comportamiento de exploración de las páginas, luego cree características específicas para su comportamiento. Elimine la necesidad de crear características "solo en caso de" y céntrese en señales relevantes.
-* **Evite la pérdida de datos**. Rellena características con características históricas para que no se pierdan los segmentos de audiencia porque no ha creado características antes de recibir las señales.
-* **Mejorar el flujo de trabajo**. Descubrir las señales de tendencias y convertirlas rápidamente en características procesables.
+* **Céntrese en audiencias** de alto valor. Monitoree los cambios de tendencia en el comportamiento de búsqueda y exploración de las páginas y luego cree características específicas para su comportamiento. Elimine la necesidad de crear características "por si acaso" y concéntrese en señales relevantes.
+* **Evite la pérdida** de datos. Rellene los rasgos con nociones históricas para no perder los segmentos de audiencia porque no creó características antes de recibir las señales.
+* **Mejore el flujo de trabajo**. Descubrir las señales de tendencia y convertirlas rápidamente en características procesables.
 
 ## Casos de uso {#use-cases-data-explorer}
 
 ### Ejemplo 1
 
-Un minorista minorista global tiene un gran volumen de tráfico de visitantes, pero las tasas de conversión son más bajas de lo esperado, aunque han optimizado el contenido para varias plataformas. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. La empresa puede aprovechar esta perspectiva actualizando sus existencias y dirigiendo a dichos visitantes a campañas personalizadas.
+Un minorista electrónico global tiene un gran volumen de tráfico de visitantes, pero las tasas de conversión son menores de lo esperado, aunque han optimizado el contenido para varias plataformas. Utilizando el panel [](../../features/data-explorer/data-explorer-signals-dashboard.md)Señales, identifican un gran volumen de señales no utilizadas, lo que indica que los visitantes buscan una marca electrónica específica que no está actualmente en existencias. La empresa puede aprovechar esta perspectiva actualizando su stock y dirigiéndose a los visitantes con campañas personalizadas.
 
 ### Ejemplo 2
 
-Cuando un proveedor de servicios de viajes agrega nuevos destinos a su sitio web reservación, los anunciará a audiencias históricas, aunque no tengan características creadas para ellos. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. A continuación, cree nuevos segmentos con las nuevas características e inmediatamente los dirija con campañas dedicadas.
+Después de que un proveedor de servicios de viajes agrega nuevos destinos a su sitio web de reservación, quiere anunciarlos a audiencias históricas, aunque no tienen ninguna característica creada para ellos. Pueden utilizar la búsqueda de señales para identificar las señales no utilizadas relacionadas con los nuevos destinos, incluirlas en nuevas características y [rellenarlas](../../features/data-explorer/data-explorer-trait-backfill.md) con realizaciones históricas. A continuación, cree nuevos segmentos con las nuevas características y asígneles inmediatamente las campañas dedicadas.
