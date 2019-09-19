@@ -1,21 +1,21 @@
 ---
-description: Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones descritas aquí son sólo guías generales. Estas programaciones no constituyen Acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y programar en cualquier momento sin previo aviso.
-seo-description: Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones descritas aquí son sólo guías generales. Estas programaciones no constituyen Acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y programar en cualquier momento sin previo aviso.
-seo-title: Cómo afectan los datos y el procesamiento de archivos los informes
+description: Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar los resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan a su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones que se describen aquí son sólo directrices generales. Estas programaciones no constituyen acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y las programaciones en cualquier momento sin previo aviso.
+seo-description: Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar los resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan a su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones que se describen aquí son sólo directrices generales. Estas programaciones no constituyen acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y las programaciones en cualquier momento sin previo aviso.
+seo-title: Cómo afectan la entrega de datos y los tiempos de procesamiento de archivos a los informes
 solution: Audience Manager
-title: Cómo afectan los datos y el procesamiento de archivos los informes
-uuid: 4 b 975512-f 67 e -4749-a 7 ef -168415597682
+title: Cómo afectan la entrega de datos y los tiempos de procesamiento de archivos a los informes
+uuid: 4b975512-f67e-4749-a7ef-168415597682
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# How Data Delivery and File Processing Times Affect Reports{#how-data-delivery-and-file-processing-times-affect-reports}
+# Cómo afectan la entrega de datos y los tiempos de procesamiento de archivos a los informes{#how-data-delivery-and-file-processing-times-affect-reports}
 
-Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones descritas aquí son sólo guías generales. Estas programaciones no constituyen Acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y programar en cualquier momento sin previo aviso.
+Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta la cantidad de tiempo que se tarda en procesar los datos y generar los resultados del informe. El contenido de esta sección describe cómo estos intervalos de tiempo afectan a su cuenta de Audience Manager. Además, los intervalos de tiempo y las programaciones que se describen aquí son sólo directrices generales. Estas programaciones no constituyen acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los intervalos de tiempo y las programaciones en cualquier momento sin previo aviso.
 
-## Reporting Numbers {#reporting-numbers}
+## Números de informes {#reporting-numbers}
 
 <!-- 
 
@@ -35,18 +35,18 @@ La siguiente tabla enumera y describe los intervalos de tiempo en nuestros infor
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Datos en tiempo real</b> </p> </td> 
-   <td colname="col2"> <p> Los números en tiempo real para hoy son para las horas 00:00 a 23:59:59 UTC desde ayer. </p> </td> 
+   <td colname="col2"> <p> Los números en tiempo real de hoy son para las horas 00:00 a 23:59:59 UTC de ayer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Datos generales del informe</b> </p> </td> 
-   <td colname="col2"> <p>The data in the <a href="../reporting/general-reports.md#general-reports-overview"> General Reports</a> depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, <span class="wintitle"> General Report</span> data should be updated by 18:00 UTC each day. </p> </td> 
+   <td colname="col1"> <p> <b>Datos del informe general</b> </p> </td> 
+   <td colname="col2"> <p>Los datos de los <a href="../reporting/general-reports.md#general-reports-overview"> informes</a> generales dependen de la finalización con éxito de otros procesos de trabajo y de la cantidad de datos recibidos para un día determinado. La mayoría de las veces, los datos del informe <span class="wintitle"></span> general deben actualizarse a las 18:00 UTC cada día. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Inbound and Outbound File Transfers {#inbound-outbound-file-transfers}
+## Transferencias de archivos de entrada y salida {#inbound-outbound-file-transfers}
 
-[!DNL Audience Manager] procesa y envía transferencias de archivos salientes [!UICONTROL Server-to-Server (S2S)] y salientes según las programaciones descritas en esta sección. Dadas estas programaciones y los tiempos de corte, es posible que vea discrepancias con los nuevos segmentos entre los números de segmento en tiempo real y total.
+[!DNL Audience Manager] procesa y envía transferencias de [!UICONTROL Server-to-Server (S2S)] archivos entrantes y salientes según las programaciones descritas en esta sección. Dadas estas programaciones y las horas de corte, es posible que observe discrepancias con los nuevos segmentos entre los números de segmento totales y en tiempo real.
 
 <table id="table_303BEBA0756F46DDAA98D366A5304374"> 
  <thead> 
@@ -57,17 +57,17 @@ La siguiente tabla enumera y describe los intervalos de tiempo en nuestros infor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Ingesta de archivos de entrada (datos sin conexión)</b> </p> </td> 
-   <td colname="col2"> <p>El procesamiento de archivos se ejecuta dos veces al día. Estos procedimientos ingestan datos y los preparan para su entrega. </p> <p>Los tiempos de entrega de archivos varían debido a que se ven afectados por la cantidad total de datos de clientes que deben procesarse. You should expect a maximum latency of 48 hours between the moment the file is uploaded in <span class="keyword"> Audience Manager</span> and until the data is available for reporting and activation. </p> </td> 
+   <td colname="col1"> <p> <b>Entrada de archivos (datos sin conexión)</b> </p> </td> 
+   <td colname="col2"> <p>El procesamiento de archivos se ejecuta dos veces al día. Estos procedimientos incorporan datos y los preparan para su entrega. </p> <p>Los tiempos de entrega de archivos varían porque se ven afectados por la cantidad total de datos de clientes que deben procesarse. Debe esperar una latencia máxima de 48 horas entre el momento en que se carga el archivo en <span class="keyword"> Audience Manager</span> y hasta que los datos estén disponibles para informes y activación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Archivos salientes (exportar)</b> </p> </td> 
-   <td colname="col2"> <p>El procesamiento y la entrega de archivos se produce una vez al día, aproximadamente a las 14:00 UTC. Tenga en cuenta que el procesamiento y la entrega se ven afectados por el número y el tamaño total de estos archivos. En algunos casos, puede haber un retraso en el procesamiento de archivos durante 24 horas. When this happens, <span class="keyword"> Audience Manager</span> will send 2 files for a particular day instead of 1. We will notify our customers in the rare case where <span class="keyword"> Audience Manager</span> has to stop processing a file altogether. Dadas estas condiciones, es difícil estimar los tiempos de entrega de los datos salientes. </p> <p>Para determinar si ha recibido un conjunto completo de archivos, marque la marca de fecha y hora y busque los días que faltan. Es una marca de hora UNIX UTC de 13 dígitos que registra la hora en la que se creó el archivo. See <a href="../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md"> Real-Time Outbound Data Transfers</a>. </p> </td> 
+   <td colname="col1"> <p> <b>Archivos de salida (Exportar)</b> </p> </td> 
+   <td colname="col2"> <p>El procesamiento y la entrega de archivos tienen lugar una vez al día, aproximadamente a las 14:00 UTC. Tenga en cuenta que el procesamiento y la entrega se ven afectados por el número total y el tamaño de estos archivos. En algunos casos, puede haber un retraso en el procesamiento de archivos de hasta 24 horas. Cuando esto ocurra, Audience Manager <span class="keyword"></span> enviará 2 archivos para un día en particular en lugar de 1. Notificaremos a nuestros clientes en el caso poco frecuente de que <span class="keyword"> Audience Manager</span> tenga que dejar de procesar un archivo por completo. Dadas estas condiciones, es difícil estimar los tiempos de entrega de los datos salientes. </p> <p>Para determinar si ha recibido un conjunto completo de archivos, compruebe la marca de tiempo y busque los días que faltan. Es una marca de tiempo UNIX UTC de 13 dígitos que registra la hora en que se creó el archivo. Consulte <a href="../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md"> Transferencias</a>de datos salientes en tiempo real. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Preguntas frecuentes sobre la ingesta de datos de clientes de entrada](../faq/faq-inbound-data-ingestion.md)
+>* [Preguntas más frecuentes sobre la ingestión de datos de clientes entrantes](../faq/faq-inbound-data-ingestion.md)
 
