@@ -1,9 +1,9 @@
 ---
-description: Cree nuevas características a partir de todas las señales, incluidas las que ya se usan en características, y capture audiencias futuras que califiquen después de la creación de características.
-seo-description: Cree nuevas características a partir de todas las señales, incluidas las que ya se usan en características, y capture audiencias futuras que califiquen después de la creación de características.
+description: Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que cumplen los requisitos tras la creación de características.
+seo-description: Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que cumplen los requisitos tras la creación de características.
 seo-title: Crear características a partir de señales
 title: Crear características a partir de señales
-uuid: 4 f 324404-0 c 24-4 e 3 b -96 c 1-7 c 1 b 28 a 4536 d
+uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 translation-type: tm+mt
 source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
@@ -12,42 +12,42 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 # Crear características a partir de señales
 
-Cree nuevas características a partir de todas las señales, incluidas las que ya se usan en características, y capture audiencias futuras que califiquen después de la creación de características. Vea el vídeo para ver una demostración rápida o leída para obtener información detallada:
+Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que cumplen los requisitos tras la creación de características. Vea el vídeo para una rápida demostración o lea para obtener información detallada:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12&captions=spa)
 
-## Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
+## Crear características a partir del tablero de señales {#create-traits-from-signal-dashboard}
 
-[!UICONTROL Signal Dashboard] Permite crear nuevas características a partir de [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]y las búsquedas guardadas.
+El [!UICONTROL Signal Dashboard] le permite crear nuevas características a partir de las búsquedas [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]y las búsquedas guardadas.
 
-Cuando crea un nuevo rasgo, el tipo de característica está predefinido en función del tipo de señal:
+Al crear una nueva característica, el tipo de característica se establece previamente en función del tipo de señal:
 
-* **[!UICONTROL Rule-based]** características para señales en tiempo real, archivos de registro procesables e [!DNL Adobe Analytics] indicaciones;
+* **[!UICONTROL Rule-based]** características para señales en tiempo real, archivos de registro procesables y [!DNL Adobe Analytics] señales;
 
-* **[!UICONTROL Onboarded]** características para señales integradas.
+* **[!UICONTROL Onboarded]** características de las señales incorporadas.
 
-To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the signal that you want to use in the trait, then click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
+Para crear nuevas características a partir del **[!UICONTROL Signal Dashboard]**, identifique la señal que desea utilizar en la característica y, a continuación, haga clic en el vínculo correspondiente **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** .
 
 ![](assets/signals-create-trait.png)
 
-You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
+Se le redirigirá al Generador de **[rasgos](../../features/traits/about-trait-builder.md)** para crear sus nuevas características.
 
-## Create Traits from Signal Search {#create-traits-from-signal-search}
+## Crear características a partir de la búsqueda de señales {#create-traits-from-signal-search}
 
-Create traits based on used or unused signals that are not shown in the [!UICONTROL Signal Dashboard].
+Cree características basadas en señales utilizadas o no utilizadas que no se muestren en la [!UICONTROL Signal Dashboard].
 
-Busque señales específicas y cree características basadas en reglas o integradas según los resultados. A continuación se muestra cómo hacer esto:
+Busque señales específicas y cree características basadas en reglas o integradas en función de los resultados. A continuación se muestra cómo hacerlo:
 
-1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a search based on the key-value pairs that you are looking for, or click **[!UICONTROL Search]** without entering any key-value pair to display all results.
+1. Vaya a **[!UICONTROL Audience Data > Signals > Search]** y ejecute una búsqueda basada en los pares de clave-valor que busca, o haga clic **[!UICONTROL Search]** sin introducir ningún par de clave-valor para mostrar todos los resultados.
 2. Identifique las señales que desee utilizar en la característica, en la lista de resultados.
-   * To create a trait from one signal, click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
-   * To create a trait from multiple signals, click the corresponding check box of each signal, then click **[!UICONTROL Create Trait from Multiple Signals]**.
+   * Para crear una característica a partir de una señal, haga clic en el vínculo correspondiente **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** .
+   * Para crear una característica a partir de varias señales, haga clic en la casilla de verificación correspondiente de cada señal y, a continuación, haga clic en **[!UICONTROL Create Trait from Multiple Signals]**.
    >[!NOTE]
-   >Solo puede crear características a partir de señales del mismo tipo. No se puede crear un rasgo basado en una combinación de señal en tiempo real y uno introducido.
+   >Sólo puede crear características a partir de señales del mismo tipo. No se puede crear una característica basada en una combinación de una señal en tiempo real y una señal incorporada.
    >
    > ![](assets/signals-create-trait-search.png)
-   >También puede crear características a partir de señales utilizadas. Signals that are already used in traits have the number of traits displayed in the **[!UICONTROL Included in Traits]** column. Haga clic en la flecha para ver las características que incluyen la señal.
+   >También puede crear características a partir de señales usadas. Las señales que ya se utilizan en características tienen el número de características que se muestran en la **[!UICONTROL Included in Traits]** columna. Haga clic en la flecha para ver las características que incluyen la señal.
    >
    >![](assets/signals-used-traits.png)
 
-3. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
+3. Utilice el Generador de **[características](../../features/traits/about-trait-builder.md)** para crear sus nuevas características.
