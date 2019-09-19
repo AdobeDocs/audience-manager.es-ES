@@ -1,103 +1,103 @@
 ---
-description: Este procedimiento lo lleva a través de los pasos necesarios para crear, editar o eliminar un grupo de prueba en Audience Lab
-seo-description: Este procedimiento lo lleva a través de los pasos necesarios para crear, editar o eliminar un grupo de prueba en Audience Lab
-seo-title: Administrar grupos de prueba
+description: Este procedimiento le guía por los pasos necesarios para crear, editar o eliminar un grupo de prueba en Audience Lab
+seo-description: Este procedimiento le guía por los pasos necesarios para crear, editar o eliminar un grupo de prueba en Audience Lab
+seo-title: Administrar grupos de pruebas
 solution: Audience Manager
-title: Administrar grupos de prueba
-uuid: 2 fadddeb -7574-4853-8 c 52-c 58456582 c 62
+title: Administrar grupos de pruebas
+uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Manage Test Groups {#manage-test-groups}
+# Administrar grupos de pruebas {#manage-test-groups}
 
-This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].
+Este procedimiento le guía por los pasos necesarios para crear, editar o eliminar un grupo de prueba en [!UICONTROL Audience Lab].
 
-## Create Segment Test Groups {#create-test-groups}
+## Crear grupos de prueba de segmentos {#create-test-groups}
 
 ### Requisitos previos
 
 <!-- create-test-group.xml -->
 
-* You need to have at least one **conversion trait** set up. You can set up conversion traits in the [Trait Builder](../../features/traits/create-onboarded-rule-based-traits.md), by selecting **conversion** as the event type. For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
+* Debe tener al menos una característica **de conversión** configurada. Puede configurar las características de conversión en el Generador [de](../../features/traits/create-onboarded-rule-based-traits.md)características seleccionando **conversión** como tipo de evento. Para obtener más información sobre las características de conversión y cómo configurarlas, hemos preparado un [vídeo](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) .
 
    >[!IMPORTANT]
    >
-   >[Las características](../../features/traits/about-folder-traits.md) de carpeta **no son compatibles** [!UICONTROL Audience Lab]con. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
+   >[Las características](../../features/traits/about-folder-traits.md) de carpeta **no son compatibles** con [!UICONTROL Audience Lab]. La configuración del tipo [de](../../features/traits/create-onboarded-rule-based-traits.md) evento de una característica de carpeta en **conversión** no generará ningún dato en [!UICONTROL Audience Lab] para esa característica de carpeta específica.
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. Este permiso permite al usuario crear y ver los resultados de una prueba. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. Un usuario solo podrá ver destinos a los que tengan acceso. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
-   * access to read relevant conversion traits;
-   * acceso para leer y asignar segmentos relevantes para pruebas;
+* Para empresas que utilizan el control [de acceso basado en](../../features/administration/administration-overview.md)roles: Asigne el permiso [!UICONTROL Audience Lab] [comodín para](../../features/administration/administration-overview.md#wild-card-permissions) **[!UICONTROL User Groups]** proporcionar acceso. Este permiso permite al usuario crear y ver los resultados de una prueba. Un usuario solo podrá usar segmentos de un origen de datos para el que haya **leído** y **asignado privilegios de destino** . El usuario solo podrá utilizar las características de conversión de una fuente de datos para la que tenga permisos de **"lectura"** . Un usuario solo podrá ver los destinos a los que tenga acceso. Por lo tanto, antes de agregar el permiso de [!DNL Audience Lab] comodín a un grupo, asegúrese de que éste tenga:
+   * acceso a la lectura de características de conversión pertinentes;
+   * acceso a la lectura y asignación de segmentos pertinentes para las pruebas;
    * acceso a destinos relevantes.
 
-To create a new [!UICONTROL Segment Test Group]:
+Para crear un nuevo [!UICONTROL Segment Test Group]:
 
-1. Select **[!UICONTROL Create New Test Group]** in the [!UICONTROL Audience Lab] dashboard to start the wizard.
+1. Seleccione **[!UICONTROL Create New Test Group]** en el [!UICONTROL Audience Lab] tablero para iniciar el asistente.
 1. **[!UICONTROL Basic Info & Choose Segment]**
 
-   * Fill in a **[!UICONTROL Test Group Name]** and a **[!UICONTROL Description]**.
-   * Choose the **[!UICONTROL Base Segment]** either by navigating in the file browser or by typing in the search bar, confirm by pressing **[!UICONTROL Choose Segment.]**
-   * Puede guardar el grupo de prueba como borrador y reanudarlo más tarde.
-   * Se mostrará una alerta en caso de que el segmento base seleccionado ya esté utilizado en otros grupos de prueba. El uso simultáneo del segmento base puede distorsionar los resultados de conversión de ambas pruebas.
+   * Rellene un **[!UICONTROL Test Group Name]** y un **[!UICONTROL Description]**.
+   * Elija la opción **[!UICONTROL Base Segment]** navegando en el explorador de archivos o escribiendo en la barra de búsqueda; para confirmarla, pulse **[!UICONTROL Choose Segment.]**
+   * Puede guardar el grupo de prueba como borrador y reanudar el trabajo en él posteriormente.
+   * Se mostrará una alerta en caso de que el segmento base seleccionado ya se esté utilizando en otros grupos de prueba. El uso del segmento base dos veces puede distorsionar los resultados de conversión para ambas pruebas.
 
 1. **[!UICONTROL Allocate Test Segments]**
 
-   * You can create **up to 15 test segments** and divide the percentage of devices as you wish.
-   * Para editar el nombre de los segmentos de prueba, haga clic en ellos.
-   * Los porcentajes se dividen automáticamente en 100% cuando se asignan nuevos segmentos de prueba. Luego puede editar manualmente los porcentajes. Haga clic en la casilla después de editar los porcentajes y asegúrese de que suman el 100%. De lo contrario, no podrá continuar con el paso siguiente.
+   * Puede crear **hasta 15 segmentos** de prueba y dividir el porcentaje de dispositivos como desee.
+   * Puede editar el nombre de los segmentos de prueba haciendo clic en ellos.
+   * Los porcentajes se dividen automáticamente uniformemente al 100 % cuando se asignan nuevos segmentos de prueba. A continuación, puede editar manualmente los porcentajes. Haga clic en la casilla de verificación después de editar los porcentajes y asegúrese de que suman hasta el 100 %; de lo contrario, no podrá continuar con el paso siguiente.
 
 1. **[!UICONTROL Set a Control Segment]**
 
-   * Seleccione un segmento de control si desea apartar una parte determinada del segmento para que se utilice como grupo de control. Los grupos de control permiten ver el impacto de los segmentos de prueba que ha creado en comparación con un punto de referencia.
-   * You can select a test segment as control segment in the drop-down list, or you can choose **[!UICONTROL None]** for no control.
-   * Click **[!UICONTROL Next]** when you're done.
+   * Seleccione un segmento de control si desea separar una parte determinada del segmento para utilizarlo como grupo de control. Los grupos de control le permiten ver el impacto de los segmentos de prueba que ha creado en comparación con un punto de referencia.
+   * Puede seleccionar un segmento de prueba como segmento de control en la lista desplegable o puede elegir **[!UICONTROL None]** sin control.
+   * Haga clic **[!UICONTROL Next]** cuando haya terminado.
 
 1. **[!UICONTROL Select Conversion Traits]**
 
-   * Agregue características de conversión escribiendo en la ventana de características de conversión. This is a **mandatory** step and you cannot proceed to the next step unless you add at least one conversion trait.
+   * Agregue características de conversión escribiendo en la ventana de características de conversión. Este es un paso **obligatorio** y no puede continuar con el siguiente paso a menos que agregue al menos una característica de conversión.
    * Si lo desea, puede agregar hasta 5 características de conversión.
    * Se mostrará una alerta en caso de que seleccione una característica de conversión ya utilizada para otros grupos de prueba.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
-   * Escriba los destinos deseados en el campo de búsqueda o utilice la flecha desplegable. [!UICONTROL Audience Lab] los segmentos de prueba se pueden enviar a URL, cookies o destinos de servidor a servidor.
+   * Escriba los destinos deseados en el campo de búsqueda o utilice la flecha desplegable. [!UICONTROL Audience Lab] los segmentos de prueba se pueden enviar a destinos de URL, cookie o servidor a servidor.
    * Arrastre y suelte segmentos en destinos.
-   * After dropping a segment in a destination, fill in the **[!UICONTROL Destination Mapping Value]** in the blind.
-   * Puede enviar el mismo segmento de prueba a varios destinos y agregar varios segmentos de prueba a un solo destino.
-   * Destinations are grayed out if they are not available for a certain test segment based on [Data Export Controls](../../features/data-export-controls.md).
-   * Users will only see the destinations they have access to based on the [RBAC User Group](../../features/administration/administration-overview.md) they belong to.
-   * Finalmente, debe seleccionar una fecha de inicio para el grupo de prueba. Esta fecha marca el comienzo del período en el que el grupo de prueba se publicará en destinos. Select **No End Date** for an indefinite comparison of the test segments.
+   * Después de soltar un segmento en un destino, rellene el **[!UICONTROL Destination Mapping Value]** elemento ciego.
+   * Puede enviar el mismo segmento de prueba a varios destinos y puede agregar varios segmentos de prueba a un único destino.
+   * Los destinos aparecen atenuados si no están disponibles para un segmento de prueba determinado según los controles [de exportación de](../../features/data-export-controls.md)datos.
+   * Los usuarios solo verán los destinos a los que tienen acceso en función del grupo [de usuarios de](../../features/administration/administration-overview.md) RBAC al que pertenecen.
+   * Por último, debe seleccionar una fecha de inicio para el grupo de prueba. Esta fecha marca el inicio del período en el que el grupo de prueba se publicará en los destinos. Seleccione **Sin fecha** de finalización para una comparación indefinida de los segmentos de prueba.
    >[!NOTE]
    >
-   >[!UICONTROL Profile Merge Rules] con un perfil autenticado solo se admite en destinos en tiempo real. Si un segmento de prueba con una regla de combinación de perfiles de dicha configuración se envía a un destino servidor a servidor basado en archivos, es posible que las audiencias no se rellenen.
+   >[!UICONTROL Profile Merge Rules] con un perfil autenticado solo se admiten en destinos en tiempo real. Si un segmento de prueba con una regla de combinación de perfiles de esa configuración se envía a un destino de servidor a servidor basado en archivos, es posible que las audiencias no se rellenen.
 
-   Click **[!UICONTROL Next]** to review and finalize your test group.
+   Haga clic en **[!UICONTROL Next]** para revisar y finalizar el grupo de prueba.
 
 1. **[!UICONTROL Summary & Finalize]**
 
-   * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
-   * Recuerde que una vez que finalice un grupo de prueba, se puede duplicar o eliminar, pero no se edita.
+   * Revise la información agregada en los pasos anteriores y seleccione **[!UICONTROL Finalize Group]**.
+   * Recuerde que una vez finalizado un grupo de prueba, puede duplicarse o eliminarse, pero no editarse.
    >[!NOTE]
-   >* Puede guardar los grupos de prueba en cualquier momento del proceso de creación y regresar al asistente más tarde. The test group status will be **[!UICONTROL Draft]** and the test group will not send any data to destinations until you finalize the segment test group.
-   >* For draft tests, you can go back and edit the test groups by clicking **[!UICONTROL Edit]** in the test group card in the main [!UICONTROL Audience Lab] view.
+   >* Puede guardar los grupos de prueba en cualquier momento del proceso de creación y volver al asistente más adelante. El estado del grupo de prueba será **[!UICONTROL Draft]** y el grupo de prueba no enviará ningún dato a los destinos hasta que finalice el grupo de prueba del segmento.
+   >* Para las pruebas de borrador, puede volver atrás y editar los grupos de prueba haciendo clic **[!UICONTROL Edit]** en la tarjeta del grupo de prueba en la [!UICONTROL Audience Lab] vista principal.
 
 
-## Edit Segment Test Groups {#edit-test-groups}
+## Editar grupos de prueba de segmentos {#edit-test-groups}
 
-In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In the [!UICONTROL Create Segment Test Group] wizard, you can save your test group as a draft and resume working on it later.
+En [!UICONTROL Audience Lab], solo puede editar grupos de prueba de borrador. En el [!UICONTROL Create Segment Test Group] asistente, puede guardar el grupo de prueba como borrador y reanudar el trabajo en él posteriormente.
 
-1. Navigate to the [!UICONTROL Audience Lab] main view.
-1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you're done.
+1. Vaya a la vista [!UICONTROL Audience Lab] principal.
+1. Busque los grupos de prueba de borrador y seleccione el **[!UICONTROL Edit]** control en la tarjeta del grupo de prueba.
+1. Reanude el asistente [Crear grupo](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) de prueba de segmento y seleccione **[!UICONTROL Finalize Group]** cuando haya terminado.
 
-## Delete Segment Test Groups {#delete-test-groups}
+## Eliminar grupos de prueba de segmentos {#delete-test-groups}
 
-1. Navigate to the [!UICONTROL Audience Lab] main view.
-1. Busque el grupo de prueba que desee eliminar. Puede realizar una de las acciones siguientes:
+1. Vaya a la vista [!UICONTROL Audience Lab] principal.
+1. Busque el grupo de prueba que desee eliminar. Puede:
 
-   * press the **[!UICONTROL Delete]** control in the test group card, or
-   * press the test group title in the test group card to go to the [Test Group Information](../../features/audience-lab/audience-lab-information-view.md) view and press the **[!UICONTROL Delete]** control in the title bar.
+   * pulse el **[!UICONTROL Delete]** control en la tarjeta del grupo de prueba, o
+   * presione el título del grupo de prueba en la tarjeta del grupo de prueba para ir a la vista Información [del grupo de](../../features/audience-lab/audience-lab-information-view.md) pruebas y presione el **[!UICONTROL Delete]** control en la barra de título.
 
-1. For [completed test segments](../../features/audience-lab/audience-lab.md#status), an alert will prompt you to download the CSV file to save the reporting if you wish.
+1. Para los segmentos [de prueba](../../features/audience-lab/audience-lab.md#status)completados, una alerta le pedirá que descargue el archivo CSV para guardar el informe si lo desea.
