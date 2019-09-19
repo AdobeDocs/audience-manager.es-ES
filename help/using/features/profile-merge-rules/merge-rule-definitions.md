@@ -1,10 +1,10 @@
 ---
-description: Las opciones de regla de combinación permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico de dispositivos Link Link, Device Co-op de Adobe Experience Cloud y/u otros proveedores de gráficos de dispositivos de terceros que se integran con Audience Manager. Puede crear un máximo de 3 reglas de combinación de perfiles.
-seo-description: Las opciones de regla de combinación permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico de dispositivos Link Link, Device Co-op de Adobe Experience Cloud y/u otros proveedores de gráficos de dispositivos de terceros que se integran con Audience Manager. Puede crear un máximo de 3 reglas de combinación de perfiles.
+description: Las opciones de regla de combinación le permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico del dispositivo Vínculo de perfil, la cooperación entre dispositivos de Adobe Experience Cloud y otros proveedores de gráficos de dispositivos de terceros que estén integrados en Audience Manager. Puede crear un máximo de 3 reglas de combinación de perfiles.
+seo-description: Las opciones de regla de combinación le permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico del dispositivo Vínculo de perfil, la cooperación entre dispositivos de Adobe Experience Cloud y otros proveedores de gráficos de dispositivos de terceros que estén integrados en Audience Manager. Puede crear un máximo de 3 reglas de combinación de perfiles.
 seo-title: Opciones de regla de combinación de perfiles definidas
 solution: Audience Manager
 title: Opciones de regla de combinación de perfiles definidas
-uuid: 225 eeaf 7-45 e 9-4 f 21-9360-d 80 a 9 f 90520 c
+uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,19 +13,19 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
 
-Las opciones de regla de combinación permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. A merge rule can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 [!UICONTROL Profile Merge Rules].
+Las opciones de regla de combinación le permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico del [!UICONTROL Profile Link] dispositivo, los proveedores de gráficos de dispositivos de terceros [!UICONTROL Adobe Experience Cloud Device Co-op]o ambos que estén integrados en Audience Manager. Puede crear un máximo de 3 [!UICONTROL Profile Merge Rules].
 
-You build a [!UICONTROL Profile Merge Rule] by making a selection from these options:
+Para crear un [!UICONTROL Profile Merge Rule] archivo, realice una selección de estas opciones:
 
 <ul class="simplelist"> 
  <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#auth-options"> Opciones autenticadas</a> </li>
- <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#profile-options"> Opciones de perfil autenticado</a> </li>
+ <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#profile-options"> Opciones de perfil autenticadas</a> </li>
  <li><a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> Opciones de dispositivo</a> </li>
 </ul>
 
-## Authenticated Options {#auth-options}
+## Opciones autenticadas {#auth-options}
 
-The [!UICONTROL Authenticated Options] let you select un-authenticated and authenticated users and leverage their cross-device profile for segmentation. Estas opciones ayudan a identificar y llegar a usuarios específicos en un dispositivo compartido. For more information on anonymous and authenticated users, see [Visitor Authentication States in Audience Manager](../../reference/visitor-authentication-states.md).
+Permite [!UICONTROL Authenticated Options] seleccionar usuarios no autenticados y autenticados y aprovechar su perfil entre dispositivos para la segmentación. Estas opciones le ayudan a identificar y llegar a usuarios específicos en un dispositivo compartido. Para obtener más información sobre los usuarios anónimos y autenticados, consulte Estados de autenticación de [visitantes en Audience Manager](../../reference/visitor-authentication-states.md).
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -37,26 +37,26 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Ningún perfil autenticado</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> not to use data collected from authenticated users. </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que no utilice los datos recopilados de los usuarios autenticados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfil autenticado actual</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read and write data to the authenticated profile if a visitor has logged in to your site. </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que lea y escriba datos en el perfil autenticado si un visitante ha iniciado sesión en el sitio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Último perfil autenticado</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read data from the authenticated profile of the user who last logged in on the device. </p> <p>When selected, <span class="keyword"> Audience Manager</span> will not write new trait data to the authenticated profile if the user is anonymous. Al autenticarse, los nuevos datos de características se escriben en el perfil autenticado del usuario. </p> </td>
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que lea datos del perfil autenticado del usuario que inició sesión por última vez en el dispositivo. </p> <p>Cuando está seleccionada, Audience Manager <span class="keyword"></span> no escribirá nuevos datos de características en el perfil autenticado si el usuario es anónimo. Tras la autenticación, los nuevos datos de características se escriben en el perfil autenticado del usuario. </p> </td>
   </tr> 
  </tbody>
 </table>
 
-## Authenticated Profile Options {#profile-options}
+## Opciones de perfil autenticadas {#profile-options}
 
-[!UICONTROL Authenticated Profile Options] La lista contiene las fuentes de datos entre dispositivos. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)). Puede seleccionar hasta 3 fuentes de datos entre dispositivos para utilizarlas con cada regla de perfil. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**.
+La [!UICONTROL Authenticated Profile Options] lista muestra las fuentes de datos entre dispositivos. Estas opciones utilizan los nombres proporcionados cuando se crea una fuente de datos entre dispositivos (consulte [Creación de una fuente](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)de datos entre dispositivos). Puede seleccionar hasta 3 fuentes de datos entre dispositivos para utilizarlas con cada regla de perfil. Los [!UICONTROL Authenticated Profile Options] están disponibles cuando usted elija **[!UICONTROL Current Authenticated Profile]** o **[!UICONTROL Last Authenticated Profile]**.
 
-## Device Options {#device-options}
+## Opciones de dispositivo {#device-options}
 
-[!UICONTROL Device Options] Permite seleccionar el tipo *`device profile`* de utilizado por [!UICONTROL Profile Merge Rule]un. Un perfil de dispositivo está compuesto de características recopiladas por usuarios cuando navegan de forma anónima por Internet. Como mínimo, una regla de combinación de perfil incluye una opción autenticada y una opción de dispositivo.
+Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* uso por parte de un [!UICONTROL Profile Merge Rule]. Un perfil de dispositivo se compone de características recopiladas por los usuarios cuando navegan por la web de forma anónima. Como mínimo, una regla de combinación de perfiles incluye una opción autenticada y una opción de dispositivo.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -68,38 +68,38 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Sin perfil de dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> not to use the traits contained in the anonymous profile for segmentation. </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que no utilice las características contenidas en el perfil anónimo para la segmentación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Perfil de dispositivo actual</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to use the anonymous device profile for segmentation. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Perfil del dispositivo actual</span></b> </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que utilice el perfil de dispositivo anónimo para la segmentación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de Device Link Device</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read the profiles from the current device and the last 3 devices that the user has authenticated from. This device graph is built on your own, first-party data in <span class="keyword"> Audience Manager</span>. Es ideal para clientes que tienen un alto nivel de autenticación en sus propiedades digitales. The <span class="wintitle"> Profile Link</span> device graph is updated in real time. This option is available when you select <b><span class="uicontrol"> Current Authenticated Profile</span></b> or <b><span class="uicontrol"> Last Authenticated Profile</span></b>. When using this option, you can only choose a single authenticated profile (<span class="keyword"> Audience Manager</span> automatically grays out the others). See also, <a href="../../features/profile-merge-rules/profile-link-use-case.md"> Profile Link Device Graph Use Cases</a>. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivo de vínculo de perfil</span></b> </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"></span> que lea los perfiles del dispositivo actual y los últimos 3 dispositivos desde los que el usuario se ha autenticado. Este gráfico de dispositivos se crea con sus propios datos de origen en <span class="keyword"> Audience Manager</span>. Es ideal para clientes que tienen un alto nivel de autenticación en sus propiedades digitales. El gráfico del dispositivo Vínculo <span class="wintitle"></span> de perfil se actualiza en tiempo real. Esta opción está disponible cuando selecciona <b><span class="uicontrol"> Perfil</span></b> autenticado actual o <b><span class="uicontrol"> Último perfil</span></b>autenticado. Al utilizar esta opción, solo se puede elegir un perfil autenticado único (<span class="keyword"> Audience Manager</span> mostrará automáticamente el gris entre los demás). Consulte también <a href="../../features/profile-merge-rules/profile-link-use-case.md"> Casos</a>de uso de Device Graph Device Link Profile. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Device Graph Co-op</span></b> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to merge device profiles using the links provided by the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> es una cooperativa digital en la que los clientes participantes comparten información de vínculos de dispositivos. <span class="keyword"> Device Co-op</span> procesa estos datos en un gráfico <span class="term"> de dispositivos</span>. Un gráfico de dispositivo vincula los dispositivos de forma conjunta con los clústeres de dispositivos. These links are built from <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html" format="https" scope="external"> probabilistic and deterministic data</a>. Los clústeres representan un grupo de dispositivos utilizado por una persona anónima. <span class="keyword">Device Co-op</span> comparte estos clústeres entre sus miembros, lo que los ayuda a ofrecer a sus clientes experiencias valiosas y coherentes entre dispositivos. </p> <p> For more information about the <span class="wintitle"> Device Co-op</span>, see the: </p> <p> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivos de cooperación</span></b> </p> </td> 
+   <td colname="col2"> <p>Indica a Audience Manager <span class="keyword"> que combine perfiles de dispositivo mediante los vínculos proporcionados por</span> Experience Cloud Device Co-op <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"></a>. </p> <p><span class="keyword"> Device Co-op</span> es una cooperativa digital en la que los clientes participantes comparten información de vínculos de dispositivos. Device Co-op <span class="keyword"> procesa estos datos en un</span> gráfico <span class="term"></span>de dispositivo. Un gráfico de dispositivo vincula dispositivos de forma conjunta con clústeres de dispositivos. Estos vínculos se crean a partir de <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html" format="https" scope="external"> datos</a>probabilísticos y determinísticos. Los clústeres representan un grupo de dispositivos utilizados por una persona desconocida. <span class="keyword">Device Co-op</span> comparte estos clústeres entre sus miembros, lo que los ayuda a ofrecer a sus clientes experiencias valiosas y coherentes entre dispositivos. </p> <p> Para obtener más información acerca de <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html" format="https" scope="external"> Información general de Device Co-op</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-requirements.html" format="https" scope="external"> Requisitos de participación</a> </li> 
       <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html" format="https" scope="external"> Device Graph: Procesos internos y resultados</a> </li> 
-      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager y gráficos de dispositivos externos</a> (descarga PDF). </li>
+      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager y gráficos</a> de dispositivos externos (descarga de PDF). </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Opciones de gráfico de dispositivos de terceros</b> (Persona y Hogar) </p> </td>
-   <td colname="col2"> <p>Estas opciones permiten generar reglas de combinación basadas en la tecnología gráfica de los dispositivos proporcionada por un proveedor de terceros. Un gráfico de dispositivo de terceros proporciona: </p> <p> 
+   <td colname="col1"> <p><b>Opciones</b> de gráfico de dispositivos de terceros (persona y hogar) </p> </td>
+   <td colname="col2"> <p>Estas opciones le permiten crear reglas de combinación basadas en la tecnología de gráficos de dispositivos proporcionada por un proveedor externo. Un gráfico de dispositivos de terceros proporciona: </p> <p> 
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
-      <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Datos probabilísticos o determinísticos. </li> 
-      <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Datos a nivel personal o doméstico. </li> 
-     </ul> </p> <p>To use these options, you must be a customer of a device graph provides who is already integrated with <span class="keyword"> Audience Manager</span>. Póngase en contacto con su administrador de cuentas para obtener más información o empezar. </p> <p>Consulte también &lt; a href = "../../features/profile-merge-rules/external-graph-use-cases. md). </p> </td>
+      <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Datos probabilísticos y/o determinísticos. </li> 
+      <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Datos a nivel personal o familiar. </li> 
+     </ul> </p> <p>Para utilizar estas opciones, debe ser cliente de un gráfico de dispositivos que ya esté integrado con <span class="keyword"> Audience Manager</span>. Póngase en contacto con el administrador de cuentas para obtener más información o para empezar. </p> <p>Consulte también &lt;a href="../../features/profile-merge-rules/external-graph-use-cases.md). </p> </td>
   </tr>
  </tbody>
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Preguntas frecuentes sobre reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
+>* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
