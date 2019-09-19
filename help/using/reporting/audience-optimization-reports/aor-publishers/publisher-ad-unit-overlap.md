@@ -1,39 +1,39 @@
 ---
-description: El informe Superposición de unidad de publicidad se muestra como un gráfico de calor que resalta las solapas altas y bajas entre las unidades de publicidad.
-seo-description: El informe Superposición de unidad de publicidad se muestra como un gráfico de calor que resalta las solapas altas y bajas entre las unidades de publicidad.
+description: El informe Superposición de unidad de publicidad se muestra como un gráfico de calor que resalta superposiciones altas y bajas entre las unidades de publicidad.
+seo-description: El informe Superposición de unidad de publicidad se muestra como un gráfico de calor que resalta superposiciones altas y bajas entre las unidades de publicidad.
 seo-title: Superposición de unidad de publicidad
 solution: Audience Manager
 title: Superposición de unidad de publicidad
-uuid: e 4467 e 81-acbf -474 e-b 501-89 d 57395651 f
+uuid: e4467e81-acbf-474e-b501-89d57395651f
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Ad Unit Overlap{#ad-unit-overlap}
+# Superposición de unidad de publicidad{#ad-unit-overlap}
 
-**[!UICONTROL Ad Unit Overlap]** El informe se muestra como un gráfico de calor que resalta las solapas altas y bajas entre las unidades de publicidad.
+El **[!UICONTROL Ad Unit Overlap]** informe se muestra como un gráfico de calor que resalta las superposiciones altas y bajas entre las unidades de publicidad.
 
 ## Caso de uso {#use-cases}
 
-With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. El informe considera las 100 propiedades principales relacionadas y muestra la superposición entre ellas.
+Con el **[!UICONTROL Ad Unit Overlap]** informe, puede obtener una visión detallada sobre dónde se superpone la audiencia en las propiedades web. El informe considera sus 100 propiedades relacionadas y muestra la superposición entre ellas.
 
-## Using the Ad Unit Overlap Report {#using-the-report}
+## Uso del informe Superposición de unidad de publicidad {#using-the-report}
 
-Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Puede seleccionar un número máximo de 100 elementos para cada uno.
+Utilice los controles **[!UICONTROL Top N Base Ad Units]** y **[!UICONTROL Top N Overlapping Ad Units]** para seleccionar el número deseado de unidades de publicidad para la superposición. Puede seleccionar un número máximo de 100 elementos para cada uno.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Tenga en cuenta que los períodos de retroceso de 7 días y 30 días solo están disponibles para las fechas del domingo.
+Utilice los controles Intervalo **de** días y **Fecha a través** para ajustar el intervalo retrospectivo. Tenga en cuenta que los períodos retrospectivos de 7 y 30 días solo están disponibles para las fechas de domingo.
 
-Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** controls to select which of your ad units you want to display in the overlap report.
+Utilice los controles **[!UICONTROL Base Ad Unit]** y **[!UICONTROL Overlap Ad Unit]** para seleccionar qué unidades de publicidad desea mostrar en el informe de superposición.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Ad Unit IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Ad Unit] en lugar de la [!UICONTROL Ad Unit ID].
 
-## Interpreting the Results {#interpreting-results}
+## Interpretación de los resultados {#interpreting-results}
 
-Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Pase el ratón sobre cualquier celda para obtener más información sobre esa superposición concreta. Consulte las descripciones de la información adicional en la tabla debajo del informe de muestra.
+Su [!UICONTROL Ad Unit Overlap] informe podría tener un aspecto similar al de abajo. Pase el ratón sobre cualquier celda para obtener más información sobre esa superposición en particular. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -46,28 +46,28 @@ Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Pa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Unidad de publicidad superpuesta</span> </p> </td> 
-   <td colname="col2"> <p>Nombre del elemento de inventario. Por ejemplo, puede ser uno de sus sitios web o un artículo del sitio web. En la imagen anterior, las unidades de publicidad base son Artículos 9 - 18. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Superponer unidad de publicidad</span> </p> </td> 
+   <td colname="col2"> <p>Nombre del artículo de inventario. Por ejemplo, puede ser uno de los sitios web o un artículo del sitio web. En la imagen anterior, las unidades de publicidad base son los artículos 9 a 18. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Unidad de publicidad base</span> </p> </td> 
-   <td colname="col2"> <p>Nombre del elemento de inventario. Por ejemplo, puede ser uno de sus sitios web o un artículo del sitio web. En la imagen anterior, las unidades de publicidad base son Artículos 1 - 8. </p> </td> 
+   <td colname="col2"> <p>Nombre del artículo de inventario. Por ejemplo, puede ser uno de los sitios web o un artículo del sitio web. En la imagen anterior, las unidades de publicidad base son los artículos 1 a 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Superposición de la unidad de anuncios únicos de unidades de publicidad</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Recuento exclusivo de unidades de publicidad superpuestas</span> </p> </td> 
    <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 9 - 18. Esta información se extrae de los registros de DFP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Recuento únicos de unidades de publicidad base</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Recuento único de unidades de publicidad base</span> </p> </td> 
    <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 1 - 8. Esta información se extrae de los registros de DFP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Superponer recuento de únicos</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Recuento único superpuesto</span> </p> </td> 
+   <td colname="col2"> <p>La superposición entre los usuarios que han visitado una unidad <span class="wintitle"> de publicidad</span> base y una unidad <span class="wintitle"> de publicidad superpuesta</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Porcentaje superpuesto</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Base Ad Unit</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Porcentaje de superposición</span> </p> </td> 
+   <td colname="col2"> <p>La superposición entre los usuarios que han visitado una unidad <span class="wintitle"> de publicidad</span> base y una unidad <span class="wintitle"> de publicidad superpuesta</span>. Este es el <span class="wintitle"> Recuento</span>de únicos superpuestos, expresado como porcentaje de la unidad <span class="wintitle"></span>de publicidad base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
