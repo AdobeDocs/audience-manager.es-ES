@@ -1,83 +1,83 @@
 ---
-description: Los destinos basados en personas ofrecen varias estrategias de implementación, según la estructura de los datos del cliente. Este artículo proporciona información general sobre los pasos de implementación que debe seguir para los destinos basados en personas, según el escenario.
-seo-description: 'Los destinos basados en personas ofrecen varias estrategias de implementación, según la estructura de los datos del cliente. Este artículo proporciona información general sobre los pasos de implementación que debe seguir para los destinos basados en personas, según el escenario.  '
-seo-title: Guía de implementación de destinos basada en personas
+description: Los destinos basados en personas ofrecen varias estrategias de implementación, según la estructura de los datos del cliente. En este artículo se proporciona una descripción general de los pasos de implementación que debe seguir para los destinos basados en personas, según el escenario.
+seo-description: 'Los destinos basados en personas ofrecen varias estrategias de implementación, según la estructura de los datos del cliente. En este artículo se proporciona una descripción general de los pasos de implementación que debe seguir para los destinos basados en personas, según el escenario.  '
+seo-title: Guía de implementación de destinos basados en personas
 solution: Audience Manager
-title: Guía de implementación
+title: Directrices de implementación
 translation-type: tm+mt
 source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 ---
 
 
-# Guía de implementación {#implementation-guidance}
+# Directrices de implementación {#implementation-guidance}
 
-[!DNL People-Based Destinations] ofrece varias estrategias de implementación, dependiendo de cómo estén estructurados los datos del cliente. Este artículo proporciona información general sobre los pasos de implementación que [!DNL People-Based Destinations]debe seguir, según su escenario.
+[!DNL People-Based Destinations] ofrece varias estrategias de implementación, según la estructura de los datos del cliente. En este artículo se proporciona una descripción general de los pasos de implementación que debe seguir [!DNL People-Based Destinations]según el escenario.
 
 ## Información general {#overview}
 
-La configuración de [!DNL People-Based Destinations] lo lleva a través de varias secciones de Audience Manager y requiere diferentes ajustes y métodos de integración de datos, según el tipo de datos de cliente que ya tenga en Audience Manager y el tipo de objetivo de audiencia que desee realizar.
+La configuración de [!DNL People-Based Destinations] le lleva a través de varias secciones de Audience Manager y requiere diferentes opciones de configuración y métodos de incorporación de datos, según el tipo de datos de cliente que ya tenga en Audience Manager y el tipo de segmentación de audiencia que desee realizar.
 
 >[!IMPORTANT]
-> Antes de configurar [!DNL People-Based Destinations], asegúrese de leer este artículo detenidamente y por completo. Después de leer esta guía, debe comprender claramente el escenario en [!DNL People-Based Destinations]el que habilitará.
+> Antes de configurar [!DNL People-Based Destinations], asegúrese de leer este artículo de forma cuidadosa y completa. Después de leer esta guía, debe tener una clara comprensión del escenario que habilitará mediante [!DNL People-Based Destinations].
 
-Existen seis aspectos de implementación que debe aclarar antes de utilizar [!DNL People-Based Destinations]. Este artículo le ayudará a comprender cuál es su configuración actual, para que pueda seguir correctamente los pasos de implementación para su escenario.
+Hay seis aspectos de implementación que debe aclarar antes de usar [!DNL People-Based Destinations]. Este artículo le ayudará a comprender cuál es su configuración actual, de modo que pueda seguir correctamente los pasos de implementación de su escenario.
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## 1. Definición de su caso de uso {#defining-your-use-case}
+## 1. Definición de Casos de Uso {#defining-your-use-case}
 
-Antes de comenzar a implementar [!DNL People-Based Destinations], debe definir claramente el caso de uso para el que utilizará esta función. Puede usar [!DNL People-Based Destinations] para dirigirse a audiencias de dos maneras, según la actividad de la audiencia:
+Antes de comenzar a implementar [!DNL People-Based Destinations], debe definir claramente el caso de uso para el que va a utilizar esta función. Puede usar [!DNL People-Based Destinations] para segmentar audiencias de dos formas, según la actividad de la audiencia:
 
-**A) Segmentación de audiencias basada en la actividad combinada de usuarios en línea y sin conexión**. En este escenario, desea combinar los datos de audiencia existentes de Audience Manager con datos de su sistema interno [!DNL CRM] y enviar los segmentos de audiencia resultantes a [!DNL People-Based Destinations]. Este es un ejemplo que ilustra este escenario:
+**A) Segmentación de audiencias en función de la actividad** combinada de usuarios en línea y sin conexión. En este escenario, desea combinar los datos de audiencia existentes de Audience Manager con los datos del sistema interno [!DNL CRM] y enviar los segmentos de audiencia resultantes a [!DNL People-Based Destinations]. Este es un ejemplo que ilustra este escenario:
 
-Su empresa, una aerolínea, tiene diferentes niveles de cliente (Bronce, Plata y Oro) y desea proporcionar cada uno de los niveles con ofertas personalizadas a través de plataformas sociales. Utilice Audience Manager para analizar la actividad del cliente en su sitio Web. Sin embargo, no todos los clientes utilizan la aplicación móvil de la aerolínea y algunos nunca han iniciado sesión en el sitio web de la compañía. Los datos del cliente están principalmente limitados a ID de pertenencia y direcciones de correo electrónico.
+Su compañía, una aerolínea, tiene diferentes niveles de clientes (Bronce, Plata y Oro), y usted quiere proporcionar a cada uno de los niveles ofertas personalizadas a través de plataformas sociales. Audience Manager se utiliza para analizar la actividad de los clientes en el sitio web. Sin embargo, no todos los clientes utilizan la aplicación móvil de la aerolínea y algunos de ellos ni siquiera iniciaron sesión en el sitio web de la empresa. Los datos del cliente se limitan principalmente a los ID de pertenencia y las direcciones de correo electrónico.
 
-Para segmentar por medio de medios sociales y de canales similares basados en personas, puede incorporar las direcciones de correo electrónico [hash](people-based-destinations-prerequisites.md) a Audience Manager y combinarlas con características de actividad en línea existentes, para crear nuevos segmentos de audiencia. A continuación, puede utilizar esos segmentos para dirigirse a la audiencia.[!DNL People-Based Destinations]
+Para dirigirlos a través de medios sociales y canales similares basados en personas, puede incluir las direcciones [de correo electrónico con](people-based-destinations-prerequisites.md) hash en Audience Manager y combinarlas con características de actividad en línea existentes para crear nuevos segmentos de audiencia. A continuación, puede utilizar estos segmentos para dirigirse a la audiencia a través de [!DNL People-Based Destinations].
 
-**B) Segmentación de audiencias basada exclusivamente en actividades de usuario sin conexión**. En este escenario, [!DNL CRM] el sistema contiene direcciones de correo electrónico del cliente y otros atributos del cliente, pero los clientes no han interactuado con el sitio Web, por lo que no tiene ninguna actividad de cliente en Audience Manager. Este es un ejemplo que ilustra este escenario:
+**B) Segmentación de público basada exclusivamente en la actividad** del usuario sin conexión. En este caso, el [!DNL CRM] sistema contiene direcciones de correo electrónico de clientes y otros atributos de cliente, pero los clientes no han interactuado con el sitio web, por lo que no tiene actividad de cliente en Audience Manager. Este es un ejemplo que ilustra este escenario:
 
-Su empresa, un proveedor de servicios de telecomunicaciones, mantiene datos de clientes como direcciones de correo electrónico y planes de telecomunicaciones adquiridos en un interno [!DNL CRM]. Desea segmentar clientes existentes en plataformas sociales para ofrecerles paquetes de actualización según sus suscripciones existentes. Para ello, puede ingestar las direcciones de correo electrónico de cliente con hash en Audience Manager y crear segmentos basados en las suscripciones existentes al cliente. A continuación, puede enviar estos segmentos a [!DNL People-Based Destinations] fin de dirigirse a sus clientes con ofertas personalizadas.
+Su empresa, un proveedor de servicios de telecomunicaciones, mantiene los datos de los clientes, como direcciones de correo electrónico, y los planes de telecomunicaciones adquiridos en un sistema interno [!DNL CRM]. Desea dirigirse a los clientes existentes en las plataformas sociales para ofrecerles paquetes de actualización basados en sus suscripciones existentes. Para ello, puede ingerir direcciones de correo electrónico de clientes con hash en Audience Manager y crear segmentos basados en las suscripciones de clientes existentes. A continuación, puede enviar estos segmentos a [!DNL People-Based Destinations] para que se dirijan a sus clientes con ofertas personalizadas.
 
-## 2. Definición del tipo de direcciones de correo electrónico objetivo {#define-target-email}
+## 2. Definir el tipo de direcciones de correo electrónico de objetivo {#define-target-email}
 
-El segundo paso en la definición de la estrategia de implementación es decidir qué tipo de direcciones de correo electrónico de cliente desea dirigir.
+El segundo paso en la definición de la estrategia de implementación consiste en decidir qué tipo de direcciones de correo electrónico de cliente desea dirigir.
 
-**A) Segmentación de audiencias basada en direcciones de correo electrónico autenticadas**. En este escenario, los usuarios tienen varias cuentas asociadas con varias direcciones de correo electrónico y desea dirigirlas con ofertas personalizadas, basándose solamente en la dirección de correo electrónico que autentican en el sitio web en tiempo real.
+**A) Segmentación de audiencias basada en direcciones** de correo electrónico autenticadas. En este escenario, los usuarios tienen varias cuentas asociadas con varias direcciones de correo electrónico y desea segmentar con ofertas personalizadas, basadas únicamente en la dirección de correo electrónico que autentican en el sitio web, en tiempo real.
 
-**B) Segmentación de audiencias basada en todas las direcciones de correo electrónico asociadas**. En este escenario, los usuarios tienen varias cuentas asociadas con varias direcciones de correo electrónico y desea dirigirlas a todas las direcciones de correo electrónico asociadas, independientemente de la actividad autenticada.
+**B) Segmentación de audiencias en función de todas las direcciones** de correo electrónico asociadas. En este escenario, los usuarios tienen varias cuentas asociadas con varias direcciones de correo electrónico y desea segmentarlas en todas sus direcciones de correo electrónico asociadas, independientemente de la actividad autenticada.
 
-## 3. Identificar el tipo de ID de cliente (ID de CRM) que tiene {#identify-customer-id}
+## 3. Identifique el tipo de ID de cliente (ID de CRM) que tiene {#identify-customer-id}
 
-La segmentación de audiencias en [!DNL People-Based Destinations] requiere enviar [versiones hash](people-based-destinations-prerequisites.md) SHA 256 de las direcciones de correo electrónico de sus clientes. Según la configuración existente de Audience Manager, puede encontrarse en uno de los dos casos siguientes:
+La segmentación de audiencias en [!DNL People-Based Destinations] requiere que envíe versiones con hash [de](people-based-destinations-prerequisites.md) SHA256 de las direcciones de correo electrónico de los clientes. Según la configuración de Audience Manager existente, puede encontrarse en uno de los dos escenarios siguientes:
 
-**R) Los ID de cliente de Audience Manager ([dpuuids](../../reference/ids-in-aam.md)) ya están en minúsculas y tienen hash direcciones** de correo electrónico. En este escenario, puede utilizar estos ID existentes para dirigirse a sus audiencias en [!DNL People-Based Destinations].
+**R) Los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ya están en minúsculas y tienen direcciones** de correo electrónico con hash. En este escenario, puede utilizar estos ID existentes para dirigirse a sus audiencias en [!DNL People-Based Destinations].
 
-**B) Los ID de cliente de Audience Manager ([dpuuids](../../reference/ids-in-aam.md)) no tienen direcciones** de correo electrónico con hash. En este escenario, no se pueden enviar los ID de cliente existentes [!DNL People-Based Destinations]. Para usar [!DNL People-Based Destinations], debe realizar una sincronización de ID entre sus ID de cliente existentes y versiones con hash en minúsculas de las direcciones de correo electrónico del cliente. Esto se realiza mediante [la sincronización de ID basada en archivos](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) o mediante [ID declarados](../declared-ids.md).
+**B) Los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) no se escriben en minúsculas ni tienen hash**. En este escenario, no se pueden enviar los ID de cliente existentes a [!DNL People-Based Destinations]. Para usar [!DNL People-Based Destinations], debe realizar una sincronización de ID entre los ID de cliente existentes y las versiones en minúsculas y con hash de las direcciones de correo electrónico de los clientes. Esto se realiza mediante sincronización [de ID basada en](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) archivos o mediante ID [declarados](../declared-ids.md).
 
 ## 4. Cualificación de características {#trait-qualification}
 
-Para dirigirse con precisión a la audiencia en [!DNL People-Based Destinations], los usuarios deben cumplir con las características basadas en reglas o en las características integradas, según el tipo de segmentación de audiencias que desee realizar.
+Para dirigirse a la audiencia con precisión en [!DNL People-Based Destinations], los usuarios deben cumplir los requisitos para las características basadas en reglas o integradas, según el tipo de segmentación de audiencia que desee realizar.
 
-**R) Cualifique los ID de cliente y los ID de dispositivos en tiempo real para las características basadas en reglas**. Esta opción se aplica al caso de uso A desde [1. Definición de su caso de uso](people-based-destinations-workflow.md#defining-your-use-case). Si su plan es dirigirse a las audiencias en función de la actividad en línea y sin conexión, es probable que ya esté calificando a su audiencia para características [basadas en reglas](../traits/trait-qualification-reference.md).
+**R) Califique los ID de cliente y de dispositivo en tiempo real para las características** basadas en reglas. Esta opción se aplica al caso de uso A de [1. Definición del Caso](people-based-destinations-workflow.md#defining-your-use-case)de Uso. Si su plan es dirigirse a audiencias en función de la actividad en línea y sin conexión, lo más probable es que ya esté calificando a la audiencia para las características basadas en [reglas](../traits/trait-qualification-reference.md).
 
-**B) Características de la Onboard con ID de cliente a través de archivos de datos de entrada**. Esta opción se aplica al caso de uso B desde [1. Definición de su caso de uso](people-based-destinations-workflow.md#defining-your-use-case). Al segmentar la audiencia en función de la actividad fuera de línea, es necesario calificar los ID de cliente para características integradas a través [de archivos de datos entrantes](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+**B) Características integradas con ID de cliente mediante archivos** de datos de entrada. Esta opción se aplica al caso de uso B de [1. Definición del Caso](people-based-destinations-workflow.md#defining-your-use-case)de Uso. Al segmentar la audiencia según la actividad que se realice sin conexión, debe cualificar los ID de cliente para características integradas mediante archivos [de datos de](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)entrada.
 
-## 5. Crear o etiquetar fuentes de datos y direcciones de correo electrónico con hash {#create-label-data-sources}
+## 5. Crear o etiquetar fuentes de datos y direcciones de correo electrónico con hash integradas {#create-label-data-sources}
 
-Según el tipo de ID de cliente que tenga en Audience Manager (consulte [3. Identificar el tipo de ID de cliente (ID de CRM) que tiene](people-based-destinations-workflow.md#identify-customer-id), se encontrará en uno de los escenarios siguientes:
+Según el tipo de ID de cliente que tenga en Audience Manager (consulte [3. Identifique el tipo de ID de cliente (ID de CRM) que tiene](people-based-destinations-workflow.md#identify-customer-id), y se encontrará en uno de los siguientes escenarios:
 
-**A) Etiqueta de fuente de datos existente**. Esta opción se aplica al escenario en el que los ID de cliente de Audience Manager ([dpuuids](../../reference/ids-in-aam.md)) ya están en minúsculas y tienen hash direcciones de correo electrónico. En este caso, lo que debe hacer es etiquetar el origen de datos que almacena los ID como fuente [!DNL PII] de datos. Consulte [Configuración de fuentes de datos](../datasources-list-and-settings.md) para obtener más información sobre la configuración de la fuente de datos. Lo que debe hacer es asegurarse de que no se puede vincular la opción de información personal con información de identificación personal.
+**A) Etiquetar una fuente** de datos existente. Esta opción se aplica al escenario en el que los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ya están en minúsculas y tienen hash las direcciones de correo electrónico. En este caso, lo que debe hacer es etiquetar la fuente de datos en la que almacena los ID como una fuente [!DNL PII] de datos. Consulte Configuración [](../datasources-list-and-settings.md) de fuente de datos para obtener más información sobre la configuración de la fuente de datos. Lo que debe hacer es asegurarse de que la opción No puede estar vinculada a información personal no está marcada.
 
-**B) Cree una nueva fuente de datos**. Esta opción se aplica al escenario donde los ID de cliente de Audience Manager ([dpuuids](../../reference/ids-in-aam.md)) no son direcciones de correo electrónico hash. En este caso, debe crear una nueva fuente de datos entre dispositivos y onboard las direcciones de correo electrónico con hash. Puede hacerlo de dos maneras:
+**B) Crear una nueva fuente** de datos. Esta opción se aplica al escenario en el que los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) no son direcciones de correo electrónico con hash. En este caso, debe crear una nueva fuente de datos entre dispositivos e incluir las direcciones de correo electrónico con hash en su contra. Puede hacerlo de dos maneras:
 
-* Utilice la sincronización de ID basada en archivos. Consulte [Requisitos de nombre y contenido para archivos de sincronización de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) para obtener más información sobre los archivos de sincronización de ID que deben aparecer. Al utilizar este método, puede dirigir todas las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos.
-* Utilice [los ID declarados](../declared-ids.md) para declarar direcciones de correo electrónico hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager solo se dirige a las direcciones de correo electrónico con hash de los usuarios que se han autenticado en línea. Las direcciones de correo electrónico dirigidas a través de Facebook son sólo las de las llamadas de eventos de ID declarados. Otras direcciones de correo electrónico asociadas con el ID de cliente no se activan en tiempo real.
+* Utilice la sincronización de ID basada en archivos. Consulte Requisitos de [nombre y contenido para archivos](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de sincronización de ID para obtener más información sobre el aspecto que deben tener los archivos de sincronización de ID. Al utilizar este método, puede segmentar todas las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos.
+* Utilice ID [](../declared-ids.md) declarados para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager solo segmenta las direcciones de correo electrónico con hash de los usuarios que se hayan autenticado en línea. Las direcciones de correo electrónico que se dirigen a través de Facebook son solo las que aparecen en las llamadas de evento de ID declaradas. Otras direcciones de correo electrónico asociadas con el ID de cliente no se activan en tiempo real.
 
-## 6. Utilizar una regla de combinación de perfiles para segmentación {#use-profile-merge-rules}
+## 6. Usar una regla de combinación de perfiles para la segmentación {#use-profile-merge-rules}
 
-Según el caso de uso (véase [1. Definición de su caso de uso](people-based-destinations-workflow.md#defining-your-use-case)), existen dos maneras de utilizar [!DNL Profile Merge Rules] la segmentación.
+Según el caso de uso (consulte [1. Definición del caso](people-based-destinations-workflow.md#defining-your-use-case)de uso), existen dos maneras de utilizarlo [!DNL Profile Merge Rules] para la segmentación.
 
-**R) Uso existente[!DNL Profile Merge Rules]**. Esta opción se aplica al primer caso de uso (segmentación de audiencia basada en la actividad combinada de usuarios en línea y sin conexión). En este escenario, tiene actividad de cliente existente en Audience Manager y ya ha definido al menos una regla de combinación de perfiles que ha utilizado en la segmentación. En este caso, no es necesario crear [!DNL Profile Merge Rules]ningún nuevo.
+**A) Usar existente[!DNL Profile Merge Rules]**. Esta opción se aplica al primer caso de uso (segmentación de audiencia en función de la actividad combinada de usuarios en línea y sin conexión). En este escenario, tiene actividad de cliente existente en Audience Manager y ya ha definido al menos una regla de combinación de perfiles que ha utilizado en la segmentación. En este caso, no es necesario crear ningún nuevo [!DNL Profile Merge Rules].
 
-**B) Crear una nueva regla[!DNL All Cross-Device Profiles]de combinación**. Esta opción se aplica al segundo caso de uso (segmentación de audiencia basada exclusivamente en actividad de usuario sin conexión). En este escenario, obtiene datos de cliente sin conexión de su [!DNL CRM] en Audience Manager y desea crear segmentos a partir de esos datos. Para ello [!DNL People-Based Destinations] , introduce una nueva cuarta regla de combinación de perfiles llamada **[!DNL All Cross-Device Profiles]**. Esta es la regla que debe utilizar al segmentar datos simples sin conexión.
+**B) Crear una nueva regla[!DNL All Cross-Device Profiles]de combinación**. Esta opción se aplica al segundo caso de uso (segmentación de audiencia basada exclusivamente en la actividad de usuario sin conexión). En este escenario, los datos de clientes sin conexión de su empresa [!DNL CRM] se van a incluir en Audience Manager y desea crear segmentos a partir de esos datos. Para ello, [!DNL People-Based Destinations] introduce una nueva regla de combinación de perfiles, denominada **[!DNL All Cross-Device Profiles]**. Esta es la regla que debe usar al segmentar datos puramente sin conexión.
