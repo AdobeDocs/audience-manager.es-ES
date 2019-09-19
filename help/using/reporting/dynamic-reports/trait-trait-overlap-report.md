@@ -4,7 +4,7 @@ seo-description: Devuelve datos sobre el número de usuarios únicos compartidos
 seo-title: Informe de solapamiento entre características
 solution: Audience Manager
 title: Informe de solapamiento entre características
-uuid: 7 fb 3 fc 9 e -0 e 0 b -492 a -9 c 3 a -04356 afb 19 c 7
+uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
 source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
 
@@ -17,7 +17,7 @@ Devuelve datos sobre el número de usuarios únicos compartidos entre todas las 
 
 >[!NOTE]
 >
->Los informes Superponer de Audience Manager respetan los principios RBAC. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Los informes Superponer de Audience Manager se ajustan a los principios de RBAC. Solo puede ver características de fuentes de datos a las que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
 
 <!-- 
 
@@ -27,19 +27,19 @@ c_overlap_reports.xml
 
 ## Información general
 
-The [!UICONTROL Trait-to-Trait Overlap] report returns data on the % of unique users shared between all your own traits and your third-party traits. Como herramienta de optimización, este informe le ayuda a:
+El [!UICONTROL Trait-to-Trait Overlap] informe devuelve datos sobre el porcentaje de usuarios únicos compartidos entre todas sus características y las de terceros. Como herramienta de optimización, este informe le ayuda a:
 
-* Cree segmentos con superposición alta o baja, según sus necesidades. Las características con superposición alta proporcionan una audiencia segmentada, pero menos visitantes únicos. Las características con superposición baja pueden resultar útiles para alcanzar un conjunto de visitantes único y más grande.
-* Validar los datos de características de terceros: La fuerte superposición entre características similares de origen y de terceros sugiere que la característica del socio de datos es precisa y fiable. Por el contrario, la superposición baja puede indicar que una característica de terceros puede no contener la misma información que su propio rasgo de origen similar.
-* Encuentre superposición inesperada entre características y utilice esa información para crear segmentos innovadores.
+* Cree segmentos con superposición alta o baja, según sus necesidades. Las características con alta superposición le proporcionan una audiencia objetivo, pero menos visitantes únicos. Las características con baja superposición pueden ser útiles para alcanzar un conjunto de visitantes único y más grande.
+* Validar datos de características de terceros: Una fuerte superposición entre características similares de origen y de terceros sugiere que la característica de su socio de datos es precisa y confiable. Por el contrario, una superposición baja puede indicar que una característica de terceros puede no contener realmente la misma información que la suya propia, una característica de origen similar.
+* Encuentre superposiciones inesperadas entre características y utilice esa información para crear segmentos innovadores.
 
 ## Informe de muestra
 
-The following illustration provides a high-level overview of elements in the [!UICONTROL Trait-to-Trait Overlap] report.
+En la siguiente ilustración se proporciona una visión general de alto nivel de los elementos del [!UICONTROL Trait-to-Trait Overlap] informe.
 
 >[!NOTE]
 >
->[!UICONTROL Trait-to-Trait Overlap] El informe devuelve un campo vacío cuando compara el mismo rasgo consigo mismo.
+>El [!UICONTROL Trait-to-Trait Overlap] informe devuelve un campo vacío cuando compara la misma característica con sí mismo.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -47,9 +47,9 @@ The following illustration provides a high-level overview of elements in the [!U
 
 Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
-## Trait-to-Trait Overlap Data Pop Fields Defined {#field-definitions}
+## Campos de ventana emergente de datos de superposición de rasgo a rasgo definidos {#field-definitions}
 
-Describe las métricas mostradas en la ventana emergente al hacer clic en un punto de datos individual.
+Describe las métricas que se muestran en la ventana emergente al hacer clic en un punto de datos individual.
 
 <!-- 
 
@@ -57,7 +57,7 @@ r_t2t_data_pop.xml
 
  -->
 
-The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
+La ventana emergente del [!UICONTROL Trait-to-Trait Overlap] informe contiene las métricas siguientes. Tenga en cuenta que la métrica de valores exclusivos de la tabla representa a los usuarios *en tiempo* real.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -69,44 +69,44 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
  <tbody> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Nombre del proveedor de datos</span></b> </td> 
-   <td colname="col2"> Nombre del propietario de características. </td> 
+   <td colname="col2"> Nombre del propietario del rasgo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Tipo de proveedor de datos</span></b> </td> 
-   <td colname="col2">Define el tipo de proveedor al que pertenece. Puede ser: 
+   <td colname="col2">Define el tipo de proveedor al que pertenece una característica. Puede ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
-     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Origen (su propio rasgo). </li> 
-     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceros (de un socio o proveedor externo de datos). </li> 
+     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Origen (propio rasgo). </li> 
+     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceros (de un proveedor o socio de datos externo). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> ID de característica</span></b> </td> 
-   <td colname="col2"> ID numérico único para esa característica. </td> 
+   <td colname="col2"> ID numérica única para esa característica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Nombre de característica</span></b> </td> 
-   <td colname="col2"> Nombre del atributo. </td> 
+   <td colname="col2"> Nombre del rasgo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Superposición %</span></b> </td> 
-   <td colname="col2"> Muestra el % de superposición única entre características comparadas (superposición de únicos únicos/características únicos). </td> 
+   <td colname="col1"><b><span class="wintitle"> % de superposición</span></b> </td> 
+   <td colname="col2"> Muestra el porcentaje de superposición única entre características comparadas (superposición de valores únicos/únicos de características). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Superposición de únicos</span></b> </td> 
-   <td colname="col2"> <p>Para obtener el porcentaje de superposición %, Audience Manager utiliza la fórmula siguiente:</p> <p>Superposición de únicos/(únicos de segmento base + únicos de segmentos solapados - Superposición de únicos)</p> </td> 
+   <td colname="col1"><b><span class="wintitle"> Uniones superpuestos</span></b> </td> 
+   <td colname="col2"> <p>Para obtener el porcentaje de superposición, Audience Manager utiliza la fórmula siguiente:</p> <p> Únicos superpuestos / (únicos de segmento base + únicos de segmento superpuestos - únicos superpuestos)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Únicos únicos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Características únicas</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos en la característica. </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Filtrar resultados del informe con los controles deslizantes de datos](../../reporting/dynamic-reports/data-sliders.md)
->* [Formas, colores y tamaños utilizados en los informes dinámicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Explicación de los iconos y las herramientas del informe](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Informes superpuestos: Actualizar programación y tamaño mínimo de segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestras de datos y tasas de error en informes de Audience Manager seleccionados…](../../reporting/report-sampling.md)
+>* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
+>* [Formas, colores y tamaños utilizados en informes dinámicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Informes de superposición: Actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
