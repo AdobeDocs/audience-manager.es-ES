@@ -1,51 +1,51 @@
 ---
-description: Puede enviar segmentos cualificados a DFP mediante una integración del lado del cliente (lado del explorador) o una integración del lado del servidor. Si elige la integración del lado del cliente, debe crear un destino basado en cookies para etiquetas de Google Publisher en Audience Manager.
-seo-description: Puede enviar segmentos cualificados a DFP mediante una integración del lado del cliente (lado del explorador) o una integración del lado del servidor. Si elige la integración del lado del cliente, debe crear un destino basado en cookies para etiquetas de Google Publisher en Audience Manager.
+description: Puede enviar segmentos cualificados a DFP mediante una integración del lado del cliente (del navegador) o de servidor. Si elige la integración del lado del cliente, debe crear un destino basado en cookies para las etiquetas de publicador de Google en Audience Manager.
+seo-description: Puede enviar segmentos cualificados a DFP mediante una integración del lado del cliente (del navegador) o de servidor. Si elige la integración del lado del cliente, debe crear un destino basado en cookies para las etiquetas de publicador de Google en Audience Manager.
 seo-title: Crear un destino GPT
 solution: Audience Manager
 title: Crear un destino GPT
-uuid: e 3 bbf 327-a 7 e 0-48 da-bc 84-8 f 531 b 7 f 6750
+uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Create a GPT Destination {#create-a-gpt-destination}
+# Crear un destino GPT {#create-a-gpt-destination}
 
-You can send qualified segments to [!DNL DFP] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
+Puede enviar segmentos cualificados a [!DNL DFP] través de una integración del lado del cliente (del navegador) o de un servidor. Si elige la integración de cliente, debe crear un destino basado en cookies para [!DNL Google Publisher Tags] en Audience Manager.
 
 ## Destinos
 
-In Audience Manager, a *`destination`* is any other system (ad server, [!DNL DSP], ad network, etc.) a los que desee compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de entrega de datos. Audience Manager destination features are located in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+En Audience Manager, un *`destination`* es cualquier otro sistema (servidor de publicidad, [!DNL DSP]red de publicidad, etc.) que desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de entrega de datos. Las funciones de destino de Audience Manager se encuentran en *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ## Información básica
 
-To complete the [!UICONTROL Basic Information] section:
+Para completar la [!UICONTROL Basic Information] sección:
 
 1. Asigne un nombre al destino.
 1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
-1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+1. Haga clic **[!UICONTROL Next]** y continúe con las secciones [!UICONTROL Configuration] y [!UICONTROL Segment Mappings] .
 
-## Configuración de cookie
+## Configuración de cookies
 
-Provide the following to complete the [!UICONTROL Configuration] section (other fields are optional):
+Proporcione lo siguiente para completar la [!UICONTROL Configuration] sección (otros campos son opcionales):
 
-1. **Nombre de la cookie:** Proporcione un nombre corto y descriptivo para la cookie.
-1. **Formato de datos:** Seleccione la **[!UICONTROL "Single Key"]** opción.
-1. **Clave:** Proporcione un nombre de clave.
-1. **Serializar:** Seleccione la casilla de **[!UICONTROL Enable]** verificación.
-1. **Delimitador de serie:** Utilice sólo una coma.
+1. **** Nombre de la cookie: Proporcione un nombre corto y descriptivo para la cookie.
+1. **** Formato de datos: Seleccione la **[!UICONTROL "Single Key"]** opción.
+1. **** Clave: Proporcione un nombre de clave.
+1. **** Serializar: Seleccione la **[!UICONTROL Enable]** casilla.
+1. **** Delimitador serie: Utilice una coma solamente.
 
-## Asignaciones de segmentos
+##  Asignaciones de segmentos
 
 Para agregar un segmento a un destino de cookie:
 
-1. Find segments: The [!UICONTROL Segment Mappings] section provides two search tools to help locate segments. Para encontrar un segmento:
+1. Buscar segmentos: La [!UICONTROL Segment Mappings] sección proporciona dos herramientas de búsqueda para encontrar segmentos. Para encontrar un segmento:
 
-   * Opción 1: Empiece a escribir un nombre de segmento en el campo de búsqueda. El campo se actualiza automáticamente en función del texto introducido. Click **[!UICONTROL Add]** once you find the segment you want to use.
-   * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
+   * Opción 1: Empiece a escribir un nombre de segmento en el campo de búsqueda. El campo se actualiza automáticamente en función del texto introducido. Haga clic **[!UICONTROL Add]** cuando encuentre el segmento que desee utilizar.
+   * Opción 2: Haga clic en **[!UICONTROL Browse All Segments]** para abrir una ventana que le permite buscar segmentos por nombre o ubicación de almacenamiento. Click **[!UICONTROL Add Selected Segments]** when done.
 
-1. **Agregar asignaciones:** En las asignaciones pop, introduzca el ID de segmento en el campo Asignaciones y haga clic **[!UICONTROL Save]** en.
+1. **** Agregar asignaciones: En la ventana emergente de asignaciones, introduzca el ID de segmento en el campo de asignaciones y haga clic en **[!UICONTROL Save]**.
 
 1. Haga clic en **[!UICONTROL Done]**.
