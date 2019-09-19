@@ -1,19 +1,19 @@
 ---
-description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan solo ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño de archivo y los tiempos de procesamiento.
-seo-description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan solo ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño de archivo y los tiempos de procesamiento.
-seo-title: Mejore los tiempos de procesamiento de archivos de registro con tablas de búsqueda
+description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
+seo-description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
+seo-title: Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda
 solution: Audience Manager
-title: Mejore los tiempos de procesamiento de archivos de registro con tablas de búsqueda
-uuid: ffc 77618-474 b -455 e -9 c 91-15 b 32 fc 151 a 5
+title: Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda
+uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
+# Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda{#improve-log-file-processing-times-with-lookup-tables}
 
-Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan solo ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño de archivo y los tiempos de procesamiento.
+Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
 
 <!-- 
 
@@ -23,31 +23,31 @@ c_lookup_tables.xml
 
 ## Los metadatos del archivo de registro aumentan el tamaño del archivo y el tiempo de procesamiento
 
-A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. Consiste en ID numéricos y información legible en lenguaje natural, como nombres para creativos, anunciantes, pedidos de inserción, etc.
+Un archivo de registro típico utilizado por el [!UICONTROL Delivery Performance] informe generalmente contiene miles de filas y docenas de columnas. Consta de ID numéricos e información legible por el usuario, como nombres para creativos, anunciantes, pedidos de inserción, etc.
 
-This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file.
+Esta información que no es de ID se denomina *`metadata`* (es decir, información sobre otra información) y se escribe en cada fila del archivo de registro.
 
-However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. Los metadatos son útiles, pero repetitivos. Aumenta el tamaño del archivo y los tiempos de inserción de datos.
+Sin embargo, el [!UICONTROL Delivery Performance] informe funciona principalmente con los ID del archivo de registro. Los metadatos son útiles, pero repetitivos. Aumenta el tamaño del archivo y los tiempos de ingestión de datos.
 
-## Reducir el tamaño de archivo y abreviar el tiempo de procesamiento con tablas de índice
+## Reducir el tamaño del archivo y acortar el tiempo de procesamiento con las tablas de índice
 
-Para ayudar a mejorar el rendimiento, el archivo de datos principal debe contener solamente ID. Coloque los metadatos en una tabla de búsqueda (o índice) independiente y vincule esos registros al archivo principal con una variable clave común a ambos.
+Para ayudar a mejorar el rendimiento, el archivo de datos principal debe contener solamente ID. Coloque los metadatos en una tabla de búsqueda (o índice) independiente y vincule dichos registros al archivo principal con una variable clave común a ambos.
 
-## Cómo reducen las tablas de búsqueda el tamaño de archivo
+## Cómo las tablas de búsqueda reducen el tamaño del archivo
 
-Supongamos que tiene un archivo de datos similar al de abajo.
+Supongamos que tiene un archivo de datos similar al que se muestra a continuación.
 
 | ID de usuario | ID de anuncio | Nombre de publicidad | ID de pedido | Nombre del pedido | ID del anunciante | Nombre del anunciante |
 |---|---|---|---|---|---|---|
-| 1 | 111 | Zapatos A | 456 | Zapatillas | 27 | Empresa A |
-| 2 | 111 | Zapatos A | 456 | Zapatillas | 27 | Empresa A |
-| 3 | 111 | Zapatos A | 456 | Zapatillas | 27 | Empresa A |
-| 4 | 222 | Zapatos B | 789 | Senderismo | 14 | Empresa B |
-| 5 | 222 | Zapatos B | 789 | Senderismo | 14 | Empresa B |
+| 1 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
+| 2 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
+| 3 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
+| 4 | 222 | Zapato B | 789 | Senderismo | 14 | Empresa B |
+| 5 | 222 | Zapato B | 789 | Senderismo | 14 | Empresa B |
 
 <br> 
 
-Este es el mismo archivo de registro con los metadatos eliminados. El archivo es más pequeño y fácil de procesar cuando consta de ID solamente.
+Este es el mismo archivo de registro con los metadatos eliminados. El archivo es más pequeño y fácil de procesar cuando se compone únicamente de ID.
 
 | ID de usuario | ID de anuncio | ID de pedido | ID del anunciante |
 |---|---|---|---|
@@ -59,18 +59,18 @@ Este es el mismo archivo de registro con los metadatos eliminados. El archivo es
 
 <br> 
 
-El archivo de búsqueda siguiente contiene los metadatos y se puede vincular al archivo principal con el ID de anuncio. También tenga en cuenta el tamaño. En lugar de repetir cada anunciante varias veces, solo necesita una referencia para cada uno.
+El archivo de búsqueda siguiente contiene los metadatos y se puede vincular al archivo principal con el ID de publicidad. Observe también el tamaño. En lugar de repetir varias veces cada anunciante, solo necesita una referencia para cada uno.
 
 | ID de anuncio | Nombre de publicidad | Nombre del pedido | Nombre del anunciante |
 |---|---|---|---|
-| 111 | Zapatos A | Zapatillas | Empresa A |
-| 222 | Zapatos B | Senderismo | Empresa B |
+| 111 | Zapato A | Esponjas | Empresa A |
+| 222 | Zapato B | Senderismo | Empresa B |
 
 ## Las API pueden eliminar la necesidad de tablas de búsqueda
 
-Si el sistema de servicio de publicidad tiene una API, es posible que no necesite enviar metadatos en un archivo de búsqueda. Es posible que podamos obtener esa información a través de la API. Cuando éste sea el caso, los archivos de registro deben contener sólo ID. Colaboraremos con usted para determinar si los metadatos se pueden obtener mediante una API.
+Si el sistema de servicio de publicidad tiene una API, es posible que no necesite enviar metadatos en un archivo de búsqueda. Podemos obtener esa información a través de la API. En este caso, los archivos de registro deben contener únicamente ID. Trabajaremos con usted para determinar si los metadatos se pueden obtener a través de una API.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Informe de entrega y rendimiento](../../reporting/dynamic-reports/delivery-performance-report.md)
+>* [Informe de rendimiento y entrega](../../reporting/dynamic-reports/delivery-performance-report.md)
 
