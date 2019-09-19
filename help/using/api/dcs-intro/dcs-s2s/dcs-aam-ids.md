@@ -1,10 +1,10 @@
 ---
-description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de región y visitante necesarios para realizar llamadas en tiempo real al DCS.
-seo-description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de región y visitante necesarios para realizar llamadas en tiempo real al DCS.
-seo-title: Obtención de ID de usuario y regiones desde una respuesta de DCS
+description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real al DCS.
+seo-description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real al DCS.
+seo-title: Obtener ID de usuario y regiones a partir de una respuesta de DCS
 solution: Audience Manager
-title: Obtención de ID de usuario y regiones desde una respuesta de DCS
-uuid: 08036045-3 b 26-4 d 40-8 e 94-7 d 0884048683
+title: Obtener ID de usuario y regiones a partir de una respuesta de DCS
+uuid: 08036045-3b26-4d40-8e94-7d0884048683
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,16 +13,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
 
-This section describes how to parse a [!UICONTROL DCS] response to retrieve the visitor and region IDs required to make real-time calls to the [!UICONTROL DCS].
+En esta sección se describe cómo analizar una [!UICONTROL DCS] respuesta para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real a la [!UICONTROL DCS].
 
-## User and Region IDs {#user-region-ids}
+## ID de usuario y región {#user-region-ids}
 
-[!UICONTROL DCS] Una respuesta contiene datos sobre los visitantes del sitio. You need the visitor and region ID before you can make server-to-server calls to the [!UICONTROL DCS].
+Una [!UICONTROL DCS] respuesta contiene datos sobre los visitantes del sitio. Necesita el ID de visitante y región para poder realizar llamadas de servidor a servidor al [!UICONTROL DCS].
 
-* El ID de usuario es necesario para identificar y asociar datos con un visitante concreto.
-* The region ID is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. Consulte [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (ID de región de DCS, ubicaciones y nombres de host).
+* El ID de usuario es necesario para identificar y asociar datos con un visitante en particular.
+* El ID de región es obligatorio porque está vinculado a un nombre de servidor regional, que debe enviar datos al [!UICONTROL DCS]. El [!UICONTROL DCS] almacena información en centros de datos geográficamente más cercanos a los visitantes del sitio. Consulte [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (ID de región de DCS, ubicaciones y nombres de host).
 
-Estos parámetros se describen a continuación. Code in *italics* represents a variable placeholder.
+Estos parámetros se describen a continuación. El código en *cursiva* representa un marcador de posición de variable.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -34,21 +34,21 @@ Estos parámetros se describen a continuación. Code in *italics* represents a v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>" uuid ": <i>ID de usuario</i></code></span> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": ID <i>de usuario</i></code></span> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p> <code> " uuid ": " 123456789 "</code> </p> </td> 
+   <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>" dcs_ region ":<i>ID de región</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"dcs_region":ID<i>de región</i></code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p> <code> " dcs_ region ": 9</code> </p> </td> 
+   <td colname="col3"> <p> <code> "dcs_region":9</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Respuesta de ejemplo {#sample-response}
 
-This simple response shows the `UUID` and region `ID`. Tenga en cuenta que solo son datos de ejemplo. Los archivos de registro pueden ser más largos y complejos.
+Esta respuesta simple muestra la región `UUID` y `ID`. Tenga en cuenta que se trata únicamente de datos de ejemplo. Los archivos de registro pueden ser más largos y complejos.
 
 ```js
 {
@@ -61,4 +61,4 @@ This simple response shows the `UUID` and region `ID`. Tenga en cuenta que solo 
 
 ## Pasos siguientes {#next-steps}
 
-Once you have the user ID and regional server name, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Una vez que tenga el ID de usuario y el nombre del servidor regional, puede empezar a enviar y recibir [!UICONTROL DCS] datos. Consulte [Realización de llamadas](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)de API de DCS.
