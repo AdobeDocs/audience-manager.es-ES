@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo C: Personalización basada en actividad autenticada
 solution: Audience Manager
 title: 'Flujo de trabajo C: Personalización basada en actividad autenticada combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
+source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
 
 ---
 
@@ -110,7 +110,7 @@ Para crear nuevos segmentos, utilice el Generador [de segmentos](../segments/seg
 
 >[!IMPORTANT]
 >
->Un administrador de audiencia gestiona la integración con las plataformas sociales mediante tokens de autenticación que caducan después de una determinada cantidad de tiempo. Consulte Renovación de autentificador para obtener más información sobre cómo renovar los tokens caducados.
+>Audience Manager gestiona la integración con las plataformas sociales mediante tokens de autenticación que caducan después de una determinada cantidad de tiempo. Consulte Renovación de autentificador para obtener más información sobre cómo renovar los tokens caducados.
 
 ## Paso 6: Creación de un destino basado en personas {#create-destination}
 
