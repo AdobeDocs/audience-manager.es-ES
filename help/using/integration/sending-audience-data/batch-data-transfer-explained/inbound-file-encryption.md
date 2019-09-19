@@ -1,36 +1,36 @@
 ---
-description: Como opción, puede codificar archivos de datos con codificación PGP al enviarlos a Audience Manager.
-seo-description: Como opción, puede codificar archivos de datos con codificación PGP al enviarlos a Audience Manager.
-seo-title: Codificación PGP de archivo para tipos de datos entrantes
+description: Como opción, puede cifrar archivos de datos con codificación PGP al enviarlos a Audience Manager.
+seo-description: Como opción, puede cifrar archivos de datos con codificación PGP al enviarlos a Audience Manager.
+seo-title: Cifrado PGP de archivo para tipos de datos de entrada
 solution: Audience Manager
-title: Codificación PGP de archivo para tipos de datos entrantes
-uuid: 89 caace 1-0259-48 fc -865 b-d 525 ec 7822 f 7
+title: Cifrado PGP de archivo para tipos de datos de entrada
+uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
+# Cifrado PGP de archivo para tipos de datos de entrada{#file-pgp-encryption-for-inbound-data-types}
 
-As an option, you can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
+Como opción, puede cifrar archivos de datos con [!DNL PGP] codificación al enviarlos a Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->Actualmente no admitimos cifrado ni compresión en el mismo archivo de datos de entrada. You can select to either encrypt or [compress](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) your inbound files.
+>Actualmente no se admite el cifrado y la compresión en el mismo archivo de datos de entrada. Puede seleccionar cifrar o [comprimir](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) los archivos de entrada.
 
-Siga los pasos descritos a continuación para codificar los archivos de datos de entrada.
+Siga los pasos descritos a continuación para cifrar archivos de datos de entrada.
 
-1. Download the [Audience Manager public key](./assets/adobe_pgp.pub).
-1. Importe la clave pública a su tienda de confianza.
+1. Descargue la clave [pública de](./assets/adobe_pgp.pub)Audience Manager.
+1. Importe la clave pública en la tienda de confianza.
 
-   For example, if you use [!DNL GPG], the command could be similar to the following:
+   Por ejemplo, si utiliza [!DNL GPG], el comando podría ser similar al siguiente:
 
    `gpg --import adobe_pgp.pub`
 
-1. Valide que la clave se haya importado correctamente ejecutando el comando siguiente:
+1. Valide que la clave se haya importado correctamente ejecutando el siguiente comando:
 
    `gpg --list-keys`
 
@@ -42,12 +42,12 @@ Siga los pasos descritos a continuación para codificar los archivos de datos de
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. Codifique los datos de entrada utilizando el comando siguiente:
+1. Cifre los datos de entrada mediante el siguiente comando:
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   All encrypted data must use `.pgp` or `.gpg` as the file extension (e.g. `ftp_dpm_100_123456789.sync.pgp` or `ftp_dpm_100_123456789.overwrite.gpg`).
+   Todos los datos cifrados deben utilizarse `.pgp` o `.gpg` como extensión de archivo (por ejemplo `ftp_dpm_100_123456789.sync.pgp` o `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager supports only the [!DNL Advanced Encryption Standard (AES)] data-encryption algorithm. Audience Manager admite cualquier tamaño clave.
+   >Audience Manager solo admite el algoritmo de cifrado de datos [!DNL Advanced Encryption Standard (AES)] . Audience Manager admite cualquier tamaño clave.
