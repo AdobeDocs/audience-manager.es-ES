@@ -5,47 +5,47 @@ translation-type: tm+mt
 ---
 # Instrucciones
 
-**Nota: Esta página (o cualquier página léame. md) no se publicará en la documentación de cliente**
+**Nota: Esta página (o cualquier página readme.md) no se publicará en la documentación de cara al cliente**
 
 ## TDC
 
-+ `TOC.md` en la raíz de la guía del usuario proporciona la organización de los temas contenidos en la guía para esta solución.
-+ Each user guide will have its own unique `TOC.md`, in which you can order all the pages/topics as necessary.
-+ The first page of all user guides is `overview.md`.
++ `TOC.md` en la raíz de la guía del usuario se proporciona la organización de los temas que se incluyen en la guía de esta solución.
++ Cada guía del usuario tendrá su propia guía única `TOC.md`, en la que podrá ordenar todas las páginas o temas según sea necesario.
++ La primera página de todas las guías del usuario es `overview.md`.
 
 ## Guía de usuario
 
-+ The introduction to the user guide is called `overview.md`
-+ Cada tema de la guía del usuario tiene su propio directorio diferente.
-   + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
-+ All image assets are stored in `/assets` at the root of the user guide.
-   + All images in the `/assets` directory will be localized.
-   + Any images in the `/no-localize` directory will not be localized (there's a surprise!). Esto se puede utilizar para asegurar en versiones loc que los recursos específicos no se reproducen de forma innecesaria.
++ La introducción a la guía del usuario se denomina `overview.md`
++ Cada tema de la guía del usuario tiene su propio directorio distinto.
+   + Si hay un tema en la guía llamado *Implementación*, el directorio correspondiente es `/implementation`
++ Todos los recursos de imagen se almacenan `/assets` en la raíz de la guía del usuario.
+   + Se localizarán todas las imágenes del `/assets` directorio.
+   + No se localizará ninguna imagen del `/no-localize` directorio (¡hay una sorpresa!). Esto se puede utilizar para garantizar en las versiones de loc que los recursos específicos no se reproducen innecesariamente.
 
-## Metadatos del nivel de guía del usuario
+## Metadatos de nivel de guía del usuario
 
-+ Meta data which describes the user guide is stored in the `TOC.md`. Esto incluye:
-   + product - nombre de producto/capacidad.
-   + cloud - cloud a la que pertenece este producto.
-   + audiencia: audiencia o arquetipo a la que se dirige la guía.
-   + user-guide - nombre de la guía del usuario.
++ Los metadatos que describen la guía del usuario se almacenan en el `TOC.md`. Esto incluye:
+   + producto: nombre del producto/capacidad.
+   + cloud: nube a la que pertenece este producto.
+   + audiencia: audiencia o arquetipo al que está dirigida la guía.
+   + guía del usuario: nombre de la guía del usuario.
 
 ## Metadatos de nivel de página
 
-+ Los metadatos requeridos para describir un documento se almacenan como parte de cada página individual. Esto incluye:
-   + title: título de la página.
++ Los metadatos necesarios para describir un documento se almacenan como parte de cada página individual. Esto incluye:
+   + title - título de la página.
    + description: descripción de la página.
-   + seo-title: título alternativo.
-   + seo-description: título alternativo para SEO.
-   + short-title - (campo opcional).
-   + index (sí/no); la página de búsqueda de Adobe indexará la página.
-   + translate - yes/no - will this page be localized.
-   + versión que se utiliza principalmente para AEM y Campaign, para denotar la versión del producto.
-   + private-feature-pack: se usa principalmente para AEM.
-   + beta -¿este producto está en beta?
-   + redirigir: se puede utilizar para crear una ref a una página nueva que sea necesaria.
-   + doc-type: reference (predeterminado)/troubleshooting/developer/tutorial/kb/whitepaper.
+   + seo-title - seo título alternativo.
+   + seo-description - título alternativo para fines SEO.
+   + short-title: (campo opcional).
+   + index - yes / no - la página será indexada por la plataforma de búsqueda de Adobe.
+   + traducir - sí / no - se localizará esta página.
+   + versión: se utiliza principalmente para AEM y Campaign, para denotar la versión del producto.
+   + private-feature-pack: se utiliza principalmente para AEM.
+   + beta - ¿Este producto está en beta?
+   + redireccionamiento: se puede utilizar para crear una referencia a una nueva página si es necesario.
+   + doc-type: referencia (predeterminado) / solución de problemas / desarrollador / tutorial / kb / documento técnico.
 
 ## Más información
 
-For more publishing instructions, style guides, samples and other resources, please visit the [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obtener más instrucciones de publicación, guías de estilo, ejemplos y otros recursos, visite el [Repo de documentación de colaboración](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
