@@ -1,33 +1,33 @@
 ---
-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona las transferencias de archivos correctamente.
-seo-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona las transferencias de archivos correctamente.
-seo-title: Transferir archivos de control para transferencias de archivos de registro
+description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
+seo-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
+seo-title: Archivos de transferencia y control para transferencias de archivos de registro
 solution: Audience Manager
-title: Transferir archivos de control para transferencias de archivos de registro
-uuid: ef 58213 e -7 b 37-4 c 5 a -8556-0 de 695706793
+title: Archivos de transferencia y control para transferencias de archivos de registro
+uuid: ef58213e-7b37-4c5a-8556-0de695706793
 translation-type: tm+mt
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
 
 
-# Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
+# Archivos de transferencia y control para transferencias de archivos de registro {#transfer-control-files-for-log-file-transfers}
 
-Transfer-control ([!DNL .info]) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
+Los archivos de control de transferencia ([!DNL .info]) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
 
-[!DNL Audience Manager] envía un archivo de control de transferencia a un socio con cada transferencia de archivos. Due to the multi-thread nature of the [!DNL FTP] publisher, the transfer-control file might be sent before the actual files are finished transferring.
+[!DNL Audience Manager] envía un archivo de control de transferencia a un socio con cada transferencia de archivos. Debido a la naturaleza de varios subprocesos del [!DNL FTP] publicador, el archivo de control de transferencia se puede enviar antes de que los archivos reales terminen de transferirse.
 
-The metadata in the [!DNL .info] file lets partners:
+Los metadatos del [!DNL .info] archivo permiten a los socios:
 
-* Determine cuándo se completa un ciclo de transferencia completo (se ha entregado el número total de archivos de la secuencia);
-* Determine si un archivo determinado de la secuencia se completa o es correcto (examinando el tamaño del archivo en bytes y el número total de líneas);
-* Al validar el número de filas en archivos sin procesar, se ve el número de filas después de que los archivos se hayan cargado en la base de datos en el final (tamaño del archivo en líneas).
+* Determinar cuándo se completa un ciclo completo de transferencia (se ha entregado el número total de archivos de la secuencia);
+* Determinar si un archivo determinado de la secuencia es completo o correcto (examinando el tamaño del archivo en bytes y el número total de líneas);
+* Validar el número de filas de los archivos sin procesar en comparación con el número de filas después de cargar los archivos en la base de datos en el extremo receptor (tamaño del archivo en líneas).
 
-## File Naming Conventions {#file-naming-conventions}
+## Convenciones de nomenclatura de archivos {#file-naming-conventions}
 
-The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
+El archivo transfer-control tiene el mismo nombre que la raíz del lote/secuencia con una extensión [!DNL .info] de archivo.
 
-For example, if the first file in the sequence were named: [!DNL ftp_12345_67890_full_1500727351632-1.sync], the control file would be named [!DNL ftp_12345_67890_iter_1500727351632.info].
+Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345_67890_full_1500727351632-1.sync], el nombre del archivo de control sería [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Formato del archivo {#file-format}
 
@@ -74,8 +74,8 @@ For example, if the first file in the sequence were named: [!DNL ftp_12345_67890
 
 >[NOTA]
 >
-> The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
+> Los números totales del lote son exclusivos del [!DNL .info] archivo mismo. Es decir, los totales no incluyen el [!DNL .info] archivo, su tamaño de byte ni su recuento de líneas.
 >
-> Los tamaños de bytes de archivos y recuentos de líneas incluyen las líneas y filas de encabezado y espaciador (en blanco). Para obtener el recuento de líneas o filas de datos reales, reste los encabezados.
+> Los tamaños de bytes de los archivos y los recuentos de líneas incluyen todas las líneas/filas de encabezado y espaciador (en blanco). Para obtener el recuento de líneas/filas de datos reales, reste encabezados.
 >
-> Las líneas totales por lote y tamaño total de bytes incluyen cualquier encabezado y filas de espacio.
+> Las líneas totales en el tamaño de lote y de byte total incluyen todas las filas de espacio y encabezado.
