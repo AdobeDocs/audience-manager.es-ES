@@ -1,10 +1,10 @@
 ---
-description: En el Generador de segmentos, la actualización y la frecuencia permiten segmentar a los visitantes en función de las acciones que se produzcan o repitan durante un intervalo diario establecido.
-seo-description: En el Generador de segmentos, la actualización y la frecuencia permiten segmentar a los visitantes en función de las acciones que se produzcan o repitan durante un intervalo diario establecido.
+description: En el Generador de segmentos, la actualización y la frecuencia permiten segmentar a los visitantes en función de las acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
+seo-description: En el Generador de segmentos, la actualización y la frecuencia permiten segmentar a los visitantes en función de las acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
 seo-title: Actualización y frecuencia
 solution: Audience Manager
 title: Actualización y frecuencia
-uuid: faadd 18 a-bf 27-4 b 73-995 e -9809 f 52 f 5350
+uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,24 +13,24 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Recency and Frequency {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+En [!UICONTROL Segment Builder], la actualización y la frecuencia permiten segmentar a los visitantes en función de las acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
 
-Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
+Audience Manager define [!DNL recency] y [!DNL frequency] :
 
-* **[!UICONTROL Recency]:** Cantidad de días durante los cuales un usuario ha visto o calificado para una (o más) características.
-* **[!UICONTROL Frequency]:** La velocidad a la que un usuario ha visto o calificado para una (o más) características.
+* **[!UICONTROL Recency]** :: Número de días durante los que un usuario ha visualizado o calificado para una (o más) característica.
+* **[!UICONTROL Frequency]** :: Frecuencia con la que un usuario ha visualizado o calificado para una (o más) característica.
 
-[!UICONTROL Recency] y [!UICONTROL Frequency] la configuración le ayudan a segmentar a los visitantes según su nivel de interés real (o percibido) en un sitio, una sección o un elemento creativo concreto. Por ejemplo, es posible que los usuarios que cumplen los requisitos de un segmento con requisitos de alta frecuencia y frecuencia estén más interesados en un sitio o producto que los usuarios que visitan con menor frecuencia o menos frecuencia.
+[!UICONTROL Recency] y [!UICONTROL Frequency] le ayudan a segmentar a los visitantes en función de su nivel de interés real (o percibido) en un sitio, sección o elemento creativo en particular. Por ejemplo: los usuarios que califican para un segmento con requisitos de alta frecuencia y actualización pueden estar más interesados en un sitio o producto que los usuarios que visitan con menos frecuencia o con menos frecuencia.
 
-## Location of Recency and Frequency Settings {#location}
+## Ubicación de la configuración de actualización y frecuencia {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Haga clic en el icono del reloj para exponer estos controles.
+En [!UICONTROL Segment Builder], [!UICONTROL Recency] los ajustes y [!UICONTROL Frequency] se encuentran en la [!UICONTROL Basic View] sección del [!UICONTROL Traits] panel. Haga clic en el icono del reloj para mostrar estos controles.
 
 ![](assets/recency_frequency.png)
 
-## Limitations and Rules {#limitations-rules}
+## Limitaciones y reglas {#limitations-rules}
 
-Revise y comprenda estos límites y reglas cuando desee aplicar la actualización y la frecuencia a características de sus segmentos.
+Revise y comprenda estos límites y reglas cuando desee aplicar actualización y frecuencia a las características de los segmentos.
 
 ### Actualización
 
@@ -48,7 +48,7 @@ Revise y comprenda estos límites y reglas cuando desee aplicar la actualizació
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Características de terceros</b> </p> </td> 
-   <td colname="col2"> <p>No puede definir reglas de actualización en características individuales de terceros o grupos de rasgos que contengan características de terceros. La actualización y la frecuencia solo se aplican a sus características. </p> </td> 
+   <td colname="col2"> <p>No se pueden establecer reglas de actualización en rasgos individuales de terceros ni en grupos de características que contengan características de terceros. La actualización y la frecuencia solo se aplican a sus propias características. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,30 +65,30 @@ Revise y comprenda estos límites y reglas cuando desee aplicar la actualizació
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Características de terceros</b> </p> </td> 
-   <td colname="col2"> <p>No se pueden definir reglas de frecuencia en características individuales de terceros o grupos de rasgos que contengan características de terceros. La actualización y la frecuencia solo se aplican a sus características. </p> </td> 
+   <td colname="col2"> <p>No puede establecer reglas de frecuencia en rasgos individuales de terceros o en grupos de características que contengan características de terceros. La actualización y la frecuencia solo se aplican a sus propias características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Requisitos de actualización</b> </p> </td> 
-   <td colname="col2"> <p>You can configure frequency requirements <i>without</i> configuring recency requirements. Solo tiene que definir un valor de frecuencia y dejar el campo de actualización en blanco. </p> </td> 
+   <td colname="col2"> <p>Puede configurar los requisitos de frecuencia <i>sin</i> configurar los requisitos de actualización. Simplemente configure un valor de frecuencia y deje el campo de actualización en blanco. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Reglas de combinación de perfiles</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frecuencia de características, Gráficos de dispositivos externos y Reglas</a>de combinación de perfiles. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Frequency Capping Examples {#frequency-capping}
+## Ejemplos de límite de frecuencia {#frequency-capping}
 
-Las expresiones de restricción de frecuencia incluyen todos los usuarios cuyo número de características de características está por debajo del valor deseado. Algunos ejemplos son:
+Las expresiones de límite de frecuencia incluyen todos los usuarios cuyo número de realizaciones de características está por debajo del valor deseado. Estos son algunos ejemplos:
 
-* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.
-* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example above, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* La expresión `frequency([1000T]) <= 5` incluye a todos los usuarios que hayan realizado la característica con el ID "1000" un máximo de cinco veces, incluidos los usuarios que no hayan realizado la característica.
+* Cuando necesite que los requisitos de actualización y frecuencia sean inferiores a un número específico de veces o días, una esa característica a otra con un `AND` operador. Con el ejemplo anterior, esta expresión pasa a ser válida cuando se une con otra característica, como se muestra aquí: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Esta expresión incluye todos los usuarios que han observado la característica con el ID "1000" en los últimos 2 días, al menos cinco veces. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
+* En los casos de uso de límite de frecuencia de publicidad, puede crear una regla de segmento similar a esta: `(frequency([1000T] <= 2D) >= 5)`. Esta expresión incluye todos los usuarios que han realizado la característica con el ID "1000" en los últimos 2 días al menos cinco veces. Establezca el límite de frecuencia enviando este segmento al servidor de publicidad con un `NOT` conjunto en el segmento en el servidor de publicidad. Este enfoque logra un mayor rendimiento en [!DNL Audience Manager] tanto que sigue cumpliendo el mismo propósito para limitar la frecuencia.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Controles del Generador de segmentos: Sección Características](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Sintaxis de código utilizada en el Editor de expresiones de segmentos](../../features/segments/segment-code-syntax.md)
+>* [Controles del Generador de segmentos: Sección de características](../../features/segments/segment-builder.md#segment-builder-controls-traits)
+>* [Sintaxis del código utilizada en el Editor de expresiones de segmento](../../features/segments/segment-code-syntax.md)
 
