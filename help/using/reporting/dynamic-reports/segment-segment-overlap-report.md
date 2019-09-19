@@ -1,10 +1,10 @@
 ---
-description: Devuelve datos sobre cuántos usuarios únicos se comparten entre sus segmentos.
-seo-description: Devuelve datos sobre cuántos usuarios únicos se comparten entre sus segmentos.
+description: Devuelve datos sobre cuántos usuarios únicos se comparten entre los segmentos.
+seo-description: Devuelve datos sobre cuántos usuarios únicos se comparten entre los segmentos.
 seo-title: Informe de solapamiento entre segmentos
 solution: Audience Manager
 title: Informe de solapamiento entre segmentos
-uuid: 0339 eb 6 c -6355-44 a 3-9 c 46-f 159485449 d 1
+uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
 source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
@@ -13,11 +13,11 @@ source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
 # Informe de solapamiento entre segmentos{#segment-to-segment-overlap-report}
 
-Devuelve datos sobre cuántos usuarios únicos se comparten entre sus segmentos.
+Devuelve datos sobre cuántos usuarios únicos se comparten entre los segmentos.
 
 >[!NOTE]
 >
->Los informes Superponer de Audience Manager respetan los principios RBAC. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Los informes Superponer de Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos de fuentes de datos a los que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
 
 <!-- 
 
@@ -27,18 +27,18 @@ c_segment_segment_overlap.xml
 
 ## Información general
 
-[!UICONTROL Segment-to-Segment Overlap] El informe puede ayudarle a:
+El [!UICONTROL Segment-to-Segment Overlap] informe puede ayudarle a:
 
-* Identificar segmentos con superposición alta o baja, según sus necesidades. Las características con superposición alta proporcionan una audiencia segmentada, pero menos visitantes únicos. Las características con superposición baja pueden resultar útiles para alcanzar un conjunto de visitantes único y más grande.
-* Busque superposición inesperada y utilice esa información para crear segmentos nuevos de alto rendimiento.
+* Identifique los segmentos con superposición alta o baja, según sus necesidades. Las características con alta superposición le proporcionan una audiencia objetivo, pero menos visitantes únicos. Las características con baja superposición pueden ser útiles para alcanzar un conjunto de visitantes único y más grande.
+* Encuentre superposiciones inesperadas y utilice esa información para crear segmentos nuevos de alto rendimiento.
 
 ## Informe de muestra
 
-The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report.
+En la siguiente ilustración se proporciona una visión general de alto nivel del [!UICONTROL Segment-to-Segment Overlap] informe.
 
 >[!NOTE]
 >
->[!UICONTROL Segment-to-Segment Overlap] El informe devuelve un campo vacío cuando compara el mismo segmento consigo mismo.
+>El [!UICONTROL Segment-to-Segment Overlap] informe devuelve un campo vacío cuando compara el mismo segmento con sí mismo.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -46,7 +46,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 
 Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
-## Segment-to-Segment Overlap Data Pop Fields Defined {#fields-defined}
+## Campos de ventana emergente de datos de superposición de segmento a segmento definidos {#fields-defined}
 
 <!-- 
 
@@ -54,24 +54,24 @@ r_s2s_data_pop.xml
 
  -->
 
-The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
+La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contiene las métricas siguientes. Tenga en cuenta que la métrica de valores exclusivos de la tabla representa a los usuarios *en tiempo* real.
 
 | Métrica | Descripción |
 |---|---|
-| **[!UICONTROL Segment ID1]** | ID numérica único para el segmento que aparece en los resultados del informe. aparece como ID de fila del segmento. |
-| **[!UICONTROL Segment ID2]** | ID numérico único para el segmento que seleccione al ejecutar el informe. Aparece como ID de columna del segmento. |
+| **[!UICONTROL Segment ID1]** | ID numérica única para el segmento que aparece en los resultados del informe. Aparece como ID de fila para el segmento. |
+| **[!UICONTROL Segment ID2]** | ID numérica única para el segmento que seleccione al ejecutar el informe. Aparece como el ID de columna del segmento. |
 | **[!UICONTROL Segment Name1]** | Nombre del segmento que aparece en la fila de resultados del informe. |
-| **[!UICONTROL Segment Name2]** | Nombre del segmento seleccionado al ejecutar el informe. Aparece en la columna de resultados del informe. |
-| **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición %, Audience Manager utiliza la fórmula siguiente: Superposición de únicos/(únicos de segmento base + únicos de segmentos solapados - Superposición de únicos) |
-| **[!UICONTROL Overlap Uniques]** | El número de visitantes únicos compartidos entre segmentos comparados. |
+| **[!UICONTROL Segment Name2]** | Nombre del segmento que selecciona al ejecutar el informe. Aparece en la columna de resultados del informe. |
+| **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición, Audience Manager utiliza la fórmula siguiente: Únicos superpuestos / (únicos de segmento base + únicos de segmento superpuestos - únicos superpuestos) |
+| **[!UICONTROL Overlap Uniques]** | Número de visitantes únicos compartidos entre segmentos comparados. |
 | **[!UICONTROL Segment Uniques1]** | Número de visitantes únicos en el segmento 1. |
-| **[!UICONTROL Segment Uniques2]** | Número de visitantes únicos en el segmento 2. |
+| **[!UICONTROL Segment Uniques2]** | El número de visitantes únicos en el segmento 2. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Filtrar resultados del informe con los controles deslizantes de datos](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Explicación de los iconos y las herramientas del informe](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Informes superpuestos: Actualizar programación y tamaño mínimo de segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestras de datos y tasas de error en informes de Audience Manager seleccionados…](../../reporting/report-sampling.md)
+>* [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Informes de superposición: Actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
