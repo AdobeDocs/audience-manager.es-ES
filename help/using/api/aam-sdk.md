@@ -1,10 +1,10 @@
 ---
 description: Audience Manager proporciona kits de desarrollo de software (SDK) para Android e iOS.
 seo-description: Audience Manager proporciona kits de desarrollo de software (SDK) para Android e iOS.
-seo-title: Código del SDK
+seo-title: Código SDK
 solution: Audience Manager
-title: Código del SDK
-uuid: 7 d 0 b 40 ce -9 cee -41 f 1-8253-dcfc 77 a 89 c 72
+title: Código SDK
+uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 translation-type: tm+mt
 source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
@@ -13,7 +13,7 @@ source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
 # [!DNL SDK] Código {#sdk-code}
 
-Audience Manager proporciona kits de desarrollo de software[!DNL SDK]para [!DNL Android] y [!DNL iOS].
+Audience Manager proporciona kits[!DNL SDK]de desarrollo de software para [!DNL Android] y [!DNL iOS].
 
 >[!IMPORTANT]
 >
@@ -21,11 +21,11 @@ Audience Manager proporciona kits de desarrollo de software[!DNL SDK]para [!DNL 
 
 * Para empezar, vaya a [Launch](https://launch.adobe.com/).
 * Para ver el contenido de los repositorios del SDK de la plataforma Experience, vaya a [Github: SDK de la Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Para implementar Audience Manager en su aplicación, con el nuevo SDK v .5, lea la documentación [de Adobe Audience Manager](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) sobre la nueva página SDK.
+* Para implementar Audience Manager en la aplicación, con el nuevo SDK v.5, lea la documentación [de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager en la nueva página del SDK.
 
 <br> 
 
-Seguimos admitiendo los SDK de Android e iOS 4. x. Para estas bibliotecas de código SDK, consulte:
+Seguimos siendo compatibles con los SDK para Android e iOS 4.x. Para las bibliotecas de código de SDK, consulte:
 
 * [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
 * [SDK de iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
