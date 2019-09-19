@@ -11,49 +11,49 @@ source-git-commit: f7206fda4b16a22c8a8bfcf97529cdaea24b0898
 
 # Complicación de la dirección IP {#ip-obfuscation}
 
-Utilice esta función para proteger las direcciones IP recopiladas en Audience Manager.
+Utilice esta función para ocultar las direcciones IP recopiladas en Audience Manager.
 
-## Overview and Methodology {#overview-and-methodology}
+## Información general y metodología {#overview-and-methodology}
 
 Es posible que su empresa desee complicar la dirección IP en muchos países debido a las normativas de privacidad globales. Audience Manager le permite complicar las direcciones IP de los visitantes en forma global o por país.
 
 ### Metodología de confusión de IP
 
-Siguiendo los principios de «Privacidad por diseño», Adobe Audience Manager permite a los clientes habilitar la confusión de IP desde la interfaz de usuario, ya sea globalmente entre todas las regiones geográficas o para países específicos. Cuando habilita esta configuración, el último octeto (la última parte) de la dirección IP se descarta inmediatamente cuando se ingesta la dirección IP en Audience Manager. Audience Manager descarta esta parte de la dirección IP antes de procesarla (incluso antes de cualquier registro geográfico opcional o registro de la dirección IP). Por ejemplo:
+Siguiendo los principios de "Privacidad por diseño", Adobe Audience Manager permite a los clientes activar la confusión de IP desde la interfaz de usuario, ya sea globalmente en todas las regiones geográficas o para países específicos. Al habilitar esta configuración, el último octeto (la última parte) de la dirección IP se descarta inmediatamente cuando la dirección IP se ingesta en Audience Manager. Audience Manager descarta esta parte de la dirección IP antes del procesamiento (incluso antes de cualquier búsqueda geográfica opcional o registro de la dirección IP). Por ejemplo:
 
-* Before obfuscation: `255.255.255.255`
-* After obfuscation: `255.255.255.0`
+* Antes de la confusión: `255.255.255.255`
+* Después de la confusión: `255.255.255.0`
 
-See also, Collecting IP addresses and IP Address Obfuscation in our [Data Privacy section](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Consulte también Recopilación de direcciones IP y confusión de direcciones IP en nuestra sección [Privacidad](/help/using/overview/data-security-and-privacy/data-privacy.md)de datos.
 
-## IP Address Obfuscation Requirements {#ip-obfuscation-requirements}
+## Requisitos de confusión de direcciones IP {#ip-obfuscation-requirements}
 
-La confusión de direcciones IP solo está disponible para las cuentas de administrador de Audience Manager. See [Create Users](/help/using/features/administration/administration-overview.md#create-users) to understand how to assign administrator privileges for a user.
+La confusión de direcciones IP solo está disponible para cuentas de administrador de Audience Manager. Consulte [Crear usuarios](/help/using/features/administration/administration-overview.md#create-users) para saber cómo asignar privilegios de administrador a un usuario.
 
 >[!NOTE]
 >
-> Debido al gran volumen de datos procesados por Audience Manager, los cambios de confusión de IP pueden tardar hasta 4 horas en implementarse, desde el momento en que se actualiza la configuración.
+> Debido al gran volumen de datos procesados por Audience Manager, los cambios de confusión de IP pueden tardar hasta 4 horas en entrar en vigor, desde el momento en que se actualiza la configuración.
 
-## Configure IP Address Obfuscation {#configure-ip-obfuscation}
+## Configurar confusión de direcciones IP {#configure-ip-obfuscation}
 
 Siga los pasos a continuación para configurar la confusión de direcciones IP.
 
-1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
+1. Inicie sesión en Audience Manager con una cuenta de administrador y vaya a **Administración &gt; Privacidad**.
 2. Elija el tipo de confusión de IP que desee utilizar.
-   1. **Proteger todas las direcciones IP:** seleccione esta opción para que Audience Manager confunda el último octeto de todas las direcciones IP del visitante, independientemente de la región donde se originan.
-   2. **Proteger direcciones IP para países específicos:** seleccione esta opción para que Audience Manager obtenga el último octeto de direcciones IP de visitantes para países específicos. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+   1. **** Proteger todas las direcciones IP: seleccione esta opción para que Audience Manager confunda el último octeto de todas las direcciones IP de los visitantes, independientemente de la región de la que procedan.
+   2. **** Proteger direcciones IP para países específicos: seleccione esta opción para que Audience Manager confunda el último octeto de direcciones IP de visitantes para países específicos. Utilice la **Lista de países** o el campo de **búsqueda** correspondiente para encontrar los países para habilitar la confusión de IP y haga clic en el icono + para agregarlos a la lista **Seleccionado para confusión** . Una vez que haya agregado todos los países requeridos a la lista **Seleccionado para confusión** , haga clic en **Guardar**.
 
 ![](assets/ip-obfuscation.png)
 
-## Disable IP Address Obfuscation {#disable-ip-obfuscation}
+## Deshabilitar confusión de direcciones IP {#disable-ip-obfuscation}
 
-To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
+Para deshabilitar la confusión global de direcciones IP, vaya a **Administración &gt; Privacidad**, seleccione **No confundir direcciones** IP y haga clic en **Guardar**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
+Para desactivar la confusión de direcciones IP para países específicos, busque los países en la lista **Seleccionado para confusión** y haga clic en el icono **X** correspondiente. Click **Save** when you're done.
 
 ## Conceptos relacionados {#related-concepts}
 
 * [Privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md)
-* Demostración de vídeo de confusión de direcciones IP
+* Demostración en vídeo de confusión de direcciones IP
 >[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=spa)
 
