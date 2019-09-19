@@ -1,68 +1,68 @@
 ---
-description: Cree, edite y elimine características de carpetas.
-keywords: Característica de carpeta; Características de carpeta; características de carpeta; característica de carpeta
-seo-description: Cree, edite y elimine características de carpetas.
+description: Cree, edite y elimine características de carpeta.
+keywords: Características de la carpeta;Características de la carpeta;características de la carpeta;característica de la carpeta
+seo-description: Cree, edite y elimine características de carpeta.
 seo-title: Administrar características de carpeta
 solution: Audience Manager
 title: Administrar características de carpeta
-uuid: 287 ac 280-bd 58-4985-85 bd-b 6501 eb 64 b 7 f
+uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Manage Folder Traits {#manage-folder-traits}
+# Administrar características de carpeta {#manage-folder-traits}
 
-Cree, edite y elimine características de carpetas.
+Cree, edite y elimine características de carpeta.
 
-## Create a Folder Trait {#create-folder-trait}
+## Crear una característica de carpeta {#create-folder-trait}
 
-A [!UICONTROL folder trait] is created automatically when you create a new folder in your taxonomy.
+Se [!UICONTROL folder trait] crea automáticamente una carpeta cuando se crea una nueva en la taxonomía.
 
 <!-- create-folder-trait.xml -->
 
-1. Go to **[!UICONTROL Audience Data > Traits]** to navigate to the **Traits** dashboard.
-1. In the [!UICONTROL Trait Storage] window, hover over:
+1. Vaya a **[!UICONTROL Audience Data > Traits]** para navegar al tablero **Características** .
+1. En la [!UICONTROL Trait Storage] ventana, pase el ratón por encima:
 
    * Texto "Todas las características" para agregar una nueva carpeta de nivel raíz.
    * Una carpeta principal existente para agregar una nueva carpeta subordinada.
    ![](assets/folder_traits_create.PNG)
 
 1. Haga clic en el icono + para crear la carpeta. Tenga en cuenta que puede crear un máximo de 2000 carpetas en su taxonomía. Consulte la documentación sobre los [límites de uso](../../features/administration/usage-limits.md) para obtener más información.
-1. Name the folder and click **Save**. Por ejemplo, una carpeta llamada Electrónica tendrá una característica de carpeta denominada «Características de la carpeta electrónica». Puede ver y seleccionar la nueva característica de carpeta en el tablero de características.
-1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Asigne un nombre a la carpeta y haga clic en **Guardar**. Por ejemplo, una carpeta llamada Electronics tendrá una característica de carpeta denominada 'Características de la carpeta de componentes electrónicos'. Puede ver y seleccionar la nueva característica de carpeta en el tablero de características.
+1. La nueva característica de carpeta se asigna automáticamente al origen de datos [!DNL Audience Manager] generado. Los usuarios con los permisos adecuados de [!UICONTROL Control de acceso basado en roles ([!DNL RBAC])] pueden cambiar el origen de datos en el flujo de trabajo de características de la carpeta de edición. Consulte [Edición de una característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)de carpeta.
 
-## Edit a Folder Trait {#edit-folder-trait}
+## Editar una característica de carpeta {#edit-folder-trait}
 
-Describes how you can edit a [!UICONTROL folder trait].
+Describe cómo se puede editar una [!UICONTROL folder trait].
 
 <!-- edit-folder-trait.xml -->
 
-1. In the [!UICONTROL Traits] dashboard, hover over the **[!UICONTROL Actions]** column for the folder trait you want to edit.
+1. En el [!UICONTROL Traits] tablero, pase el ratón sobre la columna de la característica de carpeta que **[!UICONTROL Actions]** desee editar.
 1. Haga clic en el lápiz para editar la característica.
 
    ![](assets/folder_traits_edit_border.png)
 
-1. The **[!UICONTROL Edit]** workflow allows you to change the data source for folder traits. Select your desired data source and click **[!UICONTROL Save]**. Data sources are sorted numerically, by [!DNL DPID], in the drop-down box.
+1. El flujo de trabajo le permite cambiar el origen de datos para características de carpeta. **[!UICONTROL Edit]** Seleccione la fuente de datos deseada y haga clic en **[!UICONTROL Save]**. Las fuentes de datos se ordenan numéricamente, por [!DNL DPID], en el cuadro desplegable.
 
-   If your company uses [!UICONTROL Role-Based Access Rights (RBAC)], you or your users need [access permissions](../../features/traits/about-folder-traits.md#role-based-access-controls) to traits data sources.
+   Si su empresa utiliza [!UICONTROL Role-Based Access Rights (RBAC)], usted o sus usuarios necesitan [permisos](../../features/traits/about-folder-traits.md#role-based-access-controls) de acceso para características de fuentes de datos.
 
 >[!NOTE]
 >
->No puede cambiar el nombre directamente de una carpeta. [Cambie el nombre de la carpeta](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) de almacenamiento asociada para cambiar el nombre de la carpeta.
+>No se puede cambiar directamente el nombre de una característica de carpeta. [Cambie el nombre de la carpeta](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) de almacenamiento asociada para cambiar el nombre de la característica de carpeta.
 
-## Delete a Folder Trait {#delete-folder-trait}
+## Eliminar una característica de carpeta {#delete-folder-trait}
 
-Elimine una característica de carpeta eliminando la carpeta de almacenamiento a la que pertenece.
+Elimine una característica de carpeta eliminando la carpeta de almacenamiento a la que pertenece la característica.
 
 <!-- delete-folder-trait.xml -->
 
-1. **Datos de audiencia &gt; Características** para navegar al tablero **Características** .
-1. In the [!UICONTROL Trait Storage] window, delete a folder by hovering over it and clicking the X icon.
+1. **Datos de audiencia &gt; Características** para desplazarse al tablero **Características** .
+1. En la [!UICONTROL Trait Storage] ventana, elimine una carpeta pasando el ratón sobre ella y haciendo clic en el icono X.
 
-   ![Resultado de paso](assets/folder_traits_create.PNG)
+   ![Resultado del paso](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->No se puede eliminar un rasgo de carpeta, si se utiliza en una expresión de segmento. Navigate to the [trait view](../../features/traits/trait-details-page.md) section to see which segments use the folder trait. Then, click on the segment name to open the [segment summary view](../../features/segments/segment-summary-view.md), which allows you to remove traits from segment expressions.
+>No puede eliminar una característica de carpeta si se utiliza en una expresión de segmento. Vaya a la sección de vista [de](../../features/traits/trait-details-page.md) características para ver qué segmentos utilizan la característica de carpeta. A continuación, haga clic en el nombre del segmento para abrir la vista [de resumen del](../../features/segments/segment-summary-view.md)segmento, que le permite eliminar características de las expresiones del segmento.
