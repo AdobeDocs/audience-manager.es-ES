@@ -1,58 +1,58 @@
 ---
-description: Información general y flujo de trabajo para compradores de datos que desean comprar datos de terceros desde Audience Manager
-seo-description: Información general y flujo de trabajo para compradores de datos que desean comprar datos de terceros desde Audience Manager
+description: Información general y flujo de trabajo para compradores de datos que deseen comprar datos de terceros desde Audience Manager
+seo-description: Información general y flujo de trabajo para compradores de datos que deseen comprar datos de terceros desde Audience Manager
 seo-title: Mercado de audiencias para compradores de datos
 solution: Audience Manager
 title: Mercado de audiencias para compradores de datos
-topic: API DIL
-uuid: f 505 b 5 f 4-4231-4 e 84-993 a-cd 64128 b 540 f
+topic: DIL API
+uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
 source-git-commit: 12cc02103902a77b8b5967c319f4ac18746a700e
 
 ---
 
 
-# Audience Marketplace for Data Buyers {#audience-marketplace-for-data-buyers}
+# Mercado de audiencias para compradores de datos {#audience-marketplace-for-data-buyers}
 
-Overview and workflow for data buyers who want to purchase third-party data from within [!DNL Audience Manager].
+Información general y flujo de trabajo para compradores de datos que deseen comprar datos de terceros desde dentro [!DNL Audience Manager].
 
 >[!NOTE]
->[Los permisos basados en roles](../../../reporting/reports-dashboard.md) controlan el acceso [!UICONTROL Audience Marketplace] a las funciones.
+>[Los permisos](../../../reporting/reports-dashboard.md) basados en roles controlan el acceso a [!UICONTROL Audience Marketplace] las funciones.
 >
 >* Los administradores pueden crear fuentes de datos, administrar suscriptores y suscribirse a fuentes de datos.
->* Los usuarios pueden buscar y ver solo fuentes.
+>* Los usuarios solo pueden buscar y ver fuentes.
 
 
-## The Marketplace: About {#about-marketplace}
+## Mercado: Acerca de {#about-marketplace}
 
 <!-- c_marketplace_about.xml -->
 
-The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buyers that lists data feeds you can subscribe to. It lists flat rate, [!DNL CPM], or private data feeds. These feeds are provided by third-party vendors that use [!DNL Audience Manager] to sell data. In the [!UICONTROL Marketplace], reporting tools let you track feed usage and the overlap between your traits and those in a subscribed data feed. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoices and fee payments (though you do have to self-report usage when subscribed to a [!DNL CPM] feed). Estas funciones permiten encontrar fuentes de datos eficaces sin perder tiempo buscando un proveedor de datos.
+La [!UICONTROL Marketplace] es una [!DNL Audience Manager] función para compradores de datos que enumera las fuentes de datos a las que puede suscribirse. Enumera las fuentes de datos privadas, [!DNL CPM]o de tasa fija. Estas fuentes las proporcionan proveedores externos que las utilizan [!DNL Audience Manager] para vender datos. En [!UICONTROL Marketplace], las herramientas de informes permiten rastrear el uso de las fuentes y la superposición entre sus características y las de una fuente de datos suscrita. Por último, con [!UICONTROL Audience Marketplace], [!DNL Adobe] se encarga de las facturas y los pagos de honorarios (aunque es necesario informar sobre el uso cuando se suscribe a una [!DNL CPM] fuente). Estas funciones le permiten encontrar fuentes de datos eficaces sin perder tiempo buscando un proveedor de datos.
 
 >[!TIP]
 > 
->Use the **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** to find high quality data feeds that you can subscribe to. Then, go back into the Audience Manager UI or use the [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) to subscribe to the feeds you found.
+>Utilice **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** para encontrar fuentes de datos de alta calidad a las que puede suscribirse. A continuación, vuelva a la interfaz de usuario de Audience Manager o utilice la API [de comprador de](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) Audience Marketplace para suscribirse a las fuentes que haya encontrado.
 
 ![](assets/buyer_marketplace.png)
 
-The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
+La [!UICONTROL Marketplace] lista contiene información que puede ordenar y buscar para encontrar la fuente de datos que sea adecuada para usted. Los elementos de la lista del [!UICONTROL Marketplace] comprador incluyen:
 
-* **[!UICONTROL Search]:** Buscar fuentes de datos por nombre o descripción del texto.
-* **[!UICONTROL Name]:** Nombre de la fuente de datos.
-* **[!UICONTROL Description]:** Información sobre el contenido de una fuente de datos.
-* **[!UICONTROL Provider]:** Nombre del proveedor de datos.
-* **[!UICONTROL Traits]:** Número de características en una fuente de datos.
-* **[!UICONTROL 30 Day Provider Unique Users]:** Número de usuarios únicos que se vieron en los últimos 30 días.
-* **[!UICONTROL 30 Day Overlapped Uniques]:** El número de usuarios de la cuenta que se superponen con los usuarios de la cuenta del proveedor.
-* **[!UICONTROL Feed Overlap]:** El valor únicos de 30 días superpuesto, mostrado en porcentajes, calculado como: Comprador de datos 30 días superpuestos únicos/Compradores de datos 30 días únicos) x 100.
-* **[!UICONTROL Private Feeds]:** Consulte [Fuentes de datos privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
-* **[!UICONTROL Currently Subscribed Plan Count]:** Número de suscripciones que tiene con un proveedor de datos.
+* **[!UICONTROL Search]** :: Busque fuentes de datos por nombre o descripción de texto.
+* **[!UICONTROL Name]** :: Nombre de la fuente de datos.
+* **[!UICONTROL Description]** :: Información sobre el contenido de una fuente de datos.
+* **[!UICONTROL Provider]** :: Nombre del proveedor de datos.
+* **[!UICONTROL Traits]** :: Número de características de una fuente de datos.
+* **[!UICONTROL 30 Day Provider Unique Users]** :: Número de usuarios únicos vistos en los últimos 30 días.
+* **[!UICONTROL 30 Day Overlapped Uniques]** :: El número de usuarios de su cuenta que se superponen con los usuarios de la cuenta del proveedor.
+* **[!UICONTROL Feed Overlap]** :: El valor de valores únicos superpuestos de 30 días, mostrado en porcentajes, calculado como: Comprador de datos 30 días superpuestos únicos / Comprador de datos 30 días únicos) x 100.
+* **[!UICONTROL Private Feeds]** :: Consulte Fuentes de datos [privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
+* **[!UICONTROL Currently Subscribed Plan Count]** :: El número de suscripciones que tiene con un proveedor de datos.
 
 ## Fuentes de datos privadas {#private-data-feeds}
 
-In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Una fuente de datos privada permite a los vendedores limitar el acceso de los compradores a sus datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando son importantes para ellos. Como comprador, debe enviar una solicitud de suscripción al vendedor si desea acceder a una fuente privada. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
+En la [!UICONTROL Marketplace] lista, a veces el nombre del proveedor y los datos de características se marcan como privados. Esto indica una fuente [de datos](../../../features/audience-marketplace/marketplace-private-feeds.md)privada. Una fuente de datos privada permite a los vendedores limitar el acceso del comprador a sus datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes para ellos. Como comprador, debes enviar una solicitud de suscripción al vendedor si quieres acceder a una fuente privada. Consulte [Suscripción a una fuente](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de datos privada para obtener más información.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [La página de detalles del plan de Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [Descuentos para compradores de datos](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
