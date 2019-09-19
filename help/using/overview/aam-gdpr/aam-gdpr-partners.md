@@ -1,25 +1,25 @@
 ---
-description: Esta página describe la información proporcionada directamente por nuestros socios, ya que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del GGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y el nuevo Marco de transparencia y consentimiento IAB GDPR (IAB Framework).
-seo-description: Esta página describe la información proporcionada directamente por nuestros socios, ya que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del GGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y el nuevo Marco de transparencia y consentimiento IAB GDPR (IAB Framework).
+description: Esta página describe la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y del nuevo Marco de Transparencia y Consentimiento del RGPD de la IAB (Marco de IAB).
+seo-description: Esta página describe la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y del nuevo Marco de Transparencia y Consentimiento del RGPD de la IAB (Marco de IAB).
 seo-title: Consideraciones del RGPD para destinos
 solution: Audience Manager
 title: Consideraciones del RGPD para destinos
-uuid: e 8 a 40060-086 c -4 f 03-b 48 c -9 c 903 acb 7891
+uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 translation-type: tm+mt
 source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
 
 
-# GDPR Considerations for Destinations{#gdpr-considerations-for-destinations}
+# Consideraciones del RGPD para destinos{#gdpr-considerations-for-destinations}
 
-Esta página describe la información proporcionada directamente por nuestros socios, ya que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del GGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y el nuevo Marco de transparencia y consentimiento IAB GDPR (IAB Framework).
+Esta página describe la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con la práctica de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), que entró en vigor el 25 de mayo de 2018 y del nuevo Marco de Transparencia y Consentimiento del RGPD de la IAB (Marco de IAB).
 
-Los socios de Adobe son propietarios de sus procesos empresariales y pueden decidir actualizar los requisitos de integración con Audience Manager cada cierto tiempo. Estamos trabajando activamente con nuestro ecosistema de socios de Audience Manager para mantener a nuestros clientes al día de los cambios.
+Los socios de Adobe son propietarios de sus procesos empresariales y pueden decidir actualizar sus requisitos de integración con Audience Manager de vez en cuando. Estamos trabajando de forma proactiva con nuestro ecosistema de socios de Audience Manager para mantener a nuestros clientes informados de los cambios.
 
-## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
+## Actualizaciones de socios de Audience Manager: Sincronizaciones de ID {#partner-updates-id-syncs}
 
-Algunos socios, según se enumeran en la tabla siguiente, han cambiado los requisitos de integración con Audience Manager para incluir la compatibilidad basada en el módulo IAB, para cumplir con los estándares del RGPD.
+Algunos asociados, como se indica en el cuadro que figura a continuación, han modificado sus requisitos de integración con Audience Manager para incluir el apoyo basado en el marco de la IAB, a fin de cumplir las normas del RGPD.
 
 <table id="table_335A470D4F10434E9CF587089FB54B0C"> 
  <thead> 
@@ -31,41 +31,41 @@ Algunos socios, según se enumeran en la tabla siguiente, han cambiado los requi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Yahoo/Oath/datax </p> </td> 
-   <td colname="col2"> <p>El socio retirará las sincronizaciones de ID para los usuarios de la Unión Europea </p> </td> 
+   <td colname="col1"> <p>Yahoo/Oath/DataX </p> </td> 
+   <td colname="col2"> <p>El socio elimina las sincronizaciones de ID de los usuarios de la Unión Europea </p> </td> 
    <td colname="col3"> <p>Activo desde el 22 de mayo de 2018 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Oficina comercial </p> </td> 
-   <td colname="col2"> <p>El socio retirará las sincronizaciones de ID para los usuarios de la Unión Europea </p> </td> 
-   <td colname="col3"> <p>Not live yet </p> </td> 
+   <td colname="col1"> <p>Oficina de Comercio </p> </td> 
+   <td colname="col2"> <p>El socio elimina las sincronizaciones de ID de los usuarios de la Unión Europea </p> </td> 
+   <td colname="col3"> <p>Aún no está activo </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rubicon </p> </td> 
-   <td colname="col2"> <p>El socio retirará las sincronizaciones de ID para los usuarios de la Unión Europea </p> </td> 
-   <td colname="col3"> <p>Not live yet </p> </td> 
+   <td colname="col2"> <p>El socio elimina las sincronizaciones de ID de los usuarios de la Unión Europea </p> </td> 
+   <td colname="col3"> <p>Aún no está activo </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Liveramp </p> </td> 
-   <td colname="col2"> <p>El socio retirará las sincronizaciones de ID para los usuarios de la Unión Europea </p> </td> 
-   <td colname="col3"> <p>Not live yet </p> </td> 
+   <td colname="col1"> <p> LiveRamp </p> </td> 
+   <td colname="col2"> <p>El socio elimina las sincronizaciones de ID de los usuarios de la Unión Europea </p> </td> 
+   <td colname="col3"> <p>Aún no está activo </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Audience Manager UI Update - Yahoo/Oath/DataX Integration {#ui-update}
+## Actualización de la interfaz de usuario de Audience Manager: Integración de Yahoo/Oath/DataX {#ui-update}
 
-In addition to the updates to the IAB Framework mentioned above, Yahoo/Oath/DataX has added new parameters, **gdpr** and **gdpr_mode**, to their taxonomy and Audience APIs. Sus parámetros informan a Yahoo/Oath/datax de que tienen los derechos para procesar un segmento determinado como procesador de datos o como controlador de datos. Como resultado, los clientes de Audience Manager que envían segmentos a un destino Yahoo/Oath/datax deben designar el parámetro apropiado (Procesador o Controlador), según su acuerdo con Oath.
+Además de las actualizaciones del marco de IAB mencionadas anteriormente, Yahoo/Oath/DataX ha agregado nuevos parámetros, **gdpr** y **gdpr_mode**, a sus API de taxonomía y audiencia. Sus parámetros informan a Yahoo/Oath/DataX de que tienen derechos para procesar un determinado segmento como procesador de datos o como controlador de datos. Como resultado, los clientes de Audience Manager que envían segmentos a un destino de Yahoo/Oath/DataX deben designar el parámetro apropiado (Procesador o Controlador), según su acuerdo con el juramento.
 
-Póngase en contacto con su consultor o Clientcare para establecer el parámetro correcto. Adobe no puede realizar esta actualización en nombre de un cliente a menos que reciba una correspondencia por escrito, solicitando esta actualización. Póngase en contacto con su representante de Yahoo/Oath/datax para comprender la definición completa de estos parámetros.
+Póngase en contacto con el consultor o con Client Care para establecer el parámetro correcto. Adobe no puede realizar esta actualización en nombre de un cliente a menos que recibamos una correspondencia por escrito en la que se solicite esta actualización. Comuníquese con el representante de Yahoo/Oath/DataX para comprender la definición completa de estos parámetros.
 
-## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
+## Audience Manager Se Asocia Con Funciones De Dessegmentación {#aam-partners-with-unsegmentation}
 
-Para ayudar a nuestros clientes a automatizar las solicitudes del RGPD, Audience Manager notifica a nuestros socios de activación de las solicitudes de eliminación de temas de datos enviándoles información descatalogada (o eliminando segmentos).
+Con el fin de ayudar a nuestros clientes a automatizar las solicitudes de RGPD, Audience Manager notifica a nuestros socios de activación las solicitudes de eliminación de los sujetos de datos enviándoles información de dessegmentación (o eliminación de segmentos).
 
 Sin embargo, algunos de nuestros socios de activación:
 
-1. No es posible admitir solicitudes de segmentación de Adobe y/o
-1. No se pueden recibir actualizaciones con más frecuencia de una en 30 días.
+1. No se pueden admitir solicitudes de dessegmentación de Adobe y/o
+1. No podemos recibir actualizaciones de nosotros más de una vez en 30 días.
 
-En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automática a través de Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) to see which Audience Manager activation partners support unsegment.
+En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada a través de Audience Manager. Descargue nuestra hoja [de Excel de](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) socio para ver qué socios de activación de Audience Manager admiten la dessegmentación.
