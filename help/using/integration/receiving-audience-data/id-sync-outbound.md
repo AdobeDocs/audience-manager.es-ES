@@ -1,29 +1,29 @@
 ---
-description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar ID de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con su asesor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
-seo-description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar ID de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con su asesor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
-seo-title: Sincronización de ID para transferencias de datos salientes
+description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con el consultor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
+seo-description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con el consultor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
+seo-title: Sincronización de ID para transferencias de datos de salida
 solution: Audience Manager
-title: Sincronización de ID para transferencias de datos salientes
-uuid: f 3849 be 8-1094-47 db -9296-7482 f 020 af 18
+title: Sincronización de ID para transferencias de datos de salida
+uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
 source-git-commit: e206d3a3cba259dc215f2f4190c9b4e03264f080
 
 ---
 
 
-# ID Synchronization for Outbound Data Transfers{#id-synchronization-for-outbound-data-transfers}
+# Sincronización de ID para transferencias de datos de salida{#id-synchronization-for-outbound-data-transfers}
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between Audience Manager and a third-party data provider. Póngase en contacto con su asesor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
+Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los ID de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con el consultor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
 
 <!-- c_id_sync_out.xml -->
 
-## Objetivo de sincronización de ID
+## Finalidad de la sincronización de ID
 
-La sincronización de ID es el primer paso del proceso de transferencia de datos asíncrono y saliente. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Sin embargo, el socio de datos podría identificar a este usuario con el ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
+La sincronización de ID es el primer paso en el proceso de transferencia de datos asincrónica y saliente. En este paso, [!DNL Audience Manager] y el proveedor compara y hace coincidir las ID de sus respectivos visitantes del sitio. Por ejemplo, un [!DNL Audience Manager] cliente puede conocer a un usuario por ID 123. Sin embargo, su socio de datos podría identificar a este usuario con el ID 456. El proceso de sincronización permite [!DNL Audience Manager] y un proveedor de datos reconciliar estos distintos ID e identificar a los usuarios en sus respectivos sistemas. Una vez finalizado, [!DNL Audience Manager] y el proveedor de datos de terceros debe tener ID correspondientes para cada usuario único que se vea en nuestras redes.
 
-## Sintaxis URL
+## Sintaxis de URL
 
-In an ID exchange, a properly formatted [!DNL URL] string should look like this:
+En un intercambio de ID, una [!DNL URL] cadena con el formato correcto debería tener este aspecto:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
@@ -31,7 +31,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## Parámetros de URL
 
-The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
+La [!DNL URL] llamada de sincronización de ID de entrada debe contener variables que se describen en la tabla siguiente.
 
 >[!NOTE]
 >
@@ -46,32 +46,32 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>&lt; VENDOR_ ID &gt;</i></code> </td> 
-   <td colname="col2">Unique ID for the data provider (assigned by <span class="keyword"> Audience Manager</span>). </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col2">ID única para el proveedor de datos (asignado por <span class="keyword"> Audience Manager</span>). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>&lt; VENDOR_ UUID &gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i></code> </td> 
    <td colname="col2"> ID de usuario único. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>&lt; REDIRECT_ URL &gt;</i></code> </td> 
-   <td colname="col2">An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. <p><b>Nota:</b> Se añade únicamente cuando el proveedor de datos inicia la llamada. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i></code> </td> 
+   <td colname="col2">Redirección URL codificada con la macro <code> ${DD_UUID}</code> incrustada. <p><b></b> Nota: Se agrega solamente cuando el proveedor de datos inicia la llamada. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr = &lt; 0|1 &gt;</i></code> </td> 
-   <td colname="col2"> <p><code>rdpr</code> puede ser 0 (el RGPD no se aplica) o 1 (se aplica RGPD).</p><p><b>Nota:</b> <ul><li>The <code>gdpr</code> and <code>gdpr_consent</code> parameters are being gradually rolled out in ID sync URLs with activation partners. See Activation partners that support IAB TCF in <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager Plug-in for IAB TCF.</a></li><li>This parameter can only be used together with <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
+   <td colname="col2"> <p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p><p><b>Nota:</b> <ul><li>Los parámetros <code>gdpr</code> y <code>gdpr_permission</code> se implementan gradualmente en las direcciones URL de sincronización de ID con los socios de activación. Consulte Socios de activación que admiten TCF de IAB en el complemento <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager para TCF de IAB.</a></li><li>Este parámetro sólo se puede utilizar junto con <code>gdpr_permission.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>gdpr_ permission = &lt; ENCODED STRING &gt;</i></code> </td> 
-   <td colname="col2"><p><code>gdpr_ permission</code> es la cadena de consentimiento del RDPD con codificación de URL segura 64 codificada (consulte <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>).</p><p><b>Nota:</b> Este parámetro solo se puede utilizar junto <code>con gdpr</code>.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_permission=&lt;CADENA CODED&gt;</i></code> </td> 
+   <td colname="col2"><p><code>gdpr_permission</code> es la cadena de consentimiento GDPR con codificación URL base64 (consulte la especificación <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB).</p><p><b></b> Nota: Este parámetro sólo se puede utilizar junto con <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Métodos y código de API de Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [Métodos y código de la API del servidor de recopilación de datos (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Componentes de recopilación de datos](../../reference/system-components/components-data-collection.md)
 
