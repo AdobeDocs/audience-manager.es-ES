@@ -1,32 +1,32 @@
 ---
-description: La dessegmentación describe procesos que descalifican y eliminan perfiles de dispositivo de segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles.
-seo-description: La dessegmentación describe procesos que descalifican y eliminan perfiles de dispositivo de segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles.
-seo-title: Procesos de combinación de perfiles y de segmentación de dispositivos
+description: La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles.
+seo-description: La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles.
+seo-title: Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos
 solution: Audience Manager
-title: Procesos de combinación de perfiles y de segmentación de dispositivos
-uuid: b 61 c 6 de 3-5 fe 4-4892-a 05 a -96 a 4 cb 35 af 34
+title: Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos
+uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
 
-La dessegmentación describe procesos que descalifican y eliminan perfiles de dispositivo de segmentos. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
+La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear un [!UICONTROL Profile Merge Rule].
 
-## Available Device Options {#device-options}
+## Opciones de dispositivo disponibles {#device-options}
 
-As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL Profile Merge Rules Setup] section when you create or edit a [!UICONTROL Profile Merge Rule].
+Como recordatorio, los [!UICONTROL Device Options] están disponibles en la [!UICONTROL Profile Merge Rules Setup] sección al crear o editar un [!UICONTROL Profile Merge Rule].
 
 ![](assets/merge-rules-options.png)
 
-## Current Device Profile Option and Device Unsegmentation {#current-device-profile-options}
+## Opción de perfil de dispositivo actual y dessegmentación del dispositivo {#current-device-profile-options}
 
-**[!UICONTROL Current Device Profile]** es la opción de perfil de dispositivo predeterminada para un [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] puede quitar un perfil de dispositivo de un segmento cuando [!UICONTROL Profile Merge Rule] utiliza **[!UICONTROL Current Device Profile]** la opción. En estas condiciones, la dessegmentación se produce cuando:
+**[!UICONTROL Current Device Profile]** es la opción de perfil de dispositivo predeterminada para un [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] Puede eliminar un perfil de dispositivo de un segmento cuando [!UICONTROL Profile Merge Rule] utilice la **[!UICONTROL Current Device Profile]** opción. En estas condiciones, la dessegmentación se produce cuando:
 
 * El perfil del dispositivo ha estado inactivo durante 120 días. Un proceso semanal de limpieza de datos elimina los perfiles de dispositivo inactivos de los segmentos.
-* El dispositivo ya no cumple los requisitos de un segmento porque las actualizaciones o cambios en el perfil del dispositivo la descalifican. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+* El dispositivo ya no cumple los requisitos para un segmento porque las actualizaciones o los cambios en el perfil del dispositivo lo descalifican. Esto sucede cuando cambian los criterios de calificación de segmentos, o cuando se aplica un [!DNL AND NOT] operador a una regla de segmento, o se especifican condiciones de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) que utilizan la configuración menor o igual que. Los casos de uso se describen en la documentación de Supresión [entre dispositivos](../../features/profile-merge-rules/instant-cross-device-suppression.md) instantánea.
 
 ![](assets/single_device_use_case.png)
 
@@ -42,19 +42,19 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-## No Device Option and Device Unsegmentation {#no-device-option}
+## Sin opción de dispositivo y sin segmentación de dispositivos {#no-device-option}
 
-[!DNL Audience Manager] puede quitar un ID entre dispositivos de un segmento cuando [!UICONTROL Profile Merge Rule] utilice la **[!UICONTROL No Device Profile]****[!UICONTROL Current Authenticated]** opción +. En estas condiciones, la dessegmentación se produce cuando el ID entre dispositivos ya no cumple los requisitos de un segmento, ya que las actualizaciones o cambios en el perfil entre dispositivos la descalifican. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] Puede quitar un ID entre dispositivos de un segmento cuando [!UICONTROL Profile Merge Rule] utilice la opción **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** . En estas condiciones, la dessegmentación se produce cuando el ID entre dispositivos ya no cumple los requisitos para un segmento porque las actualizaciones o los cambios en el perfil entre dispositivos lo descalifican. Esto sucede cuando cambian los criterios de calificación de segmentos, o cuando se aplica un [!UICONTROL AND NOT] operador a una regla de segmento, o se especifican condiciones de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) que utilizan la configuración menor o igual que. Los casos de uso se describen en la documentación de Supresión [entre dispositivos](../../features/profile-merge-rules/instant-cross-device-suppression.md) instantánea.
 
 ![](assets/no_device_use_case.png)
 
-## Device Graph Options and Device Unsegmentation {#device-graph-options-unsegmentation}
+## Opciones de Device Graph y dessegmentación de dispositivos {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] puede quitar varios perfiles de dispositivo de un segmento cuando [!UICONTROL Profile Merge Rule] utiliza una opción gráfica de dispositivo. La dessegmentación se produce cuando el perfil combinado del dispositivo del gráfico de dispositivos ya no cumple los requisitos del segmento porque las actualizaciones o cambios en este perfil combinado la descalifican del segmento. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] Puede eliminar varios perfiles de dispositivo de un segmento cuando [!UICONTROL Profile Merge Rule] utilice una opción de gráfico de dispositivo. La dessegmentación se produce cuando el perfil combinado del dispositivo del gráfico del dispositivo ya no cumple los requisitos para el segmento porque las actualizaciones o los cambios realizados en este perfil combinado lo descalifican del segmento. Esto sucede cuando cambian los criterios de calificación de segmentos, o cuando se aplica un [!UICONTROL AND NOT] operador a una regla de segmento, o se especifican condiciones de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) que utilizan la configuración menor o igual que. Los casos de uso se describen en la documentación de Supresión [entre dispositivos](../../features/profile-merge-rules/instant-cross-device-suppression.md) instantánea.
 
 >[!NOTE]
 >
->**El límite de cuatro dispositivos para la evaluación de segmentos y la descualificación** [!DNL Audience Manager] combina hasta cuatro dispositivos al evaluar segmentos con un [!UICONTROL Profile Merge Rule] gráfico de dispositivos. [!DNL Audience Manager] evalúa el dispositivo *actual y tres dispositivos adicionales que se ven por última vez en tiempo real*. Si se emite la señal de cancelación de segmento, el dispositivo actual y tres dispositivos adicionales vistos en tiempo real se eliminarán del segmento en el destino. Por ejemplo, en un clúster de seis dispositivos, se combinan, evalúan y califican hasta cuatro dispositivos para un segmento. Del mismo modo, se combinan, evalúan y no segmentan hasta cuatro dispositivos.
+>**El límite de cuatro dispositivos para la evaluación de segmentos y la descalificación** [!DNL Audience Manager] combina hasta cuatro dispositivos al evaluar segmentos con un [!UICONTROL Profile Merge Rule] que utiliza un gráfico de dispositivos. [!DNL Audience Manager] evalúa el dispositivo *actual y tres dispositivos adicionales vistos por última vez en tiempo* real. Si se emite la señal de dessegmentación, el dispositivo actual y tres dispositivos adicionales vistos en tiempo real se eliminarán del segmento en el destino. Por ejemplo, en un clúster de seis dispositivos, se combinan, evalúan y califican hasta cuatro dispositivos para un segmento. Del mismo modo, se combinan, evalúan y no segmentan hasta cuatro dispositivos.
 
 ![](assets/cross_device_workflow.png)
 
@@ -101,9 +101,9 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Preguntas frecuentes sobre las reglas de combinación de perfiles y Device Graph](../../faq/faq-profile-merge.md)
+>* [Preguntas más frecuentes sobre las reglas de combinación de perfiles y Device Graph](../../faq/faq-profile-merge.md)
 >* [Eliminación instantánea entre dispositivos](../../features/profile-merge-rules/instant-cross-device-suppression.md)
->* [Consideraciones importantes para las reglas de combinación de perfiles con los gráficos de dispositivos](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
+>* [Consideraciones importantes para las reglas de combinación de perfiles con gráficos de dispositivos](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
 
