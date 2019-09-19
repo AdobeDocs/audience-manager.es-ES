@@ -1,30 +1,30 @@
 ---
-description: Este artículo describe las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
-seo-description: Este artículo describe las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
+description: En este artículo se describen las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
+seo-description: En este artículo se describen las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
 seo-title: Requisitos de nombre para variables clave
 solution: Audience Manager
 title: Requisitos de nombre para variables clave
-uuid: fa 72 e 732-895 d -4 cf 6-bea 0-66 b 404 c 2 b 059
+uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 translation-type: tm+mt
 source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
 
 ---
 
 
-# Name Requirements for Key Variables {#name-requirements-for-key-variables}
+# Requisitos de nombre para variables clave {#name-requirements-for-key-variables}
 
-Este artículo describe las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
+En este artículo se describen las convenciones de nomenclatura utilizadas por la variable clave en un par clave-valor.
 
-## Requisitos de nomenclatura para claves
+## Requisitos de nombres para claves
 
 <!-- c_tb_key_name_requirements.xml -->
 
-In [!UICONTROL Expression Builder], the name of a key variable in a key-value pair can consist of any number of digits followed by 1 (or more) letters, a dash, an underscore, and additional digits.
+En [!UICONTROL Expression Builder], el nombre de una variable clave en un par de valor clave puede constar de cualquier número de dígitos seguido de 1 (o más) letras, un guión, un guión bajo y dígitos adicionales.
 
-* Valid key names: `price123`, `123price`, `price-123`, `c_price123`.
+* Nombres de clave válidos: `price123`, `123price`, `price-123`, `c_price123`.
 
-* Invalid key names: `123`, `price!123`.
+* Nombres de clave no válidos: `123`, `price!123`.
 
-## Prefixing Key Variables with `c_`
+## Prefijación de variables clave con `c_`
 
-The `c_` prefix is *always* required if the parameters that send in data on an event call URL use that syntax.
+El `c_` prefijo *siempre* es necesario si los parámetros que envían datos en una URL de llamada de evento utilizan esa sintaxis.
