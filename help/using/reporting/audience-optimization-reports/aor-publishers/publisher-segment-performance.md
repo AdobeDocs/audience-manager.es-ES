@@ -1,50 +1,50 @@
 ---
-description: El informe Rendimiento de segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que crea y envía a un destino para la segmentación. Un segmento sin asignar es un segmento que ha creado pero que no se ha enviado a un destino para la segmentación. La comparación de estos diferentes tipos de segmentos dentro y entre informes ayuda a optimizar las campañas existentes y encuentra los segmentos ignorados que quizá desee enviar a un destino para la segmentación.
-seo-description: El informe Rendimiento de segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que crea y envía a un destino para la segmentación. Un segmento sin asignar es un segmento que ha creado pero que no se ha enviado a un destino para la segmentación. La comparación de estos diferentes tipos de segmentos dentro y entre informes ayuda a optimizar las campañas existentes y encuentra los segmentos ignorados que quizá desee enviar a un destino para la segmentación.
+description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
+seo-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 seo-title: Informe Rendimiento del segmento
 solution: Audience Manager
 title: Informe Rendimiento del segmento
-uuid: c 9 a 1 e 9 ad -4 f 3 f -4334-a 3 ff -0 f 241 c 7303 c 4
+uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Segment Performance Report{#segment-performance-report}
+# Informe Rendimiento del segmento{#segment-performance-report}
 
-El informe Rendimiento de segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real.
+El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real.
 
-Un segmento asignado es un segmento que crea y envía a un destino para la segmentación. Un segmento sin asignar es un segmento que ha creado pero que no se ha enviado a un destino para la segmentación.
+Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo.
 
-La comparación de estos diferentes tipos de segmentos dentro y entre informes ayuda a optimizar las campañas existentes y encuentra los segmentos ignorados que quizá desee enviar a un destino para la segmentación.
+La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 
 ## Casos de uso {#use-cases}
 
-With the [!UICONTROL Segment Performance] report, you can:
+Con el [!UICONTROL Segment Performance] informe puede:
 
-* Identifique los segmentos de audiencia asignados que generan escala o rendimiento.
-* Identifique los segmentos sin asignar que se introducen en futuras campañas, según la contribución de una audiencia al rendimiento anterior.
+* Identifique los segmentos de audiencia asignados que impulsan la escala o el rendimiento.
+* Identifique los segmentos sin asignar que se van a presentar en futuras campañas, en función de la contribución de una audiencia al rendimiento anterior.
 
-## Using the Segment Performance Report {#using-segment-performance-report}
+## Uso del informe Rendimiento del segmento {#using-segment-performance-report}
 
-Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
+Alternar entre **[!UICONTROL Mapped]** y **[!UICONTROL Unmapped]** para seleccionar segmentos asignados a un destino o no. Seleccione **[!UICONTROL All]** para incluir todos los segmentos en el informe.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Tenga en cuenta que los períodos de retroceso de 7 días y 30 días solo están disponibles para las fechas del domingo.
+Utilice los controles Intervalo **de** días y **Fecha a través** para ajustar el intervalo retrospectivo. Tenga en cuenta que los períodos retrospectivos de 7 y 30 días solo están disponibles para las fechas de domingo.
 
-Use the **[!UICONTROL Line Item]** drop-down box to select the web properties for which you want to return information.
+Utilice el cuadro **[!UICONTROL Line Item]** desplegable para seleccionar las propiedades web para las que desea devolver información.
 
-In the **[!UICONTROL Segment Data Source]** drop-down box, select the data sources containing the segments you want to see in the report.
+En el cuadro **[!UICONTROL Segment Data Source]** desplegable, seleccione las fuentes de datos que contengan los segmentos que desee ver en el informe.
 
-Use the **[!UICONTROL Segment]** drop-down box to select which segments you want to see in the report.
+Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué segmentos desea ver en el informe.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar de la [!UICONTROL Line Item ID].
 
-## Interpreting the Results {#interpreting-results}
+## Interpretación de los resultados {#interpreting-results}
 
-Your [!UICONTROL Segment Performance] report could look similar to the one below. En el informe, haga clic en una burbuja para ver los datos subyacentes. Consulte las descripciones de la información adicional en la tabla debajo del informe de muestra.
+Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para ver los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -58,11 +58,11 @@ Your [!UICONTROL Segment Performance] report could look similar to the one below
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Segmento </p> </td> 
-   <td colname="col2"> <p>Nombre alfanumérico asignado a este segmento. </p> </td> 
+   <td colname="col2"> <p>El nombre alfanumérico que asignó a este segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID de segmento </p> </td> 
-   <td colname="col2"> <p>ID exclusivo de este segmento. </p> </td> 
+   <td colname="col1"> <p> ID del segmento </p> </td> 
+   <td colname="col2"> <p>ID única de este segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elemento de línea </p> </td> 
@@ -70,35 +70,35 @@ Your [!UICONTROL Segment Performance] report could look similar to the one below
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clics </p> </td> 
-   <td colname="col2"> <p>Cantidad de veces que los miembros de esta característica han hecho clic en los elementos de su propiedad web. </p> </td> 
+   <td colname="col2"> <p>El número de veces que los miembros de esta característica han hecho clic en elementos de la propiedad web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impresiones </p> </td> 
-   <td colname="col2"> <p>Número de veces que los miembros de esta característica han sido expuestos al inventario. </p> </td> 
+   <td colname="col2"> <p>El número de veces que los miembros de esta característica han estado expuestos al inventario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CTR </p> </td> 
-   <td colname="col2"> <p>Tasa de pulsaciones. </p> <p>Esta métrica rellena el porcentaje de impresiones seguido por clics. Dividir clics por impresiones para obtener esta métrica. </p> </td> 
+   <td colname="col2"> <p>Tasa de pulsaciones. </p> <p>Esta métrica muestra el porcentaje de impresiones seguidas de clics. Dividir clics por impresiones para obtener esta métrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Población en segmentos en tiempo real </p> </td> 
-   <td colname="col2"> <p>The actual number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p>Población de segmentos en tiempo real </p> </td> 
+   <td colname="col2"> <p>El número real de visitantes únicos que se vieron en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que <span class="keyword"> Audience Manager</span>los vio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## How to Read Your Mapped Segment Results {#read-mapped-segment}
+## Cómo leer los resultados del segmento asignado {#read-mapped-segment}
 
-La posición de los segmentos asignados en un informe puede indicarle mucho sobre qué segmentos están funcionando bien y dónde debe realizar algunos ajustes.
+La posición de los segmentos asignados en un informe puede indicarle mucho sobre qué segmentos tienen un buen rendimiento y dónde podría necesitar realizar algunos ajustes.
 
-Para leer el informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y las categorías que se muestran en el informe de muestra siguiente. Las etiquetas del ejemplo pueden ayudarle a comprender el rendimiento de los segmentos y cómo responder a estos resultados.
+Para leer el informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y las categorías que se muestran en el informe de muestra a continuación. Las etiquetas del ejemplo pueden ayudarle a comprender el rendimiento de los segmentos y a responder a estos resultados.
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## How to Read Your Unmapped Segment Results {#read-unmapped-segment}
+## Cómo leer los resultados del segmento sin asignar {#read-unmapped-segment}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. De hecho, algunos de estos segmentos pueden superar los segmentos asignados.
+Ver segmentos sin asignar en un [!UICONTROL Segment Performance] informe es una buena manera de encontrar nuevos segmentos que no ha considerado para objetivos. De hecho, algunos de estos segmentos pueden superar el rendimiento de los segmentos asignados.
 
-Para leer este informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y categorías que se muestran en el informe de muestra siguiente.
+Para leer este informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y categorías que se muestran en el informe de muestra a continuación.
 
 ![](assets/publisher_segment_performance_unmapped.png)
