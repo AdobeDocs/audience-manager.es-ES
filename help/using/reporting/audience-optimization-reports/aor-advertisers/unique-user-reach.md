@@ -1,34 +1,34 @@
 ---
-description: El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo según el número de usuarios únicos de la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja más pequeña. El informe Alcance de usuario único ayuda a encontrar el anunciante, marca, campaña, elemento creativo, ubicación o sitio que proporciona el alcance más amplio a los usuarios objetivo.
-seo-description: El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo según el número de usuarios únicos de la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja más pequeña. El informe Alcance de usuario único ayuda a encontrar el anunciante, marca, campaña, elemento creativo, ubicación o sitio que proporciona el alcance más amplio a los usuarios objetivo.
+description: El informe Alcance del usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo en proporción al número de usuarios únicos para la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja menor. El informe Alcance del usuario único le ayuda a encontrar el anunciante, la marca, la campaña, el elemento creativo, la ubicación o el sitio que proporciona el mayor alcance contra los usuarios objetivo.
+seo-description: El informe Alcance del usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo en proporción al número de usuarios únicos para la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja menor. El informe Alcance del usuario único le ayuda a encontrar el anunciante, la marca, la campaña, el elemento creativo, la ubicación o el sitio que proporciona el mayor alcance contra los usuarios objetivo.
 seo-title: Alcance de usuario único
 solution: Audience Manager
 title: Alcance de usuario único
-uuid: 897245 ab-af 6 e -42 a 0-b 653-96703 b 65 c 764
+uuid: 897245ab-af6e-42a0-b653-96703b65c764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# Unique User Reach{#unique-user-reach}
+# Alcance de usuario único{#unique-user-reach}
 
-El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo según el número de usuarios únicos de la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja más pequeña.
+El informe Alcance del usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño directo en proporción al número de usuarios únicos para la dimensión seleccionada. Una burbuja mayor indica un mayor alcance que una burbuja menor.
 
-El informe Alcance de usuario único ayuda a encontrar el anunciante, marca, campaña, elemento creativo, ubicación o sitio que proporciona el alcance más amplio a los usuarios objetivo.
+El informe Alcance del usuario único le ayuda a encontrar el anunciante, la marca, la campaña, el elemento creativo, la ubicación o el sitio que proporciona el mayor alcance contra los usuarios objetivo.
 
 >[!NOTE]
 >
 >Tenga en cuenta que:
 >
->* [!UICONTROL Unique User Reach] El informe muestra información únicamente para usuarios con [!UICONTROL Admin] niveles de permiso. Your [!DNL Audience Manager] consultant or Customer Care can provision your account with [!UICONTROL Admin] permissions.
+>* El [!UICONTROL Unique User Reach] informe muestra información solamente para usuarios con niveles de [!UICONTROL Admin] permisos. El consultor [!DNL Audience Manager] o el Servicio de atención al cliente pueden otorgar [!UICONTROL Admin] permisos a su cuenta.
    >
    >
-* Los períodos de retroceso de 7 días y 30 días solo están disponibles para domingo.
+* Los períodos de 7 y 30 días de consulta solo están disponibles para los domingos.
 
 
 ## Informe de muestra
 
-Your [!UICONTROL Unique User Reach] report could look similar to the one below. En el informe, haga clic en una burbuja para ver los datos subyacentes.
+Su [!UICONTROL Unique User Reach] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para ver los datos subyacentes.
 
 ![](assets/unique-user-reach.png)
