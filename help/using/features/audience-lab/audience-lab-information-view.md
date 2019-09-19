@@ -1,36 +1,36 @@
 ---
-description: Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que se divide, los rasgos de conversión y los destinos asignados seleccionados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
-seo-description: Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que se divide, los rasgos de conversión y los destinos asignados seleccionados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
-seo-title: Información de grupo de prueba
+description: Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que está dividido, las características de conversión seleccionadas y los destinos asignados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
+seo-description: Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que está dividido, las características de conversión seleccionadas y los destinos asignados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
+seo-title: Información del grupo de prueba
 solution: Audience Manager
-title: Información de grupo de prueba
-topic: API DIL
-uuid: a 49 dfdb 3-21 e 1-4 c 3 d-b 957-4 d 445 f 890124
+title: Información del grupo de prueba
+topic: DIL API
+uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 translation-type: tm+mt
 source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
 ---
 
 
-# Test Group Information {#test-group-information}
+# Información del grupo de prueba {#test-group-information}
 
-Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que se divide, los rasgos de conversión y los destinos asignados seleccionados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
+Esta sección muestra información general sobre el grupo de prueba y los segmentos de prueba en los que está dividido, las características de conversión seleccionadas y los destinos asignados. La sección también proporciona controles para duplicar o eliminar el grupo de prueba.
 
-También puede ver información sobre el segmento de línea base que utilizó para el grupo de prueba y cómo se dividen los segmentos de prueba.
+También puede ver información sobre el segmento de línea de base utilizado para el grupo de prueba y cómo se dividen los segmentos de prueba.
 
-The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. La información general muestra los porcentajes de usuarios asignados a cada segmento de prueba.
+Los **[!UICONTROL Test Segments]** se rellenan de forma aleatoria con los usuarios desde el segmento de línea de base utilizado para el grupo de prueba. La información general muestra los porcentajes de usuarios asignados a cada segmento de prueba.
 
-**[!UICONTROL Conversion Traits]** La unidad de informes para los grupos de prueba. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
+La **[!UICONTROL Conversion Traits]** unidad de informes para los grupos de prueba. Para designar una característica como conversión, al crear o editar características en el [!UICONTROL Trait Builder], seleccione **Conversión** como Tipo **[de](../../features/traits/create-onboarded-rule-based-traits.md)evento.**
 
-The **[!UICONTROL Destinations]** card is collapsible. Pulse las flechas para abrir o cerrar destinos individuales y obtener la siguiente información para los segmentos de prueba, agrupados por los destinos asignados a:
+La **[!UICONTROL Destinations]** tarjeta puede contraerse. Pulse las flechas para abrir o cerrar destinos individuales y obtener la siguiente información para los segmentos de prueba, agrupados por los destinos a los que están asignados:
 
 * el número de dispositivos de la población total del segmento base asignada a cada destino.
-* asignación de clave;
-* asignar valor;
-* [!DNL URL] &amp; secure [!DNL URL] para [!DNL URL] destinos.
+* clave de asignación;
+* valor de asignación;
+* [!DNL URL] y seguro [!DNL URL] para [!DNL URL] destinos.
 
 >[!NOTE]
 >
->Recuerde que no puede editar grupos de pruebas después de finalizarlos, solo puede pausarlos, eliminarlos o duplicarlos.
+>Recuerde que no puede editar los grupos de prueba una vez finalizados, sólo puede pausar, eliminar o duplicarlos.
 
 ![](assets/test-groups-information.PNG)
