@@ -1,59 +1,59 @@
 ---
-description: Describe los pasos y las características exclusivas del proceso de creación de rasgos algorítmicos.
-seo-description: Describe los pasos y las características exclusivas del proceso de creación de rasgos algorítmicos.
+description: Describe los pasos y las funciones de configuración exclusivos del proceso de creación de características algorítmicas.
+seo-description: Describe los pasos y las funciones de configuración exclusivos del proceso de creación de características algorítmicas.
 seo-title: Crear características algorítmicas
 solution: Audience Manager
 title: Crear características algorítmicas
-uuid: 50 c 2 d 2 d 1-f 412-479 b-bb 70-4 f 139429 c 388
+uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create Algorithmic Traits {#create-algorithmic-traits}
+# Crear características algorítmicas {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
 
-To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps below:
+Para crear una característica algorítmica, vaya a [!UICONTROL Traits] y siga los pasos a continuación:
 
-1. Click **[!UICONTROL Create New Trait]** and select **[!UICONTROL Algorithmic]** from the drop down menu.
-1. In the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section
+1. Haga clic **[!UICONTROL Create New Trait]** y seleccione **[!UICONTROL Algorithmic]** en el menú desplegable.
+1. En la sección Información [](../../features/traits/create-onboarded-rule-based-traits.md) básica
    * Asigne un nombre a la característica.
    * Seleccione un origen de datos.
    * Elija una carpeta de almacenamiento.
-1. Expand the [!UICONTROL Configuration] pane and click **[!UICONTROL Browse All Models]**.
-Esto abre una ventana nueva que permite seleccionar el modelo que desee utilizar con la característica.
-1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
-Al agregar el modelo, se exponen los ajustes de alcance y precisión.
-1. Seleccione el alcance o la precisión como objetivo y elija un valor de los menús desplegables correspondientes. Click **[!UICONTROL Save]** when done.
+1. Expanda el [!UICONTROL Configuration] panel y haga clic en **[!UICONTROL Browse All Models]**.
+Se abre una nueva ventana que permite seleccionar el modelo que desea utilizar con la característica.
+1. Seleccione un modelo y haga clic en **[!UICONTROL Add Selected Model to Trait]**.
+Al agregar el modelo se exponen los valores de alcance y precisión.
+1. Seleccione el alcance o la precisión como objetivo y elija un valor en los menús desplegables correspondientes. Click **[!UICONTROL Save]** when done.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Precisión y alcance](../../features/traits/trait-accuracy-reach.md)
 
 
-## Configuration Settings for Algorithmic Traits {#configure-settings}
+## Configuración de características algorítmicas {#configure-settings}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. Para completar el proceso de creación de rasgos algorítmicos, seleccione un modelo y elija un objetivo de alcance o precisión.
+En [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sección permite asociar un modelo algorítmico a una característica. Para completar el proceso de creación de características algorítmicas, seleccione un modelo y elija un objetivo de alcance o precisión.
 
 ### Requisitos previos
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Cree un modelo algorítmico](../../features/algorithmic-models/create-model.md#build-model).
-* Espere el correo electrónico de notificación que le permite saber que ha finalizado la ejecución de los datos del modelo.
-* Complete the required fields in the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section.
+* [Cree un modelo](../../features/algorithmic-models/create-model.md#build-model)algorítmico.
+* Espere el correo electrónico de notificación que le permite saber que la ejecución de datos del modelo ha finalizado.
+* Complete los campos requeridos en la sección Información [](../../features/traits/create-onboarded-rule-based-traits.md) básica.
 
-### Campos y configuración de configuración
+### Campos y configuración
 
 | Elemento Interfaz | Explicación |
 |---|---|
-| **[!UICONTROL Select Model for Algorithmic Trait]** | Click the **[!UICONTROL Update]** button to open the models window. Desde la ventana, seleccione el modelo algorítmico que desee utilizar para crear la característica. |
-| **[!UICONTROL Select Goal Accuracy]** | Seleccione esta opción para crear una característica basada en la precisión. La precisión es un valor puntuado que indica la proximidad de los usuarios potenciales a la línea base. La escala de precisión va desde 0 (menos precisión) a 1 (más precisa). |
-| **[!UICONTROL Reach and Accuracy Data Columns]** | En la derecha, esta sección muestra hasta 21 filas de datos numéricos que muestran los valores de precisión y alcance del modelo. |
-| **[!UICONTROL Reach and Accuracy Slider]** | El deslizador, situado en la parte inferior del gráfico, le permite establecer un valor numérico para los objetivos de alcance o precisión. Puede definir el control deslizante y, a continuación, elegir el botón de objetivo de alcance o precisión para crear un rasgo. |
+| **[!UICONTROL Select Model for Algorithmic Trait]** | Haga clic en el **[!UICONTROL Update]** botón para abrir la ventana de modelos. En la ventana, seleccione el modelo algorítmico que desee utilizar para crear la característica. |
+| **[!UICONTROL Select Goal Accuracy]** | Seleccione esta opción para crear una característica basada en la precisión. Precisión es un valor de puntuación que indica la proximidad de los usuarios potenciales a la línea base. La escala de precisión va de 0 (menos precisa) a 1 (más precisa). |
+| **[!UICONTROL Reach and Accuracy Data Columns]** | Situada a la derecha, esta sección muestra hasta 21 filas de datos numéricos que muestran los valores de precisión y alcance del modelo. |
+| **[!UICONTROL Reach and Accuracy Slider]** | Ubicado en la parte inferior del gráfico, el control deslizante permite establecer un valor numérico para los objetivos de alcance o precisión. Puede definir el control deslizante y, a continuación, seleccionar el botón de objetivo de alcance o precisión para crear una característica. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Precisión y alcance](../../features/traits/trait-accuracy-reach.md)
