@@ -3,18 +3,18 @@ description: Utilice operadores lógicos para agrupar pares de clave-valor y car
 seo-description: Utilice operadores lógicos para agrupar pares de clave-valor y características de relleno.
 seo-title: Operadores lógicos admitidos
 title: Operadores lógicos admitidos
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# Operadores lógicos admitidos {#supported-logical-operators}
 
 Utilice operadores lógicos para agrupar pares de clave-valor y características de relleno.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## Operadores admitidos para la búsqueda de señales {#supported-operators-search}
 
 Utilice los siguientes operadores lógicos admitidos para buscar pares clave-valor:
 
@@ -25,17 +25,17 @@ Utilice los siguientes operadores lógicos admitidos para buscar pares clave-val
 | **==** | Igual a |
 | **&gt;** | Mayor que |
 | **&lt;** | Menor que |
-| **=&gt;** | Mayor que/igual a |
-| **&lt;=** | Menor que/igual a |
+| **=&gt;** | Mayor o igual que |
+| **&lt;=** | Menor o igual que |
 
 ### Operadores con nombre
 
-| Operador | Evaluates to [!DNL True] When |
+| Operador | Evalúa a [!DNL True] Cuándo |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | El valor de un par clave-valor *contiene* caracteres especificados por este operador. |
+| **[!UICONTROL Startswith]** | El valor de un par clave-valor *comienza con* los caracteres especificados por este operador. |
+| **[!UICONTROL Endswith]** | El valor de un par clave-valor *termina con* los caracteres especificados por este operador. |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## Operadores admitidos para rellenar y calcular características {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+Puede rellenar características que incluyan expresiones que contengan cualquiera de los operadores admitidos por [!UICONTROL Signal Search]. Además de estos operadores, el rellenado y la estimación de características también admiten los operadores [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL AND NOT] lógicos, utilizados para combinar pares de clave-valor dentro de las expresiones de rasgo rellenadas.
