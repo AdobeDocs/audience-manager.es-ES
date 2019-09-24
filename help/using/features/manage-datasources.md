@@ -1,13 +1,13 @@
 ---
 description: Para crear una nueva fuente de datos, vaya a Datos de audiencia > Fuentes de datos > Agregar nuevo y complete los pasos para cada sección que se describe aquí. Se necesitan permisos de administrador para crear una fuente de datos.
-keywords: cdf;fuente de datos personalizada
+keywords: fuentes de datos;administrar fuente de datos;fuente de datos del administrador de público
 seo-description: Para crear una nueva fuente de datos, vaya a Datos de audiencia > Fuentes de datos > Agregar nuevo y complete los pasos para cada sección que se describe aquí. Se necesitan permisos de administrador para crear una fuente de datos.
 seo-title: Crear una fuente de datos
 solution: Audience Manager
-title: Crear una fuente de datos
+title: Administrar fuentes de datos
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
@@ -24,19 +24,19 @@ Para crear una nueva fuente de datos, vaya a **[!UICONTROL Audience Data > Data 
 >
 >Consulte Configuración [de fuente de datos y Opciones](../features/datasources-list-and-settings.md#settings-menu-options) de menú para obtener descripciones de estos diferentes controles.
 
-## Detalles de la fuente de datos {#details}
+## Data Source Details {#details}
 
-Para completar la [!UICONTROL Data Source Details] sección:
+To complete the  section:[!UICONTROL Data Source Details]
 
 1. Asigne un nombre al origen de datos.
-1. *(Opcional)* Describa la fuente de datos. Una descripción concisa le ayuda a definir la función o el propósito del origen de datos.
-1. Proporcione un código de integración. Generalmente, los códigos de integración son opcionales. Son obligatorios cuando desea:
+1. *(Optional) Describe the data source.* A concise description helps you define the role or purpose of the data source.
+1. Provide an integration code. Generalmente, los códigos de integración son opcionales. They are required when you want to:
 
-   * [Cree una fuente](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de datos entre dispositivos.
-   * Utilice el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
-   * Trabajar con reglas [de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md).
+   * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
+   * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+   * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Elija una **[!UICONTROL ID Type]**. Las opciones de tipo de ID incluyen:
+1. Choose an . **[!UICONTROL ID Type]** ID Type options include:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -49,7 +49,7 @@ Para completar la [!UICONTROL Data Source Details] sección:
 
 ## Controles de exportación de datos {#export-controls}
 
-[Los controles](../features/data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que se pueden aplicar a un origen y destino de datos. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Omita esta sección si no utiliza [!UICONTROL Data Export Controls].
+[Los controles](../features/data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que se pueden aplicar a un origen y destino de datos. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Skip this section if you do not use .[!UICONTROL Data Export Controls]
 
 ## Data Source Settings {#settings}
 
