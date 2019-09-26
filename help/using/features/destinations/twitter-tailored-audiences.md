@@ -5,7 +5,7 @@ seo-title: Configurar las audiencias personalizadas de Twitter como un destino b
 solution: Audience Manager
 title: Configurar las audiencias personalizadas de Twitter como un destino basado en un dispositivo de autoservicio
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -88,6 +88,10 @@ Al asignar segmentos de audiencia a Twitter, asegúrese de cumplir los siguiente
 
 * Nombre de asignación o segmento correcto: "Compradores europeos y estadounidenses";
 * Nombre de asignación o segmento incorrecto: "EE.UU., europeo 5h0pP3rs".
+
+## Consideraciones sobre las tasas de coincidencia {#match-rates-considerations}
+
+Al utilizar [!UICONTROL Twitter Tailored Audiences], las métricas [!UICONTROL Segment Addressable Audience] y [!UICONTROL Segment Match Rate] de la página de destino no mostrarán ningún valor. Esto es normal, ya que la coincidencia de audiencias junto con las tasas de coincidencia para este destino se gestionan y alojan en [!UICONTROL Twitter], no en Adobe.
 
 >[!IMPORTANT]
 >
