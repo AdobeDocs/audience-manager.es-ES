@@ -5,12 +5,15 @@ seo-title: Requisitos previos y consideraciones sobre destinos basados en person
 solution: Audience Manager
 title: Requisitos previos y consideraciones
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Requisitos previos y consideraciones {#prerequisites-considerations}
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Lea a continuación para obtener una descripción general de los requisitos del cliente que debe cumplir antes de registrarse para [!DNL People-Based Destinations].
 
