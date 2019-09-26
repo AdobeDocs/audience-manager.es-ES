@@ -5,7 +5,7 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -16,7 +16,7 @@ Se utiliza [!DNL People-Based Destinations] para enviar segmentos de audiencia d
 
 ## Información general {#overview}
 
-[!DNL People-Based Destinations] le permite aplicar segmentación en datos en línea y sin conexión para crear segmentos de audiencia basados en identificadores con hash, como direcciones de correo electrónico o números de teléfono. A continuación, puede enviar estos segmentos a "jardines amurallados" como, por ejemplo, [!DNL Facebook]donde puede dirigirse a su audiencia independientemente de sus interacciones en línea o del estado de autenticación. [!DNL People-Based Destinations] puede ayudarle a:
+[!DNL People-Based Destinations] le permite aplicar segmentación en datos en línea y sin conexión para crear segmentos de audiencia basados en identificadores [](people-based-destinations-prerequisites.md#hashing-requirements)hash, como direcciones de correo electrónico o números de teléfono. A continuación, puede enviar estos segmentos a "jardines amurallados" como, por ejemplo, [!DNL Facebook]donde puede dirigirse a la audiencia en las plataformas sociales. [!DNL People-Based Destinations] puede ayudarle a:
 
 * Dirigirse a audiencias en línea y sin conexión en plataformas como [!DNL Facebook], por ejemplo, basadas en direcciones de correo electrónico con hash;
 * Complementar las capacidades de segmentación de cookies y dispositivos existentes de Audience Manager;
@@ -25,7 +25,7 @@ Se utiliza [!DNL People-Based Destinations] para enviar segmentos de audiencia d
 * Dirigirse a audiencias en entornos sin cookies;
 * Dirija la audiencia deduplicando las direcciones de correo electrónico coincidentes con los ID de cliente.
 
-Puede usar [!DNL People-Based Destinations] para segmentar y segmentar clientes de alto valor que nunca hayan visitado el sitio web, o para dejar de dirigirse a aquellos que ya se han convertido sin conexión. Además, puede aprovechar [!DNL Profile Merge Rules] para combinar datos de origen sin conexión con datos de origen en línea, incluidos datos de clientes de otras soluciones de Adobe Experience Cloud, para optimizar sus esfuerzos de publicidad en medios sociales.
+Puede usar [!DNL People-Based Destinations] para segmentar y segmentar clientes de alto valor que no visiten el sitio web o dejar de segmentar por aquellos que ya se han convertido sin conexión. Además, puede aprovechar [!DNL Profile Merge Rules] para combinar los datos de origen sin conexión con los datos de origen en línea, incluidos los datos de clientes de otras soluciones de Adobe Experience Cloud, para optimizar los esfuerzos de publicidad en medios sociales.
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -45,15 +45,15 @@ La forma más "tradicional" de segmentar audiencias en los canales basados en pe
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-A través de [!DNL People-Based Destinations]Audience Manager le ayuda a centralizar todos los datos de clientes, a crear segmentos de audiencia y a activarlos en varios canales basados en personas. Puede hacerlo todo desde la interfaz de usuario de Audience Manager, evitando así el trabajo adicional de cargar manualmente datos en cada plataforma, lo que le ahorra un tiempo valioso en el proceso.
+A través [!DNL People-Based Destinations]de Audience Manager le ayuda a centralizar los datos de sus clientes, a crear segmentos de audiencia y a activarlos en varios canales basados en personas. Puede hacerlo todo desde la interfaz de usuario de Audience Manager, evitando así el trabajo adicional de cargar manualmente datos en cada plataforma, lo que le ahorra un tiempo valioso en el proceso.
 
 **Cree y active segmentos de audiencia a partir de perfiles puramente sin conexión.**
 
-[!DNL People-Based Destinations] solucione el problema que anteriormente solo podía activar segmentos de audiencia en función de la actividad del dispositivo. Con [!DNL People-Based Destinations], puede crear segmentos a partir de datos puramente sin conexión propios [!DNL CRM]y activarlos en plataformas basadas en personas. Además, puede correlacionar datos sin conexión con datos de dispositivos que ya tenga en Audience Manager.
+[!DNL People-Based Destinations] solucione el problema que anteriormente solo podía activar segmentos de audiencia en función de la actividad del dispositivo. Con [!DNL People-Based Destinations], puede crear segmentos a partir de datos puramente sin conexión propios [!DNL CRM]y activarlos en plataformas basadas en personas. Además, puede correlacionar los datos sin conexión con los datos de dispositivo que ya tiene en Audience Manager.
 
 **Aproveche los controles de privacidad y administración de datos de Audience Manager para administrar con seguridad los datos de los clientes.**
 
-[!DNL People-Based Destinations] solo utilice identificadores con hash, de modo que los datos de cliente siempre estarán protegidos, desde el momento en que los incorpore a Audience Manager, hasta el momento en que alcancen su destino de destino. Esto elimina los riesgos de privacidad asociados con la carga manual de datos confidenciales de clientes en cada plataforma de activación.
+[!DNL People-Based Destinations] requiere que utilice únicamente identificadores con hash irreversibles. Esto reduce el riesgo asociado con la carga manual de datos de clientes en cada plataforma de destino.
 
 ## Casos de uso {#use-cases}
 
@@ -61,12 +61,12 @@ Para ayudarle a comprender mejor cómo y cuándo debe usar [!DNL People-Based De
 
 ### Use Case #1 {#use-case-1}
 
-Un minorista en línea quiere llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!DNL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash propias [!DNL CRM] a Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que deseen publicitar, optimizando así el gasto en publicidad.
+Un minorista en línea quiere llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!DNL People-Based Destinations], el minorista en línea puede ingerir direcciones de correo electrónico con hash propias [!DNL CRM] a Audience Manager, generar segmentos a partir de sus propios datos sin conexión y enviar estos segmentos a las plataformas sociales en las que desee publicitar, optimizando así el gasto en publicidad.
 
 ### Use Case #2 {#use-case-2}
 
-Una aerolínea tiene diferentes niveles de clientes (bronce, plata y oro), y desea ofrecer a cada uno de los niveles ofertas personalizadas a través de plataformas sociales. La empresa utiliza Audience Manager para analizar la actividad de los clientes en el sitio web. Sin embargo, no todos los clientes utilizan la aplicación móvil de la aerolínea y algunos de ellos ni siquiera iniciaron sesión en el sitio web de la empresa. Los únicos identificadores que tiene la empresa sobre estos clientes son los ID de pertenencia y las direcciones de correo electrónico.
+Una aerolínea tiene diferentes niveles de clientes (bronce, plata y oro), y desea ofrecer a cada uno de los niveles ofertas personalizadas a través de plataformas sociales. La empresa utiliza Audience Manager para analizar la actividad de los clientes en el sitio web. Sin embargo, no todos los clientes utilizan la aplicación móvil de la aerolínea y algunos de ellos no han iniciado sesión en el sitio web de la empresa. Los únicos identificadores que tiene la empresa sobre estos clientes son los ID de pertenencia y las direcciones de correo electrónico.
 
-Para dirigirlos a través de los medios sociales y canales similares basados en personas, pueden incorporar los datos de clientes del [!DNL CRM] en Audience Manager, utilizando como identificadores las direcciones de correo electrónico con hash.
+Para dirigirlos a través de los medios sociales y canales similares basados en personas, pueden incorporar los datos de los clientes desde sus [!DNL CRM] cuentas a Audience Manager, utilizando como identificadores las direcciones de correo electrónico con hash.
 
-A continuación, pueden combinar los datos sin conexión con las características de actividad en línea existentes para crear nuevos segmentos de audiencia a través de los cuales pueden dirigirse [!DNL People-Based Destinations].
+A continuación, pueden combinar sus datos sin conexión con sus características de actividad en línea existentes para crear nuevos segmentos de audiencia a través de los cuales pueden dirigirse [!DNL People-Based Destinations].
