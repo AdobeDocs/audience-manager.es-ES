@@ -5,12 +5,15 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexi
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
 translation-type: tm+mt
-source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Flujo de trabajo B: Personalización basada en datos solo sin conexión {#workflow-b}
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Esta página incluye una guía paso a paso sobre cómo generar segmentos de audiencia a partir de datos de clientes sin conexión y enviarlos a destinos basados en personas.
 
