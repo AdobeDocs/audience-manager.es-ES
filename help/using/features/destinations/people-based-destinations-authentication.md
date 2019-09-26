@@ -5,12 +5,15 @@ seo-title: Autenticación con plataformas basadas en personas
 solution: Audience Manager
 title: Autenticación con plataformas basadas en personas
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Autenticación con plataformas basadas en personas {#authentication-with-people-based-platforms}
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Esta página contiene instrucciones sobre cómo configurar y administrar la integración entre Audience Manager y las plataformas basadas en personas.
 
@@ -21,12 +24,12 @@ Esta página contiene instrucciones sobre cómo configurar y administrar la inte
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma social, debería verla en esta página. De lo contrario, la página está vacía.
    ![integración basada en las personas](assets/pbd-config.png)
-1. Haga clic en **[!UICONTROL Add Account]**.
-1. Utilice el menú **[!UICONTROL People-Based Platform]** desplegable para seleccionar la plataforma con la que desea configurar la integración.
+2. Haga clic en **[!UICONTROL Add Account]**.
+3. Utilice el menú **[!UICONTROL People-Based Platform]** desplegable para seleccionar la plataforma con la que desea configurar la integración.
    ![plataforma basada en las personas](assets/pbd-add.png)
-1. Haga clic en **[!UICONTROL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
-1. Una vez que se haya autenticado en la cuenta de la plataforma social, se le redirigirá a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!UICONTROL Confirm]**.
-1. Audience Manager muestra una notificación en la parte superior de la página para indicarle si la cuenta se agregó correctamente. La notificación también le permite agregar una dirección de correo electrónico de contacto para recibir notificaciones de Adobe cuando la autenticación de la plataforma social esté a punto de caducar.
+4. Haga clic en **[!UICONTROL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
+5. Una vez que se haya autenticado en la cuenta de la plataforma social, se le redirigirá a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!UICONTROL Confirm]**.
+6. Audience Manager muestra una notificación en la parte superior de la página para indicarle si la cuenta se agregó correctamente. La notificación también le permite agregar una dirección de correo electrónico de contacto para recibir notificaciones de Adobe cuando la autenticación de la plataforma social esté a punto de caducar.
 
 ## Caducidad del autentificador y administración de notificaciones {#token-expiration-notification}
 
@@ -41,10 +44,10 @@ A continuación se muestra cómo agregar direcciones de correo electrónico a in
 
 ## Renovación del autentificador {#token-renewal}
 
-When an authentication token expires, the integration between Audience Manager and the corresponding social platform is interrupted, so Audience Manager cannot send audience segments to the destination anymore. The [!UICONTROL Integrated Accounts] page shows you the expiration status of each integration in the [!UICONTROL Expiration] column, and allows you to renew the authentication at any time.
+Cuando caduca un autentificador, se interrumpe la integración entre Audience Manager y la plataforma social correspondiente, por lo que Audience Manager ya no puede enviar segmentos de audiencia al destino. La [!UICONTROL Integrated Accounts] página muestra el estado de caducidad de cada integración en la [!UICONTROL Expiration] columna y le permite renovar la autenticación en cualquier momento.
 
-Here's how to renew an expired or about-to-expire authentication:
-1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**.
-1. Identify the integration that you need to renew authentication for. Expired authentications are marked as , while authentications that are about to expire soon show the remaining number of authenticated days.[!UICONTROL Expired]
-1. Click the corresponding  icon in the  column. **[!UICONTROL Renew]**[!UICONTROL Expiration] This triggers the  workflow, which takes you back through the social platform's authentication page. **[!UICONTROL Renew Account]** Once you authenticate, the token is renewed with the new expiration date.
+A continuación se muestra cómo renovar una autenticación caducada o que está a punto de caducar:
+1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**.
+1. Identifique la integración para la que necesita renovar la autenticación. Las autenticaciones caducadas se marcan como [!UICONTROL Expired], mientras que las autenticaciones que están a punto de caducar pronto muestran el número restante de días autenticados.
+1. Haga clic en el **[!UICONTROL Renew]** icono correspondiente de la [!UICONTROL Expiration] columna. Esto desencadena el **[!UICONTROL Renew Account]** flujo de trabajo, que le lleva de nuevo a través de la página de autenticación de la plataforma social. Una vez autenticado, el token se renueva con la nueva fecha de caducidad.
    ![pbd-renew](assets/pbd-renew.png)
