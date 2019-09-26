@@ -5,12 +5,15 @@ seo-title: 'Flujo de trabajo C: Personalización basada en actividad autenticada
 solution: Audience Manager
 title: 'Flujo de trabajo C: Personalización basada en actividad autenticada combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Flujo de trabajo C: Personalización basada en actividad autenticada combinada con datos sin conexión {#workflow-c}
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Esta página incluye una guía paso a paso sobre cómo combinar datos sin conexión [!DNL CRM] con datos de comportamiento en tiempo real para que los usuarios autenticados creen segmentos de audiencia y luego envíen estos segmentos de audiencia a [!DNL People-Based Destinations].
 
@@ -89,7 +92,7 @@ El siguiente paso es crear una nueva regla de combinación que le ayudará a cre
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Haga clic en **[!UICONTROL Add New Rule]**.
 3. Introduzca una regla de combinación de perfiles **[!UICONTROL Name]** y **[!UICONTROL Description]**.
-4. En la **[!UICONTROL Profile Merge Rule Setup]** , seleccione la **[!UICONTROL All Cross-Device Profiles]** regla en la **[!UICONTROL Cross-Device Options]** lista.
+4. En la **[!UICONTROL Profile Merge Rule Setup]** sección , seleccione la **[!UICONTROL Current Authenticated Profiles]** regla o **[!UICONTROL Last Authenticated Profiles]** en la **[!UICONTROL Cross-Device Options]** lista.
 5. En la **[!UICONTROL Cross-Device Profile Options]** lista, seleccione los orígenes de datos en los que desea ejecutar la segmentación. Deben ser las fuentes de datos que contengan los DPUUID existentes.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
