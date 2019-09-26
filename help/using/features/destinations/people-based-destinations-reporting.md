@@ -5,12 +5,15 @@ seo-title: Audiencias compartibles
 solution: Audience Manager
 title: Audiencias compartibles
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Audiencias compartibles {#shareable-audiences}
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 [!DNL People-Based Destinations] traer la noción de [!DNL Shareable Audiences] a Audience Manager. Esta métrica le ayuda a comprender cuántas de las direcciones de correo electrónico con hash puede compartir Audience Manager con la plataforma de destino.
 
@@ -38,16 +41,16 @@ Un cliente de Audience Manager tiene un origen de datos con 110.000 [DPUUID](../
 * Segmento B con un recuento de población de 20.000, asignado al destino A;
 * Segmento C con un recuento de población de 50.000, asignado al destino B.
 
-En este escenario:
+In this scenario:
 
-* Segmento A Audiencia Compartida = 10.000;
+* Segment A Shareable Audience = 10,000;
 * Audiencia compartible del segmento B = 20.000;
-* Audiencia compartible del segmento C = 50.000;
-* Destino A Audiencia Compartida = Audiencia Compartida Del Segmento A + Audiencia Compartida Del Segmento B = 30.000;
-* Audiencia compartida de destino B = audiencia compartible de segmento C = 50.000.
+* Segment C Shareable Audience = 50,000;
+* Destination A Shareable Audience = Segment A Shareable Audience + Segment B Shareable Audience = 30,000;
+* Destination B Shareable Audience = Segment C Shareable Audience = 50,000.
 
-![shareable-audiences-chart](assets/shareable-audiences.png)
+![shareable-audiences-diagram](assets/shareable-audiences.png)
 
 > [!NOTE]
 >
-> En el ejemplo anterior, no significa que todas las direcciones de correo electrónico con hash de los tres segmentos coincidan con las cuentas existentes en las plataformas de destino. Solo significa que Audience Manager envía los identificadores con hash de los tres segmentos a sus destinos respectivos. Al enviar segmentos de audiencia a destinos basados en personas, la coincidencia de audiencia se produce en el lado del socio. El destino A puede tener hasta 30.000 cuentas de usuario coincidentes, mientras que el destino B puede tener hasta 50.000 cuentas de usuario coincidentes, pero no hay garantía de tasas de coincidencia. Adobe no tiene acceso a métricas específicas del socio. Consulte Tasas de [coincidencia](../../faq/faq-people-based-destinations.md#match-rates) para ver las preguntas más frecuentes sobre la visibilidad de destinos basados en personas en las tasas de coincidencia.
+> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See [Match Rates](../../faq/faq-people-based-destinations.md#match-rates) for frequently asked questions about People-Based Destinations visibility in match rates.
