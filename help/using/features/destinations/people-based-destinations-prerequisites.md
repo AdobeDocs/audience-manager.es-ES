@@ -5,7 +5,7 @@ seo-title: Requisitos previos y consideraciones sobre destinos basados en person
 solution: Audience Manager
 title: Requisitos previos y consideraciones
 translation-type: tm+mt
-source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -19,7 +19,7 @@ Lea a continuación para obtener una descripción general de los requisitos del 
 
 ## Registrarse para destinos basados en personas {#signing-up}
 
-[!DNL People-Based Destinations] es una función de primera calidad que mejora la experiencia de Audience Manager permitiéndole activar segmentos de audiencia de origen en entornos basados en personas, dirigiéndose a su audiencia con ofertas personalizadas en redes sociales o a través del marketing por correo electrónico.
+[!DNL People-Based Destinations] es una función de primera calidad que mejora la experiencia de Audience Manager permitiéndole activar los segmentos de audiencia de origen en entornos basados en personas, dirigiéndose a la audiencia con ofertas personalizadas en redes sociales o a través del marketing por correo electrónico.
 
 Póngase en contacto con su representante de Adobe para aprovechar esta función Premium.
 
@@ -27,7 +27,7 @@ Póngase en contacto con su representante de Adobe para aprovechar esta función
 
 ### [!DNL Facebook]
 
-Antes de poder usar [!DNL People-Based Destinations] para enviar segmentos de audiencia a [!DNL Facebook], asegúrese de cumplir los siguientes requisitos:
+Antes de poder usar [!DNL People-Based Destinations] para enviar segmentos de audiencia de origen a [!DNL Facebook], asegúrese de cumplir los siguientes requisitos:
 
 1. Su cuenta [!DNL Facebook] de usuario debe tener el permiso **Administrar campañas** habilitado para la cuenta de publicidad que planea usar.
 1. Agregue la cuenta comercial de **Adobe Experience Cloud** como socio de publicidad en su [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. Consulte [Agregar socios a su administrador](https://www.facebook.com/business/help/708679622611131) comercial para obtener más información.
@@ -43,13 +43,13 @@ Al cargar más de 10 direcciones de correo electrónico con hash vinculadas a un
 
 ## Privacidad de datos {#data-privacy}
 
-Aunque [!DNL People-Based Destinations] le permite dirigirse a audiencias en función de direcciones de correo electrónico, ninguna información de visitante identificable directamente llega a Audience Manager. En la fase de integración de datos, debe asegurarse de que las direcciones de correo electrónico que planea utilizar estén marcadas con hash con el [!DNL SHA256] algoritmo. De lo contrario, no podrá usarlos en [!DNL People-Based Destinations].
+Aunque [!DNL People-Based Destinations] le permite dirigirse a audiencias en función de direcciones de correo electrónico con hash cargadas por usted, no podrá cargar en Audience Manager ninguna información de visitante directamente identificable. En la fase de integración de datos, debe asegurarse de que las direcciones de correo electrónico que planea utilizar estén marcadas con hash con el [!DNL SHA256] algoritmo. De lo contrario, no podrá usarlos en [!DNL People-Based Destinations].
 
 ## Coincidencia de datos frente a codificación {#data-hashing-encryption}
 
-El cifrado es una función bidireccional. También se puede descifrar cualquier información cifrada mediante la clave de descifrado correcta. El cifrado de datos en el contexto de Audience Manager supone un grave riesgo para la privacidad, ya que cualquier forma cifrada de información personal también puede descifrarse, revelando datos confidenciales de los clientes. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash en su lugar, protegiendo los datos del cliente que se utilizan para la segmentación.
+El cifrado es una función bidireccional. También se puede descifrar cualquier información cifrada mediante la clave de descifrado correcta. El cifrado de datos en el contexto de Audience Manager plantea serios riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash.
 
-Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, ninguna información de identificación personal llega a Audience Manager, lo que garantiza la seguridad de los datos del cliente.
+Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue a Audience Manager.
 
 ## Requisitos de hash {#hashing-requirements}
 
@@ -63,7 +63,7 @@ Adobe Experience Cloud le ofrece la opción de hash de los ID de cliente a trav�
 
 ## Obtención de permisos de usuario {#obtaining-user-permission}
 
-Dado que [!DNL People-Based Destinations] le ayuda a activar datos de audiencia de origen en canales basados en personas, es responsabilidad suya informar a sus clientes de cómo va a utilizar sus datos con fines publicitarios.
+Dado que [!DNL People-Based Destinations] le ayuda a activar datos de audiencia de origen en canales basados en personas, es responsabilidad suya informar y obtener los consentimientos necesarios de sus clientes sobre cómo va a utilizar sus datos para fines publicitarios u otros fines.
 
 Antes de registrarse [!DNL People-Based Destinations], asegúrese de obtener el consentimiento de sus clientes antes de utilizar su información con fines publicitarios.
 
@@ -77,5 +77,5 @@ Cuando utilice [!DNL People-Based Destinations], solo puede utilizar datos de or
 
 Existen dos formas de llevar los datos sin conexión a Audience Manager para [!DNL People-Based Destinations].
 
-* [Envíe datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes a Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede utilizar todas las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!DNL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para características [integradas](../traits/trait-qualification-reference.md).
-* Utilice ID [declarados](../declared-ids.md) para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager solo envía a [!DNL People-Based Destinations] las direcciones de correo electrónico con hash los usuarios que se han autenticado en línea. Las direcciones de correo electrónico activadas a través de Facebook son solo las que aparecen en las llamadas de evento de ID declaradas. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
+* [Envíe datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes a Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede elegir utilizar las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!DNL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para características [integradas](../traits/trait-qualification-reference.md).
+* Utilice ID [declarados](../declared-ids.md) para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager, en su nombre, solo envía a [!DNL People-Based Destinations] las direcciones de correo electrónico con hash los usuarios que se han autenticado en línea. Las direcciones de correo electrónico activadas a través de canales basados en personas son solo las que aparecen en las llamadas de evento de ID declaradas. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
