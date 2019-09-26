@@ -5,7 +5,7 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
@@ -13,6 +13,9 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 # Información general y casos de uso {#overview-use-cases}
 
 Se utiliza [!DNL People-Based Destinations] para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se muestra dentro de ellos. Incluyen plataformas sociales como [!DNL Facebook]y otras que dependen de cuentas de clientes para personalizar el contenido mostrado.
+
+>[!IMPORTANT]
+>Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 ## Información general {#overview}
 
