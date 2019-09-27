@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Características de la carpeta acerca de
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
 
 ---
 
@@ -16,31 +16,31 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 
 [!UICONTROL Folder traits] permite agregar automáticamente características que residen en la misma carpeta y en todas las carpetas secundarias en un segmento objetivo.
 
-## Ventajas del uso de características de carpeta {#benefits}
+## Benefits of Using Folder Traits {#benefits}
 
-Un [!UICONTROL folder trait] contiene todas las características de una carpeta principal y sus carpetas secundarias asociadas. Esto le permite segmentar automáticamente y dirigirse a los usuarios en diferentes niveles de carpeta. Por ejemplo, supongamos que tiene una estructura de carpetas como esta:
+A [!UICONTROL folder trait] contains all the traits in a parent folder and its associated child folders. This lets you automatically segment and target your users at different folder levels. For example, let's say you have a folder structure like this:
 
-`*` Electrónica (principal)
+`*` Electronics (parent)
 
-    `*` Portátiles (niños)
+    `*` Laptops (child)
 
-        `*` Marcas (nieto)
+         Brands (grandchild)`*`
 
-[!UICONTROL Folder traits] califique a todos los usuarios de estas carpetas en una carpeta creada automáticamente [!DNL Electronics] [!UICONTROL Folder Trait] (en función del nombre de la carpeta principal). Y este proceso se repite a medida que se mueve hacia abajo en la estructura de archivos. En este caso, las características de las carpetas capturan a todos los usuarios de las carpetas Portátiles y Marcas en un equipo portátil creado automáticamente [!UICONTROL Folder Trait].
+[!UICONTROL Folder traits] qualify all the users in these folders in an automatically created [!DNL Electronics] [!UICONTROL Folder Trait] (based on the name of the parent folder). And, this process repeats itself as you move down the file structure. In this case, folder traits capture all of the users in the Laptops and Brands folders in an automatically created Laptops .[!UICONTROL Folder Trait]
 
-[!UICONTROL Folder traits] se pueden seleccionar en expresiones de segmento. Seleccionar una carpeta [!UICONTROL folder trait] equivale a seleccionar todas las características de esa carpeta y sus subcarpetas con una [!UICONTROL OR] agrupación.
+[!UICONTROL Folder traits] are selectable in segment expressions. Seleccionar una carpeta [!UICONTROL folder trait] equivale a seleccionar todas las características de esa carpeta y sus subcarpetas con una [!UICONTROL OR] agrupación.
 
 ![](assets/folder-traits-compare-border.jpg)
 
 ## Realización de características de carpeta: actualización y frecuencia {#folder-traits-realization}
 
-El recuento de frecuencia de una característica de carpeta es la suma de las realizaciones de las características de su carpeta y sus carpetas secundarias. La siguiente ilustración muestra las características A, B y C, que residen en la carpeta Automóvil. Considere que cada una de las características tiene las siguientes realizaciones:
+The frequency count of a folder trait is the sum of realizations of the traits in its folder and its child folders. La siguiente ilustración muestra las características A, B y C, que residen en la carpeta Automóvil. Considere que cada una de las características tiene las siguientes realizaciones:
 
 * Característica A: 5
 * Rasgo B: 1
 * Característica C: 1
 
-En este caso, el [!DNL ]Automóvil [!UICONTROL Folder Trait] tiene 7 realizaciones.
+En este caso, el [!DNL Automobile Folder Trait] tiene 7 realizaciones.
 
 ![](assets/folder_traits_rollup_border.png)
 
@@ -62,6 +62,6 @@ Obtenga información sobre cómo asignar [!UICONTROL RBAC] permisos en la docume
 | Elemento | Descripción |
 |---|---|
 | Tipo de característica | [!UICONTROL Onboarded traits] y [!UICONTROL algorithmic traits] contribuir como máximo 1 realización a la frecuencia [!UICONTROL folder trait]de un |
-| Desplazamiento de características entre carpetas | Si se mueve una característica de una carpeta a otra, se descalificará esa característica de la primera carpeta y se calificará para la segunda [!UICONTROL folder trait]. Esto significa que si elimina o mueve una característica de la carpeta, los usuarios de la población de características no se segmentarán de los segmentos mediante la característica de carpeta como expresión de segmento. <br> Al asignar segmentos o grupos de informes de Adobe Analytics a su organización de Experience Cloud, Audience Manager crea automáticamente segmentos y características nuevos, correspondientes y de solo lectura. No puede editar ni cambiar la ubicación de almacenamiento de estas características desde Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos o grupos de informes de Adobe Analytics asignados se reflejará en Audience Manager. |
-| Variables del sistema | [!UICONTROL Folder traits] no se puede realizar en llamadas de evento mediante el `d_sid` parámetro . |
+| Moving traits between folders | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second . [!UICONTROL folder trait] Esto significa que si elimina o mueve una característica de la carpeta, los usuarios de la población de características no se segmentarán de los segmentos mediante la característica de carpeta como expresión de segmento. <br> Al asignar segmentos o grupos de informes de Adobe Analytics a su organización de Experience Cloud, Audience Manager crea automáticamente segmentos y características nuevos, correspondientes y de solo lectura. No puede editar ni cambiar la ubicación de almacenamiento de estas características desde Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos o grupos de informes de Adobe Analytics asignados se reflejará en Audience Manager. |
+| System variables | [!UICONTROL Folder traits] no se puede realizar en llamadas de evento mediante el `d_sid` parámetro . |
 | Creación de informes | [!UICONTROL Folder traits] son características calculadas automáticamente y no aparecen en **[!UICONTROL Overlap Reports]**. |
