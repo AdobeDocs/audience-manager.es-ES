@@ -10,7 +10,7 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 ---
 
 
-# Modelos algorítmicos: Exclusión de características {#algorithmic-models-trait-exclusion}
+#  Modelos algorítmicos: Exclusión de características {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] proporciona controles adicionales en el flujo de trabajo de modelado, lo que le permite agregar los carriles de protección necesarios al modelo, en función de la experiencia del dominio y los requisitos reglamentarios. Utilice la [!UICONTROL Exclusions] opción para seleccionar qué características se deben ignorar al crear modelos a partir de una o varias fuentes de datos.
 
