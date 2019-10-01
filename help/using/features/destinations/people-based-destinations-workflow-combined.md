@@ -1,19 +1,19 @@
 ---
-description: 'This page includes step-by-step guidance on how to combine offline CRM data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to People-Based Destinations.  '
-seo-description: 'This page includes step-by-step guidance on how to combine offline CRM data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to People-Based Destinations.   '
-seo-title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
+description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento que ya tiene en Audience Manager para crear nuevos segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas.  '
+seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento que ya tiene en Audience Manager para crear nuevos segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas.   '
+seo-title: 'Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 ---
 
 
-# Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión {#workflow-a}
+# Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-a}
 
 >[!IMPORTANT]
->Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Esta página incluye instrucciones paso a paso sobre cómo combinar datos sin conexión [!DNL CRM] con datos de comportamiento que ya tiene en Audience Manager para crear nuevos segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a [!DNL People-Based Destinations].
 
@@ -44,33 +44,33 @@ En este caso, debe etiquetar la fuente de datos correspondiente como tal:
 
 **Escenario 2: sus[DPUUID](../../reference/ids-in-aam.md)no son direcciones de correo electrónico con hash en minúsculas.**
 
-En este caso, debe crear una nueva fuente de datos entre dispositivos que almacenará las direcciones de correo electrónico con hash. A continuación se muestra cómo hacerlo:
+In this case, you need to create a new cross-device data source that will store your hashed email addresses. Here's how to do this:
 
-1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]** y haga clic en **[!UICONTROL Add New]**.
-1. Escriba un [!UICONTROL Name] y [!UICONTROL Description] para la nueva fuente de datos.
-1. En el menú **[!UICONTROL ID Type]** desplegable, seleccione **[!UICONTROL Cross Device]**.
+1. Log in to your Audience Manager account and go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Data Sources]****[!UICONTROL Add New]**
+1. Enter a  and  for your new data source.[!UICONTROL Name][!UICONTROL Description]
+1. In the  drop-down menu, select .**[!UICONTROL ID Type]****[!UICONTROL Cross Device]**
 1. En la **[!UICONTROL Data Source Settings]** sección, seleccione las opciones **[!UICONTROL Inbound]** y **[!UICONTROL Outbound]** y active la **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
 1. Utilice el menú desplegable para seleccionar la etiqueta de este origen de datos **[!UICONTROL Emails(SHA256, lowercased)]** .
    >[!IMPORTANT]
    >
-   >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the  algorithm. [!DNL SHA256] Otherwise, you won't be able to use it for .[!DNL People-Based Destinations]
+   >Esta opción sólo etiqueta la fuente de datos como si contuviera datos con hash con ese algoritmo específico. Audience Manager no hash los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya están marcadas con el algoritmo [!DNL SHA256] . De lo contrario, no podrás usarlo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Save the data source settings.
 
 >[!NOTE]
 >
-> See Data Onboarding for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.[](people-based-destinations-prerequisites.md#data-onboarding)
+> Consulte [Incorporación](people-based-destinations-prerequisites.md#data-onboarding) de datos para ver las preguntas más frecuentes sobre cómo debe llevar los datos sin conexión a Audience Manager para destinos basados en personas.
 
-## Step 2 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
+## Paso 2: Hacer coincidir los DPUUID con las direcciones de correo electrónico con hash mediante la sincronización de ID basada en archivos {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> This step only applies to Scenario 2 described above. [](people-based-destinations-workflow-combined.md#configure-data-source-settings) If your existing DPUUIDs are already hashed email addresses, skip to Step 3 - Create a Profile Merge Rule for Segmentation.[](../../reference/ids-in-aam.md)[](people-based-destinations-workflow-combined.md#create-merge-rule)
+> Este paso solo se aplica al [escenario 2](people-based-destinations-workflow-combined.md#configure-data-source-settings) descrito anteriormente. Si los [DPUUID](../../reference/ids-in-aam.md) existentes ya tienen direcciones de correo electrónico con hash, vaya al [paso 3 - Crear una regla de combinación de perfiles para la segmentación](people-based-destinations-workflow-combined.md#create-merge-rule).
 
-Let's say you want to match your existing DPUUIDs to the hashed email addresses from the table below (right column), and store the hashed email addresses in the new data source that you created at Step 1 - Configure Data Source Settings.[](../../reference/ids-in-aam.md)[](people-based-destinations-workflow-combined.md#configure-data-source-settings)
+Supongamos que desea hacer coincidir los [DPUUID](../../reference/ids-in-aam.md) existentes con las direcciones de correo electrónico con hash de la tabla siguiente (columna derecha) y almacenar las direcciones de correo electrónico con hash en la nueva fuente de datos que creó en el [Paso 1: Configuración](people-based-destinations-workflow-combined.md#configure-data-source-settings)de fuentes de datos.
 
-| DPUUID (ID de CRM) | La dirección de correo electrónico | Hashed email address |
+| DPUUID (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
@@ -78,9 +78,9 @@ Let's say you want to match your existing DPUUIDs to the hashed email addresses 
 
  
 
-You can link up to 10 hashed email addresses to a single DPUUID. [](../../reference/ids-in-aam.md) To do this, separate the hashed email addresses with a comma, inside the synchronization file.
+Puede vincular hasta 10 direcciones de correo electrónico con hash a un solo [DPUUID](../../reference/ids-in-aam.md). Para ello, separe las direcciones de correo electrónico con hash con una coma dentro del archivo de sincronización.
 
-In our example, you would now have two data sources.
+En nuestro ejemplo, ahora tendría dos fuentes de datos.
 
 | ID de fuente de datos | Contenido de la fuente de datos |
 | -------------- | -------------------------- |
@@ -110,6 +110,8 @@ En el ejemplo anterior, el nombre del archivo tendría este aspecto:
 
 [Descargue el archivo de ejemplo aquí](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
+Una vez creado el archivo de sincronización de ID, debe cargarlo en un [!DNL Amazon S3] bloque. Para obtener información sobre cómo cargar archivos de sincronización de ID, consulte [Envío de datos por lotes a Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+
 ## Paso 3: Creación de una regla de combinación de perfiles para la segmentación {#create-merge-rule}
 
 El siguiente paso es crear una nueva regla de combinación que le ayudará a crear los segmentos de audiencia para enviarlos a los destinos basados en personas.
@@ -120,28 +122,28 @@ El siguiente paso es crear una nueva regla de combinación que le ayudará a cre
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Profile Merge Rules]**.
 1. Haga clic en **[!UICONTROL Add New Rule]**.
-1. Introduzca una regla de combinación de perfiles **[!UICONTROL Name]** y **[!UICONTROL Description]**.
-1. En la **[!UICONTROL Profile Merge Rule Setup]** sección, seleccione las opciones **[!UICONTROL Current Authenticated Profiles]** o **[!UICONTROL Last Authenticated Profiles]** .
-1. En la **[!UICONTROL Cross-Device Profile Options]** lista, seleccione los orígenes de datos en los que desea ejecutar la segmentación. Deben ser las fuentes de datos que contengan los [DPUUID](../../reference/ids-in-aam.md)existentes.
+1. Enter a profile merge rule  and .**[!UICONTROL Name]****[!UICONTROL Description]**
+1. In the  section, select the  or  options.**[!UICONTROL Profile Merge Rule Setup]****[!UICONTROL Current Authenticated Profiles]****[!UICONTROL Last Authenticated Profiles]**
+1. In the  list, select the data sources that you want to run the segmentation on. **[!UICONTROL Cross-Device Profile Options]** These should be the data sources containing your existing DPUUIDs.[](../../reference/ids-in-aam.md)
 
-## Paso 4: Creación de segmentos de audiencia {#create-audience-segments}
+## Step 4 - Create Audience Segments {#create-audience-segments}
 
 Para crear nuevos segmentos de audiencia, utilice el Generador [de segmentos](../segments/segment-builder.md). Si tiene segmentos de audiencia existentes a los que desea enviar [!DNL People-Based Destinations], vaya al [paso 5 - Configurar la autenticación](people-based-destinations-workflow-combined.md#configure-authentication)de plataforma basada en personas.
 
 ## Paso 5: Configurar la autenticación de plataforma basada en personas {#configure-authentication}
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma social, debería verla en esta página. De lo contrario, la página está vacía.
-   ![integración basada en las personas](assets/pbd-config.png)
+   ![people-based-integration](assets/pbd-config.png)
 1. Haga clic en **[!UICONTROL Add Account]**.
 1. Utilice el menú **[!UICONTROL People-Based Platform]** desplegable para seleccionar la plataforma con la que desea configurar la integración.
-   ![plataforma basada en las personas](assets/pbd-add.png)
+   ![people-based-platform](assets/pbd-add.png)
 1. Haga clic en **[!UICONTROL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
 1. Una vez que se haya autenticado en la cuenta de la plataforma social, se le redirigirá a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!UICONTROL Confirm]**.
-1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
+1. Audience Manager muestra una notificación en la parte superior de la página para indicarle si la cuenta se agregó correctamente. La notificación también le permite agregar una dirección de correo electrónico de contacto para recibir notificaciones cuando la autenticación de la plataforma social esté a punto de caducar.
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. Consulte Renovación de autentificador para obtener más información sobre cómo renovar los tokens caducados.
+>Un administrador de audiencia gestiona la integración con las plataformas sociales mediante tokens de autenticación que caducan después de una determinada cantidad de tiempo. Consulte Renovación de autentificador para obtener más información sobre cómo renovar los tokens caducados.
 
 ## Paso 6: Creación de un destino basado en personas {#create-destination}
 
