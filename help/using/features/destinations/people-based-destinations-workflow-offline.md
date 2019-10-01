@@ -5,31 +5,31 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexi
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 ---
 
 
-# Flujo de trabajo B: Personalización basada en datos solo sin conexión {#workflow-b}
+# Workflow B - Personalization Based on Offline-Only Data {#workflow-b}
 
 >[!IMPORTANT]
->Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nada de lo que aquí se incluye es asesoramiento jurídico. Please consult your own legal counsel for legal guidance.
 
-Esta página incluye una guía paso a paso sobre cómo generar segmentos de audiencia a partir de datos de clientes sin conexión y enviarlos a destinos basados en personas.
+This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
 
-## Paso 1: Características sin conexión integradas {#step-1-onboard-traits}
+## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
 
-El primer paso para crear segmentos de audiencia en este escenario es llevar los datos de clientes sin conexión a Audience Manager.
+The first step creating audience segments in this scenario is to bring your offline customer data into Audience Manager.
 
 >[!IMPORTANT]
 >
-> Antes de continuar, asegúrese de que la actividad de cliente que va a incorporar ya está definida en Audience Manager con las características [integradas correspondientes](../traits/trait-qualification-reference.md).
+> Before continuing, make sure that the customer activity that you are about to onboard is already defined in Audience Manager with corresponding [onboarded traits](../traits/trait-qualification-reference.md).
 
-Independientemente de si los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) existentes son o no correos electrónicos con hash, debe realizar la incorporación de características en el origen de datos que contiene los [DPUUID](../../reference/ids-in-aam.md).
+Regardless of whether your existing Audience Manager customer IDs (DPUUIDs) are hashed emails or not, you must perform the trait onboarding against the data source that contains your DPUUIDs.[](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)
 
 ### Ejemplo
 
-Desea calificar los ID de cliente de la tabla siguiente para los ID de característica incorporados correspondientes. Consideremos que sus [DPUUID](../../reference/ids-in-aam.md) se almacenan en un origen de datos con el ID 999999 y que su ID de socio de Audience Manager es 123.
+You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Consideremos que sus [DPUUID](../../reference/ids-in-aam.md) se almacenan en un origen de datos con el ID 999999 y que su ID de socio de Audience Manager es 123.
 
 | ID del cliente (DPUUID) | ID de característica incorporado |
 | -------------------------------------- | ------------------- |
@@ -77,30 +77,30 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que almace
 1. Utilice el menú desplegable para seleccionar la etiqueta de este origen de datos **[!UICONTROL Emails(SHA256, lowercased)]** .
    >[!IMPORTANT]
    >
-   >Esta opción sólo etiqueta la fuente de datos como si contuviera datos con hash con ese algoritmo específico. Audience Manager no hash los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya están marcadas con el algoritmo [!DNL SHA256] . De lo contrario, no podrás usarlo para [!DNL People-Based Destinations].
+   >Esta opción sólo etiqueta la fuente de datos como si contuviera datos con hash con ese algoritmo específico. Audience Manager does not hash the data at this step. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya están marcadas con el algoritmo [!DNL SHA256] . De lo contrario, no podrás usarlo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
    >[!NOTE]
    >
-   > Consulte [Incorporación](people-based-destinations-prerequisites.md#data-onboarding) de datos para ver las preguntas más frecuentes sobre cómo debe llevar los datos sin conexión a Audience Manager para destinos basados en personas.
+   > See Data Onboarding for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.[](people-based-destinations-prerequisites.md#data-onboarding)
 
-## Paso 3: Hacer coincidir los DPUUID con las direcciones de correo electrónico con hash mediante la sincronización de ID basada en archivos {#match-ids-emails}
+## Step 3 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> Este paso solo se aplica al [escenario 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) descrito anteriormente. Si los [DPUUID](../../reference/ids-in-aam.md) existentes ya tienen direcciones de correo electrónico con hash, vaya al [paso 4 - Crear una regla de combinación de perfiles para la segmentación](#create-profile-merge-rule).
+> This step only applies to Scenario 2 described above. [](people-based-destinations-workflow-offline.md#configure-data-source-settings) If your existing DPUUIDs are already hashed email addresses, skip to Step 4 - Create a Profile Merge Rule for Segmentation.[](../../reference/ids-in-aam.md)[](#create-profile-merge-rule)
 
 Supongamos que desea hacer coincidir los [DPUUID](../../reference/ids-in-aam.md) existentes desde el ejemplo del paso 1 con las direcciones de correo electrónico con hash de la tabla siguiente (columna derecha) y almacenar las direcciones de correo electrónico con hash en la nueva fuente de datos que creó en el [paso 2 - Configurar la fuente de datos](#configure-data-source-settings).
 
-Como recordatorio, ahora tendría dos fuentes de datos:
+As a reminder, you would now have two data sources:
 
-| ID de fuente de datos | Contenido de la fuente de datos |
+| ID de fuente de datos | Data source contents |
 | -------------- | -------------------------- |
 | 999999 | DPUUID existentes (ID de CRM) |
 | 987654 | Direcciones de correo electrónico con hash |
 
-| DPUUID (ID de CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash |
+| DPUUID (ID de CRM) | La dirección de correo electrónico | Hashed email address |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
@@ -108,7 +108,7 @@ Como recordatorio, ahora tendría dos fuentes de datos:
 
  
 
-El archivo [de sincronización](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de ID tendría el siguiente contenido:
+In our example, your ID synchronization file would have the following contents:[](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -118,18 +118,20 @@ El archivo [de sincronización](../../integration/sending-audience-data/batch-da
 
  
 
-El archivo [de sincronización de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) ID debe seguir esta estructura de nomenclatura:
+The ID synchronization file must follow this naming structure:[](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
  
 
-En el ejemplo anterior, el nombre del archivo tendría este aspecto:
+In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Descargue el archivo de ejemplo aquí](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
 
-## Paso 4: Creación de una regla de combinación de perfiles para la segmentación {#create-profile-merge-rule}
+Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3] Para obtener información sobre cómo cargar archivos de sincronización de ID, consulte [Envío de datos por lotes a Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+
+## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule}
 
 El siguiente paso es crear una nueva regla de combinación que le ayudará a crear los segmentos de audiencia que se enviarán a su [!DNL People-Based Destinations].
 
@@ -157,16 +159,16 @@ Para crear nuevos segmentos a partir de datos solo sin conexión, utilice el Gen
 
 >[!IMPORTANT]
 >
->Un administrador de audiencia gestiona la integración con las plataformas sociales mediante tokens de autenticación que caducan después de una determinada cantidad de tiempo. Consulte Renovación de autentificador para obtener más información sobre cómo renovar los tokens caducados.
+>A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
-## Paso 7: Creación de un destino basado en personas {#create-destination}
+## Step 7 - Create a People-Based Destination {#create-destination}
 
 1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** y haga clic en **[!UICONTROL Create Destination]**.
-1. En la **[!UICONTROL Basic Information]** sección , introduzca una **[!UICONTROL Name]** y **[!UICONTROL Description]** para la nueva fuente de datos y utilice la siguiente configuración:
+1. In the  section, enter a  and  for your new data source, and use the following settings:**[!UICONTROL Basic Information]****[!UICONTROL Name]****[!UICONTROL Description]**
    * **[!UICONTROL Category]**:: Plataformas integradas;
    * **[!UICONTROL Type]**:: Basado en personas;
    * **[!UICONTROL Platform]**:: seleccione la plataforma basada en personas a la que desee enviar segmentos de audiencia;
-   * **[!UICONTROL Account]**:: seleccione la cuenta del anunciante que desee asociada a la plataforma seleccionada.
+   * **[!UICONTROL Account]**:: select the desired advertiser account associated with the selected platform.
       ![create-destination](assets/pbd-create-destination.png)
 1. Haga clic en **[!UICONTROL Next]**.
 1. Elija el **[!UICONTROL Data Export Labels]** que desea establecer para este destino.
