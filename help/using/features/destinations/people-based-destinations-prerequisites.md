@@ -1,21 +1,21 @@
 ---
-description: 'Lea a continuación para obtener una descripción general de los requisitos del cliente que debe cumplir antes de registrarse en Destinos basados en personas.  '
+description: 'Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.  '
 seo-description: 'Lea a continuación para obtener una descripción general de los requisitos del cliente que debe cumplir antes de registrarse en Destinos basados en personas.  '
 seo-title: Requisitos previos y consideraciones sobre destinos basados en personas
 solution: Audience Manager
 title: Requisitos previos y consideraciones
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ---
 
 
-# Requisitos previos y consideraciones {#prerequisites-considerations}
+# Prerequisites and Considerations {#prerequisites-considerations}
 
 >[!IMPORTANT]
->Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
-Lea a continuación para obtener una descripción general de los requisitos del cliente que debe cumplir antes de registrarse para [!DNL People-Based Destinations].
+Read below for an overview of customer requirements that you need to meet before signing up for .[!DNL People-Based Destinations]
 
 >[!IMPORTANT]
 > Lea este artículo detenidamente antes de pasar a la fase de implementación.
@@ -52,27 +52,30 @@ Aunque [!DNL People-Based Destinations] le permite dirigirse a audiencias en fun
 
 El cifrado es una función bidireccional. También se puede descifrar cualquier información cifrada mediante la clave de descifrado correcta. El cifrado de datos en el contexto de Audience Manager plantea serios riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash.
 
-Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue a Audience Manager.
+Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
 
-## Requisitos de hash {#hashing-requirements}
+## Hashing Requirements {#hashing-requirements}
 
-Al hash de las direcciones de correo electrónico, asegúrese de cumplir los siguientes requisitos:
+When hashing the email addresses, make sure to comply with the following requirements:
 
-* Recorte todos los espacios al inicio y al final de la cadena de correo electrónico; ejemplo: `johndoe@example.com`, no `<space>johndoe@example.com<space>`;
-* Asegúrese de que la cadena con hash esté en minúsculas; ejemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, no `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
-* No escriba la cadena.
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* When hashing the email strings, make sure to hash the lowercase string;
+   * Ejemplo: , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+* Make sure the hashed string is all lowercase
+   * Ejemplo: , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
+* Do not salt the string.
 
 Adobe Experience Cloud le ofrece la opción de hash de los ID de cliente a través del servicio Experience Cloud ID. Consulte [Compatibilidad con hash SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obtener información detallada sobre cómo utilizar ECID para hash los ID de cliente.
 
 ## Obtención de permisos de usuario {#obtaining-user-permission}
 
-Dado que [!DNL People-Based Destinations] le ayuda a activar datos de audiencia de origen en canales basados en personas, es responsabilidad suya informar y obtener los consentimientos necesarios de sus clientes sobre cómo va a utilizar sus datos para fines publicitarios u otros fines.
+Since  helps you activate first-party audience data in people-based channels, it is your responsibility to inform and obtain any necessary consents from your customers of how you will use their data for advertising or other purposes.[!DNL People-Based Destinations]
 
-Antes de registrarse [!DNL People-Based Destinations], asegúrese de obtener el consentimiento de sus clientes antes de utilizar su información con fines publicitarios.
+Before you sign up for , make sure to obtain your customers' consent before using their information for advertising purposes.[!DNL People-Based Destinations]
 
-En caso de que sus clientes deseen excluir las campañas de publicidad, consulte Administración de [exclusión](../../overview/data-security-and-privacy/opt-out-management.md) para obtener más información sobre cómo evitar que Audience Manager siga recopilando datos.
+In case your customers wish to opt-out of advertising campaigns, see Opt-out Management for details on how to stop Audience Manager from collecting data any further.[](../../overview/data-security-and-privacy/opt-out-management.md)
 
-## Aplicación de la activación de datos de origen {#enforcing-first-party-activation}
+## Enforcing First-Party Data Activation {#enforcing-first-party-activation}
 
 Cuando utilice [!DNL People-Based Destinations], solo puede utilizar datos de origen para activar segmentos de audiencia en canales basados en personas. No se pueden usar datos de terceros o segundos para activar audiencias en canales basados en personas.
 
