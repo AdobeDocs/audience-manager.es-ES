@@ -1,12 +1,12 @@
 ---
 description: El proceso de transferencia de datos en tiempo real saliente devuelve datos de usuario como una serie de objetos JSON pasados con un método POST.
-seo-description: El proceso de transferencia de datos en tiempo real saliente devuelve datos de usuario como una serie de objetos JSON pasados con un método POST.
-seo-title: Transferencias de datos salientes en tiempo real
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
 title: Transferencias de datos salientes en tiempo real
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
+source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
 
 ---
 
@@ -27,23 +27,23 @@ Para utilizar este método, la plataforma de destino debe cumplir los siguientes
 
 ## Frecuencia
 
-Este método de transferencia de datos puede enviar datos en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Los mensajes en tiempo real solo se entregan mientras el usuario está en línea y es visible activamente para la red de Audience Manager Edge. Optionally, this method can also send batches of offline or onboarded data as frequently as every 24-hours.
+This data transfer method can send data in near real-time as users qualify for segments. Real-time messages are only delivered while the user is online and actively visible to the Audience Manager Edge network. Opcionalmente, este método también puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
 
-## Batch Transfers
+## Transferencias por lotes
 
-Both real-time and batch transfers are sent to the same endpoint and use the same message format. When batch transfers are enabled, the destination platform will see a spike in message volume while the batch messages are delivered. Many of the segment qualifications sent through real-time messages will be repeated in the batch messages. Batch transfers will include only the segment qualifications (or un-qualifications) that have changed since the last batch was delivered.
+Both real-time and batch transfers are sent to the same endpoint and use the same message format. Cuando se habilitan las transferencias por lotes, la plataforma de destino verá un pico en el volumen de mensajes mientras se entregan los mensajes por lotes. Muchas de las cualificaciones de los segmentos enviadas a través de mensajes en tiempo real se repetirán en los mensajes por lotes. Las transferencias por lotes incluyen únicamente las cualificaciones de los segmentos (o anulaciones de cualificaciones) que han cambiado desde que se entregó el último lote.
 
 ## Rate Limits
 
-There are no rate limits set on the throughput of delievered messages. Setting rate limits could lead to data loss.
+No hay límites de velocidad establecidos en el rendimiento de los mensajes entregados. Setting rate limits could lead to data loss.
 
-## Respuestas obligatorias
+## Required Responses
 
-De forma predeterminada, el servidor destinatario debe devolver el `200 OK` código para indicar que se ha recibido correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera en 3000 milisegundos. En respuesta a un error, solo [!DNL Audience Manager] realizará un intento de reintento.
+By default, the recipient server must return the  code to indicate successful receipt. `200 OK` Otros códigos se interpretarán como errores. This response is expected within 3000 milliseconds. En respuesta a un error, solo [!DNL Audience Manager] realizará un intento de reintento.
 
 ## Parámetros
 
-La siguiente tabla define los elementos del archivo [!DNL JSON] de datos devuelto.
+La siguiente tabla define los elementos del archivo de datos que se envían al destino [!DNL JSON] .
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -87,7 +87,7 @@ La siguiente tabla define los elementos del archivo [!DNL JSON] de datos devuelt
   <tr valign="top"> 
    <td colname="col1"><code><i>Usuarios</i></code> </td> 
    <td colname="col2"> <p>Matriz </p> </td> 
-   <td colname="col3"> <p>An array of user objects. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
+   <td colname="col3"> <p>Matriz de objetos de usuario. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
@@ -97,7 +97,7 @@ La siguiente tabla define los elementos del archivo [!DNL JSON] de datos devuelt
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Destination platform UUID or the global device ID. </p> </td> 
+   <td colname="col3"> <p>UUID de plataforma de destino o ID de dispositivo global. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Region</i></code> </td> 
@@ -107,27 +107,27 @@ La siguiente tabla define los elementos del archivo [!DNL JSON] de datos devuelt
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmentos</i></code> </td> 
    <td colname="col2"> <p>Matriz </p> </td> 
-   <td colname="col3"> <p>Matriz de objetos de segmento. Para los mensajes en tiempo real, la matriz contiene todos los segmentos a los que pertenece el usuario. En el caso de los mensajes por lotes, la matriz solo contiene cambios de segmentos desde el último lote.</p> </td> 
+   <td colname="col3"> <p>Matriz de objetos de segmento. Para los mensajes en tiempo real, la matriz contiene todos los segmentos a los que pertenece el usuario. For batch messages, the array contains only segment changes since the last batch.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Identificador del segmento. En la mayoría de los casos, es el ID de segmento generado por Audience Manager (un entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador de segmento en la interfaz de usuario de Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
+   <td colname="col3"> <p>The identifier for the segment. En la mayoría de los casos, es el ID de segmento generado por Audience Manager (un entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador de segmento en la interfaz de usuario de Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Define el estado de un usuario en el segmento. Acepta los siguientes valores: </p> 
+   <td colname="col3"> <p>Defines the status of a user in the segment. Accepts the following values: </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
      <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: Activo (predeterminado) </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>: Inactivo, no elegido o no segmentado. </li> 
     </ul> <p>Los usuarios no están segmentados cuando: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
-     <li id="li_8352B919A87242E68716FB9EC0443407">Removed from a segment based on the segment rule. </li> 
+     <li id="li_8352B919A87242E68716FB9EC0443407">Se ha eliminado de un segmento en función de la regla de segmento. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se ha eliminado de un segmento en función del intervalo <a href="../../../features/traits/segment-ttl-explained.md"> de tiempo de vida</a>del segmento. </li> 
-     <li id="li_F48D1052BA2B45108225641292CC748D">Se ha movido a un estado inactivo si no se han visto en los últimos 120 días. </li>
-     <li>Eliminado debido a una solicitud de cambio de privacidad (p. ej. [!DNL GDPR])</li>
-    </ul> <p>Todos los ID de socio sincronizados con un ID de <span class="keyword"> Audience Manager</span> recibirán el indicador <code> "Estado":"0"</code> cuando un usuario no está segmentado. </p> </td> 
+     <li id="li_F48D1052BA2B45108225641292CC748D">Moved to an inactive state if they have not been seen for the last 120-days. </li>
+     <li>Removed due to a privacy change request (i.e. [!DNL GDPR])</li>
+    </ul> <p>All partner IDs that are synced to an  Audience Manager ID will receive the  "Status":"0" flag when a user is unsegmented.<span class="keyword"></span><code></code> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
