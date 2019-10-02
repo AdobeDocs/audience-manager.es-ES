@@ -58,9 +58,9 @@ Hashing is a one-way function that scrambles the input to produce a unique resul
 
 Al hash de las direcciones de correo electrónico, asegúrese de cumplir los siguientes requisitos:
 
-* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com` `<space>johndoe@example.com<space>`
 * When hashing the email strings, make sure to hash the lowercase string;
-   * Ejemplo: , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+   * Ejemplo: , not ;`example@email.com` `EXAMPLE@EMAIL.COM`
 * Asegúrese de que la cadena con hash esté en minúsculas
    * Ejemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, no `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * No escriba la cadena.
