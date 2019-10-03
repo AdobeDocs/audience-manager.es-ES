@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Privacidad de datos
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -76,18 +76,22 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-La dirección IP de un visitante en el sitio web de un cliente se transmite a Adobe Data Processing Center (DPC) donde la dirección IP puede ser almacenada. Según la configuración de red del visitante, la dirección IP puede no representar necesariamente la dirección IP del equipo del visitante. Por ejemplo, la dirección IP puede ser una dirección IP externa de un cortafuegos de traducción de direcciones de red (NAT), un proxy HTTP o una puerta de enlace de Internet.
+The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
 
-**** Metodología de confusión de IP: Siguiendo los principios de "Privacidad por diseño", Adobe Audience Manager permite a los clientes activar la confusión de IP desde la interfaz de usuario, ya sea globalmente en todas las regiones geográficas o para países específicos. Al habilitar esta configuración, el último octeto (la última parte) de la dirección IP se descarta inmediatamente cuando la dirección IP se ingesta en Audience Manager. Audience Manager descarta esta parte de la dirección IP antes del procesamiento (incluso antes de cualquier búsqueda geográfica opcional o registro de la dirección IP). Por ejemplo:
+**** Metodología de confusión de IP: Siguiendo los principios de "Privacidad por diseño", Adobe Audience Manager permite a los clientes activar la confusión [!DNL IP] desde la interfaz de usuario, ya sea globalmente en todas las regiones geográficas o para países específicos. Al habilitar esta configuración, el último octeto (la última parte) de la [!DNL IP] dirección se descarta inmediatamente cuando la [!DNL IP] dirección se ingesta en Audience Manager. Audience Manager descarta esta parte de la [!DNL IP] dirección antes del procesamiento (incluso antes de cualquier búsqueda geográfica opcional o registro de la [!DNL IP] dirección). Por ejemplo:
 
 * Antes de registrar los valores de: `255.255.255.255`
 * Después: `255.255.255.0`
 
 >[!NOTE]
 >
->Consulte Confusión [de direcciones](/help/using/features/administration/ip-obfuscation.md) IP para obtener información sobre cómo habilitar la confusión de direcciones IP en la interfaz de usuario de Audience Manager.
+>Consulte Confusión [de direcciones](/help/using/features/administration/ip-obfuscation.md) IP para obtener información sobre cómo habilitar la confusión de [!DNL IP] direcciones en la interfaz de usuario de Audience Manager.
 
-**** Segmentación geográfica: Si habilita la confusión de direcciones IP, los bytes restantes de la dirección IP aún se pueden usar para la segmentación geográfica y los informes en Audience Manager. Si no habilita la confusión de direcciones IP, Audience Manager utiliza la dirección IP completa. Puede utilizar la función Segmentación geográfica que le permite identificar una ubicación IP por área geográfica en cualquier caso, pero con una ligera pérdida de precisión cuando se utiliza la confusión de IP. Es muy probable que la obtención de información por nivel de ciudad vea significativamente afectada por la confusión de la dirección IP. La obtención de información a nivel regional y nacional sólo debería verse ligeramente afectada. Los datos de segmentación geográfica solo son granulares a nivel de ciudad o de código postal y no a nivel individual. Obtenga más información sobre [targeting](/help/using/features/traits/trait-geotarget-keys.md) geográfico y cómo configurar características con variables geográficas.
+Vea el siguiente vídeo para comprender cómo funciona la confusión de [!DNL IP] direcciones en Audience Manager.
+
+[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=spa)
+
+**** Segmentación geográfica: Si habilita la confusión de [!DNL IP] direcciones, los octetos restantes de la [!DNL IP] dirección aún se pueden usar para la segmentación geográfica y los informes en Audience Manager. Si no habilita [!DNL IP] la confusión de direcciones, Audience Manager utiliza la [!DNL IP] dirección completa. Puede utilizar la función Segmentación geográfica que le permite identificar una [!DNL IP] ubicación por área geográfica en cualquier caso, pero con una ligera pérdida de precisión cuando se utiliza [!DNL IP] confusión. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. La obtención de información a nivel regional y nacional sólo debería verse ligeramente afectada. Los datos de segmentación geográfica solo son granulares a nivel de ciudad o de código postal y no a nivel individual. Obtenga más información sobre [targeting](/help/using/features/traits/trait-geotarget-keys.md) geográfico y cómo configurar características con variables geográficas.
 
 ## Conceptos relacionados {#related-concepts}
 
