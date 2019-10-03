@@ -5,7 +5,7 @@ seo-title: Guardar criterios de búsqueda
 title: Guardar criterios de búsqueda
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,3 +29,7 @@ Optimice los esfuerzos de búsqueda de señales al guardar hasta 10 conjuntos de
 1. Haga clic en **[!UICONTROL Save]**. Puede ver la búsqueda guardada en la [!UICONTROL Saved Search] sección y utilizarla cuando la necesite.
 
 ![búsqueda guardada](assets/saved-search.png)
+
+Vea el siguiente vídeo para aprender a guardar búsquedas de señales.
+
+[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=spa)
