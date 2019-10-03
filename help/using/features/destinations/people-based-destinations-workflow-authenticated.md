@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo C: Personalización basada en actividad autenticada
 solution: Audience Manager
 title: 'Flujo de trabajo C: Personalización basada en actividad autenticada combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -50,7 +50,7 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que almace
 
 Vea el siguiente vídeo para ver un tutorial de vídeo sobre cómo crear una fuente de datos para [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
 
 ## Paso 2: Utilice ID declarados para hacer coincidir DPUUID con direcciones de correo electrónico con hash mediante llamadas HTTP en tiempo real {#match-email-addresses}
 
