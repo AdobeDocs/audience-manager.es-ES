@@ -5,7 +5,7 @@ seo-title: Realizaciones de características de relleno
 title: Realizaciones de características de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -44,6 +44,10 @@ A continuación se muestra cómo rellenar los detalles de características:
 1. Cree la característica.
 
 Una vez que haya terminado de crear la característica, verá las realizaciones rellenadas incluidas en las estadísticas de realización.
+
+Vea el siguiente vídeo para ver cómo rellenar las características.
+
+[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=spa)
 
 ## Latencia de rellenado de características {#trait-backfilling-latency}
 
