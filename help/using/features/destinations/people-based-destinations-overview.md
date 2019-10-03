@@ -5,7 +5,7 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -57,6 +57,10 @@ A través [!DNL People-Based Destinations]de Audience Manager le ayuda a central
 **Aproveche los controles de privacidad y administración de datos de Audience Manager para administrar con seguridad los datos de los clientes.**
 
 [!DNL People-Based Destinations] requiere que utilice únicamente identificadores con hash irreversibles. Esto reduce el riesgo asociado con la carga manual de datos de clientes en cada plataforma de destino.
+
+Vea el siguiente vídeo para obtener una descripción general del flujo de datos al utilizarlo [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=spa)
 
 ## Casos de uso {#use-cases}
 
