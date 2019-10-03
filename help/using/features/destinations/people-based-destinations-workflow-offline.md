@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexi
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -87,7 +87,7 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que almace
 
 Vea el siguiente vídeo para ver un tutorial de vídeo sobre cómo crear una fuente de datos para [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
 
 ## Paso 3: Hacer coincidir los DPUUID con las direcciones de correo electrónico con hash mediante la sincronización de ID basada en archivos {#match-ids-emails}
 
