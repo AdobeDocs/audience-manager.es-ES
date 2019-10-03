@@ -5,7 +5,7 @@ seo-title: Realizaciones de características de relleno
 title: Realizaciones de características de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -25,29 +25,29 @@ Al crear características a partir de señales no utilizadas, puede elegir relle
 A continuación se muestra cómo rellenar los detalles de características:
 
 1. Vaya a [!UICONTROL Audience Data > Signals > Search] y ejecute una búsqueda de señales o utilice el panel de [señales](../../features/data-explorer/data-explorer-signals-dashboard.md) para identificar las señales que se utilizarán en la nueva característica.
-1. Cree una nueva característica basada en las señales deseadas.
-1. Utilice la **[!UICONTROL Backfill Options]** sección **[!UICONTROL Trait Expression]** para seleccionar el intervalo de tiempo para el que desea rellenar las realizaciones de características. Los intervalos de relleno predefinidos incluyen 1, 7, 14 y 30 días. También puede elegir un intervalo de fechas personalizado de hasta 30 días.
+1. Create a new trait based on the desired signals.
+1. Use the  in the  section to select the time interval for which you want to backfill trait realizations. **[!UICONTROL Backfill Options]****[!UICONTROL Trait Expression]** Predefined backfill intervals include 1, 7, 14, and 30 days. You can also choose a custom date range of up to 30 days.
 
-   ![relleno de características](assets/signals-trait-backfill.png)
+   ![trait-backfill](assets/signals-trait-backfill.png)
 
-1. (Opcional) Haga clic **[!UICONTROL Estimate Realizations]** en la **[!UICONTROL Estimated Trait Realizations]** sección para ver los valores estimados [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] del rasgo relleno durante los últimos 7 días.
+1. (Optional) Click  in the  section to see the estimated  and  values for the backfilled trait over the last 7 days.**[!UICONTROL Estimate Realizations]****[!UICONTROL Estimated Trait Realizations]**[!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population]
 
-   ![estimación-características-realizaciones](assets/estimate-trait-realizations.png)
+   ![estimate-trait-realizations](assets/estimate-trait-realizations.png)
 
    >[!IMPORTANT]
    >
-   >El rellenado y la estimación de características no están disponibles para características con expresiones que utilizan los siguientes operadores:
+   >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
 
-1. Cree la característica.
+1. Create the trait.
 
-Una vez que haya terminado de crear la característica, verá las realizaciones rellenadas incluidas en las estadísticas de realización.
+Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
 
-Vea el siguiente vídeo para ver cómo rellenar las características.
+Watch the video below for a video walkthrough of how to backfill traits.
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=spa)
 
 ## Latencia de rellenado de características {#trait-backfilling-latency}
 
