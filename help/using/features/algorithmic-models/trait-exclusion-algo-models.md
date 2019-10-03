@@ -5,7 +5,7 @@ seo-title: Exclusión de características de modelos algorítmicos
 title: Exclusión de características de modelos algorítmicos
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -84,6 +84,10 @@ Tenga en cuenta los siguientes aspectos y limitaciones relacionados con [!UICONT
   </tr>
  </tbody>
 </table>
+
+Vea el siguiente vídeo para saber cómo y por qué excluir rasgos específicos de una [!UICONTROL Look-Alike Model].
+
+[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=spa)
 
 ## Vínculos relacionados
 
