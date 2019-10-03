@@ -5,7 +5,7 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -60,7 +60,7 @@ A través [!DNL People-Based Destinations]de Audience Manager le ayuda a central
 
 Vea el siguiente vídeo para obtener una descripción general del flujo de datos al utilizarlo [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=spa)
 
 ## Casos de uso {#use-cases}
 
