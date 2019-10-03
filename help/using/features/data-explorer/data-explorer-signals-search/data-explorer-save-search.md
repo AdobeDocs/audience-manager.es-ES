@@ -1,18 +1,18 @@
 ---
-description: Optimice los esfuerzos de búsqueda de señales al guardar hasta 10 conjuntos de criterios de búsqueda para utilizarlos cuando los necesite y rastrearlos en el tablero. Audience Manager vuelve a cargar las búsquedas guardadas cada vez que carga el tablero.
-seo-description: Optimice los esfuerzos de búsqueda de señales al guardar hasta 10 conjuntos de criterios de búsqueda para utilizarlos cuando los necesite y rastrearlos en el tablero. Audience Manager vuelve a cargar las búsquedas guardadas cada vez que carga el tablero.
-seo-title: Guardar criterios de búsqueda
-title: Guardar criterios de búsqueda
+description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
+seo-description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
+seo-title: Save Search Criteria
+title: Save Search Criteria
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# Guardar criterios de búsqueda {#save-search-criteria}
+# Save Search Criteria {#save-search-criteria}
 
-Optimice los esfuerzos de búsqueda de señales al guardar hasta 10 conjuntos de criterios de búsqueda para utilizarlos cuando los necesite y rastrearlos en el [!UICONTROL Signals Dashboard]. Audience Manager vuelve a cargar las búsquedas guardadas cada vez que carga el [!UICONTROL Signals Dashboard].
+Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the . [!UICONTROL Signals Dashboard] Audience Manager vuelve a cargar las búsquedas guardadas cada vez que carga el [!UICONTROL Signals Dashboard].
 
 1. Vaya a **[!UICONTROL Audience Data > Signals > Search]** y ejecute un **[!UICONTROL Signals Search]** con los pares clave-valor y/o los filtros que desee guardar para búsquedas futuras.
 1. Haga clic **[!UICONTROL Save this Search]** cuando obtenga los resultados de la búsqueda.
@@ -32,4 +32,4 @@ Optimice los esfuerzos de búsqueda de señales al guardar hasta 10 conjuntos de
 
 Vea el siguiente vídeo para aprender a guardar búsquedas de señales.
 
-[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=spa)
