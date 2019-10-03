@@ -5,7 +5,7 @@ seo-title: Tablero de señales
 title: Tablero de señales
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -34,7 +34,7 @@ Esta sección muestra las 50 señales nuevas no utilizadas recibidas en los últ
 
 [!DNL Audience Manager] muestra todas las búsquedas [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) guardadas en el [!UICONTROL Dashboard] y las vuelve a cargar cada vez que carga el [!UICONTROL Dashboard].
 
-Saved searches display the top 50 results for the corresponding criteria.
+Las búsquedas guardadas muestran los 50 primeros resultados para los criterios correspondientes.
 
-Watch the video below to learn how to use the [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=spa)
+Vea el siguiente video para aprender a usar el [!UICONTROL Signals Dashboard].
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=spa)
