@@ -5,7 +5,7 @@ seo-title: Búsqueda avanzada de Adobe Analytics
 title: Búsqueda avanzada de Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -28,4 +28,4 @@ Esta integración permite ver los nombres descriptivos de los pares de clave-val
 
 El siguiente vídeo muestra cómo [!UICONTROL Data Explorer] descubrir y utilizar los datos de Adobe Analytics, incluida la búsqueda de señales usadas y no utilizadas, la creación de características de Analytics y la comprensión de los datos.
 
-[!VIDEO](https://video.tv.adobe.com/v/25150?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25150?captions=spa)
