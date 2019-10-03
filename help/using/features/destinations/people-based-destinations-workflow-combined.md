@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo A: Personalización basada en toda la actividad en 
 solution: Audience Manager
 title: 'Flujo de trabajo A: Personalización basada en toda la actividad en línea combinada con datos sin conexión'
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,21 +46,21 @@ En este caso, debe etiquetar la fuente de datos correspondiente como tal:
 
 En este caso, debe crear una nueva fuente de datos entre dispositivos que almacenará las direcciones de correo electrónico con hash. A continuación se muestra cómo hacerlo:
 
-1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]** y haga clic en **[!UICONTROL Add New]**.
+1. Log in to your Audience Manager account and go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Data Sources]****[!UICONTROL Add New]**
 1. Escriba un [!UICONTROL Name] y [!UICONTROL Description] para la nueva fuente de datos.
 1. En el menú **[!UICONTROL ID Type]** desplegable, seleccione **[!UICONTROL Cross Device]**.
-1. En la **[!UICONTROL Data Source Settings]** sección, seleccione las opciones **[!UICONTROL Inbound]** y **[!UICONTROL Outbound]** y active la **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
+1. In the  section, select both the  and  options, and enable the  option.**[!UICONTROL Data Source Settings]****[!UICONTROL Inbound]****[!UICONTROL Outbound]****[!UICONTROL Share associated cross-device IDs in people-based destinations]**
 1. Utilice el menú desplegable para seleccionar la etiqueta de este origen de datos **[!UICONTROL Emails(SHA256, lowercased)]** .
    >[!IMPORTANT]
    >
-   >Esta opción sólo etiqueta la fuente de datos como si contuviera datos con hash con ese algoritmo específico. Audience Manager no hash los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya están marcadas con el algoritmo [!DNL SHA256] . De lo contrario, no podrás usarlo para [!DNL People-Based Destinations].
+   >Esta opción sólo etiqueta la fuente de datos como si contuviera datos con hash con ese algoritmo específico. Audience Manager does not hash the data at this step. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya están marcadas con el algoritmo [!DNL SHA256] . De lo contrario, no podrás usarlo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Guarde la configuración del origen de datos.
 
 Vea el siguiente vídeo para ver un tutorial de vídeo sobre cómo crear una fuente de datos para [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=spa)
 
 >[!NOTE]
 >
@@ -122,12 +122,12 @@ El siguiente paso es crear una nueva regla de combinación que le ayudará a cre
 
 >[!IMPORTANT]
 >
-> Si ya tiene una regla definida con las opciones [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles] , puede ir al [paso 4 - Crear segmentos](people-based-destinations-workflow-combined.md#create-audience-segments)de audiencia.
+> If you already have a rule defined with the [!UICONTROL Current Authenticated Profiles] or [!UICONTROL Last Authenticated Profiles] options, you can skip to [Step 4 - Create Audience Segments](people-based-destinations-workflow-combined.md#create-audience-segments).
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Profile Merge Rules]**.
 1. Haga clic en **[!UICONTROL Add New Rule]**.
-1. Introduzca una regla de combinación de perfiles **[!UICONTROL Name]** y **[!UICONTROL Description]**.
-1. En la **[!UICONTROL Profile Merge Rule Setup]** sección, seleccione las opciones **[!UICONTROL Current Authenticated Profiles]** o **[!UICONTROL Last Authenticated Profiles]** .
+1. Enter a profile merge rule  and .**[!UICONTROL Name]****[!UICONTROL Description]**
+1. In the  section, select the  or  options.**[!UICONTROL Profile Merge Rule Setup]****[!UICONTROL Current Authenticated Profiles]****[!UICONTROL Last Authenticated Profiles]**
 1. En la **[!UICONTROL Cross-Device Profile Options]** lista, seleccione los orígenes de datos en los que desea ejecutar la segmentación. Deben ser las fuentes de datos que contengan los [DPUUID](../../reference/ids-in-aam.md)existentes.
 
 ## Paso 4: Creación de segmentos de audiencia {#create-audience-segments}
@@ -161,5 +161,5 @@ Para crear nuevos segmentos de audiencia, utilice el Generador [de segmentos](..
 1. Haga clic en **[!UICONTROL Next]**.
 1. Elija el **[!UICONTROL Data Export Labels]** que desea establecer para este destino.
 1. En la **[!UICONTROL Configuration]** sección , seleccione el origen de datos que contiene las fuentes de datos con hash.
-1. En la **[!UICONTROL Segment Mappings]** sección, seleccione los segmentos que desee enviar a este destino. Serían los segmentos que creó en el [paso 4 - Crear segmentos](people-based-destinations-workflow-combined.md#create-audience-segments)de audiencia.
-1. Guarde el destino.
+1. En la **[!UICONTROL Segment Mappings]** sección, seleccione los segmentos que desee enviar a este destino. This would be the segments that you created at [Step 4 - Create Audience Segments](people-based-destinations-workflow-combined.md#create-audience-segments).
+1. Save the destination.
