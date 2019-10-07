@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capturación de los datos de impresión de campaña a través de Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
 
 ---
 
@@ -28,7 +28,7 @@ La llamada de evento recopila datos de impresión y conversión y los envía a l
 Las llamadas de evento constan de pares clave-valor que utilizan la siguiente sintaxis:
 
 <pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=valor del depurador de caché
+http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=valor de buster de caché
 </pre>
 
 En el par clave-valor, la variable value es una ID o macro insertada por el servidor de publicidad. Cuando se carga la etiqueta de publicidad, `%macro%` se reemplaza con los valores correspondientes requeridos. Esta llamada no devuelve una respuesta.
