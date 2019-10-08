@@ -5,7 +5,7 @@ seo-title: Configurar las audiencias personalizadas de Twitter como un destino b
 solution: Audience Manager
 title: Configurar las audiencias personalizadas de Twitter como un destino basado en un dispositivo de autoservicio
 translation-type: tm+mt
-source-git-commit: a267dab29a8d0e47a27a7db2a4288ae677a1180d
+source-git-commit: 7966cac59b982b5f36af6975607df64545b74058
 
 ---
 
@@ -32,9 +32,9 @@ Esta sección describe los pasos que debe seguir al configurar un nuevo destino 
 Para poder agregar el destino basado en dispositivos, debe vincular Audience Manager con su [!DNL Twitter Tailored Audiences] cuenta. A continuación se muestra cómo hacerlo:
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. De lo contrario, la página está vacía.
-2. Haga clic en **[!DNL Add Account]**.
-3. Seleccione [!DNL Twitter Tailored Audiences] y haga clic en **[!DNL Confirm]** para que se le redirija a la página de autenticación.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
-4. Una vez autenticado, se le redirige a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
+1. Haga clic en **[!DNL Add Account]**.
+1. Seleccione [!DNL Twitter Tailored Audiences] y haga clic en **[!DNL Confirm]** para que se le redirija a la página de autenticación.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Una vez autenticado, se le redirige a Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
 
 ### Paso 2: Crear un nuevo destino basado en dispositivo {#step2-create-new-destination}
 
@@ -45,12 +45,12 @@ Después de vincular Audience Manager y su [!DNL Twitter Tailored Audiences]usua
 >No se puede cambiar el nombre de un destino existente basado en dispositivo. Asegúrese de proporcionar un nombre que le ayude a identificar el destino correctamente.
 
 1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!DNL Audience Data > Destinations]** y haga clic en **[!DNL Create Destination]**.
-2. En la **[!DNL Basic Information]** sección, introduzca un **[!DNL Name]** y **[!DNL Description]** para el nuevo destino y utilice la configuración siguiente: ![configuración](assets/dbd-new-basic.png)
-3. Haga clic en **[!DNL Next]**.
-4. Elija las etiquetas [de exportación de](/help/using/features/data-export-controls.md#controls-labels) datos que desee establecer para este destino.
-5. Haga clic en **[!DNL Save]**.
-6. En la **[!DNL Segment Mappings]** sección, seleccione los segmentos de audiencia que desee enviar a este destino.
-7. Guarde el destino.
+1. En la **[!DNL Basic Information]** sección, introduzca un **[!DNL Name]** y **[!DNL Description]** para el nuevo destino y utilice la configuración siguiente: ![configuración](assets/dbd-new-basic.png)
+1. Haga clic en **[!DNL Next]**.
+1. Elija las etiquetas [de exportación de](/help/using/features/data-export-controls.md#controls-labels) datos que desee establecer para este destino.
+1. Haga clic en **[!DNL Save]**.
+1. En la **[!DNL Segment Mappings]** sección, seleccione los segmentos de audiencia que desee enviar a este destino.
+1. Guarde el destino.
 
 ## Actualizar Las Integraciones De Twitter Existentes A La Administración De Autoservicio {#update-existing-twitter-integrations}
 
@@ -64,12 +64,12 @@ Para mejorar la experiencia del usuario y optimizar el proceso de configuración
 Siga los pasos a continuación para migrar el destino existente [!DNL Twitter Tailored Audiences] al modelo de autoservicio.
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**.
-2. Haga clic en **[!DNL Add Account]**.
-3. Seleccione [!DNL Twitter Tailored Audiences] y haga clic en **[!DNL Confirm]** para que se le redirija a la página de autenticación. ![plataformas integradas](assets/dbd-integrated-platforms.png)
-4. Una vez que se haya autenticado con su [!DNL Twitter] cuenta, se le redirigirá a Audience Manager, donde debería ver sus cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
-5. Vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** y haga clic en el destino de Twitter que necesita configurar.
-6. Haga clic en **[!UICONTROL Edit]**. En la **[!UICONTROL Basic Information]** sección, haga clic en el menú **[!UICONTROL Integrated Account]** desplegable y seleccione la [!DNL Twitter] cuenta con la que se ha autenticado en el paso 4.
-7. **[!UICONTROL Save]** el destino.
+1. Haga clic en **[!DNL Add Account]**.
+1. Seleccione [!DNL Twitter Tailored Audiences] y haga clic en **[!DNL Confirm]** para que se le redirija a la página de autenticación. ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Una vez que se haya autenticado con su [!DNL Twitter] cuenta, se le redirigirá a Audience Manager, donde debería ver sus cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
+1. Vaya a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** y haga clic en el destino de Twitter que necesita configurar.
+1. Haga clic en **[!UICONTROL Edit]**. En la **[!UICONTROL Basic Information]** sección, haga clic en el menú **[!UICONTROL Integrated Account]** desplegable y seleccione la [!DNL Twitter] cuenta con la que se ha autenticado en el paso 4.
+1. **[!UICONTROL Save]** el destino.
 
 <!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
 
