@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de nombre y contenido para archivos de sincronización de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 translation-type: tm+mt
-source-git-commit: 4bc3d7c0a34619e556f58b39b7812a5612050f7f
+source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
 
 ---
 
@@ -25,7 +25,7 @@ Describe los campos requeridos, la sintaxis y las convenciones de nombre utiliza
 
 Los nombres de archivo de ID contienen los siguientes elementos opcionales y requeridos:
 
-*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*[_DPID_DPID]*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*[.gz]
+*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*`[_DPID]`*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*`[.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -45,11 +45,11 @@ Los nombres de archivo de ID contienen los siguientes elementos opcionales y req
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file. </td> 
+   <td colname="col2"> El ID del proveedor de datos maestro es el ID principal de los DPID en el nombre del archivo. Además, el primer ID de usuario del archivo de datos corresponde al ID maestro. Los DPID posteriores son otros identificadores que pertenecen al maestro. La sincronización asigna los DPID del nombre del archivo a los UUID del archivo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>Data provider IDs. Estos ID representan entidades o orígenes de datos asociados al DPID maestro. La sincronización asigna los DPID del nombre del archivo a los UUID del archivo. </p> <p>El número de DPID en el nombre del archivo debe coincidir con el número de UUID en el archivo de datos. Por ejemplo, supongamos que el nombre de archivo contiene un DPID maestro y 3 DPID. El archivo de datos debe incluir 4 columnas correspondientes de UUID, formateadas como se describe en la sección de contenido de archivos a continuación. </p> </td> 
+   <td colname="col2"> <p>ID del proveedor de datos. Estos ID representan entidades o orígenes de datos asociados al DPID maestro. La sincronización asigna los DPID del nombre del archivo a los UUID del archivo. </p> <p>El número de DPID en el nombre del archivo debe coincidir con el número de UUID en el archivo de datos. Por ejemplo, supongamos que el nombre de archivo contiene un DPID maestro y 3 DPID. El archivo de datos debe incluir 4 columnas correspondientes de UUID, formateadas como se describe en la sección de contenido de archivos a continuación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
@@ -61,22 +61,22 @@ Los nombres de archivo de ID contienen los siguientes elementos opcionales y req
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>.SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>Un entero. Se utiliza cuando se dividen archivos grandes en varios archivos más pequeños. This helps improve processing times. El número indica qué parte del archivo original está enviando. See the file name examples below. </p> </td> 
+   <td colname="col2"> <p>Un entero. Se utiliza cuando se dividen archivos grandes en varios archivos más pequeños. Esto ayuda a mejorar los tiempos de procesamiento. El número indica qué parte del archivo original está enviando. Consulte los ejemplos de nombres de archivo a continuación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Specifies that your file is compressed with optional gzip compression. </p> </td> 
+   <td colname="col2"> <p>Especifica que el archivo se comprime con compresión gzip opcional. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### File Name Examples
+### Ejemplos de nombres de archivo
 
 Los siguientes ejemplos muestran nombres de archivos con el formato correcto. Los nombres de archivo podrían ser similares.
 
 <ul class="simplelist"> 
  <li> <code> adobe_id_111_222_333_444_145442149.sync</code> </li> 
- <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
+ <li> <code> adobe_id_123_898_456_145442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_145442149.sync.2.gz</code> </li> 
  <li> <code>c2c_id_123_898_145442149.sync.gz</code> </li> 
 </ul>
@@ -98,7 +98,7 @@ abc123 def456 ghi789 xyz987
 
 ## La sincronización coincide con los DPUUID en UUID {#sync-matches-dpuuids-uuids}
 
-El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID](../../../reference/ids-in-aam.md) de sus propias fuentes de datos con [!DNL Audience Manager] UUID. Synchronization maps the s from the master  and its related s to the  s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. [!DNL DPUUID][!DNL DPID][!DNL DPID][!DNL Audience Manager][!DNL UUID] Por ejemplo, tome los dos archivos de ejemplo que se muestran aquí:
+El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID](../../../reference/ids-in-aam.md) de sus propias fuentes de datos con [!DNL Audience Manager] UUID. La sincronización asigna las [!DNL DPUUID]s del maestro [!DNL DPID] y sus [!DNL DPID]s relacionados a las [!DNL Audience Manager] [!DNL UUID]s. El lugar donde se colocan los ID en el nombre del archivo y en el cuerpo determina cómo se asignan estos identificadores entre sí. Por ejemplo, tome los dos archivos de ejemplo que se muestran aquí:
 
 * **** Archivo 1: `adobe_id_0_12345_1476312152.sync`
 
@@ -106,11 +106,11 @@ El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID]
 
 <br/>
 
-Given the sample name and contents, the IDs map together like this:
+Dado el nombre y el contenido de la muestra, los ID se asignan de esta manera:
 
-**File 1 ( Download sample file)**[](assets/adobe_id_0_12345_1476312152.sync)
+**Archivo 1** ( [Descargar archivo](assets/adobe_id_0_12345_1476312152.sync)de ejemplo)
 
-| DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
+| DPID 0 = UUID de Adobe Audience Manager | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
 | 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
