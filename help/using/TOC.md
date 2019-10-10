@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
       + [Seguridad de datos](overview/data-security-and-privacy/data-security.md)
       + [Privacidad de datos](overview/data-security-and-privacy/data-privacy.md)
       + [Administración de exclusión](overview/data-security-and-privacy/opt-out-management.md)
-   +  Reglamento general de protección de datos (RGPD){#gdpr}
+   + Reglamento general de protección de datos (RGPD){#gdpr}
       + [RGPD en Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
       + [Consideraciones del RGPD para destinos](overview/aam-gdpr/aam-gdpr-partners.md)
       + [Preguntas más frecuentes sobre el RGPD](overview/aam-gdpr/aam-gdpr-faq.md)
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [Convenciones de nomenclatura para archivos de metadatos](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Formato de contenido para archivos de metadatos](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Métodos de envío para archivos de metadatos](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [Actualizaciones de estado para archivos de metadatos](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Informe Variación de la característica diaria](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Informes interactivos y superpuestos {#interactive-and-overlap-reports}
       + [Información general de informes interactivos y superpuestos](reporting/dynamic-reports/dynamic-reports.md)
@@ -207,7 +206,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
 + Código de API y SDK{#api-and-sdk-code}
    + [Información general sobre el código de API y SDK](api/api.md)
    + [Migración de código de API de Audience Manager](api/api-swagger-migration.md)
-   +  Métodos y código de la API del servidor de recopilación de datos (DCS){#dcs}
+   + Métodos y código de la API del servidor de recopilación de datos (DCS){#dcs}
       + [Métodos y código de la API de DCS](api/dcs-intro/dcs-intro.md)
       + Llamadas a eventos de DCS{#dcs-event-calls}
          + [API de llamadas de evento de DCS](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
