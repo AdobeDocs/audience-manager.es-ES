@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ Comience viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-47
 1. En la sección Información [](../../features/segments/segment-builder.md#segment-builder-controls-basics) básica:
    * Asigne un nombre al segmento. La longitud máxima del nombre de un segmento es de 255 caracteres.
    * Establezca el estado del segmento (activo es predeterminado).
-   * Elija una fuente de datos. Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos. Si no tiene ningún grupo de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y solo puede ver las fuentes de datos de Audience Manager.
+   * Elija una fuente de datos. Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos. Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos de Audience Manager.
    * Seleccione una regla de combinación de perfiles para utilizarla en la calificación de segmentos.
    * Asigne el segmento a una carpeta de almacenamiento.
 2. En la sección [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
@@ -76,7 +76,7 @@ En [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] los ajustes 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Fuente de datos</b> </td> 
-   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no tiene ningún grupo de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y solo puede ver las fuentes de datos de Audience Manager.</p></p> </td> 
+   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos de Audience Manager.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Regla de combinación de perfiles</b> </td> 
