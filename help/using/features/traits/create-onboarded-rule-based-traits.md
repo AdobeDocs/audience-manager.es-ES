@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Crear características basadas en reglas o integradas
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -23,6 +23,8 @@ Describe los pasos y las funciones de configuración específicos del proceso de
 En [!UICONTROL Trait Builder], la [!UICONTROL Basic Information] configuración permite crear nuevas características o editar las existentes. La [!UICONTROL Basic Information] configuración es la misma para las características algorítmicas, integradas y basadas en reglas. Para crear una nueva característica, especifique un nombre (evitar caracteres especiales), un origen de datos y seleccione una carpeta de almacenamiento. Otros [!UICONTROL Basic Information] campos son opcionales.
 
 <!-- c_tb_basics.xml -->
+
+![create-trait](assets/create-trait.png)
 
 ### Campos de información básica definidos
 
@@ -50,12 +52,12 @@ En [!UICONTROL Trait Builder], la [!UICONTROL Basic Information] configuración 
    <td colname="col2"> Unas pocas palabras para ayudar a describir el propósito o la función del rasgo. Opcional. </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Fuente de datos</span></b> </td> 
+   <td colname="col2"> Asocia la característica a un proveedor de datos específico. Requerido. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no tiene ningún grupo de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y solo puede ver las fuentes de datos de Audience Manager.</p>  </td> 
+  </tr>
+   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo de evento</span></b> </td> 
    <td colname="col2"> Asigna la característica a un tipo o categoría, generalmente según la función (por ejemplo: conversión, visitante del sitio, socio, vista de página, etc.). Opcional. <p> Para obtener información sobre cómo crear características de conversión, consulte el vídeo <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html"></a>Creación de características de conversión en Audience Manager. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Fuente de datos</span></b> </td> 
-   <td colname="col2"> Asocia la característica a un proveedor de datos específico. Requerido. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Código de integración</span></b> </td> 
@@ -66,7 +68,7 @@ En [!UICONTROL Trait Builder], la [!UICONTROL Basic Information] configuración 
    <td colname="col2"> Notas generales sobre un rasgo. Opcional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Almacenado en</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Almacenar en</span></b> </td> 
    <td colname="col2"> Determina a qué carpeta de almacenamiento pertenece la característica. Requerido. </td> 
   </tr> 
   <tr> 
