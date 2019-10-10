@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -27,13 +27,15 @@ Comience viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-47
 
 [!UICONTROL Segment Builder] consta de tres secciones separadas: [!UICONTROL Basic Information], [!UICONTROL Traits], y [!UICONTROL Destinations Mapping]. Para crear un segmento, complete los campos requeridos en las secciones [!UICONTROL Basic Information] y [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] son opcionales. Consulte las instrucciones siguientes para obtener ayuda adicional.
 
+![create-segment](assets/create-segment.png)
+
 1. En la sección Información [](../../features/segments/segment-builder.md#segment-builder-controls-basics) básica:
    * Asigne un nombre al segmento. La longitud máxima del nombre de un segmento es de 255 caracteres.
    * Establezca el estado del segmento (activo es predeterminado).
-   * Elija una fuente de datos.
+   * Elija una fuente de datos. Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos. Si no tiene ningún grupo de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y solo puede ver las fuentes de datos de Audience Manager.
    * Seleccione una regla de combinación de perfiles para utilizarla en la calificación de segmentos.
    * Asigne el segmento a una carpeta de almacenamiento.
-1. En la sección [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+2. En la sección [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
    * Busque la característica que desee agregar a un segmento y haga clic en **[!UICONTROL Add Trait]**. Agregue otra característica para crear un grupo de características.
    * Para abrir el modal Búsqueda avanzada, haga clic en **[!UICONTROL Browse All Traits]**. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar características por tipo de característica.
    * Obtenga recomendaciones [de](trait-recommendations.md) características activas a medida que crea el segmento.
@@ -42,7 +44,7 @@ Comience viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-47
    * Pase el ratón sobre el icono del reloj para agregar reglas de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) a la característica.
    * Ver datos de población de segmentos a medida que agrega o elimina características. Haga clic **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados. Obtenga más información sobre los datos [de población de](../../features/segments/segment-builder-data.md#segment-populations) segmentos en el Generador de segmentos.
    * Click **[!UICONTROL Save]** when done.
-1. *(Opcional)* Asigne un segmento a un destino en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
+3. *(Opcional)* Asigne un segmento a un destino en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
    * Busque el destino y haga clic en **[!UICONTROL Add Destination]**. Tenga en cuenta que el destino ya debe existir para poder agregarlo a un segmento.
    * Click **[!UICONTROL Save]** when done.
 
@@ -74,7 +76,7 @@ En [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] los ajustes 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Fuente de datos</b> </td> 
-   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. </p> </td> 
+   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no tiene ningún grupo de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y solo puede ver las fuentes de datos de Audience Manager.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Regla de combinación de perfiles</b> </td> 
