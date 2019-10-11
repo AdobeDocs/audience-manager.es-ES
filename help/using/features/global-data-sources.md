@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fuentes de datos globales
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ En la tabla siguiente se describen las fuentes de datos globales admitidas por A
 
 | ID de fuente de datos | Descripción |
 |---|---|
-| 20914 | **ID** de publicidad de Google: los **** GAID representan dispositivos que ejecutan el sistema operativo Android. |
-| 20915 | **ID de Apple para publicidad** : los **** IDFA representan dispositivos que ejecutan el sistema operativo iOS. |
-| 121963 | **Roku ID para publicidad** : los **** RIDA representan dispositivos de flujo Roku. |
-| 389146 | **ID** de publicidad de Microsoft: los **** MAID representan dispositivos que ejecutan el sistema operativo Windows 10. |
-| 404660 | **Los** DUID de Samsung representan televisores inteligentes de Samsung. |
+| 20914 | **ID** de publicidad de Google: los **** GAID representan dispositivos que ejecutan el [!DNL Android] sistema operativo. |
+| 20915 | **ID de Apple para publicidad** : los **** IDFA representan dispositivos que ejecutan el [!DNL iOS] sistema operativo. |
+| 121963 | **Roku ID para publicidad** : **** los RIDA representan dispositivos [!DNL Roku] de flujo continuo. |
+| 389146 | **ID** de publicidad de Microsoft: los **** MAID representan dispositivos que ejecutan el [!DNL Windows 10] sistema operativo. |
+| 404660 | **Los** DUID de Samsung representan televisores [!DNL Samsung] inteligentes. |
+| 488258 | **Los** ID de publicidad de Amazon Fire TV representan dispositivos en ejecución [!DNL Amazon Fire OS] |
 
 ## Importación de datos desde fuentes de datos globales
 
