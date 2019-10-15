@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Solicitudes masivas
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
 
@@ -32,10 +32,11 @@ Para realizar solicitudes masivas, abra la [!UICONTROL Bulk Management Tools] ho
 1. Click the **[!UICONTROL Request]** tab.
 2. En la barra de herramientas de la parte superior de la hoja de cálculo, haga clic en un botón de solicitud correspondiente a los datos con los que desee trabajar. Puede solicitar:
 
-   * ID del proveedor de datos
-   * Señales derivadas
+   * Modelos algorítmicos
+   * Fuentes de datos
+   *  Señales derivadas
    * Asignaciones de destino
-   * Características basadas en reglas y integradas
+   * Características algorítmicas, basadas en reglas y integradas
    * Segmentos
    * ID de carpeta de segmentos y características
    La [!DNL Audience Manager] API devuelve los datos masivos a la [!UICONTROL Request] hoja de cálculo.
@@ -43,6 +44,5 @@ Para realizar solicitudes masivas, abra la [!UICONTROL Bulk Management Tools] ho
 >[!NOTE]
 >
 >En los resultados, las `createTime` columnas y `updateTime` devuelven datos en notación exponencial. Las marcas de fecha y hora subyacentes se registran en la hora UNIX UTC. Actualmente, la hoja de cálculo no puede devolver marcas de fecha y hora en un formato legible.
-
 
 Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
