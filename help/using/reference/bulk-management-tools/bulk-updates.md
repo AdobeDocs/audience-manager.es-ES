@@ -1,20 +1,20 @@
 ---
-description: Una actualización masiva permite editar varios segmentos, características y elementos de carpetas de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
+description: Una actualización masiva permite editar varios segmentos, características, modelos, fuentes de datos y elementos de carpeta de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
 keywords: baaam
-seo-description: Una actualización masiva permite editar varios segmentos, características y elementos de carpetas de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
+seo-description: Una actualización masiva permite editar varios segmentos, características, modelos, fuentes de datos y elementos de carpeta de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
 seo-title: Actualizaciones masivas
 solution: Audience Manager
 title: Actualizaciones masivas
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Actualizaciones masivas{#bulk-updates}
 
-Una actualización masiva permite editar varios segmentos, características y elementos de carpetas de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
+Una actualización masiva permite editar varios segmentos, características, modelos, fuentes de datos y elementos de carpeta de segmentos o características en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
 
 <!-- 
 
@@ -44,6 +44,5 @@ Esta acción abre el cuadro de diálogo [!UICONTROL Account Information] .
    La hoja de cálculo crea una [!UICONTROL Results] columna. La [!UICONTROL Results] columna devuelve la respuesta JSON para una operación correcta. Consulte los ejemplos en las API de [REST](../../api/rest-api-main/rest-api-main.md) . Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/update.png)
-
 
 Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
