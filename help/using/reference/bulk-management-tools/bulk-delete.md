@@ -1,19 +1,19 @@
 ---
-description: La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
-seo-description: La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
+description: La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas, fuentes de datos, modelos y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
+seo-description: La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas, fuentes de datos, modelos y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
 seo-title: Eliminación masiva
 solution: Audience Manager
 title: Eliminación masiva
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Eliminación masiva{#bulk-delete}
 
-La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
+La eliminación masiva permite eliminar varios segmentos, características, carpetas, señales derivadas, fuentes de datos, modelos y destinos con una sola operación. Siga estas instrucciones para realizar una solicitud de eliminación masiva.
 
 <!-- 
 
@@ -41,6 +41,5 @@ Para eliminar varios elementos, abra la [!UICONTROL Bulk Management Tools] hoja 
 Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/delete.png)
-
 
 Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
