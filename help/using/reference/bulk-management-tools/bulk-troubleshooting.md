@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Consejos para la resolución de problemas de las herramientas de administración masiva
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ---
 
@@ -65,4 +65,8 @@ En la tabla siguiente se enumeran algunos problemas comunes que puede encontrar 
   </tr> 
  </tbody> 
 </table>
+
+## Mensajes de error
+
+A veces, puede recibir mensajes de error al realizar cambios masivos. Para interpretar el mensaje de error, consulte Códigos [de respuesta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) en nuestra documentación de API.
 
