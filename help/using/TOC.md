@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -116,7 +116,6 @@ source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
       + [Métricas de informes para reglas de combinación de perfiles](features/profile-merge-rules/profile-link-metrics.md)
       + [Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos](features/profile-merge-rules/merge-rule-unsegment.md)
       + [Eliminación instantánea entre dispositivos](features/profile-merge-rules/instant-cross-device-suppression.md)
-      + [Consideraciones importantes para las reglas de combinación de perfiles con gráficos de dispositivos](features/profile-merge-rules/considerations-pmr-device-graph.md)
    + Segmentos{#segments}
       + [Segmentos: Propósito, composición y reglas](features/segments/segments-purpose.md)
       + [Vista de lista de segmentos](features/segments/segments-dashboard.md)
