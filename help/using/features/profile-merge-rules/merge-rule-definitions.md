@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Opciones de regla de combinación de perfiles definidas
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 Las opciones de regla de combinación le permiten controlar el tipo de datos que Audience Manager utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivo asignados por el gráfico del [!UICONTROL Profile Link] dispositivo, los proveedores de gráficos de dispositivos de terceros [!UICONTROL Adobe Experience Cloud Device Co-op]o ambos que estén integrados en Audience Manager. Puede crear un máximo de 4 [!UICONTROL Profile Merge Rules]. El cuarto [!UICONTROL Profile Merge Rule] está disponible exclusivamente para los clientes que compraron el [!UICONTROL People-Based Destinations] complemento.
 
