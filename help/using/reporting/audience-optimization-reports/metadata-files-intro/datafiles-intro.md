@@ -1,19 +1,19 @@
 ---
-description: Un archivo de datos contiene datos de impresión, clic o conversión. Cuando el formato es correcto, puede importar estos datos en Audience Manager y verlos en los informes de Optimización de público. Dé formato a los archivos de datos según estas especificaciones en esta sección.
-seo-description: Un archivo de datos contiene datos de impresión, clic o conversión. Cuando el formato es correcto, puede importar estos datos en Audience Manager y verlos en los informes de Optimización de público. Dé formato a los archivos de datos según estas especificaciones en esta sección.
-seo-title: Archivos de datos para informes de optimización de audiencia
+description: Un archivo de datos contiene datos de impresión, clic o conversión. Si el formato es correcto, puede importar estos datos en Audience Manager y utilizarlos en los informes de Optimización de público y en los archivos de registro procesables. Dé formato a los archivos de datos según las especificaciones de esta sección.
+seo-description: Un archivo de datos contiene datos de impresión, clic o conversión. Si el formato es correcto, puede importar estos datos en Audience Manager y utilizarlos en los informes de Optimización de público y en los archivos de registro procesables. Dé formato a los archivos de datos según las especificaciones de esta sección.
+seo-title: Archivos de datos para informes de optimización de audiencia y archivos de registro procesables
 solution: Audience Manager
-title: Archivos de datos para informes de optimización de audiencia
+title: Archivos de datos para informes de optimización de audiencia y archivos de registro procesables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# Archivos de datos para informes de optimización de audiencia{#data-files-for-audience-optimization-reports}
+# Archivos de datos para informes de optimización de audiencia y archivos de registro procesables {#data-files-for-audience-optimization-reports}
 
-Un archivo de datos contiene datos de impresión, clic o conversión. Cuando el formato es correcto, puede importar estos datos en Audience Manager y verlos en los informes de Optimización de público. Dé formato a los archivos de datos según estas especificaciones en esta sección.
+Un archivo de datos contiene datos de impresión, clic o conversión. Si el formato es correcto, puede importar estos datos en Audience Manager para verlos en los informes [de optimización de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) público y crear características mediante los datos mediante los archivos [de registro](/help/using/integration/media-data-integration/actionable-log-files.md)procesables. Dé formato a los archivos de datos según estas especificaciones en esta sección.
 
 ## Información general {#overview}
 
@@ -25,7 +25,7 @@ Un archivo de datos debe ir acompañado de un archivo de metadatos. El contenido
 
 La siguiente sintaxis define la estructura de un nombre de archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable que cambia según el contenido del archivo.
 
-**Sintaxis:** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
+**Sintaxis:** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 En un nombre de archivo:
 
@@ -35,15 +35,15 @@ En un nombre de archivo:
 
 Dados estos requisitos, asigne un nombre a los archivos de datos en función de su contenido de la siguiente manera:
 
-* Datos de impresión: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
-* Haga clic en los datos: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* Datos de conversión: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Datos de impresión: <pre>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Haga clic en los datos: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* Datos de conversión: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Formato de contenido para archivos de datos {#content-format}
 
 La siguiente sintaxis define la estructura de contenido en un archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable y se sustituye por una etiqueta en un archivo de datos real.
 
-**Sintaxis:** <pre><code><i>etiqueta de encabezado 1</i> | etiqueta <i>de encabezado 2</i> ... etiqueta de <i>encabezado n</i> | <i>versión</i></code></pre>
+**Sintaxis:** <pre><i>etiqueta de encabezado 1</i> | etiqueta <i>de encabezado 2</i> ... etiqueta de <i>encabezado n</i> | <i>versión</i></code></pre>
 
 En el contenido del archivo:
 
@@ -67,7 +67,7 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Marca de hora </p> </td> 
-   <td colname="col2"> <p>Una fecha y hora UTC para el evento de impresión, clic o conversión. Utilice el formato <code> aaaa-dd-mm hh:mm:ss</code> . </p> </td> 
+   <td colname="col2"> <p>Una fecha y hora UTC para el evento de impresión, clic o conversión. Utilice el <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -126,8 +126,8 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
    <td colname="col2"> <p>Tipo de conversión. Indica si una conversión coincide o no. Las opciones incluyen: </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impresión </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Haga clic en </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: No atribuido o desconocido </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Haga clic </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:: No atribuido o desconocido </li> 
     </ul> <p> <i>Solo para archivos de datos de conversión.</i> </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Cargue los archivos de datos de impresión, clic o conversión en un directorio 
 
 Los datos se almacenan en un espacio de nombres independiente para cada cliente en un directorio de Amazon S3. La ruta del archivo sigue la sintaxis que se muestra a continuación. Note, *italics* indicates a variable placeholder. Otros elementos son constantes o claves y no cambian.
 
-**Sintaxis:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i></i>de archivo_<i>yyyymmdd</i></code></pre>
+**Sintaxis:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i></i>de archivo_<i>yyyymmdd</i></code></pre>
 
 La siguiente tabla define cada uno de estos elementos en una ruta de entrega de archivos.
 
@@ -162,7 +162,7 @@ La siguiente tabla define cada uno de estos elementos en una ruta de entrega de 
    <td colname="col2"> <p>Este es el inicio de la ruta de almacenamiento del directorio. Recibirás la ruta completa cuando todo esté configurado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid=ID de<i>AAM</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>Este par clave-valor que contiene el ID de cliente de <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
@@ -170,11 +170,11 @@ La siguiente tabla define cada uno de estos elementos en una ruta de entrega de 
    <td colname="col2"> <p>Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. Identifica la agencia de la que provienen los datos y los vincula a un archivo de metadatos compatible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> registros</code> </p> </td> 
+   <td colname="col1"> <p> <code> logs</code> </p> </td> 
    <td colname="col2"> <p> Un directorio de nivel superior para archivos de datos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> tipo <i></i>de archivo_<i>aaaaammdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>Nombre de tipo de archivo que indica el tipo de datos que contiene y una marca de hora de entrega. </p> </td> 
   </tr> 
  </tbody> 
