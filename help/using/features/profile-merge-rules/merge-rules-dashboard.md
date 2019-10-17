@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tablero de reglas de combinación de perfiles
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ El [!UICONTROL Profile Merge Rules] tablero proporciona un espacio de trabajo un
 
 Al trabajar con [!UICONTROL Profile Merge Rules], puede:
 
-* Cree un máximo de 4 reglas a partir de las fuentes de datos entre dispositivos. Consulte [Creación de una fuente](merge-rules-start.md#create-data-source)de datos entre dispositivos.
+* Cree un máximo de 4 [!UICONTROL Profile Merge Rules] a partir de las fuentes de datos entre dispositivos. Consulte [Creación de una fuente](merge-rules-start.md#create-data-source)de datos entre dispositivos.
 * Designar una regla de combinación predeterminada. [El Generador](../segments/segment-builder.md) de segmentos aplica automáticamente la regla predeterminada a cualquier segmento nuevo que cree.
 * Aplicar controles [de exportación de datos](../data-export-controls.md) a una regla de combinación. [!UICONTROL Data Export Controls] evite enviar datos a destinos cuando ello infrinja la privacidad de los datos o los acuerdos de uso.
 * Rastree el número promedio de dispositivos para cada usuario.
