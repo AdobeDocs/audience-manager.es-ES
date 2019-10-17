@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -32,7 +32,7 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la [!UI
 
 [!DNL Audience Manager] Puede quitar un ID entre dispositivos de un segmento cuando [!UICONTROL Profile Merge Rule] utilice la opción **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** . En estas condiciones, la dessegmentación se produce cuando el ID entre dispositivos ya no cumple los requisitos para un segmento porque las actualizaciones o los cambios en el perfil entre dispositivos lo descalifican. Esto sucede cuando cambian los criterios de calificación de segmentos, o cuando se aplica un [!UICONTROL AND NOT] operador a una regla de segmento, o se especifican condiciones de [actualización y frecuencia](../segments/recency-and-frequency.md) que utilizan la configuración menor o igual que. Los casos de uso se describen en la documentación de Supresión [entre dispositivos](instant-cross-device-suppression.md) instantánea.
 
-![](../assets/current-no-device.png)
+![](assets/current-no-device.png)
 
 ## Opciones de Device Graph y dessegmentación de dispositivos {#device-graph-options-unsegmentation}
 
