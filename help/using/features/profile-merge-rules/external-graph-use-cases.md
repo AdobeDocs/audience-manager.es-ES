@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ejemplos de uso de los Gráficos de dispositivos externos
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ Considere las opciones de gráficos de dispositivos [!DNL Experience Cloud Devic
 * Diríjase a grandes audiencias. Los gráficos de dispositivos [!DNL Experience Cloud Device Co-op] y de terceros contienen datos autenticados y no autenticados.
 * Segmentar visitantes autenticados y/o no autenticados a nivel individual y doméstico.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ Al utilizar el **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adob
 >
 >* [Casos de uso de Device Graph de vínculo de perfil](profile-link-use-case.md)
 >* [Casos generales de uso de reglas de combinación de perfiles](merge-rule-targeting-options.md)
->* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](faq-profile-merge.md)
+>* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
