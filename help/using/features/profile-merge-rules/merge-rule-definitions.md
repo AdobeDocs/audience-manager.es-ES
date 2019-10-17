@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opciones de regla de combinación de perfiles definidas
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ La [!UICONTROL Cross-Device Profile Options] lista muestra las fuentes de datos 
 
 ## Opciones de dispositivo {#device-options}
 
-Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* uso por parte de un [!UICONTROL Profile Merge Rule]. Un perfil de dispositivo se compone de características recopiladas por los usuarios cuando navegan por la web de forma anónima. Como mínimo, una regla de combinación de perfiles incluye una opción autenticada y una opción de dispositivo.
+Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* uso por parte de un [!UICONTROL Profile Merge Rule]. Un perfil de dispositivo se crea a partir de características recopiladas de la actividad de exploración anónima. Como mínimo, una regla de combinación de perfiles incluye una opción autenticada y una opción de dispositivo.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
