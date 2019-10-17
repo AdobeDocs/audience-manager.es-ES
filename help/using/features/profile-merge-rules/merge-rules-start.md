@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introducción a las reglas de combinación de perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ Los campos de texto asociados a esta configuración permiten cambiar el nombre d
 
 ## Crear una regla de combinación de perfiles {#create-profile-merge-rule}
 
-Para crear un [!UICONTROL Profile Merge Rule], vaya a **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** y complete los pasos de cada sección que se describe aquí. Puede crear hasta 3 reglas de combinación después de configurar un origen de datos entre dispositivos. Se necesitan permisos de administrador para crear, editar o eliminar una regla. Todos los usuarios pueden ver y utilizar los datos existentes [!UICONTROL Profile Merge Rules].
+Para crear un [!UICONTROL Profile Merge Rule], vaya a **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** y complete los pasos de cada sección que se describe aquí.
+
+Puede crear hasta 3 reglas de combinación después de configurar un origen de datos entre dispositivos. Puede acceder a una cuarta regla de combinación de perfiles ([!UICONTROL All Cross-Device Profiles]) si se registra en Destinos [basados en](../destinations/people-based-destinations-overview.md)personas.
+
+Se necesitan permisos de administrador para crear, editar o eliminar una regla. Todos los usuarios pueden ver y utilizar los datos existentes [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
