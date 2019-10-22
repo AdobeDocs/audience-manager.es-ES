@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos generales de uso de reglas de combinación de perfiles
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ El vínculo entre el dispositivo y el perfil doméstico permite a Audience Manag
 
 ![administración del hogar](assets/household-management.png)
 
-## Objetivo basado en personas {#all-cross-device}
+## Objetivo para destinos basados en personas {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
 Este escenario de objetivo solo está disponible para los clientes que han comprado el [!DNL People-Based Destinations] complemento. Esta regla permite que los especialistas en mercadotecnia lleguen a los clientes en función de sus propios datos autenticados.
 
-Supongamos que un minorista en línea desea llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash propias [!DNL CRM] a Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que deseen publicitar, optimizando así el gasto en publicidad.
+Supongamos que un minorista en línea desea llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash propias [!DNL CRM] en Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que deseen publicitar, mediante ese identificador con hash, lo que optimiza la inversión en publicidad.
 
 Para obtener más información sobre esta opción, consulte Destinos basados en [personas](../destinations/people-based-destinations-overview.md).
 
