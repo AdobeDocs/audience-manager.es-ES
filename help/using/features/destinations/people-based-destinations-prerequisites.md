@@ -5,7 +5,7 @@ seo-title: Requisitos previos y consideraciones sobre destinos basados en person
 solution: Audience Manager
 title: Requisitos previos y consideraciones
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -50,7 +50,7 @@ Aunque [!DNL People-Based Destinations] le permite dirigirse a audiencias en fun
 
 ## Coincidencia de datos frente a codificación {#data-hashing-encryption}
 
-Encryption is a two-way function. Any encrypted information can also be decrypted, using the correct decryption key. El cifrado de datos en el contexto de Audience Manager plantea serios riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash.
+El cifrado es una función bidireccional. También se puede descifrar cualquier información cifrada mediante la clave de descifrado correcta. El cifrado de datos en el contexto de Audience Manager plantea serios riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash.
 
 Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue a Audience Manager.
 
@@ -83,9 +83,11 @@ En caso de que sus clientes deseen excluir las campañas de publicidad, consulte
 
 Cuando utilice [!DNL People-Based Destinations], solo puede utilizar datos de origen para activar segmentos de audiencia en canales basados en personas. No se pueden usar datos de terceros o segundos para activar audiencias en canales basados en personas.
 
+Cuando utilice [!UICONTROL People-Based Destinations], utilice Controles [de exportación](../data-export-controls.md) de datos para etiquetar sus orígenes de datos y destinos según las directrices y los requisitos de las plataformas de destino y los proveedores de datos.
+
 ## ID con hash autenticados integrados mediante el objetivo de ID declarado {#onboard-authenticated-declared-id}
 
 Existen dos formas de llevar los datos sin conexión a Audience Manager para [!DNL People-Based Destinations].
 
 * [Envíe datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes a Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede elegir utilizar las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!DNL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para características [integradas](../traits/trait-qualification-reference.md).
-* Utilice ID [declarados](../declared-ids.md) para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager, en su nombre, solo envía a [!DNL People-Based Destinations] las direcciones de correo electrónico con hash los usuarios que se han autenticado en línea. The email addresses activated through people-based channels are only the ones in the declared ID event calls. Other email addresses associated with the customer ID are not sent in real-time.
+* Utilice ID [declarados](../declared-ids.md) para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, Audience Manager, en su nombre, solo envía a [!DNL People-Based Destinations] las direcciones de correo electrónico con hash los usuarios que se han autenticado en línea. Las direcciones de correo electrónico activadas a través de canales basados en personas son solo las que aparecen en las llamadas de evento de ID declaradas. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
