@@ -5,7 +5,7 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -26,7 +26,7 @@ Se utiliza [!DNL People-Based Destinations] para enviar segmentos de audiencia d
 * Eliminar los costos asociados con las soluciones de incorporación de datos de terceros;
 * Eliminar los costos asociados con el desarrollo de flujos de trabajo personalizados de incorporación de datos;
 * Dirigirse a audiencias en entornos sin cookies;
-* Dirija la audiencia deduplicando las direcciones de correo electrónico coincidentes con los ID de cliente.
+* Para segmentar audiencias, elimine la duplicación de direcciones de correo electrónico con hash que coincida con los ID de cliente.
 
 Puede usar [!DNL People-Based Destinations] para segmentar y segmentar clientes de alto valor que no visiten el sitio web o dejar de segmentar por aquellos que ya se han convertido sin conexión. Además, puede aprovechar [!DNL Profile Merge Rules] para combinar los datos de origen sin conexión con los datos de origen en línea, incluidos los datos de clientes de otras soluciones de Adobe Experience Cloud, para optimizar los esfuerzos de publicidad en medios sociales.
 
