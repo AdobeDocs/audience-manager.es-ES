@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Uso compartido de público entre Audience Manager y Adobe Experience Platform
 keywords: Uso compartido de público de AEP, segmentos de AEP, segmentos de plataforma
 translation-type: tm+mt
-source-git-commit: 421f15b79fa647bf4fbf71a425c7f7792fb302e5
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -36,9 +36,9 @@ Además, los segmentos de la plataforma de experiencia se comparten con otras so
 
 Consulte la tabla siguiente para obtener una descripción general de los casos de uso de uso de uso compartido de audiencia:
 
-| `*` | **Adobe Experience Platform** | **Audience Manager** | **Servicios principales** |
+| **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Servicios principales** |
 ---------|----------|---------|---------
-| **Caso de uso de uso de uso compartido de audiencia** | <ul><li>Enriquecer perfiles de cliente con datos de Audience Manager</li><li>Uso de datos de Audience Manager en la segmentación de la plataforma de experiencia</li></ul> | <ul><li>Agregar datos de terceros a segmentos</li><li>Modelado algorítmico</li><li>Activación en destinos adicionales</li></ul> | Utilice segmentos de la plataforma de experiencia en otras soluciones de Experience Cloud, como Adobe Target o Analytics. |
+| **Uso compartido de audiencias** | <ul><li>Enriquecer perfiles de cliente con datos de Audience Manager</li><li>Uso de datos de Audience Manager en la segmentación de la plataforma de experiencia</li></ul> | <ul><li>Agregar datos de terceros a segmentos</li><li>Modelado algorítmico</li><li>Activación en destinos adicionales</li></ul> | Utilice segmentos de la plataforma de experiencia en otras soluciones de Experience Cloud, como Adobe Target o Analytics. |
 
 <br> 
 
