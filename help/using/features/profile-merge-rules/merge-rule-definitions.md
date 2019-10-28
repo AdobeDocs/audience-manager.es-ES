@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opciones de regla de combinación de perfiles definidas
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ Las reglas de combinación de perfiles permiten una serie de combinaciones de re
 | Sin perfil entre dispositivos | Gráfico de dispositivos externos (incluye Device Graph de cooperación) | Todos los clientes | Tiempo real y lote | No | [Targeting ampliado de dispositivos](external-graph-use-cases.md#audience-expansion) |
 | Perfiles autenticados actuales | Sin perfil de dispositivo | Todos los clientes | Solo en tiempo real | No | [Segmentación de dispositivos compartidos](merge-rule-targeting-options.md#target-shared-devices) |
 | Últimos perfiles autenticados | Perfil del dispositivo | Todos los clientes | Tiempo real y lote | Sí | [Objetivo en línea/sin conexión](merge-rule-targeting-options.md#device-household-targeting) |
-| Últimos perfiles autenticados |  Gráfico de dispositivo de vínculo de perfil | Solo Norteamérica y Canadá | Tiempo real y lote | Sí | [Targeting entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
+| Últimos perfiles autenticados |  Gráfico de dispositivo de vínculo de perfil | Todos los clientes | Tiempo real y lote | Sí | [Targeting entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
 | Últimos perfiles autenticados | Gráfico de dispositivos externos (incluye Device Graph de cooperación) | Todos los clientes | Tiempo real y lote | No | [Targeting cruzado de dispositivos avanzado](external-graph-use-cases.md#advanced-graph-expansion) |
 |  Todos los perfiles entre dispositivos | N/D | Exclusivo para clientes de destinos [basados en](../destinations/people-based-destinations-overview.md) personas | Sólo lote | No | [Objetivo para destinos basados en personas](merge-rule-targeting-options.md#all-cross-device) |
 
