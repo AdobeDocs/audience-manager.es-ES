@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
 
 ---
 
@@ -17,20 +17,28 @@ Obtenga recomendaciones de características en directo a medida que genera sus s
 
 ## Demostración en video
 
-Comience por ver el vídeo de recomendaciones de características y, a continuación, siga leyendo para obtener más información.
+Comience viendo el [!UICONTROL Trait Recommendations] video de abajo y luego lea para obtener más información.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=spa)
+
+En el siguiente vídeo se describe el flujo de trabajo para [!UICONTROL Marketplace Recommendations], que muestra cómo agregar recomendaciones de características a los segmentos, desde fuentes de datos en [!UICONTROL Audience Marketplace].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=spa)
 
 ## Información general
 
 [!UICONTROL Trait Recommendations], con tecnología [!DNL Adobe Sensei], incorpora la ciencia de datos en los flujos de trabajo diarios de Audience Manager.
-With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. Añada las características recomendadas al segmento para aumentar la audiencia objetivo.
+With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-![Información general sobre las recomendaciones de características](assets/trait-recommendations-overview.png)
+Audience Manager muestra las recomendaciones de características tanto de sus características individuales, en la **[!UICONTROL Recommendations]** sección como de **[!UICONTROL Audience Marketplace]**, en la **[!UICONTROL Recommendations from Marketplace]** sección.
+
+![Información general sobre las recomendaciones de características](assets/trait-recommendations-overview-full.png)
+
+Añada las características recomendadas al segmento para aumentar la audiencia objetivo.
 
 **En pocas palabras:**
 
-* Audience Manager muestra las características de origen y de terceros de las fuentes de datos actualmente suscritas como características recomendadas.
+* Audience Manager muestra las características individuales en la [!UICONTROL Recommendations] sección. Las recomendaciones del mercado de fuentes públicas y privadas a las que no está suscrito están visibles en la [!UICONTROL Recommendations from Marketplace] sección .
 * Audience Manager muestra un máximo de cincuenta características similares a la de la regla de segmento.
 * Puede filtrar las fuentes de datos de las que no desee ver ninguna recomendación.
 * Al calcular las similitudes, Audience Manager considera los [UUID](../../reference/ids-in-aam.md) que cumplen los requisitos para la característica durante los últimos 30 días.
@@ -65,28 +73,33 @@ Debe usar [!UICONTROL Trait Recommendations] cuando:
 
 ## Flujo de trabajo
 
-Al crear o editar un segmento en el Generador [de segmentos](segment-builder.md), puede explorar características similares a las de la regla de segmentos. El flujo de trabajo del Generador de segmentos es muy similar para los segmentos nuevos y existentes:
+Al crear o editar un segmento en el Generador [de segmentos](segment-builder.md), puede explorar características similares a las de la regla de segmentos. El flujo de trabajo [del Generador](segment-builder.md) de segmentos es muy similar para los segmentos nuevos y existentes:
 
 ### Nuevos segmentos
 
-1. En Datos de **audiencia &gt; Segmentos**, seleccione **Agregar nuevo**.
+1. Vaya a Datos de **audiencia &gt; Segmentos** y haga clic en **Agregar nuevo**.
 2. En el cuadro desplegable **Características** , agregue al menos una característica a la regla de segmento.
-3. Ahora puede ver características recomendadas que son similares a las características agregadas a la regla de segmento. Desplácese hacia abajo para ver todas las características recomendadas.
-4. (Opcional) Para excluir las características recomendadas de ciertas fuentes de datos, haga clic en el símbolo **X** de las fuentes de datos que desee excluir.
+3. Puede ver las características recomendadas de origen en la sección y las características recomendadas de terceros en la **[!UICONTROL Recommendations]** sección **[!UICONTROL Recommendations from Marketplace]** . Todas estas recomendaciones son similares a las características agregadas a la regla de segmento. Desplácese hacia abajo para ver todas las características recomendadas.
+4. (Opcional) Para excluir las características de origen recomendadas de determinadas fuentes de datos, haga clic en el símbolo **X** de las fuentes de datos que desee excluir.
    > [!NOTE]
-   > 
-   >Las fuentes de datos excluidas se muestran justo encima de la lista de características recomendadas. Pulse **X** en el cuadro gris para eliminar las exclusiones y ver los resultados de las fuentes de datos correspondientes de nuevo.
+   >
+   > Las fuentes de datos excluidas se muestran justo encima de la lista de características recomendadas. Haga clic en **X** en el cuadro gris para eliminar las exclusiones y ver los resultados de las fuentes de datos correspondientes de nuevo.
 5. Para agregar características recomendadas a la regla de segmento, haga clic en el símbolo **+** .
+
+> [!IMPORTANT]
+> Al agregar [!UICONTROL Marketplace] características a un segmento, las características solo se utilizan para la estimación de segmentos, hasta que se suscriba a la fuente de datos correspondiente. Las características que provienen de fuentes de datos a las que no está suscrito se marcan con un icono de carro de compras en la lista de características. Haga clic en el nombre de la característica para ir a la página de fuentes de datos y suscribirse a ella.
+> ![mercado sin suscripción](assets/trait-recommendations-marketplace.png)
+> Puede guardar un segmento con características de terceros solo después de suscribirse a las fuentes de datos correspondientes.
 
 ### Segmentos existentes
 
-1. Vaya a **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, seleccione el segmento que desee editar y pulse ![Editar](assets/edit-button.png).
+1. Vaya a **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, seleccione el segmento que desee editar y haga clic en ![Editar](assets/edit-button.png).
 1. Desplácese hacia abajo hasta el cuadro [!UICONTROL Traits] desplegable.
 1. Puede ver las características recomendadas, que son similares a las características que ya aparecen en la regla de segmento. Desplácese hacia abajo para ver todas las características recomendadas.
 1. (Opcional) Para excluir las características recomendadas de ciertas fuentes de datos, haga clic en el símbolo **X** de las fuentes de datos que desee excluir.
    > [!NOTE]
-   > 
-   >Las fuentes de datos excluidas se muestran justo encima de la lista de características recomendadas. Pulse **X** en el cuadro gris para eliminar las exclusiones y ver los resultados de las fuentes de datos correspondientes de nuevo.
+   >
+   > Las fuentes de datos excluidas se muestran justo encima de la lista de características recomendadas. Haga clic en **X** en el cuadro gris para eliminar las exclusiones y ver los resultados de las fuentes de datos correspondientes de nuevo.
 1. Para agregar características recomendadas a la regla de segmento, haga clic en el símbolo **+** .
 
 Al crear o editar un segmento y agregar una característica a la regla de segmento, verá un máximo de cincuenta características recomendadas, similares a la que ha agregado. Si la regla de segmento contiene más de una característica, Audience Manager utiliza un método de rotación redonda para mostrar la mejor coincidencia para cada característica, la segunda mejor coincidencia para cada característica, etc., para las cincuenta características más grandes por población, en la regla de segmento.
@@ -103,11 +116,11 @@ Por ejemplo, cuando hay tres características en la regla de segmento, como se m
 
 Para obtener recomendaciones para una característica específica, puede hacer clic en las características en la regla de segmento (1) o en la vista de características recomendadas (2).
 
-![](assets/three-base-traits-numbered.png)
+![base-traits-example](assets/three-base-traits-numbered.png)
 
-Al hacer clic en una característica se abre una ventana emergente, como se muestra en la imagen de abajo. Si las características recomendadas no forman parte del segmento, puede agregarlas al segmento pulsando **+**.
+Al hacer clic en una característica propia se abre una ventana emergente, como se muestra en la imagen de abajo. Si las características recomendadas no forman parte del segmento, puede agregarlas al segmento pulsando **+**.
 
-![](assets/add_to_segments.png)
+![complemento al segmento](assets/add_to_segments.png)
 
 > [!TIP]
 >
@@ -115,7 +128,7 @@ Al hacer clic en una característica se abre una ventana emergente, como se mues
 
 > [!NOTE]
 >
-> Las características recomendadas pueden ser las características de origen o de terceros de las fuentes a las que está suscrito.
+> Las características recomendadas pueden ser sus características de origen o de terceros a partir de fuentes de datos a las que esté suscrito en [!UICONTROL Audience Marketplace].
 
 ## Cómo funciona
 
@@ -125,7 +138,7 @@ Para generar recomendaciones de características, Audience Manager calcula la si
 
 Audience Manager calcula los [!UICONTROL Trait Similarity Score] dos rasgos calculando la intersección y la unión en términos del número de [!UICONTROL UUID]s y, a continuación, divide los dos. Para dos características A y B, el cálculo tiene este aspecto:
 
-![](assets/jaccard_similarity.png)
+![similitud de jaccard](assets/jaccard_similarity.png)
 
 Consulte también los dos ejemplos siguientes.
 
@@ -134,14 +147,14 @@ Consulte también los dos ejemplos siguientes.
 Dadas las dos características A y B, digamos que cada una de las características tiene una población de 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s de las cuales califican para ambas características.
 Si se utiliza la fórmula anterior, el resultado será: 25.000 / 1.975.000 = 0,012. Este es un bajo [!UICONTROL Trait Similarity Score], los dos rasgos son muy diferentes.
 
-![](assets/Trait-Recommendations-Low-overlap.png)
+![trait-recommendations-low-superposición](assets/Trait-Recommendations-Low-overlap.png)
 
 ### Ejemplo 2: Puntuación de similitud de características
 
 Si los mismos rasgos A y B tenían 400.000 [!UICONTRL ]UUID que cumplen los dos rasgos, el valor [!UICONTROL Trait Similarity Score] es mucho mayor:
 400.000 / 1.600.000 = 0,25
 
-![](assets/Trait-Recommendations-High-overlap.png)
+![trait-recommendations-high-superposición](assets/Trait-Recommendations-High-overlap.png)
 
 ### Cómo interpretar la puntuación de similitud de características
 
