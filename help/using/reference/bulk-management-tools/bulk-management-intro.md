@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ La tabla siguiente muestra las operaciones que puede realizar y los elementos qu
 Como ejemplo, veamos cómo crear varias características a la vez. Para crear varias características en una operación masiva, debe:
 
 1. Haga clic en la **[!UICONTROL Headers]** ficha y copie todas las etiquetas de la [!UICONTROL Create a Trait] opción.
-
 2. Haga clic en la **[!UICONTROL Create]** ficha y pegue las etiquetas comenzando en la fila 1, columna A.
 3. Proporcione información relacionada con cada encabezado de columna y haga clic en **[!UICONTROL Create Traits]**. Esta acción le solicita que confirme su autenticación. El trabajo masivo se ejecuta después de confirmar la autenticación. Compruebe en la esquina inferior izquierda de la hoja de cálculo si hay una notificación de estado del trabajo.
+
 
 >[!NOTE]
 >
