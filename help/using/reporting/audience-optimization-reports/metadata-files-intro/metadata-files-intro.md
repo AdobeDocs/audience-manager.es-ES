@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Archivos de metadatos y datos de registro
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 translation-type: tm+mt
-source-git-commit: bbf61db85c05b06991633e4e77cb9e9dad9c6864
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
