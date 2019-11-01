@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ID declarados
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,7 +36,7 @@ Algunos exploradores y la mayoría de los dispositivos móviles no aceptan cooki
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Llamada al evento</b> </td> 
-   <td colname="col2"> <p>Para trabajar, necesita <span class="wintitle"> DIL </span> y el código del servicio de ID de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud </a> en la página. <span class="wintitle"> DIL </span> obtiene <span class="wintitle"> ID declarados </span> de la función <code> ID de visitante </code> establecida por el servicio de ID de <span class="keyword"> Experience Cloud </span> y lo pasa a <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Para trabajar, necesita <span class="wintitle"> DIL </span> y el código del servicio de ID de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud </a> en la página. <span class="wintitle"> DIL </span> obtiene <span class="wintitle"> ID declarados </span> de la <code> setVisitorID </code> función proporcionada por el servicio de ID de <span class="keyword"> Experience Cloud </span> y lo pasa a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Id. de coincidencia</b> </td> 
@@ -82,15 +82,15 @@ Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID de proveedor de datos e ID de usuario. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio /demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de integración e ID de usuario. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios pares <code> d_cid </code> y <code> d_cid_ic </code> clave-valor. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,16 +108,16 @@ Estos métodos siguen funcionando pero se consideran obsoletos. Esta informació
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> solo d_uuid </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code> solamente </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opción de exclusión a nivel de socio </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= de ID de usuario y d_dpid= ID de proveedor de datos </code> </p> <p>Se almacena una exclusión a nivel de socio para la asignación más reciente de este <code> par dpid </code> + <code> dpuuid </code> a un UUID de AAM. Si no hay ninguna asignación anterior, Audience Manager comprueba si la solicitud contiene un UUID de AAM en la cookie y, en caso afirmativo, lo utiliza para almacenar la exclusión. De lo contrario, Audience Manager genera un nuevo UUID de AAM y almacena la exclusión en él. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Se almacena una exclusión a nivel de socio para la asignación más reciente de este <code> dpid </code> + <code> dpuuid </code> par a un UUID de AAM. Si no hay ninguna asignación anterior, Audience Manager comprueba si la solicitud contiene un UUID de AAM en la cookie y, en caso afirmativo, lo utiliza para almacenar la exclusión. De lo contrario, Audience Manager genera un nuevo UUID de AAM y almacena la exclusión en él. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> y explícito <code> _uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= ID de usuario&amp;d_dpuuid= ID de usuario del proveedor de datos&amp;<i>d_dpid=ID</i> del proveedor de datos </code> </p> <p> <code> d_uuid </code> siempre tiene prioridad. Si la <code> combinación dpid </code> + <code> dpuuid </code> se asigna a otro UUID de AAM, la exclusión se almacena bajo el UUID de AAM pasado en la solicitud ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> y explícito <code> d_uuid </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> siempre tiene prioridad. Si la combinación <code> dpid </code> + <code> dpuuid </code> se asigna a otro UUID de AAM, la exclusión se almacena bajo el UUID de AAM pasado en la solicitud ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,12 +142,12 @@ En cada par clave-valor:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid = ID<i>del proveedor</i> de datos %01<i>ID</i> del usuario </code> </p> </td> 
-   <td colname="col2"> <p>Contiene un ID de proveedor de datos y un ID de usuario único asociado en un solo par clave-valor. <code> d_cid </code> reemplaza a <code> d_dpid </code> y <code> d_dpuuid </code>, que se consideran obsoletos, pero que siguen siendo compatibles. Consulte <a href="../reference/cid.md">CID sustituye DPID y DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Contiene un ID de proveedor de datos y un ID de usuario único asociado en un solo par clave-valor. <code> d_cid </code> reemplaza <code> d_dpid </code> y <code> d_dpuuid </code>, que se consideran obsoletos, pero que siguen siendo compatibles. Consulte <a href="../reference/cid.md">CID sustituye DPID y DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid_ic = código<i></i> de integración %01<i>ID</i> de usuario </code> </p> </td> 
-   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. <code> d_cid_ic </code> reemplaza a <code> d_dpid </code> y <code> d_dpuuid </code>, que están en desuso, pero aún son compatibles. Consulte <a href="../reference/cid.md">CID sustituye DPID y DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. <code> d_cid_ic </code> reemplaza <code> d_dpid </code> y <code> d_dpuuid </code>, que están en desuso, pero que aún son compatibles. Consulte <a href="../reference/cid.md">CID sustituye DPID y DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,23 +166,18 @@ Dados estos pares clave-valor y su sintaxis requerida, haría llamadas de evento
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID de proveedor de datos e ID de usuario. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio/evento?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de integración e ID de usuario. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio/evento?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios pares <code> d_cid </code> y <code> d_cid_ic </code> clave-valor. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nombre</i>de dominio/evento?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
->[!MORE_LIKE_THIS]
->
->* [CID sustituye DPID y DPUUID](../reference/cid.md)
-
 
 ## Variables de ID declaradas {#declared-id-variables}
 
@@ -285,3 +280,8 @@ myCallback({
 ## No segmentar ni rechazar llamadas {#do-not-target}
 
 El [!UICONTROL declared ID] proceso respeta las preferencias de los visitantes del sitio para que el sitio web no pueda optar por la segmentación de Audience Manager. Cuando Audience Manager recibe una solicitud de exclusión, la [!UICONTROL DCS] devuelve un [!DNL JSON] objeto vacío en lugar del ID de usuario de Audience Manager.
+
+>[!MORELIKETHIS]
+>
+>* [CID sustituye DPID y DPUUID](../reference/cid.md)
+
