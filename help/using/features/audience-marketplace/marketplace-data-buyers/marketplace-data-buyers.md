@@ -7,7 +7,7 @@ title: Mercado de audiencias para compradores de datos
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d9a4244f68e95c872d3686da10ee3a774250fbfe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,7 +87,7 @@ Vea el siguiente vídeo para obtener una descripción general completa de cómo 
 
 En la [!UICONTROL Marketplace] lista, a veces el nombre del proveedor y los datos de características se marcan como privados. Esto indica una fuente [de datos](../../../features/audience-marketplace/marketplace-private-feeds.md)privada. Una fuente de datos privada permite a los vendedores limitar el acceso del comprador a sus datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes para ellos. Como comprador, debes enviar una solicitud de suscripción al vendedor si quieres acceder a una fuente privada. Consulte [Suscripción a una fuente](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de datos privada para obtener más información.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [La página de detalles del plan de Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [Descuentos para compradores de datos](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
