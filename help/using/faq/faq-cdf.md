@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre la fuente de datos del cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -83,7 +83,7 @@ Los datos se eliminan pasados 8 (ocho) días.
 
 Sólo puede generar archivos CDF durante los últimos 8 días. No se pueden volver a generar los archivos CDF para intervalos anteriores a los últimos 8 días.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Fuentes de datos del cliente](../features/cdf-files.md)
 
