@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Métricas de informes para reglas de combinación de perfiles
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -116,7 +116,7 @@ Un [!UICONTROL Profile Link Device Graph] informe que incluye datos de gráficos
 
 Además de las demás visualizaciones de datos, los informes incluyen un gráfico de líneas [!UICONTROL Profile Link] . El gráfico de líneas está diseñado para mostrar las tendencias a lo largo del tiempo de las reglas de perfil. Los gráficos de tendencias (y los demás informes) están disponibles al hacer clic en una regla desde la [!UICONTROL Profile Merge Rules] página de aterrizaje ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Estos gráficos incluyen datos de gráficos de dispositivos si es miembro del [!UICONTROL Device Co-op] o de otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager]. Haga clic en una línea de tendencias para ver los datos subyacentes.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
