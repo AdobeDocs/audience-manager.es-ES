@@ -8,7 +8,7 @@ title: Acerca de los modelos algorítmicos
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -52,16 +52,9 @@ Los modelos se administran en **[!UICONTROL Audience Data > Models]**. En un niv
 
 Desactivamos cualquier modelo algorítmico que no pueda generar datos para tres ejecuciones consecutivas. Tenga en cuenta que no puede volver a activar el estado del modelo posteriormente. Para garantizar que los modelos generen datos, le recomendamos que cree modelos a partir de fuentes de datos con características suficientes para acumular datos.
 
->[!MORE_LIKE_THIS]
->
->* [Destinos](../../features/destinations/destinations.md)
->* [Características](../../features/traits/trait-details-page.md)
->* [Segmentos](../../features/segments/segments-purpose.md)
-
-
 ## Explicación de TraitWeight {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir automáticamente nuevas características. Compara los datos de características de sus características y segmentos actuales con todos los demás datos de origen y de terceros a los que tiene acceso a través de [!DNL Audience Manager]. Consulte esta sección para ver una descripción del proceso de detección [!UICONTROL TraitWeight] algorítmica.
+[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir automáticamente nuevas características. Compara los datos de características de sus características actuales y los segmentos con todos los demás datos de origen y de terceros a los que tiene acceso a través de [!DNL Audience Manager]. Consulte esta sección para ver una descripción del proceso de detección [!UICONTROL TraitWeight] algorítmica.
 
 <!-- traitweight.xml -->
 
@@ -210,3 +203,10 @@ La página de resumen del modelo incluye las siguientes secciones.
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [Destinos](../../features/destinations/destinations.md)
+>* [Características](../../features/traits/trait-details-page.md)
+>* [Segmentos](../../features/segments/segments-purpose.md)
+
