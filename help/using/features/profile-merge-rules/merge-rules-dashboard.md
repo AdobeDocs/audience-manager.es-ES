@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tablero de reglas de combinación de perfiles
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Al trabajar con [!UICONTROL Profile Merge Rules], puede:
 * Rastree el número promedio de dispositivos para cada usuario.
 * Trabaje con controles básicos para crear, editar y eliminar reglas. Solo los administradores pueden administrar reglas, pero otros usuarios pueden verlas y aplicarlas a segmentos. Consulte Opciones [de regla de combinación de perfiles definidas](merge-rule-definitions.md) y casos de [uso para reglas](merge-rule-targeting-options.md)de combinación.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
