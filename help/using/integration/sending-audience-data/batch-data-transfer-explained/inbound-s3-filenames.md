@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de datos de entrada
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -151,7 +151,7 @@ Tenga en cuenta las siguientes cifras para un procesamiento más rápido y más 
 >
 >El proceso de validación de datos de entrada marcará los archivos vacíos como no válidos y no los procesará.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Requisitos de nombre de FTP para archivos de datos de entrada](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
