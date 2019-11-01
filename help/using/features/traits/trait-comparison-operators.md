@@ -3,10 +3,10 @@ description: Este artículo describe los operadores de comparación utilizados p
 seo-description: Este artículo describe los operadores de comparación utilizados por el Generador de características.
 seo-title: Uso de operadores de comparación en el generador de características
 solution: Audience Manager
-title: ' Uso de operadores de comparación en el generador de características'
+title: Uso de operadores de comparación en el generador de características
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Puede generar reglas con los siguientes operadores con nombre:
 | **[!UICONTROL Endswith]** | El valor de un par clave-valor *termina con* los caracteres especificados por este operador. |
 | **[!UICONTROL Matchesregex]** | El valor de un par clave-valor *coincide* con el patrón especificado por una expresión regular. [Obtenga más](../../features/traits/trait-builder-regex.md) información sobre el uso de expresiones regulares en [!UICONTROL Trait Builder]. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Expresiones booleanas en el Generador de características y segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Expresiones booleanas en TraitBuilder](../../reference/boolean-expressions-tsb.md)
