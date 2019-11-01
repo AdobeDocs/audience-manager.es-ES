@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -121,7 +121,7 @@ Como ejemplo, veamos cómo crear varias características a la vez. Para crear va
 
 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Descargar la hoja de cálculo de administración masiva](assets/BAAAM_August_2018.xlsm)
 
