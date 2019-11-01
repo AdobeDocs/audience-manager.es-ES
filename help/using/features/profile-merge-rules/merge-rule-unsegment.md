@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Reglas de combinación de perfiles y procesos de dessegmentación de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la [!UI
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas más frecuentes sobre las reglas de combinación de perfiles y Device Graph](../../faq/faq-profile-merge.md)
 >* [Eliminación instantánea entre dispositivos](instant-cross-device-suppression.md)
