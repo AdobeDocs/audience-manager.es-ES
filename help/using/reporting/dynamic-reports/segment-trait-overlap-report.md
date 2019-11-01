@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de solapamiento entre segmento y característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,7 +27,7 @@ c_segment_trait_overlap.xml
 
 ## Información general
 
-Como herramienta de optimización, los [!UICONTROL Segment to Trait Overlap] informes le ayudan a generar segmentos muy enfocados o a expandir el alcance de los segmentos. Por ejemplo, puede crear segmentos y características centrados con una superposición alta para llegar a una audiencia determinada. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecutar este informe para ayudar a expandir el alcance eliminando características con mucha superposición de segmentos y reemplazándolas con características que tienen menos superposición.
+Como herramienta de optimización, los [!UICONTROL Segment to Trait Overlap] informes le ayudan a generar segmentos muy enfocados o a expandir el alcance de los segmentos. Por ejemplo, puede crear segmentos y características enfocados con una superposición alta para llegar a una audiencia determinada. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecutar este informe para ayudar a expandir el alcance eliminando características con mucha superposición de segmentos y reemplazándolas con características que tienen menos superposición.
 
 ### Informe de muestra
 
@@ -176,7 +176,7 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
