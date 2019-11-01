@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sobreponer informes Actualizar programación y tamaño mínimo del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -46,7 +46,7 @@ Si no ve ningún segmento en uno de los [!UICONTROL Overlap] informes, puede deb
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Informe de solapamiento entre características](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [Informe de solapamiento entre segmento y característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
