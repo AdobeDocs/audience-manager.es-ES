@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentación del producto de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
+source-git-commit: 2d6671406ebf8e1626c0a0b259aad6bb482d7c0e
 
 ---
 
@@ -20,12 +20,11 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
   <tr> 
    <td colname="col1"> <p> <b>Elementos nuevos y destacados</b> </p> <p>Obtenga información sobre las últimas funciones de Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/segments/trait-recommendations.md">Recomendaciones inteligentes para datos de Audience Marketplace, con tecnología de Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Mejoras en las reglas de combinación de perfiles</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Actualización de las herramientas de administración masiva</a></li>
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinos basados en personas</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Configurar las audiencias personalizadas de Twitter como un destino basado en un dispositivo de autoservicio</a> </li>
-     <li><a href="features/destinations/destinations-home.md">Página principal de destinos</a> </li>
      </ul> </p> <p>Consulte también Actualizaciones <a href="docs-updates/docs-2019.md"> de documentación de 2019</a>. </p> 
      <p>Si es nuevo en Audience Manager, consulte nuestro <a href="reference/aam-glossary.md"> Glosario</a> e <a href= "reference/ids-in-aam.md">índice de ID.</a></p>
      <br> 
@@ -47,7 +46,6 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
   </tr> 
  </tbody> 
 </table>
-
 
 <!--
 
