@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,11 +45,11 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID de fuente de datos: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID de cliente interno: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarado: El socio desea pasar estos valores como ID declarada <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para hacer esto con la <code>%dpid_<i>data source id</i>%</code>, el <span class="keyword"> socio de Audience Manager</span> aplicaría este formato a la macro: </p> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarado: El socio desea pasar estos valores como ID declarado <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>Para hacerlo con el <code>%dpid_<i>data source id</i>%</code>, el <span class="keyword"> socio de Audience Manager</span> aplicaría este formato a la macro: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>La macro sustituirá <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
+    </ul> <p>La macro se reemplazará <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        Basado en AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
@@ -101,6 +101,6 @@ La eliminación de caché evita que los navegadores guarden y reutilicen el cont
 
 Ambas macros impiden el almacenamiento en caché, pero `%rnd%` pueden ser más eficientes. Por ejemplo, con `%timestamp%`, si varios usuarios ven una página simultáneamente, obtendrán el mismo valor de fecha y hora. Como resultado, el [!DNL URL] informe no es único y las llamadas múltiples se cuentan una sola vez. Sin embargo, `%rnd%` genera un valor numérico único para cada llamada (incluso cuando los usuarios ven la misma página simultáneamente). Esto significa que la [!DNL URL] cadena contiene valores diferentes y se cuenta como única.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined)
