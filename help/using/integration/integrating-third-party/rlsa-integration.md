@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Envío de segmentos a una lista de remercadotecnia de Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Para configurar una lista [!DNL Google Ads] de remercadotecnia como destino de [
    ```
 
 1. En Audience Manager, [cree un destino](../../features/destinations/create-url-destination.md) URL o edite un destino existente. Utilice los siguientes ajustes al crear el destino:
-   * Tipo: URL
+   * Tipo:URL
    * Serializar: Habilitado
    * Delimitador: Punto y coma (;)
 
@@ -65,7 +65,7 @@ Una asignación completada podría tener un aspecto similar a este:
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Destinos](../../features/destinations/destinations.md)
 >* [Crear un destino de dirección URL](../../features/destinations/create-url-destination.md)
