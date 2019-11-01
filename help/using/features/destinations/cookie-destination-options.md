@@ -5,7 +5,7 @@ seo-title: Configuración opcional para destinos de cookies
 solution: Audience Manager
 title: Configuración opcional para destinos de cookies
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -41,7 +41,7 @@ En [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contiene
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Ejemplo</b> </p> </td> 
-   <td colname="col2"> <p>Por ejemplo, digamos que tenemos un sitio ficticio llamado sports.com. Sports.com tiene dominios para golf, béisbol y fútbol. Para configurar una cookie en todos los dominios deportivos, debe escribirla en el cuadro Dominio <span class="wintitle"></span> de la cookie como se muestra a continuación: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Esto indica <span class="keyword"> a Audience Manager</span> que debe establecer una cookie en cualquier dominio que contenga el patrón <code><i>algo</i></code>.sports.com. Consulte a continuación un conjunto más complejo de ejemplos. </p> </td> 
+   <td colname="col2"> <p>Por ejemplo, digamos que tenemos un sitio ficticio llamado sports.com. Sports.com tiene dominios para golf, béisbol y fútbol. Para configurar una cookie en todos los dominios deportivos, debe escribirla en el cuadro Dominio <span class="wintitle"></span> de la cookie como se muestra a continuación: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Esto indica a <span class="keyword"> Audience Manager</span> que establezca una cookie en cualquier dominio que contenga el patrón <code><i>something</i></code>.sports.com. Consulte a continuación un conjunto más complejo de ejemplos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,6 +95,6 @@ La configuración devuelve una cookie si el dominio cumple los criterios estable
 * **[!UICONTROL Only the selected domains]**:: Devuelve una cookie solo para los dominios seleccionados en la lista de dominios.
 * **[!UICONTROL All of our domains except the selected domains]**:: Impide que los dominios seleccionados reciban un [!DNL cookie]. Todos los demás dominios pueden recibir un [!DNL cookie].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Crear un destino de cookie](../../features/destinations/create-cookie-destination.md)
