@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ En [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] los ajustes 
 
 En [!UICONTROL Segment Builder], la [!UICONTROL Traits] sección le permite administrar características en un segmento, crear grupos de características y establecer criterios de cualificación. Para agregar una característica a un segmento, escriba el nombre de la característica en el campo de búsqueda y haga clic en [!UICONTROL Add Trait]. Guarde la característica (si ha terminado) o continúe con [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **** Requisitos previos: Complete los campos obligatorios de la [!UICONTROL Basic Information] sección.
 
@@ -106,7 +106,8 @@ En [!UICONTROL Segment Builder], la [!UICONTROL Traits] sección le permite admi
 | Vista básica | Esta sección proporciona controles visuales que le permiten: <ul><li>Cree nuevos segmentos y administre los existentes.</li><li>Eliminar características de un segmento.</li><li>Agregue hasta 50 características (máximo) a un segmento.</li><li>Arrastre y suelte las características para crear nuevos grupos.</li><li>Ver características y grupos de características en un segmento.</li><li>Establezca criterios de cualificación con expresiones booleanas, operadores de comparación y ajustes de actualización y frecuencia.</li></ul> |
 | Vista de código | Abre un entorno de desarrollo que permite crear y administrar características, grupos y requisitos de cualificación con código en lugar de con la interfaz visual. La vista de código resulta útil si los segmentos: <ul><li>Contiene más de 50 características en un segmento individual. Nota: Los segmentos están limitados a 5000 características (máximo).</li><li>Contiene muchos grupos de características.</li><li>Tienen requisitos de cualificación complejos.</li></ul> |
 | Buscar | Ayuda a encontrar características que agregar a un segmento. |
-| Las actividades de | Obtenga recomendaciones activas para características similares para agregarlas a la regla de segmento. Lea más en Recomendaciones [de características](trait-recommendations.md). |
+| Las actividades de | Obtenga recomendaciones en directo para características similares, a partir de las características de origen y las fuentes de datos a las que está suscrito. [!UICONTROL Audience Marketplace] Agregue estas recomendaciones a la regla de segmentos para ampliar la audiencia. Lea más en Recomendaciones [de características](trait-recommendations.md). |
+| Recomendaciones de Marketplace | Obtenga recomendaciones en directo para características similares a partir de fuentes de datos a las que no esté suscrito. [!UICONTROL Audience Marketplace] Lea más en Recomendaciones [de características](trait-recommendations.md). |
 | Datos reales y estimados del tamaño del segmento | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Eliminar características de un segmento {#remove-traits}
