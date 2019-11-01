@@ -8,7 +8,7 @@ title: Mercado de audiencias para proveedores de datos
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ Las funciones incluyen:
 
 En [!UICONTROL My Shared Data]ocasiones, el estado de una fuente se marca como privada. Esto indica una fuente de datos privada. Una fuente de datos privada permite a los vendedores limitar el acceso del comprador a sus datos e incluso al nombre de la fuente de datos. Los vendedores pueden convertir las fuentes en privadas cuando ofrecen ofertas especiales, descuentos o cuando la privacidad y el control de acceso son importantes. Con las fuentes de datos privadas, los proveedores revisan y aprueban todas las solicitudes de acceso del comprador. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). Para crear una fuente de datos pública o privada, consulte [Creación de una fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)de datos pública o privada.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Descuentos para proveedores de datos](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
