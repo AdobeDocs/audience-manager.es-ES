@@ -6,7 +6,7 @@ solution: Audience Manager
 title: API de DCS para transferencias de datos de servidor a servidor
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,7 +27,7 @@ Servidor a servidor ([!UICONTROL S2S]) [!DNL API]proporciona código y métodos 
 La [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y realizar solicitudes de datos.
 
 * El ID de usuario es obligatorio porque necesita asociar datos con un visitante en particular.
-* El ID de región es necesario para volver a vincular las llamadas al nombre de un servidor y porque los datos de usuario se almacenan en centros de datos geográficamente más cercanos a los visitantes del sitio.
+* El ID de región es necesario para volver a enlazar las llamadas al nombre de un servidor y porque los datos de usuario se almacenan en centros de datos geográficamente más cercanos a los visitantes del sitio.
 
 ## Introducción {#getting-started}
 
@@ -44,7 +44,7 @@ Agregaremos nuevos métodos a medida que estén disponibles. Consulte las siguie
 * [Obtener ID de usuario y regiones a través del ID de Experience Cloud...](dcs-mcid-ids.md)
 * [Realización de llamadas de API de DCS de servidor a servidor](dcs-s2s-calls.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Referencia de API de DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
