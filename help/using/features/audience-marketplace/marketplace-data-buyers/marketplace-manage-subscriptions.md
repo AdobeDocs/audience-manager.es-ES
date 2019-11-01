@@ -7,7 +7,7 @@ title: Administrar suscripciones a fuentes de datos
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Después de suscribirse a una fuente de datos:
 
 * Revise la documentación de facturación y pago. Consulte los vínculos relacionados a continuación.
 
->[!MORE_LIKE_THIS]
->
->* [Asignación de impresión y facturación para fuentes de datos CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Asignación de facturación e impresión para fuentes de datos de tarifa fija](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Cómo informar del uso de CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## Suscripción a una fuente de datos privada {#subscript-private-data-feed}
 
 Los compradores se suscriben a fuentes de datos privadas y a los planes de **[!UICONTROL Audience Marketplace > Marketplace]**.
@@ -76,12 +69,6 @@ Para suscribirse a una fuente de datos privada:
 
    * **[!UICONTROL Request approved]**:: El estado de la [!UICONTROL Marketplace] lista cambia a "Acceso concedido" y recibirá una notificación automatizada. En este punto puede suscribirse a la fuente. Consulte [Suscripción a una fuente](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) de datos pública para obtener instrucciones.
    * **[!UICONTROL Request denied]**:: El texto "Solicitado" se elimina de la [!UICONTROL Marketplace] lista de la fuente. Puede intentar suscribirse de nuevo o elegir otra fuente.
-
->[!MORE_LIKE_THIS]
->
->* [Suscripción a una fuente de datos pública](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Descuentos para compradores de datos](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## Descuentos de fuentes de datos para compradores {#buyer-discount}
 
@@ -139,11 +126,6 @@ En el ejemplo, el comprador obtiene un 10 % de descuento en el [!UICONTROL Segme
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [Mercado: Acerca de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Búsqueda de datos de fuentes suscritas {#find-subscribed-data-fee}
 
 Los datos (características) de las fuentes de datos aparecen en sus propias carpetas de almacenamiento de características. Vaya a **[!UICONTROL Audience Data > Traits]** y expanda la **[!UICONTROL 3rd-Party Data]** carpeta para ver y trabajar con las características en las fuentes suscritas. Busque la subcarpeta con el nombre de su proveedor de datos. Éstas contienen carpetas con el nombre de cada fuente de datos y características de lista que proporciona la fuente.
@@ -151,11 +133,6 @@ Los datos (características) de las fuentes de datos aparecen en sus propias car
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [Suscripción a una fuente de datos pública](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## Cancelar la suscripción a una fuente de datos {#unsubscribe}
 
@@ -168,7 +145,7 @@ Para cancelar la suscripción de una fuente de datos:
 1. Haga clic en el nombre de la fuente de datos en la [!UICONTROL Marketplace].
 1. En la [!UICONTROL Use Case] sección busque el plan que desea utilizar y mueva el **[!UICONTROL Subscription]** deslizador a **[!UICONTROL Off]**.
 
-## Desactivación de fuente de datos: Por qué sucede y cómo responder {#data-feed-deactivation-reasons}
+##  Desactivación de fuente de datos: Por qué sucede y cómo responder {#data-feed-deactivation-reasons}
 
 En [!UICONTROL Audience Marketplace], los proveedores de datos pueden anular el acceso a las fuentes de datos suscritas. No te alarmes si esto te pasa. Te tenemos cubierto. Consulte esta sección para ver los procesos y procedimientos relacionados con las desactivaciones de fuentes de datos.
 
@@ -290,11 +267,6 @@ Esta página proporciona la siguiente información:
    * Haga clic **[!UICONTROL Cancel]** para salir de la página sin realizar cambios.
    * Haga clic **[!UICONTROL Review & Subscribe]** para suscribirse a una fuente de datos. Este botón aparece atenuado hasta que se cambia [!UICONTROL Subscription] a [!UICONTROL On]. Consulte también [Suscripción a una fuente](#subscript-public-data-feed) de datos pública y [Suscripción a una fuente](#subscript-private-data-feed)de datos privada.
 
->[!MORE_LIKE_THIS]
->
->* [Mercado: Acerca de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Explicación de los casos de uso de fuentes de datos {#use-cases}
 
 Como comprador [!UICONTROL Audience Marketplace] de datos, puede comprar datos para casos de uso de superposición, modelado y activación. Cada caso de uso está diseñado para un propósito específico y limita lo que se puede hacer con los datos. Estas descripciones de casos de uso pueden ayudarle a tomar la decisión correcta sobre qué tipo de plan de datos comprar.
@@ -317,3 +289,13 @@ Este caso de uso le permite evaluar las características del proveedor comparán
 ### Activation
 
 Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!UICONTROL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], intercambio, etc.) que desea compartir datos. Sin embargo, con un caso de [!UICONTROL Activation] uso, no puede ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
+
+>[!MORELIKETHIS]
+>
+>* [Asignación de impresión y facturación para fuentes de datos CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Asignación de facturación e impresión para fuentes de datos de tarifa fija](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Cómo informar del uso de CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Suscripción a una fuente de datos pública](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Descuentos para compradores de datos](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [Mercado: Acerca de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+
