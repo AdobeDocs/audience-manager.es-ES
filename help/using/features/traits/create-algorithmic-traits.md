@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Crear características algorítmicas
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,11 +27,6 @@ Se abre una nueva ventana que permite seleccionar el modelo que desea utilizar c
 1. Seleccione un modelo y haga clic en **[!UICONTROL Add Selected Model to Trait]**.
 Al agregar el modelo se exponen los valores de alcance y precisión.
 1. Seleccione el alcance o la precisión como objetivo y elija un valor en los menús desplegables correspondientes. Click **[!UICONTROL Save]** when done.
-
->[!MORE_LIKE_THIS]
->
->* [Precisión y alcance](../../features/traits/trait-accuracy-reach.md)
-
 
 ## Configuración de características algorítmicas {#configure-settings}
 
@@ -54,6 +49,7 @@ En [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sección permite as
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Situada a la derecha, esta sección muestra hasta 21 filas de datos numéricos que muestran los valores de precisión y alcance del modelo. |
 | **[!UICONTROL Reach and Accuracy Slider]** | Ubicado en la parte inferior del gráfico, el control deslizante permite establecer un valor numérico para los objetivos de alcance o precisión. Puede definir el control deslizante y, a continuación, seleccionar el botón de objetivo de alcance o precisión para crear una característica. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Precisión y alcance](../../features/traits/trait-accuracy-reach.md)
+
