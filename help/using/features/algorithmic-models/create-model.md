@@ -8,7 +8,7 @@ title: Creación de un modelo algorítmico
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -107,7 +107,7 @@ Vea el siguiente vídeo para aprender a crear un modelo parecido al de origen, d
 
 >[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=spa)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Explicación de TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 
