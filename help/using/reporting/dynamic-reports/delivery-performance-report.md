@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de rendimiento y entrega
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,14 +35,6 @@ El [!UICONTROL Delivery and Performance] informe permite evaluar el rendimiento 
 
 Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. También puede hacer clic y arrastrar el cursor sobre un grupo de puntos para devolver datos sobre esos elementos de datos solamente. Estas acciones actualizan automáticamente los resultados del informe.
 
->[!MORE_LIKE_THIS]
->
->* [Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda](../../reporting/dynamic-reports/lookup-tables.md)
->* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
->* [Campos emergentes de datos de rendimiento y envío definidos](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
->* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-
-
 ## Campos emergentes de datos de rendimiento y envío definidos {#field-definitions}
 
 Describe las métricas que se muestran en la ventana emergente al hacer clic en un punto de datos individual.
@@ -66,7 +58,10 @@ La ventana emergente del informe de entrega y rendimiento contiene las siguiente
 | **[!UICONTROL Reach]** | Número de visitantes únicos. |
 | **[!UICONTROL Click Through]** | Cantidad de veces que un visitante hizo clic en una publicidad. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda](../../reporting/dynamic-reports/lookup-tables.md)
+>* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
+>* [Campos emergentes de datos de rendimiento y envío definidos](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
