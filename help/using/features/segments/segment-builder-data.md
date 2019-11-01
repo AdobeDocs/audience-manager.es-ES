@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Datos de población de características y segmentos en el Generador de segmentos
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -153,7 +153,7 @@ La siguiente tabla define las métricas de población totales y en tiempo real c
 
 Actualmente, existe una limitación conocida porque nuestro estimador de tamaño de segmento no tiene en cuenta las reglas de combinación de perfiles. Por ejemplo, observe los segmentos con la regla **Sin perfil autenticado +** combinación de perfil[de dispositivo actual](../../features/profile-merge-rules/merge-rule-definitions.md). Debido a la manera en que actualmente calculamos los números de estimación de segmentos, las poblaciones estimadas incluirán perfiles autenticados. Sin embargo, las poblaciones de segmentos existentes omitirán correctamente los perfiles autenticados.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas más frecuentes sobre las reglas de combinación de perfiles y Device Graph](../../faq/faq-profile-merge.md)
 >* [Vínculo de perfil](../../features/profile-merge-rules/merge-rules-overview.md)
