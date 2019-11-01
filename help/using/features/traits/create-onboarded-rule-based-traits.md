@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Crear características basadas en reglas o integradas
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,10 +87,11 @@ En [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] permite establecer 
 ### Establecer el TTL para una característica
 
 1. Expanda la [!UICONTROL Advanced Options] sección e introduzca un número para establecer un [!DNL TTL] valor para la característica.
-2. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
+
    ![](assets/TTL.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Tiempo de vida del segmento explicado](../../features/traits/segment-ttl-explained.md)
 
