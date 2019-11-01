@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintaxis del código utilizada en el Editor de expresiones de segmento
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -73,7 +73,7 @@ Establezca intervalos de [actualización y frecuencia](../../features/segments/r
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Actualización y frecuencia](../../features/segments/recency-and-frequency.md)
 >* [Expresiones booleanas en el Generador de características y segmentos](../../reference/boolean-expressions-tsb.md)
