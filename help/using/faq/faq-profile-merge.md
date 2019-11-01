@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre las reglas de combinación de perfiles y Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -256,7 +256,7 @@ Sí. La métrica de población total de segmentos incluye los dispositivos adici
 
 No.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Vínculo de perfil](../features/profile-merge-rules/profile-link-use-case.md)
 
