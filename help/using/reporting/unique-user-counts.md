@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recuento de usuarios únicos en informes generales y superpuestos
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ Los informes de superposición cuentan a los usuarios como únicos cuando cumple
 
 El informe General cuenta a los visitantes del sitio como únicos si cumplen los requisitos para la característica durante el período de tiempo seleccionado.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Informes interactivos](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Informes generales](../reporting/general-reports.md#general-reports-overview)
