@@ -6,7 +6,7 @@ solution: Audience Manager
 title: OAS como destino de Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,7 +40,7 @@ Audience Manager puede enviar datos de segmentos a una cookie de explorador de l
 
 La cantidad de datos pasados [!DNL OAS] depende de la cantidad de segmentos para los que un usuario en particular califique. Por ejemplo, supongamos que configura 100 segmentos de Audience Manager. Si un visitante del sitio cumple los requisitos para cinco de ellos, solo esos cinco segmentos se envían a la OAS (no todos los 100).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
 >* [Pares de clave-valor explicados](../../reference/key-value-pairs-explained.md)
@@ -54,7 +54,7 @@ Cree un destino basado en cookies para [!DNL OAS] en Audience Manager.
 
 En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP]red de publicidad, etc.) que desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de entrega de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *audiencia &gt; Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
-### Paso 1: Información básica
+### Paso 1:Información básica
 
 Para completar la [!UICONTROL Basic Information] sección:
 
