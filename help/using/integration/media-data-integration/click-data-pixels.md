@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de datos de clics de campaña mediante llamadas de píxel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -79,12 +79,12 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>ID del proveedor de datos. </p> <p>A menudo se utiliza con <code> d_dpuuid</code> para vincular un ID de proveedor de datos a un ID de usuario. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p>ID del proveedor de datos. </p> <p>Se utiliza con frecuencia <code> d_dpuuid</code> para vincular un ID de proveedor de datos a un ID de usuario. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>ID de usuario único proporcionada por el proveedor de datos. </p> <p>A menudo se utiliza con <code> d_dpid</code> para vincular un ID de usuario a un ID de proveedor de datos. </p> </td> 
+   <td colname="col2"> <p>ID de usuario único proporcionada por el proveedor de datos. </p> <p>Se utiliza con frecuencia <code> d_dpid</code> para vincular un ID de usuario a un ID de proveedor de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
@@ -118,18 +118,18 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
-   <td colname="col02"> <p> <code> %d_uid%</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
    <td colname="col2"> <p>Especifique la ID del visitante directamente en la URL en lugar de depender de la cookie Demdex. </p> <p>Opcional. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_apply%</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
    <td colname="col2"> <p>Relacionado con el <a href="../../overview/aam-gdpr/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a> </p><p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p></td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>gdpr_permission</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_permission%</code> </p> </td> 
-   <td colname="col2"> <p>Relacionado con el <a href="../../overview/aam-gdpr/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p><p> Si <code>gdpr=1</code>, entonces <code>%gdpr_consent%</code> se sustituye por la cadena <code>gdpr_consent</code> (consulte la especificación <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB</a>).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p></td> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
+   <td colname="col2"> <p>Relacionado con el <a href="../../overview/aam-gdpr/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p><p> Si <code>gdpr=1</code>, entonces <code>%gdpr_consent%</code> se sustituye por la cadena <code>gdpr_consent</code> (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">especificación IAB</a>).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +160,7 @@ Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Archivos de datos y metadatos para informes de optimización de audiencia](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
