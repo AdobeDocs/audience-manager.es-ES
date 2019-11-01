@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de solapamiento entre segmentos
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contien
 | **[!UICONTROL Segment Uniques1]** | Número de visitantes únicos en el segmento 1. |
 | **[!UICONTROL Segment Uniques2]** | El número de visitantes únicos en el segmento 2. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
