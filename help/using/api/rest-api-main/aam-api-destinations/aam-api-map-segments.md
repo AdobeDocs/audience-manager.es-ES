@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Asignar segmentos a un destino
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ Asigne segmentos a destinos con estos [!DNL RESTful API] métodos.
 ## Tipos de destino admitidos: Solo URL y cookie
 
 Los `POST` métodos disponibles le permiten asignar segmentos a [!UICONTROL URL] y [!UICONTROL cookie destinations] solamente. Actualmente, no puede asignar segmentos a [!UICONTROL server-to-server destinations] con estos [!DNL REST API] métodos. En su lugar, utilice la interfaz de usuario. Sin embargo, los `GET` métodos de destino relacionados permiten recuperar información sobre [!UICONTROL server-to-server destinations] los elementos creados en la interfaz de usuario.
-
->[!MORE_LIKE_THIS]
->
->* [Destinos](../../../features/destinations/destinations.md)
->* [Serialización de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
-
 
 ## Asignar un segmento a un destino de URL sin serialización {#map-segment-non-serial}
 
@@ -584,3 +577,10 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Destinos](../../../features/destinations/destinations.md)
+>* [Serialización de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
+
