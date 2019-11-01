@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Características de audiencias activas y características sincronizadas de fuentes de datos
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,7 +35,7 @@ Una [!UICONTROL Active Audience] característica contiene todos los dispositivos
 >
 >[!UICONTROL Data Source Synced Traits] son útiles para solucionar problemas. Haga clic en el nombre de una característica para comprobar las métricas en la página de resumen de características. Si la característica seleccionada devuelve datos, esto indica que el proceso de sincronización de ID está configurado correctamente y se están insertando datos en [!DNL Audience Manager].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Audiencias a las que se puede dirigir](../../features/addressable-audiences.md)
 
