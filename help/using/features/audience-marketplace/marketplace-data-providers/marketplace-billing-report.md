@@ -7,7 +7,7 @@ title: Facturación para proveedores de fuentes de datos
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -119,7 +119,7 @@ Un informe de facturación contiene la siguiente información.
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Asignación de impresión y facturación para fuentes de datos CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Asignación de facturación e impresión para fuentes de datos de tarifa fija](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
