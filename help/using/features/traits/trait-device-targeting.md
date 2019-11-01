@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segmentación de dispositivos con claves de nivel de plataforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Extraer los [!UICONTROL Data Collection Servers] valores de estas claves del enc
 >
 >Aunque no se puedan recuperar una o más señales del encabezado del agente de usuario, las demás señales se seguirán pasando al [!UICONTROL Data Collection Servers].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Requisitos de prefijo para variables clave](../../features/traits/trait-variable-prefixes.md)
 
