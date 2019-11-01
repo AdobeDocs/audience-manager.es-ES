@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de contraseña, cuentas bloqueadas y contraseñas olvidadas
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ Las cuentas se bloquean tras 5 intentos de inicio de sesión fallidos. Póngase 
 
 Haga clic en el **[!UICONTROL Forgot password]** vínculo de la página de inicio de sesión para restablecer la contraseña. Recibirá un correo electrónico automatizado con una contraseña temporal que caduca en 24 horas. Haga clic en el vínculo del correo electrónico para acceder a su cuenta y restablecer su contraseña.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Seguridad de datos](../overview/data-security-and-privacy/data-security.md)
 >* [Seguridad de datos](../overview/data-security-and-privacy/data-privacy.md)
