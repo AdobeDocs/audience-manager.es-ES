@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ejemplos de uso de los Gráficos de dispositivos externos
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ Al utilizar el **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adob
 
 ![expansión de gráficos avanzada](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Casos de uso de Device Graph de vínculo de perfil](profile-link-use-case.md)
 >* [Casos generales de uso de reglas de combinación de perfiles](merge-rule-targeting-options.md)
