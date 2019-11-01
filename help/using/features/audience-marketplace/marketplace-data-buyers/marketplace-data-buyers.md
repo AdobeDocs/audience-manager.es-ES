@@ -7,7 +7,7 @@ title: Mercado de audiencias para compradores de datos
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ La [!UICONTROL Marketplace] lista contiene información que puede ordenar y busc
 * **[!UICONTROL Private Feeds]**:: Consulte Fuentes de datos [privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
 * **[!UICONTROL Currently Subscribed Plan Count]**:: El número de suscripciones que tiene con un proveedor de datos.
 
+ 
+
 Para encontrar fácilmente las mejores fuentes de datos según sus necesidades, utilice los siguientes filtros disponibles en la parte izquierda de la [!UICONTROL Marketplace] página:
 
 * **[!UICONTROL Similarity To]**:: Filtre las fuentes de datos en función de su similitud con una característica o un segmento de su elección. Al introducir la característica o el segmento con el que comparar, puede utilizar la ID de rasgo o segmento, o sus respectivos nombres.
-* **[!UICONTROL Similarity Cutoff]**:: Arrastre el control deslizante para filtrar las fuentes de datos en función de la similitud de sus características con el rasgo o segmento seleccionado.
+* **[!UICONTROL Similarity Cutoff]**:: Arrastre el control deslizante para filtrar las fuentes de datos en función de la similitud de sus características con el rasgo o segmento seleccionado. Para obtener más información sobre las puntuaciones de similitud de rasgos, consulte Puntuación [de similitud de rasgos](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**:: Filtre las fuentes de datos según el estado de la suscripción.
 * **[!UICONTROL Plan Use Case]**:: Filtre las fuentes de datos en función de los casos de uso admitidos: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, y **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**:: Filtre las fuentes de datos en función de su tipo de precio.
-
-Vea el siguiente vídeo para obtener información general sobre cómo utilizar estos filtros.
 
 ## Búsqueda de características similares {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ Para ver la lista completa de características similares, haga clic en el númer
 Vea el siguiente vídeo para obtener una descripción general completa de cómo encontrar características similares.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=spa)
-
 
 ## Fuentes de datos privadas {#private-data-feeds}
 
