@@ -5,7 +5,7 @@ seo-title: Agregar controles de exportación de datos a un destino
 solution: Audience Manager
 title: Agregar controles de exportación de datos a un destino
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Para agregar etiquetas de exportación a un destino:
 
 1. Haga clic en **[!UICONTROL Audience Data]**:
-   * Para nuevos destinos: Haga clic en **[!UICONTROL Create New Destination]**. Complete la [!UICONTROL Basic Information] sección antes de seleccionar una etiqueta de exportación de datos. Consulte [Creación de un destino](../../features/destinations/create-cookie-destination.md) de cookie o [Creación de un destino](../../features/destinations/create-url-destination.md) de URL para obtener más información.
+   * Para nuevos destinos:Haga clic en **[!UICONTROL Create New Destination]**. Complete la [!UICONTROL Basic Information] sección antes de seleccionar una etiqueta de exportación de datos. Consulte [Creación de un destino](../../features/destinations/create-cookie-destination.md) de cookie o [Creación de un destino](../../features/destinations/create-url-destination.md) de URL para obtener más información.
    * Para destinos existentes: Utilice el [!DNL Search] cuadro para buscar el destino o desplácese por la lista y haga clic en el nombre del destino para abrirlo.
 1. Seleccione una [!DNL Data Export Label]. Deje las casillas en blanco si no desea establecer ninguna restricción de exportación. Las etiquetas de exportación incluyen las siguientes opciones:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
@@ -36,6 +36,6 @@ Para agregar etiquetas de exportación a un destino:
    >Las restricciones de exportación no funcionarán a menos que establezca un control [de exportación](../../features/data-export-controls.md) coincidente en un origen de datos.
 1. Haga clic en **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Crear una fuente de datos](../../features/manage-datasources.md#create-data-source)
