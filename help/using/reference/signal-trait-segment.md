@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Señales, características y segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ c_signal_trait_segment.xml
     </ul> <p>Los operadores de comparación unen el par clave-valor y establecen la relación entre ellos. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
-     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=cámara</code> </li> 
+     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
      <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
      <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
     </ul> </td> 
@@ -51,12 +51,12 @@ c_signal_trait_segment.xml
   <tr> 
    <td colname="col1"><b>Rasgo</b> </td> 
    <td colname="col2"> <p>Combinaciones de una o más señales. </p> <p>Las expresiones booleanas y los operadores de comparación permiten crear reglas de clasificación de rasgos. </p> <p>Cree requisitos de cualificación precisos con combinaciones de características y grupos de características. </p> </td> 
-   <td colname="col3"> <p>A partir de las señales disponibles, se puede crear una regla de "Explorador de cámara de gama alta" expresada como: </p> <p><code> product=cámara Y precio&gt;1000</code> </p> </td> 
+   <td colname="col3"> <p>A partir de las señales disponibles, se puede crear una regla de "Explorador de cámara de gama alta" expresada como: </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Segmento</b> </td> 
    <td colname="col2"> <p>Usuarios que comparten un conjunto de atributos comunes y califican para características relacionadas. </p> <p>Las expresiones booleanas, junto con los requisitos de actualización y frecuencia, permiten crear reglas de cualificación de segmentos. </p> <p>Cree requisitos de cualificación precisos con combinaciones de características y reglas de segmentos. </p> </td> 
-   <td colname="col3"> <p>A partir de las características y señales disponibles, puede crear una regla de segmento expresada como: </p> <p><code> (product=cámara Y tipo=réflex digital) OR (precio&gt;1000)</code> </p> </td> 
+   <td colname="col3"> <p>A partir de las características y señales disponibles, puede crear una regla de segmento expresada como: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ Una llamada de evento envía datos del sitio web a [!DNL Audience Manager]. La l
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segmentos: Propósito, composición y reglas](../features/segments/segments-purpose.md)
 
