@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos generales de uso de reglas de combinación de perfiles
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Vea el siguiente vídeo para obtener una descripción general de los casos de us
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=spa)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Casos de uso de Device Graph de vínculo de perfil](profile-link-use-case.md)
 >* [Ejemplos de uso de los Gráficos de dispositivos externos](external-graph-use-cases.md)
