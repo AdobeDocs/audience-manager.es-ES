@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -70,7 +70,7 @@ El archivo de búsqueda siguiente contiene los metadatos y se puede vincular al 
 
 Si el sistema de servicio de publicidad tiene una API, es posible que no necesite enviar metadatos en un archivo de búsqueda. Podemos obtener esa información a través de la API. En este caso, los archivos de registro deben contener únicamente ID. Trabajaremos con usted para determinar si los metadatos se pueden obtener a través de una API.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Informe de rendimiento y entrega](../../reporting/dynamic-reports/delivery-performance-report.md)
 
