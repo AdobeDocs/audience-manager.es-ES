@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componentes de recopilación de datos
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ Son sistemas que reciben datos enviados por diversas integraciones servidor a se
 
 El [!UICONTROL PCS] crea y escribe datos en los archivos de registro. Se envían a otros sistemas de bases de datos para procesamiento, generación de informes y almacenamiento.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Centro de privacidad de Adobe](https://www.adobe.com/privacy.html)
 
