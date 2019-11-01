@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Administrar fuentes de datos
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -24,19 +24,19 @@ Para crear una nueva fuente de datos, vaya a **[!UICONTROL Audience Data > Data 
 >
 >Consulte Configuración [de fuente de datos y Opciones](../features/datasources-list-and-settings.md#settings-menu-options) de menú para obtener descripciones de estos diferentes controles.
 
-## Data Source Details {#details}
+## Detalles de la fuente de datos {#details}
 
-To complete the  section:[!UICONTROL Data Source Details]
+Para completar la [!UICONTROL Data Source Details] sección:
 
 1. Asigne un nombre al origen de datos.
-1. *(Optional) Describe the data source.* A concise description helps you define the role or purpose of the data source.
-1. Provide an integration code. Generalmente, los códigos de integración son opcionales. They are required when you want to:
+1. *(Opcional)* Describa la fuente de datos. Una descripción concisa le ayuda a definir la función o el propósito del origen de datos.
+1. Proporcione un código de integración. Generalmente, los códigos de integración son opcionales. Son obligatorios cuando desea:
 
-   * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-   * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
+   * [Cree una fuente](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de datos entre dispositivos.
+   * Utilice el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
+   * Trabajar con reglas [de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Choose an . **[!UICONTROL ID Type]** ID Type options include:
+1. Elija una **[!UICONTROL ID Type]**. Las opciones de tipo de ID incluyen:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -49,7 +49,7 @@ To complete the  section:[!UICONTROL Data Source Details]
 
 ## Controles de exportación de datos {#export-controls}
 
-[Los controles](../features/data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que se pueden aplicar a un origen y destino de datos. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Skip this section if you do not use .[!UICONTROL Data Export Controls]
+[Los controles](../features/data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que se pueden aplicar a un origen y destino de datos. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Omita esta sección si no utiliza [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
@@ -58,7 +58,7 @@ Esta configuración determina cómo se identifica, utiliza y comparte una fuente
 1. Seleccione una [!UICONTROL Data Source Setting] casilla de verificación para aplicar una opción al origen de datos.
 2. Haga clic en **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Configuración y opciones de menú de la fuente de datos](../features/datasources-list-and-settings.md#settings-menu-options)
 
