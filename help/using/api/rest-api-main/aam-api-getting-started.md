@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introducción a las API de REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ La [!DNL JSON] respuesta contiene el nuevo token de acceso. La respuesta deberí
 
 Audience Manager [!UICONTROL REST API] admite código de autorización y autenticación implícita. Para utilizar estos métodos de acceso, los usuarios deben iniciar sesión para `https://api.demdex.com/oauth/authorize` obtener acceso y actualizar los tokens.
 
->[!MORE_LIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## Realizar solicitudes de API autenticadas {#authenticated-api-requests}
 
 Requisitos para llamar a [!DNL API] métodos después de recibir un autentificador.
@@ -146,11 +140,6 @@ Para realizar llamadas con los [!DNL API] métodos disponibles:
 
 * En el `HTTP` encabezado, establezca `Authorization: Bearer <token>`.
 * Llame al [!DNL API] método requerido.
-
->[!MORE_LIKE_THIS]
->
->* [Autenticación OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## Parámetros de consulta API opcionales {#optional-api-query-parameters}
 
@@ -163,9 +152,9 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
 | Parámetro | Descripción |
 |--- |--- |
 | página | Devuelve los resultados por número de página. La numeración empieza en 0. |
-|  pageSize | Define el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). |
-|  sortBy | Ordena y devuelve resultados según la [!DNL JSON] propiedad especificada. |
-|  descendente | Ordena y devuelve los resultados en orden descendente. Ascendente es el valor predeterminado. |
+| pageSize | Define el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). |
+| sortBy | Ordena y devuelve resultados según la [!DNL JSON] propiedad especificada. |
+| descendente | Ordena y devuelve los resultados en orden descendente. Ascendente es el valor predeterminado. |
 | OR | Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto: `GET https://api.demdex.com/v1/models/?search=Test`.  Puede buscar cualquier valor devuelto por un método "get all". |
 | folderId | Devuelve todos los ID de características dentro de la carpeta especificada. No está disponible para todos los métodos. |
 | permisos | Devuelve una lista de segmentos basada en el permiso especificado.  READ es el valor predeterminado. Los permisos incluyen:<ul><li>`READ` :: Devolver y ver información sobre un segmento.</li><li>`WRITE` :: Se utiliza `PUT` para actualizar un segmento.</li><li>`CREATE` :: Se utiliza `POST` para crear un segmento.</li><li>`DELETE` : Eliminar un segmento. Requiere acceso a las características subyacentes, si las hay. Por ejemplo, necesitará derechos para eliminar las características que pertenecen a un segmento si desea eliminarlo.</li></ul><br>Especifique varios permisos con pares de clave-valor independientes. Por ejemplo, para devolver una lista de segmentos solo con `READ` y `WRITE` permisos, pase `"permissions":"READ"`, `"permissions":"WRITE"` . |
@@ -238,3 +227,10 @@ Las nuevas versiones de estos [!DNL API]informes se publican con regularidad. Un
 | 404 | No encontrado | No se encontró el recurso para la ruta especificada. |
 | 409 | Conflicto | No se pudo completar la solicitud debido a un conflicto con el estado del recurso. |
 | 500 | Error del servidor | El servidor encontró un error inesperado que le impedía cumplir la solicitud. |
+
+>[!MORELIKETHIS]
+>
+>* [Autenticación OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
