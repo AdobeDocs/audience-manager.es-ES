@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Targeting geográfico con claves de nivel de plataforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 translation-type: tm+mt
-source-git-commit: c5c57423bcba8d4b3974a04c46dc7c7afc7484a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -41,7 +41,7 @@ Trabajamos con [Digital Envoy](https://www.digitalenvoy.com/) para obtener y act
 |--- |--- |
 | d_area_code | [Códigos](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes)de área de Norteamérica.  Por ejemplo: <ul><li>**Característica**:  d_area_code=801</li><li>**Nombre** de característica: Utah</li></ul> |
 | d_city | Ciudades y pueblos. Descargue la lista [de](assets/d_city.txt)ciudades.  Por ejemplo: <ul><li>Característica:  d_city=bonn</li><li>Nombre de característica: Bonn</li></ul> **Sugerencia**: Puede usar `d_city` junto con `d_country` para asegurarse de no tener como objetivo dos ciudades con el mismo nombre en diferentes países. Puede ser aún más específico en la segmentación mediante `d_postal_code`. |
-| d_country | Los valores corresponden a los códigos de país ISO. Para obtener una lista de códigos que se pueden buscar, consulte la Plataforma [de exploración en línea](https://www.iso.org/obp/ui/#home)ISO. <br>  La determinación de objetivos para el Reino Unido es el único caso especial que no obedece la norma ISO 3166. Debería usar "UK" en lugar de "GB" para dirigir la campaña en el Reino Unido.  Para dirigirse a las Antillas Neerlandesas, el código "AN" ha quedado obsoleto desde 2010. La zona se ha disuelto en cinco unidades territoriales separadas. La implicancia es que para establecer objetivos en las Antillas Neerlandesas, no debe utilizar "AN", sino una combinación de los códigos de país para "CW", "SX" y "BQ".  Por ejemplo:  <br>Característica:  d_country=Nombre de característica de CZ <br>: Rasgo de la República Checa <br>:  d_country=Nombre de característica del Reino Unido <br>: Rasgo del Reino Unido <br>:  d_country=CW OR d_country=SX OR d_country=Nombre de característica de la <br>barbacoa: Antillas neerlandesas |
+| d_country | Los valores corresponden a los códigos de país ISO. Para obtener una lista de códigos que se pueden buscar, consulte la Plataforma [de exploración en línea](https://www.iso.org/obp/ui/#home)ISO. <br>  La determinación de objetivos para el Reino Unido es el único caso especial que no obedece la norma ISO 3166. Debería usar "UK" en lugar de "GB" para dirigir la campaña en el Reino Unido.  Para dirigirse a las Antillas Neerlandesas, el código "AN" ha quedado obsoleto desde 2010. La zona se ha disuelto en cinco unidades territoriales separadas. La implicancia es que para establecer objetivos en las Antillas Neerlandesas, no debe utilizar "AN", sino una combinación de los códigos de país para "CW", "SX" y "BQ".   Por ejemplo:  <br>Característica:  d_country=Nombre de característica de CZ <br>: Rasgo de la República Checa <br>:  d_country=Nombre de característica del Reino Unido <br>: Rasgo del Reino Unido <br>:  d_country=CW OR d_country=SX OR d_country=Nombre de característica de la <br>barbacoa: Antillas neerlandesas |
 | d_dma_code | Códigos DMA del área metropolitana. Descargue la lista [de regiones de](assets/DMAregions.csv) DMA (formato .csv).  Por ejemplo: <ul><li>Característica:  d_dma_code=807</li><li>Nombre de característica: San Francisco</li></ul> |
 | d_lat | Latitud (p. ej. d_lat=40.75). Descargue la lista [de](assets/d_lat.txt)latitudes. |
 | d_long | Longitud (p. ej. d_long=73.98). Descargue la lista [de](assets/d_long.txt)longitudes. |
@@ -52,7 +52,7 @@ Trabajamos con [Digital Envoy](https://www.digitalenvoy.com/) para obtener y act
 
 La lista de [todas las señales](assets/all.csv) basadas en la ubicación comprende todas las señales anteriores, en el orden siguiente: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Requisitos de prefijo para variables clave](../../features/traits/trait-variable-prefixes.md)
 
