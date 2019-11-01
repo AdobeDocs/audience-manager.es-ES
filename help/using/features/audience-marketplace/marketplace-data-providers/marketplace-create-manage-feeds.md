@@ -7,7 +7,7 @@ title: Crear, cotizar y administrar fuentes de datos
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ En la [!UICONTROL Settings] sección, mueva el deslizador a:
 * **[!UICONTROL Private]** y **[!UICONTROL Unbranded]**: La [!UICONTROL Marketplace] lista del comprador muestra únicamente el nombre y la descripción de la fuente de datos. El nombre del proveedor de datos aparece como [!UICONTROL Private Seller].
 
 Para ver el aspecto que tiene una fuente privada para los compradores, consulte la sección de compradores en Fuentes de datos [privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
-
->[!MORE_LIKE_THIS]
->
->* [Fuentes de datos privadas](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## Desactivar una fuente de datos de un suscriptor {#deactivate-data-feed}
 
@@ -183,12 +178,7 @@ Para revisar, aprobar o rechazar solicitudes de comprador, vaya a y [!UICONTROL 
 3. En la [!UICONTROL Allow Access] sección de cada cuadro de solicitud, haga clic en la marca de verificación para aprobar una solicitud o en la X para denegar el acceso.
 4. Confirme o cancele la acción seleccionada en la ventana emergente de confirmación.
 
->[!MORE_LIKE_THIS]
->
->* [Fuentes de datos privadas](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
-## Descuentos para proveedores de datos {#discounts}
+##  Descuentos para proveedores de datos {#discounts}
 
 En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede ofrecer descuentos a los suscriptores que hayan enviado una solicitud de suscripción o a los suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes [!DNL CPM] y a las fuentes a tanto alzado. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad del cliente.
 
@@ -212,3 +202,8 @@ En estos ejemplos, el vendedor ha añadido un 10 % de descuento a la fuente de d
 Los proveedores de datos pueden ver todos sus suscriptores y las fuentes con descuento en **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Fuentes de datos privadas](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
