@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de solapamiento entre características
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -102,7 +102,7 @@ La ventana emergente del [!UICONTROL Trait-to-Trait Overlap] informe contiene la
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes dinámicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
