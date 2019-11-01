@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Modificar la llamada de API de setTargeting de GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,22 +57,22 @@ Define las variables clave utilizadas en la `if` sentencia.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Devuelve la clave del par de segmentos clave-valor. Por ejemplo, si el par clave-valor consiste en <code> color=azul </code>, devuelve <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve la clave del par de segmentos clave-valor. Por ejemplo, si el par clave-valor consistió en <code> color=blue </code>, se devuelve <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>Matriz de cadenas </p> </td> 
-   <td colname="col3"> <p>Devuelve valores en una matriz, por ejemplo, <code> ["valor1","valor2"] </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve valores en una matriz, por ejemplo, <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Devuelve el ID de usuario de Audience Manager, por ejemplo, <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve el ID de usuario de Audience Manager, por ejemplo <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Crear un destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Código de Audience Manager para etiquetas de publicador de Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
