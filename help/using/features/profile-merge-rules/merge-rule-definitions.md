@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opciones de regla de combinación de perfiles definidas
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -127,7 +127,7 @@ Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* us
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
