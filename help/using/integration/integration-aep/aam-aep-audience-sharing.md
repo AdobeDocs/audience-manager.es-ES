@@ -4,9 +4,9 @@ seo-description: Este artículo describe cómo se comparten las audiencias entre
 seo-title: Uso compartido de público entre Audience Manager y Adobe Experience Platform
 solution: Audience Manager
 title: Uso compartido de público entre Audience Manager y Adobe Experience Platform
-keywords: Uso compartido de público de AEP, segmentos de AEP, segmentos de plataforma
+keywords: Uso compartido de público de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de público
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 ---
 
