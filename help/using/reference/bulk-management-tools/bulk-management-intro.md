@@ -1,20 +1,20 @@
 ---
-description: Las herramientas de administración masiva permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
+description: Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
 keywords: baaam;BAAAM
-seo-description: Las herramientas de administración masiva permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
+seo-description: Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
 seo-title: Introducción a la administración masiva
 solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Las herramientas de administración masiva permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, modelos, segmentos y características.
+Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, modelos, segmentos y características.
 
 <!-- 
 
@@ -39,7 +39,7 @@ Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20191015.x
 Para usar el [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su [!DNL Experience Cloud] inicio de sesión. Como cliente, ya debería tener estas credenciales.
-* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) para obtener la versión más reciente.
+* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20191015.xlsm) para obtener la versión más reciente.
 * Microsoft Excel se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows].
 * Al abrir la hoja de cálculo, debe **activar macros** para que [!DNL Bulk Management Tools] funcione.
 
@@ -118,10 +118,4 @@ Como ejemplo, veamos cómo crear varias características a la vez. Para crear va
 >[!NOTE]
 >
 >Cuando se trabaja con solicitudes grandes, la hoja de cálculo podría no responder y parecer inactiva. En estos casos, déjalo en paz. La hoja de cálculo responderá cuando se complete la solicitud masiva. Si la hoja de cálculo no responde durante un largo período de tiempo, consulte la sección [de](../../reference/bulk-management-tools/bulk-troubleshooting.md)solución de problemas.
-
-
-
->[!MORELIKETHIS]
->
->* [Descargar la hoja de cálculo de administración masiva](assets/BAAAM_August_2018.xlsm)
 
