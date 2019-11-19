@@ -4,9 +4,9 @@ seo-description: Este artículo describe cómo se comparten las audiencias entre
 seo-title: Uso compartido de público entre Audience Manager y Adobe Experience Platform
 solution: Audience Manager
 title: Uso compartido de público entre Audience Manager y Adobe Experience Platform
-keywords: Uso compartido de público de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de público
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 translation-type: tm+mt
-source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
+source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 >[!NOTE]
 >
->Esta página contiene documentación beta que describe la funcionalidad disponible para los clientes de Audience Manager *y Adobe Experience Platform* . Esta documentación está sujeta a cambios antes de la versión final del producto.
+> La funcionalidad descrita en esta página está disponible para los clientes de Audience Manager y Adobe Experience Platform.
 >
 > Póngase en contacto con su representante de ventas de Adobe para desbloquear el acceso a esta funcionalidad.
 
@@ -44,7 +44,7 @@ Consulte la tabla siguiente para obtener una descripción general de los casos d
 
 ## Segmentos y características de Audience Manager en Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Las características y los segmentos de Audience Manager aparecen en la plataforma de experiencia como **audiencias** en el flujo de trabajo de segmentos. Para obtener más información sobre los segmentos y características de Audience Manager en la plataforma de experiencia, consulte:
+Las características y los segmentos de Audience Manager aparecen en la plataforma de experiencia como **Audiencias** en el flujo de trabajo de segmentos. Para obtener más información sobre los segmentos y las características de Audience Manager en la plataforma de experiencia, consulte:
 
 * [Descripción general del servicio de segmentación](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
 * [Guía del usuario del Generador de segmentos de la plataforma de experiencia](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segment-builder-guide.md)
@@ -86,7 +86,7 @@ Audience Manager crea automáticamente una carpeta de segmentos denominada Segme
 
 ![Captura de pantalla del tablero](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
-Para ver un ejemplo de un segmento creado automáticamente desde un segmento de la plataforma de experiencia, consulte la captura de pantalla siguiente:
+Para ver un ejemplo de un segmento creado automáticamente a partir de un segmento de la plataforma de experiencia, consulte la captura de pantalla siguiente:
 
 ![Captura de pantalla del segmento](/help/using/integration/integration-aep/assets/aep-segment.png)
 
