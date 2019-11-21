@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capturación de los datos de impresión de campaña a través de Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 Un método para enviar datos de medios a Audience Manager utiliza macros de servidores de publicidad para enviar atributos de campaña a Audience Manager.
 
-Esta metodología se conoce generalmente como "pixelado del elemento creativo". Estos puntos de datos se insertan dinámicamente en el código de [!DNL Audience Manager] píxeles mediante las macros del servidor de publicidad de terceros, que se utilizan para asignar e informar de todas las impresiones y clics en función de los atributos clave de informes de la campaña. Los datos agregados proporcionan una vista unificada del rendimiento de las campañas, ayudan a identificar las rutas de conversión personalizadas y ayudan a los clientes a mejorar la secuencia de eventos de servidor de publicidad que llevan a las conversiones.
+Esta metodología se conoce a menudo como "pixelado del elemento creativo". Estos puntos de datos se insertan dinámicamente en el código de [!DNL Audience Manager] píxeles mediante las macros del servidor de publicidad de terceros, que se utilizan para asignar e informar de todas las impresiones y clics en función de los atributos clave de informes de la campaña. Los datos agregados proporcionan una vista unificada del rendimiento de las campañas, ayudan a identificar las rutas de conversión personalizadas y ayudan a los clientes a mejorar la secuencia de eventos de servidor de publicidad que llevan a las conversiones.
 
 ## Sintaxis de llamada de evento
 
@@ -35,7 +35,7 @@ En el par clave-valor, la variable value es una ID o macro insertada por el serv
 
 ## Pares de clave-valor admitidos {#supported-key-value-pairs}
 
-Las llamadas de evento de impresión aceptan datos formados en pares de clave-valor. En la tabla siguiente se enumeran y describen las claves utilizadas para incluir estas variables. Muchos de estos requisitos son necesarios si desea capturar y analizar datos en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audiencias.
+Las llamadas de evento de impresión aceptan datos formados en pares de clave-valor. En la tabla siguiente se enumeran y describen las claves utilizadas para albergar estas variables. Muchos de estos requisitos son necesarios si desea capturar y analizar datos en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audiencias.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -83,7 +83,7 @@ Las llamadas de evento de impresión aceptan datos formados en pares de clave-va
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_placement </code> </td> 
-   <td colname="col2"> <p>ID de colocación numérica del servidor de publicidad. </p> <p> Opcional. </p> </td> 
+   <td colname="col2"> <p>ID de ubicación numérica desde el servidor de publicidad. </p> <p> Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
@@ -95,11 +95,11 @@ Las llamadas de evento de impresión aceptan datos formados en pares de clave-va
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>Relacionado con el <a href="../../overview/aam-gdpr/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p> </td> 
+   <td colname="col2"> <p>Relacionado con el <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p>Relacionado con el <a href="../../overview/aam-gdpr/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p><p> Si <code>gdpr=1</code>, entonces <code>%gdpr_consent%</code> se sustituye por la cadena <code>gdpr_consent</code> (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">especificación IAB</a>).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p> </td> 
+   <td colname="col2"> <p>Relacionado con el <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">complemento de Audience Manager para IAB TCF.</a></p><p> Si <code>gdpr=1</code>, entonces <code>%gdpr_consent%</code> se sustituye por la cadena <code>gdpr_consent</code> (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">especificación IAB</a>).</p> <p>El valor predeterminado es 0.</p><p>Opcional.</p> </td> 
   </tr> 
  </tbody> 
 </table>
