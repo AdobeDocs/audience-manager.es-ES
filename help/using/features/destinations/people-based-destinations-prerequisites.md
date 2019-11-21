@@ -5,7 +5,7 @@ seo-title: Requisitos previos y consideraciones sobre destinos basados en person
 solution: Audience Manager
 title: Requisitos previos y consideraciones
 translation-type: tm+mt
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -40,7 +40,7 @@ Antes de poder usar [!DNL People-Based Destinations] para enviar segmentos de au
 
 ## Integración de datos {#data-onboarding}
 
-La ingestión de datos para [!DNL People-Based Destinations] actualmente admite hasta 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente ([!DNL CRM ID]) por transferencia por lotes. La carga de más de 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente hace que Audience Manager ingrese 10 de ellas, sin orden específico.
+La ingestión de datos para [!DNL People-Based Destinations] actualmente admite hasta 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente ([!DNL CRM ID]) por transferencia por lotes. La carga de más de 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente hace que Audience Manager ingrese 10 de ellas, sin ningún orden específico.
 
 Al cargar más de 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente en varias transferencias por lotes, Audience Manager conserva las 10 direcciones de correo electrónico agregadas más recientes.
 
@@ -52,7 +52,7 @@ Aunque [!DNL People-Based Destinations] le permite dirigirse a audiencias en fun
 
 El cifrado es una función bidireccional. También se puede descifrar cualquier información cifrada mediante la clave de descifrado correcta. El cifrado de datos en el contexto de Audience Manager plantea serios riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!DNL People-Based Destinations] están diseñados para funcionar con datos con hash.
 
-Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, [!DNL SHA256]no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue a Audience Manager.
+Hashing es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, como [!DNL SHA256], no hay forma de revertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que vaya a incorporar a Audience Manager deben tener un hash con el algoritmo [!DNL SHA256] . De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue a Audience Manager.
 
 ## Requisitos de hash {#hashing-requirements}
 
@@ -77,7 +77,7 @@ Dado que [!DNL People-Based Destinations] le ayuda a activar datos de audiencia 
 
 Antes de registrarse [!DNL People-Based Destinations], asegúrese de obtener el consentimiento de sus clientes antes de utilizar su información con fines publicitarios.
 
-En caso de que sus clientes deseen excluir las campañas de publicidad, consulte Administración de [exclusión](../../overview/data-security-and-privacy/opt-out-management.md) para obtener más información sobre cómo evitar que Audience Manager siga recopilando datos.
+En caso de que sus clientes deseen excluir las campañas de publicidad, consulte Administración de [exclusión](../../overview/data-security-and-privacy/data-privacy-requests.md) para obtener más información sobre cómo evitar que Audience Manager siga recopilando datos.
 
 ## Aplicación de la activación de datos de origen {#enforcing-first-party-activation}
 
