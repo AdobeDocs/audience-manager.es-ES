@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sincronización de ID para transferencias de datos de salida
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -31,7 +31,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## Parámetros de URL
 
-La [!DNL URL] llamada de sincronización de ID de entrada debe contener variables que se describen en la tabla siguiente.
+El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener variables que se describen en la tabla siguiente.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ La [!DNL URL] llamada de sincronización de ID de entrada debe contener variable
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p><p><b>Nota:</b> <ul><li>Los parámetros <code>gdpr</code> y <code>gdpr_consent</code> se implementan gradualmente en direcciones URL de sincronización de ID con socios de activación. Consulte Socios de activación que admiten TCF de IAB en el complemento <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager para TCF de IAB.</a></li><li>Este parámetro solo se puede usar junto con <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD).</p><p><b>Nota:</b> <ul><li>Los parámetros <code>gdpr</code> y <code>gdpr_consent</code> se implementan gradualmente en las direcciones URL de sincronización de ID con los socios de activación. Consulte Socios de activación que admiten TCF de IAB en el complemento <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager para TCF de IAB.</a></li><li>Este parámetro solo se puede usar junto con <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
