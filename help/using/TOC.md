@@ -1,10 +1,10 @@
 ---
 product: audience-manager
-audience: usuario final
-user-guide-title: Guía del usuario de Audience Manager
+audience: end-user
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + Información general{#overview}
    + [Información general de Audience Manager](overview/aam-overview.md)
    + [Tipos de datos recopilados](overview/data-types-collected.md)
-   + Data Security and Privacy {#data-security-and-privacy}
-      + [Información general](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [Seguridad de datos](overview/data-security-and-privacy/data-security.md)
-      + [Privacidad de datos](overview/data-security-and-privacy/data-privacy.md)
-      + [Administración de exclusión](overview/data-security-and-privacy/opt-out-management.md)
-   + Reglamento general de protección de datos (RGPD){#gdpr}
-      + [RGPD en Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-      + [Consideraciones del RGPD para destinos](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [Preguntas más frecuentes sobre el RGPD](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [Complemento de Audience Manager para IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [Seguridad de datos](overview/data-security-and-privacy/data-security.md)
+   + Privacidad de datos {#data-privacy}
+      + [Información general sobre la privacidad de datos](overview/data-security-and-privacy/data-privacy.md)
+      + [Solicitudes de privacidad de datos](overview/data-security-and-privacy/data-privacy-requests.md)
+      + Referencia de privacidad de datos {#data-privacy-reference}
+         + [Identificadores de Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Glosario CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glosario GDPR](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Consideraciones del RGPD para destinos](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Guía de preparación de GDPR para clientes de Audience Manager](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + Administración de consentimiento {#consent-management}
+         + [Administración de consentimiento](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [Complemento de Audience Manager para IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [Administración de datos](overview/data-security-and-privacy/data-governance.md)
 + Funciones{#features}
    + [Audiencias a las que se puede dirigir](features/addressable-audiences.md)
    + Administration{#administration}
@@ -213,14 +217,14 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
          + [Recibir datos del DCS](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
       + API de DCS{#dcs-apis}
          + [API de DCS para transferencias de datos de servidor a servidor](api/dcs-intro/dcs-s2s/dcs-s2s.md)
-         + [Obtener ID de usuario y regiones a partir de una respuesta de DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
+         + [Obtención de ID y regiones de usuario a partir de una respuesta de DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
          + [Obtención de ID y regiones de usuario mediante el servicio Experience Cloud ID](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Realización de llamadas de API de DCS de servidor a servidor](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + Referencia de API de DCS{#dcs-api-reference}
          + [Información general de referencia de la API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos de API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de error DCS, mensajes y ejemplos](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Supervisión de ID y lista negra](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [Supervisión de ID y listas negras](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
          + [ID de región, ubicaciones y nombres de host de DCS](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formato de pares de clave-valor en llamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condiciones de carrera y gestión de errores](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -272,7 +276,7 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
       + [Integración de DFP con Información general de GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envío de segmentos a DFP usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Crear un destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
-      + [Modificar la llamada de API de setTargeting de GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
+      + [Modificación de la llamada de API de setTargeting de GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código de Audience Manager para etiquetas de publicador de Google](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + Integración con destinos de terceros {#integrating-third-party}
       + [Integración de WCA de Facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
