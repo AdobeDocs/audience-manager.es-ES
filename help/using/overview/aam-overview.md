@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Información general de Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
 
 ---
 
@@ -15,17 +15,11 @@ source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 
 Audience Manager le ayuda a reunir los activos de datos de audiencia, lo que facilita la recopilación de información relevante desde el punto de vista comercial sobre los visitantes del sitio, la creación de segmentos comercializables y el envío de contenido y publicidad dirigidos a la audiencia adecuada. Además, Audience Manager ofrece una implementación y administración sencillas de etiquetas con una sólida recopilación, control y protección de datos.
 
-Con Audience Manager, no está vinculado a una plataforma de vendedor de datos, intercambio o demanda. Además, Audience Manager es completamente agnóstico cuando se trata de los activos de datos de nuestros socios. Con acceso a varias fuentes de datos, Audience Manager ofrece a los editores digitales la capacidad de utilizar una amplia variedad de datos de terceros, así como nuestra cooperación privada en materia de datos. Hable con nuestro equipo de Soluciones para Socios acerca de la ayuda para tomar decisiones inteligentes y precisas sobre su audiencia objetivo.
+Con Audience Manager, no está vinculado a un vendedor de datos, un intercambio o una plataforma de demanda. Además, Audience Manager es completamente agnóstico cuando se trata de los activos de datos de nuestros socios. Con acceso a varias fuentes de datos, Audience Manager ofrece a los editores digitales la capacidad de utilizar una amplia variedad de datos de terceros, así como nuestra cooperación privada en materia de datos. Hable con nuestro equipo de Soluciones para Socios acerca de la ayuda para tomar decisiones inteligentes y precisas sobre su audiencia objetivo.
 
 ## Historia y fondo {#history-and-background}
 
 Audience Manager comenzó como Demdex en 2008. Fue adquirido por Adobe Systems en 2011 y posteriormente rebautizado como Audience Manager.
-
-<!-- 
-
-c_history_and_background.xml
-
- -->
 
 ## History {#history}
 
@@ -36,4 +30,3 @@ Desde 2008, Audience Manager (anteriormente, [!UICONTROL Demdex]) ha sido pioner
 Audience Manager le ayuda a administrar la canalización de datos. Nuestro servicio es un catalizador que transforma los usuarios genéricos y las señales de datos sin procesar en segmentos de audiencia reales utilizados para los esfuerzos de mercadotecnia multicanal. Además, Audience Manager proporciona herramientas para la administración de etiquetas y el análisis de audiencia, a la vez que satisface las necesidades de privacidad y seguridad de datos de clientes y consumidores.
 
 ![](assets/am_overview_80.png)
-
