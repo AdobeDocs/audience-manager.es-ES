@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentación del producto de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 2d6671406ebf8e1626c0a0b259aad6bb482d7c0e
+source-git-commit: 9f72ad7132f698458acf8a552d8e74195300b4d9
 
 ---
 
@@ -20,6 +20,7 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
   <tr> 
    <td colname="col1"> <p> <b>Elementos nuevos y destacados</b> </p> <p>Obtenga información sobre las últimas funciones de Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="overview/data-security-and-privacy/data-privacy.md">Revisión general de privacidad y soporte de la Ley de privacidad del consumidor de California (CCPA)</a></li>
      <li><a href="features/segments/trait-recommendations.md">Recomendaciones inteligentes para datos de Audience Marketplace, con tecnología de Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Mejoras en las reglas de combinación de perfiles</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Actualización de las herramientas de administración masiva</a></li>
@@ -39,7 +40,7 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Foros de la comunidad de Audience Manager</a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Tutoriales de Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centro de privacidad de Adobe</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Formación y certificados de Adobe</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Certificaciones y formación de Adobe</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Página de inicio de documentación del producto de Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external">Formación y asistencia de Audience Manager</a> </li> 
      </ul> </p> </td>
