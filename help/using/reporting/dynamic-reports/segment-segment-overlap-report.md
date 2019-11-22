@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de solapamiento entre segmentos
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -58,14 +58,16 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contien
 
 | Métrica | Descripción |
 |---|---|
-| **[!UICONTROL Segment ID1]** | ID numérica única para el segmento que aparece en los resultados del informe. Aparece como ID de fila para el segmento. |
-| **[!UICONTROL Segment ID2]** | ID numérica única para el segmento que seleccione al ejecutar el informe. Aparece como el ID de columna del segmento. |
-| **[!UICONTROL Segment Name1]** | Nombre del segmento que aparece en la fila de resultados del informe. |
-| **[!UICONTROL Segment Name2]** | Nombre del segmento que selecciona al ejecutar el informe. Aparece en la columna de resultados del informe. |
+| **[!UICONTROL Base Segment ID]** | ID numérica única para el segmento que aparece en los resultados del informe. Aparece como ID de fila para el segmento. |
+| **[!UICONTROL Base Segment Name]** | Nombre del segmento que aparece en la fila de resultados del informe. |
+| **[!UICONTROL Overlapping Segment ID]** | ID numérica única para el segmento que seleccione al ejecutar el informe. Aparece como el ID de columna del segmento. |
+| **[!UICONTROL Overlapping Segment Name]** | Nombre del segmento que seleccione al ejecutar el informe. Aparece en la columna de resultados del informe. |
+| **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento base. |
+| **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento que se superpone. |
+| **[!UICONTROL Overlapping Uniques]** | Número de visitantes únicos compartidos entre segmentos comparados. |
 | **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición, Audience Manager utiliza la fórmula siguiente: Únicos superpuestos / (únicos de segmento base + únicos de segmento superpuestos - únicos superpuestos) |
-| **[!UICONTROL Overlap Uniques]** | Número de visitantes únicos compartidos entre segmentos comparados. |
-| **[!UICONTROL Segment Uniques1]** | Número de visitantes únicos en el segmento 1. |
-| **[!UICONTROL Segment Uniques2]** | El número de visitantes únicos en el segmento 2. |
+
+
 
 >[!MORELIKETHIS]
 >
