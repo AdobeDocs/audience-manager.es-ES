@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de solapamiento entre segmento y característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -87,7 +87,7 @@ El observar la superposición entre características y segmentos puede ayudarle 
 
 ## Explicación de los filtros de datos en el informe Superposición de segmento a característica {#data-filters-s2t-report}
 
-Describe cómo funcionan los controles deslizantes % de superposición única de rasgos y segmentos.
+Describe cómo funcionan los controles deslizantes % de solapamiento único de rasgo y segmento.
 
 <!-- 
 
@@ -134,11 +134,11 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
    <td colname="col2"> ID numérica única para el segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nombre del proveedor de datos</span></b> </td> 
-   <td colname="col2"> Nombre del propietario del segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Fuente de datos de características </span></b> </td> 
+   <td colname="col2"> Nombre del propietario de la característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo de proveedor de datos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Tipo de fuente de datos</span></b> </td> 
    <td colname="col2">Define el tipo de proveedor al que pertenece una característica. Puede ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Origen (propio rasgo). </li> 
@@ -146,12 +146,12 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> ID numérica única para el segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de característica</span></b> </td> 
+   <td colname="col2"> ID numérica única para la característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nombre de SID</span></b> </td> 
-   <td colname="col2"> Nombre del segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nombre de característica</span></b> </td> 
+   <td colname="col2"> Nombre del rasgo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Superposición de características únicas %</span></b> </td> 
