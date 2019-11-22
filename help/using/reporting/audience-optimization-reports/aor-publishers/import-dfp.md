@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Importación de archivos de datos DFP en Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -21,10 +21,10 @@ Tenga en cuenta que el proceso descrito en esta sección debe completarse *antes
 
 Para utilizar los archivos de registro de DFP ( [!DNL DoubleClick For Publishers]) en [!DNL Audience Manager], primero debe establecer el ID de usuario único (UUID) [de](../../../reference/ids-in-aam.md) Audience Manager en la llamada de etiqueta de anuncio. Al hacer esto, nuestro ID se incluye en los registros de DFP y podemos hacer coincidir los ID entre DFP y [!DNL Audience Manager]. Utilice [!DNL Audience Manager] código o [!UICONTROL DIL] para establecer el [!UICONTROL Audience Management Module] [!DNL Audience Manager] UUID en una cookie de origen.
 
-A continuación se muestra cómo configurar el [!DNL Audience Manager] ID en la llamada de etiqueta de publicidad, según se explica en nuestra documentación:
+A continuación se muestra cómo configurar el [!DNL Audience Manager] ID en la llamada de etiqueta de publicidad, tal como se explica en nuestra documentación:
 
-* [Mediante la etiqueta de publicador de Google (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Mediante un destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [A través de la etiqueta de publicador de Google (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Mediante un destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 Debe configurar usted mismo la [!DNL Audience Manager] ID y puede trabajar con [!DNL Audience Manager] asesoría para comprobar si todo funciona. Ha configurado la [!DNL Audience Manager] ID correctamente si:
 
