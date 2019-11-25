@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -60,7 +60,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>100 </p> </td> 
    <td colname="col2"> <p>No se pudo recuperar el nombre de host para la solicitud </p> </td> 
-   <td colname="col3"> <p>Una llamada de API no envió el encabezado HTTP del host en la solicitud. </p> <p>Agregue el encabezado host a la llamada e inténtelo de nuevo. Tenga en cuenta que la mayoría de los exploradores y clientes API lo hacen automáticamente. </p> </td> 
+   <td colname="col3"> <p>Una llamada de API no envió el encabezado HTTP del host en la solicitud. </p> <p>Agregue el encabezado de host a la llamada e inténtelo de nuevo. Tenga en cuenta que la mayoría de los exploradores y clientes API lo hacen automáticamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
@@ -70,7 +70,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
    <td colname="col2"> <p>Se pasó un identificador de aam no válido en la solicitud <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID <span class="keyword"> de Audience Manager</span> no válido. </p> <p>Compruebe el par <code> d_uuid=</code> clave-valor en la cadena de encabezado. Asegúrese de pasar el ID de <span class="keyword"> Audience Manager</span> correcto e intente la solicitud de nuevo. </p> </td> 
+   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID <span class="keyword"> de Audience Manager</span> no válido. </p> <p>Compruebe el par <code> d_uuid=</code> clave-valor en la cadena de encabezado. Asegúrese de que está pasando el ID de <span class="keyword"> Audience Manager</span> correcto e intente la solicitud de nuevo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
@@ -80,7 +80,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>El referente no <code>HTTP referer</code> está permitido para el socio <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>El encabezado [!DNL HTTP referer] de la llamada no está permitido para el ID del socio en la llamada. Compruebe que el encabezado [!DNL HTTP referer] es correcto.</p> </td>
+   <td colname="col3"> <p>No se permite el <code>HTTP referer</code> encabezado de la llamada para el ID del socio en la llamada. Compruebe que el <code>HTTP referer</code> encabezado es correcto.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -203,7 +203,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Identificación de cliente no autorizada <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Id. de cliente no autorizado <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Se devuelve cuando el origen de datos de ID de cliente no es propiedad del identificador de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar su identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizaciones y vinculación</a> de cuentas para obtener información sobre cómo encontrarlo. </p> </td> 
   </tr> 
   <tr> 
@@ -224,7 +224,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operación de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malicioso y se ha bloqueado. Consulte el código de error 306. </p> </td> 
+   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malintencionado y se ha bloqueado. Consulte el código de error 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
