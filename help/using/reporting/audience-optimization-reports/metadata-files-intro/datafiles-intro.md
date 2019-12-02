@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Archivos de datos para informes de optimización de audiencia y archivos de registro procesables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ En un nombre de archivo:
 
 Dados estos requisitos, asigne un nombre a los archivos de datos en función de su contenido de la siguiente manera:
 
-* Datos de impresión: <pre>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Datos de impresión: <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
 * Haga clic en los datos: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Datos de conversión: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Marca de hora </p> </td> 
-   <td colname="col2"> <p>Una fecha y hora UTC para el evento de impresión, clic o conversión. Utilice el <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
+   <td colname="col2"> <p>Una fecha y hora UTC para el evento de impresión, clic o conversión. Utilice el <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -82,7 +82,7 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
    <td colname="col2"> <p>ID de unidad de negocio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID de campaña </p> </td> 
+   <td colname="col1"> <p>Id. de campaña </p> </td> 
    <td colname="col2"> <p>ID de campaña. </p> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Id. de ubicación </p> </td> 
-   <td colname="col2"> <p> ID de colocación numérica del servidor de publicidad. </p> </td> 
+   <td colname="col2"> <p> ID de ubicación numérica desde el servidor de publicidad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Insertion-Order-ID </p> </td> 
@@ -141,11 +141,11 @@ La tabla siguiente enumera y describe los encabezados de columna del archivo de 
 
 Cargue los archivos de datos de impresión, clic o conversión en un directorio de Amazon S3 para su [!DNL Audience Manager] cuenta. Consulte esta sección para obtener información sobre rutas de entrega/directorio, tiempos de procesamiento de archivos y actualizaciones.
 
-**Sintaxis y ejemplos de ruta de entrega**
+**Sintaxis y ejemplos de la ruta de entrega**
 
 Los datos se almacenan en un espacio de nombres independiente para cada cliente en un directorio de Amazon S3. La ruta del archivo sigue la sintaxis que se muestra a continuación. Note, *italics* indicates a variable placeholder. Otros elementos son constantes o claves y no cambian.
 
-**Sintaxis:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i></i>de archivo_<i>yyyymmdd</i></code></pre>
+**Sintaxis:** <pre> .../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i></i>de archivo_<i>yyyymmdd</i></code></pre>
 
 La siguiente tabla define cada uno de estos elementos en una ruta de entrega de archivos.
 
