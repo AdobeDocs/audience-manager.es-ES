@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Administrar grupos de pruebas
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 ---
 
@@ -56,9 +56,10 @@ Para crear un nuevo [!UICONTROL Segment Test Group]:
 
 1. **[!UICONTROL Select Conversion Traits]**
 
-   * Agregue características de conversión escribiendo en la ventana de características de conversión. Este es un paso **obligatorio** y no puede continuar con el siguiente paso a menos que agregue al menos una característica de conversión.
+   * Para agregar características de conversión, escriba en la ventana de características de conversión. Este es un paso **obligatorio** y no puede continuar con el siguiente paso a menos que agregue al menos una característica de conversión.
    * Si lo desea, puede agregar hasta 5 características de conversión.
    * Se mostrará una alerta en caso de que seleccione una característica de conversión ya utilizada para otros grupos de prueba.
+   * Tenga en cuenta que Audience Manager no admite el uso de características de [carpeta](/help/using/features/traits/about-folder-traits.md) como características de conversión. Si se selecciona una característica de carpeta como característica de conversión, se mostrarán 0 informes de agregación y de tendencia en la prueba.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
