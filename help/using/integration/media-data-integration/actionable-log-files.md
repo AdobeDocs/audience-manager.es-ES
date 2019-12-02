@@ -1,13 +1,13 @@
 ---
 description: Los archivos de registro procesables le permiten capturar señales de medios de archivos de registro del servidor de publicidad para crear características en Audience Manager. Capture impresiones, clics y conversiones de servidores de publicidad como características sin tener que anexar píxeles.
-keywords: registros procesables, alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: Los archivos de registro procesables le permiten capturar señales de medios de archivos de registro del servidor de publicidad para crear características en Audience Manager. Capturar impresiones, clics y conversiones de servidores de publicidad como características sin tener que usar píxeles anexados.
 seo-title: Archivos de registro procesables
 solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -140,7 +140,7 @@ La tabla muestra las señales procesables de los archivos de [!DNL DCM] registro
  </tbody>
 </table>
 
-Las señales descritas en la tabla se capturan en [!DNL Audience Manager] forma de `HTTP` llamada en tiempo real. La llamada de ejemplo siguiente contiene información sobre un evento de conversión de [!DNL DCM]. Las llamadas no necesariamente deben incluir *todas* las señales en la llamada de ejemplo.
+Las señales descritas en la tabla se capturan en [!DNL Audience Manager] forma de `HTTP` llamada en tiempo real. La llamada de ejemplo siguiente contiene información sobre un evento de conversión de [!DNL DCM]. Las llamadas no necesariamente tienen que incluir *todas* las señales en la llamada de ejemplo.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
@@ -158,9 +158,9 @@ Para un archivo [!DNL DCM] de registro de tamaño medio de 2 millones de líneas
 
 <br> 
 
-### Señales procesables de registros genéricos de servidores de publicidad {#generic-logs-signals}
+### Señales procesables de los registros genéricos del servidor de publicidad {#generic-logs-signals}
 
-En primer lugar, debe soltar los registros del servidor de publicidad en nuestros cubos de Amazon S3. Para ello, lea Archivos [de datos para informes de optimización de audiencia y Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro procesables *y póngase* en contacto con su [!DNL Audience Manager] asesor. La tabla muestra las señales procesables de los archivos de registro genéricos:
+Primero, debe depositar los registros de su servidor de publicidad en nuestros cubos de Amazon S3. Para ello, lea Archivos [de datos para informes de optimización de audiencia y Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro procesables *y póngase* en contacto con su [!DNL Audience Manager] asesor. La tabla muestra las señales procesables de los archivos de registro genéricos:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ En primer lugar, debe soltar los registros del servidor de publicidad en nuestro
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Una fecha y hora UTC para el evento de impresión, clic o conversión. Use el <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> Una fecha y hora UTC para el evento de impresión, clic o conversión. Utilice el <code>yyyy-MM-dd HH:mm:ss</code> formato. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
@@ -222,7 +222,7 @@ En primer lugar, debe soltar los registros del servidor de publicidad en nuestro
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento del nombre del archivo de registro y lo transforma en una señal procesable. Consulte Convenciones <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">de nomenclatura de archivos de registro</a>. </p> <p>Los valores aceptados son: </p> <p> 
+   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento desde el nombre del archivo de registro y lo transforma en una señal procesable. Consulte Convenciones <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">de nomenclatura de archivos de registro</a>. </p> <p>Los valores aceptados son: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> para impresiones. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> para clics. </li> 
@@ -239,7 +239,7 @@ En primer lugar, debe soltar los registros del servidor de publicidad en nuestro
  </tbody>
 </table>
 
-Las señales descritas en la tabla se capturan en [!DNL Audience Manager] forma de `HTTP` llamada en tiempo real. Las llamadas no necesariamente deben incluir *todas* las señales en la llamada de ejemplo.
+Las señales descritas en la tabla se capturan en [!DNL Audience Manager] forma de `HTTP` llamada en tiempo real. Las llamadas no necesariamente tienen que incluir *todas* las señales en la llamada de ejemplo.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
@@ -275,7 +275,7 @@ Vuelva a segmentar usuarios que hayan visto el elemento creativo 123 pero que no
 
    `d_event == conv AND d_conversion == 123`
 
-   Al crear la característica en Audience Manager [!UICONTROL UI], seleccione [!UICONTROL Conversion] como [!UICONTROL Event Type].
+   Al crear la característica en Audience Manager [!UICONTROL UI], selecciónela [!UICONTROL Conversion] como [!UICONTROL Event Type].
 
 2. Una vez que haya creado la característica, la conversión comenzará a registrarse en el informe [!UICONTROL Audience Optimization Reports] y en [!UICONTROL Audience Lab].
 
