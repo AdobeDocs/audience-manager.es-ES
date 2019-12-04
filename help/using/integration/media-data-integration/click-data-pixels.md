@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de datos de clics de campaña mediante llamadas de píxel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
 
@@ -20,7 +20,7 @@ El rastreo de clics permite medir el compromiso del visitante a lo largo de la c
 Las llamadas de seguimiento de clics requieren los siguientes parámetros:
 
 * `d_event=click`:: Un par clave-valor que identifica una llamada de evento como un evento de clic.
-* `d_rd=redirect URL`:: Un par clave-valor que contiene una redirección codificada [!DNL URL].
+* `d_rd=redirect URL`:: Un par clave-valor que contiene una redirección con doble codificación [!DNL URL]. Si utiliza una herramienta de codificación en línea, ejecute la cadena a través del codificador y, a continuación, vuelva a codificar el resultado para que la redirección funcione.
 
 Además, la llamada puede contener pares de clave-valor que se pueden utilizar para la calificación de características o para proporcionar datos y metadatos para otros informes.
 
@@ -150,8 +150,7 @@ En este ejemplo se muestra cómo pasar las macros de elementos creativos, grupos
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## Respuesta
