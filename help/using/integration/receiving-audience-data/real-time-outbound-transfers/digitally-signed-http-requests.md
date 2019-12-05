@@ -1,25 +1,25 @@
 ---
-description: Audience Manager requiere que las solicitudes HTTP de servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar solicitudes HTTP con claves privadas.
-seo-description: Audience Manager requiere que las solicitudes HTTP de servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar solicitudes HTTP con claves privadas.
-seo-title: Solicitudes HTTP firmadas digitalmente
+description: Audience Manager requiere que las solicitudes HTTP(S) servidor-a-servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar solicitudes HTTP con claves privadas.
+seo-description: Audience Manager requiere que las solicitudes HTTP(S) servidor-a-servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
+seo-title: Solicitudes HTTP(S) firmadas digitalmente
 solution: Audience Manager
-title: Solicitudes HTTP firmadas digitalmente
+title: Solicitudes HTTP(S) firmadas digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# Solicitudes firmadas `HTTP` digitalmente {#digitally-signed-http-requests}
+# Solicitudes firmadas `HTTP(S)` digitalmente {#digitally-signed-http-requests}
 
-Audience Manager requiere que las solicitudes `HTTP` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar `HTTP` solicitudes con claves privadas.
+Audience Manager requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar `HTTP(S)` solicitudes con claves privadas.
 
 ## Información general {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Con una clave privada proporcionada por usted y compartida con [!DNL Audience Manager], podemos firmar digitalmente las `HTTP` solicitudes enviadas entre [IRIS](../../../reference/system-components/components-data-action.md#iris) y su servidor HTTP. Esto garantiza:
+Con una clave privada proporcionada por usted y compartida con [!DNL Audience Manager], podemos firmar digitalmente las `HTTP(S)` solicitudes enviadas entre [IRIS](../../../reference/system-components/components-data-action.md#iris) y su servidor HTTP(S). Esto garantiza:
 
 * **Autenticidad**: solo el remitente que tiene la clave privada ([!UICONTROL IRIS]) puede enviar `HTTP(S)` mensajes válidos al socio.
 * **Integridad** del mensaje: con este enfoque, incluso en `HTTP`, estás protegido de un hombre en el ataque medio donde los mensajes se distorsionan.
@@ -28,11 +28,11 @@ Con una clave privada proporcionada por usted y compartida con [!DNL Audience Ma
 
 ## Información que debe proporcionar {#info-to-provide}
 
-Para un destino de servidor a servidor en tiempo `HTTP` real, póngase en contacto con su [!DNL Audience Manager] asesor y especifique:
+Para un destino de servidor a servidor en tiempo `HTTP(S)` real, póngase en contacto con su [!DNL Audience Manager] asesor y especifique:
 
 * Clave utilizada para firmar la solicitud.
-* El nombre del `HTTP` encabezado que contendrá la firma generada (firma X en el encabezado de ejemplo siguiente).
-* Opcional: tipo de hash utilizado para la firma (md5, sha1, sha256).
+* El nombre del `HTTP(S)` encabezado que contendrá la firma generada (firma X en el encabezado de ejemplo siguiente).
+* Opcional: el tipo de hash utilizado para la firma (md5, sha1, sha256).
 
 ```
 * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] crea el `HTTP` mensaje que se enviará al socio.
-1. [!UICONTROL IRIS] crea una firma basada en el mensaje `HTTP` y la clave privada comunicada por el socio.
+1. [!UICONTROL IRIS] crea el `HTTP(S)` mensaje que se enviará al socio.
+1. [!UICONTROL IRIS] crea una firma basada en el mensaje `HTTP(S)` y la clave privada comunicada por el socio.
 1. [!UICONTROL IRIS] envía la `HTTP(S)` solicitud al socio. Este mensaje contiene la firma y el mensaje real, como se muestra en el ejemplo anterior.
 1. El servidor asociado recibe la `HTTP(S)` solicitud. Lee el cuerpo del mensaje y la firma recibida de [!UICONTROL IRIS].
 1. Según el cuerpo del mensaje recibido y la clave privada, el servidor asociado vuelve a calcular la firma. Consulte la sección [Cómo calcular la firma](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) que aparece a continuación sobre cómo conseguirlo.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ Por motivos de seguridad, se recomienda rotar periódicamente la clave privada. 
 
 ## Datos utilizados para firmar {#data-signing}
 
-Para los destinos `GET` de tipo, el mensaje utilizado para la firma será la *CADENA* DE CONSULTA + REQUEST_PATH (p. ej. */from-aam-s2s?sids=1,2,3*). IRIS no tiene en cuenta el nombre de host o los encabezados, ya que estos pueden modificarse o configurarse incorrectamente a lo largo de la ruta o informarse incorrectamente. `HTTP`
+Para los destinos `GET` de tipo, el mensaje utilizado para la firma será la *CADENA* DE CONSULTA + REQUEST_PATH (p. ej. */from-aam-s2s?sids=1,2,3*). IRIS no tiene en cuenta el nombre de host o los encabezados, ya que estos pueden modificarse o configurarse incorrectamente a lo largo de la ruta o informarse incorrectamente. `HTTP(S)`
 
 Para los destinos de `POST` tipo, el mensaje utilizado para firmar es el CUERPO DE *SOLICITUD*. De nuevo, se omiten los encabezados u otros parámetros de solicitud.
