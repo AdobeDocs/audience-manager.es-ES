@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
+source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
 
 ---
 
@@ -32,15 +32,15 @@ Esta función utiliza una hoja de cálculo de Microsoft Excel con macros que rea
 
 ## Descargar {#download}
 
-Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20191015.xlsm)**.
+Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20191205.xlsm)**.
 
 ## Requisitos previos {#prereqs}
 
 Para usar el [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su [!DNL Experience Cloud] inicio de sesión. Como cliente, ya debería tener estas credenciales.
-* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20191015.xlsm) para obtener la versión más reciente.
-* Microsoft Excel se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows].
+* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20191205.xlsm) para obtener la versión más reciente.
+* Microsoft Excel se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de Microsoft Excel.
 * Al abrir la hoja de cálculo, debe **activar macros** para que [!DNL Bulk Management Tools] funcione.
 
 ## Requisitos y opciones de autenticación {#auth-reqs}
