@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Consejos para la resolución de problemas de las herramientas de administración masiva
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ Factores como el tráfico de red pesado, el uso del servidor y los grandes conju
 * Elimine todas las filas que ya se hayan actualizado.
 * Intente la solicitud masiva de nuevo.
 
-## Largos retrasos o comportamiento no adaptable {#delays-behavior}
+## Errores de autenticación, retrasos prolongados o comportamiento no interactivo {#delays-behavior}
 
 En la tabla siguiente se enumeran algunos problemas comunes que puede encontrar al realizar solicitudes masivas con las hojas de cálculo. Intente solucionar estos problemas con las soluciones recomendadas. Si las soluciones recomendadas no resuelven el problema, debe guardar el trabajo, reiniciar el equipo e intentar la solicitud de nuevo sin iniciar ni trabajar con otras aplicaciones.
 
@@ -46,6 +46,12 @@ En la tabla siguiente se enumeran algunos problemas comunes que puede encontrar 
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Error de autenticación</b> </td> 
+   <td colname="col2"> 
+    <b>Actualización a la versión más reciente de Microsoft Excel</b>: Cuando se lanza una nueva versión de Microsoft Excel y se utiliza una versión anterior, es posible que se produzca un error de autenticación en la hoja de cálculo Administración masiva. Actualice a la versión más reciente de Microsoft Excel para resolver el error de autenticación.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Largos retrasos</b> </td> 
    <td colname="col2"> 
