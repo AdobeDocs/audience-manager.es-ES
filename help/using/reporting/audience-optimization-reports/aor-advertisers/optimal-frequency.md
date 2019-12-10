@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informe de frecuencia óptima
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # Informe de frecuencia óptima{#optimal-frequency-report}
 
 El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
+
+El informe tiene un intervalo de retrospectiva de 30 días, a partir de la fecha elegida en el [!UICONTROL Date Through] selector.
 
 El volumen de conversión suele disminuir con bloques de frecuencia de impresión más altos. Menos usuarios ven el mayor número de impresiones. Esto significa que los bloques de frecuencia más alta tienen menos conversiones.
 
@@ -23,5 +25,4 @@ Como se muestra en el informe de muestra, la intersección de las parcelas de 2 
 
 ## Informe de muestra
 
-![](assets/optimal-frequency.png)
-
+![frecuencia óptima](assets/optimal-frequency.png)
