@@ -5,7 +5,7 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -40,7 +40,7 @@ Debe cumplir los siguientes requisitos previos para utilizar el TCF de IAB con A
 1. Debe utilizar la versión 4.1 o posterior del servicio Experience Cloud ID (ECID). [Descargue](https://github.com/Adobe-Marketing-Cloud/id-service/releases) nuestra última versión de ECID.
 1. Debe utilizar la biblioteca de integración de datos de Audience Manager (DIL) versión 9.0 o posterior, descargable desde [aquí](https://github.com/Adobe-Marketing-Cloud/dil/releases). Obtenga información sobre [DIL en la documentación](../..//dil/dil-overview.md)de Audience Manager.
 1. Como alternativa, si utiliza el reenvío del lado del servidor (SSF) para importar datos en Audience Manager, debe actualizar a la versión más reciente de AppMeasurement. Descargue AppMeasurement con el Administrador [de códigos de](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
-1. Debe utilizar una Plataforma de Gestión de Consentimiento (CMP), ya sea comercial o propia, que admita la IAB y esté registrada en la IAB TCF. Véase la lista de [las CP/RP registradas en el marco](https://advertisingconsent.eu/cmp-list/)de la IAB.
+1. Debe utilizar una Plataforma de Gestión de Consentimiento (CMP), ya sea comercial o propia, que admita el TCF de IAB y esté registrada en el TCF de IAB. Véase la lista de [las CP/RP registradas en el marco](https://advertisingconsent.eu/cmp-list/)de la IAB.
 
 ## Recomendaciones y cómo implementar {#recommendations}
 
@@ -50,7 +50,7 @@ Para ello, es más fácil utilizar [Adobe Launch](https://docs.adobelaunch.com/)
 
 ## Flujo de trabajo de opciones de usuario al utilizar el marco de trabajo IAB {#user-choice-workflow}
 
-Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo de CMP que se muestra a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
+Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo CMP, mostrado a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
 
 ![Cuadro de diálogo CMP](assets/cmp.png)
 
