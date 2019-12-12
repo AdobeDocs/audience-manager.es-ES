@@ -5,7 +5,7 @@ seo-title: Glosario CCPA
 solution: Audience Manager
 title: Glosario CCPA
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -14,9 +14,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ## Información general {#overview}
 
-Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager aborda los distintos requisitos de la CCPA.
+Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager, como proveedor de servicios, aborda los distintos requisitos de la CCPA.
 
-La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés) entrará en vigor el 1 de enero de 2020 y es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir con sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA antes y después del 1 de enero de 2020. Audience Manager espera con interés asociarse con usted a medida que aborde cualquier nueva obligación a través del uso de la administración de datos y la privacidad mediante las funciones de diseño.
+La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés) entrará en vigor el 1 de enero de 2020 y es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir con sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA antes y después del 1 de enero de 2020.
+
+Audience Manager espera con interés asociarse con usted a medida que aborde cualquier nueva obligación a través del uso de la administración de datos y la privacidad mediante las funciones de diseño.
 
 ## Glosario CCPA {#CCPA-glossay}
 
@@ -31,10 +33,6 @@ Familiarícese con los términos clave utilizados en relación con CCPA. Hemos r
  
 
 **Información** personal: información que identifique, relacione, describa, pueda asociarse o pueda razonablemente vincularse, directa o indirectamente, con un consumidor o hogar determinado. La información personal incluye, entre otras cosas, la información que identifica, relaciona, describe, es capaz de asociarse o podría estar razonablemente vinculada, directa o indirectamente, con un consumidor determinado.
-
- 
-
-**Pseudonymize/Pseudonimización**: tratamiento de la información personal de manera que la información personal ya no sea atribuible a un consumidor determinado sin el uso de información adicional, siempre que la información adicional se mantenga por separado y esté sujeta a medidas técnicas y organizativas para garantizar que la información personal no se atribuya a un consumidor identificado o identificable.
 
  
 
