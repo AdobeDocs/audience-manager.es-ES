@@ -1,10 +1,11 @@
 ---
 product: audience-manager
+solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
+source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
 
 ---
 
