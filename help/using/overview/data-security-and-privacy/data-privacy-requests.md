@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Solicitudes de privacidad de datos
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -49,7 +49,7 @@ La interfaz de usuario [de](https://gdprui.cloud.adobe.io/) Privacy Service perm
 
 Para ver el aspecto de un [!DNL JSON] archivo válido, puede [descargar un JSON](../data-security-and-privacy/assets/access_request.json)de muestra.
 
-Adobe comprende su compromiso de cumplir sus solicitudes de privacidad de datos en un plazo de 30 días a partir de la recepción. Por este motivo, Adobe se compromete a procesar su solicitud de eliminación de datos lo antes posible.
+Adobe comprende su compromiso de cumplir sus solicitudes de privacidad de datos en un plazo de 30 días. Por este motivo, Adobe se compromete a procesar su solicitud de eliminación de datos lo antes posible.
 
 En respuesta a las solicitudes de eliminación de datos de consumo, Audience Manager elimina las características y los segmentos asociados con el identificador de Audience Manager incluido en la solicitud. Además, los identificadores de Audience Manager respectivos para el individuo optaron por no recibir más datos recopilados por Audience Manager y se eliminarán las asignaciones de ID correspondientes.
 
@@ -108,7 +108,7 @@ Los usuarios finales también pueden desactivar la recopilación global de datos
 
 Siguiendo las solicitudes de exclusión descritas anteriormente:
 
-* Audience Manager dejará de recopilar, segmentar o activar datos en adelante, siempre y cuando el usuario no borre las cookies del explorador.
+* Audience Manager dejará de recopilar, segmentar o activar todos los datos, siempre y cuando el usuario no borre las cookies del explorador.
 * Los datos históricos se eliminan del perfil del usuario pasados 120 días.
 
 ### Opción de exclusión de nivel de socio con llamadas de ID declaradas
