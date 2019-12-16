@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Solicitudes de privacidad de datos
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -170,7 +170,7 @@ Sin embargo, algunos de nuestros socios de activación:
 
 En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada a través de Audience Manager.
 
-Descargue nuestra hoja [de Excel de](assets/AAM-Partners-October2019.xlsx) socio para ver qué socios de activación de Audience Manager admiten la dessegmentación.
+Descargue nuestra hoja [de Excel de](assets/AAM-Partners-December2019.xlsx) socio para ver qué socios de activación de Audience Manager admiten la dessegmentación.
 
 ## Solicitudes de corrección de datos {#correction}
 
