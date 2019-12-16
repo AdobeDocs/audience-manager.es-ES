@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Administración de datos
 translation-type: tm+mt
-source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -42,4 +42,4 @@ La aplicación de políticas de retención de datos apropiadas, seguras y oportu
 
 ## Transferencias de datos transfronterizas {#data-transfers}
 
-El RGPD no prohíbe la transferencia de datos fuera de Europa. Exige que la protección de la privacidad de los datos europeos persista dondequiera que se transfieran. Visite el [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) para obtener más información. La CCPA no tiene restricciones de transferencia de datos transfronteriza.
+Cuando Audience Manager transfiere datos personales de los clientes a través de fronteras nacionales, lo hace de conformidad con la legislación aplicable. Visite el [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) para obtener más información.
