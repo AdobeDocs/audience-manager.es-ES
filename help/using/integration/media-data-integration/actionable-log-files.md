@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
+source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
 
 ---
 
@@ -244,6 +244,19 @@ Las señales descritas en la tabla se capturan en [!DNL Audience Manager] forma 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
+
+## Uso de señales procesables en la interfaz de usuario de Audience Manager {#actionable-signals-in-ui}
+
+Puede ver las señales accionables entrantes en la interfaz de búsqueda [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) señales.
+
+Vaya a Datos **de** audiencia (1) &gt; **Señales** (2) &gt; **Buscar** (3) y seleccione el filtro Archivos **de registro** procesables (4).
+
+![Señales procesables en la interfaz de usuario](/help/using/integration/assets/alf-in-signals.png)
+
+Para crear características basadas en reglas con sus señales procesables, seleccione Archivos **de registro** procesables (1), seleccione las señales procesables que desee utilizar como reglas de características (2) y pulse **Crear rasgo a partir de señales** seleccionadas (3).
+
+![Crear características a partir de señales](/help/using/integration/assets/alf-create-trait.png)
+
 
 ## Casos de uso {#use-cases}
 
