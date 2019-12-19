@@ -5,7 +5,7 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -44,7 +44,7 @@ Debe cumplir los siguientes requisitos previos para utilizar el TCF de IAB con A
 
 ## Recomendaciones y cómo implementar {#recommendations}
 
-Para habilitar la compatibilidad con TCF de IAB en Audience Manager, lea nuestra documentación sobre [cómo configurar IAB con inclusión](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html).
+Para habilitar la compatibilidad con TCF de IAB en Audience Manager, lea nuestra documentación sobre [cómo configurar IAB con inclusión](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
 Para ello, es más fácil utilizar [Adobe Launch](https://docs.adobelaunch.com/) para instrumentar la inclusión de ECID en sus propiedades. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
@@ -133,7 +133,7 @@ El complemento Audience Manager para IAB TCF le permite reenviar la cadena de co
 
 ## Probar la implementación de IAB {#test-iab-implementation}
 
-Para probar que ha implementado correctamente el complemento Audience Manager para IAB TCF, lea el [Caso de uso 4 en Métodos de validación para la implementación](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html)de inclusión e IAB.
+Para probar que ha implementado correctamente el complemento Audience Manager para IAB TCF, lea el [Caso de uso 4 en Métodos de validación para la implementación](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)de inclusión e IAB.
 
 ## IAB y exclusión en Audience Manager. Orden de prioridad. {#iab-and-optout}
 
