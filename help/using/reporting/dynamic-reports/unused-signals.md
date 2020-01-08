@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Informe Señales no utilizadas
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Informe Señales no utilizadas{#unused-signals-report}
 
-Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager.
+Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de audiencia > Otros informes > Señales** no utilizadas.
 
-<!-- 
+>[!NOTE]
+>
+>Si aparece el mensaje &quot;No tiene acceso a los informes de audiencia&quot;, póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para que le proporcione el informe.
 
-c_unused_signals.xml
+![Captura de pantalla del informe Señales no utilizadas](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Informe Señales no utilizadas
+## Información general
 
 Una señal es la información de su sitio web que se transmite [!DNL Audience Manager] en forma de pares [de valor](../../reference/key-value-pairs-explained.md) clave (por ejemplo, `color=blue, price>100, gender=female`, etc.).
 
@@ -45,7 +45,7 @@ Revise este informe para identificar las señales huérfanas que se pueden asign
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Garantizar la uniformidad de características o agregar valores relacionados a una sola clave</b> </p> </td> 
-   <td colname="col2"> <p>Revise el informe para tener en cuenta las diferentes variaciones de valor de una señal en particular. </p> <p>Por ejemplo, supongamos que tiene una característica para el estado "Carolina del Norte" definida en un par clave-valor como <code> c_state = Carolina del Norte</code>. El informe puede ayudarle a encontrar las variantes de nombre y agregarlas a la característica (por ejemplo, <code> c_state = Carolina del Norte, NC, N.C., Carolina del Norte</code>). Otra opción es colocar las variantes de nombre en el informe y reemplazarlas por un valor uniforme en todos los sitios. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Revise el informe para tener en cuenta las diferentes variaciones de valor de una señal en particular. </p> <p>Por ejemplo, supongamos que tiene una característica para el estado "Carolina del Norte" definida como <code> c_state = North Carolina</code>. El informe puede ayudarle a encontrar las variantes de nombre y agregarlas a la característica (por ejemplo, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Otra opción es colocar las variantes de nombre en el informe y reemplazarlas por un valor uniforme en todos los sitios. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Crear nuevas características</b> </p> </td> 
