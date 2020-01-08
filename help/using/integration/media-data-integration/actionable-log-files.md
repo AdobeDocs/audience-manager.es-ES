@@ -1,13 +1,13 @@
 ---
 description: Los archivos de registro procesables le permiten capturar señales de medios de archivos de registro del servidor de publicidad para crear características en Audience Manager. Capture impresiones, clics y conversiones de servidores de publicidad como características sin tener que anexar píxeles.
 keywords: actionable logs, alf, ALF
-seo-description: Los archivos de registro procesables le permiten capturar señales de medios de archivos de registro del servidor de publicidad para crear características en Audience Manager. Capturar impresiones, clics y conversiones de servidores de publicidad como características sin tener que usar píxeles anexados.
+seo-description: Los archivos de registro procesables le permiten capturar señales de medios de archivos de registro del servidor de publicidad para crear características en Audience Manager. Capture impresiones, clics y conversiones de servidores de publicidad como características sin tener que anexar píxeles.
 seo-title: Archivos de registro procesables
 solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
+source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 ---
 
@@ -35,7 +35,7 @@ Si ya está importando datos de registro en [!DNL Audience Manager], pregunte a 
 
 >[!IMPORTANT]
 >
-> A finales de 2019, [!UICONTROL Actionable Log Files] comenzará a aumentar la disponibilidad para los nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> A principios de 2020, [!UICONTROL Actionable Log Files] comenzará a ampliar la disponibilidad para nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Uso de archivos de registro procesables {#working-with-actionable-log-files}
 
@@ -148,7 +148,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Para un archivo [!DNL DCM] de registro de tamaño medio de 2 millones de líneas, cualquier característica creada a partir de señales procesables se realiza en aproximadamente una hora después de procesar los registros.
 
->[!NOTE] {important="high"}
+>[!NOTE] {important=&quot;high&quot;}
 >
 >La marca de tiempo del evento proporcionada en los [!DNL DCM] registros se respetará y pasará al [!UICONTROL Data Collection Servers].
 >
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Puede ver las señales accionables entrantes en la interfaz de búsqueda [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) señales.
 
-Vaya a Datos **de** audiencia (1) &gt; **Señales** (2) &gt; **Buscar** (3) y seleccione el filtro Archivos **de registro** procesables (4).
+Vaya a Datos **de** audiencia (1) > **Señales** (2) > **Buscar** (3) y seleccione el filtro Archivos **de registro** procesables (4).
 
 ![Señales procesables en la interfaz de usuario](/help/using/integration/assets/alf-in-signals.png)
 
