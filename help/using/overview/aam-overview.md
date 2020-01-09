@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Información general de Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
+source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
 
 ---
 
@@ -23,11 +23,21 @@ Las funciones de una plataforma de administración de datos (DMP) se pueden resu
 
 ![Imagen de tres funciones DMP: Entrada de datos, Creación de audiencias, Salida de datos](/help/using/overview/assets/dmp-functions.png)
 
-**Data In** Audience Manager recopila datos de origen de canales y dispositivos (análisis de Web, CRM, datos de dispositivos, comercio electrónico, etc.).
+**Entrada de datos**
 
-**Creación** de audiencias Unifica los datos en perfiles de audiencia, lo que le proporciona una vista completa del cliente en todos los dispositivos y canales. Cree modelos parecidos, cree segmentos de audiencia y grupos de perfiles y complételos con fuentes de datos de terceros y de terceros.
+Audience Manager recopila datos de origen de canales y dispositivos (análisis de Web, CRM, datos de dispositivos, comercio electrónico, etc.).
 
-**Data Out** Activa los segmentos de audiencia empujándolos a plataformas de demanda (DSP), sistemas de administración de campañas y otras plataformas de marketing.
+<br> 
+
+**Creación de audiencias**
+
+Unifica los datos en perfiles de audiencia, lo que le proporciona una vista completa del cliente en todos los dispositivos y canales. Cree modelos parecidos, cree segmentos de audiencia y grupos de perfiles y complételos con fuentes de datos de terceros y de terceros.
+
+<br> 
+
+**Salida de datos**
+
+Activa los segmentos de audiencia empujándolos a plataformas de demanda (DSP), sistemas de administración de campañas y otras plataformas de marketing.
 
 ## Más información {#more-information}
 
