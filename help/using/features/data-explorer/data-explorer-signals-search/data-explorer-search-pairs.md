@@ -5,7 +5,7 @@ seo-title: Señales de búsqueda por pares de clave-valor
 title: Señales de búsqueda por pares de clave-valor
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -16,7 +16,7 @@ Busque una o varias señales, en función de sus respectivos pares clave-valor.
 Para buscar más de una señal, haga clic en el botón ![Agregar](assets/icon_add.png) . Introduzca los pares clave-valor que desea buscar y, a continuación, utilice los filtros siguientes para reducir los resultados.
 
 * **Estado** de la señal: buscar señales incluidas en características, señales no utilizadas o ambas.
-* **Ver registros para**: seleccione el intervalo de tiempo en el que desea buscar señales recibidas.
+* **Ver registros para**: seleccione el intervalo de tiempo en el que desea buscar las señales recibidas.
 * **Recuentos** mínimos: mostrar sólo las señales con el recuento total mínimo especificado en el intervalo seleccionado.
 
 >[!IMPORTANT]
@@ -33,7 +33,11 @@ Esta búsqueda sólo devolverá resultados que califiquen para los tres filtros 
 
 ![](assets/signals-search.png)
 
-## Insensibilidad de casos y finalización automática de búsquedas {#case-insensitivity}
+## Señales excluidas de la búsqueda de señales {#excluded-signals}
+
+Las variables clave utilizadas por Audience Manager y con el prefijo `d_` y `h_` no aparecen en [!UICONTROL Signals Search]. Consulte Requisitos [de prefijo para variables](../../traits/trait-variable-prefixes.md) clave para obtener más información.
+
+## Insensibilidad de los casos y finalización automática de la búsqueda {#case-insensitivity}
 
 Los campos de búsqueda de clave y valor no distinguen entre mayúsculas y minúsculas. El campo de búsqueda clave incluye sugerencias completadas automáticamente.
 
