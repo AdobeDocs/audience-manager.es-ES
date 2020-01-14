@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de prefijo para variables clave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -17,7 +17,7 @@ Este artículo describe los prefijos que debe adjuntar a las variables clave al 
 
 <!-- r_tb_variable_prefixes.xml -->
 
-## Objetivo de los prefijos de variables clave
+## Propósito de los prefijos de variables clave
 
 Al crear [!UICONTROL Trait Builder] reglas, es importante anteponer la variable clave con un prefijo recomendado. Estos prefijos identifican el tipo de datos pasados y ayudan a evitar conflictos de espacios de nombres dentro de [!DNL Audience Manager]. Generalmente, puede asignar a una variable cualquier nombre, pero los datos de una regla no se procesarán si el nombre de la variable clave no coincide con el nombre de la variable en una llamada de evento.
 
@@ -39,11 +39,11 @@ La siguiente tabla define los prefijos comunes utilizados por [!UICONTROL Trait 
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>En el nivel de <span class="keyword"> Audience Manager</span> . Estos datos son uniformes en todo el ecosistema de <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos admitidos para llamadas</a> de API de DCS para obtener una lista más completa. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>En el nivel de <span class="keyword"> Audience Manager</span> . Estos datos son uniformes en todo el ecosistema de <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos admitidos para llamadas</a> de API de DCS para obtener una lista más completa. <p>Las señales que utilizan este prefijo no aparecen en la búsqueda de <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">señales</a>.</p></p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Contiene <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> información de encabezado</a> HTTP. Incluye parámetros de encabezado como <code> referer</code>,<code> IP</code><code> accept-language</code>, etc. </p> <p> <p>Nota: Para los clientes que utilizan versiones DIL anteriores a la 9.0, la recopilación de datos mediante la <code> h_referer</code> señal no funcionará en los navegadores Safari. Con la introducción de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, los navegadores Safari pueden clasificar el dominio demdex.net como rastreador y truncarán el referente en la solicitud de recopilación de datos para que solo contenga el origen en lugar de la dirección URL completa. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtención e implementación de código</a> DIL para obtener la versión más reciente de DIL. </p> </p> </td> 
+   <td colname="col2"> <p>Que contiene <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> información de encabezado</a> HTTP. Incluye parámetros de encabezado como <code> referer</code>,<code> IP</code><code> accept-language</code>, etc. </p> <p> <p>Nota: Para los clientes que utilizan versiones DIL anteriores a la 9.0, la recopilación de datos mediante la <code> h_referer</code> señal no funcionará en los navegadores Safari. Con la introducción de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, los navegadores Safari pueden clasificar el dominio demdex.net como rastreador y truncarán el referente en la solicitud de recopilación de datos para que solo contenga el origen en lugar de la dirección URL completa. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtención e implementación de código</a> DIL para obtener la versión más reciente de DIL.<p>Las señales que utilizan este prefijo no aparecen en la búsqueda de <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">señales</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
