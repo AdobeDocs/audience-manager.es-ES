@@ -5,7 +5,7 @@ seo-title: Glosario CCPA
 solution: Audience Manager
 title: Glosario CCPA
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager, como proveedor de servicios, aborda los distintos requisitos de la CCPA.
 
-La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés) entrará en vigor el 1 de enero de 2020 y es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir con sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA antes y después del 1 de enero de 2020.
+La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés), que entró en vigor el 1 de enero de 2020, es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA.
 
 Audience Manager espera con interés asociarse con usted a medida que aborde cualquier nueva obligación a través del uso de la administración de datos y la privacidad mediante las funciones de diseño.
 
-## Glosario CCPA {#CCPA-glossay}
+## Glosario CCPA {#CCPA-glossary}
 
 Familiarícese con los términos clave utilizados en relación con CCPA. Hemos resaltado algunos de los términos más utilizados a continuación.
 
@@ -45,3 +45,10 @@ Familiarícese con los términos clave utilizados en relación con CCPA. Hemos r
  
 
 **Identificador único/Identificador** personal único: un identificador persistente que pueda utilizarse para reconocer a un consumidor, una familia o un dispositivo vinculado a un consumidor o una familia, a lo largo del tiempo y entre diferentes servicios, incluido, entre otros, un identificador de dispositivo; una dirección de protocolo de Internet; cookies, señalizaciones, etiquetas de píxeles, identificadores de publicidad móvil o tecnología similar; número de cliente, seudónimo único o alias de usuario; números de teléfono u otras formas de identificadores persistentes o probabilísticos que puedan utilizarse para identificar un consumidor o dispositivo concreto.
+
+ 
+
+>[!MORELIKETHIS]
+>
+>[Información general sobre la privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md)
+
