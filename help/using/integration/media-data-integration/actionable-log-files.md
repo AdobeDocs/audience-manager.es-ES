@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
+source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ---
 
@@ -35,7 +35,7 @@ Si ya está importando datos de registro en [!DNL Audience Manager], pregunte a 
 
 >[!IMPORTANT]
 >
-> A principios de 2020, [!UICONTROL Actionable Log Files] comenzará a ampliar la disponibilidad para nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> A fines de 2019, [!UICONTROL Actionable Log Files] comenzó a expandir la disponibilidad a nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Uso de archivos de registro procesables {#working-with-actionable-log-files}
 
