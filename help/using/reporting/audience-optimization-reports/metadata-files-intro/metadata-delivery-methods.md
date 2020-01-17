@@ -6,50 +6,42 @@ solution: Audience Manager
 title: Métodos de envío para archivos de metadatos
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
+source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 
 ---
 
 
 # Métodos de envío para archivos de metadatos{#delivery-methods-for-metadata-files}
 
-Envíe o actualice archivos de metadatos enviándolos a un directorio especial de Amazon S3 para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de entrega/directorio, tiempos de procesamiento de archivos y actualizaciones.
+Envíe o actualice archivos de metadatos enviándolos a un [!DNL Amazon S3] directorio especial para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de entrega/directorio, tiempos de procesamiento de archivos y actualizaciones.
 
-## Sintaxis y ejemplos de ruta de entrega {#syntax}
+## Ejemplo y sintaxis de ruta de entrega {#syntax}
 
-Los datos se almacenan en espacios de nombres separados para cada cliente en un directorio de Amazon S3. La ruta del archivo sigue la sintaxis que se muestra a continuación. Note, *italics* indicates a variable placeholder. Los corchetes `[ ]` indican parámetros opcionales. Los demás elementos son constantes y no cambian.
+Los datos se almacenan en un espacio de nombres independiente para cada cliente en un [!DNL Amazon S3] directorio. La ruta del archivo sigue la sintaxis que se muestra a continuación. Tenga en cuenta que los paréntesis angulares `<>` indican un marcador de posición de variable. Los demás elementos son constantes y no cambian.
 
 **Sintaxis:**
-<pre><code>.../log_ingestion/pid=<i>AAM ID</i>/dpid= <i>d_src</i>/[meta|status]/ <i>yyyymmdd</i>_ <i>parent ID</i>_ <i>child ID</i></code></pre>
+
+```
+.../log_ingestion/pid=<AAM ID>/dpid=<d_src>/meta/<yyyymmdd_0_child ID>
+```
+
+**Ejemplo:**
+
+```
+.../log_ingestion/pid=1121/dpid=3342/meta/20200112_0_4
+```
+
+<br> 
 
 La siguiente tabla define cada uno de estos elementos en una ruta de entrega de archivos.
 
-<table id="table_E3DB873D4CB3479AA7173838EB9898CE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parámetro de archivo </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
-   <td colname="col2"> <p>Este es el inicio de la ruta de almacenamiento del directorio. Recibirás la ruta completa cuando todo esté configurado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Este par clave-valor que contiene el ID de cliente de <span class="keyword"> Audience Manager</span> . </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
-   <td colname="col2"> <p>Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. El ID del origen de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </p> <p>Por ejemplo, supongamos que tiene un elemento creativo con el ID 123 y el nombre "Advertiser Creative A". A medida que una llamada de evento pasa solamente en el ID, debe incluir "Advertiser Creative A" en el archivo de metadatos. La campaña y el elemento creativo pertenecen a un origen de datos. La ID de la fuente de datos es lo que las une y nos permite asociar con precisión el contenido del archivo a un ID enviado en una llamada de evento. Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names"> Cómo los ID de llamadas al evento determinan los nombres de archivo, el contenido y las rutas</a>de envío. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code> <i>yyyymmdd</i>_<i>parent ID</i>_<i>child ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Es el nombre del archivo. Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para archivos</a>de metadatos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+| Parámetro de archivo | Descripción |
+---------|----------|
+| `.../log_ingestion/` | Este es el inicio de la ruta de almacenamiento del directorio. Recibirás la ruta completa cuando todo esté configurado. |
+| `pid=<AAM ID>` | Este par clave-valor contiene el ID de cliente de Audience Manager. |
+| `dpid=<d_src>` | Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. El ID del origen de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </br> Por ejemplo, supongamos que tiene un elemento creativo con el ID 123 y el nombre &quot;Advertiser Creative A&quot;. A medida que una llamada de evento pasa solamente en el ID, debe incluir &quot;Advertiser Creative A&quot; en el archivo de metadatos. La campaña y el elemento creativo pertenecen a un origen de datos. La ID de la fuente de datos es lo que las une y nos permite asociar con precisión el contenido del archivo a un ID enviado en una llamada de evento. Consulte [Cómo los ID de llamadas al evento determinan los nombres de los archivos, el contenido y las rutas](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-filenames)de envío. |
+| `<yyyymmdd_0_child ID>` | Es el nombre del archivo. Consulte Convenciones [de nomenclatura para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de metadatos. |
 
 ## Tiempos y actualizaciones de procesamiento de archivos {#processing-times}
 
