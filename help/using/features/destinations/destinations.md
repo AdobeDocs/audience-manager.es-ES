@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
+source-git-commit: e141d04201b94bac30cdbe97818cb8eb91ebbaea
 
 ---
 
@@ -46,7 +46,6 @@ Los ejemplos de la tabla siguiente pueden ayudarle a saber cuándo usar un desti
 | Tipo de destino | Normalmente se utiliza cuando | Ejemplo | Consideraciones |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | Debe enviar datos a otras soluciones de Adobe Experience Cloud. | Envío de datos a Adobe Analytics. |  |
-| **[!UICONTROL People-Based Destinations]** | Debe enviar segmentos de audiencia a entornos basados en personas, como Facebook. | Entregar ofertas personalizadas a los clientes existentes, según su historial de compras | La segmentación de audiencia se realiza mediante identificadores con hash. Consulte Destinos basados en [personas](people-based-destinations-overview.md) |
+| **[!UICONTROL People-Based Destinations]** | Debe enviar segmentos de audiencia a entornos basados en personas, como Facebook. | Entregar ofertas personalizadas a los clientes existentes, según su historial de compras | La segmentación de audiencia se realiza mediante identificadores con hash. Consulte Destinos basados en [personas](people-based-destinations-overview.md). |
 | **[!UICONTROL Device-Based Destinations]**(** Servidor a servidor **) | <ul><li>No se requiere la transferencia inmediata de datos.</li><li>Recopilación de datos para crear un gran grupo de audiencias de usuarios cualificados.</li></ul> | Recopilación de datos a lo largo del tiempo (horas o días) para usarlos en una campaña configurada para ejecutarse en una fecha posterior. | <ul><li>Transfiere datos sobre los visitantes nuevos y anteriores al sitio. </li><li>No es necesario volver a ver a los visitantes para poder acceder a otros segmentos.</li></ul> |
 | **[!UICONTROL Custom Destinations]**(** URL **o** cookie **) | Debe transferir los datos inmediatamente para que un destino pueda actuar en forma inmediata sobre un usuario cualificado. | Envío de datos desde un sitio de compra de entradas. Use una dirección URL o un destino de cookie para calificar al usuario y volver a segmentar inmediatamente. | <ul><li>Transfiere solamente datos sobre visitantes nuevos. </li><li>Se debe volver a ver a los visitantes para que califiquen para el segmento.</li></ul> |
-
