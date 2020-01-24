@@ -7,14 +7,18 @@ solution: Audience Manager
 title: Implementar el módulo Gestión de público
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 1b7c29c0637432a320b2a7573a3f5a7fb4cdcb81
+source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
 
 ---
 
 
-# Implementar el módulo Gestión de público {#implement-the-audience-management-module}
+# Cómo reenviar datos de Adobe Analytics a Audience Manager {#implement-the-audience-management-module}
 
-Agregue el [!UICONTROL Audience Management Module] a [!DNL Adobe Analytics] para reenviar [!UICONTROL AppMeasurement] datos a Audience Manager en lugar de hacer que el código de Audience Manager [!DNL Analytics] ( [!UICONTROL Data Integration Library][!UICONTROL DIL]) envíe un píxel desde la página.
+Siga los pasos de este tutorial para reenviar [!DNL Analytics] datos a Audience Manager en lugar de hacer que el código de Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) envíe un píxel desde la página.
+
+>[!TIP]
+>
+>Le recomendamos que utilice [!UICONTROL Adobe Launch] para reenviar [!UICONTROL Analytics] datos a Audience Manager. Al usar [!UICONTROL Launch], no es necesario copiar el código manualmente en [!UICONTROL AppMeasurement], como se muestra en esta página.
 
 >[!NOTE]
 >
@@ -22,14 +26,33 @@ Agregue el [!UICONTROL Audience Management Module] a [!DNL Adobe Analytics] para
 
 ## Requisitos previos {#prereqs}
 
-Además de implementar el código descrito en este documento, también debe:
+Además de habilitar las extensiones o implementar el código descrito en este documento, también debe:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Habilite [!UICONTROL Server-Side Forwarding] para grupos de informes en la [!UICONTROL Adobe Analytics Admin Console].
+* Habilite el reenvío [del lado del](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) servidor para los grupos de informes en la [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementación {#implementation}
 
-Para implementar la [!UICONTROL Audience Management Module]:
+Existen dos métodos para implementar el reenvío de datos de Adobe Analytics a Audience Manager, según la solución de administración de etiquetas que utilice.
+
+### Implementación mediante Adobe Launch
+
+Adobe recomienda utilizar la extensión [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) para instrumentar Adobe Analytics y Audience Manager en sus propiedades. En este caso, no es necesario copiar manualmente ningún código. En su lugar, debe habilitar el uso compartido de datos en la extensión de inicio de Analytics, como se muestra en la siguiente imagen. Consulte también la documentación de [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+
+>[!TIP]
+>
+>Si instala la extensión de Adobe Analytics, *no instale* también la extensión de Audience Manager. El reenvío de datos desde la extensión Analytics sustituye a la funcionalidad de extensión de Audience Manager.
+
+![Cómo habilitar el uso compartido de datos desde la extensión Adobe Analytics a Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
+
+### Implementación mediante Adobe Digital Tag Management (DTM) o cualquier otra solución de administración de etiquetas
+
+
+>[!WARNING]
+>
+>Adobe ha lanzado los planes para dejar de utilizar la DTM a finales de 2020. Para obtener más información y programar, consulte Planes de DTM para un atardecer en los foros [de la comunidad de](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset)Adobe.
+
+Para implementar el [!UICONTROL Audience Management Module] uso de [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) u otra solución de administración de etiquetas:
 
 1. Descargue [!UICONTROL AppMeasurement] mediante el Administrador [de códigos](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) de Analytics (requiere la versión 1.5 o posterior).
 1. Actualice su [!UICONTROL AppMeasurement] código a la versión incluida en el archivo zip descargado.
@@ -39,7 +62,7 @@ Para implementar la [!UICONTROL Audience Management Module]:
 
 ```js
 s.AudienceManagement.setup({ 
-     "partner":"partner name", 
+     "partner":"INSERT-YOUR-PARTNER-NAME-HERE", 
      "containerNSID":0, 
      "uuidCookie": { 
           "name":"aam_uuid", 
@@ -61,7 +84,7 @@ La siguiente tabla define variables importantes en el ejemplo de código.
 
 | Parámetro | Descripción |
 |--- |--- |
-| `partner` | Requerido. Es un nombre de socio que Adobe le asigna. A veces se le denomina "ID de socio" o "subdominio de socio".  Póngase en contacto con su asesor de Adobe o con el Servicio de atención [al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html) si no conoce el nombre de su socio. |
+| `partner` | Requerido. Es un nombre de socio que Adobe le asigna. A veces se le denomina &quot;ID de socio&quot; o &quot;subdominio de socio&quot;.  Póngase en contacto con su asesor de Adobe o con el Servicio de atención [al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html) si no conoce el nombre de su socio. |
 | `containerNSID` | Requerido. La mayoría de los clientes pueden establecer `"containerNSID":0` . Sin embargo, si su empresa necesita personalizar la sincronización de ID con un contenedor diferente, puede especificar ese ID de contenedor aquí. |
 | `uuidCookie` | Opcional. Esta configuración le permite establecer una cookie de Adobe en el dominio de origen. Esta cookie contiene el [UUID](../../reference/ids-in-aam.md) . |
 | `visitorService` - `namespace` | Requerido. El `namespace` parámetro es obligatorio si utiliza el módulo AudienceManagement incluido con [!UICONTROL AppMeasurement] la versión 2.10 o posterior. Este [!UICONTROL AudienceManagement] módulo requiere que utilice [!UICONTROL Experience Cloud ID Service] 3.3 o posterior. <br> El [!UICONTROL Experience Cloud Organization ID] es el ID que se proporciona a una empresa al registrarse para el [!UICONTROL Experience Cloud]. Descubra el identificador de organización de su empresa en [Organizaciones y vinculación](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)de cuentas. |
@@ -71,8 +94,8 @@ La siguiente tabla define variables importantes en el ejemplo de código.
 La [!DNL Analytics] implementación envía datos a Audience Manager después de:
 
 * Habilitado [!UICONTROL Server-Side Forwarding] (consulte con su asesor sobre esta función);
-* Se ha implementado el servicio de ID;
-* Se instaló el [!UICONTROL Audience Management Module].
+* Se ha implementado el servicio Experience Cloud ID;
+* Se han seguido los pasos de implementación de este tutorial.
 
 Este proceso envía datos a [!DNL Audience Manager]:
 
