@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Implementar el módulo Gestión de público
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ Siga los pasos de este tutorial para reenviar [!DNL Analytics] datos a Audience 
 >[!TIP]
 >
 >Le recomendamos que utilice [!UICONTROL Adobe Launch] para reenviar [!UICONTROL Analytics] datos a Audience Manager. Al usar [!UICONTROL Launch], no es necesario copiar el código manualmente en [!UICONTROL AppMeasurement], como se muestra en esta página.
-
->[!NOTE]
->
->Las instrucciones de esta página se refieren a implementaciones que utilizan [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) o cualquier otra solución de administración de etiquetas, *excepto* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Le recomendamos que utilice Adobe Launch. Al usar [!DNL Launch], no es necesario copiar el código manualmente en [!UICONTROL AppMeasurement], como se muestra en esta página.
 
 ## Requisitos previos {#prereqs}
 
