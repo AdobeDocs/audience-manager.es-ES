@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de datos de clics de campaña mediante llamadas de píxel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,14 @@ source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
 El rastreo de clics permite medir el compromiso del visitante a lo largo de la campaña, ya que registra la actividad basada en clics para creativos de terceros. De forma similar a la recopilación de impresiones, se envía una llamada de evento a los servidores de recopilación de datos ([!UICONTROL DCS]) de Audience Manager para su procesamiento. A continuación, se redirige al visitante a la dirección web deseada.
+
+>[!IMPORTANT]
+>
+>Para que Audience Manager pueda interpretar correctamente los campos que recibe en las llamadas de evento y procesar los datos de campaña en los informes [de Optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público, debe enviar archivos de metadatos que asignen estos campos a valores legibles por el usuario. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos y póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para configurar un directorio de Amazon S3 para archivos de metadatos.
+
+>[!NOTE]
+>
+>Póngase en contacto con el consultor de Adobe Audience Manager o el posible cliente de la cuenta para obtener la dirección URL exacta específica del dominio cliente.
 
 ## Requisitos
 
@@ -36,7 +44,7 @@ La respuesta redirige el explorador al [!DNL URL] especificado en el `d_rd` par�
 
 Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## Macros admitidos
 
@@ -85,7 +93,7 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>ID de usuario único proporcionada por el proveedor de datos. </p> <p>A menudo se utiliza con <code> d_dpid</code> para vincular un ID de usuario a un ID de proveedor de datos. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
@@ -157,7 +165,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 >[!MORELIKETHIS]
 >
