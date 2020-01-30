@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Información general y asignaciones para archivos de metadatos
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
 
@@ -17,9 +17,9 @@ Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y c
 
 ## Información general {#overview}
 
-Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte Archivos [de datos para informes](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de optimización de audiencia.
+Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte Archivos [de datos para informes de optimización de audiencia y Archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de registro procesables.
 
-### Los archivos de metadatos contienen datos sobre otros datos
+### Los Archivos De Metadatos Contienen Datos Sobre Otros Datos
 
 Un archivo de metadatos contiene información sobre otros tipos de datos. Para ayudarle a comprender cómo funciona esto, vamos a revisar cómo [!DNL Audience Manager] recibe los datos.
 
@@ -29,9 +29,9 @@ La llamada al evento organiza la información en conjuntos de pares de clave-val
 
 ### ID de vínculos de metadatos a nombres legibles
 
-El archivo de metadatos es necesario para asociar un ID numérico a un nombre legible. Por ejemplo, supongamos que una llamada de evento contiene un ID creativo en un par de valor clave como este: `d_creative:1234`. Sin un archivo de metadatos, este elemento creativo se mostraría como 1234 en un menú de opciones.
+El archivo de metadatos es necesario para enlazar un ID numérico a un nombre legible. Por ejemplo, supongamos que una llamada de evento contiene un ID creativo en un par de valor clave como este: `d_creative:1234`. Sin un archivo de metadatos, este elemento creativo se mostraría como 1234 en un menú de opciones.
 
-Sin embargo, un archivo de metadatos correctamente formateado puede enlazar este elemento creativo a un nombre real como "Anunciante creativo A", que es un nombre que puede leer y reconocer en un informe.
+Sin embargo, un archivo de metadatos correctamente formateado puede enlazar este elemento creativo a un nombre real como &quot;Anunciante creativo A&quot;, que es un nombre que puede leer y reconocer en un informe.
 
 ### Cuándo se necesita un archivo de metadatos
 
@@ -112,7 +112,7 @@ En este ejemplo crearemos un archivo de metadatos que incluya nombres creativos 
 
 ### Nombre del archivo
 
-El nombre del archivo se basa en los ID de creativo, campaña y fuente de datos. En este caso, compare las diferencias entre los datos clave-valor de una llamada de evento y cómo se utilizan en un nombre de archivo.
+El nombre del archivo se basa en los ID de origen de datos, campaña y elemento creativo. En este caso, compare las diferencias entre los datos clave-valor de una llamada de evento y cómo se utilizan en un nombre de archivo.
 
 En un nombre de archivo:
 
@@ -132,7 +132,7 @@ En este ejemplo, el contenido del archivo refleja los ID de campaña y creativo 
 
 Consulte Formato [de contenido para archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)de metadatos.
 
-### Envío de archivos
+### Entrega de archivos
 
 Después de nombrar y agregar datos a un archivo, se lo envía a un directorio de almacenamiento de Amazon S3 proporcionado por [!DNL Audience Manager]. Consulte Métodos [de envío para archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de metadatos.
 
