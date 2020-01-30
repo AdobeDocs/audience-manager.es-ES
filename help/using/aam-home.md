@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentación del producto de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
+source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
 
 ---
 
@@ -25,9 +25,7 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
      <li><a href="features/segments/trait-recommendations.md">Recomendaciones inteligentes para datos de Audience Marketplace, con tecnología de Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Mejoras en las reglas de combinación de perfiles</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Actualización de las herramientas de administración masiva</a></li>
-     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
-     <li><a href="features/destinations/people-based-destinations-overview.md">Destinos basados en personas</a> </li>
-     </ul> </p> <p>Consulte también Actualizaciones <a href="docs-updates/docs-2019.md"> de documentación de 2019</a>. </p> 
+     </ul> </p> <p>Consulte también Actualizaciones <a href="docs-updates/docs-2020.md"> de documentación de 2020</a>. </p> 
      <br> 
      <p> <b>Documentación colaborativa</b> </p>
      <p>Agradecemos las contribuciones de todos nuestros lectores a nuestra documentación. Consulte la Información general <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">de la Guía de</a> colaboración para obtener información sobre cómo empezar a contribuir.</p>
