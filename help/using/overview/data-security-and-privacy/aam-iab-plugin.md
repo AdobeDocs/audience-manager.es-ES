@@ -5,7 +5,7 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -50,7 +50,7 @@ Para ello, es más fácil utilizar [Adobe Launch](https://docs.adobelaunch.com/)
 
 ## Flujo de trabajo de opciones de usuario al utilizar el marco de trabajo IAB {#user-choice-workflow}
 
-Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo CMP, mostrado a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
+Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo de CMP que se muestra a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
 
 ![Cuadro de diálogo CMP](assets/cmp.png)
 
@@ -129,7 +129,7 @@ El caso de uso se describe en la imagen y en los pasos a continuación. Empiece 
 
 ## Socios de activación que admiten IAB TCF {#aam-activation-partners}
 
-El complemento Audience Manager para IAB TCF le permite reenviar la cadena de consentimiento TCF de IAB a los socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Para obtener información sobre los socios de activación que admiten IAB TCF, consulte nuestra hoja de Excel **[de socio](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)**.
+El complemento Audience Manager para IAB TCF le permite reenviar la cadena de consentimiento TCF de IAB a los socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Para obtener información sobre los socios de activación que admiten IAB TCF, consulte nuestra [lista de destinos](/help/using/features/destinations/device-based-destinations-list.md)basados en dispositivos.
 
 ## Probar la implementación de IAB {#test-iab-implementation}
 
