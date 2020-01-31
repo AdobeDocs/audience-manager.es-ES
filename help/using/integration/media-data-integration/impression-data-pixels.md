@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capturación de los datos de impresión de campaña a través de Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Un método para enviar datos de medios a Audience Manager utiliza macros de servidores de publicidad para enviar atributos de campaña a Audience Manager.
 
 Esta metodología se conoce a menudo como &quot;pixelado del elemento creativo&quot;. Estos puntos de datos se insertan dinámicamente en el código de [!DNL Audience Manager] píxeles mediante las macros del servidor de publicidad de terceros, que se utilizan para asignar e informar de todas las impresiones y clics en función de los atributos clave de informes de la campaña. Los datos agregados proporcionan una vista unificada del rendimiento de las campañas, ayudan a identificar las rutas de conversión personalizadas y ayudan a los clientes a mejorar la secuencia de eventos de servidor de publicidad que llevan a las conversiones.
-
->[!IMPORTANT]
->
->Para que Audience Manager pueda interpretar correctamente los campos que recibe en las llamadas de evento y procesar los datos de campaña en los informes [de Optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público, debe enviar archivos de metadatos que asignen estos campos a valores legibles por el usuario. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos y póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para configurar un directorio de Amazon S3 para archivos de metadatos.
 
 ## Sintaxis de llamada de evento
 
@@ -111,6 +107,10 @@ Las llamadas de evento de impresión aceptan datos formados en pares de clave-va
 >[!NOTE]
 >
 >Póngase en contacto con el consultor de Adobe Audience Manager o el posible cliente de la cuenta para obtener la dirección URL exacta específica del dominio cliente.
+
+## Funcionalidad adicional: Informes de optimización de audiencia
+
+Puede utilizar llamadas en píxeles para activar los informes [de optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audiencia. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos si desea utilizar píxeles para activar los informes.
 
 >[!MORELIKETHIS]
 >
