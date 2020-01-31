@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
+source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
 
 ---
 
@@ -373,7 +373,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Preguntas frecuentes sobre API](faq/faq-api.md)
    + [Preguntas más frecuentes sobre Audience Lab](faq/faq-audience-lab.md)
    + [Preguntas más frecuentes sobre la fuente de datos del cliente](faq/faq-cdf.md)
-   + [Atención al cliente: problemas informados con mayor frecuencia](/help/using/faq/faq-top-customer-care-issues.md)
    + [Preguntas más frecuentes sobre la recopilación de datos y la integración de productos](faq/faq-data-collection.md)
    + [Preguntas más frecuentes sobre la ingestión de datos de clientes entrantes](faq/faq-inbound-data-ingestion.md)
    + [Preguntas más frecuentes sobre privacidad y retención de datos](faq/faq-privacy.md)
@@ -386,11 +385,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Información general](/help/using/help-legal/help-legal-overview.md)
    + [En caso de problemas](/help/using/help-legal/help-problem.md)
    + [Contacto e información legal](/help/using/help-legal/help-legal-contact.md)
-+ Principales problemas de asistencia al cliente{#top-support-issues}
-   + [Información general](/help/using/support-issues/support-issues-overview.md)
-   + [¿Por qué las poblaciones de características integradas cayeron a 0 alrededor del 15 de octubre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [¿Por qué no aparecen mis características o segmentos en la página Informes de superposición?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [¿Por qué nuestros usuarios de solo lectura pueden crear, editar o eliminar características y segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Actualizaciones en la documentación{#documentation-updates}
    + [Actualizaciones de documentación de 2020](docs-updates/docs-2020.md)
    + [Actualizaciones de documentación de 2019](docs-updates/docs-2019.md)
