@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
 
 ---
 
@@ -37,13 +37,16 @@ Audience Manager trabaja con los clientes para comprender su estrategia de datos
 
 El siguiente ejemplo ilustra cómo se pueden capturar los elementos de datos potenciales desde una página de compras de muestra.
 
-![](assets/1st_party_800px.png)
+![shopping-cart-data](assets/shopping-cart-data.png)
+
+|Elemento|Descripción||—|—||1|**Género**. El nombre de un comprador suele indicar su sexo. En nuestro ejemplo, el nombre del comprador es Mary, así que sabemos que el comprador es una mujer. Audience Manager nunca almacena los nombres. ||2|**Intereses**. Los artículos del carro de compras pueden indicar diversos intereses. En nuestro ejemplo, Mary gasta mucho en equipos de fitness. ||3|Tipo **de vivienda**. En función de las direcciones de envío y/o facturación, puede deducir si Mary compra equipos de fitness para sí misma o para una empresa.|
+|4|**Location**. Los códigos postales son más fiables que las direcciones IP cuando se trata de localizar una ubicación. ||5|Afinidad **de la promoción**. Si un comprador utiliza códigos promocionales o tarjetas de regalo, probablemente sea un cazador de gangas que busca las mejores ofertas. ||6|**Potencia** de gasto. Los datos de precios correlacionados con los códigos ZIP+4 indican la potencia de gasto de una ubicación determinada.|
 
 Una vez recopilados los datos sin procesar, se vuelven a asignar a características definidas por el cliente dentro de la plataforma de Audience Manager. Tanto la taxonomía como las asignaciones de datos se pueden ajustar en cualquier momento sin realizar cambios en el código de recopilación de datos.
 
 ## Recopilación de datos de terceros {#second-party-data}
 
-Los datos de terceros provienen de un socio comercial estratégico (no son datos del editor). Esta información se recopila y gestiona como los datos de origen.
+Los datos de terceros provienen de un socio comercial estratégico (no son datos del editor). Esta información se recopila y gestiona del mismo modo que los datos de origen.
 
 <!-- 
 
@@ -53,9 +56,9 @@ c_2nd_party_data.xml
 
 En un escenario de datos de terceros, los anunciantes envían sus propios recursos de datos a los editores para que puedan combinar esa información con los datos del editor y, a continuación, ejecutar un programa de publicidad más dirigido. Además, los editores pueden ampliar su grupo de audiencias asociándose con sus anunciantes. En la mayoría de los casos, estos acuerdos implican relaciones contractuales limitadas a poner la etiqueta de contenedor de Audience Manager en el sitio del socio para facilitar la recopilación y el uso compartido de datos.
 
-Un ejemplo de recopilación y remercadotecnia de datos de terceros podría consistir en que un fabricante de automóviles recopile datos en las páginas de configuración de su automóvil y luego comparta esta información con socios clave. En este caso, el fabricante del automóvil podría ofrecer diferentes anuncios en un sitio de socios de Audience Manager para los consumidores que configuraron diferentes tipos de opciones del vehículo (por ejemplo, color, modelo, etc.).
+Un ejemplo de recopilación y remercadotecnia de datos de terceros podría consistir en la recogida de ropa al por menor de datos sobre sus productos y, a continuación, el intercambio de esta información con asociados clave. En este caso, el minorista podría ofrecer diferentes publicidades en un sitio de socios de Audience Manager para los consumidores que elijan varios colores y tamaños de chaqueta.
 
-![](assets/2nd_party_700px.png)
+![](assets/shopping-cart-traits.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
