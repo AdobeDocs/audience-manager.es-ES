@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
+source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
 
 ---
 
@@ -39,8 +39,14 @@ El siguiente ejemplo ilustra cómo se pueden capturar los elementos de datos pot
 
 ![shopping-cart-data](assets/shopping-cart-data.png)
 
-|Elemento|Descripción||—|—||1|**Género**. El nombre de un comprador suele indicar su sexo. En nuestro ejemplo, el nombre del comprador es Mary, así que sabemos que el comprador es una mujer. Audience Manager nunca almacena los nombres. ||2|**Intereses**. Los artículos del carro de compras pueden indicar diversos intereses. En nuestro ejemplo, Mary gasta mucho en equipos de fitness. ||3|Tipo **de vivienda**. En función de las direcciones de envío y/o facturación, puede deducir si Mary compra equipos de fitness para sí misma o para una empresa.|
-|4|**Location**. Los códigos postales son más fiables que las direcciones IP cuando se trata de localizar una ubicación. ||5|Afinidad **de la promoción**. Si un comprador utiliza códigos promocionales o tarjetas de regalo, probablemente sea un cazador de gangas que busca las mejores ofertas. ||6|**Potencia** de gasto. Los datos de precios correlacionados con los códigos ZIP+4 indican la potencia de gasto de una ubicación determinada.|
+| Elemento | Descripción |
+|---|---|
+| 1 | **Sexo**. El nombre de un comprador suele indicar su sexo. En nuestro ejemplo, el nombre del comprador es Mary, así que sabemos que el comprador es una mujer. Audience Manager nunca almacena los nombres. |
+| 2 | **Intereses**. Los artículos del carro de compras pueden indicar diversos intereses. En nuestro ejemplo, Mary gasta mucho en equipos de fitness. |
+| 3 | **Tipo** de vivienda. En función de las direcciones de envío y/o facturación, puede deducir si Mary compra equipos de fitness para sí misma o para una empresa. |
+| 4 | **Ubicación**. Los códigos postales son más fiables que las direcciones IP cuando se trata de localizar una ubicación. |
+| 5 | **Afinidad** de la promoción. Si un comprador utiliza códigos promocionales o tarjetas de regalo, probablemente sea un cazador de gangas que busca las mejores ofertas. |
+| 6 | **Poder** de gasto. Los datos de precios correlacionados con los códigos ZIP+4 indican la potencia de gasto de una ubicación determinada. |
 
 Una vez recopilados los datos sin procesar, se vuelven a asignar a características definidas por el cliente dentro de la plataforma de Audience Manager. Tanto la taxonomía como las asignaciones de datos se pueden ajustar en cualquier momento sin realizar cambios en el código de recopilación de datos.
 
