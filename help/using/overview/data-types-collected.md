@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ Audience Manager se integra con otros proveedores de datos en función de sus AP
 
 Muchos clientes eligen trabajar con socios de coincidencia de datos de terceros. Estas entidades tienen relaciones con sitios que tienen requisitos de registro y pueden procesar archivos de datos de clientes al hacerlos coincidir (en tiempo real) según su red de registro.
 
-![](assets/data_provider_match_700px.png)
-
+![coincidencia de proveedor de datos](assets/data-provider-match.png)
