@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
+source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
 
 ---
 
@@ -62,7 +62,7 @@ c_2nd_party_data.xml
 
 En un escenario de datos de terceros, los anunciantes envían sus propios recursos de datos a los editores para que puedan combinar esa información con los datos del editor y, a continuación, ejecutar un programa de publicidad más dirigido. Además, los editores pueden ampliar su grupo de audiencias asociándose con sus anunciantes. En la mayoría de los casos, estos acuerdos implican relaciones contractuales limitadas a poner la etiqueta de contenedor de Audience Manager en el sitio del socio para facilitar la recopilación y el uso compartido de datos.
 
-Un ejemplo de recopilación y remercadotecnia de datos de terceros podría consistir en la recogida de ropa al por menor de datos sobre sus productos y, a continuación, el intercambio de esta información con asociados clave. En este caso, el minorista podría ofrecer diferentes publicidades en un sitio de socios de Audience Manager para los consumidores que elijan varios colores y tamaños de chaqueta.
+Un ejemplo de recopilación y remercadotecnia de datos de terceros podría consistir en que un comerciante de ropa recopile datos sobre sus productos y luego comparta esa información con asociados clave. En este caso, el minorista podría ofrecer diferentes publicidades en un sitio de socios de Audience Manager para los consumidores que elijan varios colores y tamaños de chaqueta.
 
 ![](assets/shopping-cart-traits.png)
 
