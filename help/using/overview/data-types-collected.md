@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
+source-git-commit: 708c998fbe1cbd3e9acb51e31ee1c89e2f06d28d
 
 ---
 
@@ -46,7 +46,7 @@ El siguiente ejemplo ilustra cómo se pueden capturar los elementos de datos pot
 | 3 | **Tipo** de vivienda. En función de las direcciones de envío y/o facturación, puede deducir si Mary compra equipos de fitness para sí misma o para una empresa. |
 | 4 | **Ubicación**. Los códigos postales son más fiables que las direcciones IP cuando se trata de localizar una ubicación. |
 | 5 | **Afinidad** de la promoción. Si un comprador utiliza códigos promocionales o tarjetas de regalo, probablemente sea un cazador de gangas que busca las mejores ofertas. |
-| 6 | **Poder** de gasto. Los datos de precios correlacionados con los códigos ZIP+4 indican la potencia de gasto de una ubicación determinada. |
+| 6 | **Potencia** de gasto. Los datos de precios correlacionados con los códigos ZIP+4 indican la potencia de gasto de una ubicación determinada. |
 
 Una vez recopilados los datos sin procesar, se vuelven a asignar a características definidas por el cliente dentro de la plataforma de Audience Manager. Tanto la taxonomía como las asignaciones de datos se pueden ajustar en cualquier momento sin realizar cambios en el código de recopilación de datos.
 
