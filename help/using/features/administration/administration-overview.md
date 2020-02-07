@@ -1,14 +1,14 @@
 ---
 description: Las opciones del menú Administración permiten crear usuarios de Audience Manager y asignarlos a grupos. También puede ver los límites (características, segmentos, destinos y modelos).
-keywords: rbac;RBAC;funciones basadas en;funciones;funciones basadas en controles de acceso basados en roles
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: Las opciones del menú Administración permiten crear usuarios de Audience Manager y asignarlos a grupos. También puede ver los límites (características, segmentos, destinos y modelos).
-seo-title: Administración
+seo-title: Administration
 solution: Audience Manager
-title: Administración
+title: Administration
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,8 +29,8 @@ Los clientes empresariales que utilizan [!DNL Audience Manager] una plataforma d
 
 Cree usuarios en [!DNL Audience Manager] y especifique los detalles del usuario, el estado de inicio de sesión y asigne usuarios a los grupos.
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
-1. Haga clic ![](assets/icon_add.png) para mostrar la [!UICONTROL Create New User] página.
+1. Haga clic **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+1. Haga clic en ![](assets/icon_add.png) para mostrar la [!UICONTROL Create New User] página.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **** Nombre de usuario: Especifique un nombre de usuario único para Audience Manager.
    * **** Nombre: Especifique el nombre del usuario.
@@ -46,17 +46,17 @@ Cree usuarios en [!DNL Audience Manager] y especifique los detalles del usuario,
    * **** Bloqueado: 5 intentos de inicio de sesión incorrectos bloquearán a un usuario.
 1. En **[!UICONTROL Assigned Groups]**la lista desplegable, seleccione los grupos a los que desee asignar este usuario.
 Para obtener más información sobre los grupos y permisos, consulte [Creación de un grupo](../../features/administration/administration-overview.md#create-group).
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ## Creación de grupos {#create-group}
 
-Un *grupo* es una colección de usuarios que comparten derechos de acceso a objetos de destino, segmento y rasgo. Puede limitar grupos a objetos únicos únicamente o darles un acceso amplio a combinaciones de objetos diferentes.
+Un *grupo* es una colección de usuarios que comparten derechos de acceso a objetos de destino, segmento y rasgo. Puede limitar los grupos a objetos únicos únicamente o darles un acceso amplio a combinaciones de objetos diferentes.
 
 <!-- t_create_groups.xml -->
 
 Para crear un grupo:
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
+1. Haga clic **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. Haga clic ![](assets/icon_add.png) para abrir la [!UICONTROL Group Settings] página.
 1. En [!UICONTROL Group Details]:
    * Asigne un nombre al grupo.
@@ -66,7 +66,7 @@ Para crear un grupo:
 Se abre una ventana de permisos para el objeto seleccionado.
 1. Seleccione la casilla de verificación de los permisos que desea que tengan los miembros del grupo.
 1. *(Opcional)* Asigne permisos [de](../../features/administration/administration-overview.md#wild-card-permissions) comodines al grupo.
-1. Haga clic en **[!UICONTROL Save Group]**.
+1. Haga clic **[!UICONTROL Save Group]**.
 
 ## Explicación de los permisos de comodines {#wild-card-permissions}
 
@@ -134,3 +134,21 @@ Lea más abajo para ver una descripción de lo que significa cada permiso comod�
 **Señales**
 
 * `VIEW_ALL_SIGNALS` - Los usuarios pueden ver todas las señales capturadas en el Explorador [de datos](/help/using/features/data-explorer/data-explorer-overview.md).
+
+## Casos de uso {#use-cases}
+
+### Supervisión del acceso de los usuarios {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] puede ayudarle a supervisar el estado de inicio de sesión del usuario, proporcionándole una imagen clara de quién puede acceder a su instancia de Audience Manager.
+
+Según los requisitos comerciales, puede habilitar y deshabilitar las cuentas de usuario según sea necesario.
+
+![monitor-user-access](assets/monitor-user-access.png)
+
+### Garantizar la protección del acceso a las fuentes de datos confidenciales {#protect-sensitive-data-sources}
+
+Puede configurar [!UICONTROL Role-Based Access Control] en el nivel de características, segmentos y destinos para cada grupo de usuarios.
+
+Esta capacidad le ayuda a administrar la forma en que los usuarios ven, crean, leen, escriben y editan conjuntos de datos específicos, e incluso a restringir el acceso de los usuarios a conjuntos de datos que no deberían estar disponibles para ellos.
+
+![access-protection](assets/access-protection.png)
