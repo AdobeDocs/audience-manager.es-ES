@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
+source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
 
 ---
 
@@ -366,7 +366,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
       + [Explicación del centro de datos de Edge](reference/system-components/components-edge.md)
    + [Convenciones de estilo para elementos de código y texto](reference/code-style-elements.md)
    + [Husos horarios en Audience Manager](reference/aam-time-zones.md)
-   + [Finalización del soporte para TLS 1.0](reference/tls-support.md)
+   + [Desuso de TLS 1.0 y 1.1](reference/tls-support.md)
    + [Explicación de las llamadas al dominio Demdex](reference/demdex-calls.md)
    + [Estados de autenticación de visitantes en Audience Manager](reference/visitor-authentication-states.md)
 + Preguntas más frecuentes{#faqs}
