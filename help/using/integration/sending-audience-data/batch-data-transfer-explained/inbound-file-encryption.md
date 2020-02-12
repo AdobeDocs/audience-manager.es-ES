@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cifrado PGP de archivo para tipos de datos de entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,8 +20,10 @@ Como opción, puede cifrar archivos de datos con [!DNL PGP] codificación al env
 >[!IMPORTANT]
 >
 >Actualmente no se admite el cifrado y la compresión en el mismo archivo de datos de entrada. Puede seleccionar cifrar o [comprimir](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) los archivos de entrada.
+>
+> Sin embargo, tenga en cuenta que el cifrado PGP incluye compresión incorporada.
 
-Siga los pasos descritos a continuación para cifrar archivos de datos de entrada.
+Siga los pasos que se describen a continuación para cifrar los archivos de datos de entrada.
 
 1. Descargue la clave [pública de](./assets/adobe_pgp.pub)Audience Manager.
 1. Importe la clave pública en la tienda de confianza.
