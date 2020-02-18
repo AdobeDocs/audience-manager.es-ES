@@ -7,14 +7,12 @@ title: Crear, cotizar y administrar fuentes de datos
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # Crear, cotizar y administrar fuentes de datos {#create-price-and-manage-data-feeds}
-
-Una fuente de datos requiere un nombre, una descripción, una fuente de datos y un tipo de plan. Las fuentes se desactivan hasta que se guarda y activa la fuente. Configure fuentes de datos públicas o privadas en [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Disponible únicamente para vendedores de datos.
 
 ## Crear una fuente de datos pública o privada {#create-public-private-data-feed}
 
@@ -25,12 +23,12 @@ Una fuente de datos requiere un nombre, una descripción, una fuente de datos y 
 Debe tener derechos de administrador para crear una fuente de datos pública o privada.
 Para crear una fuente de datos:
 
-1. Haga clic en **[!UICONTROL New Data Feed]**.
+1. Haga clic **[!UICONTROL New Data Feed]**.
 1. Asigne un nombre a la fuente de datos. Los compradores de datos pueden buscar la fuente en función del nombre.
 1. Proporcione una breve descripción (un máximo de 255 caracteres).
 
    Una buena descripción debería describir la fuente con precisión. Por ejemplo: puede incluir texto para categorías de marketing, demográficos y cobertura geográfica (por ejemplo, [!DNL US] o Norteamérica). El texto de la descripción se puede buscar y ayuda a los compradores a encontrar o evaluar la fuente. Una buena descripción es una parte importante para atraer suscriptores a su fuente de datos.
-1. Seleccione un origen de datos en las **[!UICONTROL Data Source]** opciones.
+1. Seleccione un origen de datos en las **[!UICONTROL Data Source]** opciones. Las fuentes de datos están limitadas a una sola fuente de datos. No se pueden asignar varias fuentes de datos a la misma fuente de datos.
 
    >[!IMPORTANT]
    >
@@ -40,10 +38,10 @@ Para crear una fuente de datos:
 
    Las fuentes pueden contener varios planes. Los planes pueden contener varios casos de uso. Para obtener más información, consulte Tipos [de plan para fuentes](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)de datos.
 
-1. Haga clic **[!UICONTROL Save]** para guardar la tarifa de datos *sin* activarla.
+1. Haga clic **[!UICONTROL Save]** para guardar la fuente de datos *sin* activarla.
 1. Para guardar y activar una fuente de datos:
    1. Mueva el **[!UICONTROL Availability]** deslizador a **[!UICONTROL Active]**.
-   1. Haga clic en **[!UICONTROL Save]**.
+   1. Haga clic **[!UICONTROL Save]**.
    >[!NOTE]
    >
    >* No se pueden eliminar las fuentes de datos guardadas y activadas.
@@ -109,23 +107,23 @@ Cada fuente de datos debe incluir al menos un caso [!UICONTROL Segments and Over
 Las comparaciones superpuestas pueden ayudar a los compradores a:
 
 * **** Extender el alcance de la audiencia: Una superposición baja sugiere que sus características contienen usuarios que el comprador no ha visto antes. Como resultado, es posible que los compradores deseen que estas características añadan nuevos usuarios a sus segmentos de audiencia.
-* **** Mejorar las audiencias existentes: La superposición alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características ayuden a mejorar de forma gradual y específica las audiencias desarrolladas.
+* **** Mejore las audiencias existentes: La superposición alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características ayuden a mejorar de forma gradual y específica las audiencias desarrolladas.
 
-Establezca el precio de este caso de uso como sigue:
+Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: Tarifa fija
 * Precio: Gratis ($0,00)
 
 ### Modelado
 
-Un caso de **[!UICONTROL Modeling]** uso crea un plan que permite a los compradores comparar sus características con las suyas con el modelado [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmico. Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que compartan atributos de conversión similares con los suyos. Establezca el precio de este caso de uso como sigue:
+Un caso de **[!UICONTROL Modeling]** uso crea un plan que permite a los compradores comparar sus características con las suyas con el modelado [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmico. Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que compartan atributos de conversión similares con los suyos. Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: Tarifa fija
 * Precio: Precio de precio de mercado o descuento
 
 ### Activation
 
-Un caso **[!UICONTROL Activation]** de uso permite a los compradores enviar datos a un [destino](../../../features/destinations/destinations.md). Con este caso de uso, los compradores no pueden comparar datos con un informe de superposición o en un modelo algorítmico. Establezca el precio de este caso de uso como sigue:
+Un caso **[!UICONTROL Activation]** de uso permite a los compradores enviar datos a un [destino](../../../features/destinations/destinations.md). Con este caso de uso, los compradores no pueden comparar datos con un informe de superposición o en un modelo algorítmico. Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: [!DNL CPM]
 * Precio: [!DNL CPM] tipo de mercado
@@ -169,7 +167,7 @@ En el **[!UICONTROL Additional Notes]** campo, dedique algún tiempo a describir
 
 Flujos de trabajo de proveedores para administrar solicitudes de fuentes privadas de compradores.
 
-Para revisar, aprobar o rechazar solicitudes de comprador, vaya a y [!UICONTROL My Shared Data] :
+Para revisar, aprobar o rechazar solicitudes de comprador, vaya a [!UICONTROL My Shared Data] y:
 
 <!-- t_private_feed_workflows.xml -->
 
@@ -178,7 +176,7 @@ Para revisar, aprobar o rechazar solicitudes de comprador, vaya a y [!UICONTROL 
 3. En la [!UICONTROL Allow Access] sección de cada cuadro de solicitud, haga clic en la marca de verificación para aprobar una solicitud o en la X para denegar el acceso.
 4. Confirme o cancele la acción seleccionada en la ventana emergente de confirmación.
 
-##  Descuentos para proveedores de datos {#discounts}
+## Descuentos para proveedores de datos {#discounts}
 
 En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede ofrecer descuentos a los suscriptores que hayan enviado una solicitud de suscripción o a los suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes [!DNL CPM] y a las fuentes a tanto alzado. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad del cliente.
 
