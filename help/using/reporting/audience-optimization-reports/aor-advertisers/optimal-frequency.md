@@ -1,17 +1,17 @@
 ---
 description: El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
 seo-description: El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
-seo-title: Informe de frecuencia óptima
+seo-title: 'Informe de frecuencia óptima '
 solution: Audience Manager
-title: Informe de frecuencia óptima
+title: 'Informe de frecuencia óptima '
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
+source-git-commit: e197dda9232b1400737a70add2ae0e44ab5e39d7
 
 ---
 
 
-# Informe de frecuencia óptima{#optimal-frequency-report}
+# Informe de frecuencia óptima {#optimal-frequency-report}
 
 El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
 
@@ -21,8 +21,8 @@ El volumen de conversión suele disminuir con bloques de frecuencia de impresió
 
 Sin embargo, el % de conversión total aumenta con cada bloque de frecuencia de impresión. Se generan más conversiones con cada bloque, de modo que la suma de conversiones (el numerador) se aproxima al número total de conversiones posibles (el denominador) y, por lo tanto, el % aumenta.
 
-Como se muestra en el informe de muestra, la intersección de las parcelas de 2 líneas proporciona una guía para la frecuencia de impresión "óptima", es decir, el número óptimo de impresiones que se deben presentar, antes de que el cliente comience a ver rendimientos decrecientes.
+Como se muestra en el informe de muestra, la intersección de las parcelas de 2 líneas proporciona una guía para la frecuencia de impresión &quot;óptima&quot;, es decir, el número óptimo de impresiones que se deben presentar, antes de que el cliente comience a ver rendimientos decrecientes.
 
 ## Informe de muestra
 
-![frecuencia óptima](assets/optimal-frequency.png)
+![frecuencia óptima](assets/optimal-frequency1.png)
