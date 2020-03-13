@@ -1,13 +1,13 @@
 ---
 description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
-keywords: cualificación de características;realización de características;Realizaciones de características únicas;UTR;Población total de características;TTP
+keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
 seo-description: La cualificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
 seo-title: Referencia de calificación de características
 solution: Audience Manager
 title: Referencia de calificación de características
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 2f8662aba70254e550bc15417463c3c06492a9d5
 
 ---
 
@@ -32,7 +32,7 @@ La cualificación de características, o realización de características, se tr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características integradas </p> </td> 
-   <td colname="col2"> <p>La calificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante se importa a Audience Manager <a href="../../faq/faq-inbound-data-ingestion.md"></a> y es cuando se produce la calificación de características. </p> <p> Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. </p> </td> 
+   <td colname="col2"> <p>La calificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante se importa a Audience Manager <a href="../../faq/faq-inbound-data-ingestion.md"></a> y es cuando se produce la calificación de características. Debe esperar aproximadamente 4 horas después de crear una característica integrada antes de cargar un archivo de entrada para su procesamiento.  </p> <p> Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características algorítmicas </p> </td> 
@@ -44,7 +44,7 @@ La cualificación de características, o realización de características, se tr
   </tr>
   <tr> 
    <td colname="col1"> <p>Características de audiencias activas y características sincronizadas de fuentes de datos </p> </td> 
-   <td colname="col2"> <p>Una característica de Audiencia <span class="wintitle"> activa contiene todos los dispositivos que se administran en la cuenta de</span> Audience Manager <span class="wintitle"></span> . </p> <p><span class="wintitle"> Las características</span> sincronizadas de la fuente de datos rastrean a todos los usuarios asociados a una fuente de datos. </p> <p>Obtenga más información sobre <a href="../../features/traits/client-activity-synced-audience-traits.md"> las características de audiencia activa y las características</a>de la fuente de datos. </p> </td>
+   <td colname="col2"> <p>Una característica de Audiencia <span class="wintitle"> activa contiene todos los dispositivos que se administran en la cuenta de</span> Audience Manager <span class="wintitle"></span> . </p> <p><span class="wintitle"> Las características</span> sincronizadas de la fuente de datos rastrean a todos los usuarios asociados a una fuente de datos. </p> <p>Obtenga más información sobre <a href="../../features/traits/client-activity-synced-audience-traits.md"> las características de audiencia activa y las características de sincronización</a>de fuentes de datos. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -55,7 +55,7 @@ La cualificación de características, o realización de características, se tr
 
 El **[!UICONTROL Unique Trait Realizations]** recuento del número de visitantes que agregaron la característica a su perfil, dentro de diferentes intervalos de tiempo.
 
-Representa el **[!UICONTROL Total Trait Population]** número de visitantes que tienen esta característica en su perfil.
+La **[!UICONTROL Total Trait Population]** representa el número de visitantes que tienen esta característica en su perfil.
 
 Piensen en los números de esta manera. En la imagen anterior, desde la vista Detalles [de](../../features/traits/trait-details-page.md) características, 181 representa el número de dispositivos activos que visitaron sus propiedades ayer. El [!UICONTROL Total Trait Population] de 1.595 representa la cantidad de usuarios cualificados actualmente para esta característica. La [!UICONTROL Total Trait Population] figura muestra la cantidad total de usuarios que podrían utilizarse para segmentación/segmentación. Normalmente, los usuarios permanecerán como parte de una característica durante 120 días.
 
