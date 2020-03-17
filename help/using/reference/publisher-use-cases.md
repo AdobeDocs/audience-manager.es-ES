@@ -4,9 +4,9 @@ seo-description: Un vistazo a algunas necesidades comunes de los editores que sa
 seo-title: Casos de uso del editor
 solution: Audience Manager
 title: Casos de uso del editor
-uuid: 5f571d60-d902-4958-b5d3-8d09dda42c7
+uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -44,7 +44,7 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Crear Segmentos De Audiencia De Publicidad Con Datos De Analytics De Origen**
+**Creación De Segmentos De Audiencia De Publicidad Con Datos De Analytics De Origen**
 
 <table id="table_EE77D9F5BAD1473C8E058EE778AF2C3F"> 
  <thead> 
@@ -115,7 +115,7 @@ Este caso de uso funciona con datos de Analytics de origen enviados a una plataf
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Cree un segmento "Investigadores de impuestos sobre la renta". </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Alinee la campaña de publicidad en el sitio vendida a Turbo Tax con una campaña de extensión de alcance externo a través de un DSP como Adobe Media Optimizer. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Alinee la campaña de publicidad en el sitio vendida a Turbo Tax con una campaña de extensión de alcance fuera del sitio a través de un DSP como Adobe Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -175,7 +175,7 @@ La documentación [](../features/algorithmic-models/understanding-models.md) Mod
      </ul> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9AABE5394A2B4352A9A368C3F887F583"> 
-      <li id="li_64324505C1494879AE01DD93DFFF4753">Se ha mejorado la monetización de los anuncios digitales. </li> 
+      <li id="li_64324505C1494879AE01DD93DFFF4753">Se ha mejorado la monetización de las publicidades digitales. </li> 
       <li id="li_429471653E65467582B193F89D7C5426">Identifique los datos de origen más valiosos y mejore esa información con datos de terceros complementarios. </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p> 
