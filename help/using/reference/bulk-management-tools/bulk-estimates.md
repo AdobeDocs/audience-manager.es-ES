@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Estimaciones masivas
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3051ca9f7c4039dafdfa01b89226c1fa8717e610
 
 ---
 
@@ -23,21 +23,20 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
 Para realizar actualizaciones masivas, abra la [!UICONTROL Bulk Management Tools] hoja de cálculo y:
 
 1. Haga clic en la **[!UICONTROL Headers]** ficha y copie el [!UICONTROL Estimate Segment Size] encabezado.
-1. Click the **[!UICONTROL Estimate]** tab.
-1. Pegue el encabezado de estimación en la primera fila de la hoja de cálculo de estimación.
-1. Pegue o escriba los datos que desee cambiar en una columna correspondiente basada en la etiqueta del encabezado.
-1. En la barra de herramientas de la hoja de cálculo, haga clic en el botón crear que coincida con el elemento que está actualizando.
+2. Click the **[!UICONTROL Estimate]** tab.
+3. Pegue el encabezado de estimación en la primera fila de la hoja de cálculo de estimación.
+4. Pegue o escriba los datos que desee cambiar en una columna correspondiente basada en la etiqueta del encabezado.
+5. En la barra de herramientas de la hoja de cálculo, haga clic en el botón crear que coincida con el elemento que está actualizando.
 Esta acción abre el cuadro de diálogo [!UICONTROL Account Information] .
-
-1. Proporcione la información [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) inicio de sesión necesaria y haga clic en **[!UICONTROL Submit]**.
+6. Proporcione la información [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) inicio de sesión necesaria y haga clic en **[!UICONTROL Submit]**.
 
 Esta acción crea una [!UICONTROL Response] columna en la hoja de cálculo que contiene datos de tamaño de segmento estimados. Antes de introducir datos, la hoja de cálculo de estimación masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/estimate.png)
-Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
+Si la actualización masiva devuelve un error o un error, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
 
