@@ -1,59 +1,61 @@
 ---
-description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de características.
-seo-description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de características.
+description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
+seo-description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
 seo-title: Realizaciones de características de relleno
 title: Realizaciones de características de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 ---
 
 
 # Realizaciones de características de relleno {#backfill-trait-realizations}
 
-Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de características.
+Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
 
-[!UICONTROL Data Explorer Trait Backfill] es una función Premium que mejora la experiencia de Audience Manager al desbloquear casos de uso adicionales. El relleno requiere potencia de procesamiento adicional y está disponible para todos los clientes de Audience Manager a un coste incremental. Póngase en contacto con su representante de ventas de Adobe para obtener más información.
+>[!IMPORTANT]
+>
+> [!UICONTROL Data Explorer Trait Backfill] es una función Premium que mejora la experiencia de Audience Manager al desbloquear casos de uso adicionales. El relleno requiere potencia de procesamiento adicional y está disponible para todos los clientes de Audience Manager a un coste incremental. Póngase en contacto con su representante de ventas de Adobe para obtener más información.
 
 Al crear características a partir de señales no utilizadas, puede elegir rellenar las realizaciones de características durante un período de tiempo específico. [!DNL Audience Manager] captura los datos históricos sobre audiencias que cumplen los requisitos para la nueva característica y los almacena en el perfil correspondiente. Puede ver la **[!UICONTROL Backfill Options]** en la [!UICONTROL Trait Expression] sección del Generador de **[características](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
->Puede rellenar las realizaciones de características para características basadas en reglas y integradas.
+>Puede rellenar las realizaciones de características para las características basadas en reglas y integradas.
 
 A continuación se muestra cómo rellenar los detalles de características:
 
 1. Vaya a [!UICONTROL Audience Data > Signals > Search] y ejecute una búsqueda de señales o utilice el panel de [señales](../../features/data-explorer/data-explorer-signals-dashboard.md) para identificar las señales que se utilizarán en la nueva característica.
-1. Create a new trait based on the desired signals.
-1. Use the  in the  section to select the time interval for which you want to backfill trait realizations. **[!UICONTROL Backfill Options]****[!UICONTROL Trait Expression]** Predefined backfill intervals include 1, 7, 14, and 30 days. You can also choose a custom date range of up to 30 days.
+1. Cree una nueva característica basada en las señales deseadas.
+1. Utilice la **[!UICONTROL Backfill Options]** sección **[!UICONTROL Trait Expression]** para seleccionar el intervalo de tiempo para el que desea rellenar las realizaciones de características. Los intervalos de relleno predefinidos incluyen 1, 7, 14 y 30 días. También puede elegir un intervalo de fechas personalizado de hasta 30 días.
 
-   ![trait-backfill](assets/signals-trait-backfill.png)
+   ![relleno de características](assets/signals-trait-backfill.png)
 
-1. (Optional) Click  in the  section to see the estimated  and  values for the backfilled trait over the last 7 days.**[!UICONTROL Estimate Realizations]****[!UICONTROL Estimated Trait Realizations]**[!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population]
+1. (Opcional) Haga clic **[!UICONTROL Estimate Realizations]** en la **[!UICONTROL Estimated Trait Realizations]** sección para ver los valores estimados [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] del rasgo relleno durante los últimos 7 días.
 
-   ![estimate-trait-realizations](assets/estimate-trait-realizations.png)
+   ![estimación-características-realizaciones](assets/estimate-trait-realizations.png)
 
    >[!IMPORTANT]
    >
-   >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
+   >El rellenado y la estimación de características no están disponibles para características con expresiones que utilizan los siguientes operadores:
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
 
-1. Create the trait.
+1. Cree la característica.
 
-Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
+Una vez que haya terminado de crear la característica, verá las realizaciones rellenadas incluidas en las estadísticas de realización.
 
-Watch the video below for a video walkthrough of how to backfill traits.
+Vea el siguiente vídeo para ver cómo rellenar las características.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Latencia de rellenado de características {#trait-backfilling-latency}
 
-Las características creadas recientemente empiezan a capturar audiencias dos o tres horas después de la creación. Sin embargo, debido al gran volumen de datos que [!DNL Audience Manager] se obtienen diariamente, la población rellenada no se refleja inmediatamente en los gráficos [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] .
+Las características creadas recientemente empiezan a capturar audiencias de dos a tres horas después de la creación. Sin embargo, debido al gran volumen de datos que [!DNL Audience Manager] se obtienen diariamente, la población rellenada no se refleja inmediatamente en los gráficos [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] .
 
-Audience Manager actualiza el [!UICONTROL Trait Graph] con la población rellenada en un plazo de 48 horas desde la creación de características.
+Audience Manager actualiza el [!UICONTROL Trait Graph] archivo con la población rellenada en un plazo de 48 horas desde la creación de características.
 
 ## Límite de relleno de rasgos {#trait-backfilling-limit}
 
@@ -67,4 +69,4 @@ Audience Manager actualiza el [!UICONTROL Trait Graph] con la población rellena
 
 Las realizaciones de características rellenadas con retroceso se reflejan en las [!UICONTROL Unique Trait Realizations] métricas y [!UICONTROL Total Trait Population] , a medida que [!DNL Audience Manager] convierte las señales históricas en realizaciones de rasgos.
 
-Sin embargo, las métricas [!UICONTROL Trait Graph], [!UICONTROL General Reports]y [!UICONTROL Trend Reports] no se actualizan retroactivamente con métricas históricas rellenadas antes de la fecha de creación de características.
+Sin embargo, las métricas [!UICONTROL Trait Graph], [!UICONTROL General Reports]y [!UICONTROL Trend Reports] no se actualizan retroactivamente con las métricas históricas rellenadas antes de la fecha de creación de características.
