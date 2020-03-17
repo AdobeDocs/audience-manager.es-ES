@@ -1,13 +1,13 @@
 ---
 description: Para crear una nueva fuente de datos, vaya a Datos de audiencia > Fuentes de datos > Agregar nuevo y complete los pasos para cada sección que se describe aquí. Se necesitan permisos de administrador para crear una fuente de datos.
-keywords: fuentes de datos;administrar fuente de datos;fuente de datos del administrador de público
+keywords: data sources;manage data source;audience manager data source
 seo-description: Para crear una nueva fuente de datos, vaya a Datos de audiencia > Fuentes de datos > Agregar nuevo y complete los pasos para cada sección que se describe aquí. Se necesitan permisos de administrador para crear una fuente de datos.
 seo-title: Crear una fuente de datos
 solution: Audience Manager
 title: Administrar fuentes de datos
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -33,7 +33,7 @@ Para completar la [!UICONTROL Data Source Details] sección:
 1. Proporcione un código de integración. Generalmente, los códigos de integración son opcionales. Son obligatorios cuando desea:
 
    * [Cree una fuente](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de datos entre dispositivos.
-   * Utilice el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
+   * Utilice el servicio [de identidad de la plataforma de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience Platform.
    * Trabajar con reglas [de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Elija una **[!UICONTROL ID Type]**. Las opciones de tipo de ID incluyen:
@@ -56,7 +56,7 @@ Para completar la [!UICONTROL Data Source Details] sección:
 Esta configuración determina cómo se identifica, utiliza y comparte una fuente de datos. También puede habilitar los informes de errores para archivos de datos de entrada. Para completar la [!UICONTROL Data Source Settings] sección:
 
 1. Seleccione una [!UICONTROL Data Source Setting] casilla de verificación para aplicar una opción al origen de datos.
-2. Haga clic en **[!UICONTROL Save]**.
+2. Haga clic **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
@@ -77,7 +77,7 @@ Elimine una fuente de datos que ya no necesite.
 >* Para clientes que utilizan Adobe Analytics: Audience Manager no permite eliminar las fuentes de datos creadas automáticamente desde los grupos [!DNL Analytics] de informes. Utilice el servicio [principal](https://marketing.adobe.com/resources/help/en_US/mcloud/) para desasignar estas fuentes de datos.
 
 
-1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
+1. Haga clic **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Active la casilla de verificación situada junto a uno o varios orígenes de datos.
 Puede utilizar el [!UICONTROL Search] cuadro para localizar las fuentes de datos deseadas si tiene una lista larga.
-1. Haga clic en ![](assets/icon_trash.png)y confirme la eliminación.
+1. Haga clic en ![](assets/icon_trash.png), luego confirme la eliminación.
