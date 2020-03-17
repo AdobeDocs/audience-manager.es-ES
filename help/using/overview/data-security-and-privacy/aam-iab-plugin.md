@@ -50,7 +50,7 @@ Para ello, es más fácil utilizar [Adobe Experience Platform Launch](https://do
 
 ## Flujo de trabajo de opciones de usuario al utilizar el marco de trabajo IAB {#user-choice-workflow}
 
-Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo de CMP que se muestra a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
+Al visitar una propiedad web, los usuarios pueden proporcionar sus opciones con respecto a cómo el editor y los proveedores externos con los que trabaja el editor utilizarán sus datos. Los usuarios proporcionan sus opciones en forma de propósitos ** estándar y permisos a proveedores *de* terceros registrados en la lista global de proveedores. La siguiente imagen representa un ejemplo de un cuadro de diálogo CMP, mostrado a un visitante nuevo de un sitio web. Tenga en cuenta que este cuadro de diálogo puede tener un aspecto muy diferente, según la implementación del cliente.
 
 ![Cuadro de diálogo CMP](assets/cmp.png)
 
