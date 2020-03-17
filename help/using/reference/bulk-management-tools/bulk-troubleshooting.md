@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Consejos para la resolución de problemas de las herramientas de administración masiva
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,7 +25,7 @@ Qué hacer cuando las hojas de cálculo devuelven un error o la solicitud masiva
 
 >[!NOTE]
 >
->Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
 Factores como el tráfico de red pesado, el uso del servidor y los grandes conjuntos de datos pueden hacer que una solicitud masiva falle o se agote el tiempo de espera. Si hay algún problema, la hoja de cálculo deja de escribir datos y muestra un mensaje de error. Cuando esto ocurra, debe:
 
