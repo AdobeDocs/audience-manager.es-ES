@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Creación masiva
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3051ca9f7c4039dafdfa01b89226c1fa8717e610
 
 ---
 
@@ -23,7 +23,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
@@ -32,17 +32,15 @@ t_bulk_create.xml
 Para crear objetos de forma masiva, abra la [!UICONTROL Bulk Management Tools] hoja de cálculo y:
 
 1. Haga clic en la ficha y copie los encabezados de creación del elemento que desee agregar. **[!UICONTROL Headers]**
-1. Click the **[!UICONTROL Create]** tab.
-1. Pegue los encabezados de creación en la primera fila de la hoja de cálculo de actualización.
-1. Pegue o escriba los datos que desee cambiar en una columna correspondiente basada en la etiqueta del encabezado.
-1. En la barra de herramientas de la hoja de cálculo, haga clic en el botón crear que coincida con el elemento que está actualizando.
+2. Click the **[!UICONTROL Create]** tab.
+3. Pegue los encabezados de creación en la primera fila de la hoja de cálculo de actualización.
+4. Pegue o escriba los datos que desee cambiar en una columna correspondiente basada en la etiqueta del encabezado.
+5. En la barra de herramientas de la hoja de cálculo, haga clic en el botón crear que coincida con el elemento que está actualizando.
 Esta acción abre el cuadro de diálogo [!UICONTROL Account Information] .
-
-1. Proporcione la información [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) inicio de sesión necesaria y haga clic en **[!UICONTROL Submit]**.
+6. Proporcione la información [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) inicio de sesión necesaria y haga clic en **[!UICONTROL Submit]**.
 
 La hoja de cálculo crea una [!UICONTROL Results] columna. La [!UICONTROL Results] columna devuelve la respuesta JSON para una operación correcta. Consulte los ejemplos en las API de [REST](../../api/rest-api-main/rest-api-main.md) . Antes de introducir datos, la hoja de cálculo de creación masiva debe tener un aspecto similar al siguiente ejemplo. Tenga en cuenta que las distintas opciones de creación no se muestran aquí. Esto se incluye para ayudarle a comprender el aspecto que podría tener una hoja de cálculo completa.
 
 ![](assets/cretetraits.png)
 
-
-Si la actualización masiva devuelve un error o falla, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
+Si la actualización masiva devuelve un error o un error, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
