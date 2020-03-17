@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
 ## Información general {#overview}
 
@@ -32,7 +32,7 @@ Esta función utiliza una hoja de cálculo de Microsoft Excel con macros que rea
 
 ## Descargar {#download}
 
-Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20191205.xlsm)**.
+Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20200311.xlsm)**.
 
 ## Requisitos previos {#prereqs}
 
