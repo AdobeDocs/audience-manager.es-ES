@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introducción a las reglas de combinación de perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -65,7 +65,7 @@ Se necesitan permisos de administrador para crear, editar o eliminar una regla. 
 
 <!-- create-profile-merge-rule.xml -->
 
-**** Requisitos previos: Se requiere un origen de datos entre dispositivos para crear un [!UICONTROL Profile Merge Rule]. Consulte [Creación de una fuente](../manage-datasources.md#create-data-source)de datos.
+**Requisitos previos:** Se requiere un origen de datos entre dispositivos para crear un [!UICONTROL Profile Merge Rule]. Consulte [Creación de una fuente](../manage-datasources.md#create-data-source)de datos.
 
 >[!TIP]
 >
@@ -97,11 +97,11 @@ Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
-4. Haga clic en **[!UICONTROL Save]**.
+4. Haga clic **[!UICONTROL Save]**.
 
 ## Configurar código de regla de combinación {#configure-merge-rule-code}
 
-Siga estas instrucciones para configurar el código [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL]y [!DNL SDK] móvil para trabajar con las reglas de combinación.
+Siga estas instrucciones para configurar el código [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL]y [!DNL SDK] móvil para que funcione con las reglas de combinación.
 
 <!-- merge-rules-configure-code.xml -->
 
@@ -109,13 +109,13 @@ Siga estas instrucciones para configurar el código [!UICONTROL Experience Cloud
 
 Debe configurar un origen [de datos](#create-data-source) entre dispositivos y reglas [de combinación de](#create-profile-merge-rule) perfiles *antes* de completar estos procedimientos.
 
-## Para clientes del servicio Experience Cloud ID {#id-service-customers}
+## Para clientes del servicio de identidad de Adobe Experience Platform {#id-service-customers}
 
-Se recomiendan la versión [!UICONTROL Experience Cloud ID Service] y la última versión de [DIL](../../dil/dil-overview.md) al trabajar con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Experience Cloud ID Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL](#legacy-dil) heredada a continuación.
+Se recomiendan la versión [!UICONTROL Adobe Experience Platform Identity Service] y la última versión de [DIL](../../dil/dil-overview.md) al trabajar con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Adobe Experience Platform Identity Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL](#legacy-dil) heredada a continuación.
 
-### Configurar la función Definir ID de cliente
+### Configuración de la función Definir ID de cliente
 
-Al trabajar con el [!UICONTROL Experience Cloud ID Service], la `setCustomerIDs` función pasa los ID declarados a [!DNL Audience Manager]. Para utilizar una regla de combinación de perfiles, debe modificarla `setCustomerIDs` para utilizar el código de integración especificado al crear un origen de datos entre dispositivos. Por ejemplo, supongamos que ha creado una fuente de datos entre dispositivos con el código de integración `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en el ejemplo de código modificado que se muestra a continuación.
+Al trabajar con el [!UICONTROL Adobe Experience Platform Identity Service], la `setCustomerIDs` función pasa los ID declarados a [!DNL Audience Manager]. Para utilizar una regla de combinación de perfiles, debe modificarla `setCustomerIDs` para utilizar el código de integración especificado al crear un origen de datos entre dispositivos. Por ejemplo, supongamos que ha creado una fuente de datos entre dispositivos con el código de integración `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en el ejemplo de código modificado que se muestra a continuación.
 
 #### Ejemplo de código genérico
 
@@ -158,7 +158,7 @@ Consulte la sección [Configurar SDK](#configure-sdks-legacy-dil) más abajo.
 
 ## DIL heredado {#legacy-dil}
 
-Si no estás usando [!DNL Experience Cloud ID Service] todavía, realmente deberías hacerlo. Pero, entendemos que el cambio a un nuevo código requiere de una cuidadosa reflexión y prueba. En estos casos, compruebe su `DIL.create` función para asegurarse de que está configurada correctamente, como se muestra en el ejemplo de código siguiente.
+Si no estás usando [!DNL Adobe Experience Platform Identity Service] todavía, realmente deberías hacerlo. Pero, entendemos que el cambio a un nuevo código requiere de una cuidadosa reflexión y prueba. En estos casos, compruebe su `DIL.create` función para asegurarse de que está configurada correctamente, como se muestra en el ejemplo de código siguiente.
 
 ```js
 DIL.create({
