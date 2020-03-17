@@ -1,13 +1,13 @@
 ---
 description: Preguntas y problemas comunes relacionados con el producto y las funciones.
-keywords: cookies del administrador de audiencias
+keywords: audience manager cookies
 seo-description: Preguntas y problemas comunes relacionados con el producto y las funciones.
 seo-title: Preguntas más frecuentes sobre funciones y características del producto
 solution: Audience Manager
 title: Preguntas más frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -24,13 +24,13 @@ faq_features_functions.xml
 
  -->
 
-**¿Cuál es mi identificador de organización y cómo lo encuentro?**
+**¿Cuál es mi identificador de organización y cómo puedo encontrarlo?**
 
 El *`Organization ID`* es un identificador único que identifica a su organización [!DNL Audience Manager] y a la [!DNL Adobe Experience Cloud]. Consiste en una cadena alfanumérica de 24 caracteres que distingue entre mayúsculas y minúsculas seguida de [!UICONTROL @AdobeOrg].
 
 Por ejemplo, un *`Organization ID`* aspecto es el siguiente: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)sobre administración y administración de usuarios.
+El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el servicio [de identidad de la plataforma de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience Platform y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)sobre administración y administración de usuarios.
 
 <br> 
 
@@ -58,7 +58,7 @@ La fuente de datos y todas las características de la fuente aparecen como subca
 
 **¿Qué es[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizó [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. Para obtener más información, consulte [Adobe Launch](https://docs.adobelaunch.com/) y Administración [dinámica de etiquetas](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Audience Manager utilizó [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 <br> 
 
@@ -79,7 +79,7 @@ Recomendaciones de características es una forma rápida de obtener perspectivas
 Debe usar Recomendaciones de características cuando:
 
 * Necesita perspectivas rápidas al crear un segmento;
-* Utiliza los segmentos para campañas cortas o cuando desea suprimir rápidamente a la audiencia que realiza la conversión;
+* Está utilizando los segmentos para campañas cortas o cuando desea suprimir rápidamente a la audiencia que realiza la conversión;
 * Está intentando maximizar el alcance.
 
 <br> 
