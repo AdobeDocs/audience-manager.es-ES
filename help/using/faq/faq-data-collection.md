@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre la recopilación de datos y la integración de productos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -45,7 +45,7 @@ Sí, véase a continuación.
 
 | Elemento | Dirección |
 ---------|----------|
-|  ftp-in.demdex.com | 54.225.117.163 |
+| ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
@@ -64,7 +64,7 @@ Como práctica recomendada, configure la [!DNL Audience Manager][!DNL Analytics]
 
 * Ponga [!UICONTROL DIL] directamente en el `s_code`.
 
-* Sirve [!UICONTROL DIL] y el `s_code` a través [!DNL Adobe Launch] o [!DNL Adobe DTM].
+* Sirve [!UICONTROL DIL] y el `s_code` a través [!DNL Adobe Experience Platform Launch] o [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -121,7 +121,7 @@ Sí. [!UICONTROL DIL] puede recopilar algunos elementos [!DNL Google Analytics] 
 
 **¿Puedo obtener datos sin procesar[!DNL Audience Manager]y qué tan granular es?**
 
-Sí, [!DNL Audience Manager] puede proporcionarle datos recopilados para los usuarios que hemos visto en su inventario. Esto incluye:
+Sí, [!DNL Audience Manager] puede proporcionarle los datos recopilados para los usuarios que hemos visto en su inventario. Esto incluye:
 
 * El ID de usuario único (UUID) asignado por [!DNL Audience Manager]
 * ID de características y segmentos
@@ -155,7 +155,7 @@ Sí. Podemos enviar datos de canal, pero el DSP debe tener la capacidad técnica
 
 <br> 
 
-**¿Cómo puedo confirmar que los datos enviados por FTP han sido recogidos por[!DNL Audience Manager]?**
+**¿Cómo puedo confirmar que los datos enviados a través de FTP han sido recogidos por[!DNL Audience Manager]?**
 
 Se ha seleccionado un archivo cuando la extensión cambia de `.sync` a `.processed`. Cuando esto sucede, el archivo se encuentra en la cola de ingestión. Además, el administrador de cuentas puede confirmar cuándo se ha cargado un archivo.
 
