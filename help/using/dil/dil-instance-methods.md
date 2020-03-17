@@ -1,13 +1,13 @@
 ---
 description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
-keywords: crear características;crear característica
+keywords: create traits;create trait
 seo-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 seo-title: Métodos DIL de nivel de instancia
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -45,7 +45,7 @@ r_dil_signals.xml
 
  -->
 
-**** Firma de función: `signals: function ({key1:value1, key2:value2},prefix){}`
+**Firma de función:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ r_dil_traits.xml
 
  -->
 
-**** Firma de función: `traits:function (sids){}`
+**Firma de función:** `traits:function (sids){}`
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ r_dil_logs.xml
 
  -->
 
-**** Firma de función: `logs: function {key1:value1, key2:value2}`
+**Firma de función:** `logs: function {key1:value1, key2:value2}`
 
 **Respuesta**
 
@@ -172,7 +172,7 @@ r_dil_submit.xml
 
  -->
 
-**** Firma de función: `submit: function () {}`
+**Firma de función:** `submit: function () {}`
 
 >[!NOTE]
 >
@@ -210,7 +210,7 @@ r_dil_after_result.xml
 
  -->
 
-**** Firma de función: `afterResult: function (fn) {}`
+**Firma de función:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ r_dil_clear_data.xml
 
  -->
 
-**** Firma de función: `clearData: function () {}`
+**Firma de función:** `clearData: function () {}`
 
 >[!NOTE]
 >
@@ -292,7 +292,7 @@ r_dil_custom_query_params.xml
 
  -->
 
-**** Firma de función: `customQueryParams: function (obj) {}`
+**Firma de función:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
@@ -336,7 +336,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**** Firma de función: `dil.api.getContainerNSID: function () {}`
+**Firma de función:** `dil.api.getContainerNSID: function () {}`
 
 **Código de ejemplo**
 
@@ -360,7 +360,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**** Firma de función: `dil.api.getEventLog: function () {}`
+**Firma de función:** `dil.api.getEventLog: function () {}`
 
 **Código de ejemplo**
 
@@ -397,7 +397,7 @@ r_dil_get_partner.xml
 
  -->
 
-**** Firma de función: `dil.api.getPartner: function () {}`
+**Firma de función:** `dil.api.getPartner: function () {}`
 
 **Código de ejemplo**
 
@@ -421,7 +421,7 @@ r_dil_get_state.xml
 
  -->
 
-**** Firma de función: `dil.api.getState: function () {}`
+**Firma de función:** `dil.api.getState: function () {}`
 
 **Código de ejemplo**
 
@@ -505,11 +505,11 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo a Audience Manager. </p> <p> <p><b></b> Importante:  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia del servicio Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo a Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo a Audience Manager. </p> <p> <p><b></b> Importante:  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo a Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
 
 `idSync` acepta las siguientes macros:
 
-* **`%TIMESTAMP%`:** genera una marca de hora (en milésimas de segundo). Se emplea para ignorar la caché.
-* **`%DID%`:** inserta el ID de Audience Manager para el usuario.
-* **`%HTTP_PROTO%`** :: Establece el protocolo de página ( `http` o `https`).
+* **`%TIMESTAMP%`:**genera una marca de hora (en milésimas de segundo). Se emplea para ignorar la caché.
+* **`%DID%`:**inserta el ID de Audience Manager para el usuario.
+* **`%HTTP_PROTO%`::**Establece el protocolo de página (`http`o`https`).
 
 **Respuesta**
 
@@ -597,7 +597,7 @@ r_dil_result.xml
 
  -->
 
-**** Firma de función: `result: function (callback) {}`
+**Firma de función:** `result: function (callback) {}`
 
 Esta llamada de retorno reemplaza la llamada de retorno predeterminada que gestiona la publicación de destino.
 
@@ -628,7 +628,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 });.submit();
 </code></pre>
 
-##  secureDataCollection {#securedatacollection}
+## secureDataCollection {#securedatacollection}
 
 `secureDataCollection` es un parámetro booleano que controla cómo [!UICONTROL DIL] se realizan las llamadas a [!UICONTROL Data Collection Servers (DCS)] y Akamai.
 
@@ -694,7 +694,7 @@ r_dil_use_image_request.xml
 
  -->
 
-**** Firma de función: `useImageRequest: function () {}`
+**Firma de función:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
->* [Funciones de sincronización en el servicio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servicio Experience Cloud ID: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Compatibilidad con CORS en el servicio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
