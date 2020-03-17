@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glosario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -94,7 +94,7 @@ See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **Destino**
 
-En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) que desea compartir datos. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. [!DNL Audience Manager] las características de destino se encuentran en **[!UICONTROL Audience Data > Destinations]**.
+En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) que desea compartir datos con. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. [!DNL Audience Manager] las características de destino se encuentran en **[!UICONTROL Audience Data > Destinations]**.
 
 <br> 
 
@@ -112,7 +112,7 @@ La [!UICONTROL Data Integration Library] es una biblioteca de API que se utiliza
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente denominado el [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Anteriormente denominado el [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el servicio [de identidad de](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -126,7 +126,7 @@ Consulte Características [de la carpeta: Acerca](../features/traits/about-folde
 
 **Límite de frecuencia**
 
-Límite del número de veces que un anunciante desea mostrar un elemento creativo determinado a un usuario final. Puede configurar varias expresiones de límite de frecuencia en [!UICONTROL Segment Builder].
+Límite de un número de veces que un anunciante desea mostrar un elemento creativo determinado a un usuario final. Puede configurar varias expresiones de límite de frecuencia en [!UICONTROL Segment Builder].
 
 Consulte [Actualización y Frecuencia](../features/segments/recency-and-frequency.md).
 
@@ -163,7 +163,7 @@ Al trabajar con la interfaz de usuario o la API, tiene la opción de agregar un 
 
 * [!UICONTROL Traits]:: un código de integración es un campo para un ID, SKU u otro valor utilizado por los procesos empresariales internos. Opcional.
 * [!UICONTROL Segments]:: un código de integración es un campo para un ID definido por el usuario u otra información específica de la empresa. Opcional.
-* [!UICONTROL Data Sources]:: los códigos de integración son necesarios cuando desea crear fuentes de datos entre dispositivos, usar el servicio de ID de Experience Cloud o trabajar con [!UICONTROL Profile Merge Rules]. Consulte [Crear una fuente](../features/manage-datasources.md#create-data-source) de datos para obtener más información.
+* [!UICONTROL Data Sources]:: los códigos de integración son necesarios cuando desea crear fuentes de datos entre dispositivos, utilizar el servicio de identidad de la plataforma Adobe Experience Platform o trabajar con [!UICONTROL Profile Merge Rules]. Consulte [Crear una fuente](../features/manage-datasources.md#create-data-source) de datos para obtener más información.
 
 ## K-L {#k-l}
 
@@ -269,7 +269,7 @@ TTL define cuántos días permanece un visitante cualificado en una característ
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
+Consulte la documentación de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
 
 ## W-X-Y-Z {#w-z}
 
