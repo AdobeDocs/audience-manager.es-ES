@@ -7,7 +7,7 @@ title: Atributos admitidos para llamadas de API de DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 6e2cb69cd2f65851b82ed9a28f4a108562ce6ab8
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -42,7 +42,7 @@ El [!UICONTROL DCS] se basa en prefijos específicos agregados a las claves en p
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Atributos privados definidos por el cliente. </p> <p> El DCS acepta sus propios datos privados cuando la clave tiene un prefijo <code> p_</code> . Los datos privados se utilizan para la evaluación de características, pero no se registrarán ni almacenarán en nuestro sistema. Por ejemplo: supongamos que tiene una característica definida como <code> clientes = p_age&lt;25</code> y que pasa <code> p_age=23</code> en una llamada de evento. Dadas estas condiciones, el usuario que cumple los criterios de cualificación basados en la edad cumple los requisitos para la característica, pero el par clave-valor se pierde después de que <span class="keyword"> Audience Manager</span> recibe la solicitud y no se registra. </p> </td>
+   <td colname="col2"> <p>Atributos privados definidos por el cliente. </p> <p> El DCS acepta sus propios datos privados cuando la clave tiene un <code> p_</code> prefijo. Los datos privados se utilizan para la evaluación de características, pero no se registrarán ni almacenarán en nuestro sistema. Por ejemplo, supongamos que tiene una característica definida como <code> customers = p_age&lt;25</code> y que pasa <code> p_age=23</code> en una llamada de evento. Dadas estas condiciones, el usuario que cumple los criterios de cualificación basados en la edad cumple los requisitos para la característica, pero el par clave-valor se pierde después de que <span class="keyword"> Audience Manager</span> recibe la solicitud y no se registra. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -65,29 +65,37 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Especifica una función de JavaScript que se desea ejecutar utilizando la respuesta <span class="wintitle"> DCS</span> como parámetro de función de la función de llamada de retorno. </p> </td> 
+   <td colname="col2"> <p>Especifica una función de JavaScript que se desea ejecutar utilizando la respuesta de <span class="wintitle"> DCS</span> como parámetro de función de la función de llamada de retorno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contiene uno o varios pares de ID de proveedores de datos (<code> DPID</code>) e ID de usuarios de proveedores de datos (<code> DPUUID</code>) asignados por <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID y</code>DPUUID, separe cada par con el carácter no imprimible <code> %01</code><code></code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUID</i></code>. </p> <p><code> d_cid</code> reemplaza a <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene uno o varios pares de ID de proveedores de datos (<code> DPID</code>) e ID de usuarios de proveedores de datos (<code> DPUUID</code>) asignados por <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID</code>s y <code> DPUUID</code>s, separe cada par con el carácter no imprimible <code> %01</code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza a <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. Este parámetro lo establece dinámicamente el servicio de ID de Adobe Experience Cloud y depende de la configuración <code> idSyncDisable3rdPartySyncing</code> . See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA Support in the Experience Cloud ID Service</a>. </p> </td>
+   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. Este parámetro lo establece dinámicamente el servicio de identidad de la plataforma Adobe Experience Platform y depende de la <code> idSyncDisable3rdPartySyncing</code> configuración. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio</a>de identidad de Adobe Experience Platform. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Opcional. Habilitado a petición del cliente. Póngase en contacto con su asesor de Adobe Audience Manager o con el Servicio de atención al cliente. </p> <p>Indica que las características y los segmentos deben devolverse dentro de la respuesta <code> JSON</code> . </p> <p> 
+   <td colname="col2"> <p>Opcional. Habilitado a petición del cliente. Póngase en contacto con su asesor de Adobe Audience Manager o con el Servicio de atención al cliente. </p> <p>Indica que las características y los segmentos deben devolverse dentro de la <code> JSON</code> respuesta. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> devuelve <a href="../../../reference/ids-in-aam.md"> ID</a> de segmentos heredados para los segmentos. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> devuelve ID de segmento para los segmentos. </p> </li>
      </ul> </p> <p>Una respuesta de muestra podría tener el aspecto siguiente: </p> <p>
      <code class="syntax javascript">
-      { "material": [], "uuid": "07955261652886032950143702505894272138", "dcs_region": 7 , "características": [420020, 5421506], "segmentos": [984263, 985264], "tid": "ss3OTqPiQp0=" } </code> </p> </td> 
+      {
+      &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
+      &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
+      &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
+      &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
+      &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
+      &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpid</code> </p> </td> 
@@ -99,7 +107,7 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
-   <td colname="col2"> <p>Devuelve los datos de destino de la dirección URL en la <code> respuesta JSON</code> . </p> </td> 
+   <td colname="col2"> <p>Devuelve los datos de destino de la dirección URL en la <code> JSON</code> respuesta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
@@ -107,7 +115,7 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
-   <td colname="col2"> <p>Indica la versión <code> JSON</code> que se va a usar en la respuesta. Normalmente, debe configurarlo en <code> d_jsonv=1</code>. Al establecer <code> d_jsonv=0</code> se deshabilitan las sincronizaciones de ID. </p> </td> 
+   <td colname="col2"> <p>Indica la <code> JSON</code> versión que se va a utilizar en la respuesta. Normalmente, debe configurarlo en <code> d_jsonv=1</code>. La configuración <code> d_jsonv=0</code> deshabilita las sincronizaciones de ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
@@ -133,13 +141,19 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p>Necesario si desea una respuesta <code> JSON</code> del <span class="wintitle"> DCS</span>. </p> <p> 
+   <td colname="col2"> <p>Necesario si desea una <code> JSON</code> respuesta del <span class="wintitle"> DCS</span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si omite esto, el <span class="wintitle"> DCS</span> devuelve un píxel en el encabezado. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si incluye esto, el <span class="wintitle"> DCS</span> devuelve un objeto <code> JSON</code> en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si incluye esto, el <span class="wintitle"> DCS</span> devuelve un <code> JSON</code> objeto en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      { "material": [], "uuid": "22920112968019678612904394744954398990", "dcs_region": 7 "tid": "ss3OTqPiQp0=" } </code> </p> </td> 
+      {
+      &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
+      &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
+      &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
+      &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
@@ -163,7 +177,7 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid_ic</code> </p> </td> 
-   <td colname="col2"> <p>El propósito es idéntico al parámetro <code> d_tdpid</code> descrito anteriormente. Sin embargo, en este caso, la fuente de datos se pasa mediante el código de integración. </p> <p>Para mantener las características descritas anteriormente, considere la llamada de muestra: </p> <p>Para <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, solo se devuelve la característica T2. </p> </td> 
+   <td colname="col2"> <p>El propósito es idéntico al <code> d_tdpid</code> parámetro descrito anteriormente. Sin embargo, en este caso, la fuente de datos se pasa mediante el código de integración. </p> <p>Para mantener las características descritas anteriormente, considere la llamada de muestra: </p> <p>Por <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, solo se devuelve la característica T2. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_uuid</code> </p> </td> 
