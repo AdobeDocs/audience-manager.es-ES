@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Crear o actualizar reglas de características y reglas de segmentos
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,11 +23,11 @@ Las hojas de cálculo para crear y actualizar aceptan un encabezado traitRule qu
 
 >[!NOTE]
 >
->Los [!UICONTROL Bulk Management Tools] no *son* compatibles con [!DNL Audience Manager]. Esta herramienta se proporciona por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager en su lugar. [Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
-## Uso de reglas de características {#trait-rules}
+## Uso de las reglas de características {#trait-rules}
 
-En la hoja de cálculo, la columna de regla de características devuelve y acepta reglas que constan de expresiones booleanas, operadores de comparación y expresiones regulares. Puede crear reglas con el generador de rasgos o segmentos [!DNL Audience Manager] y copiarlas en la hoja de cálculo. O bien, si está familiarizado con la sintaxis de la regla, puede escribir expresiones directamente en las hojas de cálculo.
+En la hoja de cálculo, la columna de la regla de características devuelve y acepta reglas que constan de expresiones booleanas, operadores de comparación y expresiones regulares. Puede crear reglas con el generador de rasgos o segmentos en [!DNL Audience Manager] y copiarlas en la hoja de cálculo. O bien, si está familiarizado con la sintaxis de la regla, puede escribir expresiones directamente en las hojas de cálculo.
 
 ## Ejemplo del generador de reglas {#rule-builder-example}
 
