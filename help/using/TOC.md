@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -221,7 +221,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + API de DCS{#dcs-apis}
          + [API de DCS para transferencias de datos de servidor a servidor](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Obtención de ID y regiones de usuario a partir de una respuesta de DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Obtención de ID y regiones de usuario mediante el servicio Experience Cloud ID](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Obtención de ID y regiones de usuario a través del servicio de identidad de la plataforma de experiencia de Adobe](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Realización de llamadas de API de DCS de servidor a servidor](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + Referencia de API de DCS{#dcs-api-reference}
          + [Información general de referencia de la API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
