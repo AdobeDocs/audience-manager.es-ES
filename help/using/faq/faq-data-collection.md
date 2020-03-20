@@ -5,8 +5,9 @@ seo-title: Preguntas más frecuentes sobre la recopilación de datos y la integr
 solution: Audience Manager
 title: Preguntas más frecuentes sobre la recopilación de datos y la integración de productos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Desafortunadamente, no podemos. Estas direcciones IP se asignan dinámicamente, 
 
 <br> 
 
-**¿Puede proporcionarme una dirección IP que pueda incluir en la lista de direcciones permitidas para su servidor FTP entrante y saliente?**
+**¿Puede proporcionarme una dirección IP que pueda incluir en la lista de direcciones permitidas para su servidor SFTP entrante y saliente?**
 
 Sí, véase a continuación.
 
