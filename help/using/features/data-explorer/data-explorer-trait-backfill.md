@@ -1,22 +1,22 @@
 ---
-description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
-seo-description: Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
+description: Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
+seo-description: Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
 seo-title: Realizaciones de características de relleno
 title: Realizaciones de características de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
 
 # Realizaciones de características de relleno {#backfill-trait-realizations}
 
-Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de la fecha de creación de una característica.
+Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] es una función Premium que mejora la experiencia de Audience Manager al desbloquear casos de uso adicionales. El relleno requiere potencia de procesamiento adicional y está disponible para todos los clientes de Audience Manager a un coste incremental. Póngase en contacto con su representante de ventas de Adobe para obtener más información.
+>[!UICONTROL Data Explorer Trait Backfill] es una función Premium que mejora la experiencia del Administrador de Audiencias al desbloquear casos de uso adicionales. El relleno requiere una potencia de procesamiento adicional y está disponible para todos los clientes del Administrador de Audiencias a un costo incremental. Póngase en contacto con su representante de ventas de Adobe para obtener más información.
 
 Al crear características a partir de señales no utilizadas, puede elegir rellenar las realizaciones de características durante un período de tiempo específico. [!DNL Audience Manager] captura los datos históricos sobre audiencias que cumplen los requisitos para la nueva característica y los almacena en el perfil correspondiente. Puede ver la **[!UICONTROL Backfill Options]** en la [!UICONTROL Trait Expression] sección del Generador de **[características](../../features/traits/about-trait-builder.md)**.
 
@@ -26,7 +26,7 @@ Al crear características a partir de señales no utilizadas, puede elegir relle
 
 A continuación se muestra cómo rellenar los detalles de características:
 
-1. Vaya a [!UICONTROL Audience Data > Signals > Search] y ejecute una búsqueda de señales o utilice el panel de [señales](../../features/data-explorer/data-explorer-signals-dashboard.md) para identificar las señales que se utilizarán en la nueva característica.
+1. Vaya a [!UICONTROL Audience Data > Signals > Search] y ejecute una búsqueda de señales o utilice el Panel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) señales para identificar las señales que se utilizarán en la nueva característica.
 1. Cree una nueva característica basada en las señales deseadas.
 1. Utilice la **[!UICONTROL Backfill Options]** sección **[!UICONTROL Trait Expression]** para seleccionar el intervalo de tiempo para el que desea rellenar las realizaciones de características. Los intervalos de relleno predefinidos incluyen 1, 7, 14 y 30 días. También puede elegir un intervalo de fechas personalizado de hasta 30 días.
 
@@ -38,7 +38,7 @@ A continuación se muestra cómo rellenar los detalles de características:
 
    >[!IMPORTANT]
    >
-   >El rellenado y la estimación de características no están disponibles para características con expresiones que utilizan los siguientes operadores:
+   >La rellenado y estimación de características no están disponibles para características con expresiones que utilizan los siguientes operadores:
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
@@ -53,9 +53,9 @@ Vea el siguiente vídeo para ver cómo rellenar las características.
 
 ## Latencia de rellenado de características {#trait-backfilling-latency}
 
-Las características creadas recientemente empiezan a capturar audiencias de dos a tres horas después de la creación. Sin embargo, debido al gran volumen de datos que [!DNL Audience Manager] se obtienen diariamente, la población rellenada no se refleja inmediatamente en los gráficos [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] .
+inicio de características recién creado que captura audiencias de dos a tres horas después de la creación. Sin embargo, debido al gran volumen de datos que [!DNL Audience Manager] se obtienen diariamente, la población rellenada no se refleja inmediatamente en los gráficos [!UICONTROL Unique Trait Realizations] y [!UICONTROL Total Trait Population] .
 
-Audience Manager actualiza el [!UICONTROL Trait Graph] archivo con la población rellenada en un plazo de 48 horas desde la creación de características.
+El Administrador de Audiencias actualiza el [!UICONTROL Trait Graph] archivo con la población rellenada en un plazo de 48 horas desde la creación de características.
 
 ## Límite de relleno de rasgos {#trait-backfilling-limit}
 
@@ -65,7 +65,7 @@ Audience Manager actualiza el [!UICONTROL Trait Graph] archivo con la población
 >
 >La cuota de rellenado de rasgos no se transfiere de meses anteriores. Por ejemplo: si rellena 30 características este mes, la cuota de relleno de características del mes siguiente se restablece a 50, no a 70.
 
-## Impacto en los informes {#reporting-impact}
+## Impacto en el Sistema de informes {#reporting-impact}
 
 Las realizaciones de características rellenadas con retroceso se reflejan en las [!UICONTROL Unique Trait Realizations] métricas y [!UICONTROL Total Trait Population] , a medida que [!DNL Audience Manager] convierte las señales históricas en realizaciones de rasgos.
 
