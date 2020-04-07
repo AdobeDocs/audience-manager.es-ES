@@ -1,29 +1,29 @@
 ---
 description: Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 seo-description: Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
-seo-title: Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados
+seo-title: Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado
 solution: Audience Manager
-title: Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados
+title: Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
 
-# Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 
 ## Proporción de muestreo de datos y requisitos mínimos {#data-sampling-ratio}
 
-Algunos [!DNL Audience Manager] informes muestran los resultados según un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos de muestra es 1:54. Para los informes que utilizan datos de muestra, esto significa que los resultados se basan en un registro de cada conjunto de 54 registros.
+Algunos [!DNL Audience Manager] informes muestran los resultados en función de un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos de muestra es 1:54. Para los informes que utilizan datos de muestra, esto significa que los resultados se basan en un registro de cada conjunto de 54 registros.
 
 Estos informes utilizan datos muestreados porque necesitan una enorme capacidad informática para generar resultados. El muestreo ayuda a encontrar un equilibrio entre la reducción de las demandas computacionales, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
 
 Los informes que utilizan muestras excluyen características y segmentos cuando no cumplen los requisitos mínimos de visitante único. Estos requisitos mínimos son los siguientes:
 
-* Características: 28.000 [realizaciones](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) únicas de características durante un período de 14 días.
+* Características: 28.000 [realizaciones](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) únicas de características durante un período de 14 días.
 * Segmentos: 70.000 usuarios en tiempo real durante un período de 14 días.
 
 ## Tasas de error {#error-rates}
@@ -49,5 +49,5 @@ Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tas
 Los [!DNL Audience Manager] informes que utilizan datos de muestra incluyen:
 
 * [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (rasgo a rasgo, segmento a rasgo y segmento a segmento).
-* [Datos de audiencia](../features/addressable-audiences.md) a los que se puede dirigir (datos a nivel de cliente y segmento).
+* [Datos de Audiencia](../features/addressable-audiences.md) direccionables (datos a nivel de cliente y segmento).
 * La métrica Dispositivos [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totales de un [!UICONTROL Profile Merge Rule].
