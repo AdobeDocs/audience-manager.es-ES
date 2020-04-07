@@ -7,7 +7,7 @@ title: Administrar Suscripciones de fuentes de datos
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ Para suscribirse a una fuente de datos pública:
 
 1. Vaya a **[!UICONTROL Audience Marketplace > Marketplace]**. Utilice la función de búsqueda o navegue por la lista para encontrar una fuente de datos.
 
-   ![](assets/subscribe1.png)
+   ![suscripción](assets/subscribe1.png)
 
 1. Haga clic en el nombre de la fuente de datos que desee utilizar. Se abre la página [de detalles del](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) plan para la fuente seleccionada.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Elija un caso de uso en la tabla suscripciones y:
    * Mueva el **[!UICONTROL Subscription]** deslizador a **[!UICONTROL On]**.
    * Haga clic **[!UICONTROL Review & Subscribe]**. Esto abre la [!UICONTROL Terms and Conditions] ventana.
-   ![](assets/subscribe3.png)
+   ![suscripción](assets/subscribe3.png)
 
 1. En la [!UICONTROL Terms and Conditions] ventana:
 
    * **Importante:** Deje marcada la **[!UICONTROL ID sync]** casilla de verificación. Esta configuración ayuda a mejorar las tasas de coincidencia con el proveedor de datos.
    * Marque la casilla Términos y condiciones y haga clic en **[!UICONTROL Accept]** para completar el proceso de suscripción.
-   ![](assets/subscribe4.png)
+   ![suscripción](assets/subscribe4.png)
 
 ### Pasos siguientes
 
