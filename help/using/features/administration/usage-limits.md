@@ -7,7 +7,7 @@ title: Límites de uso
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -35,7 +35,7 @@ Las tablas lista los límites actuales por tipo de elemento. No se pueden crear 
 | Tipo de característica | Límite máximo |
 | -------------------------- | ------------------------------------- |
 | Características totales | 100,000 |
-| Total de cualificaciones de características | 150,000. Para obtener más información sobre la cualificación de características, consulte Límite de cualificación de características en Referencia [de cualificaciones de](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)características. |
+| Total de cualificaciones de características | 150,000. Para obtener más información sobre la cualificación de características, consulte Límite de cualificación de características en Referencia [de cualificaciones de](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)características. |
 | Algoritmo | 50 |
 | Basado en reglas | 100,000 |
 | Integrado | 100,000 |
