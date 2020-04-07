@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Al crear o editar un segmento en el Generador [de segmentos](segment-builder.md)
 ### Nuevos segmentos
 
 1. Vaya a Datos de **Audiencia > Segmentos** y haga clic en **Añadir nuevo**.
-2. En el cuadro desplegable **Características** , agregue al menos una característica a la regla de segmento.
-3. Puede ver las características recomendadas de origen y las recomendaciones de [!UICONTROL Audience Marketplace] características de las fuentes a las que está suscrito, en la **[!UICONTROL Recommendations]** sección . La **[!UICONTROL Recommendations from Marketplace]** sección muestra las recomendaciones de características de las fuentes a las que no está suscrito. Todas estas recomendaciones son similares a las características agregadas a la regla de segmento. Desplácese hacia abajo para ver todas las características recomendadas.
-4. (Opcional) Para excluir las características de origen recomendadas de determinadas fuentes de datos, haga clic en el símbolo **X** de las fuentes de datos que desee excluir.
+1. En el cuadro desplegable **Características** , agregue al menos una característica a la regla de segmento.
+1. Puede ver las características recomendadas de origen y las recomendaciones de [!UICONTROL Audience Marketplace] características de las fuentes a las que está suscrito, en la **[!UICONTROL Recommendations]** sección . La **[!UICONTROL Recommendations from Marketplace]** sección muestra las recomendaciones de características de las fuentes a las que no está suscrito. Todas estas recomendaciones son similares a las características agregadas a la regla de segmento. Desplácese hacia abajo para ver todas las características recomendadas.
+1. (Opcional) Para excluir las características de origen recomendadas de determinadas fuentes de datos, haga clic en el símbolo **X** de las fuentes de datos que desee excluir.
 
    >[!NOTE]
    >
