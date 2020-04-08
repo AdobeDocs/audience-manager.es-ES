@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexi
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ Desea calificar los ID de cliente de la tabla siguiente para los ID de rasgo inc
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Para calificar los ID de cliente en el ejemplo anterior para las características integradas correspondientes, debe cargar un [archivo de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) con el siguiente contenido:
+
+Para calificar los ID de cliente en el ejemplo anterior para las características integradas correspondientes, debe cargar un archivo [de datos](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrante con el siguiente contenido:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
