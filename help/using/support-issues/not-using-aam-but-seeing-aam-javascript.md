@@ -5,7 +5,7 @@ seo-title: No se está utilizando el Administrador de Audiencias pero se están 
 solution: Audience Manager
 title: No se está utilizando el Administrador de Audiencias pero se están viendo llamadas de Javascript del Administrador de Audiencias en el depurador Javascript - ¿Por qué?
 translation-type: tm+mt
-source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
+source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
 
 ---
 
@@ -14,10 +14,12 @@ source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
 
 ## pregunta
 
-No estamos utilizando Adobe Audiencia Manager pero vemos llamadas de Javascript del Administrador de Audiencias en el depurador de Javascript.  ¿Por qué estaría sucediendo esto?
+No estamos utilizando Adobe Audiencia Manager pero vemos llamadas de Javascript del Administrador de Audiencias en el depurador de Javascript.
+
+¿Por qué sucede esto?
 
 ## Respuesta
 
-Es probable que esté ejecutando el servicio de ID de Visitante en su propiedad. Si lo está, tener esta referencia de AAM no necesariamente hace referencia a la propiedad que ejecuta el Administrador de Audiencias, pero significa que el Administrador de Audiencias está realmente impulsando este servicio.
+Es probable que esté ejecutando el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud en su propiedad. Si es así, tener esta referencia del Administrador de Audiencias no necesariamente hace referencia a la propiedad que ejecuta el Administrador de Audiencias. En su lugar, significa que el Administrador de Audiencias está alimentando este servicio.
 
-Tenga en cuenta que la llamada de AAM generalmente se realiza para sincronizar los ID de cliente de Set.
+La llamada al servidor del Administrador de Audiencias generalmente se realiza para [sincronizar los ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)de cliente.
