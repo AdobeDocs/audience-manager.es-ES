@@ -1,19 +1,19 @@
 ---
-description: Audience Manager requiere que las solicitudes HTTP(S) servidor-a-servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar solicitudes HTTP con claves privadas.
-seo-description: Audience Manager requiere que las solicitudes HTTP(S) servidor-a-servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
+description: El Administrador de Audiencias requiere que las solicitudes de servidor a servidor HTTP(S) se firmen digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP con claves privadas.
+seo-description: El Administrador de Audiencias requiere que las solicitudes de servidor a servidor HTTP(S) se firmen digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
 seo-title: Solicitudes HTTP(S) firmadas digitalmente
 solution: Audience Manager
 title: Solicitudes HTTP(S) firmadas digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
+source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
 
 ---
 
 
 # Solicitudes firmadas `HTTP(S)` digitalmente {#digitally-signed-http-requests}
 
-Audience Manager requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo se pueden firmar `HTTP(S)` solicitudes con claves privadas.
+El Administrador de Audiencias requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar `HTTP(S)` solicitudes con claves privadas.
 
 ## Información general {#overview}
 
@@ -89,12 +89,10 @@ El RFC para la implementación del [!DNL HMAC] hash es [https://www.ietf.org/rfc
 Por motivos de seguridad, se recomienda rotar periódicamente la clave privada. Depende de usted decidir la clave privada y el período de rotación. Para lograr la rotación de claves sin tiempo de inactividad, [!UICONTROL IRIS] admite la adición de varios encabezados de firma. Un encabezado contendrá la firma generada con la clave antigua, otro encabezado contendrá la firma generada con la nueva clave privada. Consulte los siguientes pasos en detalle:
 
 1. El socio comunica la nueva clave privada a [!DNL Adobe Audience Manager].
-1. [!UICONTROL IRIS] comenzará a enviar dos encabezados de firma (uno con la clave antigua y el otro con la nueva clave).
-1. Una vez que comience a recibir ambos encabezados, puede optar por descartar la clave antigua y sólo mirar la nueva firma.
 1. La clave antigua se elimina [!DNL Audience Manager] y [!UICONTROL IRIS] sólo envía el nuevo encabezado de firma. Se han rotado las teclas.
 
 ## Datos utilizados para firmar {#data-signing}
 
-Para los destinos `GET` de tipo, el mensaje utilizado para la firma será la *CADENA* DE CONSULTA + REQUEST_PATH (p. ej. */from-aam-s2s?sids=1,2,3*). IRIS no tiene en cuenta el nombre de host o los encabezados, ya que estos pueden modificarse o configurarse incorrectamente a lo largo de la ruta o informarse incorrectamente. `HTTP(S)`
+Para los destinos de `GET` tipo, el mensaje utilizado para la firma será *REQUEST_PATH + CADENA* de CONSULTA (p. ej. */from-aam-s2s?sids=1,2,3*). IRIS no tiene en cuenta el nombre de host o los encabezados, ya que estos pueden modificarse o configurarse incorrectamente a lo largo de la ruta o informarse incorrectamente. `HTTP(S)`
 
 Para los destinos de `POST` tipo, el mensaje utilizado para firmar es el CUERPO DE *SOLICITUD*. De nuevo, se omiten los encabezados u otros parámetros de solicitud.
