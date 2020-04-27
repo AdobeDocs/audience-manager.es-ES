@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guía del usuario del Administrador de Audiencias
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Informe Variación de la característica diaria](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Informes interactivos y superpuestos {#interactive-and-overlap-reports}
       + [Información general de informes interactivos y superpuestos](reporting/dynamic-reports/dynamic-reports.md)
-      + [Informe Envío y rendimiento](reporting/dynamic-reports/delivery-performance-report.md)
       + [Informe de solapamiento entre características](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [Informe de solapamiento entre segmento y característica](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [Informe de solapamiento entre segmentos](reporting/dynamic-reports/segment-segment-overlap-report.md)
