@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ Los [!DNL Audience Manager] informes que utilizan datos de muestra incluyen:
 * [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (rasgo a rasgo, segmento a rasgo y segmento a segmento).
 * [Datos de Audiencia](../features/addressable-audiences.md) direccionables (datos a nivel de cliente y segmento).
 * La métrica Dispositivos [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totales de un [!UICONTROL Profile Merge Rule].
+* [El Explorador](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) de datos utiliza datos de muestra en la [!UICONTROL Search] ficha y en cualquier [!UICONTROL Saved Searches].
