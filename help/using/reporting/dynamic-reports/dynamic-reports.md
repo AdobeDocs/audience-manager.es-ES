@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informes interactivos y superpuestos
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 translation-type: tm+mt
-source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 Los informes interactivos muestran el rendimiento y superponen los datos de características y segmentos. En lugar de utilizar números dispuestos en columnas y filas, estos informes devuelven datos con diferentes formas, colores y tamaños. Además, puede elegir puntos de datos individuales o grupos y explorar en profundidad los resultados del informe para obtener más detalles. Estas técnicas de visualización e interactividad de informes ayudan a que grandes cantidades de datos numéricos sean más fáciles de entender.
 
 + [Tecnología de informes](interactive-report-technology.md)
-+ [Informe de rendimiento y entrega](delivery-performance-report.md)
 + [Informe de solapamiento entre características](trait-trait-overlap-report.md)
 + [Informe de solapamiento entre segmento y característica](segment-trait-overlap-report.md)
 + [Informe de solapamiento entre segmentos](segment-segment-overlap-report.md)
