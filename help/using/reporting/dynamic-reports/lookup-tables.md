@@ -1,19 +1,19 @@
 ---
-description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
-seo-description: Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
+description: Coloque los datos en los archivos de registro de informes de rendimiento de Envío en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
+seo-description: Coloque los datos en los archivos de registro de informes de rendimiento de Envío en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
 seo-title: Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda
 solution: Audience Manager
 title: Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
 # Mejorar los tiempos de procesamiento de los archivos de registro con tablas de búsqueda{#improve-log-file-processing-times-with-lookup-tables}
 
-Coloque los datos en los archivos de registro del informe Rendimiento de entrega en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
+Coloque los datos en los archivos de registro de informes de rendimiento de Envío en tablas que contengan únicamente ID. Coloque metadatos que no sean de ID en tablas de búsqueda independientes para reducir el tamaño del archivo y los tiempos de procesamiento.
 
 <!-- 
 
@@ -39,11 +39,11 @@ Supongamos que tiene un archivo de datos similar al que se muestra a continuaci�
 
 | ID de usuario | ID de anuncio | Nombre de publicidad | ID de pedido | Nombre del pedido | ID del anunciante | Nombre del anunciante |
 |---|---|---|---|---|---|---|
-| 1 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
-| 2 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
-| 3 | 111 | Zapato A | 456 | Esponjas | 27 | Empresa A |
-| 4 | 222 | Zapato B | 789 | Senderismo | 14 | Empresa B |
-| 5 | 222 | Zapato B | 789 | Senderismo | 14 | Empresa B |
+| 1 | 111 | Zapato A | 456 | Esponjas | 27 | Compañía A |
+| 2 | 111 | Zapato A | 456 | Esponjas | 27 | Compañía A |
+| 3 | 111 | Zapato A | 456 | Esponjas | 27 | Compañía A |
+| 4 | 222 | Zapato B | 789 | Senderismo | 14 | Compañía B |
+| 5 | 222 | Zapato B | 789 | Senderismo | 14 | Compañía B |
 
 <br> 
 
@@ -63,14 +63,9 @@ El archivo de búsqueda siguiente contiene los metadatos y se puede vincular al 
 
 | ID de anuncio | Nombre de publicidad | Nombre del pedido | Nombre del anunciante |
 |---|---|---|---|
-| 111 | Zapato A | Esponjas | Empresa A |
-| 222 | Zapato B | Senderismo | Empresa B |
+| 111 | Zapato A | Esponjas | Compañía A |
+| 222 | Zapato B | Senderismo | Compañía B |
 
 ## Las API pueden eliminar la necesidad de tablas de búsqueda
 
-Si el sistema de servicio de publicidad tiene una API, es posible que no necesite enviar metadatos en un archivo de búsqueda. Podemos obtener esa información a través de la API. En este caso, los archivos de registro deben contener únicamente ID. Trabajaremos con usted para determinar si los metadatos se pueden obtener a través de una API.
-
->[!MORELIKETHIS]
->
->* [Informe de rendimiento y entrega](../../reporting/dynamic-reports/delivery-performance-report.md)
-
+Si el sistema de servicio de publicidad tiene una API, es posible que no necesite enviar metadatos en un archivo de búsqueda. Es posible que podamos obtener esa información a través de la API. En este caso, los archivos de registro deben contener únicamente ID. Trabajaremos con usted para determinar si los metadatos se pueden obtener a través de una API.
