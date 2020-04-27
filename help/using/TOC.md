@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guía del usuario del Administrador de Audiencias
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Límites de uso](features/administration/usage-limits.md)
       + [Sistema de informes de uso de Actividades](features/administration/activity-usage-reporting.md)
    + Modelos algorítmicos{#algorithmic-models}
-      + [Modelos algorítmicos](features/algorithmic-models/understanding-models.md)
-      + [Creación de un modelo algorítmico](features/algorithmic-models/create-model.md)
-      + [Modelos algorítmicos: Exclusión de características](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Descripción general de los modelos algorítmicos](features/algorithmic-models/algo-models-overview.md)
+      + Modelado similar {#look-alike-modeling}
+         + [Conceptos básicos de modelos similares](features/algorithmic-models/understanding-models.md)
+         + [Creación de un modelo similar](features/algorithmic-models/create-model.md)
+         + [Modelado similar: Exclusión de características](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Audiencias predictivas {#predictive-audiences}
+         + [Información general de Audiencias predictivas](features/algorithmic-models/predictive-audiences.md)
+         + [Introducción a las Audiencias predictivas](features/algorithmic-models/predictive-audiences-start.md)
+         + [Sistema de informes de Audiencias predictivas](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audiencia Lab{#audience-lab}
       + [Audiencia Lab Overview](features/audience-lab/audience-lab.md)
       + [Administrar grupos de pruebas](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [Preguntas más frecuentes sobre destinos basados en personas](faq/faq-people-based-destinations.md)
    + [Preguntas más frecuentes sobre funciones y características del producto](faq/faq-features.md)
    + [Preguntas más frecuentes sobre las reglas de combinación de Perfiles y Device Graph](faq/faq-profile-merge.md)
+   + [Preguntas más frecuentes sobre Audiencias predictivas](faq/faq-predictive-audiences.md)
    + [Preguntas más frecuentes sobre objetivos](faq/faq-targeting.md)
    + [Preguntas más frecuentes sobre la creación de informes](faq/faq-reporting.md)
 + Ayuda y asistencia legal{#help-and-legal}
