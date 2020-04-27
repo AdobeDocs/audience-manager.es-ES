@@ -5,12 +5,12 @@ seo-title: Exclusión de características de modelos algorítmicos
 title: Exclusión de características de modelos algorítmicos
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Modelos algorítmicos: Exclusión de características {#algorithmic-models-trait-exclusion}
+# Modelado similar: Exclusión de características {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] proporciona controles adicionales en el flujo de trabajo de modelado, lo que le permite agregar los carriles de protección necesarios al modelo, en función de la experiencia del dominio y los requisitos reglamentarios. Utilice la [!UICONTROL Exclusions] opción para seleccionar qué características se deben ignorar al crear modelos a partir de una o varias fuentes de datos.
 
@@ -18,7 +18,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 Estos son algunos casos de uso con los que puede tratar [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] permite excluir ciertas características generales, como las características de los visitantes del sitio, para que no se sesgue el modelo y se produzcan resultados planos.
+* [!UICONTROL Trait Exclusion] permite excluir ciertas características de captación global, como las características de visitante del sitio, para que no se sesgue el modelo, lo que conduce a resultados planos.
 * Puede eliminar características que no conoce o en las que no confía de un origen de datos para comprender mejor las características influyentes.
 * Puede excluir determinadas características, como las características demográficas, para ayudar con las obligaciones de cumplimiento que pueda tener.
 
@@ -40,11 +40,11 @@ Utilice el flujo de trabajo [Generar un modelo](../../features/algorithmic-model
 
 >[!TIP]
 >
->Puede excluir carpetas enteras excluyendo la característica de carpeta en lugar de excluir las características de la carpeta, una por una. Por ejemplo, en una carpeta con 20 características, solo necesita excluir la característica de carpeta en lugar de excluir todas las características una por una.
+>Puede excluir carpetas enteras excluyendo la característica de carpeta en lugar de excluir las características de la carpeta, una por una. Por ejemplo, en una carpeta con 20 características, solo tendría que excluir la característica de carpeta en lugar de excluir todas las características una por una.
 
 Si prefiere tutoriales en vídeo, vea nuestra demostración en vídeo sobre la exclusión de características:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## Aspectos y limitaciones importantes {#important-aspects-and-limitations}
 
@@ -59,15 +59,15 @@ Tenga en cuenta los siguientes aspectos y limitaciones relacionados con [!UICONT
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Características excluidas en la vista Resumen de modelos </p> </td>
+   <td colname="col1"> <p>Vista de resumen de características excluidas en modelos </p> </td>
    <td colname="col2"> <p>Las características excluidas <i>no se muestran</i> en la vista Resumen de modelos. Solo se pueden ver las características excluidas en el flujo de trabajo <b><span class="uicontrol"> Editar modelo</span></b> . </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Controles de acceso basados en roles (RBAC) </p> </td>
-   <td colname="col2"> <p>Tenga en cuenta las siguientes limitaciones para las empresas que utilizan <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
+   <td colname="col2"> <p>Tenga en cuenta las siguientes limitaciones para compañías que utilizan <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">Si no tiene acceso para ver una característica, <i>no puede</i> seleccionar esa característica para excluirla del modelo. </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Si no tiene acceso para ver una característica, <i>no puede</i> verla en la lista de características excluidas. </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">Si no tiene acceso a la vista de una característica, <i>no puede</i> seleccionar esa característica para excluirla del modelo. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Si no tiene acceso a la vista de un rasgo, <i>no puede</i> realizar la vista de ese rasgo en la lista de características excluidas. </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Tenga en cuenta los siguientes aspectos y limitaciones relacionados con [!UICONT
 
 Vea el siguiente vídeo para saber cómo y por qué excluir rasgos específicos de una [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## Vínculos relacionados
 
