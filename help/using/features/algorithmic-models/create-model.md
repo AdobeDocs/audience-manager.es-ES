@@ -1,29 +1,24 @@
 ---
 description: Describe los pasos opcionales y requeridos que permiten crear un modelo algorítmico en el Generador de modelos.
-keywords: cómo funciona
+keywords: algo how works
 seo-description: Describe los pasos opcionales y requeridos que permiten crear un modelo algorítmico en el Generador de modelos.
 seo-title: Creación de un modelo algorítmico
 solution: Audience Manager
 title: Creación de un modelo algorítmico
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Creación de un modelo algorítmico {#create-an-algorithmic-model}
+# Creación de un modelo similar {#create-an-algorithmic-model}
 
-Describe los pasos opcionales y requeridos en los que puede crear un modelo algorítmico en [!UICONTROL Model Builder].
+Describe los pasos opcionales y requeridos que le permiten crear un [!UICONTROL Look-Alike Model].
 
-## Generar un modelo {#build-model}
+## Sección Generador de modelos
 
-<!-- t_model_build.xml -->
-
-### Sección Generador de modelos
-
-[!UICONTROL Model Builder] consta de las secciones [!UICONTROL Basic Information] y [!UICONTROL Configuration] . Para crear un modelo, complete los campos obligatorios de estas dos secciones. Guarde el modelo para iniciar el algoritmo. [!DNL Audience Manager] le envía una notificación automatizada una vez que se completa la primera ejecución de datos. Después de recibir el correo electrónico, puede ir al Generador de [características](../../features/traits/about-trait-builder.md) y crear características algorítmicas.
+[!UICONTROL Model Builder] consta de las secciones [!UICONTROL Basic Information] y [!UICONTROL Configuration] . Para crear un modelo, complete los campos obligatorios de estas dos secciones. Guarde el modelo para inicio del algoritmo. [!DNL Audience Manager] le envía una notificación automatizada una vez que se completa la primera ejecución de datos. Después de recibir el correo electrónico, puede ir al Generador de [características](../../features/traits/about-trait-builder.md) y crear características algorítmicas.
 
 >[!NOTE]
 >
@@ -33,20 +28,24 @@ Describe los pasos opcionales y requeridos en los que puede crear un modelo algo
 >* La notificación de correo electrónico automatizada se envía una sola vez (después de la primera ejecución de datos).
 
 
-### Generar el modelo
+## Generar el modelo
 
-Para crear un modelo, vaya a la [!UICONTROL Models] sección y haga clic en **[!UICONTROL Add New]** y siga los pasos a continuación:
+Siga los pasos a continuación para crear un [!UICONTROL Look-Alike Model]:
 
-1. En la sección Información [](../../features/algorithmic-models/create-model.md#basic-information) básica
+1. Vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic **[!UICONTROL Add New]** en la [!UICONTROL Look-Alike Modeling] sección .
+   ![look-like-add](assets/look-alike-add.png)
+2. En la sección Información [](../../features/algorithmic-models/create-model.md#basic-information) básica
    * Asigne un nombre al modelo.
    * *(Opcional)* Proporcione una breve descripción del modelo.
    * Establezca el estado del modelo en **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. Los modelos inactivos no se ejecutarán y no producirán datos.
-1. En la sección [Configuración](../../features/algorithmic-models/create-model.md#configuration) :
-   * Haga clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** para seleccionar un rasgo o segmento con el que desee modelar. Seleccione una característica integrada, una característica basada en reglas o un segmento como base. De lo contrario, los modelos no se ejecutarán.
+      ![similar-básico](assets/look-alike-basic.png)
+3. En la sección [Configuración](../../features/algorithmic-models/create-model.md#configuration) :
+   * Haga clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** para seleccionar un rasgo o segmento con el que desee modelar. Seleccione una característica integrada, una característica basada en reglas o un segmento como línea de base. De lo contrario, los modelos no se ejecutarán.
    * Elija un período retrospectivo de 30, 60 o 90 días. Esto establece un intervalo de tiempo para el modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Seleccione un origen de datos en la [!UICONTROL Available Data] lista.
-   * Click **[!UICONTROL Save]** when done.
+   * Seleccione un origen de datos de la [!UICONTROL Available Data] lista.
+   * Haga clic **[!UICONTROL Save]** cuando termine.
+      ![configuración similar](assets/look-alike-configuration.png)
 
 ## Información básica para modelos algorítmicos {#basic-information}
 
@@ -62,7 +61,7 @@ En [!UICONTROL Model Builder], la [!UICONTROL Basic Information] configuración 
 
 ## Configuración {#configuration}
 
-En [!UICONTROL Model Builder], la [!UICONTROL Configuration] sección permite agregar características o segmentos al modelo. En esta sección, seleccione un rasgo o segmento de línea de base, un período de retrospectiva y datos de las fuentes de datos de origen y de terceros.
+En [!UICONTROL Model Builder], la [!UICONTROL Configuration] sección le permite agregar características o segmentos al modelo. En esta sección, seleccione un rasgo o segmento de línea de base, un período de retrospectiva y datos de las fuentes de datos de origen y de terceros.
 
 <!-- r_model_configuration.xml -->
 
@@ -82,7 +81,7 @@ Complete primero los campos obligatorios de la [!UICONTROL Basic Information] se
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Seleccionar una característica o segmento de línea de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Haga clic en el botón de características o segmentos para ver una lista de todas sus características o segmentos. El segmento o rasgo seleccionado se convierte en la línea de base que utilizan los algoritmos del sistema para el modelado. </p> <p> <p><b>Nota</b>:Seleccione una característica integrada, una característica basada en reglas o un segmento como base. De lo contrario, los modelos no se ejecutarán. </p> </p> </td> 
+   <td colname="col2"> <p>Haga clic en el botón de características o segmentos para ver una lista de todas sus características o segmentos. El segmento o rasgo seleccionado se convierte en la línea de base que utilizan los algoritmos del sistema para el modelado. </p> <p> <p><b>Nota</b>:  Seleccione una característica integrada, una característica basada en reglas o un segmento como línea de base. De lo contrario, los modelos no se ejecutarán. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleccionar período retroactivo (2)</b> </p> </td> 
@@ -90,7 +89,7 @@ Complete primero los campos obligatorios de la [!UICONTROL Basic Information] se
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleccionar algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>En este momento, el Generador de modelos solo funciona con nuestro algoritmo propietario <span class="keyword"> de peso</span> de rasgo. <span class="keyword"> Audience Manager</span> puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
+   <td colname="col2"> <p>En este momento, el Generador de modelos solo funciona con nuestro algoritmo de Peso <span class="keyword"></span> de características patentado. <span class="keyword"> El Administrador</span> de Audiencias puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleccionar datos de modelo de la fuente de datos (4)</b> </p> </td> 
@@ -103,9 +102,9 @@ Complete primero los campos obligatorios de la [!UICONTROL Basic Information] se
  </tbody>
 </table>
 
-Vea el siguiente vídeo para aprender a crear un modelo parecido al de origen, de modo que pueda encontrar más visitantes que se parezcan a los convertidores.
+Vea el siguiente vídeo para aprender a crear un modelo de origen similar, de modo que pueda encontrar más visitantes que se parezcan a los convertidores.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
