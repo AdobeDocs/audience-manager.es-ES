@@ -5,7 +5,7 @@ seo-title: Información general de Audiencias predictivas
 solution: Audience Manager
 title: Audiencias predictivas del Administrador de Audiencias
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Al evaluar audiencias de origen y asignar puntuaciones, el modelo utiliza el val
 ## Consideraciones y limitaciones {#considerations}
 
 >[!IMPORTANT]
-> Lea este artículo detenidamente antes de pasar a la fase de implementación.
+> Lea detenidamente esta sección antes de pasar a la fase de implementación.
 
 Al configurar sus [!UICONTROL Predictive Audiences] modelos, tenga en cuenta las siguientes consideraciones y limitaciones:
 
