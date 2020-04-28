@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Creación de un modelo algorítmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -34,14 +34,13 @@ Siga los pasos a continuación para crear un [!UICONTROL Look-Alike Model]:
 
 1. Vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic **[!UICONTROL Add New]** en la [!UICONTROL Look-Alike Modeling] sección .
    ![look-like-add](assets/look-alike-add.png)
-1. En la sección Información [](../../features/algorithmic-models/create-model.md#basic-information) básica
+2. En la sección Información [](../../features/algorithmic-models/create-model.md#basic-information) básica
    * Asigne un nombre al modelo.
    * *(Opcional)* Proporcione una breve descripción del modelo.
    * Establezca el estado del modelo en **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. Los modelos inactivos no se ejecutarán y no producirán datos.
       ![similar-básico](assets/look-alike-basic.png)
-1. En la sección [Configuración](../../features/algorithmic-models/create-model.md#configuration) :
-   * Haga clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** para seleccionar un rasgo o segmento con el que desee modelar. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]y [!UICONTROL Algorithmic]) o por tipo de población (ID[](../../reference/ids-in-aam.md) del dispositivo e ID [](../../reference/ids-in-aam.md)cruzado del dispositivo).
-      ![características de exploración](assets/browse-traits.png)
+3. En la sección [Configuración](../../features/algorithmic-models/create-model.md#configuration) :
+   * Haga clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** para seleccionar un rasgo o segmento con el que desee modelar. Seleccione una característica integrada, una característica basada en reglas o un segmento como línea de base. De lo contrario, los modelos no se ejecutarán.
    * Elija un período retrospectivo de 30, 60 o 90 días. Esto establece un intervalo de tiempo para el modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Seleccione un origen de datos de la [!UICONTROL Available Data] lista.
