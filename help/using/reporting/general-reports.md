@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informes generales
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ Los números en el [!UICONTROL General Reports] se generan directamente a partir
 
 ## Resultados de informes generales para características {#general-report-results-traits}
 
-Las métricas siguientes están disponibles cuando ejecuta un informe General y selecciona **[!UICONTROL Trait]** como tipo de informe:
+Los filtros siguientes están disponibles cuando ejecuta un informe General y selecciona **[!UICONTROL Trait]** como tipo de informe.
 
-**Realizaciones de características únicas**
+Al filtrar los resultados por [!UICONTROL Device ID]:
 
-Esta métrica representa el número único de ID de usuario único (UUID) [del Administrador de](../reference/ids-in-aam.md) Audiencias que cumplen los requisitos para la característica en el intervalo de tiempo seleccionado. Por ejemplo: si un usuario visitó la página principal tres veces el 10/1, verá una Realización de características únicas.
+* [!UICONTROL Unique Trait Realizations] es el número de visitantes de dispositivos anónimos que han agregado la característica a su perfil dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Total Trait Realization] es el número total de realizaciones anónimas de características dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Total Trait Population] es el número de visitantes de dispositivos anónimos que tienen esta característica en su perfil.
 
-**Realizaciones de características totales**
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-Esta métrica representa la cantidad total de activaciones de características para la característica en el intervalo de tiempo seleccionado. Por ejemplo: si un usuario visitó la página principal y luego navegó a las noticias tecnológicas y a las secciones de noticias deportivas, aparecerán en el Informe general como tres realizaciones totales de características y una realización única de características.
+Al filtrar los resultados por [!UICONTROL Cross-Device ID]:
 
-**Población total de características**
+* [!UICONTROL Unique Trait Realizations] es el número de visitantes autenticados que han agregado la característica a su perfil, dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Total Trait Realization] es el número total de realizaciones de características autenticadas dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Total Trait Population] es el número de visitantes autenticados que tienen esta característica en su perfil.
 
-Esta métrica representa la cantidad total de UUID del Administrador de Audiencias que actualmente están calificados para la característica. Utilice este número para comprender la cantidad total de usuarios que puede utilizar para segmentación y segmentación. Normalmente, los usuarios permanecen como parte de una característica durante [120 días](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). Por ejemplo: si un usuario visita su página principal tres veces hoy y nunca regresa después, permanecerá como usuario en esta población todos los días hasta dentro de 120 días. A los 120 días, serían retirados de la población. Lea nuestra Referencia [de cualificación](../features/traits/trait-and-segment-qualification-reference.md) de rasgos y segmentos para obtener más ejemplos de la diferencia entre las Realizaciones de rasgos únicos y la Población total de rasgos.
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
-La siguiente ilustración muestra los resultados de ejecutar un informe general para el tipo de informe de características.
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## Resultados de informes generales para segmentos {#general-report-results-segments}
 
 Las métricas siguientes están disponibles cuando ejecuta un informe General y selecciona **[!UICONTROL Segment]** como tipo de informe:
 
-**Población de segmentos en tiempo real**
+### Población de segmentos en tiempo real
 
 Esta métrica representa el número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que el Administrador de Audiencias los vio.
 
-**Población total del segmento**
+### Población total del segmento
 
 Esta métrica representa el número total de UUID del Administrador de Audiencias calificados para el segmento dentro del período de retrospectiva seleccionado. La población total del segmento de 1 día representa la base de usuarios más precisa para la segmentación.
 
