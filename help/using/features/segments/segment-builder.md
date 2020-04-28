@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -17,7 +17,7 @@ Describe los pasos opcionales y requeridos para crear un segmento en [!UICONTROL
 
 ## Demostración en video
 
-Comience viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)Crear segmentos en Audience Manager. El vídeo lo acompaña durante el proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
+Inicio viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)Crear segmentos en el Administrador de Audiencias. El vídeo lo acompaña durante el proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
 
 ## Creación de segmentos {#create-segment}
 
@@ -27,28 +27,33 @@ Comience viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-47
 
 [!UICONTROL Segment Builder] consta de tres secciones separadas: [!UICONTROL Basic Information], [!UICONTROL Traits], y [!UICONTROL Destinations Mapping]. Para crear un segmento, complete los campos requeridos en las secciones [!UICONTROL Basic Information] y [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] son opcionales. Consulte las instrucciones siguientes para obtener ayuda adicional.
 
-![create-segment](assets/create-segment.png)
-
 1. En la sección Información [](../../features/segments/segment-builder.md#segment-builder-controls-basics) básica:
+
+   ![create-segment](assets/create-segment.png)
+
    * Asigne un nombre al segmento. La longitud máxima del nombre de un segmento es de 255 caracteres.
    * Establezca el estado del segmento (activo es predeterminado).
-   * Elija una fuente de datos. Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos. Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos de Audience Manager.
+   * Elija una fuente de datos. Utilice el primer menú desplegable para filtrar entre fuentes de datos del Administrador de Audiencias, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos. Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos del Administrador de Audiencias.
    * Seleccione una regla de combinación de perfiles para utilizarla en la calificación de segmentos.
    * Asigne el segmento a una carpeta de almacenamiento.
-2. En la sección [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
-   * Busque la característica que desee agregar a un segmento y haga clic en **[!UICONTROL Add Trait]**. Agregue otra característica para crear un grupo de características.
-   * Para abrir el modal Búsqueda avanzada, haga clic en **[!UICONTROL Browse All Traits]**. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar características por tipo de característica.
+
+1. En la sección [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   ![segment-builder-traits](assets/segment-builder-traits.png)
+   * Busque la característica que desee agregar a un segmento y haga clic en **[!UICONTROL Add Trait]**. Añada otra característica para crear un grupo de características.
+   * Para abrir el modal Búsqueda avanzada, haga clic en **[!UICONTROL Browse All Traits]**. Busque características por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]y [!UICONTROL Algorithmic]) o por tipo de población (ID[](../../reference/ids-in-aam.md) del dispositivo e ID [](../../reference/ids-in-aam.md)cruzado del dispositivo).
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * Obtenga recomendaciones [de](trait-recommendations.md) características activas a medida que crea el segmento.
    * Haga clic y arrastre características para crear grupos independientes.
    * Pase el ratón entre grupos para establecer relaciones con valores booleanos [!UICONTROL AND][!UICONTROL OR], [!UICONTROL AND NOT] .
    * Pase el ratón sobre el icono del reloj para agregar reglas de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) a la característica.
-   * Ver datos de población de segmentos a medida que agrega o elimina características. Haga clic **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados. Obtenga más información sobre los datos [de población de](../../features/segments/segment-builder-data.md#segment-populations) segmentos en el Generador de segmentos.
-   * Click **[!UICONTROL Save]** when done.
-3. *(Opcional)* Asigne un segmento a un destino en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
-   * Busque el destino y haga clic en **[!UICONTROL Add Destination]**. Tenga en cuenta que el destino ya debe existir para poder agregarlo a un segmento.
-   * Click **[!UICONTROL Save]** when done.
+   * Vista datos de población de segmentos a medida que agrega o elimina características. Haga clic en **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados. Obtenga más información sobre los datos [de población de](../../features/segments/segment-builder-data.md#segment-populations) segmentos en el Generador de segmentos.
+   * Haga clic **[!UICONTROL Save]** cuando termine.
 
-## Controles del Generador de segmentos: Sección de información básica {#segment-builder-controls-basics}
+1. *(Opcional)* Asigne un segmento a un destino en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
+   * Busque el destino y haga clic en **[!UICONTROL Add Destination]**. Tenga en cuenta que el destino ya debe existir para poder agregarlo a un segmento.
+   * Haga clic **[!UICONTROL Save]** cuando termine.
+
+## Controles del Generador de segmentos: Sección de Información Básica {#segment-builder-controls-basics}
 
 En [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] los ajustes le permiten crear nuevas características o editar las existentes. Para crear un nuevo segmento, especifique un nombre, un origen de datos y seleccione una carpeta de almacenamiento. El resto de campos son opcionales. Continúe con la [!UICONTROL Traits] sección cuando termine.
 
@@ -72,15 +77,15 @@ En [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] los ajustes 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Código de integración</b> </td> 
-   <td colname="col2"> <p>Campo para un ID definido por el usuario u otra información específica de la empresa. </p> </td> 
+   <td colname="col2"> <p>Campo para un ID definido por el usuario u otra información específica de la compañía. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Fuente de datos</b> </td> 
-   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos de Audience Manager.</p></p> </td> 
+   <td colname="col2"> <p>Asocia el segmento con un proveedor de datos específico. <p>Utilice el primer menú desplegable para filtrar entre fuentes de datos del Administrador de Audiencias, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de datos.</p><p> Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se desactiva y se establece de forma predeterminada únicamente en las fuentes de datos del Administrador de Audiencias.</p></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Regla de combinación de perfiles</b> </td> 
-   <td colname="col2"> <p>Selecciona la regla de combinación de perfiles que se usará para la calificación de segmentos. </p> </td> 
+   <td colname="col1"><b>Regla de combinación de Perfiles</b> </td> 
+   <td colname="col2"> <p>Selecciona la regla de combinación de Perfiles que se usará para la calificación de segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Estado</b> </td> 
@@ -99,14 +104,14 @@ En [!UICONTROL Segment Builder], la [!UICONTROL Traits] sección le permite admi
 
 <!-- r_segment_traits_section.xml-->
 
-**** Requisitos previos: Complete los campos obligatorios de la [!UICONTROL Basic Information] sección.
+**Requisitos previos:** Complete los campos obligatorios de la [!UICONTROL Basic Information] sección.
 
 | Campo | Descripción |
 |--- |--- |
-| Vista básica | Esta sección proporciona controles visuales que le permiten: <ul><li>Cree nuevos segmentos y administre los existentes.</li><li>Eliminar características de un segmento.</li><li>Agregue hasta 50 características (máximo) a un segmento.</li><li>Arrastre y suelte las características para crear nuevos grupos.</li><li>Ver características y grupos de características en un segmento.</li><li>Establezca criterios de cualificación con expresiones booleanas, operadores de comparación y ajustes de actualización y frecuencia.</li></ul> |
-| Vista de código | Abre un entorno de desarrollo que permite crear y administrar características, grupos y requisitos de cualificación con código en lugar de con la interfaz visual. La vista de código resulta útil si los segmentos: <ul><li>Contiene más de 50 características en un segmento individual. Nota: Los segmentos están limitados a 5000 características (máximo).</li><li>Contiene muchos grupos de características.</li><li>Tienen requisitos de cualificación complejos.</li></ul> |
+| Vista básica | Esta sección proporciona controles visuales que le permiten: <ul><li>Cree nuevos segmentos y administre los existentes.</li><li>Eliminar características de un segmento.</li><li>Añada hasta 50 características (máximo) en un segmento.</li><li>Arrastre y suelte las características para crear nuevos grupos.</li><li>Características de Vista y grupos de características en un segmento.</li><li>Establezca criterios de cualificación con expresiones booleanas, operadores de comparación y ajustes de actualización y frecuencia.</li></ul> |
+| Vista de código | Abre un entorno de desarrollo que le permite crear y administrar características, grupos y requisitos de cualificación con código en lugar de con la interfaz visual. La vista de código resulta útil si los segmentos: <ul><li>Contiene más de 50 características en un segmento individual. Nota: Los segmentos están limitados a 5000 características (máximo).</li><li>Contiene muchos grupos de características.</li><li>Tienen requisitos de cualificación complejos.</li></ul> |
 | Buscar | Ayuda a encontrar características que agregar a un segmento. |
-| Las actividades de | Obtenga recomendaciones en directo para características similares, a partir de las características de origen y las fuentes de datos a las que está suscrito. [!UICONTROL Audience Marketplace] Agregue estas recomendaciones a la regla de segmentos para ampliar la audiencia. Lea más en Recomendaciones [de características](trait-recommendations.md). |
+| Las actividades de | Obtenga recomendaciones en directo para características similares, a partir de las características de origen y las fuentes de datos a las que está suscrito. [!UICONTROL Audience Marketplace] Añada estas recomendaciones a la regla del segmento para expandir la audiencia. Lea más en Recomendaciones [de características](trait-recommendations.md). |
 | Recomendaciones de Marketplace | Obtenga recomendaciones en directo para características similares a partir de fuentes de datos a las que no esté suscrito. [!UICONTROL Audience Marketplace] Lea más en Recomendaciones [de características](trait-recommendations.md). |
 | Datos reales y estimados del tamaño del segmento | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
@@ -116,14 +121,14 @@ La administración de las características de los segmentos es una parte importa
 
 Para eliminar características de un segmento:
 
-1. Vaya a Datos de **audiencia &gt; Segmentos**. Desplácese por la lista o utilice la función de búsqueda para encontrar el segmento con el que desee trabajar.
+1. Vaya a Datos de **Audiencia > Segmentos**. Desplácese por la lista o utilice la función de búsqueda para encontrar el segmento con el que desee trabajar.
 2. Haga clic en el nombre del segmento para abrir la pantalla de detalles del segmento.
 3. Haga clic en **Editar** para abrir el Generador de segmentos y, a continuación, haga clic en **Características** para abrir el panel Características.
 4. Pase el ratón sobre la característica que desee eliminar y, a continuación, haga clic en la X. Esta acción elimina inmediatamente la característica del segmento.
 
 ## Controles del Generador de segmentos: Sección Asignaciones de destinos {#segment-builder-controls-destinations}
 
-En [!UICONTROL Segment Builder], la [!UICONTROL Destinations Mapping] sección opcional permite enviar datos de segmentos a un destino de terceros [!DNL cookie], [!DNL URL]o de servidor a servidor. Para agregar un destino, busque (o busque) un destino, proporcione información específica del destino y haga clic en **[!UICONTROL Add Destination]**.
+En [!UICONTROL Segment Builder], la [!UICONTROL Destinations Mapping] sección opcional le permite enviar datos de segmentos a un destino de terceros [!DNL cookie], [!DNL URL]o de servidor a servidor. Para agregar un destino, busque (o busque) un destino, proporcione información específica del destino y haga clic en **[!UICONTROL Add Destination]**.
 
 <!-- r_segment_destinations_map.xml -->
 
@@ -137,8 +142,8 @@ El **[!UICONTROL Destination Mappings]** panel contiene las herramientas de bús
 
 | Tipo de búsqueda | Descripción |
 |---|---|
-| **Buscar por nombre de destino** | Permite buscar un destino específico por nombre. Para buscar, empiece a escribir. El campo se completará automáticamente según los términos de búsqueda. Click **[!UICONTROL Add Destination]** when done. |
-| **Examinar todos los destinos** | Busque una lista de *todos los* destinos disponibles. Seleccione y agregue destinos al segmento desde la lista emergente. |
+| **Buscar por nombre de destino** | Permite buscar un destino específico por nombre. Para buscar, escriba el inicio. El campo se completará automáticamente según los términos de búsqueda. Haga clic **[!UICONTROL Add Destination]** cuando termine. |
+| **Explorar todos los destinos** | Busque una lista de *todos los* destinos disponibles. Seleccione y agregue destinos al segmento desde la lista emergente. |
 
 ## Campos en las ventanas emergentes Asignaciones de destino {#fields-in-dest-mappings}
 
