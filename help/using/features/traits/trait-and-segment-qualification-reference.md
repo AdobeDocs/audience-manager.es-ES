@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Referencia de calificación de características
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
+source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
 
 ---
 
@@ -71,3 +71,4 @@ Para llevar más lejos el punto a casa, si experimentabas un pico de 10,000 visi
 ## Límite de cualificación de características {#trait-qualification-limit}
 
 Aplicamos un límite de 150.000 cualificaciones de características para cada perfil de usuario, ya sea un perfil autenticado ([DPUUID](../../reference/ids-in-aam.md)) o un ID de dispositivo ([UUID](../../reference/ids-in-aam.md)). Tenga en cuenta que aunque los DPUUID son exclusivos de una instancia específica de [!DNL Audience Manager], los UUID se comparten en la [!DNL Audience Manager] plataforma. Para [!UICONTROL UUID]los adultos, imponemos una política de equidad al almacenar las calificaciones de rasgos. Un algoritmo garantiza que una parte igual del [!UICONTROL UUID] perfil esté disponible para cada instancia de [!DNL Audience Manager].
+
