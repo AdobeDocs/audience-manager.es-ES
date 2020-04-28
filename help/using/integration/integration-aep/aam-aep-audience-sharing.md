@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Uso compartido de Audiencias entre Audiencia Manager y Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ## Información general {#overview}
 
-La funcionalidad de uso compartido de audiencias entre Audiencia Manager y Adobe Experience Platform le permite compartir sus características y segmentos de Audiencia Manager con Adobe Experience Platform y viceversa. Necesita el conector [del administrador de](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) Audiencias para habilitar el uso compartido de audiencias entre el administrador de Audiencias y la plataforma de Adobe Experience.
+La funcionalidad de uso compartido de audiencias entre Audiencia Manager y Adobe Experience Platform le permite compartir sus características y segmentos de Audiencia Manager con Adobe Experience Platform y viceversa. Necesita el conector [del administrador de](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) Audiencias para habilitar el uso compartido de audiencias entre el administrador de Audiencias y la plataforma de Adobe Experience.
 
 Puede utilizar las características y los segmentos de Audiencia Manager en la plataforma de experiencia para agregar datos del Administrador de Audiencias a sus perfiles de clientes y beneficiarse del servicio [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentación de la plataforma de experiencia.
 
@@ -46,7 +46,7 @@ Las características y los segmentos del Administrador de Audiencias aparecen en
 
 * [Descripción general del servicio de segmentación](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Guía del usuario del Generador de segmentos de la plataforma de experiencia](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Conector del Administrador de Audiencias](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+* [Conector del Administrador de Audiencias](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
@@ -91,7 +91,23 @@ Para ver un ejemplo de un segmento creado automáticamente a partir de un segmen
 
 | Número de artículo | Nombre | Descripción |
 ---------|----------|---------
-| 1 | Código de integración | El código de integración corresponde al ID del segmento en la plataforma de experiencia. |
-| 2 | Fuente de datos | Creado automáticamente. Todas las características y segmentos que se crean automáticamente a partir de segmentos de la plataforma de experiencia se almacenan en el origen de datos Uso compartido **de la Audiencia de la plataforma de** Adobe Experience Platform. |
-| 3 | Regla de combinación de Perfiles | **La directiva** de combinación externa indica que los segmentos creados automáticamente siguen la directiva de combinación establecida en la plataforma de experiencia. |
-| 4 | Regla de segmento | El segmento consta de la característica descrita en la sección [](#aep-segments-as-aam-traits)Características. |
+| 1 | [!UICONTROL Integration Code] | El código de integración corresponde al ID del segmento en la plataforma de experiencia. |
+| 2 | [!UICONTROL Data Source] | Creado automáticamente. Todas las características y segmentos que se crean automáticamente a partir de segmentos de la plataforma de experiencia se almacenan en el origen de datos **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que los segmentos creados automáticamente siguen la directiva de combinación establecida en la plataforma de experiencia. |
+| 4 | [!UICONTROL Segment Rule] | El segmento consta de la característica descrita en la sección [](#aep-segments-as-aam-traits)Características. |
+
+## Comprender las diferencias de población de segmentos entre el Administrador de Audiencias y la Plataforma de experiencia
+
+Los números de población de segmentos pueden variar entre los segmentos del Administrador de Audiencias y de la Plataforma de experiencia. Mientras que los números de segmento para audiencias similares o idénticas deben ser cercanos, las diferencias en las poblaciones pueden deberse a:
+
+* Tiempo de ejecución de los trabajos de segmentación. El Administrador de Audiencias ejecuta un trabajo de segmentación que actualiza los números de la interfaz una vez al día. Este trabajo raramente se alinea con los trabajos de segmentación en la plataforma de experiencia.
+* [Las reglas](/help/using/features/profile-merge-rules/merge-rules-overview.md) de combinación de Perfiles del Administrador de Audiencias y las políticas [de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) combinación de la plataforma de experiencia funcionan de forma distinta, y el gráfico de identidad que se utiliza para cada una varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+
+
+>[!MORELIKETHIS]
+>
+>* [Descripción general del servicio de segmentación](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Guía del usuario del Generador de segmentos de la plataforma de experiencia](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Conector del Administrador de Audiencias](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
+
