@@ -1,17 +1,17 @@
 ---
-description: Para crear reglas de combinación de perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
-seo-description: Para crear reglas de combinación de perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
-seo-title: Introducción a las reglas de combinación de perfiles
+description: Para crear reglas de combinación de Perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
+seo-description: Para crear reglas de combinación de Perfiles, revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
+seo-title: Introducción a las reglas de combinación de Perfiles
 solution: Audience Manager
-title: Introducción a las reglas de combinación de perfiles
+title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
-# Introducción a las reglas de combinación de perfiles {#getting-started-with-profile-merge-rules}
+# Introducción a las reglas de combinación de Perfiles {#getting-started-with-profile-merge-rules}
 
 Para crear [!UICONTROL Profile Merge Rules], revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
 
@@ -51,17 +51,17 @@ Para completar la [!UICONTROL Data Source Details] sección:
 
 * **[!UICONTROL Use as a Device Graph]**:: Este control solo está disponible para las cuentas enumeradas como proveedores de datos. Al seleccionar esta casilla de verificación, se crea el origen de datos como un gráfico del dispositivo y se permite compartirlo con otros [!DNL Audience Manager] clientes. Póngase en contacto con su [!DNL Audience Manager] consultor para configurarlo como proveedor de datos y especificar con qué clientes se debe compartir esta información [!UICONTROL Data Source] . El consultor le proporcionará el uso compartido de gráficos de cuentas y dispositivos a través de un proceso de aprovisionamiento interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**:: Este control le permite establecer el período de retención de datos para los ID de cliente inactivos. Esto determina cuánto tiempo Audience Manager mantiene los ID de cliente en la base de datos después de la última vez que se vieron en la plataforma de Audience Manager. El valor predeterminado es 24 meses (720 días). El valor mínimo que puede establecer es 1 mes y el valor máximo es 5 años. Tenga en cuenta que todos los meses se cuentan como 30 días. Audience Manager ejecuta un proceso que elimina los ID de cliente inactivos una vez a la semana, de acuerdo con la retención de datos establecida para los ID de cliente inactivos.
+* **[!UICONTROL Data retention for inactive Customer IDs]**:: Este control le permite establecer el período de retención de datos para los ID de cliente inactivos. Esto determina durante cuánto tiempo el Administrador de Audiencias mantiene los ID de cliente en nuestra base de datos después de la última vez que se vieron en la plataforma del Administrador de Audiencias. El valor predeterminado es 24 meses (720 días). El valor mínimo que puede establecer es 1 mes y el valor máximo es 5 años. Tenga en cuenta que todos los meses se cuentan como 30 días. El Administrador de Audiencias ejecuta un proceso que elimina los ID de cliente inactivos una vez a la semana, de acuerdo con la retención de datos configurada para los ID de cliente inactivos.
 
-Los campos de texto asociados a esta configuración permiten cambiar el nombre del [!UICONTROL Data Source] objeto por un alias que aparece en las opciones [Regla de combinación de](merge-rule-definitions.md)perfiles. Por ejemplo, si agrega un alias a **[!UICONTROL Use as Authenticated Profile]**, ese nombre aparecerá en la [!UICONTROL Authenticated Profile Options] lista. Si agrega un alias a **[!UICONTROL Use as a Device Graph]**, ese nombre aparecerá en la [!UICONTROL Device Options] lista.
+Los campos de texto asociados a esta configuración permiten cambiar el nombre del [!UICONTROL Data Source] objeto por un alias que aparece en las opciones [Regla de combinación de](merge-rule-definitions.md)Perfiles. Por ejemplo, si agrega un alias a **[!UICONTROL Use as Authenticated Profile]**, ese nombre aparecerá en la [!UICONTROL Authenticated Profile Options] lista. Si agrega un alias a **[!UICONTROL Use as a Device Graph]**, ese nombre aparecerá en la [!UICONTROL Device Options] lista.
 
-## Crear una regla de combinación de perfiles {#create-profile-merge-rule}
+## Creación de una regla de combinación de Perfiles {#create-profile-merge-rule}
 
 Para crear un [!UICONTROL Profile Merge Rule], vaya a **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** y complete los pasos de cada sección que se describe aquí.
 
-Puede crear hasta 3 reglas de combinación después de configurar un origen de datos entre dispositivos. Puede acceder a una cuarta regla de combinación de perfiles ([!UICONTROL All Cross-Device Profiles]) si se registra en Destinos [basados en](../destinations/people-based-destinations-overview.md)personas.
+Puede crear hasta 3 reglas de combinación después de configurar un origen de datos entre dispositivos. Puede acceder a una cuarta regla de combinación de Perfiles ([!UICONTROL All Cross-Device Profiles]) si se registra en Destinos [basados en](../destinations/people-based-destinations-overview.md)personas.
 
-Se necesitan permisos de administrador para crear, editar o eliminar una regla. Todos los usuarios pueden ver y utilizar los datos existentes [!UICONTROL Profile Merge Rules].
+Se necesitan permisos de administrador para crear, editar o eliminar una regla. Todos los usuarios pueden realizar vistas y utilizar los datos existentes [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
@@ -69,7 +69,7 @@ Se necesitan permisos de administrador para crear, editar o eliminar una regla. 
 
 >[!TIP]
 >
->Consulte Opciones [de regla de combinación de perfiles definidas](merge-rule-definitions.md) para obtener descripciones de estos diferentes controles.
+>Consulte Opciones de regla de combinación de [Perfiles Definidas](merge-rule-definitions.md) para obtener descripciones de estos diferentes controles.
 
 ## Información básica {#basic-info}
 
@@ -83,7 +83,7 @@ Para completar la [!UICONTROL Basic Information] sección:
 
 [Los controles](../data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que puede aplicar a su [!UICONTROL Profile Merge Rule]. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Omita esta sección si no utiliza [!UICONTROL Data Export Controls].
 
-## Configuración de regla de combinación de perfiles {#profile-merge-rule-setup}
+## Configuración de regla de combinación de Perfiles {#profile-merge-rule-setup}
 
 Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
 
@@ -115,7 +115,7 @@ Se recomiendan la versión [!UICONTROL Adobe Experience Platform Identity Servic
 
 ### Configuración de la función Definir ID de cliente
 
-Al trabajar con el [!UICONTROL Adobe Experience Platform Identity Service], la `setCustomerIDs` función pasa los ID declarados a [!DNL Audience Manager]. Para utilizar una regla de combinación de perfiles, debe modificarla `setCustomerIDs` para utilizar el código de integración especificado al crear un origen de datos entre dispositivos. Por ejemplo, supongamos que ha creado una fuente de datos entre dispositivos con el código de integración `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante, como se muestra en el ejemplo de código modificado que se muestra a continuación.
+Al trabajar con el [!UICONTROL Adobe Experience Platform Identity Service], la `setCustomerIDs` función pasa los ID declarados a [!DNL Audience Manager]. Para utilizar una regla de combinación de perfiles, debe modificarla `setCustomerIDs` para utilizar el código de integración especificado al crear un origen de datos entre dispositivos. Por ejemplo, supongamos que ha creado una fuente de datos entre dispositivos con el código de integración `my_datasource_ic`. Para pasar un ID declarado, debe agregar el código de integración a la función de ID de visitante como se muestra en el ejemplo de código modificado que se muestra a continuación.
 
 #### Ejemplo de código genérico
 
@@ -135,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Para obtener más información, consulte [Creación de una fuente](#create-data-source) de datos entre dispositivos, ID de [cliente y estados](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)de autenticación.
+Para obtener más información, consulte [Creación de una fuente](#create-data-source) de datos entre dispositivos, ID de [cliente y estados](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)de autenticación.
 
 ### Configurar `DIL.create` función
 
@@ -150,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par valor-clave de espacio de nombres, la variable `*`MCORG`*` es su ID [!DNL Experience Cloud] de organización. Si no tiene este ID, puede encontrarlo en la [!UICONTROL Administration] sección del [!DNL Experience Cloud] tablero. Necesita permisos de administrador para ver este tablero. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+En el par clave-valor de la Área de nombres, la variable `*`MCORG`*` es su ID [!DNL Experience Cloud] de organización. Si no tiene este ID, puede encontrarlo en la [!UICONTROL Administration] sección del [!DNL Experience Cloud] panel. Necesita permisos de administrador para vista de este panel. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuración de SDK
 
@@ -208,7 +208,7 @@ Compruebe los métodos del [!DNL SDK] código que le permiten pasar [!UICONTROL 
  </tbody>
 </table>
 
-Consulte también Métodos de [Audience Manager para Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) y Métodos de [Audience Manager para iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+Consulte también Métodos del Administrador de [Audiencias para Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y Métodos del Administrador de [Audiencias para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
