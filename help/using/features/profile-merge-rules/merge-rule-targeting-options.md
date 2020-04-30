@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos generales de uso de las reglas de combinación de Perfiles
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -57,7 +57,7 @@ Consideremos un segmento hecho de hogares con ingresos buenos por más de $100.0
 
 El Administrador de Audiencias combina todos los dispositivos + par de perfiles entre dispositivos para ver si el conjunto combinado de características cumple los requisitos para el segmento. Dado que el Administrador de Audiencias evalúa todos los perfiles que se incluyeron en la combinación, se pueden segmentar tanto el perfil del dispositivo como el perfil doméstico.
 
-El vínculo entre el dispositivo y el perfil doméstico permite que el Administrador de Audiencias cumpla los requisitos [!DNL Household 2] para el segmento, pero no [!DNL Household 1]. Desde [!DNL Household 2], solo [!DNL Device 3] cumple los requisitos para el segmento. Esto [!UICONTROL Profile Merge Rule] ha permitido que el especialista en mercadotecnia envíe un mensaje de marketing coherente a un dispositivo ([!DNL Device 3]) individual y a un hogar ([!DNL Household 2]) más amplio.
+El vínculo entre el dispositivo y el perfil doméstico permite que el Administrador de Audiencias cumpla los requisitos [!DNL Household 2] para el segmento, pero no [!DNL Household 1]. Desde [!DNL Household 2], solo [!DNL Device 3] califica para el segmento. Esto [!UICONTROL Profile Merge Rule] ha permitido que el especialista en mercadotecnia envíe un mensaje de marketing coherente a un dispositivo ([!DNL Device 3]) individual y a un hogar ([!DNL Household 2]) más amplio.
 
 ![administración del hogar](assets/household-management.png)
 
@@ -98,7 +98,7 @@ La selección de una [!UICONTROL device graph] opción para una [!UICONTROL Prof
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de Device Graph externas </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Las reglas de combinación</span> de Perfiles creadas con la cooperación <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> entre dispositivos de</a> Experience Cloud o cualquier gráfico de dispositivos externos integrado con el Administrador <span class="keyword"> de</span> Audiencias son ideales para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Las reglas de combinación</span> de Perfiles creadas con la cooperación <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> entre dispositivos de</a> Experience Cloud o cualquier gráfico de dispositivos externos integrado con el Administrador <span class="keyword"> de</span> Audiencias son ideales para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propiedades digitales que tienen un bajo nivel de autenticación de cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">campañas de marca amplias y de gran alcance. </li> 
