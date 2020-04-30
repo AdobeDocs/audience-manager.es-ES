@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso DIL y ejemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -21,9 +21,9 @@ c_dil_use_case.xml
 
  -->
 
-## Envío de elementos de datos a Audience Manager con DIL {#send-data-elements-dil}
+## Envío de elementos de datos al Administrador de Audiencias con DIL {#send-data-elements-dil}
 
-Cree una variable de objeto que envíe información sobre los elementos de página a Audience Manager. Esto resulta útil para la recopilación general de datos o como alternativa para recopilar datos con variables de Analytics.
+Cree una variable de objeto que envíe información sobre los elementos de página al Administrador de Audiencias. Esto resulta útil para la recopilación general de datos o como alternativa para recopilar datos con variables de Analytics.
 
 <!-- 
 
@@ -33,15 +33,15 @@ c_dil_send_page_objects.xml
 
 **Descripción**
 
-El siguiente código muestra cómo recopilar datos de página y enviarlos a Audience Manager con [!UICONTROL DIL]. Estos ejemplos utilizan una variable para contener elementos de datos en una lista plana o una matriz. Recuerde, pase variables como pares [](../reference/key-value-pairs-explained.md)clave-valor. Además, observe el `c_` prefijo antes de la clave en el par clave-valor. Este prefijo [](../features/traits/trait-variable-prefixes.md) requerido identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar manualmente `c_` la clave. En el segundo ejemplo, [!UICONTROL DIL] lo hace automáticamente.
+El siguiente código muestra cómo recopilar datos de página y enviarlos al Administrador de Audiencias con [!UICONTROL DIL]. Estos ejemplos utilizan una variable para alojar elementos de datos en una lista plana o una matriz. Recuerde, pase las variables como pares [](../reference/key-value-pairs-explained.md)clave-valor. Además, observe el `c_` prefijo antes de la clave en el par clave-valor. Este prefijo [](../features/traits/trait-variable-prefixes.md) requerido identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar manualmente `c_` la clave. En el segundo ejemplo, [!UICONTROL DIL] lo hace automáticamente.
 
-**Mantener consistentes las propiedades del valor**
+**Mantener la coherencia de las propiedades del valor**
 
 Recuerde mantener las propiedades de valor igual al pasar datos. Por ejemplo, si tiene dos claves idénticas con valores diferentes, el valor del último par clave-valor tiene prioridad sobre los objetos de valor anteriores. Por ejemplo, al pasar `color:blue` y `color:red` establecer el valor devuelto en rojo (sobrescribe el azul).
 
 **Ejemplo 1: Enviar datos como pares de clave-valor**
 
-Este ejemplo básico envía datos de color y precio a Audience Manager en forma de pares clave-valor. El código podría tener un aspecto similar al siguiente:
+Este ejemplo básico envía datos de color y precio al Administrador de Audiencias en forma de pares clave-valor. El código podría tener un aspecto similar al siguiente:
 
 <pre class="&ldquo;java&rdquo;"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -54,7 +54,7 @@ sample_dil.api.submit();
 
 **Ejemplo 2: Envío de datos a un objeto**
 
-Este ejemplo avanzado muestra cómo enviar datos en un objeto a Audience Manager. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al [!DNL signals()] método. [!UICONTROL DIL] El código podría tener un aspecto similar al siguiente:
+Este ejemplo avanzado muestra cómo enviar datos en un objeto al Administrador de Audiencias. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al [!DNL signals()] método. [!UICONTROL DIL] El código podría tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var my_object = { 
@@ -92,7 +92,7 @@ sample_dil.api.submit();
 
 ## Capturar URL de referencia {#capture-referring-url}
 
-Capture y envíe una dirección URL de referencia a Audience Manager.
+Capture y envíe una dirección URL de referencia al Administrador de Audiencias.
 
 <!-- 
 
@@ -102,7 +102,7 @@ c_dil_hrefer_over_https.xml
 
 >[!NOTE]
 >
->Este método solo funciona cuando los usuarios se mueven entre páginas con protocolos similares (HTTP vs HTTPS). Por ejemplo, el explorador retiene una dirección URL de referencia cuando navega de un sitio seguro a otro. Los navegadores no retienen la dirección URL de referencia cuando se mueven entre sitios seguros y no seguros. Este comportamiento es una funcionalidad normal del explorador y no se puede evitar [!UICONTROL DIL].
+>Este método solo funciona cuando los usuarios se mueven entre páginas con protocolos similares (HTTP vs HTTPS). Por ejemplo, el explorador retiene una dirección URL de referencia cuando navega de un sitio seguro a otro. Los navegadores no retienen la dirección URL de referencia cuando se mueven entre sitios seguros y no seguros. Este comportamiento es una funcionalidad normal del explorador y no se puede eludir con [!UICONTROL DIL].
 
 **Ejemplo de código**
 
@@ -115,7 +115,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 ## Capturar tipos de motores de búsqueda y términos de búsqueda de palabras clave {#capture-search-engine-types}
 
-Envíe información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave a Audience Manager.
+Envíe información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave al Administrador de Audiencias.
 
 >[!IMPORTANT]
 >
@@ -133,11 +133,11 @@ De manera predeterminada, `DIL.getSearchReferrer` reconoce las búsquedas desde 
 
 **Descripción**
 
-El siguiente código muestra cómo obtener el referente de búsqueda para cualquiera de los motores de búsqueda admitidos. En este caso, supongamos que un usuario buscó el término "hogares" desde [!DNL Google] Canadá ( `www.google.ca`). Este código le ayudará a capturar esos términos de búsqueda y enviarlos a Audience Manager.
+El siguiente código muestra cómo obtener el remitente del reenvío de búsqueda para cualquiera de los motores de búsqueda admitidos. En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde [!DNL Google] Canadá ( `www.google.ca`). Este código le ayudará a capturar esos términos de búsqueda y enviarlos al Administrador de Audiencias.
 
 **Código básico**
 
-El código básico para obtener el referente de búsqueda (por `google.com`ejemplo) tiene este aspecto:
+El código básico para obtener el remitente del reenvío de búsqueda (por `google.com`ejemplo) tiene este aspecto:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -145,7 +145,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Ejemplo de código de motor de búsqueda enumerado**
 
-En este caso, supongamos que un usuario buscó el término "hogares" desde [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefiere el parámetro requerido `c_` al motor de búsqueda ( `c_se`) y al término de búsqueda ( `c_st`). `c_` es un prefijo [](../features/traits/trait-variable-prefixes.md) requerido que identifica estas variables como variables definidas por el cliente en Audience Manager.
+En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefiere el parámetro requerido `c_` al motor de búsqueda ( `c_se`) y al término de búsqueda ( `c_st`). `c_` es un prefijo [](../features/traits/trait-variable-prefixes.md) requerido que identifica estas variables como variables definidas por el cliente en el Administrador de Audiencias.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -161,7 +161,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Ejemplo de código de motor de búsqueda no enumerado**
 
-En este caso, supongamos que un usuario buscó el término "hogares" desde `dogpile.com`. Debido a que no [!DNL Dogpile] se admite de forma predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda a Audience Manager. El código podría tener un aspecto similar al siguiente:
+En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde `dogpile.com`. Debido a que no [!DNL Dogpile] se admite de forma predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda al Administrador de Audiencias. El código podría tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -190,9 +190,9 @@ c_dil_map_keys.xml
 
 **Descripción**
 
-En un par clave-valor, el `c_` prefijo anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para segmentar en el sitio específico que pasó los datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de su cuenta de Audience Manager. Para ello, asigne el valor de un par `c_` clave-valor a una clave de nivel de plataforma. Se añade un prefijo a una clave de nivel de plataforma `d_` y la señal está disponible para la segmentación en todas las propiedades de la cuenta.
+En un par clave-valor, el `c_` prefijo anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para segmentar en el sitio específico que pasó los datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de la cuenta del Administrador de Audiencias. Para ello, asigne el valor de un par `c_` clave-valor a una clave de nivel de plataforma. Se añade un prefijo a una clave de nivel de plataforma `d_` y la señal está disponible para la segmentación en todas las propiedades de la cuenta.
 
-Por ejemplo, recopila datos de código postal de un sitio en particular, pero desea segmentarlos en todas sus propiedades de Audience Manager. Para que el código postal esté disponible a nivel de plataforma, puede asignar la clave de código postal definida por el cliente (p. ej. `c_zip`) a una clave definida por la plataforma como se muestra a continuación.
+Por ejemplo, recopila datos de código postal de un sitio en particular pero desea destinatario a todas las propiedades del Administrador de Audiencias. Para que el código postal esté disponible a nivel de plataforma, puede asignar la clave de código postal definida por el cliente (p. ej. `c_zip`) a una clave definida por la plataforma como se muestra a continuación.
 
 **Ejemplo de código**
 
@@ -210,7 +210,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## DIL de tráfico en Google Tag Manager (GTM) {#traffic-dil-gtm}
+## DIL de tráfico en el Administrador de etiquetas de Google (GTM) {#traffic-dil-gtm}
 
 Configure y proporcione DIL con una etiqueta GTM.
 
@@ -220,25 +220,25 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Este procedimiento supone que tiene una [!DNL Google Tag Manager] cuenta, algún conocimiento práctico de ese producto y el archivo de Audience Manager `dil.js` .
+Este procedimiento supone que tiene una [!DNL Google Tag Manager] cuenta, algún conocimiento práctico de ese producto y el archivo del Administrador de Audiencias `dil.js` .
 
 Para el tráfico del `dil.js` archivo en GTM:
 
 1. Cree un nuevo contenedor o abra un contenedor existente.
-1. Agregue una nueva etiqueta al contenedor.
+1. Añada una nueva etiqueta en el contenedor.
 1. Abra la etiqueta para editarla y:
 
    * Asigne un nombre a la etiqueta.
    * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
    * En el campo HTML, coloque el [!UICONTROL DIL] código (biblioteca + el código personalizado) dentro de las etiquetas de script `<script>DIL code</script>`.
-   * Haga clic en **[!UICONTROL Save]**.
+   * Haga clic **[!UICONTROL Save]**.
 
 1. Publique el contenedor.
-1. Genere el código de etiqueta de contenedor y colóquelo en el inventario.
+1. Genere el código de contenedor y colóquelo en el inventario.
 
 >[!MORELIKETHIS]
 >
 >* [Centro de ayuda del Administrador de etiquetas de Google](https://support.google.com/tagmanager#topic=3441530)
 >* [Señales](../dil/dil-instance-methods.md#signals)
->* [Requisitos de prefijo para variables clave](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [Requisitos de prefijo para variables clave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
