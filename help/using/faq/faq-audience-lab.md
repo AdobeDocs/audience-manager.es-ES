@@ -1,20 +1,20 @@
 ---
-description: Preguntas más frecuentes sobre la función Audience Lab.
-seo-description: Preguntas más frecuentes sobre la función Audience Lab.
-seo-title: Preguntas más frecuentes sobre Audience Lab
+description: Preguntas más frecuentes sobre la función de laboratorio de Audiencia.
+seo-description: Preguntas más frecuentes sobre la función de laboratorio de Audiencia.
+seo-title: Preguntas más frecuentes sobre el laboratorio de Audiencia
 solution: Audience Manager
-title: Preguntas más frecuentes sobre Audience Lab
+title: Preguntas más frecuentes sobre el laboratorio de Audiencia
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
-# Preguntas más frecuentes sobre Audience Lab{#audience-lab-faq}
+# Preguntas más frecuentes sobre el laboratorio de Audiencia{#audience-lab-faq}
 
-Preguntas más frecuentes sobre la función Audience Lab.
+Preguntas más frecuentes sobre la función de laboratorio de Audiencia.
 
 <!-- 
 
@@ -36,13 +36,13 @@ Sí, esto está permitido. Piense en un caso de una prueba que utiliza un segmen
 
 <br> 
 
-**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 UUID de[Audience Manager](../reference/ids-in-aam.md). Cuando el visitante exhibe una característica de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab]lo cuenta como una o cuatro conversiones?**
+**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 UUID del Administrador de[Audiencias](../reference/ids-in-aam.md). Cuando el visitante muestra una característica de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab]lo cuenta como una o cuatro conversiones?**
 
 En este caso, [!UICONTROL Audience Lab] solo cuenta una conversión.
 
 <br> 
 
-**¿Qué sucede si el visitante del caso anterior muestra primero la característica de conversión de uno de los cuatro UUID vinculados a su perfil autenticado y, a continuación, también muestra la característica de conversión de otros dos UUID vinculados al perfil autenticado? ¿Este caso cuenta como una o tres conversiones?**
+**¿Qué sucede si el visitante del caso anterior muestra primero la característica de conversión de uno de los cuatro UUID vinculados a su perfil autenticado y, a continuación, también muestra la característica de conversión de otros dos UUID vinculados al perfil autenticado? ¿Se cuenta este caso como una o tres conversiones?**
 
 En este caso, [!UICONTROL Audience Lab] cuenta tres conversiones, una para cada dispositivo que ha mostrado la característica de autenticación.
 
@@ -52,6 +52,6 @@ En este caso, [!UICONTROL Audience Lab] cuenta tres conversiones, una para cada 
 
 Consulte [Crear grupo](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) de prueba de segmentos para obtener información sobre cómo usar [!UICONTROL Audience Lab] con [!UICONTROL RBAC] privilegios.
 
-**¿Puedo usar[!UICONTROL Audience Lab]junto con los gráficos de dispositivos[!UICONTROL Profile Link Device Graph]y externos ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+**¿Puedo usar[!UICONTROL Audience Lab]junto con los gráficos de dispositivos[!UICONTROL Profile Link Device Graph]y externos ([Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), Tapad Device Graph, Liveramp Device Graph)?**
 
 Por ahora, [!UICONTROL Audience Lab] solo puede dividir las poblaciones de segmentos por los dispositivos conectados a un dispositivo que cumpla los requisitos, al usar el [!UICONTROL Profile Link Device Graph]. Estamos trabajando en agregar compatibilidad con [!UICONTROL Audience Lab] los otros gráficos de dispositivos y le informaremos cuando lo hagamos.
