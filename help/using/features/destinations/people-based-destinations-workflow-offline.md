@@ -5,7 +5,7 @@ seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexi
 solution: Audience Manager
 title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
 translation-type: tm+mt
-source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -133,6 +133,8 @@ En el ejemplo anterior, el nombre del archivo tendría este aspecto:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Descargue el archivo de ejemplo aquí](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
 
 Una vez creado el archivo de sincronización de ID, debe cargarlo en un [!DNL Amazon S3] bloque. Para obtener información sobre cómo cargar archivos de sincronización de ID, consulte [Envío de datos por lotes al Administrador](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)de Audiencias.
 
