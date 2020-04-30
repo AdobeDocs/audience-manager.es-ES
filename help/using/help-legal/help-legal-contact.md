@@ -5,7 +5,7 @@ seo-title: Contacto e información legal
 solution: Audience Manager
 title: Contacto e información legal
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,7 +20,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/support.ec.html)
 * [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
-* [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
 
 ## Servicio, funcionalidad y facturación {#billing}
@@ -31,7 +31,7 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 Published by Adobe Systems Incorporated.
 
-[Condiciones de uso](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Centro de privacidad](https://www.adobe.com/privacy.html)
+[Condiciones de uso](https://www.adobe.com/legal/terms.html) | [Centro de privacidad](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
