@@ -7,7 +7,7 @@ title: Preguntas más frecuentes sobre la recopilación de datos y la integraci�
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -34,7 +34,7 @@ Las características que se [!UICONTROL Inbound] rellenan se rellenan de [!UICON
 
 <br> 
 
-**¿Puede proporcionarme una lista de direcciones IP que puedo incluir en la lista de direcciones permitidas para dpm.demdex.net?**
+**¿Puede proporcionarme una lista de las direcciones IP que puedo incluir en la lista de direcciones permitidas para dpm.demdex.net?**
 
 Desafortunadamente, no podemos. Estas direcciones IP se asignan dinámicamente, por región geográfica, a través de [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] no controla el rango de IP que se pueden asignar a esta dirección.
 
@@ -59,7 +59,7 @@ Para traer [!DNL Analytics] datos a [!DNL Audience Manager], cargue [!UICONTROL 
 
 2. [!DNL Audience Manager] [!UICONTROL DIL] módulo
 
-3. [!DNL Analytics] `s.t()` función
+3. [!DNL Analytics] `s.t()` function
 
 Como práctica recomendada, configure la [!DNL Audience Manager][!DNL Analytics] integración con cualquiera de estos dos métodos:
 
@@ -71,7 +71,7 @@ See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 <br> 
 
-**¿Por qué faltan mis[!DNL Analytics]variables en una llamada[!DNL Audience Manager]de evento?**
+**¿Por qué faltan mis[!DNL Analytics]variables en una llamada de[!DNL Audience Manager]evento?**
 
 Esto suele suceder cuando:
 
@@ -132,21 +132,21 @@ Sí, [!DNL Audience Manager] puede proporcionarle los datos recopilados para los
 
 <br> 
 
-**Quiero recopilar datos en un sitio y dirigir a los usuarios a través de DFP en otro sitio. ¿Debo implementar código en la otra propiedad si no quiero recopilar datos de esa ubicación?**
+**Quiero recopilar datos en un sitio y destinatario a los usuarios a través de DFP en un sitio diferente. ¿Debo implementar código en la otra propiedad si no quiero recopilar datos de esa ubicación?**
 
-No. Si la recopilación de datos en el segundo sitio no es un requisito, no es necesario implementar DIL allí. Siempre que tenga acceso al inventario en el segundo sitio a través de DFP, puede utilizar la recopilación de datos del sitio inicial y el destino a través de DFP.
+No. Si la recopilación de datos en el segundo sitio no es un requisito, no es necesario implementar DIL allí. Siempre que tenga acceso al inventario en el segundo sitio a través de DFP, puede utilizar la recopilación de datos del sitio inicial y el destinatario a través de DFP.
 
 <br> 
 
 **¿Cuál es el mejor proveedor de datos de terceros?**
 
-Cada proveedor aporta algo único a la tabla, por lo que la respuesta depende de lo que esté buscando. Podemos habilitar los informes de superposición (sin costo) para ayudarle a comprender qué proveedor puede funcionar mejor para usted.
+Cada proveedor aporta algo único a la tabla, por lo que la respuesta depende de lo que esté buscando. Podemos habilitar el sistema de informes de superposición (sin costo alguno) para ayudarle a comprender qué proveedor puede funcionar mejor para usted.
 
 <br> 
 
 **¿Cómo[!DNL Audience Manager]establece las cookies y pasa las variables a DFP?**
 
-[!DNL Audience Manager] establece 2 cookies: Uno envía variables de segmento a la etiqueta de publicidad de DFP y el otro establece su ID de usuario único (UUID), que también es leído por DFP. Agregar el UUID a la etiqueta de publicidad significa que podemos realizar informes a nivel de usuario y descubrimiento de audiencias.
+[!DNL Audience Manager] establece 2 cookies: Uno envía variables de segmento a la etiqueta de publicidad de DFP y el otro establece su ID de usuario único (UUID), que también es leído por DFP. Añadir el UUID a la etiqueta de publicidad significa que podemos realizar la detección de sistemas de informes y audiencias a nivel de usuario.
 
 <br> 
 
@@ -162,7 +162,7 @@ Se ha seleccionado un archivo cuando la extensión cambia de `.sync` a `.process
 
 <br> 
 
-**Quiero probar la funcionalidad de la API[de](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Envío llamadas de evento como la que se muestra a continuación. Las llamadas contienen ID[declarados](../features/declared-ids.md)y señales, lo que debería hacer realidad algunas características y segmentos que ya he configurado. ¿Puedo usar[!UICONTROL General Reports]y[!UICONTROL Trend Reports]para verificar si las poblaciones de rasgos y segmentos están aumentando?**
+**Quiero probar la funcionalidad de la API[de](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Estoy enviando llamadas de evento como la que se muestra a continuación. Las llamadas contienen ID[declarados](../features/declared-ids.md)y señales, lo que debería hacer realidad algunas características y segmentos que ya he configurado. ¿Puedo usar[!UICONTROL General Reports]y[!UICONTROL Trend Reports]para verificar si las poblaciones de rasgos y segmentos están aumentando?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -172,15 +172,15 @@ No, no confíes en el [!UICONTROL General Reports] y en este caso [!UICONTROL Tr
 
 Los informes calculan las poblaciones en función de los registros de perfil no autenticados (UUID) que vemos en el servidor en el momento en que se generan los informes.
 
-En una primera llamada al [!UICONTROL DCS], los ID declarados *no están* vinculados a ningún UUID (es decir, no hay ninguna cookie [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) demdex en el lado del cliente). El [!UICONTROL DCS] generará aleatoriamente un UUID y establecerá una [!DNL demdex] cookie y la transmitirá en la llamada de respuesta, pero no transmitirá el UUID al servidor.
+En una primera llamada al [!UICONTROL DCS], los ID declarados *no están* vinculados a ningún UUID (es decir, no hay ninguna cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex en el lado del cliente). El [!UICONTROL DCS] generará aleatoriamente un UUID y establecerá una [!DNL demdex] cookie y la transmitirá en la llamada de respuesta, pero no transmitirá el UUID al servidor.
 
 >[!NOTE]
 >
->El UUID generado sólo se materializará en nuestro almacenamiento de datos back-end una vez que el dispositivo en el que se configura la cookie active más actividad.
+>El UUID generado sólo se materializará en nuestro almacenamiento de datos back-end una vez que el dispositivo en el que se configura la cookie active una actividad adicional.
 
-Por este motivo, los informes no reflejarán los eventos activados por las ID declaradas en la llamada. Le recomendamos que utilice UUUID, ECID (anteriormente MID) o ID de dispositivos móviles en las llamadas de prueba de eventos realizadas al [!UICONTROL DCS]. A continuación, puede verificar las realizaciones de rasgos y segmentos en el [!UICONTROL General Reports] y en el [!UICONTROL Trend Reports].
+Por este motivo, los informes no reflejarán los eventos activados por los ID declarados en la llamada. Le recomendamos que utilice UUUID, ECID (anteriormente MID) o ID de dispositivos móviles en las llamadas de prueba de evento a la [!UICONTROL DCS]. A continuación, puede verificar las realizaciones de rasgos y segmentos en el [!UICONTROL General Reports] y en el [!UICONTROL Trend Reports].
 
-Consulte también [Índice de ID](../reference/ids-in-aam.md)de Audience Manager.
+Consulte también el [Índice de IDs](../reference/ids-in-aam.md)del Administrador de Audiencias.
 
 <br> 
 
