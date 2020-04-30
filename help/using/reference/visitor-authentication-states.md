@@ -1,22 +1,22 @@
 ---
-description: El estado de autenticación de visitantes en Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+description: El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 keywords: dpm.demdex.net
-seo-description: El estado de autenticación de visitantes en Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
-seo-title: Estados de autenticación de visitantes en Audience Manager
+seo-description: El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+seo-title: Estados de autenticación de Visitante en el Administrador de Audiencias
 solution: Audience Manager
-title: Estados de autenticación de visitantes en Audience Manager
+title: Estados de autenticación de Visitante en el Administrador de Audiencias
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
-# Estados de autenticación de visitantes en Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Estados de autenticación de Visitante en el Administrador de Audiencias{#visitor-authentication-states-in-audience-manager}
 
-El estado de autenticación de visitantes en Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 
-A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` método incluye el `AuthState` objeto opcional. `AuthState` identifica a los visitantes según su estado [](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)de autenticación. [!DNL Audience Manager] gestiona las características realizadas de forma diferente, según el estado de autenticación pasado en la llamada y la regla [de combinación de](../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que se utilice para la segmentación.
+A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` método incluye el `AuthState` objeto opcional. `AuthState` identifica los visitantes según su estado [](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)de autenticación. [!DNL Audience Manager] gestiona las características realizadas de forma diferente, en función del estado de autenticación pasado en la llamada y de la regla [de combinación de](../features/profile-merge-rules/merge-rules-dashboard.md) Perfiles que utilice para la segmentación.
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
@@ -31,11 +31,11 @@ A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` m�
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticada = "Últimos perfiles autenticados". </p> </td> 
+   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticada = "Últimos Perfiles autenticados". </p> </td> 
    <td colname="col3" morerows="1"> <p>No, los datos de características se agregan al perfil del dispositivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Perfiles autenticados actuales" o "Ningún perfil autenticado". </p> </td> 
+   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Perfiles autenticados actuales" o "Ningún Perfil autenticado". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +57,11 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Últimos perfiles autenticados". </p> </td> 
+   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Últimos Perfiles autenticados". </p> </td> 
    <td colname="col3" morerows="1"> <p>Sí, los datos de características se agregan al perfil autenticado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Ningún perfil autenticado". </p> </td> 
+   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Sin Perfil autenticado". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,11 +83,11 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sí, si la regla de combinación de opciones autenticadas = "Últimos perfiles autenticados" </td> 
+   <td colname="col2"> Sí, si la regla de combinación de opciones autenticadas = "Últimos Perfiles autenticados" </td> 
    <td colname="col3" morerows="1"> <p>No, los datos de características se escriben en el perfil del dispositivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> No, si la regla de combinación de opciones autenticada = "Perfiles autenticados actuales" o "Ningún perfil autenticado" </td> 
+   <td colname="col2"> No, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Ningún Perfil autenticado" </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,5 +102,5 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
 
 >[!MORELIKETHIS]
 >
->* [ID de cliente y estados de autenticación](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
+>* [ID de cliente y estados de autenticación](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
