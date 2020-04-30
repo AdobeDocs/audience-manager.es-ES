@@ -1,30 +1,30 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Captura de datos de clics de campaña mediante llamadas de píxel
+seo-title: Captura de datos de clics en Campaña mediante llamadas de píxel
 solution: Audience Manager
-title: Captura de datos de clics de campaña mediante llamadas de píxel
+title: Captura de datos de clics en Campaña mediante llamadas de píxel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-El rastreo de clics permite medir el compromiso del visitante a lo largo de la campaña, ya que registra la actividad basada en clics para creativos de terceros. De forma similar a la recopilación [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impresiones, se envía una llamada de evento a los servidores de recopilación de datos ([!UICONTROL DCS]) de Audience Manager para su procesamiento. A continuación, se redirige al visitante a la dirección web deseada.
+El rastreo de clics permite medir el compromiso de visitantes en toda la campaña, ya que registra la actividad basada en clics para elementos creativos de terceros. De forma similar a la recopilación [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impresiones, se envía una llamada de evento a los servidores de recopilación de datos ([!UICONTROL DCS]) del Administrador de Audiencias para su procesamiento. A continuación, el visitante se redirige a la dirección web deseada.
 
 >[!NOTE]
 >
->Póngase en contacto con el consultor de Adobe Audience Manager o el posible cliente de la cuenta para obtener la dirección URL exacta específica del dominio cliente.
+>Póngase en contacto con el consultor del administrador de Audiencias de Adobe o con el posible cliente para obtener la dirección URL exacta específica del dominio cliente.
 
 ## Requisitos
 
 Las llamadas de seguimiento de clics requieren los siguientes parámetros:
 
-* `d_event=click`:: Un par clave-valor que identifica una llamada de evento como un evento de clic.
-* `d_rd=redirect URL`:: Un par clave-valor que contiene una redirección con doble codificación [!DNL URL]. Si utiliza una herramienta de codificación en línea, ejecute la cadena a través del codificador y, a continuación, vuelva a codificar el resultado para que la redirección funcione.
+* `d_event=click`:: Un par clave-valor que identifica una llamada de evento como un evento de clics.
+* `d_rd=redirect URL`:: Un par clave-valor que contiene una redirección codificada para dobles [!DNL URL]. Si utiliza una herramienta de codificación en línea, ejecute la cadena a través del codificador y, a continuación, vuelva a codificar el resultado para que la redirección funcione.
 
 Además, la llamada puede contener pares de clave-valor que se pueden utilizar para la calificación de características o para proporcionar datos y metadatos para otros informes.
 
@@ -44,7 +44,7 @@ Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
 ## Macros admitidos
 
-Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una macro es una pequeña unidad de código independiente que se activa cuando se carga la etiqueta de publicidad para el seguimiento de campaña y usuario. Las macros se pasarán junto con el destino [!DNL URL], siempre que estén marcadas con el siguiente formato: `%macro%`. Algunas claves no tienen macros y aceptan un valor de ID incrustado. Se requieren claves que acepten valores codificados si desea analizar los datos en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audiencias.
+Haga clic en eventos para admitir las macros enumeradas en la tabla siguiente. Una macro es una pequeña unidad de código independiente que se activa cuando se carga la etiqueta de publicidad para campaña y seguimiento de usuarios. Las macros se pasarán junto con el destino [!DNL URL], siempre que estén marcadas con el siguiente formato: `%macro%`. Algunas claves no tienen macros y aceptan un valor de ID incrustado. Se requieren claves que acepten valores codificados si desea analizar los datos en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiencia.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -63,17 +63,17 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sin macro. </p> <p>Acepta un valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p>ID del anunciante.</p> <p>Código de integración de la fuente de datos del anunciante. Tenga en cuenta que esto no está relacionado con las fuentes de datos de Audience Manager.</p> <p> Necesario para <span class="wintitle"> informes de Optimización</span> de audiencia. </p> </td> 
+   <td colname="col2"> <p>ID del anunciante.</p> <p>Código de integración de la fuente de datos del anunciante. Tenga en cuenta que esto no está relacionado con las fuentes de datos del Administrador de Audiencias.</p> <p> Necesario para los informes de Optimización <span class="wintitle"> de</span> Audiencia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérico para la unidad de negocio. </p> <p> Necesario para <span class="wintitle"> informes de Optimización</span> de audiencia. </p> </td> 
+   <td colname="col2"> <p>ID numérico para la unidad de negocio. </p> <p> Necesario para los informes de Optimización <span class="wintitle"> de</span> Audiencia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID de campaña numérica del servidor de publicidad. </p> <p> Necesario para <span class="wintitle"> informes de Optimización</span> de audiencia. </p> </td> 
+   <td colname="col2"> <p>ID de campaña numérica del servidor de publicidad. </p> <p> Necesario para los informes de Optimización <span class="wintitle"> de</span> Audiencia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -93,7 +93,7 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -118,12 +118,12 @@ Los eventos de clic admiten las macros enumeradas en la tabla siguiente. Una mac
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID del origen desde el que Audience Manager extrae los metadatos. </p> <p>Requerido. </p> </td> 
+   <td colname="col2"> <p>DPID del origen desde el que el Administrador de Audiencias extrae los metadatos. </p> <p>Requerido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
-   <td colname="col2"> <p>Especifique la ID del visitante directamente en la URL en lugar de depender de la cookie Demdex. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p>Especifique el ID del visitante directamente en la URL en lugar de depender de la cookie Demdex. </p> <p>Opcional. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
@@ -163,12 +163,12 @@ Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Funcionalidad adicional: Informes de optimización de audiencia
+## Funcionalidad adicional: informes de optimización de Audiencia
 
-Puede utilizar llamadas en píxeles para activar los informes [de optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audiencia. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos si desea utilizar píxeles para activar los informes.
+Puede utilizar llamadas en píxeles para activar los informes [de optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiencia. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos si desea utilizar píxeles para activar los informes.
 
 
 >[!MORELIKETHIS]
 >
->* [Archivos de datos y metadatos para informes de optimización de audiencia](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Archivos de datos y metadatos para informes de optimización de Audiencia](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
