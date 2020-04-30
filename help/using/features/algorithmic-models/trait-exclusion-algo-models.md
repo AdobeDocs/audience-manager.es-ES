@@ -5,7 +5,7 @@ seo-title: Exclusión de características de modelos algorítmicos
 title: Exclusión de características de modelos algorítmicos
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: ee291fd9a06261afb71cc393fff0f4a1ee5cf7f4
+source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
 
 ---
 
@@ -35,7 +35,7 @@ Utilice el flujo de trabajo [Generar un modelo](../../features/algorithmic-model
 1. La [!UICONTROL Exclusions] selección aparece atenuada hasta que se seleccionan una o varias fuentes de datos para el modelado.
 2. Después de seleccionar una o varias fuentes de datos para modelar, presione **[!UICONTROL Browse All Traits]**.
 3. En la **[!UICONTROL Select Traits to Exclude]** ventana, puede ver todas las características asociadas con los orígenes de datos seleccionados anteriormente. Seleccione las características que desee excluir.
-4. Puede filtrar las características por tipo de característica, tipo de población de características o examinar las carpetas de características. Tenga en cuenta que las carpetas de características solo muestran las características asociadas con las fuentes de datos seleccionadas.
+4. Puede filtrar las características por tipo de característica, tipo de población de características (ID[](../../reference/ids-in-aam.md) del dispositivo e ID [](../../reference/ids-in-aam.md)cruzado de dispositivo) o examinar las carpetas de características. Tenga en cuenta que las carpetas de características solo muestran las características asociadas con las fuentes de datos seleccionadas.
 5. Pulse **[!UICONTROL Exclude Selected Traits]**.
 
 ![características-exclusiones](assets/trait-exclusions-browse-traits.png)
