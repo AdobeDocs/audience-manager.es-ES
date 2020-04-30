@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -30,7 +30,7 @@ El *`Organization ID`* es un identificador único que identifica a su organizaci
 
 Por ejemplo, un *`Organization ID`* aspecto es el siguiente: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el servicio [de identidad de la plataforma de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience Platform y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)sobre administración y administración de usuarios.
+El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audiencia Manager, el servicio [de identidad de la plataforma de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)sobre administración y administración de usuarios.
 
 <br> 
 
@@ -40,7 +40,7 @@ Sí. Consulte Herramientas [de administración masiva](../reference/bulk-managem
 
 >[!NOTE]
 >
->Las [!UICONTROL Bulk Management Tools] herramientas no *son* compatibles con [!DNL Audience Manager]. Son provistos por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../api/api.md) Audience Manager en su lugar.
+>Las [!UICONTROL Bulk Management Tools] herramientas no *son* compatibles con [!DNL Audience Manager]. Son provistos por conveniencia y sólo por cortesía. Para los cambios masivos, le recomendamos que trabaje con las API [del Administrador de](../api/api.md) Audiencias.
 
 <br> 
 
@@ -52,13 +52,13 @@ Si [!DNL Audience Manager] está integrado con su socio de datos de terceros, pu
 
 **Me he suscrito a una fuente de datos. ¿Dónde se almacenan esos datos?**
 
-La fuente de datos y todas las características de la fuente aparecen como subcarpetas y características en [!DNL Audience Manager]. Vaya a **[!UICONTROL Audience Data > Traits]** y expanda la [!UICONTROL 3rd-Party Data] carpeta para ver sus características o cree segmentos y modelos con estos datos.
+La fuente de datos y todas las características de la fuente aparecen como subcarpetas y características en [!DNL Audience Manager]. Vaya a **[!UICONTROL Audience Data > Traits]** y expanda la [!UICONTROL 3rd-Party Data] carpeta para vista de sus características o crear segmentos y modelos con estos datos.
 
 <br> 
 
 **¿Qué es[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizó [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Administrador de Audiencias utilizado [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
 <br> 
 
@@ -66,9 +66,9 @@ Audience Manager utilizó [!UICONTROL Tag Insertion Manager] (TIM) para crear y 
 
 **Modelos algorítmicos**
 
-Los modelos algorítmicos no sólo encuentran las características más influyentes, sino que también puntuan a los usuarios en función de esas características y asignan a cada usuario una puntuación individual. A continuación, puede crear características algorítmicas para dirigirse a los usuarios. Con los controles de precisión y alcance del Generador de características, puede especificar qué usuarios de entre todos los que tienen las características influyentes que desea definir como objetivo.
+Los modelos algorítmicos no sólo encuentran las características más influyentes, sino que también puntuan a los usuarios en función de esas características y asignan a cada usuario una puntuación individual. A continuación, puede crear características algorítmicas para el destinatario de los usuarios. Con los controles de precisión y alcance del Generador de características, puede especificar qué usuarios de entre todos los que tienen las características influyentes que desea destinatario.
 
-Los modelos algorítmicos le permiten seleccionar usuarios en diferentes niveles de precisión y probar en Audience Lab qué grupo de usuarios se convierte mejor. Consulte el caso de uso detallado en [Comparar modelos en Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
+Los modelos algorítmicos le permiten seleccionar usuarios en diferentes niveles de precisión y probar en el laboratorio de Audiencia qué grupo de usuarios se convierte mejor. Consulte el caso de uso detallado en [Comparar modelos en el laboratorio](../features/audience-lab/audience-lab-use-cases.md#compare-models)de Audiencia.
 
 En Modelos algorítmicos, el modelo se ejecuta cada 8 días y actualiza los usuarios calificados para características algorítmicas.
 
@@ -79,11 +79,11 @@ Recomendaciones de características es una forma rápida de obtener perspectivas
 Debe usar Recomendaciones de características cuando:
 
 * Necesita perspectivas rápidas al crear un segmento;
-* Está utilizando los segmentos para campañas cortas o cuando desea suprimir rápidamente a la audiencia que realiza la conversión;
+* Está utilizando los segmentos para campañas cortas o cuando desea suprimir rápidamente la audiencia que convierte;
 * Está intentando maximizar el alcance.
 
 <br> 
 
-**¿Hay alguna diferencia entre los segmentos de Adobe Analytics y Audience Manager?**
+**¿Hay alguna diferencia entre los segmentos de Adobe Analytics y de Audiencia Manager?**
 
-Sí, lea [Explicación de los segmentos en Analytics y Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) para obtener una descripción detallada de las diferencias.
+Sí. Lea [Explicación de los segmentos en Analytics y Administrador](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) de Audiencias para obtener una descripción detallada de las diferencias.
