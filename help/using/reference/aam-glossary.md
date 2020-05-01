@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glosario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -19,7 +19,7 @@ Definiciones y enlaces a otras lecturas.
 
 **Modelado algorítmico**
 
-Use [!UICONTROL Algorithmic Modeling] como medio para extender el alcance más allá del núcleo de usuarios que ha identificado. La función le ayuda a descubrir audiencias nuevas y únicas mediante análisis de datos automatizados. Administre su [!UICONTROL Algorithmic Models] en **[!UICONTROL Audience Data > Models]**.
+Use [!UICONTROL Algorithmic Modeling] como medio para extender el alcance más allá del núcleo de usuarios que ha identificado. La función le ayuda a descubrir nuevas audiencias únicas mediante la análisis automatizada de datos. Administre su [!UICONTROL Algorithmic Models] en **[!UICONTROL Audience Data > Models]**.
 
 Consulte [Explicación de los modelos](../features/algorithmic-models/understanding-models.md#understanding-models)algorítmicos.
 
@@ -35,7 +35,7 @@ Consulte Herramientas [de administración masiva](../reference/bulk-management-t
 
 **CDF**
 
-[!UICONTROL Customer Data Feed]. Un [!UICONTROL CDF] archivo representa una descarga masiva de datos recopilados por [!DNL Audience Manager] y le permite trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario. Un [!UICONTROL CDF] archivo contiene los mismos datos que una llamada [!DNL Audience Manager] de evento ( `/event`) envía a nuestros servidores. Esto incluye datos como ID de usuario, ID de características, ID de segmentos y todos los demás parámetros capturados por una llamada de evento.
+[!UICONTROL Customer Data Feed]. Un [!UICONTROL CDF] archivo representa una descarga masiva de datos recopilados por [!DNL Audience Manager] y le permite trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario. Un [!UICONTROL CDF] archivo contiene los mismos datos que una llamada de [!DNL Audience Manager] evento ( `/event`) envía a nuestros servidores. Esto incluye datos como ID de usuario, ID de características, ID de segmentos y todos los demás parámetros capturados por una llamada de evento.
 
 See [Customer Data Feeds](../features/cdf-files.md).
 
@@ -43,15 +43,15 @@ See [Customer Data Feeds](../features/cdf-files.md).
 
 **ID de CRM**
 
-El ID de CRM es el ID mediante el cual los clientes identifican a los usuarios en su propio sistema CRM. En lugar del ID de CRM, se utiliza el término DPUUID en Audience Manager.
+El ID de CRM es el ID mediante el cual los clientes identifican a los usuarios en su propio sistema CRM. En lugar del ID de CRM, se utiliza el término DPUUID en el Administrador de Audiencias.
 
-Consulte DPUUID en el [índice de ID de Audience Manager](../reference/ids-in-aam.md).
+Consulte DPUUID en el [índice de ID en el Administrador](../reference/ids-in-aam.md)de Audiencias.
 
 <br> 
 
 **Audiencia direccionable al cliente**
 
-En Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa los dispositivos que:
+En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa los dispositivos que:
 * Se han realizado características basadas en reglas o integradas durante la ventana retroactiva
    **Y**
 * Haga una sincronización de ID con el destino elegido independientemente del tiempo de sincronización.
@@ -60,25 +60,25 @@ En Audiencia [](/help/using/features/addressable-audiences.md)direccionable, est
 
 **Atributos del cliente**
 
-See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
+See [Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
 
 <br> 
 
 **Tasa de coincidencia del cliente**
 
-Audiencia direccionable al cliente ÷ Audiencia total del cliente expresada como un porcentaje. See [Addressable Audience](/help/using/features/addressable-audiences.md).
+Audiencia direccionable al cliente ÷ Audiencia total del cliente expresada como porcentaje. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
 <br> 
 
 **Audiencia total del cliente**
 
-En Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa un recuento de dispositivos que han realizado una característica basada en reglas en sus propiedades o una característica incorporada de los archivos sin conexión durante la ventana retroactiva.
+En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa un recuento de dispositivos que han realizado una característica basada en reglas en sus propiedades o una característica incorporada de los archivos sin conexión durante la ventana retroactiva.
 
 <br> 
 
 **demdex.net**
 
-Demdex.net es un dominio heredado controlado por [!DNL Adobe]. Refleja [!DNL Audience Manager]el nombre original previo a la adquisición ( [!DNL Demdex]). [!DNL Adobe] adquirió [!DNL Demdex] en 2011 y cambió la marca de la empresa como [!DNL Audience Manager]. Todas las llamadas HTTP a `demdex.net` dominios son llamadas enviadas a [!DNL Adobe].
+Demdex.net es un dominio heredado controlado por [!DNL Adobe]. Refleja [!DNL Audience Manager]el nombre original previo a la adquisición ( [!DNL Demdex]). [!DNL Adobe] adquirido [!DNL Demdex] en 2011 y cambió la marca de la compañía como [!DNL Audience Manager]. Todas las llamadas HTTP a `demdex.net` dominios son llamadas enviadas a [!DNL Adobe].
 
 Consulte [Explicación de las llamadas al dominio Demdex](../reference/demdex-calls.md).
 
@@ -94,7 +94,7 @@ See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **Destino**
 
-En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) que desea compartir datos con. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. [!DNL Audience Manager] las características de destino se encuentran en **[!UICONTROL Audience Data > Destinations]**.
+En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) que desea compartir datos con. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de envío de datos. [!DNL Audience Manager] las características de destino se encuentran en **[!UICONTROL Audience Data > Destinations]**.
 
 <br> 
 
@@ -112,7 +112,7 @@ La [!UICONTROL Data Integration Library] es una biblioteca de API que se utiliza
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente denominado el [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el servicio [de identidad de](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)Adobe Experience Platform.
+Anteriormente denominado el [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -153,7 +153,7 @@ Identificador para anunciantes, el ID de dispositivo único que Apple asigna a s
 
 **Entrante**
 
-Proceso mediante el cual se pueden enviar datos de audiencia desde otras fuentes a [!DNL Audience Manager]. Consulte [Envío de datos](/help/using/integration/sending-audience-data/send-audience-data.md)de audiencia.
+Proceso mediante el cual se pueden enviar datos de audiencia de otras fuentes a [!DNL Audience Manager]. Consulte [Envío de datos](/help/using/integration/sending-audience-data/send-audience-data.md)de Audiencia.
 
 <br> 
 
@@ -162,7 +162,7 @@ Proceso mediante el cual se pueden enviar datos de audiencia desde otras fuentes
 Al trabajar con la interfaz de usuario o la API, tiene la opción de agregar un código de integración al crear características, segmentos o fuentes de datos. [!DNL Audience Manager] Los códigos de integración tienen diferentes propósitos en estos casos:
 
 * [!UICONTROL Traits]:: un código de integración es un campo para un ID, SKU u otro valor utilizado por los procesos empresariales internos. Opcional.
-* [!UICONTROL Segments]:: un código de integración es un campo para un ID definido por el usuario u otra información específica de la empresa. Opcional.
+* [!UICONTROL Segments]:: un código de integración es un campo para un ID definido por el usuario u otra información específica de la compañía. Opcional.
 * [!UICONTROL Data Sources]:: los códigos de integración son necesarios cuando desea crear fuentes de datos entre dispositivos, utilizar el servicio de identidad de la plataforma Adobe Experience Platform o trabajar con [!UICONTROL Profile Merge Rules]. Consulte [Crear una fuente](../features/manage-datasources.md#create-data-source) de datos para obtener más información.
 
 ## K-L {#k-l}
@@ -193,7 +193,7 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 <br> 
 
-**Reglas de combinación de perfiles**
+**Reglas de combinación de Perfil**
 
 [!UICONTROL Profile Merge Rules] permite controlar el tipo de datos que [!DNL Audience Manager] se utilizan para la segmentación.
 
@@ -203,7 +203,7 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 **Realización**
 
-Acción mediante la cual un visitante del sitio cumple los requisitos para una característica. Puede utilizar la herramienta Visor [de perfiles de](../features/visitor-profile-viewer.md) visitantes para obtener información sobre la realización de características por un usuario específico.
+Acción mediante la cual un visitante del sitio califica para una característica. Puede utilizar la herramienta [Visitante Perfil Viewer](../features/visitor-profile-viewer.md) para obtener información sobre la realización de características por un usuario específico.
 
 ## S-T {#s-t}
 
@@ -215,21 +215,21 @@ Consulte [Segmentos: Propósito, Composición y Reglas](../features/segments/seg
 
 <br> 
 
-**Audiencia objetivo del segmento**
+**Audiencia direccionable del segmento**
 
-En Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa el número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa el número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en [Audiencia Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
 **Población total del segmento**
 
-En Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa un recuento de todos los dispositivos que fueron miembros del segmento durante el período retroactivo del informe.
+En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa un recuento de todos los dispositivos que fueron miembros de su segmento durante el período de retroactividad del informe.
 
 <br> 
 
 **Tasa de coincidencia de segmentos**
 
-Audiencia direccionable del segmento ÷ Población total del segmento expresada como %. See [Addressable Audience](/help/using/features/addressable-audiences.md).
+Audiencia direccionable del segmento ÷ Población total del segmento expresada como porcentaje. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
 <br> 
 
@@ -253,7 +253,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **TTL (Tiempo de vida)**
 
-TTL define cuántos días permanece un visitante cualificado en una característica. TTL se establece en características y no en segmentos. Los visitantes abandonan un segmento si no ven un rasgo de calificación antes del final del intervalo TTL. Obtenga más información en [Segmento y características Tiempo de vida explicado](/help/using/features/traits/segment-ttl-explained.md).
+TTL define cuántos días permanece un visitante cualificado en una característica. TTL se establece en características y no en segmentos. Los Visitantes salen de un segmento si no ven una característica cualificada antes del final del intervalo TTL. Obtenga más información en [Segmento y características Tiempo de vida explicado](/help/using/features/traits/segment-ttl-explained.md).
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL define cuántos días permanece un visitante cualificado en una característ
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Consulte la documentación de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
+Consulte la documentación de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## W-X-Y-Z {#w-z}
 
