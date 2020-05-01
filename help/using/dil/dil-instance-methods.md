@@ -1,20 +1,20 @@
 ---
-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 keywords: create traits;create trait
-seo-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+seo-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 seo-title: Métodos DIL de nivel de instancia
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Métodos DIL de nivel de instancia{#instance-level-dil-methods}
 
-Las [!UICONTROL DIL] API de nivel de instancia permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+Las [!UICONTROL DIL] API de nivel de instancia permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 
 ## Introducción a los métodos DIL de nivel de instancia {#get-started-dil-methods}
 
@@ -26,7 +26,7 @@ c_api_overview.xml
 
 Al trabajar con las [!UICONTROL DIL] API de nivel de instancia:
 
-* Access requiere un nombre de socio e ID de espacio de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas de Audience Manager para obtener esta información.
+* Access requiere un nombre de socio e ID de Área de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas del administrador de Audiencias para obtener esta información.
 * Reemplace cualquier ejemplo de texto *en cursiva* de la documentación de API con valor, ID u otra variable según lo requiera el método con el que esté trabajando.
 
 <!-- 
@@ -37,7 +37,7 @@ c_instance_start.xml
 
 ## señales {#signals}
 
-Agrega asignaciones de nivel de cliente y de plataforma a la cadena de consulta de una solicitud pendiente.
+Añade asignaciones de nivel de cliente y de plataforma a la cadena de consulta de una solicitud pendiente.
 
 <!-- 
 
@@ -99,7 +99,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-Agrega SID a la cadena de consulta de una solicitud pendiente.
+Añade los SID a la cadena de consulta de una solicitud pendiente.
 
 <!-- 
 
@@ -135,7 +135,7 @@ partnerObject.api.traits(<i>[123, 456, 789]</i>);
 
 ## logs {#logs}
 
-Agregue datos a los archivos de registro en la solicitud pendiente.
+Añada datos en archivos de registro en la solicitud pendiente.
 
 <!-- 
 
@@ -164,7 +164,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Envía todos los datos pendientes a Audience Manager para la [!UICONTROL DIL] instancia.
+Envía todos los datos pendientes al Administrador de Audiencias de la [!UICONTROL DIL] instancia.
 
 <!-- 
 
@@ -284,7 +284,7 @@ dataLib.clearData();
 
 ## customQueryParams {#customqueryparams}
 
-Agrega parámetros de consulta personalizados que el servidor de recopilación de datos no ha definido explícitamente a una solicitud pendiente.
+Añade parámetros de consulta personalizados que el servidor de recopilación de datos no ha definido explícitamente en una solicitud pendiente.
 
 <!-- 
 
@@ -328,7 +328,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Devuelve el valor del NSID del contenedor para la [!UICONTROL DIL] instancia. Útil para la depuración y la solución de problemas.
+Devuelve el valor del NSID de contenedor para la [!UICONTROL DIL] instancia. Útil para la depuración y la solución de problemas.
 
 <!-- 
 
@@ -483,7 +483,7 @@ state = {
 
 ## idSync {#idsync}
 
-Consiste en dos funciones que permiten a los socios de datos intercambiar y sincronizar los ID de usuario entre ellos y Audience Manager.
+Consiste en dos funciones que permiten a los socios de datos intercambiar y sincronizar los ID de usuario entre ellos y el Administrador de Audiencias.
 
 <!-- 
 
@@ -505,11 +505,11 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo a Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes socios de datos y Administrador de Audiencias. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo al Administrador de Audiencias. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo a Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando ya conozca el ID de usuario y desee enviarlo al Administrador de Audiencias. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -589,7 +589,7 @@ dilInstance.api.aamIdSync({
 
 ## result {#result}
 
-Agrega una llamada de retorno (que recibe JSON) a la solicitud pendiente.
+Añade una llamada de retorno (que recibe JSON) a la solicitud pendiente.
 
 <!-- 
 
@@ -678,7 +678,7 @@ var dilInstance = DIL.create({
 
 >[!IMPORTANT]
 >
->* Le recomendamos que configure `useCORSOnly: true` solo cuando esté seguro de que los visitantes del sitio tienen exploradores que admitan esta función.
+>* Le recomendamos que configure `useCORSOnly: true` solo cuando esté seguro de que los visitantes del sitio tienen exploradores que admiten esta función.
 >* Cuando `useCORSOnly: true`, no [!UICONTROL DIL] realizará llamadas de ID desde Internet Explorer versión 9 o posterior.
 >
 
@@ -719,7 +719,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
->* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
