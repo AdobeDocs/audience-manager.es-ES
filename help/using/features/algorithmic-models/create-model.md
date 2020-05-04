@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Creación de un modelo algorítmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -47,6 +47,10 @@ Siga los pasos a continuación para crear un [!UICONTROL Look-Alike Model]:
    * Seleccione un origen de datos de la [!UICONTROL Available Data] lista.
    * Haga clic **[!UICONTROL Save]** cuando termine.
       ![configuración similar](assets/look-alike-configuration.png)
+
+Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Información básica para modelos algorítmicos {#basic-information}
 
