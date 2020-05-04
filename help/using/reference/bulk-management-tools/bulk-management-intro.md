@@ -1,13 +1,13 @@
 ---
 description: Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y características.
 seo-title: Introducción a la administración masiva
 solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ Esta función utiliza una hoja de cálculo de Microsoft Excel con macros que rea
 
 ## Descargar {#download}
 
-Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20200311.xlsm)**.
+Descargue la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Requisitos previos {#prereqs}
 
 Para usar el [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su [!DNL Experience Cloud] inicio de sesión. Como cliente, ya debería tener estas credenciales.
-* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20200311.xlsm) para obtener la versión más reciente.
+* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20200502.xlsm) para obtener la versión más reciente.
 * Microsoft Excel se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de Microsoft Excel.
 * Al abrir la hoja de cálculo, debe **activar macros** para que [!DNL Bulk Management Tools] funcione.
 
@@ -73,7 +73,7 @@ Después de [autenticarse](#auth-reqs), haga clic en un botón de acción para c
 
 ![](assets/baaam-worksheet.png)
 
-La tabla siguiente muestra las operaciones que puede realizar y los elementos que puede manipular con las [!UICONTROL Bulk Management Tools] hojas de cálculo.
+La siguiente tabla lista las operaciones que puede realizar y los elementos que puede manipular con las [!UICONTROL Bulk Management Tools] hojas de cálculo.
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
