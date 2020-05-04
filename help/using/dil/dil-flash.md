@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL Flash
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -159,7 +159,3 @@ s.loadModule(d);
 >* [Pares de clave-valor explicados](../reference/key-value-pairs-explained.md)
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
 
-
-<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
->* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
--->
