@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -52,6 +52,10 @@ Inicio viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786
 1. *(Opcional)* Asigne un segmento a un destino en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
    * Busque el destino y haga clic en **[!UICONTROL Add Destination]**. Tenga en cuenta que el destino ya debe existir para poder agregarlo a un segmento.
    * Haga clic **[!UICONTROL Save]** cuando termine.
+
+Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Controles del Generador de segmentos: Sección de Información Básica {#segment-builder-controls-basics}
 
