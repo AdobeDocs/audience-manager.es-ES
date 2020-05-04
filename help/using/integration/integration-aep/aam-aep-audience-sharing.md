@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Uso compartido de Audiencias entre Audiencia Manager y Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
+source-git-commit: 7dddf19aa3b0fc0655b1b206d9c8f0c772190601
 
 ---
 
@@ -71,11 +71,11 @@ Para ver un ejemplo de una característica creada automáticamente a partir de u
 
 | Número de artículo | Nombre | Descripción |
 ---------|----------|---------
-| 1 | Tipo de característica | Las características creadas a partir de segmentos de la plataforma de experiencia se crean como características integradas en el Administrador de Audiencias. |
-| 2 | Fuente de datos | Creado automáticamente. Todas las características y segmentos que se crean automáticamente a partir de segmentos de la plataforma de experiencia se almacenan en el origen de datos Uso compartido **de la Audiencia de la plataforma de** Adobe Experience Platform. |
-| 3 | Código de integración | El código de integración corresponde al ID del segmento en la plataforma de experiencia. |
-| 4 | Expresión de características | La expresión de rasgo es `segID = segment ID in Experience Platform`. |
-| 5 | Segmentos con esta característica | Segmento creado automáticamente que utiliza esta característica como composición. |
+| 1 | [!UICONTROL Trait Type] | Las características creadas a partir de segmentos de la plataforma de experiencia se crean como características integradas en el Administrador de Audiencias. |
+| 2 | [!UICONTROL Data Source] | Creado automáticamente. Todas las características y segmentos que se crean automáticamente a partir de segmentos de la plataforma de experiencia se almacenan en el origen de datos **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Integration Code] | El código de integración corresponde al ID del segmento en la plataforma de experiencia. |
+| 4 | [!UICONTROL Trait Expression] | La expresión de rasgo es `segID = segment ID in Experience Platform`. |
+| 5 | [!UICONTROL Segments with this Trait] | Segmento creado automáticamente que utiliza esta característica como composición. |
 
 <br> 
 
@@ -103,11 +103,8 @@ Los números de población de segmentos pueden variar entre los segmentos del Ad
 * Tiempo de ejecución de los trabajos de segmentación. El Administrador de Audiencias ejecuta un trabajo de segmentación que actualiza los números de la interfaz una vez al día. Este trabajo raramente se alinea con los trabajos de segmentación en la plataforma de experiencia.
 * [Las reglas](/help/using/features/profile-merge-rules/merge-rules-overview.md) de combinación de Perfiles del Administrador de Audiencias y las políticas [de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) combinación de la plataforma de experiencia funcionan de forma distinta, y el gráfico de identidad que se utiliza para cada una varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
 
-
 >[!MORELIKETHIS]
 >
 >* [Descripción general del servicio de segmentación](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Guía del usuario del Generador de segmentos de la plataforma de experiencia](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Conector del Administrador de Audiencias](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
-
