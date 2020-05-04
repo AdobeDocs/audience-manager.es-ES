@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informes de tendencias
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -40,7 +40,7 @@ En la siguiente ilustración se proporciona una visión general de alto nivel de
 ![](assets/trend_reports.png)
 
 1. Configure las siguientes opciones:
-   **Tipo de informe:** Seleccione el tipo de informe deseado (característica o segmento).
+   **Tipo de informe:** Seleccione el tipo de informe que desee (característica o segmento).
    **Intervalo de fechas:** Especifique el intervalo de fechas del informe (fecha de inicio y fecha de finalización).
    **Intervalo de visualización:** Especifique el intervalo de visualización (intervalos de 1, 7, 14, 30, 60 y 90 días).
 1. Busque un rasgo o segmento por nombre o ID.
@@ -95,6 +95,10 @@ Al filtrar los resultados por [!UICONTROL Cross-Device ID]:
 ![tendr-report-traits](assets/trend-report-traits.png)
 
 Los ceros indican que [!DNL Audience Manager] no recopilaron datos para ese día. Las entradas en blanco indican que la característica no existe.
+
+Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Resultados del informe de tendencias para segmentos {#segment-report-results-traits}
 
