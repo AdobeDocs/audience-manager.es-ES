@@ -5,7 +5,7 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 5fff9315558d3088f68268f32681842bb8d5e7d3
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 Un aspecto importante de las obligaciones de privacidad que tiene con respecto a los usuarios es la adquisición y la transmisión de las elecciones del usuario sobre cómo se pueden utilizar sus datos personales (por ejemplo: “motivos”) y quién (por ejemplo: “empresas”).
 
-Adobe le proporciona los medios para gestionar y comunicar las opciones de privacidad de los usuarios a través de [la funcionalidad de inclusión](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) y a través [de la compatibilidad con Transparency y Consent Fremework de IAB (Transparency)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
+Adobe le proporciona los medios para gestionar y comunicar las opciones de privacidad de los usuarios a través de [la funcionalidad de inclusión](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) y a través [de la compatibilidad con Transparency y Consent Fremework de IAB (Transparency)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
 
 En este artículo se describen casos de uso de Audience Manager que admiten el TCF de IAB y cómo implementar la compatibilidad con TCF de IAB en Audience Manager. El Administrador de Audiencias está registrado en el TCF de IAB con el ID de proveedor 565.
 
@@ -40,7 +40,7 @@ Debe cumplir los siguientes requisitos previos para utilizar el TCF de IAB con e
 1. Debe utilizar Adobe Experience Platform Identity Service (ECID) versión 4.1 o posterior. [Descargue](https://github.com/Adobe-Marketing-Cloud/id-service/releases) nuestra última versión de ECID.
 1. Debe utilizar la versión 9.0 o posterior de la biblioteca de integración de datos (DIL) del Administrador de Audiencias, descargable desde [aquí](https://github.com/Adobe-Marketing-Cloud/dil/releases). Obtenga información sobre [DIL en la documentación](../..//dil/dil-overview.md)del Administrador de Audiencias.
 1. Como alternativa, si utiliza el reenvío del lado del servidor (SSF) para importar datos en el Administrador de Audiencias, debe actualizar a la versión más reciente de AppMeasurement. Descargue AppMeasurement con el Administrador [de códigos de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)Analytics.
-1. Debe estar utilizando una Plataforma de Gestión de Consentimiento (CMP), ya sea comercial o propia, que admita el TCF de IAB y esté registrada en el TCF de IAB. Véase la lista de [las CP/RP registradas en el marco](https://advertisingconsent.eu/cmp-list/)de la Junta de Auditores Internos.
+1. Debe estar utilizando una Plataforma de Gestión de Consentimiento (CMP), ya sea comercial o propia, que admita el TCF de IAB y esté registrada en el TCF de IAB. Véase la lista de [las CP/RP registradas en el marco](https://iabeurope.eu/cmp-list/)de la Junta de Auditores Internos.
 
 ## Recomendaciones y cómo implementar {#recommendations}
 
@@ -70,7 +70,7 @@ Una vez que el usuario selecciona sus opciones de privacidad, las opciones del u
 
 ## Finalidades estándar que necesita el Administrador de Audiencias {#aam-standard-purposes}
 
-El Administrador de Audiencias evalúa las opciones de los usuarios almacenadas en la cadena de consentimiento TFC de IAB para:
+El Administrador de Audiencias evalúa las opciones de los usuarios almacenadas en la cadena de consentimiento TCF de IAB para:
 
 * Acceso y almacenamiento de información (ID de propósito 1 en la lista [de proveedor](https://vendorlist.consensu.org/vendorlist.json)global)
 * Personalización (ID de propósito 2)
