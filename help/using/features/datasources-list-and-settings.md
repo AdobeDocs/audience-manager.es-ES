@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Lista y configuración de fuentes de datos
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
@@ -96,6 +99,10 @@ El [!UICONTROL Data Source Settings] contiene los controles y las opciones que s
 ### Configuración de fuentes de datos de entrada
 
 Seleccione la **[!UICONTROL Inbound]** casilla de verificación cuando el origen de datos esté diseñado para recibir datos de entrada. Al seleccionar la **[!UICONTROL Inbound]** casilla de verificación, se exponen dos grupos adicionales de controles que se describen a continuación.
+
+>[!NOTE]
+>
+>La **[!UICONTROL Inbound]** casilla de verificación sólo tiene por objeto mostrar u ocultar los controles de fuentes de datos que se describen a continuación. La desactivación de la **[!UICONTROL Inbound]** opción no afecta a la ingestión de datos de ninguna manera. Los datos incorporados se procesarán independientemente de esta opción que se esté comprobando.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
