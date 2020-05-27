@@ -5,9 +5,12 @@ seo-title: Página Detalles de la característica
 solution: Audience Manager
 title: Página Detalles de la característica
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting
+keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +40,20 @@ El [!UICONTROL Trait Graph] proporciona métricas de rendimiento de un vistazo p
 
 [!UICONTROL Unique Trait Realizations] representan un recuento de usuarios únicos que agregaron esta característica a su perfil durante un intervalo de tiempo determinado. El [!UICONTROL Total Trait Population] indica el número de usuarios únicos cualificados actualmente para esta característica.
 
-* Para las características basadas en reglas, la calificación de características se realiza en tiempo real, ya que los usuarios cumplen los requisitos para una característica en su explorador.
-* En el caso de las características integradas, la calificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante se [introduce en el Administrador](../../faq/faq-inbound-data-ingestion.md) de Audiencias y se produce cuando se califica la característica.
+Para las características basadas en reglas, la calificación de características se realiza en tiempo real, ya que los usuarios cumplen los requisitos para una característica en su explorador.
+
+En el caso de las características integradas, la calificación de características se produce después de procesar un archivo entrante, es decir, el archivo entrante se [introduce en el Administrador](../../faq/faq-inbound-data-ingestion.md) de Audiencias y se produce cuando se califica la característica.
+
+La [!UICONTROL Trait Graph] muestra la siguiente información:
+
+* **[!UICONTROL Show results by]**
+   * **[!UICONTROL Cross-Device ID]**:: seleccione esta opción para ver los resultados de las características que recopilan datos para perfiles autenticados. Cuando selecciona esta opción, solo ve los datos en el [!UICONTROL Cross-Device ID] informe y no habrá datos en el [!UICONTROL Device ID] informe.
+   * **[!UICONTROL Device ID]**:: seleccione esta opción para ver los resultados de las características que recopilan datos para perfiles de dispositivos. Cuando selecciona esta opción, solo ve los datos en el [!UICONTROL Device ID] informe y no habrá datos en el [!UICONTROL Cross-Device ID] informe.
+
+      ![gráfico de características](assets/trait-summary.png)
+
 * **[!UICONTROL Unique Trait Realizations]**:: Recuento de usuarios únicos que agregaron esta característica a su perfil durante un intervalo de tiempo determinado.
 * **[!UICONTROL Total Trait Population]**:: El número de usuarios únicos cualificados actualmente para esta característica.
-
-   ![gráfico de características](assets/trait-summary.png)
 
 * **[!UICONTROL Identity Type Breakdown]**:: Las tres primeras entradas muestran los tres primeros orígenes de datos entre dispositivos con el mayor recuento de población que se ha clasificado para la característica, en orden descendente. La cuarta entrada muestra la suma de todos los demás [!DNL DPUUIDs] ([!DNL CRM IDs]) calificados para la característica, de las fuentes de datos entre dispositivos que no se encuentran entre las tres primeras. Este informe aparece solamente si selecciona la ID entre dispositivos en el menú [!UICONTROL Show Results By] desplegable en la parte superior derecha de la página. La opción desplegable predeterminada es [!UICONTROL Device ID], donde no se muestra este informe.
 
