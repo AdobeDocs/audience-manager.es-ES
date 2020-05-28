@@ -7,7 +7,7 @@ title: Página Detalles de la característica
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: c761682f31c777368a21744b21d7302829007c66
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -50,7 +50,7 @@ La [!UICONTROL Trait Graph] muestra la siguiente información:
    * **[!UICONTROL Cross-Device ID]**:: seleccione esta opción para ver los resultados de las características que recopilan datos para perfiles autenticados. Cuando selecciona esta opción, solo ve los datos en el [!UICONTROL Cross-Device ID] informe y no habrá datos en el [!UICONTROL Device ID] informe.
    * **[!UICONTROL Device ID]**:: seleccione esta opción para ver los resultados de las características que recopilan datos para perfiles de dispositivos. Cuando selecciona esta opción, solo ve los datos en el [!UICONTROL Device ID] informe y no habrá datos en el [!UICONTROL Cross-Device ID] informe.
 
-      ![gráfico de características](assets/trait-summary.png)
+      ![gráfico de características](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**:: Recuento de usuarios únicos que agregaron esta característica a su perfil durante un intervalo de tiempo determinado.
 * **[!UICONTROL Total Trait Population]**:: El número de usuarios únicos cualificados actualmente para esta característica.
