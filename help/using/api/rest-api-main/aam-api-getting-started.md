@@ -8,7 +8,7 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
 source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1890'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Las API REST del Administrador de Audiencias admiten dos métodos de autenticaci
 
 Antes de configurar la autenticación JWT, asegúrese de tener acceso a [Adobe Developer Console](https://console.adobe.io/). Póngase en contacto con el administrador de su organización para solicitar acceso.
 
-### Autenticación {autenticación}
+### Autenticación
 
 Siga los pasos a continuación para configurar la autenticación JWT (cuenta de servicio):
 
