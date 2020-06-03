@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre las reglas de combinación de Perfiles y Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -259,7 +259,7 @@ Sí. La métrica de población total de segmentos incluye los dispositivos adici
 
 No.
 
-**¿Por qué las exportaciones de segmentos al Adobe Campaign se muestran como 0 después del 16 de marzo de 2020?**
+**¿Por qué veo una población de segmentos cero para las exportaciones de segmentos al Adobe Campaign después del 16 de marzo de 2020?**
 
 A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia del Administrador de Audiencias a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
 
