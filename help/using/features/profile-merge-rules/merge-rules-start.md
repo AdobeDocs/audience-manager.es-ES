@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -98,6 +101,19 @@ Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. Haga clic **[!UICONTROL Save]**.
+
+### Consideraciones para los destinos de Adobe Campaign que utilizan ID entre dispositivos como claves de ID de usuario {#considerations}
+
+A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia del Administrador de Audiencias a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
+
+Para garantizar la integración correcta entre la instancia del Administrador de Audiencias y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
+
+1. Revise la regla de combinación de Perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de Perfiles debe utilizar la [!UICONTROL Last Authenticated Profile] opción, por lo que todos los perfiles autenticados se pueden incluir en las exportaciones. Si la regla de combinación de Perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
+2. Seleccione el origen de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de Perfiles.
+
+>[!NOTE]
+>
+> Hemos aumentado el límite de reglas de combinación de Perfiles en 1 para los clientes que se enfrentan a esta situación, de modo que puede crear una regla de combinación de Perfiles dedicada para los segmentos asignados al destino de ID declarado de Adobe Campaign, sin cambiar las reglas de combinación de Perfiles para otros casos de uso.
 
 ## Configurar código de regla de combinación {#configure-merge-rule-code}
 
