@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Documentación del producto de Audiencia Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
+source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 15%
 
 ---
 
@@ -152,11 +155,11 @@ Esta guía de documentación técnica proporciona asistencia de autoayuda para A
  <tbody> 
   <tr> 
    <td> <p> <b>Notas de la versión</b> </p> <p> 
-     Consulte las últimas <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones.</p> 
+     Consulte las <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> más recientes para obtener información sobre nuevas funciones y correcciones.</p> 
      <br> 
      <p> <b>Funciones más recientes</b> </p> <p> 
      Obtenga información sobre las últimas funciones del Administrador de Audiencias:</p>
-     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiencias predictivas</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Sistema de informes de uso de Actividades</a></li>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento Administrador de Audiencias para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiencias predictivas</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Sistema de informes de uso de Actividades</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Revisión general de la documentación de privacidad y soporte de la Ley de privacidad del consumidor de California (CCPA)</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Recomendaciones inteligentes para datos del mercado de Audiencia, con tecnología de Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Mejoras en las reglas de combinación de Perfiles</a></li></ul><p>
@@ -205,7 +208,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external">Formación y asistencia de Audience Manager</a> </li> 
      </ul> </p> 
      <br> 
-     <p>Consulte también Actualizaciones <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html"> de documentación de 2020</a>. </p> </td>
+     <p>Consulte también Actualizaciones <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/documentation-updates/docs-2020.html"> de documentación de 2020</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>
