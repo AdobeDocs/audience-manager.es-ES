@@ -1,27 +1,30 @@
 ---
 description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 seo-description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
-seo-title: Socios de tecnología de Adobe Audience Manager
+seo-title: Socios de tecnología de Adobe Audiencia Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Socios de tecnología de Adobe Audience Manager
+title: Socios de tecnología de Adobe Audiencia Manager
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
-# Socios de activación de Audience Manager
+# Socios de Activación del Administrador de Audiencias
 
-Esta página solo incluye integraciones [actuales de](/help/using/features/destinations/add-edit-segments.md) servidor a servidor de Audience Manager.  Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
+Esta página solo incluye integraciones [actuales de](/help/using/features/destinations/add-edit-segments.md) servidor a servidor del Administrador de Audiencias.  Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 
 <br> 
 
 * **Actualizado** = Muestra la última fecha en que hubo una actualización para este socio de activación.
-* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación de GDPR Leer reglas de combinación de [perfiles y Procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y Asociados de negocios de [Audience Manager con capacidades](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentación. Audience Manager envía información sin segmentar a los destinos marcados con Sí a continuación.
-* **Recibir señales** de consentimiento TCF de IAB = El complemento Audience Manager para TCF de IAB le permite reenviar la cadena de consentimiento TCF de IAB a socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = Esta columna enumera los socios que admiten la supresión instantánea entre dispositivos. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs** de dispositivos móviles = Esta columna enumera los socios que pueden recibir ID de dispositivos móviles desde Audience Manager.
+* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación de GDPR Leer reglas de combinación de [Perfiles y los procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y los socios del Administrador de [Audiencias con capacidades](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentación. El Administrador de Audiencias envía información sin segmentar a los destinos marcados con Sí a continuación.
+* **Recibir señales** de consentimiento TCF de IAB = El complemento Administrador de Audiencias para TCF de IAB le permite reenviar la cadena TC de IAB a socios de activación respetando las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Esta columna lista a los socios que admiten la supresión instantánea entre dispositivos. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **IDs** de dispositivos móviles = Esta columna lista a socios que pueden recibir ID de dispositivos móviles del Administrador de Audiencias.
 
 <br> 
 
@@ -78,7 +81,7 @@ Esta página solo incluye integraciones [actuales de](/help/using/features/desti
 | Medios de gama | 03/03/2017 |  | No | No |  |
 | Google AdsWords Display | 02/08/2018 | Sí | Sí | No | Sí |
 | Administrador de ofertas de Google DoubleClick (DBM) | 24/04/2017 | Sí | Sí | Sí | Sí |
-| Administrador de campañas de doble clic de Google (DCM fka DFA) | 24/04/2017 | Sí | Sí | Sí | Sí |
+| Administrador de Campañas de Google DoubleClick (DCM fka DFA) | 24/04/2017 | Sí | Sí | Sí | Sí |
 | Google DoubleClick para editores (DFP, DFPP) | 24/04/2017 | Sí | Sí | Sí | Sí |
 | GumGum | 02/06/2017 | Sí | No | No | No |
 | Index Exchange (anteriormente Casale Media) | 03/03/2017 | Sí | No | No | No |
@@ -128,8 +131,8 @@ Esta página solo incluye integraciones [actuales de](/help/using/features/desti
 | Rubicon |  | Sí | Sí | No |  |
 | EJECUTAR | 17/02/2017 | Sí | No | No | No |
 | Sabio Mobile | 17/02/2017 | No | No | No | Sí |
-| variantes | 17/02/2017 | No | No | No | Sí |
-| Sizmek Audience Hub | 17/02/2017 | Sí | No | No |  |
+| Simpli.fi | 17/02/2017 | No | No | No | Sí |
+| Centro de Audiencia Sizmek | 17/02/2017 | Sí | No | No |  |
 | Listas | 04/09/2018 | Sí | No | No | Sí |
 | Smart Adserver | 31/07/2017 | Sí | No | Sí | Sí |
 | SoNet Media Networks Logicad |  | Sí | No | No |  |
@@ -154,7 +157,7 @@ Esta página solo incluye integraciones [actuales de](/help/using/features/desti
 | TubeMogul | 03/03/2017 | Sí | No | Sí | No |
 | Girar / Amobee | 03/03/2027 | No | No | No | Sí |
 | Twenga | 29/10/2018 | Sí | No | No | No |
-| Audiencias personalizadas de Twitter | 27/03/2017 | Sí | No | Sí | No |
+| Audiencias a medida de Twitter | 27/03/2017 | Sí | No | Sí | No |
 | Subrayado | 11/07/2017 | No | No | No | No |
 | Verve | 15/06/2017 | Sí | No | No | Sí |
 | VideoAmp | 03/03/2017 | No | No | No | No |
