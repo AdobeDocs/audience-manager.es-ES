@@ -1,28 +1,31 @@
 ---
 description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 seo-description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
-seo-title: Destinos de servidor a servidor de Adobe Audience Manager
+seo-title: Destinos de servidor a servidor de Adobe Audiencia Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Destinos de servidor a servidor de Adobe Audience Manager
+title: Destinos de servidor a servidor de Adobe Audiencia Manager
 translation-type: tm+mt
-source-git-commit: 7a2a42ed3b591e1466adf93f3fd31ce6555775a2
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 58%
 
 ---
 
 
-# Destinos basados en dispositivos de Audience Manager
+# Destinos basados en dispositivos del Administrador de Audiencias
 
-Esta página solo incluye destinos [actuales basados en](/help/using/features/destinations/add-device-based-destinations.md) dispositivos de Audience Manager. En Audience Manager, los destinos basados en dispositivos también se denominan destinos de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
+Esta página incluye únicamente destinos [basados en](/help/using/features/destinations/add-device-based-destinations.md) dispositivos del Administrador de Audiencias actual. En el Administrador de Audiencias, los destinos basados en dispositivos también se denominan destinos de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 
 <br> 
 
 * **Última actualización** = Muestra la última fecha en la que hubo una actualización para este destino basado en dispositivo.
-* **Actualizaciones** = indica si Audience Manager envía datos en tiempo real o por lotes (1xday) a este destino.
-* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación del RGPD. Lea las reglas [de combinación de perfiles, los procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y los socios de [Audience Manager con funciones](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)de dessegmentación. Audience Manager envía información sin segmentar a los destinos marcados con **Sí** a continuación.
-* **Recibir señales** de consentimiento TCF de IAB = El complemento Audience Manager para TCF de IAB le permite reenviar la cadena de consentimiento TCF de IAB a socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **ICDS** = Esta columna enumera los socios que admiten la supresión instantánea entre dispositivos. Obtenga información sobre la supresión [instantánea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs** de dispositivos móviles = Esta columna enumera los socios que pueden recibir ID de dispositivos móviles desde Audience Manager.
+* **Actualizaciones** = indica si el Administrador de Audiencias envía datos en tiempo real o por lotes (1xday) a este destino.
+* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación del RGPD. Lea las reglas de combinación de [Perfiles y los procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y el Administrador de [Audiencias se asocia con las capacidades](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)de dessegmentación. El Administrador de Audiencias envía información sin segmentar a los destinos marcados con **Sí** a continuación.
+* **Recibir señales** de consentimiento TCF de IAB = El complemento Administrador de Audiencias para TCF de IAB le permite reenviar la cadena TC de IAB a socios de activación respetando las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **ICDS** = Esta columna lista a los socios que admiten la supresión instantánea entre dispositivos. Obtenga información sobre la supresión [instantánea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **IDs** de dispositivos móviles = Esta columna lista a socios que pueden recibir ID de dispositivos móviles del Administrador de Audiencias.
 
 <br> 
 
@@ -82,7 +85,7 @@ Esta página solo incluye destinos [actuales basados en](/help/using/features/de
 | Medios de gama | 03/03/2017 | Tiempo real |  | No | No |  |
 | Google AdsWords Display | 02/08/2018 | Tiempo real | Sí | Sí | No | Sí |
 | Administrador de ofertas de Google DoubleClick (DBM) | 24/04/2017 | Tiempo real | Sí | Sí | Sí | Sí |
-| Administrador de campañas de doble clic de Google (DCM fka DFA) | 24/04/2017 | Tiempo real | Sí | Sí | Sí | Sí |
+| Administrador de Campañas de Google DoubleClick (DCM fka DFA) | 24/04/2017 | Tiempo real | Sí | Sí | Sí | Sí |
 | Google DoubleClick para editores (DFP, DFPP) | 24/04/2017 | Tiempo real | Sí | Sí | Sí | Sí |
 | GumGum | 02/06/2017 | 1xday | Sí | No | No | No |
 | Index Exchange (anteriormente Casale Media) | 03/03/2017 | 1xday | Sí | No | No | No |
@@ -132,7 +135,7 @@ Esta página solo incluye destinos [actuales basados en](/help/using/features/de
 | Rubicon |  | Tiempo real | Sí | Sí | No |  |
 | EJECUTAR | 17/02/2017 | 1xday | Sí | No | No | No |
 | Sabio Mobile | 17/02/2017 | 1xday | No | No | No | Sí |
-| variantes | 17/02/2017 | 1xday | No | No | No | Sí |
+| Simpli.fi | 17/02/2017 | 1xday | No | No | No | Sí |
 | Servidor de publicidad Sizmek (Amazon) | 17/02/2017 | Tiempo real | Sí | No | No |  |
 | Listas | 04/09/2018 | Tiempo real | Sí | No | No | Sí |
 | Smart Adserver | 31/07/2017 | Tiempo real | Sí | No | Sí | Sí |
@@ -158,7 +161,7 @@ Esta página solo incluye destinos [actuales basados en](/help/using/features/de
 | TubeMogul | 03/03/2017 | Tiempo real | Sí | No | Sí | No |
 | Girar / Amobee | 03/03/2027 | Tiempo real | No | No | No | Sí |
 | Twenga | 29/10/2018 | Tiempo real | Sí | No | No | No |
-| Audiencias personalizadas de Twitter | 27/03/2017 | Tiempo real | Sí | No | Sí | No |
+| Audiencias a medida de Twitter | 27/03/2017 | Tiempo real | Sí | No | Sí | No |
 | Subrayado | 11/07/2017 | 1xday | No | No | No | No |
 | Verve | 15/06/2017 | 1xday | Sí | No | No | Sí |
 | VideoAmp | 03/03/2017 | Tiempo real | No | No | No | No |
