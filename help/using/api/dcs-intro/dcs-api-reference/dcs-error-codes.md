@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,22 +212,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Identificación de cliente bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de cliente se ha identificado como malicioso y se ha en la lista negra. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una lista de denegaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Id. de fuente de datos bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de fuente de datos se ha identificado como malicioso y se ha en la lista negra. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de la fuente de datos se ha identificado como malintencionado y se ha agregado a una lista de denegación </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Id. de dispositivo declarado bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>El ID del dispositivo se ha identificado como malintencionado y se ha en la lista negra. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes <span class="wintitle"> DCS</span> que contienen este ID de dispositivo en un corto período de tiempo. </p> </td>
+   <td colname="col3"> <p>El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una lista de denegaciones. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes de <span class="wintitle"> DCS</span> que contienen este ID de dispositivo en poco tiempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operación de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malicioso y se ha en la lista negra. Consulte el código de error 306. </p> </td> 
+   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malintencionado y se ha agregado a una lista de nombres Véase código de error 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
