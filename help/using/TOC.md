@@ -5,12 +5,15 @@ audience: end-user
 user-guide-title: Guía del usuario del Administrador de Audiencias
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 9%
 
 ---
 
 
-# Guía del usuario del Administrador de Audiencias {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Documentación del producto de Audiencia Manager](aam-home.md)
 + Información general{#overview}
@@ -167,7 +170,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Expresiones de muestra con operadores booleanos y de comparación](features/traits/trait-expression-samples.md)
       + [Referencia de cualificación de características y segmentos](features/traits/trait-and-segment-qualification-reference.md)
    + [Visor de Perfil de Visitante](features/visitor-profile-viewer.md)
-+ Informes{#reporting}
++ Informes {#reporting}
    + [Información general sobre los informes](reporting/reports-overview.md)
    + [Panel de informes](reporting/reports-dashboard.md)
    + [Informes generales](reporting/general-reports.md)
@@ -233,7 +236,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [Información general de referencia de la API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos de API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de error DCS, mensajes y ejemplos](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Supervisión de ID y listas negras](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [Supervisión de ID y exclusión de listas](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [ID de región, ubicaciones y nombres de host de DCS](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formato de pares de clave-valor en llamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condiciones de carrera y gestión de errores](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -400,7 +403,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
    + [¿Por qué nuestros usuarios de solo lectura pueden crear, editar o eliminar características y segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [No somos clientes del Administrador de Audiencias, pero vemos las llamadas de Javascript del Administrador de Audiencias en nuestro sitio](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [¿Debo ver los segmentos asignados por el Laboratorio de Audiencia del Administrador de Audiencias en la página de detalles de destino?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
-+ Actualizaciones en la documentación{#documentation-updates}
++ Actualizaciones de documentación{#documentation-updates}
    + [Actualizaciones de documentación de 2020](docs-updates/docs-2020.md)
    + [Actualizaciones de documentación de 2019](docs-updates/docs-2019.md)
    + [Actualizaciones de documentación de 2018](docs-updates/docs-2018.md)
