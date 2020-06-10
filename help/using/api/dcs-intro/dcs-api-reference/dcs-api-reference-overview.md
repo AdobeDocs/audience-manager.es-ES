@@ -1,10 +1,13 @@
 ---
 description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS.
-seo-description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS en Adobe Audience Manager (AAM).
-seo-title: Información general de referencia de la API de DCS en Adobe Audience Manager (AAM)
+seo-description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS en Adobe Audiencia Manager (AAM).
+seo-title: Información general de referencia de la API de DCS en Adobe Audiencia Manager (AAM)
 title: Información general de referencia de la API de DCS
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +24,9 @@ Información conceptual, descripciones y definiciones para el código, los méto
 
    Códigos de error y mensajes generados por los Servidores de recopilación de datos (DCS) enumerados en orden numérico por ID de código.
 
-* [Supervisión de ID y lista negra](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+* [Supervisión de ID y exclusión de listas](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   El DCS supervisa los ID que recibe y pone en la lista negra los que se envían a una velocidad inusualmente alta durante un corto período de tiempo.
+   El DCS supervisa los ID que recibe y agrega los que se envían a una lista de denegación a una velocidad inusualmente alta durante un corto período de tiempo.
 
 * [ID de región, ubicaciones y nombres de host de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
@@ -31,7 +34,7 @@ Información conceptual, descripciones y definiciones para el código, los méto
 
 * [Formato de pares de clave-valor en llamadas DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
-   Al realizar una llamada, el DCS acepta datos de valor clave en formato estándar o serializado. Consulte esta sección para obtener información sobre cómo dar formato a los datos de clave-valor estándar y serializados.
+   Al realizar una llamada, el DCS acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre cómo dar formato a los datos de clave-valor estándar y serializados.
 
 * [Condiciones de carrera y gestión de errores](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
 
@@ -39,4 +42,4 @@ Información conceptual, descripciones y definiciones para el código, los méto
 
 * [Atributos admitidos para llamadas de API de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
-   Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros devueltos por este sistema.
+   Lista y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros devueltos por este sistema.
