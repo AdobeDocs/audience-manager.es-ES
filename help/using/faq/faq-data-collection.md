@@ -7,7 +7,10 @@ title: Preguntas más frecuentes sobre la recopilación de datos y la integraci�
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +37,13 @@ Las características que se [!UICONTROL Inbound] rellenan se rellenan de [!UICON
 
 <br> 
 
-**¿Puede proporcionarme una lista de las direcciones IP que puedo incluir en la lista de direcciones permitidas para dpm.demdex.net?**
+**¿Puede proporcionarme una lista de las direcciones IP que puedo agregar a una lista allow para dpm.demdex.net?**
 
 Desafortunadamente, no podemos. Estas direcciones IP se asignan dinámicamente, por región geográfica, a través de [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] no controla el rango de IP que se pueden asignar a esta dirección.
 
 <br> 
 
-**¿Puede proporcionarme una dirección IP que pueda incluir en la lista de direcciones permitidas para su servidor SFTP entrante y saliente?**
+**¿Puede proporcionarme una dirección IP que pueda agregar a una lista de permitir para su servidor SFTP entrante y saliente?**
 
 Sí, véase a continuación.
 
