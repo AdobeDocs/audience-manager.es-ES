@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tecnología de informes
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 1faafcda1060c1fab9de454976aac7cf191f456a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -84,4 +84,4 @@ La tabla siguiente define las formas, los tamaños y los colores utilizados en l
 
 ## Documentación de Tableau {#tableau-documentation}
 
-Para obtener más información sobre los controles Tableau que puede ver en nuestros informes interactivos, consulte la documentación oficial de [Tableau Server en Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
+Para obtener más información sobre los controles Tableau que puede ver en nuestros informes interactivos, consulte la documentación oficial de [Tableau Server en Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
