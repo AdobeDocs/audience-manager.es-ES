@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Tecnología de informes
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
@@ -23,20 +26,20 @@ c_report_technology.xml
 
 ## Informes interactivos Uso de la tecnología Tableau
 
-[!DNL Audience Manager] utiliza el software [Tableau](https://www.tableausoftware.com/) para mostrar datos en los informes interactivos. Con [!DNL Tableau], los [!UICONTROL Delivery and Overlap] informes utilizan señales visuales y símbolos que le ayudan a:
+[!DNL Audience Manager] utiliza el software [Tableau](https://www.tableausoftware.com/) para mostrar los datos en los informes interactivos. Con [!DNL Tableau], los [!UICONTROL Delivery and Overlap] informes utilizan señales visuales y símbolos que le ayudan a:
 
 * Encuentre características de alto y bajo rendimiento.
-* Las características y los segmentos de puntos con visitantes únicos bajos y altos se superponen.
+* Las características y los segmentos de puntos con un visitante único alto y bajo se superponen.
 * Utilice los datos de superposición para crear segmentos de destino.
-* Expanda el alcance identificando características relacionadas con baja superposición.
+* Amplíe el alcance identificando características relacionadas con baja superposición.
 
 ## Programación de actualización de datos
 
-Los datos del informe se actualizan cada domingo cada semana. La actualización procesa los datos del sábado (el día anterior) al domingo anterior.
+Los datos del informe se actualizan todos los domingos cada semana. La actualización procesa los datos del sábado (el día anterior) al domingo anterior.
 
 ## Formas, colores y tamaños utilizados en informes interactivos {#shapes-colors-sizes}
 
-La mayoría de los informes interactivos muestran los resultados utilizando formas de diferentes tamaños y colores. Este formato de visualización está diseñado para ayudarle a comprender los datos visualmente, sin tener que desplazarse por filas y columnas de números.
+La mayoría de los informes interactivos muestran los resultados utilizando formas de diferentes tamaños y colores. Este formato de visualización está diseñado para ayudarle a comprender los datos visualmente, sin tener que desplazarse por las filas y columnas de números.
 
 <!-- 
 
@@ -79,52 +82,6 @@ La tabla siguiente define las formas, los tamaños y los colores utilizados en l
  </tbody> 
 </table>
 
-## Iconos y herramientas del informe explicados {#icons-tools-explained}
+## Documentación de Tableau {#tableau-documentation}
 
-Describe cómo buscar y utilizar las distintas herramientas de icono utilizadas en los informes dinámicos.
-
-<!-- 
-
-r_icons.xml
-
- -->
-
-### Iconos y herramientas de datos
-
-Las siguientes herramientas de iconos están disponibles en la parte inferior de cada ventana de informe dinámico. La siguiente ilustración proporciona más información sobre estas herramientas.
-
-![](assets/tools_icons90.png)
-
-### Exportar datos
-
-Esta herramienta permite exportar datos del informe en 4 formatos diferentes.
-
-| Opción de exportación | Exporta datos |
-|---|---|
-| **[!UICONTROL Image]** | Como archivo de imagen (.png). Resulta útil cuando desea descargar y compartir datos de informes en su formato gráfico original. |
-| **[!UICONTROL PDF]** | Como archivo PDF. |
-| **[!UICONTROL Data]** | En una nueva ventana del navegador como datos numéricos en columnas y filas. |
-| **[!UICONTROL Crosstab]** | Como archivo .csv. |
-
-### Revertir cambios
-
-Seleccione esta herramienta para deshacer cualquier cambio de clic interactivo que haya realizado en el informe.
-
-### Actualizaciones automáticas
-
-Los informes [!UICONTROL Delivery-Performance] y [!UICONTROL Trait-to-Trait Overlap] son informes dinámicos que responden y cambian según las acciones de clic del usuario.
-
-Por ejemplo: supongamos que desea seleccionar varios anunciantes en el [!UICONTROL Overlap] informe. Cuando se habilita, las actualizaciones automáticas empezarán a devolver datos en cuanto seleccione una casilla de verificación. Este comportamiento dinámico puede interrumpir el flujo de trabajo porque tiene que esperar hasta que el informe termine de procesarse antes de seleccionar otro anunciante. Utilice esta herramienta para desactivar esa función (y volver a activarla) según sea necesario.
-
-### Actualización de datos
-
-Haga clic en el icono de actualización para ejecutar un informe o volver a cargar el conjunto de datos. Cuando las actualizaciones automáticas estén desactivadas, haga clic en actualizar para ejecutar o actualizar el informe.
-
-### Herramienta de búsqueda
-
-La búsqueda está representada por un icono de lupa genérico (no se muestra). El campo de búsqueda se oculta hasta que haga clic en las etiquetas de selección en el lado izquierdo de la pantalla. La tabla siguiente describe la ubicación de la herramienta de búsqueda para cada informe.
-
-| Informe | Para buscar la búsqueda, pase el ratón por encima |
-|---|---|
-| [!UICONTROL Delivery and Performance] informe | Etiqueta "Nombre del anunciante". |
-| [!UICONTROL Overlap] informes | Etiqueta "Nombre SID". |
+Para obtener más información sobre los controles Tableau que puede ver en nuestros informes interactivos, consulte la documentación oficial de [Tableau Server en Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
