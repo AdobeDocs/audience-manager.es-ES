@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
+source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 3%
 
 ---
 
@@ -22,26 +25,27 @@ source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ## Finalidad {#purpose}
 
-[!UICONTROL Actionable Log Files] optimice la forma de capturar impresiones, clics y conversiones desde servidores de publicidad. Utilice esta información para la segmentación de usuarios sin tener que utilizar medios de píxeles manuales para enviar atributos de campaña a [!DNL Audience Manager].
+[!UICONTROL Actionable Log Files] optimice la forma de capturar impresiones, clics y conversiones desde servidores de publicidad. Utilice esta información para la segmentación de usuarios sin tener que utilizar medios de píxeles manualmente para enviar atributos de campaña a [!DNL Audience Manager].
 
 ## Introducción {#getting-started}
 
 Para comenzar con [!UICONTROL Actionable Log Files], debe importar datos de registro en [!DNL Audience Manager]. Los siguientes vínculos le ayudarán a iniciarse:
 
 * Para [!UICONTROL Google DCM] los registros, consulte [Importación de archivos de datos de DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *y póngase* en contacto con su [!DNL Audience Manager] asesor.
+* Para obtener [!UICONTROL Google DFP] registros, consulte [Importación de archivos de datos de DFP en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *y póngase* en contacto con su [!DNL Audience Manager] consultor.
 * Para ver otros registros de servidores de publicidad, consulte Archivos [](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de datos y metadatos *y póngase* en contacto con su [!DNL Audience Manager] asesor.
 
-Si ya está importando datos de registro en [!DNL Audience Manager], pregunte a su [!DNL Audience Manager] consultor o al Servicio de atención [al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html) para habilitarlos [!UICONTROL Actionable Log Files] .
+Si ya está importando datos de registro en [!DNL Audience Manager], pregunte a su [!DNL Audience Manager] consultor o al Servicio de atención [al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) para habilitarlos [!UICONTROL Actionable Log Files] .
 
 >[!IMPORTANT]
 >
-> A fines de 2019, [!UICONTROL Actionable Log Files] comenzó a expandir la disponibilidad a nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> A fines de 2019, [!UICONTROL Actionable Log Files] comenzó a expandir la disponibilidad a nuevos servidores de publicidad. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) to get started.
 
 ## Uso de archivos de registro procesables {#working-with-actionable-log-files}
 
-Con [!UICONTROL Actionable Log Files], la información de los registros del servidor de publicidad se captura de [!DNL Audience Manager] la misma manera que se capturan los datos de las interacciones del sitio web en tiempo real. [!DNL Audience Manager] se conecta al almacenamiento del registro del servidor de publicidad, analiza la información de los registros y envía los datos del registro como señales procesables a nuestros servidores [de recopilación de](../../reference/system-components/components-data-collection.md#dcs-pcs)datos.
+Con [!UICONTROL Actionable Log Files], la información de los registros del servidor de publicidad se captura de [!DNL Audience Manager] la misma manera que se capturan los datos de las interacciones del sitio web en tiempo real. [!DNL Audience Manager] se conecta al almacenamiento de registro del servidor de publicidad, analiza la información de los registros y envía los datos del registro como señales procesables a nuestros servidores [de recopilación de](../../reference/system-components/components-data-collection.md#dcs-pcs)datos.
 
-Todavía necesita configurar características basadas en reglas para capturar las señales procesables. Consulte cómo configurar características basadas en reglas en la interfaz de usuario [de](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager o mediante nuestras herramientas [de administración](../../reference/bulk-management-tools/bulk-create.md)masiva. Desplácese hacia abajo hasta la sección Señales [](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) procesables para obtener una lista de todas las claves que puede utilizar en las características basadas en reglas.
+Todavía necesita configurar características basadas en reglas para capturar las señales procesables. Consulte cómo configurar características basadas en reglas en la interfaz de usuario [de](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager o mediante nuestras herramientas [de administración](../../reference/bulk-management-tools/bulk-create.md)masiva. Desplácese hacia abajo hasta la sección Señales [](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) procesables para obtener una lista de todas las teclas que puede utilizar en las características basadas en reglas.
 
 >[!IMPORTANT]
 >
@@ -49,13 +53,13 @@ Todavía necesita configurar características basadas en reglas para capturar la
 
 ## Señales procesables {#actionable-signals}
 
-Las señales son las unidades [de datos](../../reference/signal-trait-segment.md) más pequeñas de [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] permite capturar los valores de anunciante, unidad de negocio, elemento creativo y campaña en eventos de impresión, eventos de clic y eventos de conversión como señales de los registros del servidor de publicidad.
+Las señales son las unidades [de datos](../../reference/signal-trait-segment.md) más pequeñas de [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] permite capturar los valores de anunciante, unidad de negocio, elemento creativo y campaña en eventos de impresión, eventos de clic y eventos de conversión como señales de los registros de servidores de publicidad.
 
 Recuerde que, para utilizar esta información para la creación y segmentación de audiencias, debe configurar usted mismo las características basadas en reglas.
 
 ### Señales procesables de los registros DCM de Google {#dcm-logs-signals}
 
-La tabla muestra las señales procesables de los archivos de [!DNL DCM] registro:
+La tabla lista las señales procesables de los archivos de [!DNL DCM] registro:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -70,7 +74,7 @@ La tabla muestra las señales procesables de los archivos de [!DNL DCM] registro
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Disponible solo para eventos de conversión. </p> <p>Representa el ID numérico de la actividad de conversión en DCM. Este campo se asigna al ID de actividad de DCM. </p> <p> <p>Sugerencia: Puede capturar varias actividades de conversión específicas desde DCM. Cree características con <code> d_conversion = activity ID</code> cada actividad de conversión de DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Disponible solo para eventos de conversión. </p> <p>Representa el ID numérico de la actividad de conversión en DCM. Este campo se asigna al ID de Actividad de DCM. </p> <p> <p>Sugerencia: Puede capturar actividades de conversión múltiples o específicas desde DCM. Cree características con <code> d_conversion = activity ID</code> cada actividad de conversión de DCM. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +109,7 @@ La tabla muestra las señales procesables de los archivos de [!DNL DCM] registro
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>ID de campaña proporcionada por DCM.</p> </td> 
+   <td colname="col3"> <p>ID de Campaña proporcionado por DCM.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +127,7 @@ La tabla muestra las señales procesables de los archivos de [!DNL DCM] registro
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento desde el nombre del archivo de registro de DCM y lo transforma en una señal procesable. </p> <p>Los valores aceptados son: </p> <p> 
+   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento del nombre del archivo de registro de DCM y lo transforma en una señal procesable. </p> <p>Los valores aceptados son: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> para impresiones. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> para clics. </li> 
@@ -150,9 +154,9 @@ Para un archivo [!DNL DCM] de registro de tamaño medio de 2 millones de líneas
 
 >[!NOTE] {important=&quot;high&quot;}
 >
->La marca de tiempo del evento proporcionada en los [!DNL DCM] registros se respetará y pasará al [!UICONTROL Data Collection Servers].
+>La marca de tiempo de evento proporcionada en los [!DNL DCM] registros se respetará y pasará al [!UICONTROL Data Collection Servers].
 >
->* Si no hay una marca de hora disponible para una fila de datos en el archivo de [!DNL DCM] registro, se utiliza la hora de la llamada como la marca de hora del `HTTP` evento.
+>* Si no hay una marca de tiempo disponible para una fila de datos en el archivo de [!DNL DCM] registro, se utiliza la hora de la llamada `HTTP` como marca de tiempo de evento.
 >* Si la fila de datos del archivo de [!DNL DCM] registro contiene una marca de tiempo con formato incorrecto, se ignora toda la fila.
 
 
@@ -160,7 +164,7 @@ Para un archivo [!DNL DCM] de registro de tamaño medio de 2 millones de líneas
 
 ### Señales procesables de los registros genéricos del servidor de publicidad {#generic-logs-signals}
 
-Primero, debe depositar los registros de su servidor de publicidad en nuestros cubos de Amazon S3. Para ello, lea Archivos [de datos para informes de optimización de audiencia y Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro procesables *y póngase* en contacto con su [!DNL Audience Manager] asesor. La tabla muestra las señales procesables de los archivos de registro genéricos:
+Primero, debe depositar los registros de su servidor de publicidad en nuestros cubos de Amazon S3. Para ello, lea Archivos [de datos para informes de optimización de Audiencia y Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro procesables *y póngase* en contacto con su [!DNL Audience Manager] asesor. La tabla lista las señales procesables de los archivos de registro genéricos:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -204,7 +208,7 @@ Primero, debe depositar los registros de su servidor de publicidad en nuestros c
   <tr> 
    <td colname="col1"> <p> <code>Campaign-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>ID de campaña del archivo de registro.</p> </td> 
+   <td colname="col3"> <p>ID de Campaña del archivo de registro.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Primero, debe depositar los registros de su servidor de publicidad en nuestros c
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento desde el nombre del archivo de registro y lo transforma en una señal procesable. Consulte Convenciones <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">de nomenclatura de archivos de registro</a>. </p> <p>Los valores aceptados son: </p> <p> 
+   <td colname="col3"> <p>Indica el tipo de evento. Audience Manager lee el tipo de evento del nombre del archivo de registro y lo transforma en una señal procesable. Consulte Convenciones <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">de nomenclatura de archivos de registro</a>. </p> <p>Los valores aceptados son: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> para impresiones. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> para clics. </li> 
@@ -247,9 +251,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Uso de señales procesables en la interfaz de usuario de Audience Manager {#actionable-signals-in-ui}
 
-Puede ver las señales accionables entrantes en la interfaz de búsqueda [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) señales.
+Puede vista de las señales accionables entrantes en la interfaz de búsqueda [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) señales.
 
-Vaya a Datos **de** audiencia (1) > **Señales** (2) > **Buscar** (3) y seleccione el filtro Archivos **de registro** procesables (4).
+Vaya a Datos **de** Audiencia (1) > **Señales** (2) > **Buscar** (3) y seleccione el filtro Archivos **de registro** procesables (4).
 
 ![Señales procesables en la interfaz de usuario](/help/using/integration/assets/alf-in-signals.png)
 
@@ -260,7 +264,7 @@ Para crear características basadas en reglas con sus señales procesables, sele
 
 ## Casos de uso {#use-cases}
 
-Una de las ventajas de la implementación [!UICONTROL Actionable Log Files] es la opción de aplicar controles de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) a cualquier característica basada en [reglas](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) que contenga señales procesables. Esto le permite, por ejemplo, limitar la frecuencia del número de veces que un usuario recibe un elemento creativo determinado en una campaña de medios. Lea Supresión [instantánea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) para aprender a hacerlo. Otros casos de uso incluyen:
+Una de las ventajas de la implementación [!UICONTROL Actionable Log Files] es la opción de aplicar controles de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) a cualquier característica basada en [reglas](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) que contenga señales procesables. Esto le permite, por ejemplo, limitar la frecuencia del número de veces que se muestra a un usuario un elemento creativo determinado, dentro de una campaña de medios. Lea Supresión [instantánea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) para aprender a hacerlo. Otros casos de uso incluyen:
 
 ### Usuarios de reasignaciones
 
@@ -278,11 +282,11 @@ Vuelva a segmentar usuarios que hayan visto el elemento creativo 123 pero que no
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-4. Asigne el segmento [!DNL Retarget Users] a un destino y dirija la acción a los usuarios del destino con el elemento creativo 456.
+4. Asigne el segmento [!DNL Retarget Users] a un destino y a los usuarios de destinatario del destino con el elemento creativo 456.
 
-### Utilizar la actividad de Floodlight de DCM en los informes de optimización de audiencia o en el Audience Lab
+### Utilizar la Actividad de Floodlight DCM en los informes de optimización de Audiencias o en el laboratorio de Audiencias
 
-[Las etiquetas](https://support.google.com/dcm/partner/answer/4293719?hl=en) de Floodlight permiten a los anunciantes rastrear las conversiones de los usuarios. Con [!UICONTROL Actionable Log Files], puede realizar el seguimiento de las [!DNL DCM] conversiones en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) audiencias o en el [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Las etiquetas](https://support.google.com/dcm/partner/answer/4293719?hl=en) de Floodlight permiten a los anunciantes rastrear las conversiones de los usuarios. Con [!UICONTROL Actionable Log Files], puede realizar el seguimiento de las [!DNL DCM] conversiones en los informes [de optimización de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiencia o en el laboratorio de [Audiencias](../../features/audience-lab/audience-lab.md):
 
 1. Cree una característica y utilice la siguiente regla de características para capturar una conversión de los registros del servidor de publicidad:
 
@@ -295,5 +299,5 @@ Vuelva a segmentar usuarios que hayan visto el elemento creativo 123 pero que no
 >[!MORELIKETHIS]
 >
 >* [Importar archivos de datos de DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Informes de optimización de audiencia](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Informes de optimización de Audiencia](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
