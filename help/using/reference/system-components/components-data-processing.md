@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Componentes de procesamiento de datos
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ c_comproc.xml
 
  -->
 
-El Administrador de Audiencias utiliza los siguientes componentes para procesar datos:
+Audience Manager utiliza los siguientes componentes para procesar datos:
 
 ## Hadoop {#hadoop}
 
-En [!DNL Audience Manager], Hadoop es la base de datos maestra que contiene todo lo que [!DNL Audience Manager] sabe sobre un usuario. Por ejemplo, cuando los servidores [de caché de](../../reference/system-components/components-data-collection.md) Perfil crean archivos de registro que contienen datos sobre los usuarios, envía esos datos a Hadoop para almacenamiento. Otros elementos importantes de Hadoop son:
+En [!DNL Audience Manager], Hadoop es la base de datos principal que contiene todo lo que [!DNL Audience Manager] sabe sobre un usuario. Por ejemplo, cuando los servidores [de caché de](../../reference/system-components/components-data-collection.md) Perfil crean archivos de registro que contienen datos sobre los usuarios, envía esos datos a Hadoop para almacenamiento. Otros elementos importantes de Hadoop son:
 
-* **Hive:** Un almacén de datos para Hadoop. Hive administra consultas ad hoc a los datos almacenados en Hadoop.
+* **Hive:** Una data warehouse para Hadoop. Hive administra consultas ad hoc a los datos almacenados en Hadoop.
 
 * **HBase:** Una base de datos Hadoop muy grande. Procesa y administra datos entrantes y salientes, reglas de características, información de modelado algorítmico y realiza muchas otras funciones relacionadas con el almacenamiento y el traslado de datos a diferentes sistemas.
 
