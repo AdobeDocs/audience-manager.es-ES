@@ -3,14 +3,17 @@ description: Las Audiencias predictivas ayudan a clasificar audiencias desconoci
 seo-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
 seo-title: Información general de Audiencias predictivas
 solution: Audience Manager
-title: Audiencias predictivas del Administrador de Audiencias
+title: Audiencias predictivas de Audience Manager
 translation-type: tm+mt
-source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
+source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
 
-# Información general de Audiencias predictivas {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Información general {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] ayuda a clasificar una audiencia desconocida en personalidades distintas, en tiempo real, mediante técnicas avanzadas de ciencia de datos.
 
@@ -19,11 +22,11 @@ source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 En un contexto de marketing, una persona es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de características, como demografía, hábitos de navegación, historial de compras, etc.
 
-[!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, permitiéndole utilizar las capacidades de aprendizaje automático del Administrador de Audiencias para clasificar audiencias desconocidas en personalidades distintas. El Administrador de Audiencias le ayuda a conseguirlo calculando la propensión de la audiencia de origen desconocida para un conjunto de audiencias de origen conocidas.
+[!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, permitiéndole utilizar las capacidades de aprendizaje automático de los Audience Manager para clasificar audiencias desconocidas en personalidades distintas. Audience Manager le ayuda a lograr esto calculando la propensión de su audiencia de origen desconocida para un conjunto de audiencias de origen conocidas.
 
 Cuando se crea un [!UICONTROL Predictive Audiences] modelo, el primer paso es elegir las características o segmentos de línea base por los que desea clasificar la audiencia de destinatario. Estas características o segmentos definirán sus personalidades.
 
-Durante la fase de evaluación, el modelo crea un nuevo [!UICONTROL Predictive Audiences] segmento para cada rasgo o segmento que haya definido como línea de base. La próxima vez que el Administrador de Audiencias vea un visitante de la audiencia de destinatarios que no está clasificado para una persona (no cumple los requisitos para ninguna de sus características o segmentos de base), el [!UICONTROL Predictive Audiences] modelo determinará a qué segmentos predictivos debe pertenecer el visitante y agregará el visitante a ese segmento.
+Durante la fase de evaluación, el modelo crea un nuevo [!UICONTROL Predictive Audiences] segmento para cada rasgo o segmento que haya definido como línea de base. La próxima vez que el Audience Manager vea un visitante de su audiencia de destinatario que no está clasificado para una persona (no cumple los requisitos para ninguna de sus características o segmentos de base), el [!UICONTROL Predictive Audiences] modelo determinará a qué segmentos predictivos debe pertenecer el visitante y agregará el visitante a ese segmento.
 
 Puede identificar los segmentos predictivos creados por el modelo en la [!UICONTROL Segments] página. Cada [!UICONTROL Predictive Audiences] modelo tiene su propia carpeta debajo de la [!UICONTROL Predictive Audiences] carpeta y puede ver los segmentos de cada modelo haciendo clic en la carpeta del modelo.
 
@@ -31,7 +34,7 @@ Puede identificar los segmentos predictivos creados por el modelo en la [!UICONT
 
 ## Casos de uso {#use-cases}
 
-Para ayudarle a comprender mejor cómo y cuándo puede usar [!UICONTROL Predictive Audiences], a continuación se indican algunos casos de uso que los clientes del Administrador de Audiencias pueden resolver con esta función.
+Para ayudarle a comprender mejor cómo y cuándo puede usar [!UICONTROL Predictive Audiences], a continuación se indican algunos casos de uso que los clientes Audience Manager pueden resolver con esta función.
 
 ### Caso de uso n.º 1
 
@@ -111,7 +114,7 @@ Al configurar sus [!UICONTROL Predictive Audiences] modelos, tenga en cuenta las
 * La evaluación de segmentos para [!UICONTROL Predictive Audiences] usa el valor predeterminado **[!UICONTROL Profile Merge Rule]** que definió en su cuenta. Para obtener más información sobre [!UICONTROL Profile Merge Rules] la [documentación](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicada, consulte .
 * Algunas características y segmentos no se admiten como líneas de base o audiencias de destinatario. [!UICONTROL Predictive Audiences] los modelos no se guardarán al elegir una de las siguientes opciones como líneas de base o audiencias de destinatario:
    * Características predictivas y segmentos creados con características predictivas;
-   * [Características o segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
+   * [características o segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * Características algorítmicas;
    * Características de segundo y de terceros.
 
@@ -128,6 +131,6 @@ Las características que tienen restricciones adicionales que no forman parte de
 
 ## Controles de acceso basados en roles{#rbac}
 
-Las características y los segmentos que elija para la clasificación de personas y audiencias están sujetos a Controles de acceso [basados en](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)roles del administrador de Audiencias.
+Las características y los segmentos que elija para la clasificación de personas y audiencias están sujetos a Controles de acceso [basados en](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)roles de Audience Manager.
 
-Los usuarios del Administrador de Audiencias solo pueden seleccionar características o segmentos para audiencias de personas y destinatarios, que tienen [permiso para la vista](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Los usuarios Audience Manager solo pueden seleccionar características o segmentos para audiencias de personas y destinatarios, que tienen [permiso para la vista](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
