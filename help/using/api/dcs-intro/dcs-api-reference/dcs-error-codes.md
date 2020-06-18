@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Códigos de error del sistema {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Id. de código </th> 
-   <th colname="col2" class="entry"> Mensaje de error </th> 
-   <th colname="col3" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Error no especificado </p> </td> 
-   <td colname="col3"> <p>Se trata de un error de captación global que gestiona eventos que no están cubiertos por los otros controladores de error. Solucionar este error es difícil. Puede ser causado por una variedad de acciones o eventos desconocidos. </p> <p>Si recibe este error, vuelva a intentar la solicitud <span class="wintitle"> de DCS</span> . Póngase en contacto con su representante de Adobe si el problema persiste. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>No se pudo encontrar la configuración para nombredehost: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>El equipo de aprovisionamiento de socios no ha configurado el nombre de host enviado en la solicitud. Póngase en contacto con su representante de Adobe si aparece este mensaje de error. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valor no válido <code> d_orgid</code> (no se pudo encontrar una configuración para esta identificación de organización): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>El identificador de organización es incorrecto. </p> <p>Compruebe su ID e intente la solicitud de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección "Página de administración" en Organizaciones y vinculación <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"></a> de cuentas para obtener información sobre cómo encontrarlo. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Código de error|Mensaje de error|Descripción|
+|—|—|—|
+|0|Error no especificado|Se trata de un error de captación global que gestiona eventos que no están cubiertos por los otros controladores de error. Solucionar este error es difícil. Puede ser causado por una variedad de acciones o eventos desconocidos. Si recibe este error, vuelva a intentar la [!DNL DCS] solicitud. Póngase en contacto con su [!DNL Adobe] representante si el problema persiste.|
+|1|No se pudo encontrar la configuración para nombredehost: `hostname`|El equipo de aprovisionamiento de socios no ha configurado el nombre de host enviado en la solicitud. Póngase en contacto con su [!DNL Adobe] representante si aparece este mensaje de error.|
+|2|Valor no válido `d_orgid` (no se pudo encontrar una configuración para esta identificación de organización): `ID`|El identificador de organización es incorrecto. Compruebe su ID e intente la solicitud de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) de cuentas para obtener información sobre cómo encontrarlo.|
 
 ## Códigos de error de integración {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Id. de código </th> 
-   <th colname="col2" class="entry"> Mensaje </th> 
-   <th colname="col3" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>No se pudo recuperar el nombre de host para la solicitud </p> </td> 
-   <td colname="col3"> <p>Una llamada de API no envió el encabezado HTTP del host en la solicitud. </p> <p>Añada el encabezado de host a la llamada e inténtelo de nuevo. Tenga en cuenta que la mayoría de los exploradores y clientes API lo hacen automáticamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Se pasó una identificación de Experience Cloud no válida <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID de <span class="keyword"> Experience Cloud</span> no válido. </p> <p>Compruebe el par <code> d_mid=</code> clave-valor en la cadena de encabezado. Asegúrese de pasar el ID de <span class="keyword"> Experience Cloud</span> correcto e intente la solicitud de nuevo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Se pasó un identificador de aam no válido en la solicitud <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID de <span class="keyword"> Audience Manager</span> no válido. </p> <p>Compruebe el par <code> d_uuid=</code> clave-valor en la cadena de encabezado. Asegúrese de pasar el ID de <span class="keyword"> Audience Manager</span> correcto e intente la solicitud de nuevo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Todas las ID de cliente no son válidas </p> </td> 
-   <td colname="col3"> <p>Todos los ID de cliente de la llamada no son válidos. Compruebe sus ID e inténtelo de nuevo. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>El referente no <code>HTTP referer</code> está permitido para el socio <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>No se permite el <code>HTTP referer</code> encabezado de la llamada para el ID del socio en la llamada. Compruebe que el <code>HTTP referer</code> encabezado es correcto.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Se recibió un token <span class="wintitle"> IMS</span> no válido </p> </td> 
-   <td colname="col3"> <p>Devuelto para integraciones de Audience Manager - Adobe Target. El error se produce cuando se realiza una llamada al DCS, que contiene un token IMS no válido. Es posible que el token esté mal formado, caduque o que el usuario no esté autorizado para acceder al recurso requerido. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Código de error|Mensaje de error|Descripción|
+|—|—|—|
+|100|No se pudo recuperar el nombre de host para la solicitud|Una [!DNL API] llamada no envió el encabezado de host [!DNL HTTP] en la solicitud. Añada el encabezado del host a la llamada e inténtelo de nuevo. La mayoría de los navegadores y [!DNL API] clientes lo hacen automáticamente. |
+|101|Se pasó un identificador [!DNL Experience Cloud] no válido `ID`|La [!DNL DCS] llamada contiene un [!DNL Experience Cloud] ID no válido. Compruebe el par `d_mid=` clave-valor en la cadena de encabezado. Asegúrese de pasar el ID correcto [!DNL Experience Cloud] e intente la solicitud de nuevo. |
+|102|Se pasó [!DNL AAM ID] no válido en la solicitud `ID`|La [!DNL DCS] llamada contiene un [!DNL Audience Manager] ID no válido. Compruebe el par `d_uuid=` clave-valor en la cadena de encabezado. Asegúrese de pasar el ID correcto [!DNL Audience Manager] e intente la solicitud de nuevo. |
+|104|Todos los ID de cliente no son válidos | Todos los ID de cliente de la llamada no son válidos. Compruebe sus ID e inténtelo de nuevo.|
+|109|El referente `HTTP referer` no está permitido para el socio `Partner ID`|El encabezado de la llamada no está permitido para el ID del socio en la llamada. `HTTP referer` Compruebe que el `HTTP referer` encabezado es correcto.|
+|111|Se recibió un token `IMS` no válido|Se devolvió para [!DNL Audience Manager] - [!DNL Adobe Target] integraciones. El error se produce cuando se realiza una llamada al [!DNL DCS], que contiene un [!DNL IMS] token no válido. Es posible que el token esté mal formado, caduque o que el usuario no esté autorizado para acceder al recurso requerido.|
 
 ## Códigos de error de exclusión {#opt-out-error-codes}
 
