@@ -1,27 +1,30 @@
 ---
-description: Comience aquí para obtener información sobre cómo realizar llamadas /event al DCS. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
-seo-description: Comience aquí para obtener información sobre cómo realizar llamadas /event al DCS. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
+description: Inicio aquí para obtener información sobre cómo realizar llamadas /evento al DCS. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
+seo-description: Inicio aquí para obtener información sobre cómo realizar llamadas /evento al DCS. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
 seo-title: Envío de datos al DCS
 solution: Audience Manager
 title: Envío de datos al DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
 
 # Envío de datos al DCS {#send-data-to-the-dcs}
 
-Comience aquí para obtener información sobre cómo realizar `/event` llamadas al [!UICONTROL DCS]. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
+Inicio aquí para obtener información sobre cómo realizar `/event` llamadas al [!DNL DCS]. Esta sección incluye información sobre la sintaxis de llamada, los parámetros, el formato y un ejemplo de solicitud.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Sustituya el valor real del marcador de posición cuando envíe datos al [!UICONTROL DCS] con este método.
+>In the code and examples, *italics* represents a variable placeholder. Sustituya el valor real del marcador de posición cuando envíe datos al [!DNL DCS] con este método.
 
 ## Sintaxis de la llamada {#dcs-call-syntax}
 
-Una `URL` cadena básica que envía datos a los usuarios [!UICONTROL DCS] utiliza la sintaxis que se muestra a continuación.
+Una `URL` cadena básica que envía datos a los usuarios [!DNL DCS] utiliza la sintaxis que se muestra a continuación.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -29,11 +32,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->También puede enviar datos al [!UICONTROL DCS] mediante el `POST` método . La sintaxis de la llamada se describe en Métodos [de API de](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)DCS.
+>También puede enviar datos al [!DNL DCS] mediante el `POST` método . La sintaxis de la llamada se describe en Métodos [de API de](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)DCS.
 
 ## Parámetros de llamada {#dcs-call-parameters}
 
-La siguiente tabla define los componentes básicos de una [!UICONTROL DCS] llamada simple.
+La siguiente tabla define los componentes básicos de una [!DNL DCS] llamada simple.
 
 <table id="table_5F6A5B324EB848168543386516FBF384"> 
  <thead> 
@@ -47,7 +50,7 @@ La siguiente tabla define los componentes básicos de una [!UICONTROL DCS] llama
    <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Esta parte de la llamada contiene: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Su alias de dominio asignado por <span class="keyword"> Audience Manager</span> (por ejemplo, <code> my_domain.demdex.net</code>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Su alias de dominio asignado por <span class="keyword"> el Audience Manager</span> (por ejemplo, <code> my_domain.demdex.net</code>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Dominio de destino, que siempre es <code> demdex.net</code>. Consulte <a href="../../../reference/demdex-calls.md">Explicación de las llamadas al dominio Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -67,9 +70,9 @@ La siguiente tabla define los componentes básicos de una [!UICONTROL DCS] llama
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Un valor de variable que pertenece a un conjunto definido por una clave en el par clave-valor. </p> <p>Al trabajar con valores: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Encerrar los datos de cadena entre comillas dobles (por ejemplo, <code> age="41 to 55"</code>). </li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Encerrar datos de cadena entre comillas de doble (por ejemplo, <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Puede pasar varias claves en un solo valor (por ejemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formato de pares clave-valor en llamadas</a>DCS. </p> </td>
+     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formato de pares de clave-valor en llamadas</a>DCS. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -85,7 +88,7 @@ La siguiente tabla define los componentes básicos de una [!UICONTROL DCS] llama
 
 ## Llamada de muestra {#dcs-sample-call}
 
-En este ejemplo se muestra la empresa ficticia que [!DNL Acme, Inc.] envía datos al [!UICONTROL DCS] a través de una [!DNL HTTP] llamada. Tenga en cuenta que esta llamada incluye los parámetros `d_dst=1`, `d_rtbd=json`y `d_cb=callback`opcionales. Indican que [!DNL Acme] desea recibir una [!DNL JSON] respuesta de la [!UICONTROL DCS] función de llamada de retorno. Recuerden, este es sólo un ejemplo. No corte y pegue este código.
+Este ejemplo muestra la compañía ficticia [!DNL Acme, Inc.] que envía datos al [!DNL DCS] a través de una [!DNL HTTP] llamada. Tenga en cuenta que esta llamada incluye los parámetros `d_dst=1`, `d_rtbd=json`y `d_cb=callback`opcionales. Indican que [!DNL Acme] desea recibir una [!DNL JSON] respuesta de la [!DNL DCS] función de llamada de retorno. Recuerden, este es sólo un ejemplo. No corte y pegue este código.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -93,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Pasos siguientes {#dcs-next-steps}
 
-Ahora que estamos familiarizados con el envío de datos al [!UICONTROL DCS]sitio, es hora de ver cómo recuperar datos y analizar esa información. Consulte [Recepción de datos desde el DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Ahora que estamos familiarizados con el envío de datos al [!DNL DCS]sitio, es hora de ver cómo recuperar datos y analizar esa información. Consulte [Recepción de datos desde el DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
