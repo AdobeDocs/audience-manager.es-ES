@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Transferencias de datos salientes en tiempo real
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 4%
 
 ---
 
@@ -21,13 +24,13 @@ El proceso de transferencia de datos en tiempo real saliente ofrece datos de usu
 
 Para utilizar este método, la plataforma de destino debe cumplir los siguientes requisitos:
 
-* Debe proporcionar un punto final [!DNL URL] que pueda escalarse para recibir un gran volumen de mensajes de Audience Manager;
+* Debe proporcionar un punto final [!DNL URL] que pueda escalarse para recibir un gran volumen de mensajes del Audience Manager;
 * Debe aceptar los datos en [!DNL JSON] formato (`Content-type: application/json`);
 * Debe aceptar transferencias `HTTPS` de datos seguras. [!DNL Audience Manager] no enviará mensajes a través del protocolo no seguro `HTTP` .
 
 ## Frecuencia
 
-Este método de transferencia de datos puede enviar datos en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Los mensajes en tiempo real solo se entregan mientras el usuario está en línea y es visible activamente para la red de Audience Manager Edge. Opcionalmente, este método también puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
+Este método de transferencia de datos puede enviar datos en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Los mensajes en tiempo real solo se entregan mientras el usuario está en línea y es visible activamente para la red Audience Manager Edge. Opcionalmente, este método también puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
 
 ## Transferencias por lotes
 
@@ -39,7 +42,7 @@ No hay límites de velocidad establecidos en el rendimiento de los mensajes entr
 
 ## Respuestas obligatorias
 
-De forma predeterminada, el servidor destinatario debe devolver el `200 OK` código para indicar que se ha recibido correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera en 3000 milisegundos. En respuesta a un error, solo [!DNL Audience Manager] realizará un intento de reintento.
+De forma predeterminada, el servidor de destinatario debe devolver el `200 OK` código para indicar que se ha recibido correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera en 3000 milisegundos. En respuesta a un error, solo [!DNL Audience Manager] realizará un intento de reintento.
 
 ## Parámetros
 
@@ -72,12 +75,12 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Representa la cuenta de destino en la plataforma de destino. Este ID se origina en la plataforma de destino.</p> </td> 
+   <td colname="col3"> <p>Representa la cuenta de destinatario en la plataforma de destino. Este ID se origina en la plataforma de destino.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>ID del objeto "destino" de Audience Manager. Este ID se origina en Audience Manager.</p> </td> 
+   <td colname="col3"> <p>ID del objeto "destination" del Audience Manager. Este ID se origina en el Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -92,7 +95,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>UUID de <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>El <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -102,7 +105,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> ID de región de <span class="keyword"> Audience Manager</span> donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </td> 
+   <td colname="col3"> ID de la región <span class="keyword"> Audience Manager</span> donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -112,7 +115,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Identificador del segmento. En la mayoría de los casos, este es el ID de segmento generado por Audience Manager (un entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador de segmento en la interfaz de usuario de Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
+   <td colname="col3"> <p>Identificador del segmento. En la mayoría de los casos, este es el ID de segmento generado por el Audience Manager (un entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador del segmento en la interfaz de usuario del Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
