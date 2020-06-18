@@ -6,17 +6,20 @@ solution: Audience Manager
 title: API de REST
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 translation-type: tm+mt
-source-git-commit: 80d3001618211f76a2166b214a5b88a04ac07037
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
 
 # API de REST {#rest-apis}
 
-[!UICONTROL RESTful APIs] le permite trabajar mediante programación con Audience Manager.
+[!UICONTROL RESTful APIs] permite trabajar mediante programación con [!DNL Audience Manager].
 
-Audience Manager [!DNL REST API] sigue los estándares [!DNL JavaScript Object Notation] ( [JSON](https://www.json.org/)) para dar formato a los datos enviados y recibidos. Una de las principales ventajas de [!DNL JSON] esto es que ayuda a que los desarrolladores y los equipos puedan escribir, leer y analizar [!DNL API] fácilmente las consultas.
+Los [!DNL Audience Manager] siguientes [!DNL REST API] estándares [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) para dar formato a los datos enviados y recibidos. Una de las principales ventajas de [!DNL JSON] esto es que ayuda a facilitar la escritura, lectura y análisis de [!DNL API] consultas por parte de desarrolladores y máquinas.
 
-Para simplificar aún más su trabajo, estamos migrando nuestras API de REST a [Swagger](https://swagger.io/solutions/api-documentation/). Para obtener más información, consulte Migración [de código de API de](/help/using/api/api-swagger-migration.md)Audience Manager.
+Para simplificar aún más su trabajo, estamos migrando nuestro [!DNL REST APIs] a [Swagger](https://swagger.io/solutions/api-documentation/). Para obtener más información, consulte Migración [de código de API de](/help/using/api/api-swagger-migration.md)Audience Manager.
 
-Revise el material [Introducción](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabajar con los [!DNL API] métodos de Audience Manager.
+Revise el material de [introducción](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabajar con los [!DNL Audience Manager][!DNL API] métodos.
