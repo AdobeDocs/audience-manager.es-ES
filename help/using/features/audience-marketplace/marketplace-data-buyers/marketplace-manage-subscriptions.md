@@ -7,7 +7,10 @@ title: Administrar Suscripciones de fuentes de datos
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +127,7 @@ En [!UICONTROL Audience Marketplace]particular, los proveedores pueden oferta a 
    <td colname="col1"> <p> <b>Suscriptores potenciales</b> </p> </td> 
    <td colname="col2"> <p>Un <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> suscriptor</a> potencial es un comprador de datos que ha solicitado acceso a una fuente de datos privada, ha recibido la aprobación del vendedor pero no se ha suscrito a la fuente. Para solicitar un descuento como suscriptor potencial: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vaya a <b><span class="uicontrol"> Audiencia Marketplace &gt; Marketplace</span></b>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vaya a <b><span class="uicontrol"> Audience Marketplace &gt; Mercado</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Haga clic en el nombre de la fuente para la que ha sido aprobado. </li> 
      <li id="li_763C050AC9464BE380D00F6085B6E540">Haga clic en <b><span class="uicontrol"> Solicitar más detalles</span></b>. Pide un descuento en tu solicitud de detalles al vendedor. </li> 
     </ol> </td> 
@@ -183,7 +186,7 @@ Puede ser desconcertante o incluso molesto si una fuente a la que te suscribes e
 
 >[!TIP]
 >
->Póngase en contacto con el proveedor de datos directamente si cree que una fuente de datos se desactivó por error. El [!DNL Adobe] consultor puede ayudarle con información de contacto o asistencia adicional.
+>Póngase en contacto directamente con el proveedor de datos si cree que una fuente de datos se desactivó por error. El [!DNL Adobe] consultor puede ayudarle con información de contacto o asistencia adicional.
 
 ## Correo electrónico de desactivación {#deactivation-email}
 
@@ -278,7 +281,7 @@ Esta página proporciona la siguiente información:
    * Haga clic en **[!UICONTROL Request More Details]** para hacer preguntas al proveedor de datos sobre la fuente de datos seleccionada o para solicitar un descuento. Esta función envía sus comentarios y preguntas directamente al proveedor de datos.
 
 1. Métricas de informes de fuente de datos. El diagrama de Venn (y métricas relacionadas) muestra los datos de superposición de características de los últimos 30 días. Consulte [El Mercado: Acerca](marketplace-data-buyers.md#about-marketplace) de los detalles.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**:: El número de usuarios únicos en su cuenta que se superponen con los usuarios en la cuenta del proveedor. Para obtener una definición de usuarios únicos, consulte UUID de AAM en el [índice de ID en el Administrador](/help/using/reference/ids-in-aam.md)de Audiencias.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**:: El número de usuarios únicos en su cuenta que se superponen con los usuarios en la cuenta del proveedor. Para obtener una definición de usuarios únicos, consulte UUID de AAM en el [índice de ID en Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**:: Número de usuarios únicos procedentes de la cuenta del proveedor.
    * **[!UICONTROL Your Unique Users]**:: El número de usuarios únicos procedentes de su cuenta.
 
@@ -309,7 +312,7 @@ Este caso de uso le permite evaluar las características del proveedor comparán
 
 ### Activation
 
-Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!UICONTROL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], intercambio, etc.) que desea compartir datos con. Sin embargo, con un caso de [!UICONTROL Activation] uso, no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
+Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], intercambio, etc.) que desea compartir datos con. Sin embargo, con un caso de [!UICONTROL Activation] uso, no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
 
 >[!MORELIKETHIS]
 >
