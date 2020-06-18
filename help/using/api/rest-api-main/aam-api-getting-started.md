@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Introducción a las API de REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Los [!DNL Audience Manager][!DNL REST APIs] dos métodos de autenticación son c
 >
 >Según el método de autenticación, debe ajustar la solicitud [!DNL URLs] en consecuencia. Consulte la sección [Entornos](#environments) para obtener más información sobre los nombres de host que debe utilizar.
 
-## Autenticación JWT (cuenta de servicio) {#jwt}
+## Autenticación JWT ([!DNL Service Account]) {#jwt}
 
 ### Requisitos previos {#prerequisites}
 
@@ -278,14 +278,14 @@ Las nuevas versiones de estos [!DNL API]informes se publican con regularidad. Un
 
 | ID del código de respuesta | Texto de respuesta | Definición |
 |---|---|---|
-| 200 | `OK` | La solicitud se procesó correctamente. Devolverá el contenido o los datos esperados si es necesario. |
-| 201 | `Created` | Se creó el recurso. Devuelve `PUT` y `POST` solicitudes. |
-| 204 | `No Content` | Se eliminó el recurso. El cuerpo de la respuesta estará en blanco. |
-| 400 | `Bad Request` | El servidor no entendía la solicitud. Generalmente debido a una sintaxis mal formada. Compruebe su solicitud e inténtelo de nuevo. |
-| 403 | `Forbidden` | No tiene acceso al recurso. |
-| 404 | `Not Found` | No se encontró el recurso para la ruta especificada. |
-| 409 | `Conflict` | No se pudo completar la solicitud debido a un conflicto con el estado del recurso. |
-| 500 | `Server Error` | El servidor encontró un error inesperado que le impedía cumplir la solicitud. |
+| `200` | `OK` | La solicitud se procesó correctamente. Devolverá el contenido o los datos esperados si es necesario. |
+| `201` | `Created` | Se creó el recurso. Devuelve `PUT` y `POST` solicitudes. |
+| `204` | `No Content` | Se eliminó el recurso. El cuerpo de la respuesta estará en blanco. |
+| `400` | `Bad Request` | El servidor no entendía la solicitud. Generalmente debido a una sintaxis mal formada. Compruebe su solicitud e inténtelo de nuevo. |
+| `403` | `Forbidden` | No tiene acceso al recurso. |
+| `404` | `Not Found` | No se encontró el recurso para la ruta especificada. |
+| `409` | `Conflict` | No se pudo completar la solicitud debido a un conflicto con el estado del recurso. |
+| `500` | `Server Error` | El servidor encontró un error inesperado que le impedía cumplir la solicitud. |
 
 >[!MORELIKETHIS]
 >
