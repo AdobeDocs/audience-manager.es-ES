@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Introducción a la administración masiva
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Las herramientas de administración masiva le permiten crear y administrar varios objetos a la vez con una sola operación. Puede utilizar las herramientas de administración masiva para trabajar con fuentes de datos, señales derivadas, destinos, carpetas, modelos, segmentos y características.
+Permite [!DNL Bulk Management Tools] crear y administrar varios objetos a la vez con una sola operación. Puede usar [!DNL Bulk Management Tools] para trabajar con [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]y [!UICONTROL traits].
 
 <!-- 
 
@@ -24,11 +27,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la interfaz de [!DNL Audience Manager] usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
 ## Información general {#overview}
 
-Esta función utiliza una hoja de cálculo de Microsoft Excel con macros que realizan llamadas seguras y autenticadas a las [!DNL Audience Manager] API. La API proporciona los métodos y servicios que permiten realizar cambios de forma masiva. No es necesario que sepa cómo codificar o trabajar con nuestras API para usarlas. La hoja de cálculo contiene encabezados de columna y fichas que realizan funciones específicas de cambio masivo. Para realizar cambios masivos, solo tiene que agregar los encabezados predefinidos a hojas de cálculo específicas, proporcionar la información que desea cambiar de forma masiva y hacer clic en un botón de acción. La hoja de cálculo y las API realizan el resto del trabajo por usted.
+Esta función utiliza una [!DNL Microsoft Excel] hoja de cálculo con macros que realizan llamadas seguras y autenticadas a las [!DNL Audience Manager] API. La API proporciona los métodos y servicios que permiten realizar cambios de forma masiva. No es necesario que sepa cómo codificar o trabajar con nuestras API para usarlas. La hoja de cálculo contiene encabezados de columna y fichas que realizan funciones específicas de cambio masivo. Para realizar cambios masivos, solo tiene que agregar los encabezados predefinidos a hojas de cálculo específicas, proporcionar la información que desea cambiar de forma masiva y hacer clic en un botón de acción. La hoja de cálculo y las API realizan el resto del trabajo por usted.
 
 ## Descargar {#download}
 
@@ -40,7 +43,7 @@ Para usar el [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su [!DNL Experience Cloud] inicio de sesión. Como cliente, ya debería tener estas credenciales.
 * La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20200502.xlsm) para obtener la versión más reciente.
-* Microsoft Excel se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de Microsoft Excel.
+* [!DNL Microsoft Excel] se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel].
 * Al abrir la hoja de cálculo, debe **activar macros** para que [!DNL Bulk Management Tools] funcione.
 
 ## Requisitos y opciones de autenticación {#auth-reqs}
@@ -49,9 +52,9 @@ Los cambios masivos requieren autenticación. Antes de realizar cualquier acció
 
 **Requisitos de autenticación de API**
 
-La segunda versión de las herramientas de administración masiva, lanzada en octubre de 2019, simplifica el proceso de autenticación. Los pasos de autenticación de esta versión se describen a continuación:
+La segunda versión del [!DNL Bulk Management Tools], lanzada en octubre de 2019, simplifica el proceso de autenticación. Los pasos de autenticación de esta versión se describen a continuación:
 
-1. Abra la hoja de cálculo y vaya a la hoja de **configuración** .
+1. Abra la hoja de cálculo y vaya a la **[!UICONTROL Config]** hoja.
 2. Siga los pasos descritos en la hoja.
    ![](assets/baaam-authentication.png)
 3. Después de completar los pasos, está autorizado a realizar cambios masivos.
