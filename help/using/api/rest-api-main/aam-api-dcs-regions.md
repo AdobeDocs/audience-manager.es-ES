@@ -1,27 +1,30 @@
 ---
-description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
-seo-description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
+description: Métodos que permiten la lista mediante programación de regiones DCS Audience Manager.
+seo-description: Métodos que permiten la lista mediante programación de regiones DCS Audience Manager.
 seo-title: Métodos de API de región DCS
 solution: Audience Manager
 title: Métodos de API de región DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
 
 # Métodos de API de región DCS {#dcs-region-api-methods}
 
-Métodos que le permiten enumerar mediante programación [!UICONTROL DCS] regiones de Audience Manager.
+Métodos que permiten la lista mediante programación de regiones [!DNL DCS] Audience Manager.
 
 <!-- c_rest_api_regions.xml -->
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Enumerar una región específica de DCS {#list-specific-dcs-region}
+## Lista de una región DCS específica {#list-specific-dcs-region}
 
-Un `GET` método para mostrar una [!UICONTROL DCS] región específica.
+Un `GET` método para la lista de una [!DNL DCS] región específica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,7 +54,7 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 
 ## Lista de regiones DCS {#list-dcs-regions}
 
-Un `GET` método para enumerar [!UICONTROL DCS] regiones.
+Un `GET` método para la lista de [!DNL DCS] regiones.
 
 <!-- r_rest_api_regions_list.xml -->
 
