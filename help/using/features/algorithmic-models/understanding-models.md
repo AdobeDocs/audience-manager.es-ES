@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Acerca del modelado similar a la apariencia
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
 
 ## Buscar nuevos usuarios con modelos similares {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] ayuda a descubrir nuevas audiencias únicas mediante la análisis de datos automatizada. El proceso inicio cuando selecciona una característica o segmento, un intervalo de tiempo y fuentes de datos de origen y de terceros. Las opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios elegibles en función de las características compartidas de la población seleccionada. Una vez finalizados, estos datos están disponibles en el [generador](../../features/traits/about-trait-builder.md) de rasgos, donde puede utilizarlos para crear características basadas en la [precisión y el alcance](../../features/traits/trait-accuracy-reach.md). Además, puede crear segmentos que combinen características algorítmicas con características basadas en reglas y agregar otros requisitos de cualificación con expresiones booleanas y operadores de comparación. [!UICONTROL Look-Alike Modeling] proporciona una forma dinámica de extraer valor de todos los datos de características disponibles.
+[!UICONTROL Look-Alike Modeling] ayuda a descubrir nuevas audiencias únicas mediante la análisis automatizada de datos. El proceso inicio cuando selecciona una característica o segmento, un intervalo de tiempo y fuentes de datos de origen y de terceros. Las opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios elegibles en función de las características compartidas de la población seleccionada. Una vez finalizados, estos datos están disponibles en el [generador](../../features/traits/about-trait-builder.md) de rasgos, donde puede utilizarlos para crear características basadas en la [precisión y el alcance](../../features/traits/trait-accuracy-reach.md). Además, puede crear segmentos que combinen características algorítmicas con características basadas en reglas y agregar otros requisitos de cualificación con expresiones booleanas y operadores de comparación. [!UICONTROL Look-Alike Modeling] proporciona una forma dinámica de extraer valor de todos los datos de características disponibles.
 
 ## Ventajas {#advantages}
 
@@ -69,7 +72,7 @@ A cada usuario de las fuentes de datos seleccionadas se le asigna una puntuació
 
 ### Paso 5: Mostrar y trabajar con resultados
 
-El Administrador de Audiencias muestra los resultados del modelo ponderado en [!UICONTROL Trait Builder]. Si desea crear una característica algorítmica, [!UICONTROL Trait Builder] le permite crear características basadas en la puntuación ponderada generada por el algoritmo durante una ejecución de datos. Puede elegir una precisión mayor para calificar solo a los usuarios con puntuaciones de usuario muy altas y, por lo tanto, son muy similares a la audiencia de línea de base, en lugar de al resto de la audiencia. Si desea alcanzar una audiencia mayor (alcance), puede reducir la precisión.
+[!DNL Audience Manager] muestra los resultados del modelo ponderado en [!UICONTROL Trait Builder]. Si desea crear una característica algorítmica, [!UICONTROL Trait Builder] le permite crear características basadas en la puntuación ponderada generada por el algoritmo durante una ejecución de datos. Puede elegir una precisión mayor para calificar solo a los usuarios con puntuaciones de usuario muy altas y, por lo tanto, son muy similares a la audiencia de línea de base, en lugar de al resto de la audiencia. Si desea alcanzar una audiencia mayor (alcance), puede reducir la precisión.
 
 ### Paso 6: Volver a evaluar la importancia de una característica en los ciclos de procesamiento
 
