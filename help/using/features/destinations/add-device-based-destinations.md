@@ -1,13 +1,13 @@
 ---
-description: En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Administrador de Audiencias.
-seo-description: En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Administrador de Audiencias.
+description: En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Audience Manager.
+seo-description: En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Audience Manager.
 seo-title: Añadir nuevos destinos basados en dispositivos
 solution: Audience Manager
 title: Añadir nuevos destinos basados en dispositivos
 translation-type: tm+mt
-source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Añadir nuevos destinos basados en dispositivos {#add-new-device-based-destinations}
 
-En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Administrador de Audiencias.
+En este artículo se explica cómo configurar nuevos destinos basados en dispositivos desde la interfaz de usuario del Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -23,23 +23,23 @@ En este artículo se explica cómo configurar nuevos destinos basados en disposi
 
 ## Información general {#overview}
 
-El proceso de agregar un nuevo destino basado en dispositivos consiste en dos pasos principales. En primer lugar, debe configurar la integración entre el Administrador de Audiencias y el socio de destino. Una vez hecho esto, puede crear un nuevo destino basado en dispositivos.
+El proceso de agregar un nuevo destino basado en dispositivos consiste en dos pasos principales. En primer lugar, debe configurar la integración entre el Audience Manager y el socio de destino. Una vez hecho esto, puede crear un nuevo destino basado en dispositivos.
 
 ## Requisitos previos {#prerequisites}
 
-Al crear el primer destino basado en dispositivos con una plataforma integrada, póngase en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente para habilitar la sincronización de ID entre el administrador de Audiencias y la plataforma integrada de su cuenta. Esto es necesario para la sincronización correcta entre el Administrador de Audiencias y la plataforma de destino.
+Al crear el primer destino basado en dispositivos con una plataforma integrada, póngase en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente para habilitar la sincronización de ID entre el Audience Manager y la plataforma integrada de su cuenta. Esto es necesario para la sincronización correcta entre el Audience Manager y la plataforma de destino.
 
-## Paso 1. Autenticar con una plataforma de destino {#step1}
+## Paso 1. Autenticar con un Platform de destino {#step1}
 
-Para poder crear un nuevo destino basado en dispositivos, debe configurar la integración entre el Administrador de Audiencias y la plataforma de destino. A continuación se muestra cómo hacerlo:
+Para poder crear un nuevo destino basado en dispositivos, debe configurar la integración entre Audience Manager y la plataforma de destino. A continuación se muestra cómo hacerlo:
 
-1. Inicie sesión en la cuenta del Administrador de Audiencias y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. De lo contrario, la página está vacía.
+1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. De lo contrario, la página está vacía.
 1. Haga clic **[!DNL Add Account]**.
 1. Seleccione la plataforma de destino con la que desea autenticarse y haga clic en **[!DNL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
 
    ![plataformas integradas](assets/dbd-integrated-platforms.png)
 
-1. Una vez que se haya autenticado en la cuenta de la plataforma de destino, se le redirigirá al Administrador de Audiencias, donde deberá ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
+1. Una vez que se haya autenticado en la cuenta de la plataforma de destino, se le redirigirá al Audience Manager, donde deberá ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
 
 ## Paso 2: Crear un nuevo destino basado en dispositivo {#step2}
 
@@ -49,7 +49,7 @@ Una vez configurada la integración de plataforma de destino, puede crear el nue
 >
 >No se puede cambiar el nombre de un destino existente basado en dispositivo. Asegúrese de proporcionar un nombre que le ayude a identificar el destino correctamente.
 
-1. Inicie sesión en la cuenta del Administrador de Audiencias, vaya a **[!DNL Audience Data > Destinations]** y haga clic en **[!DNL Create Destination]**.
+1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!DNL Audience Data > Destinations]** y haga clic en **[!DNL Create Destination]**.
 1. En la **[!DNL Basic Information]** sección, introduzca un **[!DNL Name]** y **[!DNL Description]** para el nuevo destino y utilice la configuración de la siguiente lista:
 
    ![configurar](assets/dbd-new-basic.png)
