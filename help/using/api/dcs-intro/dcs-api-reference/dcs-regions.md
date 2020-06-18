@@ -6,14 +6,17 @@ solution: Audience Manager
 title: ID de región, ubicaciones y nombres de host de DCS
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 translation-type: tm+mt
-source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
 
 # DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 
-El nombre de host del [!UICONTROL DCS] servidor regional es necesario para realizar llamadas al [!UICONTROL DCS]. Esto se debe a que [!UICONTROL DCS] almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía a los usuarios incorrectos [!UICONTROL DCS]pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una [!UICONTROL DCS] solicitud, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
+El nombre de host del [!DNL DCS] servidor regional es necesario para realizar llamadas al [!DNL DCS]. Esto se debe a que [!DNL DCS] almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía a los usuarios incorrectos [!DNL DCS]pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una [!DNL DCS] solicitud, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -51,7 +54,7 @@ El nombre de host del [!UICONTROL DCS] servidor regional es necesario para reali
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID9 </p> </td> 
-   <td colname="col2"> <p>EE.UU. Occidental (Oregón, EE.UU.) </p> </td> 
+   <td colname="col2"> <p>Oeste de EE.UU. (Oregón, EE.UU.) </p> </td> 
    <td colname="col3"> <p> <code> usw2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -67,4 +70,4 @@ El nombre de host del [!UICONTROL DCS] servidor regional es necesario para reali
  </tbody> 
 </table>
 
-También puede utilizar [!DNL API] métodos para obtener una lista de las [!UICONTROL DCS] regiones disponibles. Consulte Métodos [de API de región DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
+También puede utilizar [!DNL API] métodos para obtener una lista de las [!DNL DCS] regiones disponibles. Consulte Métodos [de API de región DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
