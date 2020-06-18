@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glosario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 3%
@@ -46,9 +46,9 @@ See [Customer Data Feeds](../features/cdf-files.md).
 
 **ID de CRM**
 
-El ID de CRM es el ID mediante el cual los clientes identifican a los usuarios en su propio sistema CRM. En lugar del ID de CRM, se utiliza el término DPUUID en el Administrador de Audiencias.
+El ID de CRM es el ID mediante el cual los clientes identifican a los usuarios en su propio sistema CRM. En lugar del ID de CRM, usamos el término DPUUID en Audience Manager.
 
-Consulte DPUUID en el [índice de ID en el Administrador](../reference/ids-in-aam.md)de Audiencias.
+Consulte DPUUID en el [índice de ID de Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -166,7 +166,7 @@ Al trabajar con la interfaz de usuario o la API, tiene la opción de agregar un 
 
 * [!UICONTROL Traits]:: un código de integración es un campo para un ID, SKU u otro valor utilizado por los procesos empresariales internos. Opcional.
 * [!UICONTROL Segments]:: un código de integración es un campo para un ID definido por el usuario u otra información específica de la compañía. Opcional.
-* [!UICONTROL Data Sources]:: los códigos de integración son necesarios cuando desea crear fuentes de datos entre dispositivos, utilizar el servicio de identidad de la plataforma Adobe Experience Platform o trabajar con [!UICONTROL Profile Merge Rules]. Consulte [Crear una fuente](../features/manage-datasources.md#create-data-source) de datos para obtener más información.
+* [!UICONTROL Data Sources]:: los códigos de integración son necesarios cuando desea crear fuentes de datos entre dispositivos, utilizar el servicio de identidad de Adobe Experience Platform o trabajar con [!UICONTROL Profile Merge Rules]. Consulte [Crear una fuente](../features/manage-datasources.md#create-data-source) de datos para obtener más información.
 
 ## K-L {#k-l}
 
@@ -178,13 +178,13 @@ Consulte [Modelado](../reference/aam-glossary.md#a-b)algorítmico.
 
 **MCID**, **MID**
 
-Consulte el ID [de](../reference/aam-glossary.md#e-f)Experience Cloud.
+Consulte el ID del [Experience Cloud](../reference/aam-glossary.md#e-f).
 
 ## O-P {#o-p}
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. La [!UICONTROL PCS] es una base de datos grande, que se ejecuta en Apache Cassandra. Almacena los datos recibidos para los usuarios activos desde las transferencias de servidor a servidor y desde el [!UICONTROL DCS]. [!UICONTROL PCS] los datos constan de ID de dispositivo, ID de perfil autenticados y sus características asociadas.
+[!UICONTROL Profile Cache Server]. La [!UICONTROL PCS] es una base de datos grande, que se ejecuta en Apache Cassandra. Almacena los datos recibidos para los usuarios activos desde las transferencias de servidor a servidor y desde el [!DNL DCS]. [!UICONTROL PCS] los datos constan de ID de dispositivo, ID de perfil autenticados y sus características asociadas.
 
 Consulte Componentes [de recopilación de datos](../reference/system-components/components-data-collection.md).
 
@@ -220,7 +220,7 @@ Consulte [Segmentos: Propósito, Composición y Reglas](../features/segments/seg
 
 **Audiencia direccionable del segmento**
 
-En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa el número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en [Audiencia Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+En la Audiencia [](/help/using/features/addressable-audiences.md)direccionable, esta métrica representa el número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en el [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
