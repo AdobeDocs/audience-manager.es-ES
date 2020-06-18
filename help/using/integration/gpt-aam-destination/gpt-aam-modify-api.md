@@ -1,27 +1,30 @@
 ---
-description: Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
-seo-description: Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
-seo-title: Modificar la llamada de API de setTargeting de GPT
+description: Añada una instrucción if para comprobar si hay cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
+seo-description: Añada una instrucción if para comprobar si hay cookies de Audience Manager antes de llamar al método Google Publisher Tag.setTargeting.
+seo-title: Modificación de la llamada de API de setTargeting de GPT
 solution: Audience Manager
-title: Modificar la llamada de API de setTargeting de GPT
+title: Modificación de la llamada de API de setTargeting de GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 1%
 
 ---
 
 
 # Modificación de la llamada de `setTargeting` API de GPT {#modify-the-gpt-settargeting-api-call}
 
-Agregue una instrucción if para comprobar las cookies de Audience Manager antes de llamar al [!DNL Google Publisher Tag] método `.setTargeting` .
+Añada una instrucción if para comprobar si hay cookies de Audience Manager antes de llamar al [!DNL Google Publisher Tag] método `.setTargeting` .
 
-## Buscar cookies de Audience Manager con una `IF` instrucción
+## Buscar cookies Audience Manager con un `IF` estado
 
-El `.setTargeting` método obtiene datos de la cookie de destino de Audience Manager y de la cookie de ID de usuario única ( `aam_uuid`). Sin embargo, si `.setTargeting` se invoca antes de [!UICONTROL DIL] escribir estas cookies, o si las cookies están vacías, es posible que se produzcan errores al cargar la página. Para evitar esto, ajuste el `.setTargeting` método en una `if` instrucción que compruebe si hay cookies. Si no están configurados, esta instrucción evita `.setTargeting` llamar a la `AamGpt` función.
+El `.setTargeting` método obtiene datos de la cookie de destino del Audience Manager y de la cookie de ID de usuario única ( `aam_uuid`). Sin embargo, si `.setTargeting` se invoca antes de [!UICONTROL DIL] escribir estas cookies, o si las cookies están vacías, es posible que se produzcan errores al cargar la página. Para evitar esto, ajuste el `.setTargeting` método en una `if` instrucción que compruebe si hay cookies. Si no están configurados, esta instrucción evita `.setTargeting` llamar a la `AamGpt` función.
 
 ### `IF` Ejemplo de código de instrucción
 
-En este ejemplo, el nombre de la cookie de destino de Audience Manager es `Sample`. Este nombre se establece al crear la cookie de destino en la interfaz de usuario de Audience Manager. [!UICONTROL DIL] establece la `aam_uuid` cookie y no se puede cambiar el nombre.
+En este ejemplo, el nombre de la cookie de destino del Audience Manager es `Sample`. Este nombre se establece al crear la cookie de destino en la interfaz de usuario del Audience Manager. [!UICONTROL DIL] establece la `aam_uuid` cookie y no se puede cambiar el nombre.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -36,9 +39,9 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >Según la integración con [!DNL DFP], solo necesita algunas de las líneas del ejemplo de código anterior:
 >
->* Integración del cliente: utilice únicamente las líneas 1-3.
+>* Integración del lado del cliente: utilice únicamente las líneas 1-3.
 >* Integración del lado del servidor: no se necesita ninguna de las líneas.
->* Ingestar archivos [!DNL DFP] de registro para crear informes en [!DNL Audience Manager]: utilice únicamente las líneas 4-6. Este código inserta el valor de la `aam_uuid` cookie en los registros para que se puedan ingerir en los informes.
+>* Ingestar archivos [!DNL DFP] de registro para sistema de informes en [!DNL Audience Manager]: utilice únicamente las líneas 4-6. Este código inserta el valor de la `aam_uuid` cookie en los registros para que se puedan ingerir para sistema de informes.
 
 
 ### `AamGpt` Funciones y tipos de datos
@@ -67,7 +70,7 @@ Define las variables clave utilizadas en la `if` sentencia.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Devuelve el ID de usuario de Audience Manager, por ejemplo <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Devuelve el ID de usuario del Audience Manager, por ejemplo <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -75,5 +78,5 @@ Define las variables clave utilizadas en la `if` sentencia.
 >[!MORELIKETHIS]
 >
 >* [Crear un destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Código de Audience Manager para etiquetas de publicador de Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Código Audience Manager para etiquetas de publicador de Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
