@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Códigos de error DCS, mensajes y ejemplos {#dcs-error-codes-messages-and-examples}
 
-Códigos de error y mensajes generados por los [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]) enumerados en orden numérico por ID de código.
+Códigos de error y mensajes generados por los [!UICONTROL Data Collection Servers] ([!DNL DCS]) enumerados en orden numérico por ID de código.
 
 In the tables below, *italics* represents a variable placeholder.
 
@@ -67,13 +67,13 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Se pasó un identificador de Experience Cloud no válido <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Se pasó una identificación de Experience Cloud no válida <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID de <span class="keyword"> Experience Cloud</span> no válido. </p> <p>Compruebe el par <code> d_mid=</code> clave-valor en la cadena de encabezado. Asegúrese de pasar el ID de <span class="keyword"> Experience Cloud</span> correcto e intente la solicitud de nuevo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
    <td colname="col2"> <p>Se pasó un identificador de aam no válido en la solicitud <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID <span class="keyword"> del administrador</span> de Audiencias no válido. </p> <p>Compruebe el par <code> d_uuid=</code> clave-valor en la cadena de encabezado. Asegúrese de que está pasando el ID del administrador <span class="keyword"> de</span> Audiencias correcto e intente la solicitud de nuevo. </p> </td> 
+   <td colname="col3"> <p>La <span class="wintitle"> llamada de DCS</span> contiene un ID de <span class="keyword"> Audience Manager</span> no válido. </p> <p>Compruebe el par <code> d_uuid=</code> clave-valor en la cadena de encabezado. Asegúrese de pasar el ID de <span class="keyword"> Audience Manager</span> correcto e intente la solicitud de nuevo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
@@ -88,7 +88,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
    <td colname="col2"> <p>Se recibió un token <span class="wintitle"> IMS</span> no válido </p> </td> 
-   <td colname="col3"> <p>Se devuelve para el Administrador de Audiencias: integraciones de Adobe Destinatario. El error se produce cuando se realiza una llamada al DCS, que contiene un token IMS no válido. Es posible que el token esté mal formado, caduque o que el usuario no esté autorizado para acceder al recurso requerido. </p> </td>
+   <td colname="col3"> <p>Devuelto para integraciones de Audience Manager - Adobe Target. El error se produce cuando se realiza una llamada al DCS, que contiene un token IMS no válido. Es posible que el token esté mal formado, caduque o que el usuario no esté autorizado para acceder al recurso requerido. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -247,7 +247,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La solicitud contiene un ID de dispositivo global no válido </p> </td> 
-   <td colname="col3"> <p>El <span class="wintitle">DCS</span> devuelve este código de error cuando la solicitud contiene un ID de dispositivo global no válido. DCS ignora el ID no válido y genera un error 312 junto con los errores específicos del ID no válido. Consulte Fuentes <a href="../../../features/global-data-sources.md" format="dita" scope="local">de datos</a> globales e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">índice de ID en el Administrador</a> de Audiencias para obtener información detallada sobre los formatos de ID de publicidad de dispositivos correctos y las fuentes de datos globales correspondientes.</p>
+   <td colname="col3"> <p>El <span class="wintitle">DCS</span> devuelve este código de error cuando la solicitud contiene un ID de dispositivo global no válido. DCS ignora el ID no válido y genera un error 312 junto con los errores específicos del ID no válido. Consulte Fuentes <a href="../../../features/global-data-sources.md" format="dita" scope="local">de datos</a> globales e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de ID en Audience Manager</a> para obtener información detallada sobre los formatos de ID de publicidad de dispositivo correctos y las fuentes de datos globales correspondientes.</p>
    <p>Ejemplo de una llamada incorrecta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicación: Un <span class="keyword">IDFA (DPID 20915)</span> debe ser un ID en mayúsculas. El ID proporcionado en la solicitud se escribe en minúsculas.</p>
    </td>
@@ -255,18 +255,18 @@ In the tables below, *italics* represents a variable placeholder.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>El Id. de CMP no está presente en GCL</p> </td> 
-   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena TC de IAB se genera mediante un ID de CMP que no está presente en la versión en caché del Administrador de Audiencias de la Lista de CMP global en el momento de la evaluación, el complemento Administrador de Audiencias para TCF de IAB descarta la cadena TC de IAB y procesa la solicitud como de costumbre. La macro TCF v2.0 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p>
+   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena TC de IAB se genera mediante un ID de CMP que no está presente en la versión en caché de Audience Manager de la Lista de CMP global en el momento de la evaluación, el complemento de Audience Manager para TCF de IAB descarta la cadena TC de IAB y procesa la solicitud como de costumbre. La macro TCF v2.0 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>El ID de CMP está marcado como eliminado en GCL</p> </td> 
-   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena TC de IAB es generada por un CMP marcado como eliminado en nuestra versión en caché de la Lista de CMP global, el complemento Administrador de Audiencias para TCF de IAB descarta la cadena TC y procesa la solicitud como de costumbre, si el tiempo de evaluación ha pasado el tiempo de eliminación de la Lista de CMP global. La macro TCF v2.0 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p></td>
+   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena TC de la IAB es generada por un CMP marcado como eliminado en la versión en caché de la Lista del CMP global, el complemento Audience Manager para el TCF de la IAB descarta la cadena TC y procesa la solicitud como de costumbre, si el tiempo de evaluación supera el tiempo de eliminación de la Lista del CMP global. La macro TCF v2.0 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>La cadena de consentimiento indica que no hay consentimiento</p> </td> 
-   <td colname="col3"> <p>Cuando no se proporciona el consentimiento, el complemento Administrador de Audiencias para IAB TCF excluye al usuario de la recopilación de datos adicionales o descarta la llamada por completo si no se detecta ningún contexto de socio.</p>
+   <td colname="col3"> <p>Cuando no se proporciona el consentimiento, el complemento Audience Manager para IAB TCF excluye al usuario de la recopilación de datos adicionales o descarta la llamada por completo si no se detecta ningún contexto de socio.</p>
    </td>
   </tr>
 
@@ -275,7 +275,7 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Ejemplo de mensajes de código de error {#sample-error-codes}
 
-El [!UICONTROL DCS] devuelve códigos de error y mensajes en un [!DNL JSON] objeto o en un encabezado X de la cadena de respuesta HTTP.
+El [!DNL DCS] devuelve códigos de error y mensajes en un [!DNL JSON] objeto o en un encabezado X de la cadena de respuesta HTTP.
 
 ### Ejemplo de código de error DCS y mensaje
 
