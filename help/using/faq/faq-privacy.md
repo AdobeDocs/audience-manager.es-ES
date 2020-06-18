@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +26,13 @@ Responde a las preguntas comunes sobre privacidad en relación con los datos, ad
 >
 >Visite el Centro de privacidad de [Adobe](https://www.adobe.com/privacy.html) para obtener más información.
 
-**¿Cómo utiliza el Administrador de Audiencias las cookies y qué cookies establece?**
+**¿Cómo utiliza el Audience Manager las cookies y qué cookies establece?**
 
 See [Audience Manager Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
-**¿Pueden los clientes del Administrador de Audiencias de los usuarios del destinatario de EE. UU. en propiedades de la UE?**
+**¿Pueden los clientes Audience Manager de los usuarios de destinatario de EE. UU. en propiedades de la UE?**
 
-Sí. El Administrador de Audiencias trabaja con clientes que tienen propiedades e inventario internacionales. La UE tiene leyes estrictas de privacidad, pero el Administrador de Audiencias tiene clientes que utilizan datos de origen para dirigir audiencias en Europa. El administrador de Audiencias puede admitir el establecimiento de objetivos para audiencias de la UE, pero es responsabilidad suya cumplir con las normas locales de privacidad.
+Sí. Audience Manager trabaja con clientes que tienen propiedades e inventario internacionales. La UE tiene estrictas leyes de privacidad, pero el Audience Manager tiene clientes que utilizan datos de origen para dirigir audiencias en Europa. El Audience Manager puede apoyar el establecimiento de objetivos para las audiencias de la UE, pero es responsabilidad suya cumplir con las normas locales de privacidad.
 
 <!-- 
 
@@ -52,23 +55,23 @@ La siguiente tabla lista los tiempos de retención para diferentes tipos de dato
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores back-end </p> </td> 
-   <td colname="col2"> <p>120 días. </p> <p> El Administrador de Audiencias elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma Audiencia Manager. Si <span class="keyword"> el Administrador</span> de Audiencias registra la actividad de los usuarios dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días. </p> </td> 
+   <td colname="col2"> <p>120 días. </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma Audience Manager. Si el <span class="keyword"> Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores Edge </p> </td> 
-   <td colname="col2"> <p> 14 días. </p> <p>El Administrador de Audiencias elimina los datos de usuario de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma del Administrador de Audiencias. Si <span class="keyword"> el Administrador</span> de Audiencias registra la actividad de los usuarios dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días. Si el usuario vuelve a estar activo después del período de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de borde después de más de 14 días de inactividad. </p> </td> 
+   <td colname="col2"> <p> 14 días. </p> <p>Audience Manager elimina los datos de usuario de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma Audience Manager. Si <span class="keyword"> el Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días. Si el usuario vuelve a estar activo después del período de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de borde después de más de 14 días de inactividad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros sin procesar </p> </td> 
-   <td colname="col2"> <p>180 días (se elimina después de 180 días sin actividad). </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos integrados enviados al Administrador <span class="keyword"> de Audiencias</span>. </p> </td> 
+   <td colname="col2"> <p>180 días (se elimina después de 180 días sin actividad). </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos integrados enviados al <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros del servidor de publicidad </p> </td> 
-   <td colname="col2"> <p><b>Informes</b> </p> <p>Los archivos de registro se conservan con fines de sistema de informes durante un máximo de 30 días. No persistimos los registros no coincidentes (es decir, los registros para los que no hay sincronización de ID entre el ID de servidor de anuncios de un visitante y el ID de administrador <span class="keyword"> de</span> Audiencias) en nuestro almacenamiento de back-end, y los registros coincidentes almacenados en <span class="keyword"> Amazon S3</span> se conservan durante un máximo de 30 días. </p> <p><b>Archivos de registro procesables</b> </p> <p>Los registros coincidentes y no coincidentes se conservan durante un máximo de 30 días. </p> </td> 
+   <td colname="col2"> <p><b>Informes</b> </p> <p>Los archivos de registro se conservan con fines de sistema de informes durante un máximo de 30 días. No persistimos los registros no coincidentes (es decir, los registros para los que no hay sincronización de ID entre el ID de servidor de publicidad de un visitante y el ID de <span class="keyword"> Audience Manager</span> ) en nuestro almacenamiento de back-end, y los registros coincidentes almacenados en <span class="keyword"> Amazon S3</span> se conservan durante un máximo de 30 días. </p> <p><b>Archivos de registro procesables</b> </p> <p>Los registros coincidentes y no coincidentes se conservan durante un máximo de 30 días. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>perfiles de nivel CRM (perfiles autenticados) </p> </td> 
-   <td colname="col2"> <p>El intervalo predeterminado de tiempo de vida (TTL) para perfiles inactivos de nivel CRM (ID de cliente) es de 24 meses. Sin embargo, puede utilizar la interfaz de usuario del Administrador de Audiencias para reducir o ampliar el intervalo TTL para perfiles inactivos de nivel CRM entre un mes y 5 años. Esto se puede lograr al crear o editar una fuente de datos entre dispositivos.</p> <p>Para obtener más información, consulte Configuración de fuentes de datos en <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Crear una fuente de datos entre dispositivos </a>.</p> </td> 
+   <td colname="col2"> <p>El intervalo predeterminado de tiempo de vida (TTL) para perfiles inactivos de nivel CRM (ID de cliente) es de 24 meses. Sin embargo, puede utilizar la interfaz de usuario del Audience Manager para reducir o ampliar el intervalo TTL para perfiles inactivos de nivel CRM entre un mes y 5 años. Esto se puede lograr al crear o editar una fuente de datos entre dispositivos.</p> <p>Para obtener más información, consulte Configuración de fuentes de datos en <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Crear una fuente de datos entre dispositivos </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de dispositivos móviles </p> </td> 
@@ -76,19 +79,19 @@ La siguiente tabla lista los tiempos de retención para diferentes tipos de dato
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos del cliente (CDF) </p> </td> 
-   <td colname="col2"> <p>Un archivo CDF contiene los mismos datos que una llamada de evento del Administrador <span class="keyword"> de</span> Audiencias (/evento) envía a nuestros servidores. El período de retención es de 8 días. Para obtener más información sobre CDF, consulte <a href="../features/cdf-files.md"> CDF Intro</a> y <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>Un archivo CDF contiene los mismos datos que una llamada de evento <span class="keyword"> Audience Manager</span> (/evento) envía a nuestros servidores. El período de retención es de 8 días. Para obtener más información sobre CDF, consulte <a href="../features/cdf-files.md"> CDF Intro</a> y <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asignaciones entre ID sincronizados </p> </td> 
-   <td colname="col2"> <p>La duración de las asignaciones <a href="../features/administration/usage-limits.md#id-mapping-limits"> de</a> ID entre los ID de cookies del Administrador de Audiencias (ID de usuario único del Administrador de<a href="../reference/ids-in-aam.md">Audiencias o UUID</a>de AAM) y los ID de cookies de terceros está limitada a 120 días. La duración de la asignación de ID se restablece cada vez que se ve la cookie del Administrador de Audiencias en la red del Administrador de Audiencias. La sincronización de asignación de ID más reciente se conservará durante toda la vida del ID de usuario único del administrador de <a href="../reference/ids-in-aam.md">Audiencias asociado (AAM UUID)</a>.</p></td> 
+   <td colname="col2"> <p>La duración de las asignaciones <a href="../features/administration/usage-limits.md#id-mapping-limits"> de</a> ID entre los ID de cookies de Audience Manager (ID de usuario único de<a href="../reference/ids-in-aam.md">Audience Manager o UUID de AAM</a>) y los ID de cookies de terceros está limitada a 120 días. La duración de la asignación de ID se restablece cada vez que se ve la cookie de Audience Manager en la red de Audience Manager. La sincronización de asignación de ID más reciente se conservará durante toda la vida del ID de usuario único de <a href="../reference/ids-in-aam.md">Audience Manager (UUID de AAM)</a>asociado.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datos de entrada </p> </td> 
-   <td colname="col2"> <p>Se trata de datos de entrada que se envían al Administrador <span class="keyword"> de</span> Audiencias por FTP o directamente a un directorio <span class="keyword"> Amazon S3</span> . Consulte las <a href="../faq/faq-inbound-data-ingestion.md"> Preguntas más frecuentes</a>sobre la introducción de datos de clientes entrantes. </p> </td> 
+   <td colname="col2"> <p>Se trata de datos de entrada que se envían al <span class="keyword"> Audience Manager</span> por FTP o directamente a un directorio <span class="keyword"> Amazon S3</span> . Consulte las <a href="../faq/faq-inbound-data-ingestion.md"> Preguntas más frecuentes</a>sobre la introducción de datos de clientes entrantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datos de salida </p> </td> 
-   <td colname="col2"> <p>Estos son los datos de lote que <span class="keyword"> el Administrador</span> de Audiencias envía a los socios de activación de terceros. El período de retención es de 8 días. Para obtener más información sobre los datos salientes, consulte <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Transferencias</a>por lotes salientes. </p> </td> 
+   <td colname="col2"> <p>Estos son los datos de lote que <span class="keyword"> el Audience Manager</span> envía a los socios de activación de terceros. El período de retención es de 8 días. Para obtener más información sobre los datos salientes, consulte <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Transferencias</a>por lotes salientes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
