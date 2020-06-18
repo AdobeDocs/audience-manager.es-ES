@@ -5,9 +5,9 @@ seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Puede usar [!DNL People-Based Destinations] para segmentar y destinatario a clie
 
 [!DNL People-Based Destinations] es una integración de Audience Manager premium. Póngase en contacto con su representante de Adobe para aprovechar esta función Premium.
 
-## Por qué debe usar destinos basados en personas {#why-use}
+## Por qué debería usar [!UICONTROL People-Based Destinations] {#why-use}
 
 **Proporcione a sus clientes experiencias coherentes entre canales administrando toda la segmentación de audiencias desde Audience Manager.**
 
