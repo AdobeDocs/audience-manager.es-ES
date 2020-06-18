@@ -1,26 +1,29 @@
 ---
-description: Preguntas más frecuentes sobre la introducción de datos sin conexión en el Administrador de Audiencias.
+description: Preguntas más frecuentes sobre la introducción de datos sin conexión en Audience Manager.
 keywords: ftp or s3;s3 or ftp
-seo-description: Preguntas más frecuentes sobre la introducción de datos sin conexión en el Administrador de Audiencias.
+seo-description: Preguntas más frecuentes sobre la introducción de datos sin conexión en Audience Manager.
 seo-title: Preguntas más frecuentes sobre la ingestión de datos de clientes entrantes
 solution: Audience Manager
 title: Preguntas más frecuentes sobre la ingestión de datos de clientes entrantes
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 3%
 
 ---
 
 
 # Preguntas más frecuentes sobre la ingestión de datos de clientes entrantes{#inbound-customer-data-ingestion-faq}
 
-Preguntas más frecuentes sobre la introducción de datos sin conexión en el Administrador de Audiencias.
+Preguntas más frecuentes sobre la introducción de datos sin conexión en Audience Manager.
 
  
 
 **¿Puede resumir el proceso de integración?**
 
-El proceso de integración consiste en dos pasos descritos en [Enviar datos por lotes a la información general](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)del administrador de Audiencias:
+El proceso de integración consiste en dos pasos descritos en [Enviar datos por lotes a la información general](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)del Audience Manager:
 
 * Paso 1: sincronizar ID de usuario;
 * Paso 2: cree y transfiera su archivo de datos de entrada, cumpliendo los requisitos de formato de archivo.
@@ -55,10 +58,10 @@ Consulte Compresión [de archivos para archivos](../integration/sending-audience
 
 **¿Puedo cargar un archivo de datos de entrada (archivo [!DNL .sync] o [!DNL .overwrite]) antes de implementar [!DNL Audience Manager] el código en la producción?**
 
-Sí. Siempre que utilice un origen de datos entre dispositivos para almacenar los datos CRM que cargue, el Administrador de Audiencias siempre almacena los datos. De hecho, tras las mejoras de las reglas de combinación de Perfiles que el Administrador de Audiencias inició en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y realizar acciones en ellos sin implementar el código del Administrador de Audiencias en la producción. Consulte:
+Sí. Siempre que utilice un [!UICONTROL cross-device data source] para almacenar los datos de CRM que cargue, el Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que Audience Manager lanzó en octubre de 2019 que permiten casos de uso solo sin conexión, puede cargar datos y realizar acciones en ellos sin necesidad de implementar código de Audience Manager en la producción. Consulte:
 
 * [Información general sobre las mejoras de las reglas de combinación de Perfiles](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* Destinos basados en personas: [personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -141,7 +144,7 @@ Como práctica recomendada, envíe un archivo incremental una vez al día para n
 
  
 
-**¿Cuánto tiempo mantiene Audiencia Manager mis archivos en el servidor?**
+**¿Cuánto tiempo mantiene Audience Manager mis archivos en el servidor?**
 
 Los archivos FTP se eliminan una vez procesados. [!DNL S3] los archivos se eliminan pasados 30 días. Se eliminan los archivos que no se pueden procesar debido a errores de formato, sintaxis u otros errores. Consulte también Preguntas más frecuentes sobre [privacidad y retención de datos](../faq/faq-privacy.md).
 
@@ -153,7 +156,7 @@ Los archivos FTP se eliminan una vez procesados. [!DNL S3] los archivos se elimi
 
    >[!NOTE]
    >
-   >Los [!DNL .overwrite] archivos solo sobrescriben los datos de [!DNL Audience Manager] perfil asociados a este proveedor de datos. En otras palabras, todos los [!DNL Adobe Analytics] datos asociados al visitante permanecen intactos después de procesar un [!DNL .overwrite] archivo.
+   >Los [!DNL .overwrite] archivos solo sobrescriben los datos de [!DNL Audience Manager] perfil asociados a este proveedor de datos. En otras palabras, todos los [!DNL Audience Manager] datos asociados al visitante permanecen intactos después de procesar un [!DNL .overwrite] archivo.
 
 * **Incremental:** Un archivo incremental anexa nuevos datos a los perfiles de visitante existentes. Los archivos incrementales se identifican mediante la `.sync` etiqueta anexada al nombre del archivo. Enviar un archivo incremental no borra ni sobrescribe los perfiles existentes.
 
@@ -184,7 +187,7 @@ Las marcas de hora se utilizan para el registro y el mantenimiento de registros.
 
  
 
-**¿Qué es una ID de proveedor de datos (DPID) y cómo puedo obtenerla?**
+**¿Qué es un[!DNL Data Provider ID (DPID)]y cómo lo entiendo?**
 
 El consultor de Adobe asignará un [DPID de tres o cuatro dígitos (ID del proveedor de datos)](../reference/ids-in-aam.md) a la fuente de datos concreta. Este ID es único y no cambia.
 
@@ -196,7 +199,7 @@ Consulte Compresión [de archivos para archivos](../integration/sending-audience
 
  
 
-**¿El Administrador de Audiencias admite la compresión de archivos?**
+**¿El Audience Manager admite la compresión de archivos?**
 
 Sí, consulte:
 
@@ -207,7 +210,7 @@ Sí, consulte:
 
 **La clave principal de mi base de datos de origen de datos es una dirección de correo electrónico. ¿Se considera que esa información es personal?**
 
-Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los Visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar la sincronización de ID.
+Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los Visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar las sincronizaciones de ID.
 
  
 
@@ -223,7 +226,7 @@ Como práctica recomendada, recomendamos [!DNL Amazon S3] porque el proceso es m
 
 >[!WARNING]
 >
->Estamos eliminando gradualmente la compatibilidad con las configuraciones de FTP. Aunque la ingestión de archivos de datos de entrada sigue siendo compatible con integraciones de FTP existentes, recomendamos encarecidamente utilizar Amazon S3 para incorporar datos sin conexión para nuevas integraciones. Consulte Requisitos de nombre y tamaño de archivo de [Amazon S3 para archivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de datos de entrada para obtener más información.
+>Estamos eliminando gradualmente la compatibilidad con las configuraciones de FTP. Aunque la ingestión de archivos de datos de entrada sigue siendo compatible con las integraciones de FTP existentes, recomendamos encarecidamente usar datos sin conexión integrados [!DNL Amazon S3] para nuevas integraciones. Consulte Requisitos de nombre y tamaño de archivo de [Amazon S3 para archivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de datos de entrada para obtener más información.
 
  
 
