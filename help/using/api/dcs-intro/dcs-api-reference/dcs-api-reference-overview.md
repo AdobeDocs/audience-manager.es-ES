@@ -1,12 +1,12 @@
 ---
 description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS.
-seo-description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS en Adobe Audiencia Manager (AAM).
-seo-title: Información general de referencia de la API de DCS en Adobe Audiencia Manager (AAM)
+seo-description: Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS en Adobe Audience Manager (AAM).
+seo-title: Información general de referencia de la API de DCS en Adobe Audience Manager (AAM)
 title: Información general de referencia de la API de DCS
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Información general de referencia de la API de DCS
 
-Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS.
+Información conceptual, descripciones y definiciones para [!DNL DCS API] código, métodos y procesos.
 
 * [Métodos de API de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Envíe datos a la API de DCS mediante los métodos GET o POST.
+   Envíe datos a los [!DNL DCS API] métodos GET o POST.
 
 * [Códigos de error DCS, mensajes y ejemplos](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -26,7 +26,7 @@ Información conceptual, descripciones y definiciones para el código, los méto
 
 * [Supervisión de ID y exclusión de listas](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   El DCS supervisa los ID que recibe y agrega los que se envían a una lista de denegación a una velocidad inusualmente alta durante un corto período de tiempo.
+   El DCS supervisa los ID que recibe y agrega los que se envían a una lista de denegaciones a una velocidad inusualmente alta durante un corto período de tiempo.
 
 * [ID de región, ubicaciones y nombres de host de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
