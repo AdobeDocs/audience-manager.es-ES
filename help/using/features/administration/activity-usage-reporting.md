@@ -7,15 +7,15 @@ solution: Audience Manager
 title: Sistema de informes de uso de Actividades
 topic: Activity Usage Reporting
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 
-# Sistema de informes de uso de Actividades
+# [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}
 
 ## Información general {#overview}
 
@@ -36,9 +36,9 @@ El [!UICONTROL Activity Usage Report] está disponible para todos los usuarios A
 Existen dos casos de uso principales de [!UICONTROL Activity Usage Report]:
 
 * **Rastrear el uso real de la actividad de instancias en relación con el compromiso** de uso de la actividad: La mayoría de los clientes tiene un compromiso de actividad mensual estimado por instancia de Audience Manager, que luego se acumula en un compromiso de actividad anual en todos los casos. Aunque este informe no es un informe de facturación, puede proporcionar una guía útil para saber si está excediendo el uso de actividad comprometido.
-* **Validación de los cambios** de implementación: Si ha actualizado recientemente la implementación, como la configuración del reenvío del lado del servidor de Analytics o el cambio de la configuración de llamadas al servidor de Destinatario, este informe puede ayudarle a comprobar si el nuevo volumen de actividad está en línea con el volumen de actividad esperado.
+* **Validación de los cambios** de implementación: Si ha actualizado recientemente la implementación, como la configuración del reenvío [!DNL Adobe Analytics] del lado del servidor o el cambio de la configuración de la llamada [!DNL Adobe Target] al servidor, este informe puede ayudarle a comprobar si el nuevo volumen de actividad está en línea con el volumen de actividad esperado.
 
-## Uso del informe Uso de Actividades {#using}
+## Cuando se usaba la identificación [!UICONTROL Activity Usage Report] {#using}
 
 Para ver el [!UICONTROL Activity Usage Report], inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
 
@@ -67,7 +67,7 @@ También puede situar el cursor sobre una fecha específica en la línea de tiem
 
 ![aur-hover](assets/aur-hover.png)
 
-## Exportación de informes de uso de Actividades {#export}
+## Exportando [!UICONTROL Activity Usage Reports] {#export}
 
 Para obtener una mejor descripción general del nivel de uso de la actividad de Audience Manager, puede exportar la variable en función del tipo de registros que desee incluir [!UICONTROL Activity Usage Report] .
 
@@ -75,14 +75,14 @@ Para obtener una mejor descripción general del nivel de uso de la actividad de 
 
 Los informes **[!UICONTROL Onboarded Records Breakdown]** y **[!UICONTROL Onsite Server Calls Breakdown]** proporcionan la perspectiva más granular de los datos de origen disponibles para estas actividades. El volumen atribuido a estos desgloses se basa en la implementación.
 
-### Desglose de registros integrados {#onboarded-breakdown}
+### [!UICONTROL Onboarded Records Breakdown] {#onboarded-breakdown}
 
 Este informe contiene registros incorporados desglosados por fuente de datos.
 
-### Desglose de llamadas al servidor en el sitio {#onsite-breakdown}
+### [!UICONTROL Onsite Server Calls Breakdown] {#onsite-breakdown}
 
 Este informe contiene un desglose de las llamadas al servidor de tres fuentes: [!UICONTROL Analytics], [!UICONTROL Target], y [!UICONTROL Other].
 
-* **[!UICONTROL Analytics]**:: Son llamadas al servidor facturables que se pasan de todas las instancias de Adobe Analytics al Audience Manager, incluido el reenvío del lado del servidor. Las llamadas secundarias al servidor o las llamadas al servidor de duplicado (como en el caso del reenvío del lado del servidor desde varios grupos de informes) no son actividades facturables, por lo que no se incluyen en este desglose.
-* **[!UICONTROL Target]**:: Son llamadas del lado del servidor de Adobe Target a Audience Manager para recuperar datos de segmentos de Audience Manager como parte de una integración de servidor a servidor.
+* **[!UICONTROL Analytics]**:: Son llamadas al servidor facturables que se pasan de todas las [!UICONTROL Adobe Analytics] instancias al Audience Manager, incluido el reenvío del lado del servidor. Las llamadas secundarias al servidor o las llamadas al servidor de duplicado (como en el caso del reenvío del lado del servidor desde varios grupos de informes) no son actividades facturables, por lo que no se incluyen en este desglose.
+* **[!UICONTROL Target]**:: Son llamadas del lado del servidor desde [!UICONTROL Adobe Target] al Audience Manager para recuperar datos de segmentos de Audience Manager como parte de una integración servidor a servidor.
 * **[!UICONTROL Other]**:: Incluye llamadas desde cualquier otro sitio web o sistema (sitios de socios, llamadas directas al servidor, etc.), llamadas de navegador/aplicación móviles a través de [!DNL SDK], [!DNL DIL], llamadas de evento y [!DNL DCS] llamadas. También incluye llamadas desde [!DNL Target] si se configuran como una integración de cookies (en lugar de servidor a servidor).
