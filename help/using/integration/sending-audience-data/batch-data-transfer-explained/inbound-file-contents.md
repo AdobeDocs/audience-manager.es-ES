@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Sintaxis del contenido del archivo de datos de entrada, caracteres no válidos, variables y ejemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -78,9 +78,9 @@ La tabla lista y define las variables utilizadas en un archivo de datos de entra
  </tbody> 
 </table>
 
-## Formato de ID de características {#formatting-trait-ids}
+## Formato [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-En la tabla siguiente se describen los prefijos que identifican los nombres o ID de características en un archivo de datos de entrada. Consulte los ejemplos en los archivos [de](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) ejemplo.
+En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trait] nombres o ID en un archivo de datos de entrada. Consulte los ejemplos en los archivos [de](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) ejemplo.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ En la tabla siguiente se describen los prefijos que identifican los nombres o ID
  </tbody>
 </table>
 
-## Caracteres no válidos en ID de características, ID de usuario y pares de clave-valor {#invalid-chars}
+## Caracteres no válidos en pares [!UICONTROL Trait IDs]y clave-valor [!UICONTROL User IDs] {#invalid-chars}
 
-### ID de características
+### [!UICONTROL Trait IDs]
 
-Las ID de características solo constan de caracteres numéricos. Le pedimos que incluya *solo características integradas* en los archivos de datos de entrada. No procesamos ningún otro tipo de característica en la transferencia de datos de entrada.
+[!UICONTROL Trait IDs] consiste únicamente en caracteres numéricos. Le pedimos que incluya *solamente[!UICONTROL onboarded traits]*en los archivos de datos de entrada. No procesamos ningún otro[!UICONTROL trait]tipo en la transferencia de datos de entrada.
 
-### ID de usuarios
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ Los nombres de valores con formato incorrecto en un par de clave-valor también 
 
 ## Matriz de ejemplos {#examples-matrix}
 
-En el gráfico siguiente se muestran ejemplos de la forma correcta de dar formato a los archivos de entrada, en función del [tipo de ID](../../../reference/ids-in-aam.md) y del método mediante el cual desee agregar características a los perfiles.
+El gráfico siguiente muestra ejemplos de la forma correcta de dar formato a los archivos entrantes, según el [tipo de ID](../../../reference/ids-in-aam.md) y el método por el que desee agregar [!UICONTROL traits] a los perfiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -283,7 +283,7 @@ En el gráfico siguiente se muestran ejemplos de la forma correcta de dar format
 
 ### Example 1 {#example-1}
 
-Use ID de características para enviar información de cualificación de características para [!DNL Audience Manager][!DNL UUIDs].
+Se utiliza [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de cualificación para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Use ID de características para enviar información de cualificación de caracte
 
 ### Example 2 {#example-2}
 
-Use ID de características para enviar información de descalificación de características para [!DNL Audience Manager][!DNL UUIDs].
+Utilícelo [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de descalificación para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ o
 
 ### Example 3 {#example-3}
 
-Envíe pares de clave-valor para agregar información de calificación de características para [!DNL Audience Manager][!DNL UUIDs].
+Envíe pares de clave-valor para agregar [!UICONTROL trait] información de calificación para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ o
 
 ### Example 4 {#example-4}
 
-Utilice el prefijo ic para enviar la información de cualificación de características para [!DNL Audience Manager][!DNL UUIDs].
+Utilice el `ic` prefijo para enviar la información de [!UICONTROL trait] cualificación para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ o
 
 ### Example 5 {#example-5}
 
-Utilice los ID de características para enviar información de cualificación de características para [!DNL Android] dispositivos.
+Se utiliza [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de cualificación para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Use los ID de características para enviar información de descalificación de características para [!DNL Android] dispositivos.
+Se utiliza [!UICONTROL trait IDs] para enviar información de [!UICONTROL trait] descalificación para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Envíe pares de clave-valor para agregar información de cualificación de características para [!DNL Android] dispositivos.
+Envíe pares de clave-valor para agregar [!UICONTROL trait] información de cualificación para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Utilice el prefijo ic para enviar información de cualificación de características para [!DNL Android] dispositivos.
+Utilice el `ic` prefijo para enviar información [!UICONTROL trait] de cualificación para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Utilice los ID de características para enviar información de cualificación de características para [!DNL iOS] dispositivos.
+Se utiliza [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de cualificación para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Utilice los ID de características para enviar información de cualificación de
 
 ### Example 10 {#example-10}
 
-Use los ID de características para enviar información de descalificación de características para [!DNL iOS] dispositivos.
+Se utiliza [!UICONTROL trait IDs] para enviar información de [!UICONTROL trait] descalificación para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ o
 
 ### Example 11 {#example-11}
 
-Envíe pares de clave-valor para agregar información de cualificación de características para [!DNL iOS] dispositivos.
+Envíe pares de clave-valor para agregar [!UICONTROL trait] información de cualificación para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ o
 
 ### Example 12 {#example-12}
 
-Utilice el prefijo ic para enviar información de cualificación de características para [!DNL iOS] dispositivos.
+Utilice el `ic` prefijo para enviar información [!UICONTROL trait] de cualificación para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ o
 
 ### Example 13 {#example-13}
 
-Use ID de características para enviar información de cualificación de características para [!DNL DPUUIDs].
+Se utiliza [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de cualificación para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Use ID de características para enviar información de descalificación de características para [!DNL DPUUIDs].
+Utilícelo [!UICONTROL trait IDs] para enviar información [!UICONTROL trait] de descalificación para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Envíe pares de clave-valor para agregar información de calificación de características para [!DNL DPUUIDs].
+Envíe pares de clave-valor para agregar [!UICONTROL trait] información de cualificación para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Utilice el `ic` prefijo para enviar la información de cualificación de características para [!DNL DPUUIDs].
+Utilice el `ic` prefijo para enviar información [!UICONTROL trait] de cualificación para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
