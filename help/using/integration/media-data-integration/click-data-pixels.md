@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Captura de datos de clics en Campaña mediante llamadas de píxel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-El rastreo de clics permite medir el compromiso de visitantes en toda la campaña, ya que registra la actividad basada en clics para elementos creativos de terceros. De forma similar a la recopilación [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impresiones, se envía una llamada de evento a los servidores de recopilación de datos del Audience Manager ([!DNL DCS]) para su procesamiento. A continuación, el visitante se redirige a la dirección web deseada.
+El rastreo de clics permite medir el compromiso de visitantes en toda la campaña, ya que registra la actividad basada en clics para elementos creativos de terceros. De forma similar a la recopilación [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impresiones, se envía una llamada de evento a los servidores [!DNL Audience Manager] de recopilación de datos ([!DNL DCS]) para su procesamiento. A continuación, el visitante se redirige a la dirección web deseada.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Según el ejemplo anterior, el explorador se redirige a lo siguiente [!DNL URL]:
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Funcionalidad adicional: informes de optimización de Audiencia
+## Funcionalidad adicional: [!UICONTROL Audience Optimization Reports]
 
 Puede utilizar llamadas en píxeles para activar los informes [de optimización de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiencia. Consulte [Información general y asignaciones para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadatos si desea utilizar píxeles para activar los informes.
 
