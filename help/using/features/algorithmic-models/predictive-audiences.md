@@ -5,9 +5,9 @@ seo-title: Información general de Audiencias predictivas
 solution: Audience Manager
 title: Audiencias predictivas de Audience Manager
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Al configurar sus [!UICONTROL Predictive Audiences] modelos, tenga en cuenta las
    >[!IMPORTANT]
    > Actualmente, el [!UICONTROL Total Segment Population] de los segmentos predictivos se muestra como 0 y las transferencias [de datos de salida por](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) lotes no son compatibles con [!UICONTROL Predictive Audiences]. Este comportamiento cambiará en una actualización futura.
 * [!UICONTROL Predictive Audiences] realiza la clasificación de audiencias en función de sus características de origen, desde todas sus fuentes de datos de origen.
-* La evaluación de segmentos para [!UICONTROL Predictive Audiences] usa el valor predeterminado **[!UICONTROL Profile Merge Rule]** que definió en su cuenta. Para obtener más información sobre [!UICONTROL Profile Merge Rules] la [documentación](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicada, consulte .
+* La evaluación de segmentos para [!UICONTROL Predictive Audiences] usa el valor predeterminado **[!UICONTROL Profile Merge Rule]** que definió en su cuenta. Para obtener más información sobre [!UICONTROL Profile Merge Rules] la [documentación](../profile-merge-rules/merge-rules-overview.md)dedicada, consulte .
 * Algunas características y segmentos no se admiten como líneas de base o audiencias de destinatario. [!UICONTROL Predictive Audiences] los modelos no se guardarán al elegir una de las siguientes opciones como líneas de base o audiencias de destinatario:
    * Características predictivas y segmentos creados con características predictivas;
    * [características o segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
