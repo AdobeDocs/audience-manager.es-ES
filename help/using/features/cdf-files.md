@@ -7,23 +7,21 @@ solution: Audience Manager
 title: Fuentes de datos del cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1860'
 ht-degree: 2%
 
 ---
 
 
-# Fuentes de datos del cliente {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Información básica sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) archivos e instrucciones sobre cómo empezar. Inicio aquí si estás interesado en recibir [!UICONTROL CDF] archivos o solo quieres más información.
 
 ## Contenido y propósito del archivo {#file-contents-purpose}
 
-<!-- cdf-intro.xml -->
-
-Un [!UICONTROL CDF] archivo contiene los mismos datos que una llamada de [!DNL Audience Manager] evento (`/event`) envía a nuestros servidores. Esto incluye datos como ID de usuario, ID de características, ID de segmentos y todos los demás parámetros capturados por una llamada de evento. Los [!DNL Audience Manager] sistemas internos procesan los datos de evento en un [!UICONTROL CDF] archivo con contenido organizado en campos que aparecen en un orden definido. [!DNL Audience Manager] intenta generar [!UICONTROL CDF] archivos por hora y los almacena en un bloque seguro y específico para el cliente en un [!DNL Amazon S3] servidor. Proporcionamos estos archivos para que pueda trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario.
+Un [!UICONTROL CDF] archivo contiene los mismos datos que una llamada de [!DNL Audience Manager] evento (`/event`) envía a nuestros servidores. Esto incluye datos como ID de usuario [!UICONTROL trait IDs], [!UICONTROL segment IDs]y todos los demás parámetros capturados por una llamada de evento. Los [!DNL Audience Manager] sistemas internos procesan los datos de evento en un [!UICONTROL CDF] archivo con contenido organizado en campos que aparecen en un orden definido. [!DNL Audience Manager] intenta generar [!UICONTROL CDF] archivos por hora y los almacena en un bloque seguro y específico para el cliente en un [!DNL Amazon S3] servidor. Proporcionamos estos archivos para que pueda trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario.
 
 >[!NOTE]
 >
@@ -42,13 +40,11 @@ Las notificaciones de archivo y [!UICONTROL CDF] los archivos aparecerán en el 
 
 Las secciones a continuación y las preguntas más frecuentes [sobre fuentes de datos de](../faq/faq-cdf.md) clientes pueden ayudarle a familiarizarse con este servicio.
 
-## Contenido de fuente de datos del cliente definido {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Contenido definido {#cdf-defined}
 
 Lista y define los elementos de datos y las matrices de un [!UICONTROL CDF] archivo por orden de aspecto. Las definiciones incluyen tipos de datos, pero esta información no forma parte de un [!UICONTROL CDF] archivo.
 
 ## Definiciones {#definitions}
-
-<!-- cdf-contents-defined.xml -->
 
 Un [!UICONTROL CDF] archivo incluye algunos o todos los campos definidos a continuación. Para obtener información sobre la organización de archivos internos, consulte Estructura [de archivos de fuentes de datos de](#cdf-file-structure)clientes.
 
@@ -123,13 +119,11 @@ Un [!UICONTROL CDF] archivo incluye algunos o todos los campos definidos a conti
  </tbody> 
 </table>
 
-## Estructura del archivo de fuente de datos del cliente {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Estructura de archivos {#cdf-file-structure}
 
 Lista y define la estructura de datos de un [!UICONTROL CDF] archivo. Esto incluye secuencias de datos, delimitadores y separadores de campos, una asignación de archivos de datos y un archivo de muestra.
 
 ## Secuencia e identificadores de campo de datos {#identifiers-and-sequence}
-
-<!-- cdf-file-structure.xml -->
 
 [!UICONTROL CDF] los archivos no contienen columnas etiquetadas ni encabezados de campo. En su lugar, un [!UICONTROL CDF] archivo define campos y matrices con [!DNL ASCII] caracteres no imprimibles. Además, el [!UICONTROL CDF] archivo lista cada campo y matriz en un orden específico. El comprender los identificadores de campo y el orden le ayudará a analizar el archivo correctamente.
 
@@ -170,7 +164,7 @@ Lista y define la estructura de datos de un [!UICONTROL CDF] archivo. Esto inclu
  </tbody> 
 </table>
 
-## Mapa de archivos CDF {#cdf-file-map}
+## [!UICONTROL CDF] Asignación de archivos {#cdf-file-map}
 
 [!UICONTROL CDF] los datos del archivo aparecen en el orden que se muestra a continuación.
 
@@ -178,21 +172,19 @@ Lista y define la estructura de datos de un [!UICONTROL CDF] archivo. Esto inclu
 
 ## Identificación de matrices
 
-Arreglos en un inicio de [!UICONTROL CDF] archivos y termine con el separador de `Ctrl + a` campos. Esto hace que el primer elemento de una matriz aparezca como un campo de datos independiente. Por ejemplo, la matriz de características realizadas inicio con `^A1234`. El delimitador de matriz y la ID `^B5678` siguen a esta entrada. Como resultado, podría sentir la tentación de pensar que el primer elemento de la matriz de características realizadas es ID 5678 (porque inicio con `^B`). Este no es el caso, por lo que debe estar familiarizado con la secuencia y la estructura de un archivo de datos. Aunque el primer elemento de la matriz de características realizada (o cualquiera de las demás matrices de un [!UICONTROL CDF] archivo) inicio con `^A`, el orden de aspecto o posición del archivo define el inicio de una matriz. Y, el primer elemento de una matriz siempre está separado de la entrada anterior por `^A`.
+Arreglos en un inicio de [!UICONTROL CDF] archivos y termine con el separador de `Ctrl + a` campos. Esto hace que el primer elemento de una matriz aparezca como un campo de datos independiente. Por ejemplo, la matriz [!UICONTROL traits] realizada inicio con `^A1234`. El delimitador de matriz y la ID `^B5678` siguen a esta entrada. Como resultado, podría sentir la tentación de pensar que el primer elemento de la matriz realizada [!UICONTROL traits] es el ID 5678 (porque inicio con `^B`). Este no es el caso, por lo que debe estar familiarizado con la secuencia y la estructura de un archivo de datos. Aunque el primer elemento de la matriz [!UICONTROL trait] realizada (o cualquiera de las otras matrices de un [!UICONTROL CDF] archivo) inicio con `^A`, el orden de aspecto o posición del archivo define el inicio de una matriz. Y, el primer elemento de una matriz siempre está separado de la entrada anterior por `^A`.
 
-## Archivo CDF de muestra {#sample-file}
+## Sample [!UICONTROL CDF] File {#sample-file}
 
 Un [!UICONTROL CDF] archivo de muestra podría tener un aspecto similar al siguiente. Hemos insertado saltos de línea en este ejemplo para ayudarle a ajustar la página.
 
 ![](assets/CDF-sample.png)
 
-## Convenciones de nomenclatura de archivos de fuentes de datos de clientes {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Convenciones de nomenclatura de archivos {#cdf-naming-conventions}
 
 Las secciones a continuación lista y definen los elementos en el nombre [!UICONTROL CDF] del archivo.
 
-## Nombre de archivo CDF: Sintaxis y ejemplo {#cdf-file-name}
-
-<!-- cdf-file-name.xml -->
+## [!UICONTROL CDF] Nombre del archivo: Sintaxis y ejemplo {#cdf-file-name}
 
 Un nombre [!UICONTROL CDF] de archivo típico contiene los elementos que se enumeran a continuación. Note, *italics* indicates a variable placeholder:
 
@@ -210,7 +202,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 En el bloque [!DNL S3] almacenamiento, los archivos se ordenan en orden ascendente por ID de socio ([!UICONTROL PID]), día y hora.
 
-## Elementos de nombre de archivo CDF definidos {#cdf-file-name-elements}
+## [!UICONTROL CDF] Elementos de nombre de archivo definidos {#cdf-file-name-elements}
 
 La siguiente tabla lista y define los elementos en un nombre de [!UICONTROL CDF] archivo.
 
@@ -253,13 +245,11 @@ La siguiente tabla lista y define los elementos en un nombre de [!UICONTROL CDF]
  </tbody> 
 </table>
 
-## Notificaciones de procesamiento de archivos de fuentes de datos de clientes {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Notificaciones de procesamiento de archivos {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] escribe un `.info` archivo en su [!DNL S3] directorio para informarle cuando [!UICONTROL Customer Data File] ([!UICONTROL CDF]) esté listo para descargar. El `.info` archivo también incluye metadatos [!DNL JSON] formateados sobre el contenido de [!UICONTROL CDF] los archivos. Consulte esta sección para obtener información sobre la sintaxis y los campos utilizados por este archivo de notificación.
 
 ## Archivo de información de muestra {#sample-info-file}
-
-<!-- cdf-notifications.xml -->
 
 Cada `.info` archivo contiene una `Files` sección y `Totals` . La `Files` sección contiene una matriz que contiene métricas específicas para cada archivo por hora. La `Totals` sección contiene métricas agregadas en todos los [!UICONTROL CDF] archivos para un día en particular. El contenido del `.info` archivo podría tener un aspecto similar al del siguiente ejemplo.
 
@@ -358,13 +348,11 @@ Las siguientes tablas lista y definen los elementos de un [!UICONTROL CDF] `.inf
  </tbody> 
 </table>
 
-## Los tiempos del nombre del archivo de la fuente de datos del cliente y del contenido del archivo son diferentes {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Los tiempos de los archivos y los tiempos de contenido del archivo son diferentes {#different-processing-times}
 
 El [!UICONTROL CDF] archivo contiene marcas de hora en el nombre del archivo y en el contenido del archivo. Estas marcas de hora registran diferentes procesos de evento para el mismo [!UICONTROL CDF] archivo. No es raro ver marcas de hora diferentes en el nombre y el contenido del mismo archivo. El comprender cada marca de tiempo puede ayudarle a evitar errores comunes al trabajar con estos datos o al intentar ordenarlos por tiempo.
 
-## Localización de marcas de hora de archivo CDF {#locating-timestamps}
-
-<!-- cdf-time-differences.xml -->
+## Localización [!UICONTROL CDF] de marcas de hora de archivo {#locating-timestamps}
 
 [!UICONTROL CDF] los archivos registran el tiempo de forma diferente en dos ubicaciones distintas.
 
