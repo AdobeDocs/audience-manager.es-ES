@@ -6,14 +6,17 @@ seo-title: Información general de características
 solution: Audience Manager
 title: Información general de características
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 0b173db313053bb9c1d90b681d00ad4bd6fb8b34
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
 
-# Información general de características {#traits-overview}
+# [!UICONTROL Traits] Información general {#traits-overview}
 
-Administre la recopilación de datos y la creación de audiencias con características basadas en reglas, integradas, algorítmicas o de carpetas. Lea las páginas a continuación para empezar a usar las características:
+Administre la recopilación de datos y la creación de audiencias con [!UICONTROL rules-based], [!UICONTROL onboarded][!UICONTROL algorithmic] o [!UICONTROL folder traits]. Lea las páginas a continuación para comenzar con [!UICONTROL traits]:
 
 * [Página Detalles de la característica](/help/using/features/traits/trait-details-page.md)
 * [Generador de rasgo](/help/using/features/traits/about-trait-builder.md)
