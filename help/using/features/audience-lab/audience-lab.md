@@ -1,29 +1,32 @@
 ---
-description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
-seo-description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
+description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede dejar de lado un grupo de control y dividir el segmento en porcentajes de un todo, para probar la eficacia.
+seo-description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede dejar de lado un grupo de control y dividir el segmento en porcentajes de un todo, para probar la eficacia.
 seo-title: Audiencia Lab
 solution: Audience Manager
 title: Audiencia Lab
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 3%
 
 ---
 
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
-Cree segmentos de prueba mutuamente excluyentes en [!UICONTROL Segment Test Groups] para comparar y medir la eficacia de diferentes destinos. Puede separar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
+Cree segmentos de prueba mutuamente excluyentes en [!UICONTROL Segment Test Groups] para comparar y medir la eficacia de diferentes destinos. Puede dejar de lado un grupo de control y dividir el segmento en porcentajes de un todo, para probar la eficacia.
 
 ## Información general {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utiliza el vínculo [](../../features/profile-merge-rules/merge-rules-overview.md) de perfil para alimentar las pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumple los requisitos para el mismo segmento de prueba y recibe el mismo tratamiento en todos los dispositivos. Los segmentos de prueba de los grupos de prueba heredarán la regla [de combinación de](../../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que el segmento base le ha asignado.
+[!UICONTROL Audience Lab] utiliza [Perfil Link](../../features/profile-merge-rules/merge-rules-overview.md) para realizar pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumple los requisitos para el mismo segmento de prueba y recibe el mismo tratamiento en todos los dispositivos. Los segmentos de prueba de los grupos de prueba heredarán la regla [de combinación de](../../features/profile-merge-rules/merge-rules-dashboard.md) Perfiles que el segmento base le ha asignado.
 
-La vista predeterminada muestra una tarjeta para cada uno de los grupos de prueba. [!UICONTROL Audience Lab] Haga clic en una tarjeta para acceder a la **[!UICONTROL Test Group]** vista. Esta vista incluye la siguiente información:
+La vista predeterminada [!UICONTROL Audience Lab] muestra una tarjeta para cada uno de los grupos de prueba. Haga clic en una tarjeta para acceder a la **[!UICONTROL Test Group]** vista. Esta vista incluye la siguiente información:
 
 * **[Información del grupo de prueba](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Informes de grupo de prueba](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Sistema de informes de grupo de prueba](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 Puede crear **hasta 10 grupos** de prueba, cada uno con **hasta 15 segmentos** de prueba.
 
@@ -31,7 +34,7 @@ Puede crear **hasta 10 grupos** de prueba, cada uno con **hasta 15 segmentos** d
 
 ## Buscar y filtrar grupos de prueba {#search-and-filter}
 
-Una vez que comience a crear varios grupos de prueba con varios segmentos de prueba, puede ser más fácil utilizar el cuadro de búsqueda para encontrar un grupo de prueba específico. Puede buscar un grupo de prueba mediante:
+Una vez que inicio la creación de varios grupos de prueba con varios segmentos de prueba, puede ser más fácil utilizar el cuadro de búsqueda para encontrar un grupo de prueba específico. Puede buscar un grupo de prueba mediante:
 
 * Nombre del grupo de ensayo;
 * Nombre de cualquiera de los segmentos de prueba del grupo de prueba;
@@ -41,7 +44,7 @@ Una vez que comience a crear varios grupos de prueba con varios segmentos de pru
 
 También puede filtrar los grupos de prueba por estado. Todos los estados disponibles se describen en la sección [Estado](../../features/audience-lab/audience-lab.md#status) a continuación.
 
-## Estado {#status}
+## [!UICONTROL Status] {#status}
 
 El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador o completado. Más información sobre cada una de ellas en la tabla siguiente:
 
@@ -71,12 +74,12 @@ El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completado </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>completado</i> ha alcanzado la fecha de finalización seleccionada en el asistente <b><span class="uicontrol"> Crear grupos de prueba </span></b> y ha dejado de enviar datos de informes. </p> </td>
+   <td colname="col2"> <p>Un grupo de prueba <i>completado</i> ha alcanzado la fecha de finalización seleccionada en el asistente <b><span class="uicontrol"> Crear grupos de prueba </span></b> y ha dejado de enviar datos de sistema de informes. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Acciones {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
@@ -100,7 +103,7 @@ El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Ver </span></b> </p> </td>
-   <td colname="col2"> <p>Disponible para grupos de prueba completados. Permite ver la información de informes que ha generado la prueba. </p> </td>
+   <td colname="col2"> <p>Disponible para grupos de prueba completados. Permite la vista de la información de sistema de informes que ha generado la prueba. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Duplicar </span></b> </p> </td>
@@ -108,7 +111,7 @@ El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Eliminar </span></b> </p> </td>
-   <td colname="col2"> <p>Permite eliminar un grupo de prueba. Los segmentos de prueba no se asignarán a los destinos, el segmento de línea de base y las características de conversión asociadas al grupo de prueba se podrán editar por completo. Una alerta le pedirá que descargue el archivo CSV cuando elimine un grupo de prueba para guardar el informe si lo desea. </p> </td>
+   <td colname="col2"> <p>Permite eliminar un grupo de prueba. Los segmentos de prueba no se asignarán a los destinos, el segmento de línea de base y las características de conversión asociadas al grupo de prueba se podrán editar por completo. Una alerta le pedirá que descargue el archivo CSV cuando elimine un grupo de prueba para guardar el sistema de informes si lo desea. </p> </td>
   </tr>
  </tbody>
 </table>
