@@ -7,15 +7,15 @@ title: Atributos admitidos para llamadas de API de DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
 
 
-# Atributos admitidos para llamadas de API de DCS {#supported-attributes-for-dcs-api-calls}
+# Atributos admitidos para [!DNL DCS] llamadas [!DNL API] {#supported-attributes-for-dcs-api-calls}
 
 Lista y describe la sintaxis y los atributos admitidos (o pares de clave-valor) que puede pasar a [!UICONTROL Data Collection Servers] ([!DNL DCS]). Esta información puede ayudarle a dar formato a sus [!DNL DCS] solicitudes y a comprender los parámetros devueltos por este sistema.
 
@@ -50,7 +50,7 @@ El [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares c
  </tbody> 
 </table>
 
-## d_ Atributos {#d-attributes}
+## [!DNL d_] Atributos {#d-attributes}
 
 Todas estas opciones son opcionales, a menos que desee una respuesta del [!DNL DCS]. Si desea que el [!DNL DCS] usuario devuelva una respuesta, entonces `d_rtbd=json` es necesario.
 
