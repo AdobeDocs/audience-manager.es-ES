@@ -6,15 +6,15 @@ solution: Audience Manager
 title: Introducción a las API de REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1761'
 ht-degree: 2%
 
 ---
 
 
-# Introducción a las API de REST {#getting-started-with-rest-apis}
+# Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
 Información sobre requisitos generales, autenticación, parámetros de consulta opcionales, solicitud [!DNL URLs]y otras referencias.
 
@@ -46,7 +46,7 @@ Los [!DNL Audience Manager][!DNL REST APIs] dos métodos de autenticación son c
 >
 >Según el método de autenticación, debe ajustar la solicitud [!DNL URLs] en consecuencia. Consulte la sección [Entornos](#environments) para obtener más información sobre los nombres de host que debe utilizar.
 
-## Autenticación JWT ([!DNL Service Account]) {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Autenticación {#jwt}
 
 ### Requisitos previos {#prerequisites}
 
@@ -65,7 +65,7 @@ Siga los pasos a continuación para configurar la [!DNL JWT (Service Account)] a
 >
 >Para configurar y trabajar con el [!DNL Audience Manager] de forma automatizada, puede generar el [!DNL REST APIs] [!DNL JWT] programa de forma automática. Consulte Autenticación [JWT (cuenta de servicio)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) para obtener instrucciones detalladas.
 
-## Autenticación OAuth (obsoleto) {#oauth}
+## [!DNL OAuth] Autenticación (obsoleto) {#oauth}
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] la autenticación y renovación de token mediante [!DNL OAuth 2.0] ahora está en desuso.
@@ -74,7 +74,7 @@ Siga los pasos a continuación para configurar la [!DNL JWT (Service Account)] a
 
 El [!DNL Audience Manager] sistema [!UICONTROL REST API] cumple [!DNL OAuth 2.0] los estándares de autenticación y renovación de testigos. Las secciones siguientes describen cómo autenticar y inicio el trabajo con [!DNL API]s.
 
-### Creación de un usuario de API genérico {#requirements}
+### Crear un usuario [!DNL API] genérico {#requirements}
 
 Le recomendamos que cree una cuenta de usuario técnica independiente para trabajar con [!DNL Audience Manager] los [!DNL API]informes. Es una cuenta genérica que no está vinculada a un usuario específico de su organización ni asociada a él. Este tipo de cuenta de [!DNL API] usuario le ayuda a realizar dos tareas:
 
@@ -87,15 +87,13 @@ Póngase en contacto con su [!DNL Audience Manager] asesor para configurar una c
 
 ### Flujo de trabajo de autenticación de contraseña {#password-authentication-workflow}
 
-<!-- oath-authentication.xml -->
-
 Autenticación de contraseña acceso seguro a nuestro [!DNL REST API]. Los pasos a continuación describen el flujo de trabajo para la autenticación de contraseña de un [!DNL JSON] cliente en su explorador.
 
 >[!TIP]
 >
 >Cifre los tokens de acceso y actualícelos si los almacena en una base de datos.
 
-#### Paso 1: Solicitar acceso a API
+#### Paso 1: Solicitar [!DNL API] acceso
 
 Póngase en contacto con el administrador de soluciones de socio. Le proporcionarán un ID de [!DNL API] cliente y un secreto. El ID y el secreto le autentican en el [!DNL API].
 
@@ -107,7 +105,7 @@ Pasa una solicitud de token con tu [!DNL JSON] cliente preferido. Al generar la 
 
 * Utilice un `POST` método para llamar `https://api.demdex.com/oauth/token`.
 * Convierta el ID de cliente y el secreto en una cadena con codificación base-64. Separe el ID y el secreto con dos puntos durante el proceso de conversión. Por ejemplo, las credenciales `testId : testSecret` se convierten en `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Pasa los [!DNL HTTP] encabezados `Authorization:Basic <base-64 clientID:clientSecret>` y `Content-Type: application/x-www-form-urlencoded` . Por ejemplo, el encabezado podría tener este aspecto: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
+* Pasa el [!DNL HTTP][!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` y `Content-Type: application/x-www-form-urlencoded` . Por ejemplo, el encabezado podría tener este aspecto: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Configure el cuerpo de la solicitud de la siguiente manera:
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
@@ -145,8 +143,8 @@ Pasa una solicitud de token de actualización con el [!DNL JSON] cliente preferi
 
 * Utilice un `POST` método para llamar `https://api.demdex.com/oauth/token`.
 * Convierta el ID de cliente y el secreto en una cadena con codificación base-64. Separe el ID y el secreto con dos puntos durante el proceso de conversión. Por ejemplo, las credenciales `testId : testSecret` se convierten en `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Pasa los encabezados HTTP `Authorization:Basic <base-64 clientID:clientSecret>` y `Content-Type: application/x-www-form-urlencoded`. Por ejemplo, el encabezado podría tener este aspecto: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
-* En el cuerpo de la solicitud, especifique `grant_type:refresh_token` y pase el token de actualización que recibió en la solicitud de acceso anterior. La solicitud debería tener este aspecto: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* Pasa los encabezados HTTP `Authorization:Basic <base-64 clientID:clientSecret>` y `Content-Type: application/x-www-form-urlencoded`. Por ejemplo, el encabezado podría tener este aspecto: <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
+* En el cuerpo de la solicitud, especifique `grant_type:refresh_token` y pase el token de actualización que recibió en la solicitud de acceso anterior. La solicitud debería tener este aspecto: <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 #### Paso 2: Recibir el nuevo token
 
@@ -166,11 +164,9 @@ La [!DNL JSON] respuesta contiene el nuevo token de acceso. La respuesta deberí
 
 El [!DNL Audience Manager][!UICONTROL REST API] admite código de autorización y autenticación implícita. Para utilizar estos métodos de acceso, los usuarios deben iniciar sesión para `https://api.demdex.com/oauth/authorize` obtener acceso y actualizar los tokens.
 
-## Realizar solicitudes de API autenticadas {#authenticated-api-requests}
+## Realizar solicitudes autenticadas [!DNL API] {#authenticated-api-requests}
 
 Requisitos para llamar a [!DNL API] métodos después de recibir un autentificador.
-
-<!-- c_oauth_call_methods.xml -->
 
 Para realizar llamadas con los [!DNL API] métodos disponibles:
 
@@ -178,11 +174,9 @@ Para realizar llamadas con los [!DNL API] métodos disponibles:
 * Al utilizar la autenticación [](#jwt)JWT (Service Account), debe proporcionar el `x-api-key` encabezado, que será el mismo que el `client_id`. Puede obtener información `client_id` desde la página de integración [de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe I/O.
 * Llame al [!DNL API] método requerido.
 
-## Parámetros de Consulta de API opcionales {#optional-api-query-parameters}
+## Parámetros [!DNL API] de Consulta opcionales {#optional-api-query-parameters}
 
 Establezca los parámetros opcionales disponibles para los métodos que devuelven todas las propiedades de un objeto.
-
-<!-- c_rest_api_optional.xml -->
 
 Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelven *todas* las propiedades de un objeto. Configure estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API].
 
@@ -192,8 +186,8 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
 | `pageSize` | Define el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). |
 | `sortBy` | Ordena y devuelve resultados según la [!DNL JSON] propiedad especificada. |
 | `descending` | Ordena y devuelve los resultados en orden descendente. `ascending` es el valor predeterminado. |
-| `search` | Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra &quot;Prueba&quot; en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Puede buscar cualquier valor devuelto por un método &quot;get all&quot;. |
-| `folderId` | Devuelve todos los ID de características dentro de la carpeta especificada. No está disponible para todos los métodos. |
+| `search` | Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra &quot;Prueba&quot; en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Puede buscar cualquier valor devuelto por un método &quot;[!DNL get all]&quot;. |
+| `folderId` | Devuelve todos los ID de [!UICONTROL traits] dentro de la carpeta especificada. No está disponible para todos los métodos. |
 | `permissions` | Devuelve una lista de segmentos basada en el permiso especificado. `READ` es el valor predeterminado. Los permisos incluyen:<ul><li>`READ` :: Información de retorno y vista sobre un segmento.</li><li>`WRITE` :: Se utiliza `PUT` para actualizar un segmento.</li><li>`CREATE` :: Se utiliza `POST` para crear un segmento.</li><li>`DELETE` : Eliminar un segmento. Requiere acceso a las características subyacentes, si las hay. Por ejemplo, necesitará derechos para eliminar las características que pertenecen a un segmento si desea eliminarlo.</li></ul><br>Especifique varios permisos con pares de clave-valor independientes. Por ejemplo, para devolver una lista de segmentos solo con `READ` y `WRITE` permisos, pase `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Establezca en para `true` devolver los permisos para el segmento. El valor predeterminado es `false`. |
 
@@ -205,19 +199,17 @@ Cuando no *se especifica la información de la página* , la solicitud devuelve 
 GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## API URL {#api-urls}
+## [!DNL API URLs] {#api-urls}
 
 [!DNL URLs] para solicitudes, entornos de ensayo y producción y versiones.
 
-<!-- r_rest_urls.xml -->
-
-## URL de solicitud {#request-urls}
+## Solicitud [!DNL URLs] {#request-urls}
 
 La siguiente tabla lista la solicitud [!DNL URLs] utilizada para pasar [!DNL API] solicitudes, por método.
 
-Según el método de autenticación que utilice, debe ajustar las direcciones URL de la solicitud según las tablas siguientes.
+Según el método de autenticación que utilice, debe ajustar la solicitud [!DNL URLs] según las tablas siguientes.
 
-### URL de solicitud para autenticación JWT {#request-urls-jwt}
+### Solicitud [!DNL URLs] de [!DNL JWT] autenticación {#request-urls-jwt}
 
 | [!DNL API] Métodos | Solicitud [!DNL URL] |
 |--- |--- |
@@ -233,7 +225,7 @@ Según el método de autenticación que utilice, debe ajustar las direcciones UR
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### URL de solicitud para autenticación OAuth (obsoleto) {#request-urls-oauth}
+### Solicitud [!DNL URLs] de [!DNL OAuth] autenticación (obsoleto) {#request-urls-oauth}
 
 | [!DNL API] Métodos | Solicitud [!DNL URL] |
 |--- |--- |
@@ -273,8 +265,6 @@ Las nuevas versiones de estos [!DNL API]informes se publican con regularidad. Un
 ## Códigos de respuesta definidos {#response-codes-defined}
 
 `HTTP` códigos de estado y texto de respuesta devueltos por el [!DNL Audience Manager][!UICONTROL REST API].
-
-<!-- r_api_http_response_codes.xml -->
 
 | ID del código de respuesta | Texto de respuesta | Definición |
 |---|---|---|
