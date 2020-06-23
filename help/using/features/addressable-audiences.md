@@ -8,75 +8,36 @@ title: Audiencias a las que se puede dirigir
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
 
 
-# Audiencia direccionable {#addressable-audiences}
+# [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
 Información general sobre la función y los casos de uso [!UICONTROL Addressable Audience] .
 
-## ¿Qué es una Audiencia direccionable? {#addressable-audience-description}
+## What is an [!UICONTROL Addressable Audience]? {#addressable-audience-description}
 
 La [!UICONTROL Addressable Audiences] función muestra la superposición entre las audiencias que ve en todas las propiedades donde [!DNL Audience Manager] recopila datos y el destino seleccionado. Para ayudarle a comprender este concepto, eche un vistazo a la siguiente ilustración. La superposición entre cada círculo representa los diferentes tipos de audiencias direccionables.
 
 ![](assets/addressableAudienceVenn.png)
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Métrica </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-    <tr> 
-   <td colname="col1"> <p> <b>Audiencia direccionable de Audience Manager para un destino</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de todos los dispositivos que han interactuado con todos los clientes Audience Manager a nivel de plataforma durante el período de retrospectiva del informe y que se pueden comparar con el destino elegido. </p> <p>Esta métrica es útil porque muestra: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> El tamaño de la audiencia direccionable total a la que puede llegar el <span class="keyword"> Audience Manager</span> en un destino determinado. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">Qué tamaño tiene el grupo de perfiles <span class="keyword"> Audience Manager</span> para una plataforma de objetivo y el tamaño de sus audiencias. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia total del cliente</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de dispositivos que han realizado una característica basada en reglas en sus propiedades o una característica integrada de los archivos sin conexión durante la ventana retroactiva. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tasa de coincidencia de Audiencias direccionables</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>Recuento de superposición de dispositivos que han adquirido una característica basada en reglas o una característica incorporada durante la ventana retroactiva y dispositivos que tienen una sincronización de ID con el destino elegido independientemente del tiempo de sincronización. </p> 
-    </draft-comment> <p>Esta métrica representa los dispositivos que: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Se han realizado características basadas en reglas o integradas durante la ventana retroactiva <b>Y</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Haga una sincronización de ID con el destino elegido independientemente del tiempo de sincronización. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tasa de coincidencia del cliente</b> </p> </td> 
-   <td colname="col2"> <p>Audiencia direccionable al cliente ÷ Audiencia total del cliente expresada como porcentaje. </p> </td> 
-  </tr>
-   <tr> 
-   <td colname="col1"> <p> <b>Población total del segmento</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de todos los dispositivos que eran miembros del segmento durante el período de retroceso del informe. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia direccionable del segmento</b> </p> </td> 
-   <td colname="col2"> <p>El número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en el <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>. </p> <p> <p>Sugerencia: Cuando se utiliza con el período retrospectivo de 1 día, esta métrica puede ayudarle a comprender el estado actual de los segmentos. Esto se debe a que la métrica de Audiencia <span class="wintitle"></span> Segmento direccionable representa a los usuarios que permanecieron en un segmento durante el día anterior. Combinar esto con el hecho de que el <span class="keyword"> Audience Manager</span> actualiza diariamente las Audiencias <span class="wintitle"> direccionables</span> , la combinación de esta métrica y el período retrospectivo proporciona la instantánea más actualizada de los segmentos. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tasa de coincidencia de segmentos</b> </p> </td> 
-   <td colname="col2"> <p>Audiencia direccionable del segmento ÷ Población total del segmento expresada como porcentaje. </p> </td> 
-  </tr>  
- </tbody> 
-</table>
 
-## Interfaz de Audiencia direccionable {#addressable-audience-interface}
+| Métrica | Descripción |
+|---|---|
+| [!UICONTROL Audience Manager Addressable Audience] para un [!UICONTROL Destination] | Recuento de todos los dispositivos que han interactuado con todos [!DNL Audience Manager] los clientes a nivel de plataforma durante el período de retrospectiva del informe y que podrían coincidir con el [!UICONTROL destination]. <br><br>Esta métrica es útil porque muestra: <ul><li>El tamaño del total [!UICONTROL addressable audience] que [!DNL Audience Manager] puede alcanzar un objetivo determinado [!UICONTROL destination].</li><li>Qué tamaño tiene el grupo de [!DNL Audience Manager] perfiles para una plataforma de objetivo y el tamaño de sus audiencias.</li></ul> |
+| [!UICONTROL Customer Total Audience] | Recuento de dispositivos que han realizado un [!UICONTROL rule-based trait] registro en sus propiedades o un registro [!UICONTROL onboarded trait] de los archivos sin conexión durante la ventana retroactiva. |
+| [!UICONTROL Addressable Audience Match Rate] | Recuento de superposición de dispositivos que han realizado una sincronización de ID [!UICONTROL rule-based trait] o [!UICONTROL onboarded trait] durante la ventana retroactiva y dispositivos con los que se ha realizado la sincronización de ID con el dispositivo seleccionado [!UICONTROL destination] independientemente del tiempo de sincronización.<br><br>Esta métrica representa los dispositivos que:<ul><li>Se ha realizado un [!UICONTROL rule-based] o un [!UICONTROL onboarded trait] evento durante la ventana retroactiva `AND`</li><li>Haga una sincronización de ID con el ID seleccionado [!UICONTROL destination] independientemente del tiempo de sincronización.</li> |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] expresado como porcentaje. |
+| [!UICONTROL Total Segment Population] | Recuento de todos los dispositivos que fueron miembros del grupo [!UICONTROL segment] durante el período de retrospectiva del informe. |
+| [!UICONTROL Segment Addressable Audience] | El número de usuarios que han pertenecido al [!UICONTROL segment] durante el período de retroceso del informe y que tienen una sincronización de ID activa en el sitio. [!UICONTROL Segments] Puede incluir sus propios datos de origen y datos de terceros y de terceros, mediante [!UICONTROL traits] los datos adquiridos en el [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md). <br><br>Sugerencia: Cuando se utiliza con el período retrospectivo de 1 día, esta métrica puede ayudarle a comprender el estado actual de su [!UICONTROL segments]. Esto se debe a que la [!UICONTROL Segment Addressable Audience] métrica representa a los usuarios que permanecieron en una [!UICONTROL segment] durante el día anterior. Combinar esto con el hecho de que [!DNL Audience Manager] se actualiza [!UICONTROL Addressable Audiences] diariamente, la combinación de esta métrica y el período retrospectivo proporciona la instantánea más actualizada de su [!UICONTROL segments]. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] expresado como porcentaje. |
+
+## [!UICONTROL Addressable Audiences] Interfaz {#addressable-audience-interface}
 
 La [!UICONTROL Addressable Audience] característica convierte este concepto abstracto en datos cuantificables. En [!DNL Audience Manager], esta función muestra solapamiento de audiencia con visualizaciones de datos que proporcionan información de un vistazo junto con datos numéricos en forma de tabla.
 
@@ -90,9 +51,9 @@ Las tres métricas que puede ver en la [!UICONTROL Addressable Audiences] págin
 ---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Esta métrica representa la [!UICONTROL Customer Addressable Audience] (descrita en la tabla anterior) *de los últimos 30 días.* |
 | **[!UICONTROL Match Rate]** | Esta métrica representa la [!UICONTROL Addressable Audience Match Rate] (descrita en la tabla anterior) *de los últimos 30 días*. |
-| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Recuento de todos los dispositivos que han interactuado con todos [!DNL Audience Manager] los clientes a nivel de plataforma durante el período de retrospectiva del informe y que podrían coincidir con este destino. Consulte Métricas [de nivel de](/help/using/features/addressable-audiences.md#platform-level-metrics) Platform para obtener más información. |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Recuento de todos los dispositivos que han interactuado con todos [!DNL Audience Manager] los clientes a nivel de plataforma durante el período de retrospectiva del informe y que podrían coincidir con esto [!UICONTROL destination]. Consulte Métricas [de nivel de](/help/using/features/addressable-audiences.md#platform-level-metrics) Platform para obtener más información. |
 
-Haga clic en el nombre de un destino de servidor a servidor para vista de los datos de audiencia direccionables. Tenga en cuenta que esta función devuelve datos solo para destinos de servidor a servidor y el acceso requiere permisos de administrador.
+Haga clic en el nombre de un [!UICONTROL server-to-server destination] para vista de los datos de audiencia direccionables. Tenga en cuenta que esta función devuelve datos [!UICONTROL server-to-server destinations] únicamente y el acceso requiere permisos de administrador.
 
 ![](assets/addressableAudiences.png)
 
@@ -108,9 +69,9 @@ Antes de comprar datos de terceros para la adquisición de audiencias, los clien
 
 ### Usuarios móviles y tasas de coincidencia
 
-Hay huecos al intentar conectar [!DNL Safari] o a los usuarios de aplicaciones móviles en los que no hay cookies de terceros presentes. Esto dificulta la sincronización de los usuarios con algunos socios, ya que en los registros de envío de medios solo se proporcionan [!DNL Adobe] los ID de cookies de terceros sincronizadas. Por este motivo, es posible que vea tasas [de coincidencia](../features/addressable-audiences.md#low-match-rates) bajas para los destinos.
+Hay huecos al intentar conectar [!DNL Safari] o a los usuarios de la aplicación móvil en los que no hay ningún [!DNL cookies] tercero. Esto dificulta la sincronización de usuarios con algunos socios, ya que en los registros de envío de medios solo se proporcionan [!DNL Adobe] los ID de terceros sincronizados [!DNL cookies] . Esta es una razón por la que puede ver tasas [de coincidencia](../features/addressable-audiences.md#low-match-rates) bajas para su [!UICONTROL destinations].
 
-## Intervalos de fechas en Audiencias y destinos abordables {#date-ranges}
+## Intervalos de fechas en [!UICONTROL Addressable Audiences] y [!UICONTROL Destinations] {#date-ranges}
 
 Lea las secciones a continuación para ver los intervalos de fechas disponibles y la antigüedad de los datos de cada intervalo en los informes de un intervalo [!UICONTROL Addressable Audience] o [!UICONTROL Destination].
 
@@ -141,7 +102,7 @@ Los intervalos de fechas contienen datos para el intervalo de tiempo seleccionad
 
 Y, el día 31, estos visitantes solo aparecen en los 60 días, 90 días, y [!UICONTROL Lifetime] los resultados. Han envejecido a partir del intervalo de 30 días. Los Visitantes no caducan fuera del [!UICONTROL Lifetime] intervalo.
 
-## Métricas de Audiencia direccionables {#addressable-audience-metrics}
+## [!UICONTROL Addressable Audiences] Métricas {#addressable-audience-metrics}
 
 Esta sección describe los tipos de métricas que proporciona [!UICONTROL Addressable Audiences].
 
@@ -151,131 +112,54 @@ Esta sección describe los tipos de métricas que proporciona [!UICONTROL Addres
 
 Estas métricas devuelven datos de características realizadas cuando los visitantes llegan a su sitio o cuando envía archivos de datos de entrada a [!DNL Audience Manager]. Estas métricas proporcionan una vista completa del tamaño de audiencia de su cuenta.
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Métrica </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia direccionable al cliente</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>Recuento de superposición de dispositivos que han adquirido una característica basada en reglas o una característica incorporada durante la ventana retroactiva y dispositivos que tienen una sincronización de ID con el destino elegido independientemente del tiempo de sincronización. </p> 
-    </draft-comment> <p>Esta métrica representa los dispositivos que: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Se han realizado características basadas en reglas o integradas durante la ventana retroactiva <b>Y</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Haga una sincronización de ID con el destino elegido independientemente del tiempo de sincronización. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia total del cliente</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de dispositivos que han realizado una característica basada en reglas en sus propiedades o una característica integrada de los archivos sin conexión durante la ventana retroactiva. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tasa de coincidencia del cliente</b> </p> </td> 
-   <td colname="col2"> <p>Audiencia direccionable al cliente ÷ Audiencia total del cliente expresada como porcentaje. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Métrica | Descripción |
+|---|---|
+| [!UICONTROL Customer Addressable Audience] | Recuento de superposición de dispositivos que han realizado una sincronización de ID [!UICONTROL rule-based trait] o [!UICONTROL onboarded trait] durante la ventana retroactiva y dispositivos que tenemos una sincronización de ID con el destino elegido, independientemente del momento de la sincronización.<br><br>Esta métrica representa los dispositivos que:<ul><li>Se ha realizado un [!UICONTROL rule-based] o un [!UICONTROL onboarded trait] evento durante la ventana retroactiva `AND`</li><li>Haga una sincronización de ID con el ID seleccionado [!UICONTROL destination] independientemente del tiempo de sincronización.</li></ul> |
+| [!UICONTROL Customer Total Audience] | Recuento de dispositivos que han realizado un [!UICONTROL rule-based trait] registro en sus propiedades o un registro [!UICONTROL onboarded trait] de los archivos sin conexión durante la ventana retroactiva. |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] expresado como porcentaje. |
 
 ### Métricas de coincidencia de nivel de segmento {#segment-level-metrics}
 
-Estas métricas devuelven datos sobre la pertenencia a segmentos. Ayudan a proporcionar una vista más granular y precisa del tamaño de la audiencia para cada uno de los segmentos.
+Estas métricas devuelven datos sobre [!UICONTROL segment] la pertenencia. Ayudan a proporcionar una vista más granular y precisa del tamaño de la audiencia para cada uno de los [!UICONTROL segments]usuarios.
 
 >[!NOTE]
 >
->La forma en que se aplica la ventana retroactiva en el nivel de segmento es diferente a la del cliente. Los Visitantes pueden llegar al sitio y darse cuenta de una característica hace 10 días, y desde entonces pueden calificar para un segmento y retirarse del segmento hace 2 días. Cuando se aplica la retrospectiva de 7 días, estos visitantes se contabilizarán en el nivel de segmento pero no en el nivel de cliente.
+>La forma en que se aplica la ventana retroactiva en el [!UICONTROL segment] nivel es diferente a la del cliente. Los Visitantes pueden venir al sitio y darse cuenta hace [!UICONTROL trait] 10 días, y podrían cumplir con los requisitos [!UICONTROL segment] desde entonces y abandonar el sitio hace [!UICONTROL segment] 2 días. Cuando se aplica la retrospectiva de 7 días, estos visitantes se cuentan en el [!UICONTROL segment] nivel pero no en el nivel del cliente.
 
-<table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Métrica </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia direccionable del segmento</b> </p> </td> 
-   <td colname="col2"> <p>El número de usuarios que han pertenecido al segmento durante el período de retroactividad del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de las características adquiridas en el <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>. </p> <p> <p>Sugerencia: Cuando se utiliza con el período retrospectivo de 1 día, esta métrica puede ayudarle a comprender el estado actual de los segmentos. Esto se debe a que la métrica de Audiencia <span class="wintitle"></span> Segmento direccionable representa a los usuarios que permanecieron en un segmento durante el día anterior. Combinar esto con el hecho de que el <span class="keyword"> Audience Manager</span> actualiza diariamente las Audiencias <span class="wintitle"> direccionables</span> , la combinación de esta métrica y el período retrospectivo proporciona la instantánea más actualizada de los segmentos. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Población total del segmento</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de todos los dispositivos que eran miembros del segmento durante el período de retroceso del informe. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tasa de coincidencia de segmentos</b> </p> </td> 
-   <td colname="col2"> <p>Audiencia direccionable del segmento ÷ Población total del segmento expresada como porcentaje. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Métrica | Descripción |
+|---|---|
+| [!UICONTROL Segment Addressable Audience] | El número de usuarios que han pertenecido al [!UICONTROL segment] durante el período de retroceso del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y datos de terceros y de terceros, a través de [!UICONTROL traits] los datos adquiridos en el [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Sugerencia: Cuando se utiliza con el período retrospectivo de 1 día, esta métrica puede ayudarle a comprender el estado actual de su [!UICONTROL segments]. Esto se debe a que la [!UICONTROL Segment Addressable Audience] métrica representa a los usuarios que permanecieron en una [!UICONTROL segment] durante el día anterior. Combinar esto con el hecho de que [!DNL Audience Manager] se actualiza [!UICONTROL Addressable Audiences] diariamente, la combinación de esta métrica y el período retrospectivo proporciona la instantánea más actualizada de su [!UICONTROL segments]. |
+| [!UICONTROL Total Segment Population] | Recuento de todos los dispositivos que fueron miembros del grupo [!UICONTROL segment] durante el período de retrospectiva del informe. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] expresado como porcentaje. |
 
 ### Métricas de nivel Platform {#platform-level-metrics}
 
 Esta métrica devuelve datos sobre actividades recopiladas en todos los [!DNL Audience Manager] clientes. Pueden proporcionar una vista más amplia de la audiencia del cliente en comparación con los [!DNL Audience Manager] clientes agregados.
 
-<table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Métrica </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audiencia direccionable de Audience Manager</b> </p> </td> 
-   <td colname="col2"> <p>Recuento de todos los dispositivos que han interactuado con todos los clientes Audience Manager a nivel de plataforma durante el período de retrospectiva del informe y que se pueden comparar con el destino elegido. </p> <p>Esta métrica es útil porque muestra: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> El tamaño de la audiencia direccionable total a la que puede llegar el <span class="keyword"> Audience Manager</span> en un destino determinado. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">Qué tamaño tiene el grupo de perfiles <span class="keyword"> Audience Manager</span> para una plataforma de objetivo y el tamaño de sus audiencias. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Métrica | Descripción |
+|---|---|
+| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | Recuento de todos los dispositivos que han interactuado con todos [!DNL Audience Manager] los clientes a nivel de plataforma durante el período de retrospectiva del informe y que podrían coincidir con el [!UICONTROL destination]. <br><br>Esta métrica es útil porque muestra:<ul><li>El tamaño del [!UICONTROL total addressable audience] que [!DNL Audience Manager] puede alcanzar un destino determinado.</li><li>Qué tamaño tiene el grupo de [!DNL Audience Manager] perfiles para una plataforma de objetivo y el tamaño de sus audiencias.</li></ul> |
 
-## Comparación de Audiencias a las que puede dirigirse el cliente y el segmento{#comparing-metrics}
+## Comparación [!UICONTROL Customer] y [!UICONTROL Segment Addressable Audiences] {#comparing-metrics}
 
 No debe comparar las métricas [!UICONTROL Customer Addressable Audience] y [!UICONTROL Segment Addressable Audience] para determinar si una es más significativa que la otra. Son métricas independientes, diferentes e independientes. Como se describe en las definiciones anteriores, cada una de ellas se deriva de diferentes conjuntos de datos. Dado esto, debe evitar extraer conclusiones si una métrica es más grande que la otra. Todo lo que se puede decir al comparar esto es que:
 
-* [!UICONTROL Customer Addressable Audiences] se basa en la realización *de características de sus propios datos* de origen. Esta métrica proporciona una vista amplia y completa de la integración con un socio de datos.
+* [!UICONTROL Customer Addressable Audiences] se basa en [!UICONTROL trait] la realización *de sus propios datos* de origen. Esta métrica proporciona una vista amplia y completa de la integración con un socio de datos.
 
-* [!UICONTROL Segment Addressable Audiences] se basa en las cualificaciones de los segmentos *para sus propios datos de origen, además de los datos* de terceros y de segundo nivel. Esta métrica proporciona una vista granular y más precisa de sus audiencias direccionables en una plataforma de segmentación.
+* [!UICONTROL Segment Addressable Audiences] se basa en las cualificaciones de los segmentos *para sus propios datos de origen, además de los datos* de terceros y de segundo nivel. Esta métrica proporciona una vista granular y más precisa de su [!UICONTROL addressable audiences] contenido en una plataforma de segmentación.
 
-## Causas de bajas tasas de coincidencia para Audiencias direccionables {#low-match-rates}
+## Causas de bajas tasas de coincidencia para [!UICONTROL Addressable Audiences] {#low-match-rates}
 
 Elementos comunes responsables de bajas tasas de [!UICONTROL Addressable Audience] coincidencia o discrepancias en los números notificados.
 
-<!-- addressable-audiences.xml -->
+| Causa | Descripción |
+|---|---|
+| Tráfico móvil | La mayoría de [!UICONTROL server-to-server] las integraciones dependen de procesos de sincronización facilitados por terceros [!DNL cookies]. Sin embargo, los entornos móviles no utilizan terceros [!DNL cookies]. Como resultado, sus [!UICONTROL Addressable Audiences] números pueden parecer bajos en comparación con el [!UICONTROL segment] tamaño. <br><br>A partir de enero de 2018, puede activar audiencias móviles en el mismo [!DNL Google] y [!DNL Adobe Advertising Cloud] destinos configurados para [!UICONTROL cookie-based] audiencias. Aunque esto significa que puede enviar [!UICONTROL segments] con un abono combinado [!DNL cookie] y de ID de móvil a su destino [!DNL Google] y [!DNL Advertising Cloud] , tenga en cuenta que [!UICONTROL Addressable Audiences] solo se muestra la superposición entre [!DNL cookie] ID y destinos. [!DNL Audience Manager] envía el 100 % de las audiencias móviles a [!UICONTROL destinations], pero las audiencias móviles no se miden por la [!UICONTROL Addressable Audience] métrica. <br><br>**Nota **: Por ejemplo, tomemos un[!UICONTROL segment]con una población de 1.000.000 habitantes. Si asigna esto[!UICONTROL segment]a un destino[!DNL Google]o[!DNL Adobe Advertising Cloud], es posible que vea un[!UICONTROL Addressable Audience]de 700.000 dispositivos y un[!UICONTROL Match Rate]de 70%. La membresía de 700.000 consiste en[!DNL cookie]ID que tienen una sincronización de ID con el[!UICONTROL destination]. De hecho,[!UICONTROL Addressable Audience]es posible que sea mucho mayor, ya que los ID móviles direccionables no aparecen en esta métrica. |
+| [!DNL Safari] Tráfico | [!DNL Safari] bloquea a terceros [!DNL cookies]. Esto evita [!DNL Audience Manager] sincronizar los ID con los [!UICONTROL destination]. Con la introducción de [ITP 2.0](https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/), puede esperar [!UICONTROL addressable audiences] que no incluya a [!DNL Safari] los usuarios. |
+| Impresiones de medios rastreados | Debido a las optimizaciones del servidor de publicidad, las sincronizaciones de ID no se realizan dentro de las etiquetas de publicidad. Los clientes que realizan una gran cantidad de publicidad fuera del sitio no sincronizarán a los usuarios con integraciones de terceros en esos entornos. Además, una gran cantidad de datos de impresión de medios recopilados podría reducir [!UICONTROL addressable audience] los números. |
 
-<table id="table_895D536F69134330A4F13887ECAFD4F5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Causa </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tráfico móvil</b> </p> </td> 
-   <td colname="col2"> <p>La mayoría de las integraciones de servidor a servidor dependen de procesos de sincronización facilitados por cookies de terceros. Sin embargo, los entornos móviles no utilizan cookies de terceros. Como resultado, los números de Audiencia objetivo pueden parecer bajos en comparación con el tamaño del segmento. </p> <p>A partir de enero de 2018, puede activar audiencias móviles en los mismos destinos de Google y Adobe Advertising Cloud configurados para audiencias basadas en cookies. Aunque esto significa que puede enviar segmentos con una pertenencia combinada a cookies e ID de móvil a los destinos de Google y Advertising Cloud, tenga en cuenta que las Audiencias direccionables solo muestran la superposición entre ID de cookies y destinos. Audience Manager envía el 100 % de las audiencias móviles a los destinos, pero las audiencias móviles no se miden mediante la métrica Audiencia direccionable. </p> <p> <p><b>Nota</b>:  Por ejemplo, tomemos un segmento con una población de 1.000.000 habitantes. Si asigna este segmento a un destino de Google o Adobe Advertising Cloud, es posible que vea una Audiencia direccionable de 700.000 dispositivos y una tasa de coincidencia del 70%. La membresía de 700.000 consiste en ID de cookies que tienen una sincronización de ID con el destino. La Audiencia a la que se puede dirigir puede ser, de hecho, mucho mayor, porque los ID de dispositivos móviles direccionables no aparecen en esta métrica. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tráfico de Safari</b> </p> </td> 
-   <td colname="col2"> <p>Safari bloquea las cookies de terceros. Esto evita que el Audience Manager sincronice los ID con el destino. Con la introducción de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, puede esperar que sus audiencias direccionables no incluyan usuarios de Safari. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Impresiones de medios rastreados</b> </p> </td> 
-   <td colname="col2"> <p>Debido a las optimizaciones del servidor de publicidad, las sincronizaciones de ID no se realizan dentro de las etiquetas de publicidad. Los clientes que realizan una gran cantidad de publicidad fuera del sitio no sincronizarán a los usuarios con integraciones de terceros en esos entornos. Además, una gran cantidad de datos de impresión de medios recopilados podría reducir los números de audiencia direccionables. </p> </td>
-  </tr> 
- </tbody> 
-</table>
-
-## Resolución de problemas con Audiencias direccionables {#troubleshooting}
+## Resolución de problemas con [!UICONTROL Addressable Audiences] {#troubleshooting}
 
 Además de las tasas de coincidencia de superficie, también puede utilizar [!UICONTROL Addressable Audiences] como herramienta de resolución de problemas.
 
-<!-- addressable-audiences-troubleshooting.xml -->
-
-Por ejemplo, supongamos que envía un segmento a un destino y que ese destino muestra números de sistema de informes bajos. Si se seleccionan los [!UICONTROL Addressable Audience] resultados, se le mostrará si se trata de un problema técnico o sólo de un caso de tasas de coincidencia bajas. Una tasa de coincidencia baja muestra que el destino no es tan bueno para los segmentos seleccionados. Sin embargo, una diferencia en los números de audiencia direccionables totales entre [!DNL Audience Manager] y el destino indica un problema de integración, sincronización u otro problema técnico. En estos casos, póngase en contacto con su administrador de cuentas.
+Por ejemplo: supongamos que envía un segmento a un [!UICONTROL destination] y que [!UICONTROL destination] muestra números de sistema de informes bajos. Si se seleccionan los [!UICONTROL Addressable Audience] resultados, se le mostrará si se trata de un problema técnico o sólo de un caso de tasas de coincidencia bajas. La tasa de coincidencia baja muestra que [!UICONTROL destination] no es tan buena para los segmentos seleccionados. Sin embargo, una diferencia en los [!UICONTROL total addressable audience] números entre [!DNL Audience Manager] y [!UICONTROL destination] indica un problema técnico de integración, sincronización u otro tipo. En estos casos, póngase en contacto con su administrador de cuentas.
