@@ -5,15 +5,15 @@ seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 7%
 
 ---
 
 
-# Complemento de Audience Manager para IAB TCF {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Información general
 
@@ -43,6 +43,10 @@ Actualmente, Audience Manager no admite:
 
 * flujos de trabajo de dispositivos móviles;
 * Adición del consentimiento para segmentar las exportaciones.
+
+## Actualizando a [!DNL IAB TCF v2.0] {#upgrading}
+
+Los clientes que estén actualizando su [!DNL Audience Manager Plug-in for IAB TCF] implementación de [!DNL IAB TCF] v1.1 a [!DNL IAB TCF] v2.0, o que habiliten [!DNL IAB TCF] v2.0 por primera vez, deben seguir las mismas directrices sobre requisitos previos e implementación que se describen a continuación.
 
 ## Requisitos previos {#prerequisites}
 
