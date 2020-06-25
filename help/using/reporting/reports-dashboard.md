@@ -1,19 +1,23 @@
 ---
-description: Utilice el panel para ver información sobre los recuentos de visitantes únicos de los socios desglosados por tipos de características y segmentos para un intervalo de tiempo específico.
-seo-description: Utilice el panel para ver información sobre los recuentos de visitantes únicos de los socios desglosados por tipos de características y segmentos para un intervalo de tiempo específico.
-seo-title: Tablero de informes
+description: Use el Panel para vista información sobre los recuentos de visitantes únicos de sus socios desglosados por tipos de características y segmentos para un intervalo de tiempo específico.
+seo-description: Use el Panel para vista información sobre los recuentos de visitantes únicos de sus socios desglosados por tipos de características y segmentos para un intervalo de tiempo específico.
+seo-title: Panel de informes
 solution: Audience Manager
-title: Tablero de informes
+title: Panel de informes
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 0%
 
 ---
 
 
-# Tablero de informes {#reports-dashboard}
+# Panel de informes {#reports-dashboard}
 
-Utilice el panel para ver información sobre los recuentos de visitantes únicos desglosados por tipos de características y segmentos, durante un período de tiempo específico.
+Utilice el Panel para vista información sobre los recuentos de visitantes únicos desglosados por tipos de características y segmentos, durante un período de tiempo específico.
 
 <!-- 
 
@@ -21,18 +25,18 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupo de usuarios al [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el tablero que tienen permisos para ver. [!UICONTROL RBAC] permite controlar los datos que pueden ver los equipos internos de informes.
+[!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupo de usuarios al [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel de que tienen permisos para la vista. [!UICONTROL RBAC] le permite controlar qué datos de sistema de informes pueden realizar la vista los equipos internos.
 
-Por ejemplo, una agencia que gestiona diferentes cuentas de anunciante puede configurar permisos de grupo de usuarios para que un equipo que administra la cuenta del anunciante A no pueda ver los datos de informes del anunciante B. Este tablero puede utilizarse para solucionar problemas de entrega de datos.
+Por ejemplo, una agencia que gestione diferentes cuentas de anunciante puede configurar los permisos de grupo de usuarios para que un equipo que administre la cuenta del Anunciante A no pueda ver los datos de sistema de informes del Anunciante B. Este panel se puede utilizar para solucionar problemas de envío de datos.
 
-Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas vs. integrado), tiene un mejor punto de partida para rastrear un posible problema de entrega de datos. Si observa una caída en el total de usuarios únicos y en los usuarios únicos integrados, puede ir al [!UICONTROL On-boarding Status] informe para ver si hubo algún problema con un archivo de entrada.
+Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas vs. integrado), tiene un mejor punto de partida para rastrear un posible problema de envío de datos. Si observa una caída en el total de usuarios únicos y en los usuarios únicos integrados, puede ir al [!UICONTROL On-boarding Status] informe para ver si hubo algún problema con un archivo de entrada.
 
-**Para acceder al tablero:**
+**Para acceder al Panel:**
 
 1. En el menú de navegación superior, haga clic en **[!UICONTROL Dashboard]**.
-2. *Opcional* Seleccione el intervalo de tiempo deseado desde la última fecha del informe en la lista desplegable (7 días, 14 días (el valor predeterminado), 30 días o 60 días).
+2. *Opcional* Seleccione el intervalo de tiempo deseado desde la fecha del último sistema de informes en la lista desplegable (7 días, 14 días (el valor predeterminado), 30 días o 60 días).
 
-   Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] &gt; [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] &gt; [!UICONTROL Most Changed Segments] muestra el cambio en los visitantes únicos de la audiencia durante el período que termina hoy frente al período anterior de la misma duración. Por ejemplo: si selecciona 7 días, el delta compara a los visitantes únicos de los siete días anteriores que finalizaron hoy con los visitantes únicos de los siete días anteriores que finalizaron hace siete días.
+   Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] muestra el cambio en los visitantes únicos de la audiencia durante el período que termina hoy frente al período anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días anteriores que finalizan hace siete días.
 
    >[!NOTE]
    >
@@ -48,7 +52,7 @@ Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos c
 
 ## Únicos de socio {#partner-uniques}
 
-Permiso necesario para ver: [!UICONTROL View All Traits].
+Permiso necesario para la Vista: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
@@ -56,17 +60,17 @@ Este panel muestra el número de visitantes únicos durante el intervalo de tiem
 
 >[!NOTE]
 >
->El número total de visitantes únicos representa a los visitantes capturados mediante características basadas en reglas o integradas. Sin embargo, el número total de visitantes únicos no equivale a la suma de visitantes únicos capturados con las características basadas en reglas y integradas. El mismo usuario único puede estar representado en cualquiera de estos dos tipos de características.
+>El número total de visitantes únicos representa los visitantes capturados mediante características basadas en reglas o integradas. Sin embargo, el número total de visitantes únicos no es igual a la suma de visitantes únicos capturados con las características basadas en reglas y integradas. El mismo usuario único puede estar representado en cualquiera de estos dos tipos de características.
 
 ## Características más grandes/Características más cambiadas {#largest-traits}
 
-Permiso necesario para ver: [!UICONTROL View Traits].
+Permiso necesario para la Vista: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
 Este panel muestra el número de visitantes únicos capturados por varias características.
 
-Utilice la lista desplegable **[!UICONTROL Show]** para mostrar información sobre los distintos tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]o [!UICONTROL Rule-Based].
+Utilice la **[!UICONTROL Show]** lista desplegable para mostrar información sobre los distintos tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]o [!UICONTROL Rule-Based].
 
 Este panel contiene las fichas siguientes:
 
@@ -80,7 +84,7 @@ Este panel contiene las fichas siguientes:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Características más grandes</span> </p> </td> 
-   <td colname="col2"> <p>Muestra información sobre el número de visitantes únicos ordenados por número (de mayor a menor) y también enumera el cambio delta de visitantes únicos durante el intervalo de tiempo especificado. </p> </td> 
+   <td colname="col2"> <p>Muestra información sobre el número de visitantes únicos ordenados por número (de mayor a menor) y también lista el cambio delta de visitantes únicos durante el intervalo de tiempo especificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Características más cambiadas</span> </p> </td> 
@@ -91,7 +95,7 @@ Este panel contiene las fichas siguientes:
 
 ## Segmentos más grandes/Segmentos más cambiados {#most-changed-segments}
 
-Permiso necesario para ver: [!UICONTROL View Segments].
+Permiso necesario para la Vista: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
