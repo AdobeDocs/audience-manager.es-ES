@@ -5,8 +5,9 @@ seo-title: Consideraciones del RGPD para destinos
 solution: Audience Manager
 title: Consideraciones del RGPD para destinos
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
