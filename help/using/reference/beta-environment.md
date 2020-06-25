@@ -1,20 +1,24 @@
 ---
-description: El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si le interesa usar el entorno beta.
+description: El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
 keywords: sandbox
-seo-description: El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si le interesa usar el entorno beta.
+seo-description: El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
 seo-title: Entorno beta
 solution: Audience Manager
 title: Entorno beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
+feature: reference
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 4%
 
 ---
 
 
 # Entorno beta {#beta-environment}
 
-El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si le interesa usar el entorno beta.
+El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
 
 ## Información general
 
@@ -41,11 +45,11 @@ Added re: AAM-30826.
 | Servicio | URL/nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
 | S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente para configurar un bucket de Amazon S3 para su instancia beta. Lea acerca de las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el entorno](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
+| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el Entorno](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
 | IU | `https://bank-beta.demdex.com` | Las credenciales del entorno de producción son válidas para el entorno beta. |
 | API | `https://api-beta.demdex.com/...` | Las credenciales del entorno de producción son válidas para el entorno beta. Le recomendamos que cree un usuario de API genérico, [consulte los detalles](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Acceso al DCS en el entorno beta {#access-dcs-beta-environment}
+## Acceso al DCS en el Entorno Beta {#access-dcs-beta-environment}
 
 1. Realice una llamada de DCS mediante el [comando](https://curl.haxx.se/docs/manpage.html)curl. Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
 
@@ -53,7 +57,7 @@ Added re: AAM-30826.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Compruebe que el DCS beta haya proporcionado su solicitud buscando "simulador de pruebas" en el encabezado de respuesta del DCS.
+1. Compruebe que el DCS beta haya proporcionado su solicitud buscando &quot;simulador de pruebas&quot; en el encabezado de respuesta del DCS.
 
    Por ejemplo:
 
