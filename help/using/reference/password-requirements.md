@@ -1,19 +1,23 @@
 ---
-description: Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente si desea habilitar la caducidad de la contraseña. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
-seo-description: Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente si desea habilitar la caducidad de la contraseña. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
+description: El Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Si desea habilitar la caducidad de la contraseña, comuníquese con el Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
+seo-description: El Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Si desea habilitar la caducidad de la contraseña, comuníquese con el Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
 seo-title: Requisitos de contraseña, cuentas bloqueadas y contraseñas olvidadas
 solution: Audience Manager
 title: Requisitos de contraseña, cuentas bloqueadas y contraseñas olvidadas
 uuid: bca892eb-3577-4382-8110-131f78d23069
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 2%
 
 ---
 
 
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente si desea habilitar la caducidad de la contraseña. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
+El Audience Manager se puede configurar para que caduque las contraseñas cada 30 días. Si desea habilitar la caducidad de la contraseña, comuníquese con el Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para conocer los requisitos de contraseña y cómo recuperar una contraseña olvidada o perdida.
 
 <!-- 
 
@@ -43,7 +47,7 @@ Para ser válida, su [!DNL Audience Manager] contraseña debe cumplir los siguie
      <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
       <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">Comience y termine con un carácter alfanumérico. </li> 
       <li id="li_1390D4C9A48944B68B891EE6CB734BBC">Contiene al menos 1 carácter en mayúsculas y minúsculas. </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">Contiene al menos 1 número. </li> 
+      <li id="li_B75B64A005804262BAAF0F1901D63358">Contener al menos 1 número. </li> 
       <li id="li_28452022AF4743B8B159187BBD10890A">Contiene al menos 1 carácter especial (se excluyen los dos puntos ":"). </li> 
       <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">Consiste solamente en letras del alfabeto latino. </li> 
      </ul> </p> </td> 
@@ -68,7 +72,7 @@ Para obtener información sobre cómo restablecer la contraseña, consulte [Edit
 
 **Bloqueo de cuenta**
 
-Las cuentas se bloquean tras 5 intentos de inicio de sesión fallidos. Póngase en contacto con el administrador de su empresa o con un representante de Servicios de socio para desbloquear su cuenta. [!DNL Audience Manager]
+Las cuentas se bloquean después de 5 intentos de inicio de sesión fallidos. Póngase en contacto con el administrador [!DNL Audience Manager] de su compañía o con un representante de Servicios de socios para desbloquear su cuenta.
 
 **Contraseña perdida/olvidada**
 
