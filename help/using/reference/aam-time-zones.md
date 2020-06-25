@@ -1,18 +1,22 @@
 ---
-description: Audience Manager utiliza la hora universal coordinada (UTC) en toda su interfaz de usuario.
-seo-description: Audience Manager utiliza la hora universal coordinada (UTC) en toda su interfaz de usuario.
-seo-title: Husos horarios en Audience Manager
+description: El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
+seo-description: El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
+seo-title: Husos horarios en el Audience Manager
 solution: Audience Manager
-title: Husos horarios en Audience Manager
+title: Husos horarios en el Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
+feature: reference
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# Husos horarios en Audience Manager{#time-zones-in-audience-manager}
+# Husos horarios en el Audience Manager{#time-zones-in-audience-manager}
 
-Audience Manager utiliza la hora universal coordinada (UTC) en toda su interfaz de usuario.
+El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
 
-A menos que se especifique lo contrario, todas las fechas e intervalos de fechas que puede seleccionar en la [!DNL Adobe] interfaz de usuario son Hora universal [!DNL Audience Manager] coordinada (UTC) [](https://www.timeanddate.com/worldclock/timezone/utc). Por ejemplo, en el flujo [Crear destino](../features/destinations/create-cookie-destination.md#segments-mapping) , al asignar segmentos a su destino, la fecha de inicio y de finalización que seleccione será medianoche UTC. Lo mismo se aplica a todas las fechas de [!DNL Audience Manager].
+A menos que se especifique lo contrario, todas las fechas e intervalos de fechas que puede seleccionar en la [!DNL Adobe] interfaz de usuario son Hora universal [!DNL Audience Manager] coordinada (UTC) [](https://www.timeanddate.com/worldclock/timezone/utc). Por ejemplo, en el flujo [Crear destino](../features/destinations/create-cookie-destination.md#segments-mapping) , al asignar segmentos a su destino, el inicio y la fecha de finalización que seleccione son medianoche UTC. Lo mismo se aplica a todas las fechas de [!DNL Audience Manager].
