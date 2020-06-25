@@ -5,8 +5,12 @@ seo-title: Recuento de usuarios únicos en superposiciones e informes generales 
 solution: Audience Manager
 title: Recuento de usuarios únicos en informes generales y superpuestos
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +35,7 @@ Los informes de superposición cuentan a los usuarios como únicos cuando cumple
 
 ## Informe general: Recuento de usuarios únicos
 
-El informe General cuenta a los visitantes del sitio como únicos si cumplen los requisitos para la característica durante el período de tiempo seleccionado.
+El informe General cuenta los visitantes del sitio como únicos si cumplen los requisitos para el rasgo durante el período de tiempo seleccionado.
 
 >[!MORELIKETHIS]
 >
