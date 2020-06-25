@@ -1,25 +1,29 @@
 ---
-description: No se está utilizando el Administrador de Audiencias pero se están viendo llamadas de Javascript del Administrador de Audiencias en el depurador Javascript - ¿Por qué?
-seo-description: No se están utilizando pero se están viendo llamadas de Javascript del Administrador de Audiencias en el depurador Javascript - ¿Por qué?
-seo-title: No se está utilizando el Administrador de Audiencias pero se están viendo llamadas de Javascript del Administrador de Audiencias en el depurador Javascript - ¿Por qué?
+description: No utilizamos Audience Manager pero vemos llamadas de Audience Manager Javascript en el depurador Javascript - ¿Por qué?
+seo-description: No lo estamos usando pero vemos llamadas de Audience Manager Javascript en el depurador Javascript - ¿Por qué?
+seo-title: No utilizamos Audience Manager pero vemos llamadas de Audience Manager Javascript en el depurador Javascript - ¿Por qué?
 solution: Audience Manager
-title: No se está utilizando el Administrador de Audiencias pero se están viendo llamadas de Javascript del Administrador de Audiencias en el depurador Javascript - ¿Por qué?
+title: No utilizamos Audience Manager pero vemos llamadas de Audience Manager Javascript en el depurador Javascript - ¿Por qué?
+feature: support
 translation-type: tm+mt
-source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
 
-# No somos clientes del Administrador de Audiencias, pero vemos las llamadas de Javascript del Administrador de Audiencias en nuestro sitio
+# No somos un cliente Audience Manager, pero vemos las llamadas del Audience Manager Javascript en nuestro sitio
 
 ## pregunta
 
-No estamos utilizando Adobe Audiencia Manager pero vemos llamadas de Javascript del Administrador de Audiencias en el depurador de Javascript.
+No estamos usando Adobe Audience Manager pero vemos llamadas de Audience Manager Javascript en el depurador Javascript.
 
 ¿Por qué sucede esto?
 
 ## Respuesta
 
-Es probable que esté ejecutando el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud en su propiedad. Si es así, tener esta referencia del Administrador de Audiencias no necesariamente hace referencia a la propiedad que ejecuta el Administrador de Audiencias. En su lugar, significa que el Administrador de Audiencias está alimentando este servicio.
+Es probable que esté ejecutando el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud en su propiedad. Si es así, tener esta referencia de Audience Manager no necesariamente hace referencia a la propiedad que ejecuta Audience Manager. En cambio, significa que el Audience Manager está impulsando este servicio.
 
-La llamada al servidor del Administrador de Audiencias generalmente se realiza para [sincronizar los ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)de cliente.
+La llamada al servidor Audience Manager se realiza generalmente para [sincronizar los ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)de cliente.
