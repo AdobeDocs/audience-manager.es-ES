@@ -1,12 +1,16 @@
 ---
 description: Un informe General devuelve datos de rendimiento sobre características, segmentos y destinos.
-seo-description: Un informe General en el Administrador de Audiencias devuelve datos de rendimiento sobre características, segmentos y destinos.
-seo-title: Informes generales en el Administrador de Audiencias
+seo-description: Un informe General en Audience Manager devuelve datos de rendimiento sobre características, segmentos y destinos.
+seo-title: Informes generales en Audience Manager
 solution: Audience Manager
 title: Informes generales
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -126,11 +130,11 @@ Las métricas siguientes están disponibles cuando ejecuta un informe General y 
 
 ### Población de segmentos en tiempo real
 
-Esta métrica representa el número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que el Administrador de Audiencias los vio.
+Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que los vio el Audience Manager.
 
 ### Población total del segmento
 
-Esta métrica representa el número total de UUID del Administrador de Audiencias calificados para el segmento dentro del período de retrospectiva seleccionado. La población total del segmento de 1 día representa la base de usuarios más precisa para la segmentación.
+Esta métrica representa el número total de UUID de Audience Manager calificados para el segmento dentro del período de retrospectiva seleccionado. La población total del segmento de 1 día representa la base de usuarios más precisa para la segmentación.
 
 >[!NOTE]
 >
@@ -146,11 +150,11 @@ Las métricas siguientes están disponibles cuando ejecuta un informe General y 
 
 **Población de segmentos en tiempo real**
 
-Esta métrica representa el número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que el Administrador de Audiencias los vio.
+Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que los vio el Audience Manager.
 
 **Población total del segmento**
 
-Esta métrica representa el número total de UUID del Administrador de Audiencias que pertenecen a un segmento dentro del período de retrospectiva, que se enviaron a un destino.
+Esta métrica representa el número total de UUID de Audience Manager que pertenecen a un segmento dentro del período de retrospectiva, que se enviaron a un destino.
 
 La siguiente ilustración muestra los resultados de ejecutar un informe general para el tipo de informe Destinos.
 
