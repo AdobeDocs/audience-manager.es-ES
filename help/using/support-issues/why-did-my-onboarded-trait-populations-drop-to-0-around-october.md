@@ -4,8 +4,12 @@ seo-description: Alrededor del 14 de octubre de 2019, noté que las poblaciones 
 seo-title: ¿Por qué las poblaciones de características integradas cayeron a 0 alrededor del 15 de octubre?
 solution: Audience Manager
 title: ¿Por qué las poblaciones de características integradas cayeron a 0 alrededor del 15 de octubre?
+feature: support
 translation-type: tm+mt
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Alrededor del 14 de octubre de 2019, noté que las poblaciones de característic
 
 ## Respuesta
 
-El 15 de octubre, se cambió una actualización de la funcionalidad de regla de combinación de Perfiles del Administrador de Audiencias a la que ya no se realizan comparaciones entre los identificadores de dispositivo con los datos incorporados de un ID de CRM cargado en una fuente de datos de varios dispositivos.  Anteriormente, el Administrador de Audiencias se estaba realizando con el ID entre dispositivos (o el ID de CRM), así como copiando esas realizaciones en los UUID del Administrador de Audiencias (ID de dispositivo) asociados.  El cambio se realizó para reflejar con mayor precisión la naturaleza de los datos de características y los perfiles que se están obteniendo.
+El 15 de octubre, se cambió una actualización de la funcionalidad de la regla de combinación de Perfiles de Audience Manager a la que ya no se realizan comparaciones de los identificadores de dispositivo con los datos incorporados con un ID de CRM cargado en una fuente de datos entre dispositivos.  Anteriormente, el Audience Manager se estaba dando cuenta tanto del ID entre dispositivos (o ID de CRM) como de la copia de esas realizaciones en los UUID de Audience Manager (ID de dispositivo) asociados.  El cambio se realizó para reflejar con mayor precisión la naturaleza de los datos de características y los perfiles que se están obteniendo.
 
 Para vista de las realizaciones de características, seleccione la opción &quot;ID entre dispositivos&quot; en la lista desplegable situada en la esquina superior derecha de la vista de características.
 
