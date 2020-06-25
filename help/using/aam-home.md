@@ -5,8 +5,9 @@ seo-title: Documentación técnica del producto Adobe Audience Manager
 solution: Audience Manager
 title: Documentación del producto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
+feature: overview
 translation-type: tm+mt
-source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 15%
