@@ -1,21 +1,25 @@
 ---
-description: Asigne un nombre al archivo de metadatos de optimización de audiencia según estas especificaciones.
-seo-description: Asigne un nombre al archivo de metadatos de optimización de audiencia según estas especificaciones.
+description: Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
+seo-description: Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
 seo-title: Convenciones de nomenclatura para archivos de metadatos
 solution: Audience Manager
 title: Convenciones de nomenclatura para archivos de metadatos
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
 
 # Convenciones de nomenclatura para archivos de metadatos{#naming-conventions-for-metadata-files}
 
-Asigne un nombre al archivo de metadatos de optimización de audiencia según estas especificaciones.
+Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
 
-## Sintaxis y categorías de ID {#syntax}
+## Sintaxis e Categorías de ID {#syntax}
 
 La siguiente sintaxis define la estructura de un nombre de archivo de metadatos bien formado. Note, *italics* indicates a variable placeholder. Los demás elementos son constantes y no cambian.
 
@@ -41,7 +45,7 @@ En el nombre del archivo de metadatos, el ID secundario es un identificador que 
 1. Sitio
 1. Anunciante (si utiliza códigos de integración en un origen [](../../../features/manage-datasources.md#details)de datos)
 1. Orden de inserción (E/S)
-1. Vertical (es decir, una industria o categoría empresarial específica como "computadoras", "automóviles", "bienes raíces", etc.)
+1. Vertical (es decir, una industria o categoría empresarial específica como &quot;computadoras&quot;, &quot;automóviles&quot;, &quot;bienes raíces&quot;, etc.)
 1. Táctica
 1. Unidad de negocio o marca
 
