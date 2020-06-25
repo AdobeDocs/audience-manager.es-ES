@@ -5,8 +5,9 @@ seo-title: Informe de solapamiento entre segmentos
 solution: Audience Manager
 title: Informe de solapamiento entre segmentos
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 4%
@@ -20,7 +21,7 @@ Devuelve datos sobre cuántos usuarios únicos se comparten entre los segmentos.
 
 >[!NOTE]
 >
->Los informes Superponer del Administrador de Audiencias se ajustan a los principios de RBAC. Solo puede ver segmentos de fuentes de datos a los que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
+>Los informes de superposición en Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos de fuentes de datos a los que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
 
 <!-- 
 
@@ -68,7 +69,7 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contien
 | **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento que se superpone. |
 | **[!UICONTROL Overlapping Uniques]** | Número de visitantes únicos compartidos entre segmentos comparados. |
-| **[!UICONTROL Overlap %]** | Para obtener el % de superposición, el Administrador de Audiencias utiliza la fórmula siguiente: Únicos superpuestos / (únicos de segmento base + únicos de segmento superpuestos - únicos superpuestos) |
+| **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición, Audience Manager utiliza la fórmula siguiente: Únicos superpuestos / (únicos de segmento base + únicos de segmento superpuestos - únicos superpuestos) |
 
 
 
@@ -78,5 +79,5 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contien
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Informes de superposición: Actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado...](../../reporting/report-sampling.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
