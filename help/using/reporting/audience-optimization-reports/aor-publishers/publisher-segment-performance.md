@@ -1,12 +1,16 @@
 ---
-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
-seo-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
+description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
+seo-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 seo-title: Informe Rendimiento del segmento
 solution: Audience Manager
 title: Informe Rendimiento del segmento
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +21,7 @@ El informe Rendimiento del segmento compara segmentos asignados y sin asignar po
 
 Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo.
 
-La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
+La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 
 ## Casos de uso {#use-cases}
 
@@ -40,11 +44,11 @@ Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué seg
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar de la [!UICONTROL Line Item ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar de la propiedad [!UICONTROL Line Item ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
-Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para ver los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
+Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -61,7 +65,7 @@ Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al 
    <td colname="col2"> <p>El nombre alfanumérico que asignó a este segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> ID del segmento </p> </td> 
+   <td colname="col1"> <p>ID del segmento </p> </td> 
    <td colname="col2"> <p>ID única de este segmento. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +86,7 @@ Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Población de segmentos en tiempo real </p> </td> 
-   <td colname="col2"> <p>El número real de visitantes únicos que se vieron en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que <span class="keyword"> Audience Manager</span>los vio. </p> </td> 
+   <td colname="col2"> <p>El número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se califican para el segmento en el momento en que el <span class="keyword"> Audience Manager</span>los ve. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +95,7 @@ Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al 
 
 La posición de los segmentos asignados en un informe puede indicarle mucho sobre qué segmentos tienen un buen rendimiento y dónde podría necesitar realizar algunos ajustes.
 
-Para leer el informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y las categorías que se muestran en el informe de muestra a continuación. Las etiquetas del ejemplo pueden ayudarle a comprender el rendimiento de los segmentos y a responder a estos resultados.
+Para leer el informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y las categorías mostradas en el informe de muestra a continuación. Las etiquetas del ejemplo pueden ayudarle a comprender el rendimiento de los segmentos y a responder a estos resultados.
 
 ![](assets/publisher_segment_performance_mapped.png)
 
