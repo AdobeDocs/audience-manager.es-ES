@@ -5,8 +5,12 @@ seo-title: Superposición de segmento a unidad de publicidad
 solution: Audience Manager
 title: Superposición de segmento a unidad de publicidad
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +33,7 @@ Utilice los cuadros **[!UICONTROL Segment Name]** y **[!UICONTROL Ad Unit]** y p
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Ad Unit IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Ad Unit] en lugar de la [!UICONTROL Ad Unit ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Ad Unit IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Ad Unit] en lugar de la propiedad [!UICONTROL Ad Unit ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
@@ -47,11 +51,11 @@ Su [!UICONTROL Segment to Ad Unit Overlap] informe podría tener un aspecto simi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Unidad de publicidad </span> </p> </td> 
-   <td colname="col2"> <p>Nombre del artículo de inventario. Por ejemplo, puede ser uno de los sitios web o un artículo del sitio web. </p> </td> 
+   <td colname="col2"> <p>El nombre del artículo de inventario. Por ejemplo, puede ser uno de los sitios web o un artículo del sitio web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Recuento de únicos en tiempo real de segmentos</span> </p> </td> 
-   <td colname="col2"> <p>El número de visitantes únicos que se vieron en tiempo real durante el intervalo de tiempo especificado y que se calificaron para el segmento en el momento en que <span class="keyword"> Audience Manager</span>los vio. </p> </td> 
+   <td colname="col2"> <p>El número de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se califican para el segmento en el momento en que el <span class="keyword"> Audience Manager</span>los ve. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Recuento exclusivo de unidades de publicidad</span> </p> </td> 
