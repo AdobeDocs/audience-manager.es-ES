@@ -1,19 +1,23 @@
 ---
-description: Enumera los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
-seo-description: Enumera los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
+description: Lista los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
+seo-description: Lista los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
 seo-title: Navegadores admitidos
 solution: Audience Manager
 title: Navegadores admitidos
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
+feature: reference
 translation-type: tm+mt
-source-git-commit: 662ddd04bde203a35440669ac9677eb067e136a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 20%
 
 ---
 
 
 # Navegadores admitidos{#supported-browsers} 
 
-En esta página se muestran los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
+Esta página lista los exploradores admitidos por la interfaz de usuario del Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
 
 <!-- 
 
@@ -29,7 +33,7 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Microsoft Edge**
 
-   (Adobe dejará de ofrecer asistencia para Internet Explorer 11 en Audience Manager el 10 de julio de 2019. Por favor, cambie a la última versión de Microsoft Edge o de otro navegador compatible, lo antes posible.)
+   (Adobe dejará de ofrecer asistencia técnica para Internet Explorer 11 en Audience Manager el 10 de julio de 2019. Por favor, cambie a la última versión de Microsoft Edge o de otro navegador compatible, lo antes posible.)
 
    Obtenga la versión más reciente de Edge en [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge).
 
