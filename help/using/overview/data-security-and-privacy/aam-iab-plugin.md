@@ -4,8 +4,9 @@ seo-description: Adobe le proporciona los medios para gestionar y comunicar las 
 seo-title: Complemento de Audience Manager para IAB TCF
 solution: Audience Manager
 title: Complemento de Audience Manager para IAB TCF
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 7%
