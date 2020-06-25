@@ -5,8 +5,12 @@ seo-title: Informes de tendencias
 solution: Audience Manager
 title: Informes de tendencias
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +44,7 @@ En la siguiente ilustración se proporciona una visión general de alto nivel de
 ![](assets/trend_reports.png)
 
 1. Configure las siguientes opciones:
-   **Tipo de informe:** Seleccione el tipo de informe que desee (característica o segmento).
+   **Tipo de informe:** Seleccione el tipo de informe deseado (característica o segmento).
    **Intervalo de fechas:** Especifique el intervalo de fechas del informe (fecha de inicio y fecha de finalización).
    **Intervalo de visualización:** Especifique el intervalo de visualización (intervalos de 1, 7, 14, 30, 60 y 90 días).
 1. Busque un rasgo o segmento por nombre o ID.
