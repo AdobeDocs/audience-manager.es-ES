@@ -5,8 +5,12 @@ seo-title: Informe de solapamiento entre características
 solution: Audience Manager
 title: Informe de solapamiento entre características
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +21,7 @@ Devuelve datos sobre el número de usuarios únicos compartidos entre todas las 
 
 >[!NOTE]
 >
->Los informes Superponer de Audience Manager se ajustan a los principios de RBAC. Solo puede ver características de fuentes de datos a las que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
+>Los informes de superposición en Audience Manager se ajustan a los principios de RBAC. Solo puede ver características de fuentes de datos a las que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
 
 <!-- 
 
@@ -29,7 +33,7 @@ c_overlap_reports.xml
 
 El [!UICONTROL Trait-to-Trait Overlap] informe devuelve datos sobre el porcentaje de usuarios únicos compartidos entre todas sus características y las de terceros. Como herramienta de optimización, este informe le ayuda a:
 
-* Cree segmentos con superposición alta o baja, según sus necesidades. Las características con alta superposición le proporcionan una audiencia objetivo, pero menos visitantes únicos. Las características con baja superposición pueden ser útiles para alcanzar un conjunto de visitantes único y más grande.
+* Cree segmentos con superposición alta o baja, según sus necesidades. Las características con alta superposición le proporcionan una audiencia de objetivo, pero menos visitantes únicos. Las características con superposición baja pueden ser útiles para alcanzar un conjunto de visitantes más grande y único.
 * Validar datos de características de terceros: Una fuerte superposición entre características similares de origen y de terceros sugiere que la característica de su socio de datos es precisa y confiable. Por el contrario, una superposición baja puede indicar que una característica de terceros puede no contener realmente la misma información que la suya propia, una característica de origen similar.
 * Encuentre superposiciones inesperadas entre características y utilice esa información para crear segmentos innovadores.
 
@@ -45,7 +49,7 @@ En la siguiente ilustración se proporciona una visión general de alto nivel de
 
 ## Explorar en profundidad puntos de datos individuales
 
-Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
+Seleccione un punto individual para los detalles de los datos de vista en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
 ## Campos de ventana emergente de datos de superposición de rasgo a rasgo definidos {#field-definitions}
 
@@ -101,7 +105,7 @@ La ventana emergente del [!UICONTROL Trait-to-Trait Overlap] informe contiene la
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Características únicas superpuestas</span></b> </td> 
-   <td colname="col2"> El número de visitantes únicos de la característica superpuesta. </td> 
+   <td colname="col2"> Número de visitantes únicos de la característica superpuesta. </td> 
   </tr> 
     <tr> 
    <td colname="col1"><b><span class="wintitle"> Únicas características base</span></b> </td> 
