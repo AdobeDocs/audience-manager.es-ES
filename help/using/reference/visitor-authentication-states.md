@@ -1,20 +1,24 @@
 ---
-description: El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+description: El estado de autenticación de visitante en el Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 keywords: dpm.demdex.net
-seo-description: El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
-seo-title: Estados de autenticación de Visitante en el Administrador de Audiencias
+seo-description: El estado de autenticación de visitante en el Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+seo-title: Estados de autenticación de Visitante en Audience Manager
 solution: Audience Manager
-title: Estados de autenticación de Visitante en el Administrador de Audiencias
+title: Estados de autenticación de Visitante en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
+feature: reference
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
 
-# Estados de autenticación de Visitante en el Administrador de Audiencias{#visitor-authentication-states-in-audience-manager}
+# Estados de autenticación de Visitante en Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-El estado de autenticación de visitante en el Administrador de Audiencias determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Administrador de Audiencias gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+El estado de autenticación de visitante en el Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 
 A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` método incluye el `AuthState` objeto opcional. `AuthState` identifica los visitantes según su estado [](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)de autenticación. [!DNL Audience Manager] gestiona las características realizadas de forma diferente, en función del estado de autenticación pasado en la llamada y de la regla [de combinación de](../features/profile-merge-rules/merge-rules-dashboard.md) Perfiles que utilice para la segmentación.
 
