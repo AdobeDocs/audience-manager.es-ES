@@ -5,8 +5,12 @@ seo-title: Convenciones de estilo para elementos de código y texto
 solution: Audience Manager
 title: Convenciones de estilo para elementos de código y texto
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
+feature: reference
 translation-type: tm+mt
-source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -24,15 +28,15 @@ Estos elementos identifican las opciones de código y las variables utilizadas e
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>variable</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
    <td colname="col2"> <p>Las variables aparecen en <i>cursiva</i>. Sustituya el valor apropiado para el nombre de la variable. </p> <p>Para mayor claridad visual, a veces las variables y otros elementos de código aparecen entre &lt; &gt; paréntesis. No es necesario que utilice estos símbolos en el código. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> [opcional]</code> </p> </td> 
+   <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
    <td colname="col2"> <p>Los elementos entre corchetes son opcionales. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> (esto|aquello) </code> </p> </td> 
+   <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
    <td colname="col2"> <p>Los elementos entre paréntesis indican una opción booleana <span class="wintitle"> OR</span> . </p> </td> 
   </tr> 
   <tr> 
