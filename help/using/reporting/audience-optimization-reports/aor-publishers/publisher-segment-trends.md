@@ -1,12 +1,16 @@
 ---
-description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de las audiencias con el paso del tiempo.
-seo-description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de las audiencias con el paso del tiempo.
+description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de sus audiencias con el paso del tiempo.
+seo-description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de sus audiencias con el paso del tiempo.
 seo-title: Informe Tendencia del segmento
 solution: Audience Manager
 title: Informe Tendencia del segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 1%
 
 ---
 
@@ -17,13 +21,13 @@ El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pul
 
 Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo.
 
-Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de las audiencias con el paso del tiempo.
+Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de sus audiencias con el paso del tiempo.
 
 ## Caso de uso {#use-cases}
 
 Utilice el [!UICONTROL Segment Trend] informe para validar el rendimiento de un segmento con el paso del tiempo y para señalar las tendencias en función del rendimiento o la escala sólidos.
 
-Con este informe, puede comprender qué propiedades web muestran un descenso o un aumento defectuoso y solucionar los problemas según sea necesario. Este informe es el siguiente paso después de identificar a la audiencia de interés en el [!UICONTROL Segment Performance] informe, para asegurarse de que el rendimiento sólido o deficiente que vio en la ficha [!UICONTROL Segment Performance] sea coherente con el paso del tiempo.
+Con este informe, puede comprender qué propiedades web muestran un descenso o un aumento defectuoso y solucionar los problemas según sea necesario. Este informe es el siguiente paso después de identificar su audiencia de interés en el [!UICONTROL Segment Performance] informe, para garantizar que el rendimiento sólido o deficiente que vio en la ficha [!UICONTROL Segment Performance] sea coherente con el paso del tiempo.
 
 ## Uso del informe Tendencia de los segmentos {#using-the-report}
 
@@ -41,7 +45,7 @@ Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué seg
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] los ID, tal como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] los ID, tal como se describe en el paso 3 de [Importar archivos de datos de DFP al Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
 
 ## Interpretación de los resultados {#interpreting-results}
 
