@@ -5,8 +5,12 @@ seo-title: Informe de solapamiento entre segmento y característica
 solution: Audience Manager
 title: Informe de solapamiento entre segmento y característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +21,7 @@ Devuelve datos sobre el número de usuarios únicos compartidos entre una caract
 
 >[!NOTE]
 >
->Los informes Superponer de Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos y características de fuentes de datos a los que tiene acceso en función del grupo [de usuarios](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
+>Los informes de superposición en Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos y características de fuentes de datos a los que tiene acceso en función del grupo [de usuarios](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
 
 <!-- 
 
@@ -27,7 +31,7 @@ c_segment_trait_overlap.xml
 
 ## Información general
 
-Como herramienta de optimización, los [!UICONTROL Segment to Trait Overlap] informes le ayudan a generar segmentos muy enfocados o a expandir el alcance de los segmentos. Por ejemplo, puede crear segmentos y características enfocados con una superposición alta para llegar a una audiencia determinada. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecutar este informe para ayudar a expandir el alcance eliminando características con mucha superposición de segmentos y reemplazándolas con características que tienen menos superposición.
+Como herramienta de optimización, los [!UICONTROL Segment to Trait Overlap] informes le ayudan a generar segmentos muy enfocados o a expandir el alcance de los segmentos. Por ejemplo, puede crear segmentos y características enfocados con una superposición alta para alcanzar una audiencia determinada. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecutar este informe para ayudar a expandir el alcance eliminando características con mucha superposición de segmentos y reemplazándolas con características que tienen menos superposición.
 
 ### Informe de muestra
 
@@ -37,7 +41,7 @@ En la siguiente ilustración se proporciona una visión general de alto nivel de
 
 ### Explorar en profundidad puntos de datos individuales
 
-Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
+Seleccione un punto individual para los detalles de los datos de vista en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
 ## Comparación de segmentos con características {#comparing-segments-to-traits}
 
@@ -51,13 +55,13 @@ c_compare_s2t.xml
 
 ### Comparación de características y únicas de segmentos: Un ejemplo
 
-A primera vista, puede parecer ilógico comparar segmentos con características e intentar sacar conclusiones de los resultados. Después de todo, los segmentos y las características son diferentes, así que ¿cómo pueden tener sentido los datos derivados de elementos dispares? Sin embargo, en este caso, no estamos comparando características y segmentos, sino el número de visitantes únicos compartidos entre ellos. El recuento de visitantes únicos compartidos proporciona el valor común que hace posible la comparación de segmentos con características.
+A primera vista, puede parecer ilógico comparar segmentos con características e intentar sacar conclusiones de los resultados. Después de todo, los segmentos y las características son diferentes, así que ¿cómo pueden tener sentido los datos derivados de elementos dispares? Sin embargo, en este caso, no estamos comparando características y segmentos, sino el número de visitantes únicos compartidos entre ellos. El recuento de visitantes únicos compartidos proporciona el valor común que hace posible una comparación de segmentos con características.
 
 El diagrama siguiente ilustra la relación entre una característica y el segmento al que pertenece. En este caso, tenemos una característica con 10 visitantes y un segmento con 1000 visitantes. Comparten 3 visitantes únicos en común.
 
 ![](assets/s2t.png)
 
-El recuento de visitantes únicos es el valor constante común que se comparte entre estas distintas clases de objetos. Como resultado, puede determinar la relación de visitante único entre ellos de la siguiente manera:
+El recuento de visitantes único es el valor común y constante que se comparte entre estas distintas clases de objetos. Como resultado, puede determinar la relación de visitante única entre ellos de la siguiente manera:
 
 * La característica comparte el 30% de sus visitantes únicos con el segmento (3/10 = 0,30).
 * El segmento comparte el 0,3% de sus visitantes únicos con la característica (3/1.000 = 0,003)
@@ -80,12 +84,12 @@ El observar la superposición entre características y segmentos puede ayudarle 
   </tr> 
   <tr> 
    <td colname="col1"><b>Buscar segmentos ineficientes</b> </td> 
-   <td colname="col2"> <p>Si una característica forma parte de un grupo <span class="wintitle"> Y</span> en una definición de segmento, los visitantes únicos que tienen esa característica ya están en el segmento y no están disponibles para agregarlo al segmento. Puede utilizar este informe para encontrar características relevantes con baja superposición y agregarlas a la definición del segmento, aumentando así el alcance de ese grupo de audiencias de segmentos. </p> </td> 
+   <td colname="col2"> <p>Si una característica forma parte de un grupo <span class="wintitle"> Y</span> en una definición de segmento, los visitantes únicos que tienen esa característica ya están en el segmento y no están disponibles para agregarlos al segmento. Puede utilizar este informe para encontrar características relevantes con baja superposición y agregarlas a la definición del segmento, aumentando así el alcance de ese grupo de audiencias de segmentos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Explicación de los filtros de datos en el informe Superposición de segmento a característica {#data-filters-s2t-report}
+## Explicación de los Filtros de datos en el informe Superposición de segmento a característica {#data-filters-s2t-report}
 
 Describe cómo funcionan los controles deslizantes % de solapamiento único de rasgo y segmento.
 
@@ -97,8 +101,8 @@ r_s2t_sliders.xml
 
 El [!UICONTROL Segment-to-Trait overlap] informe permite utilizar dos controles deslizantes para filtrar los datos por el porcentaje de superposición por características o segmento.
 
-* **[!UICONTROL Filter Trait Uniques %:]** Filtra los datos según el porcentaje de visitantes únicos compartidos entre la característica y el segmento.
-* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra los datos según el porcentaje de visitantes únicos que comparten entre el segmento y la característica.
+* **[!UICONTROL Filter Trait Uniques %:]** Filtros datos por el % de visitantes únicos compartidos entre la característica y el segmento.
+* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtros los datos según el porcentaje de visitantes únicos compartidos entre el segmento y la característica.
 
 ### Ejemplo
 
