@@ -1,12 +1,13 @@
 ---
-description: Envíe o actualice archivos de metadatos enviándolos a un directorio especial de Amazon S3 para su cuenta del Administrador de Audiencias. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
-seo-description: Envíe o actualice archivos de metadatos enviándolos a un directorio especial de Amazon S3 para su cuenta del Administrador de Audiencias. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
+description: Envíe o actualice archivos de metadatos enviándolos a un directorio especial de Amazon S3 para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
+seo-description: Envíe o actualice archivos de metadatos enviándolos a un directorio especial de Amazon S3 para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
 seo-title: Métodos de Envío para archivos de metadatos
 solution: Audience Manager
 title: Métodos de Envío para archivos de metadatos
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
+feature: log files
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 # Métodos de Envío para archivos de metadatos{#delivery-methods-for-metadata-files}
 
-Envíe o actualice archivos de metadatos enviándolos a un [!DNL Amazon S3] directorio especial para su cuenta del Administrador de Audiencias. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
+Envíe o actualice archivos de metadatos enviándolos a un [!DNL Amazon S3] directorio especial para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
 
 >[!IMPORTANT]
 >
-> Póngase en contacto con el consultor del administrador de Audiencias o con el Servicio de atención al cliente para empezar a configurar un directorio [!DNL Amazon S3] para los archivos de metadatos.
+> Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente para empezar y configurar un [!DNL Amazon S3] directorio para los archivos de metadatos.
 
 ## Ejemplo y sintaxis de ruta de Envío {#syntax}
 
@@ -46,7 +47,7 @@ La siguiente tabla define cada uno de estos elementos en una ruta de envío de a
 | Parámetro de archivo | Descripción |
 ---------|----------|
 | `.../log_ingestion/` | Este es el inicio de la ruta de almacenamiento del directorio. Recibirás la ruta completa cuando todo esté configurado. |
-| `pid=<AAM ID>` | Este par clave-valor contiene su ID de cliente de Administrador de Audiencias. |
+| `pid=<AAM ID>` | Este par clave-valor contiene el ID de cliente del Audience Manager. |
 | `dpid=<d_src>` | Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. El ID del origen de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </br> Por ejemplo, supongamos que tiene un elemento creativo con el ID 123 y el nombre &quot;Advertiser Creative A&quot;. Como una llamada de evento solo pasa en el ID, debe incluir &quot;Advertiser Creative A&quot; en el archivo de metadatos. La campaña y el elemento creativo pertenecen a un origen de datos. El ID de la fuente de datos es lo que los une y nos permite asociar con precisión el contenido del archivo a un ID enviado en una llamada de evento. Consulte [Cómo los ID de llamadas de Evento determinan nombres de archivo, contenido y rutas](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)de Envío. |
 | `<yyyymmdd_0_child ID>` | Es el nombre del archivo. Consulte Convenciones [de nomenclatura para archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de metadatos. |
 
