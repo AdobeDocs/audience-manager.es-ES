@@ -1,19 +1,23 @@
 ---
-description: Los componentes de administración de etiquetas del Administrador de Audiencias incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor de Adobe Dynamic Tag Manager y Adobe Experience Platform Launch), DIL, Akamai y la base de datos de control.
-seo-description: Los componentes de administración de etiquetas del Administrador de Audiencias incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor de Adobe Dynamic Tag Manager y Adobe Experience Platform Launch), DIL, Akamai y la base de datos de control.
+description: Los componentes de administración de etiquetas Audience Manager incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor del Administrador dinámico de etiquetas de Adobe y el lanzamiento de Adobe Experience Platform), DIL, Akamai y la base de datos de control.
+seo-description: Los componentes de administración de etiquetas Audience Manager incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor del Administrador dinámico de etiquetas de Adobe y el lanzamiento de Adobe Experience Platform), DIL, Akamai y la base de datos de control.
 seo-title: Componentes de administración de etiquetas
 solution: Audience Manager
 title: Componentes de administración de etiquetas
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
+feature: system components
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
 
 # Componentes de administración de etiquetas{#tag-management-components}
 
-Los componentes de administración de etiquetas del Administrador de Audiencias incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor de Adobe Dynamic Tag Manager y Adobe Experience Platform Launch), DIL, Akamai y la base de datos de control.
+Los componentes de administración de etiquetas Audience Manager incluyen el portal del cliente, el Administrador de etiquetas de Adobe (obsoleto en favor del Administrador dinámico de etiquetas de Adobe y el lanzamiento de Adobe Experience Platform), DIL, Akamai y la base de datos de control.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_comptag.xml
 
  -->
 
-El Administrador de Audiencias contiene los siguientes componentes:
+Audience Manager contiene los siguientes componentes:
 
 * [Portal del cliente](../../reference/system-components/components-tag-management.md#client-portal)
 * [Contenedor DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
@@ -35,11 +39,11 @@ El portal del cliente es la interfaz de usuario principal para la gestión de da
 
 ## Contenedor DIL/TIM {#dil-tim}
 
-El [!UICONTROL DIL] contenedor ayuda a implementar el código [!DNL Audience Manager] de recopilación de datos en el sitio web. [!UICONTROL TIM] es el Administrador de inserción de etiquetas obsoleto. Ya no se usa en [!DNL Audience Manager]. En su lugar, se utiliza la administración [](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) dinámica de etiquetas o la [!DNL Audience Manager] extensión de [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) para configurar y generar el código de contenedor que se coloca en las páginas del inventario. El [!UICONTROL DTM] contenedor trabaja con el [!UICONTROL Data Information Library (DIL)] para recopilar datos del sitio y enviarlos a [!DNL Audience Manager].
+El [!UICONTROL DIL] contenedor ayuda a implementar el código [!DNL Audience Manager] de recopilación de datos en el sitio web. [!UICONTROL TIM] es el Administrador de inserción de etiquetas obsoleto. Ya no se usa en [!DNL Audience Manager]. En su lugar, se utiliza la administración [](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) dinámica de etiquetas o la [!DNL Audience Manager] extensión en Inicio [de](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Adobe Experience Platform para configurar y generar el código de contenedor que se coloca en las páginas del inventario. El [!UICONTROL DTM] contenedor trabaja con el [!UICONTROL Data Information Library (DIL)] para recopilar datos del sitio y enviarlos a [!DNL Audience Manager].
 
 ## Biblioteca de integración de datos (DIL) {#dil}
 
-La biblioteca [de información](../../dil/dil-overview.md) de datos (DIL) es un módulo de API independiente que recopila datos de su sitio web. [!UICONTROL DIL] ayuda a eliminar la necesidad de escribir código especial para la recopilación de datos, la integración, la lectura de valores de cookies y la recuperación de datos de páginas. [!UICONTROL DIL] realiza estas acciones automáticamente. Además, [!UICONTROL DIL] es compacta. Es una biblioteca de código independiente que ayuda a reducir la cantidad de código necesario para recopilar información. Por último, [!UICONTROL DIL] le ayuda a integrarse [!DNL Audience Manager] con otros productos en [!DNL Adobe] Experience Cloud.
+La biblioteca [de información](../../dil/dil-overview.md) de datos (DIL) es un módulo de API independiente que recopila datos de su sitio web. [!UICONTROL DIL] ayuda a eliminar la necesidad de escribir código especial para la recopilación de datos, la integración, la lectura de valores de cookies y la recuperación de datos de páginas. [!UICONTROL DIL] realiza estas acciones automáticamente. Además, [!UICONTROL DIL] es compacta. Es una biblioteca de código independiente que ayuda a reducir la cantidad de código necesario para recopilar información. Por último, [!UICONTROL DIL] le ayuda a integrarse [!DNL Audience Manager] con otros productos del [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 
