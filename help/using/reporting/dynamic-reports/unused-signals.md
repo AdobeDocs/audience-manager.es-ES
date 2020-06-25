@@ -1,23 +1,27 @@
 ---
-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager.
-seo-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager.
+description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
+seo-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
 seo-title: Informe Señales no utilizadas
 solution: Audience Manager
 title: Informe Señales no utilizadas
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
 
 # Informe Señales no utilizadas{#unused-signals-report}
 
-Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de audiencia > Otros informes > Señales** no utilizadas.
+Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de Audiencia > Otros informes > Señales** no utilizadas.
 
 >[!NOTE]
 >
->Si aparece el mensaje &quot;No tiene acceso a los informes de audiencia&quot;, póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para que le proporcione el informe.
+>Si aparece el mensaje &quot;No tiene acceso a los informes de Audiencia&quot;, póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente para que le proporcione el informe.
 
 ![Captura de pantalla del informe Señales no utilizadas](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -44,12 +48,12 @@ Revise este informe para identificar las señales huérfanas que se pueden asign
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Garantizar la uniformidad de características o agregar valores relacionados a una sola clave</b> </p> </td> 
+   <td colname="col1"> <p><b>Garantizar la uniformidad de características o Añadir los valores relacionados a una sola clave</b> </p> </td> 
    <td colname="col2"> <p>Revise el informe para tener en cuenta las diferentes variaciones de valor de una señal en particular. </p> <p>Por ejemplo, supongamos que tiene una característica para el estado "Carolina del Norte" definida como <code> c_state = North Carolina</code>. El informe puede ayudarle a encontrar las variantes de nombre y agregarlas a la característica (por ejemplo, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Otra opción es colocar las variantes de nombre en el informe y reemplazarlas por un valor uniforme en todos los sitios. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Crear nuevas características</b> </p> </td> 
-   <td colname="col2"> <p>Revise el informe para ver qué valores nuevos se pasan en una clave en particular. Es posible que desee crear nuevos pares clave-valor basados en estos nuevos valores. </p> <p> <p>Nota:  Compruebe el informe dos veces por semana para ver los valores que cambian con frecuencia (por ejemplo: programas, campañas, celebridades, etc.). </p> </p> </td> 
+   <td colname="col2"> <p>Revise el informe para ver qué valores nuevos se pasan en una clave en particular. Es posible que desee crear nuevos pares clave-valor basados en estos nuevos valores. </p> <p> <p>Nota:  Verifique el informe dos veces por semana para ver los valores que cambian con frecuencia (por ejemplo: programas, campañas, celebridades, etc.). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Buscar valores no asignados</b> </p> </td> 
@@ -67,7 +71,7 @@ Ejecute y verifique el [!UICONTROL Unused Signals] informe:
 
 >[!NOTE]
 >
->Al buscar valores no utilizados en el informe, tenga en cuenta las siguientes particularidades. Hay una diferencia de expresión entre los dos ejemplos siguientes:
+>Al buscar valores no utilizados en el informe, tenga en cuenta las siguientes particularidades. Hay una diferencia en la expresión entre los dos ejemplos siguientes:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
