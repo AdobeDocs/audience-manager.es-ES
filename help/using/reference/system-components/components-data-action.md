@@ -1,19 +1,23 @@
 ---
-description: Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de perfiles.
-seo-description: Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de perfiles.
+description: Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de Perfil.
+seo-description: Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de Perfil.
 seo-title: Componentes de acción de datos
 solution: Audience Manager
 title: Componentes de acción de datos
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
 
 # Componentes de acción de datos{#data-action-components}
 
-Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de perfiles.
+Los componentes de acción de datos incluyen Fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de Perfil.
 
 <!-- 
 
@@ -45,14 +49,14 @@ Los [!UICONTROL SFTP/S3] editores reciben datos de ID sincronizados de la [!UICO
 
 En la mitología griega, [!UICONTROL Iris] es una figura que viaja y envía mensajes rápidamente. El [!UICONTROL IRIS] sistema es un homónimo que refleja las características de esta figura del mundo antiguo. En términos modernos, [!UICONTROL IRIS] es un servicio de transferencia de datos y sincronización de cookies de alta frecuencia y baja latencia.
 
-[!UICONTROL IRIS] funciona con el mismo tipo de datos que el [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a destinos en tiempo real en lugar de a intervalos establecidos. Se trata de un sistema independiente porque los [!UICONTROL SFTP/S3] editores no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
+[!UICONTROL IRIS] funciona con el mismo tipo de datos que el [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a destinos en tiempo real en lugar de en intervalos establecidos. Se trata de un sistema independiente porque los [!UICONTROL SFTP/S3] editores no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
 
 No hay controles de interfaz de usuario que permitan a los clientes trabajar directamente con [!UICONTROL IRIS]. Los clientes trabajan [!UICONTROL IRIS] indirectamente cuando crean y envían datos a destinos y para otros procesos que requieren transferencias de datos rápidas.
 
 Algunos ejemplos de [!UICONTROL IRIS] servicios y características son:
 
-* Proporcionar una sincronización rápida (en 30 segundos) para cookies y segmentos. Puede sincronizar la [!DNL Audience Manager] cookie, las cookies de socio o ambas.
-* Transferencias de datos en tiempo real. [!UICONTROL IRIS] es responsable de enviar eventos de calificación de segmentos en tiempo real a un socio u otro destino. Estos datos tienen formato JSON y se envían mediante una `POST` solicitud HTTP.
+* Proporcionar una sincronización rápida (en menos de 30 segundos) para cookies y segmentos. Puede sincronizar la [!DNL Audience Manager] cookie, las cookies de socio o ambas.
+* Transferencias de datos en tiempo real. [!UICONTROL IRIS] es responsable de enviar eventos de cualificación de segmentos en tiempo real a un socio u otro destino. Estos datos tienen formato JSON y se envían mediante una `POST` solicitud HTTP.
 
 * Transferencias masivas de datos de servidor a servidor: Si intercambia grandes cantidades de datos con [!DNL Audience Manager], [!UICONTROL IRIS] es el sistema con el que interactúan los servidores para transferir datos.
 
@@ -66,13 +70,13 @@ Para optimizar el tráfico entre destinos [!UICONTROL IRIS] y de segmento, [!UIC
 
 1. **Nueva descalificación** de segmentos: cuando un dispositivo ya no cumple los requisitos para un segmento, [!UICONTROL IRIS] envía todas las cualificaciones y descalificaciones del segmento asociadas a ese dispositivo a todos los destinos asignados a estos segmentos.
 
-1. **Actualizaciones** de asignaciones de destino: cuando se actualiza una asignación de destino, envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que Audience Manager vea el dispositivo. [!UICONTROL IRIS]
+1. **Actualizaciones** de asignaciones de destino: cuando se actualiza una asignación de destino, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
-1. **Actualizaciones** de gráficos de dispositivos: cuando se agrega o elimina cualquier ID de dispositivo del gráfico de dispositivos utilizado para evaluar un segmento, envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que Audience Manager vea el dispositivo. [!UICONTROL IRIS]
+1. **Actualizaciones** de gráficos de dispositivos: cuando se agrega o elimina cualquier ID de dispositivo del gráfico de dispositivos utilizado para evaluar un segmento, [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
 >[!IMPORTANT]
 >
->Si Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que Audience Manager vea el dispositivo.
+>Si el Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
 **Archivo de datos de muestra**
 
@@ -144,6 +148,6 @@ El siguiente ejemplo contiene datos de segmentos en tiempo real de [!UICONTROL I
 }
 ```
 
-## Servidor de caché de perfiles (PCS) {#pcs}
+## Perfil Cache Server (PCS) {#pcs}
 
 Consulte Componentes [de recopilación de datos](../../reference/system-components/components-data-collection.md).
