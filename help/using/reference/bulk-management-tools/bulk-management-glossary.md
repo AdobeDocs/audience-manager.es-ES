@@ -5,8 +5,12 @@ seo-title: Glosario de herramientas de administración masiva
 solution: Audience Manager
 title: Glosario de herramientas de administración masiva
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -71,7 +75,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Las señales son bits de datos pasados a <span class="keyword"> Audience Manager</span> en función de la actividad del usuario. Se transmiten como pares <a href="../../reference/key-value-pairs-explained.md"> clave-valor</a>. La clave de origen es una constante que no cambia. Ayuda a categorizar el valor de origen que puede cambiar. Consulte <a href="../../features/derived-signals.md"> Señales</a>derivadas. </p> </td> 
+   <td colname="col2"> <p>Las señales son bits de datos pasados al <span class="keyword"> Audience Manager</span> según la actividad del usuario. Se transmiten como pares <a href="../../reference/key-value-pairs-explained.md"> clave-valor</a>. La clave de origen es una constante que no cambia. Ayuda a categorizar el valor de origen que puede cambiar. Consulte <a href="../../features/derived-signals.md"> Señales</a>derivadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -79,7 +83,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica cuándo se puede empezar a enviar un segmento a un destino. Utiliza el formato <tt>aaaa-mm-dd</tt> . </p> </td> 
+   <td colname="col2"> <p>Indica cuándo un segmento puede enviar un inicio a un destino. Utiliza el formato <tt>aaaa-mm-dd</tt> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
