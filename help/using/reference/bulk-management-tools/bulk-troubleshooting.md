@@ -5,8 +5,12 @@ seo-title: Consejos para la resolución de problemas de las herramientas de admi
 solution: Audience Manager
 title: Consejos para la resolución de problemas de las herramientas de administración masiva
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Factores como el tráfico de red pesado, el uso del servidor y los grandes conju
 
 ## Errores de autenticación, retrasos prolongados o comportamiento no interactivo {#delays-behavior}
 
-En la tabla siguiente se enumeran algunos problemas comunes que puede encontrar al realizar solicitudes masivas con las hojas de cálculo. Intente solucionar estos problemas con las soluciones recomendadas. Si las soluciones recomendadas no resuelven el problema, debe guardar el trabajo, reiniciar el equipo e intentar la solicitud de nuevo sin iniciar ni trabajar con otras aplicaciones.
+La siguiente tabla lista algunos problemas comunes que puede encontrar al realizar solicitudes masivas con las hojas de cálculo. Intente solucionar estos problemas con las soluciones recomendadas. Si las soluciones recomendadas no resuelven el problema, debe guardar el trabajo, reiniciar el equipo e intentar la solicitud de nuevo sin iniciar ni trabajar con otras aplicaciones.
 
 <table id="table_AC6FB99402214A4EAC6E709465BB67AF"> 
  <thead> 
@@ -66,7 +70,7 @@ En la tabla siguiente se enumeran algunos problemas comunes que puede encontrar 
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Asegúrese de que tiene el conjunto correcto de encabezados para la acción de selección. </li> 
      <li id="li_391C9031907A4085BDAD42054960045C">Asegúrese de que está utilizando la hoja de cálculo correcta para los encabezados copiados. </li> 
-     <li id="li_76A7241989204933858621FAAB5C3408">Compruebe la posición de los datos que desea utilizar en una operación masiva. Todos los encabezados comienzan en la columna A, fila 1. Todos los datos van en los encabezados correspondientes comenzando en la columna A, fila 2 (inmediatamente debajo de los encabezados). </li> 
+     <li id="li_76A7241989204933858621FAAB5C3408">Compruebe la posición de los datos que desea utilizar en una operación masiva. Todos los encabezados inicios en la columna A, fila 1. Todos los datos van en los encabezados correspondientes comenzando en la columna A, fila 2 (inmediatamente debajo de los encabezados). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
