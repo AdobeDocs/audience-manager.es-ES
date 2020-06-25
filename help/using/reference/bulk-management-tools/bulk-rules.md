@@ -5,8 +5,12 @@ seo-title: Crear o actualizar reglas de características y reglas de segmentos
 solution: Audience Manager
 title: Crear o actualizar reglas de características y reglas de segmentos
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +31,11 @@ Las hojas de cálculo para crear y actualizar aceptan un encabezado traitRule qu
 
 ## Uso de las reglas de características {#trait-rules}
 
-En la hoja de cálculo, la columna de la regla de características devuelve y acepta reglas que constan de expresiones booleanas, operadores de comparación y expresiones regulares. Puede crear reglas con el generador de rasgos o segmentos en [!DNL Audience Manager] y copiarlas en la hoja de cálculo. O bien, si está familiarizado con la sintaxis de la regla, puede escribir expresiones directamente en las hojas de cálculo.
+En la hoja de cálculo, la columna de regla de características devuelve y acepta reglas que constan de expresiones booleanas, operadores de comparación y expresiones regulares. Puede crear reglas con el generador de rasgos o segmentos en [!DNL Audience Manager] y copiarlas en la hoja de cálculo. O bien, si está familiarizado con la sintaxis de la regla, puede escribir expresiones directamente en las hojas de cálculo.
 
 ## Ejemplo del generador de reglas {#rule-builder-example}
 
-Veamos un ejemplo que muestra cómo se utiliza [!UICONTROL Segment Builder] para crear una regla que se puede usar en la hoja de cálculo masiva. Sin embargo, no es un conjunto de instrucciones paso a paso para esas herramientas. En cambio, vamos a empezar con una regla simple que ya ha sido creada. Para obtener instrucciones sobre cómo utilizar los generadores de reglas, consulte Generador [de segmentos](../../features/segments/segment-builder.md) y Generador de [características](../../features/traits/about-trait-builder.md).
+Veamos un ejemplo que muestra cómo se utiliza [!UICONTROL Segment Builder] para crear una regla que se puede usar en la hoja de cálculo masiva. Sin embargo, no es un conjunto de instrucciones paso a paso para esas herramientas. En cambio, vamos a inicios con una regla simple que ya ha sido creada. Para obtener instrucciones sobre cómo utilizar los generadores de reglas, consulte Generador [de segmentos](../../features/segments/segment-builder.md) y Generador de [características](../../features/traits/about-trait-builder.md).
 
 Con el creador de reglas visuales, hemos creado una regla de segmentos con 3 características y un [!UICONTROL AND] operador booleano.
 
@@ -51,7 +55,7 @@ Pegue la regla en la hoja de cálculo y confirme los cambios para actualizar las
 
 ## Creación de sus propias reglas {#create-rules}
 
-Puedes escribir tus propias reglas fuera de [!UICONTROL Rule Builder]. Antes de empezar, asegúrese de leer la documentación que cubre aspectos como operadores, expresiones y variables requeridas. Le recomendamos que revise lo siguiente:
+Puedes escribir tus propias reglas fuera de [!UICONTROL Rule Builder]. Antes de realizar el inicio, asegúrese de leer la documentación que cubre aspectos como operadores, expresión y variables requeridas. Le recomendamos que revise lo siguiente:
 
 * [Uso De Operadores De Comparación En El Generador De Características](../../features/traits/trait-comparison-operators.md)
 * [Orden de las operaciones](../../features/traits/trait-operator-precedence.md)
