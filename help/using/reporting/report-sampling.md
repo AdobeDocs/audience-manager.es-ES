@@ -1,17 +1,21 @@
 ---
 description: Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 seo-description: Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
-seo-title: Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado
+seo-title: Muestreo de datos y tasas de error en informes de Audience Manager seleccionados
 solution: Audience Manager
-title: Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado
+title: Muestreo de datos y tasas de error en informes de Audience Manager seleccionados
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
 
-# Muestreo de datos y tasas de error en los informes del Administrador de Audiencias seleccionado{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Muestreo de datos y tasas de error en informes de Audience Manager seleccionados{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 
