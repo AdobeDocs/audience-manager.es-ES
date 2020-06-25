@@ -5,8 +5,12 @@ seo-title: Sobreponer informes Actualizar programación y tamaño mínimo del se
 solution: Audience Manager
 title: Sobreponer informes Actualizar programación y tamaño mínimo del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +23,11 @@ Describe los requisitos de tamaño y tiempo de creación del segmento requeridos
 
 [!UICONTROL Overlap] los informes se actualizan semanalmente el domingo. El procesamiento previo del informe comienza el sábado. Esto afecta a cómo aparecen los segmentos nuevos o existentes en un informe de superposición el lunes. Para incluirlo en un informe de superposición:
 
-* Un segmento debe contener un mínimo de 70.000 usuarios en tiempo real durante los últimos 14 días. Obtenga más información sobre los requisitos [mínimos de visitantes únicos para características y segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
+* Un segmento debe contener un mínimo de 70.000 usuarios en tiempo real durante los últimos 14 días. Obtenga más información sobre los requisitos [mínimos de Visitante único para características y segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
 * Se debe crear un segmento antes de las 12 AM del jueves UTC (2 días completos antes de que comience el proceso de actualización semanal del informe de superposición).
-* Su empresa debe ser cliente [!DNL Audience Manager] completo. Para obtener más información, póngase en contacto con su consultor [!DNL Audience Manager] o con el Servicio de atención al cliente.
+* Su compañía debe ser un [!DNL Audience Manager] cliente completo. Para obtener más información, póngase en contacto con su consultor [!DNL Audience Manager] o con el Servicio de atención al cliente.
 
-## El tamaño del segmento y/o el tiempo de creación afectan a los informes {#segment-size}
+## El tamaño del segmento y/o el tiempo de creación afectan al Sistema de informes {#segment-size}
 
 Si no ve ningún segmento en uno de los [!UICONTROL Overlap] informes, puede deberse a que el segmento no cumple estos requisitos mínimos.
 
