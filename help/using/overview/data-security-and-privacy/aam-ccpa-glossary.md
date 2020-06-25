@@ -1,11 +1,15 @@
 ---
-description: Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager aborda los distintos requisitos de la CCPA.
-seo-description: Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager aborda los distintos requisitos de la CCPA.
+description: En este artículo se explican los conceptos y la terminología utilizados por la Ley de Protección del Consumidor de California (CCPA) y cómo el Adobe Audience Manager aborda los distintos requisitos de la CCPA.
+seo-description: En este artículo se explican los conceptos y la terminología utilizados por la Ley de Protección del Consumidor de California (CCPA) y cómo el Adobe Audience Manager aborda los distintos requisitos de la CCPA.
 seo-title: Glosario CCPA
 solution: Audience Manager
 title: Glosario CCPA
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ## Información general {#overview}
 
-Este artículo explica los conceptos y la terminología utilizados por la California Consumer Privacy Act (CCPA) y cómo Adobe Audience Manager, como proveedor de servicios, aborda los distintos requisitos de la CCPA.
+Este artículo explica los conceptos y la terminología utilizados por la Ley de Protección del Consumidor de California (CCPA), y cómo el Adobe Audience Manager, como Proveedor de servicio, aborda los diversos requisitos de la CCPA.
 
-La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés), que entró en vigor el 1 de enero de 2020, es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA.
+La Ley de Privacidad del Consumidor de California (CCPA, por sus siglas en inglés), que entró en vigor el 1 de enero de 2020, es otra oportunidad para hacer de la privacidad una parte integral de su experiencia como consumidor. Audience Manager aprovecha la infraestructura de privacidad existente para ayudarle a cumplir con sus obligaciones según CCPA cuando utiliza Audience Manager, lo que le permite estar preparado para CCPA.
 
-Audience Manager espera con interés asociarse con usted a medida que aborde cualquier nueva obligación a través del uso de la administración de datos y la privacidad mediante las funciones de diseño.
+Audience Manager espera con interés asociarse con usted para hacer frente a cualquier nueva obligación a través del uso de nuestra administración de datos y privacidad mediante las funciones de diseño.
 
 ## Glosario CCPA {#CCPA-glossary}
 
@@ -40,7 +44,7 @@ Familiarícese con los términos clave utilizados en relación con CCPA. Hemos r
 
  
 
-**Proveedor** de servicios: una única propiedad, sociedad, sociedad de responsabilidad limitada, sociedad, asociación u otra entidad jurídica que esté organizada o operada con fines de lucro o beneficio financiero de sus accionistas u otros propietarios, que procese información en nombre de una empresa y a la que la empresa revele información personal de un consumidor con fines comerciales en virtud de un contrato escrito, siempre que el contrato prohíba a la entidad que reciba la información conservar, utilizar o revelar la información personal con cualquier fin distinto del de el propósito específico de prestar los servicios especificados en el contrato para la empresa o, en caso contrario, en el presente título, incluida la conservación, utilización o divulgación de la información personal con fines comerciales distintos de la prestación de los servicios especificados en el contrato con la empresa.
+**Proveedor de servicio**: una sociedad, sociedad, compañía de responsabilidad limitada, sociedad, asociación u otra entidad jurídica que esté organizada o operada con fines de lucro o beneficio financiero de sus accionistas u otros propietarios, que procese la información por cuenta propia y a la que la empresa revele la información personal de un consumidor con fines comerciales en virtud de un contrato escrito, siempre que el contrato prohíba a la entidad que reciba la información conservar, utilizar o revelar la información personal para cualquier fin distinto de los previstos la finalidad específica de prestar los servicios especificados en el contrato para la empresa o, en caso contrario, en el presente título, incluida la conservación, utilización o divulgación de la información personal con fines comerciales distintos de la prestación de los servicios especificados en el contrato con la empresa.
 
  
 
