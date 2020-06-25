@@ -5,8 +5,12 @@ seo-title: Solicitudes masivas
 solution: Audience Manager
 title: Solicitudes masivas
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +29,7 @@ t_bulk_requests.xml
 >
 >[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
 
-La hoja de cálculo no tiene su propio conjunto de encabezados de columna y no es necesario copiar los ID en ninguna de las columnas. [!UICONTROL Request] En su lugar, devuelve datos basados en el botón de acción en el que se hace clic en la barra de herramientas. Además, una función de informes opcional devuelve un recuento de frecuencia para los incendios de píxeles y un recuento de usuarios únicos durante varios intervalos de tiempo fijos.
+La hoja de cálculo no tiene su propio conjunto de encabezados de columna y no es necesario copiar los ID en ninguna de las columnas. [!UICONTROL Request] En su lugar, devuelve datos basados en el botón de acción en el que se hace clic en la barra de herramientas. Además, una función de sistema de informes opcional devuelve un recuento de frecuencia para los incendios de píxeles y un recuento de usuarios único para varios intervalos de tiempo fijos.
 
 Para realizar solicitudes masivas, abra la [!UICONTROL Bulk Management Tools] hoja de cálculo y:
 
