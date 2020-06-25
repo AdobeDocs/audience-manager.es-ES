@@ -6,8 +6,12 @@ seo-title: Pares de clave-valor explicados
 solution: Audience Manager
 title: Pares de clave-valor explicados
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +34,7 @@ Un par clave-valor consta de dos elementos de datos relacionados: Clave, que es 
 
 ## Pares de clave-valor estándar y serializados {#standard-serialized-pairs}
 
-Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* formato. El formato estándar organiza los datos en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza nuevamente para definir un valor diferente. Por el contrario, el formato serializado comprime varios valores en un conjunto definido por una sola clave. Además, en un par serializado, se utiliza un indicador especial para separar los valores dentro del conjunto de valor clave. Finalmente, los valores de clave estándar y serializados pueden contener uno o varios valores. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
+Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* formato. El formato estándar organiza los datos en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza nuevamente para definir un valor diferente. Por el contrario, el formato serializado comprime varios valores en un conjunto definido por una sola clave. Además, en un par serializado, se utiliza un indicador especial para separar los valores dentro del conjunto de valor clave. Por último, los valores de clave estándar y serializados pueden contener uno o varios valores. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
 
 | Formato | Clave única | Par de clave-valor |
 |---|---|---|
@@ -43,10 +47,10 @@ Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* forma
 
 Al trabajar con datos serializados, debe especificar los caracteres que separan los valores *dentro* y *entre* los pares clave-valor. Los elementos de los pares de clave-valor se definen de la siguiente manera:
 
-* **** Clave: Identificador único en el par clave-valor.
-* **** Delimitador de valores: Separa pares clave-valor individuales.
-* **** Separador clave-valor: Separa una clave de los valores de un par clave-valor.
-* **** Separador de serie: Separa valores individuales dentro de pares de clave-valor serializados.
+* **Clave:** Identificador único en el par clave-valor.
+* **Delimitador de valores:** Separa pares clave-valor individuales.
+* **Separador clave-valor:** Separa una clave de los valores de un par clave-valor.
+* **Separador de serie:** Separa valores individuales dentro de pares de clave-valor serializados.
 
 ## Elementos de valor clave estándar y serializados {#standard-serialized-key-value-elements}
 
@@ -57,7 +61,7 @@ Al trabajar con datos serializados, debe especificar los caracteres que separan 
    <th colname="col2" class="entry"> Ejemplo </th> 
    <th colname="col3" class="entry"> Clave </th> 
    <th colname="col4" class="entry"> Separador de clave-valor </th> 
-   <th colname="col5" class="entry"> Delimitador de valor clave </th> 
+   <th colname="col5" class="entry"> Delimitador de clave-valor </th> 
    <th colname="col6" class="entry"> Separador de serie </th> 
   </tr> 
  </thead>
