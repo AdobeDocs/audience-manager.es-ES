@@ -4,8 +4,12 @@ seo-description: Por qué los segmentos asignados al laboratorio de Audiencia no
 seo-title: Por qué los segmentos asignados al laboratorio de Audiencia no aparecerán en la página de detalles de destino.
 solution: Audience Manager
 title: ¿Debería ver los segmentos asignados por el laboratorio de Audiencia en la página de detalles de destino?
+feature: support
 translation-type: tm+mt
-source-git-commit: dd68edc816c1739ec49f3178e776087d7737863b
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
