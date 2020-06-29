@@ -5,8 +5,12 @@ seo-title: Segmentos en pausa y eliminados
 solution: Audience Manager
 title: Segmentos en pausa y eliminados
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
+feature: Segments
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +29,7 @@ Un segmento pausado (desactivado):
 
 * Detiene la segmentación de usuarios nuevos y cualificados.
 * Conserva el estado o la pertenencia de segmentación de un usuario (no elimina a un usuario del segmento).
-* Permanece en la lista de segmentos y se puede reactivar.
+* Permanece en la lista del segmento y se puede reactivar.
 * No envía datos a destinos asociados.
 * Devuelve los datos de los informes disponibles (hasta la fecha de desactivación).
 
@@ -34,7 +38,7 @@ Un segmento pausado (desactivado):
 Un segmento eliminado:
 
 * Detiene la segmentación de usuarios nuevos y cualificados.
-* Elimina los usuarios cualificados de la pertenencia a segmentos.
+* Quita a los usuarios cualificados de la pertenencia a segmentos.
 * Se elimina de la lista de segmentos.
 * No se puede eliminar.
 * No envía datos a destinos asociados.
