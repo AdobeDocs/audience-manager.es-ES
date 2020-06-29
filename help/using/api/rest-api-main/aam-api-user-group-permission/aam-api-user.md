@@ -5,15 +5,19 @@ seo-title: Métodos de API de administración de usuarios
 solution: Audience Manager
 title: Métodos de API de administración de usuarios
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
 
 # Métodos de API de administración de usuarios {#user-management-api-methods}
 
-Métodos de descanso [!DNL API] para administrar usuarios, incluida la creación, actualización, listado, eliminación y devolución de objetos de usuario.
+Métodos de descanso [!DNL API] para administrar usuarios, como crear, actualizar, enumerar, eliminar y devolver objetos de usuario.
 
 <!-- c_rest_api_user_man_user.xml -->
 
@@ -250,9 +254,9 @@ Un `Get` método para devolver el objeto de usuario del usuario que ha iniciado 
 }
 ```
 
-## Mostrar usuarios {#list-users}
+## Usuarios de Lista {#list-users}
 
-Un `GET` método para enumerar usuarios.
+Un `GET` método para la lista de usuarios.
 
 <!-- r_rest_api_user_list.xml -->
 
