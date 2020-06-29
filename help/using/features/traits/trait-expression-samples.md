@@ -1,12 +1,16 @@
 ---
-description: Ejemplos a los que se puede hacer referencia para crear expresiones en el editor de código del Generador de expresiones.
-seo-description: Ejemplos a los que se puede hacer referencia para crear expresiones en el editor de código del Generador de expresiones.
+description: Ejemplos a los que puede hacer referencia para crear expresiones en el editor de código del Generador de Expresiones.
+seo-description: Ejemplos a los que puede hacer referencia para crear expresiones en el editor de código del Generador de Expresiones.
 seo-title: Expresiones de muestra con operadores booleanos y de comparación
 solution: Audience Manager
 title: Expresiones de muestra con operadores booleanos y de comparación
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +23,7 @@ Ejemplos a los que puede hacer referencia para crear expresiones en el editor de
 
 <!-- r_tb_expression_samples.xml -->
 
-Cree sus propias reglas de características con el editor de [!UICONTROL Expression Builder] código. Los siguientes ejemplos pueden ayudarle a empezar. Algunos de los ejemplos dan prioridad a la *`key`* variable `c_` para identificarla como una variable definida por el usuario. Incluya el `c_` prefijo (o cualquier otra convención de nombre) para la *`key`* variable si las llamadas al evento envían datos a [!DNL Audience Manager] través de esa sintaxis.
+Cree sus propias reglas de características con el editor de [!UICONTROL Expression Builder] código. Los siguientes ejemplos pueden ayudarle a empezar. Algunos de los ejemplos dan prioridad a la *`key`* variable con `c_` el fin de identificarla como una variable definida por el usuario. Incluya el `c_` prefijo (o cualquier otra convención de nombre) para *`key`* la variable si su evento llama a enviar datos a [!DNL Audience Manager] usando esa sintaxis.
 
 ## Expresiones booleanas {#boolean-expressions}
 
@@ -31,12 +35,12 @@ La regla establece requisitos de cualificación de características mediante [!U
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Código de muestra </th> 
-   <th colname="col2" class="entry"> Para calificar, un visitante debe </th> 
+   <th colname="col2" class="entry"> Para cumplir los requisitos, un visitante debe </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(c_make="A") AND (c_model="B") AND (c_search="1")</code> </td> 
+   <td colname="col1"><code>(c_make=="A") AND (c_model=="B") AND (c_search=="1")</code> </td> 
    <td colname="col2"> 
     <ul id="ul_F1BB5084FB794BE7A3569F9C106FC481"> 
      <li id="li_56E8C3BACF1C4B33A46CF92C51FF2286">Busque una marca y un modelo específicos. </li> 
@@ -54,18 +58,18 @@ Esta regla establece requisitos de cualificación de características mediante [
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Código de muestra </th> 
-   <th colname="col2" class="entry"> Para calificar, un visitante debe </th> 
+   <th colname="col2" class="entry"> Para cumplir los requisitos, un visitante debe </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(a== "1" OR b="1") AND (c="new")</code> </td> 
-   <td colname="col2"> Cumplir las condiciones establecidas por las variables <code><i>a </i></code> o <code><i>b </i></code> y <code><i>c </i></code>. </td> 
+   <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
+   <td colname="col2"> Cumplir las condiciones establecidas por variables <code><i>a </i></code> o <code><i>b </i></code> y <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ejemplo de rango con mayor que, menor que, igual a
+## Ejemplo de rango con Bueno que es igual a, menor que
 
 Esta regla establece requisitos de cualificación de características mediante un intervalo.
 
@@ -73,12 +77,12 @@ Esta regla establece requisitos de cualificación de características mediante u
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Código de muestra </th> 
-   <th colname="col2" class="entry"> Para calificar, un visitante debe </th> 
+   <th colname="col2" class="entry"> Para cumplir los requisitos, un visitante debe </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(precio &gt;= 1,00 Y precio &lt;= 100,00)</code> </td> 
+   <td colname="col1"><code>(price &gt;= 1.00 AND price &lt;= 100.00)</code> </td> 
    <td colname="col2"> Cumplir cualquier condición de precio entre 1.00 y 100.00. </td> 
   </tr> 
  </tbody> 
