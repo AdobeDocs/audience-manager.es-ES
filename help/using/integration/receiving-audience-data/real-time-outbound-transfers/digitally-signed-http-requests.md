@@ -1,19 +1,23 @@
 ---
-description: El Administrador de Audiencias requiere que las solicitudes de servidor a servidor HTTP(S) se firmen digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP con claves privadas.
-seo-description: El Administrador de Audiencias requiere que las solicitudes de servidor a servidor HTTP(S) se firmen digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
+description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP requests with private keys.
+seo-description: Audience Manager requiere que las solicitudes HTTP(S) servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
 seo-title: Solicitudes HTTP(S) firmadas digitalmente
 solution: Audience Manager
 title: Solicitudes HTTP(S) firmadas digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
 
 # Solicitudes firmadas `HTTP(S)` digitalmente {#digitally-signed-http-requests}
 
-El Administrador de Audiencias requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar `HTTP(S)` solicitudes con claves privadas.
+Audience Manager requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar `HTTP(S)` solicitudes con claves privadas.
 
 ## Información general {#overview}
 
