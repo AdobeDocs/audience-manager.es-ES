@@ -1,12 +1,16 @@
 ---
 description: Métodos que permiten trabajar mediante programación con carpetas de rasgos y segmentos. Las carpetas son directorios que contienen y organizan características y segmentos en grupos lógicos.
 seo-description: Métodos que permiten trabajar mediante programación con carpetas de rasgos y segmentos. Las carpetas son directorios que contienen y organizan características y segmentos en grupos lógicos.
-seo-title: ' Métodos de API de carpeta'
+seo-title: Métodos de API de carpeta
 solution: Audience Manager
-title: ' Métodos de API de carpeta'
+title: Métodos de API de carpeta
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +23,6 @@ Métodos que permiten trabajar mediante programación con carpetas de rasgos y s
 
 >[!IMPORTANT]
 >
->Los métodos de carpeta [!DNL API] se han reescrito [!DNL Swagger] y migrado. Consulte:  &gt;
+>Los métodos de carpeta [!DNL API] se han reescrito [!DNL Swagger] y migrado. Consulte:  >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
