@@ -5,19 +5,23 @@ seo-title: Métodos de API de la biblioteca de integración de datos
 solution: Audience Manager
 title: Métodos de API de la biblioteca de integración de datos
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
+feature: API
 translation-type: tm+mt
-source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 4%
 
 ---
 
 
 # Métodos de API de la biblioteca de integración de datos {#data-integration-library-api-methods}
 
-Métodos que permiten trabajar mediante programación con el [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Métodos que le permiten trabajar mediante programación con el [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->La API de la biblioteca de integración de datos ha quedado obsoleta. Esta API solía generar DIL, que ahora puede descargar automáticamente aquí: Descarga [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>La API de la biblioteca de integración de datos ha quedado obsoleta. Esta API solía generar DIL, que ahora puede descargar automáticamente aquí: [Descarga](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -39,9 +43,9 @@ Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` como se
 ["4.0", "4.1"]
 ```
 
-## Devolver esquema JSON para la versión {#return-json-schema-version}
+## Devolver Esquema JSON para la versión {#return-json-schema-version}
 
-Un `GET` método que devuelve el [!DNL JSON] esquema de la [!UICONTROL DIL] versión. Admite el uso de alias [!UICONTROL LATEST] para versión para obtener la versión más reciente de [!UICONTROL DIL].
+Un `GET` método que devuelve el [!DNL JSON] esquema de la [!UICONTROL DIL] versión. Admite el uso de alias [!UICONTROL LATEST] para la versión para obtener la versión más reciente de [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
