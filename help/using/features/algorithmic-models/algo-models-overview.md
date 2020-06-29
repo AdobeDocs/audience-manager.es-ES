@@ -1,12 +1,16 @@
 ---
-description: Describe los modelos algorítmicos disponibles en el Administrador de Audiencias.
+description: Describe los modelos algorítmicos disponibles en Audience Manager.
 keywords: algo models how works predictive audiences
-seo-description: Describe los modelos algorítmicos disponibles en el Administrador de Audiencias.
+seo-description: Describe los modelos algorítmicos disponibles en Audience Manager.
 seo-title: Descripción general de los modelos algorítmicos
 solution: Audience Manager
 title: Descripción general de los modelos algorítmicos
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
 
 ## ¿Qué es el modelado algorítmico?{#what-algo-modeling}
 
-El modelado algorítmico en el Administrador de Audiencias se refiere al uso de la ciencia de datos para expandir las audiencias existentes o clasificarlas en personalidades.
+El modelado algorítmico en Audience Manager se refiere al uso de la ciencia de datos para expandir las audiencias existentes o clasificarlas en personalidades.
 
 Esto se realiza mediante dos tipos de algoritmos: [!UICONTROL Look-Alike Modeling] y [!UICONTROL Predictive Audiences].
 
@@ -35,6 +39,6 @@ Para obtener más información sobre [!UICONTROL Look-Alike Modeling]este tema, 
 
 En un contexto de marketing, una persona es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de características, como demografía, hábitos de navegación, historial de compras, etc.
 
-[!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, al utilizar las capacidades de aprendizaje automático del Administrador de Audiencias para clasificar automáticamente audiencias desconocidas en personalidades distintas. El Administrador de Audiencias lo logra calculando la propensión de la audiencia desconocida para un conjunto de audiencias conocidas.
+[!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, al utilizar las capacidades de aprendizaje automático del Audience Manager para clasificar automáticamente audiencias desconocidas en personalidades distintas. El Audience Manager lo logra calculando la propensión de su audiencia desconocida para un conjunto de audiencias conocidas.
 
 Para obtener más información sobre [!UICONTROL Predictive Audiences], consulte Información general sobre [Audiencias](predictive-audiences.md)predictivas.
