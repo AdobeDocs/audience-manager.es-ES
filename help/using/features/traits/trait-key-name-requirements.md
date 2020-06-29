@@ -5,8 +5,12 @@ seo-title: Requisitos de nombre para variables clave
 solution: Audience Manager
 title: Requisitos de nombre para variables clave
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
+feature: Traits
 translation-type: tm+mt
-source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +31,4 @@ En [!UICONTROL Expression Builder], el nombre de una variable clave en un par de
 
 ## Prefijación de variables clave con `c_`
 
-El `c_` prefijo *siempre* es necesario si los parámetros que envían datos en una URL de llamada de evento utilizan esa sintaxis.
+El `c_` prefijo *siempre* es obligatorio si los parámetros que envían datos en una URL de llamada de evento utilizan esa sintaxis.
