@@ -1,24 +1,28 @@
 ---
-description: El Administrador de Audiencias establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante métodos de API. Los límites de uso ayudan a proteger al Administrador de Audiencias de los procesos automatizados que pueden intentar comprometer nuestras API o interfaz de usuario.
-seo-description: El Administrador de Audiencias establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante métodos de API. Los límites de uso ayudan a proteger al Administrador de Audiencias de los procesos automatizados que pueden intentar comprometer nuestras API o interfaz de usuario.
+description: El Audience Manager establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante métodos de API. Los límites de uso ayudan a proteger al Audience Manager de los procesos automatizados que pueden intentar comprometer nuestras API o interfaz de usuario.
+seo-description: El Audience Manager establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante métodos de API. Los límites de uso ayudan a proteger al Audience Manager de los procesos automatizados que pueden intentar comprometer nuestras API o interfaz de usuario.
 seo-title: Límites de uso
 solution: Audience Manager
 title: Límites de uso
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
+feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 5%
 
 ---
 
 
 # Límites de uso {#usage-limits}
 
-El Administrador de Audiencias establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante [!DNL API] métodos programáticos. Los límites de uso ayudan a proteger al Administrador de Audiencias de los procesos automatizados que pueden intentar poner en peligro nuestra interfaz [!DNL API]de usuario o de usuario.
+El Audience Manager establece un límite máximo en el número de características, segmentos, destinos y modelos algorítmicos que puede crear para una cuenta. Los límites se aplican a estos elementos, tanto si se crean en la interfaz de usuario como mediante [!DNL API] métodos programáticos. Los límites de uso ayudan a proteger al Audience Manager de los procesos automatizados que pueden intentar poner en peligro nuestra interfaz [!DNL API]de usuario o de usuario.
 
 ## Límites de asignación de ID {#id-mapping-limits}
 
-La siguiente tabla lista los límites de asignación [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para los ID de dispositivo. Una vez que un ID alcanza cualquiera de los límites siguientes, el Administrador de Audiencias agrega nuevas asignaciones de ID basadas en una lógica [!DNL FIFO] (primero en, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte [Índice de IDs](../../reference/ids-in-aam.md) en el Administrador de Audiencias para obtener detalles sobre los ID admitidos por el Administrador de Audiencias.
+La siguiente tabla lista los límites de asignación [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para los ID de dispositivo. Una vez que un ID alcanza cualquiera de los límites siguientes, el Audience Manager agrega nuevas asignaciones de ID basadas en una lógica [!DNL FIFO] (primero en, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte [Índice de IDs](../../reference/ids-in-aam.md) en Audience Manager para obtener detalles sobre los ID admitidos por el Audience Manager.
 
 | Asignación de ID | Límite máximo |
 |-----------|-------------- |
