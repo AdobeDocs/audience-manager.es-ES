@@ -1,12 +1,13 @@
 ---
 description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 seo-description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
-seo-title: Socios de tecnología de Adobe Audiencia Manager
+seo-title: Socios de tecnología Adobe Audience Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Socios de tecnología de Adobe Audiencia Manager
+title: Socios de tecnología Adobe Audience Manager
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 59%
@@ -14,17 +15,17 @@ ht-degree: 59%
 ---
 
 
-# Socios de Activación del Administrador de Audiencias
+# Socios de Activación Audience Manager
 
-Esta página solo incluye integraciones [actuales de](/help/using/features/destinations/add-edit-segments.md) servidor a servidor del Administrador de Audiencias.  Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
+Esta página solo incluye integraciones [actuales de](/help/using/features/destinations/add-edit-segments.md) servidor a servidor Audience Manager.  Para obtener más información sobre una integración, consulte su lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el servicio de atención al cliente.
 
 <br> 
 
 * **Actualizado** = Muestra la última fecha en que hubo una actualización para este socio de activación.
-* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación de GDPR Leer reglas de combinación de [Perfiles y los procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y los socios del Administrador de [Audiencias con capacidades](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentación. El Administrador de Audiencias envía información sin segmentar a los destinos marcados con Sí a continuación.
-* **Recibir señales** de consentimiento TCF de IAB = El complemento Administrador de Audiencias para TCF de IAB le permite reenviar la cadena TC de IAB a socios de activación respetando las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Unsegmentation describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles. La dessegmentación también se utiliza en el contexto de las solicitudes de eliminación de GDPR Leer reglas de combinación de [Perfiles y procesos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentación de dispositivos y socios [Audience Manager con capacidades](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentación. El Audience Manager envía información sin segmentar a los destinos marcados con Sí a continuación.
+* **Recibir señales** de consentimiento TCF de IAB = El complemento Audience Manager para TCF de IAB le permite reenviar la cadena TC de IAB a socios de activación respetando las opciones de privacidad de los usuarios. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Esta columna lista a los socios que admiten la supresión instantánea entre dispositivos. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs** de dispositivos móviles = Esta columna lista a socios que pueden recibir ID de dispositivos móviles del Administrador de Audiencias.
+* **IDs** de dispositivos móviles = Esta columna lista a socios que pueden recibir ID de dispositivos móviles del Audience Manager.
 
 <br> 
 
@@ -60,7 +61,7 @@ Esta página solo incluye integraciones [actuales de](/help/using/features/desti
 | Centro | 27/02/2017 | No | No | No | Sí |
 | ChoiceStream | 27/02/2017 | No | No | No | No |
 | Clearstream.tv | 27/02/2017 | Sí | No | No | No |
-| Plataforma AMP colectiva | 27/02/2017 | No | No | No | No |
+| Colectivo AMP Platform | 27/02/2017 | No | No | No | No |
 | Criteo | 27/02/2017 | No | Sí | No | Sí |
 | Cruzado | 27/02/2017 | Sí | No | No | No |
 | D.A.C. AudienceOne | 27/02/2017 | Sí | No | No | No |
@@ -116,7 +117,7 @@ Esta página solo incluye integraciones [actuales de](/help/using/features/desti
 | Opera Mediaworks | 13/02/2017 | Sí | No | No | Sí |
 | Excedente | 03/04/2017 | Sí | No | No | No |
 | OwnerIQ | 13/02/2017 | Sí | No | Sí | No |
-| Plataforma 161 | 28/11/2018 | Sí | No | No | Sí |
+| Platform 161 | 28/11/2018 | Sí | No | No | Sí |
 | PocketMath | 22/02/2017 | Sí | No | No | Sí |
 | Powerlinks | 17/05/2017 | Sí | No | No | No |
 | Publicitario | 13/02/2017 | Sí | No | No | No |
