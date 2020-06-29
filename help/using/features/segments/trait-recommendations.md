@@ -4,9 +4,12 @@ seo-description: Obtenga recomendaciones de características en directo a medida
 seo-title: Trait Recommendations
 solution: Audience Manager
 title: Trait Recommendations
-uuid: null
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 019396917482340f15b4eb23736b15322815bd84
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -27,10 +30,10 @@ El siguiente vídeo describe el flujo de trabajo para [!UICONTROL Marketplace Re
 
 ## Información general
 
-[!UICONTROL Trait Recommendations], con tecnología de [!DNL Adobe Sensei], incorpora la ciencia de datos en sus flujos de trabajo diarios del Administrador de Audiencias.
+[!UICONTROL Trait Recommendations], con tecnología [!DNL Adobe Sensei], incorpora la ciencia de datos a sus flujos de trabajo diarios Audience Manager.
 With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-El Administrador de Audiencias muestra las recomendaciones de características tanto de sus características individuales, en la **[!UICONTROL Recommendations]** sección, como de **[!UICONTROL Audience Marketplace]**, en la **[!UICONTROL Recommendations from Marketplace]** sección.
+El Audience Manager muestra las recomendaciones de rasgos tanto de sus características individuales, en la **[!UICONTROL Recommendations]** sección, como de **[!UICONTROL Audience Marketplace]**, en la **[!UICONTROL Recommendations from Marketplace]** sección.
 
 Añada las características recomendadas al segmento para aumentar la audiencia objetivo.
 
@@ -38,18 +41,18 @@ Añada las características recomendadas al segmento para aumentar la audiencia 
 
 **En pocas palabras:**
 
-* El Administrador de Audiencias muestra las características propias en la [!UICONTROL Recommendations] sección. Las recomendaciones del mercado de fuentes públicas y privadas a las que no está suscrito están visibles en la [!UICONTROL Recommendations from Marketplace] sección . Haga clic en el nombre de la fuente para ir [!UICONTROL Audience Marketplace] y suscribirse.
-* El Administrador de Audiencias muestra un máximo de cincuenta características similares a la de la regla de segmento.
+* El Audience Manager muestra las características propias en la [!UICONTROL Recommendations] sección. Las recomendaciones del mercado de fuentes públicas y privadas a las que no está suscrito están visibles en la [!UICONTROL Recommendations from Marketplace] sección . Haga clic en el nombre de la fuente para ir [!UICONTROL Audience Marketplace] y suscribirse.
+* El Audience Manager muestra un máximo de cincuenta características similares a la de la regla de segmento.
 * Puede filtrar las fuentes de datos de las que no desee ver ninguna recomendación.
-* Al calcular similitudes, el Administrador de Audiencias considera [UUID](../../reference/ids-in-aam.md) que cumplen los requisitos para la característica durante los últimos 30 días.
-* Si ve el mensaje de error &quot;No se encontraron características similares. Las características pueden ser demasiado nuevas.&quot;, esto significa que o bien no hubo actividad para esa característica en los últimos 30 días, o bien el Administrador de Audiencias aún no ha actualizado las recomendaciones para esa característica. Inténtelo de nuevo en 24 horas.
+* Al calcular similitudes, el Audience Manager considera [UUID](../../reference/ids-in-aam.md) que cumplen los requisitos para la característica durante los últimos 30 días.
+* Si ve el mensaje de error &quot;No se encontraron características similares. Las características pueden ser demasiado nuevas.&quot;, esto significa que o bien no hubo actividad para esa característica en los últimos 30 días, o bien el Audience Manager aún no ha actualizado las recomendaciones para esa característica. Inténtelo de nuevo en 24 horas.
 
 ## Casos de uso
 
-Con [!UICONTROL Trait Recommendations], puede mejorar sus flujos de trabajo en función de cómo utilice el Administrador de Audiencias:
+Con [!UICONTROL Trait Recommendations], puede mejorar sus flujos de trabajo, dependiendo de cómo use el Audience Manager:
 
 * Como especialista en mercadotecnia, puede encontrar rápidamente audiencias interesadas en productos complementarios con la ayuda de características similares, para aumentar su alcance.
-* Si usa el Administrador de Audiencias como editor, con [!UICONTROL Trait Recommendations]esto puede comprender el comportamiento de la audiencia y generar mejores segmentos para las ventas publicitarias o la adquisición de usuarios.
+* Si usa Audience Manager como editor, con [!UICONTROL Trait Recommendations]esto puede comprender el comportamiento de la audiencia y generar mejores segmentos para las ventas publicitarias o la adquisición de usuarios.
 * Como comprador [!UICONTROL Audience Marketplace] de datos, quiero descubrir datos relevantes de terceros sin explorar un gran número de fuentes.
 * Como proveedor [!UICONTROL Audience Marketplace] de datos, quiero recomendar datos relevantes a los compradores para que pueda beneficiarse de suscripciones óptimas y relevantes.
 
@@ -109,7 +112,7 @@ Al crear o editar un segmento en el Generador [de segmentos](segment-builder.md)
    >Las fuentes de datos excluidas se muestran justo encima de la lista de las características recomendadas. Haga clic en **X** en el cuadro gris para eliminar las exclusiones y ver los resultados de las fuentes de datos correspondientes de nuevo.
 1. Para agregar características recomendadas a la regla de segmento, haga clic en el símbolo **+** .
 
-Cuando crea o edita un segmento y agrega una característica a la regla de segmento, verá un máximo de cincuenta características recomendadas, similares a la que ha agregado. Si la regla de segmento contiene más de una característica, el Administrador de Audiencias utiliza un método de rotación redonda para mostrar la mejor coincidencia para cada característica, la segunda mejor coincidencia para cada característica, y así sucesivamente, para las cincuenta características más grandes por población, en la regla de segmento.
+Cuando crea o edita un segmento y agrega una característica a la regla de segmento, verá un máximo de cincuenta características recomendadas, similares a la que ha agregado. Si la regla de segmento contiene más de una característica, el Audience Manager utiliza un método de rotación redonda para mostrar la mejor coincidencia para cada característica, luego la segunda mejor coincidencia para cada característica, y así sucesivamente, para las cincuenta características más grandes por población, en la regla de segmento.
 
 ![Tres características base](assets/three-base-traits.png)
 
@@ -139,11 +142,11 @@ Al hacer clic en una característica propia se abre una ventana emergente, como 
 
 ## Cómo funciona
 
-Para generar recomendaciones de características, el Administrador de Audiencias calcula la similitud [de](https://en.wikipedia.org/wiki/Jaccard_index) Jaccard entre la característica de destinatario y cualquier otra característica a la que su cuenta tenga acceso, incluidos los datos de terceros. A continuación, el Administrador de Audiencias muestra hasta cincuenta características que tienen la mayor similitud.
+Para generar recomendaciones de características, Audience Manager calcula la similitud [de](https://en.wikipedia.org/wiki/Jaccard_index) Jaccard entre la característica de destinatario y cualquier otra característica a la que su cuenta tenga acceso, incluidos los datos de terceros. A continuación, el Audience Manager muestra hasta cincuenta características que tienen la mayor similitud.
 
 ## Puntuación de similitud de características {#trait-similarity-score}
 
-El Administrador de Audiencias calcula los [!UICONTROL Trait Similarity Score] dos rasgos calculando la intersección y la unión en términos del número de [!UICONTROL UUID]s y, a continuación, divide los dos. Para dos características A y B, el cálculo tiene este aspecto:
+El Audience Manager calcula los [!UICONTROL Trait Similarity Score] dos rasgos calculando la intersección y la unión en términos del número de [!UICONTROL UUID]s y luego divide los dos. Para dos características A y B, el cálculo tiene este aspecto:
 
 ![similitud de jaccard](assets/jaccard_similarity.png)
 
@@ -186,5 +189,5 @@ Lea más sobre [!UICONTROL RBAC] los controles [aquí](../administration/adminis
 
 ## Limitaciones
 
-* Actualmente, el Administrador de Audiencias no muestra las características de las carpetas como características recomendadas. Obtenga más información sobre las características de las carpetas [aquí](../traits/manage-folder-traits.md).
-* Al mostrar las recomendaciones de características, el Administrador de Audiencias no tiene en cuenta [!DNL Boolean] los operadores ([!DNL AND], [!DNL OR], [!DNL NOT]) en las reglas de segmentos.
+* Actualmente, el Audience Manager no muestra las características de la carpeta como características recomendadas. Obtenga más información sobre las características de las carpetas [aquí](../traits/manage-folder-traits.md).
+* Al mostrar las recomendaciones de características, el Audience Manager no tiene en cuenta [!DNL Boolean] los operadores ([!DNL AND], [!DNL OR], [!DNL NOT]) en las reglas de segmentos.
