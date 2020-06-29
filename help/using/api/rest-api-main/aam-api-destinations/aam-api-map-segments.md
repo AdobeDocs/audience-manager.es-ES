@@ -5,8 +5,12 @@ seo-title: Asignar segmentos a un destino
 solution: Audience Manager
 title: Asignar segmentos a un destino
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 8%
 
 ---
 
@@ -218,7 +222,7 @@ En la solicitud, `traitAlias` y `valueAlias` establece la clave y el valor respe
 
 ## Asignar un segmento a un destino de cookie: Clave múltiple, serializada {#map-segment-cookie-multi-serial}
 
-Un `POST` método que permite asignar un segmento a una clave múltiple, serializada [!UICONTROL cookie destination].
+Un `POST` método que le permite asignar un segmento a una clave múltiple, serializada [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -394,7 +398,7 @@ Una respuesta correcta devuelve la matriz de asignaciones creadas.
 ]
 ```
 
-## Agregar varios segmentos a un destino {#add-segments-dest}
+## Añadir varios segmentos a un destino {#add-segments-dest}
 
 Un `POST` método que permite asignar varios segmentos a un destino.
 
