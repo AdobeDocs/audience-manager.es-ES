@@ -1,22 +1,26 @@
 ---
-description: La sección de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite una comparación sencilla de la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
-seo-description: La sección de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite una comparación sencilla de la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
-seo-title: Informes de grupo de prueba
+description: La sección de sistema de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite comparar fácilmente la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
+seo-description: La sección de sistema de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite comparar fácilmente la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
+seo-title: Sistema de informes de grupo de prueba
 solution: Audience Manager
-title: Informes de grupo de prueba
+title: Sistema de informes de grupo de prueba
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 
-# Informes de grupo de prueba {#test-group-reporting}
+# Sistema de informes de grupo de prueba {#test-group-reporting}
 
-La sección de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite una comparación sencilla de la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
+La sección de sistema de informes del grupo de prueba devuelve información sobre las conversiones del grupo de prueba, lo que permite comparar fácilmente la eficacia del segmento de prueba. Existen numerosos filtros y dimensiones disponibles para la visualización de datos.
 
-[!UICONTROL Audience Lab] devuelve información detallada de los segmentos de prueba que ha creado y le permite guardar los datos de informes como [!DNL CSV] archivos. Puede seleccionar entre **[!UICONTROL Aggregate Reporting]** y **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] devuelve información detallada del sistema de informes de los segmentos de prueba que ha creado y le permite guardar los datos del sistema de informes como [!DNL CSV] archivos. Puede seleccionar entre **[!UICONTROL Aggregate Reporting]** y **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** devuelve los números absolutos de los segmentos de prueba. **[!UICONTROL Trend Reporting]** devuelve un gráfico de la tendencia *durante un período* específico. Cuatro fichas le permiten personalizar los informes:
 
@@ -29,7 +33,7 @@ La sección de informes del grupo de prueba devuelve información sobre las conv
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Tasa de conversión de población</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Tasa de conversión demográfica</span></b> </p> </td> 
    <td colname="col2"> <p>Devuelve el porcentaje de dispositivos pertenecientes a un segmento de prueba concreto que se han convertido. </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +46,7 @@ La sección de informes del grupo de prueba devuelve información sobre las conv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Probar poblaciones de segmentos</span></b> </p> </td> 
-   <td colname="col2"> <p>Devuelve el número de dispositivos que pertenecen a los segmentos de prueba. Alternar entre <b><span class="uicontrol"> Población</span></b> total o Población <b><span class="uicontrol"> en tiempo real</span></b>. La diferencia se explica en las <a href="../../faq/faq-reporting.md"> Preguntas más frecuentes</a> sobre informes . </p> </td>
+   <td colname="col2"> <p>Devuelve el número de dispositivos que pertenecen a los segmentos de prueba. Alternar entre <b><span class="uicontrol"> Población</span></b> total o Población <b><span class="uicontrol"> en tiempo real</span></b>. La diferencia se explica en las preguntas más frecuentes <a href="../../faq/faq-reporting.md"> sobre Sistema de informes</a> . </p> </td>
   </tr>
  </tbody>
 </table>
@@ -51,8 +55,8 @@ Puede seleccionar una característica de conversión específica para la cual ge
 
 >[!NOTE]
 >
->* Los informes de un grupo de prueba se rellenarán el día siguiente a la fecha de inicio.
->* Una conversión solo se cuenta para un dispositivo después de la fecha de inicio de una prueba y después de que el dispositivo se haya agregado a un segmento de prueba. Si se produce una conversión para ese dispositivo antes de que se le asigne un grupo de prueba, la conversión no se contará.
+>* El Sistema de informes de un grupo de prueba se rellenará el día siguiente a la fecha de inicio.
+>* Una conversión solo se contabiliza para un dispositivo después de la fecha de inicio de una prueba y después de que el dispositivo se haya agregado a un segmento de prueba. Si se produce una conversión para ese dispositivo antes de que se le asigne un grupo de prueba, la conversión no se contará.
 
 
 Un **[!UICONTROL Aggregate Reporting]** gráfico devuelto podría tener este aspecto:
