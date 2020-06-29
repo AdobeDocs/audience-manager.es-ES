@@ -1,31 +1,35 @@
 ---
-description: Métodos que permiten trabajar mediante programación con funciones de destino.
-seo-description: Métodos que permiten trabajar mediante programación con funciones de destino.
+description: Métodos que le permiten trabajar mediante programación con funciones de destino.
+seo-description: Métodos que le permiten trabajar mediante programación con funciones de destino.
 seo-title: Métodos de la API de destino
 solution: Audience Manager
 title: Métodos de la API de destino
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
 
 # Métodos de la API de destino {#destination-api-methods}
 
-Métodos que permiten trabajar mediante programación con funciones de destino.
+Métodos que le permiten trabajar mediante programación con funciones de destino.
 
 <!-- c_destinations_api.xml -->
 
-En Audience Manager, un destino es cualquier otro sistema (servidor de publicidad, red de publicidad, intercambio, su propia cookie de origen, etc.) [!DNL DSP] que desea compartir datos.
+En Audience Manager, un destino es cualquier otro sistema (servidor de publicidad, red de publicidad, intercambio, su propia cookie de origen, etc.) [!DNL DSP] que desea compartir datos con.
 
 ## Tipos de destino: URL y cookie {#destination-types}
 
-Enumera las variables utilizadas por el `destinationType` parámetro. Especifique `push` o `ADS` trabaje con un [!UICONTROL URL] o [!UICONTROL cookie destination]. No puede crear [!UICONTROL server-to-server destinations] con los [!DNL API] métodos de destino disponibles.
+Lista las variables utilizadas por el `destinationType` parámetro. Especifique `push` o `ADS` trabaje con un [!UICONTROL URL] o [!UICONTROL cookie destination]. No puede crear [!UICONTROL server-to-server destinations] con los [!DNL API] métodos de destino disponibles.
 
 <!-- r_destination_types.xml -->
 
-| Tipo de destino de API | Tipo de destino de UI |
+| Tipo de destino de API | Tipo de destino de la interfaz de usuario |
 |---|---|
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |
