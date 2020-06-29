@@ -3,9 +3,13 @@ description: Las Audiencias predictivas ayudan a clasificar audiencias desconoci
 seo-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
 seo-title: Preguntas más frecuentes sobre Audiencias predictivas
 solution: Audience Manager
-title: Audiencias predictivas del Administrador de Audiencias
+title: Audiencias predictivas de Audience Manager
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
