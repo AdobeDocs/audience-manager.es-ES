@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Preguntas más frecuentes sobre el laboratorio de Audiencia
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Sí, esto está permitido. Piense en un caso de una prueba que utiliza un segmen
 
 <br> 
 
-**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 UUID del Administrador de[Audiencias](../reference/ids-in-aam.md). Cuando el visitante muestra una característica de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab]lo cuenta como una o cuatro conversiones?**
+**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 UUID de[Audience Manager](../reference/ids-in-aam.md). Cuando el visitante muestra una característica de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab]lo cuenta como una o cuatro conversiones?**
 
 En este caso, [!UICONTROL Audience Lab] solo cuenta una conversión.
 
