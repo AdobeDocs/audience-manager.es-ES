@@ -5,8 +5,12 @@ seo-title: Casos generales de uso de las reglas de combinación de Perfiles
 solution: Audience Manager
 title: Casos generales de uso de las reglas de combinación de Perfiles
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## Segmentación de dispositivos {#device-personalization}
 
-Este escenario se aplica a los especialistas en marketing que deseen evaluar un solo perfil de dispositivo para un segmento de audiencia definido en el Administrador de Audiencias, con el fin de ofrecer una experiencia coherente al dispositivo mediante plataformas de destino que admitan ID de dispositivo (DSP, plataformas de personalización en el sitio y otras plataformas de destino basadas en dispositivos), sin tener en cuenta la autenticación de usuarios.
+Este escenario se aplica a los especialistas en marketing que deseen evaluar un perfil de dispositivo único para un segmento de audiencia definido en Audience Manager, a fin de ofrecer una experiencia coherente al dispositivo mediante plataformas de destino que admitan ID de dispositivo (DSP, plataformas de personalización en el sitio y otras plataformas de destino basadas en dispositivos), sin tener en cuenta la autenticación de usuarios.
 
 Para crear una regla que solo destinatario perfiles de dispositivo, seleccione **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -43,7 +47,7 @@ El equipo de mercadotecnia de la tienda puede utilizar la regla **[!UICONTROL Cu
 
 ![current-no-device](assets/current-no-device.png)
 
-Al usar esta regla, el Administrador de Audiencias ignora completamente el perfil del dispositivo, califica el ID de CRM de John para el segmento y no califica el ID de CRM de Jane.
+Al usar esta regla, el Audience Manager ignora completamente el perfil del dispositivo, califica el ID de CRM de John para el segmento y no califica el ID de CRM de Jane.
 
 ![shared-device-targeting](assets/shared-device-targeting.png)
 
@@ -55,9 +59,9 @@ Este caso de uso abarca la gestión de la identidad doméstica. Una compañía p
 
 Consideremos un segmento hecho de hogares con ingresos buenos por más de $100.000 al año, que contiene al menos un dispositivo que es un [!DNL iPhone 7] on [!DNL Data Plan B]. Tenemos dos perfiles domésticos (perfiles entre dispositivos), cada uno conectado a dos perfiles de dispositivos diferentes. Las características requeridas para poder optar al segmento se distribuyen entre los perfiles de dispositivos y entre dispositivos.
 
-El Administrador de Audiencias combina todos los dispositivos + par de perfiles entre dispositivos para ver si el conjunto combinado de características cumple los requisitos para el segmento. Dado que el Administrador de Audiencias evalúa todos los perfiles que se incluyeron en la combinación, se pueden segmentar tanto el perfil del dispositivo como el perfil doméstico.
+El Audience Manager combina todos los dispositivos + par de perfiles entre dispositivos para ver si el conjunto combinado de características cumple los requisitos para el segmento. Dado que el Audience Manager evalúa todos los perfiles que se incluyeron en la combinación, se pueden segmentar tanto el perfil del dispositivo como el perfil doméstico.
 
-El vínculo entre el dispositivo y el perfil doméstico permite que el Administrador de Audiencias cumpla los requisitos [!DNL Household 2] para el segmento, pero no [!DNL Household 1]. Desde [!DNL Household 2], solo [!DNL Device 3] califica para el segmento. Esto [!UICONTROL Profile Merge Rule] ha permitido que el especialista en mercadotecnia envíe un mensaje de marketing coherente a un dispositivo ([!DNL Device 3]) individual y a un hogar ([!DNL Household 2]) más amplio.
+El vínculo entre el dispositivo y el perfil doméstico permite al Audience Manager calificar [!DNL Household 2] para el segmento, pero no [!DNL Household 1]. Desde [!DNL Household 2], solo [!DNL Device 3] cumple los requisitos para el segmento. Esto [!UICONTROL Profile Merge Rule] ha permitido que el especialista en mercadotecnia envíe un mensaje de marketing coherente a un dispositivo ([!DNL Device 3]) individual y a un hogar ([!DNL Household 2]) más amplio.
 
 ![administración del hogar](assets/household-management.png)
 
@@ -69,7 +73,7 @@ El vínculo entre el dispositivo y el perfil doméstico permite que el Administr
 
 Este escenario de objetivo solo está disponible para los clientes que han comprado el [!DNL People-Based Destinations] complemento. Esta regla permite que los especialistas en mercadotecnia lleguen a los clientes en función de sus propios datos autenticados.
 
-Supongamos que un minorista en línea desea llegar a los clientes existentes a través de las plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash propias [!DNL CRM] en el Administrador de Audiencias, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que deseen publicitar, utilizando ese identificador con hash, optimizando así la inversión en publicidad.
+Supongamos que un minorista en línea desea llegar a los clientes existentes a través de las plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash propias [!DNL CRM] en Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que deseen publicitar, utilizando ese identificador con hash, optimizando la inversión en publicidad.
 
 Para obtener más información sobre esta opción, consulte Destinos basados en [personas](../destinations/people-based-destinations-overview.md).
 
@@ -98,12 +102,12 @@ La selección de una [!UICONTROL device graph] opción para una [!UICONTROL Prof
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de Device Graph externas </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Las reglas de combinación</span> de Perfiles creadas con la cooperación <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> entre dispositivos de</a> Experience Cloud o cualquier gráfico de dispositivos externos integrado con el Administrador <span class="keyword"> de</span> Audiencias son ideales para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Las reglas de combinación</span> de Perfiles creadas con la cooperación entre dispositivos <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud</a> o cualquier gráfico de dispositivos externos integrado con el <span class="keyword"> Audience Manager</span> son ideales para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propiedades digitales que tienen un bajo nivel de autenticación de cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">campañas de marca amplias y de gran alcance. </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">Casos de uso en los que los clientes no necesitan estar autenticados para poder optar a la segmentación. </li> 
-     </ul> </p> <p> <p>Sugerencia: Device Co-op <span class="keyword"> es su mejor opción si es cliente de</span> Experience Cloud <span class="keyword"></span> con baja autenticación y sin relación con ningún proveedor de gráficos de dispositivos. </p> </p> </td> 
+     </ul> </p> <p> <p>Sugerencia: Device Co-op <span class="keyword"> es la mejor opción si es un cliente</span> Experience Cloud <span class="keyword"></span> con baja autenticación y no tiene relación con ningún proveedor de gráficos de dispositivos. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
