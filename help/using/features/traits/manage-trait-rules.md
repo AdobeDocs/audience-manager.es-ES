@@ -1,19 +1,23 @@
 ---
-description: En el Generador de rasgos, el Generador de expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencia. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
-seo-description: En el Generador de rasgos, el Generador de expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencia. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
+description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
+seo-description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
 seo-title: Administración de reglas de características
 solution: Audience Manager
 title: Administración de reglas de características
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 0%
 
 ---
 
 
 # Administración de reglas de características {#managing-trait-rules}
 
-En [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] permite crear y probar reglas que establecen requisitos de cualificación de audiencia. Las reglas constan de pares de clave-valor como `color == blue` o `price > 100`. Los operadores de comparación establecen la relación entre las claves y los valores. [!DNL Boolean] las expresiones determinan la relación entre los grupos de reglas.
+En [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como `color == blue` o `price > 100`. Los operadores de comparación establecen la relación entre las claves y los valores. [!DNL Boolean] Las expresiones determinan la relación entre los grupos de reglas.
 
 <!-- c_tb_rules.xml -->
 
@@ -32,7 +36,7 @@ En [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] permite crear y p
    >[!NOTE]
    >
    >Esta opción solo está disponible para [!UICONTROL Data Explorer] los clientes. Póngase en contacto con su consultor de Adobe para obtener más información.
-1. Los campos de prueba le permiten validar combinaciones de reglas de señal o [!DNL URL]s que desee utilizar al enviar datos a Audience Manager.
+1. Los campos de prueba permiten validar combinaciones de reglas de señal o [!DNL URL]s que se desean utilizar al enviar datos al Audience Manager.
 
 ## Crear una regla de características {#create-trait-rule}
 
@@ -45,12 +49,12 @@ Complete los campos obligatorios de la **[!UICONTROL Basic Information]** secci�
 1. Expanda la **[!UICONTROL Trait Expression]** sección e introduzca una clave y un nombre de valor. Esto crea un *`signal`*.
    >[!NOTE]
    >
-   >Incluya el `c_` prefijo (o cualquier otra convención de nombre) para la variable clave si las llamadas al evento envían datos a [!DNL Audience Manager] través de esa sintaxis.
+   >Incluya el `c_` prefijo (o cualquier otra convención de nombre) para la variable clave si su evento llama a enviar datos a [!DNL Audience Manager] través de esa sintaxis.
 1. Seleccione un operador [de](../../features/traits/trait-comparison-operators.md) comparación en la **[!UICONTROL Operator]** lista desplegable. El operador de comparación evalúa la relación entre los elementos de una señal.
    >[!NOTE]
    >
    >El [!DNL Boolean] operador establece la relación entre varias señales [!UICONTROL OR] dentro ** de un grupo y no se puede cambiar.
-1. Haga clic en **[!UICONTROL Add Rule]**. La regla guardada aparece en el espacio de trabajo de características encima de los campos de entrada de datos.
+1. Haga clic **[!UICONTROL Add Rule]**. La regla guardada aparece en el espacio de trabajo de características encima de los campos de entrada de datos.
 
 ### Ejemplo {#example-trait-rule}
 
@@ -87,7 +91,7 @@ Este procedimiento describe cómo editar una característica.
 
 <!-- t_tb_edit.xml -->
 
-1. En el [!UICONTROL Traits] tablero, coloque el puntero sobre la columna **[!UICONTROL Actions]** de la característica que desee editar. Esto muestra los iconos de administración de características.
+1. En el [!UICONTROL Traits] panel, coloque el puntero sobre la columna **[!UICONTROL Actions]** de la característica que desee editar. Esto muestra los iconos de administración de características.
 1. Haga clic en el lápiz para editar la característica.
 
    ![](assets/tb_edit_trait.png)
@@ -98,7 +102,7 @@ Este procedimiento describe cómo eliminar una regla de características.
 
 <!-- t_tb_delete_rule.xml -->
 
-1. En el [!UICONTROL Traits] tablero, pase el ratón sobre las [!UICONTROL Actions] columnas de la característica que desee editar y haga clic en el icono del lápiz. Esto muestra los iconos de administración de características.
+1. En el [!UICONTROL Traits] panel, pase el ratón sobre las [!UICONTROL Actions] columnas de la característica que desee editar y haga clic en el icono del lápiz. Esto muestra los iconos de administración de características.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. Pase el ratón sobre la regla que desee eliminar y haga clic en el icono X. La regla se elimina inmediatamente.
 
