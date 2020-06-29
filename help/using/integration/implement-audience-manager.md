@@ -1,30 +1,34 @@
 ---
-description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos (DMP) de Audience Manager. Esta sección está diseñada para ayudar a los equipos de negocios, jefes de proyecto y administradores de tecnología a comprender el proceso de implementación de Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses aproximadamente, según las necesidades de recopilación de datos.
-seo-description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos (DMP) de Audience Manager. Esta sección está diseñada para ayudar a los equipos de negocios, jefes de proyecto y administradores de tecnología a comprender el proceso de implementación de Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses aproximadamente, según las necesidades de recopilación de datos.
-seo-title: Implementación de Audience Manager
+description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager (DMP). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
+seo-description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager (DMP). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
+seo-title: Audience Manager de implementación
 solution: Audience Manager
-title: Implementación de Audience Manager
+title: Audience Manager de implementación
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 0%
 
 ---
 
 
-# Implementación de Audience Manager {#implementing-audience-manager}
+# Audience Manager de implementación {#implementing-audience-manager}
 
-En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos ([!DNL DMP]) de Audience Manager. Esta sección está diseñada para ayudar a los equipos de negocios, jefes de proyecto y administradores de tecnología a comprender el proceso de implementación de Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses aproximadamente, según las necesidades de recopilación de datos.
+En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
 
 Nuestras técnicas de implementación ayudan a crear asociaciones consultivas con nuevos clientes. Este proceso está diseñado para:
 
 * Descubrir y comprender los requisitos comerciales;
 * Elaborar un plan procesable para atender esas demandas;
 * Desarrollar soluciones personalizadas para ayudar a satisfacer requerimientos únicos o casos de uso;
-* Asegúrese de que los datos privados se importan y están disponibles en Audience Manager.
+* Asegúrese de que los datos de propiedad se importan y están disponibles en el Audience Manager.
 
 Nuestros equipos de Soluciones para Socios y Administración de Cuentas trabajarán estrechamente con usted antes, durante y después del proceso de implementación.
 
-Audience Manager adopta un enfoque por fases para la configuración y la implementación.
+El Audience Manager adopta un enfoque por fases para la configuración y la implementación.
 
 ## Fase de definición {#define-phase}
 
@@ -34,7 +38,7 @@ La fase de definición le presenta los posibles clientes de nuestro proyecto de 
 
 Este paso está diseñado para ayudar a los clientes potenciales a definir y acordar el ámbito del proyecto, comprender los requisitos personalizados, establecer hitos y configurar comunicaciones.
 
-En la tabla siguiente se describen las actividades clave que se llevan a cabo durante esta fase:
+En la tabla siguiente se describen las actividades clave que se producen durante esta fase:
 
 <table id="table_E6E4DA99B19244FB996CC3AB42CEA5DA"> 
  <thead> 
@@ -51,7 +55,7 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
     <ul id="ul_E8F427586F14437285ABBF93A15FCBD4"> 
      <li id="li_A1B5F443E5864C4CB7A789D6E0B87DF0">Introducir los leads del proyecto </li> 
      <li id="li_7F5C0A277FE346A5BA3BA20B21389076">Definir funciones y responsabilidades </li> 
-     <li id="li_991D2F069B88456CB3942970F4EF0FAF">Establecer objetivos e hitos vinculados a las fechas de entrega </li> 
+     <li id="li_991D2F069B88456CB3942970F4EF0FAF">Establecer objetivos e hitos vinculados a fechas de envío </li> 
      <li id="li_4A2CDE7F006A45BDB04585CACF5688CA">Confirmar planes de trabajo in situ </li> 
      <li id="li_A1BF7C2A34C54387BC945077905C9D04">Establecimiento de comunicaciones para preguntas y actualizaciones de estado </li> 
     </ul> </td> 
@@ -73,17 +77,17 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
 Los productos para esta fase pueden incluir lo siguiente:
 
 * Documentos que identifican funciones y responsabilidades;
-* Documentos que establecen el alcance de la labor;
+* Documentos que determinan el alcance del trabajo;
 * Un plan para programar reuniones y llamadas de proyectos;
 * Proceso para compartir recursos y acceder a ellos.
 
 ## Fase de detección {#discovery-phase}
 
-La fase de descubrimiento está dedicada a reunir requerimientos, realizar investigaciones y trabajar para comprender mejor sus necesidades comerciales y estrategias de recopilación de datos.
+La fase de descubrimiento está dedicada a reunir requerimientos, realizar investigaciones y trabajar para comprender mejor las necesidades de su negocio y las estrategias de recopilación de datos.
 
 <!-- c_discovery.xml -->
 
-En la tabla siguiente se describen las actividades clave que se llevan a cabo durante esta fase:
+En la tabla siguiente se describen las actividades clave que se producen durante esta fase:
 
 <table id="table_89E7CD7832E142519EDC1F285A5BBE79"> 
  <thead> 
@@ -99,7 +103,7 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
    <td colname="col2"> 
     <ul id="ul_CB78589D5906439F8632A0C4B6F4130A"> 
      <li id="li_63D9C730FE5A4A55A76C5967A1EFFB8E">Elaborar planes para la administración de etiquetas y la recopilación de datos </li> 
-     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Desarrollar planes que satisfagan las necesidades, metas y expectativas de los clientes </li> 
+     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Desarrollar planes que satisfagan las necesidades, los objetivos y las expectativas de los clientes </li> 
     </ul> </td> 
    <td colname="col3"> Equipos de negocios </td> 
   </tr> 
@@ -133,8 +137,8 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
 Los elementos que entregar para esta fase pueden incluir:
 
 * Una estrategia de recopilación de datos de origen, de terceros y de terceros completada;
-* Un plan de ingestión completado [!DNL CRM] o del almacén de datos;
-* Requisitos definidos de segmentación de audiencia;
+* Un plan de ingestión de data warehouse [!DNL CRM] o completado;
+* Requisitos definidos de segmentación de audiencias;
 * una taxonomía de datos completada;
 * Un plan de integración de datos de terceros desarrollado.
 
@@ -144,22 +148,22 @@ Durante la fase de creación, prueba y formación, revisará la estrategia y el 
 
 <!-- c_build_test_train.xml -->
 
-La estrategia de recopilación de datos se someterá a [!DNL QA] pruebas completas. Partner Solutions rastreará los errores descubiertos y coordinará las soluciones de problemas con nuestros ingenieros de sistemas. La formación del cliente puede comenzar en paralelo con estos otros esfuerzos.
+La estrategia de recopilación de datos se someterá a [!DNL QA] pruebas end-to-end. Partner Solutions rastreará los errores descubiertos y coordinará las soluciones de problemas con nuestros ingenieros de sistemas. La formación del cliente puede tener inicios paralelos a estos otros esfuerzos.
 
-En la tabla siguiente se describen las actividades clave que se llevan a cabo durante esta fase:
+En la tabla siguiente se describen las actividades clave que se producen durante esta fase:
 
 | Actividad | Objetivo/Descripción | Participantes |
 |---|---|---|
 | Preparación de una estrategia de recopilación de datos | Trabaje con los equipos técnicos de Adobe para crear un plan de recopilación de datos que satisfaga los requisitos comerciales | Equipos empresariales y técnicos |
 | Implementar y probar código | Pruebe la solución propuesta en un entorno de ensayo y realice pruebas entre exploradores | Equipos técnicos |
 | Verificar la funcionalidad y resolver errores | Examine y comunique los resultados, resuelva los errores y vuelva a probar | Equipos técnicos |
-| Formación del usuario | Impartir formación y comprensión sobre las funciones, herramientas e informes de Audience Manager | Equipos de negocios |
+| Formación del usuario | Proporcionar educación y comprensión sobre las características, herramientas e informes del Audience Manager | Equipos de negocios |
 
 Los elementos que entregar para esta fase pueden incluir:
 
 * Un plan de recopilación de datos completado y aceptado;
 * Pruebas de extremo a extremo [!DNL QA] ;
-* Instrucciones básicas sobre las funciones de la interfaz de usuario de Audience Manager;
+* Instrucciones básicas sobre las funciones de la interfaz de usuario del Audience Manager;
 * Aceptación y desactivación.
 
 ## Iniciar, admitir y optimizar fase {#launch-support-optimize-phase}
@@ -168,7 +172,7 @@ Durante la fase de lanzamiento, soporte y optimización, la recopilación de dat
 
 <!-- c_launch_support_optimize.xml -->
 
-En la tabla siguiente se describen las actividades clave que se llevan a cabo durante esta fase:
+En la tabla siguiente se describen las actividades clave que se producen durante esta fase:
 
 <table id="table_040B9CBED6F04A41B4501DA4B45F5A16"> 
  <thead> 
@@ -180,7 +184,7 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> Análisis y optimización de datos </td> 
+   <td colname="col1"> análisis y optimización de datos </td> 
    <td colname="col2"> Analizar las tendencias de los datos y proporcionar recomendaciones para la optimización </td> 
    <td colname="col3"> Equipos de negocios </td> 
   </tr> 
@@ -190,7 +194,7 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
     <ul id="ul_21C7E86A7AF749CD8ECBE129DE2C641A"> 
      <li id="li_4FCCC879B7A44752A55DEAC2D6434220">Crear características y segmentos reales </li> 
      <li id="li_329BBFEAFC99488798F97111FFD69853">Analizar estrategias de creación de segmentos </li> 
-     <li id="li_3F1F2EAFBC544E05B07FDDC452F2FB37">Considere y revise casos de uso </li> 
+     <li id="li_3F1F2EAFBC544E05B07FDDC452F2FB37">Considere y revise los casos de uso </li> 
     </ul> </td> 
    <td colname="col3"> Equipos de negocios </td> 
   </tr> 
@@ -201,19 +205,19 @@ En la tabla siguiente se describen las actividades clave que se llevan a cabo du
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Comunicaciones de seguimiento </td> 
-   <td colname="col2"> Comunicación programada regularmente para mantenerse al día de la experiencia del usuario con Audience Manager </td> 
+   <td colname="col2"> Comunicación programada regularmente para mantenerse al día de su experiencia de usuario con el Audience Manager </td> 
    <td colname="col3"> Equipos empresariales y técnicos </td> 
   </tr> 
  </tbody> 
 </table>
 
-Las tareas para esta fase pueden incluir:
+Las Tareas para esta fase pueden incluir:
 
 * Generación e interpretación de los datos del informe;
 * Explicación de los informes personalizados;
 * Cómo obtener asistencia técnica para productos
 * Responder o solicitar solicitudes de funciones, errores y comentarios del usuario;
-* Mayor familiaridad con las funciones y los informes de Audience Manager.
+* Mayor familiaridad con las funciones y los informes del Audience Manager.
 
 ## Implementación de código {#code-implementation}
 
@@ -223,7 +227,7 @@ Aunque el proceso de implementación puede parecer complejo, la implementación 
 
 ### Implementación
 
-El fragmento de código de Audience Manager llama [!DNL Akamai] para descargar las reglas comerciales configuradas anteriormente en la interfaz de usuario. Además, los exploradores de cliente almacenan en caché esta información, lo que ayuda a reducir los tiempos de carga de la página y del servidor. Nuestra metodología de recopilación de datos y código está diseñada para mantener la experiencia del usuario en su inventario.
+El fragmento de código del Audience Manager llama [!DNL Akamai] para descargar las reglas comerciales configuradas anteriormente en la interfaz de usuario. Además, los exploradores de cliente almacenan en caché esta información, lo que ayuda a reducir los tiempos de carga de la página y del servidor. Nuestra metodología de recopilación de datos y código está diseñada para mantener la experiencia del usuario en su inventario.
 
 ### Participantes
 
@@ -235,6 +239,6 @@ Nuestros esfuerzos de colaboración no se detienen con la implementación final.
 
 <!-- c_post_implement_support.xml -->
 
-Los administradores de cuentas proporcionan servicios de asistencia y consulta continuas una vez que se haya completado el proceso de implementación del producto. Puede esperar tener reuniones regulares con el administrador de cuentas. Estas reuniones garantizan que Audience Manager le proporciona la máxima cantidad de uso y valor.
+Los administradores de cuentas proporcionan servicios de asistencia y consulta continuas una vez que se haya completado el proceso de implementación del producto. Es posible que tenga reuniones periódicas con el administrador de cuentas. Estas reuniones garantizan que el Audience Manager le proporcione la máxima cantidad de uso y valor.
 
-Póngase en contacto con nosotros [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y empezar a usar Audience Manager.
+Póngase en contacto con nosotros [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y empezar a trabajar con Audience Manager.
