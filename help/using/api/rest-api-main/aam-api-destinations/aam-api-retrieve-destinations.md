@@ -5,8 +5,12 @@ seo-title: Devolver un destino por ID de destino
 solution: Audience Manager
 title: Devolver un destino por ID de destino
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +27,7 @@ Un `GET` método que devuelve el destino del `destinationId`.
 
 >[!NOTE]
 >
->Para rellenar el `mappings` campo, pase `includeMappings=true` la dirección URL.
+>Para rellenar el `mappings` campo, pase `includeMappings=true` en la dirección URL.
 
 ## Respuesta
 
@@ -65,13 +69,13 @@ Un `GET` método que devuelve todos los destinos del socio especificado.
 
 >[!NOTE]
 >
->* *(Opcional)* Pase `containsSegment=<sid>` para devolver una matriz de todos los destinos asignados al segmento especificado. Por ejemplo: la consulta podría tener un aspecto similar al siguiente: `GET .../destinations/?containsSegment=4321`.
+>* *(Opcional)* Pase `containsSegment=<sid>` para devolver una matriz de todos los destinos asignados al segmento especificado. Por ejemplo, la consulta podría tener un aspecto similar al siguiente: `GET .../destinations/?containsSegment=4321`.
    >
    >
 * No devuelve el objeto de destino completo. Obtenga el destino por orden de datos si necesita un objeto totalmente rellenado.
 
 
-### Parámetros de consulta opcionales
+### Parámetros de Consulta opcionales
 
 Puede utilizar estos parámetros opcionales con métodos API que devuelven *todas* las propiedades de un objeto. Configure estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte Parámetros [opcionales](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
@@ -85,7 +89,7 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *toda
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Devuelve los resultados por número de página. La numeración empieza en 0. </td>
+   <td colname="col2"> Devuelve los resultados por número de página. inicios de numeración en 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -96,12 +100,12 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *toda
    <td colname="col2">Ordena y devuelve resultados según la propiedad <span class="keyword"> JSON</span> especificada. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> descendente</code> </td>
-   <td colname="col2"> Ordena y devuelve los resultados en orden descendente. Ascendente es el valor predeterminado. </td>
+   <td colname="col1"><code> descending</code> </td>
+   <td colname="col2"> Ordena y devuelve los resultados en orden descendente. De subida es el valor predeterminado. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> buscar</code> </td>
-   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto: <p><code> OBTENGA https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Puede buscar cualquier valor devuelto por un método "get all". </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Puede buscar cualquier valor devuelto por un método "get all". </p> </td>
   </tr>
  </tbody>
 </table>
@@ -277,7 +281,7 @@ Un `GET` método que devuelve información del historial de trabajos de salida [
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parámetros de consulta requeridos: `startDate` = *&lt;`epochtime`&gt;* y `endDate` = *&lt;`epochtime`&gt;*.
+Parámetros de consulta requeridos: `startDate` = *&lt;`epochtime`>* y `endDate` = *&lt;`epochtime`>*.
 
 ### Respuesta
 
