@@ -5,8 +5,9 @@ seo-title: Integrar Audience Manager con Destinatario
 solution: Audience Manager
 title: Integrar Audience Manager con Destinatario
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
+feature: Integration with Target
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
