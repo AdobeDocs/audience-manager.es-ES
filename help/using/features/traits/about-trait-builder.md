@@ -5,8 +5,12 @@ seo-title: Acerca del Generador de características
 solution: Audience Manager
 title: Acerca del Generador de características
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 <!-- c_tb_about.xml -->
 
-En comparación con los píxeles, que se activan en respuesta a condiciones simples de "sí" o "verdadero", [!UICONTROL Trait Builder] permite:
+En comparación con los píxeles, que se activan en respuesta a condiciones simples de &quot;sí&quot; o &quot;verdadero&quot;, [!UICONTROL Trait Builder] permite:
 
 * Recopile *todos* los datos de la página para poder usarlos más adelante para crear características útiles y relevantes.
 * Genere características basadas en pares [de valor](../../reference/key-value-pairs-explained.md) clave pasados durante la recopilación de datos.
