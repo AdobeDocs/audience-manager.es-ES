@@ -1,19 +1,23 @@
 ---
-description: Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
-seo-description: Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
+description: Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
+seo-description: Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
 seo-title: Métodos Taxonomic API
 solution: Audience Manager
 title: Métodos Taxonomic API
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
 
 # Métodos Taxonomic API {#taxonomic-api-methods}
 
-Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
+Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
 
 <!-- c_rest_api_taxonomy.xml -->
 
@@ -46,7 +50,7 @@ Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado.
 }
 ```
 
-## Devolver todas las categorías taxonómicas {#return-all-taxonomy-categories}
+## Devolver todas las Categorías taxonómicas {#return-all-taxonomy-categories}
 
 Un `GET` método que devuelve una lista de las categorías de nivel superior de una matriz.
 
@@ -58,7 +62,7 @@ Un `GET` método que devuelve una lista de las categorías de nivel superior de 
 
 ### Respuesta
 
-Truncado para abreviar.
+Truncado para la brevedad.
 
 ```
 [
@@ -89,7 +93,7 @@ Truncado para abreviar.
 ]
 ```
 
-## Subcategorías taxonómicas de retorno {#return-taxonomy-sub-categories}
+## SubCategorías taxonómicas de retorno {#return-taxonomy-sub-categories}
 
 Un `GET` método que devuelve subcategorías para la categoría principal especificada en una matriz.
 
@@ -101,7 +105,7 @@ Un `GET` método que devuelve subcategorías para la categoría principal especi
 
 ### Respuesta
 
-Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado. Una solicitud incorrecta se devuelve `404 No Content` si el ID no existe. Truncado para abreviar.
+Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado. Una solicitud incorrecta se devuelve `404 No Content` si el ID no existe. Truncado para la brevedad.
 
 ```
 [
