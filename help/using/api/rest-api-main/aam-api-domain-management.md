@@ -5,8 +5,12 @@ seo-title: Métodos de API de administración de dominios
 solution: Audience Manager
 title: Métodos de API de administración de dominios
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +41,7 @@ Un `POST` método que permite crear un nuevo dominio para (solo destinos de cook
 
 ### Respuesta
 
-Una respuesta correcta devuelve `201 created` y el sitio del socio, incluido su ID único.
+Se devuelve una respuesta correcta `201 created` y el sitio del socio, incluido su ID único.
 
 ```
 {
@@ -93,7 +97,7 @@ Un `GET` método que devuelve información sobre todos los dominios (solo para d
 
 `GET https://api.demdex.com/v1/partner-sites/`
 
-### Parámetros de consulta opcionales
+### Parámetros de Consulta opcionales
 
 Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelven *todas* las propiedades de un objeto. Configure estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte Parámetros [opcionales](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
@@ -107,7 +111,7 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Devuelve los resultados por número de página. La numeración empieza en 0. </td> 
+   <td colname="col2"> Devuelve los resultados por número de página. inicios de numeración en 0. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
@@ -118,12 +122,12 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
    <td colname="col2"> Ordena y devuelve resultados según la propiedad JSON especificada. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> descendente</code> </td>
-   <td colname="col2"> Ordena y devuelve los resultados en orden descendente. Ascendente es el valor predeterminado. </td>
+   <td colname="col1"><code> descending</code> </td>
+   <td colname="col2"> Ordena y devuelve los resultados en orden descendente. De subida es el valor predeterminado. </td>
   </tr>
   <tr valign="top">
-   <td colname="col1"><code> buscar</code> </td>
-   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto: <p><code> "GET" `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Puede buscar cualquier valor devuelto por un método "get all". </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor para ese elemento. Su solicitud de muestra podría tener este aspecto: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Puede buscar cualquier valor devuelto por un método "get all". </p> </td>
   </tr> 
  </tbody> 
 </table>
