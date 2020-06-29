@@ -5,8 +5,9 @@ seo-title: Preguntas más frecuentes sobre privacidad y retención de datos
 solution: Audience Manager
 title: Preguntas más frecuentes sobre privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance and Privacy
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 5%
