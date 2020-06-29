@@ -1,19 +1,23 @@
 ---
-description: Como opción, puede comprimir archivos de datos al enviarlos a Audience Manager.
-seo-description: Como opción, puede comprimir archivos de datos al enviarlos a Audience Manager.
+description: Como opción, puede comprimir los archivos de datos al enviarlos al Audience Manager.
+seo-description: Como opción, puede comprimir los archivos de datos al enviarlos al Audience Manager.
 seo-title: Compresión de archivos para archivos de transferencia de datos de entrada
 solution: Audience Manager
 title: Compresión de archivos para archivos de transferencia de datos de entrada
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
 
 # Compresión de archivos para archivos de transferencia de datos de entrada{#file-compression-for-inbound-data-transfer-files}
 
-Puede comprimir archivos de datos al enviarlos a Audience Manager.
+Puede comprimir los archivos de datos al enviarlos al Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
@@ -29,7 +33,7 @@ Audience Manager también admite archivos sin comprimir.
 
 ## Compresión de Amazon S3
 
-Para la entrega a [!DNL Amazon S3], debe utilizar `.gz` o descomprimir archivos. Los archivos comprimidos deben tener 1 GB o menos. Si los archivos son más grandes, consulte el proceso de transferencia y archivo con el Servicio de atención al cliente. Aunque [!DNL Audience Manager] puede manejar archivos muy grandes, puede haber maneras de reducir el tamaño del archivo o hacer que la transferencia de datos sea más eficiente.
+Para que envío [!DNL Amazon S3], debe utilizar `.gz` o descomprimir archivos. Los archivos comprimidos deben tener 1 GB o menos. Si los archivos son más grandes, consulte el proceso de transferencia y archivo con el Servicio de atención al cliente. Aunque [!DNL Audience Manager] puede manejar archivos muy grandes, puede haber maneras de reducir el tamaño del archivo o hacer que la transferencia de datos sea más eficiente.
 
 >[!IMPORTANT]
 >
