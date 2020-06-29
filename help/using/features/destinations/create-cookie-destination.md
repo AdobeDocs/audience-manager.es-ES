@@ -4,8 +4,12 @@ seo-description: Un destino de cookie devuelve y escribe datos en una cookie en 
 seo-title: Configurar un destino de cookie
 solution: Audience Manager
 title: Configurar un destino de cookie
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +24,7 @@ Para crear un nuevo destino de cookie, vaya a **[!UICONTROL Audience Data > Dest
 
 ## Información básica {#basic-information}
 
-Esta sección contiene los campos y las opciones que inician el proceso de creación de la cookie de destino. Para completar esta sección:
+Esta sección contiene campos y opciones que inicio el proceso de creación de la cookie de destino. Para completar esta sección:
 
 1. Haga clic **[!UICONTROL Basic Information]** para mostrar los controles.
 2. Asigne un nombre al destino. Evite abreviaciones y caracteres especiales.
@@ -38,8 +42,8 @@ Esta sección contiene los campos y las opciones que inician el proceso de creac
 Esta sección contiene opciones que aplican controles [de exportación de](../../features/data-export-controls.md) datos a un destino de cookie. Omita este paso si no utiliza controles de exportación de datos. Para completar esta sección:
 
 1. Haga clic **[!UICONTROL Data Export Labels]** para mostrar los controles.
-2. Seleccione una etiqueta que corresponda al control de exportación de datos aplicado al destino (consulte [Agregar etiquetas de exportación a un destino](/help/using/features/destinations/add-data-export-labels.md) para obtener más información).
-3. Haga clic en **[!UICONTROL Save]**.
+2. Seleccione una etiqueta que corresponda al control de exportación de datos aplicado al destino (consulte [Añadir etiquetas de exportación a un destino](/help/using/features/destinations/add-data-export-labels.md) para obtener más información).
+3. Haga clic **[!UICONTROL Save]**.
 
 ## Configuración {#configuration}
 
@@ -54,10 +58,10 @@ Para completar esta sección:
 1. Haga clic **[!UICONTROL Configuration]** para mostrar los controles
 1. Asigne un nombre a la cookie. Evite abreviaciones y caracteres especiales.
 1. Elija una opción de formato de datos. Estas opciones permiten elegir los delimitadores y separadores para los pares de clave-valor que envían datos de segmentos a un destino. Las opciones de formato incluyen:
-   * **** Clave única: Permite definir la clave en un par clave-valor. Establecerá el valor después de seleccionar un segmento en la [!UICONTROL Segment Mappings] sección siguiente.
-   * **** Teclas múltiples: Permite establecer la clave y el valor para un par clave-valor. Creará el par clave-valor después de seleccionar un segmento en la sección Asignaciones de segmentos a continuación.
+   * **Clave única:** Permite definir la clave en un par clave-valor. Establecerá el valor después de seleccionar un segmento en la [!UICONTROL Segment Mappings] sección siguiente.
+   * **Teclas múltiples:** Permite establecer la clave y el valor para un par clave-valor. Creará el par clave-valor después de seleccionar un segmento en la sección Asignaciones de segmentos a continuación.
 Consulte Pares [](../../features/destinations/key-value-pairs.md) estándar y de valor de clave serie para obtener más información sobre estos elementos de datos.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 El resto de la configuración es opcional. Para obtener más información sobre la configuración **[!UICONTROL Cookie Domain]** y **[!UICONTROL Publish data to]** , consulte Configuración [opcional para destinos](/help/using/features/destinations/cookie-destination-options.md)de cookies.
 
@@ -66,10 +70,10 @@ El resto de la configuración es opcional. Para obtener más información sobre 
 Esta sección le permite buscar y agregar segmentos a su destino. Para completar esta sección:
 
 1. Haga clic **[!UICONTROL Segment Mappings]** para mostrar los controles.
-1. En el **[!UICONTROL Search and Add Segments]** cuadro, empiece a escribir el nombre de un segmento o haga clic en **[!UICONTROL Browse All Segments]** para buscar una lista de segmentos disponibles.
-1. Haga clic **[!UICONTROL Add Selected Segments]** cuando encuentre el segmento que desee utilizar. Al agregar un segmento se abre la [!UICONTROL Edit Mapping] ventana.
+1. En el **[!UICONTROL Search and Add Segments]** cuadro, escriba el nombre de un segmento en el inicio o haga clic **[!UICONTROL Browse All Segments]** para examinar una lista de segmentos disponibles.
+1. Haga clic **[!UICONTROL Add Selected Segments]** cuando encuentre el segmento que desee utilizar. Al Añadir un segmento se abre la [!UICONTROL Edit Mapping] ventana.
 1. En el [!UICONTROL Edit Mapping] cuadro de diálogo:
-   * **[!UICONTROL Mapping]** permite establecer un valor para la clave especificada en la sección Configuración anterior.
-   * **[!UICONTROL Publish from]** le permite establecer la fecha de inicio y finalización para el destino. Si la fecha de finalización está en blanco, el destino nunca caduca.
-1. Haga clic en **[!UICONTROL Save]**.
-1. Haga clic en **[!UICONTROL Done]**.
+   * **[!UICONTROL Mapping]** le permite establecer un valor para la clave especificada en la sección Configuración anterior.
+   * **[!UICONTROL Publish from]** le permite establecer la fecha de inicio y de finalización para el destino. Si la fecha de finalización está en blanco, el destino nunca caduca.
+1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Done]**.
