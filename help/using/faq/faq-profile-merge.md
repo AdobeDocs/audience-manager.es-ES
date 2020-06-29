@@ -6,8 +6,9 @@ seo-title: Preguntas más frecuentes sobre las reglas de combinación de Perfile
 solution: Audience Manager
 title: Preguntas más frecuentes sobre las reglas de combinación de Perfiles y Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 2%
@@ -41,7 +42,7 @@ El objetivo principal de utilizar un gráfico de dispositivos en un [!UICONTROL 
 
  
 
-**¿Proporciona el Administrador de Audiencias compatibilidad global con los gráficos de dispositivos externos?**
+**¿Proporciona Audience Manager compatibilidad global con gráficos de dispositivos externos?**
 
 No. Los gráficos de dispositivos externos solo están disponibles en Estados Unidos y Canadá.
 
@@ -73,7 +74,7 @@ Actualmente, puede crear un máximo de 4 [!UICONTROL Profile Merge Rules]. La cu
 
 **¿Cuántos perfiles de dispositivo[!DNL Audience Manager]se combinan y leen al usar un gráfico de dispositivo en un[!UICONTROL Profile Merge Rule]?**
 
-Al calificar un dispositivo para un segmento mediante un [!UICONTROL Profile Merge Rule], el Administrador de Audiencias combina y lee el perfil actual del dispositivo y un máximo de 99 perfiles adicionales del dispositivo vinculados por la opción de gráfico del dispositivo seleccionada.
+Al calificar un dispositivo para un segmento mediante un [!UICONTROL Profile Merge Rule], el Audience Manager combina y lee el perfil actual del dispositivo y un máximo de 99 perfiles adicionales del dispositivo vinculados por la opción de gráfico del dispositivo seleccionada.
 
  
 
@@ -93,7 +94,7 @@ Los dispositivos [!DNL Audience Manager] se combinan y lecturas son los mismos q
 
 **¿Cómo se dessegmenta[!DNL Audience Manager]un dispositivo cuando ya no se califica para un segmento con un[!UICONTROL Profile Merge Rule]que utiliza un gráfico de dispositivo?**
 
-El Administrador de Audiencias combina hasta 100 dispositivos al evaluar segmentos con un [!UICONTROL Profile Merge Rule] gráfico de dispositivos. Si se emite la señal de dessegmentación, el dispositivo actual y hasta 99 dispositivos adicionales se eliminarán del segmento en el destino. Para obtener más información sobre la dessegmentación, consulte Reglas de combinación de [Perfiles y Procesos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentación de dispositivos.
+El Audience Manager combina hasta 100 dispositivos al evaluar segmentos con un [!UICONTROL Profile Merge Rule] gráfico de dispositivos. Si se emite la señal de dessegmentación, el dispositivo actual y hasta 99 dispositivos adicionales se eliminarán del segmento en el destino. Para obtener más información sobre la dessegmentación, consulte Reglas de combinación de [Perfiles y Procesos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentación de dispositivos.
 
  
 
@@ -123,7 +124,7 @@ Sí.
 
 **Si un segmento utiliza un[!UICONTROL Profile Merge Rule]con[!UICONTROL No Cross-Device Profile]y las características que califican los dispositivos para el segmento se almacenan solamente en el perfil entre dispositivos, ¿la población total del segmento será 0?**
 
-Sí. El Administrador de Audiencias no contará las características almacenadas en el perfil entre dispositivos en la evaluación de segmentos cuando la regla de combinación de Perfiles esté establecida en [!UICONTROL No Cross-Device Profile].
+Sí. El Audience Manager no contará las características almacenadas en el perfil entre dispositivos en la evaluación de segmentos cuando la regla de combinación de Perfiles esté establecida en [!UICONTROL No Cross-Device Profile].
 
  
 
@@ -152,7 +153,7 @@ La frecuencia de características se define mediante la suma del número de cual
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> El Administrador</span> de Audiencias lee y combina los perfiles del dispositivo para el dispositivo A y el dispositivo B. A partir de esto, vemos lo siguiente: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> El Audience Manager</span> lee y combina los perfiles del dispositivo para el dispositivo A y el dispositivo B. A partir de esto, vemos lo siguiente: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">El dispositivo A se ha clasificado para la característica 1 tres veces. Tiene una frecuencia de 3 para la característica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">El dispositivo B se ha clasificado para la característica 1 cinco veces. Tiene una frecuencia de 5 para la característica 1. </li> 
@@ -160,7 +161,7 @@ La frecuencia de características se define mediante la suma del número de cual
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> El Administrador</span> de Audiencias resume la frecuencia de la característica 1 y utiliza 8 (3 + 5 = 8) para decidir la calificación del segmento. El dispositivo A y el dispositivo B cumplen los requisitos para el segmento 1 porque tiene una frecuencia de 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> El Audience Manager</span> suma la frecuencia de la característica 1 y utiliza 8 (3 + 5 = 8) para decidir la calificación del segmento. El dispositivo A y el dispositivo B cumplen los requisitos para el segmento 1 porque tiene una frecuencia de 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +209,7 @@ Sí. La métrica de población en tiempo real captura las cualificaciones de los
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
    <td colname="col2"> <p>Dados los elementos anteriores, la población total del segmento 1 es una. </p> <p>En este caso, la regla <span class="wintitle"> de combinación de</span> Perfiles utiliza todos los dispositivos y sus características para decidir la cualificación del segmento. Esto significa que los dispositivos 1, 2 y 3 cumplen los requisitos para el segmento 1, pero, como se ha indicado anteriormente, solo se incluye el dispositivo 1 en la población de segmentos en tiempo real. Esto se debe a que: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">El dispositivo 1 es el dispositivo actual que interactúa en tiempo real con los servidores <span class="wintitle"> de recopilación de datos (</span> DCS<span class="wintitle"> ) del Administrador de Audiencias</span>. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">El dispositivo 1 es el dispositivo actual que interactúa con los servidores <span class="wintitle"> de recopilación de datos del Audience Manager</span> (<span class="wintitle"> DCS</span>) en tiempo real. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Los dispositivos 2 y 3 están asociados al Dispositivo 1 mediante un gráfico de dispositivos, pero no interactúan con el DCS al mismo tiempo que el Dispositivo 1. </li> 
      </ul> </p> <p>Como resultado, los dispositivos 2 y 3 no se incluyen en la métrica de población de segmentos en tiempo real. </p> </td> 
   </tr> 
@@ -261,9 +262,9 @@ No.
 
 **¿Por qué veo una población de segmentos cero para las exportaciones de segmentos al Adobe Campaign después del 16 de marzo de 2020?**
 
-A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia del Administrador de Audiencias a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
+A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
 
-Para garantizar la integración correcta entre la instancia del Administrador de Audiencias y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
+Para garantizar la integración correcta entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
 1. Revise la regla de combinación de Perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de Perfiles debe utilizar la [!UICONTROL Last Authenticated Profile] opción, por lo que todos los perfiles autenticados se pueden incluir en las exportaciones. Si la regla de combinación de Perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
 2. Seleccione el origen de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de Perfiles.
