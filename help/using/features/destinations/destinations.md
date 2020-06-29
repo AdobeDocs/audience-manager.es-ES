@@ -6,8 +6,9 @@ seo-title: 'Destinos '
 solution: Audience Manager
 title: 'Destinos '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 2%
@@ -33,7 +34,7 @@ En Audience Manager, [!UICONTROL destination] es un sistema de terceros (servido
 
 <!-- destination-delivery-methods.xml -->
 
-El envío de datos depende de cómo el socio de datos desee o pueda recibir [!UICONTROL destination] información. Las limitaciones técnicas o de ingeniería pueden impedir que un [!UICONTROL destination] usuario reciba datos a través [!DNL URL], [!UICONTROL cookie]o [!UICONTROL server-to-server] procesos. Póngase en contacto con su socio de terceros para determinar qué método pueden utilizar.
+El envío de datos depende de cómo el socio de datos desee o pueda recibir [!UICONTROL destination] información. Las restricciones técnicas o de ingeniería pueden impedir que un [!UICONTROL destination] usuario reciba datos a través [!DNL URL], [!UICONTROL cookie]o [!UICONTROL server-to-server] procesos. Póngase en contacto con su socio de terceros para determinar qué método pueden utilizar.
 
 ## Consideraciones empresariales {#business-considerations}
 
