@@ -4,8 +4,9 @@ seo-description: Esta página ilustra el proceso de creación de píxeles de Aud
 seo-title: Integración de WCA de Facebook
 solution: Audience Manager
 title: Integración de WCA de Facebook
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 2%
