@@ -5,8 +5,9 @@ seo-title: Introducción a las reglas de combinación de Perfiles
 solution: Audience Manager
 title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -54,7 +55,7 @@ Para completar la [!UICONTROL Data Source Details] sección:
 
 * **[!UICONTROL Use as a Device Graph]**:: Este control solo está disponible para las cuentas enumeradas como proveedores de datos. Al seleccionar esta casilla de verificación, se crea el origen de datos como un gráfico del dispositivo y se permite compartirlo con otros [!DNL Audience Manager] clientes. Póngase en contacto con su [!DNL Audience Manager] consultor para configurarlo como proveedor de datos y especificar con qué clientes se debe compartir esta información [!UICONTROL Data Source] . El consultor le proporcionará el uso compartido de gráficos de cuentas y dispositivos a través de un proceso de aprovisionamiento interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**:: Este control le permite establecer el período de retención de datos para los ID de cliente inactivos. Esto determina durante cuánto tiempo el Administrador de Audiencias mantiene los ID de cliente en nuestra base de datos después de la última vez que se vieron en la plataforma del Administrador de Audiencias. El valor predeterminado es 24 meses (720 días). El valor mínimo que puede establecer es 1 mes y el valor máximo es 5 años. Tenga en cuenta que todos los meses se cuentan como 30 días. El Administrador de Audiencias ejecuta un proceso que elimina los ID de cliente inactivos una vez a la semana, de acuerdo con la retención de datos configurada para los ID de cliente inactivos.
+* **[!UICONTROL Data retention for inactive Customer IDs]**:: Este control le permite establecer el período de retención de datos para los ID de cliente inactivos. Esto determina cuánto tiempo el Audience Manager mantiene los ID de cliente en nuestra base de datos después de que se vieron por última vez en la plataforma Audience Manager. El valor predeterminado es 24 meses (720 días). El valor mínimo que puede establecer es 1 mes y el valor máximo es 5 años. Tenga en cuenta que todos los meses se cuentan como 30 días. Audience Manager ejecuta un proceso que elimina los ID de cliente inactivos una vez a la semana, de acuerdo con la retención de datos que configuró para los ID de cliente inactivos.
 
 Los campos de texto asociados a esta configuración permiten cambiar el nombre del [!UICONTROL Data Source] objeto por un alias que aparece en las opciones [Regla de combinación de](merge-rule-definitions.md)Perfiles. Por ejemplo, si agrega un alias a **[!UICONTROL Use as Authenticated Profile]**, ese nombre aparecerá en la [!UICONTROL Authenticated Profile Options] lista. Si agrega un alias a **[!UICONTROL Use as a Device Graph]**, ese nombre aparecerá en la [!UICONTROL Device Options] lista.
 
@@ -104,9 +105,9 @@ Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
 
 ### Consideraciones para los destinos de Adobe Campaign que utilizan ID entre dispositivos como claves de ID de usuario {#considerations}
 
-A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia del Administrador de Audiencias a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
+A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
 
-Para garantizar la integración correcta entre la instancia del Administrador de Audiencias y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
+Para garantizar la integración correcta entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
 1. Revise la regla de combinación de Perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de Perfiles debe utilizar la [!UICONTROL Last Authenticated Profile] opción, por lo que todos los perfiles autenticados se pueden incluir en las exportaciones. Si la regla de combinación de Perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
 2. Seleccione el origen de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de Perfiles.
@@ -125,7 +126,7 @@ Siga estas instrucciones para configurar el código [!UICONTROL Adobe Experience
 
 Debe configurar un origen [de datos](#create-data-source) entre dispositivos y reglas [de combinación de](#create-profile-merge-rule) perfiles *antes* de completar estos procedimientos.
 
-## Para clientes del servicio de identidad de Adobe Experience Platform {#id-service-customers}
+## Para los clientes del servicio de identidad de Adobe Experience Platform {#id-service-customers}
 
 Se recomiendan la versión [!UICONTROL Adobe Experience Platform Identity Service] y la última versión de [DIL](../../dil/dil-overview.md) al trabajar con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Adobe Experience Platform Identity Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL](#legacy-dil) heredada a continuación.
 
@@ -224,7 +225,7 @@ Compruebe los métodos del [!DNL SDK] código que le permiten pasar [!UICONTROL 
  </tbody>
 </table>
 
-Consulte también Métodos del Administrador de [Audiencias para Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y Métodos del Administrador de [Audiencias para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consulte también Métodos de [Audience Manager para métodos de Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [Audience Manager para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
