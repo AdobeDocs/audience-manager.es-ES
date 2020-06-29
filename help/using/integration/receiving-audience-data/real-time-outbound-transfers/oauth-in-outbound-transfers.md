@@ -1,19 +1,23 @@
 ---
-description: Al publicar segmentos en el destino del socio mediante una integración servidor a servidor en tiempo real, Audience Manager puede configurarse para autenticarse con OAuth 2.0 al realizar las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas de Audience Manager al extremo.
-seo-description: Al publicar segmentos en el destino del socio mediante una integración servidor a servidor en tiempo real, Audience Manager puede configurarse para autenticarse con OAuth 2.0 al realizar las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas de Audience Manager al extremo.
+description: Al publicar segmentos en el destino del socio mediante una integración de servidor a servidor en tiempo real, el Audience Manager puede configurarse para autenticarse con OAuth 2.0 al realizar las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas del Audience Manager al extremo.
+seo-description: Al publicar segmentos en el destino del socio mediante una integración de servidor a servidor en tiempo real, el Audience Manager puede configurarse para autenticarse con OAuth 2.0 al realizar las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas del Audience Manager al extremo.
 seo-title: Integración de OAuth 2.0 para transferencias salientes en tiempo real
 solution: Audience Manager
 title: Integración de OAuth 2.0 para transferencias salientes en tiempo real
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 0%
 
 ---
 
 
 # [!DNL OAuth 2.0] Integración para transferencias de salida en tiempo real{#oauth-integration-for-real-time-outbound-transfers}
 
-Al publicar segmentos en el destino del socio mediante una integración de servidor a servidor en tiempo real, Audience Manager puede configurarse para autenticarse mediante [!DNL OAuth 2.0] la realización de las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas de Audience Manager al extremo.
+Al publicar segmentos en el destino del socio mediante una integración de servidor a servidor en tiempo real, el Audience Manager puede configurarse para autenticarse mediante [!DNL OAuth 2.0] la realización de las solicitudes. Esto presenta la capacidad de emitir solicitudes autenticadas del Audience Manager al extremo.
 
 ## Flujo de autenticación {#auth-flow}
 
@@ -41,7 +45,7 @@ Este extremo aceptará las credenciales proporcionadas en el paso 1 y generará 
 * El extremo debe mirar el [!DNL Content-type] encabezado y validar que su valor sea `application/x-www-form-urlencoded ; charset=UTF-8`.
 * El cuerpo de la solicitud será `grant_type=client_credentials`.
 
-### Ejemplo de solicitud realizada por Audience Manager al extremo del socio para obtener un token de portador
+### Ejemplo de solicitud realizada por el Audience Manager al extremo del socio para obtener un token de portador
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -70,7 +74,7 @@ Content-Length: 121
 
 ### Extremo 2 utilizado por IRIS para publicar segmentos utilizando el distintivo portador
 
-[!DNL Audience Manager] envía datos a este extremo en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Además, este método puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia cada 24 horas.
+[!DNL Audience Manager] envía datos a este extremo en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Además, este método puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
 
 El token portador generado por el extremo 1 se utiliza para emitir solicitudes a este extremo. El sistema [!DNL Audience Manager] de transferencia de datos en tiempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), construye una solicitud HTTPS normal e incluye un encabezado de autorización. El valor de este encabezado será: Portador `<bearer token from step 1>`.
 
@@ -111,8 +115,8 @@ Accept-Encoding: gzip
 
 ### Los tokens son contraseñas
 
-Las credenciales presentadas por el socio y los tokens obtenidos por [!DNL Audience Manager] al autenticar mediante el [!DNL OAuth 2.0] flujo son información confidencial y no deben compartirse con terceros.
+Las credenciales presentadas por el socio y los tokens obtenidos por [!DNL Audience Manager] al autenticar con el [!DNL OAuth 2.0] flujo son información confidencial y no deben compartirse con terceros.
 
 ### [!DNL SSL] es obligatorio
 
-[!DNL SSL] debe utilizarse para mantener un proceso de autenticación seguro. Todas las solicitudes, incluidas las utilizadas para obtener y utilizar los tokens, deben utilizar `HTTPS` extremos.
+[!DNL SSL] debe utilizarse para mantener un proceso de autenticación seguro. Todas las solicitudes, incluidas las que se utilizan para obtener y utilizar los tokens, deben utilizar `HTTPS` extremos.
