@@ -1,19 +1,23 @@
 ---
-description: Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos saliente.
-seo-description: Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos saliente.
+description: Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos de salida.
+seo-description: Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos de salida.
 seo-title: Sintaxis y ejemplos del nombre del archivo de datos de salida
 solution: Audience Manager
 title: Sintaxis y ejemplos del nombre del archivo de datos de salida
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 4%
 
 ---
 
 
 # Nombre del archivo de datos de salida: Sintaxis y ejemplos{#outbound-data-file-name-syntax-and-examples}
 
-Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos saliente.
+Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos de salida.
 
 <!-- c_name_reqs_outbound.xml -->
 
@@ -80,7 +84,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code><i>SPLITNUM</i></code></p> </td> 
-   <td colname="col2"> <p>Un entero. Identifica parte de un archivo dividido en varias partes para mejorar los tiempos de procesamiento. El número indica a qué parte del archivo original pertenecen los datos.</p>  <p>El entero debe tener al menos 3 dígitos de longitud, precedido de ceros, si el tamaño de división es inferior a 100 partes.</p>  <p>El archivo original no tendrá ningún número dividido. El primer archivo dividido finalizará con 001. Consulte los ejemplos siguientes. </p> </td> 
+   <td colname="col2"> <p>Un entero. Identifica parte de un archivo que se ha dividido en varias partes para mejorar los tiempos de procesamiento. El número indica a qué parte del archivo original pertenecen los datos.</p>  <p>El entero debe tener al menos 3 dígitos de longitud, precedido de ceros, si el tamaño de división es inferior a 100 partes.</p>  <p>El archivo original no tendrá ningún número dividido. El primer archivo dividido finalizará con 001. Consulte los ejemplos siguientes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
@@ -112,7 +116,7 @@ Por ejemplo, archivos completos:
 
 ### Escenario 2
 
-Archivos enviados a [!DNL FTP] ubicación, sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] el contenido del archivo:
+Archivos enviados a la [!DNL FTP] ubicación, sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] el contenido del archivo:
 
 Por ejemplo, archivos incrementales:
 
@@ -163,7 +167,7 @@ Los campos del archivo de datos aparecen en este orden:
 
 ### Parámetros
 
-La tabla enumera las variables que definen el contenido de un archivo de datos.
+La tabla lista variables que definen el contenido de un archivo de datos.
 
 <table id="table_109BA747CFDA40108370EFEB208C7E11"> 
  <thead> 
