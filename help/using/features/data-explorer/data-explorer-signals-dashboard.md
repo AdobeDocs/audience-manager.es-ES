@@ -1,18 +1,22 @@
 ---
-description: Obtenga una visión general de las señales no utilizadas recibidas por Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan a Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de las características existentes. Para ver el panel Señales, vaya a Datos de audiencia > Señales. El panel Señales muestra perspectivas procesables en función de las señales que no se utilizan más.
-seo-description: Obtenga una visión general de las señales no utilizadas recibidas por Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan a Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de las características existentes. Para ver el panel Señales, vaya a Datos de audiencia > Señales. El panel Señales muestra perspectivas procesables en función de las señales que no se utilizan más.
-seo-title: Tablero de señales
-title: Tablero de señales
+description: Obtenga una visión general de las señales no utilizadas recibidas por el Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan al Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de sus características existentes. Para realizar la vista del Panel Señales, vaya a Datos de Audiencia > Señales. El Panel Señales muestra perspectivas procesables en función de las señales no utilizadas más activas.
+seo-description: Obtenga una visión general de las señales no utilizadas recibidas por el Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan al Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de sus características existentes. Para realizar la vista del Panel Señales, vaya a Datos de Audiencia > Señales. El Panel Señales muestra perspectivas procesables en función de las señales no utilizadas más activas.
+seo-title: Panel de señales
+title: Panel de señales
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 
-# Tablero de señales {#signals-dashboard}
+# Panel de señales {#signals-dashboard}
 
-Obtenga una visión general de las señales no utilizadas recibidas por Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan a Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de las características existentes. Para ver el [!UICONTROL Signals Dashboard], vaya a [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. La muestra [!UICONTROL Signals Dashboard] perspectivas procesables basadas en las señales no utilizadas más activas.
+Obtenga una visión general de las señales no utilizadas recibidas por el Audience Manager en los últimos 7 días e identifique las nuevas características potenciales. Las señales no utilizadas llegan al Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguna de sus características existentes. Para realizar la vista del [!UICONTROL Signals Dashboard], vaya a [!UICONTROL Audience Data] > [!UICONTROL Signals]. La muestra [!UICONTROL Signals Dashboard] perspectivas procesables basadas en las señales no utilizadas más activas.
 
 >[!IMPORTANT]
 >
@@ -37,4 +41,4 @@ Esta sección muestra las 50 señales nuevas no utilizadas recibidas en los últ
 Las búsquedas guardadas muestran los 50 primeros resultados para los criterios correspondientes.
 
 Vea el siguiente video para aprender a usar el [!UICONTROL Signals Dashboard].
->[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)
