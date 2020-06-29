@@ -1,19 +1,23 @@
 ---
-description: Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, generalmente según la función o los procesos de informes internos propios.
-seo-description: Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, generalmente según la función o los procesos de informes internos propios.
+description: Métodos opcionales que permiten asignar características a un tipo o categoría definida por el usuario, generalmente según la función o para sus propios procesos de sistema de informes internos.
+seo-description: Métodos opcionales que permiten asignar características a un tipo o categoría definida por el usuario, generalmente según la función o para sus propios procesos de sistema de informes internos.
 seo-title: Métodos de tipo de característica
 solution: Audience Manager
 title: Métodos de tipo de característica
 uuid: 082931d5-457b-4622-817b-86303f38c26a
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
 
 # Métodos de tipo de característica {#trait-type-methods}
 
-Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, generalmente según la función o los procesos de informes internos propios.
+Métodos opcionales que permiten asignar características a un tipo o categoría definida por el usuario, generalmente según la función o para sus propios procesos de sistema de informes internos.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
