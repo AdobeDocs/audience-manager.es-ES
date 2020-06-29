@@ -6,8 +6,12 @@ seo-title: Creación de un modelo algorítmico
 solution: Audience Manager
 title: Creación de un modelo algorítmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +98,7 @@ Complete primero los campos obligatorios de la [!UICONTROL Basic Information] se
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleccionar algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>En este momento, el Generador de modelos solo funciona con nuestro algoritmo de Peso <span class="keyword"></span> de características patentado. <span class="keyword"> El Administrador</span> de Audiencias puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
+   <td colname="col2"> <p>En este momento, el Generador de modelos solo funciona con nuestro algoritmo de Peso <span class="keyword"></span> de características patentado. <span class="keyword"> El Audience Manager</span> puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleccionar datos de modelo de la fuente de datos (4)</b> </p> </td> 
