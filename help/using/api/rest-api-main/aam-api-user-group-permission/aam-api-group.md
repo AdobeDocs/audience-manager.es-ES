@@ -5,8 +5,12 @@ seo-title: Métodos de API de administración de grupos
 solution: Audience Manager
 title: Métodos de API de administración de grupos
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
@@ -85,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Grupos de lista {#list-groups}
+## Grupos de Listas {#list-groups}
 
-Un `GET` método para enumerar los grupos de usuarios.
+Un `GET` método para la lista de grupos de usuarios.
 
 <!--
 r_rest_api_group_list.xml
@@ -137,9 +141,9 @@ Un `DELETE` método para eliminar varios grupos de forma masiva y eliminar todos
 
 Devuelve `204 No Content` si se realiza correctamente. En caso de conflicto retorna `409 Conflict`.
 
-## Enumerar todos los permisos de un grupo {#list-permissions-group}
+## Lista de todos los permisos de un grupo {#list-permissions-group}
 
-Un `GET` método para mostrar los objetos de permiso de un grupo.
+Un `GET` método de lista de los objetos de permiso de un grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -204,6 +208,6 @@ Un `PUT` método para actualizar los permisos de grupo. Este método sobrescribe
 ]
 ```
 
-La respuesta de ejemplo representa la lista actualizada de objetos de permiso.
+La respuesta de ejemplo representa la lista actualizada de los objetos de permiso.
 
 Devuelve `200 OK` si se realiza correctamente. Devuelve `400` si algún permiso dado no es válido. También se puede devolver `403` si el usuario que ha iniciado sesión no puede acceder al objeto.
