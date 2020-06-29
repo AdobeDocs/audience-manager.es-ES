@@ -1,20 +1,24 @@
 ---
-description: La cualificación de características, o realización de características, se trata de forma diferente en el Administrador de Audiencias, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
+description: La cualificación de rasgos, o realización de rasgos, se trata de forma diferente en el Audience Manager, según el tipo de rasgo. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
 keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
-seo-description: La cualificación de características, o realización de características, se trata de forma diferente en el Administrador de Audiencias, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
+seo-description: La cualificación de rasgos, o realización de rasgos, se trata de forma diferente en el Audience Manager, según el tipo de rasgo. Consulte la tabla siguiente para obtener información detallada sobre la calificación de rasgos.
 seo-title: Referencia de calificación de características
 solution: Audience Manager
 title: Referencia de calificación de características
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 0%
 
 ---
 
 
 # Referencia de cualificación de características y segmentos {#trait-qualification-reference}
 
-La cualificación de características, o realización de características, se trata de forma diferente en el Administrador de Audiencias, según el tipo de característica. Consulte Calificación [de rasgo por tipo](#trait-type) de rasgo para obtener detalles sobre la calificación de tipo de rasgo.
+La cualificación de rasgos, o realización de rasgos, se trata de forma diferente en el Audience Manager, según el tipo de rasgo. Consulte Calificación [de rasgo por tipo](#trait-type) de rasgo para obtener detalles sobre la calificación de tipo de rasgo.
 
 Además, consulte Población de segmentos en tiempo [real y Población](#real-time-segment) total de segmentos para obtener más información sobre la calificación de segmentos.
 
@@ -25,10 +29,10 @@ Además, consulte Población de segmentos en tiempo [real y Población](#real-ti
 | Tipo de característica | Criterios de cualificación |
 |---|---|
 | Características basadas en reglas | La calificación de características se realiza en tiempo real, ya que los usuarios cumplen los requisitos para una característica en su explorador. Los usuarios tendrán un inicio de cualificación para una característica basada en reglas aproximadamente 4 horas después de [crear la característica](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) en la interfaz de usuario. Las características basadas en reglas le permiten utilizar controles de [actualización y frecuencia](../segments/recency-and-frequency.md) para los límites de frecuencia de publicidad y otros casos de uso. |
-| Características integradas | La calificación de características se produce después de procesar un archivo de entrada, es decir, el archivo de entrada se [importa en el Administrador](../../faq/faq-inbound-data-ingestion.md) de Audiencias y se produce cuando se califica la característica. Debe esperar aproximadamente 4 horas después de crear una característica integrada antes de cargar un archivo de entrada para su procesamiento. Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. |
+| Características integradas | La calificación de características se produce después de procesar un archivo de entrada, es decir, cuando el archivo de entrada se [importa al Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es cuando se produce la calificación de características. Debe esperar aproximadamente 4 horas después de crear una característica integrada antes de cargar un archivo de entrada para su procesamiento. Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. |
 | Características algorítmicas | Para las características algorítmicas, el número máximo de cualificaciones para un perfil de usuario es 1. |
 | Características de la carpeta | Una característica de carpeta resume las calificaciones de características de las características que contiene. Leer características [de la carpeta: Acerca](about-folder-traits.md) de para obtener más información. |
-| Características de la Audiencia activa y características sincronizadas de la fuente de datos | Una [!UICONTROL Active Audience] característica contiene todos los dispositivos que se administran en la cuenta del Administrador de Audiencias. [!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Obtenga más información sobre las características de Audiencia [activa y las características](client-activity-synced-audience-traits.md)sincronizadas de la fuente de datos. |
+| Características de la Audiencia activa y características sincronizadas de la fuente de datos | Una [!UICONTROL Active Audience] característica contiene todos los dispositivos que se administran en la cuenta de Audience Manager. [!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Obtenga más información sobre las características de Audiencia [activa y las características](client-activity-synced-audience-traits.md)sincronizadas de la fuente de datos. |
 
 ## Realizaciones únicas de características y población total de características {#unique-trait-realizations}
 
