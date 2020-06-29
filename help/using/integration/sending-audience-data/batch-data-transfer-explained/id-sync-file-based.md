@@ -5,8 +5,12 @@ seo-title: Requisitos de nombre y contenido para archivos de sincronización de 
 solution: Audience Manager
 title: Requisitos de nombre y contenido para archivos de sincronización de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 7%
 
 ---
 
@@ -75,14 +79,14 @@ Los nombres de archivo de ID contienen los siguientes elementos opcionales y req
 Los siguientes ejemplos muestran nombres de archivos con el formato correcto. Los nombres de archivo podrían ser similares.
 
 <ul class="simplelist"> 
- <li> <code> adobe_id_111_222_333_444_145442149.sync</code> </li> 
- <li> <code> adobe_id_123_898_456_145442149.sync.1.gz</code> </li> 
- <li> <code> adobe_id_123_898_456_145442149.sync.2.gz</code> </li> 
- <li> <code>c2c_id_123_898_145442149.sync.gz</code> </li> 
+ <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
+ <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
 
 >[!NOTE]
-> Para la nominación de archivos de sincronización de ID (prefijo c2c) para destinos basados en personas, consulte [Flujo de trabajo A - Personalización basada en toda la actividad en línea combinada con datos](../../../features/destinations/people-based-destinations-workflow-combined.md) sin conexión o [Flujo de trabajo B - Personalización basada en datos](../../../features/destinations/people-based-destinations-workflow-offline.md)solo sin conexión.
+> Para la nominación de archivos de sincronización de ID (prefijo c2c) para destinos basados en personas, consulte [Flujo de trabajo A - Personalización basada en toda la Actividad en línea combinada con datos](../../../features/destinations/people-based-destinations-workflow-combined.md) sin conexión o [Flujo de trabajo B - Personalización basada en datos](../../../features/destinations/people-based-destinations-workflow-offline.md)solo sin conexión.
 
 ## Sintaxis y ejemplos de contenido de archivos {#file-content-syntax}
 
@@ -90,19 +94,19 @@ El contenido de un archivo de ID incluye los siguientes elementos:
 
 *`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
 
-El archivo contiene ID de usuario ([!DNL UUID]). En cada fila, separe los ID con una ficha. El siguiente ejemplo muestra un archivo de ID con el formato correcto. Su contenido podría verse similar.
+El archivo contiene ID de usuario ([!DNL UUID]). En cada fila, separe los ID con una ficha. El siguiente ejemplo muestra un archivo de ID con el formato correcto. Su contenido podría tener un aspecto similar.
 
 ```
 abc123 def456 ghi789 xyz987
 ```
 
-## La sincronización coincide con los DPUUID en UUID {#sync-matches-dpuuids-uuids}
+## La sincronización coincide con los DPUUID con los UUID {#sync-matches-dpuuids-uuids}
 
 El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID](../../../reference/ids-in-aam.md) de sus propias fuentes de datos con [!DNL Audience Manager] UUID. La sincronización asigna las [!DNL DPUUID]s del maestro [!DNL DPID] y sus [!DNL DPID]s relacionados a las [!DNL Audience Manager] [!DNL UUID]s. El lugar donde se colocan los ID en el nombre del archivo y en el cuerpo determina cómo se asignan estos identificadores entre sí. Por ejemplo, tome los dos archivos de ejemplo que se muestran aquí:
 
-* **** Archivo 1: `adobe_id_0_12345_1476312152.sync`
+* **Archivo 1:** `adobe_id_0_12345_1476312152.sync`
 
-* **** Archivo 2:  `adobe_id_12345_67890_1476312876.sync`
+* **Archivo 2:**  `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
@@ -118,7 +122,7 @@ Dado el nombre y el contenido de la muestra, los ID se asignan de esta manera:
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s desde [!DNL DPID] 12345 con los [!DNL Audience Manager] [!DNL UUID]s de la columna izquierda. Tenga en cuenta que el [!DNL DPID] "0" en el nombre del archivo representa [!DNL Audience Manager] [!DNL UUID]s.
+Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s desde [!DNL DPID] 12345 con los [!DNL Audience Manager] [!DNL UUID]s de la columna izquierda. Tenga en cuenta que el [!DNL DPID] &quot;0&quot; en el nombre del archivo representa [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
 **Archivo 2** ( [Descargar archivo](assets/adobe_id_12345_67890_1477846458.sync)de ejemplo)
@@ -131,7 +135,7 @@ Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s des
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Paso 2: los [!DNL DPUUID]s de [!DNL DPID] 12345 se han sincronizado en el paso 1 con Audience Manager [!DNL UUID]s. Lo que hará esta sincronización de ID es sincronizar las [!DNL DPUUID]s desde [!DNL DPID] 67890 con las [!DNL UUID]de Audience Manager desde el paso 1.
+Paso 2: los [!DNL DPUUID]s de [!DNL DPID] 12345 se han sincronizado en el paso 1 con los Audience Manager [!DNL UUID]s. Lo que hará esta sincronización de ID es sincronizar [!DNL DPUUID]s desde [!DNL DPID] 67890 con los Audience Manager [!DNL UUID]del paso 1.
 
 <br/>
 
