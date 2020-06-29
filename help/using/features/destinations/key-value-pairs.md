@@ -5,15 +5,19 @@ seo-title: Par de clave-valor estándar y serie
 solution: Audience Manager
 title: Par de clave-valor estándar y serie
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 0%
 
 ---
 
 
 # Par de clave-valor estándar y serie {#standard-and-serial-key-value-pairs}
 
-Un par clave-valor consta de elementos relacionados: Clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). [!UICONTROL Destination Builder] envía datos formateados como pares clave-valor.
+Un par clave-valor consta de elementos relacionados: Clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). [!UICONTROL Destination Builder] envía datos formateados como pares de clave-valor.
 
 ## Par clave-valor básico {#basic-key-value-pairs}
 
@@ -27,8 +31,8 @@ Totalmente formado, un conjunto básico de pares clave-valor podría tener el si
 
 Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* formato.
 
-* **** Par de clave-valor estándar: Formatea los datos de destino en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza nuevamente para definir un valor diferente.
-* **** Par clave-valor serializados: Condensa varios valores en un solo par clave-valor. En un par clave-valor serializado, un indicador especial separa los valores dentro del conjunto clave-valor.
+* **Par de clave-valor estándar:** Formatea los datos de destino en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza nuevamente para definir un valor diferente.
+* **Par clave-valor serializados:** Condensa varios valores en un solo par clave-valor. En un par clave-valor serializado, un indicador especial separa los valores dentro del conjunto clave-valor.
 
 Tanto los valores de clave estándar como los serializados pueden contener uno o varios valores. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
 
@@ -43,7 +47,7 @@ Tanto los valores de clave estándar como los serializados pueden contener uno o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Estándar</b> </p> </td>
-   <td colname="col2"> <p> <code> x = 1 y x = 2 </code> </p> </td>
+   <td colname="col2"> <p> <code> x = 1 &amp; x = 2 </code> </p> </td>
    <td colname="col3"> <p> <code> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </code> </p> </td>
   </tr>
   <tr> 
@@ -56,11 +60,11 @@ Tanto los valores de clave estándar como los serializados pueden contener uno o
 
 ## Delimitadores y separadores {#delimiters-separators}
 
-Los caracteres que separan valores dentro y entre claves y valores se conocen como *`delimiters`* y *`separators`*. Esto resulta especialmente importante cuando envía segmentos a un destino en formato serie. La serialización permite pasar varios valores con una sola clave y combinar pares de clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
+Los caracteres que separan valores entre claves y valores se conocen como *`delimiters`* y *`separators`*. Esto adquiere especial importancia cuando envía segmentos a un destino en formato serie. La serialización permite pasar varios valores con una sola clave y combinar pares de clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
 
-* **** Separador clave-valor: Separa una clave y un valor dentro de un par clave-valor.
-* **** Delimitador clave-valor: Separa conjuntos de pares de clave-valor.
-* **** Separador de serie: Separa varios valores dentro de conjuntos de pares de clave-valor serializados.
+* **Separador clave-valor:** Separa una clave y un valor dentro de un par clave-valor.
+* **Delimitador clave-valor:** Separa conjuntos de pares de clave-valor.
+* **Separador de serie:** Separa varios valores dentro de conjuntos de pares de clave-valor serializados.
 
 ## Ejemplos {#examples}
 
