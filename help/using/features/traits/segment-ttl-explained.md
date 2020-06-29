@@ -5,8 +5,12 @@ seo-title: Tiempo de permanencia explicado por segmentos y características
 solution: Audience Manager
 title: Tiempo de vida del segmento explicado
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +23,13 @@ Cómo afecta el intervalo de características [!UICONTROL time-to-live] ([!DNL T
 
 ## Tiempo de vida
 
-[!DNL TTL] define cuánto tiempo permanece un visitante del sitio en un segmento después del último evento de calificación de características. [!DNL TTL] se configura en características y no en segmentos. Los visitantes abandonan un segmento si no cumplen los requisitos para una característica antes del final del [!DNL TTL] intervalo. El valor predeterminado [!DNL TTL] para las nuevas características es de 120 días. Cuando se establece en 0 días, la característica nunca caduca. [Establezca el valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL cuando cree o edite una característica en la [!UICONTROL Advanced Options] sección de la interfaz de creación de características.
+[!DNL TTL] define cuánto tiempo permanece un visitante del sitio en un segmento después del último evento de calificación de rasgos. [!DNL TTL] se configura en características y no en segmentos. Los Visitantes salen de un segmento si no cumplen los requisitos para una característica antes del final del [!DNL TTL] intervalo. El valor predeterminado [!DNL TTL] para las nuevas características es de 120 días. Cuando se establece en 0 días, la característica nunca caduca. [Establezca el valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL cuando cree o edite una característica en la [!UICONTROL Advanced Options] sección de la interfaz de creación de características.
 
 ### 1 día TTL explicado
 
-Al establecer el valor [!DNL TTL] en 1 día, el temporizador TTL comienza al día siguiente de la realización de características, sin contar las horas restantes en el día de realización de características.
+Al establecer el valor en [!DNL TTL] 1 día, el temporizador TTL inicio al día siguiente de la realización de características, sin contar las horas restantes en el día de realización de características.
 
-Audience Manager calcula la caducidad [!DNL TTL] de las características con 1 día [!DNL TTL] basándose en la fórmula siguiente:
+Audience Manager calcula la caducidad [!DNL TTL] de las características con 1 día [!DNL TTL] en función de la fórmula siguiente:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
@@ -42,7 +46,7 @@ Un usuario sale de un segmento si no cumple los requisitos para ninguna de sus c
 
 Se restablece [!DNL TTL] y el usuario permanece en un segmento si cumple los requisitos para la característica de ese segmento dentro del [!DNL TTL] período. Además, dado que la mayoría de los segmentos contienen varias características con sus propios intervalos, un usuario puede permanecer en un segmento y restablecer el [!DNL TTL] [!DNL TTL] intervalo, siempre que siga siendo adecuado para cualquier característica asociada al segmento.
 
-Por ejemplo: supongamos que tiene el segmento 1 compuesto por la característica A (30 días [!DNL TTL]) y la característica B (15 días [!DNL TTL]). Suponiendo que un visitante se califica para cada característica una sola vez, la siguiente ilustración describe el proceso de renovación y la duración total en el segmento del [!DNL TTL] visitante.
+Por ejemplo: supongamos que tiene el segmento 1 compuesto por la característica A (30 días [!DNL TTL]) y la característica B (15 días [!DNL TTL]). Si damos por supuesto que un visitante se califica para cada característica una sola vez, la siguiente ilustración describe el proceso de renovación y la duración total del segmento en el [!DNL TTL] mismo segmento.
 
 ![](assets/ttl-renewal.png)
 
