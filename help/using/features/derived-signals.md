@@ -1,25 +1,29 @@
 ---
-description: Una señal derivada califica a los visitantes del sitio para obtener características adicionales según una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
-seo-description: Una señal derivada califica a los visitantes del sitio para obtener características adicionales según una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
+description: Una señal derivada califica a los visitantes del sitio para características adicionales según una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
+seo-description: Una señal derivada califica a los visitantes del sitio para características adicionales según una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
 seo-title: Señales derivadas
 solution: Audience Manager
 title: Señales derivadas
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
 
 # Señales derivadas {#derived-signals}
 
-Un [!UICONTROL derived signal] visitante califica a los visitantes del sitio para obtener características adicionales según una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
+Los visitantes del sitio [!UICONTROL derived signal] califican para características adicionales en función de una característica que ya han visto. En otras palabras, la calificación de rasgos adicionales puede derivarse de una característica exhibida actualmente, incluso si un usuario nunca ha visto la nueva característica antes.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Finalidad de las señales derivadas
 
-En [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de características) pasadas durante una llamada de evento a otras señales o características especificadas. Por ejemplo, supongamos que una llamada de evento pasa en una señal compuesta por el valor clave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otro usuario creado con la [!UICONTROL derived signals] herramienta. Aunque las señales asociadas pueden ser cualquier valor clave que especifique, son más útiles cuando se vinculan a señales existentes ya configuradas como [!UICONTROL Trait Builder] reglas. Por ejemplo, en la siguiente ilustración, cuando una acción del usuario activa la señal de [!DNL "product = new car"] que el usuario también puede calificar para características definidas por la clave de destino y las señales de valor.
+En [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de características) que se pasan durante una llamada de evento a otras señales o características especificadas. Por ejemplo, supongamos que una llamada de evento pasa en una señal compuesta por el valor clave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otro usuario creado con la [!UICONTROL derived signals] herramienta. Aunque las señales asociadas pueden ser cualquier valor clave que especifique, son más útiles cuando se vinculan a señales existentes ya configuradas como [!UICONTROL Trait Builder] reglas. Por ejemplo, en la siguiente ilustración, cuando una acción del usuario activa la señal de [!DNL "product = new car"] que el usuario también puede calificar para características definidas por la clave de destinatario y las señales de valor.
 
 ![](assets/derived_signal_example.png)
 
@@ -35,12 +39,12 @@ To create a [!UICONTROL derived signal]:
 
 1. Seleccione **[!UICONTROL Derived Signals]** en el [!UICONTROL Tools] menú.
 1. Proporcione una:
-   * *(Opcional)*[!UICONTROL Integration Code]
+   * *(Opcional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
    * [!UICONTROL Target Value]
-1. Haga clic en **[!UICONTROL Add Signal]**.
+1. Haga clic **[!UICONTROL Add Signal]**.
 
 >[!NOTE]
 >
@@ -53,7 +57,7 @@ To create a [!UICONTROL derived signal]:
 To edit a [!UICONTROL derived signal]:
 
 1. Pase el ratón sobre la señal y haga clic en **[!UICONTROL Edit]**.
-2. Realice los cambios necesarios en el código, la clave o el valor y haga clic en **[!UICONTROL Save]**.
+2. Realice los cambios necesarios en el código, la clave o el valor y, a continuación, haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar una señal derivada {#delete}
 
