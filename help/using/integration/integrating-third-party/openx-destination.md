@@ -1,17 +1,21 @@
 ---
 description: Configure OpenX como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
 seo-description: Configure OpenX como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
-seo-title: OpenX como destino de Audience Manager
+seo-title: OpenX como destino Audience Manager
 solution: Audience Manager
-title: OpenX como destino de Audience Manager
+title: OpenX como destino Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 0%
 
 ---
 
 
-# OpenX como destino de Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX como destino Audience Manager{#openx-as-an-audience-manager-destination}
 
 Configure [!DNL OpenX] como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
 
@@ -27,9 +31,9 @@ Estándares para la ubicación del código, formatos de clave-valor admitidos, i
 
 Revise lo siguiente antes de configurar [!DNL OpenX] como destino de Audience Manager:
 
-* **[!UICONTROL DIL]** :: [!UICONTROL Data Integration Library] debe implementarse en el sitio. [!UICONTROL DIL] ayuda a eliminar la necesidad de escribir código especial para la recopilación de datos, la integración, la lectura de valores de cookies y la recuperación de datos de páginas.
-* **`get_aamCookie`** Función: Código que captura el ID de usuario y los datos de cookies de Audience Manager. Coloque [este código](../../features/destinations/get-aam-cookie-code.md) en la parte superior de la página o dentro del `<head>` bloque de código.
-* **** Enviar registros de entrega a Audience Manager: Si desea un informe de entrega de segmentos (opcional), proporcione a Audience Manager un registro diario que contenga datos de entrega de nivel de impresión. Los datos pueden tener un formato sin procesar, pero cada registro debe contener Audience Manager `UUID`. Audience Manager puede captarlos o recibirlos mediante [!DNL FTP].
+* **[!UICONTROL DIL]::**[!UICONTROL Data Integration Library]debe implementarse en el sitio.[!UICONTROL DIL]ayuda a eliminar la necesidad de escribir código especial para la recopilación de datos, la integración, la lectura de valores de cookies y la recuperación de datos de páginas.
+* **`get_aamCookie`Función:**Código que captura el ID de usuario y los datos de cookies del Audience Manager. Coloque[este código](../../features/destinations/get-aam-cookie-code.md)en la parte superior de la página o dentro del`<head>`bloque de código.
+* **Enviar Registros de envío al Audience Manager:** Si desea un informe de envío de segmentos (opcional), proporcione al Audience Manager un registro diario que contenga datos de envío de nivel de impresión. Los datos pueden tener un formato sin procesar, pero cada registro debe contener al Audience Manager `UUID`. El Audience Manager puede recogerlos o recibirlos a través de [!DNL FTP].
 
 ### Datos de valor clave: Requisitos de formato
 
@@ -42,7 +46,7 @@ Audience Manager envía datos en forma de pares clave-valor. Cree pares clave-va
 
 ### Solo se envían segmentos cualificados a OpenX
 
-La cantidad de datos pasados [!DNL OpenX] depende de la cantidad de segmentos para los que un usuario en particular califique. Por ejemplo, supongamos que configura 100 segmentos de Audience Manager. Si un visitante del sitio cumple los requisitos para cinco de ellos, solo se envían esos cinco segmentos [!DNL OpenX] (no todos los 100).
+La cantidad de datos pasados [!DNL OpenX] depende de la cantidad de segmentos para los que un usuario en particular califique. Por ejemplo, supongamos que configura 100 segmentos de Audience Manager. Si un visitante del sitio cumple los requisitos para cinco de ellos, solo se envían a esos cinco segmentos [!DNL OpenX] (no a todos los 100).
 
 ## Crear un destino OpenX {#openx-destination}
 
@@ -50,7 +54,7 @@ Cree un destino de cookie para [!DNL OpenX] en Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP]red de publicidad, etc.) que desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de entrega de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *audiencia &gt; Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
+En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) que desea compartir datos con. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de envío de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *Audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ### Paso 1: Información básica
 
@@ -64,8 +68,8 @@ Para completar la [!UICONTROL Basic Information] sección:
 
 Para completar la [!UICONTROL Configuration] sección:
 
-1. **** Nombre de la cookie: Proporcione un nombre corto y descriptivo para la cookie.
-1. **** Dominio de la cookie: Deje en blanco para configurar una cookie en el dominio de la página actual del usuario. Si desea especificar un dominio, anteponga el nombre con un punto como este, `.mydomain.com`.
+1. **Nombre de la cookie:** Proporcione un nombre corto y descriptivo para la cookie.
+1. **Dominio de la cookie:** Deje en blanco para configurar una cookie en el dominio de la página actual del usuario. Si desea especificar un dominio, anteponga el nombre con un punto como este, `.mydomain.com`.
 1. Elija una opción clave en la [!UICONTROL Data Format] sección.
 1. Si las claves utilizan datos con valores serializados, seleccione el **[!UICONTROL Serialize]** control y especifique el delimitador de serie (el carácter que separa los valores serializados).
 1. Haga clic **[!UICONTROL Save]** y expanda la [!UICONTROL Segment Mappings] sección.
@@ -74,15 +78,15 @@ Para completar la [!UICONTROL Configuration] sección:
 
 Para agregar un segmento a un destino de cookie:
 
-1. **** Buscar segmentos: La [!UICONTROL Segment Mappings] sección proporciona dos herramientas de búsqueda para encontrar segmentos. Para encontrar un segmento:
-   * Opción 1: Empiece a escribir un nombre de segmento en el campo de búsqueda. El campo se actualiza automáticamente en función del texto. Haga clic **[!UICONTROL Add]** cuando encuentre el segmento que desee utilizar.
-   * Opción 2: Haga clic en **[!UICONTROL Browse All Segments]** para abrir una ventana que le permite buscar segmentos por nombre o ubicación de almacenamiento. Click **[!UICONTROL Add Selected Segments]** when done.
-1. **** Agregar asignaciones: En la ventana emergente de asignaciones, introduzca el ID de segmento en el campo de asignaciones y haga clic en **[!UICONTROL Save]**.
-1. Haga clic en **[!UICONTROL Done]**.
+1. **Buscar segmentos:** La [!UICONTROL Segment Mappings] sección proporciona dos herramientas de búsqueda para ayudar a localizar segmentos. Para encontrar un segmento:
+   * Opción 1: Inicio que escribe el nombre de un segmento en el campo de búsqueda. El campo se actualiza automáticamente en función del texto. Haga clic **[!UICONTROL Add]** cuando encuentre el segmento que desee utilizar.
+   * Opción 2: Haga clic en **[!UICONTROL Browse All Segments]** para abrir una ventana que le permite buscar segmentos por nombre o ubicación de almacenamiento. Haga clic **[!UICONTROL Add Selected Segments]** cuando termine.
+1. **Añadir asignaciones:** En la ventana emergente de asignaciones, introduzca el ID de segmento en el campo de asignaciones y haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Done]**.
 
 ## Configuración de OpenX {#openx-code-setup}
 
-Modifique [!DNL OpenX] la configuración para que funcione con los datos de segmentos de Audience Manager.
+Modifique [!DNL OpenX] la configuración para trabajar con datos de segmentos de Audience Manager.
 
 <!-- aam-openx-code.xml -->
 
