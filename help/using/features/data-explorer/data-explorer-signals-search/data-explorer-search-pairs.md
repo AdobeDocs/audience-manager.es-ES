@@ -4,8 +4,12 @@ seo-description: Busque una o varias señales, en función de sus respectivos pa
 seo-title: Señales de búsqueda por pares de clave-valor
 title: Señales de búsqueda por pares de clave-valor
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +17,10 @@ source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 # Señales de búsqueda por pares de clave-valor {#search-signals-by-key-value-pairs}
 
 Busque una o varias señales, en función de sus respectivos pares clave-valor.
-Para buscar más de una señal, haga clic en el botón ![Agregar](assets/icon_add.png) . Introduzca los pares clave-valor que desea buscar y, a continuación, utilice los filtros siguientes para reducir los resultados.
+Para buscar más de una señal, haga clic en el botón ![Añadir](assets/icon_add.png) . Introduzca los pares clave-valor que desea buscar y, a continuación, utilice los siguientes filtros para reducir los resultados.
 
 * **Estado** de la señal: buscar señales incluidas en características, señales no utilizadas o ambas.
-* **Ver registros para**: seleccione el intervalo de tiempo en el que desea buscar las señales recibidas.
+* **Registros de Vista para**: seleccione el intervalo de tiempo en el que desea buscar las señales recibidas.
 * **Recuentos** mínimos: mostrar sólo las señales con el recuento total mínimo especificado en el intervalo seleccionado.
 
 >[!IMPORTANT]
@@ -29,13 +33,13 @@ Al buscar señales utilizando varios pares clave-valor, [!DNL Audience Manager] 
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Esta búsqueda sólo devolverá resultados que califiquen para los tres filtros en la misma llamada: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND``c_location == "europe"`.
+Esta búsqueda sólo devolverá resultados que califiquen para los tres filtros en la misma llamada: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
 ## Señales excluidas de la búsqueda de señales {#excluded-signals}
 
-Las variables clave utilizadas por Audience Manager y con el prefijo `d_` y `h_` no aparecen en [!UICONTROL Signals Search]. Consulte Requisitos [de prefijo para variables](../../traits/trait-variable-prefixes.md) clave para obtener más información.
+Las variables clave utilizadas por el Audience Manager y con el prefijo `d_` y `h_` no aparecen en [!UICONTROL Signals Search]. Consulte Requisitos [de prefijo para variables](../../traits/trait-variable-prefixes.md) clave para obtener más información.
 
 ## Insensibilidad de los casos y finalización automática de la búsqueda {#case-insensitivity}
 
