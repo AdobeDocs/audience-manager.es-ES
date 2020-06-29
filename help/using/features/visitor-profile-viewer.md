@@ -1,20 +1,24 @@
 ---
-description: Utilice el visor de perfiles de visitante para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidas sus características y segmentos. Para cada característica, puede ver su SID, nombre, detalles sobre cómo se realizaron las características del visitante (de origen o de terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede ver su SID, nombre y fecha de pertenencia al segmento. También puede ver el perfil del visitante para otro ID de perfil de Audience Manager (UUID). El visor de perfiles del visitante es útil para solucionar problemas.
-keywords: ubicación;parámetro de ubicación
-seo-description: Utilice el visor de perfiles de visitante para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidas sus características y segmentos. Para cada característica, puede ver su SID, nombre, detalles sobre cómo se realizaron las características del visitante (de origen o de terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede ver su SID, nombre y fecha de pertenencia al segmento. También puede ver el perfil del visitante para otro ID de perfil de Audience Manager (UUID). El visor de perfiles del visitante es útil para solucionar problemas.
-seo-title: Visor de perfiles del visitante
+description: Utilice el visor de Visitante Perfil para mostrar el estado actual de un perfil de usuario para el navegador actual, incluidas sus características y segmentos. Para cada característica, puede vista su SID, nombre, detalles sobre cómo se realizaron las características de visitante (origen o terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede realizar la vista de su SID, nombre y fecha de pertenencia al segmento. También puede vista del perfil de visitante para otro ID de perfil de Audience Manager (UUID). El visor de Visitante Perfil es útil para solucionar problemas.
+keywords: location;location parameter
+seo-description: Utilice el visor de Visitante Perfil para mostrar el estado actual de un perfil de usuario para el navegador actual, incluidas sus características y segmentos. Para cada característica, puede vista su SID, nombre, detalles sobre cómo se realizaron las características de visitante (origen o terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede realizar la vista de su SID, nombre y fecha de pertenencia al segmento. También puede vista del perfil de visitante para otro ID de perfil de Audience Manager (UUID). El visor de Visitante Perfil es útil para solucionar problemas.
+seo-title: Visor de Perfil de Visitante
 solution: Audience Manager
-title: Visor de perfiles del visitante
+title: Visor de Perfil de Visitante
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
 
-# Visor de perfiles del visitante {#visitor-profile-viewer}
+# Visor de Perfil de Visitante {#visitor-profile-viewer}
 
-Utilice [!UICONTROL Visitor Profile Viewer] para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidas sus características y segmentos. Para cada característica, puede ver su nombre [!UICONTROL SID], nombre, detalles sobre cómo se realizaron las características del visitante (de origen o de terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede ver su nombre [!UICONTROL SID]y la fecha de pertenencia al segmento. También puede ver el perfil del visitante para otro ID de perfil de Audience Manager ([!UICONTROL UUID]). La solución [!UICONTROL Visitor Profile Viewer] es útil para solucionar problemas.
+Utilice [!UICONTROL Visitor Profile Viewer] para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidas sus características y segmentos. Para cada característica, puede vista su nombre [!UICONTROL SID], detalles sobre cómo se realizaron los rasgos de visitante (origen o terceros), la fecha de realización y la frecuencia de realización. Para cada segmento, puede vista su nombre [!UICONTROL SID]y la fecha de pertenencia al mismo. También puede vista del perfil de visitante para otro ID de perfil de Audience Manager ([!UICONTROL UUID]). La solución [!UICONTROL Visitor Profile Viewer] es útil para solucionar problemas.
 
 >[!NOTE]
 >
@@ -27,7 +31,7 @@ Traits that are not part of a segment will not appear in the
 <span class="wintitle"> Visitor Profile Viewer</span>.
 -->
 
-1. Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Visitor Profile Viewer]**.
+1. Haga clic **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
 1. *(Opcional)* Haga clic en el nombre de la característica para mostrar esa característica en la [!UICONTROL Trait Builder].
 
@@ -37,4 +41,4 @@ Traits that are not part of a segment will not appear in the
 
    For more information, see [Segments](../features/segments/segments-purpose.md).
 
-1. *(Condicional)* En el **[!UICONTROL UUID]** cuadro, especifique otro ID de perfil de Audience Manager y, a continuación, haga clic en **[!UICONTROL Refresh]** para ver las características y los segmentos de ese usuario.
+1. *(Condicional)* En el **[!UICONTROL UUID]** cuadro, especifique otro ID de perfil de Audience Manager y, a continuación, haga clic en **[!UICONTROL Refresh]** para vista de las características y los segmentos de ese usuario.
