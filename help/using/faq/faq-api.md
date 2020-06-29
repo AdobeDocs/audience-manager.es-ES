@@ -5,8 +5,12 @@ seo-title: Preguntas frecuentes sobre API
 solution: Audience Manager
 title: Preguntas frecuentes sobre API
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +29,13 @@ La documentación de la API [de](../api/rest-api-main/rest-api-main.md) REST con
 
 <br> 
 
-**¿Por qué[!UICONTROL DIL]se realizan llamadas de eventos con[!UICONTROL GET]y con[!UICONTROL POST]métodos?**
+**¿Por qué[!UICONTROL DIL]realiza llamadas de evento con[!UICONTROL GET]y[!UICONTROL POST]métodos?**
 
-[!UICONTROL DIL] pasa datos a [!DNL Audience Manager] con un `GET` método o `POST` según la longitud de la cadena de consulta de la llamada al evento. Este comportamiento está integrado en `GET` y `POST` los métodos de forma predeterminada. No es específico de [!DNL Audience Manager].
+[!UICONTROL DIL] pasa datos a [!DNL Audience Manager] con un `GET` método o `POST` basado en la longitud de la cadena de consulta de la llamada de evento. Este comportamiento está integrado en `GET` y `POST` los métodos de forma predeterminada. No es específico de [!DNL Audience Manager].
 
-* [!UICONTROL DIL] realiza llamadas de evento con `GET` cuando una dirección URL contiene 2048 caracteres o menos. Una llamada `GET` de evento incluye datos en la dirección URL como parámetros de cadena de consulta, que se pasan como pares clave-valor.
+* [!UICONTROL DIL] realiza llamadas de evento con `GET` cuando una dirección URL contiene 2048 caracteres o menos. Una llamada de `GET` evento incluye datos en la dirección URL como parámetros de cadena de consulta, que se pasan como pares clave-valor.
 
-* [!UICONTROL DIL] realiza llamadas de eventos con `POST` cuando una dirección URL contiene más de 2048 caracteres. Una llamada `POST` de evento incluye datos en el cuerpo de la solicitud. [!UICONTROL DIL] coloca los datos en pares clave-valor y pasa la información como datos de formulario en lugar de hacerlo en la cadena de consulta URL.
+* [!UICONTROL DIL] realiza llamadas de evento con `POST` cuando una dirección URL contiene más de 2048 caracteres. Una llamada de `POST` evento incluye datos en el cuerpo de la solicitud. [!UICONTROL DIL] coloca los datos en pares de clave-valor y pasa la información como datos de formulario en lugar de hacerlo en la cadena de consulta URL.
 
 Aunque cada método pasa los datos de una manera diferente, esto no afecta a la funcionalidad. Por ejemplo, con cualquiera de los métodos, [!DNL Audience Manager] sigue enviando datos a destinos, la sincronización de ID funciona normalmente y puede crear características a partir de señales de datos.
 
