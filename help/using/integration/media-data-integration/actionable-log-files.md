@@ -6,8 +6,9 @@ seo-title: Archivos de registro procesables
 solution: Audience Manager
 title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
+feature: Log Files
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 3%
@@ -268,7 +269,7 @@ Una de las ventajas de la implementación [!UICONTROL Actionable Log Files] es l
 
 ### Usuarios de reasignaciones
 
-Vuelva a segmentar a los usuarios que vieron el elemento creativo 123 pero que no hicieron clic o convirtieron y muéstreles el elemento creativo 456. Haga esto:
+Vuelva a segmentar usuarios que hayan visto el elemento creativo 123 pero que no hayan hecho clic o convertido y muéstreles el elemento creativo 456. Haga esto:
 
 1. Cree una característica para capturar a los usuarios que vieron el elemento creativo. Supongamos que se llama la característica [!DNL Creative Trait 123]. Utilice la regla de características:
 
