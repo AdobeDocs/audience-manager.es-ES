@@ -1,19 +1,23 @@
 ---
-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
-seo-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
+description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos.
+seo-description: Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos.
 seo-title: Archivos de transferencia y control para transferencias de archivos de registro
 solution: Audience Manager
 title: Archivos de transferencia y control para transferencias de archivos de registro
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
 
 # Archivos de transferencia y control para transferencias de archivos de registro {#transfer-control-files-for-log-file-transfers}
 
-Los archivos de control de transferencia ([!DNL .info]) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager gestiona correctamente las transferencias de archivos.
+Los archivos de control de transferencia ([!DNL .info]) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos.
 
 [!DNL Audience Manager] envía un archivo de control de transferencia a un socio con cada transferencia de archivos. Debido a la naturaleza de varios subprocesos del [!DNL FTP] publicador, el archivo de control de transferencia se puede enviar antes de que los archivos reales terminen de transferirse.
 
@@ -21,13 +25,13 @@ Los metadatos del [!DNL .info] archivo permiten a los socios:
 
 * Determinar cuándo se completa un ciclo completo de transferencia (se ha entregado el número total de archivos de la secuencia);
 * Determinar si un archivo determinado de la secuencia es completo o correcto (examinando el tamaño del archivo en bytes y el número total de líneas);
-* Validar el número de filas de los archivos sin procesar en comparación con el número de filas después de cargar los archivos en la base de datos en el extremo receptor (tamaño del archivo en líneas).
+* Validar el número de filas de los archivos sin procesar en comparación con el número de filas después de que los archivos se hayan cargado en la base de datos en el extremo receptor (tamaño del archivo en líneas).
 
 ## Convenciones de nomenclatura de archivos {#file-naming-conventions}
 
 El archivo transfer-control tiene el mismo nombre que la raíz del lote/secuencia con una extensión [!DNL .info] de archivo.
 
-Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345_67890_full_1500727351632-1.sync], el nombre del archivo de control sería [!DNL ftp_12345_67890_iter_1500727351632.info].
+Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345_67890_full_1500727351632-1.sync], se asignará un nombre al archivo de control [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Formato del archivo {#file-format}
 
