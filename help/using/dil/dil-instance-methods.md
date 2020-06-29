@@ -1,20 +1,24 @@
 ---
-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+description: Las API DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 keywords: create traits;create trait
-seo-description: Las API DIL de nivel de instancia le permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+seo-description: Las API DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 seo-title: Métodos DIL de nivel de instancia
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 13%
 
 ---
 
 
 # Métodos DIL de nivel de instancia{#instance-level-dil-methods}
 
-Las [!UICONTROL DIL] API de nivel de instancia permiten crear y trabajar mediante programación con objetos del Administrador de Audiencias. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+Las [!UICONTROL DIL] API de nivel de instancia permiten crear y trabajar mediante programación con objetos Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 
 ## Introducción a los métodos DIL de nivel de instancia {#get-started-dil-methods}
 
@@ -26,7 +30,7 @@ c_api_overview.xml
 
 Al trabajar con las [!UICONTROL DIL] API de nivel de instancia:
 
-* Access requiere un nombre de socio e ID de Área de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas del administrador de Audiencias para obtener esta información.
+* Access requiere un nombre de socio e ID de Área de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas del Audience Manager para obtener esta información.
 * Reemplace cualquier ejemplo de texto *en cursiva* de la documentación de API con valor, ID u otra variable según lo requiera el método con el que esté trabajando.
 
 <!-- 
@@ -164,7 +168,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Envía todos los datos pendientes al Administrador de Audiencias de la [!UICONTROL DIL] instancia.
+Envía todos los datos pendientes al Audience Manager de la [!UICONTROL DIL] instancia.
 
 <!-- 
 
@@ -483,7 +487,7 @@ state = {
 
 ## idSync {#idsync}
 
-Consiste en dos funciones que permiten a los socios de datos intercambiar y sincronizar los ID de usuario entre ellos y el Administrador de Audiencias.
+Consiste en dos funciones que permiten a los socios de datos intercambiar y sincronizar los ID de usuario entre ellos y el Audience Manager.
 
 <!-- 
 
@@ -505,11 +509,11 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes socios de datos y Administrador de Audiencias. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo al Administrador de Audiencias. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia de servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Cuando ya conozca el ID de usuario y desee enviarlo al Administrador de Audiencias. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia de servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -721,6 +725,6 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
 >* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
