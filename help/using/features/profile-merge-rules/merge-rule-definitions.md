@@ -5,8 +5,9 @@ seo-title: Opciones de regla de combinación de Perfiles definidas
 solution: Audience Manager
 title: Opciones de regla de combinación de Perfiles definidas
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 4%
@@ -40,7 +41,7 @@ Para crear un [!UICONTROL Profile Merge Rule] formulario, realice una selección
 
 Según la [!UICONTROL Profile Merge Rules] configuración, [!DNL Audience Manager] puede realizar la [!UICONTROL segment] evaluación en tiempo real, en lote o en ambos.
 
-* La evaluación en tiempo real [!UICONTROL segment] requiere que los visitantes [!DNL DCS] vean el acceso a sus propiedades digitales en tiempo real para poder acceder a ellas [!UICONTROL segment].
+* La evaluación en tiempo real [!UICONTROL segment] requiere que los visitantes [!DNL DCS] vean el acceso a sus propiedades digitales en tiempo real para poder optar a la [!UICONTROL segment].
 * La evaluación por lotes [!UICONTROL segment] se realiza con respecto a [!UICONTROL traits].
 * [!UICONTROL Profile Merge Rules] que admiten tanto la evaluación en tiempo real como la evaluación por lotes [!UICONTROL segment] combinan la actividad de visitantes en tiempo real con los  previamente cualificados [!UICONTROL traits].
 
