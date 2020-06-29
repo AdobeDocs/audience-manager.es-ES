@@ -1,23 +1,27 @@
 ---
-description: AamGpt es una función de JavaScript que lee los datos de cookies de Audience Manager y envía esa información a Google Publisher Tags.
-seo-description: AamGpt es una función de JavaScript que lee los datos de cookies de Audience Manager y envía esa información a Google Publisher Tags.
-seo-title: Código de Audience Manager para etiquetas de publicador de Google
+description: AamGpt es una función de JavaScript que lee datos de cookies de Audience Manager y envía esa información a las etiquetas de Publicador de Google.
+seo-description: AamGpt es una función de JavaScript que lee datos de cookies de Audience Manager y envía esa información a las etiquetas de Publicador de Google.
+seo-title: Código Audience Manager para etiquetas de publicador de Google
 solution: Audience Manager
-title: Código de Audience Manager para etiquetas de publicador de Google
+title: Código Audience Manager para etiquetas de publicador de Google
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
 
-# Código de Audience Manager para etiquetas de publicador de Google {#audience-manager-code-for-google-publisher-tags}
+# Código Audience Manager para etiquetas de publicador de Google {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` es una [!DNL JavaScript] función que lee los datos de cookies de Audience Manager y envía esa información a [!DNL Google Publisher Tags].
+`AamGpt` es una [!DNL JavaScript] función que lee los datos de cookies del Audience Manager y envía esa información a [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->Esta función no es necesaria si tiene su propio código para leer los datos de cookies de Audience Manager desde las cookies [!UICONTROL UUID] y de destino.
+>Esta función no es necesaria si tiene su propio código para leer datos de cookies Audience Manager de las cookies [!UICONTROL UUID] y de destino.
 
 ## Código de muestra
 
