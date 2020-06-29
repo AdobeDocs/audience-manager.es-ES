@@ -4,8 +4,12 @@ seo-description: ClientCare está preparado para ayudarle a solucionar los probl
 seo-title: En caso de problemas
 solution: Audience Manager
 title: En caso de problemas
+feature: Support
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 26%
 
 ---
 
@@ -24,11 +28,11 @@ r_problem.xml
 
 For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-* **** Teléfono: 1-800-497-0335
+* **Teléfono:** 1-800-497-0335
 
    Para consultar los números gratuitos fuera de los Estados Unidos, consulte nuestro sitio [regional de números](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) de contacto del Servicio de atención al cliente. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
-* **** Correo electrónico: amsupport@adobe.com
+* **Correo electrónico:** amsupport@adobe.com
 
 Tenga a bien disponer de la siguiente información antes de ponerse en contacto con nosotros.
 
@@ -48,13 +52,13 @@ Tenga a bien disponer de la siguiente información antes de ponerse en contacto 
    <td colname="col1"> <p><b>Información de la cuenta</b> </p> </td> 
    <td colname="col2"> <p>Proporcione su: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
-      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nombre de la empresa. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdominio de Audience Manager</span> (si se conoce). El subdominio es la dirección URL del dominio que envía eventos de recopilación de datos a <span class="keyword"> Adobe</span> (por ejemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nombre de la Compañía. </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdominio Audience Manager</span> (si se conoce). El subdominio es la dirección URL del dominio que envía eventos de recopilación de datos a <span class="keyword"> Adobe</span> (por ejemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Pasos para reproducir</b> </p> </td> 
-   <td colname="col2"> <p>Incluya la mayor cantidad de detalles posible, incluidas las direcciones URL necesarias para duplicar el problema, así como el resultado esperado. La descripción debe contener suficientes detalles como para que alguien que no esté familiarizado con <span class="keyword"> Audience Manager</span> pueda seguir los pasos o procedimientos y reproducir el problema. </p> </td> 
+   <td colname="col2"> <p>Incluya la mayor cantidad de detalles posible, incluidas las direcciones URL necesarias para duplicado del problema y del resultado esperado. Su descripción debe contener suficiente detalle que alguien que no esté familiarizado con el <span class="keyword"> Audience Manager</span> debería poder seguir sus pasos o procedimientos y reproducir el problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Prioridad</b> </p> </td> 
