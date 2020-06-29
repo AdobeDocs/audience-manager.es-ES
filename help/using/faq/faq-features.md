@@ -6,8 +6,9 @@ seo-title: Preguntas más frecuentes sobre funciones y características del prod
 solution: Audience Manager
 title: Preguntas más frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -33,7 +34,7 @@ El *`Organization ID`* es un identificador único que identifica a su organizaci
 
 Por ejemplo, un *`Organization ID`* aspecto es el siguiente: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el servicio [de identidad de la plataforma de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)sobre administración y administración de usuarios.
+El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform y otras [!DNL Experience Cloud] soluciones. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las preguntas más frecuentes [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)sobre administración y administración de usuarios.
 
  
 
@@ -43,7 +44,7 @@ Sí. Consulte Herramientas [de administración masiva](../reference/bulk-managem
 
 >[!NOTE]
 >
->Las [!UICONTROL Bulk Management Tools] herramientas no *son* compatibles con [!DNL Audience Manager]. Son provistos por conveniencia y sólo por cortesía. Para los cambios masivos, se recomienda trabajar con las API [de](../api/api.md) Audience Manager en su lugar.
+>Las [!UICONTROL Bulk Management Tools] herramientas no *son* compatibles con [!DNL Audience Manager]. Son provistos por conveniencia y sólo por cortesía. Para los cambios masivos, le recomendamos que trabaje con las API [de](../api/api.md) Audience Manager.
 
  
 
@@ -67,7 +68,7 @@ La fuente de datos y todas las características de la fuente aparecen como subca
 
 **¿Qué es[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizó [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+Audience Manager utilizado [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
  
 
