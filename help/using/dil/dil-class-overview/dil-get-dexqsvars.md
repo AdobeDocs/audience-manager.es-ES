@@ -5,8 +5,12 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 Recupera un valor específico de un servidor de publicidad.
 
-**** Firma de función: `dexGetQSVars: function (variableName, partner, containerNSID) {}`
+**Firma de función:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
 <!-- 
 
@@ -29,7 +33,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Cadena | Nombre de la variable para la que desea obtener un valor. |
 | `partner` | Cadena | El nombre del socio que se va a buscar. |
-| `containerNSID` | Número entero | El [!DNL NSID] del contenedor que está buscando. El valor predeterminado es `0`. |
+| `containerNSID` | Número entero | El [!DNL NSID] del contenedor que estás buscando. El valor predeterminado es `0`. |
 
 **Respuesta**
 
