@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Crear, cotizar y administrar fuentes de datos
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +82,7 @@ Para revocar un suscriptor:
 
 ### Qué sucede después de desactivar un suscriptor
 
-Al revocar el acceso a una fuente de datos, se envía un correo electrónico de notificación a todos los usuarios administradores de la cuenta del comprador de datos. El correo electrónico incluye un archivo adjunto que enumera las características revocadas. Esta lista ayuda a los suscriptores a encontrar y eliminar características desactivadas de sus segmentos y modelos.
+Al revocar el acceso a una fuente de datos, se envía un correo electrónico de notificación a todos los usuarios administradores de la cuenta del comprador de datos. El correo electrónico incluye un archivo adjunto que lista las características revocadas. Esta lista ayuda a los suscriptores a encontrar y eliminar características desactivadas de sus segmentos y modelos.
 
 ### Desactivación de fuentes y facturación
 
@@ -96,7 +100,7 @@ Después de eliminar el acceso a una fuente de datos, los suscriptores son respo
 
 <!-- c_feed_options.xml -->
 
-La [!UICONTROL Use Case] configuración permite a los vendedores controlar la forma en que los compradores pueden utilizar sus datos.
+La [!UICONTROL Use Case] configuración permite a los vendedores controlar cómo los compradores pueden utilizar sus datos.
 
 ### Segmentos y superposición
 
@@ -106,8 +110,8 @@ Cada fuente de datos debe incluir al menos un caso [!UICONTROL Segments and Over
 
 Las comparaciones superpuestas pueden ayudar a los compradores a:
 
-* **** Extender el alcance de la audiencia: Una superposición baja sugiere que sus características contienen usuarios que el comprador no ha visto antes. Como resultado, es posible que los compradores deseen que estas características añadan nuevos usuarios a sus segmentos de audiencia.
-* **** Mejore las audiencias existentes: La superposición alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características ayuden a mejorar de forma gradual y específica las audiencias desarrolladas.
+* **Ampliar el alcance de la audiencia:** Una superposición baja sugiere que sus características contienen usuarios que el comprador no ha visto antes. Como resultado, es posible que los compradores deseen que estas características añadan nuevos usuarios a sus segmentos de audiencia.
+* **Mejore las audiencias existentes:** La superposición alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características contribuyan a mejorar de forma gradual y específica las audiencias desarrolladas.
 
 Establezca el precio de este caso de uso de la siguiente manera:
 
@@ -116,7 +120,7 @@ Establezca el precio de este caso de uso de la siguiente manera:
 
 ### Modelado
 
-Un caso de **[!UICONTROL Modeling]** uso crea un plan que permite a los compradores comparar sus características con las suyas con el modelado [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmico. Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que compartan atributos de conversión similares con los suyos. Establezca el precio de este caso de uso de la siguiente manera:
+Un caso de **[!UICONTROL Modeling]** uso crea un plan que permite a los compradores comparar sus características con las suyas con el modelado [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmico. Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que comparten atributos de conversión similares con los suyos. Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: Tarifa fija
 * Precio: Precio de precio de mercado o descuento
@@ -165,7 +169,7 @@ En el **[!UICONTROL Additional Notes]** campo, dedique algún tiempo a describir
 
 ## Administrar solicitudes de fuentes de datos privadas {#manage-private-requests}
 
-Flujos de trabajo de proveedores para administrar solicitudes de fuentes privadas de compradores.
+flujos de trabajo del proveedor para administrar las solicitudes de fuentes privadas de los compradores.
 
 Para revisar, aprobar o rechazar solicitudes de comprador, vaya a [!UICONTROL My Shared Data] y:
 
@@ -178,7 +182,7 @@ Para revisar, aprobar o rechazar solicitudes de comprador, vaya a [!UICONTROL My
 
 ## Descuentos para proveedores de datos {#discounts}
 
-En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede ofrecer descuentos a los suscriptores que hayan enviado una solicitud de suscripción o a los suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes [!DNL CPM] y a las fuentes a tanto alzado. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad del cliente.
+En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede aplicar descuentos de oferta a suscriptores que hayan enviado una solicitud de suscripción o a suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes [!DNL CPM] y a las fuentes a tanto alzado. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad de los mismos.
 
 ## Aplicar descuentos a una fuente de datos {#apply-discounts}
 
