@@ -4,8 +4,9 @@ seo-description: 'Use destinos basados en personas para enviar segmentos de audi
 seo-title: Información general de destinos basados en personas y casos de uso
 solution: Audience Manager
 title: Información general y casos de uso
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Puede usar [!DNL People-Based Destinations] para segmentar y destinatario a clie
 
 **Proporcione a sus clientes experiencias coherentes entre canales administrando toda la segmentación de audiencias desde Audience Manager.**
 
-Si no se activan los segmentos de audiencia en canales basados en personas mediante Audience Manager, se producen experiencias desconectadas entre lo que ven los clientes al visitar el sitio web y lo que ven, por ejemplo, en sus [!DNL Facebook] fuentes. Tener un objetivo uniforme en todos los canales puede aumentar los ingresos de la publicidad y optimizar la inversión en publicidad.
+Si no se activan los segmentos de audiencia en canales basados en personas mediante Audience Manager, se producen experiencias desvinculadas entre lo que ven los clientes al visitar el sitio web y lo que ven, por ejemplo, en sus [!DNL Facebook] fuentes. Tener un objetivo uniforme en todos los canales puede aumentar los ingresos de la publicidad y optimizar la inversión en publicidad.
 
 **Alcanzar audiencias en canales basados en personas sin necesidad de una solución de integración de datos dedicada o flujos de trabajo personalizados para enviar audiencias.**
 
