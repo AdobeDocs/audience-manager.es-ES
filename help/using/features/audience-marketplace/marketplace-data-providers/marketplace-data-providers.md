@@ -1,19 +1,23 @@
 ---
-description: Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde Audience Manager.
-keywords: Análisis de Google
-seo-description: Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde Audience Manager.
-seo-title: Mercado de audiencias para proveedores de datos
+description: Información general y flujo de trabajo para proveedores de datos que desean vender datos desde el Audience Manager.
+keywords: Google analytics
+seo-description: Información general y flujo de trabajo para proveedores de datos que desean vender datos desde el Audience Manager.
+seo-title: Audience Marketplace para proveedores de datos
 solution: Audience Manager
-title: Mercado de audiencias para proveedores de datos
+title: Audience Marketplace para proveedores de datos
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
 
-# Mercado de audiencias para proveedores de datos {#audience-marketplace-for-data-providers}
+# Audience Marketplace para proveedores de datos {#audience-marketplace-for-data-providers}
 
 Información general y flujo de trabajo para proveedores de datos que deseen vender datos desde dentro [!DNL Audience Manager].
 
@@ -24,12 +28,12 @@ Información general y flujo de trabajo para proveedores de datos que deseen ven
 >[Los permisos](../../../reporting/reports-dashboard.md) basados en roles controlan el acceso a [!UICONTROL Audience Marketplace] las funciones.
 >
 >* Los administradores pueden crear fuentes de datos, administrar suscriptores y suscribirse a fuentes de datos.
->* Los usuarios solo pueden buscar y ver fuentes.
+>* Los usuarios solo pueden buscar y vista de fuentes.
 
 
 ## Mis datos compartidos: Acerca de {#my-shared-data-about}
 
-[!UICONTROL My Shared Data] es una [!UICONTROL Audience Marketplace] función para proveedores de datos (vendedores). Como proveedor, le permite agrupar características en fuentes de datos y venderlas por una tarifa fija o [!DNL CPM] a compradores desde dentro [!DNL Audience Manager]. Cuando se activa, los compradores pueden suscribirse a una fuente con unos pocos clics del ratón. Además, las sencillas herramientas de informes rastrean los ingresos y administran a los suscriptores. Finalmente, con [!UICONTROL Audience Marketplace], [!DNL Adobe] se encarga de los pagos de facturas, facturación y honorarios. Estas funciones le permiten concentrarse en crear las fuentes de datos eficaces y rentables que los compradores desean.
+[!UICONTROL My Shared Data] es una [!UICONTROL Audience Marketplace] función para proveedores de datos (vendedores). Como proveedor, le permite agrupar características en fuentes de datos y venderlas por una tarifa fija o [!DNL CPM] a compradores desde dentro [!DNL Audience Manager]. Cuando se activa, los compradores pueden suscribirse a una fuente con unos pocos clics del ratón. Además, las herramientas de sistema de informes sencillas rastrean los ingresos y administran a los suscriptores. Finalmente, con [!UICONTROL Audience Marketplace], [!DNL Adobe] se encarga de los pagos de facturas, facturación y honorarios. Estas funciones le permiten concentrarse en crear las fuentes de datos eficaces y rentables que los compradores desean.
 
 ![](assets/seller_marketplace.png)
 
@@ -37,15 +41,15 @@ Información general y flujo de trabajo para proveedores de datos que deseen ven
 
 Las funciones incluyen:
 
-* **** Buscar: Los campos de búsqueda le ayudan a encontrar fuentes de datos por nombre o descripción de texto.
-* **** Nombre: El nombre de la fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada sin marca.
-* **** Descripción: Informe a los compradores sobre el contenido de su fuente de datos.
-* **** Características: Número de características de cada fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada.
-* **** Únicos de los últimos 30 días: Número de usuarios únicos vistos en los últimos 30 días. Puede ocultarlo a los compradores con una fuente de datos privada.
-* **** Tarifas totales del mes pasado: La cantidad que los compradores de datos suscritos le deben. El período de presentación de informes finaliza el 10 de cada mes. Las cuentas vencidas se marcan con el icono de triángulo o signo de exclamación. Puede [desactivar la fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) de datos de un suscriptor si hace un uso indebido de sus datos o si su cuenta ha vencido.
-* **** Estado:  Muestra si una fuente está activa, inactiva, privada o pública.
-* **** Suscriptores: Muestra cuántos compradores utilizan una fuente de datos. Haga clic en el número de esta columna para ver el nombre de la empresa, las suscripciones, la facturación y el estado de la suscripción del comprador.
-* **** Solicitudes: Número de solicitudes de acceso para una fuente de datos.
+* **Buscar:** Los campos de búsqueda le ayudan a encontrar fuentes de datos por nombre o descripción de texto.
+* **Nombre:** El nombre de la fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada sin marca.
+* **Descripción:** Informe a los compradores sobre el contenido de su fuente de datos.
+* **Características:** Número de características de cada fuente de datos. Puede ocultarlo a los compradores con una fuente de datos privada.
+* **Únicos de los últimos 30 días:** Número de usuarios únicos vistos en los últimos 30 días. Puede ocultarlo a los compradores con una fuente de datos privada.
+* **Tarifas totales del mes pasado:** La cantidad que los compradores de datos suscritos le deben. El período de sistema de informes finaliza el 10 de cada mes. Las cuentas vencidas se marcan con el icono de triángulo o signo de exclamación. Puede [desactivar la fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) de datos de un suscriptor si hace un uso indebido de sus datos o si su cuenta ha vencido.
+* **Estado:**  Muestra si una fuente está activa, inactiva, privada o pública.
+* **Suscriptores:** Muestra cuántos compradores utilizan una fuente de datos. Haga clic en el número de esta columna para ver el nombre de la compañía, las suscripciones, la facturación y el estado de la suscripción del comprador.
+* **Solicitudes:** Número de solicitudes de acceso para una fuente de datos.
 
 ## Fuentes de datos privadas {#private-data-feeds}
 
