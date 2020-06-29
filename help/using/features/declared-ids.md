@@ -6,8 +6,9 @@ seo-title: ID declarados
 solution: Audience Manager
 title: ID declarados
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
+feature: ID Syncs
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 3%
@@ -71,7 +72,7 @@ Puede realizar solicitudes de [!UICONTROL declared ID] exclusión con los pares 
 
 ### Opciones de exclusión con [!UICONTROL CID] y [!UICONTROL CID_IC]
 
-Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de ID declarados](../features/declared-ids.md#variables-and-syntax).
+Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de los ID](../features/declared-ids.md#variables-and-syntax)declarados.
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
