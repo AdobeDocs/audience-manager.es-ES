@@ -5,8 +5,12 @@ seo-title: DIL crear
 solution: Audience Manager
 title: DIL crear
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 9%
 
 ---
 
@@ -57,12 +61,12 @@ r_dil_create.xml
    <td colname="col2"> <p>Objeto </p> </td> 
    <td colname="col3"> 
     <draft-comment> 
-     <p>Envía las variables de ID declaradas <a href="../../features/declared-ids.md"> </a> en cada llamada de evento al Administrador <span class="keyword"> de Audiencias </span>. </p> 
+     <p>Envía las variables de ID declaradas <a href="../../features/declared-ids.md"> </a> en cada llamada de evento al <span class="keyword"> Audience Manager </span>. </p> 
     </draft-comment> <p> <code> delcaredId </code> se utiliza para pasar el: </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
-     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>:: ID del socio de datos que le ha asignado el Administrador <span class="keyword"> de Audiencias </span>. </li> 
+     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>:: ID del socio de datos que le ha asignado el <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>:: Su ID única para un usuario. </li> 
-    </ul> <p> <p>Importante:  Utilice únicamente valores no codificados para sus ID. La codificación creará identificadores con codificación de doble. </p> </p> <p> <p>Nota:  Si utiliza el servicio de identidad de <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a>, establezca los ID de cliente con el <code> setCustomerIDs </code> método en lugar de <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Importante:  Utilice únicamente valores no codificados para sus ID. La codificación creará identificadores con codificación de doble. </p> </p> <p> <p>Nota:  Si utiliza el servicio de identidad de <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a>, configure los ID de cliente con el <code> setCustomerIDs </code> método en lugar de <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -72,17 +76,17 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDeclaredUUIDCookie </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> Falso de forma predeterminada, lo que significa que <span class="keyword"> el Administrador de Audiencias </span> establece una cookie en el dominio del socio (establece una cookie de origen). </p> </td> 
+   <td colname="col3"> <p> Falso de forma predeterminada, lo que significa que el <span class="keyword"> Audience Manager </span> establece una cookie en el dominio del socio (establece una cookie de origen). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> del servicio de identidad de la plataforma Adobe Experience. </p> </p> <p> Si <code> true </code>, no adjuntará el IFRAME de publicación de destino a los destinos DOM o fire. El valor predeterminado es <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Si <code> true </code>, no adjuntará el IFRAME de publicación de destino a los destinos DOM o fire. El valor predeterminado es <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> del servicio de identidad de la plataforma Adobe Experience. </p> </p> <p>Deshabilita la sincronización de ID. Debe deshabilitar las sincronizaciones de ID al utilizar DIL v6.2+ y el servicio de ID de Visitante. La <code> visitorService </code> función (consulte el código de muestra a continuación) se encarga de esta operación. </p> </td> 
+   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p>Deshabilita la sincronización de ID. Debe deshabilitar las sincronizaciones de ID al utilizar DIL v6.2+ y el servicio de ID de Visitante. La <code> visitorService </code> función (consulte el código de muestra a continuación) se encarga de esta operación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -92,7 +96,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.idSyncSSLUseAkamai </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> del servicio de identidad de la plataforma Adobe Experience. </p> </p> <p> Especifica si la plantilla de publicación de destino debería utilizar Akamai para conexiones HTTPS. Habilitado por socio. </p> </td> 
+   <td colname="col3"> <p> <p>Importante:  Este elemento está en desuso con <span class="wintitle"> DIL </span> versión 8.0 (lanzado en agosto de 2018). En su lugar, utilice la <code> visitor.idSyncSSLUseAkamai </code> función <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Especifica si la plantilla de publicación de destino debería utilizar Akamai para conexiones HTTPS. Habilitado por socio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -102,12 +106,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Requerido. </p> <p>El par <code> namespace </code> clave-valor contiene el ID de organización <span class="keyword"> de Experience Cloud </span> . Si no dispone de este ID, puede encontrarlo en la sección Administración <span class="wintitle"> del </span> panel de <span class="keyword"> Experience Cloud </span> . Necesita permisos de administrador para vista de este panel. Consulte las preguntas más frecuentes sobre las funciones y características del <a href="../../faq/faq-features.md"> producto </a> y <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administración - Administración de usuarios y preguntas más frecuentes </a>. </p> </td> 
+   <td colname="col3"> <p>Requerido. </p> <p>El par <code> namespace </code> clave-valor contiene el identificador de organización <span class="keyword"> Experience Cloud </span> . Si no tiene este ID, puede encontrarlo en la sección <span class="wintitle"> Administración </span> del <span class="keyword"> panel del Experience Cloud </span> . Necesita permisos de administrador para vista de este panel. Consulte las preguntas más frecuentes sobre las funciones y características del <a href="../../faq/faq-features.md"> producto </a> y <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administración - Administración de usuarios y preguntas más frecuentes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Requerido. </p> <p> Nombre del socio proporcionado por <span class="keyword"> el administrador de Audiencias </span>. </p> </td> 
+   <td colname="col3"> <p>Requerido. </p> <p> Nombre del socio proporcionado por el <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> removeFinishedScriptsAndCallbacks </code> </p> </td> 
@@ -117,12 +121,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
    <td colname="col2"> <p>Objeto </p> </td> 
-   <td colname="col3"> <p>Establece una cookie con el ID de usuario único que devuelve el Administrador de <span class="keyword"> Audiencias </span>. Consulte <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> Propiedades de uuidCookie </a>. </p> </td> 
+   <td colname="col3"> <p>Establece una cookie con el ID de usuario único que devuelve el <span class="keyword"> Audience Manager </span>. Consulte <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> Propiedades de uuidCookie </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Objeto </p> </td> 
-   <td colname="col3"> <p>Necesario con <span class="wintitle"> DIL </span> 6.2 o bueno. </p> <p> DIL se basa en la <code> setCustomerIDs </code> función del servicio de identidad de <span class="wintitle"> Adobe Experience Platform </span> para pasar los ID declarados al administrador de <span class="keyword"> Audiencias </span>. Consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de cliente y estados de autenticación</a> para obtener más información. </p> </td> 
+   <td colname="col3"> <p>Necesario con <span class="wintitle"> DIL </span> 6.2 o bueno. </p> <p> DIL se basa en la <code> setCustomerIDs </code> función del servicio de identidad de <span class="wintitle"> Adobe Experience Platform </span> para pasar los ID declarados al <span class="keyword"> Audience Manager </span>. Consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de cliente y estados de autenticación</a> para obtener más información. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,7 +190,7 @@ Define las propiedades utilizadas por la `visitorService` variable. Esta variabl
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `namespace` | Cadena | Requerido. Representa El ID De La Organización De Experience Cloud. Esto es necesario para la funcionalidad del servicio principal de Experience Cloud. El mismo parámetro utilizado para crear instancias de la funcionalidad de ID de Visitante. |
+| `namespace` | Cadena | Requerido. Representa El Id. De La Organización Experience Cloud. Esto es necesario para la funcionalidad del servicio principal de Experience Cloud. El mismo parámetro utilizado para crear instancias de la funcionalidad de ID de Visitante. |
 
 **Ejemplo de código:**
 
