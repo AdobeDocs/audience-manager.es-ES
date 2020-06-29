@@ -5,8 +5,12 @@ seo-title: Orden de las operaciones en el generador de características
 solution: Audience Manager
 title: Orden de las operaciones en el generador de características
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 3%
 
 ---
 
@@ -29,12 +33,12 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   <tr> 
    <td colname="col1"> Paréntesis </td> 
    <td colname="col2"> ( ) </td> 
-   <td colname="col3"> Las expresiones entre paréntesis siempre se evalúan primero y siguen el orden de prioridad. </td> 
+   <td colname="col3"> Las Expresiones entre paréntesis siempre se evalúan primero y siguen el orden de prioridad. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de comparación </td> 
    <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
-   <td colname="col3"> A continuación se evalúan los valores menores que, mayores que, menores o iguales que, mayores o iguales a. </td> 
+   <td colname="col3"> A continuación se evalúan menos que, bueno que, menor o igual que, bueno o igual a. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de igualdad </td> 
@@ -56,6 +60,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!MORELIKETHIS]
 >
->* [Uso de expresiones booleanas (AND, OR, NOT) en TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Uso de Expresiones booleanas (AND, OR, NOT) en TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Uso de operadores de comparación en TraitBuilder](../../features/traits/trait-comparison-operators.md)
 
