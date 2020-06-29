@@ -5,8 +5,9 @@ seo-title: Uso compartido de Audiencias entre Audience Manager y Adobes Experien
 solution: Audience Manager
 title: Uso compartido de Audiencias entre Audience Manager y Adobes Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 36c820de5ccb68da6d0e519467edc869064b6e81
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 2%
