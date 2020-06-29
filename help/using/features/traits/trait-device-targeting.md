@@ -1,27 +1,31 @@
 ---
-description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para dirigirse a usuarios con variables relacionadas con el dispositivo en todas las propiedades de su cuenta de Audience Manager.
-seo-description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para dirigirse a usuarios con variables relacionadas con el dispositivo en todas las propiedades de su cuenta de Audience Manager.
-seo-title: Segmentación de dispositivos con claves de nivel de plataforma
+description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
+seo-description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
+seo-title: Segmentación de dispositivos con claves de nivel Platform
 solution: Audience Manager
-title: Segmentación de dispositivos con claves de nivel de plataforma
+title: Segmentación de dispositivos con claves de nivel Platform
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
-Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para dirigirse a usuarios con variables relacionadas con el dispositivo en todas las propiedades de su cuenta de Audience Manager.
+Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
 
-## Objetivo de las variables de nivel de plataforma {#platform-variables}
+## Objetivo de las variables de nivel Platform {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Las variables de nivel de plataforma le permiten tomar datos pasados desde un sitio en particular y ponerlos a disposición para objetivos en todas las propiedades de su [!DNL Audience Manager] cuenta. Estas variables están formadas por pares [](../../reference/key-value-pairs-explained.md) clave-valor con la clave con el prefijo `d_` como se muestra a continuación.
+Las variables de nivel de Platform permiten tomar datos pasados desde un sitio en particular y ponerlos a disposición para objetivos en todas las propiedades de la [!DNL Audience Manager] cuenta. Estas variables están formadas por pares [](../../reference/key-value-pairs-explained.md) clave-valor con la clave con el prefijo `d_` como se muestra a continuación.
 
-## Claves de nivel de plataforma definidas por el agente de usuario {#keys-user-agent}
+## Claves de nivel Platform definidas por el agente de usuario {#keys-user-agent}
 
 Extraer los [!UICONTROL Data Collection Servers] valores de estas claves del encabezado [del agente de](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) usuario en `HTTP` las solicitudes. Los valores representan información de nivel de dispositivo de la [!UICONTROL Device Atlas] base de datos. Las señales de la siguiente tabla están disponibles, según se extrae del ejemplo del agente de usuario. [Descargue una lista de las claves](assets/device_keys.csv)más comunes, según [!UICONTROL Device Atlas] las mediciones.
 
