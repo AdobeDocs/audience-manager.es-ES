@@ -5,8 +5,9 @@ seo-title: Envío de segmentos a una Lista de remercadotecnia de Google AdWords
 solution: Audience Manager
 title: Envío de segmentos a una Lista de remercadotecnia de Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c70d02637615848a86fc980a70868a6b0f7bda00
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
