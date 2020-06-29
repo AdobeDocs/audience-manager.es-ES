@@ -5,8 +5,9 @@ seo-title: Usar los permisos de bloque entre cuentas de Amazon S3 para los archi
 solution: Audience Manager
 title: Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos salientes
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 14%
@@ -18,4 +19,4 @@ ht-degree: 14%
 
 El [!UICONTROL Outbound Data Transfer] proceso para los clientes que utilizan [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) nos obliga a solicitar la clave de [!DNL Amazon S3] acceso y la clave secreta para poder entregar los archivos de datos salientes a su bucket.
 
-Si no desea compartir su clave de [!DNL Amazon S3] acceso y clave secreta con nosotros, póngase en contacto con su [!DNL Audience Manager] consultor o con el Servicio de atención al cliente y le proporcionarán la configuración [!DNL Cross-Account Bucket Permissions] correspondiente. Sólo necesita agregar nuestro ID de cuenta a una lista de permitir para el [!DNL Amazon S3] bucket donde desee recibir los archivos de datos salientes, como se describe en la documentación [!DNL S3] de [](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)Amazon S3. Su [!DNL Audience Manager] consultor o el Servicio de atención al cliente le proporcionarán nuestro ID de [!DNL Amazon S3] cuenta.
+Si no desea compartir su clave de [!DNL Amazon S3] acceso y clave secreta con nosotros, póngase en contacto con su [!DNL Audience Manager] consultor o con el Servicio de atención al cliente y le proporcionarán la configuración [!DNL Cross-Account Bucket Permissions] correspondiente. Sólo necesita agregar nuestro ID de cuenta a una lista de permitidos para el [!DNL Amazon S3] bloque donde desea recibir los archivos de datos salientes, como se describe en la documentación [!DNL S3] de [](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)Amazon S3. Su [!DNL Audience Manager] consultor o el Servicio de atención al cliente le proporcionarán nuestro ID de [!DNL Amazon S3] cuenta.
