@@ -5,8 +5,9 @@ seo-title: Macros de destino definidas
 solution: Audience Manager
 title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -40,16 +41,16 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta el ID del administrador <span class="keyword"> de</span> Audiencias del usuario en la dirección URL de destino. </p> </td> 
+   <td colname="col2"> <p>Inserta el ID de <span class="keyword"> Audience Manager</span> del usuario en la dirección URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>La ID <i>del origen de</i> datos corresponde al identificador de un origen de datos que se pasa a la macro. </p> <p>Veamos cómo funciona esto en un ejemplo sencillo. En este caso, contamos con un socio <span class="keyword"> Administrador</span> de Audiencias con los siguientes ID y condiciones: </p> 
+   <td colname="col2"> <p>La ID <i>del origen de</i> datos corresponde al identificador de un origen de datos que se pasa a la macro. </p> <p>Veamos cómo funciona esto en un ejemplo sencillo. En este caso, tenemos un socio <span class="keyword"> Audience Manager</span> con las siguientes ID y condiciones: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID de fuente de datos: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID de cliente interno: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarado: El socio desea pasar estos valores como ID declarado <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para hacerlo con el <code>%dpid_<i>data source id</i>%</code>, el socio del Administrador <span class="keyword"> de</span> Audiencias aplicaría este formato a la macro: </p> 
+    </ul> <p>Para hacerlo con el <code>%dpid_<i>data source id</i>%</code>, el <span class="keyword"> socio Audience Manager</span> aplicaría este formato a la macro: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro se reemplazará <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
@@ -59,11 +60,11 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indica si las regulaciones del RGPD se aplican al visitante o no. Utilice esta macro para incluir el consentimiento en segmentos enviados a destinos URL integrados con IAB. Consulte el complemento Administrador de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audiencias para TCF</a> IAB para obtener más información.</p></td>
+    <td><p>Indica si las regulaciones del RGPD se aplican al visitante o no. Utilice esta macro para incluir el consentimiento en segmentos enviados a destinos URL integrados con IAB. Consulte el complemento <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para TCF</a> de IAB para obtener más información.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>La cadena de consentimiento (incluida la ID del proveedor de IAB) recopilada cuando los visitantes proporcionan o niegan el consentimiento en el sitio. Utilice esta macro para incluir la cadena de consentimiento en segmentos enviados a destinos URL integrados con IAB. Reemplazar <code>XXXX</code> por el ID del socio de destino. Consulte el complemento Administrador de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audiencias para TCF</a> IAB para obtener más información. </p></td>
+    <td><p>La cadena de consentimiento (incluida la ID del proveedor de IAB) recopilada cuando los visitantes proporcionan o niegan el consentimiento en el sitio. Utilice esta macro para incluir la cadena de consentimiento en segmentos enviados a destinos URL integrados con IAB. Reemplazar <code>XXXX</code> por el ID del socio de destino. Consulte el complemento <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para TCF</a> de IAB para obtener más información. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -76,11 +77,11 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta el <span class="keyword"> ID de Experience Cloud</span> en la dirección URL de destino. </p> </td> 
+   <td colname="col2"> <p>Inserta el ID de <span class="keyword"> Experience Cloud</span> en la dirección URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta la región del servidor de recopilación de datos (DCS) <span class="wintitle"></span> en la dirección URL de destino. Para minimizar la latencia, cuando el visitante realiza una llamada HTTP al Administrador <span class="keyword"> de</span>Audiencias, se les redirige al centro de datos DCS <span class="wintitle"></span> más cercano. Esto se logra a través de DNS, que puede detectar la ubicación del visitante y dirigirlo al centro de datos apropiado. </p> </td> 
+   <td colname="col2"> <p>Inserta la región del servidor de recopilación de datos (DCS) <span class="wintitle"></span> en la dirección URL de destino. Para minimizar la latencia, cuando el visitante realiza una llamada HTTP al <span class="keyword"> Audience Manager</span>, se les redirige al centro de datos DCS <span class="wintitle"></span> más cercano. Esto se logra a través de DNS, que puede detectar la ubicación del visitante y dirigirlo al centro de datos apropiado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
