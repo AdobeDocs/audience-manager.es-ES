@@ -1,19 +1,23 @@
 ---
-description: Cuando Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, al compartir esta información con sus clientes (o trabajar con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, tableros u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
-seo-description: Cuando Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, al compartir esta información con sus clientes (o trabajar con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, tableros u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
+description: Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, al compartir esta información con sus clientes (o trabajar con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
+seo-description: Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, al compartir esta información con sus clientes (o trabajar con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
 seo-title: Recuperación de metadatos del segmento
 solution: Audience Manager
 title: Recuperación de metadatos del segmento
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
+feature: Segments
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
 
 # Recuperación de metadatos del segmento {#retrieving-segment-metadata}
 
-Cuando Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, al compartir esta información con sus clientes (o trabajar con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, tableros u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
+Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con él mismo), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres prácticos a disposición de sus clientes con los métodos manuales o automatizados descritos en esta sección.
 
 ## Método manual {#manual-method}
 
@@ -53,7 +57,7 @@ Después de completar los pasos anteriores, puede utilizar un `GET` método para
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento de <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>ID del segmento del <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 
@@ -67,9 +71,9 @@ Después de completar los pasos anteriores, puede utilizar un `GET` método para
    <td colname="col1"> <p> <code> elementStatus</code> </p> </td> 
    <td colname="col2"> <p>Estado actual de la asignación de segmentos. Las opciones de estado que se devuelve incluyen: </p> 
     <ul id="ul_BA3A1F5A773D4ECD9A1A3A1118BDDA8A"> 
-     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> activo</code> </li> 
-     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inactivo</code> </li> 
-     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> eliminado</code> </li> 
+     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> active</code> </li> 
+     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inactive</code> </li> 
+     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> deleted</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
