@@ -1,19 +1,23 @@
 ---
-description: Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en el Administrador de Audiencias.
-seo-description: Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en el Administrador de Audiencias.
+description: Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en Audience Manager.
+seo-description: Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en Audience Manager.
 seo-title: DIL Flash
 solution: Audience Manager
 title: DIL Flash
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 1%
 
 ---
 
 
 # DIL Flash{#flash-dil}
 
-Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en el Administrador de Audiencias.
+Recopilar datos enviados desde archivos FLA a Analytics y trabajar con esa información en Audience Manager.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] es una biblioteca [!DNL ActionScript] de código que permite trabajar con datos de reproducción de vídeo en el Administrador de Audiencias. [!DNL Flash DIL] funciona capturando contenido SWF que la biblioteca de Adobe [!UICONTROL AppMeasurement] pasa a Analytics. [!DNL Flash DIL] envía esos datos al módulo de recopilación de datos [!UICONTROL DIL] JavaScript independiente, que pasa esa información al Administrador de Audiencias. Datos de Analytics ( [!UICONTROL Props], [!UICONTROL eVars], eventos, etc.) capturado del [!DNL FLA] archivo está disponible en el Administrador de Audiencias como características o señales no utilizadas.
+[!UICONTROL Flash DIL] es una biblioteca [!DNL ActionScript] de código que permite trabajar con datos de reproducción de vídeo en Audience Manager. [!DNL Flash DIL] funciona capturando contenido SWF que la biblioteca de Adobe [!UICONTROL AppMeasurement] pasa a Analytics. [!DNL Flash DIL] envía esos datos al módulo de recopilación de datos [!UICONTROL DIL] JavaScript independiente, que pasa esa información al Audience Manager. Datos de Analytics ( [!UICONTROL Props], [!UICONTROL eVars], eventos, etc.) capturado del [!DNL FLA] archivo está disponible en Audience Manager como características o señales no utilizadas.
 
 ## Requisitos para la recopilación de datos DIL de Flash {#requirements}
 
@@ -95,9 +99,9 @@ Los datos de estos parámetros se recopilan de forma predeterminada:
 * `mediaAdParentPod` (El pod o la pausa publicitaria dentro del contenido principal en el que se reproduce el anuncio)
 * `mediaAdParentPodPos` (Posición numérica dentro del pod donde se reproduce el anuncio. Se puede reproducir más de un anuncio en un pod.
 
-## Datos DIL de Flash en el Administrador de Audiencias {#flash-dil-data}
+## Datos DIL de Flash en Audience Manager {#flash-dil-data}
 
-El [!UICONTROL Flash DIL] módulo convierte los datos de Adobe AppMeasurement en características del Administrador de Audiencias y señales no utilizadas.
+El [!UICONTROL Flash DIL] módulo convierte los datos de Adobe AppMeasurement en características de Audience Manager y señales no utilizadas.
 
 <!-- 
 
@@ -105,15 +109,15 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props][!UICONTROL eVars]y eventos funcionan como características en el Administrador de Audiencias. Las características son pares clave-valor y se utilizan para generar segmentos. Por ejemplo, en una propiedad de Analytics como `c30=foo`, `c30` es la clave (una constante) y `foo` es el valor (una variable).
+Analytics [!UICONTROL Props], [!UICONTROL eVars]y los eventos funcionan como rasgos en el Audience Manager. Las características son pares clave-valor y se utilizan para generar segmentos. Por ejemplo, en una propiedad de Analytics como `c30=foo`, `c30` es la clave (una constante) y `foo` es el valor (una variable).
 
-**Coincidencia de características del Administrador de Audiencias con variables de Analytics**
+**Hacer coincidir las características del Audience Manager con las variables de Analytics**
 
-Para utilizar los datos de Analytics pasados por [!UICONTROL Flash DIL], debe crear características del Administrador de Audiencias con el valor clave con el prefijo `c_`.
+Para utilizar los datos de Analytics pasados por [!UICONTROL Flash DIL], debe crear características de Audience Manager con el prefijo `c_`.
 
 Consulte la tabla para ver ejemplos:
 
-| Elemento Datos de Analytics | Ejemplo de Analytics | Como característica del Administrador de Audiencias |
+| Elemento Datos de Analytics | Ejemplo de Analytics | Como rasgo Audience Manager |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
@@ -121,11 +125,11 @@ Consulte la tabla para ver ejemplos:
 
 **Datos DIL/Analytics como señales no utilizadas**
 
-El Administrador de Audiencias acepta Analytics [!UICONTROL Props][!UICONTROL eVars]y eventos incluso sin la característica correspondiente. En este caso, los datos no están disponibles para la creación de características y aparecen en el informe [Señales](../reporting/dynamic-reports/unused-signals.md) no utilizadas. Para aprovechar al máximo esta información, cree características del Administrador de Audiencias que coincidan con los datos de Analytics pasados por la [!UICONTROL Flash DIL] biblioteca.
+Audience Manager acepta Analytics [!UICONTROL Props], [!UICONTROL eVars]y eventos incluso sin la característica correspondiente. En este caso, los datos no están disponibles para la creación de características y aparecen en el informe [Señales](../reporting/dynamic-reports/unused-signals.md) no utilizadas. Para aprovechar al máximo esta información, cree características de Audience Manager que coincidan con los datos de Analytics pasados por la [!UICONTROL Flash DIL] biblioteca.
 
 ## Biblioteca de ActionScript DIL de Flash {#flash-dil-actionscript}
 
-Código para que el [!DNL Flash] objeto envíe datos de Analytics al Administrador de Audiencias.
+Código para que el [!DNL Flash] objeto envíe datos de Analytics al Audience Manager.
 
 <!-- 
 
