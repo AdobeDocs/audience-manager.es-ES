@@ -1,19 +1,23 @@
 ---
-description: Describe los métodos del espacio de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
-seo-description: Describe los métodos del espacio de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
+description: Describe los métodos de la Área de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
+seo-description: Describe los métodos de la Área de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 seo-title: Herramientas DIL
 solution: Audience Manager
 title: Herramientas DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 
 # Herramientas DIL
 
-Describe los métodos del espacio de nombres `DIL.tools` . Estas funciones de utilidad le ayudan a realizar tareas específicas.
+Describe los métodos de la `DIL.tools` Área de nombres. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
 <!-- 
 
@@ -70,11 +74,11 @@ Y devuelve:
   </tr> 
   <tr> 
    <td>Pasar una dirección URL personalizada</td> 
-   <td>Devuelve el referente de búsqueda basado en una dirección URL personalizada.</td> 
+   <td>Devuelve el remitente del reenvío de búsqueda basado en una dirección URL personalizada.</td> 
    <td> 
   <code>
-        var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
   </tr> 
@@ -84,10 +88,10 @@ Y devuelve:
    <td> 
   <code>
       var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/
-    search.aspx?q=adobe+rules",{ 
-       hostPattern:/ehow\./, 
-         queryParam:"p" 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/
+      search.aspx?q=adobe+rules",{ 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
@@ -96,11 +100,11 @@ Y devuelve:
    <td> Pase un regex personalizado para realizar una búsqueda personalizada. </td> 
    <td> 
     <code>
-      var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-    {
-       hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -171,9 +175,12 @@ Firma de función: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Código de muestra
 
 <pre class="&ldquo;javascript&rdquo;"><code>
-var dataLib = DIL.create({ partner: '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
 
-dataLib.api.signal(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
@@ -181,5 +188,6 @@ var dataLib = DIL.create({
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
+
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
