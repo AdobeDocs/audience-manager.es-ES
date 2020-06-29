@@ -5,8 +5,12 @@ seo-title: Ejemplos de macros de salida
 solution: Audience Manager
 title: Ejemplos de macros de salida
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 3d14d58b9cb66faf506ab729e7ff85dc1818d37e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +25,7 @@ Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantilla
 
 ## Macros de nombre de archivo {#file-name-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte Macros de plantilla [de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -69,7 +73,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte Macros de 
 
 ## Macros de fila de encabezado {#header-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte Macros de plantilla [de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -88,7 +92,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte Macros de 
 
 ## Macros de contenido de archivo {#file-content-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte Macros de plantilla [de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
