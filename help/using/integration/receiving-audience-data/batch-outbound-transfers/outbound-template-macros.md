@@ -1,23 +1,27 @@
 ---
-description: Enumera las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
-seo-description: Enumera las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
+description: Lista las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
+seo-description: Lista las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
 seo-title: Macros de plantillas de salida
 solution: Audience Manager
 title: Macros de plantillas de salida
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 3%
 
 ---
 
 
 # Macros de plantillas de salida {#outbound-template-macros}
 
-Enumera las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
+Lista las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
 
 ## Macros de nombre de archivo y encabezado de archivo {#file-name-header-macros}
 
-La tabla enumera y describe las macros que puede utilizar en el nombre del archivo y para definir los campos de encabezado. Para ver ejemplos de código, consulte Ejemplos de macros [salientes](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+La tabla lista y describe las macros que puede utilizar en el nombre del archivo y para definir los campos de encabezado. Para ver ejemplos de código, consulte Ejemplos de macros [salientes](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -107,11 +111,11 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificador de usuario único del proveedor de datos </span>. </p> <p>Es el ID del socio de datos al que envía los datos en un archivo saliente. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificador de usuario único del proveedor de datos </span>. </p> <p>Es el ID del socio de datos al que se envían los datos en un archivo saliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Devuelve una lista que contiene varios ID para un socio de datos. Esto resulta útil si tiene una organización grande con varias subdivisiones u otros grupos organizativos con los que puede compartir datos. Esta macro devuelve una lista de los ID de esos grupos subordinados. </p> </td> 
+   <td colname="col2"> <p>Devuelve una lista que contiene varios ID para un socio de datos. Esto resulta útil si tiene una organización grande con varias subdivisiones u otros grupos organizativos con los que puede compartir datos. Esta macro devuelve una lista de los ID para esos grupos subordinados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -123,7 +127,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
-   <td colname="col2"> <p>Esta combinación de macros crea una afirmación condicional que enumera los segmentos a los que pertenecen los usuarios y de los que se han eliminado. Devuelve una cadena vacía si no se cumplen ambas condiciones o no hay datos. </p> </td> 
+   <td colname="col2"> <p>Esta combinación de macros crea una afirmación condicional que lista a los segmentos a los que pertenecen los usuarios y a los que se han eliminado. Devuelve una cadena vacía si no se cumplen ambas condiciones o no hay datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
@@ -163,7 +167,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Devuelve una lista de segmentos de una lista. Acepta los siguientes argumentos opcionales: </p> 
+   <td colname="col2"> <p>Devuelve una lista de segmentos en una lista. Acepta los siguientes argumentos opcionales: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:: ID del segmento. Obsoleta. Utilice <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>:: ID del segmento del cliente. Obsoleta. Utilice <code> sid </code>. </li> 
@@ -204,7 +208,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
      <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>:: Identifica los tipos de rasgos por ID numérica. Devuelve: 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
-       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> que identifica una característica DPM (sin conexión, con un trabajo entrante). </li> 
+       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> que identifica un rasgo DPM (sin conexión, incorporado por un trabajo entrante). </li> 
        <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> que identifica una característica basada en reglas (en tiempo real, incorporada a través del DCS). </li> 
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>:: ID de característica. </li> 
@@ -213,7 +217,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID de usuario </span> de Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ID </span> de usuario de Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>
