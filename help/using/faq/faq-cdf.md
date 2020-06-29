@@ -5,8 +5,12 @@ seo-title: Preguntas más frecuentes sobre la fuente de datos del cliente
 solution: Audience Manager
 title: Preguntas más frecuentes sobre la fuente de datos del cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
+feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 7018705c130bf7c65f3a69da5e4bd9e0666423bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 7018705c130bf7c65f3a69da5e4bd9e0666423bc
 
 Preguntas más frecuentes sobre los archivos de Fuente de datos del cliente (CDF).
 
-## Almacenamiento de Amazon S3 {#amazon-s3-storage}
+## Almacenamiento Amazon S3 {#amazon-s3-storage}
 
 **¿Dónde se almacena mi archivo CDF en[!DNL Amazon]?**
 
@@ -23,13 +27,13 @@ El archivo CDF se almacena en el directorio `aam-cdf` raíz de un [!DNL Amazon S
 
 <br> 
 
-**¿Es seguro mi depósito de almacenamiento?**
+**¿Es seguro mi cubo de almacenamiento?**
 
-Sí. Los clientes obtienen acceso a su propio espacio de almacenamiento solamente. Tendrá acceso de sólo lectura a su depósito de almacenamiento. No tendrá acceso de escritura.
+Sí. Los clientes solo tienen acceso a su propio espacio de almacenamiento. Tendrá acceso de sólo lectura a su cubo de almacenamiento. No tendrá acceso de escritura.
 
 <br> 
 
-**¿Puedo personalizar mi depósito de almacenamiento o almacenar archivos en otro directorio?**
+**¿Puedo personalizar mi contenedor de almacenamiento o almacenar archivos en otro directorio?**
 
 No. Las opciones de personalización y almacenamiento alternativo no están disponibles.
 
