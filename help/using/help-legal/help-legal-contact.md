@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Información que le ayudará a comunicarse con Adobe y a comprender los aspectos
 
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
-* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/support.ec.html)
+* [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/support.ec.html)
 * [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
@@ -35,8 +35,8 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 Published by Adobe Systems Incorporated.
 
-[Condiciones de uso](https://www.adobe.com/legal/terms.html) | [Centro de privacidad](https://www.adobe.com/privacy.html)
+[Condiciones de uso](https://www.adobe.com/es/legal/terms.html) | [Centro de privacidad](https://www.adobe.com/es/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/es/products/eula/third_party/).
