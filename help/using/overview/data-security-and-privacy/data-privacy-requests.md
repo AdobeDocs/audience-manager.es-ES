@@ -1,6 +1,6 @@
 ---
-description: Este documento cubre los aspectos técnicos relacionados con la conformidad de las regulaciones de privacidad de datos para el Audience Manager.
-seo-description: Este documento cubre los aspectos técnicos relacionados con la conformidad de las regulaciones de privacidad de datos para el Audience Manager.
+description: Este documento trata los aspectos técnicos relacionados con el cumplimiento de las regulaciones de privacidad de datos para Audience Manager.
+seo-description: Este documento trata los aspectos técnicos relacionados con el cumplimiento de las regulaciones de privacidad de datos para Audience Manager.
 seo-title: Solicitudes de privacidad de datos
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 1%
+ht-degree: 65%
 
 ---
 
@@ -20,63 +20,63 @@ ht-degree: 1%
 
 ## Información general {#overview}
 
-Este documento proporciona información general sobre la administración de la privacidad de datos individuales y las solicitudes de exclusión a las que puede enviar [!DNL Audience Manager] a través de la interfaz de usuario [del](https://privacyui.cloud.adobe.io/) Privacy Service y el **[!DNL Privacy Service API]**.
+This document provides an overview of managing individual data privacy and opt-out requests that you can send to [!DNL Audience Manager] through the [Privacy Service UI](https://privacyui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
 
-Estas herramientas le permiten enviar solicitudes de privacidad de datos del consumidor realizadas en [!DNL GDPR] y [!DNL CCPA].
+These tools allow you to send consumer data privacy requests made under [!DNL GDPR] and [!DNL CCPA].
 
-Antes de leer este artículo, recomendamos ir a través del Glosario [del](../data-security-and-privacy/aam-gdpr-glossary.md) GDPR y del Glosario [CCPA](aam-ccpa-glossary.md), para comprender mejor la terminología utilizada aquí.
+Antes de leer este artículo, le recomendamos consultar el [Glosario del RGPD](../data-security-and-privacy/aam-gdpr-glossary.md) y el [Glosario de la CCPA](aam-ccpa-glossary.md) para entender mejor la terminología empleada.
 
-Puede enviar solicitudes individuales para acceder a los datos de consumo y eliminarlos de [!DNL Audience Manager]dos maneras:
+You can submit individual requests to access and delete consumer data from [!DNL Audience Manager], in two ways:
 
-* A través de la interfaz de usuario del [Privacy Service](https://privacyui.cloud.adobe.io/). Consulte la documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* A través del **[!DNL Privacy Service API]**. Consulte la documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) y la [!DNL API] referencia [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* A través de la [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/). Consulte la documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
+* A través de la **[!DNL Privacy Service API]**. Consulte la documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)[!DNL API] y la referencia de la [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Al enviar solicitudes de privacidad de datos individuales, puede enviar cualquier [!DNL Audience Manager] identificador (ID), tal como se describe en la sección Identificadores **[de](data-privacy-ids.md)**Audience Manager, junto con sus respectivos ID de Área de nombres (ID de fuentes de datos).
+When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)**section, along with their respective namespace IDs (data source IDs).
 
-El [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) admite dos tipos de solicitudes: solicitudes de acceso a datos y eliminación de datos.
+El [Privacy Service](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html) admite dos tipos de solicitudes: solicitudes de acceso a datos y eliminación de datos.
 
 ## Solicitudes de acceso a datos {#access-data}
 
-Puede enviar solicitudes de acceso a datos individuales a través de la interfaz de usuario [del](https://privacyui.cloud.adobe.io/) Privacy Service ( [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)encontrará la documentación) o llamando a la [!DNL Privacy Service API] (la documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) y la [!DNL API] referencia [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+Puede enviar solicitudes de acceso a datos individuales a través de la [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) (documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) o llamando a la [!DNL Privacy Service API] (documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html) y referencia de la [!DNL API] [aquí ](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-La interfaz de usuario [del](https://privacyui.cloud.adobe.io/) Privacy Service le permite crear nuevas solicitudes de trabajo mediante el uso [!UICONTROL Request Builder] o cargando un [!DNL JSON] archivo.
+La [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) permite crear nuevas solicitudes de trabajo mediante el uso del [!UICONTROL Request Builder] o cargando un archivo [!DNL JSON].
 
-Para ver el aspecto de un [!DNL JSON] archivo válido, puede [descargar un JSON](../data-security-and-privacy/assets/access_request.json)de muestra.
+Para ver la apariencia de un archivo [!DNL JSON]válido, puede [ descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
 
-Comprendemos su compromiso de cumplir con sus solicitudes de privacidad de datos dentro del período de tiempo establecido por la legislación.
+Entendemos su compromiso de cumplir con sus solicitudes de privacidad de datos dentro del período de tiempo establecido por la legislación.
 
 ## Solicitudes de eliminación de datos {#delete-data}
 
-Puede enviar solicitudes de eliminación de datos a través de la interfaz de usuario [del](https://privacyui.cloud.adobe.io/) Privacy Service ( [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)encontrará la documentación) o llamando a la [!DNL Privacy Service API] (la documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) y la [!DNL API] referencia [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+Puede enviar solicitudes de eliminación de datos a través de la [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) (documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) o llamando a la [!DNL Privacy Service API] (documentación [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html)[!DNL API] y referencia de [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-La interfaz de usuario [del](https://privacyui.cloud.adobe.io/) Privacy Service le permite crear nuevas solicitudes de trabajo mediante el uso [!UICONTROL Request Builder] o cargando un [!DNL JSON] archivo.
+La [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) permite crear nuevas solicitudes de trabajo mediante el uso del [!UICONTROL Request Builder] o cargando un archivo [!DNL JSON].
 
-Para ver el aspecto de un [!DNL JSON] archivo válido, puede [descargar un JSON](../data-security-and-privacy/assets/access_request.json)de muestra.
+Para ver la apariencia de un archivo [!DNL JSON]válido, puede [ descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
 
-Adobe comprende su compromiso de cumplir sus solicitudes de privacidad de datos en un plazo de 30 días. Por este motivo, [!DNL Adobe] se compromete a procesar su solicitud de eliminación de datos lo antes posible.
+Adobe entiende su compromiso de cumplir sus solicitudes de privacidad de datos en un plazo de 30 días. For that reason, [!DNL Adobe] is committed to processing your data deletion request as soon as possible.
 
-En respuesta a las solicitudes de eliminación de datos de consumo, [!DNL Audience Manager] elimina las características y los segmentos asociados con el [!DNL Audience Manager] identificador incluido en la solicitud. Además, se eliminarán los [!DNL Audience Manager] identificadores respectivos para el individuo exclusión de una recopilación de datos posterior por [!DNL Audience Manager] y las asignaciones de ID correspondientes.
+In response to your consumer data deletion requests, [!DNL Audience Manager] deletes traits and segments associated with the [!DNL Audience Manager] identifier included in the request. Additionally, the respective [!DNL Audience Manager] identifiers for the individual opted out of further data collection by [!DNL Audience Manager] and the respective ID mappings will be removed.
 
-Al enviar ID declarados, como [!DNL CRM] ID o [!DNL cookie] ID de varios dispositivos, en las solicitudes de privacidad de datos, [!DNL Audience Manager] se realizará la eliminación necesaria en todos los dispositivos vinculados (hasta 100 dispositivos por ID declarado).
+When you send declared IDs, such as cross device [!DNL CRM] IDs or [!DNL cookie] IDs, in data privacy requests, [!DNL Audience Manager] will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
-[!DNL Audience Manager] intentará notificar a los socios de activación acerca de las solicitudes de eliminación enviándoles información sin segmentar para los sujetos de datos que soliciten la eliminación de ciertos datos. Sin embargo, algunos socios de activación:
+[!DNL Audience Manager] intentará notificar a los socios de activación sobre las solicitudes de eliminación enviándoles información sin segmentar para los sujetos de datos que soliciten la eliminación de ciertos datos. Sin embargo, algunos socios de activación:
 
-1. No se pueden admitir solicitudes de dessegmentación (o eliminación de segmentos) de [!DNL Audience Manager] y/o
-2. No pueden recibir actualizaciones de [!DNL Audience Manager] con una frecuencia inferior a 30 días. En esos casos, [!DNL Audience Manager] los clientes no pueden enviar solicitudes de eliminación a los socios de activación de forma automatizada a través de [!DNL Audience Manager].
+1. Cannot support unsegment (or remove segment) requests from [!DNL Audience Manager] and/or
+2. Are not able to receive updates from [!DNL Audience Manager] with a frequency of less than 30 days. In those cases, [!DNL Audience Manager] customers are not able to send delete requests to activation partners in an automated way through [!DNL Audience Manager].
 
-En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada [!DNL Audience Manager].
+En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada a través de [!DNL Audience Manager].
 
-Descargue nuestra hoja [de Excel de](assets/AAM-Partners-October2019.xlsx) socio para ver qué socios de [!DNL Audience Manager] activación admiten el dessegmento.
+Descargue nuestra [hoja Excel de socio](assets/AAM-Partners-October2019.xlsx) para ver qué socios de activación de admiten el desegmento.[!DNL Audience Manager]
 
 ## Solicitudes de exclusión {#opt-out-requests}
 
-[!DNL Audience Manager] apoya las normas de toda la industria en relación con la gestión de la exclusión. Continúe leyendo para obtener información completa sobre los tipos de exclusión admitidos por [!DNL Audience Manager].
+[!DNL Audience Manager] apoya las normas de toda la industria en relación con la gestión de la exclusión. Siga leyendo para disponer de toda la información sobre los tipos de exclusión admitidos por [!DNL Audience Manager].
 
-Mientras que las solicitudes de acceso y eliminación de datos se gestionan a través del [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), las solicitudes de exclusión se admiten actualmente a través del [!DNL DCS API]. Siga leyendo para conocer el aspecto que deben tener las llamadas de exclusión [!DNL API] .
+While data access and deletion requests are handled through the [Privacy Service](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html), opt-out requests are currently supported through the [!DNL DCS API]. Read on to learn what the opt-out [!DNL API] calls should look like.
 
 ### Solicitudes globales de exclusión
 
-La exclusión global representa una exclusión entre [!DNL Audience Manager] y otras [!DNL Adobe Experience Cloud] soluciones para todas las marcas. La siguiente tabla lista los métodos utilizados para la exclusión global:
+The global opt-out represents an opt-out across [!DNL Audience Manager] and other [!DNL Adobe Experience Cloud] solutions for all brands. La siguiente tabla incluye los métodos utilizados para la exclusión global:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -88,53 +88,53 @@ La exclusión global representa una exclusión entre [!DNL Audience Manager] y o
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>La página <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Sus opciones de privacidad </a> proporciona funciones de 1 clic que permiten a los usuarios finales controlar y excluir la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (incluido el Audience Manager). Concretamente, consulte la sección <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> cliente comercial </a> de la página Opciones de privacidad. </p> </td> 
+   <td colname="col2"> <p>La <a href="https://www.adobe.com/es/privacy/opt-out.html#customeruse" format="http" scope="external"> página de opciones de privacidad </a> incluye funciones de 1 clic que permiten a los usuarios finales controlar y excluir la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (incluido Audience Manager). Concretamente, consulte la <a href="https://www.adobe.com/es/privacy/opt-out.html#customeruse" format="http" scope="external"> sección cliente comercial </a> de la página Opciones de privacidad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Llamadas de API directas al Audience Manager </p> </td> 
-   <td colname="col2"> <p>Los usuarios pueden desactivar la recopilación de datos de todas las marcas Audience Manager haciendo una llamada a la API de DCS a continuación e incluir el ID de usuario <a href="../../reference/ids-in-aam.md"> Audience Manager </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>Como resultado, estableceremos <code>demdex=NOTARGET</code> y <code>dextp=NOTARGET</code> cookies para el ID de usuario del Audience Manager enviado. </p> </td> 
+   <td colname="col1"> <p>Llamadas de API directas a Audience Manager </p> </td> 
+   <td colname="col2"> <p>Los usuarios pueden desactivar la recopilación de datos en todas las marcas de Audience Manager haciendo una llamada a la siguiente API de DCS e incluir el <a href="../../reference/ids-in-aam.md">ID de usuario de Audience Manager</a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>Como resultado, estableceremos las cookies <code>demdex=NOTARGET</code> y <code>dextp=NOTARGET</code> para el ID de usuario de Audience Manager enviado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dispositivos móviles </p> </td> 
    <td colname="col2"> <p>Consulte la configuración de exclusión y privacidad para: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/es-ES/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/es-ES/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Los usuarios finales también pueden exclusión la recopilación global de datos visitando los sitios web de nuestros socios de estándares del sector.
+Los usuarios finales también pueden excluir la recopilación global de datos visitando los sitios web de nuestros socios de estándares del sector.
 
-* [La Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
-* [Iniciativa de publicidad en red (NAI)](https://optout.networkadvertising.org/?c=1#!/).
+* [The Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/).
 
-Siguiendo las solicitudes de exclusión descritas anteriormente:
+Según las solicitudes de exclusión descritas anteriormente:
 
-* [!DNL Audience Manager] cesará toda recopilación, segmentación o activación de datos, siempre que el usuario no borre las cookies del explorador.
-* Los datos históricos se eliminan del perfil del usuario pasados 120 días.
+* [!DNL Audience Manager] cancelará toda la recopilación, segmentación o activación de datos, siempre que el usuario no borre las cookies del explorador.
+* Los datos históricos se eliminan del perfil del usuario transcurridos 120 días.
 
 ### Opción de exclusión de nivel de socio con llamadas de ID declaradas
 
-La exclusión a nivel de socio le permite excluir a los usuarios de la recopilación de datos por parte de [!DNL Audience Manager] socios específicos. Puede enviar solicitudes de exclusión a nivel de socio para ID entre dispositivos, incluidos [!DNL CRM] ID y direcciones de correo electrónico con hash.
+The partner-level opt-out allows you to opt-out your users from data collection by specific [!DNL Audience Manager] partners. You can send partner-level opt-out requests for cross-device IDs, including [!DNL CRM] IDs and hashed email addresses.
 
 Después de una exclusión a nivel de socio con una llamada de ID declarada:
 
-* El ID [de](../../reference/ids-in-aam.md) CRM se exclusión de la recopilación de datos;
-* El último ID de dispositivo (ID[de usuario único de](../../reference/ids-in-aam.md)Audience Manager) vinculado al ID [de](../../reference/ids-in-aam.md) CRM se exclusión de la recopilación de datos.
-* [!DNL Audience Manager] cesará toda recopilación, segmentación o activación de datos a partir de ahora para el [!DNL CRM] ID y el último ID del dispositivo vinculado al [!DNL CRM] ID;
+* El [ID de CRM](../../reference/ids-in-aam.md) se excluye de la recopilación de datos;
+* El último ID de dispositivo ([ID de usuario único de Audience Manager](../../reference/ids-in-aam.md)) vinculado al [ID de CRM](../../reference/ids-in-aam.md) se excluye de la recopilación de datos.
+* [!DNL Audience Manager] dejará de recopilar, segmentar o realizar activaciones de datos para el ID de y el último ID de dispositivo vinculado al ID de ;[!DNL CRM][!DNL CRM]
 * [!DNL Audience Manager] dessegmenta el ID de exclusión [!DNL CRM] y el último ID de dispositivo de todos los segmentos;
-* [!UICONTROL Destination] los socios reciben la solicitud de dessegmentación para el ID del [!DNL CRM] dispositivo y el ID del último dispositivo. La dessegmentación funciona tanto para destinos de lote como en tiempo [real](data-privacy-requests.md#aam-partners-with-unsegmentation) .
+* [!UICONTROL Destination] los socios reciben la solicitud de dessegmentación para el ID del [!DNL CRM] dispositivo y el ID del último dispositivo. La eliminación de la segmentación sirve tanto para destinos de lote como [en tiempo real](data-privacy-requests.md#aam-partners-with-unsegmentation).
 * No se eliminan datos históricos.
 
-Cuando [!DNL Audience Manager] recibe una solicitud de exclusión a nivel de socio, el [!DNL JSON] devuelto por el [!DNL DCS] contiene el código de [error 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), con el mensaje [!UICONTROL "Encountered opt out tag"], en lugar del ID de [!DNL Audience Manager] usuario.
+When [!DNL Audience Manager] receives a partner-level opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the [!DNL Audience Manager] user ID.
 
-Puede realizar una solicitud de exclusión de ID declarada con los pares `d_cid` y `d_cid_ic` clave-valor. Los parámetros heredados como `d_dpid` y `d_dpuuid` siguen funcionando, pero se consideran obsoletos. Consulte [CID sustituye DPID y DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+Puede realizar una solicitud de exclusión de ID declarada con los pares de clave-valor `d_cid` y `d_cid_ic`. Los parámetros heredados como `d_dpid` y `d_dpuuid` siguen funcionando, pero se consideran obsoletos. Consulte [CID reemplaza DPID y DPUUID](../../reference/cid.md). En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
 
 #### Opción de exclusión con [!DNL CID] y [!DNL CID_IC]
 
-Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de ID declarados](../../features/declared-ids.md#variables-and-syntax).
+Para obtener una descripción y sintaxis, consulte [variables de URL y Sintaxis para ID declarados](../../features/declared-ids.md#variables-and-syntax).
 
 | Opción de exclusión mediante | Ejemplo de código |
 |--- |--- |
@@ -146,38 +146,38 @@ Para obtener una descripción y sintaxis, consulte Variables [URL y Sintaxis de 
 
 ### Opción de exclusión de nivel de socio con llamadas de ID de dispositivo
 
-La exclusión a nivel de socio le permite excluir a los usuarios de la recopilación de datos por parte de [!DNL Audience Manager] socios específicos. Puede desactivar la recopilación de datos en un ID de dispositivo determinado para una marca haciendo las siguientes llamadas a la API [de](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS:
+The partner-level opt-out allows you to opt-out your users from data collection by specific [!DNL Audience Manager] partners. Puede desactivar la recopilación de datos en un ID de dispositivo determinado para una marca haciendo las siguientes llamadas a la [API de DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Opción de exclusión mediante | Ejemplo de código |
 |--- |--- |
 | An [!DNL Audience Manager] [!DNL Unique User ID] (`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
 | Un [!DNL Experience Cloud] ID (`mid`) | `https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Obtenga más información sobre `uuid`el `mid` índice de ID en Audience Manager `imsOrgId` y [](/help/using/reference/ids-in-aam.md)en él.
+Obtenga más información sobre `uuid`, `mid` y `imsOrgId` en el [Índice de ID de Audience Manager](/help/using/reference/ids-in-aam.md).
 
 Después de una exclusión a nivel de socio con una llamada de ID de dispositivo:
 
-* El ID del dispositivo se exclusión de la recopilación de datos.
-* [!DNL Audience Manager] cesará toda la recopilación, segmentación o activación de datos para el socio a partir del ID del dispositivo.
+* El ID del dispositivo se excluye de la recopilación de datos.
+* [!DNL Audience Manager] cancelará cualquier recopilación, segmentación o activación de datos para el socio para el ID del dispositivo.
 * [!DNL Audience Manager] dessegmenta el ID del dispositivo de todos los segmentos;
-* Los socios de destino reciben la solicitud de dessegmentación para el ID del dispositivo. La dessegmentación funciona tanto para destinos de lote como en tiempo [real](data-privacy-requests.md#aam-partners-with-unsegmentation) .
+* Los socios de destino reciben la solicitud de eliminación de la segmentación para el ID del dispositivo. La eliminación de la segmentación sirve tanto para destinos de lote como [en tiempo real](data-privacy-requests.md#aam-partners-with-unsegmentation).
 * No se eliminan datos históricos.
 
 ## [!DNL Audience Manager] Socios con capacidades de dessegmentación {#aam-partners-with-unsegmentation}
 
-A fin de ayudarle a automatizar sus solicitudes de privacidad de datos de consumo, [!DNL Audience Manager] intentará notificar a los socios de activación acerca de las solicitudes de eliminación de los sujetos de datos enviándoles información sin segmentar (o eliminando segmentos).
+In order to help you automate your consumer data privacy requests, [!DNL Audience Manager] will attempt to notify activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
-Sin embargo, algunos de nuestros socios de activación:
+Sin embargo, algunos de los socios de activación:
 
-1. No se pueden admitir solicitudes de dessegmentación de [!DNL Audience Manager] y/o
-2. No pueden recibir actualizaciones desde [!DNL Audience Manager] más de una vez en 30 días.
+1. Cannot support unsegment requests from [!DNL Audience Manager] and/or
+2. Are not able to receive updates from [!DNL Audience Manager] more frequently than once in 30 days.
 
-En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada [!DNL Audience Manager].
+En estos casos, no puede enviar solicitudes de eliminación a socios de activación de forma automatizada a través de [!DNL Audience Manager].
 
-Consulte la [lista de destinos](/help/using/features/destinations/device-based-destinations-list.md) basados en dispositivos para ver qué socios de [!DNL Audience Manager] activación admiten el unsegment.
+Consulte la [lista de destinos basados en dispositivos](/help/using/features/destinations/device-based-destinations-list.md) para ver qué socios de activación de admiten la eliminación de la segmentación.[!DNL Audience Manager]
 
 ## Solicitudes de corrección de datos {#correction}
 
-Dado que no [!DNL Audience Manager] es la fuente de los datos, existe una función limitada para la corrección de datos en [!DNL Audience Manager]. La corrección podría significar que el consumidor ha solicitado que se le descalifique de un error [!UICONTROL trait]/[!UICONTROL segment] o que se le califique [!UICONTROL trait]/[!UICONTROL segment].
+Given that [!DNL Audience Manager] is not the source of the data, there is a limited role for data correction in [!DNL Audience Manager]. The correction could mean that the consumer has requested to either be disqualified from an incorrect [!UICONTROL trait]/[!UICONTROL segment] or qualified to the desired [!UICONTROL trait]/[!UICONTROL segment].
 
-[!DNL Audience Manager] los clientes pueden elegir capturar las señales, características o segmentos relevantes en relación con los perfiles de los usuarios y enviar esta información a través de la ingesta [de datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) sin conexión a [!DNL Audience Manager]. Tenga en cuenta que el usuario seguirá calificando al original [!UICONTROL trait] y [!UICONTROL segments] si repite su comportamiento.
+[!DNL Audience Manager] los clientes pueden elegir capturar las señales, características o segmentos relevantes en relación con los perfiles de los usuarios y enviar esta información a través de la ingesta [de datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) sin conexión a [!DNL Audience Manager]. Please note that the user will continue to get qualified to the original [!UICONTROL trait] and [!UICONTROL segments] if they repeat their behavior.
