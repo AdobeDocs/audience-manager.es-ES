@@ -1,39 +1,39 @@
 ---
-description: Preguntas más frecuentes sobre los archivos de Fuente de datos del cliente (CDF).
-seo-description: Preguntas más frecuentes sobre los archivos de Fuente de datos del cliente (CDF).
-seo-title: Preguntas más frecuentes sobre la fuente de datos del cliente
+description: Preguntas frecuentes sobre los archivos de Fuente de datos de clientes (CDF).
+seo-description: Preguntas frecuentes sobre los archivos de Fuente de datos de clientes (CDF).
+seo-title: Preguntas frecuentes sobre la Fuente de datos de clientes
 solution: Audience Manager
-title: Preguntas más frecuentes sobre la fuente de datos del cliente
+title: Preguntas frecuentes sobre la Fuente de datos de clientes
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Preguntas más frecuentes sobre la fuente de datos del cliente{#customer-data-feed-faq}
+# Preguntas frecuentes sobre la Fuente de datos de clientes {#customer-data-feed-faq}
 
-Preguntas más frecuentes sobre los archivos de Fuente de datos del cliente (CDF).
+Preguntas frecuentes sobre los archivos de Fuente de datos de clientes (CDF).
 
-## Almacenamiento Amazon S3 {#amazon-s3-storage}
+## Almacenamiento de Amazon S3 {#amazon-s3-storage}
 
-**¿Dónde se almacena mi archivo CDF en[!DNL Amazon]?**
+**¿Dónde se almacena mi archivo CDF en [!DNL Amazon]?**
 
-El archivo CDF se almacena en el directorio `aam-cdf` raíz de un [!DNL Amazon S3] servidor. Este bloque predeterminado es administrado por [!DNL Audience Manager]. Consulte también Convenciones [de nombres de archivos de fuentes de datos de clientes](../features/cdf-files.md#cdf-naming-conventions).
-
-<br> 
-
-**¿Es seguro mi cubo de almacenamiento?**
-
-Sí. Los clientes solo tienen acceso a su propio espacio de almacenamiento. Tendrá acceso de sólo lectura a su cubo de almacenamiento. No tendrá acceso de escritura.
+El archivo CDF se almacena en el directorio raíz `aam-cdf` de un servidor de [!DNL Amazon S3]. [!DNL Audience Manager] se encarga de administrar este espacio predeterminado. Consulte también [Convenciones sobre nombres de archivos en fuentes de datos de clientes](../features/cdf-files.md#cdf-naming-conventions).
 
 <br> 
 
-**¿Puedo personalizar mi contenedor de almacenamiento o almacenar archivos en otro directorio?**
+**¿Es seguro mi espacio de almacenamiento?**
+
+Sí. Los clientes solo tienen acceso a su propio espacio de almacenamiento. Tendrá acceso de solo lectura a su espacio de almacenamiento. No tendrá acceso de escritura.
+
+<br> 
+
+**¿Puedo personalizar mi espacio de almacenamiento o almacenar archivos en otro directorio?**
 
 No. Las opciones de personalización y almacenamiento alternativo no están disponibles.
 
@@ -41,51 +41,51 @@ No. Las opciones de personalización y almacenamiento alternativo no están disp
 
 **A mi directorio le falta un archivo para una hora en particular. ¿Dónde está?**
 
-Un archivo que falta significa que no [!DNL Audience Manager] pudo procesar los archivos CDF durante esa hora. Esto suele suceder cuando nuestros servidores se quedan atrás en el procesamiento de archivos CDF. En este caso, el archivo no se pierde. Aparecerá en un directorio por hora después de que nuestro sistema tenga la oportunidad de ponerse al día. Consulte también Notificaciones [de procesamiento de archivos de fuentes de datos de](../features/cdf-files.md#cdf-file-processing-notifications)clientes.
+La falta de un archivo significa que [!DNL Audience Manager] no pudo procesar los archivos CDF correspondientes a esa hora. Esto suele ocurrir cuando nuestros servidores se retrasan al procesar archivos CDF. En este caso, el archivo no se pierde: una vez que nuestro sistema pueda recuperar el tiempo, el archivo aparecerá en otro directorio clasificado por horas. Consulte también [Notificaciones sobre procesamiento de archivos de fuentes de datos de clientes](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
-**¿Cómo puedo saber cuándo mis archivos CDF están listos?**
+**¿Cómo puedo saber si mis archivos CDF están listos?**
 
-Consulte Notificaciones [de procesamiento de archivos de fuentes de datos de clientes](../features/cdf-files.md#cdf-file-processing-notifications).
+Consulte [Notificaciones sobre procesamiento de archivos de fuentes de datos de clientes](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
 ## Tamaños de archivo {#file-sizes}
 
-**¿Qué tipo de tamaños de archivo debo esperar? ¿Qué tamaño tiene un archivo CDF promedio?**
+**¿Qué tamaños de archivo puedo esperar? ¿Cuál es el tamaño medio de un archivo CDF?**
 
-Es difícil estimar el tamaño de los archivos. Y cada archivo puede tener un tamaño diferente. Los tamaños varían de hora a hora y día. Si va a recibir archivos CDF, le resultará útil estar preparado para administrar muchos datos.
+Es difícil calcular el tamaño de los archivos. Cada archivo puede tener un tamaño diferente. Los tamaños varían cada hora y cada día. Si va a recibir archivos CDF, conviene tener la capacidad de administrar muchos datos.
 
 <br> 
 
 **¿Cuántos archivos recibiré?**
 
-Una vez más, es difícil estimar esto. Sin embargo, si va a recibir archivos CDF, le resultará útil estar preparado para administrar muchos datos.
+También es difícil calcular esto. Sin embargo, si va a recibir archivos CDF, es conveniente que esté preparado para administrar muchos datos.
 
 <br> 
 
-## Integridad de los datos {#data-integrity}
+## Integridad de datos {#data-integrity}
 
 **¿Cómo puedo comprobar la integridad de los datos cargados en Amazon S3?**
 
-[!DNL Amazon] divide los archivos grandes en partes más pequeñas y los carga [!DNL Amazon S3] mediante la carga de varias partes. A continuación, genera un `ETag` valor para la carga de varias partes. En primer lugar, calcula las sumas de comprobación MD5 individuales de cada artículo cargado y, a continuación, las concatena en una sola cadena. A continuación, calcula la suma de comprobación MD5 de la cadena. La suma de comprobación resultante (la `ETag`) se anexa con un guión y el número total de piezas utilizadas para la carga. Por ejemplo, la `ETag` imagen de un archivo dividido en 5 partes durante la carga podría tener este aspecto: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] divide los archivos grandes en porciones más pequeñas y los sube a [!DNL Amazon S3] mediante la carga multiparte. Luego genera un valor `ETag` para la carga multiparte. En primer lugar, calcula las sumas de comprobación MD5 de cada parte cargada y, a continuación, las une en una sola cadena. A continuación, calcula la suma de comprobación MD5 de la cadena. La suma de comprobación resultante (la `ETag`) se añade con un guion e indicando el número total de partes utilizadas para la carga. Por ejemplo, la `ETag` de un archivo dividido en cinco partes durante la carga podría aparecer así: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
-## Data Retention {#data-retension}
+## Retención de datos {#data-retension}
 
-**¿Cuánto tiempo almacena los archivos CDF?**
+**¿Durante cuánto tiempo quedan almacenados los archivos CDF?**
 
-Los datos se eliminan pasados 8 (ocho) días.
+Los datos se eliminan a los ocho días.
 
 <br> 
 
-**¿Puedo obtener archivos CDF de forma retroactiva o en días anteriores?**
+**¿Puedo obtener archivos CDF de forma retroactiva o de días anteriores?**
 
-Sólo puede generar archivos CDF durante los últimos 8 días. No se pueden volver a generar los archivos CDF para intervalos anteriores a los últimos 8 días.
+Solo puede generar archivos CDF de los últimos ocho días. No se pueden volver a generar los archivos CDF para periodos anteriores a los últimos ocho días.
 
 >[!MORELIKETHIS]
 >
->* [Fuentes de datos del cliente](../features/cdf-files.md)
+>* [Fuentes de datos de clientes](../features/cdf-files.md)
 
