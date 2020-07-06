@@ -1,21 +1,21 @@
 ---
 description: Describe los campos requeridos, la sintaxis, las convenciones de nomenclatura y los tamaños de archivo que debe seguir al enviar datos al Audience Manager. Configure los nombres y tamaños de los archivos según estas especificaciones cuando envíe datos a un directorio Audience Manager/Amazon S3.
 seo-description: Describe los campos requeridos, la sintaxis, las convenciones de nomenclatura y los tamaños de archivo que debe seguir al enviar datos al Audience Manager. Configure los nombres y tamaños de los archivos según estas especificaciones cuando envíe datos a un directorio Audience Manager/Amazon S3.
-seo-title: Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de datos de entrada
+seo-title: Requisitos de tamaño de archivo y nomenclatura de Amazon S3 para archivos de datos entrantes
 solution: Audience Manager
-title: Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de datos de entrada
+title: Requisitos de tamaño de archivo y nomenclatura de Amazon S3 para archivos de datos entrantes
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 6%
 
 ---
 
 
-# [!DNL Amazon S3] Requisitos de nombre y tamaño de archivo para archivos de datos de entrada {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]Requisitos de tamaño de archivo y nombre de para archivos de datos de entrada{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Describe los campos requeridos, la sintaxis, las convenciones de nomenclatura y los tamaños de archivo que debe seguir al enviar datos a [!DNL Audience Manager]. Configure los nombres y tamaños de sus archivos según estas especificaciones cuando envíe datos a un directorio [!DNL Audience Manager] / [!DNL Amazon S3] .
 
@@ -33,7 +33,11 @@ Describe los campos requeridos, la sintaxis, las convenciones de nomenclatura y 
 
 Para ver otros formatos de nombre de archivo aceptados, consulte Integraciones [de socio](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizadas.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] solo procesa [!DNL ASCII] y [!DNL UTF-8] codifica archivos.
 
@@ -66,7 +70,7 @@ La tabla define los elementos de un nombre de [!DNL S3] archivo.
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID de Android (GAID):</b> Utilice el ID 20914 en un nombre de archivo de datos si contiene el ID de Android. Por ejemplo, <code>...ftp_dpm_20914_21_123456789.sync</code> indica al <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de Android. Nota: el ID 21 </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID de iOS (IDFA):</b> Utilice el ID 20915 en un nombre de archivo de datos si contiene ID de iOS. Por ejemplo, <code>...ftp_dpm_20915_123456789.sync</code> indica al <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de iOS. </li> 
      </ul> 
-    </draft-comment> <p> <p>Nota:  No mezcle los tipos de ID en los archivos de datos. Por ejemplo, si el nombre de archivo incluye el identificador de Android, no incluya los ID de iOS ni los propios ID en el archivo de datos. </p> </p><p>Consulte Fuentes <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de datos</a> globales para obtener más información.</p> <p>Consulte también la <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrada siguiente. </p> </td> 
+    </draft-comment> <p> <p>Nota:  No mezcle los tipos de ID en los archivos de datos. Por ejemplo, si el nombre de archivo incluye el identificador de Android, no incluya los ID de iOS ni los propios ID en el archivo de datos. </p> </p><p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p> <p>Consulte también la <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrada siguiente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -106,7 +110,7 @@ La tabla define los elementos de un nombre de [!DNL S3] archivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Al enviar archivos a Amazon S3, utilice sólo compresión gzip. Cuando se comprimen, estos archivos obtienen la <code> .gz</code> extensión. No utilice compresión .zip. </p> <p>Los archivos comprimidos deben tener 3 GB o menos. Si los archivos son más grandes, póngase en contacto con el Servicio de atención al cliente. Aunque el Audience Manager puede gestionar archivos de gran tamaño, es posible que podamos ayudarle a reducir el tamaño de los archivos y aumentar la eficacia de las transferencias de datos. Consulte <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Compresión de archivos para archivos</a>de transferencia de datos de entrada. </p> </td> 
+   <td colname="col2"> <p>Al enviar archivos a Amazon S3, utilice sólo compresión gzip. Cuando se comprimen, estos archivos obtienen la <code> .gz</code> extensión. No utilice compresión .zip. </p> <p>Los archivos comprimidos deben tener 3 GB o menos. Si los archivos son más grandes, póngase en contacto con el Servicio de atención al cliente. Aunque el Audience Manager puede gestionar archivos de gran tamaño, es posible que podamos ayudarle a reducir el tamaño de los archivos y aumentar la eficacia de las transferencias de datos. Consulte <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Compresión de archivos de transferencia de datos entrantes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
