@@ -1,6 +1,6 @@
 ---
-description: ClientCare está preparado para ayudarle a solucionar los problemas que pueda encontrar. Proporcione toda la información que pueda al ponerse en contacto con el Servicio de atención al cliente. Esto ayudará al equipo a comprender y resolver su problema.
-seo-description: ClientCare está preparado para ayudarle a solucionar los problemas que pueda encontrar. Proporcione toda la información que pueda al ponerse en contacto con el Servicio de atención al cliente. Esto ayudará al equipo a comprender y resolver su problema.
+description: El servicio de atención al cliente está preparado para ayudarle a solucionar los problemas que pueda encontrar. Aporte toda la información posible al ponerse en contacto con el servicio de atención al cliente, para ayudar al equipo a entender y resolver su problema.
+seo-description: El servicio de atención al cliente está preparado para ayudarle a solucionar los problemas que pueda encontrar. Aporte toda la información posible al ponerse en contacto con el servicio de atención al cliente, para ayudar al equipo a entender y resolver su problema.
 seo-title: En caso de problemas
 solution: Audience Manager
 title: En caso de problemas
@@ -9,14 +9,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # En caso de problemas {#problem}
 
-ClientCare está preparado para ayudarle a solucionar los problemas que pueda encontrar. Proporcione toda la información que pueda al ponerse en contacto con el Servicio de atención al cliente. Esto ayudará al equipo a comprender y resolver su problema.
+El servicio de atención al cliente está preparado para ayudarle a solucionar los problemas que pueda encontrar. Aporte toda la información posible al ponerse en contacto con el servicio de atención al cliente, para ayudar al equipo a entender y resolver su problema.
 
 ## Información básica {#basic-information}
 
@@ -26,15 +26,15 @@ r_problem.xml
 
  -->
 
-For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+Si tiene problemas técnicos o quiere registrar un error, contacte con [el servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 * **Teléfono:** 1-800-497-0335
 
-   Para consultar los números gratuitos fuera de los Estados Unidos, consulte nuestro sitio [regional de números](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) de contacto del Servicio de atención al cliente. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   Para obtener los números gratuitos en países que no sean los Estados Unidos, consulte nuestro sitio de [números de contacto del Servicio de atención al cliente en diferentes regiones](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 4 para contactar con el equipo de [!DNL Audience Manager]
 
 * **Correo electrónico:** amsupport@adobe.com
 
-Tenga a bien disponer de la siguiente información antes de ponerse en contacto con nosotros.
+Antes de ponerse en contacto con nosotros, tenga preparados los siguientes datos:
 
 <table id="table_28E76031E2804265B1A48AB2659F68F0"> 
  <thead> 
@@ -46,27 +46,27 @@ Tenga a bien disponer de la siguiente información antes de ponerse en contacto 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Resumen del problema</b> </p> </td> 
-   <td colname="col2"> <p>Proporcione un resumen breve y descriptivo del problema. </p> </td> 
+   <td colname="col2"> <p>Describa brevemente el problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Información de la cuenta</b> </p> </td> 
-   <td colname="col2"> <p>Proporcione su: </p> <p> 
+   <td colname="col2"> <p>Indique: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
-      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nombre de la Compañía. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdominio Audience Manager</span> (si se conoce). El subdominio es la dirección URL del dominio que envía eventos de recopilación de datos a <span class="keyword"> Adobe</span> (por ejemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">El nombre de su empresa. </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdominio de Audience Manager</span> (si lo conoce). El subdominio es la dirección URL del dominio que envía recopilaciones de datos a <span class="keyword">Adobe</span> (por ejemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Pasos para reproducir</b> </p> </td> 
-   <td colname="col2"> <p>Incluya la mayor cantidad de detalles posible, incluidas las direcciones URL necesarias para duplicado del problema y del resultado esperado. Su descripción debe contener suficiente detalle que alguien que no esté familiarizado con el <span class="keyword"> Audience Manager</span> debería poder seguir sus pasos o procedimientos y reproducir el problema. </p> </td> 
+   <td colname="col1"> <p><b>Pasos que debe seguir</b> </p> </td> 
+   <td colname="col2"> <p>Indique todos los detalles posibles, incluidas las direcciones URL para hacer un duplicado del problema y también cuál es el resultado esperado. La descripción debe contener suficientes detalles como para que alguien que no esté familiarizado con <span class="keyword">Audience Manager</span> pueda seguir sus pasos o procedimientos y reproducir el problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Prioridad</b> </p> </td> 
    <td colname="col2"> <p>Asigne una prioridad a este problema. El rango de prioridades va de P1 (más importante) a P4 (menos importante). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Impacto del negocio</b> </p> </td> 
-   <td colname="col2"> <p>Describa cómo afecta este problema a su negocio. Por ejemplo: ¿este problema está causando una pérdida de ingresos o haciendo que el producto quede inutilizable? ¿Has estado trabajando en este tema? </p> </td> 
+   <td colname="col1"> <p><b>Impacto comercial</b> </p> </td> 
+   <td colname="col2"> <p>Describa cómo afecta este problema a su negocio. Por ejemplo: ¿este problema está causando una pérdida de ingresos o haciendo que el producto quede inutilizable? ¿Ha estado trabajando en este asunto? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Expectativas</b> </p> </td> 
@@ -77,7 +77,7 @@ Tenga a bien disponer de la siguiente información antes de ponerse en contacto 
 
 ## En caso de una interrupción del servicio {#outage}
 
-If you suspect there is an outage, first check the [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
+Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página [Estado del sistema de Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Aquí quedan registradas todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Audience Manager, además de las últimas noticias de nuestro equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada antes, cuando contacte con atención al cliente:
 
 * Hora en que se inició la interrupción del servicio
 * Explicación de lo que ocurre
