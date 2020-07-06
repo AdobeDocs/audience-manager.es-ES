@@ -1,19 +1,23 @@
 ---
-description: Preguntas y problemas comunes relacionados con la determinación de objetivos.
-seo-description: Preguntas y problemas comunes relacionados con la determinación de objetivos.
-seo-title: Preguntas más frecuentes sobre objetivos
+description: Preguntas y problemas comunes relacionados con la segmentación
+seo-description: Preguntas y problemas comunes relacionados con la segmentación
+seo-title: Preguntas frecuentes sobre segmentación
 solution: Audience Manager
-title: Preguntas más frecuentes sobre objetivos
+title: Preguntas frecuentes sobre segmentación
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
+feature: Match Rates
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 100%
 
 ---
 
 
-# Preguntas más frecuentes sobre objetivos{#targeting-faq}
+# Preguntas frecuentes sobre segmentación {#targeting-faq}
 
-Preguntas y problemas comunes relacionados con la determinación de objetivos.
+Preguntas y problemas comunes relacionados con la segmentación
 
 <br> 
 
@@ -23,76 +27,76 @@ faq_targeting.xml
 
  -->
 
-**¿Dónde puedo encontrar una lista completa de proveedores de datos de terceros admitidos por el Administrador de Audiencias?**
+**¿Dónde puedo encontrar una lista completa de proveedores de datos de terceros admitidos por Audience Manager?**
 
-Consulte [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) para obtener una lista completa de los proveedores de datos de terceros que [!DNL Audience Manager] admiten.
-
-<br> 
-
-**Para destinatario a usuarios que nunca he visto en mi sitio con datos de terceros, ¿debo usar datos de terceros en el Administrador de Audiencias o en un DSP?**
-
-La respuesta depende de tus objetivos. Por ejemplo, si la campaña está diseñada para encontrar nuevos clientes con datos de terceros, trabaje directamente con un DSP. Recuerde que el Administrador de Audiencias sincroniza los datos con un proveedor de datos de terceros solo cuando vemos a ese usuario. Si nunca antes hemos visto a un usuario, nuestro sistema no tendrá información para ese visitante del sitio. Para campañas que solo deseen utilizar datos de terceros para usuarios de destinatario que nunca hayan visitado ninguna de sus propiedades, cree dichos segmentos a través del DSP.
+Consulte [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) para obtener una lista completa de los proveedores de datos de terceros que admite [!DNL Audience Manager].
 
 <br> 
 
-**¿Puedo comercializar con individuos?**
+**Para aproximarme a usuarios que nunca he visto en mi sitio con datos de terceros, ¿debo usar datos de terceros en Audience Manager o en un DSP?**
 
-El Administrador de Audiencias le permite acumulado a los usuarios y comercializarlos en función de atributos o características compartidos. Sin embargo, para cumplir con las regulaciones de la industria, los clientes no pueden enviar información personal (PII) a nuestros sistemas. [!DNL Audience Manager] Como resultado, no puede utilizar direcciones de correo electrónico, nombres individuales, direcciones físicas, etc. para objetivos.
-
-<br> 
-
-**¿Cómo sigo dirigiendo los datos de forma segura?**
-
-Le recomendamos que utilice una conexión servidor a servidor para intercambiar datos con su plataforma de resegmentación preferida. El Administrador de Audiencias intercambia datos con la mayoría de los DSP principales a través de conexiones de servidor a servidor. Las transferencias de datos de servidor a servidor ayudan a evitar que otros actores intercepten sus datos y vuelvan a vender esa información de audiencia.
+La respuesta depende de los objetivos perseguidos. Por ejemplo, si la campaña está diseñada para encontrar nuevos clientes con datos de terceros, trabaje directamente con un DSP. Se debe tener en cuenta que Audience Manager sincroniza los datos con un proveedor de datos de terceros solo cuando vemos a ese usuario. El sistema no tendrá información sobre ese visitante del sitio si nunca lo había visto. Para campañas en las que solo desee utilizar datos de terceros para aproximarse a usuarios que nunca habían visitado sus propiedades, cree dichos segmentos a través del DSP.
 
 <br> 
 
-**¿El ID de usuario único (UUID) del Administrador de Audiencias está vinculado al ID de usuario único de un servidor de publicidad mediante la sincronización directa de ID en la página?**
+**¿Puedo comercializar con particulares?**
 
-No. Las sincronizaciones de ID no se realizan en la página para editores o servidores en el sitio. El UUID del Administrador de Audiencias se inserta en el `u=` campo de los archivos de registro del servidor de publicidad. Esto sucede cuando se pasa el segmento por objetivos. El módulo de código DIL realiza esta función. Este es el mismo mecanismo que nos permite asignar el ID de usuario del servidor a un usuario del Administrador de Audiencias para el sistema de informes de rendimiento de segmentos. Sin embargo, si hay un servidor de publicidad en el sitio, entonces sincronizamos los ID directamente en la página.
-
-<br> 
-
-**¿Cuenta el Administrador de Audiencias un usuario que inicia sesión desde distintos dispositivos como un usuario único o como un usuario único diferente?**
-
-[La segmentación](../features/declared-ids.md#declared-id-targeting) de ID declarada ayuda al Administrador de Audiencias a identificar un visitante en varios dispositivos con un único identificador único. Sin embargo, desde una perspectiva de objetivo o de destino, sigue habiendo 2 (o más) usuarios, ya que los DSP no pueden reconciliar estos ID múltiples.
+Audience Manager le permite juntar usuarios y hacerles llegar ofertas en función de rasgos o atributos compartidos. Sin embargo, en cumplimiento de las normas del sector, los clientes de [!DNL Audience Manager] no pueden enviar información personal identificable (PII) a nuestros sistemas. Como resultado, no se pueden utilizar direcciones de correo electrónico, nombres individuales, direcciones postales, etc. para la segmentación.
 
 <br> 
 
-**El Administrador de Audiencias puede identificar a un usuario desde la pantalla y los dispositivos móviles.**
+**¿Cómo puedo continuar resegmentando los datos de manera segura?**
 
-Sí. Consulte Objetivo [de ID declarado](../features/declared-ids.md#declared-id-targeting).
-
-<br> 
-
-**¿Puedo puntuar a los usuarios con los datos recopilados en línea y redirigirlos en función de esta puntuación de modelo?**
-
-Sí. El Administrador de Audiencias puede proporcionar archivos de datos para ayudarle a puntear a los usuarios, pero debe trabajar con otros proveedores o software para analizar y clasificar esta información. Envíe estos datos al Administrador de Audiencias en forma de pares clave-valor. Podemos tomar esta información y anexarla a los perfiles de usuario existentes. Póngase en contacto con su representante de soluciones de socio para revisar este proceso.
+Recomendamos que use una conexión servidor a servidor para intercambiar datos con su plataforma de resegmentación preferida. Audience Manager intercambia datos con la mayoría de los DSP principales a través de conexiones de servidor a servidor. Las transferencias de datos de servidor a servidor ayudan a evitar que otros intercepten sus datos y vuelvan a vender esa información sobre la audiencia.
 
 <br> 
 
-**¿Cuáles son las tasas de eliminación de cookies durante un período de 1 a 2 meses determinado?**
+**¿El ID de usuario único (UUID) de Audience Manager está vinculado al ID de usuario único de un servidor de publicidad a través de la sincronización de ID directamente en la página?**
 
-La eliminación de cookies es difícil de medir. La mayoría de las eliminaciones de cookies provienen de algunos visitantes que las eliminan con frecuencia. Sin embargo, la mayoría de las cookies del navegador son estables durante al menos 30 días, aunque algunas pueden tener una vida limitada. Algunos estudios sugieren que la determinación de objetivos de canal superior, que es buena en 30 días, eliminaría efectivamente el 7% de la audiencia de destinatario del explorador durante un período de 30 días. Como saben, las campañas de 30 días para un determinado mensaje creativo son estándar en el sector. Por lo que hemos visto, esa caída del 7% es precisa.
-
-La eliminación de cookies tiene un efecto adverso en los cálculos de alcance y frecuencia. Como resultado, resaltamos el valor de los datos de comportamiento al tratar de comprender la verdadera naturaleza de las tendencias del consumidor para la planificación de la campaña de visualización. Nuestros clientes pueden aprovechar los informes de superposición de segmentos del Administrador de Audiencias, los informes de frecuencia de impresión óptima y las tendencias únicas del usuario en intervalos de fechas específicos para ser más científicos sobre la planificación de campañas y los intervalos de fechas óptimos para ejecutar campañas.
+No. Las sincronizaciones de ID no se realizan en la página para editores o servidores in situ. El UUID de Audience Manager se inserta en el campo `u=` de los archivos de registro del servidor de publicidad. Esto sucede cuando el segmento se incorpora a la segmentación. El módulo de código DIL realiza esta función. Se trata del mismo mecanismo que permite asignar el ID de usuario del servidor a un usuario de Audience Manager para la creación de informes sobre rendimiento de segmentos. Sin embargo, si hay un servidor de publicidad en el sitio, sincronizamos los ID directamente en la página.
 
 <br> 
 
-**¿Cuál es la ventana de caducidad de las cookies del Administrador de Audiencias?**
+**¿Audience Manager cuenta un usuario que inicia sesión desde distintos dispositivos como un usuario único o como diferentes usuarios únicos?**
 
-La interfaz de usuario permite determinar el intervalo de caducidad de la cookie. Puede configurar las cookies para que caduquen después de *n* días o nunca.
-
-<br> 
-
-**¿Nos cuesta más implementar un elemento creativo de campaña en una llamada de evento?**
-
-Depende. El costo se basa en usuarios únicos. Si una campaña resulta en nuevos usuarios netos, entonces sí, esto costará más. Si su campaña llega a lugares donde ya estamos recopilando datos, entonces no hay costo adicional. Si la campaña se ejecuta en sitios relacionados donde hay una superposición significativa, habrá costo adicional para los nuevos usuarios únicos que vemos.
+[La segmentación de ID declarada](../features/declared-ids.md#declared-id-targeting) ayuda a Audience Manager a identificar a un visitante en varios dispositivos con un único identificador. Sin embargo, desde una perspectiva de segmentación o de destino, se trata de dos o más usuarios, ya que los DSP no pueden hacer cuadrar estos ID múltiples.
 
 <br> 
 
-**El Administrador de Audiencias muestra[!UICONTROL Addressable Audiences]métricas y tasas de coincidencia solo para[!UICONTROL Server-to-Server]los destinos. ¿Puede explicar por qué no vemos estas cifras para los destinos de cookies y URL?**
+**¿Audience Manager puede identificar a un usuario desde una pantalla y dispositivos móviles?**
 
-Se reduce a sincronizaciones de ID. Para [!UICONTROL Server-to-Server] destinos, transferimos datos sin conexión (ya sea en tiempo real o por lotes) y necesitamos enviar el ID que el socio de destino entienda, para que pueda asignarlo de nuevo al explorador. El número direccionable del segmento es un subconjunto de la población total del segmento.
+Sí. Consulte [Segmentación de ID declarado](../features/declared-ids.md#declared-id-targeting).
 
-En el caso de las cookies y los destinos URL, el usuario ya está en el explorador y lo que [!DNL Audience Manager] envía son solo los segmentos para los que el usuario cumple los requisitos. El socio de destino solo puede recoger las asignaciones de segmentos y trabajar con esa información. Por lo tanto, tenga en cuenta que las tasas de coincidencia para los destinos de cookies y URL siempre son del 100 %.
+<br> 
+
+**¿Puedo puntuar a los usuarios con los datos recopilados en línea y resegmentarlos en función de esa puntuación?**
+
+Sí. Audience Manager puede aportar archivos de datos para ayudarle a puntuar a los usuarios, pero debe trabajar con otros proveedores o software para analizar y clasificar esta información. Envíe estos datos a Audience Manager en forma de pares clave-valor. Podemos añadir esta información a los perfiles de usuario existentes. Póngase en contacto con su representante de Soluciones para socios para revisar este proceso.
+
+<br> 
+
+**¿Cuál es la tasa de eliminación de cookies durante un periodo determinado de entre uno y dos meses?**
+
+La eliminación de cookies es difícil de medir. La mayoría de las eliminaciones de cookies provienen de unos pocos visitantes que las borran con frecuencia. Sin embargo, la mayoría de las cookies del navegador son estables durante al menos 30 días, aunque algunas pueden tener una duración limitada. Algunos estudios sugieren que una segmentación en la parte inicial del canal de más de 30 días supondría una supresión del 7% de la audiencia de destino en el explorador durante un periodo de 30 días. Es sabido que la duración estándar de una campaña para un determinado mensaje creativo es de 30 días. Por lo que hemos visto, ese dato de la caída del 7% es preciso.
+
+La eliminación de cookies tiene un efecto adverso en los cálculos de alcance y frecuencia. Por ello, es destacable el valor de los datos de comportamiento para comprender el auténtico carácter de las tendencias de consumo a la hora de planificar las campañas. Nuestros clientes pueden aprovechar los informes de Audience Manager sobre superposición de segmentos, de frecuencia de impresión óptima y las tendencias de usuario único en intervalos específicos de fechas, a fin de incorporar una perspectiva más científica en la planificación de campañas y en los intervalos óptimos de fechas para ejecutarlas.
+
+<br> 
+
+**¿Qué periodo de caducidad tienen las cookies de Audience Manager?**
+
+La interfaz de usuario permite determinar el intervalo de caducidad de las cookies. Las cookies se pueden configurar para que caduquen después de *n* días o nunca.
+
+<br> 
+
+**¿Tiene un mayor coste implementar un elemento creativo de campaña en una llamada de evento?**
+
+Depende. El coste se basa en los usuarios únicos. Si una campaña logra nuevos usuarios netos, entonces el coste será mayor. Si su campaña llega a lugares donde ya estamos recopilando datos, entonces no hay coste adicional. Si la campaña se ejecuta en sitios relacionados donde hay una superposición significativa, habrá un coste adicional por los nuevos usuarios únicos.
+
+<br> 
+
+**Audience Manager muestra métricas de [!UICONTROL Addressable Audiences] y tasas de coincidencia solo para los destinos [!UICONTROL Server-to-Server]. ¿Por qué no vemos estas cifras para los destinos de cookies y URL?**
+
+Esto se debe básicamente a sincronizaciones de ID. Para destinos [!UICONTROL Server-to-Server], transferimos datos sin conexión (ya sea en tiempo real o por lotes) y tenemos que enviar un ID que el socio de destino entienda, de modo que pueda volver a asignarlo al explorador. El número accesible del segmento es un subconjunto de la población total del segmento.
+
+En el caso de las cookies y los destinos URL, el usuario ya está en el explorador y lo que [!DNL Audience Manager] envía son solo los segmentos para los que el usuario cumple los requisitos. El socio de destino solo puede recoger las asignaciones de segmentos y trabajar con esa información. Por lo tanto, tenga en cuenta que la tasa de coincidencia para los destinos de cookies y URL siempre son del 100%.
