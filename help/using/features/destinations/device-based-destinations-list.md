@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Destinos de servidor a servidor de Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '1122'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
