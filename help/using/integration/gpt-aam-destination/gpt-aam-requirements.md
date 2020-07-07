@@ -1,23 +1,23 @@
 ---
-description: Puede enviar segmentos cualificados a DFP a través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
-seo-description: Puede enviar segmentos cualificados a DFP a través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
-seo-title: Requisitos y métodos para enviar segmentos a DFP usando Google Publisher Tags (GPT)
+description: Puede enviar segmentos cualificados al Administrador de publicidad de Google a través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
+seo-description: Puede enviar segmentos cualificados al Administrador de publicidad de Google a través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
+seo-title: Requisitos y métodos para enviar segmentos al Administrador de publicidad de Google mediante etiquetas de publicador de Google (GPT)
 solution: Audience Manager
-title: Requisitos y métodos para enviar segmentos a DFP usando Google Publisher Tags (GPT)
+title: Requisitos y métodos para enviar segmentos al Administrador de publicidad de Google mediante etiquetas de publicador de Google (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 
-# Requisitos y métodos para enviar segmentos a DFP usando Google Publisher Tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-Puede enviar segmentos cualificados a [!DNL DFP] través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
+Puede enviar segmentos cualificados a [!DNL Google Ad Manager] (anteriormente DFP) a través de una integración de cliente o de servidor. A continuación se enumeran los requisitos y la información relacionada con ambos métodos.
 
 ## Integración del cliente {#client-side-integration}
 
@@ -47,7 +47,7 @@ La cantidad de datos pasados [!DNL GPT] depende de la cantidad de segmentos para
 
 ## Integración del lado del servidor {#server-side-integration}
 
-Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente si desea configurar una integración del lado del servidor con [!DNL DFP], mediante [!DNL GPT]. Deberá proporcionar el ID de red y el ID de vínculo de Audiencia de su [!DNL DFP] cuenta.
+Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente si desea configurar una integración del lado del servidor con [!DNL Google Ad Manager], mediante [!DNL GPT]. Deberá proporcionar el ID de red y el ID de vínculo de Audiencia de su [!DNL Google Ad Manager] cuenta.
 
 >[!IMPORTANT]
 >
