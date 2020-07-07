@@ -1,21 +1,21 @@
 ---
 description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de sus audiencias con el paso del tiempo.
 seo-description: El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del comportamiento de sus audiencias con el paso del tiempo.
-seo-title: Informe Tendencia del segmento
+seo-title: Informe de Tendencia del segmento
 solution: Audience Manager
-title: Informe Tendencia del segmento
+title: Informe de Tendencia del segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '609'
+ht-degree: 3%
 
 ---
 
 
-# Informe Tendencia del segmento{#segment-trend-report}
+# Informe de Tendencia del segmento{#segment-trend-report}
 
 El informe Tendencia de segmento devuelve datos sobre impresiones y tasas de pulsaciones de segmentos asignados y no asignados a lo largo del tiempo.
 
@@ -45,7 +45,7 @@ Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué seg
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] los ID, tal como se describe en el paso 3 de [Importar archivos de datos de DFP al Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] los ID, tal como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en el Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
 
 ## Interpretación de los resultados {#interpreting-results}
 
