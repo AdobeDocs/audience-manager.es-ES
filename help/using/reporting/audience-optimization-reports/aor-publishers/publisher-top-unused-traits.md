@@ -1,21 +1,21 @@
 ---
 description: Las características no utilizadas principales se representan como un diagrama de puntos de características que aún no son miembros de un segmento, según el tipo de característica, la fuente de datos y el rendimiento.
 seo-description: Las características no utilizadas principales se representan como un diagrama de puntos de características que aún no son miembros de un segmento, según el tipo de característica, la fuente de datos y el rendimiento.
-seo-title: Características principales no utilizadas
+seo-title: Rasgos principales no utilizados
 solution: Audience Manager
-title: Características principales no utilizadas
+title: Rasgos principales no utilizados
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
 
-# Características principales no utilizadas{#top-unused-traits}
+# Rasgos principales no utilizados{#top-unused-traits}
 
 Las características no utilizadas principales se representan como un diagrama de puntos de características que aún no son miembros de un segmento, según el tipo de característica, la fuente de datos y el rendimiento.
 
@@ -39,7 +39,7 @@ Utilice el cuadro **[!UICONTROL Traits]** desplegable para seleccionar qué cara
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Order IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Order] en lugar de la propiedad [!UICONTROL Order ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Order IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Order] en lugar de la propiedad [!UICONTROL Order ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
@@ -90,7 +90,7 @@ Consulte las descripciones para obtener información adicional en la tabla debaj
 
 La posición de las características en un informe puede indicarle muchas cosas sobre qué características podría utilizar para optimizar los segmentos de audiencia existentes.
 
-Las características situadas en la parte superior del eje Impresiones son las que desea utilizar en sus campañas. En el caso de las características con un número bajo de impresiones, es poco probable que llegue a esta audiencia en la propiedad web, según los datos de DFP.
+Las características situadas en la parte superior del eje Impresiones son las que desea utilizar en sus campañas. En el caso de las características con un número bajo de impresiones, es poco probable que llegue a esta audiencia en la propiedad web, en función de sus [!DNL Google Ad Manager] datos.
 
 Busque a la izquierda del [!UICONTROL Unique Trait Realizations] eje características muy precisas y a la derecha las características que pueden impulsar la escala.
 
