@@ -8,9 +8,9 @@ title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 Para comenzar con [!UICONTROL Actionable Log Files], debe importar datos de registro en [!DNL Audience Manager]. Los siguientes vínculos le ayudarán a iniciarse:
 
 * Para [!UICONTROL Google DCM] los registros, consulte [Importar archivos de datos de DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *y póngase* en contacto con su [!DNL Audience Manager] asesor.
-* Para [!UICONTROL Google DFP] los registros, consulte [Importar archivos de datos de DFP al Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *y póngase* en contacto con su [!DNL Audience Manager] asesor.
+* Para los registros [!UICONTROL Google Ad Manager] (anteriormente DFP de Google), consulte [Importar archivos de datos DFP al Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *y póngase* en contacto con su [!DNL Audience Manager] asesor.
 * Para ver otros registros de servidores de publicidad, consulte Archivos [](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de datos y metadatos *y póngase* en contacto con su [!DNL Audience Manager] asesor.
 
 Si ya está importando datos de registro en [!DNL Audience Manager], pregunte a su [!DNL Audience Manager] consultor o al Servicio de atención [al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) para habilitarlos [!UICONTROL Actionable Log Files] .
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* Si no hay una marca de tiempo disponible para una fila de datos en el archivo de [!DNL DCM] registro, se utiliza la hora de la llamada `HTTP` como marca de tiempo de evento.
 >* Si la fila de datos del archivo de [!DNL DCM] registro contiene una marca de tiempo con formato incorrecto, se ignora toda la fila.
+
+
+<br> 
+
+### Señales procesables de los [!DNL Google Ad Manager] registros {#ad-manager-logs-signals}
+
+La tabla lista las señales procesables de los archivos de [!DNL Google Ad Manager] registro:
+
+
+| Nombre de encabezado en el archivo de registro | Señal | Descripción |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | El ID numérico del elemento de línea del Administrador de publicidad enviado |
+| `OrderId` | `d_orderid` | ID numérico del orden del Administrador de publicidad que contenía el elemento de línea y el elemento creativo entregados. |
+| `CreativeId` | `d_creative` | ID numérico del elemento creativo del administrador de publicidad enviado. |
+| `-` | `d_event` | Indica el tipo de evento. El Audience Manager lee el tipo de evento del nombre del archivo de registro del Administrador de publicidad y lo transforma en una señal procesable. Los valores aceptados son: <br> <ul><li>d_evento = imp para impresiones.</li><li>d_evento = clic para clics.</li><li>d_evento = conv para conversiones y actividades.</li></ul> |
+| `-` | `d_src` | ID del origen de datos que se utiliza para capturar datos del Administrador de publicidad. Consulte [Cómo crear una fuente](/help/using/features/manage-datasources.md)de datos. |
+
+Las señales que se describen en la tabla se capturan en Audience Manager como una llamada HTTP en tiempo real. La llamada de ejemplo siguiente contiene información sobre un evento de conversión del Administrador de publicidad de Google. Las llamadas no necesariamente tienen que incluir todas las señales en la llamada de ejemplo.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>La marca de tiempo de evento proporcionada en los [!DNL Google Ad Manager] registros se respetará y pasará al [!UICONTROL Data Collection Servers].
+>
+>* Si no hay una marca de tiempo disponible para una fila de datos en el archivo de [!DNL Google Ad Manager] registro, se utiliza la hora de la llamada `HTTP` como marca de tiempo de evento.
+>* Si la fila de datos del archivo de [!DNL Google Ad Manager] registro contiene una marca de tiempo con formato incorrecto, se ignora toda la fila.
 
 
 <br> 
