@@ -7,10 +7,10 @@ title: Superposición de unidad de publicidad
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Utilice los controles **[!UICONTROL Base Ad Unit]** y **[!UICONTROL Overlap Ad U
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Ad Unit IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Ad Unit] en lugar de la propiedad [!UICONTROL Ad Unit ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Ad Unit IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Ad Unit] en lugar de la propiedad [!UICONTROL Ad Unit ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
@@ -59,11 +59,11 @@ Su [!UICONTROL Ad Unit Overlap] informe podría tener un aspecto similar al de a
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Recuento exclusivo de unidades de publicidad superpuestas</span> </p> </td> 
-   <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 9 - 18. Esta información se extrae de los registros de DFP. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 9 - 18. Esta información se extrae de los registros del Administrador de publicidad de Google. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Recuento único de unidades de publicidad base</span> </p> </td> 
-   <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 1 - 8. Esta información se extrae de los registros de DFP. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios que han visitado los elementos de la unidad de publicidad 1 - 8. Esta información se extrae de los registros del Administrador de publicidad de Google. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Recuento único superpuesto</span> </p> </td> 
