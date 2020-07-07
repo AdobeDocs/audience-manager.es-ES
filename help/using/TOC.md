@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
 workflow-type: tm+mt
-source-wordcount: '1740'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 94%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 97%
          + [Conversión en diferentes canales](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Optimización de Audiencias para editores {#audience-optimization-publishers}
          + [Información general sobre la optimización de Audiencia para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importación de archivos de datos DFP en Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Informe de Rendimiento del segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Informe de Tendencia del segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Rasgos principales no utilizados](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -284,9 +284,9 @@ ht-degree: 97%
 + Guías de ejecución e integración {#implementation-integration-guides}
    + [Guías de ejecución e integración](integration/implementation-and-integration.md)
    + [Métodos de integración de datos](integration/data-integration-methods.md)
-   + Integrar DFP con etiquetas de publicador de Google (GPT) {#integrate-dfp-using-gpt}
-      + [Integración de DFP con Información general sobre GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [Envío de segmentos a DFP usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Integrar Google Ad Manager con etiquetas de publicador de Google (GPT){#integrate-dfp-using-gpt}
+      + [Integración de Google Ad Manager con GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [Envío de segmentos al Administrador de publicidad de Google mediante GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Crear un destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificación de la llamada de API de setTargeting de GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código de Audience Manager para etiquetas de Publicador de Google](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -294,7 +294,7 @@ ht-degree: 97%
       + [Integración de WCA de Facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS como destino de Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX como destino de Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [DFP como destino de Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (anteriormente DFP) como destino Audience Manager](integration/aam-dfp.md)
       + [Envío de segmentos a una Lista de remarketing de Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Ejecución de Audience Manager](integration/implement-audience-manager.md)
    + Integración de datos de medios {#media-data-integration}
