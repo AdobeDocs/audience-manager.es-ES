@@ -1,21 +1,21 @@
 ---
 description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 seo-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
-seo-title: Informe Rendimiento del segmento
+seo-title: Informe de Rendimiento del segmento
 solution: Audience Manager
-title: Informe Rendimiento del segmento
+title: Informe de Rendimiento del segmento
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 2%
 
 ---
 
 
-# Informe Rendimiento del segmento{#segment-performance-report}
+# Informe de Rendimiento del segmento{#segment-performance-report}
 
 El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y únicos de segmentos en tiempo real.
 
@@ -44,7 +44,7 @@ Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué seg
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar de la propiedad [!UICONTROL Line Item ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar de la propiedad [!UICONTROL Line Item ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
