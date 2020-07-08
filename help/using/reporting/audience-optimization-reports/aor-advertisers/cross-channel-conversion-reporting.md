@@ -7,9 +7,9 @@ title: Conversión en diferentes canales
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 La opción Conversión entre Canales de los informes Optimización de Audiencias permite atribuir conversiones sin conexión a impresiones o clics en línea servidos.
 
-Los [!UICONTROL Cross Channel Conversion] informes combinan los resultados de la plataforma [!DNL DoubleClick Campaign Manager] (DCM) con las características [!DNL Audience Manager] de conversión. Esto le permite vincular conversiones sin conexión a impresiones o clics en línea.
+Los [!UICONTROL Cross Channel Conversion] informes combinan los resultados de la [!DNL Google Campaign Manager] plataforma con las características [!DNL Audience Manager] de conversión. Esto le permite vincular conversiones sin conexión a impresiones o clics en línea.
 
 Puede utilizar [!UICONTROL Cross Channel Conversion] para los informes Rendimiento [del](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento y Frecuencia [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) óptima.
 
-Para vista de los [!UICONTROL Cross Channel Conversion] informes, seleccione el **[!UICONTROL AAM+DCM]** elemento en la lista **[!UICONTROL Platform]** desplegable.
+Para vista de los [!UICONTROL Cross Channel Conversion] informes, seleccione el **[!UICONTROL AAM + Ad Server Name]** elemento en la lista **[!UICONTROL Platform]** desplegable.
 
 La tabla siguiente lista aspectos importantes a la hora de configurar [!UICONTROL Cross Channel Conversion]:
 
@@ -41,7 +41,7 @@ La tabla siguiente lista aspectos importantes a la hora de configurar [!UICONTRO
   </tr>
   <tr> 
    <td> <p>Ventana Atribución </p> </td> 
-   <td> <p> <b><span class="uicontrol"> La ventana de atribución AAM+DCM</span></b> es de 14 días, lo que significa que solo se tienen en cuenta las características de conversión exhibidas en las dos últimas semanas. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> La ventana de atribución del Administrador</span></b> de Campañas AAM+Google es de 14 días, lo que significa que solo se tienen en cuenta las características de conversión exhibidas en las dos últimas semanas. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metodología de último toque </p> </td> 
