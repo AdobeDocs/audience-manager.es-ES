@@ -1,5 +1,5 @@
 ---
-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP requests with private keys.
+description: Audience Manager requiere que las solicitudes HTTP(S) servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP con claves privadas.
 seo-description: Audience Manager requiere que las solicitudes HTTP(S) servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar solicitudes HTTP(S) con claves privadas.
 seo-title: Solicitudes HTTP(S) firmadas digitalmente
 solution: Audience Manager
@@ -7,15 +7,15 @@ title: Solicitudes HTTP(S) firmadas digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 
-# Solicitudes firmadas `HTTP(S)` digitalmente {#digitally-signed-http-requests}
+# Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 
 Audience Manager requiere que las solicitudes `HTTP(S)` servidor a servidor estén firmadas digitalmente para su validez. Este documento describe cómo puede firmar `HTTP(S)` solicitudes con claves privadas.
 
@@ -90,10 +90,7 @@ El RFC para la implementación del [!DNL HMAC] hash es [https://www.ietf.org/rfc
 
 ## Rotación de la clave privada {#rotate-private-key}
 
-Por motivos de seguridad, se recomienda rotar periódicamente la clave privada. Depende de usted decidir la clave privada y el período de rotación. Para lograr la rotación de claves sin tiempo de inactividad, [!UICONTROL IRIS] admite la adición de varios encabezados de firma. Un encabezado contendrá la firma generada con la clave antigua, otro encabezado contendrá la firma generada con la nueva clave privada. Consulte los siguientes pasos en detalle:
-
-1. El socio comunica la nueva clave privada a [!DNL Adobe Audience Manager].
-1. La clave antigua se elimina [!DNL Audience Manager] y [!UICONTROL IRIS] sólo envía el nuevo encabezado de firma. Se han rotado las teclas.
+Para rotar la clave privada, los socios deben comunicar la nueva clave privada a su [!DNL Adobe Audience Manager] consultor. La clave antigua se elimina [!DNL Audience Manager] y [!UICONTROL IRIS] sólo envía el nuevo encabezado de firma. Se han rotado las teclas.
 
 ## Datos utilizados para firmar {#data-signing}
 
