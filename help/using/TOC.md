@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
+source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1756'
 ht-degree: 94%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 94%
       + [Informes de optimización de Audiencia](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Optimización de Audiencias para anunciantes {#audience-optimization-advertisers}
          + [Información general sobre la optimización de Audiencia para anunciantes](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importación de archivos de datos DCM en Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importar archivos de datos de Google Campaña Manager en Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Informe de Rendimiento del segmento](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Informes de Análisis de tendencias y Análisis de volumen](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Informe de frecuencia óptima](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
