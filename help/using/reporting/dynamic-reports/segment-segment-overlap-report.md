@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -75,9 +75,9 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contien
 
 >[!MORELIKETHIS]
 >
->* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Informes de superposición: Actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
+>* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
