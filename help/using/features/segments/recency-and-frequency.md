@@ -1,21 +1,21 @@
 ---
 description: En el Generador de segmentos, la actualización y la frecuencia le permiten segmentar visitantes en función de acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
 seo-description: En el Generador de segmentos, la actualización y la frecuencia le permiten segmentar visitantes en función de acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
-seo-title: Actualización y frecuencia
+seo-title: Fecha de adquisición más frecuente y frecuencia.
 solution: Audience Manager
-title: Actualización y frecuencia
+title: Fecha de adquisición más frecuente y frecuencia.
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recency and Frequency {#recency-and-frequency}
+# Fecha de adquisición más frecuente y frecuencia.{#recency-and-frequency}
 
 En [!UICONTROL Segment Builder], la actualización y la frecuencia le permiten segmentar visitantes en función de acciones que se producen o se repiten a lo largo de un intervalo diario establecido.
 
@@ -84,8 +84,8 @@ Revise y comprenda estos límites y reglas cuando desee aplicar actualización y
    <td colname="col2"> <p>Puede configurar los requisitos de frecuencia <i>sin</i> configurar los requisitos de actualización. Solo tiene que establecer un valor de frecuencia y dejar el campo de actualización en blanco. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Reglas de combinación de Perfil</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frecuencia de características, Gráficos de dispositivos externos y Reglas</a>de combinación de Perfiles. </p> </td> 
+   <td colname="col1"> <p><b>Reglas de combinación de perfiles</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
