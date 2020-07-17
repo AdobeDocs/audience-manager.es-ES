@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ Esta guía trata de encontrar un equilibrio entre las descripciones generales y 
 * [Componentes de acción de datos](/help/using/reference/system-components/components-data-action.md)
 * [Componentes de recopilación de datos](/help/using/reference/system-components/components-data-collection.md)
 * [Componentes de procesamiento de datos](/help/using/reference/system-components/components-data-processing.md)
-* [Componentes de administración de etiquetas](/help/using/reference/system-components/components-tag-management.md)
-* [Arquitectura de Platform: Mapa del flujo de datos](/help/using/reference/system-components/components-platform-architecture.md)
+* [Componentes de Tag Management](/help/using/reference/system-components/components-tag-management.md)
+* [Arquitectura de plataforma: mapa del flujo de datos](/help/using/reference/system-components/components-platform-architecture.md)
 * [Explicación del centro de datos de Edge](/help/using/reference/system-components/components-edge.md)
 
