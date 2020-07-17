@@ -1,21 +1,21 @@
 ---
 description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y tasas de conversión. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 seo-description: El informe Rendimiento del segmento compara segmentos asignados y sin asignar por impresiones y tasas de conversión. Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
-seo-title: Informe Rendimiento del segmento
+seo-title: Informe de Rendimiento del segmento
 solution: Audience Manager
-title: Informe Rendimiento del segmento
+title: Informe de Rendimiento del segmento
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Informe Rendimiento del segmento{#segment-performance-report}
+# Informe de Rendimiento del segmento{#segment-performance-report}
 
 El informe compara los segmentos asignados y sin asignar por impresiones y tasas de conversión. [!UICONTROL Segment Performance] Un segmento asignado es un segmento que se crea y se envía a un destino para su objetivo. Un segmento sin asignar es un segmento que ha creado pero que no ha enviado a un destino para su objetivo. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar los segmentos que se han pasado por alto y que quizá desee enviar a un destino para el objetivo.
 
