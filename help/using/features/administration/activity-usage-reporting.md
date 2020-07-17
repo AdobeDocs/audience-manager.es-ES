@@ -2,16 +2,16 @@
 description: El Sistema de informes de uso de Actividades le ayuda a realizar la vista y el seguimiento del uso de actividades para su instancia de Audience Manager, para que pueda comparar el uso real con el compromiso contractual.
 keywords: activity, usage, reporting, commitment
 seo-description: El Sistema de informes de uso de Actividades le ayuda a realizar la vista y el seguimiento del uso de actividades para su instancia de Audience Manager, para que pueda comparar el uso real con el compromiso contractual.
-seo-title: Sistema de informes de uso de Actividades
+seo-title: Informes de uso de actividades
 solution: Audience Manager
-title: Sistema de informes de uso de Actividades
+title: Informes de uso de actividades
 topic: Activity Usage Reporting
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Información general {#overview}
 
-Esto [!UICONTROL Activity Usage Report] le ayuda a realizar la vista y el seguimiento del uso de la actividad de su Audience Manager, dándole una idea clara de cómo se compara el uso de su actividad con el compromiso contractual.
+[!UICONTROL Activity Usage Report] le ayuda a realizar la vista y el seguimiento del uso de la actividad de su instancia de Audience Manager, lo que le ofrece una idea clara de cómo se compara el uso de la actividad con su compromiso contractual.
 
 Además, puede descargar el archivo [!UICONTROL Activity Usage Report] cuando lo necesite, para el mantenimiento de registros y la análisis personalizada.
 
