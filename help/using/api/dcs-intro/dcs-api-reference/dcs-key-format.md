@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 1%
 
 Al realizar una llamada, [!DNL DCS] acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre cómo dar formato a los datos de clave-valor estándar y serializados.
 
-## Pares de clave-valor estándar y serializados {#standard-serialized}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Tipo de valor clave </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Variables </th> 
+   <th colname="col3" class="entry"> Ejemplo </th> 
   </tr> 
  </thead>
  <tbody> 
