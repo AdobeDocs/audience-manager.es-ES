@@ -2,20 +2,20 @@
 description: Describe los modelos algorítmicos disponibles en Audience Manager.
 keywords: algo models how works predictive audiences
 seo-description: Describe los modelos algorítmicos disponibles en Audience Manager.
-seo-title: Descripción general de los modelos algorítmicos
+seo-title: Información general sobre los modelos algorítmicos
 solution: Audience Manager
-title: Descripción general de los modelos algorítmicos
+title: Información general sobre los modelos algorítmicos
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# Descripción general de los modelos algorítmicos
+# Información general sobre los modelos algorítmicos
 
 ## ¿Qué es el modelado algorítmico?{#what-algo-modeling}
 
@@ -23,7 +23,7 @@ El modelado algorítmico en Audience Manager se refiere al uso de la ciencia de 
 
 Esto se realiza mediante dos tipos de algoritmos: [!UICONTROL Look-Alike Modeling] y [!UICONTROL Predictive Audiences].
 
-## Modelado similar{#lam}
+## Modelos de similitud{#lam}
 
 [!UICONTROL Look-Alike Modeling] ayuda a descubrir nuevas audiencias únicas mediante la análisis automatizada de datos. El proceso inicio cuando selecciona una característica o segmento, un intervalo de tiempo y fuentes de datos de origen y de terceros. Las opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios elegibles en función de las características compartidas de la población seleccionada.
 
@@ -33,11 +33,11 @@ Una vez finalizados, estos datos están disponibles en el [generador](../../feat
 
 Para obtener más información sobre [!UICONTROL Look-Alike Modeling]este tema, consulte [Explicación del modelado](understanding-models.md)similar a la apariencia.
 
-## Audiencias predictivas{#predictive-audiences}
+## Predictive Audiences{#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] ayuda a clasificar una audiencia desconocida en personalidades distintas, en tiempo real, mediante técnicas avanzadas de ciencia de datos.
 
-En un contexto de marketing, una persona es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de características, como demografía, hábitos de navegación, historial de compras, etc.
+En un contexto de marketing, una personalidad es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de rasgos, como su demografía, hábitos de navegación, historial de compras, etc.
 
 [!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, al utilizar las capacidades de aprendizaje automático del Audience Manager para clasificar automáticamente audiencias desconocidas en personalidades distintas. El Audience Manager lo logra calculando la propensión de su audiencia desconocida para un conjunto de audiencias conocidas.
 
