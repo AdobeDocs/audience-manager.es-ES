@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Captura de datos de clics en Campaña mediante llamadas de píxel
+seo-title: Captura de los datos de campaña por clic a través de Pixel Calls
 solution: Audience Manager
-title: Captura de datos de clics en Campaña mediante llamadas de píxel
+title: Captura de los datos de campaña por clic a través de Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
 
-# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
+# Captura de los datos de campaña por clic a través de Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
 El rastreo de clics permite medir el compromiso de visitantes en toda la campaña, ya que registra la actividad basada en clics para elementos creativos de terceros. De forma similar a la recopilación [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impresiones, se envía una llamada de evento a los servidores [!DNL Audience Manager] de recopilación de datos ([!DNL DCS]) para su procesamiento. A continuación, el visitante se redirige a la dirección web deseada.
 
@@ -97,7 +97,7 @@ Haga clic en eventos para admitir las macros enumeradas en la tabla siguiente. U
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). For more information about the ECID, see <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
