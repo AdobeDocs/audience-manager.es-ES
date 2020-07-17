@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -79,8 +79,8 @@ Establezca intervalos de [actualización y frecuencia](../../features/segments/r
 
 >[!MORELIKETHIS]
 >
->* [Actualización y frecuencia](../../features/segments/recency-and-frequency.md)
->* [Expresiones booleanas en el Generador de características y segmentos](../../reference/boolean-expressions-tsb.md)
+>* [Fecha de adquisición más frecuente y frecuencia.](../../features/segments/recency-and-frequency.md)
+>* [Expresiones booleanas en el Generador de rasgos y segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Uso de operadores de comparación en TraitBuilder](../../features/traits/trait-comparison-operators.md)
 >* [Orden de las operaciones en Expresiones de TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
