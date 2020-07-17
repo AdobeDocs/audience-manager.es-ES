@@ -1,21 +1,21 @@
 ---
 description: El Generador de características evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
 seo-description: El Generador de características evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
-seo-title: Orden de las operaciones en el generador de características
+seo-title: Orden de las operaciones en el generador de rasgos
 solution: Audience Manager
-title: Orden de las operaciones en el generador de características
+title: Orden de las operaciones en el generador de rasgos
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
 
-# Orden de las operaciones en el generador de características {#order-of-operations-in-trait-builder}
+# Orden de las operaciones en el generador de rasgos {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] evalúa las expresiones según el orden de operaciones que se indica a continuación, de prioridad alta a baja. Los elementos de características definidos por operadores de prioridad alta se evalúan primero, antes que otros operadores de prioridad. Esta sección clasifica cada operador según la prioridad, de alto a bajo.
 
