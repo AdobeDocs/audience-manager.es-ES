@@ -1,9 +1,9 @@
 ---
 description: Describe los campos requeridos, la sintaxis y las convenciones de nombre utilizadas para la sincronización de ID basada en archivos. Asigne un nombre y organice el contenido del archivo según estas especificaciones.
 seo-description: Describe los campos requeridos, la sintaxis y las convenciones de nombre utilizadas para la sincronización de ID basada en archivos. Asigne un nombre y organice el contenido del archivo según estas especificaciones.
-seo-title: Requisitos de nombre y contenido para archivos de sincronización de ID
+seo-title: Requisitos de nomenclatura y contenido para archivos de sincronización de ID
 solution: Audience Manager
-title: Requisitos de nombre y contenido para archivos de sincronización de ID
+title: Requisitos de nomenclatura y contenido para archivos de sincronización de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Requisitos de nombre y contenido para archivos de sincronización de ID {#name-and-content-requirements-for-id-synchronization-files}
+# Requisitos de nomenclatura y contenido para archivos de sincronización de ID {#name-and-content-requirements-for-id-synchronization-files}
 
 Describe los campos requeridos, la sintaxis y las convenciones de nombre utilizadas para la sincronización de ID basada en archivos. Asigne un nombre y organice el contenido del archivo según estas especificaciones.
 
