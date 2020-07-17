@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
 # Panel de reglas de combinación de Perfiles {#profile-merge-rules-dashboard}
 
-Cree y gestione todas las reglas de combinación desde el panel. Puede crear un máximo de 4 [!UICONTROL Profile Merge Rules].
+Cree y gestione todas las reglas de combinación desde el panel. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].
 
-La cuarta regla de combinación de Perfiles ([!UICONTROL All Cross-Device Profiles]) solo está disponible para los clientes que compran el [!UICONTROL People-Based Destinations] complemento.
+La cuarta regla de combinación de perfiles ([!UICONTROL All Cross-Device Profiles]) solo está disponible para los clientes que tengan el complemento [!UICONTROL People-Based Destinations].
 
 El [!UICONTROL Profile Merge Rules] panel proporciona un espacio de trabajo unificado que le permite administrar su [!UICONTROL Profile Merge Rules]. El panel se encuentra en **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. El panel de reglas podría ser similar al que se muestra a continuación.
 
