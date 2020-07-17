@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Modelado similar: Exclusión de características {#algorithmic-models-trait-exclusion}
+# Modelos de similitud: exclusión de rasgos {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] proporciona controles adicionales en el flujo de trabajo de modelado, lo que le permite agregar los carriles de protección necesarios al modelo, en función de la experiencia del dominio y los requisitos reglamentarios. Utilice la [!UICONTROL Exclusions] opción para seleccionar qué características se deben ignorar al crear modelos a partir de una o varias fuentes de datos.
 
