@@ -1,21 +1,21 @@
 ---
 description: El Generador de características es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
 seo-description: El Generador de características es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
-seo-title: Acerca del Generador de características
+seo-title: Acerca del Generador de rasgos
 solution: Audience Manager
-title: Acerca del Generador de características
+title: Acerca del Generador de rasgos
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Acerca del Generador de características {#about-trait-builder}
+# Acerca del Generador de rasgos {#about-trait-builder}
 
 [!UICONTROL Trait Builder] es una función que mejora la recopilación de datos tradicional basada en píxeles y los procesos de creación y segmentación de audiencias. Funciona procesando datos de página con las reglas del lado del servidor que cree en la interfaz de usuario.
 
