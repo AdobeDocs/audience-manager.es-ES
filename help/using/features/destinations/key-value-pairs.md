@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ Tanto los valores de clave estándar como los serializados pueden contener uno o
 
 ## Delimitadores y separadores {#delimiters-separators}
 
-Los caracteres que separan valores entre claves y valores se conocen como *`delimiters`* y *`separators`*. Esto adquiere especial importancia cuando envía segmentos a un destino en formato serie. La serialización permite pasar varios valores con una sola clave y combinar pares de clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
+Los caracteres que separan valores dentro y entre claves y valores se conocen como *`delimiters`* y *`separators`*. Esto adquiere especial importancia cuando envía segmentos a un destino en formato serie. La serialización permite pasar varios valores con una sola clave y combinar pares de clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
 
 * **Separador clave-valor:** Separa una clave y un valor dentro de un par clave-valor.
 * **Delimitador clave-valor:** Separa conjuntos de pares de clave-valor.
