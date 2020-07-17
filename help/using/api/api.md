@@ -1,17 +1,17 @@
 ---
 description: API y juegos de herramientas que le permiten trabajar mediante programación con Audience Manager.
 seo-description: API y juegos de herramientas que le permiten trabajar mediante programación con Audience Manager.
-seo-title: Código de API y SDK
+seo-title: 'Código de API y SDK '
 keywords: api, api, api, api, api, api, api, api, api, api
 solution: Audience Manager
-title: Código de API y SDK
+title: 'Código de API y SDK '
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 1%
+ht-degree: 39%
 
 ---
 
