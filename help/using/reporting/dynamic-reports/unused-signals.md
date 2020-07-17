@@ -1,21 +1,21 @@
 ---
 description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
 seo-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
-seo-title: Informe Señales no utilizadas
+seo-title: Informe de señales no utilizadas
 solution: Audience Manager
-title: Informe Señales no utilizadas
+title: Informe de señales no utilizadas
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Informe Señales no utilizadas{#unused-signals-report}
+# Informe de señales no utilizadas{#unused-signals-report}
 
 Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de Audiencia > Otros informes > Señales** no utilizadas.
 
