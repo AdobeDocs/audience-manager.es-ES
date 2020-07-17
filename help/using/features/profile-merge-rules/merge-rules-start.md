@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Para crear [!UICONTROL Profile Merge Rules], revise y complete los pasos de cada
 
 <!-- merge-rules-start.xml -->
 
-## Creación de una fuente de datos entre dispositivos {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 Para crear una fuente de datos entre dispositivos, vaya a **[!UICONTROL Audience Data > Data Sources > Add New]** y complete los pasos de cada sección que se describe aquí. Se necesitan permisos de administrador para crear o editar una fuente de datos entre dispositivos.
 
@@ -69,7 +69,7 @@ Se necesitan permisos de administrador para crear, editar o eliminar una regla. 
 
 <!-- create-profile-merge-rule.xml -->
 
-**Requisitos previos:** Se requiere un origen de datos entre dispositivos para crear un [!UICONTROL Profile Merge Rule]. Consulte [Creación de una fuente](../manage-datasources.md#create-data-source)de datos.
+**Requisitos previos:** Se requiere un origen de datos entre dispositivos para crear un [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -167,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor de la Área de nombres, la variable `*`MCORG`*` es su ID [!DNL Experience Cloud] de organización. Si no tiene este ID, puede encontrarlo en la [!UICONTROL Administration] sección del [!DNL Experience Cloud] panel. Necesita permisos de administrador para vista de este panel. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+En el par clave-valor de la Área de nombres, la variable `*`MCORG`*` es su ID [!DNL Experience Cloud] de organización. Si no tiene este ID, puede encontrarlo en la [!UICONTROL Administration] sección del [!DNL Experience Cloud] panel. Necesita permisos de administrador para vista de este panel. See [Administration: Core Services](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuración de SDK
 
