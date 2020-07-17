@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -412,7 +412,7 @@ Una actualización correcta devuelve el código de respuesta `201 created` y el 
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../../features/destinations/destinations.md)
+>* [Destinos ](../../../features/destinations/destinations.md)
 >* [Serialización de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
 
