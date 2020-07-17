@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Segmentos: Propósito, composición y reglas {#segments-purpose-composition-and-rules}
+# Segmentos: propósito, composición y reglas {#segments-purpose-composition-and-rules}
 
 Describe [!UICONTROL segments], sus partes constituyentes y la creación de reglas con [!UICONTROL Segment Builder].
 
 ## Finalidad de [!UICONTROL Segments]
 
-Un *`segment`* (o un *`audience`*) es un conjunto de usuarios que comparten atributos comunes. En Audience Manager, se crea [!UICONTROL segments] con reglas del lado del servidor. Estas reglas le permiten generar grupos de audiencias basados en atributos de visitante del sitio como:
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. En Audience Manager, se crea [!UICONTROL segments] con reglas del lado del servidor. Estas reglas le permiten generar grupos de audiencias basados en atributos de visitante del sitio como:
 
 * Comportamiento;
 * Datos demográficos (edad, género, ingresos, etc.);
@@ -37,7 +37,7 @@ Al asignar Adobe Analytics [!UICONTROL segments] o grupos de informes a su organ
 
 >[!TIP]
 >
->El Audience Manager [!UICONTROL segments] es diferente de [!DNL Adobe Analytics][!UICONTROL segments]. Lea [Explicación de los segmentos en Analytics y Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para obtener una descripción detallada de las diferencias.
+>El Audience Manager [!UICONTROL segments] es diferente de [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Crear reglas basadas [!UICONTROL Segments] con [!UICONTROL Segment Builder]
 
@@ -54,5 +54,5 @@ A diferencia de los píxeles tradicionales que se activan en respuesta a condici
 
 >[!MORELIKETHIS]
 >
->* [Señales, características y segmentos](../../reference/signal-trait-segment.md)
+>* [Señales, rasgos y segmentos](../../reference/signal-trait-segment.md)
 
