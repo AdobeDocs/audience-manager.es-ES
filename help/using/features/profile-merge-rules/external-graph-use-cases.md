@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -129,7 +129,7 @@ Al utilizar el **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adob
 
 >[!MORELIKETHIS]
 >
->* [Casos de uso de Device Graph de vínculo de Perfil](profile-link-use-case.md)
+>* [Casos de uso de Device Graph de enlace de Perfil](profile-link-use-case.md)
 >* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
 >* [Preguntas más frecuentes sobre las reglas de combinación de Perfiles](../../faq/faq-profile-merge.md)
 
