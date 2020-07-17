@@ -1,20 +1,20 @@
 ---
 description: Audience Analytics permite enviar segmentos de Audience Manager a Analytics. Para usar esta función, hay que crear un destino de Analytics y segmentos de mapas para este en Audience Manager.
 seo-description: Audience Analytics permite enviar segmentos de Audience Manager a Analytics. Para usar esta función, hay que crear un destino de Analytics y segmentos de mapas para este en Audience Manager.
-seo-title: Configurar un destino de Analytics
+seo-title: Configuración de un destino de Analytics
 solution: Audience Manager
-title: Configurar un destino de Analytics
+title: Configuración de un destino de Analytics
 feature: Integration with Analytics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Configurar un destino de Analytics
+# Configuración de un destino de Analytics
 
 ## Requisitos {#requirements}
 
