@@ -1,20 +1,20 @@
 ---
-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
-seo-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
-seo-title: Sistema de informes de Audiencias predictivas
+description: Predictive Audiences le ayuda a clasificar en tiempo real audiencias desconocidas como personalidades diferenciadas, mediante el uso de la ciencia de datos.
+seo-description: Predictive Audiences le ayuda a clasificar en tiempo real audiencias desconocidas como personalidades diferenciadas, mediante el uso de la ciencia de datos.
+seo-title: Sistema de informes de Predictive Audiences
 solution: Audience Manager
-title: Audiencias predictivas de Audience Manager
+title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Sistema de informes de Audiencias predictivas
+# Sistema de informes de Predictive Audiences
 
 Después de guardar un [!UICONTROL Predictive Audiences] modelo, los inicios del Audience Manager lo entrenan. En un par de horas, el modelo calculado analizará en inicio las audiencias en los servidores [de recopilación de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)datos. El Sistema de informes estará disponible al día siguiente.
 
