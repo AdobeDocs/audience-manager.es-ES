@@ -1,21 +1,21 @@
 ---
 description: En este artículo se explica cómo las herramientas de segmentos y características del Audience Manager utilizan las expresiones booleanas AND, OR y NOT.
 seo-description: En este artículo se explica cómo las herramientas de segmentos y características del Audience Manager utilizan las expresiones booleanas AND, OR y NOT.
-seo-title: Expresiones booleanas en el Generador de características y segmentos
+seo-title: Expresiones booleanas en el Generador de rasgos y segmentos
 solution: Audience Manager
-title: Expresiones booleanas en el Generador de características y segmentos
+title: Expresiones booleanas en el Generador de rasgos y segmentos
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Expresiones booleanas en el Generador de características y segmentos{#boolean-expressions-in-trait-and-segment-builder}
+# Expresiones booleanas en el Generador de rasgos y segmentos{#boolean-expressions-in-trait-and-segment-builder}
 
 En este artículo se explica cómo las herramientas de segmentos y características del Audience Manager utilizan las expresiones booleanas AND, OR y NOT.
 
