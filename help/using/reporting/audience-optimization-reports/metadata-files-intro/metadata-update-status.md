@@ -92,11 +92,11 @@ Las siguientes tablas lista y definen las claves en las secciones `Files` y `Sum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para archivos</a>de metadatos. </p> </td> 
+   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para archivos</a>de metadatos. </p> </td> 
+   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID principal del nombre de archivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
