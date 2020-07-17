@@ -1,20 +1,20 @@
 ---
 description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento en tiempo real para usuarios autenticados a fin de crear segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas. '
 seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento en tiempo real para usuarios autenticados a fin de crear segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas.  '
-seo-title: 'Flujo de trabajo C: Personalización basada en Actividad autenticada combinada con datos sin conexión'
+seo-title: 'Flujo de trabajo C: personalización basada en Actividad autenticada combinada con datos sin conexión'
 solution: Audience Manager
-title: 'Flujo de trabajo C: Personalización basada en Actividad autenticada combinada con datos sin conexión'
+title: 'Flujo de trabajo C: personalización basada en Actividad autenticada combinada con datos sin conexión'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Flujo de trabajo C: Personalización basada en Actividad autenticada combinada con datos sin conexión {#workflow-c}
+# Flujo de trabajo C: personalización basada en Actividad autenticada combinada con datos sin conexión {#workflow-c}
 
 >[!IMPORTANT]
 >Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
