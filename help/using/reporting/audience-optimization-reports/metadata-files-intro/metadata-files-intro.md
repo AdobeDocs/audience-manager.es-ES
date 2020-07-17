@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -32,4 +32,4 @@ Un archivo de metadatos contiene nombres legibles por el usuario que corresponde
 * [Información general y asignaciones para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
 * [Convenciones de nomenclatura para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Formato de contenido para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
-* [Métodos de Envío para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
+* [Métodos de envío para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
