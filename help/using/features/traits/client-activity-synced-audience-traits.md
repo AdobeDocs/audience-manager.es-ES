@@ -1,21 +1,21 @@
 ---
 description: Son características especiales que utilizan las Audiencias direccionables. Las características de Audiencia activa y fuente de datos sincronizadas se encuentran en Datos de Audiencia > Características > Características de Audiencia.
 seo-description: Son características especiales que utilizan las Audiencias direccionables. Las características de Audiencia activa y fuente de datos sincronizadas se encuentran en Datos de Audiencia > Características > Características de Audiencia.
-seo-title: Características de la Audiencia activa y características sincronizadas de la fuente de datos
+seo-title: Rasgos de la Audiencia activa y rasgos sincronizados de la fuente de datos
 solution: Audience Manager
-title: Características de la Audiencia activa y características sincronizadas de la fuente de datos
+title: Rasgos de la Audiencia activa y rasgos sincronizados de la fuente de datos
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Características de la Audiencia activa y características sincronizadas de la fuente de datos {#active-audience-traits-and-data-source-synced-traits}
+# Rasgos de la Audiencia activa y rasgos sincronizados de la fuente de datos {#active-audience-traits-and-data-source-synced-traits}
 
 Estos son rasgos especiales que usa [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] y [!UICONTROL Data Source Synced Traits] se encuentran en [!UICONTROL Audience Data > Traits > Audience Traits].
 
