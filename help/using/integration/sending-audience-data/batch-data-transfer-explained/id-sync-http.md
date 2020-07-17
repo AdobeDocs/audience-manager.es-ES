@@ -1,21 +1,21 @@
 ---
 description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre un proveedor y un Audience Manager. La sincronización de ID puede comenzar después de enviar la taxonomía de datos al Audience Manager.
 seo-description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre un proveedor y un Audience Manager. La sincronización de ID puede comenzar después de enviar la taxonomía de datos al Audience Manager.
-seo-title: Sincronización de ID para transferencias de datos de entrada
+seo-title: Sincronización de ID para transferencias de datos entrantes
 solution: Audience Manager
-title: Sincronización de ID para transferencias de datos de entrada
+title: Sincronización de ID para transferencias de datos entrantes
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Sincronización de ID para transferencias de datos de entrada {#id-synchronization-for-inbound-data-transfers}
+# Sincronización de ID para transferencias de datos entrantes {#id-synchronization-for-inbound-data-transfers}
 
 Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los ID de usuario entre un proveedor y [!DNL Audience Manager]. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a [!DNL Audience Manager].
 
@@ -67,7 +67,7 @@ El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener va
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento GDPR con codificación URL base64 (consulte la especificación <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
