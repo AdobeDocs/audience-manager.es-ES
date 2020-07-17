@@ -1,21 +1,21 @@
 ---
 description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
 seo-description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
-seo-title: Administración de reglas de características
+seo-title: Administración de normas de rasgos
 solution: Audience Manager
-title: Administración de reglas de características
+title: Administración de normas de rasgos
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Administración de reglas de características {#managing-trait-rules}
+# Administración de normas de rasgos {#managing-trait-rules}
 
 En [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como `color == blue` o `price > 100`. Los operadores de comparación establecen la relación entre las claves y los valores. [!DNL Boolean] Las expresiones determinan la relación entre los grupos de reglas.
 
