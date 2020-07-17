@@ -1,21 +1,21 @@
 ---
 description: Este procedimiento requiere una lista de remercadotecnia de AdWords, un código de píxeles y un destino de URL de Audience Manager. También se conoce como lista de remercadotecnia para la integración de publicidades de búsqueda (RLSA). Se aplica solo a la búsqueda paga.
 seo-description: Este procedimiento requiere una lista de remercadotecnia de AdWords, un código de píxeles y un destino de URL de Audience Manager. También se conoce como lista de remercadotecnia para la integración de publicidades de búsqueda (RLSA). Se aplica solo a la búsqueda paga.
-seo-title: Envío de segmentos a una Lista de remercadotecnia de Google AdWords
+seo-title: Envío de segmentos a una Lista de remarketing de Google AdWords
 solution: Audience Manager
-title: Envío de segmentos a una Lista de remercadotecnia de Google AdWords
+title: Envío de segmentos a una Lista de remarketing de Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Envío de segmentos a una Lista de remercadotecnia de anuncios de Google {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Este procedimiento requiere una lista de [!DNL Google Ads] remercadotecnia, un código de píxel y un Audience Manager [!DNL URL][!DNL destination]. También se denomina lista de remercadotecnia para la integración de publicidades de búsqueda ([!DNL RLSA]). Se aplica solo a la búsqueda paga.
 
@@ -31,7 +31,7 @@ Para configurar una lista [!DNL Google Ads] de remercadotecnia como una [!DNL Au
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. En Audience Manager, [cree un [!Destino URL de DNL]](../../features/destinations/create-url-destination.md) o edite uno existente [!DNL destination]. Utilice los siguientes ajustes al crear el [!DNL destination]:
+1. En Audience Manager, [cree un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edite uno existente [!DNL destination]. Utilice los siguientes ajustes al crear el [!DNL destination]:
    * Tipo: URL
    * Serializar: Habilitado
    * Delimitador: Punto y coma (;)
@@ -72,7 +72,7 @@ Una asignación completada podría tener un aspecto similar a este:
 >[!MORELIKETHIS]
 >
 >* [[!Destinos DNL]](../../features/destinations/destinations.md)
->* [Crear un destino de URL [!DNL]](../../features/destinations/create-url-destination.md)
+>* [Cree un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [Acerca de las Listas de remercadotecnia de AdWords](https://support.google.com/adwords/answer/2472738)
 >* [Cómo funciona la remercadotecnia de AdWords](https://support.google.com/adwords/answer/2454000)
 
