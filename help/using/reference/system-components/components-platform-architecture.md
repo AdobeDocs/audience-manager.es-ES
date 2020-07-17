@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Arquitectura de Platform: Mapa del flujo de datos{#platform-architecture-data-flow-map}
+# Arquitectura de plataforma: mapa del flujo de datos{#platform-architecture-data-flow-map}
 
 Este mapa contiene los principales sistemas de Audience Manager. Representa visualmente cómo los datos fluyen dentro, fuera y entre los componentes del Audience Manager.
 
-## Cómo leer este mapa {#compmap}
+## How to read this map {#compmap}
 
 <!-- 
 
