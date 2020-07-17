@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Un archivo de datos con nombre y formato adecuados le permite importar datos de 
 
 Un archivo de datos debe ir acompañado de un archivo de metadatos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte [Información general y asignaciones para archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de metadatos.
 
-## Convenciones de nomenclatura para archivos de datos {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
 La siguiente sintaxis define la estructura de un nombre de archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable que cambia según el contenido del archivo.
 
@@ -43,7 +43,7 @@ Dados estos requisitos, asigne un nombre a los archivos de datos en función de 
 * Haga clic en los datos: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Datos de conversión: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Formato de contenido para archivos de datos {#content-format}
+## Content Format for Data Files {#content-format}
 
 La siguiente sintaxis define la estructura de contenido en un archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable y se sustituye por una etiqueta en un archivo de datos real.
 
@@ -141,7 +141,7 @@ La tabla siguiente lista y describe los encabezados de columna del archivo de da
  </tbody> 
 </table>
 
-## Métodos de Envío para archivos de datos {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Cargue los archivos de datos de impresión, clic o conversión en un directorio de Amazon S3 para su [!DNL Audience Manager] cuenta. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
 
