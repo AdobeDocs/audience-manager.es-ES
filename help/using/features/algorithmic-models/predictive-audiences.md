@@ -1,15 +1,15 @@
 ---
-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
-seo-description: Las Audiencias predictivas ayudan a clasificar audiencias desconocidas en personalidades distintas en tiempo real, mediante el uso de la ciencia de datos.
-seo-title: Información general de Audiencias predictivas
+description: Predictive Audiences le ayuda a clasificar en tiempo real audiencias desconocidas como personalidades diferenciadas, mediante el uso de la ciencia de datos.
+seo-description: Predictive Audiences le ayuda a clasificar en tiempo real audiencias desconocidas como personalidades diferenciadas, mediante el uso de la ciencia de datos.
+seo-title: Información general sobre Predictive Audiences
 solution: Audience Manager
-title: Audiencias predictivas de Audience Manager
+title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
 
-En un contexto de marketing, una persona es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de características, como demografía, hábitos de navegación, historial de compras, etc.
+En un contexto de marketing, una personalidad es un segmento de audiencia definido por visitantes, usuarios o compradores potenciales, que comparten un conjunto específico de rasgos, como su demografía, hábitos de navegación, historial de compras, etc.
 
-[!UICONTROL Predictive Audiences] los modelos llevan este concepto un paso más allá, permitiéndole utilizar las capacidades de aprendizaje automático de los Audience Manager para clasificar audiencias desconocidas en personalidades distintas. Audience Manager le ayuda a lograr esto calculando la propensión de su audiencia de origen desconocida para un conjunto de audiencias de origen conocidas.
+Los modelos de [!UICONTROL Predictive Audiences] llevan este concepto un paso más allá, ya que permiten utilizar las capacidades de aprendizaje automático de Audience Manager para clasificar audiencias desconocidas en personalidades distintas. Audience Manager le ayuda a conseguirlo calculando la propensión de la audiencia de origen desconocida para un conjunto de audiencias de origen conocidas.
 
 Cuando se crea un [!UICONTROL Predictive Audiences] modelo, el primer paso es elegir las características o segmentos de línea base por los que desea clasificar la audiencia de destinatario. Estas características o segmentos definirán sus personalidades.
 
@@ -105,7 +105,7 @@ Al evaluar audiencias de origen y asignar puntuaciones, el modelo utiliza el val
 
 Al configurar sus [!UICONTROL Predictive Audiences] modelos, tenga en cuenta las siguientes consideraciones y limitaciones:
 
-* Puede crear hasta 10 [!UICONTROL Predictive Audiences] modelos.
+* Puede crear hasta diez modelos de [!UICONTROL Predictive Audiences]. 
 * Para cada modelo, puede elegir hasta 50 características base / segmentos.
 * Los datos de segundo y de terceros no son compatibles actualmente con [!UICONTROL Predictive Audiences].
 * La clasificación de Audiencias solo se realiza para audiencias individuales en tiempo real. La clasificación de audiencia de origen integrada puede admitirse en una actualización futura.
