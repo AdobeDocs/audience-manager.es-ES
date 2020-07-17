@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -46,4 +46,4 @@ Debido a la gran cantidad de datos que el Audience Manager procesa diariamente, 
 
 ## Conceptos relacionados
 
-[Señales, características y segmentos](/help/using/reference/signal-trait-segment.md)
+[Señales, rasgos y segmentos](/help/using/reference/signal-trait-segment.md)
