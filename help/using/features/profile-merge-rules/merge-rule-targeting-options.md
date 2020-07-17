@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -81,7 +81,7 @@ Para obtener más información sobre esta opción, consulte Destinos basados en 
 
 ## Opciones de Device Graph {#device-graph-options}
 
-La selección de una [!UICONTROL device graph] opción para una [!UICONTROL Profile Merge] regla depende de condiciones exclusivas para sus propiedades digitales y objetivos comerciales. Estas directrices generales pueden ayudarle a saber cuándo utilizar un tipo de gráfico frente a otro. Tenga en cuenta que debe ser miembro de Device Co-op [de](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) Adobe Experience Cloud o tener una relación contractual con un gráfico de dispositivos externo para utilizar estas opciones. Consulte la siguiente tabla para obtener instrucciones generales sobre cuándo elegir una opción de gráfico de dispositivos. Para casos de uso específicos, consulte [Perfil Link Device Graph Casos](profile-link-use-case.md) de uso de Device Graph y Casos [de uso de Device Graph](external-graph-use-cases.md)externos.
+La selección de una [!UICONTROL device graph] opción para una [!UICONTROL Profile Merge] regla depende de condiciones exclusivas para sus propiedades digitales y objetivos comerciales. Estas directrices generales pueden ayudarle a saber cuándo utilizar un tipo de gráfico frente a otro. Tenga en cuenta que debe ser miembro de Device Co-op [de](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html) Adobe Experience Cloud o tener una relación contractual con un gráfico de dispositivos externo para utilizar estas opciones. Consulte la siguiente tabla para obtener instrucciones generales sobre cuándo elegir una opción de gráfico de dispositivos. Para casos de uso específicos, consulte [Perfil Link Device Graph Casos](profile-link-use-case.md) de uso de Device Graph y Casos [de uso de Device Graph](external-graph-use-cases.md)externos.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Vea el siguiente vídeo para obtener una descripción general de los casos de us
 
 >[!MORELIKETHIS]
 >
->* [Casos de uso de Device Graph de vínculo de Perfil](profile-link-use-case.md)
+>* [Casos de uso de Device Graph de enlace de Perfil](profile-link-use-case.md)
 >* [Ejemplos de uso de los Gráficos de dispositivos externos](external-graph-use-cases.md)
 >* [Preguntas más frecuentes sobre las reglas de combinación de Perfiles](../../faq/faq-profile-merge.md)
 
