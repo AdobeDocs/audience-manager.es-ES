@@ -1,21 +1,21 @@
 ---
 description: El proceso de ingesta de datos en tiempo real utiliza una serie de solicitudes HTTP del explorador de un usuario para pasar datos al Audience Manager.
 seo-description: El proceso de ingesta de datos en tiempo real utiliza una serie de solicitudes HTTP del explorador de un usuario para pasar datos al Audience Manager.
-seo-title: Ingesta de datos de entrada en tiempo real
+seo-title: Incorporación de datos de entrada en tiempo real
 solution: Audience Manager
-title: Ingesta de datos de entrada en tiempo real
+title: Incorporación de datos de entrada en tiempo real
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Ingesta de datos de entrada en tiempo real {#real-time-inbound-data-ingestion}
+# Incorporación de datos de entrada en tiempo real {#real-time-inbound-data-ingestion}
 
 El proceso de ingesta de datos en tiempo real utiliza una serie de `HTTP` solicitudes del explorador de un usuario para pasar datos al Audience Manager.
 
