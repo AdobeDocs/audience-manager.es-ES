@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ La siguiente tabla lista y define los parámetros más comunes que se pueden ver
 | `cv` | Valores enviados al destino definido por el parámetro &quot;cn&quot;:&quot; nombre de destino&quot;. |
 | `dcs_region` | Llamadas [DCS de](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)servidor a servidor. |
 | `dests` | Este objeto contiene información para todos los destinos URL configurados en la interfaz de usuario. La lista de este objeto es dinámica en función de las acciones del usuario. |
-| `dmn` | Dominio especificado en el campo Dominio de la cookie para un destino de cookie. Consulte Configuración [opcional para destinos](../../../features/destinations/cookie-destination-options.md)de cookies.  Para integraciones de servidor a servidor, recomendamos usar un dominio como `aam-api.com`. |
+| `dmn` | Dominio especificado en el campo Dominio de la cookie para un destino de cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/cookie-destination-options.md).  Para integraciones de servidor a servidor, recomendamos usar un dominio como `aam-api.com`. |
 | `e` | Dirección URL segura que se ha establecido en un destino de dirección URL. |
 | `stuff` | Este objeto contiene información para todos los destinos de Cookie. La lista de este objeto es dinámica en función de las acciones del usuario. |
 | `tid` | ID de transacción, que es un ID exclusivo de 12 caracteres utilizado para la depuración. Cada llamada /evento al DCS recibe un tid al que puede hacer referencia en consultas de soporte para obtener una respuesta mejor y más rápida. |
