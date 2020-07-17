@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager API Code Migration {#audience-manager-api-code-migration}
+# Migración de código de API de Audience Manager {#audience-manager-api-code-migration}
 
 Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como ustedes, queremos trabajar con [!DNL API] documentación confiable y precisa. Como resultado, estamos reescribiendo nuestro [!DNL API] contenido [!DNL Swagger] y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código del Audience Manager [!DNL API] .
 
@@ -92,8 +92,8 @@ El [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/inde
 ---------|----------
 | **[!UICONTROL Algorithmic Models**] | [Modelos algorítmicos](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
 | **[!UICONTROL Audience Marketplace]** | <ul><li>[Archivo de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Solicitud de fuente de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Finanzas de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Planes de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Suscripciones de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
-| **[!UICONTROL Data Sources]** | [Fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
+| **[!UICONTROL Data Sources]** | [Fuentes de datos ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[Carpetas de segmento](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Carpetas de características](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [Informes](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
-| **[!UICONTROL Segments]** | <ul><li>[Segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Grupos de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[API de borrador del grupo de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
-| **[!UICONTROL Traits]** | [Características](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
+| **[!UICONTROL Segments]** | <ul><li>[Segmentos ](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Grupos de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[API de borrador del grupo de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
+| **[!UICONTROL Traits]** | [Rasgos ](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
