@@ -1,21 +1,21 @@
 ---
 description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
 seo-description: Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
-seo-title: Segmentación de dispositivos con claves de nivel Platform
+seo-title: Segmentación de dispositivos con claves a nivel de plataforma
 solution: Audience Manager
-title: Segmentación de dispositivos con claves de nivel Platform
+title: Segmentación de dispositivos con claves a nivel de plataforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# Segmentación de dispositivos con claves a nivel de plataforma {#device-targeting-with-platform-level-keys}
 
 Describe los pares de clave-valor comunes de nivel de plataforma que puede utilizar para destinatario de usuarios con variables relacionadas con el dispositivo en todas las propiedades de la cuenta de Audience Manager.
 
