@@ -1,21 +1,21 @@
 ---
 description: Devuelve datos sobre el número de usuarios únicos compartidos entre una característica en particular y un segmento completo.
 seo-description: Devuelve datos sobre el número de usuarios únicos compartidos entre una característica en particular y un segmento completo.
-seo-title: Informe de solapamiento entre segmento y característica
+seo-title: Informe de solapamiento entre segmento y rasgo
 solution: Audience Manager
-title: Informe de solapamiento entre segmento y característica
+title: Informe de solapamiento entre segmento y rasgo
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Informe de solapamiento entre segmento y característica{#segment-to-trait-overlap-report}
+# Informe de solapamiento entre segmento y rasgo{#segment-to-trait-overlap-report}
 
 Devuelve datos sobre el número de usuarios únicos compartidos entre una característica en particular y un segmento completo.
 
@@ -182,9 +182,9 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
 
 >[!MORELIKETHIS]
 >
->* [Filtrar los resultados del informe con los deslizadores de datos](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Informes de superposición: Actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
+>* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
