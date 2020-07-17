@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -482,7 +482,7 @@ Devuelve una matriz de asignaciones creadas.
 ]
 ```
 
-## Actualizar un destino por ID de destino {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Un `PUT` método que permite actualizar un destino existente por `destinationId`.
 
@@ -584,7 +584,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../../features/destinations/destinations.md)
+>* [Destinos ](../../../features/destinations/destinations.md)
 >* [Serialización de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
 
