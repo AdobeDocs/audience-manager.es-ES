@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
+# CID sustituye DPID y DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Actualice el código para utilizarlo `d_cid` o `d_cid_ic` en lugar de `d_dpid` y `d_dpuuid`. Las variables DPID y DPUUID seguirán funcionando, pero debe considerarlas obsoletas. Esto incluye las variantes DPID y DPUUID sin el `d_ prefix`.
 
 ## DPID y DPUUID: Una revisión {#dpid-dpuuid-review}
 
-El DPID y el DPUUID son pares de clave-valor que contienen un ID de proveedor de datos y un ID de usuario. Estos pares de clave-valor vinculan los ID de proveedor a los ID de usuario. Envían datos durante llamadas de evento, para eventos de sincronización de entrada y para llamadas de ID. Sin ellos, ni [!DNL Audience Manager]con otros servicios o características, no habría una forma de hacer coincidir y sincronizar los ID. Estas variables se expresan a veces con o sin el `d_` prefijo como se muestra a continuación. Tenga en cuenta que en el código, la *cursiva* indica un marcador de posición de variable.
+El DPID y el DPUUID son pares de clave-valor que contienen un ID de proveedor de datos y un ID de usuario. Estos pares de clave-valor vinculan los ID de proveedor a los ID de usuario. Envían datos durante llamadas de evento, para eventos de sincronización de entrada y para llamadas de ID. Sin ellos, ni [!DNL Audience Manager]con otros servicios o características, no habría una forma de hacer coincidir y sincronizar los ID. Estas variables se expresan a veces con o sin el `d_` prefijo como se muestra a continuación. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ Los pares de clave-valor CID y CID_IC reemplazan DPID y DPUUID. Proporcionan las
 * El símbolo = separa la clave de sus valores relacionados.
 * El carácter ASCII no imprimible %01 separa los valores.
 
-`d_cid` y `d_cid_ic` utilice la sintaxis que se muestra a continuación. Tenga en cuenta que en el código, la *cursiva* indica un marcador de posición de variable.
+`d_cid` y `d_cid_ic` utilice la sintaxis que se muestra a continuación. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
