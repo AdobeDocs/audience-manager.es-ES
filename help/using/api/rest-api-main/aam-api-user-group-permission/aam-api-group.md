@@ -1,21 +1,21 @@
 ---
 description: Métodos de API de descanso para administrar grupos, incluida la creación, actualización, listado y eliminación de grupos.
 seo-description: Métodos de API de descanso para administrar grupos, incluida la creación, actualización, listado y eliminación de grupos.
-seo-title: Métodos de API de administración de grupos
+seo-title: Métodos de API de administración de grupo
 solution: Audience Manager
-title: Métodos de API de administración de grupos
+title: Métodos de API de administración de grupo
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
 
-# Métodos de API de administración de grupos {#group-management-api-methods}
+# Métodos de API de administración de grupo {#group-management-api-methods}
 
 Métodos [!DNL API] de descanso para administrar grupos, como crear, actualizar, enumerar o eliminar grupos.
 
