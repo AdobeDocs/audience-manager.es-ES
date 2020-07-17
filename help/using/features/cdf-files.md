@@ -2,16 +2,16 @@
 description: Información básica sobre archivos de Fuente de datos del cliente (CDF) e instrucciones sobre cómo empezar. Inicio aquí si estás interesado en recibir archivos CDF o solo quieres más información.
 keywords: second party data;2nd party;2nd party data;second party
 seo-description: Información básica sobre archivos de Fuente de datos del cliente (CDF) e instrucciones sobre cómo empezar. Inicio aquí si estás interesado en recibir archivos CDF o solo quieres más información.
-seo-title: Fuentes de datos del cliente
+seo-title: Fuentes de datos de clientes
 solution: Audience Manager
-title: Fuentes de datos del cliente
+title: Fuentes de datos de clientes
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Información básica sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) ar
 
 ## Contenido y propósito del archivo {#file-contents-purpose}
 
-Un [!UICONTROL CDF] archivo contiene los mismos datos que una llamada de [!DNL Audience Manager] evento (`/event`) envía a nuestros servidores. Esto incluye datos como ID de usuario [!UICONTROL trait IDs], [!UICONTROL segment IDs]y todos los demás parámetros capturados por una llamada de evento. Los [!DNL Audience Manager] sistemas internos procesan los datos de evento en un [!UICONTROL CDF] archivo con contenido organizado en campos que aparecen en un orden definido. [!DNL Audience Manager] intenta generar [!UICONTROL CDF] archivos por hora y los almacena en un bloque seguro y específico para el cliente en un [!DNL Amazon S3] servidor. Proporcionamos estos archivos para que pueda trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario.
+Un archivo [!UICONTROL CDF] contiene los mismos datos que una llamada de evento de [!DNL Audience Manager] (`/event`) envía a nuestros servidores. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Los [!DNL Audience Manager] sistemas internos procesan los datos de evento en un [!UICONTROL CDF] archivo con contenido organizado en campos que aparecen en un orden definido. [!DNL Audience Manager] intenta generar [!UICONTROL CDF] archivos por hora y los almacena en un bloque seguro y específico para el cliente en un [!DNL Amazon S3] servidor. Proporcionamos estos archivos para que pueda trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ No existe un proceso de autoservicio para el envío de archivos [!UICONTROL CDF]
 * Configure el cubo [!DNL Amazon S3] de almacenamiento.
 * Proporcione credenciales de autenticación de solo lectura al contenedor de almacenamiento de archivos. [!DNL S3] No podrá ver ni acceder a directorios y archivos que pertenezcan a otros clientes.
 
-Las notificaciones de archivo y [!UICONTROL CDF] los archivos aparecerán en el [!DNL S3] bloque cuando estén listos para la descarga. Usted es el responsable de supervisar y descargar archivos del [!DNL S3] directorio asignado. Consulte Notificaciones [de procesamiento de archivos de fuentes de datos de clientes](#cdf-file-processing-notifications).
+Las notificaciones de archivo y [!UICONTROL CDF] los archivos aparecerán en el [!DNL S3] bloque cuando estén listos para la descarga. Usted es el responsable de supervisar y descargar archivos del [!DNL S3] directorio asignado. Consulte [Notificaciones sobre procesamiento de archivos de fuentes de datos de clientes](#cdf-file-processing-notifications).
 
 ## Pasos siguientes {#next-steps}
 
@@ -105,7 +105,7 @@ Un [!UICONTROL CDF] archivo incluye algunos o todos los campos definidos a conti
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>El <span class="keyword"> ID de Experience Cloud</span> (MID) asignado al visitante del sitio. Consulte también <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio</a>de identidad de Experience Platform de Adobe. </p> </td> 
+   <td colname="col3"> <p>El <span class="keyword"> ID de Experience Cloud</span> (MID) asignado al visitante del sitio. Consulte también <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio</a>de identidad de Experience Platform de Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -157,7 +157,7 @@ Lista y define la estructura de datos de un [!UICONTROL CDF] archivo. Esto inclu
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parámetros de solicitud </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Dirección IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID del dispositivo Experience Cloud (o MID). Consulte también <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad de Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID del dispositivo Experience Cloud (o MID). See also, <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos los segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas las características </li> 
      </ol> </p> <p>Para ver las descripciones de los campos, consulte <a href="#cdf-defined"> Contenido de fuente de datos del cliente definido</a>. </p> </td> 
@@ -307,7 +307,7 @@ Las siguientes tablas lista y definen los elementos de un [!UICONTROL CDF] `.inf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>El nombre del archivo. Consulte <a href="#cdf-naming-conventions"> Convenciones</a>de nomenclatura de archivos de fuentes de datos de clientes. </p> </td> 
+   <td colname="col2"> <p>El nombre del archivo. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -370,5 +370,5 @@ En la tabla siguiente se proporcionan detalles adicionales sobre las marcas de h
 
 >[!MORELIKETHIS]
 >
->* [Preguntas más frecuentes sobre la fuente de datos del cliente](../faq/faq-cdf.md)
+>* [Preguntas frecuentes sobre la Fuente de datos de clientes](../faq/faq-cdf.md)
 
