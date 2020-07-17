@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -51,7 +51,7 @@ Para obtener información sobre los intervalos de tiempo en los que el Audience 
 
    Use el Panel para vista información sobre los recuentos de visitantes únicos de sus socios desglosados por [!UICONTROL trait] tipos y [!UICONTROL segments] para un intervalo de tiempo específico.
 
-* [Muestreo de datos y tasas de error en informes de Audience Manager seleccionados](/help/using/reporting/report-sampling.md)
+* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado](/help/using/reporting/report-sampling.md)
 
    Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 
