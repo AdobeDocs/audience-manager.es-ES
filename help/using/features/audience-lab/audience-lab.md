@@ -1,9 +1,9 @@
 ---
 description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede dejar de lado un grupo de control y dividir el segmento en porcentajes de un todo, para probar la eficacia.
 seo-description: Cree segmentos de prueba mutuamente excluyentes en los grupos de prueba de segmentos para comparar y medir la eficacia de diferentes destinos. Puede dejar de lado un grupo de control y dividir el segmento en porcentajes de un todo, para probar la eficacia.
-seo-title: Audiencia Lab
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Audiencia Lab
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
