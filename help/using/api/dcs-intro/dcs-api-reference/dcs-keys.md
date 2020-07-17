@@ -1,9 +1,9 @@
 ---
 description: Lista y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros devueltos por este sistema.
 seo-description: Lista y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros devueltos por este sistema.
-seo-title: Atributos admitidos para llamadas de API de DCS
+seo-title: Atributos admitidos para llamadas a la API DCS
 solution: Audience Manager
-title: Atributos admitidos para llamadas de API de DCS
+title: Atributos admitidos para llamadas a la API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -73,11 +73,11 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!DNL D
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contiene uno o más pares de ID de proveedores de datos (<code> DPID</code>) e ID de usuarios de proveedores de datos (<code> DPUUID</code>) asignados por <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID</code>s y <code> DPUUID</code>s, separe cada par con el carácter no imprimible <code> %01</code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene uno o más pares de ID de proveedores de datos (<code> DPID</code>) e ID de usuarios de proveedores de datos (<code> DPUUID</code>) asignados por <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID</code>s y <code> DPUUID</code>s, separe cada par con el carácter no imprimible <code> %01</code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID sustituye DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un solo par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
@@ -123,7 +123,7 @@ Todas estas opciones son opcionales, a menos que desee una respuesta del [!DNL D
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por el servicio de ID de <span class="keyword"> Experience Cloud</span> . Para obtener más información sobre el ECID, consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio</a>de identidad de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por el servicio de ID de <span class="keyword"> Experience Cloud</span> . Para obtener más información sobre el ECID, consulte <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio</a>de identidad de Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
