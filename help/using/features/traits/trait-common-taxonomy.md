@@ -1,30 +1,30 @@
 ---
-description: This article provides general overview about classifying traits with a common taxonomy.
+description: Este artículo proporciona información general sobre la clasificación de características con una taxonomía común.
 keywords: DIL
-seo-description: This article provides general overview about classifying traits with a common taxonomy.
-seo-title: Classifying Traits with a Common Taxonomy
+seo-description: Este artículo proporciona información general sobre la clasificación de características con una taxonomía común.
+seo-title: Clasificación de rasgos con una taxonomía común
 solution: Audience Manager
-title: Classifying Traits with a Common Taxonomy
+title: Clasificación de rasgos con una taxonomía común
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Classifying Traits with a Common Taxonomy {#classifying-traits-with-a-common-taxonomy}
+# Clasificación de rasgos con una taxonomía común {#classifying-traits-with-a-common-taxonomy}
 
-This article provides general overview about classifying traits with a common taxonomy.
+Este artículo proporciona información general sobre la clasificación de características con una taxonomía común.
 
-## The Audience Manager Taxonomy
+## La taxonomía Audience Manager
 
 <!-- c_common_taxonomy_about.xml -->
 
-La taxonomía [!DNL Audience Manager] es una función opcional que clasifica características mediante convenciones de nombres uniformes, lógicas y comúnmente conocidas. It operates at the platform level to help ensure naming consistency throughout the [!DNL Audience Manager] ecosystem. En última instancia, la taxonomía común está diseñada para hacer que nuestro producto se ajuste bueno a las normas del sector relativas a la privacidad del consumidor y a los procesos de exclusión.
+La taxonomía [!DNL Audience Manager] es una función opcional que clasifica características mediante convenciones de nombres uniformes, lógicas y comúnmente conocidas. Funciona a nivel de plataforma para ayudar a garantizar la coherencia de los nombres en todo el [!DNL Audience Manager] ecosistema. En última instancia, la taxonomía común está diseñada para hacer que nuestro producto se ajuste bueno a las normas del sector relativas a la privacidad del consumidor y a los procesos de exclusión.
 
 ## Ventajas de la clasificación de características
 
