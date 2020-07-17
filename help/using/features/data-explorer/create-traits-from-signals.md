@@ -1,20 +1,20 @@
 ---
 description: Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que se califican tras la creación de características.
 seo-description: Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que se califican tras la creación de características.
-seo-title: Crear características a partir de señales
-title: Crear características a partir de señales
+seo-title: Crear rasgos a partir de señales
+title: Crear rasgos a partir de señales
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Crear características a partir de señales
+# Crear rasgos a partir de señales
 
 Cree nuevas características a partir de todas las señales, incluidas las que ya se utilizan en características, y capture audiencias futuras que se califican tras la creación de características. Vea el vídeo para una rápida demostración o lea para obtener información detallada:
 
@@ -46,6 +46,7 @@ Busque señales específicas y cree características basadas en reglas o integra
 2. Identifique las señales que desea utilizar en la característica, en la lista de resultados.
    * Para crear una característica a partir de una señal, haga clic en el vínculo correspondiente **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** .
    * Para crear una característica a partir de varias señales, haga clic en la casilla de verificación correspondiente de cada señal y, a continuación, haga clic en **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >Solo se pueden crear características a partir de señales del mismo tipo. No se puede crear una característica basada en una combinación de una señal en tiempo real y una señal incorporada.
    >
