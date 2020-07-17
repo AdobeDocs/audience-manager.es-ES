@@ -1,6 +1,9 @@
 ---
 source-git-commit: dee392312d8e0381c714a99b5d537c767107c9bc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 # Instrucciones
@@ -20,7 +23,7 @@ translation-type: tm+mt
    + Si hay un tema en la guía llamado *Implementación*, el directorio correspondiente es `/implementation`
 + Todos los recursos de imagen se almacenan `/assets` en la raíz de la guía del usuario.
    + Se localizarán todas las imágenes del `/assets` directorio.
-   + No se localizará ninguna imagen del `/no-localize` directorio (¡hay una sorpresa!). Esto se puede utilizar para garantizar en las versiones de loc que los recursos específicos no se reproducen innecesariamente.
+   + Las imágenes del `/no-localize` directorio no se localizarán (¡hay una sorpresa!). Esto se puede utilizar para garantizar en las versiones de loc que los recursos específicos no se reproducen innecesariamente.
 
 ## Metadatos de nivel de guía del usuario
 
@@ -40,9 +43,9 @@ translation-type: tm+mt
    + short-title: (campo opcional).
    + index - yes / no - la página será indexada por la plataforma de búsqueda de Adobe.
    + traducir - sí / no - se localizará esta página.
-   + versión: se utiliza principalmente para AEM y Campaign, para denotar la versión del producto.
+   + versión: se utiliza principalmente para AEM y Campaña, para denotar la versión del producto.
    + private-feature-pack: se utiliza principalmente para AEM.
-   + beta - ¿Este producto está en beta?
+   + beta - ¿Este producto está en versión beta?
    + redireccionamiento: se puede utilizar para crear una referencia a una nueva página si es necesario.
    + doc-type: referencia (predeterminado) / solución de problemas / desarrollador / tutorial / kb / documento técnico.
 
