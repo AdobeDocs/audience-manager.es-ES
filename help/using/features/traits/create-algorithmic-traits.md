@@ -1,21 +1,21 @@
 ---
 description: Describe los pasos y las funciones de configuración exclusivos del proceso de creación de características algorítmicas.
 seo-description: Describe los pasos y las funciones de configuración exclusivos del proceso de creación de características algorítmicas.
-seo-title: Crear características algorítmicas
+seo-title: Crear rasgos algorítmicos
 solution: Audience Manager
-title: Crear características algorítmicas
+title: Crear rasgos algorítmicos
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Crear características algorítmicas {#create-algorithmic-traits}
+# Crear rasgos algorítmicos {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
 
@@ -40,7 +40,7 @@ En [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sección permite as
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Crear un modelo](../../features/algorithmic-models/create-model.md)similar.
+* [Creación de un modelo de similitud](../../features/algorithmic-models/create-model.md).
 * Espere el correo electrónico de notificación que le permite saber que la ejecución de datos del modelo ha finalizado.
 * Complete los campos requeridos en la sección Información [](../../features/traits/create-onboarded-rule-based-traits.md) básica.
 
