@@ -2,21 +2,21 @@
 description: Cree, edite y elimine características de carpeta.
 keywords: Folder Trait;Folder Traits;folder traits;folder trait
 seo-description: Cree, edite y elimine características de carpeta.
-seo-title: Administrar características de carpeta
+seo-title: Administrar rasgos de carpetas
 solution: Audience Manager
-title: Administrar características de carpeta
+title: Administrar rasgos de carpetas
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Administrar características de carpeta {#manage-folder-traits}
+# Administrar rasgos de carpetas {#manage-folder-traits}
 
 Cree, edite y elimine características de carpeta.
 
@@ -26,15 +26,16 @@ Se [!UICONTROL folder trait] crea automáticamente una carpeta cuando se crea un
 
 <!-- create-folder-trait.xml -->
 
-1. Go to **[!UICONTROL Audience Data > Traits]** to navigate to the **Traits** dashboard.
+1. Vaya a **[!UICONTROL Audience Data > Traits]** para navegar al panel **Características** .
 1. En la [!UICONTROL Trait Storage] ventana, pase el ratón por encima:
 
-   * &quot;All Traits&quot; text to add a new root level folder.
+   * Texto &quot;Todas las características&quot; para agregar una nueva carpeta de nivel raíz.
    * Una carpeta principal existente para agregar una nueva carpeta subordinada.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Haga clic en el icono + para crear la carpeta. Tenga en cuenta que puede crear un máximo de 2000 carpetas en su taxonomía. Consulte la documentación sobre los [límites de uso](../../features/administration/usage-limits.md) para obtener más información.
-1. Asigne un nombre a la carpeta y haga clic en **Guardar**. For example, a folder named Electronics will have a folder trait named &#39;Electronics Folder Trait&#39;. Puede vista y seleccionar la nueva característica de carpeta en el panel de características.
+1. Asigne un nombre a la carpeta y haga clic en **Guardar**. Por ejemplo, una carpeta llamada Electronics tendrá una característica de carpeta denominada &#39;Características de la carpeta de componentes electrónicos&#39;. Puede vista y seleccionar la nueva característica de carpeta en el panel de características.
 1. La nueva característica de carpeta se asigna automáticamente al origen de datos [!DNL Audience Manager] generado. Los usuarios con los permisos adecuados de [!UICONTROL Control de acceso basado en roles ([!DNL RBAC])] pueden cambiar el origen de datos en el flujo de trabajo de edición de características de carpeta. Consulte [Edición de una característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)de carpeta.
 
 ## Editar una característica de carpeta {#edit-folder-trait}
@@ -48,7 +49,7 @@ Describe cómo se puede editar una [!UICONTROL folder trait].
 
    ![](assets/folder_traits_edit_border.png)
 
-1. El flujo de trabajo le permite cambiar el origen de datos para características de carpeta. **[!UICONTROL Edit]** Seleccione la fuente de datos deseada y haga clic en **[!UICONTROL Save]**. Data sources are sorted numerically, by [!DNL DPID], in the drop-down box.
+1. El flujo de trabajo le permite cambiar el origen de datos para características de carpeta. **[!UICONTROL Edit]** Seleccione la fuente de datos deseada y haga clic en **[!UICONTROL Save]**. Las fuentes de datos se ordenan numéricamente, por [!DNL DPID], en el cuadro desplegable.
 
    Si su compañía utiliza [!UICONTROL Role-Based Access Rights (RBAC)], usted o sus usuarios necesitan [permisos](../../features/traits/about-folder-traits.md#role-based-access-controls) de acceso para características de las fuentes de datos.
 
