@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -37,10 +37,10 @@ Póngase en contacto con su representante de Adobe para aprovechar esta función
 Antes de poder usar [!UICONTROL People-Based Destinations] para enviar su audiencia de origen [!UICONTROL segments] a [!DNL Facebook], asegúrese de cumplir los siguientes requisitos:
 
 1. Su cuenta [!DNL Facebook] de usuario debe tener el permiso **Administrar campañas** habilitado para la cuenta de publicidad que planea usar.
-2. Añada la cuenta comercial de **Adobe Experience Cloud** como socio publicitario en su [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. Consulte [Añadir socios a su administrador](https://www.facebook.com/business/help/1717412048538897) comercial para obtener más información.
+2. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/1717412048538897) for details.
    >[!IMPORTANT]
-   > Al configurar los permisos para Adobe Experience Cloud, debe habilitar el permiso **Administrar campañas** . Esto es necesario para la [!UICONTROL People-Based Destinations] integración.
-3. Lea y firme las [!DNL Facebook Custom Audiences] Condiciones de servicio. Para hacerlo, vaya a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, donde `accountID` está su [!DNL Facebook Ad Account ID].
+   > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Es necesario para la integración de [!UICONTROL People-Based Destinations].
+3. Lea y firme las [!DNL Facebook Custom Audiences] Condiciones de servicio. Para ello, vaya a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, donde `accountID` es su [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
 
@@ -99,7 +99,7 @@ Cuando utilice [!UICONTROL People-Based Destinations], utilice Controles [de exp
 
 ## ID con hash autenticados integrados mediante el objetivo de ID declarado {#onboard-authenticated-declared-id}
 
-Existen dos maneras de llevar los datos sin conexión al Audience Manager para [!UICONTROL People-Based Destinations].
+Existen dos maneras de incluir los datos sin conexión a Audience Manager para [!UICONTROL People-Based Destinations].
 
 * [Enviar datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes al Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede elegir utilizar las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!UICONTROL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para características [integradas](../traits/trait-and-segment-qualification-reference.md).
-* Utilice ID [declarados](../declared-ids.md) para declarar direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, el Audience Manager, en su nombre, solo envía a [!UICONTROL People-Based Destinations] las direcciones de correo electrónico con hash los usuarios que se han autenticado en línea. Las direcciones de correo electrónico activadas mediante canales basados en personas son solo las que se encuentran en las llamadas declaradas al evento de ID. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
+* Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!UICONTROL People-Based Destinations] the hashed email addresses from users who have authenticated online. Las direcciones de correo electrónico activadas mediante canales basados en personas son solo las que se encuentran en las llamadas declaradas al evento de ID. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
