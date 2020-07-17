@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -73,7 +73,7 @@ La siguiente tabla define los componentes básicos de una [!DNL DCS] llamada sim
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Encerrar datos de cadena entre comillas de doble (por ejemplo, <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Puede pasar varias claves en un solo valor (por ejemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formato de pares de clave-valor en llamadas</a>DCS. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -97,7 +97,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Pasos siguientes {#dcs-next-steps}
 
-Ahora que estamos familiarizados con el envío de datos al [!DNL DCS]sitio, es hora de ver cómo recuperar datos y analizar esa información. Consulte [Recepción de datos desde el DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Ahora que estamos familiarizados con el envío de datos al [!DNL DCS]sitio, es hora de ver cómo recuperar datos y analizar esa información. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
