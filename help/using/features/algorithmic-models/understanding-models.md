@@ -47,7 +47,7 @@ Desactivamos cualquier [!UICONTROL Look-Alike Model] que no pueda generar datos 
 
 ## Explicación [!UICONTROL TraitWeight] {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir nuevos [!UICONTROL traits] automáticamente. Compara [!UICONTROL trait] los datos actuales [!UICONTROL traits] y [!UICONTROL segments] con todos los demás datos de origen y de terceros a los que tiene acceso [!DNL Audience Manager]. Consulte esta sección para obtener una descripción del proceso de detección [!UICONTROL TraitWeight] algorítmica.
+[!UICONTROL TraitWeight] es un algoritmo propietario diseñado para descubrir nuevos [!UICONTROL traits] automáticamente. Compara [!UICONTROL trait] los datos actuales [!UICONTROL traits] y [!UICONTROL segments] con todos los demás datos de origen y de terceros a los que tiene acceso [!DNL Audience Manager]. Consulte esta sección para ver una descripción del proceso de detección [!UICONTROL TraitWeight] algorítmica.
 
 ![](assets/algo_model.png)
 
@@ -191,7 +191,7 @@ La página de resumen del modelo incluye las siguientes secciones.
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../features/destinations/destinations.md)
->* [Características](../../features/traits/trait-details-page.md)
->* [Segmentos](../../features/segments/segments-purpose.md)
+>* [Destinos ](../../features/destinations/destinations.md)
+>* [Rasgos ](../../features/traits/trait-details-page.md)
+>* [Segmentos ](../../features/segments/segments-purpose.md)
 
