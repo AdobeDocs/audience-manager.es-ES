@@ -1,21 +1,21 @@
 ---
 description: En este artículo se describen los operadores de comparación utilizados por el Generador de características.
 seo-description: En este artículo se describen los operadores de comparación utilizados por el Generador de características.
-seo-title: Uso de operadores de comparación en el generador de características
+seo-title: Uso de operadores de comparación en el generador de rasgos
 solution: Audience Manager
-title: Uso de operadores de comparación en el generador de características
+title: Uso de operadores de comparación en el generador de rasgos
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Uso de operadores de comparación en el generador de características {#working-with-comparison-operators-in-trait-builder}
+# Uso de operadores de comparación en el generador de rasgos {#working-with-comparison-operators-in-trait-builder}
 
 Este artículo describe los operadores de comparación utilizados por [!UICONTROL Trait Builder].
 
@@ -56,7 +56,7 @@ Puede generar reglas con los siguientes operadores con nombre:
 
 >[!MORELIKETHIS]
 >
->* [Expresiones booleanas en el Generador de características y segmentos](../../reference/boolean-expressions-tsb.md)
+>* [Expresiones booleanas en el Generador de rasgos y segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Explicación de las Expresiones booleanas en TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Orden de las operaciones en Expresiones de TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Expresiones de muestra con operadores booleanos y de comparación](../../features/traits/trait-expression-samples.md)
