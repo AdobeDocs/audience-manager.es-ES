@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,12 +39,14 @@ Para suscribirse a una fuente de datos pública:
 1. Elija un caso de uso en la tabla suscripciones y:
    * Mueva el **[!UICONTROL Subscription]** deslizador a **[!UICONTROL On]**.
    * Haga clic **[!UICONTROL Review & Subscribe]**. Esto abre la [!UICONTROL Terms and Conditions] ventana.
+
    ![suscripción](assets/subscribe3.png)
 
 1. En la [!UICONTROL Terms and Conditions] ventana:
 
    * **Importante:** Deje marcada la **[!UICONTROL ID sync]** casilla de verificación. Esta configuración ayuda a mejorar las tasas de coincidencia con el proveedor de datos.
    * Marque la casilla Términos y condiciones y haga clic en **[!UICONTROL Accept]** para completar el proceso de suscripción.
+
    ![suscripción](assets/subscribe4.png)
 
 ### Pasos siguientes
@@ -73,7 +75,7 @@ Cuando ejecute informes de superposición, siga estas optimizaciones para asegur
 1. La superposición puede aumentar ligeramente con el tiempo, por lo que asegúrese de que transcurren hasta 30 días antes de ejecutar los informes de superposición para permitir la sincronización de los datos.
 1. La superposición puede aumentar si utiliza datos de un proveedor de datos en varias campañas de marketing.
 e iniciativas. Esto permite a los usuarios de los dos conjuntos de datos sincronizar más oportunidades.
-1. No hay garantía de que haya una superposición entre los conjuntos de datos. Para que una superposición sea válida, un usuario del conjunto de datos del cliente debe estar asociado al conjunto de datos del proveedor de datos durante el período de tiempo de sistema de informes. Si los datos multimedia del cliente no se han servido a los usuarios en el conjunto de datos del proveedor de datos, nunca se superpondrá.
+1. No hay garantía de que haya una superposición entre los conjuntos de datos. Para que una superposición sea válida, un usuario del conjunto de datos del cliente debe asociarse con el conjunto de datos del proveedor de datos durante el período de tiempo de sistema de informes. Si los datos multimedia del cliente no se han servido a los usuarios en el conjunto de datos del proveedor de datos, nunca se superpondrá.
 1. No piense que la baja superposición es algo malo. Aproveche una superposición baja para el cliente potencial y capte nuevos usuarios.
 
 ## Suscripción a una fuente de datos privada {#subscript-private-data-feed}
@@ -313,7 +315,7 @@ Este caso de uso le permite evaluar las características del proveedor comparán
 
 ### Activation
 
-Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], intercambio, etc.) que desea compartir datos con. Sin embargo, con un caso de [!UICONTROL Activation] uso, no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
+Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], intercambio, etc.) con el que se desea compartir datos. Sin embargo, con un caso de [!UICONTROL Activation] uso, no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
 
 >[!MORELIKETHIS]
 >
