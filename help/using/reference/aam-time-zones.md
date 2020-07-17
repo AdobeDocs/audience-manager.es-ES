@@ -1,21 +1,21 @@
 ---
 description: El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
 seo-description: El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
-seo-title: Husos horarios en el Audience Manager
+seo-title: Husos horarios en Audience Manager
 solution: Audience Manager
-title: Husos horarios en el Audience Manager
+title: Husos horarios en Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
-# Husos horarios en el Audience Manager{#time-zones-in-audience-manager}
+# Husos horarios en Audience Manager{#time-zones-in-audience-manager}
 
 El Audience Manager utiliza la hora universal coordinada (UTC) en toda la interfaz de usuario.
 
