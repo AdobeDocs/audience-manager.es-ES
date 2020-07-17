@@ -1,9 +1,9 @@
 ---
 description: El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
 seo-description: El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
-seo-title: 'Informe de frecuencia óptima '
+seo-title: Informe de frecuencia óptima
 solution: Audience Manager
-title: 'Informe de frecuencia óptima '
+title: Informe de frecuencia óptima
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Informe de frecuencia óptima {#optimal-frequency-report}
+# Informe de frecuencia óptima{#optimal-frequency-report}
 
 El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
 
