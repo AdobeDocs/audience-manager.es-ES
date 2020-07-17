@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -50,5 +50,5 @@ Agregaremos nuevos métodos a medida que estén disponibles. Consulte las siguie
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API de DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Referencia de API de DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
