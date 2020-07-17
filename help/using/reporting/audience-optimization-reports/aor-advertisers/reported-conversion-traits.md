@@ -1,9 +1,9 @@
 ---
 description: El informe de características de conversión muestra todas las características etiquetadas como características de conversión para un grupo de conversión en una fecha determinada. Las características de conversión de los grupos de conversión pueden cambiar de la ejecución de sistemas de informes a la ejecución de sistemas de informes. El informe muestra las características de conversión por grupo de conversión para la fecha de sistema de informes seleccionada.
 seo-description: El informe de características de conversión muestra todas las características etiquetadas como características de conversión para un grupo de conversión en una fecha determinada. Las características de conversión de los grupos de conversión pueden cambiar de la ejecución de sistemas de informes a la ejecución de sistemas de informes. El informe muestra las características de conversión por grupo de conversión para la fecha de sistema de informes seleccionada.
-seo-title: Características de conversión registradas
+seo-title: Rasgos de conversión registrados
 solution: Audience Manager
-title: Características de conversión registradas
+title: Rasgos de conversión registrados
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 5%
 ---
 
 
-# Características de conversión registradas{#reported-conversion-traits}
+# Rasgos de conversión registrados{#reported-conversion-traits}
 
 El informe de características de conversión muestra todas las características etiquetadas como características de conversión para un grupo de conversión en una fecha determinada.
 
