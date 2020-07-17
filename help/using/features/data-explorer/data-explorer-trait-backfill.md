@@ -1,20 +1,20 @@
 ---
 description: Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
 seo-description: Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
-seo-title: Realizaciones de características de relleno
-title: Realizaciones de características de relleno
+seo-title: Realizaciones de rasgos de relleno
+title: Realizaciones de rasgos de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Realizaciones de características de relleno {#backfill-trait-realizations}
+# Realizaciones de rasgos de relleno {#backfill-trait-realizations}
 
 Realización de características de relleno para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
 
