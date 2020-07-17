@@ -1,21 +1,21 @@
 ---
 description: Este artículo describe cómo se comparten las audiencias entre Audience Manager y Adobes Experience Platform.
 seo-description: Este artículo describe cómo se comparten las audiencias entre Audience Manager y Adobes Experience Platform.
-seo-title: Uso compartido de Audiencias entre Audience Manager y Adobes Experience Platform
+seo-title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform
 solution: Audience Manager
-title: Uso compartido de Audiencias entre Audience Manager y Adobes Experience Platform
+title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Uso compartido de Audiencias entre Audience Manager y Adobes Experience Platform {#aam-aep-audience-sharing}
+# Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Los segmentos que se crean en el Experience Platform aparecen en la interfaz del
 * Característica: La regla de características es la ID del segmento de Experience Platform.
 * Segmento: El segmento consiste en la característica descrita anteriormente.
 
-### Características {#aep-segments-as-aam-traits}
+### Rasgos {#aep-segments-as-aam-traits}
 
 Audience Manager crea automáticamente una carpeta de características denominada Características del **Experience Platform** en el almacenamiento de características.
 
