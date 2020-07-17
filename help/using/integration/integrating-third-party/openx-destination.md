@@ -1,21 +1,21 @@
 ---
 description: Configure OpenX como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
 seo-description: Configure OpenX como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
-seo-title: OpenX como destino Audience Manager
+seo-title: OpenX como destino de Audience Manager
 solution: Audience Manager
-title: OpenX como destino Audience Manager
+title: OpenX como destino de Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# OpenX como destino Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX como destino de Audience Manager{#openx-as-an-audience-manager-destination}
 
 Configure [!DNL OpenX] como destino y envíe datos de segmentos de Audience Manager a esa plataforma.
 
@@ -54,7 +54,7 @@ Cree un destino de cookie para [!DNL OpenX] en Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) que desea compartir datos con. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de envío de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *Audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) con el que se desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de envío de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *Audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ### Paso 1: Información básica
 
