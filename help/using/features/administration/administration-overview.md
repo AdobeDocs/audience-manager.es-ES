@@ -2,9 +2,9 @@
 description: Las opciones del menú Administración permiten crear usuarios Audience Manager y asignarlos a grupos. También puede establecer límites de vista (características, segmentos, destinos y modelos).
 keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: Las opciones del menú Administración permiten crear usuarios Audience Manager y asignarlos a grupos. También puede establecer límites de vista (características, segmentos, destinos y modelos).
-seo-title: Administration
+seo-title: Administración
 solution: Audience Manager
-title: Administration
+title: Administración
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
