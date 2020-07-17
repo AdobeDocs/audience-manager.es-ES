@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Las llamadas de Evento envían información al [!DNL DCS] en una [!DNL URL] cade
 Esta sección contiene información y referencias relacionadas que le muestran cómo:
 
 * Realice llamadas al [!DNL DCS].
-* Recibir datos de la [!DNL DCS].
+* Receive data from the [!DNL DCS].
 * Dé formato a los elementos de datos en las llamadas.
 * Comprender los parámetros devueltos por el [!DNL DCS].
 
@@ -35,5 +35,5 @@ Para empezar, consulte las secciones a continuación. Inicio con [Enviar datos a
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API de DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Referencia de API de DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
