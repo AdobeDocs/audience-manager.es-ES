@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Los componentes de acción son sistemas y procesos que permiten mover datos de e
 
 ## Servidor de recopilación de datos (DCS) {#dcs}
 
-Consulte Componentes [de recopilación de datos](../../reference/system-components/components-data-collection.md).
+Consulte [Componentes de recopilación de datos](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -49,7 +49,7 @@ Los [!UICONTROL SFTP/S3] editores reciben datos de ID sincronizados de la [!UICO
 
 En la mitología griega, [!UICONTROL Iris] es una figura que viaja y envía mensajes rápidamente. El [!UICONTROL IRIS] sistema es un homónimo que refleja las características de esta figura del mundo antiguo. En términos modernos, [!UICONTROL IRIS] es un servicio de transferencia de datos y sincronización de cookies de alta frecuencia y baja latencia.
 
-[!UICONTROL IRIS] funciona con el mismo tipo de datos que el [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a destinos en tiempo real en lugar de en intervalos establecidos. Se trata de un sistema independiente porque los [!UICONTROL SFTP/S3] editores no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
+[!UICONTROL IRIS] funciona con el mismo tipo de datos que el [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a destinos en tiempo real en lugar de a intervalos establecidos. Se trata de un sistema independiente porque los [!UICONTROL SFTP/S3] editores no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
 
 No hay controles de interfaz de usuario que permitan a los clientes trabajar directamente con [!UICONTROL IRIS]. Los clientes trabajan [!UICONTROL IRIS] indirectamente cuando crean y envían datos a destinos y para otros procesos que requieren transferencias de datos rápidas.
 
@@ -150,4 +150,4 @@ El siguiente ejemplo contiene datos de segmentos en tiempo real de [!UICONTROL I
 
 ## Perfil Cache Server (PCS) {#pcs}
 
-Consulte Componentes [de recopilación de datos](../../reference/system-components/components-data-collection.md).
+Consulte [Componentes de recopilación de datos](../../reference/system-components/components-data-collection.md).
