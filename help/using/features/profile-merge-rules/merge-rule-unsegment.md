@@ -1,21 +1,21 @@
 ---
 description: La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles.
 seo-description: La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear una regla de combinación de Perfiles.
-seo-title: Reglas de combinación de Perfil y procesos de dessegmentación de dispositivos
+seo-title: Reglas de combinación de Perfil y procesos de eliminación de la segmentación de dispositivos
 solution: Audience Manager
-title: Reglas de combinación de Perfil y procesos de dessegmentación de dispositivos
+title: Reglas de combinación de Perfil y procesos de eliminación de la segmentación de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Reglas de combinación de Perfil y procesos de dessegmentación de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
+# Reglas de combinación de Perfil y procesos de eliminación de la segmentación de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
 
 La dessegmentación describe los procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. Su capacidad para eliminar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear un [!UICONTROL Profile Merge Rule].
 
@@ -51,6 +51,6 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la [!UI
 
 >[!MORELIKETHIS]
 >
->* [Preguntas más frecuentes sobre las reglas de combinación de Perfiles y Device Graph](../../faq/faq-profile-merge.md)
+>* [Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos](../../faq/faq-profile-merge.md)
 >* [Eliminación instantánea entre dispositivos](instant-cross-device-suppression.md)
 
