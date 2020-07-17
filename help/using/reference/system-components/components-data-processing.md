@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -47,9 +47,9 @@ Los clientes no tienen acceso directo a estos sistemas. Sin embargo, los cliente
 
 Esta no es en modo alguno una lista amplia, pero algunos informes comunes de panel que [!UICONTROL Snowflake] son responsables de:
 
-* [Informe Variación de la característica diaria](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Informe de variación del rasgo diario](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Todos los informes de superposición (consulte la sección Informes [](/help/using/reporting/dynamic-reports/dynamic-reports.md) interactivos para obtener información sobre cada informe de superposición).
-* [Informe Señales no utilizadas](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Informe de señales no utilizadas](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
