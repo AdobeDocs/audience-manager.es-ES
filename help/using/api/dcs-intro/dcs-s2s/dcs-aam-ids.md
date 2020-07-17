@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
 
-# Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
+# Obtención de ID y regiones de usuario a partir de una respuesta de DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
 En esta sección se describe cómo analizar una [!DNL DCS] respuesta para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real a la [!DNL DCS].
 
