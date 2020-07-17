@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -78,8 +78,8 @@ Según el tipo de ID de cliente que tenga en Audience Manager (consulte [3. Iden
 
 **B) Crear una nueva fuente** de datos. Esta opción se aplica al escenario en el que los ID de cliente del Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) no son direcciones de correo electrónico con hash. En este caso, debe crear una nueva fuente de datos entre dispositivos e incluir sus direcciones de correo electrónico con hash en su contra. Puede hacerlo de dos maneras:
 
-* Utilice la sincronización de ID basada en archivos. Consulte Requisitos de [nombre y contenido para archivos](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de sincronización de ID para obtener más información sobre el aspecto que deben tener los archivos de sincronización de ID. Al utilizar este método, puede realizar el destinatario de todas las direcciones de correo electrónico con hash desde la [!DNL CRM] base de datos.
-* Use ID [](../declared-ids.md) declarados para declarar sus direcciones de correo electrónico con hash al pasar ID de cliente autenticados. Al utilizar este método, el Audience Manager solo destinatario las direcciones de correo electrónico con hash de los usuarios que se hayan autenticado en línea. Las direcciones de correo electrónico objetivo en los canales basados en personas son solo las que aparecen en las llamadas declaradas al evento de ID. Otras direcciones de correo electrónico asociadas con el ID de cliente no se activan en tiempo real.
+* Utilice la sincronización de ID basada en archivos. Consulte [Requisitos de nombre y contenido para archivos de sincronización de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) para obtener más información sobre la apariencia que deben tener los archivos de sincronización de ID. When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. Al utilizar este método, el Audience Manager solo destinatario las direcciones de correo electrónico con hash de los usuarios que se hayan autenticado en línea. Las direcciones de correo electrónico objetivo en los canales basados en personas son solo las que aparecen en las llamadas declaradas al evento de ID. Otras direcciones de correo electrónico asociadas con el ID de cliente no se activan en tiempo real.
 
 ## 6. Usar una regla de combinación de Perfiles para la segmentación {#use-profile-merge-rules}
 
