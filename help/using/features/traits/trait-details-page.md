@@ -1,9 +1,9 @@
 ---
 description: La página de detalles de una característica individual proporciona información general sobre el nombre de la característica, el ID, las métricas de rendimiento, las expresiones que definen la característica, los segmentos a los que pertenece y el registro de auditoría de características. Para ver estos detalles, vaya a Datos de Audiencia > Características y haga clic en el nombre de la característica con la que desee trabajar.
 seo-description: La página de detalles de una característica individual proporciona información general sobre el nombre de la característica, el ID, las métricas de rendimiento, las expresiones que definen la característica, los segmentos a los que pertenece y el registro de auditoría de características. Para ver estos detalles, vaya a Datos de Audiencia > Características y haga clic en el nombre de la característica con la que desee trabajar.
-seo-title: Página Detalles de la característica
+seo-title: Página Detalles de rasgos
 solution: Audience Manager
-title: Página Detalles de la característica
+title: Página Detalles de rasgos
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ La [!UICONTROL Trait Expression] sección muestra los criterios que los usuarios
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] Segmentos {#trait-segments}
+## [!UICONTROL Trait]Segmentos {#trait-segments}
 
 La [!UICONTROL Segments with this Trait] sección lista todos los segmentos a los que [!UICONTROL trait] pertenece la selección. Puede hacer clic en el nombre de un segmento para ver los detalles de dicho segmento.
 
