@@ -1,21 +1,21 @@
 ---
 description: Este informe devuelve una lista de características que se han realizado al menos 10.000 veces en los 30 días anteriores a las fechas seleccionadas y que tienen una desviación estándar buena o igual a 1,7 en cualquier dirección durante el mismo intervalo de tiempo. El informe le ayuda a evaluar cómo el número de impresiones de usuarios únicos en una característica varía con el tiempo.
 seo-description: Este informe devuelve una lista de características que se han realizado al menos 10.000 veces en los 30 días anteriores a las fechas seleccionadas y que tienen una desviación estándar buena o igual a 1,7 en cualquier dirección durante el mismo intervalo de tiempo. El informe le ayuda a evaluar cómo el número de impresiones de usuarios únicos en una característica varía con el tiempo.
-seo-title: Informe Variación de la característica diaria
+seo-title: Informe de variación del rasgo diario
 solution: Audience Manager
-title: Informe Variación de la característica diaria
+title: Informe de variación del rasgo diario
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Informe Variación de la característica diaria {#daily-trait-variation-report}
+# Informe de variación del rasgo diario {#daily-trait-variation-report}
 
 Este informe devuelve una lista de características que se han realizado al menos 10.000 veces en los 30 días anteriores a las fechas seleccionadas y que tienen una desviación estándar buena o igual a 1,7 en cualquier dirección durante el mismo intervalo de tiempo. El informe le ayuda a evaluar cómo el número de impresiones de usuarios únicos en una característica varía con el tiempo.
 
