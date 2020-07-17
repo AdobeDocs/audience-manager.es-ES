@@ -159,22 +159,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Identificación de cliente bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una lista de denegaciones. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una  de lista de bloqueados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Id. de fuente de datos bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de la fuente de datos se ha identificado como malintencionado y se ha agregado a una lista de denegación </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de fuente de datos se ha identificado como malintencionado y se ha agregado a una  de lista de bloqueados </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Id. de dispositivo declarado bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una lista de denegaciones. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes de <span class="wintitle"> DCS</span> que contienen este ID de dispositivo en poco tiempo. </p> </td>
+   <td colname="col3"> <p>El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una  de lista de bloqueados. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes de <span class="wintitle"> DCS</span> que contienen este ID de dispositivo en un corto período de tiempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operación de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malintencionado y se ha agregado a una lista de nombres Véase código de error 306. </p> </td> 
+   <td colname="col3"> <p>Se bloqueó una acción de lectura y escritura porque se identificó un ID como malintencionado y se agregó a una  de lista de bloqueados Véase código de error 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
