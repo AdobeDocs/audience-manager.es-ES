@@ -1,21 +1,21 @@
 ---
 description: Un método para enviar datos de medios al Audience Manager utiliza macros de servidores de publicidad para enviar atributos de campaña al Audience Manager.
 seo-description: Un método para enviar datos de medios al Audience Manager utiliza macros de servidores de publicidad para enviar atributos de campaña al Audience Manager.
-seo-title: Capturación de los datos de impresión de campaña a través de Pixel Calls
+seo-title: Captura de los datos de impresión de campaña a través de Pixel Calls
 solution: Audience Manager
-title: Capturación de los datos de impresión de campaña a través de Pixel Calls
+title: Captura de los datos de impresión de campaña a través de Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
 
-# Capturación de los datos de impresión de campaña a través de Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
+# Captura de los datos de impresión de campaña a través de Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
 
 Un método para enviar datos de medios al Audience Manager utiliza macros de servidores de publicidad para enviar atributos de campaña al Audience Manager.
 
