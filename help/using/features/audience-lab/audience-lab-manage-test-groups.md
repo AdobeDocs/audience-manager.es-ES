@@ -60,7 +60,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
 1. **[!UICONTROL Select Conversion Traits]**
 
-   * Añada las características de conversión escribiendo en la ventana de características de conversión. Se trata de un paso **obligatorio** y no puede continuar con el paso siguiente a menos que agregue al menos una característica de conversión.
+   * Añada las características de conversión escribiendo en la ventana de características de conversión. Este es un paso **obligatorio** y no puede continuar con el siguiente paso a menos que agregue al menos una característica de conversión.
    * Si lo desea, puede agregar hasta 5 características de conversión.
    * Se mostrará una alerta en caso de que seleccione una característica de conversión ya utilizada para otros grupos de prueba.
    * Tenga en cuenta que Audience Manager no admite el uso de características de [carpeta](/help/using/features/traits/about-folder-traits.md) como características de conversión. Si se selecciona una característica de carpeta como característica de conversión, se muestra 0 sistemas de informes acumulados y de tendencia en la prueba.
@@ -74,6 +74,7 @@ To create a new [!UICONTROL Segment Test Group]:
    * Los destinos aparecen atenuados si no están disponibles para un segmento de prueba determinado según los controles [de exportación de](../../features/data-export-controls.md)datos.
    * Los usuarios solo verán los destinos a los que tienen acceso en función del grupo [de usuarios de](../../features/administration/administration-overview.md) RBAC al que pertenecen.
    * Por último, debe seleccionar una fecha de inicio para el grupo de prueba. Esta fecha marca el inicio del período en el que se publicará el grupo de prueba en los destinos. Seleccione **Sin fecha** de finalización para una comparación indefinida de los segmentos de prueba.
+
    >[!NOTE]
    >
    >[!UICONTROL Profile Merge Rules] con un perfil autenticado solo se admiten en los destinos en tiempo real. Si un segmento de prueba con una regla de combinación de perfiles de esa configuración se envía a un destino de servidor a servidor basado en archivos, es posible que las audiencias no se rellenen.
@@ -84,6 +85,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Revise la información agregada en los pasos anteriores y seleccione **[!UICONTROL Finalize Group]**.
    * Recuerde que una vez finalizado un grupo de prueba, puede duplicarse o eliminarse, pero no editarse.
+
    >[!NOTE]
    >* Puede guardar los grupos de prueba en cualquier momento del proceso de creación y volver al asistente más adelante. El estado del grupo de prueba será **[!UICONTROL Draft]** y el grupo de prueba no enviará ningún dato a los destinos hasta que finalice el grupo de prueba del segmento.
    >* Para las pruebas de borrador, puede volver atrás y editar los grupos de prueba haciendo clic **[!UICONTROL Edit]** en la tarjeta del grupo de prueba en la [!UICONTROL Audience Lab] vista principal.
@@ -100,7 +102,7 @@ En [!UICONTROL Audience Lab], solo puede editar los grupos de prueba de borrador
 ## Eliminar grupos de prueba de segmentos {#delete-test-groups}
 
 1. Vaya a la vista [!UICONTROL Audience Lab] principal.
-1. Busque el grupo de prueba que desee eliminar. 
+1. Busque el grupo de prueba que desee eliminar. Puede:
 
    * pulse el **[!UICONTROL Delete]** control en la tarjeta del grupo de prueba, o
    * pulse el título del grupo de prueba en la tarjeta del grupo de prueba para ir a la vista de información [del grupo de](../../features/audience-lab/audience-lab-information-view.md) pruebas y pulse el **[!UICONTROL Delete]** control en la barra de título.
