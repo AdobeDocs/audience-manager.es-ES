@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,7 @@ Para crear una fuente de datos:
 1. Para guardar y activar una fuente de datos:
    1. Mueva el **[!UICONTROL Availability]** deslizador a **[!UICONTROL Active]**.
    1. Haga clic **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* No se pueden eliminar las fuentes de datos guardadas y activadas.
