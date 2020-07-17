@@ -1,20 +1,20 @@
 ---
 description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento que ya tiene en Audience Manager para crear nuevos segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas.  '
 seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo combinar datos de CRM sin conexión con datos de comportamiento que ya tiene en Audience Manager para crear nuevos segmentos de audiencia y, a continuación, enviar estos segmentos de audiencia a destinos basados en personas.   '
-seo-title: 'Flujo de trabajo A: Personalización basada en toda la Actividad en línea combinada con datos sin conexión'
+seo-title: 'Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión'
 solution: Audience Manager
-title: 'Flujo de trabajo A: Personalización basada en toda la Actividad en línea combinada con datos sin conexión'
+title: 'Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Flujo de trabajo A: Personalización basada en toda la Actividad en línea combinada con datos sin conexión {#workflow-a}
+# Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión {#workflow-a}
 
 >[!IMPORTANT]
 >Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
