@@ -1,16 +1,16 @@
 ---
 description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
-seo-title: Señales, características y segmentos
+seo-title: Señales, rasgos y segmentos
 solution: Audience Manager
-title: Señales, características y segmentos
+title: Señales, rasgos y segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -45,5 +45,5 @@ Una llamada de evento envía datos del sitio web a [!DNL Audience Manager]. La l
 
 >[!MORELIKETHIS]
 >
->* [Segmentos: Propósito, composición y reglas](../features/segments/segments-purpose.md)
+>* [Segmentos: propósito, composición y reglas](../features/segments/segments-purpose.md)
 
