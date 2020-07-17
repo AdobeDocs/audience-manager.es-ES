@@ -236,7 +236,7 @@ ht-degree: 94%
          + [Información general sobre referencia de la API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos de API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de error DCS, mensajes y ejemplos](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Supervisión de ID y exclusión de listas](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Supervisión y Inclusión en la lista de bloqueados de ID](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [ID de región de DCS, ubicaciones y nombres de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formato de pares de clave-valor en llamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condiciones de carrera y gestión de errores](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
