@@ -122,7 +122,7 @@ Describe motivos técnicos y comerciales para enviar datos mediante metodología
 * **Consideraciones técnicas:** El envío de datos depende de las capacidades técnicas del socio de datos. El Audience Manager puede enviar y recibir datos en tiempo real desde el explorador o mediante actualizaciones por lotes a través de procesos de comunicación sin conexión de servidor a servidor.
 * **Consideraciones comerciales:** Las razones comerciales para seleccionar un método de envío u otro dependen de las capacidades técnicas de su socio de destino y de cómo desee utilizar estos datos. Generalmente, las transferencias de datos sincrónicas son útiles cuando necesita tomar medidas sobre los datos del usuario inmediatamente. Las transferencias de datos asincrónicas pueden ser útiles cuando no se requiere una acción inmediata y cuando se dispone de tiempo para crear perfiles de usuario más profundos para su uso posterior.
 
-## Proceso de transferencia de datos en tiempo real {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Información general sobre cómo realiza el Audience Manager un intercambio de datos sincrónico con un proveedor de terceros.
 
