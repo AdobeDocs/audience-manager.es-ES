@@ -1,21 +1,21 @@
 ---
 description: Las hojas de cálculo para crear y actualizar aceptan un encabezado traitRule que permite aplicar varias reglas en una sola operación. Siga estas instrucciones para realizar solicitudes de reglas masivas.
 seo-description: Las hojas de cálculo para crear y actualizar aceptan un encabezado traitRule que permite aplicar varias reglas en una sola operación. Siga estas instrucciones para realizar solicitudes de reglas masivas.
-seo-title: Crear o actualizar reglas de características y reglas de segmentos
+seo-title: Crear o actualizar normas de rasgos y normas de segmentos
 solution: Audience Manager
-title: Crear o actualizar reglas de características y reglas de segmentos
+title: Crear o actualizar normas de rasgos y normas de segmentos
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Crear o actualizar reglas de características y reglas de segmentos{#create-or-update-trait-rules-and-segment-rules}
+# Crear o actualizar normas de rasgos y normas de segmentos{#create-or-update-trait-rules-and-segment-rules}
 
 Las hojas de cálculo para crear y actualizar aceptan un encabezado traitRule que permite aplicar varias reglas en una sola operación. Siga estas instrucciones para realizar solicitudes de reglas masivas.
 
