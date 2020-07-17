@@ -1,23 +1,23 @@
 ---
 description: Las opciones de regla de combinación le permiten controlar el tipo de uso que el Audience Manager de datos utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivos asignados por el gráfico de dispositivos de vínculo de Perfil, la cooperación entre dispositivos de Adobe Experience Cloud y otros proveedores de gráficos de dispositivos de terceros que estén integrados con Audience Manager. Puede crear un máximo de 4 reglas de combinación de Perfiles.
 seo-description: Las opciones de regla de combinación le permiten controlar el tipo de uso que el Audience Manager de datos utiliza para la segmentación. Una regla de combinación puede incluir perfiles de dispositivos asignados por el gráfico de dispositivos de vínculo de Perfil, la cooperación entre dispositivos de Adobe Experience Cloud y otros proveedores de gráficos de dispositivos de terceros que estén integrados con Audience Manager. Puede crear un máximo de 4 reglas de combinación de Perfiles.
-seo-title: Opciones de regla de combinación de Perfiles definidas
+seo-title: Definición de las opciones de las reglas de combinación de perfiles.
 solution: Audience Manager
-title: Opciones de regla de combinación de Perfiles definidas
+title: Definición de las opciones de las reglas de combinación de perfiles.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
 # [!UICONTROL Profile Merge Rules] Opciones definidas {#profile-merge-rule-options-defined}
 
-The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. Un [!UICONTROL profile merge rule] puede incluir perfiles de dispositivo asignados por el gráfico del [!UICONTROL Profile Link] dispositivo, los proveedores de gráficos de dispositivos de terceros [!UICONTROL Adobe Experience Cloud Device Co-op]y/o de otro tipo integrados con [!DNL Audience Manager]. Puede crear un máximo de 4 [!UICONTROL Profile Merge Rules]. El cuarto [!UICONTROL Profile Merge Rule] está disponible exclusivamente para los clientes que compraron el [!UICONTROL People-Based Destinations] complemento.
+The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. Un [!UICONTROL profile merge rule] puede incluir perfiles de dispositivo asignados por el gráfico del [!UICONTROL Profile Link] dispositivo, los proveedores de gráficos de dispositivos de terceros [!UICONTROL Adobe Experience Cloud Device Co-op]y/o de otro tipo integrados con [!DNL Audience Manager]. You can create a maximum of 4 [!UICONTROL Profile Merge Rules]. El cuarto [!UICONTROL Profile Merge Rule] está disponible exclusivamente para los clientes que compraron el [!UICONTROL People-Based Destinations] complemento.
 
 Para crear un [!UICONTROL Profile Merge Rule] formulario, realice una selección de las opciones que se describen a continuación, en [!UICONTROL Profile Merge Rule Setup].
 
@@ -108,13 +108,13 @@ Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* us
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfil Link Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica al <span class="keyword"> Audience Manager</span> que lea los perfiles del dispositivo actual y hasta 100 dispositivos desde los que el usuario se ha autenticado. Este gráfico de dispositivos se crea con sus propios datos de origen en el <span class="keyword"> Audience Manager</span>. Es ideal para clientes que tienen un alto nivel de autenticación en sus propiedades digitales. El gráfico del dispositivo Vínculo <span class="wintitle"> de</span> Perfil se actualiza en tiempo real. Esta opción está disponible cuando selecciona <b><span class="uicontrol"> Perfil</span></b> autenticado actual o <b><span class="uicontrol"> Último Perfil</span></b>autenticado. Al utilizar esta opción, solo puede elegir un único perfil autenticado (<span class="keyword"> el Audience Manager</span> automáticamente elimina el gris de los demás). Consulte también Perfil Link Device Graph Casos <a href="profile-link-use-case.md"></a>de uso. </p> </td>
+   <td colname="col2"> <p>Indica al <span class="keyword"> Audience Manager</span> que lea los perfiles del dispositivo actual y hasta 100 dispositivos desde los que el usuario se ha autenticado. Este gráfico de dispositivos se crea con sus propios datos de origen en el <span class="keyword"> Audience Manager</span>. Es ideal para clientes que tienen un alto nivel de autenticación en sus propiedades digitales. El gráfico del dispositivo Vínculo <span class="wintitle"> de</span> Perfil se actualiza en tiempo real. Esta opción está disponible cuando selecciona <b><span class="uicontrol"> Perfil</span></b> autenticado actual o <b><span class="uicontrol"> Último Perfil</span></b>autenticado. Al utilizar esta opción, solo puede elegir un único perfil autenticado (<span class="keyword"> el Audience Manager</span> automáticamente elimina el gris de los demás). See also, <a href="profile-link-use-case.md"> Profile Link Device Graph Use Cases</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivos de cooperación</span></b> </p> </td> 
    <td colname="col2"> <p>Indica al <span class="keyword"> Audience Manager</span> que lea los perfiles desde el dispositivo actual y hasta 100 dispositivos más utilizando los vínculos proporcionados por <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> es una cooperativa digital en la que los clientes participantes comparten información de vínculos de dispositivos. Device Co-op <span class="keyword"> procesa estos datos en un</span> gráfico <span class="term"></span>de dispositivo. Un gráfico de dispositivo vincula dispositivos de forma conjunta con clústeres de dispositivos. Estos vínculos se crean a partir de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> datos</a>probabilísticos y determinísticos. Los clústeres representan un grupo de dispositivos utilizados por una persona desconocida. <span class="keyword">Device Co-op</span> comparte estos clústeres entre sus miembros, lo que los ayuda a ofrecer a sus clientes experiencias valiosas y coherentes entre dispositivos. </p> <p> Para obtener más información acerca de <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Información general de Device Co-op</a> </li> 
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html" format="https" scope="external"> Información general de Device Co-op</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Requisitos de participación</a> </li> 
       <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Device Graph: Procesos internos y resultados</a> </li>
      </ul> </p> </td>
@@ -132,7 +132,7 @@ Permite [!UICONTROL Device Options] seleccionar el tipo de *`device profile`* us
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Los segmentos de Audiencia que se crearon automáticamente a partir de otras [!DNL Experience Cloud] soluciones, en función de reglas de combinación definidas fuera de [!DNL Audience Manager], se marcan como si utilizaran un [!UICONTROL External Merge Policy]. Por ejemplo, consulte Uso compartido de [Audiencias entre Audience Manager y Adobes Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Los segmentos de Audiencia que se crearon automáticamente a partir de otras [!DNL Experience Cloud] soluciones, en función de reglas de combinación definidas fuera de [!DNL Audience Manager], se marcan como si utilizaran un [!UICONTROL External Merge Policy]. For example, see [Audience Sharing Between Audience Manager and Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
