@@ -1,20 +1,20 @@
 ---
 description: Con Trait Recommendations, al crear o editar un segmento en Generador de segmentos, se obtienen recomendaciones sobre las características adicionales que puede incluir que son similares a las características de la regla de segmento. Añada las características recomendadas al segmento para aumentar la audiencia objetivo.
 seo-description: Obtenga recomendaciones de características en directo a medida que genera sus segmentos.
-seo-title: Trait Recommendations
+seo-title: Recomendaciones de rasgos
 solution: Audience Manager
-title: Trait Recommendations
+title: Recomendaciones de rasgos
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
-# Trait Recommendations
+# Recomendaciones de rasgos
 
 Obtenga recomendaciones de características en directo a medida que crea sus segmentos, a partir de sus propias características de origen y fuentes de datos [!UICONTROL Audience Marketplace] .
 
@@ -60,20 +60,20 @@ Con [!UICONTROL Trait Recommendations], puede mejorar sus flujos de trabajo, dep
 
 ### Modelos algorítmicos
 
-[!UICONTROL Algorithmic Models] no sólo encuentra las características más influyentes, sino que también puntúa a los usuarios en función de esas características y asigna a cada usuario una puntuación individual. A continuación, puede crear características algorítmicas para el destinatario de los usuarios. Con los controles de precisión y alcance en la [!UICONTROL Trait Builder], puede especificar qué usuarios de entre todos los que tienen las características influyentes que desea destinatario.
+[!UICONTROL Algorithmic Models] no sólo encuentra las características más influyentes, sino que también puntúa a los usuarios en función de esas características y asigna a cada usuario una puntuación individual. Seguidamente, puede crear rasgos algorítmicos para segmentar los usuarios. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] le permite seleccionar usuarios en diferentes niveles de precisión y probar en [!UICONTROL Audience Lab] qué grupo de usuarios se convierte mejor. Consulte el caso de uso detallado en [Comparar modelos en el laboratorio](../../features/audience-lab/audience-lab-use-cases.md#compare-models)de Audiencia.
+[!UICONTROL Algorithmic Models] le permite seleccionar usuarios en diferentes niveles de precisión y probar en [!UICONTROL Audience Lab] qué grupo de usuarios se convierte mejor. Consulte el caso de uso detallado en [Comparar modelos en Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-En [!UICONTROL Algorithmic Models], el modelo se ejecuta cada 8 días y actualiza los usuarios cualificados para características algorítmicas.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-### Trait Recommendations
+### Recomendaciones de rasgos
 
 [!UICONTROL Trait Recommendations] es una forma rápida de obtener perspectivas sobre otras características similares a las que se utilizan en un segmento.
 
 Debe usar [!UICONTROL Trait Recommendations] cuando:
 
-* Necesita perspectivas rápidas al crear un segmento;
-* Está utilizando los segmentos para campañas cortas o cuando desea suprimir rápidamente la audiencia que convierte;
+* Necesita perspectivas rápidas cuando crea un segmento.
+* Utiliza los segmentos para campañas cortas o cuando quiere suprimir rápidamente la audiencia que convierte.
 * Está intentando maximizar el alcance.
 
 ## Flujo de trabajo
