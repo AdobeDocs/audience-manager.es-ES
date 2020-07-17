@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -59,5 +59,5 @@ La siguiente tabla define los prefijos comunes utilizados por [!UICONTROL Trait 
 >[!MORELIKETHIS]
 >
 >* [Información general básica](../../features/traits/create-onboarded-rule-based-traits.md)
->* [Administración de reglas de características](../../features/traits/manage-trait-rules.md#managing-trait-rules)
+>* [Administración de normas de rasgos](../../features/traits/manage-trait-rules.md#managing-trait-rules)
 
