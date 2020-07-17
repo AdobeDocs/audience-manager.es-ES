@@ -2,22 +2,22 @@
 description: El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 seo-description: Adobe Audience Manager (AAM) envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 seo-title: Transferencias de datos salientes por lotes en Adobe Audience Manager (AAM)
-title: Transferencias de datos de salida por lotes
+title: 'Transferencias de datos de salida por lotes '
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
 
-# Transferencias de datos de salida por lotes
+# Transferencias de datos de salida por lotes 
 
 El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 
-* [Nombre del archivo de datos de salida: Sintaxis y ejemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [Nombre del archivo de datos de salida: sintaxis y ejemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
    Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos de salida.
 
