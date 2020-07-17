@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe a
 
 ## Metadatos del nombre de archivo {#file-name-metadata}
 
-La siguiente lista de tabla describe las convenciones de nomenclatura de archivos y las extensiones de archivo que se utilizan en un archivo .csv de superposición. In the examples, *italics* indicates a variable placeholder.
+La siguiente lista de tabla describe las convenciones de nomenclatura de archivos y las extensiones de archivo que se utilizan en un archivo .csv de superposición. En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
