@@ -1,21 +1,21 @@
 ---
 description: Como opción, puede comprimir los archivos de datos al enviarlos al Audience Manager.
 seo-description: Como opción, puede comprimir los archivos de datos al enviarlos al Audience Manager.
-seo-title: Compresión de archivos para archivos de transferencia de datos de entrada
+seo-title: Compresión de archivos de transferencia de datos entrantes
 solution: Audience Manager
-title: Compresión de archivos para archivos de transferencia de datos de entrada
+title: Compresión de archivos de transferencia de datos entrantes
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Compresión de archivos para archivos de transferencia de datos de entrada{#file-compression-for-inbound-data-transfer-files}
+# Compresión de archivos de transferencia de datos entrantes{#file-compression-for-inbound-data-transfer-files}
 
 Puede comprimir los archivos de datos al enviarlos al Audience Manager.
 
