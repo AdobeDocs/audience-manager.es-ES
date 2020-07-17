@@ -1,21 +1,21 @@
 ---
 description: Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
 seo-description: Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
-seo-title: Filtrar los resultados del informe con los deslizadores de datos
+seo-title: Filtrar los resultados del informe con las barras de desplazamiento de datos
 solution: Audience Manager
-title: Filtrar los resultados del informe con los deslizadores de datos
+title: Filtrar los resultados del informe con las barras de desplazamiento de datos
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
-# Filtrar los resultados del informe con los deslizadores de datos{#filter-report-results-with-the-data-sliders}
+# Filtrar los resultados del informe con las barras de desplazamiento de datos{#filter-report-results-with-the-data-sliders}
 
 Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
 
