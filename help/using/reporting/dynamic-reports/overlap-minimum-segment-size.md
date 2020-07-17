@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Informes de superposición: Actualizar programación y tamaño mínimo del segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Informes de superposición: actualizar programación y tamaño mínimo del segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Describe los requisitos de tamaño y tiempo de creación del segmento requeridos por el proceso de actualización del informe de superposición.
 
@@ -52,7 +52,7 @@ Si no ve ningún segmento en uno de los [!UICONTROL Overlap] informes, puede deb
 
 >[!MORELIKETHIS]
 >
->* [Informe de solapamiento entre características](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Informe de solapamiento entre segmento y característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+>* [Informe de solapamiento entre rasgos](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
+>* [Informe de solapamiento entre segmento y rasgo](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
 >* [Informe de solapamiento entre segmentos](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
