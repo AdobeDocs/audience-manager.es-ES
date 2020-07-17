@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,7 @@ Un par clave-valor consta de dos elementos de datos relacionados: Clave, que es 
 * `color = green`
 * `price > 100`
 
-## Pares de clave-valor estándar y serializados {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* formato. El formato estándar organiza los datos en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza nuevamente para definir un valor diferente. Por el contrario, el formato serializado comprime varios valores en un conjunto definido por una sola clave. Además, en un par serializado, se utiliza un indicador especial para separar los valores dentro del conjunto de valor clave. Por último, los valores de clave estándar y serializados pueden contener uno o varios valores. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
 
