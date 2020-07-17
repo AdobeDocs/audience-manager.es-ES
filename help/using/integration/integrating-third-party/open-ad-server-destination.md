@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ La cantidad de datos pasados [!DNL OAS] depende de la cantidad de segmentos para
 
 >[!MORELIKETHIS]
 >
->* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
+>* [Código get_aamCookie](../../features/destinations/get-aam-cookie-code.md)
 >* [Pares de clave-valor explicados](../../reference/key-value-pairs-explained.md)
 
 
@@ -56,7 +56,7 @@ Cree un destino basado en cookies para [!DNL OAS] en Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) que desea compartir datos con. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de envío de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *Audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) con el que se desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que permiten crear y administrar estos procesos de envío de datos. Las funciones de destino de Audience Manager se encuentran en Datos de *Audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ### Paso 1: Información básica
 
