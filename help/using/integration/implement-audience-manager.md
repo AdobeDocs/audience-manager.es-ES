@@ -1,21 +1,21 @@
 ---
 description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager (DMP). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
 seo-description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager (DMP). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
-seo-title: Audience Manager de implementación
+seo-title: Ejecución de Audience Manager
 solution: Audience Manager
-title: Audience Manager de implementación
+title: Ejecución de Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Audience Manager de implementación {#implementing-audience-manager}
+# Ejecución de Audience Manager {#implementing-audience-manager}
 
 En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos de negocios, los directores de proyectos y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede llevar aproximadamente de seis semanas a tres meses, según sus necesidades de recopilación de datos.
 
