@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Referencia de cualificación de características y segmentos {#trait-qualification-reference}
+# Referencia de cualificación de rasgos y segmentos {#trait-qualification-reference}
 
 La cualificación de rasgos, o realización de rasgos, se trata de forma diferente en el Audience Manager, según el tipo de rasgo. Consulte Calificación [de rasgo por tipo](#trait-type) de rasgo para obtener detalles sobre la calificación de tipo de rasgo.
 
@@ -32,7 +32,7 @@ Además, consulte Población de segmentos en tiempo [real y Población](#real-ti
 | Características integradas | La calificación de características se produce después de procesar un archivo de entrada, es decir, cuando el archivo de entrada se [importa al Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es cuando se produce la calificación de características. Debe esperar aproximadamente 4 horas después de crear una característica integrada antes de cargar un archivo de entrada para su procesamiento. Para las características integradas, el número máximo de cualificaciones para un perfil de usuario es 1. |
 | Características algorítmicas | Para las características algorítmicas, el número máximo de cualificaciones para un perfil de usuario es 1. |
 | Características de la carpeta | Una característica de carpeta resume las calificaciones de características de las características que contiene. Leer características [de la carpeta: Acerca](about-folder-traits.md) de para obtener más información. |
-| Características de la Audiencia activa y características sincronizadas de la fuente de datos | Una [!UICONTROL Active Audience] característica contiene todos los dispositivos que se administran en la cuenta de Audience Manager. [!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Obtenga más información sobre las características de Audiencia [activa y las características](client-activity-synced-audience-traits.md)sincronizadas de la fuente de datos. |
+| Rasgos de la Audiencia activa y rasgos sincronizados de la fuente de datos | Una [!UICONTROL Active Audience] característica contiene todos los dispositivos que se administran en la cuenta de Audience Manager. [!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Obtenga más información sobre las características de Audiencia [activa y las características](client-activity-synced-audience-traits.md)sincronizadas de la fuente de datos. |
 
 ## Realizaciones únicas de características y población total de características {#unique-trait-realizations}
 
