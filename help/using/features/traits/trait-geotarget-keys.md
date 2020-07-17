@@ -1,21 +1,21 @@
 ---
 description: Describe los pares de clave-valor comunes de nivel de plataforma que se pueden utilizar para destinatario de usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
 seo-description: Describe los pares de clave-valor comunes de nivel de plataforma que se pueden utilizar para destinatario de usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
-seo-title: Targeting geográfico con claves de nivel Platform
+seo-title: Segmentación geográfica con claves a nivel de plataforma
 solution: Audience Manager
-title: Targeting geográfico con claves de nivel Platform
+title: Segmentación geográfica con claves a nivel de plataforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
+# Segmentación geográfica con claves a nivel de plataforma {#geotargeting-with-platform-level-keys}
 
 Describe los pares de clave-valor comunes de nivel de plataforma que se pueden utilizar para destinatario de usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
 
