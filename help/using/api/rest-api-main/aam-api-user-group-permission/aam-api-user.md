@@ -1,21 +1,21 @@
 ---
 description: Métodos de API de descanso para administrar usuarios, incluida la creación, actualización, listado, eliminación y devolución de objetos de usuario.
 seo-description: Métodos de API de descanso para administrar usuarios, incluida la creación, actualización, listado, eliminación y devolución de objetos de usuario.
-seo-title: Métodos de API de administración de usuarios
+seo-title: Métodos de API de administración de usuario
 solution: Audience Manager
-title: Métodos de API de administración de usuarios
+title: Métodos de API de administración de usuario
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Métodos de API de administración de usuarios {#user-management-api-methods}
+# Métodos de API de administración de usuario {#user-management-api-methods}
 
 Métodos de descanso [!DNL API] para administrar usuarios, como crear, actualizar, enumerar, eliminar y devolver objetos de usuario.
 
