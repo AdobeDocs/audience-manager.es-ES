@@ -1,21 +1,21 @@
 ---
 description: Las carpetas de almacenamientos de características almacenan y ayudan a organizar las características.
 seo-description: Las carpetas de almacenamientos de características almacenan y ayudan a organizar las características.
-seo-title: Almacenamiento de características
+seo-title: Almacenamiento de rasgos
 solution: Audience Manager
-title: Almacenamiento de características
+title: Almacenamiento de rasgos
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Almacenamiento de características {#trait-storage}
+# Almacenamiento de rasgos {#trait-storage}
 
 Las carpetas de almacenamientos de características almacenan y ayudan a organizar las características.
 
