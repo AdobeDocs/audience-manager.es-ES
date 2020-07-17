@@ -1,20 +1,20 @@
 ---
 description: 'Esta página incluye instrucciones paso a paso sobre cómo generar segmentos de audiencia a partir de datos de clientes sin conexión y enviarlos a destinos basados en personas.  '
 seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo generar segmentos de audiencia a partir de datos de clientes sin conexión y enviarlos a destinos basados en personas.  '
-seo-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
+seo-title: 'Flujo de trabajo B: personalización basada en datos solo sin conexión'
 solution: Audience Manager
-title: 'Flujo de trabajo B: Personalización basada en datos solo sin conexión'
+title: 'Flujo de trabajo B: personalización basada en datos solo sin conexión'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Flujo de trabajo B: Personalización basada en datos solo sin conexión {#workflow-b}
+# Flujo de trabajo B: personalización basada en datos solo sin conexión {#workflow-b}
 
 >[!IMPORTANT]
 >Este artículo contiene documentación del producto destinada a guiarle en la configuración y el uso de esta función. Nada de lo que aquí se incluye es asesoramiento jurídico. Por favor, consulte a su propio abogado para obtener asesoramiento jurídico.
