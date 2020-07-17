@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
-# Nombre del archivo de datos de salida: Sintaxis y ejemplos{#outbound-data-file-name-syntax-and-examples}
+# Nombre del archivo de datos de salida: sintaxis y ejemplos{#outbound-data-file-name-syntax-and-examples}
 
 Describe los campos requeridos, la sintaxis y las convenciones utilizadas para asignar un nombre a un archivo de datos de salida.
 
@@ -64,7 +64,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
       <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> ID del anunciante de Google </span> (sin procesar, sin hash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> ID de Apple para anunciantes </span> (sin procesar, sin hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID de proveedor: ID de usuario de terceros (web/cookie) </li> 
-     </ul> </p> <p>Consulte Fuentes <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de datos</a> globales para obtener más información.</p></td> 
+     </ul> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -191,7 +191,7 @@ La tabla lista variables que definen el contenido de un archivo de datos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento desde el que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de los segmentos actuales para el usuario. Normalmente, desea conocer los segmentos a los que pertenece un usuario en lugar de aquellos de los que se han eliminado. Consulte también <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nombre del archivo de datos de salida: Sintaxis y ejemplos </a>. </p> </td> 
+   <td colname="col2"> <p>ID del segmento desde el que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de los segmentos actuales para el usuario. Normalmente, desea conocer los segmentos a los que pertenece un usuario en lugar de aquellos de los que se han eliminado. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
