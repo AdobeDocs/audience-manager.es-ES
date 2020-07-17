@@ -1,16 +1,16 @@
 ---
 description: Este artículo describe dos funciones que proporcionan funcionalidad avanzada para la plantilla de asignación de Duplicados del laboratorio de Audiencia y la retención de segmentos.
 seo-description: Este artículo describe dos funciones que proporcionan funcionalidad avanzada para la plantilla de asignación de Duplicados del laboratorio de Audiencia y la retención de segmentos.
-seo-title: Funcionalidad avanzada del laboratorio de Audiencia
+seo-title: Funcionalidad avanzada de Audience Lab
 solution: Audience Manager
-title: Funcionalidad avanzada del laboratorio de Audiencia
+title: Funcionalidad avanzada de Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
