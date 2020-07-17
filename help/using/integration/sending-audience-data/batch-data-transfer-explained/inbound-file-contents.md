@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Contenido del archivo de datos de entrada: Sintaxis, caracteres no válidos, variables y ejemplos {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Contenido del archivo de datos de entrada: sintaxis, caracteres no válidos, variables y ejemplos {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Campos requeridos, sintaxis y reglas que debe seguir al dar formato a un archivo de datos de características de entrada.
 
@@ -93,11 +93,11 @@ En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trai
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>El <code> d_sid </code> prefijo indica a nuestro sistema que el ID es un ID de característica <span class="keyword"> Audience Manager </span> . Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de características con el <code> GET </code> método API. Consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de características </a>. </p> </td>
+   <td colname="col2"> <p>El <code> d_sid </code> prefijo indica a nuestro sistema que el ID es un ID de característica <span class="keyword"> Audience Manager </span> . Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de características con el <code> GET </code> método API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Los datos con el prefijo <code> d_unsid </code> eliminan a los usuarios de esa característica. El <code> d_unsid </code> prefijo se ignora en un <code> overwrite </code> archivo. </p> <p>El <code> d_unsid= </code> prefijo indica a nuestro sistema que el ID es un ID de característica <span class="keyword"> Audience Manager </span> . Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de características con el <code> GET </code> método API. Consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de características </a>. </p> </td>
+   <td colname="col2"> <p>Los datos con el prefijo <code> d_unsid </code> eliminan a los usuarios de esa característica. El <code> d_unsid </code> prefijo se ignora en un <code> overwrite </code> archivo. </p> <p>El <code> d_unsid= </code> prefijo indica a nuestro sistema que el ID es un ID de característica <span class="keyword"> Audience Manager </span> . Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de características con el <code> GET </code> método API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -508,5 +508,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Generador de rasgo](../../../features/traits/about-trait-builder.md)
+>* [Generador de rasgos ](../../../features/traits/about-trait-builder.md)
 
