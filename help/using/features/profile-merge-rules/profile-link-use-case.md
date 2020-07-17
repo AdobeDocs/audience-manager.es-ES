@@ -1,21 +1,21 @@
 ---
 description: Recomendaciones y casos de uso para la resegmentación de segmentos y la cualificación de segmentos personalizados con el gráfico del dispositivo Vínculo de Perfil.
 seo-description: Recomendaciones y casos de uso para la resegmentación de segmentos y la cualificación de segmentos personalizados con el gráfico del dispositivo Vínculo de Perfil.
-seo-title: Casos de uso de Device Graph de vínculo de Perfil
+seo-title: Casos de uso de Device Graph de enlace de Perfil
 solution: Audience Manager
-title: Casos de uso de Device Graph de vínculo de Perfil
+title: Casos de uso de Device Graph de enlace de Perfil
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Casos de uso de Device Graph de vínculo de Perfil {#profile-link-device-graph-use-cases}
+# Casos de uso de Device Graph de enlace de Perfil {#profile-link-device-graph-use-cases}
 
 Recomendaciones y casos de uso para la resegmentación de segmentos y la cualificación de segmentos personalizados con el [!UICONTROL Profile Link Device Graph].
 
