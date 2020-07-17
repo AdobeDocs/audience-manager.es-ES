@@ -1,21 +1,21 @@
 ---
 description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
 seo-description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
-seo-title: ID de región, ubicaciones y nombres de host de DCS
+seo-title: ID de región de DCS, ubicaciones y nombres de host
 solution: Audience Manager
-title: ID de región, ubicaciones y nombres de host de DCS
+title: ID de región de DCS, ubicaciones y nombres de host
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
+# ID de región de DCS, ubicaciones y nombres de host {#dcs-region-ids-locations-and-host-names}
 
 El nombre de host del [!DNL DCS] servidor regional es necesario para realizar llamadas al [!DNL DCS]. Esto se debe a que [!DNL DCS] almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía a los usuarios incorrectos [!DNL DCS]pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una [!DNL DCS] solicitud, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
 
@@ -71,4 +71,4 @@ El nombre de host del [!DNL DCS] servidor regional es necesario para realizar ll
  </tbody> 
 </table>
 
-También puede utilizar [!DNL API] métodos para obtener una lista de las [!DNL DCS] regiones disponibles. Consulte Métodos [de API de región DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
+También puede utilizar [!DNL API] métodos para obtener una lista de las [!DNL DCS] regiones disponibles. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
