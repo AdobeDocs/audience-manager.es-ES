@@ -2,21 +2,21 @@
 description: Información general para clientes técnicos y no técnicos que deseen llevar datos de otros sistemas (sin conexión) al Audience Manager.
 keywords: inbound, batch, batch upload, batch data
 seo-description: Información general para clientes técnicos y no técnicos que deseen llevar datos de otros sistemas (sin conexión) al Audience Manager. Para ello, utilice la opción de carga por lotes en Audience Manager.
-seo-title: Información general sobre envío de datos por lotes al Audience Manager
+seo-title: Información general sobre el envío de datos por lotes a Audience Manager
 solution: Audience Manager
-title: Información general sobre envío de datos por lotes al Audience Manager
+title: Información general sobre el envío de datos por lotes a Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Enviar datos por lotes a [!DNL Audience Manager] Información general {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Información general para clientes técnicos y no técnicos que deseen introducir datos de otros sistemas (sin conexión) en [!DNL Audience Manager].
 
