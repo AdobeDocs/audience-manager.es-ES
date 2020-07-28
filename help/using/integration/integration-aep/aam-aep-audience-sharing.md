@@ -7,9 +7,9 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Información general {#overview}
 
-La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobes Experience Platform le permite compartir sus características de Audience Manager y segmentos en Adobe Experience Platform y viceversa. Necesita el conector [del](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) Audience Manager para habilitar el uso compartido de audiencias entre el Audience Manager y el Adobe Experience Platform.
+La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobes Experience Platform le permite compartir sus características de Audience Manager y segmentos en Adobe Experience Platform y viceversa. Necesita el [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para habilitar el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
 
 Puede usar características y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de clientes y para beneficiarse del servicio [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentación de Experience Platform.
 
@@ -149,7 +149,7 @@ Audience Manager actualiza los números de sistema de informes en la interfaz un
 
 ### Diferencias entre reglas de combinación de Perfiles y políticas de combinación
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en las directivas [Audience Manager y](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Combinar en Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada una varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en el Audience Manager y [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) en el Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
 
 ### Composición de segmentos en el Experience Platform
 
