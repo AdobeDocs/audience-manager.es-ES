@@ -7,10 +7,10 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 4%
+source-wordcount: '1442'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> Póngase en contacto con su representante de ventas de Adobe para desbloquear el acceso a esta funcionalidad.
+> Póngase en contacto con el representante de ventas de Adobe para desbloquear el acceso a esta funcionalidad.
 
 ## Información general {#overview}
 
@@ -56,9 +56,17 @@ Las características y los segmentos del Audience Manager aparecen en el Experie
 
 ## Segmentos de Adobe Experience Platform en Audience Manager {#aep-segments-in-aam}
 
-Los segmentos que se crean en el Experience Platform aparecen en la interfaz del Audience Manager como características y segmentos, con las siguientes reglas de composición:
+Los segmentos que se crean en el Experience Platform aparecen en la interfaz del Audience Manager como señales, características y segmentos, con las siguientes reglas de composición:
+
+* Señal: Para cada segmento de Experience Platform, debe ver las señales en el formulario `segID = segment ID`.
 * Característica: La regla de características es la ID del segmento de Experience Platform.
 * Segmento: El segmento consiste en la característica descrita anteriormente.
+
+### Señales {#aep-segments-as-aam-signals}
+
+Seleccione **[!UICONTROL Audience Data > Signals > General Online Data]** y busque por `SegId` para buscar señales procedentes del Experience Platform. Puede utilizar esta pantalla con fines de depuración para comprobar si la integración entre Experience Platform y Audience Manager se ha configurado correctamente.
+
+![Ver las señales de Experience Platform en el Audience Manager en el panel de señales](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### Rasgos {#aep-segments-as-aam-traits}
 
@@ -133,10 +141,38 @@ La siguiente tabla describe cómo las etiquetas de exportación de datos especí
 
 ## Comprender las diferencias de población de segmentos entre Audience Manager y Experience Platform
 
-Los números de población de segmentos pueden variar entre los segmentos de Audience Manager y de Experience Platform. Mientras que los números de segmento para audiencias similares o idénticas deben ser cercanos, las diferencias en las poblaciones pueden deberse a:
+Los números de población de segmentos pueden variar entre los segmentos de Audience Manager y de Experience Platform. Aunque los números de segmento para audiencias similares o idénticas deben ser estrechos, las diferencias en la población pueden deberse a los factores enumerados a continuación.
 
-* Tiempo de ejecución de los trabajos de segmentación. Audience Manager ejecuta un trabajo de segmentación que actualiza los números de la interfaz una vez al día. Este trabajo raramente se alinea con los trabajos de segmentación en Experience Platform.
-* [Las reglas](/help/using/features/profile-merge-rules/merge-rules-overview.md) de combinación de Perfiles en las directivas [de Audience Manager y](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) combinación en el Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada una varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+### Evaluación de segmentos en el Experience Platform
+
+Audience Manager actualiza los números de sistema de informes en la interfaz una vez al día.   El tiempo de esta actualización raramente se alinea con el tiempo de la evaluación del segmento en el Experience Platform.
+
+### Diferencias entre reglas de combinación de Perfiles y políticas de combinación
+
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en las directivas [Audience Manager y](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Combinar en Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada una varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+
+### Composición de segmentos en el Experience Platform
+
+La integración entre Adobe Experience Platform y Audience Manager comparte una serie de Áreas de nombres [de](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) identidad estándar para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), ID de AdCloud, etc. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en los rasgos y segmentos del Audience Manager.
+
+Además, el Audience Manager puede registrar las realizaciones entrantes para cualquier Área de nombres de identidad personalizada que utilice en segmentos de Experience Platform si ya tiene una fuente de datos correspondiente en Audience Manager bloqueada de ese identificador.
+
+>[!NOTE]
+>
+> Las Audiencias en Experience Platform con identidades marcadas como clave de los correos electrónicos sin procesar nunca aparecen en el Audience Manager.
+
+Por ejemplo, si tuviera un segmento de Experience Platform &quot;Todos mis clientes&quot; y los perfiles cualificados fueran ID de CRM, ID de ECID, IDFA, direcciones de correo electrónico sin procesar y con hash, el segmento correspondiente en Audience Manager solo incluiría perfiles de ID de CRM, ECID, IDFA y direcciones de correo electrónico con hash. La población de segmentos en Audience Manager sería menor que la del Experience Platform.
+
+![Compartir segmentos de Experience Platform a Audience Manager: composición de segmentos](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+
+<!--
+
+If you created a data source in Audience Manager for the CRM IDs in Experience Platform, then the qualified profiles keyed off those CRM IDs would appear in Audience Manager and the segment population in Audience Manager would increase.
+
+![AEP to AAM segment sharing - segment composition after creating a data source for CRM IDs in Audience Manager](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities2.png)
+
+-->
+
 
 >[!MORELIKETHIS]
 >
