@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -65,9 +65,11 @@ Las tablas lista los límites actuales por tipo de elemento. No se pueden crear 
 
 | Elemento | Límite máximo |
 | -------- | ----- |
-| Modelos algorítmicos activos | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| Modelos algorítmicos tamaño máximo de audiencia | 25,000,000.  Tenga en cuenta que este límite no se puede aumentar. Puede reducir los tamaños de audiencia seleccionando menos fuentes de datos para el modelo o seleccionando una ventana retroactiva más corta. |
-| Número máximo de características excluidas para un modelo | 500. Consulte Exclusión [de características en modelado](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algorítmico. |
+| Activo [!UICONTROL Look-Alike Models] | 20. Audience Manager only counts *active* algorithmic models against the limit. |
+| [!UICONTROL Look-Alike Models] tamaño máximo de audiencia | 25,000,000.  Tenga en cuenta que este límite no se puede aumentar. Puede reducir los tamaños de audiencia seleccionando menos fuentes de datos para el modelo o seleccionando una ventana retroactiva más corta. |
+| Número máximo de características excluidas para un [!UICONTROL Look-Alike Model] | 500. Consulte Exclusión [de características en modelado](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algorítmico. |
+| Máximo [!UICONTROL Predictive Audiences Models] | 10 |
+| Número máximo de personalidades de base para [!UICONTROL Predictive Audiences] modelos | 50 |
 
 ### Límites de carpetas
 
