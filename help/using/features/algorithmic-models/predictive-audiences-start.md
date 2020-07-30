@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuaci
    ![smart-persona-select-audiencia](assets/predictive-audiences-audience.png)
 1. Haga clic **[!UICONTROL Next]** después de elegir la audiencia.
 1. Rellene los detalles del modelo:
-   1. **[!UICONTROL Model Name]**:: Introduzca un nombre descriptivo para el modelo, que le ayudará a identificarlo más adelante. Los nombres de los segmentos generados por el modelo tendrán inicios con el nombre del modelo.
-   2. **[!UICONTROL Description]**:: Introduzca una descripción del modelo que le ayudará a identificar su caso de uso.
-   3. **[!UICONTROL Data Source]**:: Seleccione el origen de datos de origen al que desea asignar los [!UICONTROL Predictive Audiences] segmentos de este modelo.
+   * **[!UICONTROL Model Name]**:: Introduzca un nombre descriptivo para el modelo, que le ayudará a identificarlo más adelante. Los nombres de los segmentos generados por el modelo tendrán inicios con el nombre del modelo.
+   * **[!UICONTROL Description]**:: Introduzca una descripción del modelo que le ayudará a identificar su caso de uso.
+   * **[!UICONTROL Data Source]**:: Seleccione el origen de datos de origen al que desea asignar los [!UICONTROL Predictive Audiences] segmentos de este modelo.
+   * **[!UICONTROL Profile Merge Rule]**:: Seleccione el [!UICONTROL Profile Merge Rule] que se va a asignar para todos los predictivos [!UICONTROL segments] creados por este modelo. Si la audiencia de destinatario seleccionada es una [!UICONTROL segment], le recomendamos que seleccione la misma [!UICONTROL Profile Merge Rule] de la audiencia de destinatario.
       ![predictive-audiencias-save](assets/predictive-audiences-save.png)
 1. Haga clic **[!UICONTROL Save]**.
 
