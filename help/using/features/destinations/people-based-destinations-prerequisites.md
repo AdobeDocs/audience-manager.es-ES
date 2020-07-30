@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos previos y consideraciones
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Lea a continuación para obtener una descripción general de los requisitos del 
 
 [!UICONTROL People-Based Destinations] es una función de primera calidad que mejora la experiencia del Audience Manager permitiéndole activar los segmentos de audiencia de origen en entornos basados en personas, dirigiéndose a su audiencia con ofertas personalizadas en redes sociales o a través del marketing por correo electrónico.
 
-Póngase en contacto con su representante de Adobe para aprovechar esta función Premium.
+Póngase en contacto con su representante de Adobe para aprovechar esta función de primera calidad.
 
 ## Requisitos previos específicos del socio {#partner-prerequisites}
 
@@ -81,7 +81,7 @@ Vea el siguiente vídeo para conocer los requisitos de hash de [!UICONTROL Peopl
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud le ofrece la opción de crear un hash con los ID de cliente a través de la [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Compatibilidad con hash SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obtener información detallada sobre cómo utilizar ECID para hash los ID de cliente.
+Adobe Experience Cloud le ofrece la opción de hash de los ID de cliente a través del [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Compatibilidad con hash SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obtener información detallada sobre cómo utilizar ECID para hash los ID de cliente.
 
 ## Obtención de permisos de usuario {#obtaining-user-permission}
 
@@ -101,5 +101,5 @@ Cuando utilice [!UICONTROL People-Based Destinations], utilice Controles [de exp
 
 Existen dos maneras de incluir los datos sin conexión a Audience Manager para [!UICONTROL People-Based Destinations].
 
-* [Enviar datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes al Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede elegir utilizar las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!UICONTROL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para características [integradas](../traits/trait-and-segment-qualification-reference.md).
+* [Enviar datos](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) por lotes al Audience Manager para ingestar direcciones de correo electrónico con hash. Con este método, puede elegir utilizar las direcciones de correo electrónico con hash de la [!DNL CRM] base de datos en [!UICONTROL People-Based Destinations]. Además, al utilizar este método, también puede calificar las direcciones de correo electrónico con hash para las características [integradas](../traits/trait-and-segment-qualification-reference.md).
 * Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!UICONTROL People-Based Destinations] the hashed email addresses from users who have authenticated online. Las direcciones de correo electrónico activadas mediante canales basados en personas son solo las que se encuentran en las llamadas declaradas al evento de ID. Otras direcciones de correo electrónico asociadas con el ID de cliente no se envían en tiempo real.
