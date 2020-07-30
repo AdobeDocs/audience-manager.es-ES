@@ -7,7 +7,7 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
