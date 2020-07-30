@@ -8,9 +8,9 @@ title: Fuentes de datos de clientes
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Información básica sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) ar
 
 Un archivo [!UICONTROL CDF] contiene los mismos datos que una llamada de evento de [!DNL Audience Manager] (`/event`) envía a nuestros servidores. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Los [!DNL Audience Manager] sistemas internos procesan los datos de evento en un [!UICONTROL CDF] archivo con contenido organizado en campos que aparecen en un orden definido. [!DNL Audience Manager] intenta generar [!UICONTROL CDF] archivos por hora y los almacena en un bloque seguro y específico para el cliente en un [!DNL Amazon S3] servidor. Proporcionamos estos archivos para que pueda trabajar con [!DNL Audience Manager] datos fuera de los límites impuestos por nuestra interfaz de usuario.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->No debe utilizar [!UICONTROL CDF] los archivos como proxy para supervisar el tráfico de páginas, reconciliar discrepancias en los informes, para facturar, etc.
+>Tenga en cuenta las siguientes restricciones al trabajar con archivos CDF:
+>
+>* Antes de configurar el envío de archivos CDF, asegúrese de tener los permisos adecuados de proveedores de datos de terceros para la exportación de características de terceros.
+>* No debe utilizar [!UICONTROL CDF] los archivos como proxy para supervisar el tráfico de páginas, reconciliar discrepancias en los informes, para facturar, etc.
+
 
 ## Introducción {#getting-started}
 
@@ -303,7 +307,7 @@ Las siguientes tablas lista y definen los elementos de un [!UICONTROL CDF] `.inf
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag. El número que sigue al guión muestra el número de partes utilizadas para crear el archivo durante la carga de varias partes. El <code> ETag</code> archivo no es idéntico a la suma de comprobación MD5 del archivo. </p> </td> 
+   <td colname="col2"> <p>El Amazon S3 ETag. El número que sigue al guión muestra el número de partes utilizadas para crear el archivo durante la carga de varias partes. El <code> ETag</code> archivo no es idéntico a la suma de comprobación MD5 del archivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
