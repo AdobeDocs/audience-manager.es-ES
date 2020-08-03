@@ -8,9 +8,9 @@ title: Fuentes de datos de clientes
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Un archivo [!UICONTROL CDF] contiene los mismos datos que una llamada de evento 
 >
 >Tenga en cuenta las siguientes restricciones al trabajar con archivos CDF:
 >
->* Antes de configurar el envío de archivos CDF, asegúrese de tener los permisos adecuados de proveedores de datos de terceros para la exportación de características de terceros.
+>* Antes de configurar el envío de archivos CDF, asegúrese de tener los permisos adecuados de proveedores de datos de terceros para la exportación de características de terceros. Actualmente, el Audience Manager no admite la funcionalidad en la interfaz de usuario para solicitar permiso de exportación de envío de archivos CDF de proveedores de datos de terceros, por lo que póngase en contacto con ellos de forma independiente.
 >* No debe utilizar [!UICONTROL CDF] los archivos como proxy para supervisar el tráfico de páginas, reconciliar discrepancias en los informes, para facturar, etc.
 
 
