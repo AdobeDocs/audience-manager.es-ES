@@ -189,7 +189,7 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
 
 | Parámetro | Descripción |
 |--- |--- |
-| `page` | Devuelve los resultados por número de página. inicios de numeración en 0. |
+| `page` | Devuelve los resultados por número de página. Inicios de numeración en 0. |
 | `pageSize` | Define el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). |
 | `sortBy` | Ordena y devuelve resultados según la [!DNL JSON] propiedad especificada. |
 | `descending` | Ordena y devuelve los resultados en orden descendente. `ascending` es el valor predeterminado. |
