@@ -7,9 +7,9 @@ title: Documentación del producto de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 98%
 
 ---
@@ -160,10 +160,10 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
      <br> 
      <p> <b>Últimas funciones</b> </p> <p> 
      Obtenga información sobre las últimas funciones de Audience Manager:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Informes de uso de actividades</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Coincidencia de clientes de Google para destinos basados en personas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Informes de uso de actividades</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Revisión general de la documentación de privacidad y soporte de la Ley de Privacidad del Consumidor de California (CCPA)</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Recomendaciones inteligentes para datos de Audience Marketplace, con tecnología de Adobe Sensei</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Mejoras en las reglas de combinación de Perfiles</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 
