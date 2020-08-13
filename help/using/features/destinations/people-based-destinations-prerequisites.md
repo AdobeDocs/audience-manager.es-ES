@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos previos y consideraciones
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Póngase en contacto con su representante de Adobe para aprovechar esta función
 
 ## Requisitos previos específicos del socio {#partner-prerequisites}
 
-### [!DNL Facebook]
+### [!DNL Facebook] {#facebook}
 
 Antes de poder usar [!UICONTROL People-Based Destinations] para enviar su audiencia de origen [!UICONTROL segments] a [!DNL Facebook], asegúrese de cumplir los siguientes requisitos:
 
@@ -42,7 +42,7 @@ Antes de poder usar [!UICONTROL People-Based Destinations] para enviar su audien
    > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Es necesario para la integración de [!UICONTROL People-Based Destinations].
 3. Lea y firme las [!DNL Facebook Custom Audiences] Condiciones de servicio. Para ello, vaya a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, donde `accountID` es su [!DNL Facebook Ad Account ID].
 
-### [!DNL LinkedIn]
+### [!DNL LinkedIn] {#linkedin}
 
 Antes de poder usar [!UICONTROL People-Based Destinations] para enviar segmentos de audiencia de origen a [!DNL LinkedIn], asegúrese de que su [!DNL LinkedIn Campaign Manager] cuenta tenga el nivel de permisos [!DNL Creative Manager] o superior.
 
@@ -50,7 +50,7 @@ Para obtener información sobre cómo editar los permisos [!DNL LinkedIn Campaig
 
 Consulte [Explicación y configuración del destino](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) basado en personas de LinkedIn para obtener instrucciones en vídeo.
 
-### [!DNL Google Customer Match]
+### [!DNL Google Customer Match] {#gcm}
 
 Antes de poder usar [!UICONTROL People-Based Destinations] para enviar segmentos de audiencia de origen a un [!DNL Google Customer Match] destino, es obligatorio que [!DNL Google] le añada a su lista de permitidos.
 
