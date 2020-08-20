@@ -7,7 +7,7 @@ title: Macros de plantillas de salida
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -107,7 +107,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter } de corchete de cierre. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de corchete <code>}</code> redondeado de cierre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ Macros utilizados para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter { de corchete abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de corchete <code>{</code> redondeado abierto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
