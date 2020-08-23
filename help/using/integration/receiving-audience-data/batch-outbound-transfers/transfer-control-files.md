@@ -7,9 +7,9 @@ title: Archivos de transferencia y control para transferencias de archivos de re
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
@@ -76,7 +76,7 @@ Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345
 }
 ```
 
->[NOTA]
+>[!NOTE]
 >
 > Los números totales del lote son exclusivos del [!DNL .info] archivo mismo. Es decir, los totales no incluyen el [!DNL .info] archivo, su tamaño de byte ni su recuento de líneas.
 >
