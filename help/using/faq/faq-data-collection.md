@@ -8,7 +8,7 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: a1e95f421b725cc93fbedc4c001e34e4291bf828
+source-git-commit: a292f44a63aa1e627d75d37c9ff0c1489f160729
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 86%
@@ -64,7 +64,7 @@ Póngase en contacto con su [!DNL Audience Manager] asesor o con el Servicio de 
 
  
 
-**¿Cuál es el método de autenticación admitido para los nuevos servidores SFTP?**
+**¿Cuáles son los métodos de autenticación admitidos para los nuevos servidores SFTP?**
 
 Los nuevos servidores SFTP (`ftp-in-gtw` y `ftp-out-gtw`) son compatibles [!DNL OpenSSH Key-Based Authentication]. Podemos generar las [!DNL SSH] claves para usted, o puede proporcionarnos su propia clave pública.
 
