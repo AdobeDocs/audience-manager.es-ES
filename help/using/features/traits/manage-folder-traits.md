@@ -8,9 +8,9 @@ title: Administrar rasgos de carpetas
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Se [!UICONTROL folder trait] crea automáticamente una carpeta cuando se crea un
 
 1. Haga clic en el icono + para crear la carpeta. Tenga en cuenta que puede crear un máximo de 2000 carpetas en su taxonomía. Consulte la documentación sobre los [límites de uso](../../features/administration/usage-limits.md) para obtener más información.
 1. Asigne un nombre a la carpeta y haga clic en **Guardar**. Por ejemplo, una carpeta llamada Electronics tendrá una característica de carpeta denominada &#39;Características de la carpeta de componentes electrónicos&#39;. Puede vista y seleccionar la nueva característica de carpeta en el panel de características.
-1. La nueva característica de carpeta se asigna automáticamente al origen de datos [!DNL Audience Manager] generado. Los usuarios con los permisos adecuados de [!UICONTROL Control de acceso basado en roles ([!DNL RBAC])] pueden cambiar el origen de datos en el flujo de trabajo de edición de características de carpeta. Consulte [Edición de una característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)de carpeta.
+1. La nueva característica de carpeta se asigna automáticamente al origen de datos [!DNL Audience Manager] generado. Los usuarios con los permisos adecuados [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) pueden cambiar la fuente de datos en el flujo de trabajo de edición de características de carpeta. Consulte [Edición de una característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)de carpeta.
 
 ## Editar una característica de carpeta {#edit-folder-trait}
 
@@ -63,7 +63,7 @@ Elimine una característica de carpeta eliminando la carpeta de almacenamiento a
 
 <!-- delete-folder-trait.xml -->
 
-1. **Datos de Audiencia > Características** para desplazarse al panel **Características** .
+1. **Datos de audiencia > Características** para desplazarse al panel **Características** .
 1. En la [!UICONTROL Trait Storage] ventana, elimine una carpeta pasando el ratón sobre ella y haciendo clic en el icono X.
 
    ![Resultado del paso](assets/folder_traits_create.PNG)
