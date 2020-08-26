@@ -98,7 +98,7 @@ Creación y actualización de programas para nuevos [!UICONTROL algorithmic mode
  <tbody>
   <tr> 
    <td colname="col1"> <b>Crear o clonar un modelo</b> </td>
-   <td colname="col2"> <p>Para los [!Modelos con apariencia similar de UICONTROL] nuevos o clonados, el proceso de creación se ejecuta una vez al día en: 
+   <td colname="col2"> <p>Para los [!UICONTROL Modelos con apariencia similar de] nuevos o clonados, el proceso de creación se ejecuta una vez al día en: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (noviembre - marzo) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (marzo - noviembre) </li> 
