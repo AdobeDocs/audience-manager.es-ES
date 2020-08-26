@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Fuentes de datos globales
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ En la tabla siguiente se describen las fuentes de datos globales admitidas por A
 
 | ID de fuente de datos | Descripción |
 |---|---|
-| 20914 | **ID** de publicidad de Google: los **** GAID representan dispositivos que ejecutan el [!DNL Android] sistema operativo. |
-| 20915 | **ID de Apple para publicidad** : los **** IDFA representan dispositivos que ejecutan el [!DNL iOS] sistema operativo. |
-| 121963 | **Roku ID para publicidad** : **** los RIDA representan dispositivos [!DNL Roku] de flujo continuo. |
-| 389146 | **ID** de publicidad de Microsoft: los **** MAID representan dispositivos que ejecutan el [!DNL Windows 10] sistema operativo. |
-| 404660 | **Los** DUID de Samsung representan televisores [!DNL Samsung] inteligentes. |
-| 488258 | **Los** ID de publicidad de Amazon Fire TV representan dispositivos en ejecución [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** Los ID representan dispositivos que ejecutan el [!DNL Android] sistema operativo. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Los ID representan dispositivos que ejecutan el [!DNL iOS] sistema operativo. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** Los ID representan dispositivos [!DNL Roku] de flujo continuo. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Los ID representan dispositivos que ejecutan el [!DNL Windows 10] sistema operativo. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** Los ID representan televisores [!DNL Samsung] inteligentes. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representan dispositivos que se ejecutan [!DNL Amazon Fire OS] |
 
 ## Importación de datos desde fuentes de datos globales
 
@@ -41,7 +41,7 @@ Puede importar ID de dispositivos desde orígenes de datos globales a través de
 
 ## Limitaciones
 
-En dispositivos que ejecutan [!DNL iOS] y [!DNL Android] sistemas operativos, solo las aplicaciones nativas pueden recuperar y utilizar ID[!UICONTROL DAID]de publicidad de dispositivos. Las Aplicaciones web que se ejecutan en exploradores móviles no tienen acceso a los ID de publicidad de dispositivos.
+En dispositivos que ejecutan [!DNL iOS] y [!DNL Android] sistemas operativos, solo las aplicaciones nativas pueden recuperar y utilizar ID[!UICONTROL DAID]de publicidad de dispositivos. Las aplicaciones web que se ejecutan en exploradores móviles no tienen acceso a los ID de publicidad de dispositivos.
 
 ## Validación global de ID de dispositivo
 
@@ -52,11 +52,11 @@ Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) import
 
 ## Directiva de caducidad de ID de dispositivo
 
-El Audience Manager descarta automáticamente los ID de publicidad de dispositivos tras 120 días de inactividad, de forma similar a los [UUID de](../faq/faq-privacy.md)AAM.
+El Audience Manager descarta automáticamente los ID de publicidad de dispositivos tras 120 días de inactividad, de forma similar a [AAM](../faq/faq-privacy.md)UUID.
 
 ## Solicitud de nuevas fuentes de datos globales
 
-Para solicitar que se agreguen nuevas fuentes de datos globales al Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente de Adobe y proporcione información detallada sobre las fuentes de datos necesarias:
+Para solicitar que se agreguen nuevas fuentes de datos globales al Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente de Adobe y proporcione información detallada sobre las fuentes de datos requeridas:
 
 * El nombre de la plataforma solicitada (por ejemplo, [!UICONTROL Apple IDFA]);
 * El nombre de la compañía/organización que administra la plataforma (por ejemplo, [!UICONTROL Apple Inc.]);
