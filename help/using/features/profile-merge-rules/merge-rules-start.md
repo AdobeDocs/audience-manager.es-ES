@@ -7,9 +7,9 @@ title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ Para completar la [!UICONTROL Basic Information] sección:
 
 [Los controles](../data-export-controls.md) de exportación de datos son reglas de clasificación opcionales que puede aplicar a su [!UICONTROL Profile Merge Rule]. Le impiden enviar datos a un destino cuando dicha acción infringe una privacidad de datos o un acuerdo de uso. Omita esta sección si no utiliza [!UICONTROL Data Export Controls].
 
-## Configuración de regla de combinación de Perfiles {#profile-merge-rule-setup}
+## Configuración de regla de combinación de perfiles {#profile-merge-rule-setup}
 
 Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
 
@@ -103,7 +103,7 @@ Para completar la [!UICONTROL Proflie Merge Rule Setup] sección:
    * **[!UICONTROL Device Co-op]**
 4. Haga clic **[!UICONTROL Save]**.
 
-### Consideraciones para los destinos de Adobe Campaign que utilizan ID entre dispositivos como claves de ID de usuario {#considerations}
+### Consideraciones para destinos de Adobe Campaign que utilizan ID entre dispositivos como claves de ID de usuario {#considerations}
 
 A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
 
@@ -114,7 +114,7 @@ Para garantizar la integración correcta entre la instancia de Audience Manager 
 
 >[!NOTE]
 >
-> Hemos aumentado el límite de reglas de combinación de Perfiles en 1 para los clientes que se enfrentan a esta situación, de modo que puede crear una regla de combinación de Perfiles dedicada para los segmentos asignados al destino de ID declarado de Adobe Campaign, sin cambiar las reglas de combinación de Perfiles para otros casos de uso.
+> Si ha alcanzado el número máximo de usuarios [!UICONTROL Profile Merge Rules] y necesita ayuda para configurarlos según las instrucciones anteriores, póngase en contacto con el Servicio de atención al cliente.
 
 ## Configurar código de regla de combinación {#configure-merge-rule-code}
 
@@ -126,9 +126,9 @@ Siga estas instrucciones para configurar el código [!UICONTROL Adobe Experience
 
 Debe configurar un origen [de datos](#create-data-source) entre dispositivos y reglas [de combinación de](#create-profile-merge-rule) perfiles *antes* de completar estos procedimientos.
 
-## Para los clientes del servicio de identidad de Adobe Experience Platform {#id-service-customers}
+## Para clientes de Adobe Experience Platform Identity Service {#id-service-customers}
 
-Se recomiendan la versión [!UICONTROL Adobe Experience Platform Identity Service] y la última versión de [DIL](../../dil/dil-overview.md) al trabajar con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Adobe Experience Platform Identity Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL](#legacy-dil) heredada a continuación.
+Se recomienda utilizar la versión [!UICONTROL Adobe Experience Platform Identity Service] y la última versión de [DIL](../../dil/dil-overview.md) al trabajar con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Adobe Experience Platform Identity Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL](#legacy-dil) heredado más abajo.
 
 ### Configuración de la función Definir ID de cliente
 
