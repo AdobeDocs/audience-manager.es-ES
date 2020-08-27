@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fuentes de datos globales
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
+source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 6%
@@ -28,7 +28,7 @@ En la tabla siguiente se describen las fuentes de datos globales admitidas por A
 | 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Los ID representan dispositivos que ejecutan el [!DNL iOS] sistema operativo. |
 | 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** Los ID representan dispositivos [!DNL Roku] de flujo continuo. |
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Los ID representan dispositivos que ejecutan el [!DNL Windows 10] sistema operativo. |
-| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** Los ID representan televisores [!DNL Samsung] inteligentes. |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** Los ID representan televisores [!DNL Samsung] inteligentes. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representan dispositivos que se ejecutan [!DNL Amazon Fire OS] |
 
 ## Importación de datos desde fuentes de datos globales
