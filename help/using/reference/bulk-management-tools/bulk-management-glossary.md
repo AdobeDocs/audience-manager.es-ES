@@ -7,9 +7,9 @@ title: Glosario de herramientas de administración masiva
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica cuándo un segmento puede enviar un inicio a un destino. Utiliza el formato <tt>aaaa-mm-dd</tt> . </p> </td> 
+   <td colname="col2"> <p>Indica cuándo un segmento puede enviar un inicio a un destino. Utiliza <code>yyyy-mm-dd</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -112,7 +112,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Píxel activado por DIL cuando un usuario cumple los requisitos para un segmento. </p> </td> 
+   <td colname="col2"> <p>Píxel activado por el DIL cuando un usuario cumple los requisitos para un segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
