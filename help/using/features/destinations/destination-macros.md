@@ -7,9 +7,9 @@ title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro se reemplazará <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       Basado en AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     </draft-comment> </p> </td> 
+     <!--
+       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     --> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
