@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 8%
+source-wordcount: '1551'
+ht-degree: 7%
 
 ---
 
@@ -112,14 +112,17 @@ Al configurar sus [!UICONTROL Predictive Audiences] modelos, tenga en cuenta las
 * Puede crear hasta diez modelos de [!UICONTROL Predictive Audiences]. 
 * Para cada modelo, puede elegir hasta 50 características base / segmentos.
 * Los datos de segundo y de terceros no son compatibles actualmente con [!UICONTROL Predictive Audiences].
-* La clasificación de Audiencias solo se realiza para audiencias individuales en tiempo real. La clasificación de audiencia de origen integrada puede admitirse en una actualización futura.
+* La clasificación de audiencias solo se realiza para audiencias individuales en tiempo real. La clasificación de audiencia de origen integrada puede admitirse en una actualización futura.
+   >[!IMPORTANT]
+   > Si agrega un rasgo predictivo a un segmento normal, se convierte en un segmento predictivo. En consecuencia, todos los perfiles asociados no están segmentados.
+
    >[!IMPORTANT]
    > Actualmente, los segmentos predictivos solo se pueden activar en destinos en tiempo real. El [!UICONTROL Total Segment Population] y [!UICONTROL Addressable Audience] de los segmentos predictivos se muestra como 0 y las transferencias [de datos de salida por](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) lotes no son compatibles con [!UICONTROL Predictive Audiences]. Este comportamiento cambiará en una actualización futura.
 * [!UICONTROL Predictive Audiences] realiza la clasificación de audiencias en función de sus características de origen, desde todas sus fuentes de datos de origen.
 * La evaluación de segmentos para [!UICONTROL Predictive Audiences] utiliza el **[!UICONTROL Profile Merge Rule]** que elija durante la creación del modelo. Para obtener más información sobre [!UICONTROL Profile Merge Rules] la [documentación](../profile-merge-rules/merge-rules-overview.md)dedicada, consulte .
 * Algunas características y segmentos no se admiten como líneas de base o audiencias de destinatario. [!UICONTROL Predictive Audiences] los modelos no se guardarán al elegir una de las siguientes opciones como líneas de base o audiencias de destinatario:
    * Características predictivas y segmentos creados con características predictivas;
-   * [características o segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
+   * [Características o segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * Características algorítmicas;
    * Características de segundo y de terceros.
 
