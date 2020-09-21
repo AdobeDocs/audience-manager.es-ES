@@ -8,9 +8,9 @@ title: Estados de autenticación de Visitante en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
@@ -24,25 +24,10 @@ A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` m�
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticada = "Últimos Perfiles autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>No, los datos de características se agregan al perfil del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Perfiles autenticados actuales" o "Ningún Perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | **Leer** información del perfil autenticado | **Escribir** nuevas características en el perfil autenticado |
+---------|----------|---------
+| 0 | <ul><li>Sí, si la regla de combinación de opciones autenticada = &quot;Últimos Perfiles autenticados&quot;.</li><li>No, si la regla de combinación de opciones autenticada = &quot;Perfiles autenticados actuales&quot; o &quot;Ningún Perfil autenticado&quot;.</li></ul> | No, los datos de características se agregan al perfil del dispositivo. |
+
 
 Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -50,25 +35,9 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
 
 ## Estado de autenticación: AUTENTICADO {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Últimos Perfiles autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sí, los datos de características se agregan al perfil autenticado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticada = "Sin Perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | **Leer** información del perfil autenticado | **Escribir** nuevas características en el perfil autenticado |
+---------|----------|---------
+| 1 | <ul><li>Sí, si la regla de combinación de opciones autenticadas = &quot;Perfiles autenticados actuales&quot; o &quot;Últimos Perfiles autenticados&quot;.</li><li>No, si la regla de combinación de opciones autenticada = &quot;Sin Perfil autenticado&quot;.</li></ul> | Sí, los datos de características se agregan al perfil autenticado. |
 
 Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -76,25 +45,9 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
 
 ## Estado de autenticación: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sí, si la regla de combinación de opciones autenticadas = "Últimos Perfiles autenticados" </td> 
-   <td colname="col3" morerows="1"> <p>No, los datos de características se escriben en el perfil del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> No, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Ningún Perfil autenticado" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | **Leer** información del perfil autenticado | **Escribir** nuevas características en el perfil autenticado |
+---------|----------|---------
+| 2 | <ul><li>Sí, si la regla de combinación de opciones autenticadas = &quot;Últimos Perfiles autenticados&quot;</li><li>No, si la regla de combinación de opciones autenticadas = &quot;Perfiles autenticados actuales&quot; o &quot;Ningún Perfil autenticado&quot;</li></ul> | No, los datos de características se escriben en el perfil del dispositivo. |
 
 Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
