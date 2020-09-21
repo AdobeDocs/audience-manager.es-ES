@@ -7,7 +7,7 @@ title: Consejos para la resolución de problemas de las herramientas de administ
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 5%
@@ -78,5 +78,5 @@ La siguiente tabla lista algunos problemas comunes que puede encontrar al realiz
 
 ## Mensajes de error
 
-A veces, puede recibir mensajes de error al realizar cambios masivos. Para interpretar el mensaje de error, consulte Códigos [de respuesta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) en nuestra documentación de API.
+A veces, puede recibir mensajes de error al realizar cambios masivos. Para interpretar el mensaje de error, consulte Códigos [de respuesta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) en nuestra documentación de API.
 
