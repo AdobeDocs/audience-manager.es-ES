@@ -7,9 +7,9 @@ title: Informe de variación del rasgo diario
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Este informe devuelve una lista de características que se han realizado al meno
 
 La desviación típica mide la cantidad de variación o dispersión con respecto a la media (o valor medio/esperado). Una desviación estándar baja indica que los puntos de datos tienden a estar muy cerca de la media. Una desviación estándar alta indica que los puntos de datos se distribuyen en un gran rango de valores.
 
-![](assets/daily_trait_variation.png)
+![captura de pantalla del informe de variación de características diarias](assets/daily_trait_variation.png)
 
 Utilice la [!UICONTROL Date] lista para seleccionar una o más fechas para el informe. En la parte inferior de la lista se muestra un gráfico de barras con códigos de color que representa de forma visual el rango de desviación estándar para todas las características de todas las fechas seleccionadas. La línea vertical negra indica la media.
 
@@ -33,7 +33,7 @@ La columna central contiene una lista de características, identificadas por [!U
 
 * **Mantener solamente:** Quita todas las demás características del informe y muestra los datos de esta característica solamente.
 * **Excluir:** Quita esta característica del informe y muestra los datos de todas las demás características. Puede excluir varias características.
-* **Datos de Vista:** Permite mostrar datos para esa fila. También puede descargar todas las filas como un archivo de texto.
+* **Datos de vista:** Permite mostrar datos para esa fila. También puede descargar todas las filas como un archivo de texto.
 
 La [!UICONTROL Standard Deviation] columna muestra gráficos de barras con códigos de color que muestran la desviación estándar de cada característica a lo largo del intervalo seleccionado. Las barras rojas indican características con una desviación estándar negativa (los puntos de datos tienden a estar por debajo de la media). Las barras verdes indican características con una desviación estándar positiva (los puntos de datos tienden a estar por encima de la media). Pase el ratón sobre cualquier barra para mostrar un cuadro de diálogo emergente con más información y opciones para mantener o excluir esa característica y vista más información.
 
@@ -56,8 +56,8 @@ Debido a la reconfiguración de su tienda, está dividiendo la página de smartp
 
 Un mes después, ejecuta el [!UICONTROL Daily Trait Variation] informe y observa una gran desviación negativa en la `productPage == "smartphones"` característica, aunque el número de visitantes ha aumentado, según los análisis del sitio. En base a esta información, se da cuenta de que no ha actualizado las características [!DNL Audience Manager] de las páginas de productos nuevas, por lo que debe crear las siguientes características:
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;apple&quot;
-* productPage == &quot;huawei&quot;
+* `productPage == "samsung"`
+* `productPage == "apple"`
+* `productPage == "huawei"`
 
 Una vez que lo haga, verá que su audiencia cumple los requisitos para las nuevas características creadas.
