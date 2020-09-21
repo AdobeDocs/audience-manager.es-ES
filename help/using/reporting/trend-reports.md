@@ -7,9 +7,9 @@ title: Informes de tendencias
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d1edc392c2017f4625f0494d50463c395248918f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ c_trend_reports.xml
 
 [!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupo de usuarios a los [!UICONTROL Trend] informes. Los usuarios solo pueden ver las características y los segmentos en sistema de informes de que tienen permisos para la vista. [!UICONTROL RBAC] le permite controlar qué datos de sistema de informes pueden realizar la vista los equipos internos.
 
-Por ejemplo, una agencia que gestione diferentes cuentas de anunciante puede configurar los permisos de grupo de usuarios para que un equipo que administre la cuenta del Anunciante A no pueda ver los datos de sistema de informes del Anunciante B.
+Por ejemplo, una agencia que gestione diferentes cuentas de anunciante puede configurar permisos de grupo de usuarios para que un equipo que administre la cuenta del Anunciante A no pueda ver los datos de sistema de informes del Anunciante B.
 
 Ejecute un [!UICONTROL Trend] informe cuando necesite:
 
@@ -102,7 +102,7 @@ Los ceros indican que [!DNL Audience Manager] no recopilaron datos para ese día
 
 Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## Resultados del informe de tendencias para segmentos {#segment-report-results-traits}
 
