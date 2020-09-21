@@ -1,14 +1,14 @@
 ---
-description: Las API DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+description: Las API de DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 keywords: create traits;create trait
-seo-description: Las API DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
+seo-description: Las API de DIL de nivel de instancia permiten crear y trabajar con objetos Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 seo-title: Métodos DIL de nivel de instancia
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 15%
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 Las [!UICONTROL DIL] API de nivel de instancia permiten crear y trabajar mediante programación con objetos Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de API establecida por los métodos de nivel de clase.
 
-## Introducción a los métodos DIL de nivel de instancia {#get-started-dil-methods}
+## Introducción a los métodos de DIL de nivel de instancia {#get-started-dil-methods}
 
 <!-- 
 
@@ -74,7 +74,7 @@ Las siguientes claves de solicitud están reservadas y no se pueden sobrescribir
 |---|---|---|
 | `obj` | Objeto | Un objeto que representa los pares clave-valor para las asignaciones de nivel de plataforma. El parámetro acepta cadenas y matrices como valores de propiedad en el objeto. |
 | `prefix` | Cadena | Opcional. El valor de cadena tiene el prefijo de cada clave de objeto (reemplaza a la clave original). |
-| `return` | DIL.api | Devuelve el objeto API de la instancia DIL actual. |
+| `return` | DIL.api | Devuelve el objeto API de la instancia de DIL actual. |
 
 **Respuesta**
 
@@ -82,10 +82,10 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>' 
-     containerNSID: <i>containerNSID</i> 
+     partner: partnerName 
+     containerNSID: containerNSID 
 }); 
  
 // Method 1 
@@ -99,7 +99,7 @@ dataLib.api.signals({c_zdid: 54321}).submit();
 // Will send 'c_key=a&c_key=2&c_key=3' to Audience Manager 
 var obj = { key : ['a', 'b', 'c'] }; 
 dataLib.api.signals(obj, 'c_').submit(); 
-</code></pre>
+```
 
 ## traits {#traits}
 
@@ -129,13 +129,13 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var partnerObject = DIL.create({ 
-     partner: '<i>partner name</i>', 
-     containerNSID: <i>NSID</i> 
+     partner: 'partner name', 
+     containerNSID: NSID
 }); 
-partnerObject.api.traits(<i>[123, 456, 789]</i>); 
-</code></pre>
+partnerObject.api.traits([123, 456, 789]); 
+```
 
 ## logs {#logs}
 
@@ -155,16 +155,16 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var partnerObject = DIL.create({ 
-     partner: '<i>partner</i>', 
-     containerNSID: <i>NSID</i> 
+     partner: partner, 
+     containerNSID: NSID
 }); 
 partnerObject.api.logs({ 
      file: 'dil.js', 
      message: 'This is the first request' 
 });
-</code></pre>
+```
 
 ## submit {#submit}
 
@@ -188,21 +188,21 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: partnerName, 
+     containerNSID: containerNSID 
 }); 
  
 dataLib.api.traits([ 
-<i>123,456, 789</i>]).logs({ 
+123,456, 789]).logs({ 
      file: 'dil.js', 
      message: 'This is the first request' 
 }).signals({ 
-     c_zdid: <i>1111</i> 
-     d_dma: '<i>default</i>' 
+     c_zdid: 1111
+     d_dma: 'default' 
 }).submit();
-</code></pre>
+```
 
 ## afterResult {#afterresult}
 
@@ -232,19 +232,19 @@ Devuelve un objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID 
 }); 
  
 dataLib.api.signals({ 
-     c_zdid: <i>54321</i> 
-     d_dma: '<i>default</i>' 
+     c_zdid: 54321 
+     d_dma: 'default' 
 }).afterResult(function(json){ 
      //Do something with the JSON data returned from the server. 
 }).submit();
-</code></pre>
+```
 
 ## clearData {#cleardata}
 
@@ -268,23 +268,24 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID
 }); 
  
-dataLib.api.traits([<i>123,456, 789</i>]).logs({ 
+dataLib.api.traits([123,456, 789]).logs({ 
      file: 'dil.js' 
      message: 'This is the first request' 
 }).signals({ 
-     c_zdid: <i>1111</i> 
-     d_dma: '<i>default</i>' 
+     c_zdid: 1111 
+     d_dma: 'default' 
 }); 
  
 //Reset the pending data 
 dataLib.clearData();
-</code></pre>
+```
 
 ## customQueryParams {#customqueryparams}
 
@@ -315,20 +316,20 @@ Las siguientes claves de solicitud están reservadas y no se pueden sobrescribir
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia DIL actual.
+Devuelve el objeto API de la instancia de DIL actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var partnerObject = DIL.create({ 
-     partner: '<i>partner</i>', 
-     containerNSID: <i>NSID</i> 
+     partner: 'partner', 
+     containerNSID: NSID
 }); 
 partnerObject.api.customQueryParams({ 
      nid: 54231, 
      ntype: 'default' 
 }); 
-</code></pre>
+```
 
 ## getContainerNSID {#getcontainernsid}
 
@@ -344,15 +345,15 @@ r_dil_get_container_nsid.xml
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID
 }); 
  
 //Verify the container NSID 
 var nsid = dataLib.api.getContainerNSID();
-</code></pre>
+```
 
 ## getEventLog {#geteventlog}
 
@@ -368,18 +369,18 @@ r_dil_get_event_log.xml
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID
 }); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([123, 456, 789]).logs({ 
      file: 'dil.js', 
      message: 'This is the first request' 
 });.signals({ 
-     c_zdid: <i>1111</i> 
-     d_dma: '<i>default</i>' 
+     c_zdid: 1111
+     d_dma: 'default' 
 });.submit(); 
  
 //Check log for messages 
@@ -389,7 +390,7 @@ if (log && log.length) {
 }else{ 
      alert('No log messages'); 
 }
-</code></pre>
+```
 
 ## getPartner {#getpartner}
 
@@ -405,15 +406,15 @@ r_dil_get_partner.xml
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>' 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName' 
+     containerNSID: containerNSID
 }); 
  
 //Verify the partner name 
 var partner = dataLib.api.getPartner();
-</code></pre>
+```
 
 ## getState {#getstate}
 
@@ -429,25 +430,25 @@ r_dil_get_state.xml
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID
 }); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([123, 456, 789]).logs({ 
      file: 'dil.js', 
      message:'This is the first request' 
 });.signals({ 
-     c.zdid: <i>1111</i> 
-     d_dma: '<i>default</i>' 
+     c.zdid: 1111 
+     d_dma: 'default' 
 });.submit(); 
  
 var state = dataLib.api.getState(); 
  
 /*Object outline of state 
 state = { 
-     pendingRequest: {<i>pending data for call to server</i>}, 
+     pendingRequest: {pending data for call to server}, 
      otherRequestInfo:{ 
           firingQueue: [], 
           fired: [], 
@@ -483,7 +484,7 @@ state = {
      } 
 } 
 */
-</code></pre>
+```
 
 ## idSync {#idsync}
 
@@ -509,11 +510,11 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia de servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y y, a continuación, enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByURL </code> método de la instancia de Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia de servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está en desuso. Utilice el <code> idSyncByDataSource </code> método de la instancia de Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -558,9 +559,9 @@ Funciona con [!UICONTROL DIL] las versiones 2.10 y 3.1 o superior.
 
 `idSync` acepta las siguientes macros:
 
-* **`%TIMESTAMP%`:**genera una marca de hora (en milésimas de segundo). Se emplea para ignorar la caché.
-* **`%DID%`:**inserta el ID de Audience Manager para el usuario.
-* **`%HTTP_PROTO%`::**Establece el protocolo de página (`http`o`https`).
+* **`%TIMESTAMP%`:** genera una marca de hora (en milésimas de segundo). Se emplea para ignorar la caché.
+* **`%DID%`:** inserta el ID de Audience Manager para el usuario.
+* **`%HTTP_PROTO%`::** Establece el protocolo de página ( `http` o `https`).
 
 **Respuesta**
 
@@ -570,7 +571,7 @@ Ambas funciones se devuelven `Successfully queued` si se realizan correctamente.
 
 `dilInstance.api.idSync(initConfig)`
 
-<pre><code class="js">
+```js
 // Fires url with macros replaced 
 dilInstance.api.idSync({ 
  dpid: '23', // must be a string 
@@ -578,18 +579,18 @@ dilInstance.api.idSync({
 %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
-</code></pre>
+```
 
 `dilInstance.api.aamIdSync(initConfig)`
 
-<pre><code class="js">
+```js
 // Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&dpuuid=&lt;dpuuid&gt;' 
 dilInstance.api.aamIdSync({ 
  dpid: '23', // must be a string 
  dpuuid: '98765', // must be a string 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
-</code></pre>
+```
 
 ## result {#result}
 
@@ -621,16 +622,16 @@ Devuelve el objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID 
 }); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ 
+dataLib.api.traits([123, 456, 789]).result(function(json){ 
      //Do something, possibly with the JSON data returned from the server. 
 });.submit();
-</code></pre>
+```
 
 ## secureDataCollection {#securedatacollection}
 
@@ -650,12 +651,12 @@ dil-secure-data-collection.xml
 >
 >Se establece `secureDataCollection= false` si utiliza visitorAPI.js y [!UICONTROL DIL] en la misma página. Consulte el ejemplo de código siguiente.
 
-<pre><code class="js">
+```js
 var dilInstance = DIL.create({ 
      ... 
      secureDataCollection: false 
 });
-</code></pre>
+```
 
 ## useCORSOnly {#usecorsonly}
 
@@ -673,12 +674,12 @@ dil-use-cors-only.xml
 
 **Ejemplo de código**
 
-<pre><code class="js">
+```js
 var dilInstance = DIL.create({ 
      ... 
      useCORSOnly: true 
 });
-</code></pre>
+```
 
 >[!IMPORTANT]
 >
@@ -711,20 +712,20 @@ Devuelve un objeto API de la [!UICONTROL DIL] instancia actual.
 
 **Código de ejemplo**
 
-<pre><code>
+```js
 var dataLib = DIL.create({ 
-     partner:'<i>partnerName</i>', 
-     containerNSID: <i>containerNSID</i> 
+     partner:'partnerName', 
+     containerNSID: containerNSID
 }); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
-</code></pre>
+dataLib.api.traits([123, 456, 789]).useImageRequest().submit();
+```
 
 >[!MORELIKETHIS]
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
->* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+>* [Funciones de sincronización en Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
