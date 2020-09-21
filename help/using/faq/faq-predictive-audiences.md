@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 67%
 
 ---
@@ -106,6 +106,8 @@ Sin embargo, si selecciona un dispositivo [!UICONTROL Profile Merge Rule] basado
 
 Analice cuidadosamente el caso de uso y decida de qué [!UICONTROL trait] tipos desea que el modelo aprenda y qué tipo de datos desea que el modelo utilice para la clasificación.
 
+ 
+
 **¿Podría dejar de clasificarse a un usuario de la audiencia de destino que no forme parte de ningún rasgo o segmento de personalidad?**
 
 Sí, en caso de que el usuario no tenga ningún rasgo en su perfil. En ese caso, el usuario obtendrá una puntuación de coincidencia de 0 en todos los rasgos o segmentos personales y, por lo tanto, no se clasificará en ninguno de los segmentos predictivos.
@@ -120,7 +122,7 @@ Sí. Como el algoritmo se forma a diario, aplica los cambios para cada una de la
 
 **¿Puedo agregar características predictivas a segmentos regulares?**
 
-Cuando agrega una característica predictiva a un segmento normal, el segmento se convierte en un segmento predictivo. En consecuencia, todos los perfiles asociados no están segmentados. Los segmentos predictivos solo se pueden enviar a destinos en tiempo real.
+Cuando agrega un rasgo predictivo a un segmento normal, se convierte en un segmento predictivo. En consecuencia, todos los perfiles asociados no están segmentados. Los segmentos predictivos solo se pueden enviar a destinos en tiempo real.
 
  
 
