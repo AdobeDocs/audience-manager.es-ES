@@ -1,15 +1,15 @@
 ---
-description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Optimización de Audiencia muestran nombres legibles en los distintos menús de opciones del informe.
-seo-description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Optimización de Audiencia muestran nombres legibles en los distintos menús de opciones del informe.
+description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los diversos menús de opciones de informes.
+seo-description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los diversos menús de opciones de informes.
 seo-title: Información general y asignaciones para archivos de metadatos
 solution: Audience Manager
 title: Información general y asignaciones para archivos de metadatos
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '836'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # Información general y asignaciones para archivos de metadatos{#overview-and-mappings-for-metadata-files}
 
-Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Optimización de Audiencia muestran nombres legibles en los distintos menús de opciones del informe.
+Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los diversos menús de opciones de informes.
 
 ## Información general {#overview}
 
-Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte Archivos [de datos para informes de optimización de Audiencia y archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de registro procesables.
+Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte Archivos [de datos para informes Audience Optimization y archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de registro procesables.
 
 ### Los Archivos De Metadatos Contienen Datos Sobre Otros Datos
 
@@ -39,7 +39,7 @@ Sin embargo, un archivo de metadatos correctamente formateado puede enlazar este
 
 ### Cuándo se necesita un archivo de metadatos
 
-En primer lugar, se requiere un archivo de metadatos y todos los parámetros enumerados a continuación en una llamada de evento cuando se desea utilizar los informes [de optimización de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiencia.
+En primer lugar, se requiere un archivo de metadatos y todos los parámetros que se enumeran a continuación en una llamada de evento cuando se desea utilizar el informe [Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 En segundo lugar, necesita un archivo de metadatos si va a enviar sus propios datos a [!DNL Audience Manager] o si desea ver los datos en los informes de otros proveedores con los que no estamos integrados. Por ejemplo, [!DNL Audience Manager] tiene una integración con el Administrador [](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) de Campañas (DCM) de Doble y clic de Google. Debido a esta relación, [!DNL Audience Manager] puede asociar ID con nombres y descripciones utilizados por las opciones del informe. Sin una integración, aún podemos ingerir datos, pero las opciones del informe mostrarán ID numéricos en lugar de nombres descriptivos.
 
@@ -108,11 +108,11 @@ La siguiente tabla lista los pares de clave-valor que contienen datos utilizados
 
 Los ID pasados por estos pares clave-valor ayudan a crear el nombre del archivo de metadatos y su contenido. Las siguientes secciones e ilustraciones muestran cómo funciona. Estos ejemplos crean un archivo que contiene el nombre de un elemento creativo en una campaña, pero se pueden usar otras combinaciones.
 
-### Llamada de Evento
+### Llamada de evento
 
 En este ejemplo crearemos un archivo de metadatos que incluya nombres creativos en un [!UICONTROL Audience Optimization] informe. Para ello, necesitamos extraer los ID de fuentes de datos, de campaña y creativas de una llamada de evento.
 
-![](assets/metadata_file_event.png)
+![esquema de evento de archivos de metadatos](assets/metadata_file_event.png)
 
 ### Nombre del archivo
 
@@ -124,7 +124,7 @@ En un nombre de archivo:
 
 * Los ID de elemento creativo y de campaña representan una categoría en lugar de un identificador real.
 
-![](assets/metadata_file_name.png)
+![esquema del nombre del archivo de metadatos](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,17 +132,17 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento aquí es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creative de un [!UICONTROL Audience Optimization] informe.
 
-![](assets/metadata_file_contents.png)
+![esquema del contenido del archivo de metadatos](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Envío de archivos
 
-Después de nombrar y agregar datos a un archivo, se lo envía a un directorio de almacenamiento de Amazon S3 proporcionado por [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Después de nombrar y agregar datos a un archivo, se lo envía a un directorio de almacenamiento Amazon S3 proporcionado por [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [Archivos de datos para informes de optimización de Audiencia](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Archivos de datos para informes de Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Captura de los datos de campaña por clic a través de Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Captura de los datos de impresión de campaña a través de Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
 
