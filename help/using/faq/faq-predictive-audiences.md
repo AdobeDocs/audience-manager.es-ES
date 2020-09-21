@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 69%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -115,6 +115,12 @@ Sí, en caso de que el usuario no tenga ningún rasgo en su perfil. En ese caso,
 **¿Un usuario que ha sido clasificado en uno de los segmentos predictivos puede reubicarse en otro segmento de [!UICONTROL Predictive Audiences]?**
 
 Sí. Como el algoritmo se forma a diario, aplica los cambios para cada una de las personalidades en términos de puntuación de rasgos. Si un usuario que forma parte de un segmento [!UICONTROL Predictive Audiences] está activo, los cambios en su puntuación de rasgos pueden modificar la clasificación en función de la actividad de los últimos 30 días.
+
+ 
+
+**¿Puedo agregar características predictivas a segmentos regulares?**
+
+Cuando agrega una característica predictiva a un segmento normal, el segmento se convierte en un segmento predictivo. En consecuencia, todos los perfiles asociados no están segmentados. Los segmentos predictivos solo se pueden enviar a destinos en tiempo real.
 
  
 
