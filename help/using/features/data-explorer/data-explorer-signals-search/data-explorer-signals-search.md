@@ -1,19 +1,19 @@
 ---
 description: Buscar señales utilizadas y no utilizadas recibidas durante períodos de tiempo específicos. Para buscar señales, vaya a Datos de Audiencia > Señales > Buscar.
 seo-description: Buscar señales utilizadas y no utilizadas recibidas durante períodos de tiempo específicos. Para buscar señales, vaya a Datos de Audiencia > Señales > Buscar.
-seo-title: 'Búsqueda de señales '
-title: 'Búsqueda de señales '
+seo-title: Búsqueda de señal
+title: Búsqueda de señal
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 29%
+ht-degree: 21%
 
 ---
 
 
-# Información general sobre la búsqueda de señales {#signals-search}
+# Información general sobre la búsqueda de señales {#signal-search}
 
 Buscar señales utilizadas y no utilizadas recibidas durante períodos de tiempo específicos. Para buscar señales, vaya a Datos de Audiencia > Señales > Buscar.
 
