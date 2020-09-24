@@ -7,9 +7,9 @@ title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Inicio viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786
    * Haga clic y arrastre [!UICONTROL traits] para crear grupos independientes.
    * Pase el ratón entre grupos para establecer relaciones con valores booleanos [!UICONTROL AND][!UICONTROL OR], [!UICONTROL AND NOT] .
    * Pase el ratón sobre el icono del reloj para agregar reglas de [actualización y frecuencia](../../features/segments/recency-and-frequency.md) al [!UICONTROL trait].
-   * Datos de población de segmentos de Vista a medida que agrega o elimina [!UICONTROL traits]. Haga clic en **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados. Obtenga más información sobre los datos [de población de](../../features/segments/segment-builder-data.md#segment-populations) segmentos en la [!UICONTROL Segment Builder].
+   * Datos de población de segmentos de vista a medida que agrega o elimina [!UICONTROL traits]. Haga clic en **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados. Obtenga más información sobre los datos [de población de](../../features/segments/segment-builder-data.md#segment-populations) segmentos en la [!UICONTROL Segment Builder].
    * Haga clic **[!UICONTROL Save]** cuando termine.
 
 1. *(Opcional)* Asigne un [!UICONTROL segment] a un [!UICONTROL destination] en la sección Asignación [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
@@ -59,7 +59,7 @@ Inicio viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786
 
 Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## [!UICONTROL Segment Builder] Controles: [!UICONTROL Basic Information] Sección {#segment-builder-controls-basics}
 
@@ -133,8 +133,8 @@ En [!UICONTROL Segment Builder], la [!UICONTROL Traits] sección le permite admi
 | **[!UICONTROL Basic View]** | Esta sección proporciona controles visuales que le permiten: <ul><li>Cree nuevos y administre los existentes [!UICONTROL segments].</li><li>Quitar [!UICONTROL traits] de un [!UICONTROL segment].</li><li>Añadir hasta 50 (máximo) [!UICONTROL traits] a un [!UICONTROL segment].</li><li>Arrastre y suelte [!UICONTROL traits] para crear nuevos grupos.</li><li>Vista [!UICONTROL traits] y [!UICONTROL trait] grupos en una [!UICONTROL segment].</li><li>Establezca criterios de cualificación con expresiones booleanas, operadores de comparación y ajustes de actualización y frecuencia.</li></ul> |
 | **[!UICONTROL Code View]** | Abre un entorno de desarrollo que le permite crear y administrar [!UICONTROL traits]grupos y requisitos de cualificación con código en lugar de con la interfaz visual. La vista de código es útil si [!UICONTROL segments]: <ul><li>Contener más de 50 [!UICONTROL traits] en una persona [!UICONTROL segment]. Nota: [!UICONTROL Segments] están limitadas a 5000 [!UICONTROL traits] (máximo).</li><li>Contiene muchos [!UICONTROL trait] grupos.</li><li>Tienen requisitos de cualificación complejos.</li></ul> |
 | Buscar | Ayuda a encontrar [!UICONTROL traits] agregarlos a un [!UICONTROL segment]. |
-| Las actividades de | Obtenga recomendaciones en directo para fuentes similares [!UICONTROL traits], de sus fuentes de datos [!UICONTROL traits] y de [!UICONTROL Audience Marketplace] origen a las que está suscrito. Añada estas recomendaciones a la [!UICONTROL segment] regla para expandir la audiencia. Lea más en Recomendaciones [de características](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Obtenga recomendaciones activas para fuentes similares [!UICONTROL traits][!UICONTROL Audience Marketplace] , a partir de fuentes de datos a las que no está suscrito. Lea más en Recomendaciones [de características](trait-recommendations.md). |
+| Las actividades de | Obtenga recomendaciones en directo para fuentes similares [!UICONTROL traits], de sus fuentes de datos [!UICONTROL traits] y de [!UICONTROL Audience Marketplace] origen a las que está suscrito. Añada estas recomendaciones a la [!UICONTROL segment] regla para expandir la audiencia. Lea más en [Trait Recommendations](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Obtenga recomendaciones activas para fuentes similares [!UICONTROL traits][!UICONTROL Audience Marketplace] , a partir de fuentes de datos a las que no está suscrito. Lea más en [Trait Recommendations](trait-recommendations.md). |
 | Datos de tamaño real y [!UICONTROL Segment] estimado | Consulte [Datos de tamaño de segmentos y rasgos en el Generador de segmentos](segment-builder-data.md) |
 
 ## Quitar [!UICONTROL Traits] de un [!UICONTROL Segment] {#remove-traits}
@@ -165,7 +165,7 @@ El **[!UICONTROL Destination Mappings]** panel contiene las herramientas de bús
 | Tipo de búsqueda | Descripción |
 |---|---|
 | **[!UICONTROL Search by Destination Name]** | Permite buscar un nombre específico [!UICONTROL destination] por nombre. Para buscar, escriba el inicio. El campo se completará automáticamente según los términos de búsqueda. Haga clic **[!UICONTROL Add Destination]** cuando termine. |
-| **[!UICONTROL Browse All Destinations]** | Examine una lista de *todos* los [!UICONTROL destinations] disponibles. Seleccione y agregue [!UICONTROL destinations] a su [!UICONTROL segment] página desde la lista emergente. |
+| **[!UICONTROL Browse All Destinations]** | Examine una lista de *todas* las [!UICONTROL destinations] disponibles. Seleccione y agregue [!UICONTROL destinations] a su [!UICONTROL segment] página desde la lista emergente. |
 
 ## Campos en las ventanas emergentes [!UICONTROL Destination Mappings] {#fields-in-dest-mappings}
 
