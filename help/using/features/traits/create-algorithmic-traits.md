@@ -7,9 +7,9 @@ title: Crear rasgos algorítmicos
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,12 @@ Para crear una característica algorítmica, vaya a [!UICONTROL Traits] y siga l
 1. Expanda el [!UICONTROL Configuration] panel y haga clic en **[!UICONTROL Browse All Models]**.
 Se abre una nueva ventana que permite seleccionar el modelo que desea utilizar con la característica.
 1. Seleccione un modelo y haga clic en **[!UICONTROL Add Selected Model to Trait]**.
-Al Añadir el modelo se exponen los valores de alcance y precisión.
+
+   >[!NOTE]
+   > 
+   > No se pueden reemplazar modelos seleccionados para características algorítmicas existentes. Para utilizar un modelo diferente, debe crear una nueva característica algorítmica.
+
+   Al añadir el modelo se exponen los valores de alcance y precisión.
 1. Seleccione el alcance o la precisión como objetivo y elija un valor en los menús desplegables correspondientes. Haga clic **[!UICONTROL Save]** cuando termine.
 
 ## Configuración de características algorítmicas {#configure-settings}
