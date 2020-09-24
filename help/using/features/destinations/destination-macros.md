@@ -7,9 +7,9 @@ title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
 
 Las `%rnd%` y `%timestamp%` las macros insertan valores únicos en una [!DNL URL] cadena para evitar el almacenamiento en caché del explorador.
 
-## Descarga de caché con `%rnd%` y `%timestamp%` {#dest-cache-busting}
+## Errores de caché con %rnd% y %timestamp% {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ La eliminación de caché evita que los navegadores guarden y reutilicen el cont
 * `%rnd%`:: Inserta un número aleatorio en una dirección URL.
 * `%timestamp%`:: Inserta la fecha y hora Unix en una dirección URL.
 
-## Comparación `%rnd%` y `%timestamp%` {#compare-rnd-timestamp}
+## Comparando %rnd% y %timestamp% {#compare-rnd-timestamp}
 
 Ambas macros impiden el almacenamiento en caché, pero `%rnd%` pueden ser más eficientes. Por ejemplo, con `%timestamp%`, si varios usuarios vista una página simultáneamente, obtendrán el mismo valor de fecha y hora. Como resultado, el [!DNL URL] informe no es único y las llamadas múltiples se cuentan una sola vez. Sin embargo, `%rnd%` genera un valor numérico único para cada llamada (incluso cuando los usuarios ven la misma página simultáneamente). Esto significa que la [!DNL URL] cadena contiene valores diferentes y se cuenta como única.
 
