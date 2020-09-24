@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -30,8 +30,8 @@ Los compradores de datos Audience Marketplace aceptan informar de todas las impr
 
 [!UICONTROL Audience Marketplace] ofertas dos formas de informar sobre el uso [!DNL CPM] :
 
-* **sistema de informes** de nivel de segmento: es el método de sistema de informes de [!DNL CPM] uso recomendado. Cuando se informa sobre [!DNL CPM] el uso en el nivel de segmento, la sección de sistemas de informes en el nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM.
-* **sistema de informes** de nivel de fuente de datos: este método requiere que informe de forma individual el uso [!DNL CPM] de cada fuente de datos, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM. Sin embargo, este método es más tedioso y propenso a errores que el sistema de informes a nivel de segmento.
+* **Sistema de informes** de nivel de segmento: es el método de sistema de informes de [!DNL CPM] uso recomendado. Cuando se informa sobre [!DNL CPM] el uso en el nivel de segmento, la sección de sistemas de informes en el nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM.
+* **Sistema de informes** de nivel de fuente de datos: este método requiere que informe de forma individual el uso [!DNL CPM] de cada fuente de datos, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM. Sin embargo, este método es más tedioso y propenso a errores que el sistema de informes a nivel de segmento.
 
 <br> 
 
@@ -104,7 +104,7 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
 | ------------- | -------------| -----|
 | Entrada no válida | [!DNL Audience Manager] se ha detectado un cambio en el esquema del [!DNL CSV] archivo, como la falta de columnas o cambios en los títulos de columna. | Evite cambiar la estructura de la tabla. |
 | No encontrado | Por [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] no pudo identificar la [!UICONTROL Segment ID] combinación y [!UICONTROL Destination ID] . Por [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] no pudo identificar la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]y [!UICONTROL Use Case] . | Para [!UICONTROL Segment Level Reporting]comprobar la validez de la combinación [!UICONTROL Segment ID] y [!UICONTROL Destination ID] . Para [!UICONTROL Feed Level Reporting]comprobar la validez de la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]y [!UICONTROL Use Case] . |
-| Registros de Duplicado encontrados | [!DNL Audience Manager] registros de duplicado detectados con valores de impresión diferentes. | Revise el informe y asegúrese de que no informa de diferentes valores de uso para la misma fuente de datos o segmento. |
+| Registros de duplicado encontrados | [!DNL Audience Manager] registros de duplicado detectados con valores de impresión diferentes. | Revise el informe y asegúrese de que no informa de diferentes valores de uso para la misma fuente de datos o segmento. |
 | Valores no admitidos | [!DNL Audience Manager] valores no numéricos detectados en la [!DNL Audience Manager] columna. | Revise el informe y asegúrese de introducir solamente valores numéricos en la [!DNL Audience Manager] columna. |
 | Faltan encabezados para campos obligatorios | [!DNL Audience Manager] se detectaron encabezados de tabla que faltaban en los campos obligatorios. Por [!UICONTROL Segment Level Reporting], los campos obligatorios son: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Por [!UICONTROL Feed Level Reporting], los campos obligatorios son: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Revise el informe y asegúrese de que los encabezados de tabla no se hayan alterado. |
 
@@ -113,7 +113,7 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
 
 <br> 
 
-## [!DNL CPM] Prácticas recomendadas de Sistema de informes
+## [!DNL CPM] Prácticas recomendadas de sistema de informes
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -126,11 +126,11 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
   <tr> 
    <td colname="col1"> <p><b>Informar siempre del número total de impresiones</b> </p> </td> 
    <td colname="col2"> <p>Para totales de impresión CPM: </p>
-   <p> Informar el número total de impresiones, sin usar decimales. El Audience Manager calcula automáticamente el CPM en función del número total de informes.</p><p>Si necesita informar 1.234.567 impresiones, informe exactamente así. No es necesario dividir el número total de impresiones en 1000 para calcular el CPM.</p><p>Las características utilizadas para optimizar el contenido de la aplicación o web (Optimización del contenido) mediante herramientas como Adobe Target o un destino de Analytics no contribuyen a los totales de uso de los planes de CPM. Los proveedores de datos generalmente reciben una compensación por la optimización del contenido mediante planes de tarifa fija.</p><p>Consulte Atribución <a href="#cost-attribution">de costos para fuentes</a> de datos CPM para obtener más información. </p> </td>
+   <p> Informar el número total de impresiones, sin usar decimales. El Audience Manager calcula automáticamente el CPM en función del número total de informes.</p><p>Si necesita informar 1.234.567 impresiones, informe exactamente así. No es necesario dividir el número total de impresiones en 1000 para calcular el CPM.</p><p>Las características utilizadas para optimizar el contenido web o de la aplicación (Optimización de contenido) mediante herramientas como Adobe Target o un destino de Analytics no contribuyen a los totales de uso de los planes de CPM. Los proveedores de datos generalmente reciben una compensación por la optimización del contenido mediante planes de tarifa fija.</p><p>Consulte Atribución <a href="#cost-attribution">de costos para fuentes</a> de datos CPM para obtener más información. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Mantener el intervalo de sistema de informes mensual</b> </p> </td> 
-   <td colname="col2"> <p>El sistema de informes se cierra después del 5 de cada mes. Si no puede informar sobre el uso de CPM para entonces, debe agregar esa cantidad al informe para el mes siguiente. Por ejemplo: supongamos que utiliza 1000 impresiones en octubre, que no cumple el plazo de sistema de informes de octubre y que utiliza 1000 impresiones en noviembre. En este caso, se informa del total de octubre y noviembre (2000) en diciembre, entre el 1 y el 5.</p><p><b>Sugerencia</b>: Siempre debe intentar informar del uso de CPM del mes anterior entre el primer y el quinto día del mes siguiente.</p><p>Puede informar sobre el uso de CPM hasta el quinto del nuevo mes calendario, pero no se recomienda. El uso de CPM de Sistema de informes antes del 5 de cada mes proporciona al Audience Manager tiempo para comprobar y procesar los datos.</p> </td>
+   <td colname="col2"> <p>El sistema de informes se cierra después del 5 de cada mes. Si no puede informar sobre el uso de CPM para entonces, debe agregar esa cantidad al informe para el mes siguiente. Por ejemplo: supongamos que utiliza 1000 impresiones en octubre, que no cumple el plazo de sistema de informes de octubre y que utiliza 1000 impresiones en noviembre. En este caso, se informa del total de octubre y noviembre (2000) en diciembre, entre el 1 y el 5.</p><p><b>Sugerencia</b>: Siempre debe intentar informar del uso de CPM del mes anterior entre el primer y el quinto día del mes siguiente.</p><p>Puede informar sobre el uso de CPM hasta el quinto del nuevo mes calendario, pero no se recomienda. El uso de CPM de sistema de informes antes del 5 de cada mes proporciona al Audience Manager tiempo para comprobar y procesar los datos.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,8 @@ El caso de [!UICONTROL Activation] uso le permite utilizar características en l
 Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, debe asignar las impresiones proporcionalmente para cada fuente de datos, según los [!DNL Boolean] operadores utilizados en las reglas de calificación de rasgos. La siguiente tabla lista cómo asignar correctamente impresiones según la regla booleana o el tipo de característica.
 
 >[!TIP]
->[Informar sobre el uso de CPM en el nivel](#segment-level-report) de segmento para que el sistema de informes del nivel de fuente de datos lo realice automáticamente el Audience Manager.
+>
+> [Informar sobre el uso de CPM en el nivel](#segment-level-report) de segmento para que el sistema de informes del nivel de fuente de datos lo realice automáticamente el Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -267,6 +268,6 @@ El desglose por fuente de datos y caso de uso es el siguiente:
 
 ## Asignación de facturación e impresión para fuentes de datos de tarifa fija {#billing-flat-fee}
 
-Una fuente de datos de tarifa fija le factura una cantidad fija cada mes, independientemente del momento en que la suscripción inicio o del número de impresiones que utilice. Las tarifas no se prorratean para el uso parcial del mes o los intervalos. Al igual que con la facturación de CPM, Adobe generará una factura y le facturará la tarifa mensual fija de sus fuentes de datos suscritas.
+Una fuente de datos de tarifa fija le factura una cantidad fija cada mes, independientemente del momento en que la suscripción inicio o del número de impresiones que utilice. Las tarifas no se prorratean para el uso parcial del mes o los intervalos. Al igual que con la facturación de CPM, los Adobes generarán una factura y le facturarán a la tarifa mensual fija de sus fuentes de datos suscritas.
 
 Por ejemplo, supongamos que decidió activar ciertas características en una fuente a mediados del mes. Se le facturará a la tarifa mensual completa independientemente de cuándo inició la suscripción o activó características específicas.
