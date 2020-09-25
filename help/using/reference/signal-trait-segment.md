@@ -1,5 +1,5 @@
 ---
-description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
+description: Comprender los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de cualificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-title: Señales, rasgos y segmentos
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: Señales, rasgos y segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Utilice el diagrama siguiente para tener una nota mental de la relación entre [
 
 Los clientes administran [!UICONTROL traits] y [!UICONTROL segments] con herramientas visuales y editores de código en la interfaz de [!DNL Audience Manager] usuario. Las herramientas visuales permiten crear reglas mediante funciones de búsqueda, opciones emergentes, menús desplegables y funciones de arrastrar y soltar. Los editores de código proporcionan a los usuarios avanzados una manera de desarrollar mediante programación criterios de segmentación de audiencias.
 
-**Llamadas de Evento para enviar datos a[!DNL Audience Manager]**
+**Llamadas de evento para enviar datos a[!DNL Audience Manager]**
 
 Una llamada de evento envía datos del sitio web a [!DNL Audience Manager]. La llamada contiene [!UICONTROL signal], [!UICONTROL trait]y [!UICONTROL segment] datos en una [!DNL HTTP] solicitud. El evento mismo es todo después de la parte `/event` de una [!DNL URL] cadena. Como se muestra en el ejemplo siguiente, este proceso requiere solamente una llamada de evento para pasar múltiples variables a [!DNL Audience Manager].
 
