@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Destinos de servidor a servidor de Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
+source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 72%
 
 ---
@@ -51,6 +51,7 @@ Esta página solo incluye destinos [!DNL Audience Manager] actuales basados en [
 | [!DNL AOL ONE] | 02/03/2017 | Tiempo real | Sí | No | No | Sí |
 | [!DNL AppNexus] | 02/03/2017 | Tiempo real | Sí | No | Sí | No |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Sí | No | No | No |
+| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | No | No | No | No |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Tiempo real | Sí | No | Sí | No |
 | [!DNL Avocet] | 06/12/2017 | 1xday | No | No | No | No |
 | [!DNL Bidtellect] | 03/03/2017 | Tiempo real | Sí | No | No | No |
@@ -81,6 +82,7 @@ Esta página solo incluye destinos [!DNL Audience Manager] actuales basados en [
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | Sí | No | No | Sí |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | Sí | No | No | Sí |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | No | No | No | No |
+| [!DNL Flybits] | 31/07/2020 | Tiempo real | Sí | No | Sí | Sí |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sí | No | No | No |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sí | Sí | No | Sí |
 | [!DNL Gamut Media] | 03/03/2017 | Tiempo real |  | No | No |  |
