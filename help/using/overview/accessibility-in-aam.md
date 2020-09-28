@@ -1,12 +1,12 @@
 ---
-description: Accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
-seo-description: Accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
+description: La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
+seo-description: La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
 seo-title: Accesibilidad en el Audience Manager
 solution: Audience Manager
 title: Accesibilidad en el Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
+source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Información general {#overview}
 
-Accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
+La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible por parte de usuarios con diversas discapacidades, tales como visuales, auditivas, cognitivas, motoras u otras.
 
 Adobe es un líder del sector en accesibilidad y apoya la creación de experiencias web sobresalientes alentando a los desarrolladores a producir contenido rico y atractivo que sea accesible para todos los usuarios. Para obtener más información sobre el compromiso del Adobe con la accesibilidad, consulte [Accesibilidad](https://www.adobe.com/accessibility.html)del Adobe.
 
