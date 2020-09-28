@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
+source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 67%
+source-wordcount: '933'
+ht-degree: 62%
 
 ---
 
@@ -46,14 +46,6 @@ Vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** y haga clic en
 
  
 
-**¿Por qué algunos de mis visitantes incorporados no están clasificados?**
-
-Actualmente, la clasificación de audiencias solo funciona para cualificaciones en tiempo real, excepto para usuarios autenticados definidos como parte de [!UICONTROL Profile Merge Rules].
-
-En una actualización futura se agregará la compatibilidad total con los datos incorporados.
-
- 
-
 **¿Cuándo puedo ver los primeros resultados producidos por mi modelo?**
 
 Los resultados del modelo de [!UICONTROL Predictive Audiences] están disponibles en un plazo de 24 horas a partir de la creación del modelo, si este se ejecuta correctamente.
@@ -68,12 +60,10 @@ Las razones por las que los modelos de [!UICONTROL Predictive Audiences] no prod
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. El rasgo de la audiencia o del segmento objetivo no tuvo usuarios activos o incorporados en los últimos 30 días.
+1. La característica o el segmento de audiencia de destinatario no tiene ningún usuario activo o integrado.
 1. Los usuarios de la audiencia destinataria activos o incorporados en los últimos 30 días no tienen datos suficientes en sus perfiles de usuario (no tiene los rasgos suficientes para analizar).
 1. El segmento de audiencia de destinatario utiliza un segmento distinto [!UICONTROL Profile Merge Rule] del que eligió para el modelo.
 1. Es posible que la fuente de datos de las características de audiencia de destinatario no se incluya en el modelo [!UICONTROL Profile Merge Rule] que elija.
-
-Para obtener resultados relevantes, el algoritmo [!UICONTROL Predictive Audiences] evalúa las realizaciones de rasgos y segmentos en función de la actividad del usuario en tiempo real vista por el [!DNL DCS]. Si selecciona nuevos segmentos y rasgos básicos que aún no tienen suficientes usuarios, el algoritmo puede tardar un par de días en clasificar la audiencia.
 
 Para obtener resultados óptimos, siga las directrices sugeridas en [Criterios de selección de personalidades](../features/algorithmic-models/predictive-audiences.md#selection-personas) y [Criterios de selección de la audiencia de destino](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
