@@ -7,7 +7,7 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Consulte la tabla siguiente para obtener una descripción general de los casos d
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Servicios principales** |
 ---------|----------|---------|---------
-| **Uso compartido de Audiencias** | <ul><li>Enriquecer los perfiles de los clientes con datos de Audience Manager</li><li>Utilizar datos de Audience Manager en la segmentación de Experience Platform</li></ul> | <ul><li>Añadir datos de terceros en segmentos</li><li>Modelado algorítmico</li><li>Activación a destinos adicionales</li></ul> | Utilice segmentos de Experience Platform en otras soluciones de Experience Cloud, como Adobe Target o Analytics. |
+| **Uso compartido de audiencias** | <ul><li>Enriquecer los perfiles de los clientes con datos de Audience Manager</li><li>Utilizar datos de Audience Manager en la segmentación de Experience Platform</li></ul> | <ul><li>Añadir datos de terceros en segmentos</li><li>Modelado algorítmico</li><li>Activación a destinos adicionales</li></ul> | Utilice segmentos de Experience Platform en otras soluciones de Experience Cloud, como Adobe Target o Analytics. |
 
 <br> 
 
@@ -117,7 +117,8 @@ En el proceso de uso compartido de audiencias entre Audience Manager y Experienc
 >[!NOTE]
 >
 >Para obtener información más general sobre los controles de exportación de datos, consulte la documentación [de los controles de exportación de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)datos.
-Este documento proporciona una referencia sobre cómo los controles de exportación de datos de Audience Manager específicos se asignan a las etiquetas de uso de datos y a las acciones de marketing de Platform.
+>
+>Este documento proporciona una referencia sobre cómo los controles de exportación de datos de Audience Manager específicos se asignan a las etiquetas de uso de datos y a las acciones de marketing de Platform.
 
 ### Controles de exportación de datos a etiquetas de uso de datos
 
@@ -161,7 +162,7 @@ Además, el Audience Manager puede registrar las realizaciones entrantes para cu
 
 >[!NOTE]
 >
-> Las Audiencias en Experience Platform con identidades marcadas como clave de los correos electrónicos sin procesar nunca aparecen en el Audience Manager.
+> Las audiencias en Experience Platform con identidades marcadas como clave de los correos electrónicos sin procesar nunca aparecen en el Audience Manager.
 
 Por ejemplo, si tuviera un segmento de Experience Platform &quot;Todos mis clientes&quot; y los perfiles cualificados fueran ID de CRM, ID de ECID, IDFA, direcciones de correo electrónico sin procesar y con hash, el segmento correspondiente en Audience Manager solo incluiría perfiles de ID de CRM, ECID, IDFA y direcciones de correo electrónico con hash. La población de segmentos en Audience Manager sería menor que la del Experience Platform.
 
