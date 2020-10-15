@@ -1,5 +1,5 @@
 ---
-description: Comprender los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de cualificación de audiencia y cómo se transmiten los datos en una llamada de evento.
+description: Conozca los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de cualificación de audiencias y cómo se transmiten los datos en una llamada de evento.
 seo-description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-title: Señales, rasgos y segmentos
 solution: Audience Manager
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
 # [!UICONTROL Signals], [!UICONTROL Traits]y [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Describe los componentes de una llamada [!DNL Audience Manager][!UICONTROL segment], las expresiones utilizadas para definir los criterios de cualificación de la audiencia y cómo se transmiten los datos en una llamada de evento.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 ## Composición y propósito
 
@@ -33,7 +33,7 @@ Utilice el diagrama siguiente para tener una nota mental de la relación entre [
 
 ![](assets/signals-traits-segments.png)
 
-**Generar[!UICONTROL Traits]y[!UICONTROL Segment]crear reglas con Visual Tools y los editores de código**
+**Generar [!UICONTROL Traits] y [!UICONTROL Segment] crear reglas con Visual Tools y los editores de código**
 
 Los clientes administran [!UICONTROL traits] y [!UICONTROL segments] con herramientas visuales y editores de código en la interfaz de [!DNL Audience Manager] usuario. Las herramientas visuales permiten crear reglas mediante funciones de búsqueda, opciones emergentes, menús desplegables y funciones de arrastrar y soltar. Los editores de código proporcionan a los usuarios avanzados una manera de desarrollar mediante programación criterios de segmentación de audiencias.
 
