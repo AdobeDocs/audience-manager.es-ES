@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-Información sobre requisitos generales, autenticación, parámetros de consulta opcionales, solicitud [!DNL URLs]y otras referencias.
+Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
 <!-- c_rest_api_overview.xml -->
 
@@ -31,7 +31,7 @@ Tenga en cuenta lo siguiente al trabajar con código de API [de](https://bank.de
 
 * **Parámetros de solicitud:** todos los parámetros de solicitud son obligatorios a menos que se especifique lo contrario.
 * **Encabezados** de solicitud: al utilizar tokens de E/S [de](https://www.adobe.io/) Adobe, debe proporcionar el `x-api-key` encabezado. Puede obtener la [!DNL API] clave siguiendo las instrucciones de la página Integración [de cuentas de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) servicio.
-* **[!DNL JSON]tipo de contenido:**Especifique`content-type: application/json`y **`accept: application/json`en el código.
+* **[!DNL JSON]tipo de contenido:** Especifique `content-type: application/json` y ** `accept: application/json` en el código.
 * **Solicitudes y respuestas:** Enviar solicitudes como un [!DNL JSON] objeto con el formato correcto. [!DNL Audience Manager] responde con datos con [!DNL JSON] formato. Las respuestas del servidor pueden contener datos solicitados, un código de estado o ambos.
 * **Acceso:** El [!DNL Audience Manager] consultor le proporcionará un ID de cliente y una clave que le permitirá realizar [!DNL API] solicitudes.
 * **Muestras de documentación y código:** El texto en *cursiva* representa una variable que se proporciona o pasa al crear o recibir [!DNL API] datos. Reemplace el texto *en cursiva* con su propio código, parámetros u otra información requerida.
