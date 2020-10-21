@@ -7,9 +7,9 @@ title: Requisitos de nombre para variables clave
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ En [!UICONTROL Expression Builder], el nombre de una variable clave en un par de
 
 * Nombres de clave no válidos: `123`, `price!123`.
 
-## Prefijo de variables clave con c_
+## Prefijación de variables clave con `c_`
 
 El `c_` prefijo *siempre* es obligatorio si los parámetros que envían datos en una URL de llamada de evento utilizan esa sintaxis.
