@@ -7,7 +7,7 @@ title: Casos de uso DIL y ejemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
@@ -47,35 +47,35 @@ Recuerde mantener las propiedades de valor igual al pasar datos. Por ejemplo, si
 
 Este ejemplo básico envía datos de color y precio al Audience Manager en forma de pares clave-valor. El código podría tener un aspecto similar al siguiente:
 
-```
-var sample_dil = DIL.create({partner:"partner name"}); 
+<pre class="&ldquo;java&rdquo;"><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-```
+</code></pre>
 
 **Ejemplo 2: Envío de datos a un objeto**
 
 En este ejemplo avanzado se muestra cómo enviar datos en un objeto al Audience Manager. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al [!DNL signals()] método. [!UICONTROL DIL] El código podría tener un aspecto similar al siguiente:
 
-```js
+<pre class="java"><code>
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-```
+</code></pre>
 
 **Ejemplo 3: Envío de datos de página en una matriz**
 
 En este caso, la variable `my_object` utiliza una matriz para almacenar datos. Este ejemplo se basa en la información pasada por el método recomendado anteriormente, pero agrega una capa adicional para dar cabida a un modelo y tipo de producto. El código podría tener un aspecto similar al siguiente:
 
-```js
+<pre class="java"><code>
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -84,7 +84,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -92,7 +92,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-```
+</code></pre>
 
 ## Capturar URL de referencia {#capture-referring-url}
 
@@ -112,10 +112,10 @@ c_dil_hrefer_over_https.xml
 
 El código podría tener un aspecto similar al siguiente:
 
-```js
-var adobe_dil = DIL.create({ partner : "partner name" }); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-```
+</code></pre>
 
 ## Capturar tipos de motores de búsqueda y términos de búsqueda de palabras clave {#capture-search-engine-types}
 
@@ -143,7 +143,7 @@ El siguiente código muestra cómo obtener el remitente del reenvío de búsqued
 
 El código básico para obtener el remitente del reenvío de búsqueda (por `google.com`ejemplo) tiene este aspecto:
 
-```js
+```java
 var search_referrer = DIL.tools.getSearchReferrer();
 ```
 
@@ -151,8 +151,8 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefiere el parámetro requerido `c_` al motor de búsqueda ( `c_se`) y al término de búsqueda ( `c_st`). `c_` es un prefijo [](../features/traits/trait-variable-prefixes.md) requerido que identifica estas variables como variables definidas por el cliente para el Audience Manager.
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -161,14 +161,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 **Ejemplo de código de motor de búsqueda no enumerado**
 
 En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde `dogpile.com`. Debido a que no [!DNL Dogpile] se admite de forma predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda al Audience Manager. El código podría tener un aspecto similar al siguiente:
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 ## Asignar valores clave a otras claves {#map-key-values}
 
@@ -202,7 +202,7 @@ Por ejemplo, recopila datos de código postal de un sitio en particular, pero de
 
 El código podría tener un aspecto similar al siguiente:
 
-```js
+```java
 var adobe_dil = DIL.create({ 
     partner : "adobe", 
     mappings : { 
