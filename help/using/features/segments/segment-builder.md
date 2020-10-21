@@ -7,9 +7,9 @@ title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Inicio viendo el vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786
 
 Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/)
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## [!UICONTROL Segment Builder] Controles: [!UICONTROL Basic Information] Sección {#segment-builder-controls-basics}
 
