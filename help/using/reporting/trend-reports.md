@@ -7,9 +7,9 @@ title: Informes de tendencias
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: d1edc392c2017f4625f0494d50463c395248918f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Los ceros indican que [!DNL Audience Manager] no recopilaron datos para ese día
 
 Vea el siguiente vídeo para ver en detalle cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Resultados del informe de tendencias para segmentos {#segment-report-results-traits}
 
