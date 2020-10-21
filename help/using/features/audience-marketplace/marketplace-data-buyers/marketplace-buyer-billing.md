@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ El caso de [!UICONTROL Activation] uso le permite utilizar características en l
 Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, debe asignar las impresiones proporcionalmente para cada fuente de datos, según los [!DNL Boolean] operadores utilizados en las reglas de calificación de rasgos. La siguiente tabla lista cómo asignar correctamente impresiones según la regla booleana o el tipo de característica.
 
 >[!TIP]
->
-> [Informar sobre el uso de CPM en el nivel](#segment-level-report) de segmento para que el sistema de informes del nivel de fuente de datos lo realice automáticamente el Audience Manager.
+>[Informar sobre el uso de CPM en el nivel](#segment-level-report) de segmento para que el sistema de informes del nivel de fuente de datos lo realice automáticamente el Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
