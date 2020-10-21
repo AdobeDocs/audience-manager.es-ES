@@ -7,9 +7,9 @@ title: Informe de variación del rasgo diario
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Este informe devuelve una lista de características que se han realizado al meno
 
 La desviación típica mide la cantidad de variación o dispersión con respecto a la media (o valor medio/esperado). Una desviación estándar baja indica que los puntos de datos tienden a estar muy cerca de la media. Una desviación estándar alta indica que los puntos de datos se distribuyen en un gran rango de valores.
 
-![captura de pantalla del informe de variación de características diarias](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 Utilice la [!UICONTROL Date] lista para seleccionar una o más fechas para el informe. En la parte inferior de la lista se muestra un gráfico de barras con códigos de color que representa de forma visual el rango de desviación estándar para todas las características de todas las fechas seleccionadas. La línea vertical negra indica la media.
 
@@ -56,8 +56,8 @@ Debido a la reconfiguración de su tienda, está dividiendo la página de smartp
 
 Un mes después, ejecuta el [!UICONTROL Daily Trait Variation] informe y observa una gran desviación negativa en la `productPage == "smartphones"` característica, aunque el número de visitantes ha aumentado, según los análisis del sitio. En base a esta información, se da cuenta de que no ha actualizado las características [!DNL Audience Manager] de las páginas de productos nuevas, por lo que debe crear las siguientes características:
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 Una vez que lo haga, verá que su audiencia cumple los requisitos para las nuevas características creadas.
