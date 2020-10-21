@@ -1,5 +1,5 @@
 ---
-description: En Audience Manager, un destino es cualquier sistema de terceros (servidor de publicidad, DSP, red de publicidad, etc.) con el que se desea compartir datos. Utilice la herramienta Generador de destinos para crear y administrar destinos de cookies, URL o de servidor a servidor.
+description: En Audience Manager, un destino es cualquier sistema de terceros (servidor de publicidad, DSP, red de publicidad, etc.) con el que se desea compartir datos. El Generador de destinos es la herramienta que se utiliza para crear y administrar destinos de cookie, URL o servidor a servidor.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: En Audience Manager, un destino es cualquier sistema de terceros (servidor de publicidad, DSP, red de publicidad, etc.) con el que se desea compartir datos. El Generador de destinos es la herramienta que se utiliza para crear y administrar destinos de cookie, URL o servidor a servidor.
 seo-title: 'Destinos '
@@ -8,10 +8,10 @@ title: 'Destinos '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 11%
 
 ---
 
