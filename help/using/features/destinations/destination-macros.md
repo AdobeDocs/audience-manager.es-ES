@@ -7,9 +7,9 @@ title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro se reemplazará <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
-     <!--
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     --> </p> </td> 
+     <draft-comment>
+       Basado en AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     </draft-comment> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -98,7 +98,7 @@ Al crear un [!DNL URL] destino, puede insertar las siguientes macros en la [!DNL
 
 Las `%rnd%` y `%timestamp%` las macros insertan valores únicos en una [!DNL URL] cadena para evitar el almacenamiento en caché del explorador.
 
-## Errores de caché con %rnd% y %timestamp% {#dest-cache-busting}
+## Descarga de caché con `%rnd%` y `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ La eliminación de caché evita que los navegadores guarden y reutilicen el cont
 * `%rnd%`:: Inserta un número aleatorio en una dirección URL.
 * `%timestamp%`:: Inserta la fecha y hora Unix en una dirección URL.
 
-## Comparando %rnd% y %timestamp% {#compare-rnd-timestamp}
+## Comparación `%rnd%` y `%timestamp%` {#compare-rnd-timestamp}
 
 Ambas macros impiden el almacenamiento en caché, pero `%rnd%` pueden ser más eficientes. Por ejemplo, con `%timestamp%`, si varios usuarios vista una página simultáneamente, obtendrán el mismo valor de fecha y hora. Como resultado, el [!DNL URL] informe no es único y las llamadas múltiples se cuentan una sola vez. Sin embargo, `%rnd%` genera un valor numérico único para cada llamada (incluso cuando los usuarios ven la misma página simultáneamente). Esto significa que la [!DNL URL] cadena contiene valores diferentes y se cuenta como única.
 
