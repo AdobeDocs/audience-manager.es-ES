@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Guía de Audience Manager
-breadcrumb-title: Guía de Audience Manager
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
+user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Audience Manager ofrece servicios líderes en el sector de la administración de datos de audiencias en línea.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1769'
 ht-degree: 93%
 
 ---
 
 
-# Guía de Audience Manager {#user-guide}
+# Guía del usuario de Audience Manager {#user-guide}
 
-+ [Guía de Audience Manager](aam-home.md)
++ [Documentación del producto de Audience Manager](aam-home.md)
 + Información general {#overview}
    + [Información general sobre Audience Manager](overview/aam-overview.md)
    + [Tipos de datos recopilados](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 93%
          + [Gestión del consentimiento](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Complemento de Audience Manager para el TCF de IAB](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Administración de datos](overview/data-security-and-privacy/data-governance.md)
-   + [Accesibilidad en el Audience Manager](overview/accessibility-in-aam.md)
 + Funciones {#features}
    + [Audiencias a las que se puede dirigir](features/addressable-audiences.md)
    + Administración {#administration}
@@ -78,7 +75,7 @@ ht-degree: 93%
       + [Explorador de datos: información general, beneficios y casos de uso](features/data-explorer/data-explorer-overview.md)
       + [Explicación de las señales](features/data-explorer/data-explorer-understanding-signals.md)
       + [Panel de señales](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Búsqueda de señal{#signal-search}
+      + Búsqueda de señales {#signals-search}
          + [Información general sobre la búsqueda de señales](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Señales de búsqueda por pares de clave-valor](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Señales de búsqueda por Filtros](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
