@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 67%
+source-wordcount: '895'
+ht-degree: 65%
 
 ---
 
@@ -46,14 +46,6 @@ Vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** y haga clic en
 
  
 
-**¿Por qué algunos de mis visitantes incorporados no están clasificados?**
-
-Actualmente, la clasificación de audiencias solo funciona para cualificaciones en tiempo real, excepto para usuarios autenticados definidos como parte de [!UICONTROL Profile Merge Rules].
-
-En una actualización futura se agregará la compatibilidad total con los datos incorporados.
-
- 
-
 **¿Cuándo puedo ver los primeros resultados producidos por mi modelo?**
 
 Los resultados del modelo de [!UICONTROL Predictive Audiences] están disponibles en un plazo de 24 horas a partir de la creación del modelo, si este se ejecuta correctamente.
@@ -68,12 +60,10 @@ Las razones por las que los modelos de [!UICONTROL Predictive Audiences] no prod
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. El rasgo de la audiencia o del segmento objetivo no tuvo usuarios activos o incorporados en los últimos 30 días.
+1. La característica o el segmento de audiencia de destinatario no tiene ningún usuario activo o integrado.
 1. Los usuarios de la audiencia destinataria activos o incorporados en los últimos 30 días no tienen datos suficientes en sus perfiles de usuario (no tiene los rasgos suficientes para analizar).
 1. El segmento de audiencia de destinatario utiliza un segmento distinto [!UICONTROL Profile Merge Rule] del que eligió para el modelo.
 1. Es posible que la fuente de datos de las características de audiencia de destinatario no se incluya en el modelo [!UICONTROL Profile Merge Rule] que elija.
-
-Para obtener resultados relevantes, el algoritmo [!UICONTROL Predictive Audiences] evalúa las realizaciones de rasgos y segmentos en función de la actividad del usuario en tiempo real vista por el [!DNL DCS]. Si selecciona nuevos segmentos y rasgos básicos que aún no tienen suficientes usuarios, el algoritmo puede tardar un par de días en clasificar la audiencia.
 
 Para obtener resultados óptimos, siga las directrices sugeridas en [Criterios de selección de personalidades](../features/algorithmic-models/predictive-audiences.md#selection-personas) y [Criterios de selección de la audiencia de destino](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
@@ -85,7 +75,7 @@ No se pudo ejecutar el modelo. In such cases, please reach out to your [!DNL Ado
 
  
 
-**¿Cómo puedo cambiar el[!UICONTROL Profile Merge Rule]por un[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**¿Cómo puedo cambiar el [!UICONTROL Profile Merge Rule] por un [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
 
 Para crear un nuevo modelo, seleccione las mismas funciones y audiencia de destinatario que el modelo anterior. Durante la creación del modelo, asigne un [!UICONTROL Profile Merge Rule].
 
@@ -96,7 +86,7 @@ Para crear un nuevo modelo, seleccione las mismas funciones y audiencia de desti
 
  
 
-**¿Qué[!UICONTROL Profile Merge Rule]debería elegir?**
+**¿Qué [!UICONTROL Profile Merge Rule] debería elegir?**
 
 Al elegir el [!UICONTROL Profile Merge Rule] modelo, analice detenidamente el caso de uso.
 
@@ -105,8 +95,6 @@ Supongamos que la audiencia de destinatario [!UICONTROL segment] utiliza una [!U
 Sin embargo, si selecciona un dispositivo [!UICONTROL Profile Merge Rule] basado únicamente en perfiles de dispositivo, ninguno de los dispositivos cruzados [!UICONTROL traits] tendrá influencia y no contribuirá a la colocación de los usuarios en un predictivo [!UICONTROL segment]. Esto puede afectar negativamente a la precisión y al alcance del modelo.
 
 Analice cuidadosamente el caso de uso y decida de qué [!UICONTROL trait] tipos desea que el modelo aprenda y qué tipo de datos desea que el modelo utilice para la clasificación.
-
- 
 
 **¿Podría dejar de clasificarse a un usuario de la audiencia de destino que no forme parte de ningún rasgo o segmento de personalidad?**
 
@@ -117,12 +105,6 @@ Sí, en caso de que el usuario no tenga ningún rasgo en su perfil. En ese caso,
 **¿Un usuario que ha sido clasificado en uno de los segmentos predictivos puede reubicarse en otro segmento de [!UICONTROL Predictive Audiences]?**
 
 Sí. Como el algoritmo se forma a diario, aplica los cambios para cada una de las personalidades en términos de puntuación de rasgos. Si un usuario que forma parte de un segmento [!UICONTROL Predictive Audiences] está activo, los cambios en su puntuación de rasgos pueden modificar la clasificación en función de la actividad de los últimos 30 días.
-
- 
-
-**¿Puedo agregar características predictivas a segmentos regulares?**
-
-Cuando agrega un rasgo predictivo a un segmento normal, se convierte en un segmento predictivo. En consecuencia, todos los perfiles asociados no están segmentados. Los segmentos predictivos solo se pueden enviar a destinos en tiempo real.
 
  
 
