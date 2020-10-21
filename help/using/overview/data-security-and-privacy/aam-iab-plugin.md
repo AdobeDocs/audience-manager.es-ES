@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Complemento de Audience Manager para el TCF de IAB
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -118,7 +118,7 @@ El Audience Manager funciona de manera diferente dependiendo de si la cadena TC 
 
 También comprobamos el consentimiento del usuario para todos los destinos con los que trabaje en Audience Manager, siempre que dichos destinos estén registrados en IAB TCF.
 
-| When your user *provides* consent, Audience Manager: | Cuando el usuario *rechaza* el consentimiento, Audience Manager: |
+| Cuando el usuario *da su consentimiento*, Audience Manager: | Cuando el usuario *rechaza* el consentimiento, Audience Manager: |
 |---|---|
 | <ul><li>Lleva a cabo todos los casos de uso de Audience Manager que ha solicitado.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>Evalúa y respeta el consentimiento pasado desde los píxeles del servidor de publicidad.</li><li>Respeta las sincronizaciones de ID iniciadas por el socio.</li></ul> | <ul><li>No almacena ningún dato de usuario nuevo en su instancia. Esto incluye ID de socio, señales, rasgos o datos de píxeles.</li><li>No inicia sincronizaciones de ID de terceros.</li><li>No respeta las sincronizaciones de ID iniciadas por el socio.</li><li>Exclusión al usuario de una recopilación de datos posterior.</li></ul> |
 
