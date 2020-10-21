@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Preguntas frecuentes sobre Audience Manager
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,6 @@ Esta sección agrega una lista de las categorías de preguntas más frecuentes p
 * [Preguntas frecuentes sobre People-Based Destinations](faq-people-based-destinations.md)
 * [Preguntas frecuentes sobre funciones y características del producto](faq-features.md)
 * [Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos](faq-profile-merge.md)
+* [Preguntas frecuentes sobre Predictive Audiences](faq-predictive-audiences.md)
 * [Preguntas frecuentes sobre segmentación](faq-targeting.md)
 * [Preguntas frecuentes sobre la creación de informes](faq-reporting.md)
