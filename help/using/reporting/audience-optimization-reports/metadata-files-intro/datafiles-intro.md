@@ -7,9 +7,9 @@ title: Archivos de datos para informes de optimización de Audiencia y archivos 
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Un archivo de datos debe ir acompañado de un archivo de metadatos. El contenido
 
 La siguiente sintaxis define la estructura de un nombre de archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable que cambia según el contenido del archivo.
 
-**Sintaxis:** `event type_yyyymmdd`
+**Sintaxis:** <pre><i>tipo de evento</i>_<i>yyyymmdd</i></code></pre>
 
 En un nombre de archivo:
 
@@ -39,15 +39,15 @@ En un nombre de archivo:
 
 Dados estos requisitos, asigne un nombre a los archivos de datos en función de su contenido de la siguiente manera:
 
-* Datos de impresión: `impressions_yyyymmdd.gz`
-* Haga clic en los datos: `clicks_yyyymmdd.gz`
-* Datos de conversión: `conversions_yyyymmdd.gz`
+* Datos de impresión: <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* Haga clic en los datos: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* Datos de conversión: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 La siguiente sintaxis define la estructura de contenido en un archivo de datos bien formado. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable y se sustituye por una etiqueta en un archivo de datos real.
 
-**Sintaxis:** `header label 1 | header label 2 ... header label n | version`
+**Sintaxis:** <pre><i>etiqueta de encabezado 1</i> | etiqueta <i>de encabezado 2</i> ... <i>etiqueta de encabezado n</i> | <i>versión</i></code></pre>
 
 En el contenido del archivo:
 
@@ -153,7 +153,7 @@ Cargue los archivos de datos de impresión, clic o conversión en un directorio 
 
 Los datos se almacenan en una Área de nombres independiente para cada cliente en un [!DNL Amazon S3] directorio. La ruta del archivo sigue la sintaxis que se muestra a continuación. Note, *italics* indicates a variable placeholder. Otros elementos son constantes o claves y no cambian.
 
-**Sintaxis:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Sintaxis:** <pre>.../log_ingestion/pid= <i>ID<i>AAM/dpid= <i>d_src</i>/logs/ tipo <i></i>de archivo_<i>yyyymmdd</i></code></pre>
 
 La siguiente tabla define cada uno de estos elementos en una ruta de envío de archivos.
 
