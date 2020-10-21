@@ -1,5 +1,5 @@
 ---
-description: Conozca los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de cualificación de audiencias y cómo se transmiten los datos en una llamada de evento.
+description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-description: Describe los componentes de un segmento de Audience Manager, las expresiones utilizadas para definir los criterios de calificación de audiencia y cómo se transmiten los datos en una llamada de evento.
 seo-title: Señales, rasgos y segmentos
 solution: Audience Manager
@@ -7,10 +7,10 @@ title: Señales, rasgos y segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
