@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ El Audience Manager establece un límite máximo en el número de característic
 
 ## Límites de asignación de ID {#id-mapping-limits}
 
-La siguiente tabla lista los límites de asignación [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para los ID de dispositivo. Una vez que un ID alcanza cualquiera de los límites siguientes, el Audience Manager agrega nuevas asignaciones de ID basadas en una lógica [!DNL FIFO] (primero en, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte [Índice de IDs](../../reference/ids-in-aam.md) en Audience Manager para obtener detalles sobre los ID admitidos por el Audience Manager.
+La siguiente tabla lista los límites de asignación [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para los ID de dispositivo. Una vez que un ID alcanza cualquiera de los límites siguientes, Audience Manager agrega nuevas asignaciones de ID basadas en una lógica FIFO (primero en, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte [Índice de IDs](../../reference/ids-in-aam.md) en Audience Manager para obtener detalles sobre los ID admitidos por el Audience Manager.
 
 | Asignación de ID | Límite máximo |
 |-----------|-------------- |
@@ -83,7 +83,7 @@ Las tablas lista los límites actuales por tipo de elemento. No se pueden crear 
 | --------------- | ------------- |
 | Señales derivadas | 50 000. |
 
-### Límite de cuentas de usuario de Compañía
+### Límite de cuentas de usuario de compañía
 
 | Elemento | Límite máximo |
 | ----------- | ------------- |
