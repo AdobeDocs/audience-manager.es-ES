@@ -7,9 +7,9 @@ title: Muestreo de datos y tasas de error en los informes de Audience Manager se
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tas
 
 ## Uso de la metodología de muestreo Minhash {#minhash}
 
-Basándose en la metodología de muestreo [Minhash](https://en.wikipedia.org/wiki/MinHash) , el Audience Manager utiliza un método novedoso para calcular las características y los estimadores de segmentos sobre un esbozo de datos con hash de una permutación. Este nuevo método produce una varianza inferior a la del estimador de similitud de Jaccard estándar. Consulte la sección siguiente para ver los informes que utilizan esta metodología.
+Basándose en la metodología de muestreo [Minhash](https://en.wikipedia.org/wiki/MinHash) , el Audience Manager utiliza un método novedoso para calcular las características y los estimadores de segmentos sobre un esbozo de datos con hash de una permutación. Este nuevo método produce una varianza inferior a la del estimador estándar para la similitud de Jaccard. Consulte la sección siguiente para ver los informes que utilizan esta metodología.
 
 <!--
 
