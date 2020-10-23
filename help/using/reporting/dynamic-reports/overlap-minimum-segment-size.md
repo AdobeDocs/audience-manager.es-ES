@@ -7,9 +7,9 @@ title: Sobreponer informes Actualizar programación y tamaño mínimo del segmen
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 5%
 
 # Informes de superposición: actualizar programación y tamaño mínimo del segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Describe los requisitos de tamaño y tiempo de creación del segmento requeridos por el proceso de actualización del informe de superposición.
+Describe los requisitos de tamaño de rasgo y segmento y tiempo de creación requeridos por el proceso de actualización de informes de superposición.
 
 ## Actualizar programación y requisitos {#update-schedule}
 
 [!UICONTROL Overlap] los informes se actualizan semanalmente el domingo. El procesamiento previo del informe comienza el sábado. Esto afecta a cómo aparecen los segmentos nuevos o existentes en un informe de superposición el lunes. Para incluirlo en un informe de superposición:
 
-* Un segmento debe contener un mínimo de 70.000 usuarios en tiempo real durante los últimos 14 días. Obtenga más información sobre los requisitos [mínimos de Visitante único para características y segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
+* Un segmento debe contener un mínimo de 70.000 usuarios en tiempo real durante los últimos 14 días.
+* Un rasgo debe contener 28.000 [realizaciones](/help/using/features/traits/trait-and-segment-qualification-reference.md) únicas de rasgos durante los últimos 14 días.
 * Se debe crear un segmento antes de las 12 AM del jueves UTC (2 días completos antes de que comience el proceso de actualización semanal del informe de superposición).
 * Su compañía debe ser un [!DNL Audience Manager] cliente completo. Para obtener más información, póngase en contacto con su consultor [!DNL Audience Manager] o con el Servicio de atención al cliente.
 
