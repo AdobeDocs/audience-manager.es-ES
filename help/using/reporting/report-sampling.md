@@ -7,10 +7,10 @@ title: Muestreo de datos y tasas de error en los informes de Audience Manager se
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '468'
+ht-degree: 7%
 
 ---
 
@@ -19,16 +19,26 @@ ht-degree: 8%
 
 Un resumen de la metodología de muestreo utilizada para algunos informes, las tasas de error de muestreo y una lista de informes que devuelven información basada en datos de muestra.
 
-## Proporción de muestreo de datos y requisitos mínimos {#data-sampling-ratio}
+## Tasa de muestreo de datos {#data-sampling-ratio}
 
 Algunos [!DNL Audience Manager] informes muestran los resultados en función de un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos de muestra es 1:54. Para los informes que utilizan datos de muestra, esto significa que los resultados se basan en un registro de cada conjunto de 54 registros.
 
-Estos informes utilizan datos muestreados porque necesitan una enorme capacidad informática para generar resultados. El muestreo ayuda a encontrar un equilibrio entre la reducción de las demandas computacionales, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
+Estos informes utilizan datos estadísticos de muestra porque necesitan una enorme capacidad informática para generar resultados. El muestreo ayuda a encontrar un equilibrio entre la reducción de las demandas computacionales, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
 
-Los informes que utilizan muestras excluyen características y segmentos cuando no cumplen los requisitos mínimos de visitante único. Estos requisitos mínimos son los siguientes:
+<!--
 
-* Características: 28.000 [realizaciones](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) únicas de características durante un período de 14 días.
-* Segmentos: 70.000 usuarios en tiempo real durante un período de 14 días.
+## Minimum Requirements {#minimum-requirements}
+
+>[!NOTE]
+>
+>The minimum requirements listed below apply to Overlap reports only.
+
+Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-trait-overlap-report.md), [segment-to-trait](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md), and [segment-to-segment](/help/using/reporting/dynamic-reports/segment-segment-overlap-report.md)) exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
+
+* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference).
+* Segments: 70,000 real-time users over a 14-day period.
+
+-->
 
 ## Tasas de error {#error-rates}
 
@@ -48,11 +58,35 @@ Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tas
 | 100,000 | El 95 % está por debajo de una tasa de error del 4 %. |
 | 500.000 (o más) | El 95 % está por debajo de una tasa de error del 2 %. |
 
+## Uso de la metodología de muestreo Minhash {#minhash}
+
+Basándose en la metodología de muestreo [Minhash](https://en.wikipedia.org/wiki/MinHash) , el Audience Manager utiliza un método novedoso para calcular las características y los estimadores de segmentos sobre un esbozo de datos con hash de una permutación. Este nuevo método produce una varianza inferior a la del estimador de similitud de Jaccard estándar. Consulte la sección siguiente para ver los informes que utilizan esta metodología.
+
+<!--
+
+Some Audience Manager reports use the minhash sampling methodology to compute trait and segment overlaps and similarity scores. Audience Manager calculates the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL Unique User IDs] (UUIDs) and then divides the two. For two traits A and B, the calculation looks like this:
+
+![jaccard-similarity](/help/using/features/segments/assets/jaccard_similarity.png)
+
+-->
+
 ## Informes Que Utilizan Datos Muestreados {#reports-using-sampled-data}
 
-Los [!DNL Audience Manager] informes que utilizan datos de muestra incluyen:
+Los [!DNL Audience Manager] informes que utilizan datos estadísticos de muestra y la metodología de muestreo Minhash incluyen:
 
-* [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (rasgo a rasgo, segmento a rasgo y segmento a segmento).
-* [Datos de Audiencia](../features/addressable-audiences.md) direccionables (datos a nivel de cliente y segmento).
-* La métrica Dispositivos [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totales de un [!UICONTROL Profile Merge Rule].
-* [El Explorador](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) de datos utiliza datos de muestra en la [!UICONTROL Search] ficha y en cualquier [!UICONTROL Saved Searches].
+<!--
+
+* [Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment).
+* [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). 
+* The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
+* [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches].
+
+Reports that use Minhash sampling methodology:
+
+-->
+
+| Muestreo estadístico | Metodología de muestreo de minerales |
+|--- |--- |
+| [Datos de Audiencia](../features/addressable-audiences.md) direccionables (datos a nivel de cliente y segmento). | [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (rasgo a rasgo, segmento a rasgo y segmento a segmento) |
+| La métrica Dispositivos [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totales de un [!UICONTROL Profile Merge Rule]. | [Recomendaciones de rasgos](/help/using/features/segments/trait-recommendations.md) |
+| [La Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utiliza datos de muestra en la [!UICONTROL Search] ficha y en cualquier [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
