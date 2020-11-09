@@ -7,9 +7,9 @@ title: Información general y asignaciones para archivos de metadatos
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ En primer lugar, se requiere un archivo de metadatos y todos los parámetros que
 
 En segundo lugar, necesita un archivo de metadatos si va a enviar sus propios datos a [!DNL Audience Manager] o si desea ver los datos en los informes de otros proveedores con los que no estamos integrados. Por ejemplo, [!DNL Audience Manager] tiene una integración con el Administrador [](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) de Campañas (DCM) de Doble y clic de Google. Debido a esta relación, [!DNL Audience Manager] puede asociar ID con nombres y descripciones utilizados por las opciones del informe. Sin una integración, aún podemos ingerir datos, pero las opciones del informe mostrarán ID numéricos en lugar de nombres descriptivos.
 
-![](assets/metadata_menu.png)
+![imagen del menú de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## Asignaciones de archivos {#file-mappings}
 
@@ -112,7 +112,7 @@ Los ID pasados por estos pares clave-valor ayudan a crear el nombre del archivo 
 
 En este ejemplo crearemos un archivo de metadatos que incluya nombres creativos en un [!UICONTROL Audience Optimization] informe. Para ello, necesitamos extraer los ID de fuentes de datos, de campaña y creativas de una llamada de evento.
 
-![](assets/metadata_file_event.png)
+![Imagen de llamada de evento](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
 ### Nombre del archivo
 
@@ -124,7 +124,7 @@ En un nombre de archivo:
 
 * Los ID de elemento creativo y de campaña representan una categoría en lugar de un identificador real.
 
-![](assets/metadata_file_name.png)
+![cómo se crea un nombre de archivo](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento aquí es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creative de un [!UICONTROL Audience Optimization] informe.
 
-![](assets/metadata_file_contents.png)
+![contenido de un archivo de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
