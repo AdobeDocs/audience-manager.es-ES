@@ -7,9 +7,9 @@ title: Requisitos de prefijo para variables clave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 1c0d40082cd0753a9b4326aae764eb74aefb8be4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,11 @@ La siguiente tabla define los prefijos comunes utilizados por [!UICONTROL Trait 
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>A nivel de <span class="keyword"> Audience Manager</span> . Estos datos son uniformes en todo el <span class="keyword"> ecosistema Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos admitidos para llamadas</a> de API de DCS para obtener una lista más completa. <p>Las señales que utilizan este prefijo no aparecen en la búsqueda de <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">señales</a>.</p></p> </td> 
+   <td colname="col2"> <p>A nivel de <span class="keyword"> Audience Manager</span> . Estos datos son uniformes en todo el <span class="keyword"> ecosistema Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos admitidos para llamadas</a> de API de DCS para obtener una lista más completa.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Que contiene <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> información de encabezado</a> HTTP. Incluye parámetros de encabezado como <code> referer</code>,<code> IP</code><code> accept-language</code>, etc. </p> <p> <p>Nota: Para los clientes que utilizan versiones DIL anteriores a la 9.0, la recopilación de datos mediante la <code> h_referer</code> señal no funcionará en los navegadores Safari. Con la introducción de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, los navegadores Safari pueden clasificar el dominio demdex.net como rastreador y truncarán el remitente del reenvío en la solicitud de recopilación de datos para que solo contenga el origen en lugar de la dirección URL completa. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtención e implementación de código</a> DIL para obtener la versión más reciente de DIL.<p>Las señales que utilizan este prefijo no aparecen en la búsqueda de <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">señales</a>.</p></p> </p> </td> 
+   <td colname="col2"> <p>Que contiene <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> información de encabezado</a> HTTP. Incluye parámetros de encabezado como <code> referer</code>,<code> IP</code><code> accept-language</code>, etc. </p> <p> <p>Nota: Para los clientes que utilizan versiones de DIL anteriores a la 9.0, la recopilación de datos mediante la <code> h_referer</code> señal no funcionará en los navegadores Safari. Con la introducción de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, los navegadores Safari pueden clasificar el dominio demdex.net como rastreador y truncarán el remitente del reenvío en la solicitud de recopilación de datos para que solo contenga el origen en lugar de la dirección URL completa. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtención e implementación del código</a> de DIL para obtener la versión más reciente del DIL.<p>Las señales que utilizan este prefijo no aparecen en la búsqueda de <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">señales</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
