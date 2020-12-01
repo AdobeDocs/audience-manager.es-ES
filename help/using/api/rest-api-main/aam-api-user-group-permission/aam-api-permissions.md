@@ -17,13 +17,13 @@ ht-degree: 14%
 
 # Métodos de API de administración de permisos {#permissions-management-api-methods}
 
-Métodos [!DNL API] de descanso para administrar permisos para objetos y grupos.
+Rest [!DNL API] métodos para administrar permisos para objetos y grupos.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Tipos de objetos disponibles de Lista {#list-object-types}
+## Tipos de objetos disponibles de lista {#list-object-types}
 
-Un `GET` método para lista de tipos de objeto disponibles en los que se pueden establecer controles de acceso basados en roles.
+Un método `GET` para lista de tipos de objeto disponibles en los que se pueden establecer controles de acceso basados en roles.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -37,9 +37,9 @@ Un `GET` método para lista de tipos de objeto disponibles en los que se pueden 
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Permisos disponibles de Lista para un tipo de objeto {#list-permissions-object-type}
+## Permisos disponibles de lista para un tipo de objeto {#list-permissions-object-type}
 
-Un `GET` método para lista de los permisos disponibles para un tipo de objeto.
+Un método `GET` para lista de los permisos disponibles para un tipo de objeto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
