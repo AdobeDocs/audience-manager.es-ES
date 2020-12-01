@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Configuración opcional para destinos de cookies {#optional-settings-cookies}
 
-En [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contiene los campos [!UICONTROL Cookie Domain] y [!UICONTROL Publish Data To] . Esto le permite crear reglas para determinar si un destino establece una cookie o devuelve una cookie. [!UICONTROL Cookie Domain] y [!UICONTROL Publish Data To] trabajar independientemente entre sí y son opcionales. Puede crear un destino de cookie sin usar ninguno de ellos.
+En [!UICONTROL Destination Builder], los campos [!UICONTROL Configuration section] contienen los campos [!UICONTROL Cookie Domain] y [!UICONTROL Publish Data To]. Esto le permite crear reglas para determinar si un destino establece una cookie o devuelve una cookie. [!UICONTROL Cookie Domain] y  [!UICONTROL Publish Data To] trabajar independientemente entre sí y son opcionales. Puede crear un destino de cookie sin usar ninguno de ellos.
 
 ## Dominio de la cookie: Sintaxis y ejemplos {#cookie-domain-syntax}
 
@@ -32,27 +32,27 @@ En [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contiene
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sintaxis</b> </p> </td> 
-   <td colname="col2"> <p>El campo Dominio <span class="wintitle"></span> de la cookie acepta una cadena de texto simple que le permite establecer cookies en un dominio específico o en todos los dominios. Al utilizar esta función: </p> <p> 
+   <td colname="col2"> <p>El campo <span class="wintitle"> Dominio de la cookie</span> acepta una cadena de texto simple que le permite establecer cookies en un dominio específico o en todos los dominios. Al utilizar esta función: </p> <p> 
      <ul id="ul_473CB59F2C0C4B358201BE5C8B27D73D"> 
-      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Configure sólo un dominio para cada destino de cookie. No escriba varios dominios en el campo Dominio <span class="wintitle"> de la</span> cookie. Cree otro <span class="wintitle"> destino</span> en su lugar. </li> 
+      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Configure sólo un dominio para cada destino de cookie. No escriba varios dominios en el campo <span class="wintitle"> Dominio de la cookie</span>. Cree otro <span class="wintitle"> destino</span> en su lugar. </li> 
       <li id="li_AEBF5C5F3C264C5EA4A2A6063C3F377D">No utilice caracteres comodín. </li> 
-     </ul> </p> <p> Deje el campo Dominio <span class="wintitle"></span> de la cookie en blanco para establecer una cookie en todos los dominios. Ésta es la configuración predeterminada. </p> <p>Para configurar cookies en un dominio y subdominios específicos: </p> <p> 
+     </ul> </p> <p> Deje el campo <span class="wintitle"> Dominio de la cookie</span> en blanco para configurar una cookie en todos los dominios. Ésta es la configuración predeterminada. </p> <p>Para configurar cookies en un dominio y subdominios específicos: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
-      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Escriba el nombre del dominio en el campo Dominio <span class="wintitle"> de la</span> cookie. </li> 
+      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Escriba el nombre del dominio en el campo <span class="wintitle"> Dominio de la cookie</span>. </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Inicio el nombre de dominio con un punto. Por ejemplo, <code> .somedomain.com</code>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">No se requiere el prefijo <code> https://www</code>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Ejemplo</b> </p> </td> 
-   <td colname="col2"> <p>Por ejemplo, digamos que tenemos un sitio ficticio llamado sports.com. Sports.com tiene dominios para golf, béisbol y fútbol. Para configurar una cookie en todos los dominios deportivos, debe escribirla en el cuadro Dominio <span class="wintitle"></span> de la cookie, como se muestra a continuación: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Esto indica al <span class="keyword"> Audience Manager</span> que configure una cookie en cualquier dominio que contenga el patrón <code><i>something</i></code>.sports.com. Consulte a continuación un conjunto más complejo de ejemplos. </p> </td> 
+   <td colname="col2"> <p>Por ejemplo, digamos que tenemos un sitio ficticio llamado sports.com. Sports.com tiene dominios para golf, béisbol y fútbol. Para configurar una cookie en todos los dominios deportivos, debe escribirla en el cuadro <span class="wintitle"> Dominio de la cookie</span> como se muestra a continuación: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Esto indica al <span class="keyword"> Audience Manager</span> que configure una cookie en cualquier dominio que contenga el patrón <code><i>something</i></code>.sports.com. Consulte a continuación un conjunto más complejo de ejemplos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Ejemplos de dominios de cookies complejos
 
-Estos ejemplos muestran si [!DNL Audience Manager] se configurará una cookie según la configuración de la [!UICONTROL Cookie Domain] opción.
+Estos ejemplos muestran si [!DNL Audience Manager] configurará una cookie en función de cómo se configure la opción [!UICONTROL Cookie Domain].
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -93,11 +93,11 @@ Estos ejemplos muestran si [!DNL Audience Manager] se configurará una cookie se
 
 ## Publicar datos en {#publish-data-to}
 
-La [!UICONTROL Publish Data To] configuración devuelve una cookie si el dominio cumple los criterios establecidos por las opciones seleccionadas. Las opciones incluyen:
+La configuración [!UICONTROL Publish Data To] devuelve una cookie si el dominio cumple los criterios establecidos por las opciones seleccionadas. Las opciones incluyen:
 
-* **[!UICONTROL All of our domains]**:: (Predeterminado) Devuelve un [!DNL cookie] para cualquier dominio.
+* **[!UICONTROL All of our domains]**:: (Predeterminado) Devuelve un valor  [!DNL cookie] para cualquier dominio.
 * **[!UICONTROL Only the selected domains]**:: Devuelve una cookie solo para los dominios seleccionados en la lista de dominios.
-* **[!UICONTROL All of our domains except the selected domains]**:: Impide que los dominios seleccionados reciban un [!DNL cookie]. Todos los demás dominios pueden recibir un [!DNL cookie].
+* **[!UICONTROL All of our domains except the selected domains]**:: Impide que los dominios seleccionados reciban un  [!DNL cookie]. Todos los demás dominios pueden recibir un [!DNL cookie].
 
 >[!MORELIKETHIS]
 >
