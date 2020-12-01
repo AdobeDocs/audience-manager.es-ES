@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Informe de señales no utilizadas{#unused-signals-report}
 
-Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de Audiencia > Otros informes > Señales** no utilizadas.
+Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager. Para acceder a este informe, vaya a **Análisis > Informes de Audiencia > Otros informes > Señales no utilizadas**.
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ Este informe devuelve un recuento de frecuencia de toda la información no utili
 
 ## Información general
 
-Una señal es la información de su sitio web que se transmite [!DNL Audience Manager] en forma de pares [de valor](../../reference/key-value-pairs-explained.md) clave (por ejemplo, `color=blue, price>100, gender=female`, etc.).
+Una señal es la información de su sitio Web que se pasa a [!DNL Audience Manager] en forma de [pares clave-valor](../../reference/key-value-pairs-explained.md) (por ejemplo, `color=blue, price>100, gender=female`, etc.).
 
-Las señales no utilizadas consisten en datos que se recopilan pero que no se han asignado a una característica. El [!UICONTROL Unused Signals] informe muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar que se pase al [!DNL Audience Manager] menos 100 veces en un día califica para el [!UICONTROL Unused Signals] informe.
+Las señales no utilizadas consisten en datos que se recopilan pero que no se han asignado a una característica. El informe [!UICONTROL Unused Signals] muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar que se pase a [!DNL Audience Manager] al menos 100 veces en un día califica para el informe [!UICONTROL Unused Signals].
 
 Revise este informe para identificar las señales huérfanas que se pueden asignar a características nuevas o existentes.
 
@@ -49,7 +49,7 @@ Revise este informe para identificar las señales huérfanas que se pueden asign
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Garantizar la uniformidad de características o Añadir los valores relacionados a una sola clave</b> </p> </td> 
-   <td colname="col2"> <p>Revise el informe para tener en cuenta las diferentes variaciones de valor de una señal en particular. </p> <p>Por ejemplo, supongamos que tiene una característica para el estado "Carolina del Norte" definida como <code> c_state = North Carolina</code>. El informe puede ayudarle a encontrar las variantes de nombre y agregarlas a la característica (por ejemplo, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Otra opción es colocar las variantes de nombre en el informe y reemplazarlas por un valor uniforme en todos los sitios. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Revise el informe para tener en cuenta las diferentes variaciones de valor de una señal en particular. </p> <p>Por ejemplo, supongamos que tiene una característica para el estado "Carolina del Norte" definida en un par clave-valor como <code> c_state = North Carolina</code>. El informe puede ayudarle a encontrar las variantes de nombre y agregarlas a la característica (por ejemplo: <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Otra opción es colocar las variantes de nombre en el informe y reemplazarlas por un valor uniforme en todos los sitios. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Crear nuevas características</b> </p> </td> 
@@ -57,14 +57,14 @@ Revise este informe para identificar las señales huérfanas que se pueden asign
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Buscar valores no asignados</b> </p> </td> 
-   <td colname="col2"> <p>Revise el informe del número 1. El número 1 de un informe de Señales <span class="wintitle"> no utilizadas</span> representa un valor nulo. Esto no es necesariamente malo. Simplemente significa que una clave en particular no tiene una asignación de valores asociada. Cuando vea muchos valores de 1 para una variable importante, consulte con el equipo del sitio para asegurarse de que todas las páginas estén etiquetadas correctamente. </p> </td> 
+   <td colname="col2"> <p>Revise el informe del número 1. El número 1 de un informe <span class="wintitle"> Señales no utilizadas</span> representa un valor nulo. Esto no es necesariamente malo. Simplemente significa que una clave en particular no tiene una asignación de valores asociada. Cuando vea muchos valores de 1 para una variable importante, consulte con el equipo del sitio para asegurarse de que todas las páginas estén etiquetadas correctamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Prácticas recomendadas
 
-Ejecute y verifique el [!UICONTROL Unused Signals] informe:
+Ejecute y verifique el informe [!UICONTROL Unused Signals]:
 
 * Después de crear una característica o actualizar las reglas de características. Esto ayuda a garantizar que las características y las reglas estén configuradas correctamente. El número 1 en los resultados indica que una nueva característica puede no estar correctamente configurada.
 * Bi-semanal o mensual. Las revisiones programadas ayudan a garantizar que las asignaciones de características estén actualizadas.
@@ -76,8 +76,8 @@ Ejecute y verifique el [!UICONTROL Unused Signals] informe:
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
 * Ambos ejemplos muestran una característica que contiene dos pares de clave-valor v y a. La primera expresión se traduce en: la característica contiene la clave v con el valor 1 [!UICONTROL AND NOT] la clave a con el valor 23. La segunda expresión contiene la clave v con el valor 1 [!UICONTROL AND] la clave a con el valor [!UICONTROL NOT EQUAL] 23.
-* Teniendo en cuenta las dos expresiones anteriores, supongamos que busca en la [!UICONTROL Unused Signals Report] búsqueda de los valores que se pasan a la clave a con cualquier valor diferente a 23, solo obtendrá resultados en el primer caso porque los valores de la clave no se enviaron EN ABSOLUTO. En el segundo caso, se enviaron valores diferentes a 23, por lo que la clave a no se utiliza.
+* Teniendo en cuenta las dos expresiones anteriores, supongamos que busca en la [!UICONTROL Unused Signals Report] los valores que se pasan en la clave a con cualquier valor diferente a 23, solo obtendrá resultados en el primer caso porque los valores de la clave no se enviaron EN ABSOLUTO. En el segundo caso, se enviaron valores diferentes a 23, por lo que la clave a no se utiliza.
 
 ## Creación de rasgos masivos
 
-Póngase en contacto con el representante de soluciones de socio si necesita crear un montón de características en base a los datos obtenidos del [!UICONTROL Unused Signals] informe.
+Póngase en contacto con el representante de soluciones de socio si necesita crear masivamente muchas características en base a los datos obtenidos del informe [!UICONTROL Unused Signals].
