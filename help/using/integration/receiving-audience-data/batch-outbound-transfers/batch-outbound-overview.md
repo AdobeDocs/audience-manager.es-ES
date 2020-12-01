@@ -1,7 +1,7 @@
 ---
 description: El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 seo-description: Adobe Audience Manager (AAM) envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
-seo-title: Transferencias de datos salientes por lotes en Adobe Audience Manager (AAM)
+seo-title: Transferencias de datos de salida por lotes en Adobe Audience Manager (AAM)
 title: 'Transferencias de datos de salida por lotes '
 feature: Outbound Data Transfers
 translation-type: tm+mt
@@ -39,4 +39,4 @@ El Audience Manager envía datos por lotes a proveedores de contenido de tercero
 
 * [Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos salientes](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   El proceso de transferencia de datos de salida para clientes que utilizan Amazon Simple Almacenamiento Service (Amazon S3) requiere que pidamos la clave de acceso y la clave secreta de Amazon S3 para poder entregar los archivos de datos de salida a su bucket.
+   El proceso de transferencia de datos de salida para clientes que utilizan el servicio de Almacenamiento simple de Amazon (Amazon S3) requiere que pidamos la clave de acceso y la clave secreta de Amazon S3 para poder entregar los archivos de datos de salida a su bucket.
