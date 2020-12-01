@@ -1,6 +1,6 @@
 ---
-description: Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
-seo-description: Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
+description: Asigne un nombre al archivo de metadatos de Audience Optimization según estas especificaciones.
+seo-description: Asigne un nombre al archivo de metadatos de Audience Optimization según estas especificaciones.
 seo-title: Convenciones de nomenclatura para archivos de metadatos
 solution: Audience Manager
 title: Convenciones de nomenclatura para archivos de metadatos
@@ -17,24 +17,24 @@ ht-degree: 10%
 
 # Convenciones de nomenclatura para archivos de metadatos{#naming-conventions-for-metadata-files}
 
-Asigne un nombre al archivo de metadatos de optimización de Audiencia según estas especificaciones.
+Asigne un nombre al archivo de metadatos de Audience Optimization según estas especificaciones.
 
-## Sintaxis e Categorías de ID {#syntax}
+## Sintaxis y Categorías de ID {#syntax}
 
-La siguiente sintaxis define la estructura de un nombre de archivo de metadatos bien formado. Note, *italics* indicates a variable placeholder. Los demás elementos son constantes y no cambian.
+La siguiente sintaxis define la estructura de un nombre de archivo de metadatos bien formado. Nota: *cursiva* indica un marcador de posición de variable. Los demás elementos son constantes y no cambian.
 
 **Sintaxis:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*No utilice* extensiones de archivo en los archivos de metadatos (.txt u otros).
+>*No* utilice extensiones de archivo en los archivos de metadatos (.txt u otros).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
 * El componente medio **0** es técnicamente el ID principal, que es un campo heredado. El valor siempre debe establecerse como **0**.
 * El ID secundario puede tener un valor entre 1 y 10, según la dimensión. Vea lo siguiente:
 
-## Dimensiones del ID secundario {#child-dimension}
+## Dimensiones de ID secundarias {#child-dimension}
 
 En el nombre del archivo de metadatos, el ID secundario es un identificador que clasifica el tipo de datos de un archivo y lo coloca en una jerarquía. Puede etiquetar el ID secundario en el nombre del archivo con los siguientes ID de categoría:
 
@@ -43,7 +43,7 @@ En el nombre del archivo de metadatos, el ID secundario es un identificador que 
 1. Ubicación
 1. Exchange
 1. Sitio
-1. Anunciante (si utiliza códigos de integración en un origen [](../../../features/manage-datasources.md#details)de datos)
+1. Anunciante (si utiliza códigos de integración en una [fuente de datos](../../../features/manage-datasources.md#details))
 1. Orden de inserción (E/S)
 1. Vertical (es decir, una industria o categoría empresarial específica como &quot;computadoras&quot;, &quot;automóviles&quot;, &quot;bienes raíces&quot;, etc.)
 1. Táctica
