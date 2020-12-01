@@ -16,29 +16,29 @@ ht-degree: 6%
 ---
 
 
-# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
+# Enviar datos por lotes a [!DNL Audience Manager] Información general {#send-batch-data-to-audience-manager-overview}
 
-Información general para clientes técnicos y no técnicos que deseen introducir datos de otros sistemas (sin conexión) en [!DNL Audience Manager].
+Información general para clientes técnicos y no técnicos que desean traer datos de otros sistemas (sin conexión) a [!DNL Audience Manager].
 
 ## Ventajas
 
-Puede hacer que los datos de otros sistemas estén disponibles en [!DNL Audience Manager]. Nuestro sistema puede ayudarle a desbloquear valor y a aprovechar los datos de usuario que ha recopilado anteriormente. Esto incluye información sobre compras, encuestas de clientes, datos de registro, bases de datos, [!DNL CRM] etc. Aunque cada integración presenta sus propios desafíos, todos comparten estos pasos comunes. Revise este material para reducir el esfuerzo necesario para poner en línea los datos sin conexión.
+Puede hacer que los datos de otros sistemas estén disponibles en [!DNL Audience Manager]. Nuestro sistema puede ayudarle a desbloquear valor y a aprovechar los datos de usuario que ha recopilado anteriormente. Esto incluye información sobre compras, encuestas de clientes, datos de registro, [!DNL CRM] bases de datos, etc. Aunque cada integración presenta sus propios desafíos, todos comparten estos pasos comunes. Revise este material para reducir el esfuerzo necesario para poner en línea los datos sin conexión.
 
 ## Paso 1: Sincronizar ID de usuario
 
-Durante la sincronización, [!DNL Audience Manager] asigna ID únicos a los clientes y a sus usuarios. Estos ID se conocen como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) y [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] utiliza [!UICONTROL DPID] y [!UICONTROL UUID] para identificar a los usuarios y calificarlos para grupos [!UICONTROL traits], [!UICONTROL segments]de audiencia y para sistemas de informes. Además, nuestro código de recopilación de datos ([!UICONTROL DIL]) busca estos ID para capturar datos de visitante de su sitio web. Cuando se complete este paso, [!DNL Audience Manager] y el repositorio sin conexión debe contener los ID correspondientes para cada registro de usuario.
+Durante la sincronización, [!DNL Audience Manager] asigna ID únicos a los clientes y a sus usuarios. Estos ID se conocen como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) y [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] utiliza  [!UICONTROL DPID] y  [!UICONTROL UUID] para identificar a los usuarios y calificarlos para grupos de  [!UICONTROL traits]audiencia,  [!UICONTROL segments]grupos de sistemas de informes y para su uso. Además, nuestro código de recopilación de datos ([!UICONTROL DIL]) busca estos ID para capturar datos de visitante de su sitio web. Cuando se complete este paso, [!DNL Audience Manager] y el repositorio sin conexión deben contener los ID correspondientes para cada registro de usuario.
 
 Consideraciones importantes sobre este paso:
 
-* **Ubicación del ID de cliente:** [!DNL Audience Manager] necesita saber dónde aparece su ID de cliente en su sitio web (por ejemplo: está almacenada en una cookie, una variable de Analytics, en el código de página, etc.).
-* **Excluir[!DNL PII]:** Los ID de usuario no deben contener información de identificación personal ([!DNL PII]).
-* **Distinción entre mayúsculas y minúsculas y contenido:** Durante una sincronización de datos en tiempo real, los ID de usuario capturados en el sitio por [!DNL Audience Manager] deben corresponderse con los ID pasados desde el repositorio sin conexión. Por ejemplo: si los registros sin conexión contienen información sobre [!DNL User123], pero el sitio procesa esa ID como [!DNL USER123], [!DNL Audience Manager] la ve como visitantes diferentes. Como resultado, la información en línea de este visitante no se puede asociar con los registros correspondientes de la base de datos sin conexión. Los ID deben coincidir exactamente.
+* **Ubicación del ID de cliente:** [!DNL Audience Manager] necesita saber dónde aparece el ID de cliente en el sitio web (por ejemplo, si se almacena en una cookie, una variable de Analytics, en el código de página, etc.).
+* **Excluir  [!DNL PII]:Los ID** de usuario no deben contener información de identificación personal ([!DNL PII]).
+* **Distinción entre mayúsculas y minúsculas y contenido:** Durante una sincronización de datos en tiempo real, los ID de usuario capturados en el sitio por  [!DNL Audience Manager] deben corresponder a los ID pasados desde el repositorio sin conexión. Por ejemplo: si los registros sin conexión contienen información sobre [!DNL User123] pero el sitio procesa esa ID como [!DNL USER123], [!DNL Audience Manager] los ve como visitantes diferentes. Como resultado, la información en línea de este visitante no se puede asociar con los registros correspondientes de la base de datos sin conexión. Los ID deben coincidir exactamente.
 
-See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
+Consulte [Sincronización de ID para transferencias de datos de entrada](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
 ## Paso 2: Formato de archivo de datos
 
-Los nombres de archivo y el contenido siguen directrices estrictas. En esta guía *debe* nombrar y organizar los archivos de datos según estas especificaciones. Consulte:
+Los nombres de archivo y el contenido siguen directrices estrictas. Usted *debe* nombrar y organizar los archivos de datos según estas especificaciones en esta guía. Consulte:
 
 * [Requisitos de nombre de Amazon S3 para archivos de datos de entrada](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [Contenido del archivo de datos de entrada: Sintaxis, variables y ejemplos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
@@ -83,4 +83,4 @@ Al poner los datos sin conexión en línea, puede seguir utilizando esta informa
 
 ## Lectura técnica adicional
 
-Los ingenieros de sistemas, desarrolladores o equipos técnicos/de implementación deben revisar el proceso [de transferencia de datos por lotes descrito](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) y los demás artículos de esta sección. Estos artículos proporcionan detalles sobre los protocolos de transferencia, el contenido de los archivos y los requisitos de nombre de archivo.
+Los ingenieros de sistemas, desarrolladores o equipos técnicos/de implementación deben revisar [Proceso de transferencia de datos por lotes descrito](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) y los demás artículos de esta sección. Estos artículos proporcionan detalles sobre los protocolos de transferencia, el contenido de los archivos y los requisitos de nombre de archivo.
