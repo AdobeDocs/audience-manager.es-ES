@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # Introducción a la administración en lote{#getting-started-with-bulk-management}
 
-Permite [!DNL Bulk Management Tools] crear y administrar varios objetos a la vez con una sola operación. Puede usar [!DNL Bulk Management Tools] para trabajar con [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]y [!UICONTROL traits].
+El [!DNL Bulk Management Tools] permite crear y administrar varios objetos a la vez con una sola operación. Puede utilizar [!DNL Bulk Management Tools] para trabajar con [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments] y [!UICONTROL traits].
 
 <!-- 
 
@@ -28,24 +28,24 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la interfaz de [!DNL Audience Manager] usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los ](../../features/administration/administration-overview.md) permisos de grupo RBAC asignados en la interfaz de  [!DNL Audience Manager] usuario se respetan en la  [!UICONTROL Bulk Management Tools].
 
 ## Información general {#overview}
 
-This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. La API proporciona los métodos y servicios que permiten realizar cambios de forma masiva. No es necesario que sepa cómo codificar o trabajar con nuestras API para usarlas. La hoja de cálculo contiene encabezados de columna y fichas que realizan funciones específicas de cambio masivo. Para realizar cambios masivos, solo tiene que agregar los encabezados predefinidos a hojas de cálculo específicas, proporcionar la información que desea cambiar de forma masiva y hacer clic en un botón de acción. La hoja de cálculo y las API realizan el resto del trabajo por usted.
+Esta función utiliza una [!DNL Microsoft Excel] hoja de cálculo con macros que realizan llamadas seguras y autenticadas a las API [!DNL Audience Manager]. La API proporciona los métodos y servicios que permiten realizar cambios de forma masiva. No es necesario que sepa cómo codificar o trabajar con nuestras API para usarlas. La hoja de cálculo contiene encabezados de columna y fichas que realizan funciones específicas de cambio masivo. Para realizar cambios masivos, solo tiene que agregar los encabezados predefinidos a hojas de cálculo específicas, proporcionar la información que desea cambiar de forma masiva y hacer clic en un botón de acción. La hoja de cálculo y las API realizan el resto del trabajo por usted.
 
 ## Descargar {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
+Descargue la última hoja de cálculo **[aquí](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Requisitos previos {#prereqs}
 
-Para usar el [!DNL Bulk Management Tools], necesita lo siguiente:
+Para utilizar [!DNL Bulk Management Tools], necesita lo siguiente:
 
-* Su [!DNL Experience Cloud] inicio de sesión. Como cliente, ya debería tener estas credenciales.
-* La [!DNL Bulk Management Tools] hoja de cálculo. [Descargue la hoja de cálculo](assets/BAAAM_V2_20200502.xlsm) para obtener la versión más reciente.
-* [!DNL Microsoft Excel] se ejecuta en [!DNL macOS] o 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel].
-* Al abrir la hoja de cálculo, debe **activar macros** para que [!DNL Bulk Management Tools] funcione.
+* Su inicio de sesión [!DNL Experience Cloud]. Como cliente, ya debería tener estas credenciales.
+* La hoja de cálculo [!DNL Bulk Management Tools]. [Descargue la ](assets/BAAAM_V2_20200502.xlsm) hoja de cálculo para obtener la versión más reciente.
+* [!DNL Microsoft Excel] en ejecución  [!DNL macOS] o de 64 bits  [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel].
+* Al abrir la hoja de cálculo, debe **Habilitar macros** para que [!DNL Bulk Management Tools] funcione.
 
 ## Requisitos y opciones de autenticación {#auth-reqs}
 
@@ -53,7 +53,7 @@ Los cambios masivos requieren autenticación. Antes de realizar cualquier acció
 
 **Requisitos de autenticación de API**
 
-La segunda versión del [!DNL Bulk Management Tools], lanzada en octubre de 2019, simplifica el proceso de autenticación. Los pasos de autenticación de esta versión se describen a continuación:
+La segunda versión de [!DNL Bulk Management Tools], lanzada en octubre de 2019, simplifica el proceso de autenticación. Los pasos de autenticación de esta versión se describen a continuación:
 
 1. Abra la hoja de cálculo y vaya a la **[!UICONTROL Config]** hoja.
 2. Siga los pasos descritos en la hoja.
@@ -71,13 +71,13 @@ La autenticación de dominio le ofrece la opción de probar solicitudes masivas 
 
 ## Acciones y operaciones {#actions-ops}
 
-La [!UICONTROL Bulk Management Tools] hoja de cálculo consta de botones de autenticación, fichas de acción, botones de acción y una **[!UICONTROL Headers]** ficha. La **[!UICONTROL Headers]** ficha contiene los encabezados de columna con formato previo que utilizan las fichas de acción. Las fichas de acción contienen macros que realizan la operación masiva seleccionada. Para realizar una operación masiva, copie un conjunto de encabezados en la ficha de acción correspondiente, introduzca los datos del encabezado y haga clic en un botón de acción.
+La hoja de cálculo [!UICONTROL Bulk Management Tools] consta de botones de autenticación, fichas de acción, botones de acción y una ficha **[!UICONTROL Headers]**. La ficha **[!UICONTROL Headers]** contiene los encabezados de columna con formato previo que utilizan las fichas de acción. Las fichas de acción contienen macros que realizan la operación masiva seleccionada. Para realizar una operación masiva, copie un conjunto de encabezados en la ficha de acción correspondiente, introduzca los datos del encabezado y haga clic en un botón de acción.
 
 Después de [autenticarse](#auth-reqs), haga clic en un botón de acción para comenzar.
 
 ![](assets/baaam-worksheet.png)
 
-La siguiente tabla lista las operaciones que puede realizar y los elementos que puede manipular con las [!UICONTROL Bulk Management Tools] hojas de cálculo.
+La siguiente tabla lista las operaciones que puede realizar y los elementos que puede manipular con las hojas de cálculo [!UICONTROL Bulk Management Tools].
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
@@ -102,7 +102,7 @@ La siguiente tabla lista las operaciones que puede realizar y los elementos que 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Señales derivadas</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinos </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelos</a> </li> 
-      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Carpetas</a> de características y carpetas de segmentos </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Carpetas de características y </a> carpetas de segmentos </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmentos </a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Rasgos </a> </li> 
      </ul> </p> </td> 
@@ -114,12 +114,12 @@ La siguiente tabla lista las operaciones que puede realizar y los elementos que 
 
 Como ejemplo, veamos cómo crear varias características a la vez. Para crear varias características en una operación masiva, debe:
 
-1. Haga clic en la **[!UICONTROL Headers]** ficha y copie todas las etiquetas de la [!UICONTROL Create a Trait] opción.
-2. Haga clic en la **[!UICONTROL Create]** ficha y pegue las etiquetas comenzando en la fila 1, columna A.
+1. Haga clic en la ficha **[!UICONTROL Headers]** y copie todas las etiquetas bajo la opción [!UICONTROL Create a Trait].
+2. Haga clic en la ficha **[!UICONTROL Create]** y pegue las etiquetas comenzando en la fila 1, columna A.
 3. Proporcione información relacionada con cada encabezado de columna y haga clic en **[!UICONTROL Create Traits]**. Esta acción le solicita que confirme su autenticación. El trabajo masivo se ejecuta después de confirmar la autenticación. Compruebe en la esquina inferior izquierda de la hoja de cálculo si hay una notificación de estado del trabajo.
 
 
 >[!NOTE]
 >
->Cuando se trabaja con solicitudes grandes, la hoja de cálculo podría no responder y parecer inactiva. En estos casos, déjalo en paz. La hoja de cálculo responderá cuando se complete la solicitud masiva. Si la hoja de cálculo no responde durante un largo período de tiempo, consulte la sección [de](../../reference/bulk-management-tools/bulk-troubleshooting.md)solución de problemas.
+>Cuando se trabaja con solicitudes grandes, la hoja de cálculo podría no responder y parecer inactiva. En estos casos, déjalo en paz. La hoja de cálculo responderá cuando se complete la solicitud masiva. Si la hoja de cálculo no responde durante un largo período de tiempo, consulte la sección [solución de problemas](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 
