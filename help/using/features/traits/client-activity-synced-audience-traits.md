@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Rasgos de la Audiencia activa y rasgos sincronizados de la fuente de datos {#active-audience-traits-and-data-source-synced-traits}
 
-Estos son rasgos especiales que usa [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] y [!UICONTROL Data Source Synced Traits] se encuentran en [!UICONTROL Audience Data > Traits > Audience Traits].
+Estos son rasgos especiales que [!UICONTROL Addressable Audiences] utiliza. [!UICONTROL Active Audience] y  [!UICONTROL Data Source Synced Traits] se encuentran en  [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
@@ -25,19 +25,19 @@ Estos son rasgos especiales que usa [!UICONTROL Addressable Audiences]. [!UICONT
 
 ## Características de Audiencia activa {#active-audience-traits}
 
-Una [!UICONTROL Active Audience] característica contiene todos los dispositivos que se administran en su [!DNL Audience Manager] cuenta. Puede usar una característica [!UICONTROL Active Audience Trait] similar a otras al crear o editar segmentos. Además, las Audiencias [](../../features/addressable-audiences.md) direccionables requieren esta característica para generar datos de superposición. De forma predeterminada, todas las cuentas tienen una [!UICONTROL Active Audience] característica. No se puede eliminar esta característica.
+Una característica [!UICONTROL Active Audience] contiene todos los dispositivos que se administran en su cuenta [!DNL Audience Manager]. Puede utilizar un [!UICONTROL Active Audience Trait] como otras características al crear o editar segmentos. Además, [Audiencias direccionables](../../features/addressable-audiences.md) requiere esta característica para generar datos de superposición. Todas las cuentas tienen una característica [!UICONTROL Active Audience] de forma predeterminada. No se puede eliminar esta característica.
 
 ## Características sincronizadas de la fuente de datos {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] aparecerá en la [!UICONTROL Audience Traits] carpeta cuando [cree o edite un origen de datos](../../features/manage-datasources.md#create-data-source) y aplique cualquiera de estas opciones:
+[!UICONTROL Data Source Synced Traits] aparecerá en la  [!UICONTROL Audience Traits] carpeta cuando  [cree o edite una ](../../features/manage-datasources.md#create-data-source) fuente de datos y aplique cualquiera de estas opciones:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Puede usar una característica [!UICONTROL Data Source Synched Trait] similar a otras al crear o editar segmentos. Al crear un [!UICONTROL Data Source Synced Trait], el nombre de la característica coincide con el nombre utilizado por el origen de datos. Edite el origen de datos para cambiar el nombre de la característica. No se pueden eliminar estas características.
+[!UICONTROL Data Source Synced Traits] realizar un seguimiento de todos los usuarios asociados a un origen de datos. Puede utilizar un [!UICONTROL Data Source Synched Trait] como otras características al crear o editar segmentos. Al crear un [!UICONTROL Data Source Synced Trait], el nombre de la característica coincide con el nombre utilizado por el origen de datos. Edite el origen de datos para cambiar el nombre de la característica. No se pueden eliminar estas características.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] son útiles para la resolución de problemas. Haga clic en el nombre de una característica para comprobar las métricas en la página de resumen de características. Si la característica seleccionada devuelve datos, esto indica que el proceso de sincronización de ID está configurado correctamente y se están insertando datos en [!DNL Audience Manager].
+>[!UICONTROL Data Source Synced Traits] son útiles para la resolución de problemas. Haga clic en el nombre de una característica para comprobar las métricas en la página de resumen de características. Si la característica seleccionada devuelve datos, indica que el proceso de sincronización de ID está configurado correctamente y envía datos a [!DNL Audience Manager].
 
 >[!MORELIKETHIS]
 >
