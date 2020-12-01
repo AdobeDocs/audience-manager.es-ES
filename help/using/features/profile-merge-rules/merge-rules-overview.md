@@ -27,23 +27,23 @@ Generalmente, la segmentación y la segmentación de audiencias dependen de los 
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] cambia fundamentalmente la forma en que [!DNL Audience Manager] recopila datos y segmenta a los usuarios para la segmentación. Le permite trabajar con dos tipos distintos de perfiles, un perfil de dispositivo y un perfil [](../../reference/visitor-authentication-states.md)autenticado.
+[!UICONTROL Profile Merge Rules] cambia fundamentalmente la forma en que  [!DNL Audience Manager] recopila datos y segmenta a los usuarios para la segmentación. Le permite trabajar con dos tipos distintos de perfiles, un perfil de dispositivo y un [perfil autenticado](../../reference/visitor-authentication-states.md).
 
-| Tipo de Perfil | Descripción |
+| Tipo de perfil | Descripción |
 |---|---|
-| [!UICONTROL Device Profile] | Un ID [!UICONTROL device profile] está vinculado a un ID de un dispositivo determinado, como un ID [!UICONTROL cookie] o un ID de dispositivo móvil.<br><br> Incluye:<ul><li>[!UICONTROL Rule-based traits] se realiza cuando un usuario no está autenticado.</li><li>[!UICONTROL Onboarded traits] vinculado a un ID de dispositivo como, por ejemplo, datos de terceros [!UICONTROL cookie-based].</li></ul> |
+| [!UICONTROL Device Profile] | Un [!UICONTROL device profile] está ligado a un ID para un dispositivo determinado, como un ID de [!UICONTROL cookie] o un ID de dispositivo móvil.<br><br> Incluye:<ul><li>[!UICONTROL Rule-based traits] se realiza cuando un usuario no está autenticado.</li><li>[!UICONTROL Onboarded traits] vinculado a un ID de dispositivo como, por ejemplo, datos de terceros  [!UICONTROL cookie-based].</li></ul> |
 | [!UICONTROL Authenticated Profile] | El [!UICONTROL authenticated profile] está vinculado a un ID de usuario que se pasa cuando una persona inicia sesión en el sitio.<br><br>Incluye:<ul><li>[!UICONTROL Rule-based traits] se recopilan en todos los dispositivos cuando se autentica a un usuario.</li><li>[!UICONTROL Onboarded traits] en un archivo sin conexión vinculado al mismo ID de usuario.</li></ul> |
 
-Estos diferentes perfiles controlan los datos que puede utilizar para la segmentación. Por ejemplo, con un perfil [](../../reference/visitor-authentication-states.md)autenticado, puede crear datos precisos [!UICONTROL segments] basados en datos de varios dispositivos para un solo usuario. Esto significa que puede ofrecer una experiencia de marca uniforme a los clientes en varios dispositivos. [!DNL Audience Manager] lo logra almacenando la asignación de los diferentes dispositivos que una persona utiliza para sus actividades en línea a su perfil [](../../reference/visitor-authentication-states.md)autenticado. Estas asignaciones se denominan [!UICONTROL Profile Link Device Graph].
+Estos diferentes perfiles controlan los datos que puede utilizar para la segmentación. Por ejemplo, con un [perfil autenticado](../../reference/visitor-authentication-states.md), puede generar datos precisos [!UICONTROL segments] basados en datos de varios dispositivos para un solo usuario. Esto significa que puede ofrecer una experiencia de marca uniforme a los clientes en varios dispositivos. [!DNL Audience Manager] lo logra almacenando la asignación de los diferentes dispositivos que una persona utiliza para sus actividades en línea a su perfil [ ](../../reference/visitor-authentication-states.md)autenticado. Estas asignaciones se denominan [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
 ## Ventajas {#advantages}
 
-Con [!UICONTROL Profile Merge Rules] usted puede:
+Con [!UICONTROL Profile Merge Rules] puede:
 
-* Destinatario usuarios en función de perfiles [](../../reference/visitor-authentication-states.md)autenticados, perfiles anónimos o combinaciones de ambos.
+* Usuarios de destinatario basados en [perfil autenticado](../../reference/visitor-authentication-states.md), perfiles anónimos o combinaciones de ambos.
 * Destinatario a un cliente específico en sus dispositivos.
 * Cree un gráfico de dispositivos basado en datos determinísticos.
-* Ajuste los datos del sitio [!UICONTROL segments] en función de diferentes perfiles.
+* Ajuste los datos de su [!UICONTROL segments] basándose en diferentes perfiles.
 * Obtenga información adicional sobre su audiencia.
