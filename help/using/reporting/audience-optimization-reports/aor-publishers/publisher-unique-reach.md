@@ -21,25 +21,25 @@ El informe Alcance del usuario único devuelve datos en un gráfico de burbujas.
 
 ## Caso de uso {#use-cases}
 
-Con el [!UICONTROL Unique User Reach] informe, puede identificar las propiedades de su portafolio que atraen un gran volumen de usuarios únicos.
+Con el informe [!UICONTROL Unique User Reach], puede identificar las propiedades de su portafolio que atraen un gran volumen de usuarios únicos.
 
 ## Uso del informe Alcance único {#using-the-report}
 
-Utilice el **[!UICONTROL Dimension Value]** cuadro para seleccionar las unidades de publicidad que desee mostrar en el informe. Haga clic en **[!UICONTROL All]** para mostrar todas las propiedades en el gráfico de burbujas.
+Utilice el cuadro **[!UICONTROL Dimension Value]** para seleccionar las unidades de publicidad que desee mostrar en el informe. Haga clic en **[!UICONTROL All]** para mostrar todas las propiedades en el gráfico de burbujas.
 
-Utilice los controles Intervalo **de** días y **Fecha a través** para ajustar el intervalo retrospectivo.
+Utilice los controles **Intervalo de días** y **Pasar a la fecha** para ajustar el intervalo retrospectivo.
 
 ## Interpretación de los resultados {#interpreting-results}
 
 **Informe de muestra**
 
-Su [!UICONTROL Unique User Reach] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes. Consulte las descripciones de la información adicional en la tabla siguiente.
+Su informe [!UICONTROL Unique User Reach] podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes. Consulte las descripciones de la información adicional en la tabla siguiente.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Elemento | Descripción |
 |--- |--- |
-| Valor de dimensión | Nombre de la propiedad web. |
-| Tipo de dimensión | Tipo de dimensión de editor. Actualmente solo se admite la unidad de publicidad como tipo de dimensión. |
+| Valor del Dimension | Nombre de la propiedad web. |
+| Tipo de Dimension | Tipo de dimensión de editor. Actualmente solo se admite la unidad de publicidad como tipo de dimensión. |
 | Impresiones | El número de impresiones que se han servido para la propiedad web dentro del intervalo de retroceso especificado. |
 | Alcance único | El número único de usuarios a los que llegaron las impresiones en las propiedades web. |
