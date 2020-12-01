@@ -27,21 +27,21 @@ Audience Manager también admite archivos sin comprimir.
 
 >[!IMPORTANT]
 >
->No se admite el cifrado en archivos de entrada comprimidos mediante gzip (`.gz`).
+>No se admite el cifrado en archivos de entrada comprimidos con gzip (`.gz`).
 >
->Para cifrar y comprimir archivos de entrada, utilice el cifrado [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] el cifrado incluye compresión de archivos.
+>Para cifrar y comprimir archivos entrantes, utilice [cifrado PGP](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] el cifrado incluye compresión de archivos.
 
-## Compresión de Amazon S3
+## Compresión Amazon S3
 
-Para que envío [!DNL Amazon S3], debe utilizar `.gz` o descomprimir archivos. Los archivos comprimidos deben tener 1 GB o menos. Si los archivos son más grandes, consulte el proceso de transferencia y archivo con el Servicio de atención al cliente. Aunque [!DNL Audience Manager] puede manejar archivos muy grandes, puede haber maneras de reducir el tamaño del archivo o hacer que la transferencia de datos sea más eficiente.
+Para envío a [!DNL Amazon S3], debe utilizar `.gz` o archivos sin comprimir. Los archivos comprimidos deben tener 1 GB o menos. Si los archivos son más grandes, consulte el proceso de transferencia y archivo con el Servicio de atención al cliente. Aunque [!DNL Audience Manager] puede manejar archivos muy grandes, puede haber maneras de reducir el tamaño del archivo o hacer que la transferencia de datos sea más eficiente.
 
 >[!IMPORTANT]
 >
->El [!DNL FTP] cliente debe utilizar el modo binario para transferir archivos comprimidos o cifrados. Los archivos comprimidos o cifrados enviados en [!DNL ASCII] modo dañarán el archivo de transferencia de datos.
+>El cliente [!DNL FTP] debe utilizar el modo binario para transferir archivos comprimidos o cifrados. Los archivos comprimidos o cifrados enviados en modo [!DNL ASCII] dañarán el archivo de transferencia de datos.
 
 ## Prácticas recomendadas
 
-* Los archivos deben [!DNL .gzip] comprimirse (y tener una extensión [!DNL .gz] de archivo).
-* El tamaño máximo de archivo comprimido para un archivo `.gz` comprimido es de 1 GB.
+* Los archivos deben estar [!DNL .gzip] comprimidos (y tener una [!DNL .gz] extensión de archivo).
+* El tamaño máximo de archivo comprimido para un archivo comprimido `.gz` es de 1 GB.
 * Los tamaños de división óptimos, para el procesamiento más rápido y más temprano de los archivos, son de aproximadamente 1 GB sin comprimir o de 200 a 300 MB comprimidos.
 * [!DNL Amazon S3] impone su propio límite de tamaño de archivo de 5 GB en los archivos cargados.
