@@ -23,6 +23,6 @@ Métodos que permiten trabajar mediante programación con carpetas de rasgos y s
 
 >[!IMPORTANT]
 >
->Los métodos de carpeta [!DNL API] se han reescrito [!DNL Swagger] y migrado. Consulte:  >
+>Los métodos [!DNL API] de la carpeta se han reescrito con [!DNL Swagger] y se han migrado. Consulte:  >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
