@@ -113,6 +113,6 @@ Puede utilizar la integración [!DNL WCA] de Audience Manager para [!DNL Faceboo
 
 Estas dos integraciones son complementarias; pueden utilizarse las dos para garantizar una mejor cobertura de audiencia. Por ejemplo, [!DNL WCA] se puede utilizar para la prospección cuando una compañía busca visitantes de sitios web de destinatario que no han registrado una cuenta, mientras que [!DNL People-Based Destinations] puede ayudarle a dirigir a los clientes existentes que han proporcionado su dirección de correo electrónico pero que quizá no hayan visitado el sitio web.
 
-**¿La[!DNL People-Based Destinations]integración con[!DNL Facebook]soporte descalifica a los usuarios de una audiencia cuando ya no cumplen los requisitos para ella?**
+**¿La  [!DNL People-Based Destinations] integración con la  [!DNL Facebook] compatibilidad descalifica a los usuarios de una audiencia cuando ya no cumplen los requisitos para ella?**
 
-Sí, la integración admite la eliminación de usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos.
+Sí, la integración admite la eliminación de usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos para ellas.
