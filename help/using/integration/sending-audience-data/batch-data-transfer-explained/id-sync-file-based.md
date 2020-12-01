@@ -86,13 +86,13 @@ Los siguientes ejemplos muestran nombres de archivos con el formato correcto. Lo
 </ul>
 
 >[!NOTE]
-> Para la nominación de archivos de sincronización de ID (prefijo c2c) para destinos basados en personas, consulte [Flujo de trabajo A - Personalización basada en toda la Actividad en línea combinada con datos](../../../features/destinations/people-based-destinations-workflow-combined.md) sin conexión o [Flujo de trabajo B - Personalización basada en datos](../../../features/destinations/people-based-destinations-workflow-offline.md)solo sin conexión.
+> Para la nominación de archivos de sincronización de ID (prefijo c2c) para destinos basados en personas, consulte [Flujo de trabajo A - Personalización basada en toda la Actividad en línea combinada con datos sin conexión](../../../features/destinations/people-based-destinations-workflow-combined.md) o [Flujo de trabajo B - Personalización basada en datos solo sin conexión](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
-## Sintaxis y ejemplos de contenido de archivos {#file-content-syntax}
+## Sintaxis y ejemplos del contenido del archivo {#file-content-syntax}
 
 El contenido de un archivo de ID incluye los siguientes elementos:
 
-*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+*`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
 El archivo contiene ID de usuario ([!DNL UUID]). En cada fila, separe los ID con una ficha. El siguiente ejemplo muestra un archivo de ID con el formato correcto. Su contenido podría tener un aspecto similar.
 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## La sincronización coincide con los DPUUID con los UUID {#sync-matches-dpuuids-uuids}
 
-El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID](../../../reference/ids-in-aam.md) de sus propias fuentes de datos con [!DNL Audience Manager] UUID. La sincronización asigna las [!DNL DPUUID]s del maestro [!DNL DPID] y sus [!DNL DPID]s relacionados a las [!DNL Audience Manager] [!DNL UUID]s. El lugar donde se colocan los ID en el nombre del archivo y en el cuerpo determina cómo se asignan estos identificadores entre sí. Por ejemplo, tome los dos archivos de ejemplo que se muestran aquí:
+El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID](../../../reference/ids-in-aam.md) de sus propias fuentes de datos con [!DNL Audience Manager] UUID. La sincronización asigna los [!DNL DPUUID]s desde el [!DNL DPID] maestro y sus [!DNL DPID]s relacionados a los [!DNL Audience Manager] [!DNL UUID]s. El lugar donde se colocan los ID en el nombre del archivo y en el cuerpo determina cómo se asignan estos identificadores entre sí. Por ejemplo, tome los dos archivos de ejemplo que se muestran aquí:
 
 * **Archivo 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -112,20 +112,20 @@ El propósito de un archivo de sincronización de ID es sincronizar los [DPUUID]
 
 Dado el nombre y el contenido de la muestra, los ID se asignan de esta manera:
 
-**Archivo 1** ( [Descargar archivo](assets/adobe_id_0_12345_1476312152.sync)de ejemplo)
+**Archivo 1** ( [Descargar archivo](assets/adobe_id_0_12345_1476312152.sync) de ejemplo)
 
 | DPID 0 = UUID de Adobe Audience Manager | DPID 12345 |
 |---|---|
-| 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
+| 6807998276567319850405265607456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
 | 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
 | 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s desde [!DNL DPID] 12345 con los [!DNL Audience Manager] [!DNL UUID]s de la columna izquierda. Tenga en cuenta que el [!DNL DPID] &quot;0&quot; en el nombre del archivo representa [!DNL Audience Manager] [!DNL UUID]s.
+Paso 1: el proceso de sincronización de ID sincronizará [!DNL DPUUID]s de [!DNL DPID] 12345 con [!DNL Audience Manager] [!DNL UUID]s en la columna izquierda. Tenga en cuenta que el [!DNL DPID] &quot;0&quot; en el nombre del archivo representa [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
-**Archivo 2** ( [Descargar archivo](assets/adobe_id_12345_67890_1477846458.sync)de ejemplo)
+**Archivo 2** ( [Descargar archivo](assets/adobe_id_12345_67890_1477846458.sync) de ejemplo)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -135,7 +135,7 @@ Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s des
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Paso 2: los [!DNL DPUUID]s de [!DNL DPID] 12345 se han sincronizado en el paso 1 con los Audience Manager [!DNL UUID]s. Lo que hará esta sincronización de ID es sincronizar [!DNL DPUUID]s desde [!DNL DPID] 67890 con los Audience Manager [!DNL UUID]del paso 1.
+Paso 2: el [!DNL DPUUID]s de [!DNL DPID] 12345 se ha sincronizado en el paso 1 con el Audience Manager [!DNL UUID]s. Lo que hará esta sincronización de ID es sincronizar los [!DNL DPUUID]s desde [!DNL DPID] 67890 con el Audience Manager [!DNL UUID]s desde el paso 1.
 
 <br/>
 
@@ -145,6 +145,6 @@ Los ID de usuario no pueden:
 
 * Tener fichas en el ID mismo. Las fichas solo se utilizan para separar ID individuales en el archivo de datos.
 * Contiene información de identificación personal ([!UICONTROL PII]).
-* Utilice [!DNL URL] la codificación. Pasar solo ID no codificados.
+* Utilice la codificación [!DNL URL]. Pasar solo ID no codificados.
 
 Las filas que terminen con tabuladores o espacios no se procesarán ni se realizarán. Como regla, asegúrese de mantener el final de las filas despejado.
