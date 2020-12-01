@@ -1,6 +1,6 @@
 ---
-description: Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Son indicadores visuales solamente.
-seo-description: Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Son indicadores visuales solamente.
+description: Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Sólo son indicadores visuales.
+seo-description: Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Sólo son indicadores visuales.
 seo-title: Convenciones de estilo para elementos de código y texto
 solution: Audience Manager
 title: Convenciones de estilo para elementos de código y texto
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Convenciones de estilo para elementos de código y texto{#style-conventions-for-code-and-text-elements}
 
-Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Son indicadores visuales solamente.
+Estos elementos identifican las opciones de código y las variables utilizadas en toda la documentación de ayuda. Generalmente, no se incluyen estos símbolos o elementos de estilo en el código o los archivos de datos. Sólo son indicadores visuales.
 
 <table id="table_EBEF9490D90041BD8B7ABE3AF1AF35B6"> 
  <thead> 
@@ -37,7 +37,7 @@ Estos elementos identifican las opciones de código y las variables utilizadas e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Los elementos entre paréntesis indican una opción booleana <span class="wintitle"> OR</span> . </p> </td> 
+   <td colname="col2"> <p>Los elementos entre paréntesis indican una opción booleana <span class="wintitle"> OR</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
