@@ -27,10 +27,10 @@ c_compintro.xml
 Esta guía proporciona una visión general básica de los componentes principales que alimentan [!DNL Audience Manager]. Está escrito para:
 
 * Lectores no técnicos y técnicos.
-* Los [!DNL Audience Manager] clientes actuales tienen curiosidad por cómo funciona todo.
-* Posibles [!DNL Audience Manager] clientes que necesiten evaluar este sistema como parte de un proceso de diligencia debida o solicitud de propuestas.
+* Los clientes actuales [!DNL Audience Manager] sienten curiosidad por saber cómo funciona todo.
+* Clientes potenciales [!DNL Audience Manager] que necesitan evaluar este sistema como parte de un proceso de diligencia debida o solicitud de propuestas.
 
-Esta guía trata de encontrar un equilibrio entre las descripciones generales y una inmersión profunda. Sin embargo, algunas cosas son de propiedad propia, así que no vamos allí. Después de todo, hay más en salsa especial que solo mayonesa y ketchup. Tenemos que mantener los pepinillos en secreto. Como siempre, puede consultar con su [!DNL Audience Manager] asesor si tiene alguna pregunta.
+Esta guía trata de encontrar un equilibrio entre las descripciones generales y una inmersión profunda. Sin embargo, algunas cosas son propiedad propia, así que no vamos allí. Después de todo, hay más en salsa especial que solo mayonesa y ketchup. Tenemos que mantener los pepinillos en secreto. Como siempre, puede consultar con su [!DNL Audience Manager] asesor si tiene alguna pregunta.
 
 * [Componentes clave en el sistema Audience Manager](/help/using/reference/system-components/components-stack.md)
 * [Componentes de acción de datos](/help/using/reference/system-components/components-data-action.md)
