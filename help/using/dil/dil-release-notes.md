@@ -1,6 +1,6 @@
 ---
-description: Consulte esta página para obtener información sobre las últimas versiones de DIL
-seo-description: Consulte esta página para obtener información sobre las últimas versiones de DIL
+description: Consulte esta página para obtener información sobre las últimas versiones de los DIL
+seo-description: Consulte esta página para obtener información sobre las últimas versiones de los DIL
 seo-title: Notas de la versión de DIL
 solution: Audience Manager
 title: Notas de la versión de DIL
@@ -16,5 +16,5 @@ ht-degree: 22%
 
 # Notas de la versión de DIL
 
-Consulte esta página para obtener información sobre las últimas versiones de DIL. DIL está disponible como descarga directa, con notas de la versión, en la página [de](https://github.com/Adobe-Marketing-Cloud/dil/releases)Github de Adobe.
+Consulte esta página para obtener información sobre las últimas versiones de DIL. DIL está disponible como descarga directa, con notas de la versión, en la [página de Github de Adobe](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
