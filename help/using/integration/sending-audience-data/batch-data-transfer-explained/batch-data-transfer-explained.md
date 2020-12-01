@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Proceso de transferencia de datos por lotes descrito {#batch-data-transfer-process-described}
 
-Información general sobre cómo [!DNL Audience Manager] realizar un intercambio de datos por lotes asincrónico con un proveedor de terceros.
+Información general sobre cómo [!DNL Audience Manager] realiza un intercambio de datos por lotes asincrónico con un proveedor de terceros.
 
 ## Integración de datos por lotes
 
@@ -37,4 +37,4 @@ El proceso de integración de datos por lotes guarda la información de visitant
 1. [!DNL Audience Manager] y el proveedor de datos de terceros asigna al visitante un ID único (generalmente con una cookie).
 1. [!DNL Audience Manager] llama al proveedor de datos de terceros para que coincida con los ID de visitante.
 1. Una solicitud programada, normalmente a intervalos diarios, intercambia datos de segmentos de visitante entre [!DNL Audience Manager] y su proveedor de datos de terceros.
-1. Cada vez que se procesa un [!UICONTROL Server-to-Server] archivo entrante, se envía un recibo por correo electrónico a las soluciones de socios y, si se configura, al socio. Para obtener más información, consulte Mensaje de [muestra a los socios después del procesamiento](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)entrante.
+1. Cada vez que se procesa un archivo [!UICONTROL Server-to-Server] entrante, se envía un recibo por correo electrónico a las soluciones de socios y, si se configura, al socio. Para obtener más información, consulte [Mensaje de muestra a los socios después del procesamiento entrante](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
