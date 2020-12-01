@@ -58,12 +58,12 @@ Si el modelo no produce resultados en un plazo de 24 horas, póngase en contacto
 
 Las razones por las que los modelos de [!UICONTROL Predictive Audiences] no producen resultados pueden ser varias:
 
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
+1. Ninguno de los personajes seleccionados [!UICONTROL traits] / [!UICONTROL segments] tiene suficientes perfiles de usuario. Le recomendamos que elija su [!UICONTROL traits] o [!UICONTROL segments] para que cada persona tenga al menos unos cuantos cientos de perfiles de usuario.
+1. Ninguno de los personajes seleccionados [!UICONTROL traits] / [!UICONTROL segments] tiene datos suficientes en sus perfiles de usuario (no hay suficientes características que analizar).
 1. La característica o el segmento de audiencia de destinatario no tiene ningún usuario activo o integrado.
 1. Los usuarios de la audiencia destinataria activos o incorporados en los últimos 30 días no tienen datos suficientes en sus perfiles de usuario (no tiene los rasgos suficientes para analizar).
-1. El segmento de audiencia de destinatario utiliza un segmento distinto [!UICONTROL Profile Merge Rule] del que eligió para el modelo.
-1. Es posible que la fuente de datos de las características de audiencia de destinatario no se incluya en el modelo [!UICONTROL Profile Merge Rule] que elija.
+1. El segmento de audiencia de destinatario utiliza un [!UICONTROL Profile Merge Rule] diferente del que eligió para el modelo.
+1. Es posible que la fuente de datos de sus características de audiencia de destinatario no se incluya en el [!UICONTROL Profile Merge Rule] que eligió para el modelo.
 
 Para obtener resultados óptimos, siga las directrices sugeridas en [Criterios de selección de personalidades](../features/algorithmic-models/predictive-audiences.md#selection-personas) y [Criterios de selección de la audiencia de destino](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
@@ -71,30 +71,30 @@ Para obtener resultados óptimos, siga las directrices sugeridas en [Criterios d
 
 **[!UICONTROL Error]¿Por qué mi modelo muestra el estado de ?**
 
-No se pudo ejecutar el modelo. In such cases, please reach out to your [!DNL Adobe] representative.
+No se pudo ejecutar el modelo. En esos casos, póngase en contacto con su [!DNL Adobe] representante.
 
  
 
-**¿Cómo puedo cambiar el [!UICONTROL Profile Merge Rule] por un [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**¿Cómo puedo cambiar el  [!UICONTROL Profile Merge Rule] de  [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
 
-Para crear un nuevo modelo, seleccione las mismas funciones y audiencia de destinatario que el modelo anterior. Durante la creación del modelo, asigne un [!UICONTROL Profile Merge Rule].
+Para crear un nuevo modelo, seleccione las mismas funciones y audiencia de destinatario que el modelo anterior. Durante la creación del modelo, asigne un [!UICONTROL Profile Merge Rule] diferente.
 
 >[!WARNING]
-> Como alternativa, puede utilizar el Generador [](../features/segments/segment-builder.md) de segmentos para crear manualmente un [!UICONTROL segment] predictivo existente [!UICONTROL trait] y asignarlo [!UICONTROL Profile Merge Rule] como desee.
+> Como alternativa, puede utilizar [Generador de segmentos](../features/segments/segment-builder.md) para crear manualmente un [!UICONTROL segment] con un predictivo [!UICONTROL trait] existente y asignarlo como [!UICONTROL Profile Merge Rule] de su elección.
 > 
-> Sin embargo, no recomendamos esta práctica, ya que la predicción [!UICONTROL traits] hereda automáticamente el [!UICONTROL Profile Merge Rule] modelo al que pertenecen, y se construyen a partir de influyentes [!UICONTROL traits] que cumplen con el [!UICONTROL Profile Merge Rule] modelo.
+> Sin embargo, no recomendamos esta práctica, ya que la [!UICONTROL traits] predictiva hereda automáticamente el [!UICONTROL Profile Merge Rule] modelo al que pertenecen y se construye a partir de [!UICONTROL traits] influyentes que cumplen con el [!UICONTROL Profile Merge Rule] modelo.
 
  
 
-**¿Qué [!UICONTROL Profile Merge Rule] debería elegir?**
+**¿Qué  [!UICONTROL Profile Merge Rule] debería elegir?**
 
-Al elegir el [!UICONTROL Profile Merge Rule] modelo, analice detenidamente el caso de uso.
+Al elegir [!UICONTROL Profile Merge Rule] para el modelo, analice detenidamente el caso de uso.
 
-Supongamos que la audiencia de destinatario [!UICONTROL segment] utiliza una [!UICONTROL Profile Merge Rule] base de perfiles autenticados + [!DNL Device Graph] perfiles, y se selecciona la misma [!UICONTROL Profile Merge Rule] para el predictivo [!UICONTROL segments]. En este caso, tanto el nivel del dispositivo como el nivel entre dispositivos [!UICONTROL traits] se utilizarán para entrenar el modelo y para colocar al usuario en un predictivo [!UICONTROL segment].
+Supongamos que la audiencia de destinatario [!UICONTROL segment] utiliza un [!UICONTROL Profile Merge Rule] basado en perfiles autenticados + [!DNL Device Graph] y selecciona el mismo [!UICONTROL Profile Merge Rule] para el predictivo [!UICONTROL segments]. En este caso, tanto el nivel del dispositivo como el nivel entre dispositivos [!UICONTROL traits] se utilizarán para entrenar el modelo y para colocar al usuario en un [!UICONTROL segment] predictivo.
 
-Sin embargo, si selecciona un dispositivo [!UICONTROL Profile Merge Rule] basado únicamente en perfiles de dispositivo, ninguno de los dispositivos cruzados [!UICONTROL traits] tendrá influencia y no contribuirá a la colocación de los usuarios en un predictivo [!UICONTROL segment]. Esto puede afectar negativamente a la precisión y al alcance del modelo.
+Sin embargo, si selecciona un [!UICONTROL Profile Merge Rule] basado solamente en perfiles de dispositivos, ninguno de los [!UICONTROL traits] dispositivos cruzados tendrá influencia y no contribuirá a la ubicación de los usuarios en un [!UICONTROL segment] predictivo. Esto puede afectar negativamente a la precisión y al alcance del modelo.
 
-Analice cuidadosamente el caso de uso y decida de qué [!UICONTROL trait] tipos desea que el modelo aprenda y qué tipo de datos desea que el modelo utilice para la clasificación.
+Analice detenidamente el caso de uso y decida de qué tipos [!UICONTROL trait] desea que el modelo aprenda y qué tipo de datos desea que el modelo utilice para la clasificación.
 
 **¿Podría dejar de clasificarse a un usuario de la audiencia de destino que no forme parte de ningún rasgo o segmento de personalidad?**
 
