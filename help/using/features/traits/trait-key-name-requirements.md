@@ -29,6 +29,6 @@ En [!UICONTROL Expression Builder], el nombre de una variable clave en un par de
 
 * Nombres de clave no válidos: `123`, `price!123`.
 
-## Prefijación de variables clave con `c_`
+## Prefijo de variables clave con `c_`
 
-El `c_` prefijo *siempre* es obligatorio si los parámetros que envían datos en una URL de llamada de evento utilizan esa sintaxis.
+El prefijo `c_` es *siempre* requerido si los parámetros que envían datos en una dirección URL de llamada de evento utilizan esa sintaxis.
