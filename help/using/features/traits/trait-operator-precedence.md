@@ -33,11 +33,11 @@ ht-degree: 13%
   <tr> 
    <td colname="col1"> Paréntesis </td> 
    <td colname="col2"> ( ) </td> 
-   <td colname="col3"> Las Expresiones entre paréntesis siempre se evalúan primero y siguen el orden de prioridad. </td> 
+   <td colname="col3"> Las expresiones entre paréntesis siempre se evalúan primero y siguen el orden de prioridad. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de comparación </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> A continuación se evalúan menos que, bueno que, menor o igual que, bueno o igual a. </td> 
   </tr> 
   <tr> 
