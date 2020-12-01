@@ -21,9 +21,9 @@ Métodos de administración de dominios que le permiten crear y administrar los 
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## Crear un nuevo dominio {#create-new-domain}
 
-Un `POST` método que permite crear un nuevo dominio para (solo destinos de cookies).
+Un método `POST` que permite crear un nuevo dominio para (sólo destinos de cookies).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -41,7 +41,7 @@ Un `POST` método que permite crear un nuevo dominio para (solo destinos de cook
 
 ### Respuesta
 
-Se devuelve una respuesta correcta `201 created` y el sitio del socio, incluido su ID único.
+Una respuesta correcta devuelve `201 created` y el sitio del socio, incluyendo su ID única.
 
 ```
 {
@@ -53,7 +53,7 @@ Se devuelve una respuesta correcta `201 created` y el sitio del socio, incluido 
 
 ## Eliminar un dominio {#delete-domain}
 
-Un `DELETE` método que permite eliminar un dominio (solo para destinos de cookies).
+Un método `DELETE` que permite eliminar un dominio (solo para destinos de cookies).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +63,11 @@ Un `DELETE` método que permite eliminar un dominio (solo para destinos de cooki
 
 ### Respuesta
 
-Se devuelve una respuesta correcta `204 no content`. Devuelve `404 not found` si no se encuentra el sitio del socio.
+Una respuesta correcta devuelve `204 no content`. Devuelve `404 not found` si no se encuentra el sitio del socio.
 
 ## Propiedades de retorno para un dominio {#return-props-domain}
 
-Un `GET` método que devuelve detalles sobre el dominio especificado (solo para destinos de cookies).
+Un método `GET` que devuelve detalles sobre el dominio especificado (solo para destinos de cookies).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ Un `GET` método que devuelve detalles sobre el dominio especificado (solo para 
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y datos como se muestra en el ejemplo siguiente. Devuelve `404 Not found` si no se encuentra el ID del sitio o el socio.
+Una respuesta correcta devuelve `200 OK` y datos como se muestra en el siguiente ejemplo. Devuelve `404 Not found` si no se encuentra el ID del sitio o el socio.
 
 ```
 {
@@ -89,7 +89,7 @@ Una respuesta correcta devuelve `200 OK` y datos como se muestra en el ejemplo s
 
 ## Propiedades de retorno para todos los dominios {#return-props-all-domains}
 
-Un `GET` método que devuelve información sobre todos los dominios (solo para destinos de cookies).
+Un método `GET` que devuelve información sobre todos los dominios (solo para destinos de cookies).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -99,7 +99,7 @@ Un `GET` método que devuelve información sobre todos los dominios (solo para d
 
 ### Parámetros de Consulta opcionales
 
-Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelven *todas* las propiedades de un objeto. Configure estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte Parámetros [opcionales](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Puede utilizar estos parámetros opcionales con métodos [!DNL API] que devuelven *todas* propiedades para un objeto. Configure estas opciones en la cadena de solicitud al pasar esa consulta a [!DNL API]. Consulte [Parámetros opcionales](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -111,7 +111,7 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Devuelve los resultados por número de página. inicios de numeración en 0. </td> 
+   <td colname="col2"> Devuelve los resultados por número de página. Inicios de numeración en 0. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
