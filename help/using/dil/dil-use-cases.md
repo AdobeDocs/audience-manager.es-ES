@@ -25,7 +25,7 @@ c_dil_use_case.xml
 
  -->
 
-## Envío de elementos de datos al Audience Manager con DIL {#send-data-elements-dil}
+## Enviar elementos de datos al Audience Manager con el DIL {#send-data-elements-dil}
 
 Cree una variable de objeto que envíe información sobre los elementos de página al Audience Manager. Esto resulta útil para la recopilación general de datos o como alternativa para recopilar datos con variables de Analytics.
 
@@ -37,11 +37,11 @@ c_dil_send_page_objects.xml
 
 **Descripción**
 
-El siguiente código muestra cómo recopilar datos de página y enviarlos al Audience Manager con [!UICONTROL DIL]. Estos ejemplos utilizan una variable para alojar elementos de datos en una lista plana o una matriz. Recuerde, pase las variables como pares [](../reference/key-value-pairs-explained.md)clave-valor. Además, observe el `c_` prefijo antes de la clave en el par clave-valor. Este prefijo [](../features/traits/trait-variable-prefixes.md) requerido identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar manualmente `c_` la clave. En el segundo ejemplo, [!UICONTROL DIL] lo hace automáticamente.
+El siguiente código muestra cómo recopilar datos de página y enviarlos al Audience Manager con [!UICONTROL DIL]. Estos ejemplos utilizan una variable para alojar elementos de datos en una lista plana o una matriz. Recuerde, pase las variables como [pares clave-valor](../reference/key-value-pairs-explained.md). Además, observe el prefijo `c_` antes de la clave en el par clave-valor. Este [prefijo requerido](../features/traits/trait-variable-prefixes.md) identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar `c_` manualmente a la clave. En el segundo ejemplo, [!UICONTROL DIL] lo hace automáticamente.
 
 **Mantener la coherencia de las propiedades del valor**
 
-Recuerde mantener las propiedades de valor igual al pasar datos. Por ejemplo, si tiene dos claves idénticas con valores diferentes, el valor del último par clave-valor tiene prioridad sobre los objetos de valor anteriores. Por ejemplo, al pasar `color:blue` y `color:red` establecer el valor devuelto en rojo (sobrescribe el azul).
+Recuerde mantener las propiedades de valor igual al pasar datos. Por ejemplo, si tiene dos claves idénticas con valores diferentes, el valor del último par clave-valor tiene prioridad sobre los objetos de valor anteriores. Por ejemplo, al pasar `color:blue` y `color:red` se establece el valor devuelto en rojo (sobrescribe el azul).
 
 **Ejemplo 1: Enviar datos como pares de clave-valor**
 
@@ -58,7 +58,7 @@ sample_dil.api.submit();
 
 **Ejemplo 2: Envío de datos a un objeto**
 
-En este ejemplo avanzado se muestra cómo enviar datos en un objeto al Audience Manager. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al [!DNL signals()] método. [!UICONTROL DIL] El código podría tener un aspecto similar al siguiente:
+En este ejemplo avanzado se muestra cómo enviar datos en un objeto al Audience Manager. Al trabajar con este método, [!UICONTROL DIL] permite pasar un objeto como parámetro de función al método [!DNL signals()]. [!UICONTROL DIL] El código podría tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var my_object = { 
@@ -94,7 +94,7 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
-## Capturar URL de referencia {#capture-referring-url}
+## Capturar dirección URL de referencia {#capture-referring-url}
 
 Capturar y enviar una dirección URL de referencia al Audience Manager.
 
@@ -106,7 +106,7 @@ c_dil_hrefer_over_https.xml
 
 >[!NOTE]
 >
->Este método solo funciona cuando los usuarios se mueven entre páginas con protocolos similares (HTTP vs HTTPS). Por ejemplo, el explorador retiene una dirección URL de referencia cuando navega de un sitio seguro a otro. Los navegadores no retienen la dirección URL de referencia cuando se mueven entre sitios seguros y no seguros. Este comportamiento es una funcionalidad normal del explorador y no se puede eludir con [!UICONTROL DIL].
+>Este método solo funciona cuando los usuarios se mueven entre páginas con protocolos similares (HTTP vs HTTPS). Por ejemplo, el explorador retiene una dirección URL de referencia cuando navega de un sitio seguro a otro. Los navegadores no retienen la dirección URL de referencia cuando se mueven entre sitios seguros y no seguros. Este comportamiento es una funcionalidad normal del explorador y [!UICONTROL DIL] no puede eludirlo.
 
 **Ejemplo de código**
 
@@ -117,7 +117,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## Capturar tipos de motores de búsqueda y términos de búsqueda de palabras clave {#capture-search-engine-types}
+## Capture los tipos de motores de búsqueda y los términos de búsqueda de palabras clave {#capture-search-engine-types}
 
 Enviar información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave al Audience Manager.
 
@@ -141,7 +141,7 @@ El siguiente código muestra cómo obtener el remitente del reenvío de búsqued
 
 **Código básico**
 
-El código básico para obtener el remitente del reenvío de búsqueda (por `google.com`ejemplo) tiene este aspecto:
+El código básico para obtener el remitente del reenvío de búsqueda (de `google.com`, por ejemplo) tiene este aspecto:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -149,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Ejemplo de código de motor de búsqueda enumerado**
 
-En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefiere el parámetro requerido `c_` al motor de búsqueda ( `c_se`) y al término de búsqueda ( `c_st`). `c_` es un prefijo [](../features/traits/trait-variable-prefixes.md) requerido que identifica estas variables como variables definidas por el cliente para el Audience Manager.
+En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código antepone el parámetro `c_` requerido al motor de búsqueda ( `c_se`) y al término de búsqueda ( `c_st`). `c_` es un  [prefijo ](../features/traits/trait-variable-prefixes.md) requerido que identifica estas variables como variables definidas por el cliente para el Audience Manager.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -165,7 +165,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Ejemplo de código de motor de búsqueda no enumerado**
 
-En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde `dogpile.com`. Debido a que no [!DNL Dogpile] se admite de forma predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda al Audience Manager. El código podría tener un aspecto similar al siguiente:
+En este caso, supongamos que un usuario buscó el término &quot;hogares&quot; desde `dogpile.com`. Debido a que [!DNL Dogpile] no se admite de forma predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda al Audience Manager. El código podría tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -194,7 +194,7 @@ c_dil_map_keys.xml
 
 **Descripción**
 
-En un par clave-valor, el `c_` prefijo anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para segmentar en el sitio específico que pasó los datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de su cuenta de Audience Manager. Para ello, asigne el valor de un par `c_` clave-valor a una clave de nivel de plataforma. Se añade un prefijo a una clave de nivel de plataforma `d_` y la señal está disponible para la segmentación en todas las propiedades de la cuenta.
+En un par clave-valor, el prefijo `c_` anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para segmentar en el sitio específico que pasó los datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de su cuenta de Audience Manager. Para ello, asigne el valor de un par `c_` clave-valor a una clave de nivel de plataforma. La clave de nivel de plataforma lleva el prefijo `d_` y hace que la señal esté disponible para la segmentación en todas las propiedades de la cuenta.
 
 Por ejemplo, recopila datos de código postal de un sitio en particular, pero desea destinatario a todas las propiedades de Audience Manager. Para que el código postal esté disponible a nivel de plataforma, puede asignar la clave de código postal definida por el cliente (p. ej. `c_zip`) a una clave definida por la plataforma como se muestra a continuación.
 
@@ -224,17 +224,17 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Este procedimiento asume que tiene una [!DNL Google Tag Manager] cuenta, algún conocimiento práctico de ese producto y su `dil.js` archivo Audience Manager.
+Este procedimiento supone que tiene una cuenta [!DNL Google Tag Manager], algún conocimiento práctico de ese producto y su archivo `dil.js` de Audience Manager.
 
-Para el tráfico del `dil.js` archivo en GTM:
+Para realizar el tráfico del archivo `dil.js` en GTM:
 
 1. Cree un nuevo contenedor o abra un contenedor existente.
 1. Añada una nueva etiqueta en el contenedor.
 1. Abra la etiqueta para editarla y:
 
    * Asigne un nombre a la etiqueta.
-   * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
-   * En el campo HTML, coloque el [!UICONTROL DIL] código (biblioteca + el código personalizado) dentro de las etiquetas de script `<script>DIL code</script>`.
+   * Seleccione **[!UICONTROL Custom HTML Tag]** en la lista desplegable **[!UICONTROL Tag Type]**.
+   * En el campo HTML, coloque el código [!UICONTROL DIL] (biblioteca + el código personalizado) dentro de las etiquetas de script `<script>DIL code</script>`.
    * Haga clic **[!UICONTROL Save]**.
 
 1. Publique el contenedor.
