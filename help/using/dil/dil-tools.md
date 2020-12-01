@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Herramientas DIL
 
-Describe los métodos de la `DIL.tools` Área de nombres. Estas funciones de utilidad le ayudan a realizar tareas específicas.
+Describe los métodos de la Área de nombres `DIL.tools`. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
 <!-- 
 
@@ -35,9 +35,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Finalidad de `getSearchReferrer`
+### Objetivo de `getSearchReferrer`
 
-En DIL, `getSearchReferrer` devuelve los resultados de búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o permitir que busque los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], y [!DNL Yahoo]) `document.referrer` de forma predeterminada.
+En DIL, `getSearchReferrer` devuelve los resultados de búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o permitir que busque los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] y [!DNL Yahoo]) en comparación con `document.referrer` de forma predeterminada.
 
 ### Firma de función
 
@@ -47,8 +47,8 @@ Firma de función: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` acepta:
 
-* *`{string}`*:: *(Opcional)* Una cadena que contiene la dirección URL de búsqueda (se utiliza `document.referrer` si no está definida).
-* *`{object}`*:: *(Opcional)* Un objeto que contiene la configuración de `hostPattern`, `queryParam`o `queryPattern`.
+* *`{string}`*::  *(Opcional)* Una cadena que contiene la dirección URL de búsqueda (se utiliza  `document.referrer` si no está definida).
+* *`{object}`*::  *(Opcional)* Un objeto que contiene la configuración de  `hostPattern`,  `queryParam` o  `queryPattern`.
 
 Y devuelve:
 
@@ -114,7 +114,7 @@ Y devuelve:
 
 ## decomposeURI
 
-Desensambla un identificador de recurso uniforme ( [!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search`y `[!DNL uriParams]`.
+Desensambla un identificador de recurso uniforme ( [!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search` y `[!DNL uriParams]`.
 
 <!-- 
 
@@ -128,7 +128,7 @@ Firma de función: `DIL.tools.decomposeURI`
 
 `decomposeURI` acepta:
 
-* *`uri {string}`*:: *(Opcional)* Una cadena que contiene el URI. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*::  *(Opcional)* Una cadena que contiene el URI. Si no se especifica, el valor predeterminado es `document.location.href`.
 
 Y devuelve:
 
