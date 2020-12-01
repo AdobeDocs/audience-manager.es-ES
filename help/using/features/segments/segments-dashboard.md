@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Vista de Lista de segmentos {#segments-list-view}
 
-El panel [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segmentos es un espacio de trabajo centralizado para administrar los segmentos de audiencia. Puede ver el [!UICONTROL Segments] panel navegando a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+El [panel Segmentos](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) es un espacio de trabajo centralizado para administrar los segmentos de audiencia. Puede ver el panel [!UICONTROL Segments] navegando a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segmentos-panel](assets/segments-dashboard.png)
 
-La [!UICONTROL Segments] página contiene funciones y herramientas que le ayudan a:
+La página [!UICONTROL Segments] contiene funciones y herramientas que le ayudan a:
 
 * Crear nuevos segmentos;
 * Editar y eliminar segmentos;
