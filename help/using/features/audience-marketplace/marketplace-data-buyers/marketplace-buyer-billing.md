@@ -18,36 +18,36 @@ ht-degree: 1%
 
 # Facturación para compradores de fuentes de datos {#billing-for-data-feed-buyers}
 
-Los compradores de datos Audience Marketplace aceptan informar de todas las impresiones de publicidad servidas utilizando las características contenidas en la fuente de datos con el precio de costo por cada mil impresiones de publicidad ([!DNL CPM]). [!DNL CPM] el uso vence el quinto día de cada mes natural e incluye datos del mes anterior. Los suscriptores de tarifa fija no necesitan notificar el uso.
+Los compradores de datos Audience Marketplace aceptan informar todas las impresiones de publicidad servidas utilizando las características contenidas en la fuente de datos con un precio de costo por cada mil impresiones de publicidad ([!DNL CPM]). [!DNL CPM] el uso vence el quinto día de cada mes natural e incluye datos del mes anterior. Los suscriptores de tarifa fija no necesitan notificar el uso.
 
 <br> 
 
-## Cómo informar del uso de CPM {#report-cpm-usage}
+## Cómo informar el uso de CPM {#report-cpm-usage}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
 [!UICONTROL Audience Marketplace] los compradores de datos aceptan informar de todas las impresiones de publicidad servidas utilizando las características contenidas en la fuente de datos con el precio de costo por cada mil impresiones de publicidad ([!DNL CPM]). [!DNL CPM] el uso vence el día 5 de cada mes natural e incluye los datos del mes anterior. Los suscriptores de tarifa fija no necesitan notificar el uso.
 
-[!UICONTROL Audience Marketplace] ofertas dos formas de informar sobre el uso [!DNL CPM] :
+[!UICONTROL Audience Marketplace] oferta dos formas de informar  [!DNL CPM] del uso:
 
-* **Sistema de informes** de nivel de segmento: es el método de sistema de informes de [!DNL CPM] uso recomendado. Cuando se informa sobre [!DNL CPM] el uso en el nivel de segmento, la sección de sistemas de informes en el nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM.
-* **Sistema de informes** de nivel de fuente de datos: este método requiere que informe de forma individual el uso [!DNL CPM] de cada fuente de datos, en función de los algoritmos descritos en Atribución de [costos para fuentes](#cost-attribution)de datos CPM. Sin embargo, este método es más tedioso y propenso a errores que el sistema de informes a nivel de segmento.
+* **Sistema de informes** de nivel de segmento: es el método de sistema de informes  [!DNL CPM] de uso recomendado. Al informar sobre el [!DNL CPM] uso a nivel de segmento, la sección de sistemas de informes a nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes, según los algoritmos descritos en [Atribución de costo para fuentes de datos CPM](#cost-attribution).
+* **Sistema de informes** de nivel de fuente de datos: este método requiere que informe individualmente el  [!DNL CPM] uso de cada fuente de datos, en función de los algoritmos descritos en Atribución de  [costos para fuentes](#cost-attribution) de datos CPM. Sin embargo, este método es más tedioso y propenso a errores que el sistema de informes a nivel de segmento.
 
 <br> 
 
 ## Informe del uso de CPM en el nivel de segmento {#segment-level-report}
 
-La [!UICONTROL Segment Usage] ficha le permite informar sobre el uso de nivel de segmento, al tiempo que muestra los segmentos agrupados por los destinos a los que están asignados.
+La ficha [!UICONTROL Segment Usage] le permite informar sobre el uso de nivel de segmento, al tiempo que muestra los segmentos agrupados por los destinos a los que están asignados.
 
-Después del uso del sistema de informes [!DNL CPM] en el nivel de segmento, [!UICONTROL Audience Marketplace] asigna automáticamente el uso correcto a las fuentes de datos correspondientes, según la atribución de [costo para las fuentes](#cost-attribution)de datos CPM.
+Tras el uso del sistema de informes [!DNL CPM] en el nivel de segmento, [!UICONTROL Audience Marketplace] asigna automáticamente el uso correcto a las fuentes de datos correspondientes, según la [Atribución de costos para fuentes de datos CPM](#cost-attribution).
 
-Para informar [!DNL CPM] sobre el uso en el nivel de segmento:
+Para informar sobre el uso de [!DNL CPM] en el nivel de segmento:
 
 1. Vaya a **[!UICONTROL Audience Marketplace > Payables]**.
-1. Seleccione la **[!UICONTROL Segment Usage]** ficha.
-1. Complete el uso de los segmentos. Puede utilizar el [!UICONTROL Search] cuadro para filtrar los segmentos si sólo necesita informar sobre el uso de algunos de ellos.
+1. Seleccione la ficha **[!UICONTROL Segment Usage]**.
+1. Complete el uso de los segmentos. Puede utilizar el cuadro [!UICONTROL Search] para filtrar los segmentos si sólo necesita informar del uso de algunos de ellos.
 1. Haga clic **[!UICONTROL Edit Segments Usage]**.
-1. Introduzca la cantidad de uso [!DNL CPM] en la [!UICONTROL Usage] columna.
+1. Escriba la cantidad de uso [!DNL CPM] en la columna [!UICONTROL Usage].
 1. Haga clic **[!UICONTROL Save]** cuando haya terminado y revise el cuadro de diálogo de confirmación.
 
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
@@ -62,15 +62,15 @@ Consulte también nuestra demostración en vídeo de cómo puede informar sobre 
 
 ## Informe del uso de CPM en el nivel de fuente de datos {#feed-level-report}
 
-El sistema de informes del nivel de fuente de datos es más tedioso y propenso a errores, ya que debe calcular [!DNL CPM] el uso de cada fuente de datos de forma individual. Le recomendamos que [informe del uso de CPM en el nivel](#segment-level-report) de segmento.
+El sistema de informes del nivel de fuente de datos es más tedioso y propenso a errores, ya que debe calcular individualmente el [!DNL CPM] uso para cada fuente de datos. Le recomendamos que [informe del uso de CPM en el nivel de segmento](#segment-level-report) en su lugar.
 
-Para informar [!DNL CPM] sobre el uso en el nivel de segmento:
+Para informar sobre el uso de [!DNL CPM] en el nivel de segmento:
 
 1. Vaya a **[!UICONTROL Audience Marketplace > Payables]**.
-2. Seleccione la **[!UICONTROL Feed Usage]** ficha.
-3. Utilice el [!UICONTROL Search] cuadro para filtrar las fuentes de datos e identificar las que necesita para las que debe informar el uso.
+2. Seleccione la ficha **[!UICONTROL Feed Usage]**.
+3. Utilice el cuadro [!UICONTROL Search] para filtrar las fuentes de datos e identificar las fuentes para las que debe informar el uso.
 4. Haga clic **[!UICONTROL Edit Feeds Usage]**.
-5. Calcule el uso [!DNL CPM] de cada fuente de datos en función de la atribución de [costo de las fuentes](#cost-attribution)de datos de CPM e introdúzcala en la [!UICONTROL Usage] columna.
+5. Calcule el uso [!DNL CPM] para cada fuente de datos en base a la [Atribución de costo para fuentes de datos CPM](#cost-attribution) e introdúzcala en la columna [!UICONTROL Usage].
 6. Haga clic **[!UICONTROL Save]** cuando haya terminado y revise el cuadro de diálogo de confirmación.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
@@ -81,14 +81,14 @@ Para informar [!DNL CPM] sobre el uso en el nivel de segmento:
 
 ## Sistema de informes masivo
 
-Para reducir los errores y la sobrecarga durante el uso del sistema de informes [!DNL CPM] , puede utilizar la opción de sistema de informes masivo para descargar un [!DNL CSV] archivo que contenga las fuentes de datos y los segmentos, completar el uso y volver a cargarlo a [!DNL Audience Manager]. Puede utilizar el sistema de informes masivo para informar sobre el uso de fuentes y segmentos.
+Para reducir los errores y la sobrecarga mientras se utiliza el sistema de informes [!DNL CPM], puede utilizar la opción de sistema de informes masivo para descargar un archivo [!DNL CSV] que contenga las fuentes de datos y los segmentos, completar el uso y volver a cargarlo en [!DNL Audience Manager]. Puede utilizar el sistema de informes masivo para informar sobre el uso de fuentes y segmentos.
 
-Para actualizar [!DNL CPM] el uso de forma masiva:
+Para actualizar el uso de [!DNL CPM] de forma masiva:
 
 1. Vaya a **[!UICONTROL Audience Marketplace > Payables]**.
-1. Seleccione la ficha **[!UICONTROL Feed Usage]** o **[!UICONTROL Segment Usage]** , según el tipo de sistema de informes que desee actualizar.
+1. Seleccione la ficha **[!UICONTROL Feed Usage]** o **[!UICONTROL Segment Usage]**, según el tipo de sistema de informes que desee actualizar.
 1. Haga clic en **[!UICONTROL Edit Feeds Usage]** o **[!UICONTROL Edit Segments Usage]**.
-1. Haga clic **[!UICONTROL download the current usage]** para asegurarse de que utiliza un archivo CSV válido.
+1. Haga clic en **[!UICONTROL download the current usage]** para asegurarse de utilizar un archivo CSV válido.
 1. Abra el archivo en el equipo y rellene el informe de uso.
 1. Haga clic en **[!UICONTROL Choose a CSV file]** para cargar el informe de uso actualizado.
 
@@ -102,14 +102,14 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
 
 | Mensaje de error | Descripción | Se corrigió un problema que hacía que se mostrara |
 | ------------- | -------------| -----|
-| Entrada no válida | [!DNL Audience Manager] se ha detectado un cambio en el esquema del [!DNL CSV] archivo, como la falta de columnas o cambios en los títulos de columna. | Evite cambiar la estructura de la tabla. |
-| No encontrado | Por [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] no pudo identificar la [!UICONTROL Segment ID] combinación y [!UICONTROL Destination ID] . Por [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] no pudo identificar la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]y [!UICONTROL Use Case] . | Para [!UICONTROL Segment Level Reporting]comprobar la validez de la combinación [!UICONTROL Segment ID] y [!UICONTROL Destination ID] . Para [!UICONTROL Feed Level Reporting]comprobar la validez de la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]y [!UICONTROL Use Case] . |
+| Entrada no válida | [!DNL Audience Manager] se ha detectado un cambio en el esquema del  [!DNL CSV] archivo, como la falta de columnas o cambios en los títulos de columna. | Evite cambiar la estructura de la tabla. |
+| No encontrado | Para [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] no pudo identificar la combinación [!UICONTROL Segment ID] y [!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] no pudo identificar la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name] y [!UICONTROL Use Case]. | Para [!UICONTROL Segment Level Reporting], compruebe la validez de la combinación [!UICONTROL Segment ID] y [!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], compruebe la validez de la combinación [!UICONTROL Data Provider Name], [!UICONTROL Feed Name] y [!UICONTROL Use Case]. |
 | Registros de duplicado encontrados | [!DNL Audience Manager] registros de duplicado detectados con valores de impresión diferentes. | Revise el informe y asegúrese de que no informa de diferentes valores de uso para la misma fuente de datos o segmento. |
-| Valores no admitidos | [!DNL Audience Manager] valores no numéricos detectados en la [!DNL Audience Manager] columna. | Revise el informe y asegúrese de introducir solamente valores numéricos en la [!DNL Audience Manager] columna. |
-| Faltan encabezados para campos obligatorios | [!DNL Audience Manager] se detectaron encabezados de tabla que faltaban en los campos obligatorios. Por [!UICONTROL Segment Level Reporting], los campos obligatorios son: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Por [!UICONTROL Feed Level Reporting], los campos obligatorios son: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Revise el informe y asegúrese de que los encabezados de tabla no se hayan alterado. |
+| Valores no admitidos | [!DNL Audience Manager] valores no numéricos detectados en la  [!DNL Audience Manager] columna. | Revise el informe y asegúrese de introducir solamente valores numéricos en la columna [!DNL Audience Manager]. |
+| Faltan encabezados para campos obligatorios | [!DNL Audience Manager] se detectaron encabezados de tabla que faltaban en los campos obligatorios. Para [!UICONTROL Segment Level Reporting], los campos obligatorios son: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], los campos obligatorios son: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Revise el informe y asegúrese de que los encabezados de tabla no se hayan alterado. |
 
 >[!NOTE]
->La eliminación de filas del [!DNL CSV] informe de uso no tiene ningún efecto en el informe de uso existente. [!DNL Audience Manager] solo procesa los campos incluidos en el informe.
+>La eliminación de filas del informe de uso [!DNL CSV] no tiene ningún efecto en el informe de uso existente. [!DNL Audience Manager] solo procesa los campos incluidos en el informe.
 
 <br> 
 
@@ -126,7 +126,7 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
   <tr> 
    <td colname="col1"> <p><b>Informar siempre del número total de impresiones</b> </p> </td> 
    <td colname="col2"> <p>Para totales de impresión CPM: </p>
-   <p> Informar el número total de impresiones, sin usar decimales. El Audience Manager calcula automáticamente el CPM en función del número total de informes.</p><p>Si necesita informar 1.234.567 impresiones, informe exactamente así. No es necesario dividir el número total de impresiones en 1000 para calcular el CPM.</p><p>Las características utilizadas para optimizar el contenido web o de la aplicación (Optimización de contenido) mediante herramientas como Adobe Target o un destino de Analytics no contribuyen a los totales de uso de los planes de CPM. Los proveedores de datos generalmente reciben una compensación por la optimización del contenido mediante planes de tarifa fija.</p><p>Consulte Atribución <a href="#cost-attribution">de costos para fuentes</a> de datos CPM para obtener más información. </p> </td>
+   <p> Informar el número total de impresiones, sin usar decimales. El Audience Manager calcula automáticamente el CPM en función del número total de informes.</p><p>Si necesita informar 1.234.567 impresiones, informe exactamente así. No es necesario dividir el número total de impresiones en 1000 para calcular el CPM.</p><p>Las características utilizadas para optimizar el contenido web o de la aplicación (Optimización de contenido) mediante herramientas como Adobe Target o un destino de Analytics no contribuyen a los totales de uso de los planes de CPM. Los proveedores de datos generalmente reciben una compensación por la optimización del contenido mediante planes de tarifa fija.</p><p>Consulte <a href="#cost-attribution">Atribución de costos para fuentes de datos CPM</a> para obtener más información. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Mantener el intervalo de sistema de informes mensual</b> </p> </td> 
@@ -139,23 +139,23 @@ Para actualizar [!DNL CPM] el uso de forma masiva:
 
 ## Atribución de costos para fuentes de datos CPM {#cost-attribution}
 
-En [!UICONTROL Audience Marketplace] debe informar automáticamente las cantidades de impresiones cada mes, para cada uno de los segmentos. Se recomienda el uso de sistemas de informes [!DNL CPM] en el nivel de segmento, de modo que la atribución de costes se realice automáticamente.
+En [!UICONTROL Audience Marketplace] debe informar automáticamente las cantidades de impresiones cada mes, para cada uno de los segmentos. Recomendamos el uso de sistemas de informes [!DNL CPM] a nivel de segmento, de modo que la atribución de costos se realice automáticamente.
 
 <!-- marketplace_cpm_billing.xml -->
 
 ### Resumen de facturación {#billing-summary}
 
-Debe enviar las cantidades de impresiones [!DNL CPM] de fuentes de datos entre el primer y el quinto día de cada mes natural. Para hacerlo correctamente, le recomendamos que [informe del uso de CPM en el nivel](#segment-level-report)de segmento.
+Debe enviar [!DNL CPM] cantidades de impresión de fuente de datos entre el primer y el quinto día de cada mes natural. Para hacerlo correctamente, le recomendamos que [informe del uso de CPM en el nivel de segmento](#segment-level-report).
 
 >[!TIP]
->Cuando se informa [!DNL CPM] del uso a nivel de segmento, la sección de sistemas de informes a nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes.
+>Cuando se informa sobre el [!DNL CPM] uso en el nivel de segmento, la sección de sistemas de informes en el nivel de fuente de datos se rellena automáticamente con las cantidades de uso correspondientes.
 
-Si es necesario, [!UICONTROL Report CPM Usage at Data Feed Level]debe compilar individualmente todas las impresiones entregadas para cada fuente en el mes natural anterior y registrarlas según la asignación de facturación descrita en este artículo.
+Si necesita [!UICONTROL Report CPM Usage at Data Feed Level], debe compilar individualmente todas las impresiones entregadas para cada fuente en el mes natural anterior e informarlas según la asignación de facturación descrita en este artículo.
 
-Después de informar [!DNL CPM] el número del mes natural anterior, [!DNL Adobe] realizará lo siguiente:
+Después de informar el número [!DNL CPM] del mes calendario anterior, [!DNL Adobe] hará lo siguiente:
 
-* Cree una factura y una factura según la [!DNL CPM] tasa de cada fuente de datos suscrita.
-* Las tarifas que deben pagar los proveedores de datos (vendedores) en función del uso [!DNL CPM] que haya informado.
+* Cree una factura y facture en función de la [!DNL CPM] tasa para cada fuente de datos suscrita.
+* Las tarifas que deben pagar los proveedores de datos (vendedores) en función de su [!DNL CPM] uso informado.
 
 >[!IMPORTANT]
 >
@@ -163,14 +163,14 @@ Después de informar [!DNL CPM] el número del mes natural anterior, [!DNL Adobe
 
 <br> 
 
-## Asignar impresiones a nivel de fuente en función de las reglas de cualificación de características {#assign-impressions}
+## Asignar impresiones a nivel de fuente en función de las reglas de calificación de características {#assign-impressions}
 
-El caso de [!UICONTROL Activation] uso le permite utilizar características en la fuente de datos correspondiente para crear segmentos en el Generador [de](../../../features/segments/segment-builder.md) segmentos y asignar dichos segmentos a un destino. Los operadores booleanos [!UICONTROL AND][!UICONTROL OR]y [!UICONTROL NOT] permiten definir las condiciones para la calificación de rasgos y segmentos.
+El caso de uso [!UICONTROL Activation] le permite utilizar características en la fuente de datos correspondiente para crear segmentos en [Generador de segmentos](../../../features/segments/segment-builder.md) y asignar dichos segmentos a un destino. Los operadores booleanos [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL NOT] le permiten establecer las condiciones para la calificación de rasgos y segmentos.
 
-Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, debe asignar las impresiones proporcionalmente para cada fuente de datos, según los [!DNL Boolean] operadores utilizados en las reglas de calificación de rasgos. La siguiente tabla lista cómo asignar correctamente impresiones según la regla booleana o el tipo de característica.
+Al [Informar del uso de CPM en el nivel de fuente de datos](#feed-level-report), debe asignar las impresiones proporcionalmente para cada fuente de datos, según los operadores [!DNL Boolean] utilizados en las reglas de calificación de características. La siguiente tabla lista cómo asignar correctamente impresiones según la regla booleana o el tipo de característica.
 
 >[!TIP]
->[Informar sobre el uso de CPM en el nivel](#segment-level-report) de segmento para que el sistema de informes del nivel de fuente de datos lo realice automáticamente el Audience Manager.
+>[Informar del uso de CPM en el nivel de segmento](#segment-level-report) para que el Audience Manager realice automáticamente el sistema de informes del nivel de fuente de datos.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -182,7 +182,7 @@ Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Y</span> </p> </td> 
-   <td colname="col2"> <p>Aplique el 100 % de los totales de impresión entregados a todas las características del proveedor en un segmento basado en reglas que utilice una condición booleana <span class="wintitle"> AND</span> . </p> </td> 
+   <td colname="col2"> <p>Aplique el 100 % de los totales de impresión entregados a todas las características del proveedor en un segmento basado en reglas que utilice una condición booleana <span class="wintitle"> AND</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> O</span> </p> </td> 
@@ -190,7 +190,7 @@ Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NO</span> </p> </td> 
-   <td colname="col2"> <p>Aplique el 100 % de los totales de impresión entregados a todas las características del proveedor en un segmento basado en reglas que utilice una condición booleana <span class="wintitle"> NOT</span> . </p> </td> 
+   <td colname="col2"> <p>Aplique el 100 % de los totales de impresión entregados a todas las características del proveedor en un segmento basado en reglas que utilice una condición booleana <span class="wintitle"> NOT</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmentos algorítmicos </p> </td> 
@@ -203,10 +203,10 @@ Al [informar del uso de CPM en el nivel](#feed-level-report)de fuente de datos, 
 
 ## Ejemplos de facturación {#billing-examples}
 
-Los ejemplos siguientes pretenden ilustrar cómo se realiza la asignación de [!DNL CPM] uso en el nivel de fuente de datos.
+Los ejemplos siguientes pretenden ilustrar cómo se realiza la asignación de uso [!DNL CPM] a nivel de fuente de datos.
 
 >[!IMPORTANT]
->Le recomendamos que [informe del uso de CPM en el nivel](#segment-level-report) de segmento para que este proceso se realice automáticamente.
+>Le recomendamos que [informe del uso de CPM en el nivel de segmento](#segment-level-report) en su lugar, para que este proceso se realice automáticamente.
 
 Consideremos el siguiente escenario:
 
@@ -216,21 +216,21 @@ Consideremos el siguiente escenario:
 
 ### Caso 1: Segmentos con reglas de cualificación AND
 
-Este segmento contiene 3 características de proveedores de datos independientes. Dado que la calificación de segmentos se basa en una [!UICONTROL AND] condición, los visitantes deben realizar las características de las tres fuentes para poder optar al segmento.
+Este segmento contiene 3 características de proveedores de datos independientes. Dado que la calificación de segmentos se basa en una condición [!UICONTROL AND], los visitantes deben realizar las características de las tres fuentes para poder optar al segmento.
 
 ![](assets/billing-segment-and.png)
 
-Con una [!UICONTROL AND] condición, debe asignar el 100 % de las impresiones recibidas durante el mes a los tres proveedores de datos. En la [!UICONTROL Audience Marketplace > Payables] sección, usted atribuye a cada proveedor 1.000.000 impresiones.
+Con una condición [!UICONTROL AND], debe asignar el 100% de las impresiones recibidas durante el mes a los tres proveedores de datos. En la sección [!UICONTROL Audience Marketplace > Payables], usted da crédito a cada proveedor con 1.000.000 impresiones.
 
-Este ejemplo se aplica a segmentos que utilizan [!DNL Boolean] operadores [!UICONTROL NOT] o a segmentos que contienen características algorítmicas.
+Este ejemplo se aplica a segmentos que utilizan operadores [!DNL Boolean] [!UICONTROL NOT] o a segmentos que contienen características algorítmicas.
 
 <br> 
 
 ### Caso 2: Segmentos con reglas de calificación O
 
-Este segmento contiene 3 características de proveedores de datos independientes. Dado que la calificación de segmentos se basa en una [!UICONTROL OR] condición, los visitantes deben realizar al menos una de las tres características para poder optar al segmento.
+Este segmento contiene 3 características de proveedores de datos independientes. Dado que la calificación de segmentos se basa en una condición [!UICONTROL OR], los visitantes deben realizar al menos una de las tres características para calificar para el segmento.
 
-No podemos saber qué rasgo es responsable de una impresión porque la calificación se basa en una [!UICONTROL OR] condición. Como resultado, en la [!UICONTROL Audience Marketplace > Payables] sección se atribuye a cada proveedor una asignación ponderada de las impresiones totales, en función de la población de características.
+No podemos saber qué característica es responsable de una impresión porque la calificación se basa en una condición [!UICONTROL OR]. Como resultado, en la sección [!UICONTROL Audience Marketplace > Payables] usted da crédito a cada proveedor con una asignación ponderada de las impresiones totales, según la población de características.
 
 ![facturar-segmento-o](assets/billing-segment-or.png)
 
@@ -247,7 +247,7 @@ En la tabla siguiente, el segmento X contiene dos características, T1 y T2, con
 * T1 es una característica de la fuente de datos A;
 * T2 es una característica algorítmica modelada según características de terceros de Fuente de datos A y Fuente de datos B.
 
-El segmento se asigna a un destino y se introducen 1.000.000 impresiones para este segmento en un mes, mediante el Sistema de informes [de nivel de](#segment-level-report)segmento.
+El segmento se asigna a un destino y se introducen 1.000.000 impresiones para este segmento en un mes, mediante [Sistema de informes de nivel de segmento](#segment-level-report).
 
 De estas 1,000,000 impresiones:
 
