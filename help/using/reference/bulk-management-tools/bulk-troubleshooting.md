@@ -29,7 +29,7 @@ Qué hacer cuando las hojas de cálculo devuelven un error o la solicitud masiva
 
 >[!NOTE]
 >
->[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los ](../../features/administration/administration-overview.md) permisos de grupo RBAC asignados en la  [!DNL Audience Manager] interfaz de usuario se respetan en la  [!UICONTROL Bulk Management Tools].
 
 Factores como el tráfico de red pesado, el uso del servidor y los grandes conjuntos de datos pueden hacer que una solicitud masiva falle o se agote el tiempo de espera. Si hay algún problema, la hoja de cálculo deja de escribir datos y muestra un mensaje de error. Cuando esto ocurra, debe:
 
@@ -60,8 +60,8 @@ La siguiente tabla lista algunos problemas comunes que puede encontrar al realiz
    <td colname="col1"> <b>Largos retrasos</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desactivar modo</b>de compatibilidad: Compruebe si hay otras hojas de cálculo abiertas en el modo de compatibilidad de Microsoft Excel. El modo de compatibilidad puede aumentar los tiempos de ejecución. Cierre las hojas de cálculo que pueda haber abierto en este modo e intente de nuevo la solicitud masiva. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos</b>del sistema: La escasez de recursos del sistema contribuye a las demoras prolongadas. Intente cerrar todos los demás programas antes de realizar una solicitud masiva. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desactivar modo</b> de compatibilidad: Compruebe si hay otras hojas de cálculo abiertas en el modo de compatibilidad de Microsoft Excel. El modo de compatibilidad puede aumentar los tiempos de ejecución. Cierre las hojas de cálculo que pueda haber abierto en este modo e intente de nuevo la solicitud masiva. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos</b> del sistema: La escasez de recursos del sistema contribuye a las demoras prolongadas. Intente cerrar todos los demás programas antes de realizar una solicitud masiva. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -78,5 +78,5 @@ La siguiente tabla lista algunos problemas comunes que puede encontrar al realiz
 
 ## Mensajes de error
 
-A veces, puede recibir mensajes de error al realizar cambios masivos. Para interpretar el mensaje de error, consulte Códigos [de respuesta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) en nuestra documentación de API.
+A veces, puede recibir mensajes de error al realizar cambios masivos. Para interpretar el mensaje de error, consulte [Códigos de respuesta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) en nuestra documentación de API.
 
