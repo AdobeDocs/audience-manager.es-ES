@@ -28,5 +28,5 @@ Puede capturar datos de campañas de medios mediante llamadas en píxeles al Aud
 Para configurar la ingestión de registros, lea los siguientes artículos:
 
 * [Importar archivos de datos de Google Campaña Manager en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importar archivos de datos de Google Ad Manager en Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de metadatos y datos de registro para configurar la ingesta de registros para archivos de registro genéricos
+* [Importar archivos de datos de Google Ad Manager en Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Registro de ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) archivos de datos y metadatos para configurar la ingesta de registros para los archivos de registro genéricos
