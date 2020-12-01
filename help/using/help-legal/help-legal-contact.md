@@ -31,7 +31,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 
 Según la configuración de su solución, es posible que algunas de las opciones descritas en esta documentación no estén disponibles para usted. Cada cuenta es única, de modo que debe consultar el contrato para obtener información acerca de los precios, las fechas de vencimiento, los términos y las condiciones. Si desea actualizar o cambiar de nivel de servicios, o si tiene preguntas acerca de su servicio actual, póngase en contacto con el administrador de su cuenta.
 
-## Información legal {#legal}
+## Información legal  {#legal}
 
 Published by Adobe Systems Incorporated.
 
