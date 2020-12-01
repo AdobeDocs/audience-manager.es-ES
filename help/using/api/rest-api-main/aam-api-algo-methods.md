@@ -22,7 +22,7 @@ Métodos que permiten trabajar mediante programación con funciones de modelado 
 
 >[!IMPORTANT]
 >
->Los métodos de modelos algorítmicos se han reescrito [!DNL API] [!DNL Swagger] y migrado. Consulte:
+>Los métodos [!DNL API] de modelos algorítmicos se han reescrito con [!DNL Swagger] y se han migrado. Consulte:
 >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
