@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Facturación para proveedores de fuentes de datos {#billing-for-data-feed-providers}
 
-Genere un informe de [!DNL Audience Marketplace] facturación para la vista del uso de fuentes de datos del mes anterior para cada uno de los suscriptores. Puede crear un informe del mes anterior en cualquier momento. Sin embargo, el informe es más preciso cuando se genera el décimo día del mes actual o después de él.
+Genere un informe de facturación [!DNL Audience Marketplace] para vista el uso de fuentes de datos del mes anterior para cada uno de los suscriptores. Puede crear un informe del mes anterior en cualquier momento. Sin embargo, el informe es más preciso cuando se genera el décimo día del mes actual o después de él.
 
 ## Descargar un informe de facturación {#download-billing-report}
 
@@ -27,7 +27,7 @@ Para descargar un informe:
 1. Vaya a **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Haga clic **[!UICONTROL Generate Billing Report]**.
 
-## Campos del informe definidos {#report-fields-defined}
+## Campos de informe definidos {#report-fields-defined}
 
 Un informe de facturación contiene la siguiente información.
 
@@ -41,7 +41,7 @@ Un informe de facturación contiene la siguiente información.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID de proveedor de datos</span></b> </p> </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
+   <td colname="col2"> <p>Su ID de proveedor de datos <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nombre del proveedor de datos</span></b> </p> </td> 
@@ -70,19 +70,19 @@ Un informe de facturación contiene la siguiente información.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segmentos y superposición </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modelado </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Tipos de plan para fuentes</a>de datos. </p> </td> 
+    </ul> <p>Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Tipos de plan para fuentes de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidad de medida</span></b> </p> </td> 
    <td colname="col2"> <p>Indica CPM o facturación de tarifa fija. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Precio de Lista</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Precio de lista</span></b> </p> </td> 
    <td colname="col2"> <p>La tarifa de suscripción de cada fuente de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Precio descuento</span></b> </p> </td> 
-   <td colname="col2"> <p>Tarifa de suscripción para una fuente de datos con descuento. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descuentos para proveedores</a>de datos. </p> </td> 
+   <td colname="col2"> <p>Tarifa de suscripción para una fuente de datos con descuento. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descuentos para proveedores de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidades</span></b> </p> </td> 
@@ -94,7 +94,7 @@ Un informe de facturación contiene la siguiente información.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Costo total</span></b> </p> </td> 
-   <td colname="col2"> <p>El importe <span class="keyword"> Audience Manager</span> factura a un comprador. </p> </td> 
+   <td colname="col2"> <p>La cantidad <span class="keyword"> Audience Manager</span> factura a un comprador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Período de facturación</span></b> </p> </td> 
@@ -105,18 +105,18 @@ Un informe de facturación contiene la siguiente información.
    <td colname="col2"> <p>La fecha en que un comprador ingresó la información de suscripción y uso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Fecha de Inicio de Suscripción</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Fecha de Inicio de suscripción</span></b> </p> </td> 
    <td colname="col2"> <p>La fecha en que un comprador inició la suscripción de fuentes de datos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Fecha de finalización de Suscripción</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Fecha de finalización de suscripción</span></b> </p> </td> 
    <td colname="col2"> <p>La fecha en que un comprador finalizó su suscripción de fuente de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Indicador</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Solo</i>para fuentes CPM. Las opciones de marca incluyen: </p> 
+   <td colname="col2"> <p> <i>Solo</i> para fuentes CPM. Las opciones de marca incluyen: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que un suscriptor ha informado de información de uso al <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que un suscriptor ha notificado información de uso al <span class="keyword"> Audience Manager</span>. </li> 
      <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que un suscriptor no ha notificado información de uso al <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
