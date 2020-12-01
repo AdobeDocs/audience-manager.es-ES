@@ -17,17 +17,17 @@ ht-degree: 4%
 # Señales de búsqueda por pares de clave-valor {#search-signals-by-key-value-pairs}
 
 Busque una o varias señales, en función de sus respectivos pares clave-valor.
-Para buscar más de una señal, haga clic en el botón ![Añadir](assets/icon_add.png) . Introduzca los pares clave-valor que desea buscar y, a continuación, utilice los siguientes filtros para reducir los resultados.
+Para buscar más de una señal, haga clic en el botón ![Añadir](assets/icon_add.png). Introduzca los pares clave-valor que desea buscar y, a continuación, utilice los siguientes filtros para reducir los resultados.
 
 * **Estado** de la señal: buscar señales incluidas en características, señales no utilizadas o ambas.
-* **Registros de Vista para**: seleccione el intervalo de tiempo en el que desea buscar las señales recibidas.
+* **Registros de vista para**: seleccione el intervalo de tiempo en el que desea buscar las señales recibidas.
 * **Recuentos** mínimos: mostrar sólo las señales con el recuento total mínimo especificado en el intervalo seleccionado.
 
 >[!IMPORTANT]
 >
->Para una experiencia de usuario optimizada, los resultados de búsqueda de pares de clave-valor se basan en el muestreo de datos. Consulte Muestreo [de datos y tasas](/help/using/reporting/report-sampling.md) de error para obtener detalles sobre cómo [!DNL Audience Manager] utiliza el muestreo de datos y por qué pueden aparecer ligeras variaciones de resultados al comparar la búsqueda de valor clave con las búsquedas generales.
+>Para una experiencia de usuario optimizada, los resultados de búsqueda de pares de clave-valor se basan en el muestreo de datos. Consulte [Muestreo de datos y tasas de error](/help/using/reporting/report-sampling.md) para obtener más información sobre cómo [!DNL Audience Manager] utiliza el muestreo de datos y por qué pueden aparecer ligeras variaciones de resultados al comparar la búsqueda de valor clave con las búsquedas generales.
 
-Al buscar señales utilizando varios pares clave-valor, [!DNL Audience Manager] vincula los pares utilizando el operador lógico **AND** . Por ejemplo: supongamos que está realizando una búsqueda con los siguientes pares clave-valor:
+Al buscar señales utilizando varios pares clave-valor, [!DNL Audience Manager] vincula los pares utilizando el operador lógico **AND**. Por ejemplo: supongamos que está realizando una búsqueda con los siguientes pares clave-valor:
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
@@ -39,7 +39,7 @@ Esta búsqueda sólo devolverá resultados que califiquen para los tres filtros 
 
 ## Señales excluidas de la búsqueda de señales {#excluded-signals}
 
-Las variables clave utilizadas por el Audience Manager y con el prefijo `d_` y `h_` no aparecen en [!UICONTROL Signals Search]. Consulte Requisitos [de prefijo para variables](../../traits/trait-variable-prefixes.md) clave para obtener más información.
+Las variables clave utilizadas por el Audience Manager y con el prefijo `d_` y `h_` no aparecen en [!UICONTROL Signals Search]. Consulte [Requisitos de prefijo para variables clave](../../traits/trait-variable-prefixes.md) para obtener más información.
 
 ## Insensibilidad de los casos y finalización automática de la búsqueda {#case-insensitivity}
 
@@ -47,14 +47,14 @@ Los campos de búsqueda de clave y valor no distinguen entre mayúsculas y minú
 
 ![](assets/signal-search-suggestions.png)
 
-Digamos que [!DNL Audience Manager] recibimos las siguientes señales:
+Digamos que [!DNL Audience Manager] recibió las siguientes señales:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
 * `PRODUCT == phone`
 * `product == PHONE`
 
-Cuando se introduce `product` en el campo de búsqueda de claves, se reciben sugerencias de finalización automática para `productCategory`, `newProduct`, `PRODUCT`y `product`.
+Al ingresar `product` en el campo de búsqueda clave, recibirá sugerencias autocompletadas para `productCategory`, `newProduct`, `PRODUCT` y `product`.
 
-Del mismo modo, cuando se busca `product == phone`, [!UICONTROL Data Explorer] devuelve resultados tanto para `PRODUCT == phone` como para `product == PHONE`.
+Del mismo modo, cuando busca `product == phone`, [!UICONTROL Data Explorer] devuelve resultados tanto para `PRODUCT == phone` como para `product == PHONE`.
 Las realizaciones de características rellenadas con versiones anteriores no distinguen entre mayúsculas y minúsculas. Una característica que contiene la señal con el par clave-valor `PRODUCT == SMARTPHONE` también califica la señal con el par clave-valor `product == smartphone`.
