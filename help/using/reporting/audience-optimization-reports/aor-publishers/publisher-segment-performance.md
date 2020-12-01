@@ -25,30 +25,30 @@ La comparación de estos diferentes tipos de segmentos dentro de los informes y 
 
 ## Casos de uso {#use-cases}
 
-Con el [!UICONTROL Segment Performance] informe puede:
+Con el informe [!UICONTROL Segment Performance] puede:
 
 * Identifique los segmentos de audiencia asignados que impulsan la escala o el rendimiento.
 * Identifique los segmentos sin asignar que se van a presentar en futuras campañas, en función de la contribución de una audiencia al rendimiento anterior.
 
 ## Uso del informe Rendimiento del segmento {#using-segment-performance-report}
 
-Alternar entre **[!UICONTROL Mapped]** y **[!UICONTROL Unmapped]** para seleccionar segmentos asignados a un destino o no. Seleccione **[!UICONTROL All]** para incluir todos los segmentos en el informe.
+Alternar entre **[!UICONTROL Mapped]** y **[!UICONTROL Unmapped]** para seleccionar segmentos que estén asignados a un destino o no. Seleccione **[!UICONTROL All]** para incluir todos los segmentos en el informe.
 
-Utilice los controles Intervalo **de** días y **Fecha a través** para ajustar el intervalo retrospectivo. Tenga en cuenta que los períodos retrospectivos de 7 y 30 días solo están disponibles para las fechas de domingo.
+Utilice los controles **Intervalo de días** y **Pasar a la fecha** para ajustar el intervalo retrospectivo. Tenga en cuenta que los períodos retrospectivos de 7 y 30 días solo están disponibles para las fechas de domingo.
 
-Utilice el cuadro **[!UICONTROL Line Item]** desplegable para seleccionar las propiedades web para las que desea devolver información.
+Utilice el cuadro desplegable **[!UICONTROL Line Item]** para seleccionar las propiedades web para las que desea devolver información.
 
-En el cuadro **[!UICONTROL Segment Data Source]** desplegable, seleccione las fuentes de datos que contengan los segmentos que desee ver en el informe.
+En el cuadro desplegable **[!UICONTROL Segment Data Source]**, seleccione las fuentes de datos que contengan los segmentos que desee ver en el informe.
 
-Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué segmentos desea ver en el informe.
+Utilice el cuadro desplegable **[!UICONTROL Segment]** para seleccionar los segmentos que desee ver en el informe.
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar de la propiedad [!UICONTROL Line Item ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], tal como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar de [!UICONTROL Line Item ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
-Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
+Su informe [!UICONTROL Segment Performance] podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -86,7 +86,7 @@ Su [!UICONTROL Segment Performance] informe podría tener un aspecto similar al 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Población de segmentos en tiempo real </p> </td> 
-   <td colname="col2"> <p>El número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se califican para el segmento en el momento en que el <span class="keyword"> Audience Manager</span>los ve. </p> </td> 
+   <td colname="col2"> <p>El número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban calificados para el segmento en el momento en que fueron vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +101,7 @@ Para leer el informe, ayuda a dividir los resultados en cuatro secciones con lí
 
 ## Cómo leer los resultados del segmento sin asignar {#read-unmapped-segment}
 
-Ver segmentos sin asignar en un [!UICONTROL Segment Performance] informe es una buena manera de encontrar nuevos segmentos que no ha considerado para objetivos. De hecho, algunos de estos segmentos pueden superar el rendimiento de los segmentos asignados.
+Ver segmentos sin asignar en un informe [!UICONTROL Segment Performance] es una buena manera de encontrar nuevos segmentos que no ha considerado para objetivos. De hecho, algunos de estos segmentos pueden superar el rendimiento de los segmentos asignados.
 
 Para leer este informe, ayuda a dividir los resultados en cuatro secciones con líneas imaginarias (en rojo) y categorías que se muestran en el informe de muestra a continuación.
 
