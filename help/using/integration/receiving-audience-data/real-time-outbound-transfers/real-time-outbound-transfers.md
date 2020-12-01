@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Transferencias de datos salientes en tiempo real {#real-time-outbound-data-transfers}
 
-El proceso de transferencia de datos en tiempo real saliente ofrece datos de usuario como una serie de mensajes con [!DNL JSON] formato a una plataforma de destino.
+El proceso de transferencia de datos en tiempo real saliente ofrece datos de usuario como una serie de [!DNL JSON] mensajes con formato a una plataforma de destino.
 
 <!-- c_outbound_json.xml -->
 
@@ -26,8 +26,8 @@ El proceso de transferencia de datos en tiempo real saliente ofrece datos de usu
 Para utilizar este método, la plataforma de destino debe cumplir los siguientes requisitos:
 
 * Debe proporcionar un punto final [!DNL URL] que pueda escalarse para recibir un gran volumen de mensajes del Audience Manager;
-* Debe aceptar los datos en [!DNL JSON] formato (`Content-type: application/json`);
-* Debe aceptar transferencias `HTTPS` de datos seguras. [!DNL Audience Manager] no enviará mensajes a través del protocolo no seguro `HTTP` .
+* Debe aceptar datos en formato [!DNL JSON] (`Content-type: application/json`);
+* Debe aceptar transferencias de datos `HTTPS` seguras. [!DNL Audience Manager] no enviará mensajes a través del  `HTTP` protocolo no seguro.
 
 ## Frecuencia
 
@@ -43,11 +43,11 @@ No hay límites de velocidad establecidos en el rendimiento de los mensajes entr
 
 ## Respuestas obligatorias
 
-De forma predeterminada, el servidor de destinatario debe devolver el `200 OK` código para indicar que se ha recibido correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera en 3000 milisegundos. En respuesta a un error, solo [!DNL Audience Manager] realizará un intento de reintento.
+De forma predeterminada, el servidor de destinatario debe devolver el código `200 OK` para indicar que se ha recibido correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera en 3000 milisegundos. En respuesta a un error, [!DNL Audience Manager] realizará un solo intento de reintento.
 
 ## Parámetros
 
-La siguiente tabla define los elementos del archivo de datos que se envían al destino [!DNL JSON] .
+La siguiente tabla define los elementos del archivo de datos [!DNL JSON] que envía al destino.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -86,7 +86,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Número total de usuarios en la <code> POST</code> solicitud. </p> </td> 
+   <td colname="col3"> <p>Número total de usuarios en la solicitud <code> POST</code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>El <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>El UUID de <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> ID de la región <span class="keyword"> Audience Manager</span> donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </td> 
+   <td colname="col3"> ID de región <span class="keyword"> Audience Manager</span> donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -128,10 +128,10 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
     </ul> <p>Los usuarios no están segmentados cuando: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Se ha eliminado de un segmento en función de la regla de segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se ha eliminado de un segmento en función del intervalo <a href="../../../features/traits/segment-ttl-explained.md"> de tiempo de vida</a>del segmento. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se ha eliminado de un segmento en función del <a href="../../../features/traits/segment-ttl-explained.md"> intervalo de tiempo de vida</a> del segmento. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se ha movido a un estado inactivo si no se han visto en los últimos 120 días. </li>
-     <li>Eliminado debido a una solicitud de cambio de privacidad (por ejemplo, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Todos los ID de socio sincronizados con un ID de <span class="keyword"> Audience Manager</span> recibirán el <code> "Status":"0"</code> indicador cuando un usuario no esté segmentado. </p> </td> 
+     <li>Eliminado debido a una solicitud de cambio de privacidad (p. ej. <span class="keyword"> RGPD</span>)</li>
+    </ul> <p>Todos los ID de socio que se sincronizan con un <span class="keyword"> ID de Audience Manager</span> recibirán el indicador <code> "Status":"0"</code> cuando un usuario no esté segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ La siguiente tabla define los elementos del archivo de datos que se envían al d
 
 ## Seguridad
 
-Puede asegurar el proceso de transferencia de datos saliente en tiempo real [firmando solicitudes](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) HTTP con claves privadas o haciendo que [!DNL Audience Manager] se autentique mediante el protocolo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
+Puede asegurar el proceso de transferencia de datos saliente en tiempo real [firmando solicitudes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) mediante claves privadas o haciendo que [!DNL Audience Manager] se autentique mediante el protocolo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Solicitud
 
