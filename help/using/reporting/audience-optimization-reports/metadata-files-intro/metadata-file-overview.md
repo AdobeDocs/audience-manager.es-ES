@@ -21,13 +21,13 @@ Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y c
 
 ## Información general {#overview}
 
-Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte Archivos [de datos para informes Audience Optimization y archivos](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de registro procesables.
+Una revisión de los metadatos y cómo se utilizan. Un archivo de metadatos debe ir acompañado de un archivo de datos. El contenido del archivo de metadatos coincide con la información del archivo de datos con etiquetas relacionadas legibles por el usuario en los menús del informe. Para obtener más información, consulte [Archivos de datos para informes de Audience Optimization y archivos de registro procesables](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Los Archivos De Metadatos Contienen Datos Sobre Otros Datos
 
-Un archivo de metadatos contiene información sobre otros tipos de datos. Para ayudarle a comprender cómo funciona esto, vamos a revisar cómo [!DNL Audience Manager] recibe los datos.
+Un archivo de metadatos contiene información sobre otros tipos de datos. Para ayudarle a comprender cómo funciona esto, analicemos cómo [!DNL Audience Manager] recibe los datos.
 
-Durante un evento de impresión o clic, [!DNL Audience Manager] recibe datos en una cadena URL conocida como llamada *de* evento.
+Durante un evento de impresión o clic, [!DNL Audience Manager] recibe datos en una cadena URL conocida como *llamada de evento*.
 
 La llamada de evento organiza la información en conjuntos de pares de clave-valor definidos. Los valores de un par clave-valor contienen datos numéricos. El archivo de metadatos contiene nombres y otra información legible que corresponde al ID en cada par clave-valor.
 
@@ -39,19 +39,19 @@ Sin embargo, un archivo de metadatos correctamente formateado puede enlazar este
 
 ### Cuándo se necesita un archivo de metadatos
 
-En primer lugar, se requiere un archivo de metadatos y todos los parámetros que se enumeran a continuación en una llamada de evento cuando se desea utilizar el informe [Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+En primer lugar, se requiere un archivo de metadatos y todos los parámetros enumerados a continuación en una llamada de evento cuando se desea utilizar los [informes de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
-En segundo lugar, necesita un archivo de metadatos si va a enviar sus propios datos a [!DNL Audience Manager] o si desea ver los datos en los informes de otros proveedores con los que no estamos integrados. Por ejemplo, [!DNL Audience Manager] tiene una integración con el Administrador [](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) de Campañas (DCM) de Doble y clic de Google. Debido a esta relación, [!DNL Audience Manager] puede asociar ID con nombres y descripciones utilizados por las opciones del informe. Sin una integración, aún podemos ingerir datos, pero las opciones del informe mostrarán ID numéricos en lugar de nombres descriptivos.
+En segundo lugar, necesita un archivo de metadatos si está enviando sus propios datos a [!DNL Audience Manager] o si desea ver los datos en los informes de otros proveedores con los que no estamos integrados. Por ejemplo, [!DNL Audience Manager] tiene una integración con el [Administrador de Campañas de Doble-clic](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) de Google. Debido a esta relación, [!DNL Audience Manager] puede asociar ID con nombres y descripciones utilizados por las opciones del informe. Sin una integración, aún podemos ingerir datos, pero las opciones del informe mostrarán ID numéricos en lugar de nombres descriptivos.
 
 ![imagen del menú de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## Asignaciones de archivos {#file-mappings}
 
-La siguiente tabla lista los pares de clave-valor que contienen datos utilizados por los [!UICONTROL Audience Optimization] informes. Si necesita utilizar un archivo de metadatos, contendrá información legible en lenguaje natural que corresponda a los valores de estos pares de clave-valor. Los valores de estas claves sólo aceptan enteros (tipo de datos INT). Note, *italics* indicates a variable placeholder. Otros elementos son constantes o claves y no cambian.
+La siguiente tabla lista los pares de clave-valor que contienen datos utilizados por los informes [!UICONTROL Audience Optimization]. Si necesita utilizar un archivo de metadatos, contendrá información legible en lenguaje natural que corresponda a los valores de estos pares de clave-valor. Los valores de estas claves sólo aceptan enteros (tipo de datos INT). Nota: *cursiva* indica un marcador de posición de variable. Otros elementos son constantes o claves y no cambian.
 
 >[!IMPORTANT]
 >
->Si utiliza los [!UICONTROL Audience Optimization] informes, *todos* estos valores se requieren en la llamada de evento.
+>Si utiliza los informes [!UICONTROL Audience Optimization], *todos* de estos valores se requieren en la llamada de evento.
 
 <table id="table_B2C8C493080E449CA71C4EF07D9476BD"> 
  <thead> 
@@ -63,7 +63,7 @@ La siguiente tabla lista los pares de clave-valor que contienen datos utilizados
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Anunciante </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Constituye el ID de fuente de datos del anunciante o el código de integración proporcionado al crear una fuente de datos. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Constituye el ID de fuente de datos del anunciante o el código de integración proporcionado al crear una fuente de datos. Consulte <a href="../../../features/manage-datasources.md#create-data-source"> Crear una fuente de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unidad de negocio (BU) </p> </td> 
@@ -91,7 +91,7 @@ La siguiente tabla lista los pares de clave-valor que contienen datos utilizados
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plataforma </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Es el ID de fuente <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> de datos de la plataforma que proporciona información de metadatos (por ejemplo, DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Es el <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> ID de la fuente de datos</a> para la plataforma que proporciona información de metadatos (por ejemplo, DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Táctica </p> </td> 
@@ -104,13 +104,13 @@ La siguiente tabla lista los pares de clave-valor que contienen datos utilizados
  </tbody> 
 </table>
 
-## Cómo los ID de llamadas de Evento nombres de archivos de formas, contenido y rutas de Envío {#how-ids-shape-file-names}
+## Cómo los ID de Evento de llamadas denominan nombres de archivos de forma, contenido y rutas de Envío {#how-ids-shape-file-names}
 
 Los ID pasados por estos pares clave-valor ayudan a crear el nombre del archivo de metadatos y su contenido. Las siguientes secciones e ilustraciones muestran cómo funciona. Estos ejemplos crean un archivo que contiene el nombre de un elemento creativo en una campaña, pero se pueden usar otras combinaciones.
 
 ### Llamada de evento
 
-En este ejemplo crearemos un archivo de metadatos que incluya nombres creativos en un [!UICONTROL Audience Optimization] informe. Para ello, necesitamos extraer los ID de fuentes de datos, de campaña y creativas de una llamada de evento.
+En este ejemplo crearemos un archivo de metadatos que trae nombres creativos a un informe [!UICONTROL Audience Optimization]. Para ello, necesitamos extraer los ID de fuentes de datos, de campaña y creativas de una llamada de evento.
 
 ![Imagen de llamada de evento](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
@@ -120,25 +120,25 @@ El nombre del archivo se basa en los ID de creativo, de campaña y de origen de 
 
 En un nombre de archivo:
 
-* La clave de origen de datos cambia a `dpid` de `d_src`.
+* La clave del origen de datos cambia a `dpid` de `d_src`.
 
 * Los ID de elemento creativo y de campaña representan una categoría en lugar de un identificador real.
 
 ![cómo se crea un nombre de archivo](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Consulte [Convenciones de nombres para archivos de metadatos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Contenido del archivo
 
-En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento aquí es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creative de un [!UICONTROL Audience Optimization] informe.
+En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento aquí es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creative de un informe [!UICONTROL Audience Optimization].
 
 ![contenido de un archivo de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
-See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+Consulte [Formato de contenido para archivos de metadatos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Envío de archivos
 
-Después de nombrar y agregar datos a un archivo, se lo envía a un directorio de almacenamiento Amazon S3 proporcionado por [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Después de nombrar y agregar datos a un archivo, se lo envía a un directorio de almacenamiento Amazon S3 proporcionado por [!DNL Audience Manager]. Consulte [Métodos de Envío para archivos de metadatos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
