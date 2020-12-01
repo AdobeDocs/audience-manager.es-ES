@@ -15,27 +15,27 @@ ht-degree: 5%
 ---
 
 
-# [!UICONTROL Trend Analysis] e informes [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] e  [!UICONTROL Volume Analysis] informes{#trend-analysis-and-volume-analysis-reports}
 
 Estos informes devuelven datos sobre impresiones, tasas de pulsaciones y conversiones para una amplia gama de dimensiones de publicidad. Compare las tendencias y el volumen de las métricas seleccionadas para obtener una mejor imagen del rendimiento de la campaña con el paso del tiempo.
 
-## Informe de muestra [!UICONTROL Trend Analysis] {#sample-trend-analysis}
+## Informe [!UICONTROL Trend Analysis] de muestra {#sample-trend-analysis}
 
-El [!UICONTROL Trend Analysis] informe devuelve datos en un gráfico de líneas solamente para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión, pulsaciones y conversiones de un conjunto de segmentos asignados.
+El informe [!UICONTROL Trend Analysis] devuelve datos en un gráfico de líneas únicamente para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión, pulsaciones y conversiones de un conjunto de segmentos asignados.
 
 ![](assets/trend-analysis.png)
 
-## Informe de muestra [!UICONTROL Volume Analysis] {#sample-volume-analysis}
+## Informe [!UICONTROL Volume Analysis] de muestra {#sample-volume-analysis}
 
-El [!UICONTROL Volume Analysis] informe devuelve datos en un gráfico de barras para el intervalo de fechas seleccionado. En este ejemplo, el informe muestra las impresiones, pulsaciones y conversiones por volumen para un conjunto de segmentos asignados.
+El informe [!UICONTROL Volume Analysis] devuelve datos en un gráfico de barras para el intervalo de fechas seleccionado. En este ejemplo, el informe muestra las impresiones, pulsaciones y conversiones por volumen para un conjunto de segmentos asignados.
 
 >[!NOTE]
 >
->Los períodos de 7 y 30 días de consulta solo están disponibles para las fechas de los domingos **[!UICONTROL Date Through]** .
+>Los períodos de 7 días y 30 días de consulta solo están disponibles para las fechas de los domingos **[!UICONTROL Date Through]**.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Para obtener información sobre segmentos asignados y sin asignar, consulte la documentación del informe [Rendimiento del](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento.
+>Para obtener información sobre segmentos asignados y sin asignar, consulte la documentación de [Informe de rendimiento de segmentos](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).
 
