@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve el mensaje &quot;Error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de bases de datos. Los archivos están disponibles para los informes de superposición de segmento a segmento, de segmento a característica y de rasgo a rasgo.
 
-## Metadatos del nombre de archivo {#file-name-metadata}
+## Metadatos de nombre de archivo {#file-name-metadata}
 
 La siguiente lista de tabla describe las convenciones de nomenclatura de archivos y las extensiones de archivo que se utilizan en un archivo .csv de superposición. En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
 
@@ -33,7 +33,7 @@ La siguiente lista de tabla describe las convenciones de nomenclatura de archivo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Archivo Extensión </p> </td> 
-   <td colname="col2"> <p>Los archivos de informes superpuestos están comprimidos gzip y tienen una extensión <code> .gz</code> de archivo. Debe agregar la extensión <code> .csv</code> al archivo después de la descompresión. </p> </td> 
+   <td colname="col2"> <p>Los archivos de informes superpuestos están comprimidos por gzip y tienen una extensión de archivo <code> .gz</code>. Debe agregar la extensión <code> .csv</code> al archivo después de la descompresión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre del archivo </p> </td> 
@@ -85,7 +85,7 @@ En el archivo, los datos de cadena se encierran entre comillas de doble. Consult
 
 ## Registros de informes de segmento a segmento {#segment-segment-records}
 
-Un archivo de datos para el informe [Superposición de](segment-segment-overlap-report.md) segmento a segmento contiene los siguientes registros.
+Un archivo de datos para el [informe Superposición de segmento a segmento](segment-segment-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -144,7 +144,7 @@ Un archivo de datos para el informe [Superposición de](segment-segment-overlap-
 
 ## Registros de informes de segmento a rasgo {#segment-trait-records}
 
-Un archivo de datos para el informe [Superposición de](segment-trait-overlap-report.md) segmento a característica contiene los siguientes registros.
+Un archivo de datos para el [Informe de superposición de segmento a rasgo](segment-trait-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -209,9 +209,9 @@ Un archivo de datos para el informe [Superposición de](segment-trait-overlap-re
  </tbody> 
 </table>
 
-## Registros de informes de características a características {#trait-trait-records}
+## Registros de informes de rasgo a rasgo {#trait-trait-records}
 
-Un archivo de datos para el informe [](trait-trait-overlap-report.md) Superposición de rasgo a rasgo contiene los siguientes registros.
+Un archivo de datos para el [Informe de superposición de rasgo a rasgo](trait-trait-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
