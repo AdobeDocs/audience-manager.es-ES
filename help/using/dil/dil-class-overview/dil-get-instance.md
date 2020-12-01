@@ -1,7 +1,7 @@
 ---
-description: Recupera una instancia DIL específica del socio.
+description: Recupera una instancia de DIL específica del socio.
 keywords: audience manager api;aam api;audience manager apis;aam apis
-seo-description: Recupera una instancia DIL específica del socio.
+seo-description: Recupera una instancia de DIL específica del socio.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 # getDil{#getdil}
 
-Recupera una instancia DIL específica del socio.
+Recupera una instancia de DIL específica del socio.
 
 **Firma de función:** `getDil: function (partner, containerNSID) {}`
 
@@ -33,7 +33,7 @@ Recupera una instancia DIL específica del socio.
 
 ## Respuesta
 
-Una coincidencia de socio y contenedor con NSID devuelve una [!UICONTROL DIL] instancia específica del socio. Si no hay coincidencia, la API devuelve (no emite) un error con el mensaje &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Una coincidencia de socio y contenedor con NSID devuelve una instancia específica de socio [!UICONTROL DIL]. Si no hay coincidencia, la API devuelve (no emite) un error con el mensaje &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Código de muestra
 
