@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Transport Layer Security (TLS) es un protocolo criptográfico utilizado para establecer un canal de comunicaciones seguro entre dos sistemas. Se utiliza para autenticar uno o ambos sistemas y proteger la confidencialidad y la integridad de la información que pasa entre sistemas. En mayo de 2018, había tres versiones del protocolo TLS en uso: TLS 1.0, 1.1 y 1.2.
 
-En marzo de 2019, [!DNL Adobe] dejó de apoyar el [!DNL TLS 1.0] protocolo. La funcionalidad de Adobe Audience Manager no funciona para los usuarios finales que utilizan navegadores que solo admiten [!DNL TLS 1.0].
+En marzo de 2019, [!DNL Adobe] finalizó el soporte para el protocolo [!DNL TLS 1.0]. La funcionalidad de Adobe Audience Manager no funciona para los usuarios finales que utilizan navegadores que solo admiten [!DNL TLS 1.0].
 
-En marzo de 2020, [!DNL Adobe] dejará de ofrecer soporte para el [!DNL TLS 1.1] protocolo. La funcionalidad de Adobe Audience Manager dejará de funcionar para los usuarios finales que utilizan navegadores que solo admiten [!DNL TLS 1.1].
+En marzo de 2020, [!DNL Adobe] dejará de ofrecer soporte para el protocolo [!DNL TLS 1.1]. La funcionalidad de Adobe Audience Manager dejará de funcionar para los usuarios finales que utilizan navegadores que solo admiten [!DNL TLS 1.1].
 
-Adobe recomienda encarecidamente el uso de [!DNL TLS 1.2], que es, en el momento de la redacción, la última versión del protocolo. Todos los navegadores modernos utilizan [!DNL TLS 1.2]. Hemos recopilado para usted una lista de exploradores, versiones y su [!DNL TLS] compatibilidad. Para obtener más información sobre la compatibilidad con exploradores TLS, visite [el vínculo](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)de la Wikipedia Seguridad de la capa de transporte.
+Adobe recomienda encarecidamente el uso de [!DNL TLS 1.2], que es, en el momento de escribir este artículo, la última versión del protocolo. Todos los exploradores modernos utilizan [!DNL TLS 1.2]. Hemos recopilado para usted una lista de exploradores, versiones y su [!DNL TLS] soporte. Para obtener más información sobre la compatibilidad con exploradores TLS, visite [el vínculo de la Wikipedia Seguridad de la capa de transporte](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 
