@@ -27,23 +27,23 @@ La eliminación masiva permite eliminar varios segmentos, características, carp
 
 >[!NOTE]
 >
->[Los permisos](../../features/administration/administration-overview.md) de grupo RBAC asignados en la [!DNL Audience Manager] interfaz de usuario se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los ](../../features/administration/administration-overview.md) permisos de grupo RBAC asignados en la  [!DNL Audience Manager] interfaz de usuario se respetan en la  [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
 >Si tiene segmentos asignados al destino, fallará la eliminación masiva de asignaciones de destino. Elimine los segmentos de ese destino en la interfaz de usuario antes de intentar eliminar destinos de forma masiva. Además, las carpetas de rasgos y segmentos deben estar vacías para poder eliminarlas.
 
-Para eliminar varios elementos, abra la [!UICONTROL Bulk Management Tools] hoja de cálculo y:
+Para eliminar varios elementos, abra la hoja de cálculo [!UICONTROL Bulk Management Tools] y:
 
-1. Haga clic en la ficha y copie los encabezados de creación del elemento que desee agregar. **[!UICONTROL Headers]**
-2. Click the **[!UICONTROL Delete]** tab.
+1. Haga clic en la ficha **[!UICONTROL Headers]** y copie los encabezados de creación para el elemento que desee agregar.
+2. Haga clic en la ficha **[!UICONTROL Delete]**.
 3. Pegue los encabezados de eliminación en la primera fila de la hoja de cálculo de actualización.
 4. Pegue o escriba los ID de los objetos que desea eliminar en la columna debajo del encabezado.
-5. Proporcione la información [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) inicio de sesión necesaria y haga clic en **[!UICONTROL Submit]**.
+5. Proporcione la [información de inicio de sesión requerida](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) y haga clic en **[!UICONTROL Submit]**.
 
-   La hoja de cálculo crea una [!UICONTROL Results] columna. La [!UICONTROL Results] columna devuelve un mensaje que indica si el elemento se ha eliminado o un mensaje de error.
+   La hoja de cálculo crea una columna [!UICONTROL Results]. La columna [!UICONTROL Results] devuelve un mensaje que indica si el elemento se ha eliminado o si hay un mensaje de error.
 Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/delete.png)
 
-Si la actualización masiva devuelve un error o un error, consulte [Resolución de problemas de las herramientas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de administración masiva.
+Si la actualización masiva devuelve un error o falla, consulte [Solución de problemas para las herramientas de administración masiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).
