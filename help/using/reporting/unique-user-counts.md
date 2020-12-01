@@ -30,7 +30,7 @@ c_unique_user_counts.xml
 Los informes de superposición cuentan a los usuarios como únicos cuando cumplen los requisitos para una característica:
 
 * Durante el intervalo de tiempo seleccionado para el informe.
-* Tiene un valor de [tiempo de vida](../features/traits/segment-ttl-explained.md) mayor que el intervalo de tiempo seleccionado para el informe.
+* Tiene un valor [tiempo de vida](../features/traits/segment-ttl-explained.md) mayor que el intervalo de tiempo seleccionado para el informe.
 * Si son vistos como activos en nuestro sistema (es decir, calificados para cualquier otra característica, con una sincronización de ID, etc.) en los últimos 60 días.
 
 ## Informe general: Recuento de usuarios únicos
