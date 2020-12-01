@@ -17,18 +17,18 @@ ht-degree: 11%
 
 # API de DCS para transferencias de datos de servidor a servidor{#dcs-apis-for-server-to-server-data-transfers}
 
-Servidor a servidor ([!UICONTROL S2S]) [!DNL API]proporciona código y métodos que le permiten enviar y recibir datos [!DNL DCS] de usuario y trabajar con esta información en sus propios sistemas o aplicaciones.
+Servidor a servidor ([!UICONTROL S2S]) [!DNL API]s proporciona código y métodos que permiten enviar y recibir [!DNL DCS] datos de usuario y trabajar con esta información en sus propios sistemas o aplicaciones.
 
 ## Casos de uso común {#common-use-cases}
 
 [!UICONTROL Server-to-server] las transferencias pueden ayudarle a personalizar páginas de aterrizaje u otras interacciones en función de los intereses del visitante. Algunos casos de uso común incluyen:
 
 * Personalización in situ: Personalice la experiencia de un visitante en el sitio agregando de forma dinámica contenido relevante y llamadas a acción en función de los segmentos a los que pertenecen.
-* Mejorar el servicio al cliente: Importar [!DNL Audience Manager] segmentos en un [!DNL CRM] u otro sistema mediante una transferencia de datos de servidor a servidor. Estos datos pueden proporcionar al servicio de llamadas o a los operadores de chat en línea información relevante y personalizada sobre un cliente.
+* Mejorar el servicio al cliente: Importar [!DNL Audience Manager] segmentos a un [!DNL CRM] u otro sistema mediante una transferencia de datos de servidor a servidor. Estos datos pueden proporcionar al servicio de llamadas o a los operadores de chat en línea información relevante y personalizada sobre un cliente.
 
 ## Requisitos: ID de usuario y nombres de servidor regionales {#requirements}
 
-La [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y realizar solicitudes de datos.
+El [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y realizar solicitudes de datos.
 
 * El ID de usuario es obligatorio porque necesita asociar datos con un visitante en particular.
 * El ID de región es necesario para volver a enlazar las llamadas al nombre de un servidor y porque los datos de usuario se almacenan en centros de datos geográficamente más cercanos a los visitantes del sitio.
@@ -37,10 +37,10 @@ La [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y re
 
 Actualmente, esta guía explica cómo:
 
-* Obtenga los ID de usuario y región de los [!DNL DCS] archivos que ya reciba como [!DNL Audience Manager] cliente.
+* Obtenga los ID de usuario y región de los [!DNL DCS] archivos que ya puede recibir como cliente [!DNL Audience Manager].
 
-* Obtenga los ID de usuario y región si utiliza el [!DNL Visitor ID Service].
-* Realice llamadas al [!DNL DCS] después de que tenga el ID de usuario y región.
+* Obtenga los ID de usuario y región si utiliza [!DNL Visitor ID Service].
+* Realice llamadas al [!DNL DCS] después de tener el ID de usuario y región.
 
 Agregaremos nuevos métodos a medida que estén disponibles. Consulte las siguientes secciones para comenzar.
 
