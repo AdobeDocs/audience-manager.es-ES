@@ -17,6 +17,6 @@ ht-degree: 9%
 
 # Uso de Expresiones regulares en el generador de rasgos {#using-regular-expressions-in-trait-builder}
 
-Puede crear sus propias reglas de características con el editor de [!UICONTROL Trait Builder] código. Busque el editor de código en [!UICONTROL Traits > Add New > Rule-based > Trait Expression] y cambie a [!UICONTROL Code View]. Audience Manager admite todas las construcciones de expresión regulares disponibles a las que se hace referencia en el [!DNL Java Regular Expression Class Pattern]. Puede validar cualquiera de las expresiones regulares directamente en la [!DNL Expression Builder].
+Puede crear sus propias reglas de características con el editor de código [!UICONTROL Trait Builder]. Busque el editor de código en [!UICONTROL Traits > Add New > Rule-based > Trait Expression] y cambie a [!UICONTROL Code View]. Audience Manager admite todas las construcciones de expresión regulares disponibles a las que se hace referencia en [!DNL Java Regular Expression Class Pattern]. Puede validar cualquiera de las expresiones regulares directamente en [!DNL Expression Builder].
 
-Consulte también Patrones [de clases de Expresión regular de](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)Java.
+Consulte también [Patrones de clases de Expresión regular de Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
