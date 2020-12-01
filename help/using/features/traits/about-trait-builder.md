@@ -21,11 +21,11 @@ ht-degree: 5%
 
 <!-- c_tb_about.xml -->
 
-En comparación con los píxeles, que se activan en respuesta a condiciones simples de &quot;sí&quot; o &quot;verdadero&quot;, [!UICONTROL Trait Builder] permite:
+En comparación con los píxeles, que se activan en respuesta a condiciones simples de &quot;sí&quot; o &quot;verdadero&quot;, [!UICONTROL Trait Builder] le permite:
 
-* Recopile *todos* los datos de la página para poder usarlos más adelante para crear características útiles y relevantes.
-* Genere características basadas en pares [de valor](../../reference/key-value-pairs-explained.md) clave pasados durante la recopilación de datos.
-* Evalúe condiciones de datos complejas con reglas del lado del servidor que funcionan con expresiones [](../../reference/boolean-expressions-tsb.md) booleanas y operadores [de](../../features/traits/trait-comparison-operators.md)comparación.
+* Recopile *todos* datos de página para que pueda usarlos más adelante a fin de generar características útiles y relevantes.
+* Genere características basadas en [pares de clave-valor](../../reference/key-value-pairs-explained.md) pasados durante la recopilación de datos.
+* Evalúe condiciones de datos complejas con reglas del lado del servidor que funcionan con [expresiones booleanas](../../reference/boolean-expressions-tsb.md) y [operadores de comparación](../../features/traits/trait-comparison-operators.md).
 
 * Reduzca o elimine la necesidad de mantener píxeles de recopilación de datos en el inventario.
-* Monitorear el rendimiento con [!DNL Audience Manager] los informes.
+* Monitoree el rendimiento con [!DNL Audience Manager] informes.
