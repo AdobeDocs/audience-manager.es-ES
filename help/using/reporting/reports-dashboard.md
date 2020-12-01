@@ -25,22 +25,22 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupo de usuarios al [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel de que tienen permisos para la vista. [!UICONTROL RBAC] le permite controlar qué datos de sistema de informes pueden realizar la vista los equipos internos.
+[!DNL Audience Manager] utiliza  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupo de usuarios al  [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel de que tienen permisos para la vista. [!UICONTROL RBAC] le permite controlar qué datos de sistema de informes pueden realizar la vista los equipos internos.
 
-Por ejemplo, una agencia que gestione diferentes cuentas de anunciante puede configurar los permisos de grupo de usuarios para que un equipo que administre la cuenta del Anunciante A no pueda ver los datos de sistema de informes del Anunciante B. Este panel se puede utilizar para solucionar problemas de envío de datos.
+Por ejemplo, una agencia que gestione diferentes cuentas de anunciante puede configurar permisos de grupo de usuarios para que un equipo que administre la cuenta del Anunciante A no pueda ver los datos de sistema de informes del Anunciante B. Este panel se puede utilizar para solucionar problemas de envío de datos.
 
-Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas vs. integrado), tiene un mejor punto de partida para rastrear un posible problema de envío de datos. Si observa una caída en el total de usuarios únicos y en los usuarios únicos integrados, puede ir al [!UICONTROL On-boarding Status] informe para ver si hubo algún problema con un archivo de entrada.
+Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas vs. integrado), tiene un mejor punto de partida para rastrear un posible problema de envío de datos. Si observa una caída en el total de usuarios únicos y en los usuarios únicos integrados, puede ir al informe [!UICONTROL On-boarding Status] para ver si hubo algún problema con un archivo de entrada.
 
 **Para acceder al Panel:**
 
 1. En el menú de navegación superior, haga clic en **[!UICONTROL Dashboard]**.
-2. *Opcional* Seleccione el intervalo de tiempo deseado desde la fecha del último sistema de informes en la lista desplegable (7 días, 14 días (el valor predeterminado), 30 días o 60 días).
+2. ** OpcionalSeleccione el intervalo de tiempo deseado desde la última fecha de sistema de informes en la lista desplegable (7 días, 14 días (el valor predeterminado), 30 días o 60 días).
 
-   Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] muestra el cambio en los visitantes únicos de la audiencia durante el período que termina hoy frente al período anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días anteriores que finalizan hace siete días.
+   Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] muestra el cambio en visitantes únicos en la audiencia durante el período que termina hoy frente al período anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días anteriores que finalizan hace siete días.
 
    >[!NOTE]
    >
-   >Puede investigar un cambio delta que parezca fuera de lo normal ejecutando un [!UICONTROL Trend] informe. Por ejemplo: si durante los últimos siete días ve un cambio de delta excepcionalmente grande, podría ejecutar un [!UICONTROL Trend] informe de los últimos 14 días (2 x 7) para comprender mejor los números.
+   >Puede investigar un cambio delta que parezca fuera de lo normal ejecutando un informe [!UICONTROL Trend]. Por ejemplo: si ve un cambio delta inusualmente grande durante los últimos siete días, puede ejecutar un informe [!UICONTROL Trend] para los últimos 14 días (2 x 7) para comprender mejor los números.
 
    Según los permisos del usuario que ha iniciado sesión, se muestran los paneles siguientes:
 
@@ -48,7 +48,7 @@ Por ejemplo: si observa una caída, o un pico, en el total de usuarios únicos c
    * [Características más grandes/Características más cambiadas](../reporting/reports-dashboard.md#largest-traits)
    * [Segmentos más grandes/Segmentos más cambiados](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Opcional* Haga clic **[!UICONTROL Normalize]** sobre cualquier gráfico para mostrar todos los datos en la misma escala. También puede pasar el ratón sobre cualquier punto de datos para ver más información.
+3. ** OpcionalHaga clic  **[!UICONTROL Normalize]** encima de cualquier gráfico para mostrar todos los datos en la misma escala. También puede pasar el ratón sobre cualquier punto de datos para ver más información.
 
 ## Únicos de socio {#partner-uniques}
 
@@ -70,7 +70,7 @@ Permiso necesario para la Vista: [!UICONTROL View Traits].
 
 Este panel muestra el número de visitantes únicos capturados por varias características.
 
-Utilice la **[!UICONTROL Show]** lista desplegable para mostrar información sobre los distintos tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]o [!UICONTROL Rule-Based].
+Utilice la lista desplegable **[!UICONTROL Show]** para mostrar información sobre los diferentes tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] o [!UICONTROL Rule-Based].
 
 Este panel contiene las fichas siguientes:
 
