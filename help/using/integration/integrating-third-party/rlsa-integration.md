@@ -9,40 +9,40 @@ feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 5%
 
 ---
 
 
-# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
+# Enviar segmentos a una Lista de remercadotecnia de Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
-Este procedimiento requiere una lista de [!DNL Google Ads] remercadotecnia, un código de píxel y un Audience Manager [!DNL URL][!DNL destination]. También se denomina lista de remercadotecnia para la integración de publicidades de búsqueda ([!DNL RLSA]). Se aplica solo a la búsqueda paga.
+Este procedimiento requiere una [!DNL Google Ads] lista de remercadotecnia, código de píxel y un Audience Manager [!DNL URL] [!DNL destination]. También se conoce como lista de remercadotecnia para la integración de publicidades de búsqueda ([!DNL RLSA]). Se aplica solo a la búsqueda paga.
 
 >[!IMPORTANT]
 >Tenga en cuenta que no se trata de una integración productiva de los dos sistemas.
 
-Para configurar una lista [!DNL Google Ads] de remercadotecnia como una [!DNL Audience Manager][!DNL URL destination]:
+Para configurar una lista de remercadotecnia [!DNL Google Ads] como [!DNL Audience Manager] [!DNL URL destination]:
 
-1. En su [!DNL Google Ads] cuenta, [cree una lista](https://support.google.com/adwords/answer/2454064?hl=en) de remercadotecnia de sitio web y anote su ID de conversión.
+1. En su cuenta [!DNL Google Ads], [cree una lista de remercadotecnia de sitio Web](https://support.google.com/adwords/answer/2454064?hl=en) y anote su ID de conversión.
 1. Utilice la siguiente URL como plantilla para la URL base y la URL segura. Reemplace la sección xxxxxxxx con su ID de conversión.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. En Audience Manager, [cree un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edite uno existente [!DNL destination]. Utilice los siguientes ajustes al crear el [!DNL destination]:
+1. En Audience Manager, [Cree una [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edite una [!DNL destination] existente. Utilice la siguiente configuración al crear el [!DNL destination]:
    * Tipo: URL
    * Serializar: Habilitado
    * Delimitador: Punto y coma (;)
 
-1. En la [!UICONTROL Segment Mappings] sección del [!DNL URL] , agregue el código del paso 2 a los campos [!DNL destination]y [!DNL URL] [!DNL Secure URL] . Agregue un prefijo al código con `http:` y `https:` en los [!DNL URL] campos y [!DNL Secure URL] , respectivamente.
+1. En la sección [!UICONTROL Segment Mappings] de su [!DNL URL] [!DNL destination], agregue el código del paso 2 a los campos [!DNL URL] y [!DNL Secure URL]. Agregue el prefijo `http:` y `https:` en los campos [!DNL URL] y [!DNL Secure URL], respectivamente.
 
    >[!IMPORTANT]
    >
-   >Reemplazar ampersands codificados `&` con ampersands no codificados `&`
+   >Reemplazar los ampersands codificados `&` con los ampersands `&` no codificados
 
-   Código no seguro [!DNL URL] :
+   Código [!DNL URL] no seguro:
 
    ```
     http://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
@@ -60,9 +60,9 @@ Para configurar una lista [!DNL Google Ads] de remercadotecnia como una [!DNL Au
 
    >[!NOTE]
    >
-   >Si está trabajando con varios segmentos, obtenga un píxel nuevo para cada segmento que desee asignar a un [!DNL Google Ads][!DNL destination]. Esto garantiza que los datos se apliquen a la lista de remercadotecnia adecuada.
+   >Si está trabajando con varios segmentos, obtenga un píxel nuevo para cada segmento que desee asignar a un [!DNL Google Ads] [!DNL destination]. Esto garantiza que los datos se apliquen a la lista de remercadotecnia adecuada.
 
-1. Al asignar un nuevo segmento a este [!DNL destination] en Audience Manager, defina la asignación como `aam=segmentID` y reemplace `segmentID` por el ID del segmento.
+1. Al asignar un nuevo segmento a este [!DNL destination] Audience Manager, defina la asignación como `aam=segmentID` y reemplace `segmentID` por el ID del segmento.
 1. Al definir un bloque en [!DNL Google Ads], cree una regla que coincida con la asignación definida en el paso 6.
 
 Una asignación completada podría tener un aspecto similar a este:
@@ -71,7 +71,7 @@ Una asignación completada podría tener un aspecto similar a este:
 
 >[!MORELIKETHIS]
 >
->* [[!Destinos DNL]](../../features/destinations/destinations.md)
+>* [[!DNL Destinations]](../../features/destinations/destinations.md)
 >* [Cree un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [Acerca de las Listas de remercadotecnia de AdWords](https://support.google.com/adwords/answer/2472738)
 >* [Cómo funciona la remercadotecnia de AdWords](https://support.google.com/adwords/answer/2454000)
