@@ -31,8 +31,8 @@ Para crear una fuente de datos:
 1. Asigne un nombre a la fuente de datos. Los compradores de datos pueden buscar la fuente en función del nombre.
 1. Proporcione una breve descripción (un máximo de 255 caracteres).
 
-   Una buena descripción debería describir la fuente con precisión. Por ejemplo: puede incluir texto para categorías de marketing, demográficos y cobertura geográfica (por ejemplo, [!DNL US] o Norteamérica). El texto de la descripción se puede buscar y ayuda a los compradores a encontrar o evaluar la fuente. Una buena descripción es una parte importante para atraer suscriptores a su fuente de datos.
-1. Seleccione un origen de datos en las **[!UICONTROL Data Source]** opciones. Las fuentes de datos están limitadas a una sola fuente de datos. No se pueden asignar varias fuentes de datos a la misma fuente de datos.
+   Una buena descripción debería describir la fuente con precisión. Por ejemplo: puede incluir texto para categorías de mercadotecnia, datos demográficos y cobertura geográfica (por ejemplo, [!DNL US] o Norteamérica). El texto de la descripción se puede buscar y ayuda a los compradores a encontrar o evaluar la fuente. Una buena descripción es una parte importante para atraer suscriptores a su fuente de datos.
+1. Seleccione un origen de datos en las opciones **[!UICONTROL Data Source]**. Las fuentes de datos están limitadas a una sola fuente de datos. No se pueden asignar varias fuentes de datos a la misma fuente de datos.
 
    >[!IMPORTANT]
    >
@@ -40,11 +40,11 @@ Para crear una fuente de datos:
 
 1. En [!UICONTROL Plan Types], seleccione las opciones que desee utilizar y haga clic en **[!UICONTROL Add Plan]**.
 
-   Las fuentes pueden contener varios planes. Los planes pueden contener varios casos de uso. Para obtener más información, consulte Tipos [de plan para fuentes](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)de datos.
+   Las fuentes pueden contener varios planes. Los planes pueden contener varios casos de uso. Para obtener más información, consulte [Tipos de plan para fuentes de datos](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
 1. Haga clic **[!UICONTROL Save]** para guardar la fuente de datos *sin* activarla.
 1. Para guardar y activar una fuente de datos:
-   1. Mueva el **[!UICONTROL Availability]** deslizador a **[!UICONTROL Active]**.
+   1. Mueva el deslizador **[!UICONTROL Availability]** a **[!UICONTROL Active]**.
    1. Haga clic **[!UICONTROL Save]**.
 
    >[!NOTE]
@@ -55,17 +55,17 @@ Para crear una fuente de datos:
 
 ### Opcional: Crear una fuente de datos privada
 
-En la [!UICONTROL Settings] sección, mueva el deslizador a:
+En la sección [!UICONTROL Settings], mueva el deslizador a:
 
-* **[!UICONTROL Private]** y **[!UICONTROL Branded]**: La [!UICONTROL Marketplace] lista del comprador muestra el nombre del vendedor en la columna del proveedor y todos los demás datos están ocultos.
+* **[!UICONTROL Private]** y  **[!UICONTROL Branded]**: La  [!UICONTROL Marketplace] lista del comprador muestra el nombre del vendedor en la columna del proveedor y todos los demás datos están ocultos.
 
-* **[!UICONTROL Private]** y **[!UICONTROL Unbranded]**: La [!UICONTROL Marketplace] lista del comprador muestra únicamente el nombre y la descripción de la fuente de datos. El nombre del proveedor de datos aparece como [!UICONTROL Private Seller].
+* **[!UICONTROL Private]** y  **[!UICONTROL Unbranded]**: La  [!UICONTROL Marketplace] lista del comprador muestra únicamente el nombre y la descripción de la fuente de datos. El nombre del proveedor de datos aparece como [!UICONTROL Private Seller].
 
-Para ver el aspecto que tiene una fuente privada para los compradores, consulte la sección de compradores en Fuentes de datos [privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
+Para ver cómo se ve una fuente privada para los compradores, consulte la sección de compradores en [Fuentes de datos privadas](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 ## Desactivar una fuente de datos de un suscriptor {#deactivate-data-feed}
 
-Como proveedor [!UICONTROL Audience Marketplace] de datos, puede revocar el acceso del comprador a una fuente de datos suscrita. Es posible que desee eliminar a un comprador de una fuente por motivos como el pago tardío o la falta de pago de las tarifas o si utilizan incorrectamente los datos de características.
+Como proveedor de datos [!UICONTROL Audience Marketplace], puede revocar el acceso del comprador a una fuente de datos suscrita. Es posible que desee eliminar a un comprador de una fuente por motivos como el pago tardío o la falta de pago de las tarifas o si utilizan incorrectamente los datos de características.
 
 <!-- marketplace-deactiva4te-subscribers.xml -->
 
@@ -77,9 +77,9 @@ Para revocar un suscriptor:
    >
    >Las fuentes de datos con cuentas vencidas se marcan con un icono de triángulo o signo de exclamación.
 
-1. En la [!UICONTROL Subscribers] columna, haga clic en el número azul que cuenta los suscriptores de esa fuente. Se abre la página de detalles de la suscripción.
-1. Mueva el **[!UICONTROL Subscription]** deslizador a **[!UICONTROL Off]**. Se abre una ventana de diálogo de confirmación.
-1. En la [!UICONTROL Confirmation] ventana emergente, haga clic en **[!UICONTROL Yes]** para desactivar una suscripción o **[!UICONTROL Cancel]** para salir sin realizar cambios de suscripción.
+1. En la columna [!UICONTROL Subscribers], haga clic en el número azul que cuenta los suscriptores de esa fuente. Se abre la página de detalles de la suscripción.
+1. Mueva el deslizador **[!UICONTROL Subscription]** a **[!UICONTROL Off]**. Se abre una ventana de diálogo de confirmación.
+1. En la ventana emergente [!UICONTROL Confirmation], haga clic en **[!UICONTROL Yes]** para desactivar una suscripción o **[!UICONTROL Cancel]** para salir sin realizar cambios de suscripción.
 
 ### Qué sucede después de desactivar un suscriptor
 
@@ -91,9 +91,9 @@ Después de eliminar el acceso a una fuente de datos, los suscriptores son respo
 
 ## Tipos de plan para fuentes de datos {#plan-types}
 
-[!DNL Plan types] son componentes esenciales en una fuente [!UICONTROL Audience Marketplace] de datos. Como proveedor de datos, le permiten crear varios casos de uso y opciones de precios para sus fuentes. Además, puede ser una buena estrategia crear algunos planes para cada fuente de datos. Esto ofrece a los compradores diferentes opciones para elegir cuándo buscan datos para modelar o enviar a un destino.
+[!DNL Plan types] son componentes esenciales en una fuente  [!UICONTROL Audience Marketplace] de datos. Como proveedor de datos, le permiten crear varios casos de uso y opciones de precios para sus fuentes. Además, puede ser una buena estrategia crear algunos planes para cada fuente de datos. Esto ofrece a los compradores diferentes opciones para elegir cuándo buscan datos para modelar o enviar a un destino.
 
-[Cree una fuente](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) de datos para seleccionarla [!UICONTROL Plan Types].
+[Cree una ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) fuente de datos para seleccionarla  [!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
@@ -101,18 +101,18 @@ Después de eliminar el acceso a una fuente de datos, los suscriptores son respo
 
 <!-- c_feed_options.xml -->
 
-La [!UICONTROL Use Case] configuración permite a los vendedores controlar cómo los compradores pueden utilizar sus datos.
+La configuración [!UICONTROL Use Case] permite a los vendedores controlar cómo los compradores pueden utilizar sus datos.
 
 ### Segmentos y superposición
 
-Un caso de **[!UICONTROL Segments and Overlap]** uso crea un plan que permite a los compradores comparar los datos de características en un informe [de superposición de](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)rasgo a rasgo. Además, los compradores pueden agregar sus datos a los segmentos y realizar comparaciones con los informes de [segmento a rasgo](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) y de [segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) .
+Un caso de uso **[!UICONTROL Segments and Overlap]** crea un plan que permite a los compradores comparar los datos de características en un [informe de superposición de rasgo a rasgo](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Además, los compradores pueden agregar sus datos a los segmentos y realizar comparaciones con los informes [de segmento a rasgo](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) y [de segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md).
 
-Cada fuente de datos debe incluir al menos un caso [!UICONTROL Segments and Overlap] de uso. Los compradores no pueden suscribirse a otros planes de una fuente de datos si la fuente no contiene un caso de [!UICONTROL Segments and Overlap] uso, ya sea por sí misma o en combinación con otro caso de uso.
+Cada fuente de datos debe incluir al menos un [!UICONTROL Segments and Overlap] caso de uso. Los compradores no pueden suscribirse a otros planes de una fuente de datos si la fuente no contiene un caso de uso [!UICONTROL Segments and Overlap], ya sea solo o en combinación con otro caso de uso.
 
 Las comparaciones superpuestas pueden ayudar a los compradores a:
 
-* **Ampliar el alcance de la audiencia:** Una superposición baja sugiere que sus características contienen usuarios que el comprador no ha visto antes. Como resultado, es posible que los compradores deseen que estas características añadan nuevos usuarios a sus segmentos de audiencia.
-* **Mejore las audiencias existentes:** La superposición alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características contribuyan a mejorar de forma gradual y específica las audiencias desarrolladas.
+* **Ampliar alcance de audiencia:** Una superposición baja sugiere que sus características contienen usuarios que el comprador no ha visto antes. Como resultado, es posible que los compradores deseen que estas características añadan nuevos usuarios a sus segmentos de audiencia.
+* **Mejorar audiencias existentes:La superposición** alta sugiere que sus características contienen usuarios similares a los que ya conoce un comprador. Como resultado, es posible que los compradores deseen que estas características contribuyan a mejorar de forma gradual y específica las audiencias desarrolladas.
 
 Establezca el precio de este caso de uso de la siguiente manera:
 
@@ -121,17 +121,17 @@ Establezca el precio de este caso de uso de la siguiente manera:
 
 ### Modelado
 
-Un caso de **[!UICONTROL Modeling]** uso crea un plan que permite a los compradores comparar sus características con las suyas con el modelado [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmico. Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que comparten atributos de conversión similares con los suyos. Establezca el precio de este caso de uso de la siguiente manera:
+Un caso de uso **[!UICONTROL Modeling]** crea un plan que permite a los compradores comparar sus características con las suyas con [modelado algorítmico](../../../features/algorithmic-models/understanding-models.md#understanding-models). Los compradores ven los resultados del modelo para encontrar nuevas audiencias en los datos que comparten atributos de conversión similares con los suyos. Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: Tarifa fija
 * Precio: Precio de precio de mercado o descuento
 
 ### Activation
 
-Un caso **[!UICONTROL Activation]** de uso permite a los compradores enviar datos a un [destino](../../../features/destinations/destinations.md). Con este caso de uso, los compradores no pueden comparar datos con un informe de superposición o en un modelo algorítmico. Establezca el precio de este caso de uso de la siguiente manera:
+Un caso de uso **[!UICONTROL Activation]** permite a los compradores enviar datos a un [destino](../../../features/destinations/destinations.md). Con este caso de uso, los compradores no pueden comparar datos con un informe de superposición o en un modelo algorítmico. Establezca el precio de este caso de uso de la siguiente manera:
 
 * Unidad de medida: [!DNL CPM]
-* Precio: [!DNL CPM] tipo de mercado
+* Precio: [!DNL CPM] tasa de mercado
 
 ## Opciones de facturación y precio {#billing}
 
@@ -147,7 +147,7 @@ Las opciones de facturación y precio controlan la forma en que los compradores 
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ciclo de facturación</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> La única opción es Mensualmente en las fechas de vencimiento</span></b> . El ciclo de facturación finaliza el décimo día de cada mes. </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Mensual en </span></b> Arresis es la única opción. El ciclo de facturación finaliza el décimo día de cada mes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Unidad de medida</span></b> </td> 
@@ -166,35 +166,35 @@ Las opciones de facturación y precio controlan la forma en que los compradores 
 
 ## Notas del plan {#plan-notes}
 
-En el **[!UICONTROL Additional Notes]** campo, dedique algún tiempo a describir cada plan de datos de una fuente. Una buena y breve descripción ayuda a los compradores a comprender el contenido o el propósito de cada plan en una fuente de datos. Los compradores pueden leer la fuente de datos y las descripciones del plan a medida que buscan o evalúan nuevas fuentes de datos.
+En el campo **[!UICONTROL Additional Notes]**, dedique algún tiempo a describir cada plan de datos en una fuente. Una buena y breve descripción ayuda a los compradores a comprender el contenido o el propósito de cada plan en una fuente de datos. Los compradores pueden leer la fuente de datos y las descripciones del plan a medida que buscan o evalúan nuevas fuentes de datos.
 
 ## Administrar solicitudes de fuentes de datos privadas {#manage-private-requests}
 
-flujos de trabajo del proveedor para administrar las solicitudes de fuentes privadas de los compradores.
+Flujos de trabajo del proveedor para administrar las solicitudes de fuentes privadas de los compradores.
 
 Para revisar, aprobar o rechazar solicitudes de comprador, vaya a [!UICONTROL My Shared Data] y:
 
 <!-- t_private_feed_workflows.xml -->
 
 1. Haga clic en el nombre de la fuente de datos privada.
-2. Haga clic en **[!UICONTROL Access Requests]** para revisar todos los compradores que desean acceder a su fuente de datos.
-3. En la [!UICONTROL Allow Access] sección de cada cuadro de solicitud, haga clic en la marca de verificación para aprobar una solicitud o en la X para denegar el acceso.
+2. Haga clic **[!UICONTROL Access Requests]** para revisar todos los compradores que desean acceder a su fuente de datos.
+3. En la sección [!UICONTROL Allow Access] de cada cuadro de solicitud, haga clic en la marca de verificación para aprobar una solicitud o en la X para denegar el acceso.
 4. Confirme o cancele la acción seleccionada en la ventana emergente de confirmación.
 
 ## Descuentos para proveedores de datos {#discounts}
 
-En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede aplicar descuentos de oferta a suscriptores que hayan enviado una solicitud de suscripción o a suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes [!DNL CPM] y a las fuentes a tanto alzado. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad de los mismos.
+En [!UICONTROL Audience Marketplace], los descuentos le permiten reducir el precio publicado de una fuente de datos para suscriptores individuales. Puede aplicar descuentos de oferta a suscriptores que hayan enviado una solicitud de suscripción o a suscriptores que hayan solicitado detalles sobre una fuente de datos. Los descuentos se aplican a las fuentes de [!DNL CPM] y a las fuentes de tasa fija. Los descuentos pueden ser útiles cuando desee proporcionar incentivos de suscripción para nuevos clientes o para recompensar la lealtad de los mismos.
 
 ## Aplicar descuentos a una fuente de datos {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
-Para descontar una fuente, agregue una cantidad de descuento como % al campo de descuento y confirme los cambios. Los proveedores de datos pueden descontar una fuente de datos [!UICONTROL Audience Marketplace] desde:
+Para descontar una fuente, agregue una cantidad de descuento como % al campo de descuento y confirme los cambios. Los proveedores de datos pueden descontar una fuente de datos en [!UICONTROL Audience Marketplace] desde:
 
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
 
-En estos ejemplos, el vendedor ha añadido un 10 % de descuento a la fuente de datos [!UICONTROL Software Audience] .
+En estos ejemplos, el vendedor ha agregado un 10 % de descuento a la fuente de datos [!UICONTROL Software Audience].
 
 ![](assets/potential_subscribers.png)
 
@@ -202,7 +202,7 @@ En estos ejemplos, el vendedor ha añadido un 10 % de descuento a la fuente de d
 
 ## Revisar fuentes con descuento {#review-discounted-feeds}
 
-Los proveedores de datos pueden ver todos sus suscriptores y las fuentes con descuento en **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
+Los proveedores de datos pueden ver todos sus suscriptores y fuentes con descuento en **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
 
