@@ -27,6 +27,6 @@ Para obtener información sobre cómo crear características de conversión en A
 
 ## Informe de muestra
 
-El [!UICONTROL Reported Conversion Traits] informe podría tener un aspecto similar al siguiente:
+Su informe [!UICONTROL Reported Conversion Traits] podría tener un aspecto similar al siguiente:
 
 ![](assets/reported-conversion-traits.png)
