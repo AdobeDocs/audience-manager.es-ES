@@ -23,21 +23,21 @@ Las carpetas de almacenamientos de características almacenan y ayudan a organiz
 
 ## Objetivo de las carpetas de Almacenamiento de características
 
-En [!UICONTROL Trait Builder]las carpetas de almacenamientos de características son directorios que contienen y organizan características en grupos lógicos que se crean. Acceda a las carpetas de almacenamiento desde el [!UICONTROL Traits] panel o al crear una nueva característica. Recuerde que no puede crear una nueva característica sin asignarla a una carpeta de almacenamiento.
+En [!UICONTROL Trait Builder], las carpetas de almacenamientos de características son directorios que contienen y organizan características en grupos lógicos que se crean. Acceda a las carpetas de almacenamiento desde el panel [!UICONTROL Traits] o al crear una nueva característica. Recuerde que no puede crear una nueva característica sin asignarla a una carpeta de almacenamiento.
 
 ![](assets/tb_storage.png)
 
-## Creación de una carpeta de Almacenamiento de características {#create-trait-storage-folder}
+## Crear una carpeta de Almacenamiento de características {#create-trait-storage-folder}
 
 Este procedimiento describe cómo crear una carpeta de almacenamiento para sus características.
 
 <!-- t_tb_create_storage.xml -->
 
-Puede crear una nueva carpeta de almacenamiento en la [!UICONTROL Basic Information] sección al configurar una nueva característica. Además, las carpetas se pueden crear en [!UICONTROL Trait Storage] la sección del panel de [!UICONTROL Traits] lista principal.
+Puede crear una nueva carpeta de almacenamiento en la sección [!UICONTROL Basic Information] al configurar una nueva característica. Además, las carpetas se pueden crear en la sección [!UICONTROL Trait Storage] del panel de lista principal [!UICONTROL Traits].
 
 Para crear una nueva carpeta de almacenamiento:
 
-1. En la [!UICONTROL Trait Storage] ventana, pase el ratón por encima:
+1. En la ventana [!UICONTROL Trait Storage], pase el ratón por encima:
    * **[!UICONTROL All Traits]** para agregar una nueva carpeta de nivel raíz.
    * Una carpeta principal existente para agregar una nueva carpeta subordinada.
 1. Haga clic en el icono + para crear la carpeta.
@@ -49,7 +49,7 @@ Este procedimiento describe cómo cambiar el nombre de una carpeta de almacenami
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Puede cambiar el nombre de las carpetas de almacenamiento o eliminarlas de la [!UICONTROL Trait Storage] sección del panel de [!UICONTROL Traits] lista principal.
+Puede cambiar el nombre de las carpetas de almacenamiento o eliminarlas de la sección [!UICONTROL Trait Storage] del panel de lista principal [!UICONTROL Traits].
 
 * Para cambiar el nombre de una carpeta, coloque el puntero sobre ella y haga clic en el icono de lápiz.
-* Elimine una carpeta pasando el ratón sobre ella y haciendo clic en el icono **X** .
+* Elimine una carpeta pasando el ratón sobre ella y haciendo clic en el icono **X**.
