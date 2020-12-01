@@ -22,18 +22,18 @@ Cree segmentos de prueba mutuamente excluyentes en [!UICONTROL Segment Test Grou
 
 ## Información general {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utiliza [Perfil Link](../../features/profile-merge-rules/merge-rules-overview.md) para realizar pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumple los requisitos para el mismo segmento de prueba y recibe el mismo tratamiento en todos los dispositivos. Los segmentos de prueba de los grupos de prueba heredarán la regla [de combinación de](../../features/profile-merge-rules/merge-rules-dashboard.md) Perfiles que el segmento base le ha asignado.
+[!UICONTROL Audience Lab] utiliza  [Perfil ](../../features/profile-merge-rules/merge-rules-overview.md) Linkto para realizar pruebas entre dispositivos. Esto ayuda a garantizar que un usuario cumple los requisitos para el mismo segmento de prueba y recibe el mismo tratamiento en todos los dispositivos. Los segmentos de prueba de los grupos de prueba heredarán la [regla de combinación de Perfiles](../../features/profile-merge-rules/merge-rules-dashboard.md) que el segmento base le ha asignado.
 
-La vista predeterminada [!UICONTROL Audience Lab] muestra una tarjeta para cada uno de los grupos de prueba. Haga clic en una tarjeta para acceder a la **[!UICONTROL Test Group]** vista. Esta vista incluye la siguiente información:
+La vista predeterminada [!UICONTROL Audience Lab] muestra una tarjeta para cada uno de los grupos de prueba. Haga clic en una tarjeta para acceder a la vista **[!UICONTROL Test Group]**. Esta vista incluye la siguiente información:
 
 * **[Información del grupo de prueba](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Sistema de informes de grupo de prueba](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-Puede crear **hasta 10 grupos** de prueba, cada uno con **hasta 15 segmentos** de prueba.
+Puede crear **hasta 10 grupos de prueba**, cada uno con **hasta 15 segmentos de prueba**.
 
 ![](assets/test-groups-view.PNG)
 
-## Buscar y filtrar grupos de prueba {#search-and-filter}
+## Buscar y filtrar grupos de pruebas {#search-and-filter}
 
 Una vez que inicio la creación de varios grupos de prueba con varios segmentos de prueba, puede ser más fácil utilizar el cuadro de búsqueda para encontrar un grupo de prueba específico. Puede buscar un grupo de prueba mediante:
 
@@ -63,19 +63,19 @@ El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Programado </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>programado</i> aún no está activo pero ya no se puede editar. Se activará en la fecha de inicio seleccionada en el asistente <b>Crear grupos</b> de prueba. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>programado</i> aún no está activo pero no se puede editar. Se activará en la fecha de inicio seleccionada en el asistente para <b>Crear grupos de prueba</b>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> En pausa </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos a los destinos. Pulse <b><span class="uicontrol"> Activar </span></b> en la tarjeta <b><span class="uicontrol"> Grupo de prueba </span></b> para reanudar el envío de características. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos a los destinos. Pulse <b><span class="uicontrol"> Hacer activo </span></b> en la tarjeta <b><span class="uicontrol"> Grupo de prueba </span></b> para reanudar el envío de características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Borrador </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba de <i>borrador</i> aún no está activo y puede editarse. Todavía no envía datos a los destinos asignados. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>borrador</i> aún no está activo y puede editarse. Todavía no envía datos a los destinos asignados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completado </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>completado</i> ha alcanzado la fecha de finalización seleccionada en el asistente <b><span class="uicontrol"> Crear grupos de prueba </span></b> y ha dejado de enviar datos de sistema de informes. </p> </td>
+   <td colname="col2"> <p>Un grupo de prueba <i>completado</i> ha alcanzado la fecha de finalización seleccionada en el asistente para <b><span class="uicontrol"> Crear grupos de prueba </span></b> y ha dejado de enviar datos de sistema de informes. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -92,14 +92,14 @@ El estado de un grupo de prueba puede ser activo, programado, en pausa, borrador
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Editar </span></b> </p> </td>
-   <td colname="col2"> <p>Disponible <b>solo</b> para grupos de prueba de borrador. Le permite reanudar el <b><span class="uicontrol"> asistente Crear nuevo grupo de pruebas </span></b> . </p> </td>
+   <td colname="col2"> <p>Disponible <b>sólo</b> para grupos de prueba de borrador. Le permite reanudar el asistente <b><span class="uicontrol"> Crear nuevo grupo de pruebas </span></b>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>
    <td colname="col2"> <p>Disponible para grupos de prueba activos. Permite pausar el envío de segmentos de prueba a destinos. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Activar </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Activar  </span></b> </p> </td>
    <td colname="col2"> <p>Disponible para grupos de prueba en pausa. Le permite reanudar el envío de los segmentos de prueba a destinos. </p> </td>
   </tr>
   <tr> 
