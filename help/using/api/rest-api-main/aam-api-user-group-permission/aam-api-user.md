@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # Métodos de API de administración de usuario {#user-management-api-methods}
 
-Métodos de descanso [!DNL API] para administrar usuarios, como crear, actualizar, enumerar, eliminar y devolver objetos de usuario.
+Los [!DNL API] métodos restantes para administrar usuarios, incluso crear, actualizar, enumerar, eliminar y devolver objetos de usuario.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Create a User {#create-user}
+## Crear un usuario {#create-user}
 
-Un `POST` método para crear un nuevo usuario.
+Un método `POST` para crear un nuevo usuario.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -72,7 +72,7 @@ Devuelve `409 Conflict` si el nombre de usuario ya está en uso.
 
 ## Actualizar un usuario {#update-user}
 
-Un `PUT` método para actualizar un usuario.
+Un método `PUT` para actualizar un usuario.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -115,13 +115,13 @@ Devuelve `409 Conflict` si el nombre de usuario ya está en uso.
 
 ## Actualizar usuario con inicio de sesión {#update-logged-in-user}
 
-Un `PUT` método para actualizar el usuario que ha iniciado sesión.
+Un método `PUT` para actualizar el usuario que ha iniciado sesión.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Mientras que la mayoría de [!DNL API] los métodos solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
+>Mientras que la mayoría de los métodos [!DNL API] solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
 
 ### Solicitud
 
@@ -158,13 +158,13 @@ Devuelve `409 Conflict` si el nombre de usuario ya está en uso.
 
 ## Actualizar la contraseña de usuario con inicio de sesión {#update-logged-in-user-pw}
 
-Un `PUT` método para actualizar el usuario que ha iniciado sesión.
+Un método `PUT` para actualizar el usuario que ha iniciado sesión.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Mientras que la mayoría de [!DNL API] los métodos solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
+>Mientras que la mayoría de los métodos [!DNL API] solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
 
 ### Solicitud
 
@@ -178,15 +178,15 @@ Un `PUT` método para actualizar el usuario que ha iniciado sesión.
 
 Devuelve `200 OK` si se realiza correctamente. Devuelve `400 Bad Request` si hay algún problema con cualquiera de las contraseñas.
 
-## Restablecer la contraseña de usuario con inicio de sesión {#reset-logged-in-user-pw}
+## Restablecer la contraseña de usuario iniciada {#reset-logged-in-user-pw}
 
-Un `PUT` método para restablecer el usuario que ha iniciado sesión. [!UICONTROL Audience Management] envía al usuario una contraseña generada por el sistema.
+Un método `PUT` para restablecer el usuario que ha iniciado sesión. [!UICONTROL Audience Management] envía al usuario una contraseña generada por el sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Mientras que la mayoría de [!DNL API] los métodos solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
+>Mientras que la mayoría de los métodos [!DNL API] solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
 
 ### Solicitud
 
@@ -196,7 +196,7 @@ Devuelve `200 OK` si se realiza correctamente.
 
 ## Devolver objeto de usuario para un ID de usuario {#return-user-object-for-id}
 
-Un `Get` método para devolver el objeto de usuario para un ID de usuario.
+Un método `Get` para devolver el objeto de usuario para un ID de usuario.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -224,13 +224,13 @@ Un `Get` método para devolver el objeto de usuario para un ID de usuario.
 
 ## Devolver objeto de usuario para usuario con sesión iniciada {#return-user-object-for-logged-in-user}
 
-Un `Get` método para devolver el objeto de usuario del usuario que ha iniciado sesión.
+Un método `Get` para devolver el objeto de usuario del usuario que ha iniciado sesión.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Mientras que la mayoría de [!DNL API] los métodos solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
+>Mientras que la mayoría de los métodos [!DNL API] solo los pueden llamar los administradores de socios, este método lo hacen los usuarios que no son administradores.
 
 ### Solicitud
 
@@ -254,9 +254,9 @@ Un `Get` método para devolver el objeto de usuario del usuario que ha iniciado 
 }
 ```
 
-## Usuarios de Lista {#list-users}
+## Usuarios de lista {#list-users}
 
-Un `GET` método para la lista de usuarios.
+Un método `GET` para la lista de usuarios.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -288,9 +288,9 @@ Esta consulta devuelve una lista de todos los usuarios de los grupos especificad
 }
 ```
 
-## Delete a User {#delete-users}
+## Eliminar un usuario {#delete-users}
 
-Un `DELETE` método para eliminar un usuario.
+Un método `DELETE` para eliminar un usuario.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -298,11 +298,11 @@ Un `DELETE` método para eliminar un usuario.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Devuelve `204 No Content` si se realiza correctamente. En caso de conflicto retorna `409 Conflict`.
+Devuelve `204 No Content` si se realiza correctamente. En caso de conflicto, devuelve `409 Conflict`.
 
 ## Eliminar usuarios de forma masiva {#delete-users-bulk}
 
-Un `POST` método para eliminar varios usuarios de forma masiva.
+Un método `POST` para eliminar varios usuarios de forma masiva.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
