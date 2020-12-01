@@ -21,11 +21,11 @@ Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantilla
 
 >[!NOTE]
 >
->En las tablas, el tipo de **negrita** identifica cada macro con su salida relacionada. En los ejemplos de formato, se han agregado los `<``>` símbolos para ayudar a separar visualmente cada macro.
+>En las tablas, el tipo **negrita** identifica cada macro con su salida relacionada. Para los ejemplos de formato, se han agregado los símbolos `<` `>` para ayudar a separar visualmente cada macro.
 
 ## Macros de nombre de archivo {#file-name-macros}
 
-Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte [Macros de plantilla de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -73,7 +73,7 @@ Para obtener una lista de las macros y definiciones disponibles, consulte Macros
 
 ## Macros de fila de encabezado {#header-macros}
 
-Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte [Macros de plantilla de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -92,7 +92,7 @@ Para obtener una lista de las macros y definiciones disponibles, consulte Macros
 
 ## Macros de contenido de archivo {#file-content-macros}
 
-Para obtener una lista de las macros y definiciones disponibles, consulte Macros de plantilla de [salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, consulte [Macros de plantilla de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -148,9 +148,9 @@ Para obtener una lista de las macros y definiciones disponibles, consulte Macros
 
 ### `DPUUID` Ejemplos
 
-Para ayudarle a comprender cómo la `DPUUID` macro genera datos, supongamos que tenemos 2 `DPID`s asignados a `DPUUID`s como se muestra a continuación:
+Para ayudarle a comprender cómo la macro `DPUUID` genera datos, supongamos que tenemos 2 `DPID`s asignados a `DPUUID`s, como se muestra a continuación:
 
-* DPID `1111` se asigna a los DPUUID `AAAA` (timestamp = 1) y `BBBB` (timestamp = 2).
+* DPID `1111` se asigna a DPUUID `AAAA` (timestamp = 1) y `BBBB` (timestamp = 2).
 * DPID `2222` se asigna a DPUUID `CCCC`.
 
 Dadas estas condiciones, la siguiente tabla enumera algunas cadenas de formato posibles y su salida.
@@ -172,7 +172,7 @@ Dadas estas condiciones, la siguiente tabla enumera algunas cadenas de formato p
   <tr> 
    <td colname="col1"> <p>Devolver un máximo de 1 asignación para todos los DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, la macro se asigna a DPUUID <code> BBBB </code> solamente porque ese ID tiene la marca de tiempo más grande. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, la macro se asigna a DPUUID <code> BBBB </code> sólo porque ese ID tiene la marca de tiempo más grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Devolver un máximo de 2 asignaciones para un solo DPID </p> </td> 
