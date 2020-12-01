@@ -23,7 +23,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->Se han reescrito [!DNL API] y migrado los métodos del origen de datos [!DNL Swagger] . Consulte:
+>Los métodos [!DNL API] del origen de datos se han reescrito con [!DNL Swagger] y se han migrado. Consulte:
 >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
