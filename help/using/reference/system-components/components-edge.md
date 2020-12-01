@@ -27,15 +27,15 @@ c_compedge.xml
 
  -->
 
-La informática perimetral ofrece un rendimiento mejorado en respuesta a una demanda difusa en toda Internet, ya que el &quot;borde&quot; en sí es un límite global. Esto significa que coloca [!DNL Audience Manager] dinámicamente el procesamiento más cerca de las fuentes de demanda y devuelve los datos por la ruta más corta posible. La informática de Edge ayuda a mantener el rendimiento del sitio, lo que, a su vez, preserva la experiencia del usuario en el sitio web. El centro de datos de Edge es una puerta de enlace clave para mover y extraer datos de [!DNL Audience Manager].
+La informática perimetral ofrece un rendimiento mejorado en respuesta a una demanda difusa en toda Internet, ya que el &quot;borde&quot; en sí es un límite global. Esto significa que [!DNL Audience Manager] coloca dinámicamente el procesamiento más cerca de las fuentes de demanda y devuelve datos por la ruta más corta posible. La informática de Edge ayuda a mantener el rendimiento del sitio, lo que, a su vez, preserva la experiencia del usuario en el sitio web. El centro de datos Edge es una puerta de enlace clave para mover datos de [!DNL Audience Manager].
 
-El centro de datos [!DNL Audience Manager] edge incluye:
+El centro de datos perimetral [!DNL Audience Manager] incluye:
 
-* **Servidores principales:** Estos son los principales [!DNL Audience Manager] sistemas. Actualizan y proporcionan datos a los servidores Edge.
+* **Servidores principales:** Estos son los principales  [!DNL Audience Manager] sistemas. Actualizan y proporcionan datos a los servidores Edge.
 
-* **Servidores Edge:** Generalmente, son servidores Web y/o de aplicaciones. Se sientan en el límite entre [!DNL Audience Manager] e Internet. Los servidores Edge, como los sistemas [!DNL DCS] o Akamai, generalmente administran datos y solicitudes que entran y salen de [!DNL Audience Manager].
+* **Servidores Edge:** normalmente son servidores Web o de aplicaciones. Se sientan en el límite entre [!DNL Audience Manager] e Internet. Los servidores Edge, como los sistemas [!DNL DCS] o Akamai, generalmente administran datos y solicitudes que entran y salen de [!DNL Audience Manager].
 
-* **Equilibradores de carga:** Administre las demandas desiguales de procesamiento y computación inherentes a las aplicaciones de Internet. Estos equilibradores impiden que los clústeres de servidores se sobrecarguen mientras que otros permanecen inactivos.
+* **Equilibradores de carga:** Administre las demandas desiguales de procesamiento/computación inherentes a las aplicaciones de Internet. Estos equilibradores impiden que los clústeres de servidores se sobrecarguen mientras que otros permanecen inactivos.
 
 En el diagrama siguiente se ilustra el entorno del centro de datos perimetral Audience Manager.
 
@@ -43,4 +43,4 @@ En el diagrama siguiente se ilustra el entorno del centro de datos perimetral Au
 
 ## Distribución geográfica y equilibrio de carga {#geo-dist-balance}
 
-Consulte la [!DNL DCS] sección en Componentes [de recopilación](../../reference/system-components/components-data-collection.md)de datos.
+Consulte la sección [!DNL DCS] en [Componentes de recopilación de datos](../../reference/system-components/components-data-collection.md).
