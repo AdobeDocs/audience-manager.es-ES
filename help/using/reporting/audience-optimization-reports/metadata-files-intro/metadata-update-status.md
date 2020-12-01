@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Actualizaciones de estado para archivos de metadatos{#status-updates-for-metadata-files}
 
-El directorio de estado S3 contiene un `.info` archivo con información de éxito y error sobre los archivos cargados. El archivo contiene datos con formato JSON con resultados de estado en una matriz.
+El directorio de estado S3 contiene un archivo `.info` con información de éxito y error sobre los archivos cargados. El archivo contiene datos con formato JSON con resultados de estado en una matriz.
 
-El contenido del `.info` archivo será similar al de este ejemplo.
+El contenido del archivo `.info` tendrá un aspecto similar al de este ejemplo.
 
 ```js
 //sample file path
@@ -84,19 +84,19 @@ Las siguientes tablas lista y definen las claves en las secciones `Files` y `Sum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Suma de comprobación MD 5 para el archivo de metadatos cargado en el <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Suma de comprobación MD 5 para el archivo de metadatos cargado en su directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Nombre del archivo de metadatos cargado en el <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Nombre del archivo de metadatos cargado en el directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nombres para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID principal del nombre de archivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nombre legible en lenguaje natural para el tipo de datos que contiene el archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nombres para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ Las siguientes tablas lista y definen las claves en las secciones `Files` y `Sum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Fecha de procesamiento del archivo en <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Fecha de procesamiento del archivo en formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
