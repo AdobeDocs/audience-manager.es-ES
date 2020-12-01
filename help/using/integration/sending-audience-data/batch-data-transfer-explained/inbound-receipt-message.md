@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Mensaje de muestra a los socios después del procesamiento entrante{#sample-message-to-partners-after-inbound-processing}
 
-Cada vez que se procesa un [!UICONTROL Server-to-Server] archivo entrante, se envía un recibo por correo electrónico a las soluciones de socios y, si se configura, al socio.
+Cada vez que se procesa un archivo [!UICONTROL Server-to-Server] entrante, se envía un recibo por correo electrónico a las soluciones de socios y, si se configura, al socio.
 
 <!-- r_inbound_message.xml -->
 
@@ -26,7 +26,7 @@ El siguiente ejemplo es un mensaje de correo electrónico de ejemplo. En la tabl
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Desde: aam-noreply@adobe.com </b> </p> <p> <b>Asunto: Resultado de procesamiento de servidor a servidor de Adobe Audience Manager:</b> </p> <p> <b>Estimado socio de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido el envío de archivos Adobe Audience Manager de servidor a servidor</b> </p> <p> <b>Nombre del archivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nombre_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> <b>ID de AAM no válido: 112 </b> </p> <p> <b>ID de AAM no coincidente: 0 </b> </p> <p> <b>No se ha realizado ninguna característica: 26730823 </b> </p> <p> <b>Registros procesados: 40669900 </b> </p> <p> <b>Registros almacenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Señales totales: 918878926 </b> </p> <p> <b>Total de señales no utilizadas: 660348376 </b> </p> <p> <b>Características totales realizadas: 258086908 </b> </p> <p> <b>Características totales eliminadas: 0 </b> </p> <p> <b>Error de validación de características totales: 0 </b> </p> <p> <b>Número total de usuarios con características que no pudieron validarse: 0 </b> </p> <p> <b>Tiempo de inicio del trabajo: 2018-05-17 18:07:49 </b> </p> <p> <b>Hora de finalización del trabajo: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Desde: aam-noreply@adobe.com  </b> </p> <p> <b>Asunto: Resultado de procesamiento de servidor a servidor de Adobe Audience Manager:</b> </p> <p> <b>Estimado socio Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido su envío de archivos de servidor a servidor de Adobe Audience Manager</b> </p> <p> <b>Nombre del archivo:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> <b>ID de AAM no válido: 112  </b> </p> <p> <b>Sin ID de AAM coincidente: 0  </b> </p> <p> <b>No se ha realizado ninguna característica: 26730823  </b> </p> <p> <b>Registros procesados: 40669900  </b> </p> <p> <b>Registros almacenados: 13938958  </b> </p> <p> <b>Total de dispositivos: 21  </b> </p> <p> <b>Señales totales: 918878926  </b> </p> <p> <b>Total de señales no utilizadas: 660348376  </b> </p> <p> <b>Características totales realizadas: 258086908  </b> </p> <p> <b>Características totales eliminadas: 0  </b> </p> <p> <b>Error de validación de características totales: 0  </b> </p> <p> <b>Número total de usuarios con características que no pudieron validarse: 0  </b> </p> <p> <b>Tiempo de inicio del trabajo: 2018-05-17 18:07:49  </b> </p> <p> <b>Hora de finalización del trabajo: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de registros que Adobe ha recibido en todos los archivos. En la mayoría de los casos, debe ser el número total de líneas en los archivos de entrada. </p> </td> 
+   <td colname="col2"> <p>Número total de Adobes de registros recibidos en todos los archivos. En la mayoría de los casos, debe ser el número total de líneas en los archivos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Errores de formato </td> 
@@ -71,7 +71,7 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
   </tr> 
   <tr> 
    <td colname="col1"> Registros almacenados </td> 
-   <td colname="col2"> <p>Número de registros que resultan en que los datos se carguen en el sistema = Registros procesados - Errores de formato - ID de AAM no válidos - ID de AAM no coincidente - No se ha realizado ninguna característica. </p> </td> 
+   <td colname="col2"> <p>Número de registros que resultan en que los datos se carguen en el sistema = Registros procesados - Errores de formato - ID de AAM no válidos - ID de AAM no coincidentes - No se ha realizado ninguna característica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dispositivos totales </td> 
