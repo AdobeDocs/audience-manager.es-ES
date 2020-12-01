@@ -48,7 +48,7 @@ Sí. Consulte [Herramientas de administración masiva](../reference/bulk-managem
 
  
 
-**Al realizar una exportación masiva de ID a un destino, faltan algunos de los ID de cliente. Why does that happen?**
+**Al realizar una exportación masiva de ID a un destino, faltan algunos de los ID de cliente. ¿Por qué sucede esto?**
 
 Cuando un ID de dispositivo ([AAM UUID](../reference/ids-in-aam.md)) está vinculado a varios ID de CRM ([DPUUID](../reference/ids-in-aam.md)), solo se exporta la asignación más reciente. Por este motivo, es posible que vea un número de ID de dispositivo inferior al esperado que se está exportando.
 
