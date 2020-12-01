@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # Métodos de envío para archivos de metadatos{#delivery-methods-for-metadata-files}
 
-Envíe o actualice archivos de metadatos enviándolos a un [!DNL Amazon S3] directorio especial para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
+Envíe o actualice archivos de metadatos enviándolos a un directorio especial [!DNL Amazon S3] de su cuenta de Audience Manager. Consulte esta sección para obtener información sobre rutas de envío/directorio, tiempos de procesamiento de archivos y actualizaciones.
 
 >[!IMPORTANT]
 >
-> Póngase en contacto con el consultor de Audience Manager o con el Servicio de atención al cliente para empezar y configurar un [!DNL Amazon S3] directorio para los archivos de metadatos.
+> Póngase en contacto con el consultor del Audience Manager o con el Servicio de atención al cliente para comenzar y configurar un directorio [!DNL Amazon S3] para sus archivos de metadatos.
 
-## Ejemplo y sintaxis de ruta de Envío {#syntax}
+## Ejemplo y sintaxis de ruta de envío {#syntax}
 
-Los datos se almacenan en una Área de nombres separada para cada cliente en un [!DNL Amazon S3] directorio. La ruta del archivo sigue la sintaxis que se muestra a continuación. Tenga en cuenta que los paréntesis angulares `<>` indican un marcador de posición de variable. Los demás elementos son constantes y no cambian.
+Los datos se almacenan en una Área de nombres separada para cada cliente en un directorio [!DNL Amazon S3]. La ruta del archivo sigue la sintaxis que se muestra a continuación. Tenga en cuenta que los corchetes angulares `<>` indican un marcador de posición de variable. Los demás elementos son constantes y no cambian.
 
 **Sintaxis:**
 
@@ -48,8 +48,8 @@ La siguiente tabla define cada uno de estos elementos en una ruta de envío de a
 ---------|----------|
 | `.../log_ingestion/` | Este es el inicio de la ruta de almacenamiento del directorio. Recibirás la ruta completa cuando todo esté configurado. |
 | `pid=<AAM ID>` | Este par clave-valor contiene el ID de cliente del Audience Manager. |
-| `dpid=<d_src>` | Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. El ID del origen de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </br> Por ejemplo, supongamos que tiene un elemento creativo con el ID 123 y el nombre &quot;Advertiser Creative A&quot;. Como una llamada de evento solo pasa en el ID, debe incluir &quot;Advertiser Creative A&quot; en el archivo de metadatos. La campaña y el elemento creativo pertenecen a un origen de datos. El ID de la fuente de datos es lo que los une y nos permite asociar con precisión el contenido del archivo a un ID enviado en una llamada de evento. Consulte [Cómo los ID de llamadas de Evento determinan nombres de archivo, contenido y rutas](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)de Envío. |
-| `<yyyymmdd_0_child ID>` | Es el nombre del archivo. See [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
+| `dpid=<d_src>` | Este par clave-valor contiene la ID de la fuente de datos que se pasa en una llamada de evento. El ID del origen de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </br> Por ejemplo, supongamos que tiene un elemento creativo con el ID 123 y el nombre &quot;Advertiser Creative A&quot;. Como una llamada de evento solo pasa en el ID, debe incluir &quot;Advertiser Creative A&quot; en el archivo de metadatos. La campaña y el elemento creativo pertenecen a un origen de datos. El ID de la fuente de datos es lo que los une y nos permite asociar con precisión el contenido del archivo a un ID enviado en una llamada de evento. Consulte [Cómo los ID de llamadas de Evento determinan nombres de archivo, contenido y rutas de Envío](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
+| `<yyyymmdd_0_child ID>` | Es el nombre del archivo. Consulte [Convenciones de nombres para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
 
 ## Tiempos y actualizaciones de procesamiento de archivos {#processing-times}
 
