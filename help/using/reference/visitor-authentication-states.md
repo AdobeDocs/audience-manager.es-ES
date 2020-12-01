@@ -20,7 +20,7 @@ ht-degree: 5%
 
 El estado de autenticación de visitante en el Audience Manager determina si la nueva información de características se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 
-A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` método incluye el `AuthState` objeto opcional. `AuthState` identifica los visitantes según su estado [](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)de autenticación. [!DNL Audience Manager] gestiona las características realizadas de forma diferente, en función del estado de autenticación pasado en la llamada y de la regla [de combinación de](../features/profile-merge-rules/merge-rules-dashboard.md) Perfiles que utilice para la segmentación.
+A partir del [!DNL Experience Cloud] servicio de ID v1.5+, el método `setCustomerID` incluye el objeto opcional `AuthState`. `AuthState` identifica los visitantes según su estado [ ](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)de autenticación. [!DNL Audience Manager] gestiona las características realizadas de forma diferente, según el estado de autenticación pasado en la llamada y la regla de combinación de  [Perfiles que ](../features/profile-merge-rules/merge-rules-dashboard.md) utilice para la segmentación.
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
@@ -28,8 +28,8 @@ A partir del servicio [!DNL Experience Cloud] de ID v1.5+, el `setCustomerID` m�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Información </b> de lectura del perfil autenticado </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Características de </b> escritura en el perfil autenticado </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,8 +54,8 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Información </b> de lectura del perfil autenticado </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Características de </b> escritura en el perfil autenticado </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leer</b> información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Escribir</b> nuevas características en el perfil autenticado </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Información </b> de lectura del perfil autenticado </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Características de </b> escritura en el perfil autenticado </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ Ejemplo de llamada (se resalta el valor de solicitud correspondiente al estado d
 
 >[!NOTE]
 >
->[!DNL Audience Manager] realiza una sincronización de ID entre [CID y UUID](../reference/ids-in-aam.md) en los tres casos.
+>[!DNL Audience Manager] realiza una sincronización de ID entre  [CID y ](../reference/ids-in-aam.md) UUID en los tres casos.
 
 >[!MORELIKETHIS]
 >
