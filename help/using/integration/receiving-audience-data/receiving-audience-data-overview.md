@@ -19,7 +19,7 @@ Recibir datos de audiencia del Audience Manager.
 
 * [Sincronización de ID para transferencias de datos de salida](id-sync-outbound.md)
 
-   Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre un Audience Manager y un proveedor de datos de terceros. Póngase en contacto con el consultor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
+   Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los ID de usuario entre un Audience Manager y un proveedor de datos de terceros. Póngase en contacto con su asesor de Adobe Audience Manager antes de intentar la primera sincronización de ID.
 
 * [Transferencias de datos salientes en tiempo real](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
