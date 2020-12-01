@@ -25,19 +25,19 @@ ht-degree: 2%
 
 La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobe Experience Platform le permite compartir sus características y segmentos de Audience Manager con Adobe Experience Platform y viceversa. Necesita el [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para habilitar el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
 
-Puede usar características y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de clientes y para beneficiarse del servicio [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentación de Experience Platform.
+Puede usar características y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de clientes y para beneficiarse del servicio de segmentación [Experience Platform](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
 
 En Audience Manager, puede utilizar segmentos de Experience Platform para casos de uso de la Plataforma de Gestión de datos, como:
-* Añada datos [de](/help/using/overview/data-types-collected.md#third-party-data) terceros a sus segmentos;
+* Añada [datos de terceros](/help/using/overview/data-types-collected.md#third-party-data) a sus segmentos;
 * [Modelado algorítmico](/help/using/features/algorithmic-models/understanding-models.md);
-* Active los segmentos en destinos que aún no se admiten en el catálogo [de](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)destinos de Experience Platform.
+* Active los segmentos en destinos que aún no se admiten en el catálogo de destinos [del Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
-Además, los segmentos del Experience Platform se comparten con otras soluciones de Experience Cloud, a través de los servicios [principales](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+Además, los segmentos de Experience Platform se comparten con otras soluciones de Experience Cloud mediante [servicios principales](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 >[!IMPORTANT]
 >
 > * Necesita una licencia de Audience Manager para habilitar los casos de uso de la Plataforma de Gestión de datos mencionados anteriormente.
-> * No *necesita* una licencia de Audience Manager para compartir segmentos de Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketing y otras soluciones de Experience Cloud mediante la integración de servicios principales.
+> * *no necesita* una licencia de Audience Manager para compartir segmentos de Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketing y otras soluciones de Experience Cloud mediante la integración de los servicios principales.
 
 
 <br> 
@@ -64,19 +64,19 @@ Las características y los segmentos del Audience Manager aparecen en el Experie
 
 Los segmentos que se crean en el Experience Platform aparecen en la interfaz del Audience Manager como señales, características y segmentos, con las siguientes reglas de composición:
 
-* Señal: Para cada segmento de Experience Platform, debe ver las señales en el formulario `segID = segment ID`.
+* Señal: Para cada segmento de Experience Platform, debe ver las señales en el formato `segID = segment ID`.
 * Característica: La regla de características es la ID del segmento de Experience Platform.
 * Segmento: El segmento consiste en la característica descrita anteriormente.
 
 ### Señales {#aep-segments-as-aam-signals}
 
-Seleccione **[!UICONTROL Audience Data > Signals > General Online Data]** y busque por `SegId` para buscar señales procedentes del Experience Platform. Puede utilizar esta pantalla con fines de depuración para comprobar si la integración entre Experience Platform y Audience Manager se ha configurado correctamente.
+Seleccione **[!UICONTROL Audience Data > Signals > General Online Data]** y busque por `SegId` para encontrar las señales procedentes del Experience Platform. Puede utilizar esta pantalla con fines de depuración para comprobar si la integración entre Experience Platform y Audience Manager se ha configurado correctamente.
 
 ![Ver las señales de Experience Platform en el Audience Manager en el panel de señales](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### Rasgos {#aep-segments-as-aam-traits}
 
-Audience Manager crea automáticamente una carpeta de características denominada Características del **Experience Platform** en el almacenamiento de características.
+Audience Manager crea automáticamente una carpeta de características denominada **Características del Experience Platform** en el almacenamiento de características.
 
 ![Características del panel de Experience Platform](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
@@ -99,7 +99,7 @@ Para ver un ejemplo de una característica creada automáticamente a partir de u
 
 ### Segmentos {#aep-segments-as-aam-segments}
 
-Audience Manager crea automáticamente una carpeta de segmentos denominada Segmentos **Experience Platform** en el almacenamiento de segmentos.
+Audience Manager crea automáticamente una carpeta de segmentos denominada **Segmentos de Experience Platform** en el almacenamiento de segmentos.
 
 ![Captura de pantalla del panel](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
@@ -111,18 +111,18 @@ Para ver un ejemplo de un segmento creado automáticamente a partir de un segmen
 ---------|----------|---------
 | 1 | [!UICONTROL Integration Code] | El código de integración corresponde al ID del segmento en el Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Creado automáticamente. Todas las características y segmentos que se crean automáticamente a partir de segmentos de Experience Platform se almacenan en el origen de datos **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que los segmentos creados automáticamente siguen la configuración de directiva de combinación establecida en Experience Platform. |
-| 4 | [!UICONTROL Segment Rule] | El segmento consta de la característica descrita en la sección [](#aep-segments-as-aam-traits)Características. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que los segmentos creados automáticamente siguen la configuración de directiva de combinación establecida en Experience Platform. |
+| 4 | [!UICONTROL Segment Rule] | El segmento consiste en la característica descrita en la sección [Características](#aep-segments-as-aam-traits). |
 
 ## Compatibilidad con el control de exportación de datos de Audience Manager en Experience Platform {#aam-data-export-control-in-aep}
 
-A fin de hacer cumplir la normativa de uso de datos en el Experience Platform, todos los conjuntos de datos y campos aplicables deben recibir las etiquetas [de uso de](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html)datos correspondientes. Además, las directivas [de uso de](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) datos deben habilitarse para acciones de marketing específicas en relación con dichas etiquetas, como se describe en el marco [de aplicación y etiquetado de uso de](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework)datos (DULE).
+A fin de hacer cumplir la normativa de uso de datos en el Experience Platform, todos los campos y conjuntos de datos aplicables deben recibir las [etiquetas de uso de datos correspondientes](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html). Además, [las políticas de uso de datos](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) deben habilitarse para acciones de mercadotecnia específicas en relación con esas etiquetas, como se describe en el marco [de cumplimiento y etiquetado de uso de datos (DULE)](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
 
 En el proceso de uso compartido de audiencias entre Audience Manager y Experience Platform, cualquier control de exportación de datos que se haya aplicado a segmentos de Audience Manager se traduce a etiquetas y acciones de marketing equivalentes reconocidas por el Gobierno de datos de Experience Platform, y viceversa.
 
 >[!NOTE]
 >
->Para obtener información más general sobre los controles de exportación de datos, consulte la documentación [de los controles de exportación de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)datos.
+>Para obtener información más general sobre los controles de exportación de datos, consulte la [documentación de controles de exportación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
 >
 >Este documento proporciona una referencia sobre cómo los controles de exportación de datos de Audience Manager específicos se asignan a las etiquetas de uso de datos y a las acciones de marketing de Platform.
 
@@ -158,11 +158,11 @@ Audience Manager actualiza los números de sistema de informes en la interfaz un
 
 ### Diferencias entre reglas de combinación de Perfiles y políticas de combinación
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en el Audience Manager y [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) en el Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en el Audience Manager y  [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) en el Experience Platform funcionan de forma diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
 
 ### Composición de segmentos en el Experience Platform
 
-La integración entre Adobe Experience Platform y Audience Manager comparte una serie de Áreas de nombres [de](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) identidad estándar para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), ID de AdCloud, etc. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en los rasgos y segmentos del Audience Manager.
+La integración entre Adobe Experience Platform y Audience Manager comparte una serie de [Áreas de nombres de identidad estándar](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), ID de AdCloud, etc. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en los rasgos y segmentos del Audience Manager.
 
 Además, el Audience Manager puede registrar las realizaciones entrantes para cualquier Área de nombres de identidad personalizada que utilice en los segmentos de Experience Platform si:
 * la identidad se marca como principal *y*
