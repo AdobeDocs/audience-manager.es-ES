@@ -17,9 +17,9 @@ ht-degree: 12%
 
 # Formato de pares de clave-valor en llamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Al realizar una llamada, [!DNL DCS] acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre cómo dar formato a los datos de clave-valor estándar y serializados.
+Al realizar una llamada, [!DNL DCS] acepta datos de valor clave en formato estándar o serializado. Consulte esta sección para obtener información sobre cómo dar formato a los datos de clave-valor estándar y serializados.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Pares de clave-valor estándar y serializados {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
