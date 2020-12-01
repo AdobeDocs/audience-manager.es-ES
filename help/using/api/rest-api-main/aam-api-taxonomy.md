@@ -23,11 +23,11 @@ Métodos que permiten la vista de la taxonomía común del Audience Manager. Est
 
 >[!NOTE]
 >
->No puede crear nuevas categorías taxonómicas ni clasificar características con estos métodos. Para clasificar una característica, especifique la que corresponda `categoryId` con un método de creación o actualización de características.
+>No puede crear nuevas categorías taxonómicas ni clasificar características con estos métodos. Para clasificar una característica, especifique el `categoryId` apropiado con un método de creación o actualización de características.
 
 ## Devolver una taxonomía específica {#return-specific-taxonomy}
 
-Un `GET` método que devuelve detalles sobre la categoría taxonómica especificada.
+Un método `GET` que devuelve detalles sobre la categoría taxonómica especificada.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +37,7 @@ Un `GET` método que devuelve detalles sobre la categoría taxonómica especific
 
 ### Respuesta
 
-Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado. Una solicitud incorrecta se devuelve `404 No Content` si el ID no existe.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devuelve `404 No Content` si el ID no existe.
 
 ```
 {
@@ -52,7 +52,7 @@ Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado.
 
 ## Devolver todas las Categorías taxonómicas {#return-all-taxonomy-categories}
 
-Un `GET` método que devuelve una lista de las categorías de nivel superior de una matriz.
+Un método `GET` que devuelve una lista de las categorías de nivel superior de una matriz.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -93,9 +93,9 @@ Truncado para la brevedad.
 ]
 ```
 
-## SubCategorías taxonómicas de retorno {#return-taxonomy-sub-categories}
+## Devolver subCategorías taxonómicas {#return-taxonomy-sub-categories}
 
-Un `GET` método que devuelve subcategorías para la categoría principal especificada en una matriz.
+Un método `GET` que devuelve subcategorías para la categoría principal especificada en una matriz.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +105,7 @@ Un `GET` método que devuelve subcategorías para la categoría principal especi
 
 ### Respuesta
 
-Se devuelve una respuesta correcta `200 OK` y la categoría del ID especificado. Una solicitud incorrecta se devuelve `404 No Content` si el ID no existe. Truncado para la brevedad.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devuelve `404 No Content` si el ID no existe. Truncado para la brevedad.
 
 ```
 [
