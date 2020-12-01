@@ -17,19 +17,19 @@ ht-degree: 11%
 
 # Cifrado PGP de archivo para tipos de datos de entrada{#file-pgp-encryption-for-inbound-data-types}
 
-Puede cifrar archivos de datos con [!DNL PGP] codificación al enviarlos al Audience Manager.
+Puede cifrar archivos de datos con cifrado [!DNL PGP] al enviarlos al Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] el cifrado incluye compresión de archivos. Al enviar archivos de entrada [!DNL PGP] cifrados, asegúrese de no [comprimirlos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) mediante gzip (`.gz`).
+>[!DNL PGP] el cifrado incluye compresión de archivos. Al enviar [!DNL PGP] archivos entrantes cifrados, asegúrese de no [comprimirlos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) mediante gzip (`.gz`).
 >
->[!DNL PGP] los archivos de entrada cifrados que también están [comprimidos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) no son válidos en Audience Manager.
+>[!DNL PGP] los archivos entrantes cifrados que también están  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) comprimidos no son válidos en Audience Manager.
 
 Siga los pasos que se describen a continuación para cifrar los archivos de datos de entrada.
 
-1. Descargue la clave [pública del](./assets/adobe_pgp.pub)Audience Manager.
+1. Descargue la [clave pública del Audience Manager](./assets/adobe_pgp.pub).
 2. Importe la clave pública en la tienda de confianza.
 
    Por ejemplo, si utiliza [!DNL GPG], el comando podría ser similar al siguiente:
@@ -52,8 +52,8 @@ Siga los pasos que se describen a continuación para cifrar los archivos de dato
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Todos los datos cifrados deben utilizarse `.pgp` o `.gpg` como extensión de archivo (por ejemplo `ftp_dpm_100_123456789.sync.pgp` o `ftp_dpm_100_123456789.overwrite.gpg`).
+   Todos los datos cifrados deben utilizar `.pgp` o `.gpg` como extensión del archivo (por ejemplo: `ftp_dpm_100_123456789.sync.pgp` o `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager solo admite el algoritmo de cifrado de [!DNL Advanced Encryption Standard (AES)] datos. Audience Manager admite cualquier tamaño de clave.
+   >Audience Manager sólo admite el algoritmo de cifrado de datos [!DNL Advanced Encryption Standard (AES)]. Audience Manager admite cualquier tamaño de clave.
