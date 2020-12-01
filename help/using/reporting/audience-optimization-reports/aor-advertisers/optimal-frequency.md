@@ -19,7 +19,7 @@ ht-degree: 3%
 
 El informe Frecuencia óptima ayuda a descubrir el equilibrio óptimo entre la cantidad de impresiones y conversiones servidas. Le permite ajustar el número de impresiones que desea mostrar antes de empezar a ver una disminución de los retornos.
 
-El informe tiene un intervalo de retrospectiva de 30 días, a partir de la fecha elegida en el [!UICONTROL Date Through] selector.
+El informe tiene un intervalo de retrospectiva de 30 días, a partir de la fecha elegida en el selector [!UICONTROL Date Through].
 
 El volumen de conversión suele disminuir con bloques de frecuencia de impresión más altos. Menos usuarios ven el mayor número de impresiones. Esto significa que los bloques de frecuencia más alta tienen menos conversiones.
 
