@@ -21,7 +21,7 @@ Devuelve datos sobre cuántos usuarios únicos se comparten entre los segmentos.
 
 >[!NOTE]
 >
->Los informes de superposición en Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos de fuentes de datos a los que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
+>Los informes de superposición en Audience Manager se ajustan a los principios de RBAC. Solo puede ver segmentos de orígenes de datos a los que tiene acceso en función del [grupo de usuarios de RBAC](/help/using/features/administration/administration-overview.md) al que pertenece.
 
 <!-- 
 
@@ -31,18 +31,18 @@ c_segment_segment_overlap.xml
 
 ## Información general
 
-El [!UICONTROL Segment-to-Segment Overlap] informe puede ayudarle a:
+El informe [!UICONTROL Segment-to-Segment Overlap] puede ayudarle a:
 
 * Identifique los segmentos con superposición alta o baja, según sus necesidades. Las características con alta superposición le proporcionan una audiencia de objetivo, pero menos visitantes únicos. Las características con superposición baja pueden ser útiles para alcanzar un conjunto de visitantes más grande y único.
 * Encuentre superposiciones inesperadas y utilice esa información para crear segmentos nuevos de alto rendimiento.
 
 ## Informe de muestra
 
-En la siguiente ilustración se proporciona una visión general de alto nivel del [!UICONTROL Segment-to-Segment Overlap] informe.
+La siguiente ilustración proporciona una visión general de alto nivel del informe [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->El [!UICONTROL Segment-to-Segment Overlap] informe devuelve un campo vacío cuando compara el mismo segmento con sí mismo.
+>El informe [!UICONTROL Segment-to-Segment Overlap] devuelve un campo vacío cuando compara el mismo segmento con sí mismo.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -50,7 +50,7 @@ En la siguiente ilustración se proporciona una visión general de alto nivel de
 
 Seleccione un punto individual para los detalles de los datos de vista en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
-## Campos de ventana emergente de datos de superposición de segmento a segmento definidos {#fields-defined}
+## Campos de la ventana emergente de datos de superposición de segmento a segmento definidos {#fields-defined}
 
 <!-- 
 
@@ -58,14 +58,14 @@ r_s2s_data_pop.xml
 
  -->
 
-La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] informe contiene las métricas siguientes. Tenga en cuenta que la métrica de valores exclusivos de la tabla representa a los usuarios *en tiempo* real.
+La ventana emergente del informe [!UICONTROL Segment-to-Segment Overlap] contiene las métricas siguientes. Tenga en cuenta que la métrica de valores exclusivos de la tabla representa a sus *usuarios en tiempo real*.
 
 | Métrica | Descripción |
 |---|---|
 | **[!UICONTROL Base Segment ID]** | ID numérica única para el segmento que aparece en los resultados del informe. Aparece como ID de fila para el segmento. |
 | **[!UICONTROL Base Segment Name]** | Nombre del segmento que aparece en la fila de resultados del informe. |
 | **[!UICONTROL Overlapping Segment ID]** | ID numérica única para el segmento que seleccione al ejecutar el informe. Aparece como el ID de columna del segmento. |
-| **[!UICONTROL Overlapping Segment Name]** | Nombre del segmento que seleccione al ejecutar el informe. Aparece en la columna de resultados del informe. |
+| **[!UICONTROL Overlapping Segment Name]** | Nombre del segmento que selecciona al ejecutar el informe. Aparece en la columna de resultados del informe. |
 | **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | El número de visitantes únicos en el segmento que se superpone. |
 | **[!UICONTROL Overlapping Uniques]** | Número de visitantes únicos compartidos entre segmentos comparados. |
