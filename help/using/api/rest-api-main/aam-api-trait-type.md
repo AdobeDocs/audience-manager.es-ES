@@ -23,13 +23,13 @@ Métodos opcionales que permiten asignar características a un tipo o categoría
 
 >[!NOTE]
 >
->Los métodos de tipo de característica no asignan características a categorías utilizadas por la taxonomía [](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)común. Considérelos como etiquetas separadas de la taxonomía común.
+>Los métodos de tipo de característica no asignan características a categorías utilizadas por la [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérelos como etiquetas separadas de la taxonomía común.
 
-Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en el [!DNL UI] debajo de **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en [!DNL UI] en **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Crear un nuevo tipo de característica {#create-trait-type}
 
-Un `POST` método que permite crear un nuevo tipo de característica.
+Un método `POST` que permite crear un nuevo tipo de característica.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -60,9 +60,9 @@ Un `POST` método que permite crear un nuevo tipo de característica.
 }
 ```
 
-## Propiedades de devolución para un tipo de característica {#return-props}
+## Propiedades de retorno para un tipo de característica {#return-props}
 
-Un `GET` método que devuelve detalles sobre el tipo de característica especificado.
+Un método `GET` que devuelve detalles sobre el tipo de característica especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -87,7 +87,7 @@ Un `GET` método que devuelve detalles sobre el tipo de característica especifi
 
 ## Propiedades de retorno para todos los tipos de características {#return-props-all}
 
-Un `GET` método que devuelve detalles sobre todos los tipos de características de una matriz.
+Un método `GET` que devuelve detalles sobre todos los tipos de características de una matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
