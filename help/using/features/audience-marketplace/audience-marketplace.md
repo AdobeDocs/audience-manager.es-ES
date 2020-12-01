@@ -19,9 +19,9 @@ ht-degree: 6%
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] permite a los proveedores de datos y a los compradores ejecutar las operaciones de datos de forma autoservicio con el mínimo esfuerzo. Para ello, proporciona funciones especializadas que varían en función de su función como comprador de datos o vendedor de datos. De hecho, incluso puedes ser comprador y vendedor al mismo tiempo. Y, si esto no puede mejorar, se encarga de los contratos, la facturación y los pagos entre proveedores de datos y vendedores. [!UICONTROL Audience Marketplace]
+[!UICONTROL Audience Marketplace] permite a los proveedores de datos y a los compradores ejecutar las operaciones de datos de forma autoservicio con el mínimo esfuerzo. Para ello, proporciona funciones especializadas que varían en función de su función como comprador de datos o vendedor de datos. De hecho, incluso puedes ser comprador y vendedor al mismo tiempo. Y, si esto no puede mejorar, [!UICONTROL Audience Marketplace] se encarga de los contratos, la facturación y los pagos entre proveedores de datos y vendedores.
 
-Talk to your [!DNL Audience Manager] sales specialist to get started. Pueden activarse [!UICONTROL Audience Marketplace for you].
+Hable con su [!DNL Audience Manager] especialista en ventas para empezar. Pueden activar [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >
