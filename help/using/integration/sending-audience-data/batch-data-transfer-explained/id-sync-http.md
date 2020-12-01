@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los ID de usuario entre un proveedor y [!DNL Audience Manager]. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a [!DNL Audience Manager].
 
-La sincronización de ID es el primer paso en el proceso de transferencia de datos entrante y asincrónico. En este paso, [!DNL Audience Manager] y el proveedor compara y coincide las ID de sus respectivos visitantes del sitio. Por ejemplo, un [!DNL Audience Manager] cliente puede conocer a un usuario por ID 123. Sin embargo, su socio de datos podría identificar a este usuario con el ID 456. El proceso de sincronización permite [!DNL Audience Manager] y un proveedor de datos reconciliar estos distintos ID e identificar a los usuarios en sus respectivos sistemas. Una vez finalizado, [!DNL Audience Manager] y su socio de terceros debe tener los ID correspondientes para cada usuario único que se vea en nuestras redes.
+La sincronización de ID es el primer paso en el proceso de transferencia de datos entrante y asincrónico. En este paso, [!DNL Audience Manager] y el proveedor comparan y coinciden los ID de sus respectivos visitantes del sitio. Por ejemplo, un cliente [!DNL Audience Manager] puede conocer a un usuario por ID 123. Sin embargo, su socio de datos podría identificar a este usuario con el ID 456. El proceso de sincronización permite a [!DNL Audience Manager] y a un proveedor de datos reconciliar estos distintos ID e identificar a los usuarios en sus respectivos sistemas. Una vez finalizado, [!DNL Audience Manager] y su socio de terceros deben tener ID correspondientes para cada usuario único que se vea en nuestras redes.
 
 Puede utilizar los siguientes métodos para obtener los datos en [!DNL Audience Manager]:
 
@@ -27,9 +27,9 @@ Puede utilizar los siguientes métodos para obtener los datos en [!DNL Audience 
 * [Evento de ID declarado](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
 * [Sincronización de ID a partir de una imagen incrustada por correo electrónico](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## Solicitud de sincronización `HTTP` de ID {#id-sync-http}
+## Solicitud de sincronización de ID `HTTP` {#id-sync-http}
 
-En un intercambio de ID, una [!DNL URL] cadena con el formato correcto debería tener este aspecto:
+En un intercambio de ID, una cadena [!DNL URL] correctamente formateada debería tener este aspecto:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
@@ -51,30 +51,30 @@ El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener va
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>ID única para el proveedor de contenido (asignado por el <span class="keyword"> Audience Manager</span>). </p> </td> 
+   <td colname="col2"> <p>ID única para el proveedor de contenido (asignado por <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Representación codificada de URL (porcentaje) de su ID de usuario único. Además de codificar caracteres ASCII reservados, cualquier carácter que no sea ASCII debe estar codificado en porcentaje según la tabla de codificación de caracteres UTF-8. </p> <p>Para obtener más información, consulte el sitio web <a href="https://www.url-encode-decode.com" format="http" scope="external"> Codificar/Descodificar en línea</a> de URL. </p> </td> 
+   <td colname="col2"> <p>Representación codificada de URL (porcentaje) de su ID de usuario único. Además de codificar caracteres ASCII reservados, cualquier carácter que no sea ASCII debe estar codificado en porcentaje según la tabla de codificación de caracteres UTF-8. </p> <p>Para obtener más información, consulte el sitio web <a href="https://www.url-encode-decode.com" format="http" scope="external"> Codificar/descodificar en línea</a> de la dirección URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Redirección URL codificada con la macro <code> ${DD_UUID}</code> incrustada. </p> <p>Nota:  Solo se Añade cuando el proveedor de contenido inicia la llamada. </p> </td> 
+   <td colname="col2"> <p>Redirección URL codificada con la macro <code> ${DD_UUID}</code> incrustada dentro de ella. </p> <p>Nota:  Solo se añade cuando el proveedor de contenido inicia la llamada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con  <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento GDPR con codificación URL base64 (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con  <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## [!UICONTROL Declared ID] Evento {#declared-id-event}
 
-Para obtener más información, consulte ID [declarados](../../../features/declared-ids.md).
+Para obtener más información, consulte [ID declarados](../../../features/declared-ids.md).
 
 ## Sincronización de ID a partir de una imagen incrustada por correo electrónico {#id-sync-email-image}
 
