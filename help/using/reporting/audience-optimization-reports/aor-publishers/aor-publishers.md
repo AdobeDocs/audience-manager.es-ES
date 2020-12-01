@@ -21,15 +21,15 @@ Audience Optimization for Publishers puede ayudar a identificar posibles mejoras
 
 ## Información general {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] yuxtapone los datos de rendimiento de campaña de nivel de registro con [!DNL Google Ad Manager] las métricas de [!DNL Audience Manager] segmento. Los informes están disponibles para los clientes que han configurado la ingestión de registros [!DNL Google Ad Manager]en [!DNL Audience Manager]. Si todavía no ha configurado la ingestión de registros, lea [Importar archivos de datos del administrador de publicidad de Google en Audience Manager](import-dfp.md) para obtener información sobre cómo hacerlo.
+[!UICONTROL Audience Optimization for Publishers] yuxtapone los datos de rendimiento de campaña a nivel de registro  [!DNL Google Ad Manager] con las métricas de  [!DNL Audience Manager] segmentos. Los informes están disponibles para los clientes que han configurado la ingestión de registros de [!DNL Google Ad Manager]a [!DNL Audience Manager]. Si aún no ha configurado la ingestión de registros, lea [Importar archivos de datos del administrador de publicidad de Google en Audience Manager](import-dfp.md) para obtener información sobre cómo hacerlo.
 
 ## Metadatos {#metadata}
 
-La información de rendimiento mostrada en los informes se importa desde la [!DNL Google Ad Manager] instancia. Debe enviarnos archivos de metadatos para poder agregar nombres descriptivos y prácticos a los elementos de los informes, en lugar de ID. En el paso 3 de [Importar archivos de datos de Google Ad Manager en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) , se describe cómo enviar los metadatos.
+La información de rendimiento mostrada en los informes se importa desde la instancia [!DNL Google Ad Manager]. Debe enviarnos archivos de metadatos para poder agregar nombres descriptivos y prácticos a los elementos de los informes, en lugar de ID. El paso 3 en [Importar archivos de datos de Google Ad Manager en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) describe cómo enviarnos los metadatos.
 
 ## Informes disponibles {#available-reports}
 
-[!UICONTROL Audience Optimization for Publishers] oferta seis vistas distintas que evalúan el rendimiento del servidor de publicidad en comparación con la segmentación creada en [!DNL Audience Manager] para cumplir los objetivos empresariales centrados en el editor.
+[!UICONTROL Audience Optimization for Publishers] oferta seis vistas distintas que clasifican el rendimiento del servidor de publicidad en comparación con la segmentación creada  [!DNL Audience Manager] para solucionar los objetivos empresariales centrados en el editor.
 
 + [Informe de Rendimiento del segmento](publisher-segment-performance.md)
 + [Informe de Tendencia del segmento](publisher-segment-trends.md)
