@@ -21,7 +21,7 @@ Un resumen de la metodología de muestreo utilizada para algunos informes, las t
 
 ## Tasa de muestreo de datos {#data-sampling-ratio}
 
-Algunos [!DNL Audience Manager] informes muestran los resultados en función de un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos de muestra es 1:54. Para los informes que utilizan datos de muestra, esto significa que los resultados se basan en un registro de cada conjunto de 54 registros.
+Algunos informes [!DNL Audience Manager] muestran resultados basados en un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos de muestra es 1:54. Para los informes que utilizan datos de muestra, esto significa que los resultados se basan en un registro de cada conjunto de 54 registros.
 
 Estos informes utilizan datos estadísticos de muestra porque necesitan una enorme capacidad informática para generar resultados. El muestreo ayuda a encontrar un equilibrio entre la reducción de las demandas computacionales, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
 
@@ -47,20 +47,20 @@ Pueden producirse errores en los informes que generan datos de superposición. U
 * No debería haberse incluido en un informe pero se han agregado de todos modos.
 * Debía haberse incluido en un informe, pero se les excluyó.
 
-Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tasa de error *disminuye* en una proporción inversa al número de registros del conjunto de datos. Los conjuntos de datos que tienen muchos registros generan menos errores que los conjuntos con un pequeño número de registros. Veamos esta afirmación de una manera más cuantitativa. Como se muestra en la siguiente tabla, para un número determinado de registros, el 95% de los resultados del informe estarán por debajo de una tasa de error específica.
+Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tasa de error *disminuye* en una proporción inversa a la cantidad de registros del conjunto de datos. Los conjuntos de datos que tienen muchos registros generan menos errores que los conjuntos con un pequeño número de registros. Veamos esta afirmación de una manera más cuantitativa. Como se muestra en la siguiente tabla, para un número determinado de registros, el 95% de los resultados del informe estarán por debajo de una tasa de error específica.
 
 | Número de registros | Tasa de error |
 |--- |--- |
-| 500 - 1,000 | El 95 % está por debajo de una tasa de error del 42 %. |
-| 1,000 - 1,500 | El 95 % está por debajo de una tasa de error del 34 %. |
-| 10,000 - 50,000 | El 95 % está por debajo de una tasa de error del 14 %. |
+| 500 - 1.000 | El 95 % está por debajo de una tasa de error del 42 %. |
+| De 1.000 a 1.500 | El 95 % está por debajo de una tasa de error del 34 %. |
+| 10.000 - 50.000 | El 95 % está por debajo de una tasa de error del 14 %. |
 | 50 000 | El 95 % está por debajo de una tasa de error del 6 %. |
-| 100,000 | El 95 % está por debajo de una tasa de error del 4 %. |
+| 100.000 | El 95 % está por debajo de una tasa de error del 4 %. |
 | 500.000 (o más) | El 95 % está por debajo de una tasa de error del 2 %. |
 
 ## Uso de la metodología de muestreo Minhash {#minhash}
 
-Basándose en la metodología de muestreo [Minhash](https://en.wikipedia.org/wiki/MinHash) , el Audience Manager utiliza un método novedoso para calcular las características y los estimadores de segmentos sobre un esbozo de datos con hash de una permutación. Este nuevo método produce una varianza inferior a la del estimador estándar para la similitud de Jaccard. Consulte la sección siguiente para ver los informes que utilizan esta metodología.
+Según la metodología de muestreo [Minhash](https://en.wikipedia.org/wiki/MinHash), el Audience Manager utiliza un método novedoso para calcular los estimadores de características y segmentos sobre un esbozo de datos con hash de una permutación. Este nuevo método produce una varianza inferior a la del estimador estándar para la similitud de Jaccard. Consulte la sección siguiente para ver los informes que utilizan esta metodología.
 
 <!--
 
@@ -70,9 +70,9 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 -->
 
-## Informes Que Utilizan Datos Muestreados {#reports-using-sampled-data}
+## Informes que utilizan datos mostrados {#reports-using-sampled-data}
 
-Los [!DNL Audience Manager] informes que utilizan datos estadísticos de muestra y la metodología de muestreo Minhash incluyen:
+Los informes [!DNL Audience Manager] que utilizan datos estadísticos de muestra y la metodología de muestreo Minhash incluyen:
 
 <!--
 
@@ -87,6 +87,6 @@ Reports that use Minhash sampling methodology:
 
 | Muestreo estadístico | Metodología de muestreo de minerales |
 |--- |--- |
-| [Datos de Audiencia](../features/addressable-audiences.md) direccionables (datos a nivel de cliente y segmento). | [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (rasgo a rasgo, segmento a rasgo y segmento a segmento) |
-| La métrica Dispositivos [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totales de un [!UICONTROL Profile Merge Rule]. | [Recomendaciones de rasgos](/help/using/features/segments/trait-recommendations.md) |
-| [La Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utiliza datos de muestra en la [!UICONTROL Search] ficha y en cualquier [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Datos de ](../features/addressable-audiences.md) audiencia direccionables (datos a nivel de cliente y segmento). | [Superponer informes](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (rasgo a rasgo, segmento a rasgo y segmento a segmento) |
+| La métrica [Dispositivos totales](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para un [!UICONTROL Profile Merge Rule]. | [Recomendaciones de rasgos](/help/using/features/segments/trait-recommendations.md) |
+| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer utiliza datos de muestra en la  [!UICONTROL Search] ficha y en cualquier  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
