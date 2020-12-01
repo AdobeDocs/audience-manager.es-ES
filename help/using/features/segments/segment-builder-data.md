@@ -15,13 +15,13 @@ ht-degree: 2%
 ---
 
 
-# [!UICONTROL Trait] y [!UICONTROL Segment] Datos de población en [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] y datos  [!UICONTROL Segment] de población en  [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Añada y elimine [!UICONTROL traits] en [!UICONTROL Segment Builder] para ver las poblaciones reales [!UICONTROL trait] junto con los datos de población de segmentos reales y estimados. Los datos de tamaño de población estimados le ayudan a crear el segmento adecuado para su campaña.
+Añada y elimine [!UICONTROL traits] en [!UICONTROL Segment Builder] para ver las [!UICONTROL trait] poblaciones reales junto con los datos de población de segmentos reales y estimados. Los datos de tamaño de población estimados le ayudan a crear el segmento adecuado para su campaña.
 
-## [!UICONTROL Trait] Datos de población {#trait-population-data}
+## [!UICONTROL Trait] Datos de población  {#trait-population-data}
 
-[!UICONTROL Segment Builder] La muestra [!UICONTROL Total Trait Population] el último día en que se agrega un [!UICONTROL trait] segmento. Estos datos aparecen en el campo azul alrededor del seleccionado [!UICONTROL trait] en la [!UICONTROL Basic View] sección.
+[!UICONTROL Segment Builder] La muestra  [!UICONTROL Total Trait Population] el último día en que se agrega un  [!UICONTROL trait] a un segmento. Estos datos aparecen en el campo azul alrededor de su [!UICONTROL trait] seleccionado en la sección [!UICONTROL Basic View].
 
 ![](assets/trait-size.png)
 
@@ -41,7 +41,7 @@ Sin embargo, el Audience Manager puede calcular inmediatamente el tamaño de pob
 
 ![](assets/confidence-interval.png)
 
-En [!UICONTROL Segment Builder], una barra azul en los gráficos de población estimados indica los rangos superior e inferior posibles para el tamaño del segmento. Aunque el rendimiento anterior no garantiza resultados futuros, los datos estimados pueden ayudarle a comprender el tamaño potencial de un segmento nuevo o editado.
+En [!UICONTROL Segment Builder], una barra azul en los gráficos de población estimados indica los posibles rangos superior e inferior para el tamaño del segmento. Aunque el rendimiento anterior no garantiza resultados futuros, los datos estimados pueden ayudarle a comprender el tamaño potencial de un segmento nuevo o editado.
 
 ## Información general de datos de población de segmentos {#segment-populations}
 
@@ -49,7 +49,7 @@ En [!UICONTROL Segment Builder], una barra azul en los gráficos de población e
 
 * Para los datos de población de segmentos estimados (en tiempo real y total), [!UICONTROL Segment Builder] no actualiza los gráficos automáticamente a medida que agrega o elimina características en un segmento. Haga clic en **[!UICONTROL Calculate Estimates]** para ver (o actualizar) los números de población estimados.
 
-* Para los datos de población de segmentos reales (reales) (en tiempo real y en total), [!UICONTROL Segment Builder] actualiza automáticamente el gráfico de segmentos al cargar un segmento existente. Para segmentos nuevos o cuando agrega nuevas características a un segmento existente, los datos de población reales no se actualizan hasta 24 horas después de crear el segmento.
+* Para los datos de población de segmentos reales (reales) (en tiempo real y en total), [!UICONTROL Segment Builder] actualiza el gráfico de segmentos automáticamente al cargar un segmento existente. Para segmentos nuevos o cuando agrega nuevas características a un segmento existente, los datos de población reales no se actualizan hasta 24 horas después de crear el segmento.
 
 ![](assets/segment-data.png)
 
@@ -68,12 +68,12 @@ La siguiente tabla define las métricas de población estimadas.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Población estimada en tiempo real (potencial) </span> </p> </td> 
-   <td colname="col2"> <p>El número estimado de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que los vio el Audience Manager. </p> <p>En el Generador <span class="wintitle"> de</span>segmentos, las últimas poblaciones de 30 días para características (<span class="wintitle"> Total de poblaciones</span>de características) pueden ser diferentes para características y segmentos evaluados en tiempo real. </p> <p>
+   <td colname="col1"> <p> <span class="wintitle"> Población estimada en tiempo real (potencial)  </span> </p> </td> 
+   <td colname="col2"> <p>El número estimado de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que los vio el Audience Manager. </p> <p>En <span class="wintitle"> Generador de segmentos</span>, las últimas poblaciones de 30 días para características (<span class="wintitle"> Total de características</span>) pueden ser diferentes para características y segmentos evaluados en tiempo real. </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Para las características, la última métrica de 30 días cuenta el número de usuarios únicos que calificaron para esa característica durante los últimos 30 días. </li>
       <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">En el caso de los segmentos evaluados en tiempo real, la última métrica de 30 días cuenta el número de usuarios que se han clasificado para una característica (en ese segmento) en algún momento del pasado y que el Audience Manager ha vuelto a ver en los últimos 30 días. Por ejemplo, supongamos que tiene un usuario que se calificó para una característica hace 60 días y que se volvió a ver hace 10 días. En los datos, este usuario no se agregará al recuento de características porque primero calificó para la característica hace más de 30 días. Sin embargo, se incluirán en el último recuento de 30 días para los segmentos evaluados en tiempo real. Esto se debe a que cumplen los requisitos para el segmento dentro del intervalo de tiempo de 30 días. </li>
-     </ul> </p> <p> <p>Nota: La <span class="wintitle"> métrica Población</span> estimada en tiempo real no incluye los dispositivos que cumplen los requisitos para un segmento en función de las conexiones proporcionadas por una regla <span class="wintitle"> de combinación de</span> Perfiles que utiliza una opción <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> de gráfico de</a>dispositivo. </p> </p> </td> 
+     </ul> </p> <p> <p>Nota: La métrica <span class="wintitle"> Población en tiempo real estimada</span> no incluye dispositivos que hayan calificado para un segmento en función de las conexiones proporcionadas por una <span class="wintitle"> regla de combinación de Perfiles</span> que utiliza una <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> opción de gráfico de dispositivos</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Población total estimada (potencial)</span> </p> </td> 
@@ -81,18 +81,18 @@ La siguiente tabla define las métricas de población estimadas.
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
       <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">Ver a cuántas personas puede llegar un segmento nuevo o revisado a medida que crea un segmento. </li> 
       <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Ajuste el segmento en función de sus objetivos. Por ejemplo, los segmentos grandes son útiles para campañas de reconocimiento de marca y los segmentos más pequeños son útiles para campañas de objetivo o redireccionamiento centrados. </li> 
-     </ul> </p> <p> <p>Nota: La <span class="wintitle"> métrica Población</span> total estimada no incluye los dispositivos que cumplen los requisitos para un segmento en función de las conexiones proporcionadas por una regla <span class="wintitle"> de combinación de</span> Perfiles que utiliza una opción <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> de gráfico de</a>dispositivo. </p> </p> </td> 
+     </ul> </p> <p> <p>Nota: La métrica <span class="wintitle"> Población total estimada</span> no incluye dispositivos que hayan calificado para un segmento en función de las conexiones proporcionadas por una <span class="wintitle"> regla de combinación de Perfiles</span> que utilice una <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> opción de gráfico de dispositivos</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Datos de población de segmentos existentes (reales) definidos {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] afectan a los números de población totales y en tiempo real. Estos totales varían en función de si el segmento al que pertenece [!UICONTROL Profile Merge Rule] utiliza o no una opción de gráfico de dispositivos. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] afectan a los números de población totales y en tiempo real. Estos totales varían en función de si el [!UICONTROL Profile Merge Rule] segmento al que pertenece utiliza una opción de gráfico de dispositivos o no. Consulte también [Opciones de regla de combinación de Perfiles definidas](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### Datos de población de segmentos para [!UICONTROL Merge Rules] sin un [!UICONTROL Device Graph Option]
+### Datos de población de segmentos para [!UICONTROL Merge Rules] sin [!UICONTROL Device Graph Option]
 
-La siguiente tabla define las métricas de población totales y en tiempo real cuando un [!UICONTROL Profile Merge Rule] usuario creado sin una [!UICONTROL device graph] opción utiliza los segmentos. Estos son los ajustes **[!UICONTROL No Device Options]** y **[!UICONTROL Current Device Proflie]** las opciones de dispositivo.
+La siguiente tabla define las métricas de población totales y en tiempo real cuando los segmentos son utilizados por una [!UICONTROL Profile Merge Rule] creada sin una opción [!UICONTROL device graph]. Estas son las opciones de configuración del dispositivo **[!UICONTROL No Device Options]** y **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -104,7 +104,7 @@ La siguiente tabla define las métricas de población totales y en tiempo real c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Población en tiempo real (existente)</span> </p> </td> 
-   <td colname="col2"> <p>El número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se califican para el segmento en el momento en que el Audience Manager los ve. </p> <p>En el Generador <span class="wintitle"> de</span>segmentos, las últimas poblaciones de 30 días para características (<span class="wintitle"> Total de poblaciones</span>de características) pueden ser diferentes para características y segmentos evaluados en tiempo real. </p> <p> 
+   <td colname="col2"> <p>El número real de visitantes únicos que se ven en tiempo real durante el intervalo de tiempo especificado y que se califican para el segmento en el momento en que el Audience Manager los ve. </p> <p>En <span class="wintitle"> Generador de segmentos</span>, las últimas poblaciones de 30 días para características (<span class="wintitle"> Total de características</span>) pueden ser diferentes para características y segmentos evaluados en tiempo real. </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
       <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Para las características, la última métrica de 30 días cuenta el número de usuarios únicos que calificaron para esa característica durante los últimos 30 días. </li> 
       <li id="li_1519068CBB1445E893657D12E8FE42AC">En el caso de los segmentos evaluados en tiempo real, la última métrica de 30 días cuenta el número de usuarios que se han clasificado para una característica (en ese segmento) en algún momento del pasado y que el Audience Manager ha vuelto a ver en los últimos 30 días. Por ejemplo, supongamos que tiene un usuario que se calificó para una característica hace 60 días y que se volvió a ver hace 10 días. En los datos, este usuario no se agregará al recuento de características porque primero calificó para la característica hace más de 30 días. Sin embargo, se incluirán en el último recuento de 30 días para los segmentos evaluados en tiempo real. Esto se debe a que cumplen los requisitos para el segmento dentro del intervalo de tiempo de 30 días. </li> 
@@ -117,9 +117,9 @@ La siguiente tabla define las métricas de población totales y en tiempo real c
  </tbody> 
 </table>
 
-### Datos de población de segmentos para [!UICONTROL Merge Rules] con una [!UICONTROL Device Graph] opción
+### Datos de población de segmentos para [!UICONTROL Merge Rules] con una opción [!UICONTROL Device Graph]
 
-La siguiente tabla define las métricas de población totales y en tiempo real cuando un [!UICONTROL Profile Merge Rule] usuario creado con una [!DNL device graph] opción utiliza los segmentos. Estas son las opciones de configuración del dispositivo para las opciones [!UICONTROL Profile Link Device Graph], la [!DNL Adobe] y otras [!DNL device graph][!DNL device graph] opciones de terceros disponibles para usted.
+La siguiente tabla define las métricas de población totales y en tiempo real cuando un [!UICONTROL Profile Merge Rule] creado con una opción [!DNL device graph] utiliza los segmentos. Estas son las opciones de configuración del dispositivo para las [!UICONTROL Profile Link Device Graph], las [!DNL Adobe] [!DNL device graph] y otras [!DNL device graph] opciones de terceros que están disponibles para usted.
 
 
 | Columna A | Columna B |
@@ -133,7 +133,7 @@ La siguiente tabla define las métricas de población totales y en tiempo real c
 
 ### Limitaciones debidas a [!UICONTROL Merge Rules] al calcular poblaciones de segmentos
 
-Actualmente, existe una limitación conocida porque nuestro estimador de tamaño de segmento no tiene en cuenta [!UICONTROL profile merge rules]. Por ejemplo, observe los segmentos con la regla **[!UICONTROL No Authenticated Profile + Current Device Profile]** de[](../../features/profile-merge-rules/merge-rule-definitions.md)combinación. Debido a la manera en que actualmente calculamos los números de estimación de segmentos, las poblaciones estimadas incluirán perfiles autenticados. Sin embargo, las poblaciones de segmentos existentes omitirán correctamente los perfiles autenticados.
+Actualmente, existe una limitación conocida porque nuestro estimador de tamaño de segmento no tiene en cuenta [!UICONTROL profile merge rules]. Por ejemplo, observe los segmentos con la **[!UICONTROL No Authenticated Profile + Current Device Profile]** [regla de combinación](../../features/profile-merge-rules/merge-rule-definitions.md). Debido a la manera en que actualmente calculamos los números de estimación de segmentos, las poblaciones estimadas incluirán perfiles autenticados. Sin embargo, las poblaciones de segmentos existentes omitirán correctamente los perfiles autenticados.
 
 >[!MORELIKETHIS]
 >
