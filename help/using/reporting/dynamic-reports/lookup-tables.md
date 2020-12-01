@@ -27,11 +27,11 @@ c_lookup_tables.xml
 
 ## Los metadatos del archivo de registro aumentan el tamaño del archivo y el tiempo de procesamiento
 
-Un archivo de registro típico utilizado por el [!UICONTROL Delivery Performance] informe generalmente contiene miles de filas y docenas de columnas. Consta de ID numéricos e información legible por el usuario, como nombres para creativos, anunciantes, pedidos de inserción, etc.
+Un archivo de registro típico utilizado por el informe [!UICONTROL Delivery Performance] generalmente contiene miles de filas y docenas de columnas. Consta de ID numéricos e información legible por el usuario, como nombres para creativos, anunciantes, pedidos de inserción, etc.
 
 Esta información que no es de ID se denomina *`metadata`* (es decir, información sobre otra información) y se escribe en cada fila del archivo de registro.
 
-Sin embargo, el [!UICONTROL Delivery Performance] informe funciona principalmente con los ID del archivo de registro. Los metadatos son útiles, pero repetitivos. Aumenta el tamaño del archivo y los tiempos de ingestión de datos.
+Sin embargo, el informe [!UICONTROL Delivery Performance] funciona principalmente con los ID del archivo de registro. Los metadatos son útiles, pero repetitivos. Aumenta el tamaño del archivo y los tiempos de ingestión de datos.
 
 ## Reducir el tamaño del archivo y acortar el tiempo de procesamiento con las tablas de índice
 
