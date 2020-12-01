@@ -17,19 +17,19 @@ ht-degree: 12%
 
 # Expresiones de muestra con operadores booleanos y de comparación {#sample-expressions-with-boolean-and-comparison-operators}
 
-Ejemplos a los que puede hacer referencia para crear expresiones en el editor de [!UICONTROL Expression Builder] código.
+Ejemplos a los que puede hacer referencia para crear expresiones en el editor de código [!UICONTROL Expression Builder].
 
 ## Información general de ejemplos de código {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Cree sus propias reglas de características con el editor de [!UICONTROL Expression Builder] código. Los siguientes ejemplos pueden ayudarle a empezar. Algunos de los ejemplos dan prioridad a la *`key`* variable con `c_` el fin de identificarla como una variable definida por el usuario. Incluya el `c_` prefijo (o cualquier otra convención de nombre) para *`key`* la variable si su evento llama a enviar datos a [!DNL Audience Manager] usando esa sintaxis.
+Cree sus propias reglas de características con el editor de código [!UICONTROL Expression Builder]. Los siguientes ejemplos pueden ayudarle a empezar. Algunos ejemplos muestran la variable *`key`* con `c_` como prefijo para identificarla como una variable definida por el usuario. Incluya el prefijo `c_` (o cualquier otra convención de nombres) para la variable *`key`* si las llamadas de evento envían datos a [!DNL Audience Manager] mediante esa sintaxis.
 
 ## Expresiones booleanas {#boolean-expressions}
 
 ### Ejemplo AND
 
-La regla establece requisitos de cualificación de características mediante [!UICONTROL AND] operadores booleanos.
+La regla establece requisitos de calificación de rasgos mediante operadores booleanos [!UICONTROL AND].
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -52,7 +52,7 @@ La regla establece requisitos de cualificación de características mediante [!U
 
 ### Ejemplo OR
 
-Esta regla establece requisitos de cualificación de características mediante [!DNL Boolean] y [!UICONTROL OR] con [!UICONTROL AND] operadores.
+Esta regla establece requisitos de calificación de características mediante operadores [!DNL Boolean] [!UICONTROL OR] y [!UICONTROL AND].
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -64,7 +64,7 @@ Esta regla establece requisitos de cualificación de características mediante [
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Cumplir las condiciones establecidas por variables <code><i>a </i></code> o <code><i>b </i></code> y <code><i>c </i></code>. </td> 
+   <td colname="col2"> Cumplir las condiciones establecidas por las variables <code><i>a </i></code> o <code><i>b </i></code> y <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
