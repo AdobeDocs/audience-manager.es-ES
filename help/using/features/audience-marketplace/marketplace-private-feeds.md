@@ -23,7 +23,7 @@ Una fuente de datos privada es una opción que permite a los proveedores limitar
 
 ## Fuentes de datos privadas para proveedores {#private-data-feeds-providers}
 
-Como proveedor, las fuentes de datos pueden ser públicas o privadas. Una fuente de datos privada permite limitar el acceso del comprador a los datos, incluido el nombre del vendedor de datos. Es posible que desee crear una fuente de datos privada para la oferta de ofertas especiales, descuentos o cuando la privacidad y el control de acceso sean importantes. Con una fuente de datos privada, puede revisar y aprobar las solicitudes de los compradores. Después de aprobar una solicitud, la fuente tiene el mismo aspecto que una fuente de datos pública para el comprador. Puede realizar vistas y administrar todas las fuentes en **[!UICONTROL Audience Marketplace > My Shared Data]**. Como se muestra a continuación, este tipo de fuente se marca como &quot;Privado&quot; en la columna de estado.
+Como proveedor, las fuentes de datos pueden ser públicas o privadas. Una fuente de datos privada permite limitar el acceso del comprador a los datos, incluido el nombre del vendedor de datos. Es posible que desee crear una fuente de datos privada para la oferta de ofertas especiales, descuentos o cuando la privacidad y el control de acceso sean importantes. Con una fuente de datos privada, puede revisar y aprobar las solicitudes de los compradores. Después de aprobar una solicitud, la fuente tiene el mismo aspecto que una fuente de datos pública para el comprador. Puede vista y administrar todas las fuentes en **[!UICONTROL Audience Marketplace > My Shared Data]**. Como se muestra a continuación, este tipo de fuente se marca como &quot;Privado&quot; en la columna de estado.
 
 ![](assets/my_shared_data.png)
 
@@ -49,23 +49,23 @@ La siguiente tabla define la función o las funciones proporcionadas por cada fi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Suscriptores potenciales</span></b> </p> </td> 
-   <td colname="col2"> <p>Listas han aprobado compradores que no se han suscrito a una fuente de datos privada. </p> <p>Una aprobación permite a los compradores vista una fuente de datos como si fuera pública. Esto les brinda la oportunidad de revisar y evaluar sus fuentes antes de suscribirse. También puede oferta descuentos en fuentes de datos a compradores que aparecen como suscriptores potenciales. Una vez que el comprador se suscribe, su perfil pasa a ser <b><span class="uicontrol"> Suscriptores</span></b>actuales. </p> </td>
+   <td colname="col2"> <p>Listas han aprobado compradores que no se han suscrito a una fuente de datos privada. </p> <p>Una aprobación permite a los compradores vista una fuente de datos como si fuera pública. Esto les brinda la oportunidad de revisar y evaluar sus fuentes antes de suscribirse. También puede oferta descuentos en fuentes de datos a compradores que aparecen como suscriptores potenciales. Una vez que el comprador se suscribe, su perfil pasa a <b><span class="uicontrol"> Suscriptores actuales</span></b>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Solicitudes de acceso</span></b> </p> </td>
    <td colname="col2"> <p>Lista nuevas solicitudes de suscripción para una fuente de datos privada. Haga clic en esta ficha para revisar, aprobar o rechazar solicitudes de comprador. </p>
     <ul id="ul_BE0A835A90B14C05B3F63226B79D052D"> 
-     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Los compradores aprobados se mueven a <b><span class="uicontrol"> Suscriptores</span></b>potenciales. </li>
-     <li id="li_929591FCF81E43A3881813BDBD3AC278">Los compradores Rechazados se mueven a <b><span class="uicontrol"> Acceso</span></b>denegado. </li>
+     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Los compradores aprobados se mueven a <b><span class="uicontrol"> suscriptores potenciales</span></b>. </li>
+     <li id="li_929591FCF81E43A3881813BDBD3AC278">Los compradores rechazados se mueven a <b><span class="uicontrol"> Acceso denegado</span></b>. </li>
     </ul> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Solicitudes de detalles</span></b> </p> </td>
-   <td colname="col2"> <p>Listas han aprobado compradores que aún no se han suscrito a una fuente de datos y han solicitado más información sobre sus fuentes. </p> <p>Una aprobación permite a los compradores vista una fuente de datos como si fuera pública. Esto les brinda la oportunidad de revisar y evaluar sus fuentes antes de suscribirse. También puede oferta descuentos en fuentes de datos a compradores que soliciten acceso. Al responder a una solicitud de detalles, se elimina el perfil del comprador de esta ficha. Si no se han suscrito, el perfil del comprador aún se encuentra en <b><span class="uicontrol"> Suscriptores</span></b>potenciales. </p> </td>
+   <td colname="col2"> <p>Listas han aprobado compradores que aún no se han suscrito a una fuente de datos y han solicitado más información sobre sus fuentes. </p> <p>Una aprobación permite a los compradores vista una fuente de datos como si fuera pública. Esto les brinda la oportunidad de revisar y evaluar sus fuentes antes de suscribirse. También puede oferta descuentos en fuentes de datos a compradores que soliciten acceso. Al responder a una solicitud de detalles, se elimina el perfil del comprador de esta ficha. Si no se han suscrito, el perfil del comprador aún está en <b><span class="uicontrol"> Suscriptores potenciales</span></b>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Acceso denegado</span></b> </p> </td> 
-   <td colname="col2"> <p>Las Listas rechazaron las solicitudes de suscripción para una fuente de datos privada. </p> <p>Para volver a aprobar compradores denegados, cambie el estado <span class="wintitle"> de</span> rechazo a <b><span class="uicontrol"> Permitir</span></b>. Esto mueve al comprador a <b><span class="uicontrol"> Suscriptores</span></b>potenciales. </p> </td> 
+   <td colname="col2"> <p>Las listas rechazaron las solicitudes de suscripción para una fuente de datos privada. </p> <p>Para volver a aprobar compradores denegados, cambie el <span class="wintitle"> Estado de rechazo</span> a <b><span class="uicontrol"> Permitir</span></b>. Esto mueve al comprador a <b><span class="uicontrol"> suscriptores potenciales</span></b>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ La siguiente documentación puede ayudarle a empezar a utilizar fuentes de datos
 
 ## Fuentes de datos privadas para compradores {#private-data-feeds-for-buyers}
 
-Como comprador, las fuentes de datos privadas aparecen en [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) como cualquier otra oferta. Sin embargo, en este caso, la lista de fuentes no muestra información resumida sobre características, usuarios únicos y superposición de usuarios. Además, el vendedor de datos tiene la opción de mostrar u ocultar su nombre en la [!UICONTROL Provider] columna de la [!UICONTROL Marketplace] lista. Después de que el vendedor apruebe tu solicitud de suscripción, todos los datos de una fuente privada estarán disponibles para ti (funciona igual que una fuente pública). El [!UICONTROL Marketplace] ejemplo siguiente lista los 3 tipos de fuentes diferentes disponibles para usted como comprador.
+Como comprador, las fuentes de datos privadas aparecen en [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) como cualquier otra oferta. Sin embargo, en este caso, la lista de fuentes no muestra información resumida sobre características, usuarios únicos y superposición de usuarios. Además, el vendedor de datos tiene la opción de mostrar u ocultar su nombre en la columna [!UICONTROL Provider] de la lista [!UICONTROL Marketplace]. Después de que el vendedor apruebe tu solicitud de suscripción, todos los datos de una fuente privada estarán disponibles para ti (funciona igual que una fuente pública). El ejemplo [!UICONTROL Marketplace] que se muestra a continuación lista los 3 tipos de fuentes diferentes disponibles como comprador.
 
 ![](assets/buyer_marketplace.png)
 
@@ -113,24 +113,24 @@ En la tabla se describe cómo estos distintos tipos de fuentes muestran u oculta
 
 ### Pasos siguientes
 
-Consulte [Suscríbase a una fuente](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de datos privada para solicitar acceso.
+Consulte  [Suscríbase a una ](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) fuente de datos privada para solicitar acceso.
 
 ## Cómo configurar la relación de uso compartido entre el proveedor de datos y el comprador de datos {#set-up-sharing-relationship}
 
 ### Paso 1: Habilitación: Proveedor de datos y comprador de datos
 
-El primer paso del proceso requiere la intervención de los asesores de Adobe o del Servicio de atención al cliente. El proveedor de datos y el comprador de datos deben ponerse en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente para solicitar la activación.
+El primer paso en el proceso requiere la intervención de los asesores de Adobe o del Servicio de atención al cliente. El proveedor de datos y el comprador de datos deben ponerse en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente para solicitar la habilitación.
 
 ### Paso 2 - Proveedor de datos - Crear nueva fuente de datos
 
 En su cuenta de Audience Manager, cree una nueva fuente de datos de cookies con:
 
-* **ID** de Audience Manager como clave de entrada;
-* La opción **Compartir activado** está activada.
+* **Audience Manager** ID como clave de entrada;
+* La opción **Compartir habilitada** está activada.
 
 ![](assets/create-datasource.png)
 
-Después de hacer clic en **Guardar**, se crea automáticamente una nueva subcarpeta en Almacenamiento de **características > Datos** de terceros.
+Después de hacer clic en **Guardar**, se crea automáticamente una nueva subcarpeta en **Almacenamiento de características > Datos de terceros**.
 
 ![](assets/folder-structure.png)
 
@@ -141,11 +141,11 @@ En este paso, identificará las características que desea compartir con su soci
 * Para asociarse con la fuente de datos creada como parte del paso 2.
 * Para almacenarse en la subcarpeta recién creada, en Datos de terceros.
 
-Obtenga más información sobre la [creación de características](/help/using/features/traits/create-onboarded-rule-based-traits.md) y la [edición de características](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+Obtenga más información sobre [creación de características](/help/using/features/traits/create-onboarded-rule-based-traits.md) y [edición de características](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
 ### Paso 4 - Proveedor de datos - Crear fuente de datos
 
-A continuación, cree una fuente de datos para compartir sus características con el comprador de datos. Consulte [Crear una fuente](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) de datos pública o privada para obtener instrucciones sobre cómo crear una fuente de datos.
+A continuación, cree una fuente de datos para compartir sus características con el comprador de datos. Consulte [Crear una fuente de datos pública o privada](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) para obtener instrucciones sobre cómo crear una fuente de datos.
 
 >[!IMPORTANT]
 >
@@ -155,15 +155,15 @@ A continuación, cree una fuente de datos para compartir sus características co
 
 ### Paso 5 - Comprador de datos - Solicitar acceso
 
-Vaya a **Audience Marketplace > Mercado**. Busque la fuente de datos creada por el proveedor de datos en el paso anterior. Haga clic en **Solicitar acceso**. El contacto designado del proveedor de datos recibirá ahora una notificación por correo electrónico. Consulte también [Suscripción a una fuente](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed)de datos privada.
+Vaya a **Audience Marketplace > Marketplace**. Busque la fuente de datos creada por el proveedor de datos en el paso anterior. Haga clic en **Solicitar acceso**. El contacto designado del proveedor de datos recibirá ahora una notificación por correo electrónico. Consulte también [Suscribirse a una fuente de datos privada](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
 
 ### Paso 6 - Proveedor de datos - Conceder acceso
 
-Vaya a **Audience Marketplace > Mis datos** compartidos y busque la fuente que ha creado en el paso 4. Haga clic en la nueva solicitud de acceso y haga clic en **Permitir acceso** para aprobar la solicitud. Consulte también [Revisar, aprobar o rechazar solicitudes](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)de fuentes privadas.
+Vaya a **Audience Marketplace > Mis datos compartidos** y busque la fuente que creó en el paso 4. Haga clic en la nueva solicitud de acceso y haga clic en **Permitir acceso** para aprobar la solicitud. Consulte también [Revisar, aprobar o rechazar solicitudes de fuentes privadas](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
 
 ### Paso 7: Comprador de datos: activar Suscripción
 
-Una vez que el proveedor de datos haya concedido acceso a la fuente de datos, podrá ver la fuente en su cuenta en **Audience Marketplace > Mercado**. Revise los detalles, active el botón Suscripción y haga clic en **Revisar y suscribirse**. Consulte [Almacenamiento para fuentes](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) de datos suscritas para obtener información sobre dónde encontrar las características de terceros.
+Una vez que el proveedor de datos conceda acceso a la fuente de datos, puede ver la fuente en su cuenta en **Audience Marketplace > Mercado**. Revise los detalles, active el botón Suscripción y haga clic en **Revisar y suscribirse**. Consulte [Almacenamiento para fuentes de datos suscritas](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) para obtener información sobre dónde encontrar las características de terceros.
 
 Tenga en cuenta que estas características solo se pueden editar en la cuenta del proveedor de datos.
 
