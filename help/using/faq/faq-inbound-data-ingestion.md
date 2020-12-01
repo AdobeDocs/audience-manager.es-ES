@@ -59,10 +59,10 @@ Consulte [Compresión de archivos de transferencia de datos entrantes](../integr
 
 **¿Puedo cargar un archivo de datos de entrada (archivo [!DNL .sync] o [!DNL .overwrite]) antes de implementar el código de [!DNL Audience Manager] en la producción?**
 
-Sí. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Consulte:
+Sí. Siempre que utilice un [!UICONTROL cross-device data source] para almacenar los datos CRM que cargue, el Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que el Audience Manager inició en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y realizar acciones en ellos sin implementar código de Audience Manager en la producción. Consulte:
 
 * [Información general sobre las mejoras de las reglas de combinación de perfiles](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] -  [Personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -188,7 +188,7 @@ Las marcas de tiempo se utilizan para el registro y el mantenimiento de registro
 
  
 
-**¿Qué es un[!DNL Data Provider ID (DPID)]y cómo lo entiendo?**
+**¿Qué es un  [!DNL Data Provider ID (DPID)] y cómo lo entiendo?**
 
 El consultor de Adobe asignará un [DPID de tres o cuatro dígitos (ID del proveedor de datos)](../reference/ids-in-aam.md) a su fuente de datos. Este ID es único y no cambia.
 
@@ -211,7 +211,7 @@ Sí. Consulte:
 
 **La clave principal de mi base de fuente de datos es una dirección de correo electrónico. ¿Esta información se considera personal?**
 
-Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los Visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar las sincronizaciones de ID.
+Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar las sincronizaciones de ID.
 
  
 
@@ -227,7 +227,7 @@ Recomendamos [!DNL Amazon S3] porque el proceso es más sencillo. [!DNL Audience
 
 >[!WARNING]
 >
->Estamos eliminando gradualmente el apoyo a las configuraciones de FTP. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Consulte [Requisitos de nomenclatura y tamaño de archivo de Amazon S3 para archivos de datos entrantes](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obtener más información.
+>Estamos eliminando gradualmente el apoyo a las configuraciones de FTP. Aunque la ingestión de archivos de datos de entrada sigue siendo compatible con integraciones de FTP existentes, recomendamos encarecidamente utilizar [!DNL Amazon S3] para incorporar datos sin conexión para nuevas integraciones. Consulte [Requisitos de nomenclatura y tamaño de archivo de Amazon S3 para archivos de datos entrantes](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obtener más información.
 
  
 
