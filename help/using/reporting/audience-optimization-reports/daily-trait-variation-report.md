@@ -21,23 +21,23 @@ Este informe devuelve una lista de características que se han realizado al meno
 
 >[!NOTE]
 >
->El informe Variación de rasgo diario en Audience Manager se ajusta a los principios de RBAC. Solo puede ver características de fuentes de datos a las que tiene acceso en función del grupo [de usuarios de](/help/using/features/administration/administration-overview.md) RBAC al que pertenece.
+>El informe Variación de rasgo diario en Audience Manager se ajusta a los principios de RBAC. Solo puede ver características de orígenes de datos a los que tiene acceso en función del [grupo de usuarios de RBAC](/help/using/features/administration/administration-overview.md) al que pertenece.
 
 La desviación típica mide la cantidad de variación o dispersión con respecto a la media (o valor medio/esperado). Una desviación estándar baja indica que los puntos de datos tienden a estar muy cerca de la media. Una desviación estándar alta indica que los puntos de datos se distribuyen en un gran rango de valores.
 
 ![](assets/daily_trait_variation.png)
 
-Utilice la [!UICONTROL Date] lista para seleccionar una o más fechas para el informe. En la parte inferior de la lista se muestra un gráfico de barras con códigos de color que representa de forma visual el rango de desviación estándar para todas las características de todas las fechas seleccionadas. La línea vertical negra indica la media.
+Utilice la lista [!UICONTROL Date] para seleccionar una o más fechas para el informe. En la parte inferior de la lista se muestra un gráfico de barras con códigos de color que representa de forma visual el rango de desviación estándar para todas las características de todas las fechas seleccionadas. La línea vertical negra indica la media.
 
 La columna central contiene una lista de características, identificadas por [!UICONTROL Trait ID] y [!UICONTROL Trait Name]. Haga clic en cualquier característica para acceder a un cuadro de diálogo emergente que le permite seleccionar entre las siguientes opciones:
 
-* **Mantener solamente:** Quita todas las demás características del informe y muestra los datos de esta característica solamente.
+* **Mantener solamente:** quita todas las demás características del informe y muestra los datos para esta característica solamente.
 * **Excluir:** Quita esta característica del informe y muestra los datos de todas las demás características. Puede excluir varias características.
-* **Datos de vista:** Permite mostrar datos para esa fila. También puede descargar todas las filas como un archivo de texto.
+* **Datos de vista:** permite mostrar datos para esa fila. También puede descargar todas las filas como un archivo de texto.
 
-La [!UICONTROL Standard Deviation] columna muestra gráficos de barras con códigos de color que muestran la desviación estándar de cada característica a lo largo del intervalo seleccionado. Las barras rojas indican características con una desviación estándar negativa (los puntos de datos tienden a estar por debajo de la media). Las barras verdes indican características con una desviación estándar positiva (los puntos de datos tienden a estar por encima de la media). Pase el ratón sobre cualquier barra para mostrar un cuadro de diálogo emergente con más información y opciones para mantener o excluir esa característica y vista más información.
+La columna [!UICONTROL Standard Deviation] muestra gráficos de barras con códigos de color que muestran la desviación estándar de cada rasgo en el intervalo seleccionado. Las barras rojas indican características con una desviación estándar negativa (los puntos de datos tienden a estar por debajo de la media). Las barras verdes indican características con una desviación estándar positiva (los puntos de datos tienden a estar por encima de la media). Pase el ratón sobre cualquier barra para mostrar un cuadro de diálogo emergente con más información y opciones para mantener o excluir esa característica y vista más información.
 
-En la parte inferior del informe se muestran iconos que permiten exportar datos en diversos formatos, revertir cualquier cambio que haya realizado en el informe (como excluir características), habilitar o deshabilitar las actualizaciones automáticas y actualizar los datos del informe. Consulte Herramientas e iconos [de informes explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+En la parte inferior del informe se muestran iconos que permiten exportar datos en diversos formatos, revertir cualquier cambio que haya realizado en el informe (como excluir características), habilitar o deshabilitar las actualizaciones automáticas y actualizar los datos del informe. Consulte [Iconos y herramientas del informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Casos de uso {#use-cases}
 
@@ -46,7 +46,7 @@ En la parte inferior del informe se muestran iconos que permiten exportar datos 
 * `productPage == "December Promotion"`
 * `price > "500"`
 
-Digamos que usted ejecuta el [!UICONTROL Daily Trait Variation] informe el 20 de diciembre y usted nota una sólida desviación positiva en las características antes mencionadas en los últimos 30 días. Esto puede sugerir que sus visitantes buscan los productos mencionados en su promoción de temporada. Para capitalizar esta tendencia, puede invertir más esfuerzos en destinar elementos creativos para esa categoría de productos específica a visitantes que les interesen.
+Supongamos que ejecuta el informe [!UICONTROL Daily Trait Variation] el 20 de diciembre y que observa una desviación positiva sólida en las características mencionadas en los últimos 30 días. Esto puede sugerir que sus visitantes buscan los productos mencionados en su promoción de temporada. Para capitalizar esta tendencia, puede invertir más esfuerzos en destinar elementos creativos para esa categoría de productos específica a visitantes que les interesen.
 
 **Ejemplo #2**: este informe puede ayudarle a identificar anomalías de objetivo relacionadas con problemas de etiquetado o configuraciones erróneas de características. Imagine que ha definido la siguiente característica en función de las categorías de su tienda en línea:
 
@@ -54,7 +54,7 @@ Digamos que usted ejecuta el [!UICONTROL Daily Trait Variation] informe el 20 de
 
 Debido a la reconfiguración de su tienda, está dividiendo la página de smartphones en varias páginas, en función de los nombres de las marcas. Sin embargo, olvida actualizar las características definidas en [!DNL Audience Manager].
 
-Un mes después, ejecuta el [!UICONTROL Daily Trait Variation] informe y observa una gran desviación negativa en la `productPage == "smartphones"` característica, aunque el número de visitantes ha aumentado, según los análisis del sitio. En base a esta información, se da cuenta de que no ha actualizado las características [!DNL Audience Manager] de las páginas de productos nuevas, por lo que debe crear las siguientes características:
+Un mes después, ejecuta el informe [!UICONTROL Daily Trait Variation] y observa una gran desviación negativa en la característica `productPage == "smartphones"`, aunque el número de visitantes ha aumentado, según los análisis del sitio. En base a esta información, se da cuenta de que no ha actualizado las características en [!DNL Audience Manager] para las páginas de productos nuevas, por lo que debe crear las siguientes características:
 
 * productPage == &quot;samsung&quot;
 * productPage == &quot;apple&quot;
