@@ -17,17 +17,17 @@ ht-degree: 11%
 
 # Asignar segmentos a un destino {#map-segments-to-a-destination}
 
-Asigne segmentos a destinos con estos [!DNL RESTful API] métodos.
+Asigne segmentos a destinos con estos métodos [!DNL RESTful API].
 
 <!-- c_api_map_seg_dest.xml -->
 
 ## Tipos de destino admitidos: Solo URL y cookie
 
-Los `POST` métodos disponibles le permiten asignar segmentos a [!UICONTROL URL] y [!UICONTROL cookie destinations] solamente. Actualmente, no puede asignar segmentos a [!UICONTROL server-to-server destinations] con estos [!DNL REST API] métodos. En su lugar, utilice la interfaz de usuario. Sin embargo, los `GET` métodos de destino relacionados permiten recuperar información sobre [!UICONTROL server-to-server destinations] los elementos creados en la interfaz de usuario.
+Los métodos `POST` disponibles le permiten asignar segmentos sólo a [!UICONTROL URL] y [!UICONTROL cookie destinations]. Actualmente, no puede asignar segmentos a [!UICONTROL server-to-server destinations] con estos métodos [!DNL REST API]. En su lugar, utilice la interfaz de usuario. Sin embargo, los métodos `GET` de destino relacionados permiten recuperar información sobre [!UICONTROL server-to-server destinations] creada en la interfaz de usuario.
 
-## Asignar un segmento a un destino de URL sin serialización {#map-segment-non-serial}
+## Asignar un segmento a un destino de URL no serializado {#map-segment-non-serial}
 
-Un `POST` método que le permite asignar un segmento a un destino que no es de serie [!UICONTROL URL] .
+Un método `POST` que permite asignar un segmento a un destino [!UICONTROL URL] no serial.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -77,7 +77,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 ## Asignar un segmento a un destino de URL serializado {#map-segment-serial}
 
-Un `POST` método que permite asignar un segmento a un destino [!UICONTROL URL] serializado.
+Un método `POST` que permite asignar un segmento a un destino serializado [!UICONTROL URL].
 
 <!-- r_map_serialized_url.xml -->
 
@@ -87,7 +87,7 @@ Un `POST` método que permite asignar un segmento a un destino [!UICONTROL URL] 
 
 ### Solicitud de ejemplo
 
-En la solicitud, el valor `traitAlias` corresponde a la clave en un par de clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+En la solicitud, `traitAlias` corresponde a la clave en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 {
@@ -127,7 +127,7 @@ En la solicitud, el valor `traitAlias` corresponde a la clave en un par de clave
 
 ## Asignar un segmento a un destino de cookie: Clave única, sin serializar {#map-segment-cookie-noserial}
 
-Un `POST` método que permite asignar un segmento a un destino de una sola clave sin serialización [!UICONTROL cookie] .
+Un método `POST` que permite asignar un segmento a un destino de clave única y no serializada [!UICONTROL cookie].
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -137,7 +137,7 @@ Un `POST` método que permite asignar un segmento a un destino de una sola clave
 
 ### Solicitud de ejemplo
 
-En la solicitud, el valor `valueAlias` corresponde al valor de un par de clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+En la solicitud, `valueAlias` corresponde al valor en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 {
@@ -174,7 +174,7 @@ En la solicitud, el valor `valueAlias` corresponde al valor de un par de clave-v
 
 ## Asignar un segmento a un destino de cookie: Clave múltiple, sin serializar {#map-segment-cookie-multi-noserial}
 
-Un `POST` método que permite asignar un segmento a un destino con varias claves y sin serialización [!UICONTROL cookie] .
+Un método `POST` que permite asignar un segmento a un destino de varias claves y no serializadas [!UICONTROL cookie].
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -184,7 +184,7 @@ Un `POST` método que permite asignar un segmento a un destino con varias claves
 
 ### Solicitud de ejemplo
 
-En la solicitud, `traitAlias` y `valueAlias` establece la clave y el valor respectivamente en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+En la solicitud, `traitAlias` y `valueAlias` configuran la clave y el valor respectivamente en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 {
@@ -222,7 +222,7 @@ En la solicitud, `traitAlias` y `valueAlias` establece la clave y el valor respe
 
 ## Asignar un segmento a un destino de cookie: Clave múltiple, serializada {#map-segment-cookie-multi-serial}
 
-Un `POST` método que le permite asignar un segmento a una clave múltiple, serializada [!UICONTROL cookie destination].
+Un método `POST` que permite asignar un segmento a un segmento con varias claves, serializado [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -232,7 +232,7 @@ Un `POST` método que le permite asignar un segmento a una clave múltiple, seri
 
 ### Solicitud de ejemplo
 
-En la solicitud, el valor `traitAlias` y `valueAlias` establece la clave y el valor en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+En la solicitud, `traitAlias` y `valueAlias` establecen la clave y el valor en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 {
@@ -270,7 +270,7 @@ En la solicitud, el valor `traitAlias` y `valueAlias` establece la clave y el va
 
 ## Asignar un segmento a un destino de servidor a servidor {#map-segment-s2s}
 
-Un `POST` método que permite asignar un segmento a un destino [!UICONTROL server-to-server] existente. Sin embargo, tenga en cuenta que no puede crear [!UICONTROL server-to-server] destinos con estos [!DNL API] métodos disponibles actualmente.
+Un método `POST` que permite asignar un segmento a un destino [!UICONTROL server-to-server] existente. Sin embargo, tenga en cuenta que no puede crear destinos [!UICONTROL server-to-server] con estos métodos [!DNL API] disponibles actualmente.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -280,7 +280,7 @@ Un `POST` método que permite asignar un segmento a un destino [!UICONTROL serve
 
 ### Solicitud de ejemplo
 
-En la solicitud, el valor `traitAlias` corresponde a la clave en un par de clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+En la solicitud, `traitAlias` corresponde a la clave en un par clave-valor. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 {
@@ -316,7 +316,7 @@ En la solicitud, el valor `traitAlias` corresponde a la clave en un par de clave
 
 ## Asignaciones de destino de creación masiva {#bulk-create}
 
-Un `POST` método que permite pasar una matriz de asignaciones [!UICONTROL cookie] o [!UICONTROL URL] destinos.
+Un método `POST` que permite pasar una matriz de asignaciones de destino [!UICONTROL cookie] o [!UICONTROL URL].
 
 <!-- r_bulk_create.xml -->
 
@@ -400,7 +400,7 @@ Una respuesta correcta devuelve la matriz de asignaciones creadas.
 
 ## Añadir varios segmentos a un destino {#add-segments-dest}
 
-Un `POST` método que permite asignar varios segmentos a un destino.
+Un método `POST` que permite asignar varios segmentos a un destino.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -482,9 +482,9 @@ Devuelve una matriz de asignaciones creadas.
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## Actualizar un destino por ID de destino {#update-dest-data-order}
 
-Un `PUT` método que permite actualizar un destino existente por `destinationId`.
+Un método `PUT` que permite actualizar un destino existente mediante `destinationId`.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -532,9 +532,9 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 }
 ```
 
-## Actualización de una asignación a un destino por ID de asignación {#update-mapping-dest-id}
+## Actualizar una asignación a un destino mediante el identificador de asignación {#update-mapping-dest-id}
 
-Un `PUT` método que permite actualizar una asignación a un destino según el `mappingId`.
+Un método `PUT` que permite actualizar una asignación a un destino según el `mappingId` especificado.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
