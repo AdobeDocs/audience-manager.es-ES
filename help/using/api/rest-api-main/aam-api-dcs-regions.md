@@ -17,15 +17,15 @@ ht-degree: 14%
 
 # Métodos de API de región DCS {#dcs-region-api-methods}
 
-Métodos que permiten la lista mediante programación de regiones [!DNL DCS] Audience Manager.
+Métodos que le permiten lista mediante programación de regiones [!DNL DCS] Audience Manager.
 
 <!-- c_rest_api_regions.xml -->
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Lista de una región DCS específica {#list-specific-dcs-region}
+## Lista de una región específica de DCS {#list-specific-dcs-region}
 
-Un `GET` método para la lista de una [!DNL DCS] región específica.
+Un método `GET` para la lista de una región [!DNL DCS] específica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,11 +51,11 @@ Un `GET` método para la lista de una [!DNL DCS] región específica.
 
 Devuelve `200 OK` si se realiza correctamente.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Lista de regiones DCS {#list-dcs-regions}
+## Regiones DCS de lista {#list-dcs-regions}
 
-Un `GET` método para la lista de [!DNL DCS] regiones.
+Un método `GET` para lista de regiones [!DNL DCS].
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -84,4 +84,4 @@ Un `GET` método para la lista de [!DNL DCS] regiones.
 
 Devuelve `200 OK` si se realiza correctamente.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
