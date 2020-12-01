@@ -27,7 +27,7 @@ c_report_technology.xml
 
 ## Informes interactivos Uso de la tecnología Tableau
 
-[!DNL Audience Manager] utiliza el software [Tableau](https://www.tableausoftware.com/) para mostrar los datos en los informes interactivos. Con [!DNL Tableau], los [!UICONTROL Delivery and Overlap] informes utilizan señales visuales y símbolos que le ayudan a:
+[!DNL Audience Manager] utiliza  [](https://www.tableausoftware.com/) Tableausofsoftware para mostrar datos en los informes interactivos. Con [!DNL Tableau], los informes [!UICONTROL Delivery and Overlap] utilizan señales visuales y símbolos que le ayudan a:
 
 * Encuentre características de alto y bajo rendimiento.
 * Las características y los segmentos de puntos con un visitante único alto y bajo se superponen.
@@ -72,8 +72,8 @@ La tabla siguiente define las formas, los tamaños y los colores utilizados en l
    <td colname="col1"> <b>Colores</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Los tonos rojos indican solapamiento <i>bajo</i> . </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Los tonos verdes indican solapamiento <i>alto</i> . </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Los tonos rojos indican <i>baja</i> superposición. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Las sombras verdes indican <i>alta</i> superposición. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
