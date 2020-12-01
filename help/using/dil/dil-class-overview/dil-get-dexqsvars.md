@@ -33,11 +33,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Cadena | Nombre de la variable para la que desea obtener un valor. |
 | `partner` | Cadena | El nombre del socio que se va a buscar. |
-| `containerNSID` | Número entero | El [!DNL NSID] del contenedor que estás buscando. El valor predeterminado es `0`. |
+| `containerNSID` | Número entero | El [!DNL NSID] del contenedor que está buscando. El valor predeterminado es `0`. |
 
 **Respuesta**
 
-Devuelve el valor de variable de una [!UICONTROL DIL] instancia.
+Devuelve el valor de variable para una instancia [!UICONTROL DIL].
 
 **Código de ejemplo**
 
