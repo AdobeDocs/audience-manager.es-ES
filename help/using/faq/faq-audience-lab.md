@@ -40,7 +40,7 @@ Sí, se puede hacer. Pongamos un ejemplo en el que se utiliza un segmento Mascul
 
 <br> 
 
-**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 [UUID de Audience Manager](../reference/ids-in-aam.md). Cuando el visitante muestra un rasgo de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab]lo cuenta como una o cuatro conversiones?**
+**Supongamos que un grupo de prueba utiliza un perfil autenticado para la división del segmento de prueba. El perfil autenticado está vinculado a 4 [UUID de Audience Manager](../reference/ids-in-aam.md). Cuando el visitante muestra un rasgo de conversión de uno de los cuatro UUID, ¿[!UICONTROL Audience Lab] lo cuenta como una o cuatro conversiones?**
 
 En este caso, [!UICONTROL Audience Lab] solo cuenta una conversión.
 
