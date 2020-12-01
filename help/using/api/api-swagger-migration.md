@@ -17,13 +17,13 @@ ht-degree: 6%
 
 # Migración de código de API de Audience Manager {#audience-manager-api-code-migration}
 
-Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como ustedes, queremos trabajar con [!DNL API] documentación confiable y precisa. Como resultado, estamos reescribiendo nuestro [!DNL API] contenido [!DNL Swagger] y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código del Audience Manager [!DNL API] .
+Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación confiable y precisa [!DNL API]. Como resultado, estamos reescribiendo nuestro contenido [!DNL API] en [!DNL Swagger] y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código [!DNL API] del Audience Manager.
 
 ## Subir {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-El [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) es la nueva página de inicio para nuestro contenido revisado [!DNL API] . Intentaremos reescribir y mover algunos conjuntos de [!DNL API] métodos con cada versión. Esto significa que tendrá que comprobar la nueva ubicación y la documentación de la API [de](../api/rest-api-main/rest-api-main.md) REST para encontrar todos los métodos disponibles. Al final, todos los ciudadanos [!DNL API]estarán en el [!DNL Audience Manager] sitio [!DNL API] de documentos. La siguiente tabla lista las versiones revisadas y [!DNL API]migradas.
+El sitio [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html) es el nuevo hogar para nuestro contenido revisado [!DNL API]. Intentaremos reescribir y mover algunos conjuntos de métodos [!DNL API] con cada versión. Esto significa que tendrá que registrar la nueva ubicación y la documentación de [REST API](../api/rest-api-main/rest-api-main.md) para encontrar todos los métodos disponibles. Finalmente, todos los [!DNL API]s públicos estarán en el sitio [!DNL Audience Manager] [!DNL API] docs. La siguiente tabla lista los [!DNL API]s revisados y migrados.
 
 <!--
 
