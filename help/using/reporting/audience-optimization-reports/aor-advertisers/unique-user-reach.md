@@ -25,7 +25,7 @@ El informe Alcance del usuario único le ayuda a encontrar el anunciante, la mar
 >
 >Tenga en cuenta que:
 >
->* El [!UICONTROL Unique User Reach] informe muestra información solamente para usuarios con niveles de [!UICONTROL Admin] permisos. El consultor [!DNL Audience Manager] o el Servicio de atención al cliente pueden otorgar [!UICONTROL Admin] permisos a su cuenta.
+>* El informe [!UICONTROL Unique User Reach] muestra información solamente para usuarios con niveles de permisos [!UICONTROL Admin]. Su [!DNL Audience Manager] asesor o Servicio de atención al cliente puede aprovisionar su cuenta con [!UICONTROL Admin] permisos.
    >
    >
 * Los períodos de 7 y 30 días de consulta solo están disponibles para los domingos.
@@ -33,6 +33,6 @@ El informe Alcance del usuario único le ayuda a encontrar el anunciante, la mar
 
 ## Informe de muestra
 
-Su [!UICONTROL Unique User Reach] informe podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes.
+Su informe [!UICONTROL Unique User Reach] podría tener un aspecto similar al de abajo. En el informe, haga clic en una burbuja para vista de los datos subyacentes.
 
 ![](assets/unique-user-reach.png)
