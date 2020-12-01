@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Resultado del paso](assets/outbound_history.png)
 
-1. En el **[!UICONTROL Search for a Destination]** cuadro, escriba el inicio y seleccione el destino que desee.
-1. En el **[!UICONTROL Select a Date Range]** cuadro, especifique el inicio y las fechas de finalización del informe, luego haga clic en **[!UICONTROL Apply Date Filter]**.
+1. En el cuadro **[!UICONTROL Search for a Destination]**, escriba el inicio y seleccione el destino deseado.
+1. En el cuadro **[!UICONTROL Select a Date Range]**, especifique el inicio y las fechas de finalización del informe y, a continuación, haga clic en **[!UICONTROL Apply Date Filter]**.
 
    ![Resultado del paso](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre del archivo de sincronización de datos </td> 
-   <td colname="col2"> <p>Lista de todos los archivos de salida que <span class="keyword"> Adobe</span> ha generado para este destino que se han procesado juntos. </p> </td> 
+   <td colname="col2"> <p>Lista de todos los archivos salientes que <span class="keyword"> Adobe</span> generó para este destino que se procesaron juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Correcto </td> 
-   <td colname="col2"> <p>Número de registros que se enviaron correctamente del <span class="keyword"> Audience Manager</span> al destino. </p> </td> 
+   <td colname="col2"> <p>Número de registros que se enviaron correctamente desde <span class="keyword"> Audience Manager</span> al destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Error </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de registros que <span class="keyword"> Adobe</span> ha generado en los archivos y ha intentado enviar al destino. En la mayoría de los casos, debe ser el número total de archivos con éxito y de archivos con errores. </p> </td> 
+   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos y que intentaron enviarse al destino. En la mayoría de los casos, debe ser el número total de archivos con éxito y de archivos con errores. </p> </td> 
   </tr> 
  </tbody> 
 </table>
