@@ -25,31 +25,31 @@ Compare las tendencias y el volumen de las métricas seleccionadas para obtener 
 
 ## Caso de uso {#use-cases}
 
-Utilice el [!UICONTROL Segment Trend] informe para validar el rendimiento de un segmento con el paso del tiempo y para señalar las tendencias en función del rendimiento o la escala sólidos.
+Utilice el informe [!UICONTROL Segment Trend] para validar el rendimiento de un segmento a lo largo del tiempo y para señalar las tendencias en función de un rendimiento o una escala sólidos.
 
-Con este informe, puede comprender qué propiedades web muestran un descenso o un aumento defectuoso y solucionar los problemas según sea necesario. Este informe es el siguiente paso después de identificar su audiencia de interés en el [!UICONTROL Segment Performance] informe, para garantizar que el rendimiento sólido o deficiente que vio en la ficha [!UICONTROL Segment Performance] sea coherente con el paso del tiempo.
+Con este informe, puede comprender qué propiedades web muestran un descenso o un aumento defectuoso y solucionar los problemas según sea necesario. Este informe es el siguiente paso después de identificar su audiencia de interés en el informe [!UICONTROL Segment Performance], para garantizar que el rendimiento sólido o deficiente que vio en la ficha [!UICONTROL Segment Performance] sea coherente con el paso del tiempo.
 
-## Uso del informe Tendencia de los segmentos {#using-the-report}
+## Uso del informe Tendencia del segmento {#using-the-report}
 
-Alternar entre **[!UICONTROL Mapped]** y **[!UICONTROL Unmapped]** para seleccionar segmentos asignados a un destino o no. Seleccione **[!UICONTROL All]** para incluir todos los segmentos en el informe.
+Alternar entre **[!UICONTROL Mapped]** y **[!UICONTROL Unmapped]** para seleccionar segmentos que estén asignados a un destino o no. Seleccione **[!UICONTROL All]** para incluir todos los segmentos en el informe.
 
-Ajuste la ventana retroactiva con el **[!UICONTROL Date Through]** deslizador.
+Ajuste la ventana retroactiva con el control deslizante **[!UICONTROL Date Through]**.
 
-Haga clic en cualquiera de los segmentos debajo del **[!UICONTROL Date Through]** deslizador para que aparezca la opción de mantener solo ese segmento en el informe o excluirlo.
+Haga clic en cualquiera de los segmentos bajo el deslizador **[!UICONTROL Date Through]** para que se muestre la opción de mantener solo ese segmento en el informe o excluirlo.
 
-Utilice el cuadro **[!UICONTROL Line Item]** desplegable para seleccionar las propiedades del portafolio para las que desea devolver información.
+Utilice el cuadro desplegable **[!UICONTROL Line Item]** para seleccionar las propiedades del portafolio para las que desea devolver información.
 
-En el cuadro **[!UICONTROL Segment Data Source]** desplegable, seleccione las fuentes de datos que contengan los segmentos que desee ver en el informe.
+En el cuadro desplegable **[!UICONTROL Segment Data Source]**, seleccione las fuentes de datos que contengan los segmentos que desee ver en el informe.
 
-Utilice el cuadro **[!UICONTROL Segment]** desplegable para seleccionar qué segmentos desea ver en el informe.
+Utilice el cuadro desplegable **[!UICONTROL Segment]** para seleccionar los segmentos que desee ver en el informe.
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] los ID, tal como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en el Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item] ID, tal como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (antes DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacer esto, se asegura de que el informe detalla la propiedad web como [!UICONTROL Line Item] en lugar del [!UICONTROL Line Item] ID.
 
 ## Interpretación de los resultados {#interpreting-results}
 
-El [!UICONTROL Segment Trend] informe devuelve datos en un gráfico de líneas solamente para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión y pulsaciones de un conjunto de segmentos asignados y no asignados.
+El informe [!UICONTROL Segment Trend] devuelve datos en un gráfico de líneas únicamente para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión y pulsaciones de un conjunto de segmentos asignados y no asignados.
 
 Pase el ratón sobre cualquier línea para obtener más información sobre esa tendencia de segmento en particular. Consulte las descripciones para obtener información adicional en la tabla debajo del informe de muestra.
 
