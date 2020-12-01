@@ -25,7 +25,7 @@ Para obtener más información sobre las señales derivadas, consulte [Señales 
 
 >[!IMPORTANT]
 >
->Los métodos de señales [!DNL API] derivadas se han reescrito [!DNL Swagger] y migrado. Consulte:
+>Los métodos [!DNL API] de señales derivadas se han reescrito con [!DNL Swagger] y se han migrado. Consulte:
 >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
