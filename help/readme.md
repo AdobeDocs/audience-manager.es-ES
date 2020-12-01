@@ -13,7 +13,7 @@ ht-degree: 2%
 ## TDC
 
 + `TOC.md` en la raíz de la guía del usuario se proporciona la organización de los temas que se incluyen en la guía de esta solución.
-+ Cada guía del usuario tendrá su propia guía única `TOC.md`, en la que podrá ordenar todas las páginas o temas según sea necesario.
++ Cada guía del usuario tendrá su propia `TOC.md` única, en la que podrá ordenar todas las páginas/temas según sea necesario.
 + La primera página de todas las guías del usuario es `overview.md`.
 
 ## Guía de usuario
@@ -21,13 +21,13 @@ ht-degree: 2%
 + La introducción a la guía del usuario se denomina `overview.md`
 + Cada tema de la guía del usuario tiene su propio directorio distinto.
    + Si hay un tema en la guía llamado *Implementación*, el directorio correspondiente es `/implementation`
-+ Todos los recursos de imagen se almacenan `/assets` en la raíz de la guía del usuario.
-   + Se localizarán todas las imágenes del `/assets` directorio.
-   + Las imágenes del `/no-localize` directorio no se localizarán (¡hay una sorpresa!). Esto se puede utilizar para garantizar en las versiones de loc que los recursos específicos no se reproducen innecesariamente.
++ Todos los recursos de imagen se almacenan en `/assets` en la raíz de la guía del usuario.
+   + Todas las imágenes del directorio `/assets` se localizarán.
+   + Las imágenes del directorio `/no-localize` no se localizarán (¡hay una sorpresa!). Esto se puede utilizar para garantizar en las versiones de loc que los recursos específicos no se reproducen innecesariamente.
 
 ## Metadatos de nivel de guía del usuario
 
-+ Los metadatos que describen la guía del usuario se almacenan en el `TOC.md`. Esto incluye:
++ Los metadatos que describen la guía del usuario se almacenan en `TOC.md`. Esto incluye:
    + producto: nombre del producto/capacidad.
    + cloud: nube a la que pertenece este producto.
    + audiencia: audiencia o arquetipo al que está dirigida la guía.
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 ## Más información
 
-Para obtener más instrucciones de publicación, guías de estilo, ejemplos y otros recursos, visite el [Repo de documentación de colaboración](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obtener más instrucciones de publicación, guías de estilo, ejemplos y otros recursos, visite [Repo de documentación de colaboración](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
