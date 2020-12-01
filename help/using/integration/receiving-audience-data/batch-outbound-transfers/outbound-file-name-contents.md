@@ -23,7 +23,7 @@ Describe los campos requeridos, la sintaxis y las convenciones utilizadas para a
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` , `( )`etc.) en este documento, indique los elementos y las opciones del código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones del código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Elementos de sintaxis y nombre de archivo {#syntax-file-name}
 
@@ -50,12 +50,12 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
    <td colname="col2"> <p>Se refiere a los métodos de transferencia de datos. Los métodos de transferencia incluyen: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transferir mediante SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Transferencia a <span class="keyword"> Amazon AWS </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3  </span> - Transferir a  <span class="keyword"> Amazon AWS  </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destino. </p> <p>En <span class="keyword"> Audience Manager </span>, un destino es la instancia de la integración donde puede asignar los segmentos objetivo. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
+   <td colname="col2"> <p>ID de destino. </p> <p>En el Audience Manager <span class="keyword"> </span>, un destino es la instancia de la integración donde puede asignar los segmentos objetivo. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
@@ -97,7 +97,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
 
 ### Escenario 1
 
-Archivos enviados a una [!DNL Amazon S3] ubicación, con *`PID_ALIAS="XYZCustomer"`* y con [!DNL Google Advertiser IDs] el contenido del archivo.
+Archivos enviados a una ubicación [!DNL Amazon S3], con *`PID_ALIAS="XYZCustomer"`* y con [!DNL Google Advertiser IDs] en el contenido del archivo.
 
 Por ejemplo, archivos incrementales:
 
@@ -116,7 +116,7 @@ Por ejemplo, archivos completos:
 
 ### Escenario 2
 
-Archivos enviados a la [!DNL FTP] ubicación, sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] el contenido del archivo:
+Archivos enviados a la ubicación [!DNL FTP], sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] en el contenido del archivo:
 
 Por ejemplo, archivos incrementales:
 
@@ -132,7 +132,7 @@ Por ejemplo, archivos completos:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Escenario 3**: Archivos enviados a la ubicación, con [!DNL FTP] y con ID de usuario de terceros en el contenido del archivo ( *`PID_ALIAS="XYZCustomer"`* *`Vendor ID=45454`*):
+**Escenario 3**: Archivos enviados a la  [!DNL FTP] ubicación, con  *`PID_ALIAS="XYZCustomer"`* y con ID de usuario de terceros en el contenido del archivo (  *`Vendor ID=45454`*):
 
 Por ejemplo, archivos incrementales:
 
@@ -157,7 +157,7 @@ Describe los campos requeridos, la sintaxis y las convenciones utilizadas para o
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` , `( )`etc.) en este documento, indique los elementos y las opciones del código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones del código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ### Sintaxis
 
@@ -179,7 +179,7 @@ La tabla lista variables que definen el contenido de un archivo de datos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de usuario único asignado por <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>ID de usuario único asignado por el Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
@@ -191,14 +191,14 @@ La tabla lista variables que definen el contenido de un archivo de datos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento desde el que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de los segmentos actuales para el usuario. Normalmente, desea conocer los segmentos a los que pertenece un usuario en lugar de aquellos de los que se han eliminado. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>ID del segmento desde el que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de los segmentos actuales para el usuario. Normalmente, desea conocer los segmentos a los que pertenece un usuario en lugar de aquellos de los que se han eliminado. Consulte también <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nombre del archivo de datos de salida: Sintaxis y ejemplos </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Ejemplo: Formato de archivo básico
 
-Un archivo de datos formateado correctamente podría tener un aspecto similar al siguiente ejemplo. Esta entrada de archivo indica que un usuario cumple los requisitos para los segmentos 24, 26 y 27. Si es necesario, un espacio separa los ID de segmento `UUID` y los ID de segmento. Otro espacio separa los conjuntos de ID de segmentos. En este ejemplo, un usuario pertenece a los segmentos 24, 26 y 27. Se han eliminado de los segmentos 25 y 28.
+Un archivo de datos formateado correctamente podría tener un aspecto similar al siguiente ejemplo. Esta entrada de archivo indica que un usuario cumple los requisitos para los segmentos 24, 26 y 27. Si es necesario, un espacio separa los `UUID` y los ID de segmento. Otro espacio separa los conjuntos de ID de segmentos. En este ejemplo, un usuario pertenece a los segmentos 24, 26 y 27. Se han eliminado de los segmentos 25 y 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
