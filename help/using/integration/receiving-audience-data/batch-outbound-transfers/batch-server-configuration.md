@@ -24,7 +24,7 @@ Si trabaja con un consultor de Adobe, se encargará del proceso de configuració
 
 ## Solicitar la configuración de asistencia mediante el servicio de asistencia al cliente de Adobe {#config-support}
 
-Si no está trabajando con un consultor de Adobe, puede obtener la integración de transferencia por lotes configurada por la asistencia al cliente. Póngase en contacto con el servicio de asistencia al cliente para obtener más información.
+Si no está trabajando con un asesor de Adobe, puede obtener la integración de transferencia por lotes configurada por la asistencia al cliente. Póngase en contacto con el servicio de asistencia al cliente para obtener más información.
 
 >[!IMPORTANT]
 >
