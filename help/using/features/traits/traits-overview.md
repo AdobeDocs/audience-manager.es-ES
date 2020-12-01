@@ -17,7 +17,7 @@ ht-degree: 39%
 
 # [!UICONTROL Traits] Información general {#traits-overview}
 
-Administre la recopilación de datos y la creación de audiencias con [!UICONTROL rules-based], [!UICONTROL onboarded][!UICONTROL algorithmic] o [!UICONTROL folder traits]. Lea las páginas a continuación para comenzar con [!UICONTROL traits]:
+Administre la recopilación de datos y la creación de audiencias con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Lea las páginas a continuación para comenzar con [!UICONTROL traits]:
 
 * [Página Detalles de rasgos](/help/using/features/traits/trait-details-page.md)
 * [Generador de rasgos ](/help/using/features/traits/about-trait-builder.md)
