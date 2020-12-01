@@ -44,14 +44,14 @@ Added re: AAM-30826.
 
 | Servicio | URL/nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
-| S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente para configurar un bucket de Amazon S3 para su instancia beta. Lea acerca de las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el Entorno](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
+| S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socio de Audience Manager o con el Servicio de atención al cliente para configurar un bucket de Amazon S3 para su instancia beta. Obtenga más información sobre las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el Entorno Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Las credenciales del entorno de producción son válidas para el entorno beta. |
 | API | `https://api-beta.demdex.com/...` | Las credenciales del entorno de producción son válidas para el entorno beta. Le recomendamos que cree un usuario de API genérico, [consulte los detalles](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Acceso al DCS en el Entorno Beta {#access-dcs-beta-environment}
 
-1. Realice una llamada de DCS mediante el [comando](https://curl.haxx.se/docs/manpage.html)curl. Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
+1. Realice una llamada de DCS utilizando el comando curl [](https://curl.haxx.se/docs/manpage.html). Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
 
    Por ejemplo:
 
