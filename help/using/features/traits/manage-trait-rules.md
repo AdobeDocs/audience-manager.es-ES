@@ -1,6 +1,6 @@
 ---
-description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
-seo-description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio > 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
+description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio &gt; 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
+seo-description: En el Generador de características, el Generador de Expresiones permite crear y probar reglas que establecen requisitos de cualificación de audiencias. Las reglas constan de pares de clave-valor como "color == azul" o "precio &gt; 100". Los operadores de comparación establecen la relación entre las claves y los valores. Las expresiones booleanas determinan la relación entre los grupos de reglas.
 seo-title: Administración de normas de rasgos
 solution: Audience Manager
 title: Administración de normas de rasgos
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
