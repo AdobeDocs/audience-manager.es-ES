@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 65%
+source-wordcount: '968'
+ht-degree: 60%
 
 ---
 
@@ -113,6 +113,15 @@ Sí. Como el algoritmo se forma a diario, aplica los cambios para cada una de la
 Sí, puede ver todos los rasgos influyentes de todas las líneas de base en la página de creación de informes del modelo. Consulte [Rasgos influyentes](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
 
  
+
+**¿Puedo cambiar el tiempo de vida (TTL) para los rasgos predictivos?**
+
+TTL de característica predictiva se establece en 0 (duración) y no se puede cambiar. [!UICONTROL Predictive Audiences] solo puede dessegmentar a los usuarios de segmentos predictivos cuando cumplen los requisitos para el segmento base o se les reclasifica en otro segmento predictivo.
+
+Si es necesario, puede solucionar esta funcionalidad creando un nuevo segmento que contenga tanto una característica predictiva como una característica de actividad con un TTL especificado.
+
+ 
+
 
 **¿Qué le ocurre al modelo si edito uno de sus rasgos o segmentos de línea de base?**
 
