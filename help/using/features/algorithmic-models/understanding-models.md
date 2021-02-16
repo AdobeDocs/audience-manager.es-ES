@@ -1,6 +1,6 @@
 ---
 description: Cree y administre las características o segmentos utilizados en el modelado similar.
-keywords: relative weight, lookalike
+keywords: peso relativo, similar
 seo-description: Cree y administre las características o segmentos utilizados en el modelado similar.
 seo-title: Acerca del modelado similar a la apariencia
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1593'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Para generar una línea base, [!UICONTROL TraitWeight] mide todos los [!UICONTRO
 
 ### Paso 2: Busque Igual [!UICONTROL Traits] en el [!UICONTROL Data Source]
 
-Después de crear una línea de base para la comparación, el algoritmo busca [!UICONTROL traits] idéntico en el [!UICONTROL data sources] seleccionado. En este paso, [!UICONTROL TraitWeight] realiza un recuento de frecuencia de todos los [!UICONTROL traits] detectados y los compara con la línea base. Sin embargo, a diferencia de la línea base, los poco comunes [!UICONTROL traits] se clasifican más que los que aparecen con más frecuencia. Se dice que [!UICONTROL traits] raros muestran un alto grado de especificidad. [!UICONTROL TraitWeight] evalúa las combinaciones de línea base común  [!UICONTROL traits] y poco frecuentes (muy específicas)  [!UICONTROL data source] [!UICONTROL traits] como más influyentes o deseables que  [!UICONTROL traits] comunes a ambos conjuntos de datos. De hecho, nuestro modelo reconoce estas [!UICONTROL traits] grandes y comunes y no asigna prioridad excesiva a los conjuntos de datos con correlaciones altas. Las [!UICONTROL traits] raras obtienen mayor prioridad porque es más probable que representen a usuarios nuevos y únicos que [!UICONTROL traits] con una gran comunidad en todos los ámbitos.
+Después de crear una línea de base para la comparación, el algoritmo busca [!UICONTROL traits] idénticos en el [!UICONTROL data sources] seleccionado. En este paso, [!UICONTROL TraitWeight] realiza un recuento de frecuencia de todos los [!UICONTROL traits] detectados y los compara con la línea base. Sin embargo, a diferencia de la línea base, los poco comunes [!UICONTROL traits] se clasifican más que los que aparecen con más frecuencia. Se dice que [!UICONTROL traits] raros muestran un alto grado de especificidad. [!UICONTROL TraitWeight] evalúa las combinaciones de línea base común  [!UICONTROL traits] y poco frecuentes (muy específicas)  [!UICONTROL data source] [!UICONTROL traits] como más influyentes o deseables que  [!UICONTROL traits] comunes a ambos conjuntos de datos. De hecho, nuestro modelo reconoce estas [!UICONTROL traits] grandes y comunes y no asigna prioridad excesiva a los conjuntos de datos con correlaciones altas. Las [!UICONTROL traits] raras obtienen mayor prioridad porque es más probable que representen a usuarios nuevos y únicos que [!UICONTROL traits] con una gran comunidad en todos los ámbitos.
 
 ### Paso 3: Asignar Peso
 
