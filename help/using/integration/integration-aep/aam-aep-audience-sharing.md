@@ -4,12 +4,12 @@ seo-description: Este artículo describe cómo se comparten las audiencias entre
 seo-title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform
 solution: Audience Manager
 title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: Uso compartido de audiencias AEP, segmentos AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, uso compartido de segmentos
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,7 @@ Audience Manager actualiza los números de sistema de informes en la interfaz un
 
 ### Composición de segmentos en el Experience Platform
 
-La integración entre Adobe Experience Platform y Audience Manager comparte una serie de [Áreas de nombres de identidad estándar](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), ID de AdCloud, etc. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en los rasgos y segmentos del Audience Manager.
+La integración entre Adobe Experience Platform y Audience Manager comparte una serie de [Áreas de nombres de identidad estándar](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), ID de AdCloud. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en los rasgos y segmentos del Audience Manager.
 
 Además, el Audience Manager puede registrar las realizaciones entrantes para cualquier Área de nombres de identidad personalizada que utilice en los segmentos de Experience Platform si:
 * la identidad se marca como principal *y*
