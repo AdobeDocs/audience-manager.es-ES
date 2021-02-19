@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Migración de usuarios Audience Manager a Admin Console
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 2e01abab2616daccd7581cdaa18417650951d139
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Los beneficios de utilizar [!DNL Admin Console] incluyen:
 |---|---|
 | Inicio de sesión único en varias soluciones | [!DNL Audience Manager] los usuarios pueden iniciar sesión en  [!DNL Experience Cloud] y en todas las demás soluciones con sus  [!DNL Adobe ID] o  [!DNL Enterprise ID]. Este inicio de sesión permite el acceso a soluciones integradas y servicios principales en [!DNL Experience Cloud]. Después de la migración, los usuarios que intenten iniciar sesión mediante inicios de sesión heredados (`bank.demdex.com`) se redirigirán a `experiencecloud.adobe.com`. |
 | Administrar usuarios y grupos | Una vez completada la migración, [!DNL Audience Manager] los administradores administrarán usuarios y grupos exclusivamente en [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Administrar productos y servicios | Desde [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), los administradores pueden: <ul><li>Crear, actualizar y eliminar usuarios</li><li>Conceder acceso a soluciones y servicios</li><li>Conceder permisos de usuario</li></ul> |
+| Administrar productos y servicios | Desde [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), los administradores pueden: <ul><li>Crear, actualizar y eliminar usuarios</li><li>Conceder acceso a soluciones y servicios</li></ul> |
 
 Para facilitar la migración de usuarios, pedimos a todos los [!DNL Audience Manager] administradores que tengan el inicio de migrar sus cuentas de usuario a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) lo antes posible, siguiendo los pasos descritos en este artículo.
 
@@ -48,6 +48,6 @@ Los administradores de Audience Manager deben seguir los pasos a continuación p
 
 Tanto los usuarios como los administradores deben tener en cuenta las siguientes consideraciones para la migración de usuarios Audience Manager:
 
-* Una vez creadas las cuentas de usuario nuevas en Admin Console, los permisos existentes de sus cuentas de usuario heredadas se transferirán automáticamente. No es necesario que los administradores asignen nuevos permisos en [!DNL Admin Console].
-* Los administradores no necesitan deshabilitar las cuentas de usuario heredadas. Las cuentas de usuario antiguas se combinarán automáticamente en las migradas.
+* Una vez creadas las cuentas de usuario nuevas en Admin Console, se seguirán aplicando los permisos existentes de sus cuentas de usuario heredadas.
 * Las actualizaciones de los permisos de usuario se seguirán administrando desde [!DNL Audience Manager]. El [!DNL Admin Console] sólo cubre la administración de usuarios y grupos.
+* Los administradores no necesitan deshabilitar las cuentas de usuario heredadas. Las cuentas de usuario antiguas se combinarán automáticamente en las migradas.
