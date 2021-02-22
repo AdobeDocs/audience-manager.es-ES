@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 'Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión'
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Supongamos que desea hacer coincidir los [DPUUID](../../reference/ids-in-aam.md)
 
  
 
-Puede vincular hasta 10 direcciones de correo electrónico con hash a un solo [DPUUID](../../reference/ids-in-aam.md). Para ello, separe las direcciones de correo electrónico con hash con una coma dentro del archivo de sincronización.
+Puede vincular hasta 10 direcciones de correo electrónico con hash a un solo [DPUUID](../../reference/ids-in-aam.md). Para ello, separe las direcciones de correo electrónico con hash con un `<TAB>`, dentro del archivo de sincronización.
 
 En nuestro ejemplo, ahora tendría dos fuentes de datos.
 
@@ -146,7 +146,7 @@ Para crear nuevos segmentos de audiencia, utilice el [Generador de segmentos](..
 1. Utilice el menú desplegable **[!UICONTROL People-Based Platform]** para seleccionar la plataforma con la que desea configurar la integración.
    ![plataforma basada en las personas](assets/pbd-add.png)
 1. Haga clic en **[!UICONTROL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
-1. Una vez que se haya autenticado en la cuenta de la plataforma social, se le redirigirá al Audience Manager, donde debería ver las cuentas del anunciante asociado. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!UICONTROL Confirm]**.
+1. Una vez que se haya autenticado en la cuenta de la plataforma social, se le redirigirá al Audience Manager, donde debería ver las cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!UICONTROL Confirm]**.
 1. Audience Manager muestra una notificación en la parte superior de la página para informarle de si la cuenta se agregó correctamente. La notificación también le permite agregar una dirección de correo electrónico de contacto para recibir notificaciones cuando la autenticación de la plataforma social esté a punto de caducar.
 
 >[!IMPORTANT]
