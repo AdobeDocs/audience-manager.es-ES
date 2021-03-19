@@ -5,12 +5,12 @@ seo-title: Información general sobre la privacidad de datos
 solution: Audience Manager
 title: Información general sobre la privacidad de datos
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: administración de datos y privacidad
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 78%
+source-wordcount: '489'
+ht-degree: 77%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 78%
 
 ## Información general
 
-La documentación de privacidad de datos describe [!DNL Audience Manager] la integración y el cumplimiento de las mejores prácticas generalmente aceptadas relacionadas con los procedimientos de privacidad del consumidor y exclusión.
+La documentación de privacidad de datos describe la integración de [!DNL Audience Manager] y el cumplimiento de las prácticas recomendadas generalmente aceptadas relacionadas con los procedimientos de privacidad del consumidor y exclusión.
 
 [!DNL Audience Manager] reconoce la importancia de la relación que existe entre los consumidores y las marcas en línea con las que interactúan. Ambas partes se benefician del intercambio transparente de elementos de datos seudónimos:
 
 * Los consumidores reciben un contenido personalizado, ofertas de productos con descuento y experiencias de usuario optimizadas.
 * Las marcas reciben flujos de ingresos fundamentales, compatibles con diversos modelos de comercio en línea.
 
-En nuestro continuo apoyo a este modelo, [!DNL Audience Manager] sigue comprometido a proporcionarle las herramientas para ayudar a respaldar su capacidad de proporcionar transparencia y control a sus consumidores, mientras entrega publicidades personalizadas sujetas a los [Principios de autorregulación de la publicidad en línea de comportamiento (OBA)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+Como parte de nuestro continuo respaldo a este modelo, [!DNL Audience Manager] sigue comprometido a proporcionarle las herramientas que le ayudarán a respaldar su capacidad de proporcionar transparencia y control a sus consumidores, a la vez que envía anuncios personalizados sujetos a los [principios de autorregulación de la publicidad en línea basada en el comportamiento (OBA)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
-El [Reglamento General de Protección de Datos (RGPD)](https://eugdpr.org/) incluyó nuevos derechos sobre privacidad de datos para los miembros de la Unión Europea, como el **derecho de acceso** y el **derecho al olvido**. Esto significa que cualquier [!DNL EU] ciudadano cuyos datos personales hayan sido recopilados por su empresa puede solicitar el acceso a sus datos o eliminarlos en cualquier momento. El incumplimiento de estas solicitudes puede resultar en multas de varios millones de dólares para su organización.
+El [Reglamento General de Protección de Datos (RGPD)](https://gdpr.eu/data-privacy/) incluyó nuevos derechos sobre privacidad de datos para los miembros de la Unión Europea, como el **derecho de acceso** y el **derecho al olvido**. Esto significa que cualquier [!DNL EU] ciudadano cuyos datos personales haya recopilado su empresa puede solicitar acceder a sus datos o eliminarlos en cualquier momento. El incumplimiento de estas solicitudes puede resultar en multas de varios millones de dólares para su organización.
 
-Para cumplir con [!DNL GDPR], [!DNL Audience Manager] admite acceso a datos y elimina [solicitudes](data-privacy-requests.md).
+Para cumplir con [!DNL GDPR], [!DNL Audience Manager] admite las [solicitudes](data-privacy-requests.md) de acceso y eliminación de datos.
 
 ## [!DNL CCPA] {#ccpa}
 
 La [Ley de Privacidad del Consumidor de California (CCPA)](https://www.caprivacy.org/about), que entró en vigor el 1 de enero de 2020, otorga a los residentes de California nuevos derechos con respecto a su información personal e impone obligaciones de protección de datos a ciertas entidades que llevan a cabo actividades comerciales en California.
 
-[!DNL CCPA]La concede nuevos derechos de privacidad de datos a los residentes de California, como el derecho a acceder y eliminar datos personales y a saber si estos son vendidos o revelados (y a quién). Para cumplir con [!DNL CCPA], [!DNL Audience Manager] soporta [!DNL CCPA] acceso y elimina [solicitudes](data-privacy-requests.md).
+[!DNL CCPA]La concede nuevos derechos de privacidad de datos a los residentes de California, como el derecho a acceder y eliminar datos personales y a saber si estos son vendidos o revelados (y a quién). Para cumplir con [!DNL CCPA], [!DNL Audience Manager] admite [!DNL CCPA] solicitudes de acceso y eliminación [](data-privacy-requests.md).
 
 Consulte el [Centro de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para obtener más información.
 
