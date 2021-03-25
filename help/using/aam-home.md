@@ -7,7 +7,7 @@ title: Guía de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: sobre validación
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: 191e2b0c5d511853273d0ebf7d6f0a965c4fc3fc
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 96%
@@ -77,15 +77,15 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
    <td colname="col1"> <p><b>Documentación conceptual importante</b></p>
    <p>Lea las páginas siguientes para conocer mejor los conceptos de Audience Manager: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Información general sobre Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Señales, rasgos y segmentos</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glosario</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Índice de ID</a></li></ul></p>
-   <br> 
-   <p><b>Implementación de Audience Manager</b></p>
+
+<p><b>Implementación de Audience Manager</b></p>
    <p> Comience la implementación de Audience Manager leyendo las páginas siguientes:
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">Métodos de integración de datos</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">Guía de implementación</a></li>
      </ul> </p>
-     <br> 
-   <p> <b>Guías de aplicación técnica</b> </p> <p>Empiece con las API de Audience Manager y configure Audience Manager en la aplicación:</p> <p> 
+
+<p> <b>Guías de aplicación técnica</b> </p> <p>Empiece con las API de Audience Manager y configure Audience Manager en la aplicación:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introducción a las API de REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introducción a la API de DCS</a></li>
@@ -151,7 +151,6 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
   <tr> 
    <td> <p> <b>Notas de la versión</b> </p> <p> 
      Consulte las últimas <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones.</p> 
-     <br> 
      <p> <b>Últimas funciones</b> </p> <p> 
      Obtenga información sobre las últimas funciones de Audience Manager:</p>
      <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migración de usuarios Audience Manager a Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Coincidencia de clientes de Google para destinos basados en personas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Informes de uso de actividades</a></li>
@@ -199,7 +198,6 @@ Read about the latest Audience Manager features:
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/es/support/experience-cloud.html" scope="external" format="https">Página de inicio de documentación del producto de Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/es/support/audience-manager.html" format="https" scope="external">Asistencia y aprendizaje de Audience Manager</a> </li> 
      </ul> </p> 
-     <br> 
      <p>Consulte también las <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/documentation-updates/docs-2021.html"> Actualizaciones de documentación de 2021</a>. </p> </td>
   </tr> 
  </tbody> 
