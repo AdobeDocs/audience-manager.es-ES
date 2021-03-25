@@ -5,12 +5,12 @@ seo-title: Glosario
 solution: Audience Manager
 title: Glosario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: reference
+feature: referencia
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,6 @@ Use [!UICONTROL Algorithmic Modeling] como medio para extender el alcance más a
 
 Consulte [Explicación de los modelos algorítmicos](../features/algorithmic-models/algo-models-overview.md).
 
-<br> 
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. Las [!UICONTROL Bulk Management Tools] en [!DNL Audience Manager] son un conjunto de herramientas basadas en Microsoft Excel que permiten crear, modificar o eliminar varios objetos a la vez con una sola operación. Puede trabajar con fuentes de datos, señales derivadas, destinos, carpetas, segmentos y rasgos. La funcionalidad utiliza una hoja de cálculo de Microsoft Excel con macros que realizan llamadas seguras y autenticadas a las API de [!DNL Audience Manager].
@@ -43,15 +41,13 @@ Consulte [Herramientas de administración masiva](../reference/bulk-management-t
 
 Consulte [Fuentes de datos por cliente](../features/cdf-files.md).
 
-<br> 
-
 **ID de CRM**
 
 El ID de CRM es el ID mediante el cual los clientes identifican a los usuarios en su propio sistema CRM. En lugar del ID de CRM, se utiliza el término DPUUID en Audience Manager.
 
 Consulte DPUUID en el [índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Audiencia a la que se puede dirigir el cliente**
 
@@ -60,25 +56,25 @@ En la [Audiencia a la que se puede dirigir](/help/using/features/addressable-aud
    **Y**
 * Tienen una sincronización de ID con el destino elegido independientemente del tiempo de sincronización.
 
-<br> 
+
 
 **Atributos del cliente**
 
 Consulte [Atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la documentación del producto de [!DNL Experience Cloud Core Services]
 
-<br> 
+
 
 **Tasa de coincidencia del cliente**
 
 Audiencia a la que se puede dirigir el cliente ÷ Audiencia total del cliente expresada como porcentaje. Consulte [Audiencia a la que se puede dirigir](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Audiencia total del cliente**
 
 En la [Audiencia a la que se puede dirigir](/help/using/features/addressable-audiences.md), esta métrica representa un recuento de dispositivos que cuentan con un rasgo basado en reglas en sus propiedades o un rasgo incorporado de los archivos sin conexión durante la ventana retroactiva.
 
-<br> 
+
 
 **demdex.net**
 
@@ -86,7 +82,7 @@ Demdex.net es un dominio heredado controlado por [!DNL Adobe]. Refleja el nombre
 
 Consulte [Explicación de las llamadas al dominio Demdex](../reference/demdex-calls.md).
 
-<br> 
+
 
 **DAID**
 
@@ -94,19 +90,19 @@ Consulte [Explicación de las llamadas al dominio Demdex](../reference/demdex-ca
 
 Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Destino**
 
 En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) con el que se desea compartir datos. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de envío de datos. Las funcionalidades de destinos de [!DNL Audience Manager] se encuentran en **[!UICONTROL Audience Data > Destinations]**.
 
-<br> 
+
 
 **DIL**
 
 La [!UICONTROL Data Integration Library] es una biblioteca de API que utiliza [!DNL Audience Manager] para recopilar datos de interacción del usuario. Consulte [API de Data Integration Library (DIL)](../dil/dil-overview.md).
 
-<br> 
+
 
 **dpm**
 
@@ -118,7 +114,7 @@ La [!UICONTROL Data Integration Library] es una biblioteca de API que utiliza [!
 
 Anteriormente conocido como [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el [servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html).
 
-<br> 
+
 
 **Rasgos de carpeta**
 
@@ -126,7 +122,7 @@ Agrupación automática de rasgos dentro de la taxonomía de carpetas. Cada carp
 
 Consulte [Acerca de los rasgos de carpeta](../features/traits/about-folder-traits.md).
 
-<br> 
+
 
 **Restricción de frecuencia**
 
@@ -140,7 +136,7 @@ Consulte [Actualización y frecuencia](../features/segments/recency-and-frequenc
 
 Google Advertising ID, el ID de dispositivo exclusivo que Google asigna a los dispositivos de hardware que ejecutan el sistema operativo Android. Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **GUID**
 
@@ -153,13 +149,13 @@ Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
 Identificador para anunciantes, el ID de dispositivo único que Apple asigna a sus productos. Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Entrante**
 
 Proceso mediante el cual se pueden enviar datos de audiencia de otras fuentes a [!DNL Audience Manager]. Consulte [Envío de datos de audiencia](/help/using/integration/sending-audience-data/send-audience-data.md).
 
-<br> 
+
 
 **Código de integración**
 
@@ -189,13 +185,13 @@ Consulte [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 Consulte [Componentes de recopilación de datos](../reference/system-components/components-data-collection.md).
 
-<br> 
+
 
 **Vínculo de perfil**
 
 Consulte [Opciones definidas de reglas de combinación de perfiles](../features/profile-merge-rules/merge-rule-definitions.md).
 
-<br> 
+
 
 **Reglas de combinación de perfiles**
 
@@ -217,25 +213,25 @@ Un segmento (o audiencia) es un conjunto de usuarios que comparten atributos sim
 
 Consulte [Segmentos: Finalidad, composición y reglas](../features/segments/segments-purpose.md).
 
-<br> 
+
 
 **Audiencia a la que se puede dirigir el segmento**
 
 En la [Audiencia a la que se puede dirigir](/help/using/features/addressable-audiences.md), esta métrica representa el número de usuarios que han pertenecido al segmento durante el período retrospectivo del informe y que tienen una sincronización de ID activa en el sitio. Los segmentos pueden incluir sus propios datos de origen y de terceros, a través de los rasgos adquiridos en [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-<br> 
+
 
 **Población total del segmento**
 
 En [Audiencias a las que se puede dirigir](/help/using/features/addressable-audiences.md), esta métrica representa un recuento de todos los dispositivos que fueron miembros de su segmento durante el período retrospectivo del informe.
 
-<br> 
+
 
 **Tasa de coincidencia de segmentos**
 
 Audiencia a la que se puede dirigir el segmento ÷ Población total del segmento expresada como porcentaje. Consulte [Audiencia a la que se puede dirigir](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Señal**
 
@@ -243,13 +239,13 @@ Las señales son las unidades de datos más pequeñas de [!DNL Audience Manager]
 
 Consulte [Señales, rasgos y segmentos](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Rasgo**
 
 Un rasgo es una combinación de una o más señales. Consulte [Señales, rasgos y segmentos](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Población de rasgos**
 
@@ -259,7 +255,7 @@ Consulte [Datos de tamaño de segmentos y rasgos en el Generador de segmentos](.
 
 TTL define cuántos días permanece un visitante clasificado en un rasgo. El TTL se establece en rasgos y no en segmentos. Los visitantes salen de un segmento si no se clasifican para un rasgo del final del TTL. Obtenga más información en [Explicación del TTL de segmentos y rasgos](/help/using/features/traits/segment-ttl-explained.md).
 
-<br> 
+
 
 ## U-V {#u-v}
 
@@ -267,7 +263,7 @@ TTL define cuántos días permanece un visitante clasificado en un rasgo. El TTL
 
 [!DNL Audience Manager] ID de usuario único. Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **ID de visitante**
 
