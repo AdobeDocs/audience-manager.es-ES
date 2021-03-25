@@ -5,11 +5,11 @@ seo-title: Documentación técnica del producto de Adobe Audience Manager
 solution: Audience Manager
 title: Guía de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: sobre validación
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -32,8 +32,6 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
 * Seguidamente, lea la **Introducción a Audience Manager** para familiarizarse con los conceptos de Audience Manager. Revise también las guías de ejecución técnica y comercial.
 * Consulte las últimas notas de la versión de Audience Manager y lea las últimas funciones en la sección Notas de la sección **Notas de la versión y Últimas funciones**.
 * Por último, puede explorar más recursos de Experience Cloud, como foros, videotutoriales, cursos de formación presencial y en línea en la sección **Centro de formación: Recursos recomendados de Audience Manager Experience Cloud**.
-
-<br> 
 
 ## Función principal de Audience Manager
 
@@ -70,8 +68,6 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
    </td>
 </table>
 
-
-<br> 
 
 ## Introducción a Audience Manager
 
@@ -148,8 +144,6 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
 
 -->
 
-<br> 
-
 ## Notas de la versión y últimas funciones
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## Centro de aprendizaje: Recursos recomendados de Audience Manager y Experience Cloud
 
