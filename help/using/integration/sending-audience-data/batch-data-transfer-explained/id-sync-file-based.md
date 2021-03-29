@@ -7,9 +7,9 @@ title: Requisitos de nomenclatura y contenido para archivos de sincronización d
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Transferencias de datos de entrada
 translation-type: tm+mt
-source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -130,8 +130,6 @@ Dados el nombre y el contenido de la muestra, los ID se asignan de esta manera:
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-{style=&quot;table-layout:auto&quot;}
-
 Paso 1: el proceso de sincronización de ID sincronizará [!DNL DPUUID]s desde [!DNL DPID] 12345 con [!DNL Audience Manager] [!DNL UUID]s en la columna izquierda. Tenga en cuenta que [!DNL DPID] &quot;0&quot; en el nombre del archivo representa [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
@@ -144,8 +142,6 @@ Paso 1: el proceso de sincronización de ID sincronizará [!DNL DPUUID]s desde [
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
-
-{style=&quot;table-layout:auto&quot;}
 
 Paso 2: los [!DNL DPUUID]s de [!DNL DPID] 12345 se han sincronizado en el paso 1 con el Audience Manager [!DNL UUID]s. Lo que hará esta sincronización de ID es sincronizar los [!DNL DPUUID]s desde [!DNL DPID] 67890 con el Audience Manager [!DNL UUID]s desde el paso 1.
 
