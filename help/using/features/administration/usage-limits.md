@@ -8,9 +8,9 @@ keywords: Asignación de ID, asignaciones de ID, asignaciones de cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Uso y facturación
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ En las tablas se enumeran los límites actuales por tipo de elemento. No puede c
 | Incorporado | 100.000 |
 | Características de carpeta | 2.000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### Límites de segmentos
 
 | Tipo de segmento | Límite máximo |
@@ -72,8 +70,6 @@ En las tablas se enumeran los límites actuales por tipo de elemento. No puede c
 | Número máximo de rasgos excluidos para un [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusión de características en el modelado algorítmico](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Máximo [!UICONTROL Predictive Audiences Models] | 10 |
 | Número máximo de personalidades de línea de base para [!UICONTROL Predictive Audiences Models] | 50 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### Límites de carpetas
 
