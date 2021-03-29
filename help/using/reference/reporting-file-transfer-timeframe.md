@@ -7,9 +7,9 @@ title: Cómo afecta el envío de datos y los tiempos de procesamiento de archivo
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: referencia
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -44,8 +44,6 @@ En la tabla siguiente se enumeran y describen los intervalos de tiempo en nuestr
 | Ingesta de archivos entrantes (datos sin conexión) | El procesamiento de archivos se ejecuta dos veces al día. Estos procedimientos incorporan datos y los preparan para su envío. Los tiempos de entrega de los archivos varían porque se ven afectados por la cantidad total de datos de clientes que deben procesarse. Se espera una latencia máxima de 48 horas entre el momento en que se carga el archivo en el Audience Manager y hasta que los datos estén disponibles para la creación de informes y la activación. |
 | Archivos salientes (exportar) | El procesamiento y la entrega de archivos se realizan una vez al día, aproximadamente a las 14:00 UTC. Tenga en cuenta que el procesamiento y la entrega se ven afectados por el número total y el tamaño de estos archivos. En algunos casos, puede haber un retraso en el procesamiento de archivos de hasta 24 horas. Cuando esto sucede, el Audience Manager envía 2 archivos para un día en particular en lugar de 1. Notificaremos a nuestros clientes en el improbable caso de que el Audience Manager tenga que dejar de procesar un archivo por completo. Dadas estas condiciones, es difícil estimar los tiempos de envío de los datos salientes. Para determinar si ha recibido un conjunto completo de archivos, compruebe la marca de tiempo y busque los días que faltan. Es una marca de tiempo UNIX UTC de 13 dígitos que registra la hora en que se creó el archivo. Consulte [Transferencias de datos salientes en tiempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Archivos de registro del servidor de publicidad | El procesamiento de archivos se ejecuta casi en tiempo real para ingerir registros de archivos de registro cuando los archivos por hora están listos. El proceso para preparar los archivos para la creación de informes se ejecuta una vez al día. Los tiempos de entrega de los archivos varían porque se ven afectados por la cantidad total de datos de clientes que deben procesarse. Se espera una latencia máxima de 48 horas entre el momento en que se carga el archivo al Audience Manager y el momento en que los datos están disponibles para la creación de informes y la activación. |
-
-{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
