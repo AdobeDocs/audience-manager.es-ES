@@ -1,8 +1,8 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Audience Manager
-type: Documentation
-solution-title: Información y asistencia
+type: Documentación
+solution-title: Aprendizaje y asistencia
 solution-hub-url: https://helpx.adobe.com/es/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
 getting-started-title: Introducción
@@ -12,24 +12,24 @@ tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tut
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.es-ES
 index: y
 translation-type: tm+mt
-source-git-commit: 0d560abc1e51e0e44ec013b7ee133e0de2f4e5d1
+source-git-commit: 8ec80da4ec2110b1475a3872ff4c4f7f17b77870
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 12%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
 
 # Metadatos para uso interno
 
-El archivo metadata.md incluye metadatos de nivel de repos que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
+El archivo metadata.md incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
 
-| metadatos | lo que hace |
+| metadata | lo que hace |
 |--- |--- |
 | solution-title | Se utiliza en el encabezado del artículo como vínculo |
-| solution-hub-url | Abre la página del concentrador de ayuda |
+| solution-hub-url | Abre la página de concentrador de la ayuda |
 | solution-icon | Muestra el icono de la solución junto al título de la solución. No implementado aún |
-| getting-started-url | Vínculo a la página de introducción de ayuda |
+| getting-started-url | Vínculo a la página de introducción a la ayuda |
 | tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de ayuda o tutoriales de KT |
-| niveles de mini toc | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación de la repo principal para uso interno |
+| mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
+| git-repo | Especifica la ubicación de la cesión temporal maestra para uso interno |
