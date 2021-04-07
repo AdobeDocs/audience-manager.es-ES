@@ -3,48 +3,48 @@ description: Predictive Audiences le ayuda a clasificar en tiempo real audiencia
 seo-description: Predictive Audiences le ayuda a clasificar en tiempo real audiencias desconocidas como personalidades diferenciadas, mediante el uso de la ciencia de datos.
 seo-title: Sistema de informes de Predictive Audiences
 solution: Audience Manager
-title: Audience Manager Predictive Audiences
-feature: Algorithmic Models
+title: Sistema de informes de Predictive Audiences
+feature: Modelos algorítmicos
+exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 translation-type: tm+mt
-source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 6%
 
 ---
 
-
 # Sistema de informes de Predictive Audiences
 
-Después de guardar un modelo [!UICONTROL Predictive Audiences], los inicios del Audience Manager lo entrenan. En un par de horas, el modelo calculado analizará en inicio las audiencias en los [Servidores de recopilación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). El sistema de informes estará disponible al día siguiente.
+Después de guardar un modelo [!UICONTROL Predictive Audiences], el Audience Manager comienza a formarlo. En un par de horas, el modelo calculado empezará a analizar las audiencias en los [Servidores de recopilación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Los informes estarán disponibles al día siguiente.
 
-Para ver los resultados de la clasificación [!UICONTROL Predictive Audiences], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic en el modelo en la lista.
+Para ver los resultados de su clasificación [!UICONTROL Predictive Audiences], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic en su modelo en la lista.
 
 Utilice las opciones de filtrado del lado izquierdo para buscar el nombre del modelo o filtrar los resultados según el tipo de modelo.
 
-![predictive-audiencias-filter](assets/predictive-audiences-filter-models.png)
+![predictive-audiences-filter](assets/predictive-audiences-filter-models.png)
 
 La tabla de modelos muestra la siguiente información:
 
-* **[!UICONTROL ID]**:: el ID de modelo identifica de forma exclusiva cada modelo de la cuenta de Audience Manager;
-* **[!UICONTROL Name]**:: el nombre proporcionado en el paso de creación del modelo;
-* **[!UICONTROL Description]**:: la descripción proporcionada en el paso de creación del modelo;
-* **[!UICONTROL Model Type]**:: el tipo de cada modelo ([!UICONTROL Look-Alike Modeling] o  [!UICONTROL Predictive Audiences]);
-* **[!UICONTROL Status]**:: el estado de cada modelo:
-   * **[!UICONTROL Pending]**:: el modelo se está inicializando y dará inicios para producir resultados en breve;
-   * **[!UICONTROL Active]**:: el modelo se ejecuta correctamente y produce resultados;
-   * **[!UICONTROL Warning]**:: el modelo no produjo resultados debido a la insuficiencia de datos (es decir, una población de bases de referencia bajas, los perfiles de los usuarios no son ricos);
-   * **[!UICONTROL Error]**:: no se pudo ejecutar el modelo. Debe ponerse en contacto con su representante de Adobe.
+* **[!UICONTROL ID]**: el ID de modelo identifica de forma exclusiva cada modelo en su cuenta de Audience Manager;
+* **[!UICONTROL Name]**: el nombre proporcionado en el paso de creación del modelo;
+* **[!UICONTROL Description]**: la descripción proporcionada en el paso de creación del modelo;
+* **[!UICONTROL Model Type]**: el tipo de cada modelo ([!UICONTROL Look-Alike Modeling] o  [!UICONTROL Predictive Audiences]);
+* **[!UICONTROL Status]**: el estado de cada modelo:
+   * **[!UICONTROL Pending]**: el modelo se está inicializando y comenzará a producir resultados en breve;
+   * **[!UICONTROL Active]**: el modelo se ejecuta correctamente y produce resultados;
+   * **[!UICONTROL Warning]**: el modelo no produjo resultados debido a la falta de datos (es decir, la población de líneas de base bajas, los perfiles de usuario no son enriquecidos);
+   * **[!UICONTROL Error]**: no se pudo ejecutar el modelo. Debe ponerse en contacto con su representante del Adobe.
 
 ## Informe Información general de modelo{#model-report}
 
-Una vez que elija un modelo, se cargará su página de sistema de informes. En la parte superior de la página puede ver los 5 segmentos predictivos más grandes, basados en la realización en tiempo real de 1 día, por los que el modelo ha clasificado la audiencia de destinatarios. La categoría **[!UICONTROL Other]** incluye el resto de las personas, que no se incluyeron en los 5 segmentos predictivos más grandes.
+Una vez que elija un modelo, se cargará su página de informes. En la parte superior de la página puede ver los 5 segmentos predictivos más grandes, basados en la realización en tiempo real de 1 día, por los que el modelo ha clasificado a la audiencia de destino. La categoría **[!UICONTROL Other]** incluye el resto de las personalidades, que no se incluyeron en los 5 segmentos predictivos más grandes.
 
-Audience Manager muestra un gráfico circular con códigos de color y un gráfico de línea de tiempo para su [!UICONTROL Predictive Audiences].
+El Audience Manager muestra un gráfico circular con códigos de color y un gráfico de cronología para su [!UICONTROL Predictive Audiences].
 
-Al hacer clic en las fichas Personas en la parte superior de la página, éstas se agregan o eliminan del gráfico y el gráfico.
+Al hacer clic en las pestañas personalidades en la parte superior de la página, estas se añaden o eliminan del gráfico y el gráfico.
 
-El gráfico circular muestra un desglose por persona de la audiencia de destinatario, mientras que el gráfico muestra la tendencia de población en tiempo real de 1 día de los segmentos predictivos en los últimos 6 días.
+El gráfico circular muestra un desglose por persona de la audiencia de destino, mientras que el gráfico muestra la tendencia de población en tiempo real de 1 día de los segmentos predictivos durante los últimos 6 días.
 
 Si el estado del modelo es [!UICONTROL Pending], [!UICONTROL Warning] o [!UICONTROL Error], se muestra el estado del modelo en lugar de los gráficos.
 
@@ -52,29 +52,29 @@ Si el estado del modelo es [!UICONTROL Pending], [!UICONTROL Warning] o [!UICONT
 
 La tabla del informe muestra la siguiente información para cada segmento [!UICONTROL Predictive Audiences].
 
-1. **[!UICONTROL SEGMENT ID]**:: el ID de segmento del segmento creado automáticamente asociado a cada persona;
-1. **[!UICONTROL NAME]**:: el nombre de la persona;
-1. **[!UICONTROL STATUS]**:: estado del  [!UICONTROL Predictive Audiences] segmento:
-   * **[!UICONTROL Succeeded]**:: los usuarios se clasifican en este segmento;
-   * **[!UICONTROL Pending]**:: el segmento aún se está inicializando;
-   * **[!UICONTROL Insufficient Training Data]**:: los usuarios no se clasifican en este segmento debido a la falta de datos. La población basal total es demasiado baja y no proporciona datos suficientes para aprender.
-1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**:: Número de realizaciones de segmentos para cada persona, en las últimas 24 horas.
-1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**:: El porcentaje de realización de segmentos para cada persona, en las últimas 24 horas, de la población total de modelos.
+1. **[!UICONTROL SEGMENT ID]**: el ID de segmento del segmento creado automáticamente asociado a cada personalidad;
+1. **[!UICONTROL NAME]**: el nombre de la personalidad;
+1. **[!UICONTROL STATUS]**: el estado del  [!UICONTROL Predictive Audiences] segmento:
+   * **[!UICONTROL Succeeded]**: los usuarios se clasifican en este segmento;
+   * **[!UICONTROL Pending]**: el segmento aún se está inicializando;
+   * **[!UICONTROL Insufficient Training Data]**: los usuarios no se clasifican en este segmento debido a que no hay datos suficientes. La población inicial total es demasiado baja y no proporciona datos suficientes para aprender de ella.
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**: Número de realizaciones de segmentos para cada persona, en las últimas 24 horas.
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**: El porcentaje de realizaciones de segmentos para cada persona, en las últimas 24 horas, de la población total de modelos.
 
-## Características influyentes{#influential-traits}
+## Rasgos influyentes{#influential-traits}
 
-[!UICONTROL Influential Traits] Son características que el  [!UICONTROL Predictive Audiences] algoritmo descubrió que son los predictores más sólidos para determinar la clasificación personal de un visitante.
+[!UICONTROL Influential Traits] son características que el  [!UICONTROL Predictive Audiences] algoritmo descubrió que eran los predictores más potentes para determinar la clasificación de personalidad de un visitante.
 
-Su signo indica si la presencia de la característica aumenta (+) o disminuye(-) la probabilidad del usuario que pertenece a la persona seleccionada.
+Su signo indica si la presencia del rasgo aumenta (+) o disminuye (-) la probabilidad del usuario que pertenece al perfil seleccionado.
 
-Para vista de las características influyentes de todas las personas, haga clic en [!UICONTROL View All Influential Traits].
+Para ver los rasgos influyentes de todas las personalidades, haga clic en [!UICONTROL View All Influential Traits].
 
 La ventana [!UICONTROL Influential Traits] muestra la siguiente información para cada persona del modelo seleccionado:
 
-![características influyentes](assets/predictive-audiences-influential-traits.png)
+![rasgos influyentes](assets/predictive-audiences-influential-traits.png)
 
-1. **[!UICONTROL TRAIT ID]**:: la ID de característica de cada característica influyente de la persona seleccionada;
-1. **[!UICONTROL NAME]**:: el nombre de cada característica influyente de la persona seleccionada;
-1. **[!UICONTROL DESCRIPTION]**:: la descripción de cada característica influyente de la persona seleccionada;
-1. **[!UICONTROL WEIGHT]**:: el peso de cada característica influyente para la persona seleccionada. [!UICONTROL Influential Traits] se ordenan de forma predeterminada por pesos, en orden descendente.  El valor de los pesos indica su poder predictivo. El signo indica si la presencia de la característica aumenta (+) o disminuye(-) la probabilidad de pertenecer a una persona.
-1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**:: el número de realizaciones de características únicas para cada característica influyente de la persona seleccionada, en los últimos 30 días.
+1. **[!UICONTROL TRAIT ID]**: el ID de rasgo de cada rasgo influyente para la personalidad seleccionada;
+1. **[!UICONTROL NAME]**: el nombre de cada rasgo influyente para la personalidad seleccionada;
+1. **[!UICONTROL DESCRIPTION]**: la descripción de cada rasgo influyente para la personalidad seleccionada;
+1. **[!UICONTROL WEIGHT]**: el peso de cada rasgo influyente para el perfil seleccionado. [!UICONTROL Influential Traits] se ordenan de forma predeterminada por peso, en orden descendente.  El valor de los pesos indica su poder predictivo. El signo indica si la presencia del rasgo aumenta (+) o disminuye (-) la probabilidad de pertenecer a una personalidad.
+1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**: el número de realizaciones de características únicas para cada rasgo influyente para la personalidad seleccionada, durante los últimos 30 días.
