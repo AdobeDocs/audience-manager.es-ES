@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Audience Manager ofrece servicios líderes en el sector de la administración de datos de audiencias en línea.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [Sintaxis del código utilizada en el Editor de Expresiones de segmentos](features/segments/segment-code-syntax.md)
       + [Datos de tamaño de segmentos y rasgos en el Generador de segmentos](features/segments/segment-builder-data.md)
       + [Recomendaciones de rasgos](features/segments/trait-recommendations.md)
-      + [Referencia de cualificación de rasgos y segmentos](features/traits/trait-and-segment-qualification-reference.md)
+      + [Referencia de cualificación de rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Rasgos {#traits}
       + [Información general sobre rasgos](/help/using/features/traits/traits-overview.md)
       + [Página Detalles de rasgos](features/traits/trait-details-page.md)
@@ -182,7 +183,7 @@ ht-degree: 92%
       + [Informes de optimización de Audiencia](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Optimización de Audiencias para anunciantes {#audience-optimization-advertisers}
          + [Información general sobre la optimización de Audiencia para anunciantes](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importar archivos de datos de Google Campaña Manager en Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importar archivos de datos de Google Campaign Manager en el Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Informe de Rendimiento del segmento](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Informes de Análisis de tendencias y Análisis de volumen](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Informe de frecuencia óptima](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -191,7 +192,7 @@ ht-degree: 92%
          + [Conversión en diferentes canales](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Optimización de Audiencias para editores {#audience-optimization-publishers}
          + [Información general sobre la optimización de Audiencia para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en el Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Informe de Rendimiento del segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Informe de Tendencia del segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Rasgos principales no utilizados](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -239,7 +240,7 @@ ht-degree: 92%
          + [Información general sobre referencia de la API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos de API de DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de error DCS, mensajes y ejemplos](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Supervisión y Inclusión en la lista de bloqueados de ID](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Monitorización de ID y Inclusión en la lista de bloqueados](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [ID de región de DCS, ubicaciones y nombres de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formato de pares de clave-valor en llamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condiciones de carrera y gestión de errores](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -287,9 +288,9 @@ ht-degree: 92%
 + Guías de ejecución e integración {#implementation-integration-guides}
    + [Guías de ejecución e integración](integration/implementation-and-integration.md)
    + [Métodos de integración de datos](integration/data-integration-methods.md)
-   + Integrar Google Ad Manager con etiquetas de publicador de Google (GPT){#integrate-dfp-using-gpt}
-      + [Integración de Google Ad Manager con GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [Envío de segmentos al Administrador de publicidad de Google mediante GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Integrar Google Ad Manager con Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+      + [Información general sobre la integración de Google Ad Manager con GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [Envío de segmentos a Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Crear un destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificación de la llamada de API de setTargeting de GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código de Audience Manager para etiquetas de Publicador de Google](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -297,7 +298,7 @@ ht-degree: 92%
       + [Integración de WCA de Facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS como destino de Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX como destino de Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (anteriormente DFP) como destino Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (anteriormente DFP) como destino de Audience Manager](integration/aam-dfp.md)
       + [Envío de segmentos a una Lista de remarketing de Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Ejecución de Audience Manager](integration/implement-audience-manager.md)
    + Integración de datos de medios {#media-data-integration}
@@ -314,7 +315,7 @@ ht-degree: 92%
          + [Integración de OAuth 2.0 para transferencias salientes en tiempo real](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Transferencias de datos de salida por lotes {#batch-outbound-data-transfers}
          + [Información general sobre transferencias de datos de salida por lotes](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Configurar la integración de transferencia de datos por lotes](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
+         + [Configuración de la integración de transferencia de datos por lotes](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Nombre del archivo de datos de salida: sintaxis y ejemplos](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Archivos de transferencia y control para transferencias de archivos de registro](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macros de plantillas de salida](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
@@ -339,11 +340,11 @@ ht-degree: 92%
          + [Mensaje de muestra a los socios después del procesamiento entrante](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integraciones de socios personalizadas](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integración con Adobe Experience Platform {#integration-experience-platform}
-      + [Uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integración con otras soluciones de Experience Cloud {#integration-other-solutions}
-      + [Integrar Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integrar el Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Reenviar datos de Adobe Analytics a Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar un segmento de Adobe Analytics en el Experience Cloud (abre la documentación de Adobe Analytics)](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Publicación de un segmento de Adobe Analytics en el Experience Cloud (abre la documentación de Adobe Analytics)](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Integrar Audience Manager con Adobe Campaign (abre la documentación de Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referencia {#reference}
    + [Información general de referencia](reference/reference.md)
