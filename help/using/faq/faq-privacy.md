@@ -8,10 +8,10 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Administración de datos y privacidad
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
+source-git-commit: 04877a4a607457ad1ca179faec680df8118ff965
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 96%
+ht-degree: 83%
 
 ---
 
@@ -56,15 +56,15 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores back-end </p> </td> 
-   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword">Audience Manager</span> registra la actividad de los usuarios dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días más. </p> </td> 
+   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores Edge </p> </td> 
-   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword">Audience Manager</span> registra cualquier actividad de los usuarios dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días más. Si el usuario vuelve a estar activo después del período de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
+   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días. Si el usuario vuelve a estar activo después del ciclo de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros sin procesar </p> </td> 
-   <td colname="col2"> <p>60 días (se eliminan después de 60 días sin actividad). </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 días (eliminado después de 60 días sin actividad) </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros del servidor de publicidad </p> </td> 
