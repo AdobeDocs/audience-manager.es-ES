@@ -5,15 +5,15 @@ seo-title: Preguntas frecuentes sobre la privacidad y retención de datos
 solution: Audience Manager
 title: Preguntas frecuentes sobre la privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance and Privacy
+feature: Administración de datos y privacidad
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 96%
 
 ---
-
 
 # Preguntas frecuentes sobre la privacidad y retención de datos {#privacy-and-data-retention-faq}
 
@@ -64,7 +64,7 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros sin procesar </p> </td> 
-   <td colname="col2"> <p>180 días (se eliminan después de 180 días sin actividad). </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 días (se eliminan después de 60 días sin actividad). </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros del servidor de publicidad </p> </td> 
@@ -119,4 +119,3 @@ En la tabla siguiente se incluyen las opciones de retención para las clasificac
   </tr> 
  </tbody> 
 </table>
-
