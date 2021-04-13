@@ -5,15 +5,15 @@ seo-title: Cómo afecta el envío de datos y los tiempos de procesamiento de arc
 solution: Audience Manager
 title: Cómo afecta el envío de datos y los tiempos de procesamiento de archivos a los informes
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-feature: referencia
+feature: 'Referencia '
+exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 5%
 
 ---
-
 
 # Cómo afecta el envío de datos y los tiempos de procesamiento de archivos a los informes{#how-data-delivery-and-file-processing-times-affect-reports}
 
