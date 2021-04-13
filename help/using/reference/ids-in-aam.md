@@ -6,15 +6,15 @@ seo-title: Índice de ID en Audience Manager
 solution: Audience Manager
 title: Índice de ID en Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: referencia
+feature: 'Referencia '
+exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 translation-type: tm+mt
-source-git-commit: 30d18c32f519930703c46046b0c2a413b222c317
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 5%
 
 ---
-
 
 # Índice de ID en [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
@@ -44,7 +44,7 @@ Para comprender los prefijos utilizados en los ejemplos siguientes, consulte [At
 | [!DNL DPUUID] | [!UICONTROL Data Provider Unique User ID], también denominado  [!DNL CRM ID] o  [!UICONTROL Cross-Device ID]. Un ID de terceros. Este es el ID mediante el cual se identifican los usuarios finales en su propio sistema [!DNL CRM]. Puede sincronizar [!DNL DPUUIDs] con [!DNL Audience Manager] [!DNL UUIDs] y puede sincronizar [!DNL DPUUIDs] desde los diferentes [!UICONTROL Data Sources] ([!DNL DPIDs]) en el proceso de sincronización de ID. | En las llamadas [!DNL DCS], `dpuuid` va precedido del prefijo `d_`. <br> Ejemplo `d_dpuuid=2132-3423vn-343fds-3432r`. | Puede filtrar [!DNL traits] por [!UICONTROL Cross-Device ID] al crear [Modelos de similitud](../features/algorithmic-models/create-model.md) y [segmentos de creación](../features/segments/segment-builder.md). También puede filtrar los resultados por [!UICONTROL Cross-Device ID] al ejecutar [Informes generales para características](../reporting/general-reports.md) y [Informes de tendencias para características](../reporting/trend-reports.md). |
 | [!DNL CRM ID] | Consulte `DPUUID`. | Consulte `DPUUID`. | Consulte `DPUUID`. |
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID],  [!UICONTROL Customer ID Integration Code]. Los pares de clave-valor [!DNL CID] y [!DNL CID_IC] reemplazan a [!DNL DPID] y [!DNL DPUUID]. Proporcionan las mismas funciones que los [!DNL DPID] y [!DNL DPUUID], pero son más eficientes porque incluyen el ID del proveedor de datos y el ID de usuario (o código de integración) en un único par clave-valor. | En las llamadas [!DNL DCS] , estos ID van precedidos del prefijo `d_` . <br>Ejemplo: `d_cid_ic=39217_myIntegrationCode`. | Consulte `DPID` y `DPUUID`. |
-| [!DNL DAID] | [!UICONTROL Device Advertising ID]. Un ID exclusivo de cada dispositivo hardware y que se utiliza con propósitos publicitarios. Normalmente lo proporciona el fabricante del dispositivo o del sistema operativo del dispositivo. | Consulte [ID de dispositivo globales](#global-device-ids). |  |
+| [!DNL DAID] | [!UICONTROL Device Advertising ID]. Un ID único de cada dispositivo hardware y que se utiliza con propósitos publicitarios. Normalmente lo proporciona el fabricante del dispositivo o del sistema operativo del dispositivo. | Consulte [ID de dispositivo globales](#global-device-ids). |  |
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
