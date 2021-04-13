@@ -5,15 +5,15 @@ seo-title: Ejecución de Audience Manager
 solution: Audience Manager
 title: Ejecución de Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Integraciones de terceros
+feature: Integración de terceros
+exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 translation-type: tm+mt
-source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
-
 
 # Ejecución de Audience Manager {#implementing-audience-manager}
 
