@@ -4,15 +4,15 @@ seo-description: En torno al 14 de octubre de 2019, advertí que las poblaciones
 seo-title: ¿Por qué las poblaciones de rasgos integradas cayeron a 0 en torno al 15 de octubre?
 solution: Audience Manager
 title: ¿Por qué las poblaciones de rasgos integradas cayeron a 0 en torno al 15 de octubre?
-feature: support
+feature: Asistencia
+exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # ¿Por qué las poblaciones de rasgos integradas cayeron a 0 en torno al 15 de octubre? {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
 
