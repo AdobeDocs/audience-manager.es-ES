@@ -1,23 +1,23 @@
 ---
-description: Vista de la información del historial de trabajos por lotes salientes para un destino y período de tiempo especificados.
-seo-description: Vista de la información del historial de trabajos por lotes salientes para un destino y período de tiempo especificados.
+description: Ver información del historial de trabajos por lotes salientes para un período de tiempo y destino especificados.
+seo-description: Ver información del historial de trabajos por lotes salientes para un período de tiempo y destino especificados.
 seo-title: Historial de archivos de salida
 solution: Audience Manager
 title: Historial de archivos de salida
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: inbound and outbound reports
+feature: Informes entrantes y salientes
+exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 7%
 
 ---
 
-
 # Historial de archivos de salida {#outbound-file-history}
 
-Vista de la información del historial de trabajos por lotes salientes para un destino y período de tiempo especificados.
+Ver información del historial de trabajos por lotes salientes para un período de tiempo y destino especificados.
 
 <!-- 
 
@@ -27,12 +27,12 @@ t_reports_outbound_history.xml
 
 1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
-   ![Resultado del paso](assets/outbound_history.png)
+   ![Resultado de los pasos](assets/outbound_history.png)
 
-1. En el cuadro **[!UICONTROL Search for a Destination]**, escriba el inicio y seleccione el destino deseado.
-1. En el cuadro **[!UICONTROL Select a Date Range]**, especifique el inicio y las fechas de finalización del informe y, a continuación, haga clic en **[!UICONTROL Apply Date Filter]**.
+1. En el cuadro **[!UICONTROL Search for a Destination]**, empiece a escribir y seleccione el destino deseado.
+1. En el cuadro **[!UICONTROL Select a Date Range]**, especifique las fechas de inicio y finalización del informe y, a continuación, haga clic en **[!UICONTROL Apply Date Filter]**.
 
-   ![Resultado del paso](assets/outbound_history_stats.png)
+   ![Resultado de los pasos](assets/outbound_history_stats.png)
 
    La siguiente tabla contiene información correspondiente a las columnas del informe:
 
@@ -50,7 +50,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Correcto </td> 
-   <td colname="col2"> <p>Número de registros que se enviaron correctamente desde <span class="keyword"> Audience Manager</span> al destino. </p> </td> 
+   <td colname="col2"> <p>Número de registros que se enviaron correctamente del <span class="keyword"> Audience Manager</span> al destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Error </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos y que intentaron enviarse al destino. En la mayoría de los casos, debe ser el número total de archivos con éxito y de archivos con errores. </p> </td> 
+   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos e intentaron enviarlos al destino. En la mayoría de los casos, este debe ser el número total de archivos correctos y archivos con errores. </p> </td> 
   </tr> 
  </tbody> 
 </table>
