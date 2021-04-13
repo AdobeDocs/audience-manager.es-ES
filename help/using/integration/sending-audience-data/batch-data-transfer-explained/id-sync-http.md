@@ -5,41 +5,41 @@ seo-title: Sincronización de ID para transferencias de datos entrantes
 solution: Audience Manager
 title: Sincronización de ID para transferencias de datos entrantes
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: Inbound Data Transfers
+feature: Transferencias de datos de entrada
+exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 10%
 
 ---
 
-
 # Sincronización de ID para transferencias de datos entrantes {#id-synchronization-for-inbound-data-transfers}
 
-Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los ID de usuario entre un proveedor y [!DNL Audience Manager]. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a [!DNL Audience Manager].
+Describe la sintaxis y los parámetros utilizados en la llamada `HTTP` inicial para sincronizar los ID de usuario entre un proveedor y [!DNL Audience Manager]. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a [!DNL Audience Manager].
 
-La sincronización de ID es el primer paso en el proceso de transferencia de datos entrante y asincrónico. En este paso, [!DNL Audience Manager] y el proveedor comparan y coinciden los ID de sus respectivos visitantes del sitio. Por ejemplo, un cliente [!DNL Audience Manager] puede conocer a un usuario por ID 123. Sin embargo, su socio de datos podría identificar a este usuario con el ID 456. El proceso de sincronización permite a [!DNL Audience Manager] y a un proveedor de datos reconciliar estos distintos ID e identificar a los usuarios en sus respectivos sistemas. Una vez finalizado, [!DNL Audience Manager] y su socio de terceros deben tener ID correspondientes para cada usuario único que se vea en nuestras redes.
+La sincronización de ID es el primer paso en el proceso de transferencia de datos entrante y asincrónico. En este paso, [!DNL Audience Manager] y el proveedor comparan y hacen coincidir los ID de sus respectivos visitantes del sitio. Por ejemplo, un cliente [!DNL Audience Manager] puede conocer a un usuario mediante el ID 123. Sin embargo, su socio de datos podría identificar a este usuario con el ID 456. El proceso de sincronización permite a [!DNL Audience Manager] y a un proveedor de datos reconciliar estos distintos ID e identificar a los usuarios en sus respectivos sistemas. Una vez finalizado, [!DNL Audience Manager] y su socio de terceros deben tener los ID correspondientes para cada usuario único que se vea en nuestras redes.
 
-Puede utilizar los siguientes métodos para obtener los datos en [!DNL Audience Manager]:
+Puede utilizar los siguientes métodos para introducir sus datos en [!DNL Audience Manager]:
 
 * [Solicitud HTTP de sincronización de ID](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
 * [Evento de ID declarado](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
-* [Sincronización de ID a partir de una imagen incrustada por correo electrónico](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
+* [Sincronización de ID a partir de una imagen integrada de correo electrónico](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## Solicitud de sincronización de ID `HTTP` {#id-sync-http}
+## Solicitud `HTTP` de sincronización de ID {#id-sync-http}
 
-En un intercambio de ID, una cadena [!DNL URL] correctamente formateada debería tener este aspecto:
+En un intercambio de ID, una cadena [!DNL URL] con formato correcto debería tener este aspecto:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener variables que se describen en la tabla siguiente.
+El [!DNL URL] para la llamada de sincronización de ID de entrada debe contener variables que se describen en la tabla siguiente.
 
 >[!NOTE]
 >
->Reemplazar contenido en cursiva con valores de parámetro reales.
+>Reemplace el contenido en cursiva con valores de parámetro reales.
 
 <table id="table_EB9F4246E2A34ABB8ED06EA458EB186F"> 
  <thead> 
@@ -51,15 +51,15 @@ El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener va
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>ID única para el proveedor de contenido (asignado por <span class="keyword"> Audience Manager</span>). </p> </td> 
+   <td colname="col2"> <p>ID único para el proveedor de contenido (asignado por el Audience Manager <span class="keyword"></span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Representación codificada de URL (porcentaje) de su ID de usuario único. Además de codificar caracteres ASCII reservados, cualquier carácter que no sea ASCII debe estar codificado en porcentaje según la tabla de codificación de caracteres UTF-8. </p> <p>Para obtener más información, consulte el sitio web <a href="https://www.url-encode-decode.com" format="http" scope="external"> Codificar/descodificar en línea</a> de la dirección URL. </p> </td> 
+   <td colname="col2"> <p>Representación codificada de la URL (porcentaje) de su ID de usuario único. Además de codificar caracteres ASCII reservados, cualquier carácter que no sea ASCII debe estar codificado por porcentajes según la tabla de codificación de caracteres UTF-8. </p> <p>Para obtener más información, consulte el sitio web <a href="https://www.url-encode-decode.com" format="http" scope="external"> Codificar/descodificar en línea</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Redirección URL codificada con la macro <code> ${DD_UUID}</code> incrustada dentro de ella. </p> <p>Nota:  Solo se añade cuando el proveedor de contenido inicia la llamada. </p> </td> 
+   <td colname="col2"> <p>Un redireccionamiento de URL codificado con la macro <code> ${DD_UUID}</code> incrustada dentro de ella. </p> <p>Nota:  Se agrega solamente cuando el proveedor de contenido inicia la llamada . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
@@ -67,7 +67,7 @@ El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener va
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento GDPR con codificación URL base64 (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con  <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Opcional. Añada este parámetro si está utilizando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento RGPD con codificación URL base64 (consulte la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con  <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,9 +76,9 @@ El [!DNL URL] de la llamada de sincronización de ID de entrada debe contener va
 
 Para obtener más información, consulte [ID declarados](../../../features/declared-ids.md).
 
-## Sincronización de ID a partir de una imagen incrustada por correo electrónico {#id-sync-email-image}
+## Sincronización de ID a partir de una imagen integrada por correo electrónico {#id-sync-email-image}
 
-El formato para los ID coincidentes mediante una imagen de correo electrónico es el mismo que se muestra arriba. Sin embargo, tenga en cuenta que las imágenes de un correo electrónico deben estar activadas para que esto funcione. Esto puede afectar a la sincronización de ID por correo electrónico porque la mayoría de los sistemas de correo desactivan las imágenes de forma predeterminada.
+El formato para los ID coincidentes a través de una imagen de correo electrónico es el mismo que se muestra arriba. Sin embargo, tenga en cuenta que las imágenes de un correo electrónico deben estar habilitadas para que esto funcione. Esto puede afectar a la sincronización de ID por correo electrónico, ya que la mayoría de los sistemas de correo desactivan las imágenes de forma predeterminada.
 
 >[!MORELIKETHIS]
 >
