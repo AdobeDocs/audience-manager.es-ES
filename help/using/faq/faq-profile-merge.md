@@ -1,20 +1,20 @@
 ---
 description: Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
-keywords: Organization ID
+keywords: Identificador de organización
 seo-description: Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
 seo-title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos
 solution: Audience Manager
 title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge Rules
+feature: Combinación de perfiles
+exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1552'
 ht-degree: 86%
 
 ---
-
 
 # Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos {#profile-merge-rules-and-device-graph-faq}
 
@@ -260,18 +260,18 @@ Sí. La métrica de población total de segmentos incluye los dispositivos adici
 
 No.
 
-**¿Por qué veo una población de segmentos cero para las exportaciones de segmentos a Adobe Campaign después del 16 de marzo de 2020?**
+**¿Por qué veo una población de segmentos nula para las exportaciones de segmentos a Adobe Campaign después del 16 de marzo de 2020?**
 
-A finales de 2019, hemos lanzado una serie de mejoras en las reglas de combinación de Perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID de varios dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de Perfil.
+A finales de 2019, publicamos una serie de mejoras en las reglas de combinación de perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante un ID entre dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de perfiles.
 
 Para garantizar la integración correcta entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
-1. Revise la regla de combinación de Perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de Perfiles debe utilizar la opción [!UICONTROL Last Authenticated Profile], de modo que todos los perfiles autenticados se puedan incluir en las exportaciones. Si la regla de combinación de Perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
-2. Seleccione el origen de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de Perfiles.
+1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarado de Adobe Campaign . La regla de combinación de perfiles debe utilizar la opción [!UICONTROL Last Authenticated Profile], por lo que todos los perfiles autenticados se pueden incluir en las exportaciones. Si la regla de combinación de perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
+2. Seleccione la fuente de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de perfiles .
 
 >[!NOTE]
 >
-> Hemos aumentado el límite de reglas de combinación de Perfiles en 1 para los clientes que se enfrentan a esta situación, de modo que puede crear una regla de combinación de Perfiles dedicada para los segmentos asignados al destino de ID declarado de Adobe Campaign, sin cambiar las reglas de combinación de Perfiles para otros casos de uso.
+> Hemos aumentado el límite de reglas de combinación de perfiles en 1 para los clientes que se enfrentan a esta situación, de modo que puede crear una regla de combinación de perfiles dedicada para los segmentos asignados al destino de ID declarados de Adobe Campaign, sin cambiar las reglas de combinación de perfiles para otros casos de uso.
 
 >[!MORELIKETHIS]
 >
