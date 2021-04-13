@@ -1,27 +1,27 @@
 ---
-description: Las métricas de vínculos de perfil proporcionan datos sobre las personas y los dispositivos que se autentican en el sitio. Los datos y los gráficos de Vínculo de Perfil se actualizan dinámicamente al crear reglas de combinación o al hacer clic en una regla existente desde el panel Reglas de combinación de Perfiles. Estas métricas pueden incluir gráficos de dispositivos de Adobe Experience Cloud Device Co-op u otras fuentes de gráficos de dispositivos de terceros.
-seo-description: Las métricas de vínculos de perfil proporcionan datos sobre las personas y los dispositivos que se autentican en el sitio. Los datos y los gráficos de Vínculo de Perfil se actualizan dinámicamente al crear reglas de combinación o al hacer clic en una regla existente desde el panel Reglas de combinación de Perfiles. Estas métricas pueden incluir gráficos de dispositivos de Adobe Experience Cloud Device Co-op u otras fuentes de gráficos de dispositivos de terceros.
+description: Las métricas de vínculos de perfil proporcionan datos sobre personas y dispositivos que se autentican en el sitio. Los datos y los gráficos del vínculo de perfil se actualizan de forma dinámica a medida que se crean reglas de combinación o cuando se hace clic en una regla existente del panel Reglas de combinación de perfiles . Estas métricas pueden incluir gráficos de dispositivos de Adobe Experience Cloud Device Co-op u otras fuentes de gráficos de dispositivos de terceros.
+seo-description: Las métricas de vínculos de perfil proporcionan datos sobre personas y dispositivos que se autentican en el sitio. Los datos y los gráficos del vínculo de perfil se actualizan de forma dinámica a medida que se crean reglas de combinación o cuando se hace clic en una regla existente del panel Reglas de combinación de perfiles . Estas métricas pueden incluir gráficos de dispositivos de Adobe Experience Cloud Device Co-op u otras fuentes de gráficos de dispositivos de terceros.
 seo-title: Métricas de informes para reglas de combinación de Perfiles
 solution: Audience Manager
 title: Métricas de informes para reglas de combinación de Perfiles
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: Profile Merge Rules
+feature: Combinación de perfiles
+exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
 
-
 # Métricas de informes para reglas de combinación de Perfiles {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rule] las métricas proporcionan datos sobre las personas y los dispositivos que se autentican en el sitio. Los datos y los gráficos de [!UICONTROL Profile Merge Rule Reports] se actualizan dinámicamente al crear una regla de combinación o al hacer clic en una regla existente desde el panel [!UICONTROL Profile Merge Rules]. Estas métricas pueden incluir gráficos de dispositivos de [!DNL Adobe Experience Cloud Device Co-op] u otras fuentes de gráficos de dispositivos de terceros.
+[!UICONTROL Profile Merge Rule] Las métricas proporcionan datos sobre personas y dispositivos que se autentican en el sitio. Los datos y gráficos de [!UICONTROL Profile Merge Rule Reports] se actualizan dinámicamente al crear una regla de combinación o al hacer clic en una regla existente del tablero [!UICONTROL Profile Merge Rules]. Estas métricas pueden incluir gráficos de dispositivos de [!DNL Adobe Experience Cloud Device Co-op] u otras fuentes de gráficos de dispositivos de terceros.
 
-## Combinar métricas de regla {#merge-rule-metrics}
+## Combinar métricas de reglas {#merge-rule-metrics}
 
-Los informes devuelven datos en gráficos de barras paralelos cuando las reglas de combinación utilizan datos de [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) de Adobe Experience Cloud u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager]. Esto le permite comparar los datos de origen autenticados con los datos entre dispositivos proporcionados por el [!UICONTROL Experience Cloud Device Co-op] u otro gráfico de dispositivos de terceros. Para obtener información sobre los datos devueltos por [!UICONTROL Device Co-op], consulte [Device Graph: Procesos internos y salida](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Estos datos se actualizan diariamente.
+Los informes devuelven datos en gráficos de barras contiguos cuando las reglas de combinación utilizan datos de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager]. Esto le permite comparar sus datos de origen autenticados con los datos entre dispositivos proporcionados por el [!UICONTROL Experience Cloud Device Co-op] u otro gráfico de dispositivos de terceros. Para obtener información sobre los datos devueltos por [!UICONTROL Device Co-op], consulte [Device Graph: Procesos internos y salida](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Estos datos se actualizan diariamente.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -36,9 +36,9 @@ Los informes devuelven datos en gráficos de barras paralelos cuando las reglas 
    <td colname="col2"> <p>Muestra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Personas</span> activas: El número de personas que se han autenticado en el sitio durante los últimos 60 días. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Dispositivo</span> cruzado: El número total de  <a href="merge-rules-start.md#create-data-source"> ID de </a> varios dispositivos almacenados en la fuente  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> de </a> datos del  <a href="merge-rule-definitions.md">  </a> perfil autenticado seleccionado durante el tiempo que ha existido la fuente de datos. </li> 
-     <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de personas</span> activas: Muestra el porcentaje  <span class="wintitle"> de </span> personas activas. </li> 
-    </ul> <p> <span class="wintitle"> La </span> actividad autenticada permite comparar las fuentes de datos por actividad, volumen y porcentaje. Puede ayudarle a encontrar una fuente de datos que tenga muchas personas y un alto porcentaje de usuarios activos. O bien, puede resultar útil comparar fuentes de datos con una alta proporción de usuarios activos en comparación con el tamaño total de audiencia. Por ejemplo, a veces una fuente de datos con números de duración totales bajos y actividad alta es más valiosa que las que tienen resultados de duración altos y números de actividad bajos. </p> <p> <p>Nota: Las métricas <span class="wintitle"> Actividad autenticada</span> contienen <span class="wintitle"> sólo datos del vínculo de Perfil</span>. Este informe no incluye datos de <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: El número total de  <a href="merge-rules-start.md#create-data-source"> ID de varios dispositivos </a> almacenados en la fuente  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> de </a> datos del  <a href="merge-rule-definitions.md">  </a> perfil autenticado seleccionado durante toda la duración de la existencia de la fuente de datos. </li> 
+     <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de personas</span> activas: Muestra  <span class="wintitle"> Personas </span> activas como %. </li> 
+    </ul> <p> <span class="wintitle"> La </span> actividad autenticada permite comparar las fuentes de datos por actividad, volumen y porcentaje. Puede ayudarle a encontrar una fuente de datos que tenga mucha gente y un alto porcentaje de usuarios activos. O puede que le resulte útil comparar fuentes de datos con una alta proporción de usuarios activos en comparación con el tamaño total de audiencia. Por ejemplo, a veces una fuente de datos con números de duración totales bajos y actividad alta es más valiosa que las que tienen resultados de duración elevados y números de actividad bajos. </p> <p> <p>Nota: Las métricas <span class="wintitle"> Actividad autenticada</span> solo contienen datos de <span class="wintitle"> Vínculo de perfil</span>. Este informe no incluye datos de <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="wintitle"> Promedio de dispositivos por persona</span></b> </p> </td> 
@@ -46,24 +46,24 @@ Los informes devuelven datos en gráficos de barras paralelos cuando las reglas 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="wintitle"> Dispositivos totales</span></b> </p> </td> 
-   <td colname="col2"> <p>Muestra el número total de dispositivos que las personas han utilizado para autenticarse en el sitio para la fuente de datos seleccionada. </p> </td> 
+   <td colname="col2"> <p>Muestra la cantidad total de dispositivos que se han utilizado para autenticarse en el sitio para la fuente de datos seleccionada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="wintitle"> Total de personas</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="wintitle"> Personas totales</span></b> </p> </td> 
    <td colname="col2"> <p>Muestra el número total de personas que se han identificado determinísticamente para la fuente de datos seleccionada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Métricas de Device Graph {#device-graph-metrics}
+## Métricas de gráfico de dispositivos {#device-graph-metrics}
 
-Los informes [!UICONTROL Merge Rules] también muestran datos sobre la cantidad total de personas y dispositivos que visitaron el sitio para el gráfico de dispositivos y fuentes de datos seleccionados. Estas métricas devuelven datos en función de intervalos de tiempo preestablecidos (el período retroactivo) que varían según la opción de dispositivo seleccionada al crear una regla. La siguiente tabla lista estos intervalos de informes para cada una de las opciones de gráficos de dispositivos.
+Los informes [!UICONTROL Merge Rules] también muestran datos sobre la cantidad total de personas y dispositivos que visitaron el sitio para la fuente de datos y el gráfico de dispositivos seleccionados. Estas métricas devuelven datos en función de intervalos de tiempo preconfigurados (el período retroactivo) que varían según la opción de dispositivo que seleccione al crear una regla. En la tabla siguiente se enumeran estos intervalos de informes para cada una de las opciones de gráfico de dispositivos.
 
 <table id="table_038983EBC71F4A55BBCA99212AC5DEE6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Opción de Device Graph </th> 
-   <th colname="col2" class="entry"> Intervalo de retroactividad de informes </th> 
+   <th colname="col1" class="entry"> Opción Device Graph </th> 
+   <th colname="col2" class="entry"> Intervalo de retrospectiva de informes </th> 
   </tr>
  </thead>
  <tbody> 
@@ -104,23 +104,23 @@ Los informes [!UICONTROL Merge Rules] también muestran datos sobre la cantidad 
 
 ## Informes de muestra {#sample-reports}
 
-### Informe Vínculo de Perfil estándar
+### Informe de vínculo de perfil estándar
 
-Un informe estándar [!UICONTROL Profile Link] tiene el siguiente ejemplo. Las reglas de combinación que utilizan varias fuentes de datos (hasta 3, máximo) muestran gráficos en fichas independientes para cada fuente de datos. Esta regla de combinación no incluye datos [!UICONTROL Device Co-op].
+Un informe estándar [!UICONTROL Profile Link] se parece al siguiente ejemplo. Las reglas de combinación que utilizan varias fuentes de datos (hasta 3, como máximo) muestran gráficos en fichas independientes para cada fuente de datos. Esta regla de combinación no incluye datos [!UICONTROL Device Co-op].
 
 ![](assets/profile-link-metrics.png)
 
-### Informe Vínculo De perfil Con Datos De Device Graph
+### Informe Vínculo de perfil con datos de Device Graph
 
-Un informe [!UICONTROL Profile Link Device Graph] que incluye datos de gráficos de dispositivos del [!UICONTROL Adobe Experience Cloud Device Co-op] o de un gráfico de dispositivos de terceros muestra [!UICONTROL Profile Link] y datos de gráficos de dispositivos con gráficos de barras contiguos. Colocar estos gráficos adyacentes permite evaluar los beneficios de utilizar el [!UICONTROL Experience Cloud Device Co-op] en comparación con [!UICONTROL Profile Link] por sí solo. Las reglas de combinación que utilizan varias fuentes de datos (hasta 3, máximo) muestran gráficos en fichas independientes para cada fuente de datos. Como recordatorio, el gráfico y las métricas [!UICONTROL Authenticated Activity] no devuelven datos del gráfico de dispositivos [!DNL Adobe] u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager].
+Un informe [!UICONTROL Profile Link Device Graph] que incluye datos de gráficos de dispositivos del [!UICONTROL Adobe Experience Cloud Device Co-op] o de un gráfico de dispositivos de terceros muestra [!UICONTROL Profile Link] y datos de gráficos de dispositivos con gráficos de barras contiguos. Colocar estos gráficos adyacentes entre sí le permite evaluar los beneficios de utilizar el [!UICONTROL Experience Cloud Device Co-op] en comparación con [!UICONTROL Profile Link] por sí solo. Las reglas de combinación que utilizan varias fuentes de datos (hasta 3, como máximo) muestran gráficos en fichas independientes para cada fuente de datos. Como recordatorio, el gráfico y las métricas [!UICONTROL Authenticated Activity] no devuelven datos del gráfico de dispositivos [!DNL Adobe] u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager].
 
 ![](assets/profile-link-graph.png)
 
-## Gráficos de tendencias de vínculos de perfil {#profile-link-trend}
+## Gráficos de tendencia de vínculos de perfil {#profile-link-trend}
 
-Además de las demás visualizaciones de datos, los informes [!UICONTROL Profile Link] incluyen un gráfico de líneas. El gráfico de líneas está diseñado para mostrar las tendencias a lo largo del tiempo de las reglas de perfil. Los gráficos de tendencias (y los demás informes) están disponibles al hacer clic en una regla desde la página de aterrizaje [!UICONTROL Profile Merge Rules] ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Estos gráficos incluyen datos de gráficos de dispositivos si es miembro de [!UICONTROL Device Co-op] u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager]. Haga clic en una línea de tendencias para ver los datos subyacentes.
+Además de las otras visualizaciones de datos, los informes [!UICONTROL Profile Link] incluyen un gráfico de líneas. El gráfico de líneas está diseñado para mostrar las tendencias a lo largo del tiempo para las reglas de perfil. Los gráficos de tendencias (y los demás informes) están disponibles al hacer clic en una regla desde la página de aterrizaje [!UICONTROL Profile Merge Rules] ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Estos gráficos incluyen datos de gráficos de dispositivos si es miembro de los [!UICONTROL Device Co-op] u otros gráficos de dispositivos de terceros a los que puede tener acceso en [!DNL Audience Manager]. Haga clic en una línea de tendencia para ver los datos subyacentes.
 
 >[!MORELIKETHIS]
 >
->* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
+>* [Preguntas frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
