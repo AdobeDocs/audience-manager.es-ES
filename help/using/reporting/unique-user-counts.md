@@ -5,12 +5,12 @@ seo-title: Recuento de usuarios únicos en informes generales y superpuestos en 
 solution: Audience Manager
 title: Recuento de usuarios únicos en informes generales y superpuestos
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-feature: Referencia de referencia de informes
+feature: Referencia de informes
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
 translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 10%
 
 ---
