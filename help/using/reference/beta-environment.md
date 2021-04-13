@@ -1,30 +1,30 @@
 ---
-description: El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
-keywords: sandbox
-seo-description: El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
+description: El entorno beta sirve para probar la implementación del Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
+keywords: entorno limitado
+seo-description: El entorno beta sirve para probar la implementación del Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
 seo-title: Entorno beta
 solution: Audience Manager
 title: Entorno beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: reference
+feature: 'Referencia '
+exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
 
-
 # Entorno beta {#beta-environment}
 
-El entorno beta es para probar la implementación de su Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de Soluciones para Socios de Audience Manager si está interesado en utilizar el entorno beta.
+El entorno beta sirve para probar la implementación del Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
 
 ## Información general
 
 El entorno beta es una réplica exacta del entorno de producción, sin características experimentales o no lanzadas. Las credenciales de inicio de sesión del entorno de producción son válidas en el entorno beta.
 
-**Actualizar programa**
+**Actualizar programación**
 
 El entorno beta se actualiza al final de cada mes durante las horas de menor actividad.
 
@@ -38,26 +38,26 @@ Added re: AAM-30826.
 
  -->
 
-## Extremos
+## Puntos finales
 
 
 
-| Servicio | URL/nombre de host | Cómo obtener acceso |
+| Servicio | URL/Nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
-| S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socio de Audience Manager o con el Servicio de atención al cliente para configurar un bucket de Amazon S3 para su instancia beta. Obtenga más información sobre las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el Entorno Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente para configurar un compartimento de Amazon S3 para su instancia beta. Obtenga más información sobre las [ventajas de utilizar Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el entorno beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Las credenciales del entorno de producción son válidas para el entorno beta. |
 | API | `https://api-beta.demdex.com/...` | Las credenciales del entorno de producción son válidas para el entorno beta. Le recomendamos que cree un usuario de API genérico, [consulte los detalles](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Acceso al DCS en el Entorno Beta {#access-dcs-beta-environment}
+## Acceso al DCS en el entorno beta {#access-dcs-beta-environment}
 
-1. Realice una llamada de DCS utilizando el comando curl [](https://curl.haxx.se/docs/manpage.html). Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
+1. Realice una llamada DCS utilizando el comando curl [](https://curl.haxx.se/docs/manpage.html). Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
 
    Por ejemplo:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Compruebe que el DCS beta haya proporcionado su solicitud buscando &quot;simulador de pruebas&quot; en el encabezado de respuesta del DCS.
+1. Compruebe que el DCS beta ha proporcionado su solicitud buscando &quot;entorno limitado&quot; en el encabezado de respuesta del DCS.
 
    Por ejemplo:
 
