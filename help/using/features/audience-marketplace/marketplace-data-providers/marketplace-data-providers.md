@@ -5,12 +5,11 @@ seo-description: Información general y flujo de trabajo para los proveedores de
 seo-title: Audience Marketplace para proveedores de datos
 solution: Audience Manager
 title: Audience Marketplace para proveedores de datos
-topic-edit: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
 exl-id: 10a00bc9-5ee0-4aed-95d7-ace749b75542
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 4%
