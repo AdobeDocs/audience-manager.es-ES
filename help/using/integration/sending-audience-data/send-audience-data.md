@@ -1,29 +1,29 @@
 ---
-description: Enviar datos de audiencia de otras fuentes al Audience Manager.
-seo-description: Enviar datos de audiencia de otras fuentes a Adobe Audience Manager (AAM).
-seo-title: Envío de datos de Audiencia en Adobe Audience Manager (AAM)
+description: Envíe datos de audiencia de otras fuentes al Audience Manager.
+seo-description: Envíe datos de audiencia de otras fuentes a Adobe Audience Manager (AAM).
+seo-title: Envío de datos de audiencia en Adobe Audience Manager (AAM)
 title: Envío de datos de Audiencia
-feature: Inbound Data Transfer
+feature: Transferencias de datos de entrada
+exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 32%
+source-wordcount: '93'
+ht-degree: 34%
 
 ---
 
-
 # Envío de datos de Audiencia
 
-Enviar datos de audiencia de otras fuentes al Audience Manager.
+Envíe datos de audiencia de otras fuentes al Audience Manager.
 
 * [Integración de datos de entrada en tiempo real](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Información sobre la integración de Audience Manager en tiempo real.
+   Información sobre la integración del Audience Manager en tiempo real.
 
 * [Proceso de transferencia de datos por lotes descrito](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
-   Información general sobre cómo realiza un Audience Manager un intercambio de datos por lotes asincrónico con un proveedor de terceros.
+   Información general sobre cómo realiza un Audience Manager un intercambio asincrónico de datos por lotes con un proveedor de terceros.
 
 * [Integraciones de socios personalizadas](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
