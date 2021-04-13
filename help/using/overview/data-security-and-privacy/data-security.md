@@ -5,15 +5,15 @@ seo-title: Seguridad de datos en Audience Manager
 solution: Audience Manager
 title: Seguridad de datos en Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: data governance & privacy
+feature: Administración de datos y privacidad
+exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1028'
 ht-degree: 98%
 
 ---
-
 
 # Seguridad de datos en Audience Manager {#data-security}
 
@@ -62,7 +62,7 @@ Procesos que ayudan a mantener la seguridad de la información personal. Para ob
 
 Procesos que ayudan a proteger los datos propiedad de clientes individuales.
 
-**Partición de datos de características:**  sus datos ([!UICONTROL traits], ID, etc.) por cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
+**Partición de datos de rasgos:**  sus datos ([!UICONTROL traits], ID, etc.) por cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
 
 **Partición de datos en informes:** Los ID de cliente forman parte de la clave de identificación en todas las tablas de los informes y las consultas de informes se filtran por su ID. Esto ayuda a evitar que los datos aparezcan en los informes de otro cliente de Audience Manager.
 
@@ -92,6 +92,6 @@ Esta directiva mejora la seguridad de los datos entre los clientes y los servido
 
 ### Ejemplo {#hsts-example}
 
-Supongamos que el dominio `yourcompany.demdex.com` envía tráfico a [!DNL DCS] mediante [!DNL HTTP]. [!DNL HSTS] actualiza las llamadas para usar [!DNL HTTPS] en su lugar, y todas las llamadas [!DNL DCS] posteriores procedentes de `yourcompany.demdex.com` utilizarán [!DNL HTTPS] en lugar de [!DNL HTTP].
+Supongamos que el dominio `yourcompany.demdex.com` envía tráfico al [!DNL DCS] a través de [!DNL HTTP]. [!DNL HSTS] actualiza las llamadas para usar [!DNL HTTPS] en su lugar, y todas las llamadas [!DNL DCS] posteriores procedentes de `yourcompany.demdex.com` utilizarán [!DNL HTTPS] en lugar de [!DNL HTTP].
 
 Consulte [HTTP Strict Transport Security - Wikipedia](https://es.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obtener más información sobre HSTS.
