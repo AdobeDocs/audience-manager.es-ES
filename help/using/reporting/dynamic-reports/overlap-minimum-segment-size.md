@@ -1,34 +1,34 @@
 ---
 description: Describe los requisitos de tamaño y tiempo de creación del segmento requeridos por el proceso de actualización del informe de superposición.
 seo-description: Describe los requisitos de tamaño y tiempo de creación del segmento requeridos por el proceso de actualización del informe de superposición.
-seo-title: Sobreponer informes Actualizar programación y tamaño mínimo del segmento
+seo-title: Informes de superposición Actualizar programación y tamaño mínimo del segmento
 solution: Audience Manager
-title: Sobreponer informes Actualizar programación y tamaño mínimo del segmento
+title: Informes de superposición Actualizar programación y tamaño mínimo del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: overlap reports
+feature: Informes de superposición
+exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 5%
 
 ---
 
-
 # Informes de superposición: actualizar programación y tamaño mínimo del segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Describe los requisitos de tamaño de rasgo y segmento y tiempo de creación requeridos por el proceso de actualización de informes de superposición.
+Describe los requisitos de tamaño de rasgo y segmento y tiempo de creación requeridos por el proceso de actualización del informe de superposición.
 
 ## Actualizar programación y requisitos {#update-schedule}
 
-[!UICONTROL Overlap] los informes se actualizan semanalmente el domingo. El procesamiento previo del informe comienza el sábado. Esto afecta a cómo aparecen los segmentos nuevos o existentes en un informe de superposición el lunes. Para incluirlo en un informe de superposición:
+[!UICONTROL Overlap] los informes se actualizan semanalmente el domingo. El procesamiento previo del informe comienza el sábado. Esto afecta a cómo aparecen los segmentos nuevos o existentes en un informe de superposición el lunes. Para incluir en un informe de superposición:
 
-* Un segmento debe contener un mínimo de 70.000 usuarios en tiempo real durante los últimos 14 días.
-* Una característica debe contener 28.000 [realizaciones únicas de rasgos](/help/using/features/traits/trait-and-segment-qualification-reference.md) durante los últimos 14 días.
-* Se debe crear un segmento antes de las 12 AM del jueves UTC (2 días completos antes de que comience el proceso de actualización semanal del informe de superposición).
-* Su compañía debe ser un cliente [!DNL Audience Manager] completo. Póngase en contacto con su [!DNL Audience Manager] asesor o con el Servicio de atención al cliente para obtener más información.
+* Un segmento debe contener un mínimo de 70 000 usuarios en tiempo real durante los últimos 14 días.
+* Un rasgo debe contener 28 000 [realizaciones de rasgos únicas](/help/using/features/traits/trait-and-segment-qualification-reference.md) durante los últimos 14 días.
+* Se debe crear un segmento antes de las 12 AM del jueves UTC (2 días completos antes de que comience el proceso de actualización del informe de superposición semanal).
+* Su empresa debe ser cliente [!DNL Audience Manager] completo. Póngase en contacto con su asesor de [!DNL Audience Manager] o con el Servicio de atención al cliente para obtener más información.
 
-## El tamaño del segmento y/o el tiempo de creación afectan al Sistema de informes {#segment-size}
+## El tamaño del segmento o el tiempo de creación afectan a los informes {#segment-size}
 
 Si no ve un segmento en uno de los informes [!UICONTROL Overlap], puede deberse a que el segmento no cumple estos requisitos mínimos.
 
@@ -41,12 +41,12 @@ Si no ve un segmento en uno de los informes [!UICONTROL Overlap], puede deberse 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Tamaño del segmento demasiado pequeño</b> </p> </td> 
-   <td colname="col2"> <p>Supongamos que crea un segmento antes de las 12 AM del jueves UTC, pero contiene menos de 70.000 usuarios en tiempo real. Este segmento no aparecerá en un <span class="wintitle"> Informe superpuesto</span> hasta que cumpla los requisitos de umbral del usuario. Además, tenga en cuenta que el segmento debe cumplir el recuento de usuarios requerido o antes del período de corte del jueves. Si no cumple la fecha límite semanal, el segmento aparecerá en los <span class="wintitle"> Informes superpuestos</span> para la semana siguiente a la próxima ejecución de los datos del domingo. </p> </td> 
+   <td colname="col1"> <p> <b>Tamaño de segmento demasiado pequeño</b> </p> </td> 
+   <td colname="col2"> <p>Supongamos que crea un segmento antes de las 12 AM del jueves UTC, pero contiene menos de 70 000 usuarios totales en tiempo real. Este segmento no aparecerá en un <span class="wintitle"> Informe superpuesto</span> hasta que cumpla los requisitos de umbral del usuario. Tenga en cuenta que el segmento también debe satisfacer el recuento de usuarios requerido antes del período de corte del jueves. Si no cumple la fecha límite semanal, el segmento aparecerá en los <span class="wintitle"> Informes de superposición</span> durante la semana siguiente a la próxima ejecución de los datos del domingo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segmento creado demasiado tarde</b> </p> </td> 
-   <td colname="col2"> <p>Supongamos que crea un segmento el viernes y contiene más de 70.000 usuarios en tiempo real. Este segmento no aparecerá en los <span class="wintitle"> informes superpuestos</span> para la semana siguiente porque se creó menos de 2 días antes del período de actualización del informe. Sin embargo, el segmento aparecerá en un <span class="wintitle"> Informe superpuesto</span> después de la siguiente actualización semanal. </p> </td> 
+   <td colname="col2"> <p>Supongamos que crea un segmento el viernes y contiene más de 70 000 usuarios en tiempo real. Este segmento no aparece en los <span class="wintitle"> informes de superposición</span> para la semana siguiente porque se creó menos de 2 días antes del período de actualización del informe. Sin embargo, el segmento aparecerá en un <span class="wintitle"> Informe superpuesto</span> después de la siguiente actualización semanal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
