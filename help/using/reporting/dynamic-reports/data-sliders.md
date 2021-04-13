@@ -1,23 +1,23 @@
 ---
-description: Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
-seo-description: Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
+description: Utilice los distintos controles deslizantes del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
+seo-description: Utilice los distintos controles deslizantes del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
 seo-title: Filtrar los resultados del informe con las barras de desplazamiento de datos
 solution: Audience Manager
 title: Filtrar los resultados del informe con las barras de desplazamiento de datos
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: reporting reference
+feature: Referencia de referencia de informes
+exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '177'
+ht-degree: 11%
 
 ---
 
-
 # Filtrar los resultados del informe con las barras de desplazamiento de datos{#filter-report-results-with-the-data-sliders}
 
-Utilice los distintos reguladores del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
+Utilice los distintos controles deslizantes del informe para mostrar únicamente los datos que se encuentran por encima, por debajo o dentro del intervalo especificado.
 
 <!-- 
 
@@ -25,14 +25,14 @@ c_reach_slider.xml
 
  -->
 
-**Establecer un rango inferior/superior para los resultados del informe con los reguladores de datos**
+**Establecer un intervalo inferior/superior para los resultados del informe con las barras de desplazamiento de datos**
 
-Los controles deslizantes del informe le permiten establecer límites en los datos devueltos por un informe interactivo. Mueva el control deslizante izquierdo para excluir datos por debajo de un valor específico. Mueva el control deslizante derecho para excluir datos sobre un valor específico. El informe actualiza y devuelve datos que se encuentran dentro del intervalo deseado. Utilice los controles deslizantes para:
+Los controles deslizantes del informe permiten establecer límites a los datos devueltos por un informe interactivo. Mueva el control deslizante izquierdo para excluir datos por debajo de un valor específico. Desplace el control deslizante derecho para excluir datos sobre un valor específico. El informe actualiza y devuelve datos que se encuentran dentro del intervalo deseado. Utilice los controles deslizantes para:
 
-* Reduzca la cantidad total de datos devueltos por los informes.
-* Céntrese en características o segmentos que se encuentran dentro de un intervalo de tamaño determinado.
+* Reduzca la cantidad total de datos que devuelven los informes.
+* Céntrese en rasgos o segmentos que se encuentran dentro de un intervalo de tamaño determinado.
 
 >[!MORELIKETHIS]
 >
->* [Explicación de los Filtros de datos en el informe Superposición de segmento a característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
+>* [Explicación de los filtros de datos en el informe de solapamiento entre segmento y característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
