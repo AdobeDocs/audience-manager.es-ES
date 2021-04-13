@@ -5,15 +5,15 @@ seo-title: Casos de uso del anunciante
 solution: Audience Manager
 title: Casos de uso del anunciante
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-feature: reference
+feature: 'Referencia '
+exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
-
 
 # Casos de uso del anunciante {#advertiser-use-cases}
 
@@ -246,4 +246,3 @@ La documentación de [Modelos](../features/algorithmic-models/understanding-mode
   </tr> 
  </tbody> 
 </table>
-
