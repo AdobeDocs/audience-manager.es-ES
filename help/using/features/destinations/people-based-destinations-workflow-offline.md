@@ -4,7 +4,7 @@ seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo cre
 seo-title: 'Flujo de trabajo B: personalización basada en datos solo sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo B: personalización basada en datos solo sin conexión'
-feature: Destinos basados en personas
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

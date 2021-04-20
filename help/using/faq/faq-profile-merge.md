@@ -6,7 +6,7 @@ seo-title: Preguntas frecuentes sobre las reglas de combinación de perfiles y e
 solution: Audience Manager
 title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Combinación de perfiles
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

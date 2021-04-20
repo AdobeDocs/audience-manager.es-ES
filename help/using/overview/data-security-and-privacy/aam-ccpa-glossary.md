@@ -4,7 +4,7 @@ seo-description: En este artículo se explican los conceptos y la terminología 
 seo-title: Glosario de la CCPA
 solution: Audience Manager
 title: Glosario de la CCPA
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

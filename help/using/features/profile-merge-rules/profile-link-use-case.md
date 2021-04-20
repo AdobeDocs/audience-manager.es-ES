@@ -5,7 +5,7 @@ seo-title: Casos de uso de Device Graph de enlace de Perfil
 solution: Audience Manager
 title: Casos de uso de Device Graph de enlace de Perfil
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Combinación de perfiles
+feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

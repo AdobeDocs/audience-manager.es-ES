@@ -5,7 +5,7 @@ seo-title: Desuso de TLS 1.0 y 1.1
 solution: Audience Manager
 title: Desuso de TLS 1.0 y 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-feature: 'Referencia '
+feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

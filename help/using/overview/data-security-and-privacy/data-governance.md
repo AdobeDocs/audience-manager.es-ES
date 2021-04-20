@@ -5,7 +5,7 @@ seo-title: Administración de datos
 solution: Audience Manager
 keywords: IU del RGPD, API del RGPD, CCPA, privacidad, consentimiento, ofuscación, control
 title: Administración de datos
-feature: Administración de datos & Privacidad
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

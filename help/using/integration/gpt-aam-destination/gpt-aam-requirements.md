@@ -5,7 +5,7 @@ seo-title: Requisitos y métodos para enviar segmentos a Google Ad Manager usand
 solution: Audience Manager
 title: Requisitos y métodos para enviar segmentos a Google Ad Manager usando Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-feature: Integración de terceros
+feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

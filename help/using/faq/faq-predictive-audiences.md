@@ -4,7 +4,7 @@ seo-description: Predictive Audiences le ayuda a clasificar en tiempo real audie
 seo-title: Preguntas frecuentes sobre Predictive Audiences
 solution: Audience Manager
 title: Preguntas frecuentes sobre Predictive Audiences
-feature: Modelos algorítmicos
+feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

@@ -6,7 +6,7 @@ seo-title: Índice de ID en Audience Manager
 solution: Audience Manager
 title: Índice de ID en Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: 'Referencia '
+feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

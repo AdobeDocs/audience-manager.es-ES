@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Audience Manager
-type: Documentación
+type: Documentation
 solution-title: Aprendizaje y asistencia
 solution-hub-url: https://helpx.adobe.com/es/support/audience-manager.html
 solution-image: assets/aam-icon-24.png

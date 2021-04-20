@@ -5,7 +5,7 @@ seo-title: Socios de tecnología de Adobe Audience Manager
 keywords: activación; socios de activación, destino, destinos
 solution: Audience Manager
 title: Socios de tecnología de Adobe Audience Manager
-feature: Integración de terceros
+feature: Third-party Integration
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt

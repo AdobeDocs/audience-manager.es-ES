@@ -4,7 +4,7 @@ seo-description: Predictive Audiences le ayuda a clasificar en tiempo real audie
 seo-title: Sistema de informes de Predictive Audiences
 solution: Audience Manager
 title: Sistema de informes de Predictive Audiences
-feature: Modelos algorítmicos
+feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

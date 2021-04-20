@@ -5,7 +5,7 @@ seo-title: Cifrado PGP de archivo para tipos de datos de entrada
 solution: Audience Manager
 title: Cifrado PGP de archivo para tipos de datos de entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: Transferencias de datos de entrada
+feature: Inbound Data Transfers
 exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

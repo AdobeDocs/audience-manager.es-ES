@@ -5,7 +5,7 @@ seo-title: Tipos de datos recopilados
 solution: Audience Manager
 title: Tipos de datos recopilados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
-feature: Información general
+feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
 translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815

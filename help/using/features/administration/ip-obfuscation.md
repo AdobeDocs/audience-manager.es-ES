@@ -3,7 +3,7 @@ description: Es posible que su empresa desee complicar la dirección IP en mucho
 seo-description: Es posible que su empresa desee complicar la dirección IP en muchos países debido a las normativas de privacidad globales. Audience Manager le permite complicar las direcciones IP de los visitantes en forma global o por país.
 solution: Audience Manager
 title: Complicación de la dirección IP
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

@@ -4,7 +4,7 @@ seo-description: Explicación de por qué los rasgos y los segmentos podrían no
 seo-title: ¿Por qué no aparecen mis rasgos o segmentos en la página Informes de superposición?
 solution: Audience Manager
 title: ¿Por qué no aparecen mis rasgos o segmentos en la página Informes de superposición?
-feature: Asistencia
+feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

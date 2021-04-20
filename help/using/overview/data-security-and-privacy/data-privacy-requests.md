@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: IU del RGPD, API del RGPD, CCPA, privacidad
 title: Solicitudes de privacidad de datos
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

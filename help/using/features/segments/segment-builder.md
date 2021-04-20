@@ -5,7 +5,7 @@ seo-title: Generador de segmentos
 solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: 'Segmentos '
+feature: Segments
 translation-type: tm+mt
 source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
 workflow-type: tm+mt

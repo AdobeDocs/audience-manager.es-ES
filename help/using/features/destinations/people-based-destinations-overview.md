@@ -4,7 +4,7 @@ seo-description: 'Utilice destinos basados en personas para enviar segmentos de 
 seo-title: Información general y casos de uso de destinos basados en personas
 solution: Audience Manager
 title: Información general y casos de uso
-feature: Destinos basados en personas
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

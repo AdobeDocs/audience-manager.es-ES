@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes sobre la creación de informes
 solution: Audience Manager
 title: Preguntas más frecuentes sobre la creación de informes
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Referencia de informes
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

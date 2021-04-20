@@ -3,7 +3,7 @@ description: Envíe datos de audiencia de otras fuentes al Audience Manager.
 seo-description: Envíe datos de audiencia de otras fuentes a Adobe Audience Manager (AAM).
 seo-title: Envío de datos de audiencia en Adobe Audience Manager (AAM)
 title: Envío de datos de Audiencia
-feature: Transferencias de datos de entrada
+feature: Inbound Data Transfers
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

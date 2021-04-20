@@ -4,7 +4,7 @@ seo-description: No se utilizan pero se veno llamadas de Javascript de Audience 
 seo-title: No se utiliza Audience Manager pero se ven llamadas de Javascript de Audience Manager en el depurador Javascript. ¿Por qué?
 solution: Audience Manager
 title: No se utiliza Audience Manager pero se ven llamadas de Javascript de Audience Manager en el depurador Javascript. ¿Por qué?
-feature: Asistencia
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

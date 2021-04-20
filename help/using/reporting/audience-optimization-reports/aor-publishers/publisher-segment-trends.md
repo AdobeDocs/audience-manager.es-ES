@@ -5,7 +5,7 @@ seo-title: Informe de Tendencia del segmento
 solution: Audience Manager
 title: Informe de Tendencia del segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-feature: Informes de optimización de Audiencia
+feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
