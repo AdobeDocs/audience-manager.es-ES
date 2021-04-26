@@ -1,12 +1,12 @@
 ---
-description: Una [!DNL key-value pair] consta de elementos relacionados con una clave A, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). El Generador de destinos envía datos formateados como pares clave-valor.
+description: Una [!DNL key-value pair] consta de elementos relacionados. Clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). El Generador de destinos envía datos formateados como pares clave-valor.
 solution: Audience Manager
 title: Estándar y serie [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Conceptos básicos de destino
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
+source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
