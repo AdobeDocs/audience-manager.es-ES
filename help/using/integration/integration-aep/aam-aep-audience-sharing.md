@@ -5,13 +5,13 @@ seo-title: Uso compartido de Audiencias entre Audience Manager y Adobe Experienc
 solution: Audience Manager
 title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Platform
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, compartir segmentos
-feature: Platform Integration
+feature: Integración de plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1465'
+ht-degree: 3%
 
 ---
 
@@ -164,17 +164,13 @@ El Audience Manager actualiza los números de los informes en la interfaz una ve
 
 La integración entre Adobe Experience Platform y Audience Manager comparte una serie de [áreas de nombres de identidad](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) estándar para todos los clientes: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Si los segmentos del Experience Platform utilizan cualquiera de estos elementos como identidad principal para los perfiles cualificados, los perfiles se cuentan en rasgos y segmentos del Audience Manager.
 
-Además, el Audience Manager puede registrar las realizaciones entrantes para cualquier área de nombres de identidad personalizada que utilice en segmentos de Experience Platform si:
-* la identidad se marca como principal *y*
-* ya tiene una fuente de datos entre dispositivos correspondiente en Audience Manager.
-
 >[!NOTE]
 >
 > Las audiencias en Experience Platform con identidades marcadas por correos electrónicos sin procesar nunca aparecen en Audience Manager.
 
-Por ejemplo, si tuviera un segmento de Experience Platform &quot;Todos mis clientes&quot; y los perfiles cualificados fueran ID de CRM, ECID, IDFA, direcciones de correo electrónico sin procesar y con hash, el segmento correspondiente en Audience Manager solo incluiría perfiles con claves de ID de CRM, ECID, IDFA y direcciones de correo electrónico con hash. La población del segmento en Audience Manager sería menor que la del Experience Platform.
+Por ejemplo, si tuviera un segmento de Experience Platform &quot;Todos mis clientes&quot; y los perfiles cualificados fueran ID de CRM, ECID, IDFA, direcciones de correo electrónico sin procesar y con hash, el segmento correspondiente en Audience Manager solo incluiría perfiles desactivados de ECID, IDFA y direcciones de correo electrónico con hash. La población del segmento en Audience Manager sería menor que la del Experience Platform.
 
-![Experience Platform al uso compartido de segmentos del Audience Manager: composición de segmentos](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform al uso compartido de segmentos del Audience Manager: composición de segmentos](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
