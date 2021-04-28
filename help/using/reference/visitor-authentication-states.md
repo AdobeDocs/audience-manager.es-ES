@@ -6,13 +6,13 @@ seo-title: Estados de autenticación de Visitante en Audience Manager
 solution: Audience Manager
 title: Estados de autenticación de Visitante en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: Reference
+feature: 'Referencia '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
@@ -24,25 +24,9 @@ A partir del [!DNL Experience Cloud] servicio de ID v1.5+, el método `setCustom
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Leer información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Escribir nuevos rasgos en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticadas = "Últimos perfiles autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>No, los datos de rasgos se añaden al perfil del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Ningún perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+|---|---|---|
+| 0 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se añaden al perfil del dispositivo. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -50,25 +34,9 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 ## Estado de autenticación: AUTENTICADO {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Leer información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Escribir nuevos rasgos en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sí, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Últimos perfiles autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sí, los datos de rasgos se añaden al perfil autenticado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, si la regla de combinación de opciones autenticadas = "Sin perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+|---|---|---|
+| 1 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sí, los datos de rasgos se añaden al perfil autenticado. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -76,25 +44,9 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 ## Estado de autenticación: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor de solicitud </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Leer información del perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Escribir nuevos rasgos en el perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sí, si la regla de combinación de opciones autenticadas = "Últimos perfiles autenticados" </td> 
-   <td colname="col3" morerows="1"> <p>No, los datos de rasgos se escriben en el perfil del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> No, si la regla de combinación de opciones autenticadas = "Perfiles autenticados actuales" o "Ningún perfil autenticado" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+|---|---|---|
+| 2 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se escriben en el perfil del dispositivo. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
