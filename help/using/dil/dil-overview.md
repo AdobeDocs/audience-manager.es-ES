@@ -6,15 +6,15 @@ keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
 title: Explicación de la biblioteca de integración de datos (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: Implementación del DIL
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 16%
+source-wordcount: '496'
+ht-degree: 17%
 
 ---
-
 
 # Explicación del [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
@@ -43,8 +43,6 @@ Sin embargo, también puede descargar las últimas versiones de Experience Cloud
 [!UICONTROL DIL] el código está disponible para su descarga  **[aquí](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Tenga en cuenta que, a partir de la versión 8.0 (publicada en agosto de 2018), [!UICONTROL DIL] tiene una gran dependencia del [servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/home.html), versión 3.3 o superior. Se basa en [!DNL ID Service] para activar sincronizaciones de ID y [!DNL URL destinations]. Se produce un error si falta [!DNL ID Service], está antiguo o no está configurado.
 
 En lugar de trabajar con [!UICONTROL DIL] y configurar [!DNL Audience Manager] manualmente, le recomendamos que utilice [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) en su lugar. [!DNL Adobe Experience Platform Launch] es la herramienta de implementación recomendada porque simplifica la implementación, la colocación y la administración de versiones del código. Obtenga más información sobre la [extensión del Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) en [!DNL Adobe Experience Platform Launch].
-
-[!DNL Adobe Experience Platform Launch] es el sucesor del Administrador dinámico de etiquetas de  [Adobe](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)  ([!DNL DTM]).
 
 ## Ejemplo de llamada {#sample-code}
 
