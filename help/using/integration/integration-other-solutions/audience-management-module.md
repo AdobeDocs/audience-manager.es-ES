@@ -6,13 +6,13 @@ seo-title: Implementación del módulo Gestión de público
 solution: Audience Manager
 title: Implementación del módulo Gestión de público
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
-feature: Adobe Analytics Integration
+feature: Integración de Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 5%
+source-wordcount: '540'
+ht-degree: 4%
 
 ---
 
@@ -44,38 +44,6 @@ Existen dos métodos para implementar el reenvío de datos de [!DNL Adobe Analyt
 >Si instala la extensión [!DNL Adobe Analytics], *do not* también instala la extensión [!DNL Audience Manager]. El reenvío de datos desde la extensión [!DNL Analytics] reemplaza la funcionalidad de extensión [!DNL Audience Manager].
 
 ![Habilitación del uso compartido de datos desde la extensión de Adobe Analytics al Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
-
-### Implementación mediante [!DNL Adobe Digital Tag Management (DTM)] o cualquier otra solución de administración de etiquetas
-
->[!WARNING]
->
->[!DNL Adobe] ha anunciado que planea la puesta  [!DNL DTM] en marcha a finales de 2020. Para obtener más información y programar, consulte [!DNL DTM] Planes para un ocaso en los [foros de la comunidad de Adobe](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset).
-
-Para implementar [!UICONTROL Audience Management Module] mediante [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) u otra solución de administración de etiquetas:
-
-1. Descargue [!UICONTROL AppMeasurement] mediante el [Administrador de códigos de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/code-manager-admin.html) (requiere la versión 1.5 o posterior).
-1. Actualice el código [!UICONTROL AppMeasurement] a la versión incluida en el archivo zip descargado.
-1. Copie todo el código desde `AppMeasurement_Module_AudienceManagement.js` desde el archivo zip. Péguelo en el archivo `appMeasurement.js` justo encima del texto, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
-1. Agregue el código, `s.loadModule("AudienceManagement");`, justo encima del código `AppMeasurement_Module_AudienceManagement.js` que acaba de agregar en el paso anterior.
-1. Actualice y copie el código siguiente y agréguelo a la función `doPlugins` en su archivo `AppMeasurement.js`.
-
-```js
-s.AudienceManagement.setup({ 
-     "partner":"INSERT-YOUR-PARTNER-NAME-HERE", 
-     "containerNSID":0, 
-     "uuidCookie": { 
-          "name":"aam_uuid", 
-          "days":30
-     },
-     "visitorService": {
-          "namespace": "INSERT-EXPERIENCE-CLOUD-ORGID-HERE" 
-     } 
-});
-```
-
->[!TIP]
->
->La función `audienceManagement.setup` comparte parámetros con la función [!DNL Audience Manager] `DIL.create`, que puede configurar en este código. Para obtener más información sobre estos parámetros, consulte [Creación de DIL](../../dil/dil-class-overview/dil-create.md#dil-create).
 
 ## Elementos de código definidos {#code-elements-defined}
 
