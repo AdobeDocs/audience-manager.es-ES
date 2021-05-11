@@ -5,16 +5,16 @@ seo-title: Preguntas frecuentes sobre la recopilación de datos y la integració
 solution: Audience Manager
 title: Preguntas frecuentes sobre la recopilación de datos y la integración de productos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
-feature: Administration
+keywords: SFTP; Dirección SFTP; Dirección IP de STFP; Dirección FTP
+feature: Administración
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 86%
+source-wordcount: '1159'
+ht-degree: 85%
 
 ---
-
 
 # Preguntas frecuentes sobre la recopilación de datos y la integración de productos {#data-collection-and-product-integration-faq}
 
@@ -32,13 +32,13 @@ Los rasgos incorporados mediante [!UICONTROL Inbound] se rellenan con [!UICONTRO
 
 <br> 
 
-**¿Puede proporcionarme una lista de las direcciones IP que puedo agregar a una lista de permitidos para dpm.demdex.net?**
+**¿Puede proporcionarme una lista de las direcciones IP que puedo añadir a una lista de permitidos para dpm.demdex.net?**
 
 Desafortunadamente, no podemos. Estas direcciones IP se asignan dinámicamente, por región geográfica, a través de [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] no controla el rango de direcciones IP que se pueden asignar a esta dirección.
 
  
 
-**¿Puede proporcionarme una dirección IP que pueda agregar a una lista de permitidos para su servidor SFTP entrante y saliente?**
+**¿Puede proporcionarme una dirección IP que pueda añadir a una lista de permitidos para su servidor SFTP entrante y saliente?**
 
 Sí, consulte la información siguiente.
 
@@ -49,7 +49,7 @@ Sí, consulte la información siguiente.
 
  
 
-Los servidores SFTP siguientes están en desuso. No se aprovisionará ninguna cuenta nueva con estos servidores.
+Los siguientes servidores SFTP están en desuso. No se aprovisionarán cuentas nuevas mediante estos servidores.
 
 | Servidor | Dirección IP |
 ---------|----------|
@@ -58,15 +58,15 @@ Los servidores SFTP siguientes están en desuso. No se aprovisionará ninguna cu
 
  
 
-**¿Cómo configuro la instancia de Audience Manager para utilizar los nuevos servidores SFTP?**
+**¿Cómo configuro mi instancia de Audience Manager para utilizar los nuevos servidores SFTP?**
 
-Póngase en contacto con su [!DNL Audience Manager] consultor o con el Servicio de atención al cliente y configurará sus nuevas cuentas de SFTP.
+Póngase en contacto con su asesor de [!DNL Audience Manager] o con el Servicio de atención al cliente y configurarán sus nuevas cuentas de SFTP.
 
  
 
-**¿Cuáles son los métodos de autenticación admitidos para los nuevos servidores SFTP?**
+**¿Cuáles son los métodos de autenticación compatibles con los nuevos servidores SFTP?**
 
-Los nuevos servidores SFTP (`ftp-in-gtw` y `ftp-out-gtw`) admiten [!DNL OpenSSH Key-Based Authentication]. Podemos generar las [!DNL SSH] claves para usted o puede proporcionarnos su propia clave pública.
+Los nuevos servidores SFTP (`ftp-in-gtw` y `ftp-out-gtw`) admiten [!DNL OpenSSH Key-Based Authentication]. Podemos generar las claves [!DNL SSH] para usted o puede proporcionarnos su propia clave pública.
 
  
 
@@ -84,7 +84,7 @@ Como práctica recomendada, configure la integración entre [!DNL Audience Manag
 
 * Ponga [!UICONTROL DIL] directamente en el `s_code`.
 
-* Entregue [!UICONTROL DIL] y el `s_code` mediante [!DNL Adobe Experience Platform Launch] o [!DNL Adobe DTM].
+* Entregue [!UICONTROL DIL] y `s_code` a [!DNL Adobe Experience Platform Launch].
 
 Consulte [API de Data Integration Library (DIL)](../dil/dil-overview.md).
 
@@ -153,7 +153,7 @@ Sí, [!DNL Audience Manager] puede proporcionarle los datos recopilados para los
 
 **[!DNL Google Ad Manager]Quiero recopilar datos en un sitio y segmentar los usuarios a través de en un sitio diferente. ¿Debo implementar código en la otra propiedad si no quiero recopilar datos de esa ubicación?**
 
-No. Si la recopilación de datos en el segundo sitio no es un requisito, no es necesario implementar DIL allí. Siempre y cuando tenga acceso al inventario en el segundo sitio a través de [!DNL Google Ad Manager], puede utilizar la recopilación de datos del sitio inicial y el destinatario a través de [!DNL Google Ad Manager].
+No. Si la recopilación de datos en el segundo sitio no es un requisito, no es necesario implementar DIL allí. Siempre que tenga acceso al inventario en el segundo sitio a través de [!DNL Google Ad Manager], puede utilizar la recopilación de datos del sitio inicial y el destino a través de [!DNL Google Ad Manager].
 
 <br> 
 
@@ -163,7 +163,7 @@ Cada proveedor aporta algo único a la tabla, por lo que la respuesta depende de
 
 <br> 
 
-**¿Cómo se  [!DNL Audience Manager] configuran las cookies y se pasan las variables a  [!DNL Google Ad Manager]?**
+**¿Cómo  [!DNL Audience Manager] establece las cookies y pasa las variables a  [!DNL Google Ad Manager]?**
 
 [!DNL Audience Manager][!DNL Google Ad Manager] establece 2 cookies: Una envía variables de segmento a la etiqueta de publicidad de y la otra establece su ID de usuario único (UUID), que también lo puede leer [!DNL Google Ad Manager]. Añadir el UUID a la etiqueta de publicidad significa que podemos realizar la detección de sistemas de informes y audiencias a nivel de usuario.
 
