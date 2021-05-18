@@ -7,9 +7,9 @@ title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 | 0 | Error no especificado | Se trata de un error de captador global que gestiona eventos que no están cubiertos por los otros controladores de errores. Solucionar este error es difícil. Puede ser causado por una variedad de acciones o eventos desconocidos. Si recibe este error, vuelva a intentar la solicitud [!DNL DCS]. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 | 1 | No se encontró la configuración para el nombre de host: `hostname` | El nombre de host enviado en la solicitud no ha sido configurado por nuestro equipo de aprovisionamiento de socios. Póngase en contacto con su representante de [!DNL Adobe] si ve este mensaje de error. |
 | 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este id de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e intente la solicitud de nuevo. Si no conoce o no tiene su ID de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarla. |
-| 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. |
+| 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 
 ## Códigos de error de integración {#integration-error-codes}
 
