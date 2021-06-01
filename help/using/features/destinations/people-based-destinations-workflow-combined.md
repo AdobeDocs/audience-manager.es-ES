@@ -4,9 +4,8 @@ seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo com
 seo-title: 'Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo A: personalización basada en toda la Actividad en línea combinada con datos sin conexión'
-feature: People-based Destinations
+feature: Destinos basados en personas
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1181'
