@@ -5,9 +5,8 @@ seo-description: Los informes de uso de actividades le ayudan a ver y rastrear e
 seo-title: Informes de uso de actividades
 solution: Audience Manager
 title: Informes de uso de actividades
-feature: Usage and Billing
+feature: Uso y facturación
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '668'
