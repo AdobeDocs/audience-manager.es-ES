@@ -1,12 +1,11 @@
 ---
-description: 'Utilice destinos basados en personas para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se está mostrando dentro de ella. Incluyen plataformas sociales como Facebook y otras plataformas que dependen de cuentas de cliente para personalizar el contenido mostrado. '
-seo-description: 'Utilice destinos basados en personas para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se está mostrando dentro de ella. Incluyen plataformas sociales como Facebook y otras plataformas que dependen de cuentas de cliente para personalizar el contenido mostrado.  '
+description: 'Utilice destinos basados en personas para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se está mostrando dentro de ella. Incluyen plataformas sociales como Facebook y otras que dependen de cuentas de cliente para personalizar el contenido mostrado. '
+seo-description: 'Utilice destinos basados en personas para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se está mostrando dentro de ella. Incluyen plataformas sociales como Facebook y otras que dependen de cuentas de cliente para personalizar el contenido mostrado.  '
 seo-title: Información general y casos de uso de destinos basados en personas
 solution: Audience Manager
 title: Información general y casos de uso
-feature: People-based Destinations
+feature: Destinos basados en personas
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '924'
