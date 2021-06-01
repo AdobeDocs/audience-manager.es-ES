@@ -8,7 +8,6 @@ title: Preguntas frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Información general
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '615'
