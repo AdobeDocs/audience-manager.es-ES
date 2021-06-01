@@ -5,9 +5,8 @@ seo-title: Informe de estado de integración
 solution: Audience Manager
 title: Informe de estado de integración
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: Inbound and Outbound Reports
+feature: Informes entrantes y salientes
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1502'
