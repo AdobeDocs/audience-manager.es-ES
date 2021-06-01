@@ -5,9 +5,8 @@ seo-title: Historial de archivos de salida
 solution: Audience Manager
 title: Historial de archivos de salida
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: Inbound and Outbound Reports
+feature: Informes entrantes y salientes
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '172'
