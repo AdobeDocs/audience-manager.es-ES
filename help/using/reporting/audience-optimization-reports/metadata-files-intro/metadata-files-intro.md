@@ -5,9 +5,8 @@ seo-title: Archivos de metadatos y datos de registro
 solution: Audience Manager
 title: Archivos de metadatos y datos de registro
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-feature: Log Files
+feature: Archivos de registro
 exl-id: c913372f-4a0a-420c-933e-23b30393fbaf
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '219'
