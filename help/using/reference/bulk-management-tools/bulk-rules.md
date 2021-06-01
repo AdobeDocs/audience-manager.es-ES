@@ -7,7 +7,6 @@ title: Crear o actualizar normas de rasgos y normas de segmentos
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '352'
