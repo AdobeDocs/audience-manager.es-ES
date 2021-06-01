@@ -5,31 +5,30 @@ seo-title: Archivos de transferencia y control para transferencias de archivos d
 solution: Audience Manager
 title: Archivos de transferencia y control para transferencias de archivos de registro
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
+feature: Transferencias de datos de salida
+exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
-
 
 # Archivos de transferencia y control para transferencias de archivos de registro {#transfer-control-files-for-log-file-transfers}
 
 Los archivos de control de transferencia ([!DNL .info]) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos.
 
-[!DNL Audience Manager] envía un archivo de control de transferencia a un socio con cada transferencia de archivos. Debido a la naturaleza de subprocesos múltiples del publicador [!DNL FTP], el archivo de control de transferencia se puede enviar antes de que los archivos reales terminen de transferirse.
+[!DNL Audience Manager] envía un archivo de control de transferencia a un socio con cada transferencia de archivos. Debido a la naturaleza de subprocesos múltiples del editor [!DNL FTP], el archivo de control de transferencia puede enviarse antes de que los archivos reales terminen de transferirse.
 
 Los metadatos del archivo [!DNL .info] permiten a los socios:
 
-* Determinar cuándo se completa un ciclo completo de transferencia (se ha entregado el número total de archivos de la secuencia);
-* Determinar si un archivo determinado de la secuencia es completo o correcto (examinando el tamaño del archivo en bytes y el número total de líneas);
-* Validar el número de filas de los archivos sin procesar en comparación con el número de filas después de que los archivos se hayan cargado en la base de datos en el extremo receptor (tamaño del archivo en líneas).
+* Determinar cuándo se ha completado un ciclo completo de transferencia (el número total de archivos de la secuencia se han entregado);
+* Determine si un archivo determinado de la secuencia es completo o correcto (examinando el tamaño del archivo en bytes y el número total de líneas);
+* Valide el número de filas de archivos sin procesar frente al número de filas después de cargar los archivos en la base de datos en el extremo receptor (tamaño del archivo en líneas).
 
-## Convenciones de nombres de archivo {#file-naming-conventions}
+## Convenciones de nomenclatura de archivos {#file-naming-conventions}
 
-El archivo transfer-control tiene el mismo nombre que la raíz del lote/secuencia con una extensión de archivo [!DNL .info].
+El archivo de control de transferencia tiene el mismo nombre que la raíz del lote/secuencia con una extensión de archivo [!DNL .info].
 
 Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345_67890_full_1500727351632-1.sync], el nombre del archivo de control sería [!DNL ftp_12345_67890_iter_1500727351632.info].
 
@@ -78,8 +77,8 @@ Por ejemplo, si el nombre del primer archivo de la secuencia es: [!DNL ftp_12345
 
 >[!NOTE]
 >
-> Los números totales del lote son exclusivos del archivo [!DNL .info] mismo. Es decir, los totales no incluyen el archivo [!DNL .info], su tamaño de byte ni su recuento de líneas.
+> Los números totales de lote son exclusivos del propio archivo [!DNL .info]. Es decir, los totales no incluyen el archivo [!DNL .info], su tamaño de byte ni su recuento de líneas.
 >
-> Los tamaños de bytes de los archivos y los recuentos de líneas incluyen todas las líneas/filas de encabezado y espaciador (en blanco). Para obtener el recuento de líneas/filas de datos reales, reste encabezados.
+> Los tamaños de bytes de los archivos y los recuentos de líneas incluyen todas las líneas/filas de encabezado y separador (en blanco). Para obtener el recuento de líneas/filas de datos reales, reste encabezados.
 >
-> Las líneas totales en el tamaño de lote y de byte total incluyen todas las filas de espacio y encabezado.
+> Las líneas totales en lote y el tamaño total de bytes incluyen cualquier fila de espacio y encabezado.
