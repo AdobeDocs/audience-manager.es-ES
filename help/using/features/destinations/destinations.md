@@ -8,7 +8,6 @@ title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Conceptos básicos de destino
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-translation-type: tm+mt
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '541'
@@ -20,7 +19,7 @@ ht-degree: 15%
 
 En Audience Manager, [!UICONTROL destination] es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que se desea compartir datos. [!UICONTROL Destination Builder] es la herramienta que se utiliza para crear y administrar  [!UICONTROL cookie],  [!DNL URL] o  [!UICONTROL server-to-server destinations].
 
-## Objetivo y ventajas {#purposes}
+## Finalidad y ventajas {#purposes}
 
 <!-- c_destinations.xml -->
 
