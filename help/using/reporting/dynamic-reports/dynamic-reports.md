@@ -5,9 +5,8 @@ seo-title: Informes interactivos y superpuestos
 solution: Audience Manager
 title: Informes interactivos y superpuestos
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-feature: Overlap Reports
+feature: Informes de superposición
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '254'
