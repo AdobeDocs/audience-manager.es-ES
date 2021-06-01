@@ -4,9 +4,8 @@ seo-description: Un recorrido de alto nivel de los principales componentes y flu
 seo-title: Información general sobre los componentes del sistema
 title: Información general sobre los componentes del sistema
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-feature: System Components
+feature: 'Componentes del sistema '
 exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '190'
