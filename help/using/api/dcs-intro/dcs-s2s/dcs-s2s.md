@@ -6,14 +6,13 @@ solution: Audience Manager
 title: API de DCS para transferencias de datos de servidor a servidor
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 11%
 
 ---
-
 
 # API de DCS para transferencias de datos de servidor a servidor{#dcs-apis-for-server-to-server-data-transfers}
 
