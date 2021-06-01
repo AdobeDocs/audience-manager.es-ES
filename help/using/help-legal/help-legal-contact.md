@@ -4,15 +4,14 @@ seo-description: Información que le ayudará a comunicarse con Adobe y a compre
 seo-title: Contacto e información legal
 solution: Audience Manager
 title: Contacto e información legal
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Asistencia
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # Contacto e información legal {#legal-contact}
 
@@ -31,7 +30,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 
 Según la configuración de su solución, es posible que algunas de las opciones descritas en esta documentación no estén disponibles para usted. Cada cuenta es única, de modo que debe consultar el contrato para obtener información acerca de los precios, las fechas de vencimiento, los términos y las condiciones. Si desea actualizar o cambiar de nivel de servicios, o si tiene preguntas acerca de su servicio actual, póngase en contacto con el administrador de su cuenta.
 
-## Información legal  {#legal}
+## Información legal {#legal}
 
 Published by Adobe Systems Incorporated.
 
