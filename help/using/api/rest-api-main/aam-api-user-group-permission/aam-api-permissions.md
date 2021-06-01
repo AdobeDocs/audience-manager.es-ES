@@ -1,19 +1,18 @@
 ---
-description: Métodos de API de descanso para administrar permisos para objetos y grupos.
-seo-description: Métodos de API de descanso para administrar permisos para objetos y grupos.
+description: Rest métodos de API para administrar permisos para objetos y grupos.
+seo-description: Rest métodos de API para administrar permisos para objetos y grupos.
 seo-title: Métodos de API de administración de permisos
 solution: Audience Manager
 title: Métodos de API de administración de permisos
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 14%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
-
 
 # Métodos de API de administración de permisos {#permissions-management-api-methods}
 
@@ -21,9 +20,9 @@ Rest [!DNL API] métodos para administrar permisos para objetos y grupos.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Tipos de objetos disponibles de lista {#list-object-types}
+## Lista de tipos de objetos disponibles {#list-object-types}
 
-Un método `GET` para lista de tipos de objeto disponibles en los que se pueden establecer controles de acceso basados en roles.
+Un método `GET` para enumerar los tipos de objeto disponibles en los que se pueden establecer controles de acceso basados en roles.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -37,9 +36,9 @@ Un método `GET` para lista de tipos de objeto disponibles en los que se pueden 
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Permisos disponibles de lista para un tipo de objeto {#list-permissions-object-type}
+## Lista de permisos disponibles para un tipo de objeto {#list-permissions-object-type}
 
-Un método `GET` para lista de los permisos disponibles para un tipo de objeto.
+Método `GET` para enumerar los permisos disponibles para un tipo de objeto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -58,4 +57,4 @@ Un método `GET` para lista de los permisos disponibles para un tipo de objeto.
 
 >[!NOTE]
 >
->Los tipos de objeto TAGS y SEÑALES DERIVADAS no tienen permisos regulares para usar. Los controles de estos tipos de objetos se modifican únicamente con los permisos de la tarjeta comodín Todo o Nada.
+>Los tipos de objeto TAGS y DERIVED SIGNALS no tienen permisos regulares para utilizar. Los controles de estos tipos de objetos se cambian únicamente mediante los Permisos comodín Todo o Nada.
