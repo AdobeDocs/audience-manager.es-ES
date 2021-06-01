@@ -5,8 +5,7 @@ seo-title: Actualizaciones de estado para archivos de metadatos
 solution: Audience Manager
 title: Actualizaciones de estado para archivos de metadatos
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: Log Files
-translation-type: tm+mt
+feature: Archivos de registro
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '329'
