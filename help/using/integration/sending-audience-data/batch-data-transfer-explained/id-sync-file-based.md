@@ -5,9 +5,8 @@ seo-title: Requisitos de nomenclatura y contenido para archivos de sincronizaci√
 solution: Audience Manager
 title: Requisitos de nomenclatura y contenido para archivos de sincronizaci√≥n de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Inbound Data Transfers
+feature: Transferencias de datos de entrada
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '867'
