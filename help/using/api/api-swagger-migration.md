@@ -1,29 +1,28 @@
 ---
-description: Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación de API confiable y precisa. Como resultado, estamos reescribiendo el contenido de nuestra API en Swagger y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código de API de Audience Manager.
-seo-description: Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación de API confiable y precisa. Como resultado, estamos reescribiendo el contenido de nuestra API en Swagger y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código de API de Audience Manager.
+description: Aquí, en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación de API fiable y precisa. Como resultado, estamos reescribiendo nuestro contenido de API en Swagger y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código de API de Audience Manager.
+seo-description: Aquí, en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación de API fiable y precisa. Como resultado, estamos reescribiendo nuestro contenido de API en Swagger y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código de API de Audience Manager.
 seo-title: Migración de código de API de Audience Manager
 solution: Audience Manager
 title: Migración de código de API de Audience Manager
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
 
-
 # Migración de código de API de Audience Manager {#audience-manager-api-code-migration}
 
-Aquí en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación confiable y precisa [!DNL API]. Como resultado, estamos reescribiendo nuestro contenido [!DNL API] en [!DNL Swagger] y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código [!DNL API] del Audience Manager.
+Aquí, en Audience Manager, somos ingenieros, desarrolladores, y codificamos ninjas como tú. Y, como usted, queremos trabajar con documentación confiable y precisa [!DNL API]. Como resultado, estamos reescribiendo nuestro contenido [!DNL API] en [!DNL Swagger] y moviéndolo a una nueva ubicación. Estos cambios están diseñados para ayudar a mejorar su experiencia con el código [!DNL API] del Audience Manager.
 
 ## Subir {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-El sitio [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html) es el nuevo hogar para nuestro contenido revisado [!DNL API]. Intentaremos reescribir y mover algunos conjuntos de métodos [!DNL API] con cada versión. Esto significa que tendrá que registrar la nueva ubicación y la documentación de [REST API](../api/rest-api-main/rest-api-main.md) para encontrar todos los métodos disponibles. Finalmente, todos los [!DNL API]s públicos estarán en el sitio [!DNL Audience Manager] [!DNL API] docs. La siguiente tabla lista los [!DNL API]s revisados y migrados.
+El sitio [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) es la nueva página de inicio para nuestro contenido [!DNL API] revisado. Intentaremos reescribir y mover algunos conjuntos de métodos [!DNL API] con cada versión. Esto significa que tendrá que registrar la nueva ubicación y la documentación de la [API de REST](../api/rest-api-main/rest-api-main.md) para encontrar todos los métodos disponibles. Finalmente, todos los [!DNL API]s públicos estarán en el sitio [!DNL Audience Manager] [!DNL API] de documentos. La siguiente tabla enumera las [!DNL API]s revisadas y migradas.
 
 <!--
 
@@ -91,9 +90,9 @@ El sitio [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/p
 | Tipo de API | Métodos de API |
 ---------|----------
 | **[!UICONTROL Algorithmic Models**] | [Modelos algorítmicos](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
-| **[!UICONTROL Audience Marketplace]** | <ul><li>[Archivo de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Solicitud de fuente de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Finanzas de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Planes de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Suscripciones de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
+| **[!UICONTROL Audience Marketplace]** | <ul><li>[Archivo de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Solicitud de fuente de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Finanzas de la fuente de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Planes de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Suscripciones de fuentes de datos](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
 | **[!UICONTROL Data Sources]** | [Fuentes de datos ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
-| **[!UICONTROL Folders]** | <ul><li>[Carpetas de segmento](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Carpetas de características](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
+| **[!UICONTROL Folders]** | <ul><li>[Carpetas de segmento](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Carpetas de rasgos](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [Informes](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
 | **[!UICONTROL Segments]** | <ul><li>[Segmentos ](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Grupos de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[API de borrador del grupo de prueba de segmentos](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
 | **[!UICONTROL Traits]** | [Rasgos ](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
