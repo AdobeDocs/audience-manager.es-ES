@@ -5,9 +5,8 @@ seo-title: Informe de solapamiento entre segmento y rasgo
 solution: Audience Manager
 title: Informe de solapamiento entre segmento y rasgo
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: Overlap Reports
+feature: Informes de superposición
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '832'
@@ -183,9 +182,9 @@ La ventana emergente del informe [!UICONTROL Segment-to-Trait Overlap] contiene 
 >[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
->* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Iconos de informe y herramientas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
->* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
+* [Formas, colores y tamaños utilizados en informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+* [Iconos de informe y herramientas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
+* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
 
