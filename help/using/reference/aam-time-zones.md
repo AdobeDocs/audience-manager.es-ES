@@ -5,9 +5,8 @@ seo-title: Husos horarios en Audience Manager
 solution: Audience Manager
 title: Husos horarios en Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
-feature: Reference
+feature: 'Referencia '
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '105'
