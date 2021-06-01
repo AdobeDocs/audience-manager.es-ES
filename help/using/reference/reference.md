@@ -4,9 +4,8 @@ seo-description: Contiene documentación técnica sobre la funcionalidad del sis
 seo-title: 'Referencia '
 solution: Audience Manager
 title: 'Referencia '
-feature: Reference
+feature: 'Referencia '
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '65'
