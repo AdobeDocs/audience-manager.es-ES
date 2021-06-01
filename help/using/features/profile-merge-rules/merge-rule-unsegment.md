@@ -5,9 +5,8 @@ seo-title: Reglas de combinación de Perfil y procesos de eliminación de la seg
 solution: Audience Manager
 title: Reglas de combinación de Perfil y procesos de eliminación de la segmentación de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-feature: Profile Merge
+feature: Combinación de perfiles
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '505'
@@ -52,5 +51,5 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la secc
 >[!MORELIKETHIS]
 >
 >* [Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos](../../faq/faq-profile-merge.md)
->* [Eliminación instantánea entre dispositivos](instant-cross-device-suppression.md)
+* [Eliminación instantánea entre dispositivos](instant-cross-device-suppression.md)
 
