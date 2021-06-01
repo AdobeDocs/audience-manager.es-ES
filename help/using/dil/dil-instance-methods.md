@@ -6,15 +6,14 @@ seo-title: Métodos DIL de nivel de instancia
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+feature: Implementación del DIL
+exl-id: 0342439d-708e-461c-b155-a3ee423f5437
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 15%
 
 ---
-
 
 # Métodos DIL de nivel de instancia{#instance-level-dil-methods}
 
@@ -539,7 +538,7 @@ Funciona con [!UICONTROL DIL] versiones 2.10 y 3.1 o superiores.
   <tr valign="top"> 
    <td colname="col1"> <code> dpuuid </code> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>El ID exclusivo de proveedor de datos para el usuario. </p> </td> 
+   <td colname="col3"> <p>El ID único de proveedor de datos para el usuario. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> minutesToLive </code> </td> 
@@ -591,7 +590,7 @@ dilInstance.api.aamIdSync({
 });
 </code></pre>
 
-## resultado {#result}
+## result {#result}
 
 Agrega una llamada de retorno (que recibe JSON) a la solicitud pendiente.
 
@@ -723,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
->* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
->* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
->* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
+* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
+* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
