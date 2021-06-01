@@ -4,9 +4,8 @@ seo-description: 'Esta página incluye instrucciones paso a paso sobre cómo com
 seo-title: 'Flujo de trabajo C: personalización basada en Actividad autenticada combinada con datos sin conexión'
 solution: Audience Manager
 title: 'Flujo de trabajo C: personalización basada en Actividad autenticada combinada con datos sin conexión'
-feature: People-based Destinations
+feature: Destinos basados en personas
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '920'
