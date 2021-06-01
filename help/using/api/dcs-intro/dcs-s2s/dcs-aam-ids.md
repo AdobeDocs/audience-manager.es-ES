@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Obtención de ID y regiones de usuario a partir de una respuesta de DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 17%
 
 ---
-
 
 # Obtención de ID y regiones de usuario a partir de una respuesta de DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
