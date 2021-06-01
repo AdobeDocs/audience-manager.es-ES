@@ -5,15 +5,14 @@ seo-title: Módulos DIL
 solution: Audience Manager
 title: Módulos DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+feature: Implementación del DIL
+exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 4%
 
 ---
-
 
 # Módulos DIL{#dil-modules}
 
