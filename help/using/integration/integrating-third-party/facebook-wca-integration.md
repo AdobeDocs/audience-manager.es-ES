@@ -6,7 +6,6 @@ solution: Audience Manager
 title: Integración de WCA de Facebook
 feature: Integración de terceros
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '855'
