@@ -5,15 +5,14 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Implementación del DIL
+exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 78%
+source-wordcount: '542'
+ht-degree: 77%
 
 ---
-
 
 # isCoopSafe{#iscoopsafe}
 
@@ -26,7 +25,7 @@ Para utilizar `isCoopSafe` debe:
 * Utilice [!UICONTROL DIL] v6.11 o superior.
 * Participar en [Device Co-Op de Experience Cloud](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
-* Póngase en contacto con su [!DNL Adobe] consultor para establecer un indicador de lista de permitidos o de lista de bloqueados en su cuenta de Device Co-op. No hay una ruta de autoservicio para habilitar estos indicadores.
+* Póngase en contacto con su consultor de [!DNL Adobe] para establecer un indicador de lista de permitidos o de lista de bloqueados en su cuenta de Device Co-op. No hay una ruta de autoservicio para habilitar estos indicadores.
 
 ## Casos de uso {#use-cases}
 
@@ -42,11 +41,11 @@ Para utilizar `isCoopSafe` debe:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Visitantes autenticados</b> </p> </td> 
-   <td colname="col2"> <p>Añada <code> isCoopSafe </code> a su código <span class="wintitle"> DIL </span> para controlar cómo Device Co-op utiliza los datos de visitantes autenticados que han aceptado o no acuerdos de términos de uso para generar el gráfico del dispositivo. </p> </td> 
+   <td colname="col2"> <p>Agregue <code> isCoopSafe </code> a su código <span class="wintitle"> DIL </span> para controlar cómo Device Co-Op utiliza los datos para los visitantes autenticados que han aceptado o no los acuerdos de condiciones de uso para crear el gráfico de dispositivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL en sitios de terceros</b> </p> </td> 
-   <td colname="col2"> <p>Añada <code> isCoopSafe </code> a su código <span class="wintitle"> DIL </span> para utilizarlo en sitios de terceros donde: </p> <p> 
+   <td colname="col2"> <p>Agregue <code> isCoopSafe </code> a su código <span class="wintitle"> DIL </span> para usarlo en sitios de terceros en los que: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">No puede garantizar que los visitantes autenticados han aceptado o no los acuerdos de condiciones de uso. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Debe controlar cómo Device Co-Op utiliza los datos para crear el gráfico de dispositivos. </li> 
@@ -67,7 +66,7 @@ Las opciones booleanas determinan cómo Device Co-Op utiliza o no los datos de c
 
 **Ejemplo de código**
 
-Establezca esta opción cuando el DIL crea una instancia.
+Establezca esta opción cuando el DIL cree una instancia.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -132,4 +131,3 @@ Estas API permiten sobrescribir el estado de `isCoopSafe`. Son necesarias porque
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
  -->
-
