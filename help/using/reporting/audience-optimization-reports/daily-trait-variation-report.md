@@ -5,9 +5,8 @@ seo-title: Informe de variación del rasgo diario
 solution: Audience Manager
 title: Informe de variación del rasgo diario
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-feature: Audience Optimization Reports
+feature: Informes de optimización de Audiencia
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '776'
