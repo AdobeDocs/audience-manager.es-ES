@@ -5,9 +5,8 @@ seo-title: Sistema de informes de grupo de prueba
 solution: Audience Manager
 title: Sistema de informes de grupo de prueba
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
-feature: Audience Lab
+feature: 'Audience Lab '
 exl-id: 5d959002-e904-44df-87e6-e4c85838b076
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '375'
