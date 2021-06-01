@@ -5,15 +5,14 @@ seo-title: Panel de rasgos
 solution: Audience Manager
 title: Panel de rasgos
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
-feature: Traits
-translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+feature: 'Rasgos '
+exl-id: 752781af-aa67-4978-bd7f-95739dbfcddc
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
 
 ---
-
 
 # Panel de rasgos {#traits-dashboard}
 
