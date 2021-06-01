@@ -1,20 +1,19 @@
 ---
 description: Preguntas frecuentes sobre la introducción de datos sin conexión en Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp o s3;s3 o ftp
 seo-description: Preguntas frecuentes sobre la introducción de datos sin conexión en Audience Manager.
 seo-title: Preguntas frecuentes sobre la incorporación de datos de clientes entrantes
 solution: Audience Manager
 title: Preguntas frecuentes sobre la incorporación de datos de clientes entrantes
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Incorporación de datos sin conexión
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1364'
 ht-degree: 91%
 
 ---
-
 
 # Preguntas frecuentes sobre la incorporación de datos de clientes entrantes {#inbound-customer-data-ingestion-faq}
 
@@ -59,7 +58,7 @@ Consulte [Compresión de archivos de transferencia de datos entrantes](../integr
 
 **¿Puedo cargar un archivo de datos de entrada (archivo [!DNL .sync] o [!DNL .overwrite]) antes de implementar el código de [!DNL Audience Manager] en la producción?**
 
-Sí. Siempre que utilice un [!UICONTROL cross-device data source] para almacenar los datos CRM que cargue, el Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que el Audience Manager inició en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y realizar acciones en ellos sin implementar código de Audience Manager en la producción. Consulte:
+Sí. Siempre que utilice un [!UICONTROL cross-device data source] para almacenar los datos CRM que cargue, el Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que el Audience Manager lanzó en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y actuar sobre ellos sin implementar código de Audience Manager en la producción. Consulte:
 
 * [Información general sobre las mejoras de las reglas de combinación de perfiles](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
 * [!UICONTROL People-based Destinations] -  [Personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
@@ -188,7 +187,7 @@ Las marcas de tiempo se utilizan para el registro y el mantenimiento de registro
 
  
 
-**¿Qué es un  [!DNL Data Provider ID (DPID)] y cómo lo entiendo?**
+**¿Qué es un  [!DNL Data Provider ID (DPID)] y cómo puedo obtenerlo?**
 
 El consultor de Adobe asignará un [DPID de tres o cuatro dígitos (ID del proveedor de datos)](../reference/ids-in-aam.md) a su fuente de datos. Este ID es único y no cambia.
 
@@ -211,7 +210,7 @@ Sí. Consulte:
 
 **La clave principal de mi base de fuente de datos es una dirección de correo electrónico. ¿Esta información se considera personal?**
 
-Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar las sincronizaciones de ID.
+Sí. [!DNL Audience Manager] no almacena direcciones de correo electrónico en su base de datos. A los visitantes se les debe asignar un ID generado aleatoriamente o una versión con hash unidireccional de la dirección de correo electrónico antes de iniciar la sincronización de ID.
 
  
 
@@ -227,7 +226,7 @@ Recomendamos [!DNL Amazon S3] porque el proceso es más sencillo. [!DNL Audience
 
 >[!WARNING]
 >
->Estamos eliminando gradualmente el apoyo a las configuraciones de FTP. Aunque la ingestión de archivos de datos de entrada sigue siendo compatible con integraciones de FTP existentes, recomendamos encarecidamente utilizar [!DNL Amazon S3] para incorporar datos sin conexión para nuevas integraciones. Consulte [Requisitos de nomenclatura y tamaño de archivo de Amazon S3 para archivos de datos entrantes](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obtener más información.
+>Estamos eliminando gradualmente el apoyo a las configuraciones de FTP. Aunque la incorporación de archivos de datos entrantes sigue siendo compatible con integraciones de FTP existentes, recomendamos encarecidamente utilizar [!DNL Amazon S3] para incorporar datos sin conexión en integraciones nuevas. Consulte [Requisitos de nomenclatura y tamaño de archivo de Amazon S3 para archivos de datos entrantes](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obtener más información.
 
  
 
