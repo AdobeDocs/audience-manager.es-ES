@@ -5,9 +5,8 @@ seo-title: Componentes clave en el sistema de Audience Manager
 solution: Audience Manager
 title: Componentes clave en el sistema de Audience Manager
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
-feature: System Components
+feature: 'Componentes del sistema '
 exl-id: a76f4d7d-5dd2-4b29-a97e-039c8f1d765f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '134'
