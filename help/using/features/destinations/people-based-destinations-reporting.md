@@ -4,9 +4,8 @@ seo-description: 'People-Based Destinations presenta la noción de Audiencias co
 seo-title: Audiencias compartibles
 solution: Audience Manager
 title: Audiencias compartibles
-feature: People-based Destinations
+feature: Destinos basados en personas
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '525'
