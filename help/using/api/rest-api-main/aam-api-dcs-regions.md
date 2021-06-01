@@ -1,31 +1,30 @@
 ---
-description: Métodos que permiten la lista mediante programación de regiones DCS Audience Manager.
-seo-description: Métodos que permiten la lista mediante programación de regiones DCS Audience Manager.
+description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
+seo-description: Métodos que le permiten enumerar mediante programación regiones de DCS de Audience Manager.
 seo-title: Métodos de API de región DCS
 solution: Audience Manager
 title: Métodos de API de región DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 15%
 
 ---
 
-
 # Métodos de API de región DCS {#dcs-region-api-methods}
 
-Métodos que le permiten lista mediante programación de regiones [!DNL DCS] Audience Manager.
+Métodos que le permiten enumerar mediante programación regiones de Audience Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 
-Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus enteros correspondientes, consulte [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Lista de una región específica de DCS {#list-specific-dcs-region}
 
-Un método `GET` para la lista de una región [!DNL DCS] específica.
+Un método `GET` para enumerar una región [!DNL DCS] específica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,11 +50,11 @@ Un método `GET` para la lista de una región [!DNL DCS] específica.
 
 Devuelve `200 OK` si se realiza correctamente.
 
-Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus enteros correspondientes, consulte [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Regiones DCS de lista {#list-dcs-regions}
+## Lista de regiones DCS {#list-dcs-regions}
 
-Un método `GET` para lista de regiones [!DNL DCS].
+Un método `GET` para enumerar regiones [!DNL DCS].
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -84,4 +83,4 @@ Un método `GET` para lista de regiones [!DNL DCS].
 
 Devuelve `200 OK` si se realiza correctamente.
 
-Para obtener una lista de regiones y sus correspondientes enteros, consulte [ID de región de DCS, ubicaciones y nombres de host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Para obtener una lista de regiones y sus enteros correspondientes, consulte [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
