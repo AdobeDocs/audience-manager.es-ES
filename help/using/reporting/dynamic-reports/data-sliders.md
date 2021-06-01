@@ -5,9 +5,8 @@ seo-title: Filtrar los resultados del informe con las barras de desplazamiento d
 solution: Audience Manager
 title: Filtrar los resultados del informe con las barras de desplazamiento de datos
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: Reporting Reference
+feature: Referencia de informes
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '176'
