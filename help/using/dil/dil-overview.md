@@ -8,7 +8,6 @@ title: Explicación de la biblioteca de integración de datos (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: Implementación del DIL
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '496'
