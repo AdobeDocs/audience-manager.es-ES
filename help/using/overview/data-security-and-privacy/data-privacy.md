@@ -5,9 +5,8 @@ seo-title: Información general sobre la privacidad de datos
 solution: Audience Manager
 title: Información general sobre la privacidad de datos
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: Data Governance & Privacy
+feature: Administración de datos y privacidad
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '489'
