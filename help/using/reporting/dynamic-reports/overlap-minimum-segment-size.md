@@ -5,9 +5,8 @@ seo-title: Informes de superposición Actualizar programación y tamaño mínimo
 solution: Audience Manager
 title: Informes de superposición Actualizar programación y tamaño mínimo del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: Overlap Reports
+feature: Informes de superposición
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '355'
@@ -54,6 +53,6 @@ Si no ve un segmento en uno de los informes [!UICONTROL Overlap], puede deberse 
 >[!MORELIKETHIS]
 >
 >* [Informe de solapamiento entre rasgos](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Informe de solapamiento entre segmento y rasgo](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
->* [Informe de solapamiento entre segmentos](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
+* [Informe de solapamiento entre segmento y rasgo](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+* [Informe de solapamiento entre segmentos](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
