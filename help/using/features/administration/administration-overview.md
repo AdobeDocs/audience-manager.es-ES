@@ -6,9 +6,8 @@ seo-title: Administración
 solution: Audience Manager
 title: Administración
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: Administración
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1204'
@@ -16,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# [!UICONTROL Administration] (Controles RBAC)  {#administration}
+# [!UICONTROL Administration] (Controles RBAC) {#administration}
 
 ![](assets/rbac-controls.png)
 
