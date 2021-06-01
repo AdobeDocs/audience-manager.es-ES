@@ -5,9 +5,8 @@ seo-title: CID sustituye DPID y DPUUID
 solution: Audience Manager
 title: CID sustituye DPID y DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
-feature: Reference
+feature: 'Referencia '
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '667'
