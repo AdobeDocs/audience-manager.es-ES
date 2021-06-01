@@ -6,15 +6,14 @@ solution: Audience Manager
 title: Límites de uso
 keywords: Asignación de ID, asignaciones de ID, asignaciones de cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Usage and Billing
-translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+feature: Uso y facturación
+exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 6%
 
 ---
-
 
 # Límites de uso {#usage-limits}
 
