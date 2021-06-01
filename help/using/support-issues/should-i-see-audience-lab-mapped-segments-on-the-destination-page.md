@@ -4,9 +4,8 @@ seo-description: Por qué los segmentos asignados a Audience Lab no aparecerán 
 seo-title: Por qué los segmentos asignados a Audience Lab no aparecerán en la página de detalles de destino.
 solution: Audience Manager
 title: ¿Debería ver los segmentos asignados por Audience Lab en la página de detalles de destino?
-feature: Support
+feature: Asistencia
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
