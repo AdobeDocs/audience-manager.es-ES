@@ -5,8 +5,7 @@ seo-title: Proceso de transferencia de datos en tiempo real descrito
 solution: Audience Manager
 title: Proceso de transferencia de datos en tiempo real descrito
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Inbound Data Transfers
-translation-type: tm+mt
+feature: Transferencias de datos de entrada
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '192'
