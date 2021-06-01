@@ -5,9 +5,8 @@ seo-title: Definición de las opciones de las reglas de combinación de perfiles
 solution: Audience Manager
 title: Definición de las opciones de las reglas de combinación de perfiles.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge
+feature: Combinación de perfiles
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1031'
@@ -23,7 +22,7 @@ Para crear un [!UICONTROL Profile Merge Rule], realice una selección entre las 
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule] Información general de opciones  {#overview}
+## [!UICONTROL Profile Merge Rule] Información general de opciones {#overview}
 
 [!UICONTROL Profile Merge Rules] permiten una serie de combinaciones de reglas, cada una orientada a casos de uso específicos. Consulte la siguiente tabla para obtener más información sobre cuándo utilizar cada combinación de reglas.
 
@@ -39,7 +38,7 @@ Para crear un [!UICONTROL Profile Merge Rule], realice una selección entre las 
 
 ## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluación  {#segment-evaluation}
 
-Según la configuración de [!UICONTROL Profile Merge Rules], [!DNL Audience Manager] puede realizar la evaluación [!UICONTROL segment] en tiempo real, en lote o ambas cosas.
+Según la configuración de [!UICONTROL Profile Merge Rules], [!DNL Audience Manager] puede realizar la evaluación [!UICONTROL segment] en tiempo real, en lote o ambos.
 
 * La evaluación en tiempo real [!UICONTROL segment] requiere [!DNL DCS] para ver a los visitantes acceder a sus propiedades digitales en tiempo real y cumplir los requisitos para [!UICONTROL segment].
 * La evaluación del lote [!UICONTROL segment] se realiza frente a [!UICONTROL traits] previamente cualificados.
