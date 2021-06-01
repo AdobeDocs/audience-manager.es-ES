@@ -5,9 +5,8 @@ seo-title: Métodos de envío para archivos de metadatos
 solution: Audience Manager
 title: Métodos de envío para archivos de metadatos
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: Log Files
+feature: Archivos de registro
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '391'
@@ -23,7 +22,7 @@ Envíe o actualice archivos de metadatos enviándolos a un directorio especial [
 >
 > Póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para empezar y configurar un directorio [!DNL Amazon S3] para sus archivos de metadatos.
 
-## Ejemplo y sintaxis de ruta de entrega {#syntax}
+## Ejemplo y sintaxis de la ruta de entrega {#syntax}
 
 Los datos se almacenan en un espacio de nombres independiente para cada cliente en un directorio [!DNL Amazon S3]. La ruta del archivo sigue la sintaxis que se muestra a continuación. Tenga en cuenta que los corchetes de ángulo `<>` indican un marcador de posición de variable. Los demás elementos son constantes y no cambian.
 
