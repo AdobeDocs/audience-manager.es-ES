@@ -4,9 +4,8 @@ seo-description: Esta sección incluye los principales problemas notificados al 
 seo-title: Información general sobre problemas técnicos
 solution: Audience Manager
 title: Información general sobre problemas técnicos
-feature: Support
+feature: Asistencia
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '118'
@@ -22,4 +21,4 @@ Esta sección incluye los principales problemas notificados al Servicio de atenc
 * [¿Por qué no aparecen mis rasgos o segmentos en la página Informes de superposición?](why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
 * [¿Por qué nuestros usuarios de solo lectura pueden crear, editar o eliminar rasgos y segmentos?](aam-read-only-users-create-delete-traits-segments.md)
 * [No somos clientes de Audience Manager, pero vemos las llamadas de Javascript de Audience Manager en nuestra página web](not-using-aam-but-seeing-aam-javascript.md)
-* [¿Debería ver los segmentos asignados por Audience Lab en la página de detalles de destino? ](should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+* [¿Debería ver los segmentos asignados por Audience Lab en la página de detalles de destino?](should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
