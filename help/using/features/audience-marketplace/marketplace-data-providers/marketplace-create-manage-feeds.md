@@ -7,7 +7,6 @@ title: Crear, cotizar y administrar fuentes de datos
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1306'
