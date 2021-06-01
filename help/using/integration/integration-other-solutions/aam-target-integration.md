@@ -5,9 +5,8 @@ seo-title: Integrar Audience Manager con Target
 solution: Audience Manager
 title: Integrar Audience Manager con Target
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
-feature: Adobe Target Integration
+feature: Integración de Adobe Target
 exl-id: a8486778-305a-4f09-a4f8-0e412369228c
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '157'
