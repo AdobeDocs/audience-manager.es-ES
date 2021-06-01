@@ -5,9 +5,8 @@ seo-title: Información general y asignaciones para archivos de metadatos
 solution: Audience Manager
 title: Información general y asignaciones para archivos de metadatos
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: Log Files
+feature: Archivos de registro
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '843'
@@ -143,6 +142,6 @@ Después de asignar un nombre a un archivo y agregar datos a él, se envía a un
 >[!MORELIKETHIS]
 >
 >* [Archivos de datos para informes de Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Captura de los datos de campaña por clic a través de Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
->* [Captura de los datos de impresión de campaña a través de Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
+* [Captura de los datos de campaña por clic a través de Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
+* [Captura de los datos de impresión de campaña a través de Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
 
