@@ -4,9 +4,8 @@ seo-description: Esta página muestra las integraciones personalizadas entre Aud
 seo-title: Integraciones de socios personalizadas
 solution: Audience Manager
 title: Integraciones de socios personalizadas
-feature: Third-party Integration
+feature: Integración de terceros
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '286'
