@@ -1,21 +1,20 @@
 ---
 title: 'Métodos y código de la API del servidor de recopilación de datos (DCS) '
 seo-title: Métodos y código de la API del servidor de recopilación de datos (DCS) para Adobe Audience Manager (AAM)
-description: Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos de Audience Manager (DCS).
-seo-description: Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos de Audience Manager (DCS).
+description: Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos (DCS) del Audience Manager.
+seo-description: Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos (DCS) del Audience Manager.
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 38%
 
 ---
 
-
 # Métodos y código de la API del servidor de recopilación de datos (DCS) 
 
-Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos de Audience Manager (DCS).
+Código, métodos y técnicas que le permiten trabajar mediante programación con los servidores de recopilación de datos (DCS) del Audience Manager.
 
 * [API de llamadas de Evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
@@ -27,4 +26,4 @@ Código, métodos y técnicas que le permiten trabajar mediante programación co
 
 * [Referencia de API de DCS ](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Información conceptual, descripciones y definiciones para el código, los métodos y los procesos de la API de DCS.
+   Información conceptual, descripciones y definiciones del código, los métodos y los procesos de la API de DCS.
