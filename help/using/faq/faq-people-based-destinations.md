@@ -4,9 +4,8 @@ seo-description: 'Respuestas a preguntas frecuentes sobre People-Based Destinati
 seo-title: Preguntas frecuentes sobre People-Based Destinations
 solution: Audience Manager
 title: Preguntas frecuentes sobre People-Based Destinations
-feature: People-based Destinations
+feature: Destinos basados en personas
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1171'
