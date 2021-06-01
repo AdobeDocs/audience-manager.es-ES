@@ -5,9 +5,8 @@ seo-title: Casos de uso de Device Graph de enlace de Perfil
 solution: Audience Manager
 title: Casos de uso de Device Graph de enlace de Perfil
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Profile Merge
+feature: Combinación de perfiles
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '327'
@@ -19,7 +18,7 @@ ht-degree: 9%
 
 Recommendations y casos de uso para la reorientación de segmentos y la calificación de segmentos personalizada con [!UICONTROL Profile Link Device Graph].
 
-## Recomendaciones {#recommendations}
+## Las actividades de {#recommendations}
 
 Considere el gráfico de dispositivos [!UICONTROL Profile Link] para campañas que:
 
@@ -50,6 +49,6 @@ Este [!UICONTROL Profile Merge Rule] permite a los especialistas en marketing of
 >[!MORELIKETHIS]
 >
 >* [Ejemplos de uso de los Gráficos de dispositivos externos](external-graph-use-cases.md)
->* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
->* [Preguntas frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
+* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
+* [Preguntas frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 
