@@ -5,9 +5,8 @@ seo-title: Editar la configuración de la cuenta
 solution: Audience Manager
 title: Editar la configuración de la cuenta
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
-feature: Administration
+feature: Administración
 exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '188'
