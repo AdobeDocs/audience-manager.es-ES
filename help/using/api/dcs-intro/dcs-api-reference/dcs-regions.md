@@ -1,23 +1,22 @@
 ---
-description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
-seo-description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
+description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con su nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
+seo-description: El nombre de host del servidor DCS regional es necesario para realizar llamadas al DCS. Esto se debe a que el DCS almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía al DCS incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud de DCS, combine el ID de región con su nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
 seo-title: ID de región de DCS, ubicaciones y nombres de host
 solution: Audience Manager
 title: ID de región de DCS, ubicaciones y nombres de host
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 9%
 
 ---
 
-
 # ID de región de DCS, ubicaciones y nombres de host {#dcs-region-ids-locations-and-host-names}
 
-El nombre de host del servidor [!DNL DCS] regional es necesario para realizar llamadas al [!DNL DCS]. Esto se debe a que [!DNL DCS] almacena información en los centros de datos que están geográficamente cerca de los visitantes del sitio. Sus consultas funcionarán si las envía a un [!DNL DCS] incorrecto, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud [!DNL DCS], haga coincidir el ID de región con el nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
+El nombre de host del servidor [!DNL DCS] regional es necesario para realizar llamadas al [!DNL DCS]. Esto se debe a que [!DNL DCS] almacena información en centros de datos geográficamente cercanos a los visitantes del sitio. Sus consultas funcionarán si las envía a los [!DNL DCS] incorrectos, pero estas llamadas son ineficientes y pueden retrasar la respuesta. Para realizar una solicitud [!DNL DCS], combine el ID de región con su nombre de host regional correspondiente y forme la consulta con el nombre de host adecuado.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -55,7 +54,7 @@ El nombre de host del servidor [!DNL DCS] regional es necesario para realizar ll
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID9 </p> </td> 
-   <td colname="col2"> <p>Oeste de EE.UU. (Oregón, EE.UU.) </p> </td> 
+   <td colname="col2"> <p>US West (Oregón, EE.UU.) </p> </td> 
    <td colname="col3"> <p> <code> usw2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
