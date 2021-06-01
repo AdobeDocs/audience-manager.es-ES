@@ -5,9 +5,8 @@ seo-title: Optimización de Audiencias para anunciantes
 solution: Audience Manager
 title: Optimización de Audiencias para anunciantes
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-feature: Audience Optimization Reports
+feature: Informes de optimización de Audiencia
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -27,7 +26,7 @@ Puede enviar datos a [!DNL Audience Manager] para usarlos en estos informes medi
 
 * Archivos de datos: Si desea utilizar estos informes para analizar sus propios datos o datos desde un origen que no esté integrado con [!DNL Audience Manager], debe crear y cargar archivos de datos y metadatos para esos datos. Para obtener más información, consulte [Archivos de datos para informes de Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) y [Archivos de datos y metadatos para informes de Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
-## [!UICONTROL Role-Based Access Controls] (RBAC)  {#rbac}
+## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 
 El tipo de informes que puede ver depende del grupo [!UICONTROL RBAC] al que esté asignado. Consulte [Administración](../../../features/administration/administration-overview.md) y [Crear un grupo](../../../features/administration/administration-overview.md#create-group) para obtener más información.
 
