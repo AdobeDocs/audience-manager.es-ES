@@ -7,7 +7,6 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, compartir segmentos
 feature: Integración de plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-translation-type: tm+mt
 source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
 source-wordcount: '1465'
