@@ -4,9 +4,8 @@ seo-description: La eliminación instantánea entre dispositivos corresponde a l
 seo-title: Eliminación instantánea entre dispositivos
 title: Eliminación instantánea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: Profile Merge
+feature: Combinación de perfiles
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '831'
