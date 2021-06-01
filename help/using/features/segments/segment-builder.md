@@ -5,15 +5,14 @@ seo-title: Generador de segmentos
 solution: Audience Manager
 title: Generador de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
-translation-type: tm+mt
-source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
+feature: 'Segmentos '
+exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Segment Builder] {#segment-builder}
 
@@ -21,7 +20,7 @@ Describe los pasos opcionales y requeridos para crear un segmento en [!UICONTROL
 
 ## Demostración en vídeo
 
-Comience por ver el [Crear segmentos en el vídeo](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4) de Audience Manager. El vídeo lo acompaña durante el proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
+Comience por ver el [Create Segments in Audience Manager video](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). El vídeo lo acompaña durante el proceso de creación de segmentos. Lea las secciones siguientes para obtener más información.
 
 ## Cree un [!UICONTROL Segment] {#create-segment}
 
@@ -37,7 +36,7 @@ Comience por ver el [Crear segmentos en el vídeo](https://images-tv.adobe.com/a
 
    * Asigne un nombre a [!UICONTROL segment]. La longitud máxima de un nombre [!UICONTROL segment] es de 255 caracteres.
    * Establezca el estado [!UICONTROL segment] (activo es el valor predeterminado).
-   * Elija un [!UICONTROL data source]. Utilice el primer menú desplegable para filtrar entre Audience Manager [!UICONTROL data sources], los grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir su [!UICONTROL data source]. Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo [!UICONTROL data source] se deshabilita y solo se toma como valor predeterminado las fuentes de datos de Audience Manager.
+   * Elija un [!UICONTROL data source]. Utilice el primer menú desplegable para filtrar entre el Audience Manager [!UICONTROL data sources], los grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir su [!UICONTROL data source]. Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo [!UICONTROL data source] está desactivado y solo se asigna de forma predeterminada a las fuentes de datos del Audience Manager.
    * Seleccione un [!UICONTROL profile merge rule] para usar con la calificación [!UICONTROL segment].
    * Asigne el [!UICONTROL segment] a una carpeta de almacenamiento.
 
@@ -115,7 +114,7 @@ En [!UICONTROL Segment Builder], la configuración [!UICONTROL the Basic Informa
 | **[!UICONTROL Name]** | Asigne un nombre corto y lógico al segmento que describa su función o propósito. Evite abreviaciones y caracteres especiales. La longitud máxima de un nombre de segmento es de 255 caracteres. |
 | **[!UICONTROL Description]** | Campo para obtener información descriptiva adicional sobre el segmento. |
 | **[!UICONTROL Integration Code]** | Campo para un ID definido por el usuario u otra información específica de la empresa. |
-| **[!UICONTROL Data Source]** | Asocia el segmento a un proveedor de datos específico. <br> Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de los datos. <br> Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se deshabilita y se establece de forma predeterminada únicamente en las fuentes de datos de Audience Manager. |
+| **[!UICONTROL Data Source]** | Asocia el segmento a un proveedor de datos específico. <br> Utilice el primer menú desplegable para filtrar entre fuentes de datos de Audience Manager, grupos de informes de Adobe Analytics o ambos. A continuación, utilice el segundo menú desplegable para elegir el origen de los datos. <br> Si no utiliza grupos de informes de Adobe Analytics, el selector de tipo de fuente de datos se deshabilita y, de forma predeterminada, solo se usa como fuentes de datos de Audience Manager. |
 | **[!UICONTROL Profile Merge Rule]** | Selecciona la regla de combinación de perfiles que se utilizará para la calificación de segmentos. |
 | **[!UICONTROL Status]** | Activa o desactiva el segmento (activo de forma predeterminada). |
 | **Almacenamiento de carpetas** | Determina a qué carpeta de almacenamiento pertenece el segmento. |
@@ -133,8 +132,8 @@ En [!UICONTROL Segment Builder], la sección [!UICONTROL Traits] permite adminis
 | **[!UICONTROL Basic View]** | Esta sección proporciona controles visuales que le permiten: <ul><li>Cree nuevos y administre los [!UICONTROL segments] existentes.</li><li>Elimine [!UICONTROL traits] de un [!UICONTROL segment].</li><li>Agregue hasta 50 (máximo) [!UICONTROL traits] a [!UICONTROL segment].</li><li>Arrastre y suelte [!UICONTROL traits] para crear nuevos grupos.</li><li>Ver grupos [!UICONTROL traits] y [!UICONTROL trait] en un [!UICONTROL segment].</li><li>Establezca criterios de calificación con expresiones booleanas, operadores de comparación y ajustes de actualización/frecuencia.</li></ul> |
 | **[!UICONTROL Code View]** | Abre un entorno de desarrollo que le permite crear y administrar [!UICONTROL traits], grupos y requisitos de calificación con código en lugar de con la interfaz visual. La vista de código es útil si su [!UICONTROL segments]: <ul><li>Contiene más de 50 [!UICONTROL traits] en un [!UICONTROL segment] individual. Nota: [!UICONTROL Segments] están limitados a 5000 [!UICONTROL traits] (máximo).</li><li>Contiene muchos grupos [!UICONTROL trait].</li><li>Tienen requisitos de calificación complejos.</li></ul> |
 | Buscar | Ayuda a encontrar [!UICONTROL traits] para agregarlo a [!UICONTROL segment]. |
-| Las actividades de | Obtenga recomendaciones activas para fuentes de datos similares [!UICONTROL traits], de [!UICONTROL traits] y [!UICONTROL Audience Marketplace] de origen a las que está suscrito. Agregue estas recomendaciones a la regla [!UICONTROL segment] para ampliar la audiencia. Obtenga más información en [Recomendaciones de características](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Obtenga recomendaciones activas para fuentes de datos similares [!UICONTROL traits] de [!UICONTROL Audience Marketplace] a las que no está suscrito. Obtenga más información en [Recomendaciones de características](trait-recommendations.md). |
+| Las actividades de | Obtenga recomendaciones activas para fuentes de datos similares [!UICONTROL traits], de [!UICONTROL traits] y [!UICONTROL Audience Marketplace] de origen a las que está suscrito. Agregue estas recomendaciones a la regla [!UICONTROL segment] para ampliar la audiencia. Obtenga más información en [Trait Recommendations](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Obtenga recomendaciones activas para fuentes de datos similares [!UICONTROL traits] de [!UICONTROL Audience Marketplace] a las que no está suscrito. Obtenga más información en [Trait Recommendations](trait-recommendations.md). |
 | Datos de tamaño [!UICONTROL Segment] reales y estimados | Consulte [Datos de tamaño de segmentos y rasgos en el Generador de segmentos](segment-builder-data.md) |
 
 ## Eliminar [!UICONTROL Traits] de un [!UICONTROL Segment] {#remove-traits}
@@ -198,5 +197,5 @@ En el campo [!UICONTROL Destination Value] especifique el valor (parte de un par
 >[!MORELIKETHIS]
 >
 >* [Crear un destino de cookie](../../features/destinations/create-cookie-destination.md)
->* [Crear un destino de URL](../../features/destinations/create-url-destination.md)
+* [Crear un destino de URL](../../features/destinations/create-url-destination.md)
 
