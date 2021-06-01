@@ -5,14 +5,13 @@ title: Realización de llamadas de API de DCS de servidor a servidor
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 description: Ejemplo de sintaxis de llamada y parámetros al realizar llamadas de API de DCS de servidor a servidor
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 9%
 
 ---
-
 
 # Realización de llamadas de API de DCS de servidor a servidor {#making-server-to-server-dcs-api-calls}
 
