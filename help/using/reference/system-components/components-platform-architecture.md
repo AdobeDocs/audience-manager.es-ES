@@ -5,9 +5,8 @@ seo-title: Mapa del flujo de datos de la arquitectura de plataforma
 solution: Audience Manager
 title: Mapa del flujo de datos de la arquitectura de plataforma
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-feature: System Components
+feature: 'Componentes del sistema '
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '199'
