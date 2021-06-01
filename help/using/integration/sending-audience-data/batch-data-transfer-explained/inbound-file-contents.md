@@ -5,9 +5,8 @@ seo-title: Sintaxis del contenido del archivo de datos de entrada, caracteres no
 solution: Audience Manager
 title: Sintaxis del contenido del archivo de datos de entrada, caracteres no válidos, variables y ejemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Inbound Data Transfers
+feature: Transferencias de datos de entrada
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1196'
@@ -324,7 +323,7 @@ o
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Ejemplo 4 {#example-4}
+### Ejemplo 5 {#example-4}
 
 Utilice el prefijo `ic` para enviar la información de calificación [!UICONTROL trait] para [!DNL Audience Manager] [!DNL UUIDs].
 
@@ -338,7 +337,7 @@ o
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Ejemplo 5 {#example-5}
+### Ejemplo 4 {#example-5}
 
 Utilice [!UICONTROL trait IDs] para enviar la información de calificación [!UICONTROL trait] para dispositivos [!DNL Android].
 
