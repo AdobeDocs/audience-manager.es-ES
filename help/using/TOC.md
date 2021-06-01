@@ -5,7 +5,6 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Descubra cómo Audience Manager le permite recopilar información relevante desde el punto de vista comercial sobre los visitantes del sitio, crear segmentos comercializables y ofrecer contenido y publicidad segmentada a la audiencia adecuada.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -95,7 +94,7 @@ ht-degree: 91%
    + [ID declarados](features/declared-ids.md)
    + [Señales derivadas](features/derived-signals.md)
    + Destinos {#destinations}
-      + [Información general sobre los destinos](features/destinations/destinations.md)
+      + [Información general sobre destinos](features/destinations/destinations.md)
       + [Página de inicio de destinos](features/destinations/destinations-home.md)
       + Destinos de Adobe Experience Cloud {#experience-cloud-destinations}
          + [Configuración de un destino de Analytics](features/destinations/create-analytics-destination.md)
@@ -128,7 +127,7 @@ ht-degree: 91%
       + [Información general sobre las reglas de combinación de Perfiles](features/profile-merge-rules/merge-rules-overview.md)
       + [Introducción a las reglas de combinación de Perfiles](features/profile-merge-rules/merge-rules-start.md)
       + [Panel de reglas de combinación de Perfiles](features/profile-merge-rules/merge-rules-dashboard.md)
-      + [Definición de las opciones de las reglas de combinación de perfiles](features/profile-merge-rules/merge-rule-definitions.md).
+      + [Definición de las opciones de las reglas de combinación de perfiles.](features/profile-merge-rules/merge-rule-definitions.md)
       + [Casos generales de uso de las reglas de combinación de Perfiles](features/profile-merge-rules/merge-rule-targeting-options.md)
       + [Casos de uso de Device Graph de enlace de Perfil](features/profile-merge-rules/profile-link-use-case.md)
       + [Ejemplos de uso de los Gráficos de dispositivos externos](features/profile-merge-rules/external-graph-use-cases.md)
@@ -403,7 +402,7 @@ ht-degree: 91%
    + [Contacto e información legal](/help/using/help-legal/help-legal-contact.md)
 + Principales problemas de asistencia al cliente {#top-support-issues}
    + [Información general](/help/using/support-issues/support-issues-overview.md)
-   + [¿Por qué las poblaciones de rasgos integradas cayeron a 0 hacia el 15 de octubre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [¿Por qué las poblaciones de rasgos integradas cayeron a 0 en torno al 15 de octubre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [¿Por qué no aparecen mis rasgos o segmentos en la página Informes de superposición?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [¿Por qué nuestros usuarios de solo lectura pueden crear, editar o eliminar rasgos y segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [No somos clientes de Audience Manager, pero vemos las llamadas de Javascript de Audience Manager en nuestra página web](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
