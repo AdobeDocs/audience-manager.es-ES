@@ -8,7 +8,6 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; Dirección SFTP; Dirección IP de STFP; Dirección FTP
 feature: Administración
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '1159'
