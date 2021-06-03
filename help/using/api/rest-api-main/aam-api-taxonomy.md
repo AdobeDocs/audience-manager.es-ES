@@ -1,29 +1,28 @@
 ---
-description: Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
-seo-description: Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
+description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
+seo-description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
 seo-title: Métodos taxonómicos API
 solution: Audience Manager
 title: Métodos taxonómicos API
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 8%
 
 ---
 
-
 # Métodos taxonómicos API {#taxonomic-api-methods}
 
-Métodos que permiten la vista de la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza las características en categorías estándar de la industria.
+Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->No puede crear nuevas categorías taxonómicas ni clasificar características con estos métodos. Para clasificar una característica, especifique el `categoryId` apropiado con un método de creación o actualización de características.
+>No se pueden crear nuevas categorías taxonómicas ni clasificar características con estos métodos. Para clasificar un rasgo, especifique el `categoryId` apropiado con un método de creación o actualización de rasgos.
 
 ## Devolver una taxonomía específica {#return-specific-taxonomy}
 
@@ -37,7 +36,7 @@ Un método `GET` que devuelve detalles sobre la categoría taxonómica especific
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devuelve `404 No Content` si el ID no existe.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devolverá `404 No Content` si el ID no existe.
 
 ```
 {
@@ -50,9 +49,9 @@ Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Un
 }
 ```
 
-## Devolver todas las Categorías taxonómicas {#return-all-taxonomy-categories}
+## Devolver todas las categorías taxonómicas {#return-all-taxonomy-categories}
 
-Un método `GET` que devuelve una lista de las categorías de nivel superior de una matriz.
+Método `GET` que devuelve una lista de las categorías de nivel superior de una matriz.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -93,9 +92,9 @@ Truncado para la brevedad.
 ]
 ```
 
-## Devolver subCategorías taxonómicas {#return-taxonomy-sub-categories}
+## Subcategorías taxonómicas de retorno {#return-taxonomy-sub-categories}
 
-Un método `GET` que devuelve subcategorías para la categoría principal especificada en una matriz.
+Método `GET` que devuelve subcategorías para la categoría principal especificada en una matriz.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +104,7 @@ Un método `GET` que devuelve subcategorías para la categoría principal especi
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devuelve `404 No Content` si el ID no existe. Truncado para la brevedad.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devolverá `404 No Content` si el ID no existe. Truncado para la brevedad.
 
 ```
 [
