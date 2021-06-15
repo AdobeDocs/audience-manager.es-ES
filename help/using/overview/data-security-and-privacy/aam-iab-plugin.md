@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Complemento de Audience Manager para el TCF de IAB
 feature: Administración de datos y privacidad
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
@@ -75,7 +75,7 @@ Debe cumplir los siguientes requisitos previos para utilizar el complemento Audi
 
 Para habilitar la asistencia TCF de IAB en Audience Manager, consulte nuestra documentación sobre [cómo configurar IAB con inclusión](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-La forma más sencilla de hacerlo es mediante [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) para agregar [!DNL ECID Opt-in] a sus propiedades. Lea la documentación para la [extensión de inclusión de ECID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) para saber cómo se configura la extensión de Launch.
+La forma más sencilla de hacerlo es mediante [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) para agregar [!DNL ECID Opt-in] a sus propiedades. Lea la documentación para la [extensión de inclusión de ECID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) para saber cómo se configura la extensión de Launch.
 
 ## Flujo de trabajo de opciones de usuario si se utiliza el marco de trabajo IAB {#user-choice-workflow}
 
