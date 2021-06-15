@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 'Flujo de trabajo B: personalización basada en datos solo sin conexión'
 feature: Destinos basados en personas
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Independientemente de si los ID de cliente de Audience Manager existentes ([DPUU
 
 ### Ejemplo
 
-Desea clasificar los ID de cliente de la siguiente tabla para los ID de rasgo incorporados correspondientes. Consideremos que sus [DPUUIDs](../../reference/ids-in-aam.md) se almacenan en una fuente de datos con el ID 999999, y que su ID de socio Audience Manager es 123.
+Desea clasificar los ID de cliente de la siguiente tabla para los ID de rasgo incorporados correspondientes. Consideremos que sus [DPUUIDs](../../reference/ids-in-aam.md) se almacenan en una fuente de datos con el ID 999999, y que su ID de fuente de datos de Audience Manager es 123.
 
 | ID de cliente (DPUUID) | ID de rasgo incorporado |
 | -------------------------------------- | ------------------- |
