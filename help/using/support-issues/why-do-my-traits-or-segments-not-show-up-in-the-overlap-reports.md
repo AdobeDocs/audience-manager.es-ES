@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ¿Por qué no aparecen mis rasgos o segmentos en la página Informes de superposición?
 feature: Asistencia
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -28,4 +28,4 @@ Se debe cumplir un requisito de visitante único mínimo para que un rasgo o seg
 * Para rasgos: 28 000 en un periodo de 14 días
 * Para segmentos: 70 000 usuarios en tiempo real durante un periodo de 14 días
 
-Encontrará más detalles sobre esto en la página [Muestreo de datos y tasas de error en los informes seleccionados de Audience Manager](..//reporting/report-sampling.md).
+Encontrará más detalles sobre esto en la página [Muestreo de datos y tasas de error en los informes seleccionados de Audience Manager](../reporting/report-sampling.md).
