@@ -8,7 +8,7 @@ title: Audiencias a las que se puede dirigir
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Combinar tasas
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ La función [!UICONTROL Addressable Audience] convierte este concepto abstracto 
 Las tres métricas que puede ver en la página de aterrizaje [!UICONTROL Addressable Audiences] representan:
 
 | Métrica | Descripción |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Esta métrica representa el [!UICONTROL Customer Addressable Audience] (descrito en la tabla anterior) *durante los últimos 30 días.* |
 | **[!UICONTROL Match Rate]** | Esta métrica representa el [!UICONTROL Addressable Audience Match Rate] (descrito en la tabla anterior) *para los últimos 30 días*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Recuento de todos los dispositivos que han interactuado con todos los clientes [!DNL Audience Manager] a nivel de plataforma durante el período retrospectivo del informe y que podrían coincidir con este [!UICONTROL destination]. Consulte [Métricas de nivel de plataforma](/help/using/features/addressable-audiences.md#platform-level-metrics) para obtener más información. |
