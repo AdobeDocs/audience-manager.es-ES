@@ -8,7 +8,7 @@ title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Archivos de registro
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 3%
@@ -142,7 +142,7 @@ La tabla enumera las señales procesables de los archivos de registro [!DNL Goog
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>El ID de la fuente de datos que se utiliza para capturar datos de Google Campaign Manager. Consulte <a href="../../features/manage-datasources.md#create-data-source"> Cómo crear una fuente de datos</a>. </p> </td> 
+   <td colname="col3"> <p>El ID de la fuente de datos que utiliza para capturar datos de Google Campaign Manager. Consulte <a href="../../features/manage-datasources.md#create-data-source"> Cómo crear una fuente de datos</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
@@ -176,7 +176,7 @@ La tabla enumera las señales procesables de los archivos de registro [!DNL Goog
 
 
 | Nombre de encabezado en archivo de registro | Señal | Descripción |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | El ID numérico del elemento de línea del Administrador de publicidad enviado |
 | `OrderId` | `d_orderid` | El ID numérico del orden del Administrador de publicidad que contenía el elemento de línea y el elemento creativo entregados. |
 | `CreativeId` | `d_creative` | El ID numérico para el creativo del administrador de publicidad entregado. |
