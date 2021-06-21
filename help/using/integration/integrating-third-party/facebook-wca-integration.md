@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Integración de WCA de Facebook
 feature: Integración de terceros
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -68,7 +68,7 @@ Ejemplo de píxel activado desde la página. Este ejemplo muestra un usuario que
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | Parámetro | Descripción |
----------|----------|
+|---------|----------|
 | `id` | Su ID de píxel [!DNL Facebook], que puede encontrar en la interfaz de usuario [!DNL Facebook Ad Manager] al crear píxeles de audiencia. |
 | `ev` | Event.     Se trata de un valor arbitrario que aparecerá en la interfaz de usuario [!DNL Facebook Ad Manager] una vez que el píxel empiece a activarse en el sitio. Consulte el elemento [!UICONTROL Include] en [Paso 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) para obtener más información. |
 | `cd[segID]` | Un parámetro adicional, que empezará a rellenarse en la interfaz de usuario [!DNL Facebook Ad Manager] una vez que el píxel empiece a activarse en el sitio. `segID` también es arbitrario. |
@@ -91,7 +91,7 @@ Introduzca una fecha de finalización si corresponde; de lo contrario, deje en b
 Consulte [Crear una audiencia personalizada de sitio web](https://www.facebook.com/business/help/666509013483225) en la documentación de ayuda de [!DNL Facebook]. Seleccione las opciones de [!UICONTROL Create Audience] en la siguiente tabla:
 
 | Elemento | Descripción |
----------|----------|
+|---------|----------|
 | Tráfico del sitio web | Combinación personalizada |
 | Inclusión | <ul><li>Seleccione **[!UICONTROL Event]** > Seleccionar **[!UICONTROL Adobe-Audience-Manager-Segment]**. Este era el valor del parámetro `ev` en el píxel de ejemplo del paso 1. Tenga en cuenta que si el píxel aún no se ha activado, es posible que la opción **[!UICONTROL Event]** o **[!UICONTROL Adobe-Audience-Manager-Segment]** no aparezcan en la interfaz de usuario [!DNL Facebook].</li><li>Añada un parámetro: Seleccione `segID`.</li><li><p>Seleccione el operador **contains** .</p><p>Esto es importante, teniendo en cuenta que los visitantes pueden cumplir los requisitos para varios segmentos, puede haber varios [!UICONTROL segment IDs] en el parámetro de píxeles. Es posible que el uso del operador equals (`=`) no califique a los visitantes para la audiencia y que observe un volumen menor.</p></li><li>Agregue un valor: Introduzca el ID de segmento [!DNL Audience Manager].</li></ul> |
 | Agregar nueva condición | Configuración opcional. |
