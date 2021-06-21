@@ -7,7 +7,7 @@ title: Datos de tamaño de segmentos y rasgos en el Generador de segmentos
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 'Segmentos '
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ La tabla siguiente define las métricas de población de rasgos:
 
 
 | Métrica | Descripción |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | Número de ID únicos que tienen el rasgo seleccionado en su perfil. |
 
 
@@ -122,7 +122,7 @@ La tabla siguiente define las métricas de población reales y totales cuando lo
 
 
 | Columna A | Columna B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | El número real de dispositivos vistos en tiempo real con perfiles actuales que, cuando se combinan con hasta 100 perfiles de dispositivo conectados por el gráfico de dispositivo, contiene los rasgos que se clasifican para el segmento en el momento en que el Audience Manager lo vio. |
 | [!UICONTROL Total Population (Existing)] | El número total de dispositivos con perfiles que, cuando se combinaron con hasta 100 perfiles de dispositivo conectados por el gráfico de dispositivos, se calificaron para el segmento. |
 
