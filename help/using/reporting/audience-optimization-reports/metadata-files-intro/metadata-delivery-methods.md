@@ -7,7 +7,7 @@ title: Métodos de envío para archivos de metadatos
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Archivos de registro
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -44,7 +44,7 @@ La siguiente tabla define cada uno de estos elementos en una ruta de entrega de 
 
 
 | Parámetro de archivo | Descripción |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | Este es el inicio de la ruta de almacenamiento del directorio. Recibirá la ruta completa cuando todo esté configurado. |
 | `pid=<AAM ID>` | Este par clave-valor contiene su ID de cliente de Audience Manager. |
 | `dpid=<d_src>` | Este par clave-valor contiene el ID de fuente de datos transferido en una llamada de evento. El ID de la fuente de datos es el valor que vincula todo el contenido del archivo con los datos reales a los que pertenece. </br> Por ejemplo, supongamos que tiene un creativo con el ID 123 y el nombre &quot;Creativo del anunciante A&quot;. Como una llamada de evento solo pasa el ID, debe incluir &quot;Creativo del anunciante A&quot; en el archivo de metadatos. La campaña y el elemento creativo pertenecen a una fuente de datos. El ID de fuente de datos es lo que los une y nos permite asociar de forma precisa el contenido del archivo a un ID enviado en una llamada de evento. Consulte [Cómo determinan los ID de llamadas de evento los nombres de archivo, los contenidos y las rutas de envío](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
