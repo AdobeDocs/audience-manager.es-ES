@@ -7,7 +7,7 @@ title: Uso compartido de Audiencias entre Audience Manager y Adobe Experience Pl
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, compartir segmentos
 feature: Integración de plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Además, los segmentos del Experience Platform se comparten con otras soluciones
 Consulte la siguiente tabla para obtener una descripción general de los casos de uso de uso compartido de audiencias:
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Servicios principales** |
----------|----------|---------|---------|
+|---------|----------|---------|---------|
 | **Uso compartido de audiencias** | <ul><li>Enriquecimiento de los perfiles de los clientes con datos de Audience Manager</li><li>Uso de datos de Audience Manager en la segmentación de Experience Platform</li></ul> | <ul><li>Añadir datos de terceros a segmentos</li><li>Modelado algorítmico</li><li>Activación en destinos adicionales</li></ul> | Utilice segmentos de Experience Platform en otras soluciones de Experience Cloud, como Adobe Target, Advertising Cloud o Marketo. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -83,7 +83,7 @@ Para ver un ejemplo de una característica creada automáticamente a partir de u
 
 
 | Número de artículo | Nombre | Descripción |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Las características creadas a partir de segmentos de Experience Platform se crean como características integradas en Audience Manager. |
 | 2 | [!UICONTROL Data Source] | Creado automáticamente. Todos los rasgos y segmentos que se crean automáticamente a partir de segmentos de Experience Platform se almacenan en la fuente de datos **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | El código de integración corresponde al ID del segmento en Experience Platform. |
@@ -103,7 +103,7 @@ Para ver un ejemplo de un segmento creado automáticamente a partir de un segmen
 ![Captura de pantalla del segmento](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Número de artículo | Nombre | Descripción |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | El código de integración corresponde al ID del segmento en Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Creado automáticamente. Todos los rasgos y segmentos que se crean automáticamente a partir de segmentos de Experience Platform se almacenan en la fuente de datos **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que los segmentos creados automáticamente siguen la configuración de la directiva de combinación en Experience Platform. |
