@@ -8,7 +8,7 @@ title: Pares de clave-valor explicados
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: 'Referencia '
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -55,7 +55,7 @@ Al trabajar con datos serializados, debe especificar los caracteres que separan 
 
 
 | Tipo | Ejemplo | Clave | Separador de clave-valor | Delimitador de clave-valor | Separador serie |
----------|----------|---------|---------|----------|---------
+|---------|----------|---------|---------|----------|---------|
 | **Clave única**  (estándar) | `x=1&x=2` | `x` | `=` | `&` | n.d. |
 | **Pares clave-valor**  (estándar) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n.d. |
 | **Clave única**  (serie) | `x=1;2;3` | `x` | `=` | n.d. | `;` |
