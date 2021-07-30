@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recomendaciones de rasgos
 feature: 'Segmentos '
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 8%
@@ -170,7 +170,7 @@ Si los mismos rasgos A y B tenían 400 000 [!UICONTROL UUID]s que cumplen los do
 Utilice la siguiente tabla como guía general para similitud de características. Esta guía se basa en las puntuaciones de similitud observadas en la mayoría de los rasgos.
 
 | [!UICONTROL Trait Similarity Score] | Importancia |
----------|----------|
+|---------|----------|
 | 0.1 y superiores | Alta similitud entre características |
 | 0,03 - 0,1 | Similitud media entre características |
 | 0,01 - 0,03 | Baja similitud entre características |
