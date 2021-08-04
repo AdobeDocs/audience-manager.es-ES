@@ -7,9 +7,9 @@ title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Combinación de perfiles
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 4%
 
 ---
@@ -125,7 +125,7 @@ Siga estas instrucciones para configurar el código [!UICONTROL Adobe Experience
 
 Debe configurar una [fuente de datos entre dispositivos](#create-data-source) y [reglas de combinación de perfiles](#create-profile-merge-rule) *antes de* completar estos procedimientos.
 
-## Para clientes del servicio de identidad de Adobe Experience Platform {#id-service-customers}
+## Para clientes del servicio de Adobe Experience Platform ID {#id-service-customers}
 
 Se recomiendan [!UICONTROL Adobe Experience Platform Identity Service] y la última versión de [DIL](../../dil/dil-overview.md) cuando se trabaja con [!UICONTROL Profile Merge Rules]. Sin embargo, no es necesario usar el [!UICONTROL Adobe Experience Platform Identity Service] para trabajar con esta función. Si solo utiliza [!UICONTROL DIL], consulte la sección [DIL heredado](#legacy-dil) a continuación.
 
@@ -224,7 +224,7 @@ Compruebe los métodos del código [!DNL SDK] que le permiten pasar [!UICONTROL 
  </tbody>
 </table>
 
-Consulte también [Métodos de Audience Manager para los métodos de Audience Manager de Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consulte también [Métodos de Audience Manager para los métodos de Audience Manager de Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
