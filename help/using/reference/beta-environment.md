@@ -8,9 +8,9 @@ title: Entorno beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: 'Referencia '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 4%
 
 ---
@@ -21,25 +21,21 @@ El entorno beta sirve para probar la implementación del Audience Manager. Los c
 
 ## Información general
 
-El entorno beta es una réplica exacta del entorno de producción, sin características experimentales o no lanzadas. Las credenciales de inicio de sesión del entorno de producción son válidas en el entorno beta.
+La funcionalidad en el entorno beta es una réplica exacta del entorno de producción, sin características experimentales o no lanzadas. Las credenciales de inicio de sesión del entorno de producción son válidas en el entorno beta.
 
 **Actualizar programación**
 
 El entorno beta se actualiza al final de cada mes durante las horas de menor actividad.
 
+>[!IMPORTANT]
+>
+>Tenga en cuenta que los datos del cliente ([señales, rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) no se sincronizan entre los entornos de producción y beta.
+
 **Tráfico saliente**
 
 El tráfico saliente no está habilitado para el entorno beta.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Puntos finales
-
-
 
 | Servicio | URL/Nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
