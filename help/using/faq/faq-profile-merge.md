@@ -8,14 +8,14 @@ title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gr
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Combinación de perfiles
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
 
-# Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos {#profile-merge-rules-and-device-graph-faq}
+# Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
 
@@ -111,7 +111,7 @@ Sí.
 
 **¿Las estimaciones del tamaño del segmento incluyen los dispositivos que se clasifican como segmento basado en conexiones proporcionado por una [!UICONTROL Profile Merge Rule] que usa un gráfico de dispositivos?**
 
-No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/segments/segment-builder-data.html).
+No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
