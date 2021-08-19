@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Sistema de informes de Predictive Audiences
 feature: Modelos algorítmicos
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
 
 # Sistema de informes de Predictive Audiences
 
-Después de guardar un modelo [!UICONTROL Predictive Audiences], el Audience Manager comienza a formarlo. En un par de horas, el modelo calculado empezará a analizar las audiencias en los [Servidores de recopilación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Los informes estarán disponibles al día siguiente.
+Después de guardar un modelo [!UICONTROL Predictive Audiences], el Audience Manager comienza a formarlo. En un par de horas, el modelo calculado empezará a analizar las audiencias en los [Servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Los informes estarán disponibles al día siguiente.
 
 Para ver los resultados de su clasificación [!UICONTROL Predictive Audiences], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic en su modelo en la lista.
 
@@ -60,7 +60,7 @@ La tabla del informe muestra la siguiente información para cada segmento [!UICO
 1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**: Número de realizaciones de segmentos para cada persona, en las últimas 24 horas.
 1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**: El porcentaje de realizaciones de segmentos para cada persona, en las últimas 24 horas, de la población total de modelos.
 
-## Rasgos influyentes{#influential-traits}
+## Características influyentes{#influential-traits}
 
 [!UICONTROL Influential Traits] son características que el  [!UICONTROL Predictive Audiences] algoritmo descubrió que eran los predictores más potentes para determinar la clasificación de personalidad de un visitante.
 
