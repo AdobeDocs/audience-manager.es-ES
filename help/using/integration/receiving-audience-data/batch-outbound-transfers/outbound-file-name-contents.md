@@ -7,9 +7,9 @@ title: Sintaxis y ejemplos del nombre del archivo de datos de salida
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Transferencias de datos de salida
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '693'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
       <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> ID del anunciante de Google </span> (sin procesar, sin hash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> Apple ID para anunciantes </span> (sin procesar y sin hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID de proveedor: ID de usuario de terceros (web/cookie) </li> 
-     </ul> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
+     </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
