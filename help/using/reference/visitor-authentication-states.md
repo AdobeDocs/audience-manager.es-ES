@@ -8,9 +8,9 @@ title: Estados de autenticación de Visitante en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Referencia '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 El estado de autenticación de visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
 
-A partir del [!DNL Experience Cloud] servicio de ID v1.5+, el método `setCustomerID` incluye el objeto opcional `AuthState` . `AuthState` identifica a los visitantes en función de su estado de  [autenticación](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestiona los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y la  [regla de combinación de ](../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que utilice para la segmentación.
+A partir del [!DNL Experience Cloud] servicio de ID v1.5+, el método `setCustomerID` incluye el objeto opcional `AuthState` . `AuthState` identifica a los visitantes en función de su estado de  [autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestiona los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y la  [regla de combinación de ](../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que utilice para la segmentación.
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 >[!MORELIKETHIS]
 >
->* [ID de cliente y estados de autenticación](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
