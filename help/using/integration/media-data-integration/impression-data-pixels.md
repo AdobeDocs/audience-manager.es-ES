@@ -7,7 +7,7 @@ title: Captura de los datos de impresión de campaña a través de Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integración de Adobe Campaign
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 21%
@@ -31,12 +31,12 @@ La llamada de evento recopila datos de impresión y conversión y los envía a l
 Las llamadas de evento constan de pares clave-valor que utilizan la siguiente sintaxis:
 
 ```
-http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
 En el par clave-valor, la variable de valor es una ID o macro insertada por el servidor de publicidad. Cuando se carga la etiqueta de publicidad, ese `%macro%` se sustituye por los valores correspondientes requeridos. Esta llamada no devuelve una respuesta.
 
-## Pares de clave-valor admitidos {#supported-key-value-pairs}
+## Pares de clave-valor compatibles {#supported-key-value-pairs}
 
 Las llamadas de evento de impresión aceptan datos formados en pares de clave-valor. En la tabla siguiente se enumeran y describen las claves utilizadas para albergar estas variables. Muchas de ellas son necesarias si desea capturar y analizar los datos en los [Informes de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
