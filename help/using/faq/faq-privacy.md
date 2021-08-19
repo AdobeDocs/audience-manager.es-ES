@@ -7,14 +7,14 @@ title: Preguntas frecuentes sobre la privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Administración de datos y privacidad
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 84%
+source-wordcount: '759'
+ht-degree: 83%
 
 ---
 
-# Preguntas frecuentes sobre la privacidad y retención de datos {#privacy-and-data-retention-faq}
+# Preguntas frecuentes sobre la privacidad y retención de datos{#privacy-and-data-retention-faq}
 
 Responde a las preguntas comunes sobre privacidad en relación con los datos, además de proporcionar soluciones para los problemas relacionados.
 
@@ -28,7 +28,7 @@ Responde a las preguntas comunes sobre privacidad en relación con los datos, ad
 
 **¿Cómo utiliza Audience Manager las cookies y qué cookies establece?**
 
-Consulte [Cookies de Audience Manager](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-am.html).
+Consulte [Cookies de Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **¿Pueden los clientes de Audience Manager de EE. UU. segmentar campañas para usuarios de la UE?**
 
