@@ -7,9 +7,9 @@ title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 |---|---|---|
 | 0 | Error no especificado | Se trata de un error de captador global que gestiona eventos que no están cubiertos por los otros controladores de errores. Solucionar este error es difícil. Puede ser causado por una variedad de acciones o eventos desconocidos. Si recibe este error, vuelva a intentar la solicitud [!DNL DCS]. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 | 1 | No se encontró la configuración para el nombre de host: `hostname` | El nombre de host enviado en la solicitud no ha sido configurado por nuestro equipo de aprovisionamiento de socios. Póngase en contacto con su representante de [!DNL Adobe] si ve este mensaje de error. |
-| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este id de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e intente la solicitud de nuevo. Si no conoce o no tiene su ID de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarla. |
+| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este id de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e intente la solicitud de nuevo. Si no conoce o no tiene su ID de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarla. |
 | 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 
 ## Códigos de error de integración {#integration-error-codes}
@@ -220,7 +220,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 </tbody>
 </table>
 
-## Ejemplo de mensajes de código de error {#sample-error-codes}
+## Ejemplos de mensajes de código de error {#sample-error-codes}
 
 El [!DNL DCS] devuelve códigos y mensajes de error en un objeto [!DNL JSON] o en un encabezado X de la cadena de respuesta HTTP.
 
