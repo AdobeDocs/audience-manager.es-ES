@@ -7,14 +7,14 @@ title: Definición de las opciones de las reglas de combinación de perfiles.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Combinación de perfiles
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 6%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] Opciones definidas  {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Opciones definidas {#profile-merge-rule-options-defined}
 
 Las opciones de [!UICONTROL profile merge rule] permiten controlar el tipo de datos que [!DNL Audience Manager] utiliza para la segmentación. Un [!UICONTROL profile merge rule] puede incluir perfiles de dispositivo asignados por el gráfico de dispositivos [!UICONTROL Profile Link], el [!UICONTROL Adobe Experience Cloud Device Co-op] y/u otros proveedores de gráficos de dispositivos de terceros que están integrados con [!DNL Audience Manager]. Puede crear un máximo de 4 [!UICONTROL Profile Merge Rules]. El cuarto [!UICONTROL Profile Merge Rule] está disponible exclusivamente para los clientes que compraron el complemento [!UICONTROL People-Based Destinations].
 
@@ -36,7 +36,7 @@ Para crear un [!UICONTROL Profile Merge Rule], realice una selección entre las 
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (incluye  [!UICONTROL Co-op Device Graph]) | Todos los clientes | Tiempo real y por lotes | No | [Segmentación avanzada entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | N/D | Exclusivo para clientes de [People-Based Destinations](../destinations/people-based-destinations-overview.md) | Sólo por lotes | No | [Segmentación para destinos basados en personas](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluación  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluación {#segment-evaluation}
 
 Según la configuración de [!UICONTROL Profile Merge Rules], [!DNL Audience Manager] puede realizar la evaluación [!UICONTROL segment] en tiempo real, en lote o ambos.
 
@@ -44,7 +44,7 @@ Según la configuración de [!UICONTROL Profile Merge Rules], [!DNL Audience Man
 * La evaluación del lote [!UICONTROL segment] se realiza frente a [!UICONTROL traits] previamente cualificados.
 * [!UICONTROL Profile Merge Rules] que admiten tanto la  [!UICONTROL segment] evaluación en tiempo real como la por lotes combinan la actividad del visitante en tiempo real con cualificaciones anteriores  [!UICONTROL traits].
 
-## [!UICONTROL Profile Merge Rules] Latencia de los informes  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Latencia de los informes {#reporting-latency}
 
 La evaluación en tiempo real [!UICONTROL segment] se refleja inmediatamente en los informes [!UICONTROL Profile Merge Rules].
 
@@ -111,11 +111,11 @@ El [!UICONTROL Device Options] permite seleccionar el tipo de *`device profile`*
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivos de cooperación</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica al <span class="keyword"> Audience Manager</span> que lea los perfiles del dispositivo actual y hasta 100 dispositivos más utilizando los vínculos proporcionados por el <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> es una cooperativa digital en la que los clientes participantes comparten información de vínculos de dispositivos. El <span class="keyword"> Device Co-op</span> procesa estos datos en un <span class="term"> gráfico de dispositivos</span>. Un gráfico de dispositivos vincula dispositivos de clústeres de dispositivos. Estos vínculos se crean a partir de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> datos probabilísticos y determinísticos</a>. Los clústeres representan un grupo de dispositivos utilizados por una persona desconocida. <span class="keyword">Device Co-op</span> comparte estos clústeres entre sus miembros, lo que los ayuda a ofrecer a sus clientes experiencias valiosas y coherentes entre dispositivos. </p> <p> Para obtener más información acerca de <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
+   <td colname="col2"> <p>Indica al <span class="keyword"> Audience Manager</span> que lea los perfiles del dispositivo actual y hasta 100 dispositivos más utilizando los vínculos proporcionados por el <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> es una cooperativa digital en la que los clientes participantes comparten información de vínculos de dispositivos. El <span class="keyword"> Device Co-op</span> procesa estos datos en un <span class="term"> gráfico de dispositivos</span>. Un gráfico de dispositivos vincula dispositivos de clústeres de dispositivos. Estos vínculos se crean a partir de <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html" format="https" scope="external"> datos probabilísticos y determinísticos</a>. Los clústeres representan un grupo de dispositivos utilizados por una persona desconocida. <span class="keyword">Device Co-op</span> comparte estos clústeres entre sus miembros, lo que los ayuda a ofrecer a sus clientes experiencias valiosas y coherentes entre dispositivos. </p> <p> Para obtener más información acerca de <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Información general de Device Co-op</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Requisitos de participación</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Device Graph: Procesos internos y resultados</a> </li>
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/home.html" format="https" scope="external"> Información general de Device Co-op</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/requirements.html" format="https" scope="external"> Requisitos de participación</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Device Graph: Procesos internos y resultados</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
