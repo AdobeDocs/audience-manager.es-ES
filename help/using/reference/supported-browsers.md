@@ -7,14 +7,14 @@ title: Exploradores admitidos
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: 'Referencia '
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
-# Navegadores admitidos {#supported-browsers}
+# Exploradores admitidos{#supported-browsers}
 
 Esta página muestra los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
 
@@ -28,7 +28,7 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Google Chrome**
 
-   Descargue la versión más reciente de Chrome en [https://www.google.com/intl/es/chrome/](https://www.google.com/intl/es/chrome/).
+   Descargue la versión más reciente de Chrome en [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Mozilla Firefox**
 
-   Descargue la versión más reciente de Firefox en [https://www.mozilla.org/es-ES/firefox/](https://www.mozilla.org/es-ES/firefox/).
+   Descargue la versión más reciente de Firefox en [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-   Descargue la versión más reciente de Safari en [http://www.apple.com/es/safari/](http://www.apple.com/es/safari/).
+   Descargue la versión más reciente de Safari en [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
 
 Otros exploradores pueden funcionar, pero no son compatibles con nuestros equipos técnicos y productos. Si tiene problemas a la hora de trabajar con [!DNL Audience Manager], compruebe que utiliza un navegador actualizado y compatible.
