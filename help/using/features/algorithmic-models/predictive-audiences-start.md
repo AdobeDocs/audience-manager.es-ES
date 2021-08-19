@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Introducción a las Predictive Audiences
 feature: Modelos algorítmicos
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 >[!IMPORTANT]
 >Este artículo contiene documentación del producto pensada para guiarle en la configuración y uso de esta función. Nada de lo contenido en este documento es asesoramiento jurídico. Consulte a su propio asesor jurídico para obtener asesoramiento jurídico.
 
-## Crear un modelo de audiencias predictivas {#create-predictive-audiences}
+## Crear un modelo de Predictive Audiences {#create-predictive-audiences}
 
-Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué fuente de datos de origen desea asignar sus rasgos y segmentos [!UICONTROL Predictive Audiences]. Puede usar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obtener más información sobre cómo crear una nueva fuente de datos de origen.
+Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué fuente de datos de origen desea asignar sus rasgos y segmentos [!UICONTROL Predictive Audiences]. Puede usar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obtener más información sobre cómo crear una nueva fuente de datos de origen.
 
 Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuación.
 
