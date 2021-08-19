@@ -8,14 +8,14 @@ title: Preguntas frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Información general
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
-# Preguntas frecuentes sobre funciones y características del producto {#product-features-and-functions-faq}
+# Preguntas frecuentes sobre funciones y características del producto{#product-features-and-functions-faq}
 
 Preguntas y problemas frecuentes relacionados con el producto y las funciones.
 
@@ -33,7 +33,7 @@ El *`Organization ID`* es un identificador único que identifica a su organizaci
 
 Por ejemplo, un *`Organization ID`* tiene esta apariencia: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el [servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) y otras soluciones de [!DNL Experience Cloud]. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las [preguntas frecuentes sobre Administración - Gestión de usuarios](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
+El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) y otras soluciones de [!DNL Experience Cloud]. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las [preguntas frecuentes sobre Administración - Gestión de usuarios](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -95,4 +95,4 @@ Debe usar Recomendaciones de rasgos cuando:
 
 **¿Hay alguna diferencia entre los segmentos de Adobe Analytics y Audience Manager?**
 
-Sí. Consulte la [Explicación de los segmentos en Analytics y Audience Manager](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para ver una descripción detallada de las diferencias.
+Sí. Consulte la [Explicación de los segmentos en Analytics y Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para ver una descripción detallada de las diferencias.
