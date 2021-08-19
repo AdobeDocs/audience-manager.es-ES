@@ -8,10 +8,10 @@ title: Solicitudes de privacidad de datos
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Administración de datos y privacidad
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 61%
+source-wordcount: '1482'
+ht-degree: 60%
 
 ---
 
@@ -44,7 +44,7 @@ Para ver la apariencia de un archivo [!DNL JSON]válido, puede [ descargar una m
 
 Entendemos su compromiso de cumplir con sus solicitudes de privacidad de datos dentro del período de tiempo establecido por la legislación.
 
-## Solicitudes de eliminación de datos {#delete-data}
+## Solicitudes de eliminación de datos  {#delete-data}
 
 Puede enviar solicitudes de eliminación de datos a través de la [IU del Privacy Service](https://privacyui.cloud.adobe.io) (documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) o llamando a la API del Privacy Service (documentación [aquí](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) y [!DNL API] referencia [aquí](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
@@ -97,8 +97,8 @@ La exclusión global representa una exclusión entre [!DNL Audience Manager] y o
    <td colname="col1"> <p>Dispositivos móviles </p> </td> 
    <td colname="col2"> <p>Consulte la configuración de exclusión y privacidad para: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/es-ES/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/es-ES/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -162,7 +162,7 @@ Después de una exclusión a nivel de socio con una llamada de ID de dispositivo
 * Los socios de destino reciben la solicitud de eliminación de la segmentación para el ID del dispositivo. La eliminación de la segmentación sirve tanto para destinos de lote como [en tiempo real](data-privacy-requests.md#aam-partners-with-unsegmentation).
 * No se eliminan datos históricos.
 
-## [!DNL Audience Manager] Asociados con funciones de eliminación de la segmentación  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Asociados con funciones de eliminación de la segmentación {#aam-partners-with-unsegmentation}
 
 Para ayudarle a automatizar sus solicitudes de privacidad de datos de consumo, [!DNL Audience Manager] intentará notificar a los socios de activación las solicitudes de eliminación de los sujetos de datos enviándoles información de eliminación de la segmentación (o eliminándola).
 
