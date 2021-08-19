@@ -7,10 +7,10 @@ title: Introducción a las reglas de combinación de Perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Combinación de perfiles
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 3%
 
 ---
 
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Para obtener más información, consulte [Crear una fuente de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).
+Para obtener más información, consulte [Crear una fuente de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configurar la función `DIL.create`
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor del espacio de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este ID, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: Servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html).
+En el par clave-valor del espacio de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este ID, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: Servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuración de SDK
 
@@ -224,7 +224,7 @@ Compruebe los métodos del código [!DNL SDK] que le permiten pasar [!UICONTROL 
  </tbody>
 </table>
 
-Consulte también [Métodos de Audience Manager para los métodos de Audience Manager de Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consulte también [Métodos de Audience Manager para los métodos de Audience Manager de Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
