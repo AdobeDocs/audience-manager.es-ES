@@ -8,14 +8,14 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '839'
+ht-degree: 4%
 
 ---
 
-# Atributos admitidos para [!DNL DCS] [!DNL API] llamadas {#supported-attributes-for-dcs-api-calls}
+# Atributos admitidos para llamadas [!DNL DCS] [!DNL API] {#supported-attributes-for-dcs-api-calls}
 
 Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a [!UICONTROL Data Collection Servers] ([!DNL DCS]). Esta información puede ayudarle a dar formato a sus solicitudes [!DNL DCS] y comprender los parámetros que devuelve este sistema.
 
@@ -80,7 +80,7 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. El servicio de identidad de Adobe Experience Platform de Adobe establece dinámicamente este parámetro y depende de la configuración <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
+   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. El servicio de identidad de Adobe Experience Platform de Adobe establece dinámicamente este parámetro y depende de la configuración <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por el servicio de ID <span class="keyword"> Experience Cloud</span>. Para obtener más información sobre el ECID, consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad del Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por el servicio de ID <span class="keyword"> Experience Cloud</span>. Para obtener más información sobre el ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad del Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
