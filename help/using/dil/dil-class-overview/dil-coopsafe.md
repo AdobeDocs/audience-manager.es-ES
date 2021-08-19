@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: Implementación del DIL
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Una configuración booleana opcional que determina si DIL envía datos (o no) da
 Para utilizar `isCoopSafe` debe:
 
 * Utilice [!UICONTROL DIL] v6.11 o superior.
-* Participar en [Device Co-Op de Experience Cloud](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participar en [Device Co-Op de Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Póngase en contacto con su consultor de [!DNL Adobe] para establecer un indicador de lista de permitidos o de lista de bloqueados en su cuenta de Device Co-op. No hay una ruta de autoservicio para habilitar estos indicadores.
 
@@ -103,7 +103,7 @@ Los parámetros POST indican a Device Co-Op de [!DNL Experience Cloud] si puede 
  </tbody> 
 </table>
 
-## API posteriores a la creación de instancias  {#post-instantiation}
+## API posteriores a la creación de instancias {#post-instantiation}
 
 Estas API permiten sobrescribir el estado de `isCoopSafe`. Son necesarias porque le permiten cambiar el estado posterior a la creación de instancias/inicio de sesión de un visitante en un sitio o en una aplicación de una página en la que la página no se actualiza. Por ejemplo, debería llamar a estas API si un usuario se autenticara en su sitio o aplicación y, posteriormente, aceptara una política de condiciones de uso que permitiera a Device Co-Op utilizar sus datos.
 
