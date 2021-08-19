@@ -8,10 +8,10 @@ title: ID declarados
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: Sincronizaciones de ID
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 10%
+source-wordcount: '1183'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Funcionamiento de [!UICONTROL declared IDs], configuración de procedimientos, ejemplos de código y variables.
 
-## [!UICONTROL Declared ID] Segmentación {#declared-id-targeting}
+## [!UICONTROL Declared ID] Objetivo {#declared-id-targeting}
 
 Intercambie y sincronice los ID de usuario con [!DNL Audience Manager] de dispositivos o navegadores que no utilicen ni acepten mecanismos de almacenamiento persistentes, como [!DNL cookies] de terceros.
 
@@ -37,7 +37,7 @@ Algunos exploradores y la mayoría de los dispositivos móviles no aceptan [!DNL
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Llamada de evento</b> </td> 
-   <td colname="col2"> <p>Para funcionar, necesita <span class="wintitle"> DIL </span> y el código <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> del servicio de identidad de Adobe Experience Platform </a> en la página. <span class="wintitle"> El DIL  </span> obtiene los ID  <span class="wintitle"> declarados  </span> de la  <code> setVisitorID </code> función proporcionada por el servicio de identidad de  <span class="keyword"> Adobe Experience Platform  </span> y los pasa a  <span class="keyword"> Audience Manager  </span>. </p> </td> 
+   <td colname="col2"> <p>Para funcionar, necesita <span class="wintitle"> DIL </span> y el código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> del servicio de identidad de Adobe Experience Platform </a> en la página. <span class="wintitle"> El DIL  </span> obtiene los ID  <span class="wintitle"> declarados  </span> de la  <code> setVisitorID </code> función proporcionada por el servicio de identidad de  <span class="keyword"> Adobe Experience Platform  </span> y los pasa a  <span class="keyword"> Audience Manager  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Coincidencia de ID</b> </td> 
@@ -65,7 +65,7 @@ El proceso [!UICONTROL declared ID] respeta las preferencias de los visitantes d
 
 Consulte [Privacidad de datos](../overview/data-security-and-privacy/data-privacy.md) para obtener más información sobre la exclusión de la recopilación de datos.
 
-## [!UICONTROL Declared ID] Ejemplos de exclusión  {#opt-out-examples}
+## [!UICONTROL Declared ID] Ejemplos de exclusión {#opt-out-examples}
 
 Puede realizar una [!UICONTROL declared ID] solicitud de exclusión con los pares de clave-valor `d_cid` y `d_cid_ic` . Los parámetros heredados como `d_dpid` y `d_dpuuid` siguen funcionando, pero se consideran obsoletos. Consulte [CID reemplaza DPID y DPUUID](../reference/cid.md). En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
 
@@ -151,7 +151,7 @@ En cada par clave-valor:
  </tbody> 
 </table>
 
-## Ejemplo de llamadas de evento {#sample-event-calls}
+## Llamadas de evento de ejemplo {#sample-event-calls}
 
 Dados estos pares clave-valor y la sintaxis necesaria, debe realizar llamadas de evento como se muestra a continuación.
 
@@ -184,7 +184,7 @@ Describe las variables de configuración utilizadas para pasar [!UICONTROL decla
 
 ## [!UICONTROL DIL] utiliza el  [!DNL Adobe Experience Platform Identity Service] para pasar  [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Cuando se utiliza con el [Servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html), ya no es necesario pasar [!UICONTROL declared IDs] con las variables `dpid` y `dpuuid` obsoletas. En su lugar, las versiones actuales de [!UICONTROL DIL] dependen de la función `visitorService` para obtener la [!UICONTROL declared IDs] de la función `setCustomerIDs` en [!UICONTROL Adobe Experience Platform Identity Service]. Para obtener más información, consulte [ID de cliente y estados de autenticación](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Llamaría a `visitorService` en `DIL.create` como se muestra a continuación.
+Cuando se utiliza con el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html), ya no es necesario pasar [!UICONTROL declared IDs] con las variables `dpid` y `dpuuid` obsoletas. En su lugar, las versiones actuales de [!UICONTROL DIL] dependen de la función `visitorService` para obtener la [!UICONTROL declared IDs] de la función `setCustomerIDs` en [!UICONTROL Adobe Experience Platform Identity Service]. Para obtener más información, consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Llamaría a `visitorService` en `DIL.create` como se muestra a continuación.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par `namespace` clave-valor, `MCORG` es su [!DNL Experience Cloud] ID de organización. Si no tiene este ID, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: Servicios principales](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
+En el par `namespace` clave-valor, `MCORG` es su [!DNL Experience Cloud] ID de organización. Si no tiene este ID, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: Servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
 ## Funciones obsoletas {#deprecated-functions}
 
@@ -274,7 +274,7 @@ myCallback({
 })
 ```
 
-## No dirigir ni excluir llamadas {#do-not-target}
+## Llamadas de no objetivo y de exclusión {#do-not-target}
 
 El proceso [!UICONTROL declared ID] respeta las preferencias de los visitantes del sitio de excluirse de la segmentación [!DNL Audience Manager] por parte del sitio web. Cuando [!DNL Audience Manager] recibe una solicitud de exclusión, el [!DNL DCS] devuelve un objeto [!DNL JSON] vacío en lugar del ID de usuario [!DNL Audience Manager].
 
