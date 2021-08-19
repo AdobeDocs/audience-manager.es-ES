@@ -7,14 +7,14 @@ title: Lista y configuración de fuentes de datos
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Fuentes de datos
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 2%
 
 ---
 
-# [!UICONTROL Data Sources] Lista y configuración  {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Lista y configuración {#data-sources-list-and-settings}
 
 Vea una lista de su [!UICONTROL data sources] configurado actualmente, añada [!UICONTROL data sources] nuevo y edite el [!UICONTROL data sources] existente.
 
@@ -30,7 +30,7 @@ El tablero [!UICONTROL Data Sources] (**[!UICONTROL Audience Data]** > **[!UICON
 * Busque [!UICONTROL data sources] por nombre.
 * Cree, edite y elimine [!UICONTROL data sources].
 
-## [!DNL Data Source] Configuración y opciones de menú  {#settings-menu-options}
+## [!DNL Data Source] Configuración y opciones de menú {#settings-menu-options}
 
 La configuración de las diferentes secciones de la interfaz de administración [!UICONTROL Data Source] identifica su [!DNL data source], determina cómo se utiliza o comparte y le permite habilitar el informe de errores para [!UICONTROL Onboarding Status Report].
 
@@ -55,7 +55,7 @@ Además de los campos de texto, la sección [!UICONTROL Data Source Details] con
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Entre dispositivos</span></b>: Un ID autenticado proporcionado por el cliente. Seleccione esta opción cuando desee crear: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Fuente de datos entre dispositivos y compilación de una <span class="wintitle"> regla de combinación de perfiles</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Fuente de datos que utiliza vínculos proporcionados por <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> u otro gráfico de dispositivos de terceros integrado con <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Fuente de datos que utiliza vínculos proporcionados por <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> u otro gráfico de dispositivos de terceros integrado con <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Active la casilla **[!UICONTROL Inbound]** cuando el origen de datos esté dise�
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID</span></b> de cliente: Identifica datos de entrada con un ID de cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b> de Audience Manager: Identifica los datos de entrada con un  <span class="keyword"> Audience </span> ManagerID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b> de Experience Cloud: Identifica los datos de entrada con un  <span class="keyword"> Experience </span> Cloud ID. Consulte <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el ID de Experience Cloud</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b> de Experience Cloud: Identifica los datos de entrada con un  <span class="keyword"> Experience </span> Cloud ID. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el ID de Experience Cloud</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
