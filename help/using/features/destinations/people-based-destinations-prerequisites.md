@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Requisitos previos y consideraciones
 feature: Destinos basados en personas
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Antes de usar [!UICONTROL People-Based Destinations] para enviar los segmentos d
 
 Para obtener información sobre cómo editar los permisos de usuario de [!DNL LinkedIn Campaign Manager], consulte [Agregar, editar y eliminar permisos de usuario en cuentas publicitarias](https://www.linkedin.com/help/lms/answer/5753) en la documentación de LinkedIn.
 
-Consulte [Explicación y configuración del destino basado en personas de LinkedIn](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) para ver las instrucciones de vídeo.
+Consulte [Explicación y configuración del destino basado en personas de LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) para ver las instrucciones de vídeo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -67,13 +67,13 @@ Al cargar más de 10 direcciones de correo electrónico con hash vinculadas a un
 
 Aunque [!UICONTROL People-Based Destinations] permite segmentar audiencias en función de direcciones de correo electrónico con hash cargadas, se le prohíbe cargar en Audience Manager cualquier información de visitante directamente identificable. En la fase de incorporación de datos, debe asegurarse de que las direcciones de correo electrónico que planea utilizar tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá usarlos en [!UICONTROL People-Based Destinations].
 
-## Data Hashing frente a cifrado {#data-hashing-encryption}
+## Hash de datos frente a cifrado {#data-hashing-encryption}
 
 El cifrado es una función bidireccional. La información cifrada también se puede descifrar utilizando la clave de descifrado correcta. El cifrado de datos en el contexto del Audience Manager plantea graves riesgos, ya que también se puede descifrar cualquier forma cifrada de información personal. A diferencia del cifrado, [!UICONTROL People-Based Destinations] están diseñados para funcionar con datos con hash en su lugar.
 
 El hash es una función unidireccional que recorta la entrada para producir un resultado único. Al utilizar algoritmos de hash adecuados, como [!DNL SHA256], no hay forma de invertir la función de hash y revelar la información sin codificar. Las direcciones de correo electrónico que incorporará al Audience Manager deben tener un cifrado hash con el algoritmo [!DNL SHA256]. De este modo, puede asegurarse de que ninguna dirección de correo electrónico sin hash llegue al Audience Manager.
 
-## Requisitos hash {#hashing-requirements}
+## Requisitos de hash {#hashing-requirements}
 
 Al hash de las direcciones de correo electrónico, asegúrese de cumplir con los siguientes requisitos:
 
@@ -88,9 +88,9 @@ Vea el siguiente vídeo para comprender los requisitos de hash de [!UICONTROL Pe
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud le ofrece la opción de hash con los ID de cliente a través de [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Soporte hash SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obtener información detallada sobre cómo utilizar ECID para hash con los ID de cliente.
+Adobe Experience Cloud le ofrece la opción de hash con los ID de cliente a través de [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Soporte hash SHA256 para setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) para obtener información detallada sobre cómo utilizar ECID para hash con los ID de cliente.
 
-## Obtención de permiso de usuario {#obtaining-user-permission}
+## Obtención de permisos de usuario {#obtaining-user-permission}
 
 Dado que [!UICONTROL People-Based Destinations] le ayuda a activar los datos de audiencia de origen en canales basados en personas, es su responsabilidad informar y obtener cualquier consentimiento necesario de sus clientes sobre cómo usará sus datos para publicidad u otros fines.
 
@@ -104,7 +104,7 @@ Al utilizar [!UICONTROL People-Based Destinations], solo puede utilizar datos de
 
 Cuando utilice [!UICONTROL People-Based Destinations], utilice [Controles de exportación de datos](../data-export-controls.md) para etiquetar sus [!UICONTROL data sources] y [!UICONTROL destinations] según las directrices y los requisitos de las plataformas de destino y los proveedores de datos.
 
-## ID con hash autenticados integrados mediante el objetivo de ID declarados {#onboard-authenticated-declared-id}
+## ID con hash autenticados integrados mediante la segmentación de ID declarados {#onboard-authenticated-declared-id}
 
 Existen dos maneras de incluir los datos sin conexión a Audience Manager para [!UICONTROL People-Based Destinations].
 
