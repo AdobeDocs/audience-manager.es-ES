@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Integración de WCA de Facebook
 feature: Integración de terceros
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 5%
+source-wordcount: '851'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Esta página ilustra el proceso de creación de píxeles [!DNL Facebook Website 
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmentos, listos para asignar al nuevo  [!DNL Facebook] destino. A continuación se indica [cómo crear un segmento](/help/using/features/segments/segment-builder.md) en la interfaz de usuario [!DNL Audience Manager].
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versión 4.1.0 o posterior. Descargue la versión más reciente **[aquí](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versión 9.0 o posterior, descargable desde  **[aquí](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternativamente, si utiliza [Reenvío del lado del servidor (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar datos en [!DNL Audience Manager], debe utilizar la versión 2.12 o posterior de AppMeasurement. Descargue [!DNL AppMeasurement] mediante el [Administrador de códigos de Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versión 9.0 o posterior, descargable desde  **[aquí](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternativamente, si utiliza [Reenvío del lado del servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar datos en [!DNL Audience Manager], debe utilizar la versión 2.12 o posterior de AppMeasurement. Descargue [!DNL AppMeasurement] mediante el [Administrador de códigos de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 Le recomendamos que instale o actualice las bibliotecas en los pasos 3 y 4 utilizando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
@@ -104,7 +104,7 @@ Después de crear el [!DNL Custom Audience], asígnelo a una campaña de publici
 
 ## Resumen {#summary}
 
-Ahora que ha asignado su segmento [!DNL Audience Manager] al destino [!DNL Facebook WCA], [!DNL Audience Manager] activará de forma selectiva el píxel [!DNL Facebook WCA] para los usuarios de un segmento determinado con el ID de segmento correspondiente en el píxel para rellenar el [!DNL Facebook Audience]. Esto resulta en un aumento gradual en el [!DNL Facebook Audience] cuanto más se active la etiqueta a la audiencia aplicable del sitio.
+Ahora que ha asignado su segmento [!DNL Audience Manager] al destino [!DNL Facebook WCA], [!DNL Audience Manager] activará de forma selectiva el píxel [!DNL Facebook WCA] para los usuarios de un segmento determinado con el ID de segmento correspondiente en el píxel para rellenar el [!DNL Facebook Audience]. Esto resulta en un aumento gradual en el [!DNL Facebook Audience] cuanto más se activa la etiqueta a la audiencia aplicable del sitio.
 
 >[!NOTE]
 >
