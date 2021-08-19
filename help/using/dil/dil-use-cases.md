@@ -7,9 +7,9 @@ title: Casos de uso DIL y ejemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: Implementación del DIL
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -93,7 +93,7 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
-## Captura de la dirección URL de referencia {#capture-referring-url}
+## Capturar URL de referencia {#capture-referring-url}
 
 Capture y envíe una dirección URL de referencia al Audience Manager.
 
@@ -116,7 +116,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## Capturar tipos de motores de búsqueda y términos de búsqueda de palabra clave {#capture-search-engine-types}
+## Capturar tipos de motores de búsqueda y términos de búsqueda de palabras clave {#capture-search-engine-types}
 
 Envíe información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave al Audience Manager.
 
@@ -243,5 +243,5 @@ Para enviar el archivo `dil.js` a GTM:
 >
 >* [Centro de ayuda de Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Señales](../dil/dil-instance-methods.md#signals)
-* [Requisitos de prefijo para variables clave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+* [Requisitos de prefijo para variables clave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
