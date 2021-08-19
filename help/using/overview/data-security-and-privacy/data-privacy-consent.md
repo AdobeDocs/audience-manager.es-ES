@@ -8,10 +8,10 @@ title: Gestión del consentimiento
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Administración de datos y privacidad
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 98%
+source-wordcount: '739'
+ht-degree: 94%
 
 ---
 
@@ -31,11 +31,11 @@ Audience Manager le ofrece sus herramientas para facilitar la obtención de los 
 
 ## Servicio de inclusión de Experience Cloud
 
-El [servicio de inclusión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/opt-in-service/optin-overview.html) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
 
 Esta es una extensión de [!DNL Experience Cloud ID (ECID) Service], diseñada para que usted pueda controlar si las soluciones de Experience Cloud pueden crear cookies en las páginas web de los visitantes antes del consentimiento del usuario, y cuáles pueden hacerlo.
 
-El [servicio de inclusión de Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
 
 ## Gestión de la inclusión / Obtención de consentimiento
 
@@ -43,7 +43,7 @@ Los clientes de Audience Manager pueden almacenar el consentimiento del usuario 
 
 ## Gestión de la exclusión / Retirada del consentimiento
 
-En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://docs.adobe.com/content/help/es-ES/mobile-services/android/gdpr-privacy-android/privacy.html) y [dispositivos iOS](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/privacy-gdpr-ios/privacy.html). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
+En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) y [dispositivos iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestión del consentimiento para socios de segundo nivel
 
