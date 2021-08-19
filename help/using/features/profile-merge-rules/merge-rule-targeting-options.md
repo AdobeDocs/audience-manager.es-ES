@@ -7,10 +7,10 @@ title: Casos generales de uso de las reglas de combinación de Perfiles
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Combinación de perfiles
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -80,7 +80,7 @@ Para obtener más información sobre esta opción, consulte [People-Based Destin
 
 ## Opciones de gráfico de dispositivos {#device-graph-options}
 
-La selección de una opción [!UICONTROL device graph] para una regla [!UICONTROL Profile Merge] depende de condiciones exclusivas de sus propiedades digitales y objetivos comerciales. Estas directrices generales pueden ayudarle a comprender cuándo utilizar un tipo de gráfico frente a otro. Tenga en cuenta que debe ser miembro de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html) o tener una relación contractual con un gráfico de dispositivos externos para utilizar estas opciones. Consulte la siguiente tabla para obtener instrucciones generales sobre cuándo elegir una opción de gráfico de dispositivos. Para casos de uso específicos, consulte [Casos de uso del gráfico de dispositivos de enlace de perfil](profile-link-use-case.md) y [Casos de uso del gráfico de dispositivos externos](external-graph-use-cases.md).
+La selección de una opción [!UICONTROL device graph] para una regla [!UICONTROL Profile Merge] depende de condiciones exclusivas de sus propiedades digitales y objetivos comerciales. Estas directrices generales pueden ayudarle a comprender cuándo utilizar un tipo de gráfico frente a otro. Tenga en cuenta que debe ser miembro de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) o tener una relación contractual con un gráfico de dispositivos externos para utilizar estas opciones. Consulte la siguiente tabla para obtener instrucciones generales sobre cuándo elegir una opción de gráfico de dispositivos. Para casos de uso específicos, consulte [Casos de uso del gráfico de dispositivos de enlace de perfil](profile-link-use-case.md) y [Casos de uso del gráfico de dispositivos externos](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ La selección de una opción [!UICONTROL device graph] para una regla [!UICONTRO
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de gráfico de dispositivos externos </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Las </span> reglas de combinación de perfiles creadas con Device Co- <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> or de </a> Experience Cloud y cualquier gráfico de dispositivos externos integrado con  <span class="keyword"> Audience </span> Manager son perfectas para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Las </span> reglas de combinación de perfiles creadas con Device Co- <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> or de </a> Experience Cloud y cualquier gráfico de dispositivos externos integrado con  <span class="keyword"> Audience </span> Manager son perfectas para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propiedades digitales con un bajo nivel de autenticación de clientes. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campañas de marca amplias y de gran alcance. </li> 
