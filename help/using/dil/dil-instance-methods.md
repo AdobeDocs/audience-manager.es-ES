@@ -8,9 +8,9 @@ title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: Implementación del DIL
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1105'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 Las API [!UICONTROL DIL] de nivel de instancia permiten crear y trabajar programáticamente con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
 
-## Introducción a Métodos de DIL de nivel de instancia {#get-started-dil-methods}
+## Introducción a los métodos de DIL de nivel de instancia {#get-started-dil-methods}
 
 <!-- 
 
@@ -723,8 +723,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
 * [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
-* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
 * [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 
