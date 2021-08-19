@@ -8,14 +8,14 @@ title: Preguntas frecuentes sobre la incorporación de datos de clientes entrant
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Incorporación de datos sin conexión
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
-# Preguntas frecuentes sobre la incorporación de datos de clientes entrantes {#inbound-customer-data-ingestion-faq}
+# Preguntas frecuentes sobre la incorporación de datos de clientes entrantes{#inbound-customer-data-ingestion-faq}
 
 Preguntas frecuentes sobre la introducción de datos sin conexión en Audience Manager.
 
@@ -60,8 +60,8 @@ Consulte [Compresión de archivos de transferencia de datos entrantes](../integr
 
 Sí. Siempre que utilice un [!UICONTROL cross-device data source] para almacenar los datos CRM que cargue, el Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que el Audience Manager lanzó en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y actuar sobre ellos sin implementar código de Audience Manager en la producción. Consulte:
 
-* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalización basada en datos solo sin conexión](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [Personalización basada en datos solo sin conexión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
