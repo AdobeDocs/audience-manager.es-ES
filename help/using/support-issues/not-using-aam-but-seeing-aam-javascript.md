@@ -6,10 +6,10 @@ solution: Audience Manager
 title: No se utiliza Audience Manager pero se ven llamadas de Javascript de Audience Manager en el depurador Javascript. ¿Por qué?
 feature: Asistencia
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ No utilizamos Adobe Audience Manager pero vemos llamadas de Javascript de Audien
 
 ## Respuesta
 
-Es probable que esté ejecutando [el servicio de identidad de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) en su propiedad. En ese caso, tener esta referencia de Audience Manager no necesariamente hace referencia a la propiedad que ejecuta Audience Manager. En lugar de ello, significa que Audience Manager está alimentando este servicio.
+Es probable que esté ejecutando [el servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) en su propiedad. En ese caso, tener esta referencia de Audience Manager no necesariamente hace referencia a la propiedad que ejecuta Audience Manager. En lugar de ello, significa que Audience Manager está alimentando este servicio.
 
-La llamada al servidor de Audience Manager generalmente se realiza para [sincronizar los ID de cliente](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/setcustomerids.html).
+La llamada al servidor de Audience Manager generalmente se realiza para [sincronizar los ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).
