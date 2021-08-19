@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Modelos algorítmicos
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -86,14 +86,14 @@ Al seleccionar la audiencia de destino, analice su caso de uso y decida qué tip
 
 Se recomienda elegir un [!UICONTROL Profile Merge Rule] que tenga la misma configuración que la audiencia de destino [!UICONTROL Profile Merge Rule] o uno que incluya el tipo de perfil (perfil de dispositivo o perfil autenticado) de la audiencia de destino.
 
-### [!UICONTROL Predictive Audiences] Fase de formación del modelo  {#model-training}
+### [!UICONTROL Predictive Audiences] Fase de formación del modelo {#model-training}
 
 Para que el algoritmo pueda clasificar la audiencia de origen en las personas adecuadas, debe formarse en los datos.
 
 Para cada personalidad que defina, el algoritmo analiza su audiencia respectiva y evalúa cualquier actividad de rasgos en tiempo real o integrada para sus usuarios en los últimos 30 días.
 Este paso se realiza una vez cada 24 horas para tener en cuenta los cambios en la audiencia de origen.
 
-### [!UICONTROL Predictive Audiences] Fase de clasificación de modelo  {#model-classification}
+### [!UICONTROL Predictive Audiences] Fase de clasificación de modelo {#model-classification}
 
 Para la clasificación de audiencias en tiempo real y por lotes, el modelo primero comprueba si un usuario pertenece a la audiencia de destino. Si el usuario cumple los requisitos para la audiencia de destino y no pertenece a ninguna de las personalidades, el modelo les asigna una puntuación de calificación de personalidad.
 
@@ -122,11 +122,11 @@ Al configurar los modelos [!UICONTROL Predictive Audiences], tenga en cuenta las
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [Controles de exportación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) de las siguientes fuentes de datos de origen:
+Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de las siguientes fuentes de datos de origen:
 
 1. La fuente de datos de origen que elija al crear el modelo.
 1. Las fuentes de datos de origen de la audiencia de destino. Específicamente, los controles de exportación de datos de [!UICONTROL traits] o [!UICONTROL segments] que conforman la audiencia de destino.
-1. Los [Controles de exportación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) del [!UICONTROL Profile Merge Rule] que ha seleccionado para el modelo.
+1. Los [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) del [!UICONTROL Profile Merge Rule] que ha seleccionado para el modelo.
 
 Los predictivos [!UICONTROL traits] y [!UICONTROL segments] recién creados tendrán las mismas restricciones de privacidad que la unión de las fuentes de datos de origen descritas anteriormente.
 
@@ -146,6 +146,6 @@ Al seleccionar un [!UICONTROL Profile Merge Rule] que utilice tanto datos de dis
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Los rasgos y segmentos que elija para las personas y la clasificación de audiencias están sujetos a los [Controles de acceso basados en roles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html) del Audience Manager.
+Los rasgos y segmentos que elija para las personas y la clasificación de audiencias están sujetos a los [Controles de acceso basados en roles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) del Audience Manager.
 
-Los usuarios Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino que tengan [permiso para ver](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Los usuarios Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino que tengan [permiso para ver](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
