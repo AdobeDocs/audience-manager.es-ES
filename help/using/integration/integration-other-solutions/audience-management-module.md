@@ -8,9 +8,9 @@ title: Implementación del módulo Gestión de público
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integración de Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Siga los pasos de este tutorial para reenviar datos [!DNL Analytics] a [!DNL Aud
 Además de habilitar las extensiones o implementar el código descrito en este documento, también debe:
 
 * Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-* Habilite [Reenvío del lado del servidor](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para los grupos de informes en [!UICONTROL Adobe Analytics Admin Console].
+* Habilite [Reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para los grupos de informes en [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementación {#implementation}
 
