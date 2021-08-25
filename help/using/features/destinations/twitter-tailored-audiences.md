@@ -1,46 +1,46 @@
 ---
 description: En este artículo se explica cómo configurar Audiencias personalizadas de Twitter para integraciones nuevas y existentes.
-seo-description: En este artículo se explica cómo configurar Audiencias personalizadas de Twitter para integraciones nuevas y existentes.
-seo-title: Configurar Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
+seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
+seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
 title: Configurar Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
-feature: Destinos basados en personas
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '529'
+ht-degree: 1%
 
 ---
 
-# Configure [!DNL Twitter Tailored Audiences] como un destino basado en dispositivos de autoservicio {#configure-twitter}
+# Configure [!DNL Twitter Custom Audiences] como un destino basado en dispositivos de autoservicio {#configure-twitter}
 
 Este artículo explica cómo configurar una integración con [Audiencias personalizadas de Twitter](https://business.twitter.com/en/targeting/tailored-audiences.html).
 
 ## Requisitos previos {#prerequisites}
 
-Antes de configurar su destino [!DNL Twitter Tailored Audiences], asegúrese de revisar los siguientes requisitos previos de Twitter que necesita cumplir.
+Antes de configurar su destino [!DNL Twitter Custom Audiences], asegúrese de revisar los siguientes requisitos previos de Twitter que necesita cumplir.
 
 1. Su cuenta [!DNL Twitter Ads] debe ser elegible para publicidad. Las nuevas cuentas [!DNL Twitter Ads] no pueden anunciarse en las dos primeras semanas después de crearlas.
 2. Su cuenta de usuario [!DNL Twitter] para la que autorizó el acceso en el Audience Manager debe tener habilitado el permiso [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels).
-3. Al crear el primer [!DNL Twitter Tailored Audiences] destino en la instancia de Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o el Servicio de atención al cliente para habilitar la sincronización de ID [!DNL Twitter] (ID de fuente de datos = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre Audience Manager y [!DNL Twitter].
+3. Al crear el primer [!DNL Twitter Custom Audiences] destino en la instancia de Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o el Servicio de atención al cliente para habilitar la sincronización de ID [!DNL Twitter] (ID de fuente de datos = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre Audience Manager y [!DNL Twitter].
 
-## Añadir un nuevo [!DNL Twitter Tailored Audiences] destino {#add-new-twitter-destination}
+## Añadir un nuevo destino [!DNL Twitter Custom Audiences] {#add-new-twitter-destination}
 
-En esta sección se describen los pasos que debe seguir al configurar un nuevo destino basado en dispositivos para [!DNL Twitter Tailored Audiences]. En este escenario se supone que no tiene ningún destino [!DNL Twitter Tailored Audiences] configurado a través de su asesor de Adobe o del Servicio de atención al cliente.
+En esta sección se describen los pasos que debe seguir al configurar un nuevo destino basado en dispositivos para [!DNL Twitter Custom Audiences]. En este escenario se supone que no tiene ningún destino [!DNL Twitter Custom Audiences] configurado a través de su asesor de Adobe o del Servicio de atención al cliente.
 
-### Paso 1. Autenticar con [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
+### Paso 1. Autenticar con [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
 
-Para poder agregar un destino basado en dispositivos, debe vincular al Audience Manager y su cuenta [!DNL Twitter Tailored Audiences]. A continuación se muestra cómo hacerlo:
+Para poder agregar un destino basado en dispositivos, debe vincular al Audience Manager y su cuenta [!DNL Twitter Custom Audiences]. A continuación se muestra cómo hacerlo:
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. De lo contrario, la página estará vacía.
 1. Haga clic **[!DNL Add Account]**.
-1. Seleccione [!DNL Twitter Tailored Audiences] y haga clic en **[!DNL Confirm]** para redirigirse a la página de autenticación.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Seleccione [!DNL Twitter Custom Audiences] y haga clic en **[!DNL Confirm]** para redirigirse a la página de autenticación.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
 1. Una vez que se haya autenticado, se le redirigirá al Audience Manager, donde debería ver sus cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
 
 ### Paso 2: Crear un nuevo destino basado en dispositivos {#step2-create-new-destination}
 
-Después de haber vinculado el Audience Manager y el [!DNL Twitter Tailored Audiences], puede crear el nuevo destino. A continuación se muestra cómo hacerlo:
+Después de haber vinculado el Audience Manager y el [!DNL Twitter Custom Audiences], puede crear el nuevo destino. A continuación se muestra cómo hacerlo:
 
 >[!NOTE]
 >
@@ -70,6 +70,6 @@ Al asignar segmentos de audiencia a [!UICONTROL Twitter], asegúrese de cumplir 
 >
 >No puede cambiar los nombres de segmentos ya asignados. Audience Manager utiliza los nombres de segmentos para identificar correctamente los segmentos en la integración.
 
-## Consideraciones de tasas de coincidencia {#match-rates-considerations}
+## Consideraciones sobre las tasas de coincidencia {#match-rates-considerations}
 
-* La integración entre Audience Manager y [!UICONTROL Twitter Tailored Audiences] admite los rellenos históricos de audiencias. Todas las cualificaciones del segmento se envían a [!UICONTROL Twitter] al crear el destino.
+* La integración entre Audience Manager y [!UICONTROL Twitter Custom Audiences] admite los rellenos históricos de audiencias. Todas las cualificaciones del segmento se envían a [!UICONTROL Twitter] al crear el destino.
