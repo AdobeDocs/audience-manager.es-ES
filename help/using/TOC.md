@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Descubra cómo Audience Manager le permite recopilar información relevante desde el punto de vista comercial sobre los visitantes del sitio, crear segmentos comercializables y ofrecer contenido y publicidad segmentada a la audiencia adecuada.
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 90%
