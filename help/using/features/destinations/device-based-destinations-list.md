@@ -1,16 +1,16 @@
 ---
 description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su Lista de Adobe de Exchange (si está disponible) o póngase en contacto con su asesor de Adobe o con el Servicio de atención al cliente.
-seo-description: Esta página solo incluye integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su Lista de Adobe de Exchange (si está disponible) o póngase en contacto con su asesor de Adobe o con el Servicio de atención al cliente.
-seo-title: Destinos de servidor a servidor de Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: activación; socios de activación, destino, destinos
 solution: Audience Manager
 title: Destinos de servidor a servidor de Adobe Audience Manager
-feature: Conceptos básicos de destino
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 72%
+source-wordcount: '1112'
+ht-degree: 74%
 
 ---
 
@@ -162,7 +162,7 @@ Esta página solo incluye [!DNL Audience Manager] [destinos basados en dispositi
 | [!DNL TubeMogul] | 3/3/2017 | Tiempo real | Sí | No | Sí | No |
 | [!DNL Turn] /  [!DNL Amobee] | 3/3/2027 | Tiempo real | No | No | No | Sí |
 | [!DNL Twenga] | 10/29/2018 | Tiempo real | Sí | No | No | No |
-| [!DNL Twitter Tailored Audiences] | 27/2/2017 | Tiempo real | Sí | No | Sí | No |
+| [!DNL Twitter Custom Audiences] | 27/2/2017 | Tiempo real | Sí | No | Sí | No |
 | [!DNL Undertone] | 7/11/2017 | 1xday | No | No | No | No |
 | [!DNL Verve] | 6/15/2017 | 1xday | Sí | No | No | Sí |
 | [!DNL VideoAmp] | 3/3/2017 | Tiempo real | No | No | No | No |
