@@ -1,15 +1,15 @@
 ---
 description: Audience Analytics permite enviar segmentos de Audience Manager a Analytics. Para usar esta función, hay que crear un destino de Analytics y segmentos de mapas para este en Audience Manager.
-seo-description: Audience Analytics permite enviar segmentos de Audience Manager a Analytics. Para usar esta función, hay que crear un destino de Analytics y segmentos de mapas para este en Audience Manager.
-seo-title: Configuración de un destino de Analytics
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Configuración de un destino de Analytics
-feature: Integración de Adobe Analytics
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener más información, consulte Requisitos previos en [Audience Analyti
 
 | Tipo de destino de Analytics | Descripción |
 |---|---|
-| Valor predeterminado | El nombre de este destino predeterminado es &quot;Adobe Analytics&quot;, que puede editar. Las ID de los grupos de informes asignados aparecen en el almacenamiento de carpetas para sus rasgos y segmentos de Audience Manager. <br>  Audience Manager crea un destino automáticamente si su cuenta tiene:  <br>  <ul><li>Cumplir los requisitos descritos en la documentación del [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Un [grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) en Analytics.</li><li>[Se ha asignado un grupo de informes a una organización](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| Valor predeterminado | El nombre de este destino predeterminado es &quot;Adobe Analytics&quot;, que puede editar. Las ID de los grupos de informes asignados aparecen en el almacenamiento de carpetas para sus rasgos y segmentos de Audience Manager. <br>  Audience Manager crea un destino automáticamente si su cuenta tiene:  <br>  <ul><li>Cumplir los requisitos descritos en la documentación del [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Un [grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) en Analytics.</li></ul> |
 | Nuevo | Para crear nuevos destinos de Analytics, vaya a Datos de audiencia > Destinos > Crear nuevo destino y siga los pasos de cada sección que se describen a continuación. |
 
 ## Paso 1: Proporcionar información básica
