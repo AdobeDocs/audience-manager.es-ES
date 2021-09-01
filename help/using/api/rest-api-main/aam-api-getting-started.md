@@ -1,16 +1,16 @@
 ---
 description: Información sobre requisitos generales, autenticación, parámetros de consulta opcionales, direcciones URL de solicitud y otras referencias.
-seo-description: Información sobre requisitos generales, autenticación, parámetros de consulta opcionales, direcciones URL de solicitud y otras referencias.
-seo-title: Introducción a las API de REST
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: Introducción a las API de REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 4%
+source-wordcount: '1942'
+ht-degree: 3%
 
 ---
 
@@ -70,6 +70,18 @@ Siga los pasos a continuación para configurar la autenticación [!DNL JWT (Serv
 >[!NOTE]
 >
 >Para configurar y trabajar con [!DNL Audience Manager] [!DNL REST APIs] de forma automatizada, puede generar el [!DNL JWT] mediante programación. Consulte [Autenticación JWT (cuenta de servicio)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) para obtener instrucciones detalladas.
+
+### Permisos RBAC de cuenta técnica
+
+Si la cuenta de Audience Manager utiliza [Control de acceso basado en roles](../../features/administration/administration-overview.md), debe crear una cuenta de usuario técnica de Audience Manager y agregarla al grupo RBAC de Audience Manager que realizará las llamadas de API.
+
+Siga los pasos a continuación para crear una cuenta de usuario técnica y agregarla a un grupo RBAC:
+
+1. Realice una llamada `GET` a `https://aam.adobe.io/v1/users/self`. La llamada creará una cuenta de usuario técnica que puede ver en [!UICONTROL Admin Console], en la página [!UICONTROL Users].
+
+   ![cuenta técnica](assets/technical-account.png)
+
+1. Inicie sesión en su cuenta de Audience Manager y [agregue la cuenta de usuario técnica](../../features/administration/administration-overview.md#create-group) al grupo de usuarios que realizará las llamadas de API.
 
 ## [!DNL OAuth] Autenticación (obsoleto) {#oauth}
 
@@ -170,7 +182,7 @@ La respuesta [!DNL JSON] contiene el nuevo token de acceso. La respuesta deberí
 
 El [!DNL Audience Manager] [!UICONTROL REST API] admite código de autorización y autenticación implícita. Para utilizar estos métodos de acceso, los usuarios deben iniciar sesión en `https://api.demdex.com/oauth/authorize` para obtener acceso y actualizar los tokens.
 
-## Realizar [!DNL API] solicitudes autenticadas {#authenticated-api-requests}
+## Realizar solicitudes autenticadas [!DNL API] {#authenticated-api-requests}
 
 Requisitos para llamar a los métodos [!DNL API] después de recibir un token de autenticación.
 
@@ -287,6 +299,6 @@ Las nuevas versiones de estos [!DNL API]s se publican con regularidad. Una nueva
 >
 >* [Autenticación JWT (cuenta de servicio)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [Autenticación OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
