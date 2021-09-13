@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Configurar Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # Configure [!DNL Twitter Custom Audiences] como un destino basado en dispositivos de autoservicio {#configure-twitter}
 
-Este artículo explica cómo configurar una integración con [Audiencias personalizadas de Twitter](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Este artículo explica cómo configurar una integración con [Audiencias personalizadas de Twitter](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Requisitos previos {#prerequisites}
 
@@ -35,7 +35,10 @@ Para poder agregar un destino basado en dispositivos, debe vincular al Audience 
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. De lo contrario, la página estará vacía.
 1. Haga clic **[!DNL Add Account]**.
-1. Seleccione [!DNL Twitter Custom Audiences] y haga clic en **[!DNL Confirm]** para redirigirse a la página de autenticación.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Seleccione [!DNL Twitter Custom Audiences] y haga clic en **[!DNL Confirm]** para redirigirse a la página de autenticación.
+
+   ![plataformas integradas](assets/dbd-integrated-platforms.png)
+
 1. Una vez que se haya autenticado, se le redirigirá al Audience Manager, donde debería ver sus cuentas de anunciante asociadas. Seleccione la cuenta del anunciante que desee utilizar y haga clic en **[!DNL Confirm]**.
 
 ### Paso 2: Crear un nuevo destino basado en dispositivos {#step2-create-new-destination}
