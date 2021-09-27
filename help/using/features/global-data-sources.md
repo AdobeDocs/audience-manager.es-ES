@@ -1,14 +1,14 @@
 ---
 description: Utilice las fuentes de datos globales para importar los ID publicitarios de dispositivo.
-seo-description: Utilice las fuentes de datos globales para importar los ID publicitarios de dispositivo.
-seo-title: Fuentes de datos globales
+seo-description: Use Global Data Sources to import device advertising IDs.
+seo-title: Global Data Sources
 solution: Audience Manager
 title: Fuentes de datos globales
-feature: Fuentes de datos
+feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,8 @@ En la tabla siguiente se describen las fuentes de datos globales admitidas por e
 | 389146 | **[!DNL Microsoft Advertising ID]** : los  **[!DNL MAID]** ID representan dispositivos que ejecutan el sistema  [!DNL Windows 10] operativo. |
 | 963906 | **[!DNL Samsung Tizen IDs for Advertising]** : los  **[!DNL TIFA]** ID representan televisores  [!DNL Samsung] inteligentes. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representan dispositivos en ejecución  [!DNL Amazon Fire OS] |
+| 1171485 | **[!DNL LG webOS TV ID]** -  **[!DNL LGUDID]** representan dispositivos que ejecutan el sistema  [!DNL LG webOS] operativo. |
+| 1171489 | **[!DNL Vizio ID for Advertising]** -  **[!DNL IFA]** representan dispositivos que ejecutan sistemas operativos Vizio smart TV. |
 
 ## Importación de datos desde fuentes de datos globales
 
