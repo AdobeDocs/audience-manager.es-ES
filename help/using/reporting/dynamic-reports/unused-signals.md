@@ -1,15 +1,15 @@
 ---
 description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
-seo-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
-seo-title: Informe de señales no utilizadas
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Informe de señales no utilizadas
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: Informes de superposición
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Este informe devuelve un recuento de frecuencia de toda la información no utili
 
 Una señal es información del sitio web que se pasa a [!DNL Audience Manager] en forma de [pares clave-valor](../../reference/key-value-pairs-explained.md) (por ejemplo, `color=blue, price>100, gender=female`, etc.).
 
-Las señales no utilizadas consisten en datos que se recopilan pero que no se han asignado a un rasgo. El informe [!UICONTROL Unused Signals] muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar pasada a [!DNL Audience Manager] al menos 100 veces en un día califica para el informe [!UICONTROL Unused Signals].
+Las señales no utilizadas consisten en datos que se recopilan pero que no se han asignado a un rasgo. El informe [!UICONTROL Unused Signals] muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar pasada a [!DNL Audience Manager] al menos 100 veces en un día califica para el informe [!UICONTROL Unused Signals]. Las señales no utilizadas se almacenan durante 45 días y después se descartan.
 
 Revise este informe para ayudar a identificar las señales huérfanas que se pueden asignar a características nuevas o existentes.
 
