@@ -1,16 +1,16 @@
 ---
 description: Audience Manager ofrece servicios líderes en el sector de la administración de datos de audiencias en línea. Nuestros productos y servicios proporcionan a los editores y publicistas digitales las herramientas necesarias para controlar y aprovechar sus recursos de datos con el fin de mejorar el éxito de ventas.
-seo-description: Documentación técnica y autoayuda para Audience Manager (AAM). AAM ofrece servicios líderes en la industria para la gestión de datos de audiencias en línea y ofrece a los anunciantes y editores digitales las herramientas necesarias para controlar y aprovechar sus activos de datos con el fin de contribuir al éxito de las ventas.
-seo-title: Documentación técnica del producto de Adobe Audience Manager
+seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
 title: Guía de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: Información general
+feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 91%
+source-wordcount: '597'
+ht-degree: 88%
 
 ---
 
@@ -87,7 +87,7 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introducción a las API de REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introducción a la API de DCS</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Añada la extensión de Audience Manager en Adobe Experience Platform Launch</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Añadir la extensión del Audience Manager en Adobe Experience Platform Tags</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Añada Audience Manager en la aplicación</a></li>
      </ul> </p>
     </td>
