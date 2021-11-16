@@ -1,27 +1,27 @@
 ---
 description: Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros que devuelve este sistema.
-seo-description: Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a los Servidores de recopilación de datos (DCS). Esta información puede ayudarle a dar formato a sus solicitudes de DCS y a comprender los parámetros que devuelve este sistema.
-seo-title: Atributos admitidos para llamadas a la API DCS
+seo-description: Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers (DCS). This information can help you format your DCS requests and understand the parameters returned by this system.
+seo-title: Supported Attributes for DCS API Calls
 solution: Audience Manager
 title: Atributos admitidos para llamadas a la API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '867'
 ht-degree: 4%
 
 ---
 
-# Atributos admitidos para llamadas [!DNL DCS] [!DNL API] {#supported-attributes-for-dcs-api-calls}
+# Atributos admitidos para [!DNL DCS] [!DNL API] Llamadas {#supported-attributes-for-dcs-api-calls}
 
-Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a [!UICONTROL Data Collection Servers] ([!DNL DCS]). Esta información puede ayudarle a dar formato a sus solicitudes [!DNL DCS] y comprender los parámetros que devuelve este sistema.
+Enumera y describe la sintaxis y los atributos admitidos (o pares clave-valor) que puede pasar a la [!UICONTROL Data Collection Servers] ([!DNL DCS]). Esta información puede ayudarle a dar formato a su [!DNL DCS] y comprenda los parámetros devueltos por este sistema.
 
 ## Prefijos de atributos {#attribute-prefixes}
 
-El [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares clave-valor para clasificar el tipo de datos que está pasando.
+La variable [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares de clave-valor para clasificar el tipo de datos que está pasando.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -37,7 +37,7 @@ El [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares c
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Atributos de Audience </span> Manager. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> atributos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -45,14 +45,14 @@ El [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares c
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Atributos privados definidos por el cliente. </p> <p> El DCS acepta sus propios datos privados cuando la clave tiene un prefijo <code> p_</code>. Los datos privados se utilizan para la evaluación de características, pero no se registran ni almacenan en nuestro sistema. Por ejemplo, supongamos que tiene un rasgo definido como <code> customers = p_age&lt;25</code> y pasa <code> p_age=23</code> en una llamada de evento. Dadas estas condiciones, el usuario que cumple los criterios de calificación basados en la edad se califica para el rasgo, pero el par clave-valor se abandona después de que <span class="keyword"> Audience Manager</span> reciba la solicitud y no se registre. </p> </td>
+   <td colname="col2"> <p>Atributos privados definidos por el cliente. </p> <p> El DCS acepta sus propios datos privados cuando la clave tiene un <code> p_</code> prefijo . Los datos privados se utilizan para la evaluación de características, pero no se registran ni almacenan en nuestro sistema. Por ejemplo, supongamos que tiene un rasgo definido como <code> customers = p_age&lt;25</code> y pasa <code> p_age=23</code> en una llamada de evento. Dadas estas condiciones, el usuario que cumple los criterios de calificación basados en la edad cumple los requisitos para el rasgo, pero el par clave-valor se abandona después de <span class="keyword"> Audience Manager</span> recibe la solicitud y no se registra. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## [!DNL d_] Atributos {#d-attributes}
 
-Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea que el [!DNL DCS] devuelva una respuesta, se requiere `d_rtbd=json`.
+Todas estas opciones son opcionales, a menos que desee obtener una respuesta de la [!DNL DCS]. Si desea que la variable [!DNL DCS] para devolver una respuesta, `d_rtbd=json` es obligatorio.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -64,29 +64,29 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
  <tbody> 
   <tr> 
    <td colname="col1"> <p><code> d_caller</code> </p> </td> 
-   <td colname="col2"> <p>Se utiliza para identificar el llamador que realiza la llamada a la API <span class="wintitle"> DCS</span>. </p> </td> 
+   <td colname="col2"> <p>Se utiliza para identificar el llamador que realiza la llamada a la variable <span class="wintitle"> DCS</span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Especifica una función de JavaScript que se desea ejecutar utilizando la respuesta <span class="wintitle"> DCS</span> como parámetro de función de la función de llamada de retorno. </p> </td> 
+   <td colname="col2"> <p>Especifica una función de JavaScript que se desea ejecutar con el <span class="wintitle"> DCS</span> Respuesta como parámetro de función de la función de llamada de retorno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contiene uno o más pares de ID del proveedor de datos (<code> DPID</code>) e ID de usuario del proveedor de datos (<code> DPUUID</code>) asignados por el <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID</code>s y <code> DPUUID</code>s, separe cada par con el carácter no imprimible <code> %01</code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene uno o más pares de ID del proveedor de datos (<code> DPID</code>) e ID de usuario del proveedor de datos (<code> DPUUID</code>) asignado por <span class="keyword"> Audience Manager</span>. Si utiliza varios pares de <code> DPID</code>s y <code> DPUUID</code>s, separe cada par con el carácter no imprimible <code> %01</code>. Por ejemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> reemplaza a <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un único par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contiene un código de integración y un ID de usuario único asociado en un único par clave-valor. </p> <p><code> d_cid_ic</code> reemplaza a <code> d_dpid</code> y <code> d_dpuuid</code>, que están en desuso pero siguen siendo compatibles. Consulte <a href="../../../reference/cid.md">CID reemplaza DPID y DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. El servicio de identidad de Adobe Experience Platform de Adobe establece dinámicamente este parámetro y depende de la configuración <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
+   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. Este parámetro lo establece dinámicamente el servicio de identidad de Adobe Experience Platform de Adobe y depende del <code> idSyncDisable3rdPartySyncing</code> configuración. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Opcional. Habilitado en la solicitud del cliente. Póngase en contacto con su asesor de Adobe Audience Manager o con el Servicio de atención al cliente. </p> <p>Indica que los rasgos y segmentos deben devolverse dentro de la respuesta <code> JSON</code>. </p> <p> 
+   <td colname="col2"> <p>Opcional. Habilitado en la solicitud del cliente. Póngase en contacto con su asesor de Adobe Audience Manager o con el Servicio de atención al cliente. </p> <p>Indica que los rasgos y segmentos deben devolverse dentro de la variable <code> JSON</code> respuesta. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> devuelve <a href="../../../reference/ids-in-aam.md"> ID de segmento heredados</a> para los segmentos. </p> </li>
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> return <a href="../../../reference/ids-in-aam.md"> ID de segmentos heredados</a> para los segmentos. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> devuelve ID de segmento para los segmentos. </p> </li>
      </ul> </p> <p>Una respuesta de ejemplo podría parecerse a la de abajo: </p> <p>
      <code class="syntax javascript">
@@ -110,7 +110,7 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
-   <td colname="col2"> <p>Devuelve los datos de destino de la URL en la respuesta <code> JSON</code>. </p> </td> 
+   <td colname="col2"> <p>Devuelve los datos de destino de URL en el <code> JSON</code> respuesta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
@@ -118,15 +118,15 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
-   <td colname="col2"> <p>Indica la versión <code> JSON</code> que se utilizará en la respuesta. Normalmente, debe establecerlo en <code> d_jsonv=1</code>. Al establecer <code> d_jsonv=0</code> se deshabilitan las sincronizaciones de ID. </p> </td> 
+   <td colname="col2"> <p>Indica la variable <code> JSON</code> para usar en la respuesta. Normalmente, debe configurarlo como <code> d_jsonv=1</code>. Configuración <code> d_jsonv=0</code> deshabilita las sincronizaciones de ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por el servicio de ID <span class="keyword"> Experience Cloud</span>. Para obtener más información sobre el ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad del Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica el ID de Experience Cloud definido y utilizado por la variable <span class="keyword"> Experience Cloud</span> Servicio de ID. Para obtener más información sobre el ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad del Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
-   <td colname="col2"> <p>Asigne un nombre al ID de espacio. Indica qué contenedor de JavaScript se utiliza. Utilizado por el DIL <span class="wintitle"></span> para la sincronización de id. </p> </td> 
+   <td colname="col2"> <p>Asigne un nombre al ID de espacio. Indica qué contenedor de JavaScript se utiliza. Utilizado por <span class="wintitle"> DIL</span> a para la sincronización de id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
@@ -140,14 +140,14 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleta. <code> d_rs</code> es un atributo reservado que se utiliza en la integración heredada entre  <span class="keyword"> Adobe </span> Analytics y  <span class="keyword"> Audience Manager</span>. </p> <p>No se recomienda crear características que usen atributos reservados. El Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
+   <td colname="col2"> <p>Obsoleta. <code> d_rs</code> es un atributo reservado que se utiliza en la integración heredada entre <span class="keyword"> Adobe Analytics</span> y <span class="keyword"> Audience Manager</span>. </p> <p>No se recomienda crear características que usen atributos reservados. El Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p>Requerido si desea una respuesta <code> JSON</code> del <span class="wintitle"> DCS</span>. </p> <p> 
+   <td colname="col2"> <p>Requerido si desea un <code> JSON</code> respuesta de <span class="wintitle"> DCS</span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si omite esto, el <span class="wintitle"> DCS</span> devuelve un píxel en el encabezado. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si lo incluye, el <span class="wintitle"> DCS</span> devuelve un objeto <code> JSON</code> en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si omite esto, la variable <span class="wintitle"> DCS</span> devuelve un píxel en el encabezado. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si incluye esto, la variable <span class="wintitle"> DCS</span> devuelve un valor <code> JSON</code> en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
       {
@@ -160,7 +160,7 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
-   <td colname="col2"> <p><code> SID</code> es <span class="term"> score ID</span>. Se trata de un ID exclusivo para un rasgo o un segmento. </p> </td> 
+   <td colname="col2"> <p><code> SID</code> es <span class="term"> ID de puntuación</span>. Se trata de un ID exclusivo para un rasgo o un segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid</code> </p> </td> 
@@ -180,7 +180,7 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid_ic</code> </p> </td> 
-   <td colname="col2"> <p>El propósito es idéntico al parámetro <code> d_tdpid</code> descrito anteriormente. Sin embargo, en este caso, la fuente de datos se pasa mediante el código de integración. </p> <p>Para mantener los rasgos descritos anteriormente, considere la llamada de ejemplo: </p> <p>Para <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, solo se devuelve el rasgo T2. </p> </td> 
+   <td colname="col2"> <p>El propósito es idéntico al del <code> d_tdpid</code> parámetro descrito anteriormente. Sin embargo, en este caso, la fuente de datos se pasa mediante el código de integración. </p> <p>Para mantener los rasgos descritos anteriormente, considere la llamada de ejemplo: </p> <p>Para <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, solo se devuelve el rasgo T2. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_uuid</code> </p> </td> 
@@ -188,3 +188,16 @@ Todos estos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si de
   </tr>
  </tbody>
 </table>
+
+## h_ Attributes
+
+Estos encabezados contienen información como solicitudes de datos y respuestas en una llamada HTTP.
+
+| Atributo | Descripción |
+| --- | --- | 
+| `h_host` | Se establece en el nombre de host de recopilación de datos específico del cliente. Aparece como `host name .demdex.net`. Consulte [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
+| `h_user-agent` | Configure en la variable `User-Agent` valor de encabezado. |
+| `h_accept-language` | Configure en la variable  `Accept-Language`  valor de encabezado. |
+| `h_referer` | Configure en la variable `Referer` valor de encabezado. |
+| `h_referrer` | Configure en la variable `Referrer` valor de encabezado. |
+| `h_date` | Configure en la variable `Date` valor de encabezado. |
