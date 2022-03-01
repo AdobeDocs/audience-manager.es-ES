@@ -4,9 +4,10 @@ solution: Audience Manager
 title: uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, uso compartido de segmentos, AAM uso compartido de segmentos de AEP
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ Los números de población de segmentos pueden variar entre los segmentos del Au
 
 ### Evaluación de segmentos en el Experience Platform
 
-El Audience Manager actualiza los números de los informes en la interfaz una vez al día.   El momento de esta actualización raramente se alinea con el momento de la evaluación del segmento en el Experience Platform.
+El Audience Manager actualiza los números de los informes en la interfaz una vez al día. El momento de esta actualización raramente se alinea con el momento de la evaluación del segmento en el Experience Platform.
 
 ### Diferencias entre las reglas de combinación de perfiles y las políticas de combinación
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en Audience Manager y [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) en el Experience Platform trabaja de forma diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre las poblaciones de segmentos.
+
+>[!NOTE]
+>
+> Al compartir segmentos de Experience Platform a Audience Manager, su organización de Platform [directiva de combinación predeterminada](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) tiene prioridad sobre la variable [directiva de combinación utilizada por el segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) compartido con Audience Manager. Por ejemplo, si la política de fusión del segmento compartido permite [Vinculación de ID](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), pero la directiva de combinación predeterminada de la organización no lo hace, esto puede provocar diferencias de población entre Platform y Audience Manager.
 
 ### Composición de segmentos en el Experience Platform
 
