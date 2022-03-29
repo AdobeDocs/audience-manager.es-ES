@@ -7,9 +7,9 @@ title: Requisitos de tamaño de archivo y nombre de FTP para archivos de datos d
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
+source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1096'
 ht-degree: 6%
 
 ---
