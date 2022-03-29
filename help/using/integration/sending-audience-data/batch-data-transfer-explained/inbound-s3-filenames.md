@@ -7,9 +7,9 @@ title: Requisitos de tamaño de archivo y nomenclatura de Amazon S3 para archivo
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 3e25db0fc74a0b125f4f0ecd0f45f3fb877be099
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1105'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ La tabla define los elementos de una [!DNL S3] nombre del archivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Este campo indica al Audience Manager a qué fuente de datos debe incorporar los datos. Este campo es obligatorio si se establece el DPID en un Android ID o iOS ID u otro ID que pertenezca a fuentes de datos globales. Esto permite que el Audience Manager vuelva a vincular los datos del archivo a su organización. <br> Esta fuente de datos de destino debe ser propiedad de su empresa. Para compartir datos de segundo nivel, para poder ingerir datos en un origen de datos de destino que pertenezca a otra empresa, debe tener una asignación de acceso entre la empresa y el origen de datos de destino. Póngase en contacto con su asesor de Adobe o con el Servicio de atención al cliente para configurar la asignación.</p> <p>Por ejemplo: </p> 
+   <td colname="col2"> <p>Este campo indica al Audience Manager a qué fuente de datos debe incorporar los datos. Este campo es obligatorio si se establece el DPID en un Android ID o iOS ID u otro ID que pertenezca a fuentes de datos globales. Esto permite que el Audience Manager vuelva a vincular los datos del archivo a su organización. <br> Esta fuente de datos de destino debe ser propiedad de su empresa. Para compartir datos de segundo nivel, para poder ingerir datos en un origen de datos de destino que pertenezca a otra empresa, debe tener una asignación de acceso entre la empresa y el origen de datos de destino. Póngase en contacto con su asesor de Adobe o con el Servicio de atención al cliente para configurar la asignación.</p> <p><b>Nota importante:</b> You <i>no</i> debe solicitar una asignación para las relaciones de uso compartido de datos existentes (para fuentes de datos de destino pertenecientes a otras empresas en las que incorporó datos antes del 14 de marzo de 2022). La asignación tampoco es necesaria al incorporar datos a fuentes de datos de destino que pertenecen a su PID. </p> <p>Por ejemplo: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indica al Audience Manager que está calificando los ID de cliente pertenecientes a la fuente de datos 33 para características o señales pertenecientes a la fuente de datos 21. </li> 
      <li> <b>ID de Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> tell <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de Android y los ID deben cumplir los requisitos para los rasgos pertenecientes a la fuente de datos 21.</li> 
