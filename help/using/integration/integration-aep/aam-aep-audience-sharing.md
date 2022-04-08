@@ -5,9 +5,9 @@ title: uso compartido de segmentos de Experience Platform con Audience Manager y
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, uso compartido de segmentos, AAM uso compartido de segmentos de AEP
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobe Experience Platform le permite compartir sus rasgos y segmentos de Audience Manager con Adobe Experience Platform y viceversa. Necesita el [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para permitir el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
 
-Puede utilizar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del Experience Platform [servicio de segmentación](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Puede utilizar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del Experience Platform [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 En Audience Manager, puede utilizar segmentos de Experience Platform para casos de uso de la plataforma de gestión de datos, como:
 * Agregar [datos de terceros](/help/using/overview/data-types-collected.md#third-party-data) a sus segmentos;
