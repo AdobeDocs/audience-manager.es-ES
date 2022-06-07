@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Integración de WCA de Facebook
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página ilustra el proceso de creación [!DNL Facebook Website Custom Audie
 
 ## Información general {#overview}
 
-[Audiencias personalizadas del sitio web de facebook (WCA)](https://www.facebook.com/business/help/449542958510885) permite crear una lista de personas que han visitado determinadas páginas o que han realizado acciones concretas en el sitio web. [!DNL Audience Manager] habilita la activación en [!DNL WCA] using [!DNL URL] destinos, con los que puede configurar una integración personalizada basada en píxeles para enviar audiencias basadas en web a [!DNL Facebook] para la segmentación.
+[Audiencias personalizadas del sitio web de facebook (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) permite crear una lista de personas que han visitado determinadas páginas o que han realizado acciones concretas en el sitio web. [!DNL Audience Manager] habilita la activación en [!DNL WCA] using [!DNL URL] destinos, con los que puede configurar una integración personalizada basada en píxeles para enviar audiencias basadas en web a [!DNL Facebook] para la segmentación.
 
 ![Integración de WCA de Facebook](/help/using/integration/assets/facebook-wca-integration.png)
 
