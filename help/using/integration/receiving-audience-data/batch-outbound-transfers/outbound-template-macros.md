@@ -1,15 +1,15 @@
 ---
 description: Enumera las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
-seo-description: Enumera las macros que puede utilizar para crear plantillas salientes. Estas incluyen macros de nombre de archivo, macros de encabezado y macros de contenido.
-seo-title: Macros de plantillas de salida
+seo-description: Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
+seo-title: Outbound Template Macros
 solution: Audience Manager
 title: Macros de plantillas de salida
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-feature: Transferencias de datos de salida
+feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -86,7 +86,7 @@ La tabla enumera y describe las macros que puede utilizar en el nombre del archi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Marca de tiempo UTC, Unix de 10 dígitos. </p> <p>También se puede formatear como <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> siguiendo las reglas de formato de fecha y hora de Java. </p> </td> 
+   <td colname="col2"> <p>Marca de tiempo UTC, Unix de 10 dígitos. </p> <p>También puede tener el formato <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> siguiendo las reglas de formato de fecha y hora de Java. </p> </td> 
   </tr>
 
 </tbody> 
@@ -106,11 +106,11 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter <code>}</code> de corchete de cierre. </p> </td> 
+   <td colname="col2"> <p>Inserta una llave de cierre <code>}</code> carácter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificador de usuario único del proveedor de datos  </span>. </p> <p>Este es el ID del socio de datos al que envía los datos en un archivo saliente. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificador de usuario único del proveedor de datos </span>. </p> <p>Este es el ID del socio de datos al que envía los datos en un archivo saliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -122,7 +122,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>El resultado de esta macro asigna el ID del proveedor de datos (DPID) a ID de usuario único relacionados (DPUUID). Esta macro debe tener una cadena de formato para controlar su salida. El resultado de muestra sería similar al siguiente: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>La configuración <code> maxMappings </code> determina cuántos mapeos desea que devuelva la macro. Cuando <code> maxMappings=0 </code>, esta macro devuelve todas las asignaciones para cada DPID especificado. Los datos se ordenan por marca de tiempo (el más reciente primero) y devuelven primero los resultados con la marca de tiempo más grande. </p> </td> 
+   <td colname="col2"> <p>El resultado de esta macro asigna el ID del proveedor de datos (DPID) a ID de usuario único relacionados (DPUUID). Esta macro debe tener una cadena de formato para controlar su salida. El resultado de muestra sería similar al siguiente: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>La variable <code> maxMappings </code> determina cuántas asignaciones desea que devuelva la macro. When <code> maxMappings=0 </code>, esta macro devuelve todas las asignaciones para cada DPID especificado. Los datos se ordenan por marca de tiempo (el más reciente primero) y devuelven primero los resultados con la marca de tiempo más grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -134,7 +134,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter <code>{</code> de corchete abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta una llave abierta <code>{</code> carácter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -150,7 +150,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Devuelve <code> 1 </code> como un valor estático codificado. </p> </td> 
+   <td colname="col2"> <p>Devuelve <code> 1 </code> como valor estático codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -171,14 +171,15 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID de segmento. Obsoleta. Utilice <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID de segmento de cliente. Obsoleta. Utilice <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID de segmento </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Devuelve  <code> 5 </code>, un valor estático codificado de forma rígida que identifica los datos como datos de segmento. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. No usar. </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Marca de hora Unix que indica la última vez que se realizó un segmento. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Devuelve <code> 5 </code>, un valor estático codificado que identifica los datos como datos de segmento. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. No usar. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Marca de hora Unix que indica la última vez que se actualizó el estado de pertenencia a un segmento. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: Marca de hora Unix que indica la última vez que se realizó un segmento. </li>
     </ul> <p>Coloque estas variables entre llaves después de la macro . Por ejemplo, este código separa los resultados con un carácter de barra vertical "|": <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Devuelve <code> 1 </code>, como un valor estático codificado de forma rígida. </p> </td> 
+   <td colname="col2"> <p>Devuelve <code> 1 </code>, como valor estático codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -216,7 +217,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para ver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID de  </span> usuario de Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ID de usuario. </p> </td> 
   </tr> 
  </tbody> 
 </table>
