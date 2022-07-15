@@ -29,7 +29,7 @@ Cosas que debe y debe hacer al trabajar con [!DNL Audience Manager] [!DNL API]s.
 Tenga en cuenta lo siguiente al trabajar con [API de Audience Manager](https://bank.demdex.com/portal/swagger/index.html#/) código:
 
 * **Parámetros de solicitud:** todos los parámetros de solicitud son obligatorios a menos que se especifique lo contrario.
-* **Encabezados de solicitud**: cuando se usa [Desarrollador de Adobe](https://www.adobe.io/) tokens, debe proporcionar la variable `x-api-key` encabezado. Puede obtener su [!DNL API] siguiendo las instrucciones de la sección [Integración de cuentas de servicio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) página.
+* **Encabezados de solicitud**: cuando se usa [Adobe Developer](https://www.adobe.io/) tokens, debe proporcionar la variable `x-api-key` encabezado. Puede obtener su [!DNL API] siguiendo las instrucciones de la sección [Integración de cuentas de servicio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) página.
 * **[!DNL JSON]tipo de contenido:** Especifique `content-type: application/json`  *y*  `accept: application/json` en su código.
 * **Solicitudes y respuestas:** Enviar solicitudes con el formato correcto [!DNL JSON] objeto. [!DNL Audience Manager] responde con [!DNL JSON] datos con formato. Las respuestas del servidor pueden contener datos solicitados, un código de estado o ambos.
 * **Acceso:** Su [!DNL Audience Manager] el consultor le proporcionará un ID de cliente y una clave que le permitirán hacer [!DNL API] solicitudes.
@@ -39,16 +39,16 @@ Tenga en cuenta lo siguiente al trabajar con [API de Audience Manager](https://b
 
 La variable [!DNL Audience Manager] [!DNL REST APIs] admiten dos métodos de autenticación.
 
-* [Autenticación JWT (cuenta de servicio)](#jwt) using [Desarrollador de Adobe](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://www.adobe.io/apis.html). Esta es la forma recomendada de configurar y utilizar [!DNL Adobe] [!DNL APIs].
+* [Autenticación JWT (cuenta de servicio)](#jwt) using [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://www.adobe.io/apis.html). Esta es la forma recomendada de configurar y utilizar [!DNL Adobe] [!DNL APIs].
 * [Autenticación OAuth (obsoleto)](#oauth). Aunque este método está en desuso, los clientes con [!DNL OAuth] las integraciones pueden seguir utilizando este método.
 
 >[!IMPORTANT]
 >
 >Según el método de autenticación, debe ajustar la solicitud [!DNL URLs] en consecuencia. Consulte la [Entornos](#environments) para obtener más información sobre los nombres de host que debe utilizar.
 
-## [!DNL JWT] ([!DNL Service Account]) Autenticación mediante el desarrollador de Adobe {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Autenticación mediante Adobe Developer {#jwt}
 
-### Información general para desarrolladores de Adobe {#adobeio}
+### Información general de Adobe Developer {#adobeio}
 
 [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://www.adobe.io/apis.html).
 
@@ -56,13 +56,13 @@ Esta es la forma recomendada de configurar y utilizar [!DNL Adobe] [!DNL APIs].
 
 ### Requisitos previos {#prerequisites}
 
-Antes de configurar [!DNL JWT] autenticación, asegúrese de tener acceso a la [Adobe Developer Console](https://console.adobe.io/) en [Desarrollador de Adobe](https://www.adobe.io/). Póngase en contacto con el administrador de su organización para solicitar acceso.
+Antes de configurar [!DNL JWT] autenticación, asegúrese de tener acceso a la [Consola de Adobe Developer](https://console.adobe.io/) en [Adobe Developer](https://www.adobe.io/). Póngase en contacto con el administrador de su organización para solicitar acceso.
 
 ### Autenticación {#auth}
 
 Siga los pasos a continuación para configurar [!DNL JWT (Service Account)] autenticación [!DNL Adobe Developer]:
 
-1. Inicie sesión en la [Adobe Developer Console](https://console.adobe.io/).
+1. Inicie sesión en la [Consola de Adobe Developer](https://console.adobe.io/).
 1. Siga los pasos indicados en [Conexión de cuenta de servicio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
    * Durante [Paso 2: Añadir una API al proyecto mediante autenticación de cuenta de servicio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), elija el [!DNL Audience Manager] [!DNL API] .
 1. Pruebe la conexión realizando la primera [!DNL API] realice una llamada según las instrucciones de [Paso 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
@@ -189,7 +189,7 @@ Requisitos para llamar [!DNL API] métodos después de recibir un token de auten
 Para realizar llamadas con los disponibles [!DNL API] métodos:
 
 * En el `HTTP` encabezado, conjunto `Authorization: Bearer <token>`.
-* Al usar [Autenticación JWT (cuenta de servicio)](#jwt), debe proporcionar la variable `x-api-key` encabezado, que será el mismo que su `client_id`. Puede obtener su `client_id` de la variable [Integración de desarrolladores de Adobe](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) página.
+* Al usar [Autenticación JWT (cuenta de servicio)](#jwt), debe proporcionar la variable `x-api-key` encabezado, que será el mismo que su `client_id`. Puede obtener su `client_id` de la variable [Integración con Adobe Developer](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) página.
 * Llame al [!DNL API] método.
 
 ## Opcional [!DNL API] Parámetros de consulta {#optional-api-query-parameters}
