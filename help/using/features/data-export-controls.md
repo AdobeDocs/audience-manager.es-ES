@@ -1,16 +1,16 @@
 ---
 description: Los controles de exportación de datos impiden que envíe datos a los destinos cuando esta acción infringe acuerdos de privacidad o uso de datos.
-seo-description: Los controles de exportación de datos impiden que envíe datos a los destinos cuando esta acción infringe acuerdos de privacidad o uso de datos.
-seo-title: Controles de exportación de datos
+seo-description: Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+seo-title: Data Export Controls
 solution: Audience Manager
 title: Controles de exportación de datos
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-feature: Controles de exportación de datos
+feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -20,30 +20,30 @@ ht-degree: 2%
 
 ## Información general {#overview}
 
-[!UICONTROL Data Export Controls] permite clasificar  [fuentes de ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) datos y  [destinos](../features/destinations/destinations.md). Las clasificaciones que aplique determinan cuándo se pueden exportar o no datos a un destino. Esta función consiste en:
+[!UICONTROL Data Export Controls] permite clasificar [fuentes de datos](../features/datasources-list-and-settings.md#data-sources-list-and-settings) y [destinos](../features/destinations/destinations.md). Las clasificaciones que aplique determinan cuándo se pueden exportar o no datos a un destino. Esta función consiste en:
 
-* **[!UICONTROL Data Export Controls]**: Puede establecer controles de exportación de datos en fuentes de  *datos*. Cuando se establece en una fuente de datos, estos controles restringen el modo en que se puede utilizar dicha fuente de datos y sus rasgos.
-* **[!UICONTROL Data Export Labels]**: Puede establecer etiquetas de exportación de datos en los  *destinos*. Cuando se configura en un destino, estas etiquetas identifican cómo utiliza los datos el destino. Consulte [Agregar etiquetas de exportación de datos a un destino](/help/using/features/destinations/add-data-export-labels.md) para obtener información sobre cómo agregar etiquetas de exportación a un destino.
+* **[!UICONTROL Data Export Controls]**: Puede establecer Controles de exportación de datos en *fuentes de datos*. Cuando se establece en una fuente de datos, estos controles restringen el modo en que se puede utilizar dicha fuente de datos y sus rasgos.
+* **[!UICONTROL Data Export Labels]**: Puede establecer las etiquetas de exportación de datos en *destinos*. Cuando se configura en un destino, estas etiquetas identifican cómo utiliza los datos el destino. Consulte [Agregar etiquetas de exportación de datos a un destino](/help/using/features/destinations/add-data-export-labels.md) para obtener información sobre cómo añadir etiquetas de exportación a un destino.
 
 En función de las clasificaciones aplicadas a un origen y destino de datos, los controles de exportación le impiden:
 
 * Añadir un rasgo a un segmento cuando el rasgo pertenece a un origen de datos que tiene un control de exportación de datos incompatible con una etiqueta de exportación de datos en uno o varios de los destinos a los que está asignado el segmento.
-Por ejemplo, supongamos que un segmento está asignado a un destino con la etiqueta de exportación **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Los controles de exportación impiden añadir un rasgo a ese segmento si el origen de datos al que pertenece el rasgo tiene un control de exportación de datos que diga **[!DNL Cannot be tied to personally identifiable information (PII)]**.
-* El envío de datos a un destino tiene una etiqueta de exportación de datos bloqueada por un control de exportación de datos en cualquiera de los siguientes casos:
+Por ejemplo, supongamos que un segmento está asignado a un destino con la etiqueta de exportación **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Los controles de exportación impiden añadir un rasgo a ese segmento si la fuente de datos a la que pertenece el rasgo tiene un control de exportación de datos que diga **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+* Envío de datos a un destino que tenga una etiqueta de exportación de datos bloqueada por un control de exportación de datos en cualquiera de los siguientes casos:
    * La fuente de datos de un rasgo incluido;
    * La fuente de datos de un rasgo que se utiliza en un segmento incluido;
    * La regla de combinación de perfiles aprovechada por un segmento incluido;
    * Cualquiera de las fuentes de datos que utiliza una regla de combinación de perfiles de un segmento incluido.
 
-[!UICONTROL Data Export Controls] están disponibles automáticamente para todos los clientes Audience Manager. Sin embargo, se necesitan permisos de administrador para agregar controles de exportación a un origen de datos. La adición de etiquetas de exportación a un destino requiere permisos de administrador *o* suficientes privilegios para crear o editar un destino.
+[!UICONTROL Data Export Controls] están disponibles automáticamente para todos los clientes Audience Manager. Sin embargo, se necesitan permisos de administrador para agregar controles de exportación a un origen de datos. Añadir etiquetas de exportación a un destino requiere permisos de administrador *o* suficientes privilegios para crear o editar un destino.
 
 ## Controles y etiquetas definidos {#controls-labels}
 
 [!UICONTROL Data Export Controls] proporcione los siguientes controles para ayudarle a clasificar fuentes de datos y destinos.
 
-Para bloquear la entrega de datos, debe clasificar un origen de datos con un control de exportación y añadir una etiqueta de exportación a un destino. Si aplica controles de exportación solo a un origen o destino de datos, esta función no restringirá el envío de datos. Cuando se establecen tanto en el destino de origen de datos *como en*, los controles de exportación limitan las características que puede agregar a un segmento e impiden que los miembros del segmento se envíen a un destino.
+Para bloquear la entrega de datos, debe clasificar un origen de datos con un control de exportación y añadir una etiqueta de exportación a un destino. Si aplica controles de exportación solo a un origen o destino de datos, esta función no restringirá el envío de datos. Cuando se establece en ambas fuentes de datos *y* destino, los controles de exportación limitarán las características que puede añadir a un segmento e impedirán enviar a los miembros del segmento a un destino.
 
-Además, al menos una etiqueta de exportación debe coincidir con un control de exportación antes de que se apliquen las restricciones de entrega de datos. Por ejemplo, supongamos que agrega el control de exportación [!UICONTROL PII] a un origen de datos. A continuación, agregue la etiqueta de objetivo en el sitio a un destino. En este caso, los controles de exportación no limitarán la entrega de datos porque la configuración no coincide. Sin embargo, si agrega la etiqueta de exportación [!UICONTROL PII] al destino, los controles de exportación bloquearán la exportación.
+Además, al menos una etiqueta de exportación debe coincidir con un control de exportación antes de que se apliquen las restricciones de entrega de datos. Por ejemplo, supongamos que agrega la variable [!UICONTROL PII] exportar el control a un origen de datos. A continuación, agregue la etiqueta de objetivo en el sitio a un destino. En este caso, los controles de exportación no limitarán la entrega de datos porque la configuración no coincide. Sin embargo, si agrega la variable [!UICONTROL PII] exportar etiqueta al destino, los controles de exportación bloquearán la exportación.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Además, al menos una etiqueta de exportación debe coincidir con un control de 
    <td colname="col3"> De forma predeterminada, las restricciones de exportación no se establecen en nuevos orígenes de datos y destinos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> No se puede asociar a información</span></b>  de identificación personal (PII) </td> 
+   <td colname="col1"> <b><span class="uicontrol"> No se puede asociar a información personal</span></b> (PII) </td> 
    <td colname="col2"> <b><span class="uicontrol"> Este destino puede permitir una combinación con información de identificación personal (PII)</span></b> </td> 
    <td colname="col3">Cuando está seleccionado, no puede: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
