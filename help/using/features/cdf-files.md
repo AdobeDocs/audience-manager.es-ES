@@ -8,9 +8,9 @@ title: Fuentes de datos de clientes
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ Las secciones siguientes y la [Preguntas frecuentes sobre la Fuente de datos de 
 
 Enumera y define los elementos de datos y las matrices en una [!UICONTROL CDF] por orden de aspecto. Las definiciones incluyen tipos de datos, pero esta información no forma parte de un [!UICONTROL CDF] archivo.
 
+>[!IMPORTANT]
+>
+>Los píxeles de evento se excluyen de forma predeterminada en las configuraciones de CDF. Asegúrese de especificar en la solicitud al servicio de atención al cliente si desea que los píxeles de evento se incluyan en los archivos CDF. Cada píxel de evento se rellenará como una fila única en los archivos CDF.
+
 ## Definiciones {#definitions}
 
 A [!UICONTROL CDF] incluye algunos o todos los campos definidos a continuación. Para obtener información sobre la organización de archivos internos, consulte [Estructura del archivo de la fuente de datos del cliente](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] incluye algunos o todos los campos definidos a continuación.
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numérica </p> </td> 
-   <td colname="col3"> <p>ID del contenedor que activa la sincronización de ID. </p> </td> 
+   <td colname="col3"> <p>ID del contenedor que activa la sincronización de ID. Este campo solo se rellena si establece el ID de contenedor en la variable <i>d_nsid</i> dentro de la implementación del sitio. De lo contrario, el valor predeterminado de 0 no se incluirá en los archivos CDF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
