@@ -1,28 +1,22 @@
 ---
 description: Preguntas frecuentes sobre Audience Lab.
-seo-description: Preguntas frecuentes sobre Audience Lab.
-seo-title: Preguntas frecuentes sobre Audience Lab
+seo-description: Frequently asked questions about the Audience Lab feature.
+seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: Preguntas frecuentes sobre Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-feature: 'Audience Lab '
+feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 98%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
 # Preguntas frecuentes sobre Audience Lab{#audience-lab-faq}
 
 Preguntas frecuentes sobre Audience Lab.
-
-<!-- 
-
-audience-lab-faq.xml
-
- -->
 
 <br> 
 
@@ -54,6 +48,6 @@ En este caso, [!UICONTROL Audience Lab] cuenta como tres conversiones, una para 
 
 Consulte [Crear grupo de prueba de segmentos](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) para obtener información sobre cómo usar [!UICONTROL Audience Lab] con privilegios [!UICONTROL RBAC].
 
-**¿Puedo usar [!UICONTROL Audience Lab] junto con [!UICONTROL Profile Link Device Graph] y los gráficos de dispositivos externos ([Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), Tapad Device Graph, Liveramp Device Graph)?**
+**¿Puedo usar [!UICONTROL Audience Lab] junto con la variable [!UICONTROL Profile Link Device Graph] y gráficos de dispositivos externos ( gráfico de dispositivos de carga, gráfico de dispositivos de enlace)?**
 
 Por ahora, [!UICONTROL Audience Lab] solo puede dividir las poblaciones de segmentos por los dispositivos conectados a un dispositivo que cumpla los requisitos, al usar el [!UICONTROL Profile Link Device Graph]. Estamos trabajando para que [!UICONTROL Audience Lab] admita los otros gráficos de dispositivos y le informaremos cuando lo consigamos.

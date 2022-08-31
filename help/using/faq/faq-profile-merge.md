@@ -1,17 +1,17 @@
 ---
 description: Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
 keywords: Identificador de organización
-seo-description: Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
-seo-title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Combinación de perfiles
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 86%
+source-wordcount: '1530'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Un gráfico de dispositivo es un conjunto de asignaciones de ID que define grupo
 
 **¿Qué es un gráfico de dispositivos externos?**
 
-Un gráfico de dispositivos externos es cualquier gráfico de dispositivo en [!DNL Audience Manager] que no se haya creado exclusivamente a partir de sus fuentes de datos entre dispositivos. Por ejemplo, al crear una [regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md) y elegir las opciones de gráfico de dispositivos de [!UICONTROL Co-op Device Graph] o de terceros, se está trabajando con un gráfico de dispositivos externos. Consulte [Opciones de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Un gráfico de dispositivos externos es cualquier gráfico de dispositivo en [!DNL Audience Manager] que no se haya creado exclusivamente a partir de sus fuentes de datos entre dispositivos. Por ejemplo, al crear un [Regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md) y elija las opciones de gráfico de dispositivos de terceros; está trabajando con un gráfico de dispositivos externos. Consulte [Opciones de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -265,7 +265,7 @@ A finales de 2019, publicamos una serie de mejoras en las reglas de combinación
 
 Para garantizar la integración correcta entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
-1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarado de Adobe Campaign . La regla de combinación de perfiles debe utilizar la opción [!UICONTROL Last Authenticated Profile], por lo que todos los perfiles autenticados se pueden incluir en las exportaciones. Si la regla de combinación de perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
+1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarado de Adobe Campaign . La regla de combinación de perfiles debe utilizar la variable [!UICONTROL Last Authenticated Profile] , de modo que todos los perfiles autenticados se puedan incluir en las exportaciones. Si la regla de combinación de perfiles utiliza una opción distinta, cambie a [!UICONTROL Last Authenticated Profile].
 2. Seleccione la fuente de datos de ID declarados de Adobe Campaign en la configuración de la regla de combinación de perfiles .
 
 >[!NOTE]

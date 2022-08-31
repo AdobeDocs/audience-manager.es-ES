@@ -7,10 +7,10 @@ title: Información general sobre Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Audience Manager le ayuda a agrupar sus activos de datos de audiencia, facilitando la recopilación de información comercial relevante acerca de los visitantes del sitio, la creación de segmentos comercializables y el envío de contenido y publicidad segmentada a la audiencia adecuada. Además, Audience Manager ofrece una implementación y administración de etiquetas sencilla, con una sólida recopilación, control y protección de datos.
 
-Con Audience Manager, no está ligado a un proveedor de datos o a una plataforma del lado de la demanda. Además, Audience Manager no trata con los recursos de datos de sus socios. Permitiendo acceder a múltiples fuentes de datos, Audience Manager ofrece a los editores digitales la capacidad de utilizar una amplia variedad de datos de terceros y nuestra cooperación de datos privados. Consulte con nuestro equipo de Soluciones para socios para tomar decisiones adecuadas y precisas sobre su audiencia destinataria.
+Con Audience Manager, no está ligado a un proveedor de datos o a una plataforma del lado de la demanda. Además, el Audience Manager es totalmente agnóstico cuando se trata de los activos de datos de nuestros socios. Con acceso a múltiples fuentes de datos, Audience Manager ofrece a los editores digitales la capacidad de usar una amplia variedad de datos de terceros. Consulte con nuestro equipo de Soluciones para socios para tomar decisiones adecuadas y precisas sobre su audiencia destinataria.
 
 ## Tres funciones de una plataforma de gestión de datos (DMP) {#dmp-three-functions}
 
