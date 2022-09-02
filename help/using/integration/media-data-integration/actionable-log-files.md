@@ -8,7 +8,7 @@ title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 869bbe657072255e5ea3f0e68294f8f0e6cc966a
+source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 [!UICONTROL Actionable Log Files] optimice la forma de capturar impresiones, clics y conversiones de los servidores de publicidad. Utilice esta información para la segmentación de usuarios sin tener que píxeles manuales del medio para enviar atributos de campaña a [!DNL Audience Manager].
 
-## Introducción {#getting-started}
+## Primeros pasos {#getting-started}
 
 Para empezar, [!UICONTROL Actionable Log Files], debe importar los datos de registro en [!DNL Audience Manager]. Los siguientes vínculos le ayudarán a iniciarse:
 
@@ -62,7 +62,8 @@ Las señales son las [unidades de datos más pequeñas](../../reference/signal-t
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] son compatibles con los siguientes servidores de publicidad:
-> 
+> <br>
+>
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalk y Sizmek](#generic-logs-signals)
@@ -202,13 +203,14 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >La marca de tiempo del evento proporcionada en la variable [!DNL Google Ad Manager] los registros se respetarán y pasarán al [!UICONTROL Data Collection Servers].
 >
+>
 >* Si no hay una marca de tiempo disponible para una fila de datos en la [!DNL Google Ad Manager] archivo de registro, se utiliza la hora del `HTTP` llamada como marca de tiempo del evento.
 >* Si la fila de datos de la variable [!DNL Google Ad Manager] el archivo de registro contiene una marca de tiempo con formato incorrecto, ignoramos toda la fila.
 
 
 <br> 
 
-### Señales procesables de Adobe Advertising Cloud, Flashtalk y registros del servidor de publicidad de Sizmek {#generic-logs-signals}
+### Señales procesables de registros de servidor de anuncios de Adobe Advertising Cloud, Flashtalk y Sizmek {#generic-logs-signals}
 
 En primer lugar, debe depositar los registros del servidor de publicidad en nuestros bloques de Amazon S3. Para lograr esto, lea [Archivos de datos para informes de Audience Optimization y archivos de registro procesables](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *y* póngase en contacto con su [!DNL Audience Manager] consultor. La tabla muestra las señales procesables de los archivos de registro del servidor de publicidad:
 
