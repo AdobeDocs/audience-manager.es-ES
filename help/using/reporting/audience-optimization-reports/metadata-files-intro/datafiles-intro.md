@@ -1,40 +1,40 @@
 ---
 description: Un archivo de datos contiene datos de impresión, clics o conversión. Cuando tenga el formato adecuado, puede importar estos datos en el Audience Manager y utilizarlos en los informes del Audience Optimization y en los archivos de registro procesables. Dé formato a los archivos de datos según las especificaciones de esta sección.
-seo-description: Un archivo de datos contiene datos de impresión, clics o conversión. Cuando tenga el formato adecuado, puede importar estos datos en el Audience Manager y utilizarlos en los informes del Audience Optimization y en los archivos de registro procesables. Dé formato a los archivos de datos según las especificaciones de esta sección.
-seo-title: Archivos de datos para informes de optimización de Audiencia y archivos de registro procesables
+seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
 title: Archivos de datos para informes de optimización de Audiencia y archivos de registro procesables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Archivos de registro
+feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: db90a6f1aaf85b10e31e93e316c257b7c3a904aa
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Archivos de datos para informes de optimización de Audiencia y archivos de registro procesables {#data-files-for-audience-optimization-reports}
 
-Un archivo de datos contiene datos de impresión, clics o conversión. Cuando tenga el formato adecuado, puede importar estos datos en el Audience Manager para verlos en los [Informes del Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) y crear rasgos utilizando los datos mediante [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md). Dé formato a los archivos de datos según estas especificaciones en esta sección.
+Un archivo de datos contiene datos de impresión, clics o conversión. Cuando tenga el formato correcto, puede importar estos datos en el Audience Manager para visualizarlos en la [Informes del Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) y crear características utilizando los datos mediante [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md). Dé formato a los archivos de datos según estas especificaciones en esta sección.
 
 ## Información general {#overview}
 
-Un archivo de datos con un nombre y formato adecuados le permite importar datos de impresión, clics o conversiones en los [Informes de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Esto resulta útil cuando se trabaja con un socio que no está integrado con [!DNL Audience Manager] y desea trabajar con sus datos en ese grupo de informes. Este proceso requiere archivos independientes para los datos de impresión, clics y conversión. No mezcle estos eventos en un solo archivo.
+Un archivo de datos con un nombre y formato adecuados le permite importar datos de impresión, clics o conversiones en la variable [Informes del Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Esto resulta útil cuando se trabaja con un socio que no está integrado con [!DNL Audience Manager] y desea trabajar con sus datos en ese grupo de informes. Este proceso requiere archivos independientes para los datos de impresión, clics y conversión. No mezcle estos eventos en un solo archivo.
 
 Un archivo de datos debe ir acompañado de un archivo de metadatos. El contenido del archivo de metadatos coincide con la información del archivo de datos en etiquetas relacionadas y legibles en lenguaje natural de los menús de informes. Para obtener más información, consulte [Información general y asignaciones para archivos de metadatos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 ## Convenciones de nomenclatura para archivos de datos {#naming-conventions}
 
-La siguiente sintaxis define la estructura de un nombre de archivo de datos bien formado. Tenga en cuenta que *la cursiva* indica un marcador de posición de variable que cambia según el contenido del archivo.
+La siguiente sintaxis define la estructura de un nombre de archivo de datos bien formado. Nota: *cursiva* indica un marcador de posición de variable que cambia según el contenido del archivo.
 
-**Sintaxis:** <pre><i>tipo</i> de evento_<i>aaaammdd</i></code></pre>
+**Sintaxis:** <pre><i>tipo de evento</i>_<i>aaammdd</i></code></pre>
 
 En un nombre de archivo:
 
 * El tipo de evento indica que el archivo contiene impresiones, clics o conversiones. Cree un archivo independiente para cada tipo de evento.
 * Un guión bajo separa el tipo de evento y una marca de fecha y mes de año.
-* Antes de cargar, comprima sus archivos con gzip y guárdelos con la extensión de archivo `.gz` .
+* Antes de cargar, comprima sus archivos con gzip y guárdelos con la variable `.gz` extensión de archivo.
 
 Dados estos requisitos, nombre los archivos de datos en función de su contenido de esta manera:
 
@@ -44,17 +44,17 @@ Dados estos requisitos, nombre los archivos de datos en función de su contenido
 
 ## Formato de contenido para archivos de datos {#content-format}
 
-La siguiente sintaxis define la estructura de contenido en un archivo de datos bien formado. Tenga en cuenta que *la cursiva* indica un marcador de posición de variable y se reemplaza con una etiqueta en un archivo de datos real.
+La siguiente sintaxis define la estructura de contenido en un archivo de datos bien formado. Nota: *cursiva* indica un marcador de posición de variable y se reemplaza con una etiqueta en un archivo de datos real.
 
-**Sintaxis:** <pre><i>etiqueta de encabezado 1</i> | etiqueta de  <i>encabezado 2</i> ... etiqueta de  <i>encabezado n</i> |  <i>versión</i></code></pre>
+**Sintaxis:** <pre><i>etiqueta de encabezado 1</i> | <i>etiqueta de encabezado 2</i> ... <i>etiqueta de encabezado n</i> | <i>version</i></code></pre>
 
 En el contenido del archivo:
 
 * Las etiquetas de encabezado deben aparecer en el orden indicado en la tabla siguiente. Las impresiones y los clics utilizan las mismas etiquetas. Los archivos de conversión contienen encabezados adicionales.
-* Si no tiene datos para una columna en particular, rellene ese campo con un `-1`.
+* Si no tiene datos para una columna en particular, rellene ese campo con una `-1`.
 
-* Los archivos *deben* terminar con un número de versión. La versión actual es 1.1.
-* Separe los encabezados y el contenido del archivo con el carácter ASCII 001 no imprimible. Si no puede utilizar ASCII 001, separe los encabezados y datos con un delimitador de tabulación. Como estos son caracteres no imprimibles, el ejemplo de sintaxis anterior muestra una barra vertical `"|"` únicamente con fines de visualización.
+* Archivos *must* termine con un número de versión. La versión actual es 1.1.
+* Separe los encabezados y el contenido del archivo con el carácter ASCII 001 no imprimible. Si no puede utilizar ASCII 001, separe los encabezados y datos con un delimitador de tabulación. Como estos son caracteres no imprimibles, el ejemplo de sintaxis anterior muestra una barra vertical `"|"` solo con fines de visualización.
 
 **Etiquetas de campos**
 
@@ -70,11 +70,11 @@ En la tabla siguiente se enumeran y describen los encabezados de columna del arc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Marca de tiempo </p> </td> 
-   <td colname="col2"> <p>Fecha y hora UTC para la impresión, el clic o el evento de conversión. Utilice el formato <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
+   <td colname="col2"> <p>Fecha y hora UTC para la impresión, el clic o el evento de conversión. Utilice la variable <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>Su ID para un visitante del sitio, también conocido como ID de usuario único del proveedor de datos <span class="term"> o DPUUID.</span> </p> </td> 
+   <td colname="col2"> <p>Su ID para un visitante del sitio, también conocido como <span class="term"> ID de usuario único del proveedor de datos</span> o DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID del anunciante </p> </td> 
@@ -142,17 +142,17 @@ En la tabla siguiente se enumeran y describen los encabezados de columna del arc
 
 ## Métodos de envío para archivos de datos {#delivery-methods}
 
-Cargue los archivos de datos de impresión, clic o conversión en un directorio Amazon S3 de su cuenta [!DNL Audience Manager]. Consulte esta sección para obtener información sobre las rutas de entrega/directorio, los tiempos de procesamiento de los archivos y las actualizaciones.
+Cargue los archivos de datos de impresión, clics o conversiones en un directorio de Amazon S3 para su [!DNL Audience Manager] cuenta. Consulte esta sección para obtener información sobre las rutas de entrega/directorio, los tiempos de procesamiento de los archivos y las actualizaciones.
 
 >[!IMPORTANT]
 >
-> Póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para empezar y configurar un directorio [!DNL Amazon S3] para sus archivos de datos.
+> Póngase en contacto con su asesor de Audience Manager o con el Servicio de atención al cliente para empezar y configurar un [!DNL Amazon S3] para sus archivos de datos.
 
 **Sintaxis y ejemplos de la ruta de entrega**
 
-Los datos se almacenan en un área de nombres independiente para cada cliente en un directorio [!DNL Amazon S3]. La ruta del archivo sigue la sintaxis que se muestra a continuación. Tenga en cuenta que la *cursiva* indica un marcador de posición de variable. Otros elementos son constantes o claves y no cambian.
+Los datos se almacenan en un área de nombres independiente para cada cliente en una [!DNL Amazon S3] directorio. La ruta del archivo sigue la sintaxis que se muestra a continuación. Nota: *cursiva* indica un marcador de posición de variable. Otros elementos son constantes o claves y no cambian.
 
-**Sintaxis:** <pre>.../log_ingestion/pid= <i>ID de AAM<i>/dpid= <i>d_src</i>/logs/ <i>tipo de archivo</i>_<i>aaammdd</i></code></pre>
+**Sintaxis:** <pre>.../log_ingestion/pid= <i>ID de AAM</i>/dpid= <i>d_src</i>/logs/ <i>tipo de archivo</i>_<i>aaammdd</i></code></pre>
 
 La siguiente tabla define cada uno de estos elementos en una ruta de entrega de archivos.
 
@@ -170,7 +170,7 @@ La siguiente tabla define cada uno de estos elementos en una ruta de entrega de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Este par clave-valor contiene su ID de cliente <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Este par clave-valor contiene su <span class="keyword"> Audience Manager</span> ID de cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
