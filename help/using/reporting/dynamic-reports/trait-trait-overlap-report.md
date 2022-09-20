@@ -1,16 +1,16 @@
 ---
 description: Devuelve datos sobre el número de usuarios únicos compartidos entre todos los rasgos de origen y de terceros.
-seo-description: Devuelve datos sobre el número de usuarios únicos compartidos entre todos los rasgos de origen y de terceros.
-seo-title: Informe de solapamiento entre rasgos
+seo-description: Returns data on the number of unique users shared among all your first and third-party traits.
+seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: Informe de solapamiento entre rasgos
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-feature: Informes de superposición
+feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ Devuelve datos sobre el número de usuarios únicos compartidos entre todos los 
 
 >[!NOTE]
 >
->Los informes de superposición en el Audience Manager se adhieren a los principios de RBAC. Solo puede ver los rasgos de fuentes de datos a las que tiene acceso en función del [Grupo de usuarios de RBAC](/help/using/features/administration/administration-overview.md) al que pertenece.
+>Los informes de superposición en el Audience Manager se adhieren a los principios de RBAC. Solo puede ver los rasgos de las fuentes de datos a las que tiene acceso en función de la variable [Grupo de usuarios de RBAC](/help/using/features/administration/administration-overview.md) a la que pertenece.
 
 <!-- 
 
@@ -30,7 +30,7 @@ c_overlap_reports.xml
 
 ## Información general
 
-El informe [!UICONTROL Trait-to-Trait Overlap] devuelve datos sobre el % de usuarios únicos compartidos entre todos sus rasgos y los de terceros. Como herramienta de optimización, este informe le ayuda a:
+La variable [!UICONTROL Trait-to-Trait Overlap] devuelve datos sobre el % de usuarios únicos compartidos entre todos sus rasgos y los de terceros. Como herramienta de optimización, este informe le ayuda a:
 
 * Cree segmentos con superposición alta o baja, según sus necesidades. Los rasgos con superposición alta le proporcionan una audiencia segmentada, pero menos visitantes únicos. Los rasgos con baja superposición pueden resultar útiles para alcanzar un conjunto de visitantes único y más grande.
 * Validar datos de rasgos de terceros: Una fuerte superposición entre características similares de origen y de terceros sugiere que el rasgo del socio de datos es preciso y fiable. Por el contrario, una superposición baja puede indicar que un rasgo de terceros puede no contener realmente la misma información que su propio rasgo de origen similar.
@@ -38,11 +38,15 @@ El informe [!UICONTROL Trait-to-Trait Overlap] devuelve datos sobre el % de usua
 
 ## Informe de ejemplo
 
-La siguiente ilustración proporciona información general de alto nivel sobre los elementos del informe [!UICONTROL Trait-to-Trait Overlap].
+La siguiente ilustración proporciona una descripción general de alto nivel de los elementos del [!UICONTROL Trait-to-Trait Overlap] informe.
 
 >[!NOTE]
 >
->El informe [!UICONTROL Trait-to-Trait Overlap] devuelve un campo vacío cuando compara el mismo rasgo con sí mismo.
+>La variable [!UICONTROL Trait-to-Trait Overlap] devuelve un campo vacío cuando compara el mismo rasgo con sí mismo.
+
+>[!NOTE]
+>
+>Los rasgos de carpeta no están disponibles para su comparación en los informes de superposición entre rasgos. Al crear un segmento utilizando un rasgo de carpeta en particular, puede realizar un análisis a través del [informe de superposición de segmento a rasgo](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -50,7 +54,7 @@ La siguiente ilustración proporciona información general de alto nivel sobre l
 
 Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
-## Campos emergentes de datos de superposición de rasgos definidos {#field-definitions}
+## Definición de campos emergentes de datos de solapamiento entre rasgos {#field-definitions}
 
 Describe las métricas mostradas en la ventana emergente cuando se hace clic en un punto de datos individual.
 
@@ -60,7 +64,7 @@ r_t2t_data_pop.xml
 
  -->
 
-La ventana emergente del informe [!UICONTROL Trait-to-Trait Overlap] contiene las métricas siguientes. Tenga en cuenta que la métrica Únicos de la tabla representa a sus *usuarios en tiempo real*.
+La ventana emergente de la variable [!UICONTROL Trait-to-Trait Overlap] contiene las métricas siguientes. Tenga en cuenta que la métrica Únicos de la tabla representa su *usuarios en tiempo real*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -116,9 +120,9 @@ La ventana emergente del informe [!UICONTROL Trait-to-Trait Overlap] contiene la
 >[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
-* [Formas, colores y tamaños utilizados en informes dinámicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [Iconos de informe y herramientas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
-* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Formas, colores y tamaños utilizados en informes dinámicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Iconos de informe y herramientas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
+>* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
 
