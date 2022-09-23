@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Aprenda a utilizar Adobe Audience Manager para recopilar información comercial relevante acerca de los visitantes del sitio y crear segmentos comercializables. También puede encontrar detalles acerca de cómo ofrecer publicidad y contenido segmentados para la audiencia adecuada.
 feature-set: Audience Manager
-source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+source-git-commit: e50aab600f0bf197b1356ba77ac86efb4456979a
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1813'
 ht-degree: 91%
 
 ---
@@ -276,7 +276,6 @@ ht-degree: 91%
       + [getDil](dil/dil-class-overview/dil-get-instance.md)
       + [dexGetQSVars](dil/dil-class-overview/dil-get-dexqsvars.md)
       + [isAddedPostWindowLoad](dil/dil-class-overview/dil-added-post-window-load.md)
-      + [isCoopSafe](dil/dil-class-overview/dil-coopsafe.md)
    + [Métodos DIL de nivel de instancia](dil/dil-instance-methods.md)
    + [Módulos DIL](dil/dil-modules.md)
    + [Herramientas DIL](dil/dil-tools.md)
