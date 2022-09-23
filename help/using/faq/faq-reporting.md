@@ -1,20 +1,20 @@
 ---
 description: Cuestiones y problemas comunes relacionados con la creación de informes.
-seo-description: Cuestiones y problemas comunes relacionados con la creación de informes.
-seo-title: Preguntas frecuentes sobre la creación de informes
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
-title: Preguntas más frecuentes sobre la creación de informes
+title: Preguntas frecuentes sobre la creación de informes
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Referencia de informes
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
-# Preguntas frecuentes sobre la creación de informes {#reporting-faq}
+# Preguntas frecuentes sobre la creación de informes{#reporting-faq}
 
 Cuestiones y problemas comunes relacionados con la creación de informes.
 
@@ -45,7 +45,7 @@ Para reducir la demanda computacional, estos informes omiten los datos estadíst
 
 **Si llevo a cabo una campaña de marketing por correo electrónico, ¿cómo puedo establecer si los usuarios redirigidos llegan a mi sitio desde esa campaña o desde otras fuentes?**
 
-Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si la dirección URL pasa un ID de campaña como `www.test123.com/electronics?campaign=123`, cree una norma de rasgos para capturar esos datos de la variable `h_referer` con una norma de rasgos que busque un encabezado como `h_referer = 'campaign=123'`).
+Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si la dirección URL pasa un ID de campaña como `www.test123.com/electronics?campaign=123`, cree una norma de rasgos para capturar esos datos de la variable `h_referer` con una norma de rasgos que busque un encabezado como `h_referer = 'campaign=123'`.
 
 <br> 
 
