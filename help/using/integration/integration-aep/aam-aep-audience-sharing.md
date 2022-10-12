@@ -1,22 +1,18 @@
 ---
-description: Este artículo describe cómo se comparten las audiencias entre Audience Manager y Adobe Experience Platform
+description: Obtenga información sobre cómo habilitar el uso compartido de datos y cómo se comparten las audiencias entre Audience Manager y Adobe Experience Platform
 solution: Audience Manager
 title: uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de plataforma, uso compartido de segmentos, uso compartido de audiencias, uso compartido de segmentos, AAM uso compartido de segmentos de AEP
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1862'
 ht-degree: 1%
 
 ---
 
 # uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud
-
->[!NOTE]
->
-> Póngase en contacto con su representante de ventas de Adobe para desbloquear el acceso a esta funcionalidad.
 
 ## Información general {#overview}
 
@@ -45,13 +41,39 @@ Consulte la siguiente tabla para obtener una descripción general de los casos d
 
 {style=&quot;table-layout:auto&quot;}
 
+## Introducción: Cómo habilitar el uso compartido de datos entre Audience Manager y Experience Platform {#enable-data-sharing-aam-aep}
+
+Las dos secciones siguientes indican cómo habilitar el uso compartido de datos entre Audience Manager y Experience Platform.
+
+### Habilitar el uso compartido de datos de Audience Manager a Experience Platform {#enable-aam-to-aep-data}
+
+Para enviar segmentos y características de Audience Manager a Experience Platform, debe configurar el conector de origen del Audience Manager en el catálogo de fuentes del Experience Platform. Se trata de un flujo de trabajo de autoservicio que no requiere la participación del Servicio de atención al cliente de Adobe ni de equipos de ingeniería. Para configurar el conector de origen del Audience Manager, lea:
+
+* [origen del Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Crear una conexión de origen de Adobe Audience Manager en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>Adobe anima a los clientes a configurar la conexión sin seleccionar la opción **[!UICONTROL Select all segments]** y **[!UICONTROL Select all traits]** como se muestra a continuación. La ingesta de grandes poblaciones de segmentos de Audience Manager tiene un impacto directo en el recuento total de perfiles cuando envía por primera vez un segmento de Audience Manager a Platform mediante la fuente de Audience Manager. Esto significa que si selecciona todos los segmentos, es posible que se produzca un recuento de perfiles superior a su derecho de uso de licencia.
+>
+>![Captura de pantalla que muestra las opciones Seleccionar todos los segmentos y Seleccionar todas las características desmarcadas en el flujo de trabajo para conectarse al conector de origen del Audience Manager.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Habilitar el uso compartido de datos de Experience Platform a Audience Manager {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> Póngase en contacto con el administrador de éxito de los clientes de Adobe o con el Servicio de atención al cliente para desbloquear el acceso a esta funcionalidad.
+
+Para enviar segmentos de Experience Platform a Audience Manager, debe ponerse en contacto con el Servicio de atención al cliente o con el Administrador de éxito de clientes. Los equipos de Servicio de atención al cliente y de Administración de asistencia al cliente deben presentar un ticket (consulte el ticket de plantilla AAM-52354) para habilitar la conexión de Platform a Audience Manager.
+
+Asegúrese de compartir los planes para los datos que van de Platform a Audience Manager, para asegurarse de que la conexión esté configurada correctamente. Por ejemplo, si necesita compartir datos regionales para segmentos enviados a Adobe Target, esta información debe comunicarse en el ticket. La conexión de uso compartido de datos de Experience Platform a Audience Manager se configura en un plazo de seis días laborables a partir de la presentación de la solicitud.
+
 ## Segmentos y características de Audience Manager en Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Los rasgos y segmentos del Audience Manager aparecen en Experience Platform como **Audiencias** en el flujo de trabajo del segmento. Para obtener más información sobre los segmentos y las características del Audience Manager en Experience Platform, consulte:
+Después de configurar el conector de origen del Audience Manager para importar rasgos y segmentos desde el Audience Manager, los datos del Audience Manager aparecen en el Experience Platform como **Audiencias** en el flujo de trabajo del segmento. Para obtener más información sobre los segmentos y las características del Audience Manager en Experience Platform, lea:
 
 * [Información general del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Guía del usuario del Generador de segmentos del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-* [Conector del Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Segmentos de Adobe Experience Platform en Audience Manager {#aep-segments-in-aam}
 
