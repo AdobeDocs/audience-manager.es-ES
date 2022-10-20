@@ -4,7 +4,7 @@ keywords: código de integración, destino, descripción general de destino, des
 landing-page-description: 'Descubra las ventajas, tipos y usos de los destinos: cualquier sistema de terceros, como un servidor de publicidad o DSP, en que comparte datos. Utilice Destination Builder para crear y administrar destinos de servidor a servidor, direcciones URL o cookies.'
 seo-title: Destinations
 solution: Audience Manager
-title: 'Destinos '
+title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
