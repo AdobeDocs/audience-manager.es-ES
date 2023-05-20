@@ -1,20 +1,20 @@
 ---
 description: Esta página incluye la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con el uso de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), vigente desde el 25 de mayo de 2018 y del nuevo Marco de transparencia y consentimiento del RGPD de la IAB (Marco de la IAB).
-seo-description: Esta página incluye la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con el uso de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), vigente desde el 25 de mayo de 2018 y del nuevo Marco de transparencia y consentimiento del RGPD de la IAB (Marco de la IAB).
-seo-title: Consideraciones del RGPD para destinos
+seo-description: This page outlines information provided directly by our partners, as it becomes available, along with any implications related to your Audience Manager practice. Key implications for partners making these updates are the result of GDPR (General Data Protection Regulation), which went into effect on May 25th, 2018 and the new IAB GDPR Transparency & Consent Framework (IAB Framework).
+seo-title: GDPR Considerations for Destinations
 solution: Audience Manager
 title: Consideraciones del RGPD para destinos
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '297'
 ht-degree: 96%
 
 ---
 
-# Consideraciones del RGPD para destinos {#gdpr-considerations-for-destinations}
+# Consideraciones del RGPD para destinos{#gdpr-considerations-for-destinations}
 
 Esta página incluye la información proporcionada directamente por nuestros socios, a medida que está disponible, junto con las implicaciones relacionadas con el uso de Audience Manager. Las implicaciones clave para los socios que realizan estas actualizaciones son el resultado del RGPD (Reglamento General de Protección de Datos), vigente desde el 25 de mayo de 2018 y del nuevo Marco de transparencia y consentimiento del RGPD de la IAB (Marco de la IAB).
 
@@ -56,7 +56,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Actualización de la interfaz de usuario del Audience Manager: Integración de Yahoo/Oath/DataX {#ui-update}
+## Actualización de la interfaz de usuario de Audience Manager: integración de Yahoo/Oath/DataX {#ui-update}
 
 Además de las actualizaciones del marco de la IAB mencionadas anteriormente, Yahoo/Oath/DataX ha añadido nuevos parámetros, **gdpr** y **gdpr_mode**, a sus API de taxonomía y audiencias. Sus parámetros informan a Yahoo/Oath/DataX de que tienen derechos para procesar un determinado segmento como procesador de datos o como controlador de datos. Como resultado, los clientes de Audience Manager que envían segmentos a un destino de Yahoo/Oath/DataX deben designar el parámetro adecuado (Procesador o Controlador), según su acuerdo con Oath.
 

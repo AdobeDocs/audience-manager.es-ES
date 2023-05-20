@@ -1,34 +1,34 @@
 ---
-description: Una señal derivada califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la calificación de características adicionales puede derivarse de un rasgo que se muestra actualmente, incluso aunque un usuario nunca haya visto el nuevo rasgo antes.
-seo-description: Una señal derivada califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la calificación de características adicionales puede derivarse de un rasgo que se muestra actualmente, incluso aunque un usuario nunca haya visto el nuevo rasgo antes.
-seo-title: Señales derivadas
+description: Una señal derivada califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la clasificación de rasgos adicional se puede derivar de un rasgo mostrado actualmente, incluso si un usuario nunca ha visto el nuevo rasgo antes.
+seo-description: A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
+seo-title: Derived Signals
 solution: Audience Manager
 title: Señales derivadas
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
-feature: 'Rasgos '
+feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 2%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
 # Señales derivadas {#derived-signals}
 
-Un [!UICONTROL derived signal] califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la calificación de características adicionales puede derivarse de un rasgo que se muestra actualmente, incluso aunque un usuario nunca haya visto el nuevo rasgo antes.
+A [!UICONTROL derived signal] califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la clasificación de rasgos adicional se puede derivar de un rasgo mostrado actualmente, incluso si un usuario nunca ha visto el nuevo rasgo antes.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Objetivo de las señales derivadas
 
-En [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de rasgos) pasadas durante una llamada de evento a otras señales o rasgos especificados. Por ejemplo, supongamos que una llamada de evento pasa una señal compuesta por el valor clave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otra persona creada con la  [!UICONTROL derived signals] herramienta. Aunque las señales asociadas pueden ser cualquier valor clave que especifique, son más útiles cuando se vinculan a señales existentes ya configuradas como reglas [!UICONTROL Trait Builder]. Por ejemplo, en la siguiente ilustración, cuando una acción del usuario activa la señal [!DNL "product = new car"] , ese usuario también puede calificar para características definidas por la clave de destino y las señales de valor.
+Entrada [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de rasgos) pasadas durante una llamada de evento a otras señales o rasgos especificados. Por ejemplo, supongamos que una llamada de evento pasa una señal compuesta por la clave-valor [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otra creada con el [!UICONTROL derived signals] herramienta. Aunque las señales asociadas pueden ser cualquier valor clave especificado, son más útiles cuando se vinculan a señales existentes ya configuradas como [!UICONTROL Trait Builder] reglas. Por ejemplo, en la siguiente ilustración, cuando una acción del usuario activa la señal [!DNL "product = new car"] ese usuario también puede cumplir los requisitos para los rasgos definidos por las señales de clave y valor de target.
 
 ![](assets/derived_signal_example.png)
 
-## Ubicación de las señales derivadas
+## Ubicación de señales derivadas
 
-Cree y administre [!UICONTROL derived signals] en **[!UICONTROL Tools > Derived Signals]** desde la navegación de la barra lateral.
+Crear y administrar [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** en la barra lateral de navegación.
 
 ## Crear una señal derivada {#create}
 
@@ -36,7 +36,7 @@ Cree y administre [!UICONTROL derived signals] en **[!UICONTROL Tools > Derived 
 
 Para crear un [!UICONTROL derived signal]:
 
-1. Seleccione **[!UICONTROL Derived Signals]** en el menú [!UICONTROL Tools].
+1. Seleccionar **[!UICONTROL Derived Signals]** desde el [!UICONTROL Tools] menú.
 1. Proporcione un:
    * *(Opcional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
@@ -47,19 +47,19 @@ Para crear un [!UICONTROL derived signal]:
 
 >[!NOTE]
 >
->El límite de caracteres para los campos [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key] y [!UICONTROL Target Value] es de 228 caracteres.
+>El límite de caracteres del [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key], y [!UICONTROL Target Value] tiene 228 caracteres.
 
 ## Editar una señal derivada {#edit}
 
 <!-- t_tb_edit_derived.xml -->
 
-Para editar un [!UICONTROL derived signal]:
+Para editar una [!UICONTROL derived signal]:
 
 1. Pase el ratón sobre la señal y haga clic en **[!UICONTROL Edit]**.
-2. Realice los cambios necesarios en el código, clave o valor y, a continuación, haga clic en **[!UICONTROL Save]**.
+2. Realice los cambios necesarios en el código, la clave o el valor y haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar una señal derivada {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 
-Para eliminar un [!UICONTROL derived signal], pase el ratón sobre la señal y haga clic en **[!UICONTROL Delete]**.
+Para eliminar una [!UICONTROL derived signal], pase el ratón sobre la señal y haga clic en **[!UICONTROL Delete]**.

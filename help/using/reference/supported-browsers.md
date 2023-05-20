@@ -1,16 +1,16 @@
 ---
 description: Incluye los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
-seo-description: Incluye los exploradores admitidos por la interfaz de usuario de Audience Manager. Las cookies y JavaScript deben habilitarse en todos los exploradores.
-seo-title: Exploradores admitidos
+seo-description: Lists the browsers supported by the Audience Manager user interface. Cookies and JavaScript must be enabled on all browsers.
+seo-title: Supported Browsers
 solution: Audience Manager
 title: Exploradores admitidos
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
-feature: 'Referencia '
+feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 79%
+source-wordcount: '176'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Google Chrome**
 
-   Descargue la versión más reciente de Chrome en [https://www.google.com/chrome](https://www.google.com/chrome).
+   Obtenga la última versión de Chrome de [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
@@ -42,6 +42,6 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Safari**
 
-   Descargue la versión más reciente de Safari en [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
+   Obtenga la última versión de Safari de [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
 
 Otros exploradores pueden funcionar, pero no son compatibles con nuestros equipos técnicos y productos. Si tiene problemas a la hora de trabajar con [!DNL Audience Manager], compruebe que utiliza un navegador actualizado y compatible.

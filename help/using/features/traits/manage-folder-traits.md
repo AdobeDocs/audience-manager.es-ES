@@ -19,42 +19,42 @@ ht-degree: 5%
 
 Cree, edite y elimine características de carpeta.
 
-## Crear un rasgo de carpeta {#create-folder-trait}
+## Crear una característica de carpeta {#create-folder-trait}
 
-A [!UICONTROL folder trait] se crea automáticamente al crear una carpeta nueva en la taxonomía.
+A [!UICONTROL folder trait] se crea automáticamente al crear una carpeta nueva en su taxonomía.
 
 <!-- create-folder-trait.xml -->
 
-1. Vaya a **[!UICONTROL Audience Data > Traits]** para navegar hasta el **Rasgos** tablero.
-1. En el [!UICONTROL Trait Storage] , pase el ratón sobre:
+1. Ir a **[!UICONTROL Audience Data > Traits]** para ir al **Características** panel.
+1. En el [!UICONTROL Trait Storage] ventana, pase el ratón sobre:
 
-   * Texto &quot;Todas las características&quot; para añadir una nueva carpeta de nivel raíz.
-   * Una carpeta principal existente para agregar una nueva carpeta subordinada.
+   * Texto &quot;Todas las características&quot; para agregar una nueva carpeta de nivel raíz.
+   * Carpeta principal existente para agregar una nueva carpeta subordinada.
 
    ![](assets/folder_traits_create.PNG)
 
 1. Haga clic en el icono + para crear la carpeta. Tenga en cuenta que puede crear un máximo de 2000 carpetas en su taxonomía. Consulte la documentación sobre los [límites de uso](../../features/administration/usage-limits.md) para obtener más información.
-1. Asigne un nombre a la carpeta y haga clic en **Guardar**. Por ejemplo, una carpeta llamada Electronics tendrá un rasgo de carpeta denominado &quot;Rasgo de carpeta electrónica&quot;. Puede ver y seleccionar el nuevo rasgo de carpeta en el panel de características.
-1. El nuevo rasgo de carpeta se asigna automáticamente al [!DNL Audience Manager] fuente de datos generada. Sus usuarios con las [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) pueden cambiar la fuente de datos en el flujo de trabajo de edición de características de carpeta. Consulte [Editar un rasgo de carpeta](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Asigne un nombre a la carpeta y haga clic en **Guardar**. Por ejemplo, una carpeta denominada Electronics tendrá un rasgo de carpeta denominado &quot;Rasgo de carpeta de Electronics&quot;. Puede ver y seleccionar el nuevo rasgo de carpeta en el panel de rasgos.
+1. El nuevo rasgo de carpeta se asigna automáticamente al [!DNL Audience Manager] fuente de datos generada. Sus usuarios con las [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) permisos pueden cambiar la fuente de datos en el flujo de trabajo editar característica de carpeta. Consulte [Editar un rasgo de carpeta](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
 ## Editar un rasgo de carpeta {#edit-folder-trait}
 
-Describe cómo editar un [!UICONTROL folder trait].
+Describe cómo se puede editar un [!UICONTROL folder trait].
 
 <!-- edit-folder-trait.xml -->
 
-1. En el [!UICONTROL Traits] tablero, pase el ratón sobre **[!UICONTROL Actions]** para el rasgo de carpeta que desea editar.
-1. Haga clic en el lápiz para editar el rasgo.
+1. En el [!UICONTROL Traits] panel, pase el ratón sobre **[!UICONTROL Actions]** para la característica de carpeta que desea editar.
+1. Haga clic en el lápiz para editar la característica.
 
    ![](assets/folder_traits_edit_border.png)
 
-1. La variable **[!UICONTROL Edit]** el flujo de trabajo le permite cambiar la fuente de datos para rasgos de carpeta. Seleccione la fuente de datos que desee y haga clic en **[!UICONTROL Save]**. Las fuentes de datos se ordenan numéricamente, por [!DNL DPID], en el cuadro desplegable.
+1. El **[!UICONTROL Edit]** El flujo de trabajo de permite cambiar la fuente de datos de las características de la carpeta. Seleccione la fuente de datos que desee y haga clic en **[!UICONTROL Save]**. Las fuentes de datos se ordenan numéricamente por [!DNL DPID], en el cuadro desplegable.
 
-   Si su empresa utiliza [!UICONTROL Role-Based Access Rights (RBAC)], usted o sus usuarios necesitan [permisos de acceso](../../features/traits/about-folder-traits.md#role-based-access-controls) para identificar las fuentes de datos de características.
+   Si su empresa utiliza [!UICONTROL Role-Based Access Rights (RBAC)], usted o los usuarios necesitan [permisos de acceso](../../features/traits/about-folder-traits.md#role-based-access-controls) a fuentes de datos de rasgos.
 
 >[!NOTE]
 >
->No se puede cambiar directamente el nombre de un rasgo de carpeta. [Cambiar el nombre de la carpeta de almacenamiento asociada](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) para cambiar el nombre del rasgo de carpeta.
+>No se puede cambiar directamente el nombre de una característica de carpeta. [Cambiar nombre de la carpeta de almacenamiento asociada](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) para cambiar el nombre de la característica de carpeta.
 
 ## Eliminar un rasgo de carpeta {#delete-folder-trait}
 
@@ -62,11 +62,11 @@ Elimine un rasgo de carpeta eliminando la carpeta de almacenamiento a la que per
 
 <!-- delete-folder-trait.xml -->
 
-1. **Datos de audiencia > Características** para navegar hasta el **Rasgos** tablero.
-1. En el [!UICONTROL Trait Storage] , elimine una carpeta pasando el cursor sobre ella y haciendo clic en el icono X .
+1. **Datos de audiencia > Rasgos** para ir al **Características** panel.
+1. En el [!UICONTROL Trait Storage] , elimine una carpeta pasando el puntero sobre ella y haciendo clic en el icono X.
 
-   ![Resultado de los pasos](assets/folder_traits_create.PNG)
+   ![Resultado del paso](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->No puede eliminar un rasgo de carpeta si se utiliza en una expresión de segmento. Vaya a la [vista de características](../../features/traits/trait-details-page.md) para ver qué segmentos utilizan el rasgo de carpeta. A continuación, haga clic en el nombre del segmento para abrir el [vista resumen del segmento](../../features/segments/segment-summary-view.md), que le permite eliminar características de las expresiones de segmento.
+>No puede eliminar una característica de carpeta si se utiliza en una expresión de segmento. Vaya a [vista de rasgos](../../features/traits/trait-details-page.md) para ver qué segmentos utilizan la característica de carpeta. A continuación, haga clic en el nombre del segmento para abrir [vista resumen de segmentos](../../features/segments/segment-summary-view.md), que permite eliminar rasgos de las expresiones de segmentos.

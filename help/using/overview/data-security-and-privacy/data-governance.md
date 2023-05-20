@@ -1,15 +1,15 @@
 ---
 description: Este documento explica cómo se rigen los datos de los clientes en Audience Manager.
-seo-description: Este documento explica cómo se rigen los datos de clientes en Audience Manager.
-seo-title: Administración de datos
+seo-description: TThis document explains how customer data is governed in Audience Manager.
+seo-title: Data Governance
 solution: Audience Manager
-keywords: IU del RGPD, API del RGPD, CCPA, privacidad, consentimiento, ofuscación, control
+keywords: IU del RGPD, API del RGPD, CCPA, privacidad, consentimiento, ofuscación, gobernanza
 title: Administración de datos
-feature: Administración de datos & Privacidad
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 94%
 
 ---
@@ -31,7 +31,7 @@ La dirección [!DNL IP] de un visitante en el sitio web de un cliente se transmi
 
 >[!NOTE]
 >
->Consulte [Ofuscación de direcciones IP](../../features/administration/ip-obfuscation.md) para obtener información sobre cómo habilitar la ofuscación de direcciones [!DNL IP] en la interfaz de usuario del Audience Manager.
+>Consulte [Ofuscación de direcciones IP](../../features/administration/ip-obfuscation.md) para obtener información sobre cómo habilitar [!DNL IP] ofuscación de direcciones en la interfaz de usuario del Audience Manager.
 
 Consulte el siguiente vídeo para comprender cómo funciona la ofuscación de direcciones [!DNL IP] en Audience Manager.
 

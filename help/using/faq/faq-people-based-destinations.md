@@ -1,14 +1,14 @@
 ---
-description: 'Respuestas a preguntas frecuentes sobre People-Based Destinations.  '
-seo-description: 'Respuestas a preguntas frecuentes sobre People-Based Destinations.  '
-seo-title: Preguntas frecuentes sobre People-Based Destinations
+description: Respuestas a preguntas frecuentes sobre People-Based Destinations.
+seo-description: Answers to common questions about People-Based Destinations.
+seo-title: People-Based Destinations FAQ
 solution: Audience Manager
 title: Preguntas frecuentes sobre People-Based Destinations
-feature: Destinos basados en personas
+feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1159'
 ht-degree: 94%
 
 ---
@@ -78,9 +78,9 @@ Siempre que la dirección de correo electrónico esté correctamente almacenada 
 
 Audience Manager puede recopilar y enviar hasta 10 correos electrónicos por usuario a las plataformas de destino, pero las direcciones de correo electrónico deben recopilarse con archivos de sincronización. Cuando Audience Manager envía las direcciones de correo electrónico a las plataformas de destino, es función de las plataformas hacer coincidir las direcciones de correo electrónico con su propia base de usuarios. Algunas plataformas pueden tener otros gráficos de direcciones de correo electrónico para combinar con las direcciones enviadas desde Audience Manager a los perfiles de usuario.
 
-**¿Puedo usar  [!DNL People-Based Destinations] en  [!DNL Audience Lab]?**
+**¿Puedo usar [!DNL People-Based Destinations] in [!DNL Audience Lab]?**
 
-No. Actualmente, todos los destinos [!DNL People-Based Destinations] están excluidos de [!DNL Audience Lab]. Dado que [!DNL People-Based Destinations] y las plataformas del lado de la demanda utilizan ID diferentes, no se puede probar ni medir el rendimiento con audiencias divididas uniformemente entre ellas.
+No. Actualmente, todos [!DNL People-Based Destinations] Los destinos de se excluyen de [!DNL Audience Lab]. Teniendo en cuenta que [!DNL People-Based Destinations] y las plataformas del lado de la demanda utilizan ID diferentes, por lo que no se puede probar ni medir el rendimiento con audiencias divididas equitativamente entre ellas.
 
 ## Controles de exportación de datos {#data-export-controls}
 
@@ -116,6 +116,6 @@ Puede utilizar la integración [!DNL WCA] de Audience Manager para [!DNL Faceboo
 
 Estas dos integraciones son complementarias; pueden utilizarse las dos para garantizar una mejor cobertura de audiencia. Por ejemplo, [!DNL WCA] se puede utilizar para la prospección cuando una compañía busca visitantes de sitios web de destinatario que no han registrado una cuenta, mientras que [!DNL People-Based Destinations] puede ayudarle a dirigir a los clientes existentes que han proporcionado su dirección de correo electrónico pero que quizá no hayan visitado el sitio web.
 
-**¿La  [!DNL People-Based Destinations] integración con  [!DNL Facebook] permite descalificar a los usuarios de una audiencia cuando ya no cumplen los requisitos para ella?**
+**¿El [!DNL People-Based Destinations] integración con [!DNL Facebook] ¿permitir que se descalifique a un usuario de una audiencia cuando ya no cumple los requisitos?**
 
-Sí, la integración admite la eliminación de usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos para ellas.
+Sí, la integración permite eliminar usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos para ellas.

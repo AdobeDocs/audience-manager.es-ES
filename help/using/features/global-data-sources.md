@@ -17,48 +17,48 @@ ht-degree: 6%
 
 ## Información general
 
-Todos los clientes Audience Manager pueden acceder a las fuentes de datos globales y contienen identificadores publicitarios de dispositivo generados por fabricantes de dispositivos como [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] y [!DNL Android]. Los fabricantes generan estos ID con fines publicitarios. Los clientes Audience Manager pueden utilizar fuentes de datos globales para sincronizar los ID de dispositivo e importar o exportar datos desactivados de esas asignaciones.
+Todos los clientes de Audience Manager pueden acceder a las fuentes de datos globales y contienen ID publicitarios de dispositivo generados por fabricantes como [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku], y [!DNL Android] fabricantes de dispositivos. Los fabricantes generan estos ID con fines publicitarios. Los clientes de Audience Manager pueden utilizar fuentes de datos globales para sincronizar los ID de dispositivo e importar o exportar datos desactivados de esas asignaciones.
 
-En la tabla siguiente se describen las fuentes de datos globales admitidas por el Audience Manager.
+En la tabla siguiente se describen las fuentes de datos globales que admite Audience Manager.
 
 | ID de fuente de datos | Descripción |
 |---|---|
-| 20914 | **[!DNL Google Advertising ID]** : los  **[!DNL GAID]** ID representan dispositivos que ejecutan el sistema  [!DNL Android] operativo. |
-| 20915 | **[!DNL Apple ID For Advertising]** : los  **[!DNL IDFA]** ID representan dispositivos que ejecutan el sistema  [!DNL iOS] operativo. |
-| 121963 | **[!DNL Roku ID for Advertising]** : los  **[!DNL RIDA]** ID representan dispositivos de  [!DNL Roku] flujo continuo. |
-| 389146 | **[!DNL Microsoft Advertising ID]** : los  **[!DNL MAID]** ID representan dispositivos que ejecutan el sistema  [!DNL Windows 10] operativo. |
-| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** : los  **[!DNL TIFA]** ID representan televisores  [!DNL Samsung] inteligentes. |
-| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representan dispositivos en ejecución  [!DNL Amazon Fire OS] |
-| 1171485 | **[!DNL LG webOS TV ID]** -  **[!DNL LGUDID]** representan dispositivos que ejecutan el sistema  [!DNL LG webOS] operativo. |
-| 1171489 | **[!DNL Vizio ID for Advertising]** -  **[!DNL IFA]** representan dispositivos que ejecutan sistemas operativos Vizio smart TV. |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** Los ID representan dispositivos que ejecutan el [!DNL Android] sistema operativo. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Los ID representan dispositivos que ejecutan el [!DNL iOS] sistema operativo. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** Los ID representan [!DNL Roku] dispositivos de streaming. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Los ID representan dispositivos que ejecutan el [!DNL Windows 10] sistema operativo. |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** Los ID representan [!DNL Samsung] televisores inteligentes. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representar dispositivos en ejecución [!DNL Amazon Fire OS] |
+| 1171485 | **[!DNL LG webOS TV ID]** - **[!DNL LGUDID]** representar dispositivos que ejecutan el [!DNL LG webOS] sistema operativo. |
+| 1171489 | **[!DNL Vizio ID for Advertising]** - **[!DNL IFA]** representan dispositivos que ejecutan sistemas operativos Vizio smart TV. |
 
-## Importación de datos desde fuentes de datos globales
+## Importación de datos desde orígenes de datos globales
 
-Puede importar ID de dispositivo desde fuentes de datos globales a través de [transferencia de datos en tiempo real](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) y [transferencia de datos por lotes](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md).
+Puede importar ID de dispositivo desde fuentes de datos globales mediante ambos métodos [transferencia de datos en tiempo real](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) y [transferencia de datos por lotes](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md).
 
 >[!IMPORTANT]
 >
->Al enviar datos al Audience Manager mediante un ID de dispositivo global, asegúrese de utilizar la fuente de datos correspondiente para el ID de dispositivo en cuestión. Ejemplo: para importar datos para [!DNL Apple IDFA], utilice el ID de fuente de datos 2015.
+>Al enviar datos al Audience Manager mediante un ID de dispositivo global, asegúrese de utilizar la fuente de datos correspondiente para el ID de dispositivo en cuestión. Ejemplo: para importar datos de [!DNL Apple IDFA], utilice la 20915 ID de la fuente de datos.
 
 ## Limitaciones
 
-En dispositivos que ejecutan sistemas operativos [!DNL iOS] y [!DNL Android], solo las aplicaciones nativas pueden recuperar y utilizar ID publicitarios de dispositivo ([!UICONTROL DAID]s). Las aplicaciones web que se ejecutan en exploradores móviles no tienen acceso a los ID publicitarios de los dispositivos.
+En dispositivos que ejecutan [!DNL iOS] y [!DNL Android] sistemas operativos, solo las aplicaciones nativas pueden recuperar y utilizar los ID publicitarios de dispositivo ([!UICONTROL DAID]s). Las aplicaciones web que se ejecutan en exploradores móviles no tienen acceso a los ID publicitarios de dispositivo.
 
-## Validación global de ID de dispositivo
+## Validación de ID de dispositivo global
 
-El Audience Manager valida los ID publicitarios de dispositivo ([!UICONTROL DAID]) importados por los clientes según su formato para asegurarse de que coinciden con el formato estándar de los fabricantes de dispositivos. Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md) para obtener una asignación detallada de los ID publicitarios de dispositivo a las fuentes de datos globales y el formato adecuado para cada ID. Asegúrese de que está importando ID de dispositivo en el formato correcto, según el tipo de dispositivo. El Audience Manager rechaza los ID de dispositivo que no cumplen el formato adecuado y devuelve un mensaje de error para indicar que el ID se ha rechazado.
+El Audience Manager valida los ID publicitarios del dispositivo ([!UICONTROL DAID]) importados por los clientes, según su formato, para asegurarse de que coinciden con el formato estándar de los fabricantes de dispositivos. Consulte [Índice de ID en el Audience Manager](../reference/ids-in-aam.md) para obtener una asignación detallada de los ID publicitarios de dispositivo a fuentes de datos globales y el formato adecuado para cada ID. Asegúrese de importar los ID de dispositivo en el formato correcto, según el tipo de dispositivo. El Audience Manager rechaza los ID de dispositivo que no tienen el formato adecuado y devuelve un mensaje de error para indicar que el ID se ha rechazado.
 
-* Los mensajes de error para transferencias de datos por lotes se describen aquí: [Términos y definiciones del informe de estado de carga](../reporting/onboarding-status-report.md#report-terms-conditions).
+* Los mensajes de error para las transferencias de datos por lotes se describen aquí: [Términos y definiciones del informe de estado de integración](../reporting/onboarding-status-report.md#report-terms-conditions).
 * La mensajería de error para transferencias de datos en tiempo real se describe aquí: [Códigos de error DCS, mensajes y ejemplos](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
-## Directiva de caducidad del ID del dispositivo
+## Política de caducidad del ID del dispositivo
 
-El Audience Manager descarta automáticamente los ID publicitarios de dispositivo después de 120 días de inactividad, de forma similar a [AAM UUID](../faq/faq-privacy.md)s.
+El Audience Manager descarta automáticamente los ID publicitarios del dispositivo tras 120 días de inactividad, de forma similar a [AAM UUID DE USUARIO](../faq/faq-privacy.md)s.
 
 ## Solicitud de nuevas fuentes de datos globales
 
-Para solicitar que se añadan nuevas fuentes de datos globales al Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o con el servicio de atención al cliente de Adobe y proporcione información detallada sobre las fuentes de datos requeridas:
+Para solicitar que se añadan nuevas fuentes de datos globales al Audience Manager, póngase en contacto con el servicio de consultoría de Adobe o con el Servicio de atención al cliente de Adobe y proporcione información detallada sobre las fuentes de datos necesarias:
 
 * El nombre de la plataforma solicitada (por ejemplo, [!UICONTROL Apple IDFA]);
-* El nombre de la empresa u organización que administra la plataforma (por ejemplo, [!UICONTROL Apple Inc.]);
-* Vínculos a las especificaciones técnicas del espacio de nombres del ID de publicidad del dispositivo (por ejemplo, [Documentación de asistencia técnica](https://developer.apple.com/documentation/adsupport)).
+* El nombre de la empresa/organización que administra la plataforma (por ejemplo, [!UICONTROL Apple Inc.]);
+* Vínculos a las especificaciones técnicas del área de nombres del ID de publicidad del dispositivo (por ejemplo, [Documentación de AdSupport](https://developer.apple.com/documentation/adsupport)).

@@ -1,30 +1,30 @@
 ---
-description: Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo salientes.
-seo-description: Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo salientes.
-seo-title: Ejemplos de macros de salida
+description: Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo de salida.
+seo-description: Examples of how some of the common macros are used to create outbound file templates.
+seo-title: Outbound Macro Examples
 solution: Audience Manager
 title: Ejemplos de macros de salida
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: Transferencias de datos de salida
+feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '316'
 ht-degree: 9%
 
 ---
 
 # Ejemplos de macros de salida {#outbound-macro-examples}
 
-Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo salientes.
+Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo de salida.
 
 >[!NOTE]
 >
->En las tablas, el tipo **negrita** identifica cada macro con su salida relacionada. Para los ejemplos de formato, se han añadido los símbolos `<` `>` para ayudar a separar visualmente cada macro.
+>En las tablas, **negrita** type identifica cada macro con su resultado relacionado. Para los ejemplos de formato, la variable `<` `>` se han agregado símbolos para ayudar a separar visualmente cada macro.
 
-## Macros de nombre de archivo {#file-name-macros}
+## Nombre de archivo Macros {#file-name-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla de macros de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -72,7 +72,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla
 
 ## Macros de fila de encabezado {#header-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla de macros de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -91,7 +91,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla
 
 ## Macros de contenido de archivo {#file-content-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla de macros de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -111,7 +111,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Consulte la sección separada a continuación. </p> </td> 
+   <td colname="col2"> <p>Consulte la sección independiente a continuación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -128,7 +128,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Salida:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Nota:  En el primer ejemplo, la macro solo devuelve datos para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vacía. El segundo ejemplo devuelve datos para ambas macros. </p> </p> </td> 
+     </code></p> <p> <p>Nota: En el primer ejemplo, la macro sólo devuelve datos para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vacío. El segundo ejemplo devuelve datos para ambas macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -147,19 +147,19 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Plantilla
 
 ### `DPUUID` Ejemplos
 
-Para ayudarle a comprender cómo la macro `DPUUID` genera datos, supongamos que tenemos 2 `DPID`s asignados a `DPUUID`s como se muestra a continuación:
+Para ayudarle a comprender cómo `DPUUID` la macro genera datos, supongamos que tenemos 2 `DPID`s asignado a `DPUUID`como se muestra a continuación:
 
-* El DPID `1111` se asigna a los DPUUID `AAAA` (marca de tiempo = 1) y `BBBB` (marca de tiempo = 2).
-* DPID `2222` se asigna a DPUUID `CCCC`.
+* DPID `1111` se asigna a DPUUID `AAAA` (marca de tiempo = 1) y `BBBB` (marca de tiempo = 2).
+* DPID `2222` asigna a DPUUID `CCCC`.
 
-Dadas estas condiciones, la siguiente tabla enumera algunas cadenas de formato posibles y su salida.
+Dadas estas condiciones, la siguiente tabla enumera algunas posibles cadenas de formato y su salida.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Condición de asignación </th> 
    <th colname="col2" class="entry"> Formato de macro </th> 
-   <th colname="col3" class="entry"> Salida </th> 
+   <th colname="col3" class="entry"> Output </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -169,14 +169,14 @@ Dadas estas condiciones, la siguiente tabla enumera algunas cadenas de formato p
    <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Devolver un máximo de 1 asignación para todos los DPID </p> </td> 
+   <td colname="col1"> <p>Devuelve un máximo de 1 asignación para todos los DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
    <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, la macro se asigna a DPUUID <code> BBBB </code> solo porque ese ID tiene la marca de tiempo más grande. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Devolver un máximo de 2 asignaciones para un único DPID </p> </td> 
+   <td colname="col1"> <p>Devolver un máximo de 2 asignaciones para un solo DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>, esta macro devuelve solo 1 DPID a DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>Sin embargo, esta macro devuelve solo 1 DPID a la asignación DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,22 +1,22 @@
 ---
 description: Describe los métodos del espacio de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
-seo-description: Describe los métodos del espacio de nombres DIL.tools. Estas funciones de utilidad le ayudan a realizar tareas específicas.
-seo-title: Herramientas DIL
+seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
+seo-title: DIL Tools
 solution: Audience Manager
 title: Herramientas DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: Implementación del DIL
+feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '277'
 ht-degree: 5%
 
 ---
 
 # Herramientas DIL
 
-Describe los métodos del espacio de nombres `DIL.tools`. Estas funciones de utilidad le ayudan a realizar tareas específicas.
+Describe los métodos en la `DIL.tools` namespace. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
 <!-- 
 
@@ -34,9 +34,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Objetivo de `getSearchReferrer`
+### Finalidad de `getSearchReferrer`
 
-En el DIL, `getSearchReferrer` devuelve los resultados de búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o permitir que busque los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] y [!DNL Yahoo]) con `document.referrer` de forma predeterminada.
+En DIL, `getSearchReferrer` devuelve los resultados de la búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o dejarla buscar en los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], y [!DNL Yahoo]) en contra `document.referrer` de forma predeterminada.
 
 ### Firma de función
 
@@ -46,12 +46,12 @@ Firma de función: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` acepta:
 
-* *`{string}`*:  *(Opcional)* Una cadena que contiene la dirección URL de búsqueda (se utiliza  `document.referrer` si no está definida).
-* *`{object}`*:  *(Opcional)* Un objeto que contiene la configuración de  `hostPattern`,  `queryParam` o  `queryPattern`.
+* *`{string}`*: *(Opcional)* Una cadena que contiene la dirección URL de búsqueda (utiliza `document.referrer` si no está definido).
+* *`{object}`*: *(Opcional)* Un objeto que contiene la configuración de `hostPattern`, `queryParam`, o `queryPattern`.
 
 Y devuelve:
 
-* `{object}` Un objeto que contiene nombres y palabras clave válidos.
+* `{object}` Objeto que contiene nombres y palabras clave válidos.
 
 ### Ejemplos
 
@@ -66,14 +66,14 @@ Y devuelve:
  <tbody> 
   <tr> 
    <td> Búsqueda predeterminada</td> 
-   <td> Devuelve los términos de búsqueda de palabra clave utilizados por los motores de búsqueda AOL, Ask, Bing, Google y Yahoo. </td> 
+   <td> Devuelve los términos de búsqueda de palabras clave utilizados por los motores de búsqueda AOL, Ask, Bing, Google y Yahoo. </td> 
    <td>
       <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
    <td>Pasar una dirección URL personalizada</td> 
-   <td>Devuelve el referente de búsqueda basado en una dirección URL personalizada.</td> 
+   <td>Devuelve el referente de búsqueda en función de una dirección URL personalizada.</td> 
    <td> 
   <code>
         var&nbsp;results&nbsp;= 
@@ -82,7 +82,7 @@ Y devuelve:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Hacer coincidir el nombre de host de la URL con un regex personalizado</b></td> 
+   <td> <b>Hacer coincidir el nombre de host de la URL con una expresión regular personalizada</b></td> 
    <td> Pase una regex personalizada para que coincida con el nombre de host de la dirección URL de referencia. </td> 
    <td> 
   <code>
@@ -95,7 +95,7 @@ Y devuelve:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Hacer coincidir patrones de búsqueda con un regex personalizado</b> </td> 
+   <td> <b>Hacer coincidir patrones de búsqueda con una expresión regular personalizada</b> </td> 
    <td> Pase una regex personalizada para realizar una búsqueda personalizada. </td> 
    <td> 
     <code>
@@ -113,7 +113,7 @@ Y devuelve:
 
 ## decomposeURI
 
-Desmonta un identificador uniforme de recursos ( [!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search` y `[!DNL uriParams]`.
+Desensambla un identificador uniforme de recursos ( [!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, y `[!DNL uriParams]`.
 
 <!-- 
 
@@ -127,7 +127,7 @@ Firma de función: `DIL.tools.decomposeURI`
 
 `decomposeURI` acepta:
 
-* *`uri {string}`*:  *(Opcional)* Una cadena que contiene el URI. Si no se especifica lo contrario, el valor predeterminado es `document.location.href`.
+* *`uri {string}`*: *(Opcional)* Cadena que contiene el URI. El valor predeterminado es `document.location.href` si no se especifica.
 
 Y devuelve:
 
@@ -169,7 +169,7 @@ Firma de función: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Parámetros de función
 
-`getMetaTags` acepta uno o más parámetros de nombre (tipo de cadena) que se van a buscar. Devuelve un objeto compuesto por pares de clave-valor.
+`getMetaTags` acepta uno o más parámetros de nombre (tipo de cadena) para buscar. Devuelve un objeto compuesto de pares clave-valor.
 
 ### Código de muestra
 

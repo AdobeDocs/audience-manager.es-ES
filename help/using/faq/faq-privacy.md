@@ -1,15 +1,15 @@
 ---
 description: Responde a las preguntas comunes sobre privacidad en relación con los datos, además de proporcionar soluciones para los problemas relacionados.
-seo-description: Responde a las preguntas comunes sobre privacidad en relación con los datos, además de proporcionar soluciones para los problemas relacionados.
-seo-title: Preguntas frecuentes sobre la privacidad y retención de datos
+seo-description: Answers to common privacy- and data-related questions or issues.
+seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: Preguntas frecuentes sobre la privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '742'
 ht-degree: 83%
 
 ---
@@ -55,15 +55,15 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores back-end </p> </td> 
-   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días. </p> </td> 
+   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. If <span class="keyword"> Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días más. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores Edge </p> </td> 
-   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días. Si el usuario vuelve a estar activo después del ciclo de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
+   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. If <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios en este ciclo de 14 días, y conservaremos estos datos durante otros 14 días más. Si el usuario vuelve a estar activo después del ciclo de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros sin procesar </p> </td> 
-   <td colname="col2"> <p>60 días (eliminado después de 60 días sin actividad) </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 días (se eliminan después de 60 días sin actividad) </p> <p>Los registros sin procesar son datos recibidos por un servidor Edge a través de llamadas HTTP o desde archivos incorporados enviados a <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros del servidor de publicidad </p> </td> 
@@ -71,7 +71,7 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
   </tr> 
   <tr> 
    <td colname="col1"> <p>Perfiles de nivel CRM (perfiles autenticados) </p> </td> 
-   <td colname="col2"> <p>El intervalo predeterminado de tiempo de vida (TTL) para perfiles inactivos de nivel CRM (ID de cliente) es de 24 meses. Sin embargo, puede utilizar la interfaz de usuario del Audience Manager para reducir o ampliar el intervalo TTL para perfiles inactivos de nivel CRM entre un mes y 5 años. Esto se puede lograr al crear o editar una fuente de datos entre dispositivos.</p> <p>Para obtener más información, consulte Configuración de fuentes de datos en <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Crear una fuente de datos entre dispositivos </a>.</p> </td> 
+   <td colname="col2"> <p>El intervalo predeterminado de tiempo de vida (TTL) para perfiles inactivos de nivel CRM (ID de cliente) es de 24 meses. Sin embargo, puede utilizar la interfaz de usuario de Audience Manager para reducir o ampliar el intervalo TTL para perfiles inactivos de nivel CRM entre un mes y 5 años. Esto se puede lograr al crear o editar una fuente de datos entre dispositivos.</p> <p>Para obtener más información, consulte Configuración de fuentes de datos en <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Crear una fuente de datos entre dispositivos </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de dispositivos móviles </p> </td> 

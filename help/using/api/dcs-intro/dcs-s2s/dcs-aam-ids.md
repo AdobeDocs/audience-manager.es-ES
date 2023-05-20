@@ -1,7 +1,7 @@
 ---
 description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real al DCS.
-seo-description: En esta sección se describe cómo analizar una respuesta de DCS para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real al DCS.
-seo-title: Obtención de ID y regiones de usuario a partir de una respuesta de DCS
+seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
+seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
 title: Obtención de ID y regiones de usuario a partir de una respuesta de DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
@@ -9,23 +9,23 @@ feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 16%
 
 ---
 
 # Obtención de ID y regiones de usuario a partir de una respuesta de DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
-En esta sección se describe cómo analizar una respuesta [!DNL DCS] para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real a [!DNL DCS].
+En esta sección se describe cómo analizar un [!DNL DCS] respuesta para recuperar los ID de visitante y región necesarios para realizar llamadas en tiempo real a [!DNL DCS].
 
 ## ID de usuario y región {#user-region-ids}
 
-Una respuesta [!DNL DCS] contiene datos sobre los visitantes del sitio. Necesita el ID de visitante y región para poder realizar llamadas de servidor a servidor a [!DNL DCS].
+A [!DNL DCS] La respuesta de contiene datos sobre los visitantes del sitio. Necesita el ID de visitante y de región para poder realizar llamadas de servidor a servidor a [!DNL DCS].
 
 * El ID de usuario es necesario para identificar y asociar datos con un visitante en particular.
-* El ID de región es obligatorio porque está vinculado a un nombre de servidor regional, que debe enviar datos a [!DNL DCS]. El [!DNL DCS] almacena información en centros de datos geográficamente más cercanos a los visitantes del sitio. Consulte [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (ID de región de DCS, ubicaciones y nombres de host).
+* El ID de región es obligatorio porque está vinculado a un nombre de servidor regional, que debe enviar datos a [!DNL DCS]. El [!DNL DCS] almacena información en centros de datos ubicados geográficamente más cerca de los visitantes del sitio. Consulte [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (ID de región de DCS, ubicaciones y nombres de host).
 
-Estos parámetros se describen a continuación. El código de *cursiva* representa un marcador de posición de variable.
+Estos parámetros se describen a continuación. Código en *cursiva* representa un marcador de posición variable.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -51,7 +51,7 @@ Estos parámetros se describen a continuación. El código de *cursiva* represen
 
 ## Respuesta de ejemplo {#sample-response}
 
-Esta respuesta simple muestra `UUID` y la región `ID`. Tenga en cuenta que solo son datos de ejemplo. Los archivos de registro pueden ser más largos y complejos.
+Esta respuesta sencilla muestra la `UUID` y región `ID`. Tenga en cuenta que solo son datos de ejemplo. Los archivos de registro pueden ser más largos y complejos.
 
 ```js
 {
@@ -64,4 +64,4 @@ Esta respuesta simple muestra `UUID` y la región `ID`. Tenga en cuenta que solo
 
 ## Pasos siguientes {#next-steps}
 
-Una vez que tenga el ID de usuario y el nombre de servidor regional, puede empezar a enviar y recibir datos [!DNL DCS]. Consulte [Realización de llamadas a la API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Una vez que tenga el ID de usuario y el nombre del servidor regional, puede empezar a enviar y recibir [!DNL DCS] datos. Consulte [Realización de llamadas API de DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

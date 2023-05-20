@@ -1,41 +1,41 @@
 ---
-description: El estado de autenticación de visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+description: El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante DESCONOCIDO y DESCONECTADO en las llamadas de evento de la misma manera.
 keywords: dpm.demdex.net
-seo-description: El estado de autenticación de visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
-seo-title: Estados de autenticación de Visitante en Audience Manager
+seo-description: The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
+seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
 title: Estados de autenticación de Visitante en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: 'Referencia '
+feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 7%
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 # Estados de autenticación de Visitante en Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-El estado de autenticación de visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante UNKNOWN y LOGGED_OUT en las llamadas de evento del mismo modo.
+El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante DESCONOCIDO y DESCONECTADO en las llamadas de evento de la misma manera.
 
-A partir del [!DNL Experience Cloud] servicio de ID v1.5+, el método `setCustomerID` incluye el objeto opcional `AuthState` . `AuthState` identifica a los visitantes en función de su estado de  [autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestiona los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y la  [regla de combinación de ](../features/profile-merge-rules/merge-rules-dashboard.md) perfiles que utilice para la segmentación.
+Comenzando por [!DNL Experience Cloud] Servicio de ID v1.5+, la variable `setCustomerID` El método incluye el `AuthState` objeto. `AuthState` identifica a los visitantes en función de su [estado de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestiona los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y el [Regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-dashboard.md) se utiliza para la segmentación.
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
-| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+| Solicitar valor | Leer información del perfil autenticado | Escribir nuevas características en el perfil autenticado |
 |---|---|---|
-| 0 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se añaden al perfil del dispositivo. |
+| 0 | <ul><li>Sí, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se añaden al perfil del dispositivo. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Estado de autenticación: AUTENTICADO {#auth-status-authenticated}
+## Estado de autenticación: AUTHENTICATED {#auth-status-authenticated}
 
-| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+| Solicitar valor | Leer información del perfil autenticado | Escribir nuevas características en el perfil autenticado |
 |---|---|---|
-| 1 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sí, los datos de rasgos se añaden al perfil autenticado. |
+| 1 | <ul><li>Sí, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles].</li><li>No, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sí, los datos de rasgos se añaden al perfil autenticado. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -43,9 +43,9 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 ## Estado de autenticación: LOGGED_OUT {#auth-status-logged-out}
 
-| Valor de solicitud | Leer información del perfil autenticado | Escribir nuevos rasgos en el perfil autenticado |
+| Solicitar valor | Leer información del perfil autenticado | Escribir nuevas características en el perfil autenticado |
 |---|---|---|
-| 2 | <ul><li>Sí, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se escriben en el perfil del dispositivo. |
+| 2 | <ul><li>Sí, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, si la variable [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, los datos de rasgos se escriben en el perfil del dispositivo. |
 
 Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado de autenticación):
 
@@ -53,7 +53,7 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 >[!NOTE]
 >
->[!DNL Audience Manager] realiza una sincronización de ID entre  [CID y ](../reference/ids-in-aam.md) UUID en los tres casos.
+>[!DNL Audience Manager] realiza una sincronización de ID entre [CID y UUID](../reference/ids-in-aam.md) en los tres casos.
 
 >[!MORELIKETHIS]
 >

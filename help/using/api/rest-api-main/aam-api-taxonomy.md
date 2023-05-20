@@ -1,7 +1,7 @@
 ---
-description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
-seo-description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
-seo-title: Métodos taxonómicos API
+description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
+seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
+seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Métodos taxonómicos API
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
@@ -9,24 +9,24 @@ feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
 # Métodos taxonómicos API {#taxonomic-api-methods}
 
-Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos en categorías estándar del sector.
+Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->No se pueden crear nuevas categorías taxonómicas ni clasificar características con estos métodos. Para clasificar un rasgo, especifique el `categoryId` apropiado con un método de creación o actualización de rasgos.
+>No se pueden crear nuevas categorías taxonómicas ni clasificar rasgos con estos métodos. Para clasificar un rasgo, especifique el `categoryId` con un método de creación o actualización de rasgos.
 
 ## Devolver una taxonomía específica {#return-specific-taxonomy}
 
-Un método `GET` que devuelve detalles sobre la categoría taxonómica especificada.
+A `GET` método que devuelve detalles sobre la categoría taxonómica especificada.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -36,7 +36,7 @@ Un método `GET` que devuelve detalles sobre la categoría taxonómica especific
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devolverá `404 No Content` si el ID no existe.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud que no se ha realizado correctamente devuelve `404 No Content` si el ID no existe.
 
 ```
 {
@@ -49,9 +49,9 @@ Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Un
 }
 ```
 
-## Devolver todas las categorías taxonómicas {#return-all-taxonomy-categories}
+## Devuelve todas las categorías taxonómicas {#return-all-taxonomy-categories}
 
-Método `GET` que devuelve una lista de las categorías de nivel superior de una matriz.
+A `GET` que devuelve una lista de las categorías de nivel superior de una matriz.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -92,9 +92,9 @@ Truncado para la brevedad.
 ]
 ```
 
-## Subcategorías taxonómicas de retorno {#return-taxonomy-sub-categories}
+## Devolver subcategorías taxonómicas {#return-taxonomy-sub-categories}
 
-Método `GET` que devuelve subcategorías para la categoría principal especificada en una matriz.
+A `GET` método que devuelve subcategorías para la categoría principal especificada en una matriz.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -104,7 +104,7 @@ Método `GET` que devuelve subcategorías para la categoría principal especific
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud incorrecta devolverá `404 No Content` si el ID no existe. Truncado para la brevedad.
+Una respuesta correcta devuelve `200 OK` y la categoría del ID especificado. Una solicitud que no se ha realizado correctamente devuelve `404 No Content` si el ID no existe. Truncado para la brevedad.
 
 ```
 [

@@ -22,9 +22,9 @@ Recommendations y casos de uso para prospección, redireccionamiento y personali
 
 Considere las opciones de gráficos de dispositivos de terceros para campañas que:
 
-* Tener un bajo nivel de autenticación en sus propiedades digitales. Utilice la variable [!UICONTROL Profile Link Device Graph option] si tiene un gran número de usuarios autenticados.
-* Segmente audiencias grandes. Los gráficos de dispositivos de terceros contienen datos autenticados y no autenticados.
-* Segmente a los visitantes autenticados y/o no autenticados a nivel individual y familiar.
+* Tener un bajo nivel de autenticación en sus propiedades digitales. Utilice el [!UICONTROL Profile Link Device Graph option] si tiene un gran número de usuarios autenticados.
+* Segmente grandes audiencias. Los gráficos de dispositivos de terceros contienen datos autenticados y no autenticados.
+* Segmentar a los visitantes autenticados o no autenticados a nivel individual y doméstico.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -114,21 +114,21 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Segmentación avanzada entre dispositivos {#advanced-graph-expansion}
 
-Este caso de uso muestra cómo se puede expandir la segmentación de audiencia para visitantes autenticados con dispositivos desde un gráfico de dispositivos externos, utilizando la variable **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regla.
+Este caso de uso muestra cómo se puede ampliar la segmentación de audiencia para visitantes autenticados con dispositivos desde un gráfico de dispositivos externos utilizando **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regla.
 
-![último dispositivo-gráfico](assets/last-profile-link.png)
+![last-device-graph](assets/last-profile-link.png)
 
-En el siguiente ejemplo, la empresa Acme Inc. quiere dirigirse a todos los hogares con ingresos superiores a 100.000 dólares al año que tengan [!DNL Acme Inc.] suscriptores en [!DNL Data Plan A], que utilizan un [!DNL iPhone 7] dispositivo.
+En el siguiente ejemplo, la empresa Acme Inc. quiere dirigirse a todos los hogares con ingresos superiores a 100 000 dólares al año que tengan [!DNL Acme Inc.] suscriptores el [!DNL Data Plan A], que utilizan un [!DNL iPhone 7] dispositivo.
 
-John utiliza su iPhone 7 en el Plan de datos A para autenticarse en el sitio web de Acme Inc. Al mismo tiempo, John&#39;s [!DNL Profile Link Device Graph] El clúster contiene dos dispositivos adicionales que utiliza con regularidad: su portátil ([!DNL Device 1]) y su smartphone secundario, [!DNL Device 2] a [!DNL Samsung S7] en [!DNL Data Plan B]).
+John utiliza su iPhone 7 en el plan de datos A para autenticarse en el sitio web de Acme Inc. Al mismo tiempo, John&#39;s [!DNL Profile Link Device Graph] cluster contiene dos dispositivos adicionales que utiliza con regularidad: su portátil ([!DNL Device 1]), y su smartphone secundario, [!DNL Device 2] (a) [!DNL Samsung S7] el [!DNL Data Plan B]).
 
-Usando la variable **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] puede enviar mensajes personalizados a los tres dispositivos desde el clúster de gráficos de dispositivos de John, aunque solo uno de ellos esté cualificado inicialmente para el segmento.
+Mediante el uso de **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] puede enviar mensajes personalizados a los tres dispositivos desde el clúster de gráficos de dispositivos de John, aunque solo uno de ellos cumpla los requisitos iniciales para el segmento.
 
-![expansión de gráficos avanzados](assets/advanced-device-graph-expansion.png)
+![advanced-graph-expand](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Casos de uso de Device Graph de enlace de Perfil](profile-link-use-case.md)
 >* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
->* [Preguntas frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
+>* [Preguntas frecuentes sobre reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
 

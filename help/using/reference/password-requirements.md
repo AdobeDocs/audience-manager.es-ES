@@ -1,20 +1,20 @@
 ---
 description: Audience Manager se puede configurar para que las contraseñas caduquen cada treinta días. Para habilitar la caducidad de contraseñas, póngase en contacto con el servicio de consultoría de Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para informarse sobre los requisitos de las contraseñas y cómo recuperarlas en caso de pérdida u olvido.
-seo-description: Audience Manager se puede configurar para que las contraseñas caduquen cada treinta días. Para habilitar la caducidad de contraseñas, póngase en contacto con el servicio de consultoría de Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para informarse sobre los requisitos de las contraseñas y cómo recuperarlas en caso de pérdida u olvido.
-seo-title: Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: 'Referencia '
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
 
-# Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager se puede configurar para que las contraseñas caduquen cada treinta días. Para habilitar la caducidad de contraseñas, póngase en contacto con el servicio de consultoría de Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para informarse sobre los requisitos de las contraseñas y cómo recuperarlas en caso de pérdida u olvido.
 
@@ -80,5 +80,5 @@ Haga clic en el vínculo **[!UICONTROL Forgot password]** de la página de inici
 >[!MORELIKETHIS]
 >
 >* [Seguridad de los datos](../overview/data-security-and-privacy/data-security.md)
-* [Seguridad de los datos](../overview/data-security-and-privacy/data-privacy.md)
+>* [Seguridad de los datos](../overview/data-security-and-privacy/data-privacy.md)
 

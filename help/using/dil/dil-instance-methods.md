@@ -1,25 +1,25 @@
 ---
-description: Las API de DIL de nivel de instancia permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
-keywords: crear rasgos;crear rasgos
-seo-description: Las API de DIL de nivel de instancia permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
-seo-title: Métodos DIL de nivel de instancia
+description: Las API de DIL de nivel de instancia permiten crear y trabajar con objetos de Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
+keywords: crear rasgos;crear rasgo
+seo-description: The instance-level DIL APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
+seo-title: Instance-level DIL Methods
 solution: Audience Manager
 title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: Implementación del DIL
+feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1075'
 ht-degree: 15%
 
 ---
 
 # Métodos DIL de nivel de instancia{#instance-level-dil-methods}
 
-Las API [!UICONTROL DIL] de nivel de instancia permiten crear y trabajar programáticamente con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
+El nivel de instancia [!UICONTROL DIL] Las API permiten crear y trabajar con objetos de Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
 
-## Introducción a los métodos de DIL de nivel de instancia {#get-started-dil-methods}
+## Introducción a los métodos DIL de nivel de instancia {#get-started-dil-methods}
 
 <!-- 
 
@@ -27,10 +27,10 @@ c_api_overview.xml
 
  -->
 
-Al trabajar con las API [!UICONTROL DIL] de nivel de instancia:
+Al trabajar con el nivel de instancia [!UICONTROL DIL] API:
 
-* Access requiere un nombre de socio y un ID de área de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas del Audience Manager para obtener esta información.
-* Reemplace cualquier texto *cursiva* de muestra de la documentación de API por valor, ID u otra variable según lo requiera el método con el que esté trabajando.
+* Access requiere un nombre de socio y un identificador de área de nombres de contenedor (NSID). Póngase en contacto con el administrador de cuentas de Audience Manager para obtener esta información.
+* Reemplace cualquier muestra *en cursiva* en la documentación de la API con el valor, el ID u otra variable que requiera el método con el que esté trabajando.
 
 <!-- 
 
@@ -40,7 +40,7 @@ c_instance_start.xml
 
 ## señales {#signals}
 
-Agrega asignaciones de nivel de cliente y plataforma a la cadena de consulta de una solicitud pendiente.
+Agrega asignaciones de nivel de cliente y de plataforma a la cadena de consulta de una solicitud pendiente.
 
 <!-- 
 
@@ -58,7 +58,7 @@ r_dil_signals.xml
 
 **Claves de solicitud reservadas**
 
-Las siguientes claves de solicitud están reservadas y no se pueden sobrescribir con este método:
+Las siguientes claves de solicitud están reservadas y este método no las puede sobrescribir:
 
 * `sids`
 * `pdata`
@@ -72,12 +72,12 @@ Las siguientes claves de solicitud están reservadas y no se pueden sobrescribir
 | Nombre | Tipo | Descripción |
 |---|---|---|
 | `obj` | Objeto | Un objeto que representa los pares clave-valor para las asignaciones a nivel de plataforma. El parámetro acepta cadenas y matrices como valores de propiedad en el objeto. |
-| `prefix` | Cadena | Opcional. El valor de cadena con el prefijo de cada clave de objeto (reemplaza la clave original). |
+| `prefix` | Cadena | Opcional. El valor de cadena con el prefijo a cada clave de objeto (reemplaza la clave original). |
 | `return` | DIL.api | Devuelve el objeto API de la instancia de DIL actual. |
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -120,11 +120,11 @@ r_dil_traits.xml
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `sids` | Matriz | ID de segmentos de características en una matriz. |
+| `sids` | Matriz | ID de segmentos de rasgos en una matriz. |
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -136,7 +136,7 @@ var partnerObject = DIL.create({
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
-## logs {#logs}
+## registros {#logs}
 
 Agregue datos a los archivos de registro en la solicitud pendiente.
 
@@ -150,7 +150,7 @@ r_dil_logs.xml
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -167,7 +167,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Envía todos los datos pendientes al Audience Manager para la instancia [!UICONTROL DIL].
+Envía todos los datos pendientes al Audience Manager para [!UICONTROL DIL] ejemplo.
 
 <!-- 
 
@@ -179,11 +179,11 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->Puede encadenar otras llamadas de API a este método. Además, [!UICONTROL DIL] escribe datos codificados en una cookie de destino. Por ejemplo, los espacios se codifican como `%20` y los punto y coma como `%3B`.
+>Puede encadenar otras llamadas de API a este método. Además, [!UICONTROL DIL] escribe datos codificados en una cookie de destino. Por ejemplo, los espacios se codifican como `%20` y punto y coma como `%3B`.
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -223,11 +223,11 @@ r_dil_after_result.xml
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `fn` | Función | La función que desea ejecutar después de JSON se procesa mediante la llamada de retorno predeterminada que gestiona la publicación de destino. |
+| `fn` | Función | La función que desea ejecutar después de JSON se procesa mediante la llamada de retorno predeterminada que administra la publicación de destino. |
 
 **Respuesta**
 
-Devuelve un objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve un objeto API del [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -263,7 +263,7 @@ r_dil_clear_data.xml
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -303,7 +303,7 @@ r_dil_custom_query_params.xml
 
 **Claves de solicitud reservadas**
 
-Las siguientes claves de solicitud están reservadas y no se pueden sobrescribir con este método:
+Las siguientes claves de solicitud están reservadas y este método no las puede sobrescribir:
 
 * `sids`
 * `pdata`
@@ -331,7 +331,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Devuelve el valor del NSID de contenedor para la instancia [!UICONTROL DIL]. Útil para la depuración y la solución de problemas.
+Devuelve el valor del NSID del contenedor para [!UICONTROL DIL] ejemplo. Útil para depurar y solucionar problemas.
 
 <!-- 
 
@@ -355,7 +355,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Devuelve datos de registro de eventos ordenados cronológicamente como una matriz de cadenas. Útil para la depuración y la solución de problemas.
+Devuelve datos de registro de eventos ordenados cronológicamente como una matriz de cadenas. Útil para depurar y solucionar problemas.
 
 <!-- 
 
@@ -392,7 +392,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Devuelve el nombre del socio para una instancia [!UICONTROL DIL]. Útil para la depuración y la solución de problemas.
+Devuelve el nombre del socio para un [!UICONTROL DIL] ejemplo. Útil para depurar y solucionar problemas.
 
 <!-- 
 
@@ -416,7 +416,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Devuelve el estado de la instancia [!UICONTROL DIL] actual. Útil para la depuración y la solución de problemas.
+Devuelve el estado del actual [!UICONTROL DIL] ejemplo. Útil para depurar y solucionar problemas.
 
 <!-- 
 
@@ -486,7 +486,7 @@ state = {
 
 ## idSync {#idsync}
 
-Consiste en dos funciones que permiten a los socios de datos intercambiar y sincronizar ID de usuario entre ellos y el Audience Manager.
+Consta de dos funciones que permiten a los socios de datos intercambiar y sincronizar los ID de usuario entre ellos y el Audience Manager.
 
 <!-- 
 
@@ -496,7 +496,7 @@ r_dil_idsync.xml
 
 **Firma de función:**
 
-Funciona con [!UICONTROL DIL] versiones 2.10 y 3.1 o superiores.
+Funciona con [!UICONTROL DIL] versiones 2.10 y 3.1 o superior.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -508,11 +508,11 @@ Funciona con [!UICONTROL DIL] versiones 2.10 y 3.1 o superiores.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes socios de datos y Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con el socio y luego enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Utilice el método <code> idSyncByURL </code> de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes socios de datos y el Audience Manager. Por ejemplo, el socio x utilizaría esto para sincronizar un ID de usuario con un socio y enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Utilice el <code> idSyncByURL </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Utilice el método <code> idSyncByDataSource </code> de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando ya conoce el ID de usuario y desea enviarlo al Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Utilice el <code> idSyncByDataSource </code> método de la instancia del servicio de identidad de Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -559,11 +559,11 @@ Funciona con [!UICONTROL DIL] versiones 2.10 y 3.1 o superiores.
 
 * **`%TIMESTAMP%`:** genera una marca de hora (en milésimas de segundo). Se emplea para ignorar la caché.
 * **`%DID%`:** inserta el ID de Audience Manager para el usuario.
-* **`%HTTP_PROTO%`:** establece el protocolo de página (  `http` o  `https`).
+* **`%HTTP_PROTO%`:** Establece el protocolo de la página ( `http` o `https`).
 
 **Respuesta**
 
-Ambas funciones devuelven `Successfully queued` si se realiza correctamente. Si no, devuelven una cadena con un mensaje de error.
+Ambas funciones devuelven `Successfully queued` si tiene éxito. Si no, devuelven una cadena con un mensaje de error.
 
 **Código de ejemplo**
 
@@ -590,7 +590,7 @@ dilInstance.api.aamIdSync({
 });
 </code></pre>
 
-## result {#result}
+## resultado {#result}
 
 Agrega una llamada de retorno (que recibe JSON) a la solicitud pendiente.
 
@@ -602,7 +602,7 @@ r_dil_result.xml
 
 **Firma de función:** `result: function (callback) {}`
 
-Esta rellamada reemplaza la rellamada predeterminada que gestiona la publicación de destino.
+Esta llamada de retorno reemplaza la llamada de retorno predeterminada que administra la publicación de destino.
 
 >[!NOTE]
 >
@@ -616,7 +616,7 @@ Esta rellamada reemplaza la rellamada predeterminada que gestiona la publicació
 
 **Respuesta**
 
-Devuelve el objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve el objeto API del actual [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -633,7 +633,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` es un parámetro booleano que controla cómo se  [!UICONTROL DIL] realizan las llamadas a  [!UICONTROL Data Collection Servers (DCS)] y Akamai.
+`secureDataCollection` es un parámetro booleano que controla cómo [!UICONTROL DIL] realiza llamadas a [!UICONTROL Data Collection Servers (DCS)] y Akamai.
 
 <!-- 
 
@@ -641,13 +641,13 @@ dil-secure-data-collection.xml
 
  -->
 
-* Cuando `secureDataCollection= true` (predeterminado), [!UICONTROL DIL] siempre realiza llamadas HTTPS seguras.
+* Cuándo `secureDataCollection= true` (valor predeterminado), [!UICONTROL DIL] siempre realiza llamadas HTTPS seguras.
 
-* Cuando `secureDataCollection= false`, [!UICONTROL DIL] realiza llamadas HTTP o HTTPS siguiendo el protocolo de seguridad establecido por la página.
+* Cuándo `secureDataCollection= false`, [!UICONTROL DIL] realiza llamadas HTTP o HTTPS siguiendo el protocolo de seguridad establecido por la página.
 
 >[!IMPORTANT]
 >
->Configure `secureDataCollection= false` si utiliza visitorAPI.js y [!UICONTROL DIL] en la misma página. Consulte el ejemplo de código que aparece a continuación.
+>Establecer `secureDataCollection= false` si usa visitorAPI.js y [!UICONTROL DIL] en la misma página. Consulte el ejemplo de código siguiente.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -658,7 +658,7 @@ var dilInstance = DIL.create({
 
 ## useCORSOnly {#usecorsonly}
 
-`useCORSOnly` es un parámetro booleano true/false que controla el modo en que el explorador solicita recursos de otros dominios.
+`useCORSOnly` es un parámetro booleano true/false que controla el modo en el que el explorador solicita recursos de otros dominios.
 
 <!-- 
 
@@ -668,7 +668,7 @@ dil-use-cors-only.xml
 
 **Información general**
 
-`useCORSOnly` es false de forma predeterminada. False significa que el explorador puede realizar comprobaciones de recursos con CORS o JSONP. Sin embargo, [!UICONTROL DIL] siempre intenta solicitar recursos con CORS primero. Vuelve a JSONP en navegadores anteriores que no son compatibles con CORS. Si necesita forzar al explorador para que use solo CORS, como con sitios que tienen requisitos de alta seguridad, establezca `useCORSOnly:true`.
+`useCORSOnly` es false de forma predeterminada. False significa que el explorador puede realizar comprobaciones de recursos con CORS o JSONP. Sin embargo, [!UICONTROL DIL] siempre intenta solicitar recursos con CORS primero. Vuelve a JSONP en navegadores anteriores que no son compatibles con CORS. Si necesita forzar al navegador para que utilice solo CORS, como con sitios que tienen requisitos de alta seguridad, establezca `useCORSOnly:true`.
 
 **Ejemplo de código**
 
@@ -681,16 +681,14 @@ var dilInstance = DIL.create({
 
 >[!IMPORTANT]
 >
->* Le recomendamos que configure `useCORSOnly: true` solo cuando esté seguro de que los visitantes del sitio tienen exploradores que admiten esta función.
->* Cuando `useCORSOnly: true`, [!UICONTROL DIL] no realizará llamadas de ID desde Internet Explorer versión 9 o anterior.
-
+>* Le recomendamos que configure `useCORSOnly: true` solo cuando esté seguro de que los visitantes del sitio tienen exploradores compatibles con esta función.
+>* Cuándo `useCORSOnly: true`, [!UICONTROL DIL] no realizará llamadas de ID desde Internet Explorer versión 9 o anteriores.
 >
-
 
 
 ## useImageRequest {#useimagerequest}
 
-Cambia el tipo de solicitud a la imagen `<img>` desde el script `<src>`.
+Cambia el tipo de solicitud a imagen `<img>` desde script `<src>`.
 
 <!-- 
 
@@ -706,7 +704,7 @@ r_dil_use_image_request.xml
 
 **Respuesta**
 
-Devuelve un objeto API de la instancia [!UICONTROL DIL] actual.
+Devuelve un objeto API del [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 
@@ -722,9 +720,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
-* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
-* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
-* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
+>* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
+>* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+>* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 

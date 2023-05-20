@@ -1,7 +1,7 @@
 ---
-description: Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de informes.
-seo-description: Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de informes.
-seo-title: Métodos de tipo de rasgo
+description: Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
+seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
+seo-title: Trait Type Methods
 solution: Audience Manager
 title: Métodos de tipo de rasgo
 uuid: 082931d5-457b-4622-817b-86303f38c26a
@@ -9,26 +9,26 @@ feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 10%
+source-wordcount: '151'
+ht-degree: 9%
 
 ---
 
 # Métodos de tipo de rasgo {#trait-type-methods}
 
-Métodos opcionales que permiten asignar características a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de informes.
+Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Piense en estas etiquetas como etiquetas que están separadas de la taxonomía común.
+>Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considere estas etiquetas como si fueran independientes de la taxonomía común.
 
-Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en [!DNL UI] en **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en la variable [!DNL UI] bajo **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Crear un nuevo tipo de rasgo {#create-trait-type}
+## Crear nuevo tipo de rasgo {#create-trait-type}
 
-Un método `POST` que permite crear un nuevo tipo de rasgo.
+A `POST` que permite crear un nuevo tipo de rasgo.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -59,9 +59,9 @@ Un método `POST` que permite crear un nuevo tipo de rasgo.
 }
 ```
 
-## Devolver propiedades para un tipo de rasgo {#return-props}
+## Devolver propiedades de un tipo de rasgo {#return-props}
 
-Método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
+A `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -84,9 +84,9 @@ Método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
 }
 ```
 
-## Propiedades de retorno para todos los tipos de rasgos {#return-props-all}
+## Devolver propiedades para todos los tipos de rasgos {#return-props-all}
 
-Método `GET` que devuelve detalles sobre todos los tipos de rasgos de una matriz.
+A `GET` método que devuelve detalles sobre todos los tipos de rasgos de una matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

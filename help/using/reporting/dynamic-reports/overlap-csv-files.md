@@ -1,46 +1,46 @@
 ---
-description: Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando aparece el mensaje "Se ha producido un error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y usar en su propio sistema de bases de datos. Los archivos están disponibles para informes de segmento a segmento, segmento a rasgo y superposición de rasgo a rasgo.
-seo-description: Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando aparece el mensaje "Se ha producido un error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y usar en su propio sistema de bases de datos. Los archivos están disponibles para informes de segmento a segmento, segmento a rasgo y superposición de rasgo a rasgo.
-seo-title: Archivos CSV para informes superpuestos
+description: Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje "Se ha producido un error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
+seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
+seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
 title: Archivos CSV para informes superpuestos
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: Informes de superposición
+feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 9%
+source-wordcount: '906'
+ht-degree: 7%
 
 ---
 
 # Archivos CSV para informes superpuestos{#csv-files-for-overlap-reports}
 
-Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando aparece el mensaje &quot;Se ha producido un error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y usar en su propio sistema de bases de datos. Los archivos están disponibles para informes de segmento a segmento, segmento a rasgo y superposición de rasgo a rasgo.
+Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje &quot;Se ha producido un error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
 
 ## Metadatos de nombre de archivo {#file-name-metadata}
 
-En la tabla siguiente se describen las convenciones de nomenclatura de archivos y las extensiones de archivo que se utilizan en un archivo .csv superpuesto. En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
+En la tabla siguiente se enumeran y describen las convenciones de nomenclatura de archivos y las extensiones de archivo que se utilizan en un archivo .csv superpuesto. En los ejemplos, la *cursiva* indica un marcador de posición para una variable.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento Metadatos </th> 
+   <th colname="col1" class="entry"> Elemento de metadatos </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Archivo Extensión </p> </td> 
-   <td colname="col2"> <p>Los archivos de informe de superposición se comprimen con gzip y tienen una extensión de archivo <code> .gz</code>. Debe añadir la extensión <code> .csv</code> al archivo después de la descompresión. </p> </td> 
+   <td colname="col2"> <p>Los archivos de informe de superposición están comprimidos en gzip y tienen un <code> .gz</code> extensión de archivo. Debe agregar la variable <code> .csv</code> extensión al archivo después de la descompresión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre del archivo </p> </td> 
    <td colname="col2"> <p>Sintaxis del nombre del archivo: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
       <li id="li_FFB104975D104050AB67FEEC903C6E2E">Archivos de segmento a segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">Archivos de segmento a rasgo: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">Archivos entre rasgos: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">Archivos de segmento a característica: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Archivos de rasgos a rasgos: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ En la tabla siguiente se describen las convenciones de nomenclatura de archivos 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Varios archivos </p> </td> 
-   <td colname="col2"> <p>Incrementamos el último dígito del nombre del archivo si un informe contiene varios archivos. </p> </td> 
+   <td colname="col2"> <p>Incrementamos el último dígito del nombre de archivo si un informe contiene varios archivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ejemplos </p> </td> 
@@ -71,9 +71,9 @@ En la tabla siguiente se describen las convenciones de nomenclatura de archivos 
  </tbody> 
 </table>
 
-## Contenido del archivo {#file-contents}
+## Contenido de archivo {#file-contents}
 
-En el archivo, los datos de cadena se incluyen entre comillas dobles. Consulte los datos de prueba a continuación. Esto se ha truncado para que sea más breve y se ajuste a la pantalla.
+En el archivo, los datos de cadena aparecen entre comillas dobles. Consulte los datos ficticios a continuación. Esto se ha truncado para que sea breve y se ajuste a la pantalla.
 
 ```js
 //File header
@@ -96,11 +96,11 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> segment_id1</code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento que está comparando con el segmento de línea de base. </p> </td> 
+   <td colname="col2"> <p>El ID del segmento que está comparando con el segmento de línea de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_name1</code> </p> </td> 
-   <td colname="col2"> <p>Nombre del segmento que está comparando con los segmentos de línea de base. </p> </td> 
+   <td colname="col2"> <p>El nombre del segmento que está comparando con los segmentos de línea de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_id2</code> </p> </td> 
@@ -108,7 +108,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_name2</code> </p> </td> 
-   <td colname="col2"> <p>Nombre del segmento de línea de base que está comparando con otros segmentos. </p> </td> 
+   <td colname="col2"> <p>El nombre del segmento de línea de base que está comparando con otros segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
@@ -124,7 +124,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques1</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos en el segmento que está comparando con el segmento de línea de base. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos en el segmento que está comparando con el segmento de línea de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques2</code> </p> </td> 
@@ -132,11 +132,11 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Recuento total de la superposición de usuarios únicos entre el segmento de línea de base y los demás segmentos seleccionados para la comparación. </p> </td> 
+   <td colname="col2"> <p>Recuento total de la superposición de usuarios únicos entre el segmento de línea base y los demás segmentos seleccionados para la comparación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>La superposición de % de usuarios únicos entre el segmento de línea de base y los demás segmentos seleccionados para la comparación. </p> </td> 
+   <td colname="col2"> <p>Superposición porcentual de usuarios únicos entre el segmento de línea base y los demás segmentos seleccionados para la comparación. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,7 +163,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmento y caracterí
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
-   <td colname="col2"> <p>El ID del proveedor de datos. Los ID incluyen: </p> <p> 
+   <td colname="col2"> <p>ID del proveedor de datos. Los ID incluyen: </p> <p> 
      <ul id="ul_B40EF144552B4BD3A1C2AE2BAFFC5A68"> 
       <li id="li_8E3B524C615F4047A5A06AF2EDF9C758"> <code> 1st Party</code> </li> 
       <li id="li_F0979659028F4E2D989F1F3D1014FD3A"> <code> 3rd Party</code> </li> 
@@ -191,26 +191,26 @@ Un archivo de datos para su [Informe de solapamiento entre segmento y caracterí
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos en una característica. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos en un rasgo. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos compartidos entre los segmentos y las características seleccionados. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos compartidos entre los segmentos y rasgos seleccionados. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% de usuarios únicos que se superponen entre el rasgo y el segmento. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>% de usuarios únicos que se superponen entre el rasgo y el segmento. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% de usuarios únicos que se superponen entre el segmento y la característica. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>% de usuarios únicos que se superponen entre el segmento y la característica. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Registros de informes de características {#trait-trait-records}
+## Registros de informes entre características {#trait-trait-records}
 
-Un archivo de datos para su [Informe de solapamiento entre rasgos](trait-trait-overlap-report.md) contiene los siguientes registros.
+Un archivo de datos para su [Informe de solapamiento entre características](trait-trait-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -222,23 +222,23 @@ Un archivo de datos para su [Informe de solapamiento entre rasgos](trait-trait-o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_id</code> </p> </td> 
-   <td colname="col2"> <p>El ID del rasgo que se compara con el rasgo de línea de base. </p> </td> 
+   <td colname="col2"> <p>El ID del rasgo que está comparando con el rasgo de línea de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_name</code> </p> </td> 
-   <td colname="col2"> <p>El nombre del rasgo que se compara con el rasgo de línea base. </p> </td> 
+   <td colname="col2"> <p>El nombre del rasgo que está comparando con el rasgo de línea de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_id</code> </p> </td> 
-   <td colname="col2"> <p>El ID de su rasgo de línea de base. El rasgo de línea de base es el rasgo que desea comparar con otros rasgos. </p> </td> 
+   <td colname="col2"> <p>El ID de su rasgo de línea de base. La característica de línea de base es la característica que desea comparar con otras características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_name</code> </p> </td> 
-   <td colname="col2"> <p>Nombre del rasgo de línea base que se compara con otros rasgos. </p> </td> 
+   <td colname="col2"> <p>El nombre del rasgo de línea de base que está comparando con otros rasgos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
-   <td colname="col2"> <p>El ID del proveedor de datos. Los ID incluyen: </p> <p> 
+   <td colname="col2"> <p>ID del proveedor de datos. Los ID incluyen: </p> <p> 
      <ul id="ul_FB6FCAF484BE404B8987B54078F5E858"> 
       <li id="li_5E473205AB494D199FBDF22CAA4A1C57"> <code> 1st Party</code> </li> 
       <li id="li_C9A5F455FB6D458F9DDB56EDBF5A6304"> <code> 3rd Party</code> </li> 
@@ -262,23 +262,23 @@ Un archivo de datos para su [Informe de solapamiento entre rasgos](trait-trait-o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos compartidos entre los rasgos seleccionados. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos compartidos entre los rasgos seleccionados. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos en un rasgo base. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos en un rasgo base. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Número de usuarios únicos compartidos entre los rasgos seleccionados. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>El número de usuarios únicos compartidos entre los rasgos seleccionados. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% de usuarios únicos que se superponen entre los rasgos seleccionados. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>% de usuarios únicos que se superponen entre las características seleccionadas. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% de usuarios únicos que se superponen entre los rasgos seleccionados. En el informe Interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de un rasgo en los resultados del mapa de calor. </p> </td> 
+   <td colname="col2"> <p>% de usuarios únicos que se superponen entre las características seleccionadas. En el informe de interfaz de usuario, este número aparece en la ventana emergente cuando pasa el ratón por encima de una característica en los resultados del mapa de calor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

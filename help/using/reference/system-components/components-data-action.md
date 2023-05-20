@@ -1,22 +1,22 @@
 ---
-description: Los componentes de acción de datos incluyen Fuentes de datos de clientes, el Servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el Servidor de caché de perfiles.
-seo-description: Los componentes de acción de datos incluyen Fuentes de datos de clientes, el Servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el Servidor de caché de perfiles.
-seo-title: Componentes de acción de datos
+description: Los componentes de acción de datos incluyen las fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de perfiles.
+seo-description: Data action components include Customer Data Feeds, the Data Collection Server, SFTP/S3/HTTP publishers, IRIS, and the Profile Cache Server.
+seo-title: Data Action Components
 solution: Audience Manager
 title: Componentes de acción de datos
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-feature: 'Componentes del sistema '
+feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 3%
+source-wordcount: '656'
+ht-degree: 2%
 
 ---
 
 # Componentes de acción de datos{#data-action-components}
 
-Los componentes de acción de datos incluyen Fuentes de datos de clientes, el Servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el Servidor de caché de perfiles.
+Los componentes de acción de datos incluyen las fuentes de datos del cliente, el servidor de recopilación de datos, los editores SFTP/S3/HTTP, IRIS y el servidor de caché de perfiles.
 
 <!-- 
 
@@ -24,11 +24,11 @@ c_compact.xml
 
  -->
 
-Los componentes de acción son sistemas y procesos que permiten mover datos dentro y fuera de [!DNL Audience Manager] y (por falta de una frase mejor) hacer cosas con ellos. Estos componentes [!DNL Audience Manager] incluyen:
+Los componentes de acción son sistemas y procesos que permiten mover datos dentro y fuera de [!DNL Audience Manager] y (a falta de una frase mejor) hacer cosas con ella. Estos [!DNL Audience Manager] los componentes incluyen:
 
 ## Fuentes de datos del cliente (CDF) {#cdf}
 
-[!UICONTROL CDF] son archivos enviados cada hora a los clientes. Contienen ID de usuario junto con ID de segmento asociados, ID de rasgos y otros datos. Para obtener más información, consulte [Información general de la fuente de datos del cliente](../../features/cdf-files.md).
+[!UICONTROL CDF] son archivos que se envían cada hora a los clientes. Contienen ID de usuario junto con ID de segmento, ID de rasgos y otros datos asociados. Para obtener más información, consulte [Información general de fuente de datos del cliente](../../features/cdf-files.md).
 
 ## Servidor de recopilación de datos (DCS) {#dcs}
 
@@ -36,46 +36,46 @@ Consulte [Componentes de recopilación de datos](../../reference/system-componen
 
 ## SFTP/S3 {#sftp-s3}
 
-Los [!UICONTROL SFTP/S3] editores reciben datos de ID sincronizados de [!UICONTROL Outbound Feed Converter]. Cuando estos archivos están listos, el [!UICONTROL SFTP/S3 publishers] envía estos datos a un destino especificado por el cliente. Estos archivos contienen datos de ID sincronizados con una asignación de uno a varios de [!DNL Audience Manager] ID de usuario (UUID) a:
+El [!UICONTROL SFTP/S3] Los editores de reciben datos de ID sincronizados de [!UICONTROL Outbound Feed Converter]. Cuando estos archivos estén listos, la variable [!UICONTROL SFTP/S3 publishers] enviar estos datos a un destino especificado por el cliente. Estos archivos contienen datos de ID sincronizados con una asignación de uno a varios de [!DNL Audience Manager] ID de usuario (UUID) para:
 
-* ID del dispositivo/ID del proveedor de datos (DPUUID)
+* ID de dispositivo/ID del proveedor de datos (DPUUID)
 * ID de segmento cualificados
 * ID de rasgos
 
-[!DNL Audience Manager] los clientes de no tienen acceso a las funciones que controlan directamente el  [!UICONTROL SFPT/S3 publishers]. Los clientes utilizan este servicio de forma indirecta cuando crean y envían datos a los destinos. El sistema [!UICONTROL SFTP/S3] es, esencialmente, un proceso de trabajo automatizado que se ejecuta a intervalos programados.
+[!DNL Audience Manager] Los clientes de no tienen acceso a las funciones de que controlan directamente la [!UICONTROL SFPT/S3 publishers]. Los clientes utilizan este servicio indirectamente cuando crean y envían datos a destinos. El [!UICONTROL SFTP/S3] El sistema es, esencialmente, un proceso de trabajo automatizado que se ejecuta a intervalos programados.
 
 ## IRIS {#iris}
 
-En la mitología griega, [!UICONTROL Iris] es una figura que viaja y envía mensajes rápidamente. El sistema [!UICONTROL IRIS] es un nombre que refleja las características de esta figura del mundo antiguo. En términos modernos, [!UICONTROL IRIS] es un servicio de sincronización de cookies y transferencia de datos de baja latencia y alta frecuencia.
+En la mitología griega, [!UICONTROL Iris] es una figura que viaja y envía mensajes rápidamente. El [!UICONTROL IRIS] system es un homónimo que refleja las características de esta figura del mundo antiguo. En términos modernos, [!UICONTROL IRIS] es un servicio de transferencia de datos y sincronización de cookies de baja latencia y alta frecuencia.
 
-[!UICONTROL IRIS] funciona con el mismo tipo de datos que el  [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a los destinos en tiempo real en lugar de en intervalos establecidos. Este es un sistema independiente porque los editores [!UICONTROL SFTP/S3] no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
+[!UICONTROL IRIS] funciona con el mismo tipo de datos que el [!UICONTROL SFTP/S3] sistema. Sin embargo, [!UICONTROL IRIS] es diferente porque envía datos a destinos en tiempo real en lugar de a intervalos establecidos. Este es un sistema independiente porque la variable [!UICONTROL SFTP/S3] Los editores de no pueden enviar datos a un destino HTTP y no están diseñados para transferencias de datos en tiempo real.
 
-No hay controles de interfaz de usuario que permitan a los clientes trabajar directamente con [!UICONTROL IRIS]. Los clientes trabajan con [!UICONTROL IRIS] indirectamente cuando crean y envían datos a los destinos y para otros procesos que requieren transferencias de datos rápidas.
+No hay controles de IU que permitan a los clientes trabajar directamente con [!UICONTROL IRIS]. Los clientes trabajan con [!UICONTROL IRIS] indirectamente, cuando crean y envían datos a destinos, y para otros procesos que requieren transferencias de datos rápidas.
 
-Algunos ejemplos de servicios y características de [!UICONTROL IRIS] son:
+Ejemplos de [!UICONTROL IRIS] Los servicios y características incluyen:
 
-* Proporcionar una sincronización rápida (en 30 segundos) para cookies y segmentos. Puede sincronizar la cookie [!DNL Audience Manager], las cookies de socio o ambas.
-* Transferencias de datos en tiempo real. [!UICONTROL IRIS] es responsable de enviar eventos de calificación de segmentos en tiempo real a un socio u otro destino. Estos datos tienen formato JSON y se envían mediante una solicitud HTTP `POST`.
+* Proporciona una sincronización rápida (en 30 segundos) para cookies y segmentos. Puede sincronizar el [!DNL Audience Manager] cookie, cookies de socio o ambas.
+* Transferencias de datos en tiempo real. [!UICONTROL IRIS] es responsable de enviar eventos de calificación de segmentos en tiempo real a un socio u otro destino. Estos datos tienen formato JSON y se envían mediante un protocolo HTTP `POST` solicitud.
 
-* Transferencias masivas de datos de servidor a servidor: Si intercambia grandes cantidades de datos con [!DNL Audience Manager], [!UICONTROL IRIS] es el sistema con el que interactúan los servidores para transferir datos.
+* Transferencias masivas de datos de servidor a servidor: si intercambia grandes cantidades de datos con [!DNL Audience Manager], [!UICONTROL IRIS] es el sistema con el que interactúan los servidores para transferir datos.
 
-* Infraestructura fiable que funciona a escala y es tolerante a fallas. Los sistemas que alimentan [!UICONTROL IRIS] incluyen Amazon SQS, Amazon EC2 y Cassandra.
+* Infraestructura fiable que funciona a escala y es tolerante a fallos. Sistemas que alimentan [!UICONTROL IRIS] incluyen Amazon SQS, Amazon EC2 y Cassandra.
 
 **Reglas de asignación de segmentos**
 
-Para optimizar el tráfico entre [!UICONTROL IRIS] y destinos de segmento, [!UICONTROL IRIS] envía segmentos a destinos según un conjunto de reglas.
+Para optimizar el tráfico entre [!UICONTROL IRIS] y destinos de segmento, [!UICONTROL IRIS] envía segmentos a destinos en función de un conjunto de reglas.
 
-1. **Nueva calificación** de segmento: cuando un dispositivo cumple los requisitos para un segmento nuevo,  [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos.
+1. **Nueva calificación de segmentos**: cuando un dispositivo se califica para un nuevo segmento, [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a esos segmentos.
 
-1. **Nueva descalificación** de segmentos: cuando un dispositivo ya no cumple los requisitos para un segmento,  [!UICONTROL IRIS] envía todas las cualificaciones y descalificaciones de segmentos asociadas a ese dispositivo a todos los destinos asignados a estos segmentos.
+1. **Nueva descalificación de segmentos**: cuando un dispositivo ya no cumple los requisitos para un segmento, [!UICONTROL IRIS] envía todas las clasificaciones y desclasificaciones de segmentos asociadas a ese dispositivo a todos los destinos asignados a estos segmentos.
 
-1. **Actualizaciones** de asignación de destino: cuando se actualiza una asignación de destino,  [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
+1. **Actualizaciones de asignación de destino**: cuando se actualiza una asignación de destino, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
-1. **Actualizaciones** de gráficos de dispositivos: cuando se añade o elimina cualquier ID de dispositivo del gráfico de dispositivos utilizado para evaluar un segmento,  [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
+1. **Actualizaciones de gráficos de dispositivos**: cuando se añade o elimina cualquier ID de dispositivo del gráfico del dispositivo utilizado para evaluar un segmento, [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
 >[!IMPORTANT]
 >
->Si Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
+>Si el Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
 
 **Archivo de datos de muestra**
 

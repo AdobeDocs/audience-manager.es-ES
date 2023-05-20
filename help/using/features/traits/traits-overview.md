@@ -1,22 +1,22 @@
 ---
-description: Administre la recopilación de datos y la creación de audiencias con características basadas en reglas, integradas, algorítmicas o de carpetas.
-seo-description: Administre la recopilación de datos y la creación de audiencias con características basadas en reglas, integradas, algorítmicas o de carpetas.
-keywords: rasgo; características; información general de características
-seo-title: Información general sobre rasgos
+description: Administre la recopilación de datos y la creación de audiencias con características basadas en reglas, integradas, algorítmicas o de carpeta.
+seo-description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
+keywords: rasgos; rasgos; descripción general de rasgos
+seo-title: Traits Overview
 solution: Audience Manager
 title: Información general sobre rasgos
-feature: 'Rasgos '
+feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 38%
+source-wordcount: '60'
+ht-degree: 43%
 
 ---
 
 # [!UICONTROL Traits] Información general {#traits-overview}
 
-Administre la recopilación de datos y la creación de audiencias con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Lea las páginas vinculadas a continuación para comenzar con [!UICONTROL traits]:
+Administre la recopilación de datos y la creación de audiencias con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Lea las páginas vinculadas a continuación para empezar a usar [!UICONTROL traits]:
 
 * [Página Detalles de rasgos](/help/using/features/traits/trait-details-page.md)
 * [Generador de rasgos ](/help/using/features/traits/about-trait-builder.md)

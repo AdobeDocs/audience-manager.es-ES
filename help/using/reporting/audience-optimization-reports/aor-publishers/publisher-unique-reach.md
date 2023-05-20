@@ -1,44 +1,44 @@
 ---
-description: El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño en proporción directa al número de usuarios únicos para las unidades de publicidad seleccionadas. Una burbuja mayor indica un bueno alcance que una burbuja menor. El informe Alcance de usuario único le ayuda a encontrar la unidad de publicidad que proporciona el alcance más amplio contra los usuarios objetivo.
-seo-description: El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño en proporción directa al número de usuarios únicos para las unidades de publicidad seleccionadas. Una burbuja mayor indica un bueno alcance que una burbuja menor. El informe Alcance de usuario único le ayuda a encontrar la unidad de publicidad que proporciona el alcance más amplio contra los usuarios objetivo.
-seo-title: Alcance de usuario único
+description: El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. El tamaño de cada burbuja es directamente proporcional al número de usuarios únicos para las unidades de publicidad seleccionadas. Una burbuja más grande indica un bueno alcance que una burbuja más pequeña. El informe Alcance de usuario único permite encontrar la unidad de publicidad que ofrece el mayor alcance a los usuarios objetivo.
+seo-description: The Unique User Reach report returns data in a bubble chart. Each bubble is sized in direct proportion to the number of unique users for your selected ad units. A larger bubble indicates greater reach than a smaller bubble. The Unique User Reach report helps you find the ad unit that provides the broadest reach against your targeted users.
+seo-title: Unique User Reach
 solution: Audience Manager
 title: Alcance de usuario único para editores
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: Informes de optimización de Audiencia
+feature: Audience Optimization Reports
 exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 2%
 
 ---
 
 # Alcance de usuario único{#unique-user-reach}
 
-El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. Cada burbuja tiene un tamaño en proporción directa al número de usuarios únicos para las unidades de publicidad seleccionadas. Una burbuja mayor indica un bueno alcance que una burbuja menor. El informe Alcance de usuario único le ayuda a encontrar la unidad de publicidad que proporciona el alcance más amplio contra los usuarios objetivo.
+El informe Alcance de usuario único devuelve datos en un gráfico de burbujas. El tamaño de cada burbuja es directamente proporcional al número de usuarios únicos para las unidades de publicidad seleccionadas. Una burbuja más grande indica un bueno alcance que una burbuja más pequeña. El informe Alcance de usuario único permite encontrar la unidad de publicidad que ofrece el mayor alcance a los usuarios objetivo.
 
 ## Caso de uso {#use-cases}
 
-Con el informe [!UICONTROL Unique User Reach], puede identificar las propiedades del portafolio que atraen un gran volumen de usuarios únicos.
+Con el [!UICONTROL Unique User Reach] , puede identificar las propiedades de su portafolio que atraen a un gran volumen de usuarios únicos.
 
 ## Uso del informe de alcance único {#using-the-report}
 
-Utilice el cuadro **[!UICONTROL Dimension Value]** para seleccionar las unidades de publicidad que desee mostrar en el informe. Haga clic en **[!UICONTROL All]** para mostrar todas las propiedades en el gráfico de burbujas.
+Utilice el **[!UICONTROL Dimension Value]** para seleccionar las unidades de anuncios que desea mostrar en el informe. Clic **[!UICONTROL All]** para mostrar todas las propiedades en el gráfico de burbujas.
 
-Utilice los controles **Day Range** y **Date Through** para ajustar el intervalo retrospectivo.
+Utilice el **Intervalo de días** y **De fecha a fecha** controles para ajustar el intervalo retrospectivo.
 
 ## Interpretación de los resultados {#interpreting-results}
 
-**Informe de ejemplo**
+**Informe de muestra**
 
-Su informe [!UICONTROL Unique User Reach] puede tener un aspecto similar al que se muestra a continuación. En el informe, haga clic en una burbuja para ver los datos subyacentes. Consulte las descripciones para obtener información adicional en la tabla siguiente.
+Su [!UICONTROL Unique User Reach] El informe podría ser similar al de abajo. En el informe, haga clic en una burbuja para ver los datos subyacentes. Consulte las descripciones para obtener la información adicional de la tabla siguiente.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Elemento | Descripción |
 |--- |--- |
 | Valor de Dimension | Nombre de la propiedad web. |
-| Tipo de Dimension | El tipo de dimensión del editor. Actualmente solo se admite la unidad de publicidad como tipo de dimensión. |
-| Impresiones | Número de impresiones servidas para su propiedad web dentro del intervalo retrospectivo especificado. |
-| Alcance único | El número único de usuarios a los que se llegó mediante las impresiones en las propiedades web. |
+| Tipo de Dimension | El tipo de dimensión de editor. Actualmente solo admitimos la unidad de anuncio como tipo de dimensión. |
+| Impresiones | El número de impresiones que se sirvieron para la propiedad web dentro del intervalo retrospectivo especificado. |
+| Alcance único | El número único de usuarios a los que llegaron las impresiones en las propiedades web. |

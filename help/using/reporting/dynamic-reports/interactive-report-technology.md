@@ -1,15 +1,15 @@
 ---
 description: Describe el software subyacente que alimenta los informes interactivos y la programación de actualización de datos.
-seo-description: Describe el software subyacente que alimenta los informes interactivos y la programación de actualización de datos.
-seo-title: Tecnología de informes
+seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
+seo-title: Report Technology
 solution: Audience Manager
 title: Tecnología de informes
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-feature: Informes de superposición
+feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '262'
 ht-degree: 3%
 
 ---
@@ -26,20 +26,20 @@ c_report_technology.xml
 
 ## Los informes interactivos utilizan la tecnología Tableau
 
-[!DNL Audience Manager] utiliza  [](https://www.tableausoftware.com/) Tableaussoftware para mostrar los datos en los informes interactivos. Con [!DNL Tableau], los informes [!UICONTROL Delivery and Overlap] utilizan señales visuales y símbolos que le ayudan a:
+[!DNL Audience Manager] utiliza [Tableau](https://www.tableausoftware.com/) para mostrar datos en los informes interactivos. Con [!DNL Tableau], el [!UICONTROL Delivery and Overlap] los informes utilizan indicaciones visuales y símbolos que le ayudan a lo siguiente:
 
 * Encuentre características de alto y bajo rendimiento.
-* Observe los rasgos y segmentos con superposición de visitante único alto y bajo.
+* Características puntuales y segmentos con una superposición de visitantes únicos baja y alta.
 * Utilice datos de superposición para crear segmentos de destino.
-* Expanda el alcance identificando características relacionadas con baja superposición.
+* Ampliar el alcance identificando rasgos relacionados con baja superposición.
 
-## Programación de la actualización de datos
+## Programación de actualización de datos
 
-Los datos del informe se actualizan semanalmente cada domingo. La actualización procesa los datos de sábado (el día anterior) hasta el domingo anterior.
+Los datos del informe se actualizan semanalmente cada domingo. La actualización procesa los datos del sábado (día anterior) al domingo anterior.
 
-## Formas, colores y tamaños utilizados en informes interactivos {#shapes-colors-sizes}
+## Formas, colores y tamaños utilizados en los informes interactivos {#shapes-colors-sizes}
 
-La mayoría de los informes interactivos muestran resultados utilizando formas de diferentes tamaños y colores. Este formato de visualización está diseñado para ayudarle a comprender los datos visualmente, sin tener que desplazarse por las filas y columnas de números.
+La mayoría de los informes interactivos muestran los resultados utilizando formas de diferentes tamaños y colores. Este formato de visualización está diseñado para ayudarle a dar sentido a los datos visualmente, sin tener que recorrer filas y columnas de números.
 
 <!-- 
 
@@ -64,7 +64,7 @@ En la tabla siguiente se definen las formas, los tamaños y los colores utilizad
    <td colname="col2"> 
     <ul id="ul_076773ABD0BB4CE6834ACFA8B3D6AC2E"> 
      <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">Los círculos indican sus propios rasgos de origen. </li> 
-     <li id="li_371331AE984A4A999CE0596EA13987E0">Los cuadrados indican características de terceros. </li> 
+     <li id="li_371331AE984A4A999CE0596EA13987E0">Los cuadrados indican rasgos de terceros. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -72,12 +72,12 @@ En la tabla siguiente se definen las formas, los tamaños y los colores utilizad
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
      <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Los tonos rojos indican <i>baja</i> superposición. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Las sombras verdes indican <i>alta</i> superposición. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Los tonos verdes indican <i>alto</i> superposición. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Tamaño</b> </td> 
-   <td colname="col2"> El tamaño aumenta o disminuye en proporción directa al alcance (el número o % de clics o usuarios únicos en un rasgo o segmento). </td> 
+   <td colname="col2"> El tamaño aumenta o disminuye en proporción directa para alcanzar (el número o el % de clics o usuarios únicos en una característica o segmento). </td> 
   </tr> 
  </tbody> 
 </table>

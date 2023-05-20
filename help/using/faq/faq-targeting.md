@@ -1,20 +1,20 @@
 ---
 description: Preguntas y problemas comunes relacionados con la segmentación
-seo-description: Preguntas y problemas comunes relacionados con la segmentación
-seo-title: Preguntas frecuentes sobre segmentación
+seo-description: Common targeting-related questions and issues.
+seo-title: Targeting FAQ
 solution: Audience Manager
 title: Preguntas frecuentes sobre segmentación
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
-feature: Combinar tasas
+feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
 
-# Preguntas frecuentes sobre segmentación {#targeting-faq}
+# Preguntas frecuentes sobre segmentación{#targeting-faq}
 
 Preguntas y problemas comunes relacionados con la segmentación
 

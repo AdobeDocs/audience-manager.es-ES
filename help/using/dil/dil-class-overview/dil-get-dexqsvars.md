@@ -1,16 +1,16 @@
 ---
 description: Recupera un valor específico de un servidor de publicidad.
-seo-description: Recupera un valor específico de un servidor de publicidad.
+seo-description: Retrieves a specific value from an ad server.
 seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
-feature: Implementación del DIL
+feature: DIL Implementation
 exl-id: 814268bc-4387-4e06-ae94-eda86993a967
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 17%
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ r_dil_get_dexqsvars.xml
 
 **Respuesta**
 
-Devuelve el valor de variable para una instancia [!UICONTROL DIL].
+Devuelve el valor de la variable para un [!UICONTROL DIL] ejemplo.
 
 **Código de ejemplo**
 

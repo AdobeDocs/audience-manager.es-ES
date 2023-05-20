@@ -1,20 +1,20 @@
 ---
 description: Recursos para atención al cliente y asuntos legales relacionados con el uso de este producto y documentación.
-seo-description: Recursos para atención al cliente y asuntos legales relacionados con el uso de este producto y documentación.
-seo-title: Ayuda y asistencia legal
+seo-description: Resources for customer care and legal issues related to the use of this product and documentation.
+seo-title: Help and Legal
 solution: Audience Manager
 title: Ayuda y asistencia legal
 uuid: 522c9b17-3712-4619-9197-15d50eb97045
-feature: Asistencia
+feature: Support
 exl-id: a083ebff-9371-46fc-9c53-1d20be286609
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
 
-# Ayuda y asistencia legal {#help-and-legal}
+# Ayuda y asistencia legal{#help-and-legal}
 
 Recursos para atención al cliente y asuntos legales relacionados con el uso de este producto y documentación.
 

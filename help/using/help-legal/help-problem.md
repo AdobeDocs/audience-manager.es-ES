@@ -1,14 +1,14 @@
 ---
 description: El servicio de atención al cliente está preparado para ayudarle a solucionar los problemas que pueda encontrar. Aporte toda la información posible al ponerse en contacto con el servicio de atención al cliente, para ayudar al equipo a entender y resolver su problema.
-seo-description: El servicio de atención al cliente está preparado para ayudarle a solucionar los problemas que pueda encontrar. Aporte toda la información posible al ponerse en contacto con el servicio de atención al cliente, para ayudar al equipo a entender y resolver su problema.
-seo-title: En caso de problemas
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: En caso de problemas
-feature: Asistencia
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '373'
 ht-degree: 100%
 
 ---

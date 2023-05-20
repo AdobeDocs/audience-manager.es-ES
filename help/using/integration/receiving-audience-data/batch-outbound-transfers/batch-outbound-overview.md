@@ -1,14 +1,14 @@
 ---
 description: El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
-seo-description: Adobe Audience Manager (AAM) envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
-seo-title: Transferencias de datos de salida por lotes en Adobe Audience Manager (AAM)
-title: 'Transferencias de datos de salida por lotes '
-feature: Transferencias de datos de salida
+seo-description: Adobe Audience Manager (AAM) sends batch data to third-party content providers according to these specifications.
+seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
+title: Transferencias de datos de salida por lotes
+feature: Outbound Data Transfers
 exl-id: 1fdcc971-3a71-4033-8501-ef3d1f1f0f47
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 17%
+source-wordcount: '190'
+ht-degree: 19%
 
 ---
 
@@ -18,11 +18,11 @@ El Audience Manager envía datos por lotes a proveedores de contenido de tercero
 
 * [Nombre del archivo de datos de salida: sintaxis y ejemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
-   Describe los campos, la sintaxis y las convenciones requeridos que se usan para asignar un nombre a un archivo de datos de salida.
+   Describe los campos, sintaxis y convenciones requeridos que se utilizan para asignar un nombre a un archivo de datos de salida.
 
 * [Configuración de la integración de transferencia de datos por lotes](batch-server-configuration.md)
 
-   Describe los métodos a través de los cuales puede configurar la integración de transferencia de datos por lotes.
+   Describe los métodos a través de los cuales se puede configurar la integración de transferencia de datos por lotes.
 
 * [Archivos de transferencia y control para transferencias de archivos de registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
@@ -34,8 +34,8 @@ El Audience Manager envía datos por lotes a proveedores de contenido de tercero
 
 * [Ejemplos de macros de salida](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
-   Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo salientes.
+   Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo de salida.
 
 * [Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos salientes](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   El proceso de transferencia de datos de salida para los clientes que utilizan Amazon Simple Storage Service (Amazon S3) requiere que solicitemos su clave de acceso y clave secreta de Amazon S3 para entregar los archivos de datos de salida a su bucket.
+   El proceso de transferencia de datos salientes para clientes que utilizan Amazon Simple Storage Service (Amazon S3) requiere que solicitemos su clave de acceso y clave secreta de Amazon S3 para poder entregar los archivos de datos salientes a su bloque.

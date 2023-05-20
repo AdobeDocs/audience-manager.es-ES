@@ -1,24 +1,24 @@
 ---
-description: A [!DNL key-value pair] consiste en [!DNL related elements]. Clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). El Generador de destinos envía datos formateados como pares clave-valor.
+description: A [!DNL key-value pair] consiste en [!DNL related elements]. Una clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). El Generador de destino envía datos con formato de pares clave-valor.
 solution: Audience Manager
 title: Estándar y serie [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Conceptos básicos de destino
+feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 2%
 
 ---
 
 # Par de clave-valor estándar y serie {#standard-and-serial-key-value-pairs}
 
-Un par clave-valor consta de elementos relacionados: Una clave, que es una constante que define el conjunto de datos (p. ej.: sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). [!UICONTROL Destination Builder] envía datos formateados como pares clave-valor.
+Un par clave-valor consta de elementos relacionados: una clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio) y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). [!UICONTROL Destination Builder] envía datos formateados como pares clave-valor.
 
 ## Pares clave-valor básicos {#basic-key-value-pairs}
 
-Totalmente formado, un conjunto básico de pares de clave-valor podría tener el siguiente aspecto:
+Completamente formado, un conjunto básico de pares clave-valor podría tener este aspecto:
 
 * `gender = male`
 * `color = green`
@@ -26,18 +26,18 @@ Totalmente formado, un conjunto básico de pares de clave-valor podría tener el
 
 ## Par de clave-valor estándar y serie {#standard-serial-key-value-pairs}
 
-Los destinos aceptan datos de clave-valor en formato *`standard`* o *`serialized`* .
+Los destinos aceptan datos de clave-valor en *`standard`* o *`serialized`* formato.
 
-* **Pares de clave-valor estándar:** da formato a los datos de destino en pares de clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza de nuevo para definir un valor diferente.
-* **Pares clave-valor serializados:** condensa varios valores en un único par clave-valor. En un par clave-valor serializado, un indicador especial separa los valores del conjunto clave-valor.
+* **Pares de clave-valor estándar:** Aplica formato a los datos de destino en pares clave-valor independientes. Cada clave se indica explícitamente, incluso cuando se utiliza de nuevo para definir un valor diferente.
+* **Pares clave-valor serializados:** Condensa varios valores en un único par clave-valor. En un par clave-valor serializado, un indicador especial separa los valores dentro del conjunto clave-valor.
 
-Los valores de clave estándar y serializados pueden contener uno o varios valores. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
+Tanto los valores clave estándar como los serializados pueden contener valores únicos o múltiples. En la tabla siguiente se proporcionan ejemplos de formatos de clave-valor estándar y serie.
 
 <table id="table_7895B1E800934117A19A96380F0CF91B"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Formato </th>
-   <th colname="col2" class="entry"> Pares de clave-valor único </th>
+   <th colname="col2" class="entry"> Pares clave-valor único </th>
    <th colname="col3" class="entry"> Varios pares de clave-valor </th>
   </tr>
  </thead>
@@ -57,20 +57,20 @@ Los valores de clave estándar y serializados pueden contener uno o varios valor
 
 ## Delimitadores y separadores {#delimiters-separators}
 
-Los caracteres que separan valores entre claves y valores se conocen como *`delimiters`* y *`separators`*. Esto resulta especialmente importante cuando se envían segmentos a un destino en formato de serie. La serialización permite pasar varios valores con una sola clave y combinar pares clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
+Los caracteres que separan valores dentro de claves y valores y entre ellos se conocen como *`delimiters`* y *`separators`*. Esto es especialmente importante cuando se envían segmentos a un destino en formato de serie. La serialización permite pasar varios valores con una sola clave y combinar pares clave-valor. Los delimitadores y separadores se definen de la siguiente manera:
 
-* **Separador clave-valor:** separa una clave y un valor de un par clave-valor.
-* **Delimitador de clave-valor:** separa conjuntos de pares de clave-valor.
-* **Separador de serie:** separa varios valores dentro de conjuntos de pares de clave-valor serializados.
+* **Separador clave-valor:** Separa una clave y un valor dentro de un par clave-valor.
+* **Delimitador clave-valor:** Separa conjuntos de pares de clave-valor.
+* **Separador de serie:** Separa varios valores dentro de conjuntos de pares de clave-valor serializados.
 
 ## Ejemplos {#examples}
 
-Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor de varias formas diferentes. Veamos algunos ejemplos de cada tipo.
+Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor de varias formas diferentes. Echemos un vistazo a algunos ejemplos de cada tipo.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ejemplos de pares de clave-valor </th> 
+   <th colname="col1" class="entry"> Ejemplos de pares clave-valor </th> 
    <th colname="col2" class="entry"> Ejemplo </th> 
    <th colname="col3" class="entry"> Descripción </th> 
   </tr> 
@@ -79,7 +79,7 @@ Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor d
   <tr> 
    <td colname="col1"> <p> <b>Clave única estándar</b> </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 </code> </p> </td> 
-   <td colname="col3"> <p>Conjunto sencillo de pares clave-valor. El ejemplo contiene estos elementos: </p> 
+   <td colname="col3"> <p>Un conjunto simple de pares de clave-valor. El ejemplo contiene estos elementos: </p> 
     <ul id="ul_28C0CB005B264373926CA5D7418EE845"> 
      <li id="li_B6D300DBA9064F0BA743BA9B04339511">Clave: X </li> 
      <li id="li_9A1C98D5C9124FF1B4F032668576C03A">Valores: 1, 2 </li> 
@@ -88,9 +88,9 @@ Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Varios pares de clave-valor</b>  (no seriales) </p> </td> 
+   <td colname="col1"> <p> <b>Varios pares de clave-valor</b> (no en serie) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
-   <td colname="col3"> <p>Conjunto de varios pares de clave-valor que pasan valores con conjuntos de clave-valor independientes. El ejemplo contiene estos elementos: </p> 
+   <td colname="col3"> <p>Un conjunto de varios pares de clave-valor que pasan valores con conjuntos clave-valor independientes. El ejemplo contiene estos elementos: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
      <li id="li_7487657F6C2F48F5A4C4C9F9E8FB3B4B">Claves: X, Y </li> 
      <li id="li_B828CF81DAB8443FBB2EDF6538A63B3C">Valores: 1, 2, 3, 4 </li> 
@@ -99,9 +99,9 @@ Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Clave individual serie</b> </p> </td> 
+   <td colname="col1"> <p> <b>Clave única serie</b> </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 ; 3 </code> </p> </td> 
-   <td colname="col3"> <p>Conjunto de clave-valor que pasa varios valores con una sola clave. Como esta clave tiene varios valores, se conoce como par de clave-valor serializado. El ejemplo contiene estos elementos: </p> 
+   <td colname="col3"> <p>Un conjunto clave-valor que pasa varios valores con una sola clave. Debido a que esta clave tiene varios valores, se conoce como par clave-valor serializado. El ejemplo contiene estos elementos: </p> 
     <ul id="ul_69C4C662B9BD4F77BB940D921B316CCF"> 
      <li id="li_718BEC527E69417C9F88D3DBD3357A28">Clave: X </li> 
      <li id="li_659DCBBFB4024AC2B9C4E74D2A86648D">Valores: 1, 2, 3 </li> 
@@ -110,7 +110,7 @@ Con [!UICONTROL Destination Builder] puede dar formato a los datos clave-valor d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Varios pares de clave-valor</b>  (serie) </p> </td> 
+   <td colname="col1"> <p> <b>Varios pares de clave-valor</b> (serie) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Conjunto de varios pares de clave-valor que pasan varios valores en claves independientes. El ejemplo contiene estos elementos: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -130,8 +130,8 @@ Un destino serializado combina varios rasgos en una sola cadena y envía esa inf
 
 <!-- c_dest_serialized.xml -->
 
-La transmisión de datos serializada ayuda a mejorar la eficacia, ya que múltiples características se activan secuencialmente, en lugar de en paralelo. Esto proporciona al servidor de destino tiempo suficiente para recibir, procesar y devolver datos antes de responder a solicitudes adicionales.
+La transmisión de datos serializada ayuda a mejorar la eficacia, ya que varios rasgos se activan secuencialmente, en lugar de en paralelo. Esto proporciona al servidor de destino tiempo suficiente para recibir, procesar y devolver datos antes de responder a solicitudes adicionales.
 
 ### Destinos admitidos
 
-En [!DNL Audience Manager], puede serializar y enviar datos a casi cualquier destino con el que desee trabajar. Sin embargo, antes de utilizar esta función, deberá conocer el destino [!DNL URL] y dónde colocar algunas macros opcionales o obligatorias. Solicite la información sobre la colocación de macros a su socio de destino. Consulte [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obtener más información.
+Entrada [!DNL Audience Manager], puede serializar y enviar datos a casi cualquier destino con el que desee trabajar. Sin embargo, antes de utilizar esta función, deberá saber el destino [!DNL URL] y dónde colocar algunas macros necesarias u opcionales. Obtenga la información sobre la ubicación de macros de su socio de destino. Consulte [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obtener más información.

@@ -1,26 +1,26 @@
 ---
-description: El panel Segmentos es un espacio de trabajo centralizado para la administración de destinos.
-seo-description: El panel Segmentos es un espacio de trabajo centralizado para la administración de destinos.
-seo-title: Vista de Lista de segmentos
+description: El panel Segmentos es un espacio de trabajo centralizado para administrar destinos.
+seo-description: The Segments dashboard is a centralized workspace for managing destinations.
+seo-title: Segments List View
 solution: Audience Manager
 title: Vista de Lista de segmentos
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: 'Segmentos '
+feature: Segments
 exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 # Vista de Lista de segmentos {#segments-list-view}
 
-El [!UICONTROL Segments dashboard] es un espacio de trabajo centralizado para administrar los segmentos de audiencia. Para ver el tablero [!UICONTROL Segments], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+El [!UICONTROL Segments dashboard] es un espacio de trabajo centralizado para administrar los segmentos de audiencia. Se puede ver el [!UICONTROL Segments] panel navegando a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-![tablero de segmentos](assets/segments-dashboard.png)
+![segment-dashboard](assets/segments-dashboard.png)
 
-La página [!UICONTROL Segments] contiene funciones y herramientas que le ayudan a:
+El [!UICONTROL Segments] contiene funciones y herramientas que le ayudan a lo siguiente:
 
 * Crear nuevos segmentos;
 * Editar y eliminar segmentos;

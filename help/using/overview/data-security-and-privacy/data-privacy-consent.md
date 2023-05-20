@@ -1,16 +1,16 @@
 ---
 description: En este documento se explica la gestión del consentimiento en Audience Manager.
-seo-description: En este documento se explica la gestión del consentimiento en Audience Manager.
-seo-title: Gestión del consentimiento
+seo-description: This document explains how consent management works in Audience Manager.
+seo-title: Consent Management
 solution: Audience Manager
-keywords: Interfaz de usuario del RGPD, API del RGPD, CCPA, privacidad, consentimiento
+keywords: IU DEL RGPD, API DEL RGPD, CCPA, privacidad, consentimiento
 title: Gestión del consentimiento
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Administración de datos y privacidad
+feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '724'
 ht-degree: 94%
 
 ---
@@ -43,7 +43,7 @@ Los clientes de Audience Manager pueden almacenar el consentimiento del usuario 
 
 ## Gestión de la exclusión / Retirada del consentimiento
 
-En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) y [dispositivos iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
+En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/es/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) y [dispositivos iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestión del consentimiento para socios de segundo nivel
 

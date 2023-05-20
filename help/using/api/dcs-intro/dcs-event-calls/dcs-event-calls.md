@@ -16,18 +16,18 @@ ht-degree: 44%
 
 # API de llamadas de Evento DCS {#dcs-event-call-apis}
 
-Las llamadas de evento envían información al [!DNL DCS] en un [!DNL URL] cadena. En una implementación de Audience Manager típica, los clientes utilizan nuestra [!DNL JavaScript] código de recopilación de datos ([!UICONTROL DIL]) para enviar datos al [!DNL DCS]. Sin embargo, a veces los clientes no pueden [!DNL JavaScript] en sus páginas. Si las políticas de la empresa u otros problemas técnicos le impiden colocar nuestra [!DNL JavaScript] código en las páginas, aún puede trabajar con Audience Manager para enviar y devolver datos de [!DNL DCS] con esta llamada de evento [!DNL API]s.
+Las llamadas de evento envían información a [!DNL DCS] en un [!DNL URL] cadena. En una implementación típica de Audience Manager, los clientes utilizan nuestra [!DNL JavaScript] código de recopilación de datos ([!UICONTROL DIL]) para enviar datos a [!DNL DCS]. Sin embargo, a veces los clientes no pueden poner nuestra [!DNL JavaScript] código en sus páginas. Si las políticas de la compañía u otros problemas técnicos le impiden colocar nuestra [!DNL JavaScript] en las páginas, aún puede trabajar con Audience Manager para enviar y devolver datos de [!DNL DCS] con estas llamadas de evento [!DNL API]s.
 
 ## Introducción {#dcs-getting-started}
 
 Esta sección contiene información y referencias relacionadas que le muestran cómo:
 
-* Realice llamadas a la función [!DNL DCS].
-* Recibir datos de [!DNL DCS].
-* Dé formato a los elementos de datos en las llamadas.
-* Comprender los parámetros devueltos por la variable [!DNL DCS].
+* Realizar llamadas a [!DNL DCS].
+* Recibir datos del [!DNL DCS].
+* Dar formato a los elementos de datos en las llamadas.
+* Comprenda los parámetros devueltos por el [!DNL DCS].
 
-Para empezar, consulte las secciones siguientes. Comience por [Envío de datos al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Después de esto, pase a [Recibir datos del DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Para empezar, consulte las secciones siguientes. Comience por [Envío de datos al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Después de esto, continúe con [Recibir datos del DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 * [Envío de datos al DCS](dcs-url-send.md)
 * [Recibir datos del DCS](dcs-url-receive.md)

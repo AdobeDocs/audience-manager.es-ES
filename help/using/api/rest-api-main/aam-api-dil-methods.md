@@ -1,7 +1,7 @@
 ---
-description: Métodos que le permiten trabajar mediante programación con la Data Integration Library (DIL).
-seo-description: Métodos que le permiten trabajar mediante programación con la Data Integration Library (DIL).
-seo-title: Métodos de API de la biblioteca de integración de datos
+description: Métodos que permiten trabajar de manera programática con la Data Integration Library (DIL).
+seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
+seo-title: Data Integration Library API Methods
 solution: Audience Manager
 title: Métodos de API de la biblioteca de integración de datos
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
@@ -9,24 +9,24 @@ feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 15%
+source-wordcount: '170'
+ht-degree: 13%
 
 ---
 
 # Métodos de API de la biblioteca de integración de datos {#data-integration-library-api-methods}
 
-Métodos que le permiten trabajar mediante programación con [!UICONTROL Data Integration Library] ([!UICONTROL DIL]).
+Métodos que le permiten trabajar mediante programación con [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->La API de Data Integration Library ha quedado obsoleta. Esta API solía generar un DIL, que ahora puede descargar automáticamente aquí: [descarga del DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>La API de Data Integration Library se ha desaprobado. Esta API se utiliza para generar DIL, que ahora puede descargar aquí: [descarga de DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Devolver versiones para el DIL {#return-version-dil}
 
-Método `GET` que devuelve una lista de versiones ordenadas de la más antigua a la más reciente.
+A `GET` que devuelve una lista de versiones ordenadas de la más antigua a la más reciente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -36,15 +36,15 @@ Método `GET` que devuelve una lista de versiones ordenadas de la más antigua a
 
 ### Respuesta
 
-Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` como se muestra a continuación.
+Una solicitud correcta devuelve el código de respuesta. `["4.0", "4.1"]` como se muestra a continuación.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Devolver esquema JSON para la versión {#return-json-schema-version}
+## Devolver el esquema JSON de la versión {#return-json-schema-version}
 
-Método `GET` que devuelve el esquema [!DNL JSON] para la versión [!UICONTROL DIL]. Admite el uso de alias [!UICONTROL LATEST] para la versión para obtener la versión más reciente de [!UICONTROL DIL].
+A `GET` método que devuelve el [!DNL JSON] esquema para [!UICONTROL DIL] versión. Admite el uso de alias [!UICONTROL LATEST] para obtener la versión más reciente de [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -54,7 +54,7 @@ Método `GET` que devuelve el esquema [!DNL JSON] para la versión [!UICONTROL D
 
 ### Respuesta
 
-Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` y los datos como se muestra a continuación.
+Una solicitud correcta devuelve el código de respuesta. `["4.0", "4.1"]` y como se muestra a continuación.
 
 ```
 { 
@@ -380,7 +380,7 @@ Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` y los d
 
 ## Generar DIL {#generate-dil}
 
-Un método `GET` que genera [!UICONTROL DIL] en función del cuerpo de la solicitud pasado usando la versión especificada de [!UICONTROL DIL]. Si el alias `LATEST` se utiliza para la versión en la URL, se genera la última versión de [!UICONTROL DIL].
+A `GET` método que genera [!UICONTROL DIL] se basa en el cuerpo de solicitud pasado usando la versión especificada de [!UICONTROL DIL]. Si el alias `LATEST` se utiliza para la versión en la dirección URL, la última versión de [!UICONTROL DIL] se genera.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -464,4 +464,4 @@ Un método `GET` que genera [!UICONTROL DIL] en función del cuerpo de la solici
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta `201 created` junto con el código [!UICONTROL DIL] [!DNL JavaScript].
+Una actualización correcta devuelve el código de respuesta. `201 created` junto con el [!UICONTROL DIL] [!DNL JavaScript] código.

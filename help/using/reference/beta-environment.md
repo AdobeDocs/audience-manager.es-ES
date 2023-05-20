@@ -1,6 +1,6 @@
 ---
-description: El entorno beta sirve para probar la implementación del Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
-keywords: entorno limitado
+description: El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su Audience Manager de Soluciones para socios si está interesado en utilizar el entorno beta.
+keywords: espacio aislado
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
 solution: Audience Manager
@@ -17,25 +17,25 @@ ht-degree: 3%
 
 # Entorno beta {#beta-environment}
 
-El entorno beta sirve para probar la implementación del Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con el representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
+El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su Audience Manager de Soluciones para socios si está interesado en utilizar el entorno beta.
 
 ## Información general
 
-La funcionalidad del entorno bveta es una réplica exacta del entorno de producción, sin características experimentales o no lanzadas. Las credenciales de inicio de sesión del entorno de producción son válidas en el entorno beta.
+La funcionalidad en el entorno beta es una réplica exacta del entorno de producción, sin ninguna función experimental o sin publicar. Las credenciales de inicio de sesión del entorno de producción son válidas en el entorno beta.
 
-**Actualizar programación**
+**Calendario de actualizaciones**
 
 El entorno beta se actualiza al final de cada mes durante las horas de menor actividad.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que los datos de sus clientes ([señales, rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) no se sincroniza entre los entornos de producción y beta.
+>Tenga en cuenta que los datos de clientes ([señales, rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) no se sincroniza entre los entornos de producción y beta.
 
 ## Tráfico entrante
 
-El entorno beta solo admite tráfico entrante para fines de validación de sintaxis de contenido y nombre de archivo. Dado que no se está realizando una asignación de ID en el entorno beta, los clientes no verán ninguna población de segmentos.
+El entorno beta solo admite tráfico entrante para fines de validación de nombres de archivo y sintaxis de contenido. Dado que no hay ninguna asignación de ID en curso en el entorno beta, los clientes no verán ninguna población de segmentos.
 
-En consecuencia, la variable [!UICONTROL Onboarding Status] informe de página siempre [!UICONTROL No matching AAM ID] al ingerir archivos en el entorno beta.
+En consecuencia, la [!UICONTROL Onboarding Status] La página siempre informará [!UICONTROL No matching AAM ID] tras la ingesta de archivos en el entorno beta.
 
 Recomendamos a todos los clientes que realicen cualquier prueba entrante en su entorno de producción.
 
@@ -43,24 +43,24 @@ Recomendamos a todos los clientes que realicen cualquier prueba entrante en su e
 
 El tráfico saliente no está habilitado para el entorno beta.
 
-## Puntos finales
+## Extremos
 
 | Servicio | URL/Nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
-| S3 | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente | Póngase en contacto con el representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente para configurar un compartimento de Amazon S3 para su instancia beta. Obtenga información sobre [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
+| S3 | Póngase en contacto con su Audience Manager de Soluciones para socios o con el Servicio de atención al cliente | Póngase en contacto con su Audience Manager de Soluciones para socios o con el Servicio de atención al cliente para configurar un contenedor de Amazon S3 para su instancia beta. Lea más información sobre [ventajas de utilizar Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el entorno beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Las credenciales del entorno de producción son válidas para el entorno beta. |
 | API | `https://api-beta.demdex.com/...` | Las credenciales del entorno de producción son válidas para el entorno beta. Le recomendamos que cree un usuario de API genérico, [ver detalles](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Acceso al DCS en el entorno beta {#access-dcs-beta-environment}
 
-1. Realizar una llamada DCS utilizando el curl [command](https://curl.haxx.se/docs/manpage.html). Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
+1. Realizar una llamada del DCS utilizando el curl [mando](https://curl.haxx.se/docs/manpage.html). Curl es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
 
    Por ejemplo:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Compruebe que el DCS beta ha proporcionado su solicitud buscando &quot;entorno limitado&quot; en el encabezado de respuesta del DCS.
+1. Compruebe que el DCS beta proporcionó su solicitud buscando &quot;sandbox&quot; en el encabezado de respuesta del DCS.
 
    Por ejemplo:
 
