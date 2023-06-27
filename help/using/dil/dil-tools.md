@@ -7,14 +7,22 @@ title: Herramientas DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
 # Herramientas DIL
+
+>[!WARNING]
+>
+>A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
+><br><br>
+>Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+><br><br>
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
 Describe los métodos en la `DIL.tools` namespace. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
@@ -173,7 +181,7 @@ Firma de función: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Código de muestra
 
-<pre class="&ldquo;javascript&rdquo;"><code>
+<pre class="javascript"><code>
 var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 

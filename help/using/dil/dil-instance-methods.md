@@ -8,14 +8,22 @@ title: Métodos DIL de nivel de instancia
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 15%
+source-wordcount: '1153'
+ht-degree: 14%
 
 ---
 
 # Métodos DIL de nivel de instancia{#instance-level-dil-methods}
+
+>[!WARNING]
+>
+>A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
+><br><br>
+>Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+><br><br>
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
 El nivel de instancia [!UICONTROL DIL] Las API permiten crear y trabajar con objetos de Audience Manager mediante programación. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
 
@@ -54,7 +62,6 @@ r_dil_signals.xml
 >
 >* Puede encadenar otras llamadas de API a este método.
 >* Si la biblioteca JavaScript de Adobe Experience Cloud está en la página, `submit()` espera a que Cloud establezca una cookie antes de enviar una solicitud.
-
 
 **Claves de solicitud reservadas**
 
@@ -685,7 +692,6 @@ var dilInstance = DIL.create({
 >* Cuándo `useCORSOnly: true`, [!UICONTROL DIL] no realizará llamadas de ID desde Internet Explorer versión 9 o anteriores.
 >
 
-
 ## useImageRequest {#useimagerequest}
 
 Cambia el tipo de solicitud a imagen `<img>` desde script `<src>`.
@@ -725,4 +731,3 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
-

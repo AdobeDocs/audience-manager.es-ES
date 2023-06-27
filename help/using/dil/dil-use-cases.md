@@ -7,14 +7,22 @@ title: Casos de uso DIL y ejemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '981'
 ht-degree: 2%
 
 ---
 
 # Casos de uso DIL y ejemplos de código{#dil-use-cases-and-code-samples}
+
+>[!WARNING]
+>
+>A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
+><br><br>
+>Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+><br><br>
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
 Ejemplos de código y descripciones para casos de uso de DIL específicos.
 
@@ -46,7 +54,7 @@ Recuerde mantener las mismas propiedades de valor al pasar datos. Por ejemplo, s
 
 Este ejemplo básico envía datos de color y precio al Audience Manager en forma de pares clave-valor. Su código puede tener un aspecto similar al siguiente:
 
-<pre class="&ldquo;java&rdquo;"><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
@@ -244,4 +252,3 @@ Para enviar tráfico a `dil.js` archivo en GTM:
 >* [Centro de ayuda de Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Señales](../dil/dil-instance-methods.md#signals)
 >* [Requisitos de prefijo para variables clave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
-
