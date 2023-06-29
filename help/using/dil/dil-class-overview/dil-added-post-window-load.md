@@ -7,7 +7,7 @@ title: isAddedPostWindowLoad
 uuid: 8cdeab00-6ce4-4f07-bb63-41425369a5b7
 feature: DIL Implementation
 exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 >[!WARNING]
 >
 >A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
-><br><br>
+><br>
 >Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
-><br><br>
+><br>
 >Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
 Se utiliza para informar al DIL de que se carga después de que se cargue la ventana.
