@@ -8,9 +8,9 @@ title: Administración
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 2%
 > La administración de cuentas de usuario se está trasladando a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Para iniciar la migración de usuarios, pedimos a todos los clientes Audience Manager que tomen inmediatamente las medidas necesarias que se describen en este artículo: [Migración de usuarios de Audience Manager a Admin Console](admin-console-migration.md).
 > 
 > Cuando se hayan migrado todos los clientes, las secciones de administración de usuarios de este documento desaparecerán.
+
+>[!IMPORTANT]
+>
+> Antes de usar [!DNL RBAC], esta función debe habilitarse mediante Adobe para su organización. Póngase en contacto con el equipo de su cuenta para solicitar [!DNL RBAC] o póngase en contacto con el Servicio de atención al cliente.
 
 
 Las opciones de [!UICONTROL Administration] El menú permite crear usuarios de Audience Manager y asignarlos a grupos. También puede establecer límites de vista (características, segmentos, destinos y modelos).
@@ -41,6 +45,7 @@ Clientes empresariales que utilizan [!DNL Audience Manager] necesitan una plataf
 > La administración de cuentas de usuario se está trasladando a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Para iniciar la migración de usuarios, pedimos a todos los clientes Audience Manager que tomen inmediatamente las medidas necesarias que se describen en este artículo: [Migración de usuarios de Audience Manager a Admin Console](admin-console-migration.md).
 > 
 > Una vez migrados todos los clientes, la sección de administración de usuarios de este documento desaparecerá.
+> 
 Creación de usuarios en [!DNL Audience Manager] y especifique los detalles del usuario, el estado de inicio de sesión y asigne usuarios a grupos.
 
 1. Haga clic **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
