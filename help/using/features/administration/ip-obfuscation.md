@@ -5,10 +5,10 @@ solution: Audience Manager
 title: Complicación de la dirección IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '518'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,10 @@ Siguiendo los principios de &quot;Privacidad por diseño&quot;, Adobe Audience M
 * Después de la ofuscación: `255.255.255.0`
 
 Consulte también Recopilación de direcciones IP y Ofuscación de direcciones IP en nuestro [Sección Privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md).
+
+### Prioridad de confusión de IP {#precedence}
+
+[Ofuscación de IP de nivel de flujo de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tiene prioridad sobre cualquier opción de confusión de IP establecida en Audience Manager y se aplica a todas las direcciones IP. Cualquier búsqueda de geolocalización realizada por Audience Manager se ve afectada por el nivel de conjunto de datos [!UICONTROL IP obfuscation] opción. Una búsqueda de geolocalización en Audience Manager, basada en una IP completamente oculta, dará como resultado una región desconocida y no se realizará ningún segmento basado en los datos de geolocalización resultantes.
 
 ## Requisitos de ofuscación de direcciones IP {#ip-obfuscation-requirements}
 
