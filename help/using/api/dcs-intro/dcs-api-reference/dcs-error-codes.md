@@ -4,7 +4,7 @@ title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 4%
@@ -71,7 +71,7 @@ En los cuadros siguientes, *cursiva* representa un marcador de posición variabl
   <tr> 
    <td colname="col1"> <p>199 </p> </td> 
    <td colname="col2"> <p>No se permiten solicitudes de este país </p> </td> 
-   <td colname="col3"> <p>En función de la dirección IP, la variable <span class="wintitle"> DCS</span> bloquea solicitudes de los siguientes países: </p> <p> 
+   <td colname="col3"> <p>En función de la dirección IP, la variable <span class="wintitle"> DCS</span> bloquea las solicitudes de los siguientes países: </p> <p> 
      <ul id="ul_4017A7D074064FE7A8B5618AFCFA4E28"> 
       <li id="li_EE65DEC3C64F4522B214C503DC754DC1">Cuba (CU) </li> 
       <li id="li_EDE8B304D35A41458DCFF11E9328802A">Irán (IR) </li> 
@@ -199,13 +199,13 @@ En los cuadros siguientes, *cursiva* representa un marcador de posición variabl
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>El ID de CMP no está presente en GCL</p> </td> 
-   <td colname="col3"> <p>Cuándo <code>gdpr=1</code> y la cadena IAB TC la genera un ID de CMP que no está presente en la versión en caché de Audience Manager de la lista global CMP en el momento de la evaluación, el complemento de Audience Manager para el TCF de IAB descarta la cadena IAB TC y procesa la solicitud como de costumbre. La macro ${GDPR} del TCF de IAB v2.0 está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p>
+   <td colname="col3"> <p>Cuándo <code>gdpr=1</code> y la cadena IAB TC la genera un ID de CMP que no está presente en la versión en caché de Audience Manager de la lista global CMP en el momento de la evaluación, el complemento de Audience Manager para el TCF de IAB descarta la cadena IAB TC y procesa la solicitud como de costumbre. El TCF de IAB v2.2 ${GDPR} La macro se establece en 0 y ${GDPR_CONSENT_XXX} la macro está vacía.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>El ID de CMP se marca como eliminado en GCL</p> </td> 
-   <td colname="col3"> <p>Cuándo <code>gdpr=1</code> y la cadena TC de la IAB la genera una CMP marcada como eliminada en la versión en caché de la lista CMP global, el complemento Audience Manager para TCF de IAB descarta la cadena TC y procesa la solicitud como de costumbre si el tiempo de evaluación pasa el tiempo de eliminación de la lista CMP global. La macro ${GDPR} del TCF de IAB v2.0 está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p></td>
+   <td colname="col3"> <p>Cuándo <code>gdpr=1</code> y la cadena TC de la IAB la genera una CMP marcada como eliminada en la versión en caché de la lista CMP global, el complemento Audience Manager para TCF de IAB descarta la cadena TC y procesa la solicitud como de costumbre si el tiempo de evaluación pasa el tiempo de eliminación de la lista CMP global. El TCF de IAB v2.2 ${GDPR} La macro se establece en 0 y ${GDPR_CONSENT_XXX} la macro está vacía.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

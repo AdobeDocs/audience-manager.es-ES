@@ -7,7 +7,7 @@ title: Guía de Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 87%
@@ -151,7 +151,7 @@ Esta guía de documentación técnica ofrece asistencia de autoayuda para Audien
      Consulte las últimas <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones.</p> 
      <p> <b>Últimas funciones</b> </p> <p> 
      Obtenga información sobre las últimas funciones de Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migración de usuarios de Audience Manager a Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Coincidencia de clientes de Google para destinos basados en personas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento de Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Informes de uso de actividades</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migración de usuarios de Audience Manager a Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Coincidencia de clientes de Google para destinos basados en personas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Complemento de Audience Manager para IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Informes de uso de actividades</a></li>
      </ul></p>
     </td>
   </tr> 
