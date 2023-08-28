@@ -7,7 +7,7 @@ title: Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos 
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 12%
@@ -18,4 +18,6 @@ ht-degree: 12%
 
 El [!UICONTROL Outbound Data Transfer] proceso para clientes que utilizan [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) requiere que preguntemos por su [!DNL Amazon S3] clave de acceso y clave secreta, para enviar los archivos de datos salientes al bloque.
 
-Si prefiere no compartir su [!DNL Amazon S3] clave de acceso y clave secreta con nosotros, póngase en contacto con su [!DNL Audience Manager] o al Servicio de atención al cliente, y configurarán [!DNL Cross-Account Bucket Permissions] para usted. Solo tiene que añadir nuestra [!DNL Amazon S3] ID de cuenta de a una lista de permitidos de [!DNL S3] contenedor donde desee recibir los archivos de datos salientes, tal como se describe en la sección [Documentación de Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Su [!DNL Audience Manager] Un asesor de o el Servicio de atención al cliente le proporcionarán nuestra [!DNL Amazon S3] ID de cuenta.
+Si prefiere no compartir su [!DNL Amazon S3] clave de acceso y clave secreta con nosotros, póngase en contacto con su [!DNL Audience Manager] o al Servicio de atención al cliente, y configurarán [!DNL Cross-Account Bucket Permissions] para usted.
+
+Solo tiene que añadir nuestra [!DNL Amazon S3] ID de cuenta de a una lista de permitidos de [!DNL S3] contenedor donde desee recibir los archivos de datos salientes, tal como se describe en la sección [Documentación de Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Su [!DNL Audience Manager] Un asesor de o el Servicio de atención al cliente le proporcionarán nuestra [!DNL Amazon S3] ID de cuenta.

@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Aprenda a utilizar Adobe Audience Manager para recopilar información comercial relevante acerca de los visitantes del sitio y crear segmentos comercializables. También puede encontrar detalles acerca de cómo ofrecer publicidad y contenido segmentados para la audiencia adecuada.
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 90%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 90%
          + [Añadir nuevos destinos basados en dispositivos](features/destinations/add-device-based-destinations.md)
          + [Lista de destinos basados en dispositivos de Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Añadir o editar segmentos para destinos de servidor a servidor](features/destinations/add-edit-segments.md)
-         + [Configuración de las audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio](features/destinations/twitter-tailored-audiences.md)
+         + [Configuración de Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio](features/destinations/twitter-tailored-audiences.md)
       + Destinos personalizados {#custom-destinations}
          + [Configurar un destino de dirección URL](features/destinations/create-url-destination.md)
          + [Configurar un destino de cookie](features/destinations/create-cookie-destination.md)
@@ -336,6 +336,7 @@ ht-degree: 90%
          + [Cifrado PGP de archivo para tipos de datos de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Compresión de archivos de transferencia de datos entrantes](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Mensaje de muestra a los socios después del procesamiento entrante](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos entrantes](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Integraciones de socios personalizadas](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integración con Adobe Experience Platform {#integration-experience-platform}
       + [Uso compartido de segmentos de Experience Platform con Audience Manager y otras soluciones de Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
