@@ -3,7 +3,7 @@ description: Para enviar datos desde su propio bloque de Amazon S3 al Audience M
 solution: Audience Manager
 title: Usar los permisos de bloque entre cuentas de Amazon S3 para los archivos entrantes
 feature: Inbound Data Transfers
-source-git-commit: ff023fb57e2653ca65323313a37852d379e4b00c
+source-git-commit: 17cee6971ca1d5cda8f272558a46220227fc51f7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Para ello, siga los pasos descritos a continuación.
 >[!NOTE]
 >
 >Al transferir datos de entrada al bloque de Audience Manager Amazon S3, asegúrese de utilizar el `bucket-owner-full-control` [lista de control de acceso](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) para que Audience Manager procese correctamente los datos.
-><br>
->Ejemplo del comando Amazon Web Service: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Ejemplo del comando Amazon Web Service: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 
