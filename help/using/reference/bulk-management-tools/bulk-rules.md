@@ -7,9 +7,9 @@ title: Crear o actualizar normas de rasgos y normas de segmentos
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '342'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 8%
 # Crear o actualizar normas de rasgos y normas de segmentos{#create-or-update-trait-rules-and-segment-rules}
 
 Las hojas de cálculo de creación y actualización aceptan un encabezado traitRule que permite aplicar varias reglas en una sola operación. Siga estas instrucciones para realizar solicitudes de reglas masivas.
+
+>[!IMPORTANT]
+>
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 

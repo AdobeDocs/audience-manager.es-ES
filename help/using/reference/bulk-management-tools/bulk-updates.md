@@ -8,9 +8,9 @@ title: Actualizaciones masivas
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # Actualizaciones masivas{#bulk-updates}
 
 Una actualización masiva le permite editar varios segmentos, rasgos, modelos, fuentes de datos y elementos de carpetas de segmentos o rasgos en una sola operación. Siga estas instrucciones para realizar actualizaciones masivas.
+
+>[!IMPORTANT]
+>
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 

@@ -7,16 +7,20 @@ title: Solicitudes masivas
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: BAAAM
 exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
 # Solicitudes masivas{#bulk-requests}
 
 Una solicitud masiva devuelve datos que puede utilizar con los diferentes encabezados de las hojas de cálculo de Actualizar, Crear, Estimar y Eliminar.
+
+>[!IMPORTANT]
+>
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 
