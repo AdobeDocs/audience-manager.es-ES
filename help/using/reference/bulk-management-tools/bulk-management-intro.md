@@ -4,19 +4,19 @@ keywords: baaam;BAAAM;descargar baaam
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
-title: Introducción a la administración en lote
+title: Introducción A La Administración En Lotes
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
 
-# Introducción a la administración en lote{#getting-started-with-bulk-management}
+# Introducción A La Administración En Lotes{#getting-started-with-bulk-management}
 
 El [!DNL Bulk Management Tools] permite crear y administrar varios objetos a la vez con una sola operación. Puede utilizar [!DNL Bulk Management Tools] para trabajar con [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], y [!UICONTROL traits].
 
@@ -47,7 +47,7 @@ Descargar la hoja de cálculo más reciente **[aquí](assets/BAAAM_V2_20210609.x
 Para usar la variable [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su [!DNL Experience Cloud] iniciar sesión. Como cliente, ya debería tener estas credenciales.
-* El [!DNL Bulk Management Tools] hoja de cálculo. [Descargar hoja de cálculo](assets/BAAAM_V2_20200502.xlsm) para obtener la versión más reciente.
+* El [!DNL Bulk Management Tools] hoja de cálculo. [Descargar hoja de cálculo](assets/BAAAM_V2_20210609.xlsm) para obtener la versión más reciente.
 * [!DNL Microsoft Excel] ejecución en [!DNL macOS] o de 64 bits [!DNL Microsoft Windows]. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel].
 * Al abrir la hoja de cálculo, debe **Habilitar macros** para el [!DNL Bulk Management Tools] para trabajar.
 
@@ -104,11 +104,11 @@ En la tabla siguiente se enumeran las operaciones que se pueden realizar y los e
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Fuentes de datos</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Señales derivadas</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinos </a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinos</a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelos</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Carpetas de rasgos</a> Carpetas de segmentos y </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmentos </a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Rasgos </a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmentos</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Características</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
