@@ -6,12 +6,13 @@ solution: Audience Manager
 title: Autenticación con plataformas basadas en personas
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
+
 
 # Autenticación con plataformas basadas en personas {#authentication-with-people-based-platforms}
 
@@ -27,7 +28,7 @@ Esta página contiene instrucciones sobre cómo puede configurar y administrar l
 
 1. Inicie sesión en su cuenta de Audience Manager de y vaya a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma social, debería verla en esta página. En caso contrario, la página está vacía.
    ![people-based-integration](assets/pbd-config.png)
-2. Haga clic **[!UICONTROL Add Account]**.
+2. Haga clic en **[!UICONTROL Add Account]**.
 3. Utilice el **[!UICONTROL People-Based Platform]** menú desplegable para seleccionar la plataforma con la que desea configurar la integración.
    ![people-based-platform](assets/pbd-add.png)
 4. Clic **[!UICONTROL Confirm]** para que se redirija a la página de autenticación de la plataforma seleccionada.
@@ -43,7 +44,7 @@ A continuación se indica cómo añadir direcciones de correo electrónico a int
 1. Inicie sesión en su cuenta de Audience Manager de y vaya a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifique la integración para la que desea recibir notificaciones de caducidad de tokens y haga clic en **[!UICONTROL Edit]** icono.
 1. Introduzca las direcciones de correo electrónico a las que desea enviar notificaciones de caducidad de tokens, separadas por comas.
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Renovación del token de autenticación {#token-renewal}
 

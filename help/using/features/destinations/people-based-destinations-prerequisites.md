@@ -6,12 +6,13 @@ solution: Audience Manager
 title: Requisitos previos y consideraciones
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
+
 
 # Requisitos previos y consideraciones {#prerequisites-considerations}
 
@@ -37,8 +38,10 @@ Antes de usar [!UICONTROL People-Based Destinations] para enviar la audiencia de
 
 1. Su [!DNL Facebook] la cuenta de usuario debe tener el **Administración de campañas** permiso habilitado para la cuenta de Ad que planea usar.
 2. Añada el **Adobe Experience Cloud** cuenta comercial como socio publicitario en su [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. Consulte [Añadir socios a su administrador comercial](https://www.facebook.com/business/help/1717412048538897) para obtener más información.
+
    >[!IMPORTANT]
-   > Al configurar los permisos para Adobe Experience Cloud, debe habilitar la variable **Administración de campañas** permiso. Es necesario para la integración de [!UICONTROL People-Based Destinations].
+   >Al configurar los permisos para Adobe Experience Cloud, debe habilitar la variable **Administración de campañas** permiso. Es necesario para la integración de [!UICONTROL People-Based Destinations].
+
 3. Lea y firme el [!DNL Facebook Custom Audiences] Condiciones del servicio. Para ello, vaya a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, donde `accountID` es su [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn] {#linkedin}
@@ -57,11 +60,19 @@ A continuación, asegúrese de que su [!DNL Google] La cuenta de está configura
 
 Google permite automáticamente a los clientes con cuentas compatibles.
 
-## Integración de datos {#data-onboarding}
+## Incorporación de datos {#data-onboarding}
 
-Ingesta de datos para [!UICONTROL People-Based Destinations] admite actualmente hasta 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente ([!DNL CRM ID]), por transferencia de lotes. La carga de más de 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente hace que el Audience Manager introduzca 10 de ellas, sin un orden específico.
+>[!IMPORTANT]
+>
+>Todos los clientes de Audience Manager pueden ingerir correos electrónicos con hash sin registrarse en [!UICONTROL People-Based Destinations].
+
+Ingesta de datos para [!UICONTROL People-Based Destinations] admite actualmente hasta 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente ([!DNL CRM ID]), por transferencia de lotes.
 
 La carga de más de 10 direcciones de correo electrónico con hash vinculadas a un ID de cliente en varias transferencias por lotes hace que el Audience Manager conserve las 10 direcciones de correo electrónico añadidas más recientemente.
+
+Para introducir identificadores hash, [crear una fuente de datos entre dispositivos para identificadores hash](../create-data-source-hashed-emails.md) y habilite la **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** opción.
+
+![Imagen de la interfaz de usuario del Audience Manager que muestra la opción de compartir ID asociados de varios dispositivos en flujos de trabajo de correo electrónico basados en personas o con hash](assets/data-source-share-ids.png)
 
 ## Privacidad de datos {#data-privacy}
 

@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Aprenda a utilizar Adobe Audience Manager para recopilar información comercial relevante acerca de los visitantes del sitio y crear segmentos comercializables. También puede encontrar detalles acerca de cómo ofrecer publicidad y contenido segmentados para la audiencia adecuada.
 feature-set: Audience Manager
-source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1835'
 ht-degree: 25%
 
 ---
@@ -91,6 +91,7 @@ ht-degree: 25%
    + Fuentes de datos {#data-sources}
       + [Lista y configuración de fuentes de datos](features/datasources-list-and-settings.md)
       + [Crear una fuente de datos](features/manage-datasources.md)
+      + [Configuración de una fuente de datos para flujos de trabajo de correo electrónico con hash](features/create-data-source-hashed-emails.md)
       + [Fuentes de datos globales](features/global-data-sources.md)
    + [ID declarados](features/declared-ids.md)
    + [Señales derivadas](features/derived-signals.md)
