@@ -3,7 +3,7 @@ title: Configuración de una fuente de datos para flujos de trabajo de correo el
 description: Obtenga información sobre cómo crear una fuente de datos para almacenar correos electrónicos con hash para flujos de trabajo de correo electrónico con hash.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ Siga los pasos a continuación para crear y configurar una fuente de datos para 
    >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. El Audience Manager no hace un hash de los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en esta fuente de datos ya tengan un cifrado hash con la variable [!DNL SHA256] algoritmo. De lo contrario, no podrá utilizarlo para flujos de trabajo de correo electrónico con hash.
 
    ![Imagen de la IU del Audience Manager que muestra la sección de configuración de la fuente de datos.](../features/assets/data-source-settings.png)
+
 
