@@ -1,7 +1,7 @@
 ---
 title: Migrar de la extensión de etiqueta de Audience Manager a la extensión de etiqueta del SDK web
 description: Conozca los pasos para actualizar la biblioteca de recopilación de datos para Audience Manager desde la extensión de etiquetas Audience Manager a la extensión de etiquetas SDK web
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Una vez que la implementación de etiquetas haya migrado completamente al SDK we
 +++
 
 En este punto, la implementación de Audience Manager se migra completamente al SDK web y está preparado para pasar a Real-Time CDP en el futuro.
+
