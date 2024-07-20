@@ -9,14 +9,14 @@ feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
 # Panel de informes {#reports-dashboard}
 
-Utilice el panel para ver información sobre los recuentos de visitantes únicos desglosados por tipos de rasgos y segmentos para un lapso de tiempo especificado.
+Utilice el panel para ver información sobre los recuentos de visitantes únicos desglosados por tipos de rasgos y segmentos para un lapso de tiempo específico.
 
 <!-- 
 
@@ -24,30 +24,30 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para ampliar los permisos de grupos de usuarios a [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel para la que tienen permisos de visualización. [!UICONTROL RBAC] La funcionalidad permite controlar qué datos de informes pueden ver los equipos internos.
+[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para extender permisos de grupos de usuarios a [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel para la que tienen permisos de visualización. La funcionalidad [!UICONTROL RBAC] permite controlar qué datos de informes pueden ver los equipos internos.
 
 Por ejemplo, una agencia que administra diferentes cuentas de anunciante puede configurar permisos de grupos de usuarios para que un equipo que administra la cuenta del anunciante A no pueda ver los datos de informes del anunciante B. Este tablero se puede utilizar para solucionar problemas de entrega de datos.
 
-Por ejemplo, si observa un descenso o un pico en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas o integrado), tiene un mejor punto de partida para rastrear un posible problema de entrega de datos. Si observa un descenso en el total de usuarios únicos y en los usuarios únicos incorporados, puede ir a la [!UICONTROL On-boarding Status] para ver si se ha producido un problema con un archivo de entrada.
+Por ejemplo, si observa un descenso o un pico en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas o integrado), tiene un mejor punto de partida para rastrear un posible problema de entrega de datos. Si observa un descenso en el total de usuarios únicos y en los usuarios únicos incorporados, puede ir al informe [!UICONTROL On-boarding Status] para ver si hubo un problema con un archivo entrante.
 
-**Para acceder al panel:**
+**Para tener acceso al panel:**
 
 1. En el menú de navegación superior, haga clic en **[!UICONTROL Dashboard]**.
-2. *Opcional* Seleccione el lapso de tiempo deseado en la última fecha de generación de informes de la lista desplegable (7 días, 14 días (opción predeterminada), 30 días o 60 días).
+2. *Opcional* Seleccione el lapso de tiempo deseado en la última fecha de generación de informes de la lista desplegable (7 días, 14 días (valor predeterminado), 30 días o 60 días).
 
-   Según el periodo seleccionado, el cambio delta en la variable [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] paneles muestra el cambio en los visitantes únicos en la audiencia durante el periodo que termina hoy frente al periodo anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días que finalizan hace siete días.
+   Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] muestra el cambio en los visitantes únicos en la audiencia durante el período que termina hoy en comparación con el período anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días que finalizan hace siete días.
 
    >[!NOTE]
    >
-   >Puede investigar un cambio delta que parezca fuera de lo normal ejecutando una [!UICONTROL Trend] informe. Por ejemplo, si ve un cambio delta inusualmente grande durante los últimos siete días, puede ejecutar un [!UICONTROL Trend] informe de los últimos 14 días (2 x 7) para comprender mejor las cifras.
+   >Puede investigar un cambio delta que parezca fuera de lo normal ejecutando un informe [!UICONTROL Trend]. Por ejemplo, si observa un cambio delta inusualmente grande durante los últimos siete días, puede ejecutar un informe de [!UICONTROL Trend] durante los últimos 14 días (2 x 7) para comprender mejor las cifras.
 
    Según los permisos del usuario que ha iniciado sesión, se muestran los siguientes paneles:
 
-   * [Únicos de socio](../reporting/reports-dashboard.md#partner-uniques)
-   * [Características más grandes/características más cambiadas](../reporting/reports-dashboard.md#largest-traits)
+   * [Exclusivos del socio](../reporting/reports-dashboard.md#partner-uniques)
+   * [Características más grandes/Características más cambiadas](../reporting/reports-dashboard.md#largest-traits)
    * [Segmentos más grandes/Segmentos más cambiados](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Opcional* Clic **[!UICONTROL Normalize]** sobre cualquier gráfico para mostrar todos los datos en la misma escala. También puede pasar el ratón sobre cualquier punto de datos para ver más información.
+3. *Opcional* Haga clic en **[!UICONTROL Normalize]** sobre cualquier gráfico para mostrar todos los datos en la misma escala. También puede pasar el ratón sobre cualquier punto de datos para ver más información.
 
 ## Únicos de socio {#partner-uniques}
 
@@ -69,7 +69,7 @@ Permiso necesario para ver: [!UICONTROL View Traits].
 
 Este panel muestra el número de visitantes únicos capturados por varias características.
 
-Utilice el **[!UICONTROL Show]** lista desplegable para mostrar información sobre diferentes tipos de rasgos: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded], o [!UICONTROL Rule-Based].
+Utilice la lista desplegable **[!UICONTROL Show]** para mostrar información sobre distintos tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] o [!UICONTROL Rule-Based].
 
 Este panel contiene las siguientes pestañas:
 
@@ -82,11 +82,11 @@ Este panel contiene las siguientes pestañas:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Características más grandes</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> rasgos más grandes</span> </p> </td> 
    <td colname="col2"> <p>Muestra información sobre la cantidad de visitantes únicos ordenados por número (de mayor a menor) y también enumera el cambio delta de visitantes únicos durante el lapso de tiempo especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Características más cambiadas</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> rasgos más cambiados</span> </p> </td> 
    <td colname="col2"> <p>Muestra información sobre el número de visitantes únicos ordenados por el cambio delta. </p> </td> 
   </tr> 
  </tbody> 
@@ -111,11 +111,11 @@ Este panel contiene las siguientes pestañas:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmentos más grandes</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmentos Más Grandes</span> </p> </td> 
    <td colname="col2"> <p>Muestra información sobre la cantidad de visitantes únicos y el cambio delta de visitantes únicos durante el lapso de tiempo especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmentos más cambiados</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> segmentos más cambiados</span> </p> </td> 
    <td colname="col2"> <p>Muestra información sobre el número de visitantes únicos ordenados por el cambio delta. </p> </td> 
   </tr> 
  </tbody> 

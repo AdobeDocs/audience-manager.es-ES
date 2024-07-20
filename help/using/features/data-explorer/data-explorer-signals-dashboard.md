@@ -8,22 +8,22 @@ feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
 # Panel de señales {#signals-dashboard}
 
-Obtenga información general sobre las señales no utilizadas recibidas por el Audience Manager en los últimos 7 días e identifique posibles nuevos rasgos. Las señales no utilizadas llegan al Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguno de sus rasgos existentes. Para ver la [!UICONTROL Signals Dashboard], vaya a [!UICONTROL Audience Data] > [!UICONTROL Signals]. El [!UICONTROL Signals Dashboard] muestra perspectivas procesables basadas en las señales no utilizadas más activas.
+Obtenga información general sobre las señales no utilizadas recibidas por el Audience Manager en los últimos 7 días e identifique posibles nuevos rasgos. Las señales no utilizadas llegan al Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguno de sus rasgos existentes. Para ver [!UICONTROL Signals Dashboard], vaya a [!UICONTROL Audience Data] > [!UICONTROL Signals]. [!UICONTROL Signals Dashboard] le muestra datos procesables basados en las señales no utilizadas más activas.
 
 >[!IMPORTANT]
 >
->El **[!UICONTROL Top Unused Signals]** y **[!UICONTROL New Unused Signals]** las secciones solo muestran registros con más de **100 ocurrencias/hora**. Las señales por debajo de ese umbral se incluyen en [!UICONTROL Signals Search].
+>Las secciones **[!UICONTROL Top Unused Signals]** y **[!UICONTROL New Unused Signals]** solo muestran registros con más de **100 ocurrencias/hora**. Las señales por debajo de ese umbral se incluyen en [!UICONTROL Signals Search].
 
 ## Señales principales no utilizadas {#top-unused-signals}
 
-Esta sección muestra las 50 señales principales no utilizadas (tanto nuevas como antiguas) enviadas a [!DNL Audience Manager] en los últimos 7 días, según su recuento total. Según los datos [!DNL Audience Manager] recibe, esta tabla puede incluir algunas o todas las entradas del **Nuevas señales no utilizadas** tabla.
+Esta sección muestra las 50 principales señales no utilizadas (tanto nuevas como antiguas) enviadas a [!DNL Audience Manager] en los últimos 7 días, según su recuento total. Según los datos que [!DNL Audience Manager] reciba, esta tabla puede incluir algunas o todas las entradas de la tabla **Nuevas señales no utilizadas**.
 
 ![](assets/signals-top-unused.png)
 
@@ -35,7 +35,7 @@ Esta sección muestra las 50 nuevas señales no utilizadas recibidas en los últ
 
 ## Búsquedas guardadas {#saved-searches}
 
-[!DNL Audience Manager] muestra todos sus [búsquedas guardadas](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) en el [!UICONTROL Dashboard] y las vuelve a cargar cada vez que carga el [!UICONTROL Dashboard].
+[!DNL Audience Manager] muestra todas sus [búsquedas guardadas](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) en [!UICONTROL Dashboard] y las vuelve a cargar cada vez que carga [!UICONTROL Dashboard].
 
 Las búsquedas guardadas muestran los 50 resultados principales para los criterios correspondientes.
 

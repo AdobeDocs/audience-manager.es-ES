@@ -10,8 +10,8 @@ feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 3%
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
@@ -23,28 +23,28 @@ Este artículo proporciona información general sobre la clasificación de rasgo
 
 <!-- c_common_taxonomy_about.xml -->
 
-El [!DNL Audience Manager] la taxonomía es una función opcional que clasifica rasgos mediante convenciones de nomenclatura uniformes, lógicas y comúnmente entendidas. Funciona en el nivel de plataforma para ayudar a garantizar la coherencia de la nomenclatura en todo el [!DNL Audience Manager] ecosistema. Buena En última instancia, la taxonomía común está diseñada para alinear nuestro producto con los estándares del sector en lo que respecta a los procesos de privacidad del consumidor y exclusión.
+La taxonomía [!DNL Audience Manager] es una característica opcional que clasifica características mediante convenciones de nomenclatura uniformes, lógicas y de uso común. Funciona en el nivel de plataforma para ayudar a garantizar la coherencia de los nombres en todo el ecosistema [!DNL Audience Manager]. En última instancia, la taxonomía común está diseñada para alinear mejor nuestro producto con los estándares del sector en cuanto a los procesos de privacidad del consumidor y exclusión.
 
 ## Ventajas de la clasificación de rasgos
 
-Permitir que nuestros clientes creen segmentos personalizados y modelos de datos es fundamental para la [!DNL Audience Manager] y a su capacidad de capturar valor de nuestra plataforma. Sin embargo, también se necesita un medio sólido y escalable para comunicar información sobre segmentos a sus clientes y socios. Además, esta comunicación requiere que la información del segmento se comparta en un lenguaje fácil de entender y comprendido universalmente, a la vez que protege sus rasgos propietarios y nombres de segmento. El [!DNL Audience Manager] la taxonomía común proporciona este idioma y esta capacidad.
+Permitir que nuestros clientes creen segmentos personalizados y modelos de datos es fundamental para el modelo [!DNL Audience Manager] y para su capacidad de capturar valor de nuestra plataforma. Sin embargo, también se necesita un medio sólido y escalable para comunicar información sobre segmentos a sus clientes y socios. Además, esta comunicación requiere que la información del segmento se comparta en un lenguaje fácil de entender y comprendido universalmente, a la vez que protege sus rasgos propietarios y nombres de segmento. La taxonomía común [!DNL Audience Manager] proporciona este idioma y esta capacidad.
 
 ## La Taxonomía Utiliza Categorías De Clasificación Estándar Del Sector
 
-La taxonomía común se basa en las clasificaciones creadas por el [!DNL Interactive Advertising Bureau (IAB)]. Consulte la [!DNL IAB]de [sitio web](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de la calidad para redes e intercambios.
+La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [sitio web](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) de [!DNL IAB] para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
 
 ## Organización taxonómica
 
-El [!DNL Audience Manager] la taxonomía organiza los datos en categorías anidadas denominadas niveles. Cada categoría puede contener hasta 3 niveles independientes para la clasificación de datos. En el nivel más alto, una categoría de nivel 1 agrupa los datos en su forma más general (por ejemplo, geografía). Los niveles subsiguientes proporcionan la buena especificidad al nivel superior, categoría general (por ejemplo, *geografía —> Estados Unidos —> Nueva York*). Sin embargo, no todas las categorías tienen 3 niveles, algunos utilizan solo 2.
+La taxonomía [!DNL Audience Manager] organiza los datos en categorías anidadas denominadas niveles. Cada categoría puede contener hasta 3 niveles independientes para la clasificación de datos. En el nivel más alto, una categoría de nivel 1 agrupa los datos en su forma más general (por ejemplo, geografía). Los niveles posteriores proporcionan una mayor especificidad al nivel superior, categoría general (por ejemplo, *geografía —> Estados Unidos —> Nueva York*). Sin embargo, no todas las categorías tienen 3 niveles, algunos utilizan solo 2.
 
 ## Clasificar rasgos en categorías de datos
 
-Las clasificaciones taxonómicas se asignan al crear o editar rasgos en la variable [!UICONTROL Add New Trait Wizard] (ubicado en * **[!UICONTROL Audience Data > Traits]***). Consulte la [documentación sobre la creación de características](../../features/traits/create-onboarded-rule-based-traits.md) para obtener más información.
+Las clasificaciones taxonómicas se asignan al crear o editar características en [!UICONTROL Add New Trait Wizard] (ubicado en * **[!UICONTROL Audience Data > Traits]***). Consulte la [documentación sobre la creación de características](../../features/traits/create-onboarded-rule-based-traits.md) para obtener más información.
 
 ## Uso de la taxonomía: consideraciones adicionales
 
 Si decide clasificar los rasgos según nuestra taxonomía común, es importante recordar lo siguiente:
 
 * La clasificación es *opcional*.
-* Características *no son* asignado a una categoría taxonómica de forma predeterminada (es decir, los rasgos no se clasifican como &quot;desconocido&quot; o &quot;sin clasificar&quot;, etc.).
-* Los rasgos pueden pertenecer a *uno* solo categoría taxonómica (no se permiten clasificaciones múltiples y de categorías cruzadas).
+* Los rasgos *no son* asignados a una categoría taxonómica de forma predeterminada (es decir, los rasgos no se clasifican como &quot;desconocidos&quot; o &quot;sin clasificar&quot;, etc.).
+* Los rasgos solo pueden pertenecer a *una* categoría taxonómica (no se permiten clasificaciones múltiples y entre categorías).

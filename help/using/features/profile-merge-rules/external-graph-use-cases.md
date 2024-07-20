@@ -3,18 +3,18 @@ description: Recommendations y casos de uso para prospección, redireccionamient
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
-title: Ejemplos de uso de los Gráficos de dispositivos externos
+title: Casos de uso de gráficos de dispositivos externos
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 8%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
-# Ejemplos de uso de los Gráficos de dispositivos externos {#external-device-graph-use-cases}
+# Casos de uso de gráficos de dispositivos externos {#external-device-graph-use-cases}
 
 Recommendations y casos de uso para prospección, redireccionamiento y personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente del Audience Manager. Esto incluye integraciones que el Adobe tiene con compañías de gráficos de dispositivos determinísticos o probabilísticos de terceros.
 
@@ -22,7 +22,7 @@ Recommendations y casos de uso para prospección, redireccionamiento y personali
 
 Considere las opciones de gráficos de dispositivos de terceros para campañas que:
 
-* Tener un bajo nivel de autenticación en sus propiedades digitales. Utilice el [!UICONTROL Profile Link Device Graph option] si tiene un gran número de usuarios autenticados.
+* Tener un bajo nivel de autenticación en sus propiedades digitales. Use [!UICONTROL Profile Link Device Graph option] si tiene un gran número de usuarios autenticados.
 * Segmente grandes audiencias. Los gráficos de dispositivos de terceros contienen datos autenticados y no autenticados.
 * Segmentar a los visitantes autenticados o no autenticados a nivel individual y doméstico.
 
@@ -114,21 +114,20 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Segmentación avanzada entre dispositivos {#advanced-graph-expansion}
 
-Este caso de uso muestra cómo se puede ampliar la segmentación de audiencia para visitantes autenticados con dispositivos desde un gráfico de dispositivos externos utilizando **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regla.
+Este caso de uso muestra cómo se puede expandir la segmentación de audiencia para visitantes autenticados con dispositivos desde un gráfico de dispositivos externos mediante la regla **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**.
 
 ![last-device-graph](assets/last-profile-link.png)
 
-En el siguiente ejemplo, la empresa Acme Inc. quiere dirigirse a todos los hogares con ingresos superiores a 100 000 dólares al año que tengan [!DNL Acme Inc.] suscriptores el [!DNL Data Plan A], que utilizan un [!DNL iPhone 7] dispositivo.
+En el siguiente ejemplo, la compañía Acme Inc. desea segmentar todos los hogares con ingresos superiores a 100.000 dólares/año, que tengan [!DNL Acme Inc.] suscriptores en [!DNL Data Plan A], que usen un dispositivo [!DNL iPhone 7].
 
-John utiliza su iPhone 7 en el plan de datos A para autenticarse en el sitio web de Acme Inc. Al mismo tiempo, John&#39;s [!DNL Profile Link Device Graph] cluster contiene dos dispositivos adicionales que utiliza con regularidad: su portátil ([!DNL Device 1]), y su smartphone secundario, [!DNL Device 2] (a) [!DNL Samsung S7] el [!DNL Data Plan B]).
+John utiliza su iPhone 7 en el plan de datos A para autenticarse en el sitio web de Acme Inc. Al mismo tiempo, el clúster [!DNL Profile Link Device Graph] de John contiene dos dispositivos adicionales que usa con regularidad: su portátil ([!DNL Device 1]) y su smartphone secundario, [!DNL Device 2] (un [!DNL Samsung S7] en [!DNL Data Plan B]).
 
-Mediante el uso de **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] puede enviar mensajes personalizados a los tres dispositivos desde el clúster de gráficos de dispositivos de John, aunque solo uno de ellos cumpla los requisitos iniciales para el segmento.
+Al usar **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] puede enviar mensajes personalizados a los tres dispositivos desde el clúster de gráficos de dispositivos de John, aunque solo uno de ellos cumpla los requisitos iniciales para el segmento.
 
-![advanced-graph-expand](assets/advanced-device-graph-expansion.png)
+![expansión de gráficos avanzados](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Casos de uso de Device Graph de enlace de Perfil](profile-link-use-case.md)
 >* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
 >* [Preguntas frecuentes sobre reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
-

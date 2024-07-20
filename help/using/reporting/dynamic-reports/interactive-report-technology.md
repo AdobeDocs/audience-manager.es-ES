@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Los informes interactivos utilizan la tecnología Tableau
 
-[!DNL Audience Manager] utiliza [Tableau](https://www.tableausoftware.com/) para mostrar datos en los informes interactivos. Con [!DNL Tableau], el [!UICONTROL Delivery and Overlap] los informes utilizan indicaciones visuales y símbolos que le ayudan a lo siguiente:
+[!DNL Audience Manager] usa el software [Tableau](https://www.tableausoftware.com/) para mostrar datos en los informes interactivos. Con [!DNL Tableau], los informes de [!UICONTROL Delivery and Overlap] utilizan símbolos y señales visuales que le ayudan a lo siguiente:
 
 * Encuentre características de alto y bajo rendimiento.
 * Características puntuales y segmentos con una superposición de visitantes únicos baja y alta.
@@ -71,8 +71,8 @@ En la tabla siguiente se definen las formas, los tamaños y los colores utilizad
    <td colname="col1"> <b>Colores</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Los tonos rojos indican <i>baja</i> superposición. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Los tonos verdes indican <i>alto</i> superposición. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Los tonos rojos indican que <i>low</i> se superponen. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Los tonos verdes indican que <i>high</i> se superpone. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

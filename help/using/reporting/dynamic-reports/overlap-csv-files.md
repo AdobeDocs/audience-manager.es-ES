@@ -1,5 +1,5 @@
 ---
-description: Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje "Se ha producido un error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
+description: Puede solicitar un archivo .csv para un informe de superposición cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje "Se ha producido un error inesperado". Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
 seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
@@ -9,14 +9,14 @@ feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
 # Archivos CSV para informes superpuestos{#csv-files-for-overlap-reports}
 
-Puede solicitar un archivo .csv para un Informe superpuesto cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje &quot;Se ha producido un error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
+Puede solicitar un archivo .csv para un informe de superposición cuando ese informe alcance su límite de 1 millón de registros. Es posible que un informe haya alcanzado este límite cuando ve un mensaje &quot;Se ha producido un error inesperado&quot;. Póngase en contacto con el Servicio de atención al cliente para solicitar un archivo .csv comprimido, que puede importar y utilizar en su propio sistema de base de datos. Los archivos están disponibles para informes de superposición de segmento a segmento, segmento a característica y característica a característica.
 
 ## Metadatos de nombre de archivo {#file-name-metadata}
 
@@ -31,8 +31,8 @@ En la tabla siguiente se enumeran y describen las convenciones de nomenclatura d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Archivo Extensión </p> </td> 
-   <td colname="col2"> <p>Los archivos de informe de superposición están comprimidos en gzip y tienen un <code> .gz</code> extensión de archivo. Debe agregar la variable <code> .csv</code> extensión al archivo después de la descompresión. </p> </td> 
+   <td colname="col1"> <p>Extensión de archivo </p> </td> 
+   <td colname="col2"> <p>Los archivos de informes de superposición están comprimidos en gzip y tienen la extensión de archivo <code> .gz</code>. Debe agregar la extensión <code> .csv</code> al archivo después de la descompresión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre del archivo </p> </td> 
@@ -84,7 +84,7 @@ En el archivo, los datos de cadena aparecen entre comillas dobles. Consulte los 
 
 ## Registros de informes de segmento a segmento {#segment-segment-records}
 
-Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-segment-overlap-report.md) contiene los siguientes registros.
+Un archivo de datos para su [informe de superposición de segmento a segmento](segment-segment-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,7 +112,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. El <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
+   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 días </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 días </li> 
@@ -143,7 +143,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmentos](segment-se
 
 ## Registros de informes de segmento a característica {#segment-trait-records}
 
-Un archivo de datos para su [Informe de solapamiento entre segmento y característica](segment-trait-overlap-report.md) contiene los siguientes registros.
+Un archivo de datos para su [informe de superposición de segmento a característica](segment-trait-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -175,7 +175,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmento y caracterí
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. El <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
+   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 días </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 días </li> 
@@ -210,7 +210,7 @@ Un archivo de datos para su [Informe de solapamiento entre segmento y caracterí
 
 ## Registros de informes entre características {#trait-trait-records}
 
-Un archivo de datos para su [Informe de solapamiento entre características](trait-trait-overlap-report.md) contiene los siguientes registros.
+Un archivo de datos para su [informe de superposición de características](trait-trait-overlap-report.md) contiene los siguientes registros.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -250,7 +250,7 @@ Un archivo de datos para su [Informe de solapamiento entre características](tra
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. El <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
+   <td colname="col2"> <p>Puede obtener informes para intervalos retrospectivos de 7 y 30 días. <code> rangeid</code> corresponde a los intervalos de tiempo que se muestran a continuación. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 días </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 días </li> 

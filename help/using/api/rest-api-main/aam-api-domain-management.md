@@ -9,8 +9,8 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Métodos de administración de dominios que le permiten crear y administrar los 
 
 ## Crear un nuevo dominio {#create-new-domain}
 
-A `POST` método que permite crear un nuevo dominio para (solo destinos de cookies).
+Un método `POST` que le permite crear un nuevo dominio para (solo destinos de cookies).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -52,7 +52,7 @@ Una respuesta correcta devuelve `201 created` y el sitio del socio, incluido su 
 
 ## Eliminar un dominio {#delete-domain}
 
-A `DELETE` método que permite eliminar un dominio (solo para destinos de cookies).
+Un método `DELETE` que le permite quitar un dominio (solo para destinos de cookies).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -62,11 +62,11 @@ A `DELETE` método que permite eliminar un dominio (solo para destinos de cookie
 
 ### Respuesta
 
-Una respuesta correcta devuelve `204 no content`. Devuelve `404 not found` si no se encuentra el sitio del socio.
+Una respuesta correcta devuelve `204 no content`. Devuelve `404 not found` si no se encuentra el sitio asociado.
 
 ## Devolver propiedades de un dominio {#return-props-domain}
 
-A `GET` método que devuelve detalles sobre el dominio especificado (solo para destinos de cookies).
+Un método `GET` que devuelve detalles sobre el dominio especificado (solo para destinos de cookies).
 
 <!-- r_get_partner_site.xml -->
 
@@ -76,7 +76,7 @@ A `GET` método que devuelve detalles sobre el dominio especificado (solo para d
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y como se muestra en el ejemplo siguiente. Devuelve `404 Not found` si no se encuentra el ID del sitio o el socio.
+Una respuesta correcta devuelve `200 OK` y datos como se muestra en el ejemplo siguiente. Devuelve `404 Not found` si no se encuentra el identificador de sitio o el socio.
 
 ```
 {
@@ -88,7 +88,7 @@ Una respuesta correcta devuelve `200 OK` y como se muestra en el ejemplo siguien
 
 ## Devolver propiedades de todos los dominios {#return-props-all-domains}
 
-A `GET` que devuelve información sobre todos sus dominios (solo para destinos de cookies).
+Un método `GET` que devuelve información sobre todos sus dominios (solo para destinos de cookies).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -98,7 +98,7 @@ A `GET` que devuelve información sobre todos sus dominios (solo para destinos d
 
 ### Parámetros de consulta opcionales
 
-Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelven *todo* propiedades de un objeto. Establezca estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte [Parámetros opcionales](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelven *todas* las propiedades de un objeto. Establezca estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte [Parámetros opcionales](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -133,7 +133,7 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
 
 ### Respuesta
 
-Una respuesta correcta devuelve `200 OK` y en una matriz, como se muestra en el ejemplo siguiente. Devuelve `404 Not found` si no se encuentra el ID del sitio o el socio.
+Una respuesta correcta devuelve `200 OK` y datos en una matriz como se muestra en el ejemplo siguiente. Devuelve `404 Not found` si no se encuentra el identificador de sitio o el socio.
 
 ```
 [

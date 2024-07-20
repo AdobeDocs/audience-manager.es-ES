@@ -10,7 +10,7 @@ exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Devuelve datos sobre cuántos usuarios únicos se comparten entre sus segmentos.
 
 >[!NOTE]
 >
->Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver segmentos de fuentes de datos a los que tenga acceso en función de la variable [Grupo de usuarios RBAC](/help/using/features/administration/administration-overview.md) a la que pertenece.
+>Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver segmentos de orígenes de datos a los que tenga acceso en función del [grupo de usuarios RBAC](/help/using/features/administration/administration-overview.md) al que pertenezca.
 
 <!-- 
 
@@ -30,18 +30,18 @@ c_segment_segment_overlap.xml
 
 ## Información general
 
-El [!UICONTROL Segment-to-Segment Overlap] Este informe puede ayudarle a lo siguiente:
+El informe [!UICONTROL Segment-to-Segment Overlap] puede ayudarle a lo siguiente:
 
 * Identifique los segmentos con una superposición alta o baja, según sus necesidades. Las características con una alta superposición le proporcionan una audiencia segmentada, pero menos visitantes únicos. Las características con poca superposición pueden resultar útiles para llegar a un conjunto de visitantes único y más grande.
 * Encuentre superposiciones inesperadas y utilice esa información para crear segmentos nuevos de alto rendimiento.
 
 ## Informe de muestra
 
-La siguiente ilustración proporciona información general de alto nivel sobre [!UICONTROL Segment-to-Segment Overlap] informe.
+La siguiente ilustración proporciona información general de alto nivel sobre el informe [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->El [!UICONTROL Segment-to-Segment Overlap] El informe devuelve un campo vacío cuando compara el mismo segmento consigo mismo.
+>El informe [!UICONTROL Segment-to-Segment Overlap] devuelve un campo vacío cuando compara el mismo segmento consigo mismo.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -57,7 +57,7 @@ r_s2s_data_pop.xml
 
  -->
 
-La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] El informe contiene las métricas siguientes. Tenga en cuenta que la métrica exclusivos de la tabla representa su *usuarios en tiempo real*.
+La ventana emergente del informe [!UICONTROL Segment-to-Segment Overlap] contiene las métricas siguientes. Tenga en cuenta que la métrica exclusivos de la tabla representa a sus *usuarios en tiempo real*.
 
 | Métrica | Descripción |
 |---|---|
@@ -76,8 +76,7 @@ La ventana emergente del [!UICONTROL Segment-to-Segment Overlap] El informe cont
 >
 >* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, colores y tamaños utilizados en los informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Iconos y herramientas de informes explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Iconos y herramientas de informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionado...](../../reporting/report-sampling.md)
+>* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
-

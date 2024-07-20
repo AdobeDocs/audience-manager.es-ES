@@ -7,8 +7,8 @@ feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ Campos obligatorios, sintaxis y reglas que debe seguir al dar formato a un archi
 
 ## Sintaxis del contenido del archivo {#file-content-syntax}
 
-Los campos del archivo de datos de entrada deben aparecer en el orden indicado a continuación. En este ejemplo, la variable `<` `>` se han agregado símbolos para ayudar a separar visualmente cada elemento. No es necesario que los incluya en el archivo de datos.
+Los campos del archivo de datos de entrada deben aparecer en el orden indicado a continuación. En este ejemplo, se han agregado los símbolos `<` `>` para ayudar a separar visualmente cada elemento. No es necesario que los incluya en el archivo de datos.
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
@@ -30,8 +30,7 @@ Para ver otros formatos de contenido de archivo aceptados, consulte [Integracion
 >
 >Tenemos un límite de 200 líneas que podemos procesar por cada ID de usuario enviado en el archivo de datos de entrada. Por ejemplo, si envía 300 líneas para un ID de usuario, las 200 primeras líneas se conservan y las 100 líneas adicionales se descartan. En el ejemplo siguiente, tiene razón porque envía tres líneas para el ID de usuario 1 y el ID de usuario 2. No aplicamos un límite al número de características o pares de clave-valor que se incluyen en una línea.
 >
->
-```
+>```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -56,8 +55,8 @@ La tabla enumera y define las variables utilizadas en un archivo de datos entran
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Un ID de usuario puede ser: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">ID de usuario único asignado por <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> UUID DE AUDIENCE MANAGER </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Un ID de usuario único asignado en su sistema CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, en Audience Manager </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">Identificador de usuario único asignado por el Audience Manager </span> de <span class="keyword"> ( UUID de Audience Manager <a href="../../../reference/ids-in-aam.md"> </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Un ID de usuario único asignado en su sistema CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, en el Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Un ID de dispositivo móvil Android o iOS en su forma original sin modificar según lo expuesto por el sistema operativo móvil. </li> 
      </ul> </p> <p>Para ID móviles: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -71,14 +70,14 @@ La tabla enumera y define las variables utilizadas en un archivo de datos entran
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>El <span class="keyword"> Audience Manager </span> ID de rasgo. Le pedimos que incluya <i>solo características integradas</i> en archivos de datos de entrada. No procesamos ningún otro tipo de rasgos en la transferencia de datos de entrada. </p> <p> <p>Nota: El ID de rasgo se puede encontrar mediante el método de GET que devuelve detalles sobre todos los rasgos. Para obtener más información, consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de rasgos </a>. </p> </p> </td> 
+   <td colname="col2"> <p>El identificador de rasgo del Audience Manager </span> <span class="keyword">. Le rogamos que incluya <i>solo características integradas</i> en los archivos de datos de entrada. No procesamos ningún otro tipo de rasgos en la transferencia de datos de entrada. </p> <p> <p>Nota: El ID de rasgo se puede encontrar mediante el método de GET que devuelve detalles sobre todos los rasgos. Para obtener más información, consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de rasgos </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Formato [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trait] nombres o ID en un archivo de datos de entrada. Consulte la [archivos de muestra](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) para ver ejemplos.
+En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trait] nombres o identificadores en un archivo de datos de entrada. Vea los [archivos de ejemplo](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) para ver ejemplos.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -90,20 +89,20 @@ En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trai
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>El <code> d_sid </code> indica a su sistema que el ID es un <span class="keyword"> Audience Manager </span> ID de rasgo. Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de rasgos con la API <code> GET </code> método. Consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de rasgos </a>. </p> </td>
+   <td colname="col2"> <p>El prefijo <code> d_sid </code> indica a nuestro sistema que el identificador es un identificador de rasgo </span> de Audience Manager <span class="keyword">. Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de rasgos con el método de API <code> GET </code>. Consulte <a href="../../../api/rest-api-main/api-traits.md"> métodos de API de rasgos </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Datos con el prefijo <code> d_unsid </code> elimina usuarios de ese rasgo. El <code> d_unsid </code> el prefijo se omite en un <code> overwrite </code> archivo. </p> <p>El <code> d_unsid= </code> indica a su sistema que el ID es un <span class="keyword"> Audience Manager </span> ID de rasgo. Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de rasgos con la API <code> GET </code> método. Consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos de API de rasgos </a>. </p> </td>
+   <td colname="col2"> <p>Los datos con el prefijo <code> d_unsid </code> quitan a los usuarios de esa característica. El prefijo <code> d_unsid </code> se omite en un archivo <code> overwrite </code>. </p> <p>El prefijo <code> d_unsid= </code> indica a nuestro sistema que el identificador es un identificador de rasgo </span> de Audience Manager <span class="keyword">. Es el mismo ID que se muestra en la interfaz de usuario. También puede devolver ID de rasgos con el método de API <code> GET </code>. Consulte <a href="../../../api/rest-api-main/api-traits.md"> métodos de API de rasgos </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Reglas de rasgos </a> permite definir criterios para la clasificación de rasgos. Si da formato a una regla de rasgos como <code> ic == trait ID </code>, puede enviar los rasgos en una lista sencilla con formato de coma. </p> <p>Por ejemplo, supongamos que crea estas 3 reglas de rasgos: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Las reglas de rasgos </a> le permiten establecer criterios para la clasificación de rasgos. Si da formato a una regla de rasgos como <code> ic == trait ID </code>, puede enviar rasgos en una lista simple con formato de coma. </p> <p>Por ejemplo, supongamos que crea estas 3 reglas de rasgos: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Estos rasgos están asociados a la variable <code> ic </code> clave. Esto permite crear una lista de rasgos más sencilla en el archivo de datos. Y, no es necesario incluir el <code> ic </code> prefijo. Como resultado, el contenido del archivo de datos podría tener este aspecto: </p> <p>
+     </ul> </p> <p>Estos rasgos están asociados con la clave <code> ic </code>. Esto permite crear una lista de rasgos más sencilla en el archivo de datos. Además, no necesita incluir el prefijo <code> ic </code>. Como resultado, el contenido del archivo de datos podría tener este aspecto: </p> <p>
      <code> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
       <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
@@ -117,7 +116,7 @@ En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trai
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> Estos son todos ejemplos de pares de clave-valor con un formato correcto. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> son todos ejemplos de pares clave-valor correctamente formateados. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -126,7 +125,7 @@ En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trai
 
 ### [!UICONTROL Trait IDs]
 
-[!UICONTROL Trait IDs] constar solo de caracteres numéricos. Le pedimos que incluya *solamente[!UICONTROL onboarded traits]* en archivos de datos de entrada. No procesamos ningún otro [!UICONTROL trait] tipos en la transferencia de datos de entrada.
+[!UICONTROL Trait IDs] solo consta de caracteres numéricos. Le rogamos que incluya *solamente[!UICONTROL onboarded traits]* en los archivos de datos de entrada. No se procesa ningún otro tipo de [!UICONTROL trait] en la transferencia de datos de entrada.
 
 ### [!UICONTROL User IDs]
 
@@ -140,7 +139,7 @@ En la tabla siguiente se describen los prefijos que identifican [!UICONTROL trai
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>No hacer</i> utilice dos puntos codificados ( <code> %3A </code>) o el símbolo de dos puntos sin codificar ( : ) en los DPUUID. </p> </td> 
+   <td colname="col2"> <p><i>No</i> use un símbolo de dos puntos codificado (<code> %3A </code>) o no codificado ( : ) en los DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de dispositivo móvil iOS (IDFA) o Android </p> </td> 
@@ -179,11 +178,11 @@ Los nombres de valores con formato incorrecto en un par clave-valor también cau
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p><i>No hacer</i> use <code> TAB </code> en lugar de valores vacíos en pares clave-valor. Usar solo <code> TAB </code> para separar variables en el archivo de datos de entrada. </p> </td> 
+   <td colname="col2"> <p><i>No</i> use <code> TAB </code> en lugar de valores vacíos en pares clave-valor. Use solamente <code> TAB </code> para separar variables en el archivo de datos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
-   <td colname="col2"> <p>No utilice caracteres de tabulación o de línea nueva ( <code> \n, \t </code>) en claves o en valores. </p> </td> 
+   <td colname="col2"> <p>No utilice los caracteres de nueva línea o tabulación (<code> \n, \t </code>) en claves o valores. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -212,18 +211,18 @@ Los nombres de valores con formato incorrecto en un par clave-valor también cau
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>con <code> ic== </code> </p> </td> 
-   <td colname="col2"> <p>Estos rasgos se han añadido a una regla de rasgos con la variable <code> ic </code> prefijo. Como tal, puede agregarlos al archivo de datos separados por comas como se muestra. Una pestaña separa el UUID y los ID de rasgos. El <code> ic </code> no se requiere el prefijo en el archivo. </p> <p><b>ID numéricos</b> </p> <p> 
+   <td colname="col1"> <p>Con <code> ic== </code> </p> </td> 
+   <td colname="col2"> <p>Estos rasgos se han agregado a una regla de rasgos con el prefijo <code> ic </code>. Como tal, puede agregarlos al archivo de datos separados por comas como se muestra. Una pestaña separa el UUID y los ID de rasgos. El prefijo <code> ic </code> no es necesario en el archivo. </p> <p><b>ID numéricos</b> </p> <p> 
      <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
-     </code> </p> <p><b>ID de cadena</b> </p> <p> 
+     </code> </p> <p><b>Id. de cadena</b> </p> <p> 
      <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Con pares clave-valor </p> </td> 
-   <td colname="col2"> Estos datos de archivo utilizan pares de clave-valor para pasar datos a <span class="keyword"> Audience Manager </span>. <p> 
+   <td colname="col2"> Estos datos de archivo utilizan pares de clave-valor para pasar datos al Audience Manager <span class="keyword"> </span>. <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
@@ -231,11 +230,11 @@ Los nombres de valores con formato incorrecto en un par clave-valor también cau
  </tbody> 
 </table>
 
-[Descargar](assets/ftp_dpm_1234_1445374061.overwrite) Seleccione el archivo de datos de ejemplo si necesita ejemplos adicionales. El archivo de descarga tiene un `.overwrite` extensión de archivo. Puede abrirlo con un editor de texto sencillo.
+[Descargue](assets/ftp_dpm_1234_1445374061.overwrite) el archivo de datos de ejemplo si necesita ejemplos adicionales. El archivo de descarga tiene una extensión de archivo `.overwrite`. Puede abrirlo con un editor de texto sencillo.
 
 ## Matriz de ejemplos {#examples-matrix}
 
-El gráfico siguiente muestra ejemplos de la forma correcta de dar formato a los archivos entrantes, según la variable [tipo de ID](../../../reference/ids-in-aam.md) y el método por el que desea agregar [!UICONTROL traits] a perfiles.
+El gráfico siguiente muestra ejemplos de la forma correcta de dar formato a los archivos de entrada, según el [tipo de identificadores](../../../reference/ids-in-aam.md) y el método por el cual desee agregar [!UICONTROL traits] a los perfiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -256,7 +255,7 @@ El gráfico siguiente muestra ejemplos de la forma correcta de dar formato a los
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-4"> Ejemplo 4 </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID de publicidad de Google para dispositivos Android </p> </td> 
+   <td colname="col1"> <p>Google Advertising ID para dispositivos Android </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-5"> Ejemplo 5 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-6"> Ejemplo 6 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-7"> Ejemplo 7 </a> </p> </td> 
@@ -281,7 +280,7 @@ El gráfico siguiente muestra ejemplos de la forma correcta de dar formato a los
 
 ### Ejemplo 1 {#example-1}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualificación para [!DNL Audience Manager] [!DNL UUIDs].
+Use [!UICONTROL trait IDs] para enviar información de calificación [!UICONTROL trait] para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -289,7 +288,7 @@ Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualif
 
 ### Ejemplo 2 {#example-2}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de descalificación para [!DNL Audience Manager] [!DNL UUIDs].
+Use [!UICONTROL trait IDs] para enviar información de descalificación de [!UICONTROL trait] para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -309,7 +308,7 @@ o
 
 ### Ejemplo 3 {#example-3}
 
-Envíe pares de clave-valor para añadir [!UICONTROL trait] información de cualificación para [!DNL Audience Manager] [!DNL UUIDs].
+Envíe pares de clave-valor para agregar información de calificación [!UICONTROL trait] para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -323,7 +322,7 @@ o
 
 ### Ejemplo 4 {#example-4}
 
-Utilice el `ic` prefijo para enviar [!UICONTROL trait] información de cualificación para [!DNL Audience Manager] [!DNL UUIDs].
+Use el prefijo `ic` para enviar la información de calificación [!UICONTROL trait] para [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -337,7 +336,7 @@ o
 
 ### Ejemplo 5 {#example-5}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualificación para [!DNL Android] dispositivos.
+Use [!UICONTROL trait IDs] para enviar información de calificación de [!UICONTROL trait] para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -345,7 +344,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Ejemplo 6 {#example-6}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de descalificación para [!DNL Android] dispositivos.
+Use [!UICONTROL trait IDs] para enviar información de descalificación de [!UICONTROL trait] para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -365,7 +364,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Ejemplo 7 {#example-7}
 
-Envíe pares de clave-valor para añadir [!UICONTROL trait] información de cualificación para [!DNL Android] dispositivos.
+Envíe pares de clave-valor para agregar información de calificación [!UICONTROL trait] para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -379,7 +378,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Ejemplo 8 {#example-8}
 
-Utilice el `ic` prefijo para enviar [!UICONTROL trait] información de cualificación para [!DNL Android] dispositivos.
+Use el prefijo `ic` para enviar información de calificación [!UICONTROL trait] para dispositivos [!DNL Android].
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -393,7 +392,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Ejemplo 9 {#example-9}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualificación para [!DNL iOS] dispositivos.
+Use [!UICONTROL trait IDs] para enviar información de calificación de [!UICONTROL trait] para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -401,7 +400,7 @@ Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualif
 
 ### Ejemplo 10 {#example-10}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de descalificación para [!DNL iOS] dispositivos.
+Use [!UICONTROL trait IDs] para enviar información de descalificación de [!UICONTROL trait] para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -421,7 +420,7 @@ o
 
 ### Ejemplo 11 {#example-11}
 
-Envíe pares de clave-valor para añadir [!UICONTROL trait] información de cualificación para [!DNL iOS] dispositivos.
+Envíe pares de clave-valor para agregar información de calificación [!UICONTROL trait] para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -435,7 +434,7 @@ o
 
 ### Ejemplo 12 {#example-12}
 
-Utilice el `ic` prefijo para enviar [!UICONTROL trait] información de cualificación para [!DNL iOS] dispositivos.
+Use el prefijo `ic` para enviar información de calificación [!UICONTROL trait] para dispositivos [!DNL iOS].
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -449,7 +448,7 @@ o
 
 ### Ejemplo 13 {#example-13}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de cualificación para [!DNL DPUUIDs].
+Use [!UICONTROL trait IDs] para enviar información de calificación [!UICONTROL trait] para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -457,7 +456,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Ejemplo 14 {#example-14}
 
-Uso [!UICONTROL trait IDs] para enviar [!UICONTROL trait] información de descalificación para [!DNL DPUUIDs].
+Use [!UICONTROL trait IDs] para enviar información de descalificación de [!UICONTROL trait] para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -477,7 +476,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Ejemplo 15 {#example-15}
 
-Envíe pares de clave-valor para añadir [!UICONTROL trait] información de cualificación para [!DNL DPUUIDs].
+Envíe pares de clave-valor para agregar la información de calificación [!UICONTROL trait] para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -491,7 +490,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Ejemplo 16 {#example-16}
 
-Utilice el `ic` prefijo para enviar [!UICONTROL trait] información de cualificación para [!DNL DPUUIDs].
+Use el prefijo `ic` para enviar la información de calificación [!UICONTROL trait] para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
@@ -505,5 +504,4 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Generador de rasgos ](../../../features/traits/about-trait-builder.md)
-
+>* [Generador de rasgos](../../../features/traits/about-trait-builder.md)

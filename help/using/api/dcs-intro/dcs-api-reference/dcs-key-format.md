@@ -10,13 +10,13 @@ exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
 # Formato de pares de clave-valor en llamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Al realizar una llamada, la variable [!DNL DCS] acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre el formato de datos de clave-valor estándar y serializados.
+Al realizar una llamada, [!DNL DCS] acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre el formato de datos de clave-valor estándar y serializados.
 
 ## Pares de clave-valor estándar y serializados {#standard-serialized}
 
@@ -62,7 +62,7 @@ Con pares de clave-valor serializados, debe especificar los marcadores que separ
   </tr> 
   <tr> 
    <td colname="col1"><b>Separadores</b> </td> 
-   <td colname="col2"> Coma , </td> 
+   <td colname="col2"> Coma, </td> 
    <td colname="col3"> <p>Valores dentro de pares clave-valor: </p> <p><code> key1=val1,val2,val3&amp;key2=valA,valB,valC</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -71,6 +71,5 @@ Con pares de clave-valor serializados, debe especificar los marcadores que separ
 >[!MORELIKETHIS]
 >
 >* [Envío de datos al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [Prefijos de clave-valor y variables compatibles con el DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Prefijos clave-valor y variables compatibles con el DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
-

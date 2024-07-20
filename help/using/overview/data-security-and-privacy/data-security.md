@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 92%
 
 ---
 
@@ -61,11 +61,11 @@ Procesos que ayudan a mantener la seguridad de la información personal. Para ob
 
 Procesos que ayudan a proteger los datos propiedad de clientes individuales.
 
-**Partición de datos de rasgos:**  Sus datos ([!UICONTROL traits], ID, etc.) por cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
+**Partición de datos de rasgos:** Sus datos ([!UICONTROL traits], ID., etc.) por cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
 
 **Partición de datos en informes:** Los ID de cliente forman parte de la clave de identificación en todas las tablas de los informes y las consultas de informes se filtran por su ID. Esto ayuda a evitar que los datos aparezcan en los informes de otro cliente de Audience Manager.
 
-## Transferencias de servidor a servidor entrantes (S2S)  {#inbound-s2s}
+## Transferencias de servidor a servidor entrantes (S2S) {#inbound-s2s}
 
 Adobe Audience Manager admite dos métodos principales para transferir archivos de datos integrados S2S a nuestros sistemas:
 
@@ -73,11 +73,11 @@ Ambos métodos están diseñados teniendo en cuenta la seguridad de nuestros dat
 
 **SFTP:** Para la opción SFTP, la mayoría de los clientes decide enviar archivos a través del protocolo FTP seguro (SFTP), que utiliza el protocolo Secure Shell (SSH). Este método garantiza que los archivos se cifren mientras se envían entre los sistemas del cliente y el de Adobe. Para cada cliente, creamos una ubicación de buzón cerrada en nuestros servidores SFTP, que está ligada a una cuenta de usuario en ese sistema. Solo los usuarios privilegiados del sistema interno con credenciales del cliente pueden acceder a esta ubicación cerrada compartida. Ningún otro cliente puede acceder a esta ubicación cerrada.
 
-**[!UICONTROL Amazon Web Services S3]mediante HTTPS:** Para la opción de envío de S3, recomendamos que todos los clientes configuren sus clientes S3 de forma que utilicen el método de codificación HTTPS para transferencias de archivos (este no es el predeterminado, por lo que debe configurarse explícitamente). La opción HTTPS es compatible tanto con la herramienta de línea de comandos s3cmd como con las bibliotecas S3 disponibles en todos los lenguajes de programación principales. Con esta opción HTTPS habilitada, los datos del cliente se cifran mientras se dirigen a nuestros sistemas. Para cada cliente, creamos un subdirectorio de compartimentos S3 independiente al que solo se puede acceder mediante las credenciales de ese cliente y las de nuestros usuarios internos del sistema.
+**[!UICONTROL Amazon Web Services S3]mediante HTTPS:** Para la opción de entrega S3, recomendamos que todos los clientes configuren sus clientes S3 de modo que utilicen el método de codificación HTTPS para transferencias de archivos (este no es el predeterminado, por lo que debe configurarse explícitamente). La opción HTTPS es compatible tanto con la herramienta de línea de comandos s3cmd como con las bibliotecas S3 disponibles en todos los lenguajes de programación principales. Con esta opción HTTPS habilitada, los datos del cliente se cifran mientras se dirigen a nuestros sistemas. Para cada cliente, creamos un subdirectorio de compartimentos S3 independiente al que solo se puede acceder mediante las credenciales de ese cliente y las de nuestros usuarios internos del sistema.
 
 Para agregar un cifrado PGP a sus archivos de datos, consulte [Cifrado de PGP de archivos para tipos de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
-## Protección de datos mediante procesos de escape {#escaping-data}
+## Protección de datos mediante escape {#escaping-data}
 
 Tenga en cuenta que [!DNL Audience Manager] no escapa los datos salientes para protegerlos de posibles scripts entre sitios (XSS), etc. Es responsabilidad del cliente aplicar el escape en los datos entrantes.
 
@@ -91,6 +91,6 @@ Esta directiva mejora la seguridad de los datos entre los clientes y los servido
 
 ### Ejemplo {#hsts-example}
 
-Digamos que el `yourcompany.demdex.com` El dominio envía el tráfico a [!DNL DCS] mediante [!DNL HTTP]. [!DNL HSTS] actualiza las llamadas para usar [!DNL HTTPS] en su lugar, y todas las llamadas [!DNL DCS] posteriores procedentes de `yourcompany.demdex.com` utilizarán [!DNL HTTPS] en lugar de [!DNL HTTP].
+Supongamos que el dominio `yourcompany.demdex.com` envía tráfico a [!DNL DCS] a través de [!DNL HTTP]. [!DNL HSTS] actualiza las llamadas para usar [!DNL HTTPS] en su lugar, y todas las llamadas [!DNL DCS] posteriores procedentes de `yourcompany.demdex.com` utilizarán [!DNL HTTPS] en lugar de [!DNL HTTP].
 
 Consulte [HTTP Strict Transport Security - Wikipedia](https://es.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obtener más información sobre HSTS.

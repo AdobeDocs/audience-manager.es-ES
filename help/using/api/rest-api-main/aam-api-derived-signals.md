@@ -9,23 +9,22 @@ feature: API
 exl-id: 69f26b7b-ce96-4ec6-9155-4abd7c8338b1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 15%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
 # Métodos de API de señales derivadas {#derived-signals-api-methods}
 
-[!DNL API] métodos que permiten trabajar con señales derivadas. Una señal derivada califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto.
+[!DNL API] métodos que le permiten trabajar con señales derivadas. Una señal derivada califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto.
 
 <!-- c_separator.xml -->
 
-Para obtener más información sobre las señales derivadas, consulte [Señales derivadas](../../features/derived-signals.md).
+Para obtener más información acerca de las señales derivadas, vea [Señales derivadas](../../features/derived-signals.md).
 
 >[!IMPORTANT]
 >
->Las señales derivadas [!DNL API] Los métodos de se han reescrito con [!DNL Swagger] y migrado. Consulte:
+>Los métodos de señales derivadas [!DNL API] se han reescrito con [!DNL Swagger] y se han migrado. Consulte:
 >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
-

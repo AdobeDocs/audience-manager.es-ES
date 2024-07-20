@@ -9,8 +9,8 @@ feature: Third-party Integration
 exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 0%
 
 ---
 
@@ -22,22 +22,22 @@ Una visión general de alto nivel de cómo Audience Manager intercambia informac
 
 La elección del método de integración adecuado depende de una combinación de requisitos empresariales y de las capacidades técnicas de su socio de datos. El Audience Manager intercambia información del visitante con otros proveedores de datos mediante cualquiera de los siguientes métodos:
 
-* **Tiempo real:** Transfiere datos inmediatamente cuando un usuario visita el sitio. Este método también se conoce como *`synchronous`* integración.
-* **Lote ([!DNL Server-to-Server]):** Transfiere datos entre servidores según una programación establecida después de que un visitante haya abandonado la página. Este método también se conoce como *`out-of-band`* o *`asynchronous`* integración.
+* **Tiempo real:** transfiere datos inmediatamente a medida que un usuario visita el sitio. Este método también se conoce como integración de *`synchronous`*.
+* **Lote ([!DNL Server-to-Server]):** Transfiere datos entre servidores según una programación establecida después de que un visitante haya abandonado la página. Este método también se conoce como integración de *`out-of-band`* o *`asynchronous`*.
 
 ## Requisitos previos: Crear una taxonomía de rasgos {#prereqs}
 
-Antes de comenzar el proceso de integración, recuerde lo siguiente [crear rasgos](../features/traits/create-onboarded-rule-based-traits.md) y una [estructura de carpetas](../features/traits/trait-storage.md#create-trait-storage-folder) en el [!DNL Audience Manager] IU. La taxonomía contendrá todos los [!UICONTROL traits] organizado en una jerarquía lógica.
+Antes de comenzar el proceso de integración, recuerde [crear características](../features/traits/create-onboarded-rule-based-traits.md) y una [estructura de carpetas](../features/traits/trait-storage.md#create-trait-storage-folder) en la interfaz de usuario de [!DNL Audience Manager]. La taxonomía contendrá todos sus [!UICONTROL traits] organizados en una jerarquía lógica.
 
 ## Casos de uso de integración {#integration-use-cases}
 
 Un caso de uso que resume los métodos de integración de datos de Audience Manager, junto con las ventajas y desventajas de cada uno.
 
-### Tiempo real [!DNL Server-to-Server] Integraciones
+### Integraciones en tiempo real de [!DNL Server-to-Server]
 
 <!-- c_int_types_use_cases.xml -->
 
-A tiempo real [!DNL server-to-server] La integración de datos de sincroniza rápidamente los datos de usuario entre los servidores de Audience Manager y otro sistema de segmentación. En la mayoría de los casos, el intercambio de datos se produce en segundos o minutos, según la velocidad de actualización del sistema de destino. Sin embargo, tenga en cuenta que el sistema de destino determina este intervalo de actualización, no el Audience Manager. Además, la frecuencia de actualización puede variar entre los distintos sistemas. A tiempo real, [!UICONTROL server-to-server] La integración de es el tipo de integración preferido para los intercambios de datos. El Audience Manager utiliza este método siempre que los socios de segmentación pueden admitirlo.
+Una integración de datos de [!DNL server-to-server] en tiempo real sincroniza rápidamente los datos de usuario entre los servidores de Audience Manager y otro sistema de segmentación. En la mayoría de los casos, el intercambio de datos se produce en segundos o minutos, según la velocidad de actualización del sistema de destino. Sin embargo, tenga en cuenta que el sistema de destino determina este intervalo de actualización, no el Audience Manager. Además, la frecuencia de actualización puede variar entre los distintos sistemas. Una integración de [!UICONTROL server-to-server] en tiempo real es el tipo de integración preferido para los intercambios de datos. El Audience Manager utiliza este método siempre que los socios de segmentación pueden admitirlo.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -56,9 +56,9 @@ A tiempo real [!DNL server-to-server] La integración de datos de sincroniza rá
  </tr>
 </table>
 
-### [!DNL Server-to-Server] Integraciones por lotes
+### [!DNL Server-to-Server] integraciones por lotes
 
-A [!DNL server-to-server] la integración por lotes agrupa los datos y los envía a otros sistemas a intervalos establecidos en lugar de hacerlo en tiempo casi real. Los intervalos de transferencia de datos comienzan a partir de 24 horas. Algunos proveedores de datos solo admiten este tipo de integración. Sin embargo, hemos visto una tendencia general que se aleja de las integraciones por lotes hacia metodologías de integración en tiempo real.
+Una integración por lotes de [!DNL server-to-server] agrupa datos y los envía a otros sistemas a intervalos establecidos en lugar de hacerlo en tiempo casi real. Los intervalos de transferencia de datos comienzan a partir de 24 horas. Algunos proveedores de datos solo admiten este tipo de integración. Sin embargo, hemos visto una tendencia general que se aleja de las integraciones por lotes hacia metodologías de integración en tiempo real.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ A [!DNL server-to-server] la integración por lotes agrupa los datos y los enví
 
 ### Llamadas en tiempo real
 
-Las llamadas en tiempo real intercambian datos con Audience Manager inmediatamente, a medida que un usuario visita su sitio o realiza acciones en la página. Con este método, los sistemas de segmentación obtienen los datos de calificación de segmentos más actualizados y pueden tener en cuenta esa información durante una decisión de entrega de contenido o publicidad. Además, este proceso funciona con servidores de publicidad de editores en los que actualizamos segmentos calificados a una cookie de origen que se lee en una llamada de anuncio como pares clave-valor. Actualmente, Audience Manager utiliza llamadas en tiempo real para integrarse con [!DNL Adobe Target] y otros sistemas de gestión de contenido.
+Las llamadas en tiempo real intercambian datos con Audience Manager inmediatamente, a medida que un usuario visita su sitio o realiza acciones en la página. Con este método, los sistemas de segmentación obtienen los datos de calificación de segmentos más actualizados y pueden tener en cuenta esa información durante una decisión de entrega de contenido o publicidad. Además, este proceso funciona con servidores de publicidad de editores en los que actualizamos segmentos calificados a una cookie de origen que se lee en una llamada de anuncio como pares clave-valor. Actualmente, Audience Manager usa llamadas en tiempo real para integrarse con [!DNL Adobe Target] y otros sistemas de administración de contenido.
 
 <table> 
  <tr>
@@ -119,7 +119,7 @@ Describe motivos técnicos y empresariales para enviar datos mediante metodolog�
 ### Selección de un tipo de entrega de datos
 
 * **Consideraciones técnicas:** La entrega de datos depende de las capacidades técnicas del socio de datos. El Audience Manager puede enviar y recibir datos en tiempo real desde el explorador o mediante actualizaciones por lotes a través de procesos de comunicación sin conexión de servidor a servidor.
-* **Consideraciones comerciales:** Los motivos comerciales para seleccionar un método de envío u otro dependen de las capacidades técnicas de su socio de destino y de cómo desee utilizar estos datos. Normalmente, las transferencias de datos sincrónicas son útiles cuando necesita realizar acciones en los datos de usuario inmediatamente. Las transferencias asincrónicas de datos pueden resultar útiles cuando no se requiere una acción inmediata y cuando tiene tiempo para crear perfiles de usuario más profundos para su uso posterior.
+* **Consideraciones comerciales:** Las razones comerciales para seleccionar un método de envío u otro dependen de las capacidades técnicas de su socio de destino y de cómo desee utilizar estos datos. Normalmente, las transferencias de datos sincrónicas son útiles cuando necesita realizar acciones en los datos de usuario inmediatamente. Las transferencias asincrónicas de datos pueden resultar útiles cuando no se requiere una acción inmediata y cuando tiene tiempo para crear perfiles de usuario más profundos para su uso posterior.
 
 ## Proceso de transferencia de datos en tiempo real {#real-time-data-transfer-process}
 
@@ -136,14 +136,14 @@ Las transferencias de datos en tiempo real envían y reciben ID de segmento a me
 El proceso de integración de datos en tiempo real funciona de la siguiente manera:
 
 1. Un usuario visita el sitio de un cliente que contiene código de Audience Manager.
-1. El Audience Manager carga un Iframe y realiza una llamada al [!UICONTROL Data Collection Server] ([!DNL DCS]).
+1. El Audience Manager carga un Iframe y realiza una llamada a [!UICONTROL Data Collection Server] ([!DNL DCS]).
 1. El [!DNL DCS] llama al servidor de terceros (en tiempo real) para comprobar si el proveedor tiene información de segmento sobre el usuario.
 1. El tercero devuelve al Audience Manager la información del segmento sobre ese usuario.
 1. El Audience Manager ingiere información del segmento y la pone a disposición de la segmentación.
 
 ![](assets/rt_reduce70.png)
 
-## Proceso de transferencia de datos por lotes  {#batch-data-transfer-process}
+## Proceso de transferencia de datos por lotes {#batch-data-transfer-process}
 
 Una visión general de cómo Audience Manager intercambia datos sincrónicamente (en tiempo real) con un proveedor de terceros.
 
@@ -151,11 +151,11 @@ Una visión general de cómo Audience Manager intercambia datos sincrónicamente
 
 <!-- c_int_overview_async.xml -->
 
-El lote ([!DNL server-to-server]) el proceso de integración de datos sigue la mayoría de los pasos descritos en el proceso de transferencia de datos en tiempo real. Sin embargo, en lugar de devolver los ID de segmento inmediatamente, la información de los usuarios se guarda en nuestros servidores y se sincroniza con un proveedor de datos de terceros a intervalos regulares. El proceso asincrónico de transferencia de datos es útil cuando:
+El proceso de integración de datos por lotes ([!DNL server-to-server]) sigue la mayoría de los pasos descritos en el proceso de transferencia de datos en tiempo real. Sin embargo, en lugar de devolver los ID de segmento inmediatamente, la información de los usuarios se guarda en nuestros servidores y se sincroniza con un proveedor de datos de terceros a intervalos regulares. El proceso asincrónico de transferencia de datos es útil cuando:
 
 * No se requieren transferencias de datos inmediatas.
 * Recopilación de datos para crear un gran grupo de usuarios segmentados.
-* Desea reducir las discrepancias en los datos y `HTTP` llamadas de desde el explorador.
+* Desea reducir las discrepancias en los datos y las llamadas de `HTTP` desde el explorador.
 
 ### Pasos de integración de datos por lotes
 
@@ -166,4 +166,4 @@ El lote ([!DNL server-to-server]) el proceso de integración de datos sigue la m
 
 ![](assets/s2s_70.png)
 
-Para obtener información que describe los lapsos de tiempo en los que el Audience Manager procesa las entradas y salidas [!DNL Server-to-Server] ([!UICONTROL S2S]) transferencias de archivos, consulte [Informes y directrices de intervalo de tiempo de transferencia de archivos](../reference/reporting-file-transfer-timeframe.md).
+Para obtener información que describe los lapsos de tiempo en los que el Audience Manager procesa las transferencias de archivos entrantes y salientes de [!DNL Server-to-Server] ([!UICONTROL S2S]), consulte [Directrices para el intervalo de tiempo para la creación de informes y la transferencia de archivos](../reference/reporting-file-transfer-timeframe.md).

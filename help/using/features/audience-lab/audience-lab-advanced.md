@@ -9,14 +9,14 @@ feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# [!DNL Audience Lab] Funcionalidad avanzada {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] funcionalidad avanzada {#audience-lab-advanced-functionality}
 
-Este artículo describe dos funciones que proporcionan una funcionalidad avanzada para [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] y [!DNL Segment Holdout].
+Este artículo describe dos características que proporcionan funcionalidad avanzada para [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] y [!DNL Segment Holdout].
 
 ## Duplicar plantilla de asignación {#duplicate-allocation-template}
 
@@ -24,14 +24,14 @@ Este artículo describe dos funciones que proporcionan una funcionalidad avanzad
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-Entrada [!DNL Audience Lab], el [!DNL Allocation Template] representa las distintas selecciones que realiza al crear un grupo de prueba:
+En [!DNL Audience Lab], [!DNL Allocation Template] representa las distintas selecciones que realiza al crear un grupo de prueba:
 
 * la distribución de los dispositivos entre los segmentos de ensayo;
 * la asignación de segmentos de prueba a destinos;
 * Los rasgos de conversión utilizados para un grupo de prueba;
 * Intervalo de fecha en el que el grupo de prueba publica en los destinos seleccionados.
 
-Al duplicar una plantilla de asignación, puede reutilizar la misma distribución de segmentos y destinos de prueba para un segmento base diferente en un nuevo grupo de prueba. A continuación se muestra un ejemplo de plantilla de asignación. La imagen se toma del [!UICONTROL Summary & Finalize] paso en el **Crear grupo de prueba** flujo de trabajo.
+Al duplicar una plantilla de asignación, puede reutilizar la misma distribución de segmentos y destinos de prueba para un segmento base diferente en un nuevo grupo de prueba. A continuación se muestra un ejemplo de plantilla de asignación. La imagen se ha tomado del paso [!UICONTROL Summary & Finalize] del flujo de trabajo **Crear grupo de prueba**.
 
 ![](assets/allocation_template_3.png)
 
@@ -41,13 +41,13 @@ With the option to duplicate allocation templates, you can increase your product
 
 ### Uso de la plantilla de asignación duplicada
 
-Cree un grupo de prueba inicial y seleccione **[!UICONTROL Duplicate Allocation Template]** para reutilizar la misma configuración en varios grupos de prueba. Por ejemplo, puede utilizar esta función si está realizando una prueba en la que desea determinar la eficacia de varios destinos para varios segmentos.
+Cree un grupo de prueba inicial y, a continuación, seleccione **[!UICONTROL Duplicate Allocation Template]** para reutilizar la misma configuración en varios grupos de prueba. Por ejemplo, puede utilizar esta función si está realizando una prueba en la que desea determinar la eficacia de varios destinos para varios segmentos.
 
 1. En la vista principal de Audience Lab, busque el grupo de prueba cuya plantilla de asignación desee reproducir en un nuevo grupo de prueba. En el cuadro desplegable, seleccione **[!UICONTROL Duplicate Allocation Template]**.
 
    ![](assets/duplicate-allocation-template.png)
 
-2. En el [!UICONTROL Create Test Group] asistente, puede especificar un segmento base y cambiar el nombre de los segmentos de prueba, si lo desea.
+2. En el asistente [!UICONTROL Create Test Group], puede especificar un segmento base y cambiar el nombre de los segmentos de prueba, si lo desea.
 3. Usted *no puede* modificar:
 
    * la distribución de los dispositivos entre los segmentos de ensayo;
@@ -55,13 +55,13 @@ Cree un grupo de prueba inicial y seleccione **[!UICONTROL Duplicate Allocation 
    * Asignación de segmentos de prueba a destinos. Solo puede rellenar la clave de asignación para los destinos que requieran uno.
    * Intervalo de fechas en el que el grupo de prueba publicará en los destinos seleccionados.
 
-4. Revise la información añadida en los pasos anteriores y seleccione **[!UICONTROL Finalize Group]**.
+4. Revise la información que agregó en los pasos anteriores y seleccione **[!UICONTROL Finalize Group]**.
 
 ## Holdout del segmento de prueba {#test-segment-holdout}
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout] es una funcionalidad avanzada que se activa cuando el cliente la solicita. Póngase en contacto con [!DNL Customer Care] o [!DNL Adobe Consulting] para activar esta función.
+>[!UICONTROL Test Segment Holdout] es una funcionalidad avanzada activada a petición del cliente. Póngase en contacto con [!DNL Customer Care] o [!DNL Adobe Consulting] para activar esta característica.
 
 Utilice esta función para evitar que parte de la audiencia se incluya en la prueba. El porcentaje que seleccione se excluirá de la prueba. De este modo, puede medir y comparar el número de conversiones de audiencias de destino (activadas en destinos) y sin objetivo (grupo de exclusión).
 
@@ -71,8 +71,8 @@ Utilice esta función para evitar que parte de la audiencia se incluya en la pru
 
 ### Uso del Holdout de segmentos de prueba
 
-1. Cree un nuevo grupo de prueba utilizando [!UICONTROL Create Test Group] asistente.
-1. En el **[!UICONTROL Allocate Test Segment]** , puede seleccionar una parte de la audiencia que no desea que se pruebe.
+1. Cree un nuevo grupo de prueba con el asistente [!UICONTROL Create Test Group].
+1. En el paso **[!UICONTROL Allocate Test Segment]**, puede seleccionar una parte de la audiencia que no se probará.
 
    ![Elemento de lista](assets/test-segment-holdout.png)
 
@@ -80,4 +80,4 @@ Utilice esta función para evitar que parte de la audiencia se incluya en la pru
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Siga los demás pasos de la sección **[!UICONTROL Create Test Group]** flujo de trabajo y seleccione **[!UICONTROL Finalize Group]** cuando esté satisfecho con su selección. Ahora tiene un grupo de prueba con parte de la audiencia bloqueada en la prueba.
+1. Siga los demás pasos del flujo de trabajo **[!UICONTROL Create Test Group]** y seleccione **[!UICONTROL Finalize Group]** cuando esté satisfecho con la selección. Ahora tiene un grupo de prueba con parte de la audiencia bloqueada en la prueba.

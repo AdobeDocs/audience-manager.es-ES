@@ -10,13 +10,13 @@ exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 7%
+ht-degree: 2%
 
 ---
 
 # Devolver un destino por ID de destino {#return-a-destination-by-destination-id}
 
-A `GET` método que devuelve el destino del especificado `destinationId`.
+Un método `GET` que devuelve el destino del `destinationId` especificado.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ A `GET` método que devuelve el destino del especificado `destinationId`.
 
 >[!NOTE]
 >
->Para rellenar el `mappings` pase de campo `includeMappings=true` en la dirección URL.
+>Para rellenar el campo `mappings`, pase `includeMappings=true` en la dirección URL.
 
 ## Respuesta
 
@@ -58,7 +58,7 @@ A `GET` método que devuelve el destino del especificado `destinationId`.
 
 ## Devolver todos los destinos {#return-all-destinations}
 
-A `GET` método que devuelve todos los destinos del socio especificado.
+Un método `GET` que devuelve todos los destinos del socio especificado.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -68,14 +68,13 @@ A `GET` método que devuelve todos los destinos del socio especificado.
 
 >[!NOTE]
 >
->* *(Opcional)* Pasar `containsSegment=<sid>` para devolver una matriz de todos los destinos asignados al segmento especificado. Por ejemplo, la consulta podría tener un aspecto similar al siguiente: `GET .../destinations/?containsSegment=4321`.
+>* *(Opcional)* Pase `containsSegment=<sid>` para devolver una matriz de todos los destinos asignados al segmento especificado. Por ejemplo, su consulta podría tener un aspecto similar al siguiente: `GET .../destinations/?containsSegment=4321`.
 >
 >* No devuelve el objeto de destino completo. Obtenga el destino por orden de datos si necesita un objeto completamente rellenado.
 
-
 ### Parámetros de consulta opcionales
 
-Puede utilizar estos parámetros opcionales con métodos API que devuelven *todo* propiedades de un objeto. Establezca estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte [Parámetros opcionales](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Puede utilizar estos parámetros opcionales con métodos API que devuelven *todas* las propiedades de un objeto. Establezca estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte [Parámetros opcionales](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -95,7 +94,7 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *todo
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Ordena y devuelve los resultados según el especificado <span class="keyword"> JSON</span> propiedad. </td>
+   <td colname="col2">Ordena y devuelve los resultados según la propiedad <span class="keyword"> JSON</span> especificada. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,7 +141,7 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *todo
 
 ## Devolver una asignación de destino con el ID de asignación {#return-dest-mapping-id}
 
-A `GET` método que devuelve una asignación de destino individual basada en la variable `mappingId`.
+Un método `GET` que devuelve una asignación de destino individual basada en `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,7 +178,7 @@ A `GET` método que devuelve una asignación de destino individual basada en la 
 
 ## Devolver asignaciones de destino {#return-dest-mappings}
 
-A `GET` método que devuelve las asignaciones de un destino.
+Un método `GET` que devuelve las asignaciones para un destino.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -253,7 +252,7 @@ A `GET` método que devuelve las asignaciones de un destino.
 
 ## Devolver todas las plataformas de destino disponibles {#return-dest-platforms}
 
-A `GET` que devuelve todas las plataformas de dispositivo disponibles para los destinos.
+Un método `GET` que devuelve todas las plataformas de dispositivo disponibles para los destinos.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Devolver historial de trabajos de destino de S2S y Bulk S2S {#return-job-history}
 
-A `GET` método que devuelve saliente [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) y en bloque [!UICONTROL S2S] información del historial de trabajos de destino.
+Un método `GET` que devuelve información de historial de trabajo de destino saliente [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) y masiva [!UICONTROL S2S].
 
 <!-- r_get_job_history.xml -->
 
@@ -279,7 +278,7 @@ A `GET` método que devuelve saliente [!UICONTROL Server-to-Server] ( [!UICONTRO
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parámetros de consulta necesarios: `startDate` = *&lt;`epochtime`>* y `endDate` = *&lt;`epochtime`>*.
+Parámetros de consulta requeridos: `startDate` = *&lt;`epochtime`>* y `endDate` = *&lt;`epochtime`>*.
 
 ### Respuesta
 

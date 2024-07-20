@@ -3,24 +3,24 @@ description: El informe Rendimiento del segmento compara los segmentos asignados
 seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 seo-title: Segment Performance Report
 solution: Audience Manager
-title: Informe de Rendimiento del segmento
+title: Informe de rendimiento del segmento
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
-# Informe de Rendimiento del segmento{#segment-performance-report}
+# Informe de rendimiento del segmento{#segment-performance-report}
 
-El [!UICONTROL Segment Performance] El informe compara segmentos asignados y no asignados según las impresiones y las tasas de conversión. Un segmento asignado es un segmento que crea y envía a un destino para su segmentación. Un segmento sin asignar es un segmento que ha creado, pero que no ha enviado a un destino para la segmentación. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que es posible que desee enviar a un destino para su segmentación.
+El informe [!UICONTROL Segment Performance] compara segmentos asignados y no asignados según las impresiones y las tasas de conversión. Un segmento asignado es un segmento que crea y envía a un destino para su segmentación. Un segmento sin asignar es un segmento que ha creado, pero que no ha enviado a un destino para la segmentación. La comparación de estos diferentes tipos de segmentos dentro de los informes y entre ellos le ayuda a optimizar las campañas existentes y a encontrar segmentos que se han pasado por alto y que es posible que desee enviar a un destino para su segmentación.
 
 ## Cómo leer los resultados del segmento asignado {#read-mapped-segment-results}
 
-El asignado [!UICONTROL Segment Performance] Este informe muestra todos los segmentos que ha creado y enviado a un destino para la segmentación. La posición de los segmentos asignados en un informe puede indicarle mucho sobre qué segmentos tienen un buen rendimiento y dónde puede necesitar realizar algunos ajustes.
+El informe asignado [!UICONTROL Segment Performance] muestra todos los segmentos que ha creado y enviado a un destino para su segmentación. La posición de los segmentos asignados en un informe puede indicarle mucho sobre qué segmentos tienen un buen rendimiento y dónde puede que necesite realizar algunos ajustes.
 
 Para leer el informe, ayuda a dividir los resultados en 4 secciones con líneas imaginarias (en rojo) y las categorías que se muestran en el informe de muestra a continuación.
 
@@ -37,15 +37,15 @@ Las etiquetas del ejemplo y la siguiente tabla pueden ayudarle a comprender el r
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Superior izquierda</b> </p> </td> 
+   <td colname="col1"> <p> <b>Superior Izquierda</b> </p> </td> 
    <td colname="col2"> <p>Buenas tasas de conversión. </p> <p>Es posible que pueda obtener más conversiones aumentando las impresiones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inferior izquierda</b> </p> </td> 
-   <td colname="col2"> <p>Tasas de conversión bajas. </p> <p>Es posible que desee evitar segmentar estos segmentos. Los segmentos de esta sección son buenos candidatos para compararlos con los de los resultados de segmentos no asignados. Algunos de los segmentos sin asignar pueden tener un mejor rendimiento que los segmentos a los que ya está dirigiendo. </p> </td> 
+   <td colname="col2"> <p>Tasas de conversión bajas. </p> <p>Es posible que desee evitar segmentar estos segmentos. Los segmentos de esta sección son buenos candidatos para compararlos con los de los resultados de segmentos sin asignar. Algunos de los segmentos sin asignar pueden tener un mejor rendimiento que los segmentos a los que ya está dirigiendo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Superior derecha</b> </p> </td> 
+   <td colname="col1"> <p> <b>Superior Derecha</b> </p> </td> 
    <td colname="col2"> <p>Fuerte rendimiento. Deje estos segmentos en paz. </p> </td> 
   </tr> 
   <tr> 
@@ -57,9 +57,9 @@ Las etiquetas del ejemplo y la siguiente tabla pueden ayudarle a comprender el r
 
 ## Cómo leer los resultados de segmentos no asignados {#read-unmapped-segment-results}
 
-Consulta de segmentos no asignados en una [!UICONTROL Segment Performance] El informe de es una buena forma de encontrar nuevos segmentos que no ha tenido en cuenta para la segmentación. De hecho, algunos de estos segmentos pueden superar el rendimiento de los segmentos asignados. Esto se debe a que un segmento no asignado debe cumplir un conjunto de criterios de cualificación para ser incluido en este informe. Para que se incluya en este informe, un segmento no asignado debe:
+Ver los segmentos sin asignar en un informe [!UICONTROL Segment Performance] es una buena manera de encontrar nuevos segmentos que no ha considerado para la segmentación. De hecho, algunos de estos segmentos pueden superar el rendimiento de los segmentos asignados. Esto se debe a que un segmento no asignado debe cumplir un conjunto de criterios de cualificación para ser incluido en este informe. Para que se incluya en este informe, un segmento no asignado debe:
 
-* Tener conversiones buenas a la media de todos los segmentos asignados.
+* Tener conversiones superiores a la media de todos los segmentos asignados.
 * Estar entre los 100 segmentos sin asignar principales por tasa de conversión.
 
 Para leer este informe, ayuda a dividir los resultados en 4 secciones con líneas imaginarias (en rojo) y categorías que se muestran en el informe de muestra a continuación.
@@ -70,4 +70,4 @@ En este informe, solo desea centrarse en los segmentos no asignados de la secci�
 
 >[!NOTE]
 >
->Los períodos retrospectivos de 7 días y 30 días solo están disponibles para el domingo **[!UICONTROL Date Through]** fechas.
+>Los periodos retrospectivos de 7 días y 30 días solo están disponibles para las fechas del domingo **[!UICONTROL Date Through]**.

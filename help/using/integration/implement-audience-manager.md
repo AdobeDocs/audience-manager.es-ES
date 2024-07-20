@@ -3,20 +3,20 @@ description: En esta sección se describen y explican los procesos relacionados 
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Ejecución de Audience Manager
+title: Audience Manager de implementación
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
-# Ejecución de Audience Manager {#implementing-audience-manager}
+# Audience Manager de implementación {#implementing-audience-manager}
 
-En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de gestión de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
+En esta sección se describen y explican los procesos relacionados con la plataforma de administración de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
 
 Nuestras técnicas de implementación ayudan a crear asociaciones consultivas con nuevos clientes. Este proceso está diseñado para:
 
@@ -136,7 +136,7 @@ En la tabla siguiente se describen las actividades clave que tienen lugar durant
 Los entregables para esta fase pueden incluir:
 
 * Una estrategia de recopilación de datos de origen, de segundo nivel y de terceros completada;
-* A completado [!DNL CRM] o plan de ingesta de data warehouse;
+* Un [!DNL CRM] o plan de ingesta de Data Warehouse completado;
 * Requisitos definidos de segmentación de audiencia;
 * una taxonomía de datos completada;
 * Un plan de integración de datos de terceros desarrollado.
@@ -147,7 +147,7 @@ Durante la fase de compilación, prueba y formación, revisará la estrategia de
 
 <!-- c_build_test_train.xml -->
 
-Su estrategia de recopilación de datos se someterá a un proceso integral [!DNL QA] pruebas. Partner Solutions realizará un seguimiento de los errores detectados y coordinará la resolución de problemas con nuestros ingenieros de sistemas. La formación de clientes puede comenzar en paralelo con estos otros esfuerzos.
+Su estrategia de recopilación de datos se someterá a pruebas de extremo a extremo [!DNL QA]. Partner Solutions realizará un seguimiento de los errores detectados y coordinará la resolución de problemas con nuestros ingenieros de sistemas. La formación de clientes puede comenzar en paralelo con estos otros esfuerzos.
 
 En la tabla siguiente se describen las actividades clave que tienen lugar durante esta fase:
 
@@ -161,13 +161,13 @@ En la tabla siguiente se describen las actividades clave que tienen lugar durant
 Los entregables para esta fase pueden incluir:
 
 * Un plan de recopilación de datos completado y aceptado;
-* De extremo a extremo [!DNL QA] pruebas;
+* Pruebas de extremo a extremo [!DNL QA];
 * Instrucciones básicas sobre las funciones de la interfaz de usuario del Audience Manager;
 * Aceptación y aprobación.
 
 ## Fase de inicio, asistencia y optimización {#launch-support-optimize-phase}
 
-Durante la fase de inicio, compatibilidad y optimización, la recopilación de datos y la implementación con prototipos pasan del desarrollo a un entorno de producción activo. Continuaremos con la formación sobre la familiarización con el producto y las estrategias que pueden ayudarle a aumentar sus [!DNL ROI] mediante la optimización basada en datos.
+Durante la fase de inicio, compatibilidad y optimización, la recopilación de datos y la implementación con prototipos pasan del desarrollo a un entorno de producción activo. Seguiremos recibiendo formación sobre estrategias y conocimiento del producto que pueden ayudarle a aumentar su [!DNL ROI] mediante la optimización basada en datos.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -220,9 +220,9 @@ Las tareas de esta fase pueden incluir:
 
 ## Implementación del código {#code-implementation}
 
-El Audience Manager utiliza la Data Integration Library ([!DNL DIL]), para recibir datos de audiencia.
+El Audience Manager utiliza la Data Integration Library ([!DNL DIL]) para recibir datos de audiencia.
 
-Para obtener instrucciones detalladas sobre el uso de [!DNL DIL], consulte [Obtención e implementación del código de DIL](../dil/dil-overview.md).
+Para obtener instrucciones detalladas sobre cómo usar [!DNL DIL], consulte [Obtención e implementación del código de DIL](../dil/dil-overview.md).
 
 ### Participantes
 
@@ -234,4 +234,4 @@ Nuestros esfuerzos de colaboración no se detienen con el despliegue final. Una 
 
 Los administradores de cuentas proporcionan un soporte continuo y servicios de consulta una vez completado el proceso de implementación del producto. Puede tener reuniones regulares con su administrador de cuentas. Estas reuniones garantizan que obtenga la máxima cantidad de uso y valor de Audience Manager.
 
-Contáctenos. [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y para empezar a usar Audience Manager.
+Póngase en contacto con nosotros [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y comenzar con Audience Manager.

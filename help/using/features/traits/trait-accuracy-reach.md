@@ -9,8 +9,8 @@ feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Describe la relación entre precisión y alcance en rasgos algorítmicos.
 
 ## Precisión frente a alcance: Acerca de
 
-Es importante comprender la relación entre precisión y alcance al trabajar con rasgos algorítmicos. La precisión se representa mediante un valor puntuado que refleja la similitud de los usuarios con la línea de base. La escala de precisión varía de 0 (menos precisa) a 1 (más precisa). Alcance es simplemente un valor que representa el número de usuarios únicos que desea incluir en un rasgo. El alcance y la precisión están inversamente relacionados. Las características precisas llegan a menos usuarios y las características con bueno alcance son menos precisas. La siguiente imagen ilustra este concepto.
+Es importante comprender la relación entre precisión y alcance al trabajar con rasgos algorítmicos. La precisión se representa mediante un valor puntuado que refleja la similitud de los usuarios con la línea de base. La escala de precisión varía de 0 (menos precisa) a 1 (más precisa). Alcance es simplemente un valor que representa el número de usuarios únicos que desea incluir en un rasgo. El alcance y la precisión están inversamente relacionados. Las características precisas llegan a menos usuarios y las características con un mayor alcance son menos precisas. La siguiente imagen ilustra este concepto.
 
 ![](assets/Reach_v_Accuracy.png)
 

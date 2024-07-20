@@ -9,8 +9,8 @@ feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 77%
+source-wordcount: '155'
+ht-degree: 84%
 
 ---
 
@@ -28,20 +28,20 @@ Adobe es compatible con la última versión de estos navegadores:
 
 * **Google Chrome**
 
-   Obtenga la última versión de Chrome de [https://www.google.com/chrome](https://www.google.com/chrome).
+  Descargue la versión más reciente de Chrome en [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
-   (Adobe dejó de ofrecer asistencia para Internet Explorer 11 en Audience Manager el 10 de julio de 2019. Instale la última versión de Microsoft Edge u otro navegador compatible lo antes posible)
+  (Adobe dejó de ofrecer asistencia para Internet Explorer 11 en Audience Manager el 10 de julio de 2019. Instale la última versión de Microsoft Edge u otro navegador compatible lo antes posible)
 
-   Descargue la versión más reciente de Edge en [https://www.microsoft.com/es-es/edge](https://www.microsoft.com/es-es/edge).
+  Descargue la versión más reciente de Edge en [https://www.microsoft.com/es-es/edge](https://www.microsoft.com/es-es/edge).
 
 * **Mozilla Firefox**
 
-   Descargue la versión más reciente de Firefox en [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
+  Descargue la versión más reciente de Firefox en [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-   Obtenga la última versión de Safari de [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
+  Descargue la versión más reciente de Safari en [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
 
 Otros exploradores pueden funcionar, pero no son compatibles con nuestros equipos técnicos y productos. Si tiene problemas a la hora de trabajar con [!DNL Audience Manager], compruebe que utiliza un navegador actualizado y compatible.

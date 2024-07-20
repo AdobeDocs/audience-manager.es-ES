@@ -17,7 +17,7 @@ ht-degree: 24%
 
 + [Guía de Audience Manager](aam-home.md)
 + [Guía de evolución de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ Migración al SDK web{#migrate-to-web-sdk}
++ Migrar al SDK web {#migrate-to-web-sdk}
    + [Migración de la extensión de etiqueta de Adobe Audience Manager a la extensión de etiqueta del SDK web](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migración de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript del SDK web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Información general {#overview}
@@ -93,8 +93,8 @@ ht-degree: 24%
    + [Controles de exportación de datos](features/data-export-controls.md)
    + Fuentes de datos {#data-sources}
       + [Lista y configuración de fuentes de datos](features/datasources-list-and-settings.md)
-      + [Crear una fuente de datos](features/manage-datasources.md)
-      + [Configuración de una fuente de datos para flujos de trabajo de correo electrónico con hash](features/create-data-source-hashed-emails.md)
+      + [Crear un Source de datos](features/manage-datasources.md)
+      + [Configuración de Data Source para flujos de trabajo de correo electrónico con hash](features/create-data-source-hashed-emails.md)
       + [Fuentes de datos globales](features/global-data-sources.md)
    + [ID declarados](features/declared-ids.md)
    + [Señales derivadas](features/derived-signals.md)
@@ -108,9 +108,9 @@ ht-degree: 24%
          + [Requisitos previos y consideraciones](features/destinations/people-based-destinations-prerequisites.md)
          + Guía de implementación {#implementation-guide}
             + [Resumen de implementación](features/destinations/people-based-destinations-workflow.md)
-            + [Flujo de trabajo A: personalización basada en toda la actividad en línea combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-combined.md)
-            + [Flujo de trabajo B: personalización basada en datos solo sin conexión](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Flujo de trabajo C: personalización basada en actividad autenticada combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Flujo de trabajo A: Personalization basado en toda la actividad en línea combinada con los datos sin conexión](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Flujo de trabajo B: Personalization basado en datos solo sin conexión](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Flujo de trabajo C: Personalization basado en actividad autenticada combinada con datos sin conexión](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Autenticación con plataformas basadas en personas](features/destinations/people-based-destinations-authentication.md)
          + [Audiencias compartibles](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinos basados en dispositivos (servidor a servidor) {#device-based}
@@ -118,7 +118,7 @@ ht-degree: 24%
          + [Lista de destinos de Audience Manager basados en dispositivos](/help/using/features/destinations/device-based-destinations-list.md)
          + [Añadir o editar segmentos para destinos de servidor a servidor](features/destinations/add-edit-segments.md)
          + [Configuración de Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio](features/destinations/twitter-tailored-audiences.md)
-         + [Configuración de Amazon Advertising como destino de autoservicio basado en dispositivos](features/destinations/amazon-advertising.md)
+         + [Configuración de Amazon Advertising como destino basado en dispositivos de autoservicio](features/destinations/amazon-advertising.md)
       + Destinos personalizados {#custom-destinations}
          + [Configuración de un destino de URL](features/destinations/create-url-destination.md)
          + [Configurar un destino de cookie](features/destinations/create-cookie-destination.md)
@@ -156,7 +156,7 @@ ht-degree: 24%
       + [Resumen de características](/help/using/features/traits/traits-overview.md)
       + [Página Detalles de rasgos](features/traits/trait-details-page.md)
       + [Panel de rasgos](features/traits/trait-dashboard.md)
-      + [Rasgos de la audiencia activa y rasgos sincronizados de la fuente de datos](features/traits/client-activity-synced-audience-traits.md)
+      + [Características de audiencia activa y características sincronizadas de datos de Source](features/traits/client-activity-synced-audience-traits.md)
       + [Acerca de los rasgos de carpeta](features/traits/about-folder-traits.md)
       + [Administrar rasgos de carpeta](features/traits/manage-folder-traits.md)
       + Generador de rasgos {#trait-builder}
@@ -291,7 +291,7 @@ ht-degree: 24%
 + Guías de ejecución e integración {#implementation-integration-guides}
    + [Guías de implementación e integración](integration/implementation-and-integration.md)
    + [Métodos de integración de datos](integration/data-integration-methods.md)
-   + Integración de Google Ad Manager con Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+   + Integrar Google Ad Manager mediante Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
       + [Información general sobre la integración de Google Ad Manager con GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envío de segmentos a Google Ad Manager mediante GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Crear un destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -335,7 +335,7 @@ ht-degree: 24%
          + [Resumen de envío de datos por lotes al Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Sincronización de ID para transferencias de datos entrantes](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Requisitos de nombre y contenido para archivos de sincronización de ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Contenido del archivo de datos de entrada: sintaxis, caracteres no válidos, variables y ejemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Contenido del archivo de datos de entrada: sintaxis, caracteres no válidos, variables y   Ejemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de datos de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Requisitos de tamaño de archivo y nombre de FTP para archivos de datos de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Cifrado PGP de archivo para tipos de datos de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
@@ -348,14 +348,14 @@ ht-degree: 24%
    + Integración con otras aplicaciones de Experience Cloud {#integration-other-solutions}
       + [Integración de Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Reenviar datos de Adobe Analytics a Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar un segmento de Adobe Analytics en el Experience Cloud (abre la documentación de Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrar Audience Manager con Adobe Campaign (abre la documentación de Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Segmento de Publish y Adobe Analytics al Experience Cloud (abre la documentación de Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrar el Audience Manager con Adobe Campaign (abre la documentación de Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referencia {#reference}
    + [Información general de referencia](reference/reference.md)
    + [Amazon S3: Acerca de](reference/amazon-s3.md)
    + [Casos de uso del anunciante](reference/advertiser-use-cases.md)
    + [Casos de uso del editor](reference/publisher-use-cases.md)
-   + [Entorno beta](reference/beta-environment.md)
+   + [Entorno de Beta](reference/beta-environment.md)
    + [Expresiones booleanas en el Generador de rasgos y segmentos](reference/boolean-expressions-tsb.md)
    + Herramientas de administración masiva {#bulk-management-tools}
       + [Introducción A La Administración En Lotes](reference/bulk-management-tools/bulk-management-intro.md)

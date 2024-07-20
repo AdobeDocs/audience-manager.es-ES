@@ -2,17 +2,17 @@
 description: Es posible que su empresa desee complicar la dirección IP en muchos países debido a las normativas de privacidad globales. Audience Manager le permite complicar las direcciones IP de los visitantes en forma global o por país.
 seo-description: Your company may desire to obfuscate IP address in many countries due to global privacy regulations. Audience Manager allows you to obfuscate visitor IP addresses on a global or country-by-country basis.
 solution: Audience Manager
-title: Complicación de la dirección IP
+title: Ofuscación de direcciones IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 14%
+source-wordcount: '509'
+ht-degree: 12%
 
 ---
 
-# Complicación de la dirección IP {#ip-obfuscation}
+# Ofuscación de direcciones IP {#ip-obfuscation}
 
 Utilice esta función para ocultar las direcciones IP recopiladas en Audience Manager.
 
@@ -24,18 +24,18 @@ Es posible que su empresa desee complicar la dirección IP en muchos países deb
 
 Siguiendo los principios de &quot;Privacidad por diseño&quot;, Adobe Audience Manager permite a los clientes activar la ocultación de IP desde la interfaz de usuario, ya sea globalmente en todas las regiones geográficas o para países específicos. Al habilitar esta configuración, el último octeto (la última parte) de la dirección IP se descarta inmediatamente cuando la dirección IP se incorpora en Audience Manager. El Audience Manager descarta esta parte de la dirección IP antes del procesamiento (incluso antes de cualquier búsqueda geográfica opcional o registro de la dirección IP). Por ejemplo:
 
-* Antes de la confusión: `255.255.255.255`
+* Antes de la ofuscación: `255.255.255.255`
 * Después de la ofuscación: `255.255.255.0`
 
-Consulte también Recopilación de direcciones IP y Ofuscación de direcciones IP en nuestro [Sección Privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Consulte también Recopilación de direcciones IP y Ofuscación de direcciones IP en nuestra [sección Privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ### Prioridad de confusión de IP {#precedence}
 
-[Ofuscación de IP de nivel de flujo de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tiene prioridad sobre cualquier opción de confusión de IP establecida en Audience Manager y se aplica a todas las direcciones IP. Cualquier búsqueda de geolocalización realizada por Audience Manager se ve afectada por el nivel de conjunto de datos [!UICONTROL IP obfuscation] opción. Una búsqueda de geolocalización en Audience Manager, basada en una IP completamente oculta, dará como resultado una región desconocida y no se realizará ningún segmento basado en los datos de geolocalización resultantes.
+[La confusión de IP en el nivel de secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tiene prioridad sobre cualquier opción de confusión de IP establecida en el Audience Manager y se aplica a todas las direcciones IP. Cualquier búsqueda de geolocalización realizada por el Audience Manager se ve afectada por la opción [!UICONTROL IP obfuscation] del nivel de secuencia de datos. Una búsqueda de geolocalización en Audience Manager, basada en una IP completamente oculta, dará como resultado una región desconocida y no se realizará ningún segmento basado en los datos de geolocalización resultantes.
 
 ## Requisitos de ofuscación de direcciones IP {#ip-obfuscation-requirements}
 
-La ofuscación de direcciones IP solo está disponible para cuentas de administrador de Audience Manager. Consulte [Crear usuarios](/help/using/features/administration/administration-overview.md#create-users) para obtener información sobre cómo asignar privilegios de administrador a un usuario.
+La ofuscación de direcciones IP solo está disponible para cuentas de administrador de Audience Manager. Consulte [Crear usuarios](/help/using/features/administration/administration-overview.md#create-users) para saber cómo asignar privilegios de administrador a un usuario.
 
 >[!NOTE]
 >
@@ -45,18 +45,18 @@ La ofuscación de direcciones IP solo está disponible para cuentas de administr
 
 Siga los pasos a continuación para configurar la ofuscación de direcciones IP.
 
-1. Inicie sesión en Audience Manager con una cuenta de administrador de y vaya a **Administración > Privacidad**.
+1. Inicie sesión en el Audience Manager con una cuenta de administrador y vaya a **Administración > Privacidad**.
 2. Elija el tipo de confusión de IP que desea utilizar.
-   1. **Proteja todas las direcciones IP:** seleccione esta opción para que Audience Manager ofusque el último octeto de todas las direcciones IP de visitantes, independientemente de la región desde la que se originen.
-   2. **Oscurezca las direcciones IP de países específicos:** seleccione esta opción para que el Audience Manager ofusque el último octeto de direcciones IP de visitantes para países específicos. Utilice el **Lista de países** o el correspondiente **Buscar** para buscar los países en los que se habilita la ocultación de la IP y haga clic en el icono + para agregarlos al **Seleccionado para confusión** lista. Una vez que haya agregado todos los países requeridos a **Seleccionado para confusión** , haga clic en **Guardar**.
+   1. **Oscurecer todas las direcciones IP:** seleccione esta opción para que el Audience Manager ofusque el último octeto de todas las direcciones IP de visitantes, independientemente de la región de la que procedan.
+   2. **Oscurecer direcciones IP de países específicos:** seleccione esta opción para que el Audience Manager ofusque el último octeto de direcciones IP de visitantes de países específicos. Use la **Lista de países** o el campo **Buscar** correspondiente para encontrar los países para habilitar la confusión de IP y haga clic en el icono + para agregarlos a la lista **Seleccionados para la confusión**. Una vez que hayas agregado todos los países requeridos a la lista **Seleccionado para ofuscación**, haz clic en **Guardar**.
 
 ![](assets/ip-obfuscation.png)
 
 ## Deshabilitar confusión de direcciones IP {#disable-ip-obfuscation}
 
-Para deshabilitar la ofuscación de direcciones IP globalmente, vaya a **Administración > Privacidad**, seleccione **No proteger las direcciones IP** y haga clic en **Guardar**.
+Para deshabilitar la ofuscación de direcciones IP de forma global, ve a **Administración > Privacidad**, selecciona **No ofuscar direcciones IP** y haz clic en **Guardar**.
 
-Para deshabilitar la ofuscación de direcciones IP para países específicos, busque los países en la **Seleccionado para confusión** y, a continuación, haga clic en su correspondiente **X** icono. Clic **Guardar** cuando hayas terminado.
+Para deshabilitar la ofuscación de direcciones IP en países específicos, busque los países en la lista **Seleccionado para ofuscación** y luego haga clic en el icono **X** correspondiente. Haz clic en **Guardar** cuando hayas terminado.
 
 ## Conceptos relacionados {#related-concepts}
 

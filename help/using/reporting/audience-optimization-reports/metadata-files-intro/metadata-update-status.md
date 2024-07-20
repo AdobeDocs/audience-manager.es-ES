@@ -8,7 +8,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Actualizaciones de estado para archivos de metadatos{#status-updates-for-metadata-files}
 
-El directorio de estado S3 contiene un `.info` archivo con información de éxito y error acerca de los archivos cargados. El archivo contiene datos con formato JSON con los resultados de estado en una matriz.
+El directorio de estado S3 contiene un archivo `.info` con información de éxito y error acerca de los archivos cargados. El archivo contiene datos con formato JSON con los resultados de estado en una matriz.
 
-El contenido de su `.info` será similar al de este ejemplo.
+El contenido del archivo `.info` será similar al de este ejemplo.
 
 ```js
 //sample file path
@@ -61,7 +61,7 @@ El contenido de su `.info` será similar al de este ejemplo.
 
 ## Pares de clave-valor de metadatos definidos {#key-value-pairs}
 
-Las siguientes tablas enumeran y definen las claves de la variable `Files` y `Summary` secciones de un archivo de estado de metadatos.
+Las siguientes tablas enumeran y definen las claves en las secciones `Files` y `Summary` de un archivo de estado de metadatos.
 
 **Claves en la matriz de archivos**
 
@@ -83,19 +83,19 @@ Las siguientes tablas enumeran y definen las claves de la variable `Files` y `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>La suma de comprobación MD 5 para el archivo de metadatos cargado en su <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Suma de comprobación MD 5 para el archivo de metadatos cargado en el directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>El nombre del archivo de metadatos cargado en su <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Nombre del archivo de metadatos cargado en el directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
+   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
+   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -120,7 +120,7 @@ Las siguientes tablas enumeran y definen las claves de la variable `Files` y `Su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Fecha de procesamiento de archivos en <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Fecha de procesamiento de archivo en formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

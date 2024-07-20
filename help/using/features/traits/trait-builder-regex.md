@@ -3,19 +3,19 @@ description: Puede crear sus propias reglas de rasgos con el editor de código d
 seo-description: You can create your own trait rules with the Trait Builder code editor. Find the code editor in Traits > Add New > Rule-based > Trait Expression and switch to Code View. Audience Manager supports all the available regular expression constructs referenced in the Java Regular Expression Class Pattern. You can validate any of the regular expressions directly in the Expression Builder.
 seo-title: Using Regular Expressions in Trait Builder
 solution: Audience Manager
-title: Uso de Expresiones regulares en el generador de rasgos
+title: Uso de expresiones regulares en el generador de rasgos
 uuid: c263dc26-a920-48b8-b76a-6d82e7836196
 feature: Traits
 exl-id: eb41da2b-ce61-4965-a723-5bf273e54f82
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 9%
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
-# Uso de Expresiones regulares en el generador de rasgos {#using-regular-expressions-in-trait-builder}
+# Uso de expresiones regulares en el generador de rasgos {#using-regular-expressions-in-trait-builder}
 
-Puede crear sus propias reglas de rasgos con [!UICONTROL Trait Builder] editor de código. Busque el editor de código en [!UICONTROL Traits > Add New > Rule-based > Trait Expression] y cambie a [!UICONTROL Code View]. Audience Manager admite todas las construcciones de expresiones regulares disponibles a las que se hace referencia en la variable [!DNL Java Regular Expression Class Pattern]. Puede validar cualquiera de las expresiones regulares directamente en [!DNL Expression Builder].
+Puede crear sus propias reglas de rasgos con el editor de código [!UICONTROL Trait Builder]. Busque el editor de código en [!UICONTROL Traits > Add New > Rule-based > Trait Expression] y cambie a [!UICONTROL Code View]. Audience Manager admite todas las construcciones de expresiones regulares disponibles a las que se hace referencia en [!DNL Java Regular Expression Class Pattern]. Puede validar cualquiera de las expresiones regulares directamente en [!DNL Expression Builder].
 
-Consulte también. [Patrones de clase de expresión regular de Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Consulte también [Patrones de clase de expresión regular de Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).

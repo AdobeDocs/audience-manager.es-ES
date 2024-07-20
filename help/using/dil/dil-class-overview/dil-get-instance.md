@@ -10,8 +10,8 @@ feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
+>A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
 >
 >Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
@@ -40,7 +40,7 @@ Recupera una instancia de DIL específica del socio.
 
 ## Respuesta
 
-Una coincidencia correcta de NSID de socio y contenedor devuelve un valor específico del socio [!UICONTROL DIL] ejemplo. Si no hay coincidencia, la API devuelve (no emite) un error con el mensaje: &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Una coincidencia correcta de NSID de contenedor y socio devuelve una instancia [!UICONTROL DIL] específica de un socio. Si no hay ninguna coincidencia, la API devuelve (no emite) un error con el mensaje &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Código de muestra
 

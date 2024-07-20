@@ -9,8 +9,8 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Para reducir la demanda computacional, estos informes omiten los datos estadíst
 
 **Si llevo a cabo una campaña de marketing por correo electrónico, ¿cómo puedo establecer si los usuarios redirigidos llegan a mi sitio desde esa campaña o desde otras fuentes?**
 
-Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si la dirección URL pasa un ID de campaña como `www.test123.com/electronics?campaign=123`, cree una norma de rasgos para capturar esos datos de la variable `h_referer` con una norma de rasgos que busque un encabezado como `h_referer = 'campaign=123'`.
+Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si la dirección URL pasa un identificador de campaña como este, `www.test123.com/electronics?campaign=123`, cree una regla de rasgos para capturar esos datos de la variable `h_referer` con una regla de rasgos que busque un encabezado como `h_referer = 'campaign=123'`.
 
 <br> 
 

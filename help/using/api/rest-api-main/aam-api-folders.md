@@ -9,8 +9,8 @@ feature: API
 exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,6 @@ Métodos que permiten trabajar de manera programática con carpetas de rasgos y 
 
 >[!IMPORTANT]
 >
->La carpeta [!DNL API] Los métodos de se han reescrito con [!DNL Swagger] y migrado. Consulte:  >
+>Los métodos de la carpeta [!DNL API] se han reescrito con [!DNL Swagger] y se han migrado. Consulte: >
 >* [Documentos de API de Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migración de código de API de Audience Manager](../../api/api-swagger-migration.md)
-

@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 13%
+source-wordcount: '511'
+ht-degree: 14%
 
 ---
 
@@ -20,20 +20,20 @@ Antes de que Audience Manager pueda habilitar Audience Optimization for Publishe
 
 ## Requisitos previos para la ingesta de registros de Google Ad Manager {#prereqs-dfp-ingestion}
 
-Tenga en cuenta que el proceso descrito en esta sección debe completarse *antes* pase a los requisitos previos para la habilitación de la ingesta de registros.
+Tenga en cuenta que el proceso descrito en esta sección debe completarse *antes de* de pasar a los requisitos previos para la habilitación de la ingesta de registros.
 
-Para utilizar [!DNL Google Ad Manager] (anteriormente Google DFP) archivos de registro en [!DNL Audience Manager], primero debe configurar nuestra [ID único de usuario (UUID) del Audience Manager](../../../reference/ids-in-aam.md) en la llamada de etiqueta de anuncio. De este modo, nuestro ID se incluye en la [!DNL Google Ad Manager] y podemos hacer coincidir los ID entre [!DNL Google Ad Manager] y [!DNL Audience Manager]. Uso [!DNL Audience Manager] [!UICONTROL DIL] para el [!UICONTROL Audience Management Module] para establecer la variable [!DNL Audience Manager] UUID en una cookie de origen.
+Para usar [!DNL Google Ad Manager] archivos de registro (anteriormente DFP de Google) en [!DNL Audience Manager], primero debe establecer nuestro [ID único de usuario (UUID) de Audience Manager](../../../reference/ids-in-aam.md) en la llamada de etiqueta de anuncio. Al hacer esto, nuestro ID se incluye en los registros de [!DNL Google Ad Manager] y podemos hacer coincidir los ID entre [!DNL Google Ad Manager] y [!DNL Audience Manager]. Use el código [!DNL Audience Manager] [!UICONTROL DIL] o [!UICONTROL Audience Management Module] para establecer el UUID [!DNL Audience Manager] en una cookie propia.
 
-A continuación se indica cómo configurar los [!DNL Audience Manager] ID en la llamada de etiqueta de anuncio, como se explica en nuestra documentación:
+A continuación se indica cómo establecer el ID [!DNL Audience Manager] en la llamada de etiqueta de anuncio, tal como se explica en nuestra documentación:
 
 * [Mediante Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [A través de un destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Debe configurar la variable [!DNL Audience Manager] Identifíquese y puede trabajar con [!DNL Audience Manager] consultando para comprobar si todo funciona. Ha configurado el [!DNL Audience Manager] Identifique correctamente si:
+Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabajar con la asesoría de [!DNL Audience Manager] para comprobar si todo funciona. Ha establecido el ID [!DNL Audience Manager] correctamente si:
 
 * `'aamid'` es la clave utilizada como identificador.
-* El valor de ID de usuario tiene el formato correcto de [!DNL Audience Manager] UUID, tal como se describe en nuestra [Índice de ID en el Audience Manager](../../../reference/ids-in-aam.md).
-* Ha incluido el [!DNL Audience Manager] UUID en un campo definido de su [!DNL Google Ad Manager] registros (por ejemplo, Segmentación personalizada).
+* El valor de ID de usuario tiene el formato correcto de UUID [!DNL Audience Manager], tal como se describe en nuestro [Índice de ID en el Audience Manager](../../../reference/ids-in-aam.md).
+* Ha incluido el UUID [!DNL Audience Manager] en un campo definido en sus registros de [!DNL Google Ad Manager] (por ejemplo, Segmentación personalizada).
 
 ## Requisitos previos para la activación de ingesta de registros {#prereqs-ingestion-enablement}
 
@@ -48,14 +48,14 @@ Debe configurar la variable [!DNL Audience Manager] Identifíquese y puede traba
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Paso 1 </p> </td> 
-   <td colname="col2"> <p>Confirme que los pasos necesarios para establecer la variable <span class="keyword"> Audience Manager</span> El UUID (descrito anteriormente) se ha completado antes de pasar al paso 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Atención al cliente o asesoría </p> </td> 
+   <td colname="col2"> <p>Confirme que los pasos necesarios para establecer el UUID </span> de Audience Manager <span class="keyword"> (descritos anteriormente) se han completado antes de pasar al paso 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Servicio de atención al cliente o asesoría </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 2 </p> </td> 
    <td colname="col2"> <p>El administrador de Google Ad Manager crea: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Una cuenta de servicio para ingerir registros de Google Ad Manager en <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Una cuenta de servicio para la ingesta de registros de Google Ad Manager en <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Nuevas credenciales. <p>Nota: Esto puede requerir una dirección de correo electrónico única específica para este proyecto y se utilizará al proporcionar acceso al contenedor de almacenamiento de Google. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Una clave privada (credencial basada en JSON) </li> 
      </ol> </p> </td> 
@@ -82,8 +82,8 @@ Debe configurar la variable [!DNL Audience Manager] Identifíquese y puede traba
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 6 </p> </td> 
-   <td colname="col2"> <p>Compile los requisitos previos y abra un ticket de asistencia siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
-   <td colname="col3"> <p>Usted, o <span class="keyword"> Audience Manager</span> Asesoramiento en su nombre </p> </td> 
+   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
+   <td colname="col3"> <p>Usted o <span class="keyword"> Audience Manager</span> que asesora a nombre suyo </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,18 +3,18 @@ description: Qué hacer cuando las hojas de cálculo devuelven un error o falla 
 seo-description: What to do when the worksheets return an error or your bulk request fails.
 seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
-title: Consejos para la resolución de problemas de las herramientas de administración masiva
+title: Sugerencias de solución de problemas para herramientas de administración masiva
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
-# Consejos para la resolución de problemas de las herramientas de administración masiva{#troubleshooting-tips-for-bulk-management-tools}
+# Sugerencias de solución de problemas para herramientas de administración masiva{#troubleshooting-tips-for-bulk-management-tools}
 
 Qué hacer cuando las hojas de cálculo devuelven un error o falla la solicitud masiva.
 
@@ -30,7 +30,7 @@ Qué hacer cuando las hojas de cálculo devuelven un error o falla la solicitud 
 
 >[!NOTE]
 >
->[Permisos de grupo de RBAC](../../features/administration/administration-overview.md) asignado en el [!DNL Audience Manager] Las IU se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos de grupo RBAC](../../features/administration/administration-overview.md) asignados en la interfaz de usuario de [!DNL Audience Manager] se respetan en [!UICONTROL Bulk Management Tools].
 
 Factores como el tráfico de red intenso, el uso del servidor y los grandes conjuntos de datos pueden provocar errores en las solicitudes masivas o tiempos de espera. Si hay algún problema, la hoja de cálculo deja de escribir datos y muestra un mensaje de error. Cuando esto sucede, debe:
 
@@ -54,15 +54,15 @@ En la tabla siguiente se enumeran algunos problemas comunes que pueden producirs
   <tr> 
    <td colname="col1"> <b>Error de autenticación</b> </td> 
    <td colname="col2"> 
-    <b>Actualización a la última versión de Microsoft Excel</b>: Cuando se lanza una nueva versión de Microsoft Excel y se utiliza una versión anterior, puede encontrar un error de autenticación en la hoja de cálculo de Administración masiva. Actualice a la última versión de Microsoft Excel para resolver el error de autenticación.
+    <b>Actualizar a la última versión de Microsoft Excel</b>: cuando se publique una nueva versión de Microsoft Excel y se utilice una versión anterior, puede que aparezca un error de autenticación en la hoja de cálculo Administración masiva. Actualice a la última versión de Microsoft Excel para resolver el error de autenticación.
 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Largos retrasos</b> </td> 
+   <td colname="col1"> <b>Retrasos largos</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desactivar el modo de compatibilidad</b>: compruebe si tiene otras hojas de cálculo abiertas en el modo de compatibilidad de Microsoft Excel. El modo de compatibilidad puede aumentar los tiempos de ejecución. Cierre todas las hojas de cálculo que haya abierto en este modo y vuelva a intentar la solicitud masiva. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos del sistema</b>: Los limitados recursos del sistema contribuyen a los largos retrasos. Cierre todos los demás programas antes de realizar una solicitud masiva. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desactivar el modo de compatibilidad</b>: Compruebe si hay otras hojas de cálculo abiertas en el modo de compatibilidad de Microsoft Excel. El modo de compatibilidad puede aumentar los tiempos de ejecución. Cierre todas las hojas de cálculo que haya abierto en este modo y vuelva a intentar la solicitud masiva. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos del sistema</b>: Los recursos limitados del sistema contribuyen a grandes retrasos. Cierre todos los demás programas antes de realizar una solicitud masiva. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

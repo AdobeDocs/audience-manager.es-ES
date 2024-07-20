@@ -9,14 +9,14 @@ feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 2%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
 # Mensaje de muestra a los socios después del procesamiento entrante{#sample-message-to-partners-after-inbound-processing}
 
-Siempre que un [!UICONTROL Server-to-Server] se procesa, se envía una confirmación por correo electrónico a las soluciones de socios y, si se configura, al socio.
+Cada vez que se procesa un archivo [!UICONTROL Server-to-Server] entrante, se envía una confirmación por correo electrónico a las soluciones del socio y, si se configura, al socio.
 
 <!-- r_inbound_message.xml -->
 
@@ -25,7 +25,7 @@ El siguiente ejemplo es un mensaje de correo electrónico de ejemplo. La tabla d
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Asunto: Resultado Del Procesamiento Servidor A Servidor De Adobe Audience Manager:</b> </p> <p> <b>Estimado socio de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido su envío de archivos de servidor a servidor de Adobe Audience Manager</b> </p> <p> <b>Nombre de archivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> <b>AAM ID no válido: 112 </b> </p> <p> <b>AAM No hay coincidencias con el ID de: 0 </b> </p> <p> <b>Sin rasgo realizado: 26730823 </b> </p> <p> <b>Registros procesados: 40669900 </b> </p> <p> <b>Registros almacenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Total de señales: 918878926 </b> </p> <p> <b>Total de señales no utilizadas: 660348376 </b> </p> <p> <b>Total de rasgos realizados: 258086908 </b> </p> <p> <b>Total de rasgos eliminados: 0 </b> </p> <p> <b>Validación de rasgos totales fallida: 0 </b> </p> <p> <b>Total de usuarios que tienen características con error de validación: 0 </b> </p> <p> <b>Hora de inicio del trabajo: 2018-05-17 18:07:49 </b> </p> <p> <b>Hora de finalización del trabajo: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Asunto: Resultado Del Procesamiento Servidor A Servidor De Adobe Audience Manager:</b> </p> <p> <b>Estimado socio de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido su envío de archivos de servidor a servidor de Adobe Audience Manager</b> </p> <p> <b>Nombre de archivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> AAM <b>Id. de no válido: 112 </b> </p> <p> AAM <b>No hay coincidencias con el identificador de la: 0 </b> </p> <p> <b>Ningún rasgo realizado: 26730823 </b> </p> <p> <b>Registros procesados: 40669900 </b> </p> <p> <b>Registros almacenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Señales totales: 918878926 </b> </p> <p> <b>Total de señales no utilizadas: 660348376 </b> </p> <p> <b>Rasgos totales realizados: 258086908 </b> </p> <p> <b>Total de rasgos eliminados: 0 </b> </p> <p> <b>Error en la validación del total de rasgos: 0 </b> </p> <p> <b>Usuarios totales que tienen características con error de validación: 0 </b> </p> <p> <b>Hora de inicio del trabajo: 17-05-2018 18:07:49 </b> </p> <p> <b>Hora de finalización del trabajo: 17-05-2018 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

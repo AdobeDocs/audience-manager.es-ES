@@ -10,7 +10,7 @@ exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ Los usuarios no administradores pueden editar sus propios perfiles, incluido el 
 
 <!-- t_edit_account_settings.xml -->
 
-Los usuarios administradores pueden crear usuarios y agregarlos a grupos con fines de permiso, tal como se explica en [Crear usuarios](../../features/administration/administration-overview.md#create-users) y [Crear un grupo](../../features/administration/administration-overview.md#create-group).
+Los usuarios administradores pueden crear usuarios y agregarlos a grupos con fines de permiso, como se explica en [Crear usuarios](../../features/administration/administration-overview.md#create-users) y [Crear un grupo](../../features/administration/administration-overview.md#create-group).
 
 1. En el encabezado del Audience Manager, haga clic en ![](assets/icon_profile.png).
-1. Clic **[!UICONTROL Account Settings]**, luego haga clic en **[!UICONTROL Edit]** para mostrar el [!UICONTROL My Account] página.
-1. En el **[!UICONTROL Email Address]** , especifique su nueva dirección de correo electrónico, si es necesario. El Audience Manager no envía notificaciones regulares a los usuarios. Los administradores de Audience Manager tienen acceso a las direcciones de correo electrónico de los usuarios y pueden enviarles correos electrónicos manuales según sea necesario. Por ejemplo, si un usuario olvida su contraseña, la dirección de correo electrónico especificada en este campo se utiliza para enviar una contraseña temporal e instrucciones para restablecer la contraseña.
+1. Haga clic en **[!UICONTROL Account Settings]** y luego en **[!UICONTROL Edit]** para mostrar la página de [!UICONTROL My Account].
+1. En el campo **[!UICONTROL Email Address]**, especifique la nueva dirección de correo electrónico, si es necesario. El Audience Manager no envía notificaciones regulares a los usuarios. Los administradores de Audience Manager tienen acceso a las direcciones de correo electrónico de los usuarios y pueden enviarles correos electrónicos manuales según sea necesario. Por ejemplo, si un usuario olvida su contraseña, la dirección de correo electrónico especificada en este campo se utiliza para enviar una contraseña temporal e instrucciones para restablecer la contraseña.
 1. Para restablecer la contraseña, especifique la contraseña actual, especifique la nueva contraseña y confírmela.
-Consulte también. [Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas](../../reference/password-requirements.md).
-1. Haga clic **[!UICONTROL Save]**.
+Vea también [Requisitos de contraseña, cuentas bloqueadas y contraseñas olvidadas](../../reference/password-requirements.md).
+1. Haga clic en **[!UICONTROL Save]**.

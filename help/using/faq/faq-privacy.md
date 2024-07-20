@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 83%
+source-wordcount: '754'
+ht-degree: 82%
 
 ---
 
@@ -55,11 +55,11 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores back-end </p> </td> 
-   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. If <span class="keyword"> Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días más. </p> </td> 
+   <td colname="col2"> <p>120 días </p> <p> Audience Manager elimina los datos de usuario de nuestros servidores back-end 120 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 120 días, conservaremos estos datos durante otros 120 días más. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores Edge </p> </td> 
-   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. If <span class="keyword"> Audience Manager</span> registra la actividad de los usuarios en este ciclo de 14 días, y conservaremos estos datos durante otros 14 días más. Si el usuario vuelve a estar activo después del ciclo de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
+   <td colname="col2"> <p> 14 días </p> <p>Audience Manager elimina los datos de usuarios de nuestros servidores Edge 14 días después de ver por última vez a un usuario en la plataforma de Audience Manager. Si <span class="keyword"> Audience Manager</span> registra la actividad del usuario dentro de este ciclo de 14 días, conservaremos estos datos durante otros 14 días más. Si el usuario vuelve a estar activo después del ciclo de 14 días, se producirá un retraso entre la primera vista de página nueva y el momento en que el usuario podrá realizar acciones. Se tardan entre 6 y 18 horas en devolver el perfil completo al centro de Edge después de más de 14 días de inactividad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros sin procesar </p> </td> 
@@ -96,7 +96,7 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
  </tbody> 
 </table>
 
-## Retención de datos de clasificación de rasgos {#trait-qual}
+## Retención de datos de calificación de rasgos {#trait-qual}
 
 En la tabla siguiente se incluyen las opciones de retención para las clasificaciones de rasgos.
 

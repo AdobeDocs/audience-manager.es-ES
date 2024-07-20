@@ -9,25 +9,25 @@ feature: DCS
 exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 10%
+source-wordcount: '296'
+ht-degree: 0%
 
 ---
 
 # API de DCS para transferencias de datos de servidor a servidor{#dcs-apis-for-server-to-server-data-transfers}
 
-De servidor a servidor ([!UICONTROL S2S]) [!DNL API]proporciona código y métodos que le permiten enviar y recibir [!DNL DCS] datos de usuario y trabaje con esta información en sus propios sistemas o aplicaciones.
+Los [!DNL API]s de servidor a servidor ([!UICONTROL S2S]) proporcionan código y métodos que le permiten enviar y recibir datos de usuario de [!DNL DCS] y trabajar con esta información en sus propios sistemas o aplicaciones.
 
 ## Casos de uso comunes {#common-use-cases}
 
-[!UICONTROL Server-to-server] las transferencias pueden ayudarle a personalizar las páginas de aterrizaje u otras interacciones en función de los intereses de los visitantes. Algunos casos de uso comunes incluyen:
+Las transferencias de [!UICONTROL Server-to-server] pueden ayudarle a personalizar páginas de aterrizaje u otras interacciones en función de los intereses de los visitantes. Algunos casos de uso comunes incluyen:
 
 * Personalización en el sitio: adapte la experiencia de un visitante en su sitio añadiendo dinámicamente contenido relevante y llamadas a la acción en función de los segmentos a los que pertenece.
-* Mejorar el servicio al cliente: Importar [!DNL Audience Manager] segmentos en una [!DNL CRM] u otro sistema mediante una transferencia de datos de servidor a servidor. Estos datos pueden proporcionar servicio de llamadas o operadores de chat en línea con información relevante y personalizada sobre un cliente.
+* Mejorar el servicio al cliente: importe [!DNL Audience Manager] segmentos a [!DNL CRM] u otro sistema mediante una transferencia de datos de servidor a servidor. Estos datos pueden proporcionar servicio de llamadas o operadores de chat en línea con información relevante y personalizada sobre un cliente.
 
 ## Requisitos: ID de usuario y nombres de servidor regionales {#requirements}
 
-El [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y realizar solicitudes de datos.
+[!UICONTROL DCS API] requiere identificadores de usuario y de región para validar y realizar solicitudes de datos.
 
 * El ID de usuario es obligatorio porque necesita asociar datos con un visitante en particular.
 * El ID de región es necesario para enlazar llamadas de nuevo con un nombre de servidor y porque los datos de usuario se almacenan en centros de datos geográficamente más cercanos a los visitantes del sitio.
@@ -36,10 +36,10 @@ El [!UICONTROL DCS API] requiere ID de usuario e ID de región para validar y re
 
 Actualmente, esta guía explica cómo:
 
-* Obtención de los ID de usuario y región de [!DNL DCS] archivos que puede que ya reciba como [!DNL Audience Manager] cliente.
+* Obtenga los identificadores de usuario y región de los [!DNL DCS] archivos que quizá ya reciba como cliente de [!DNL Audience Manager].
 
-* Obtención de los ID de usuario y región si utiliza el [!DNL Visitor ID Service].
-* Realizar llamadas a [!DNL DCS] después de obtener el ID de usuario y el ID de región.
+* Obtenga los identificadores de usuario y región si usa [!DNL Visitor ID Service].
+* Realice llamadas a [!DNL DCS] después de que tenga el usuario y el ID de región.
 
 Agregaremos nuevos métodos a medida que estén disponibles. Consulte las secciones siguientes para empezar.
 
@@ -49,5 +49,4 @@ Agregaremos nuevos métodos a medida que estén disponibles. Consulte las seccio
 
 >[!MORELIKETHIS]
 >
->* [Referencia de API de DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
-
+>* [Referencia de API de DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

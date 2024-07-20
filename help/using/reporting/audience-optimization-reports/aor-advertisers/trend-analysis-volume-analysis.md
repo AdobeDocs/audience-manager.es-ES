@@ -10,30 +10,30 @@ exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Trend Analysis] y [!UICONTROL Volume Analysis] Informes{#trend-analysis-and-volume-analysis-reports}
+# Informes [!UICONTROL Trend Analysis] y [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
 
 Estos informes devuelven datos sobre impresiones, tasas de pulsaciones y conversiones para una amplia gama de dimensiones publicitarias. Compare tendencias y volumen para las métricas seleccionadas a fin de tener una mejor idea del rendimiento de su campaña a lo largo del tiempo.
 
-## Muestra [!UICONTROL Trend Analysis] Informe {#sample-trend-analysis}
+## Ejemplo de informe [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
-El [!UICONTROL Trend Analysis] El informe devuelve datos en un gráfico de líneas solo para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión, pulsaciones y conversión para un conjunto de segmentos asignados.
+El informe [!UICONTROL Trend Analysis] devuelve datos en un gráfico de líneas solo para un intervalo de 14 días. En este ejemplo, el informe muestra las tendencias de impresión, pulsaciones y conversión para un conjunto de segmentos asignados.
 
 ![](assets/trend-analysis.png)
 
-## Muestra [!UICONTROL Volume Analysis] Informe {#sample-volume-analysis}
+## Ejemplo de informe [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
-El [!UICONTROL Volume Analysis] El informe devuelve los datos en un gráfico de barras para el intervalo de fechas seleccionado. En este ejemplo, el informe muestra la impresión, los clics y las conversiones por volumen para un conjunto de segmentos asignados.
+El informe [!UICONTROL Volume Analysis] devuelve datos en un gráfico de barras para el intervalo de fechas seleccionado. En este ejemplo, el informe muestra la impresión, los clics y las conversiones por volumen para un conjunto de segmentos asignados.
 
 >[!NOTE]
 >
->Los períodos retrospectivos de 7 días y 30 días solo están disponibles para el domingo **[!UICONTROL Date Through]** fechas.
+>Los periodos retrospectivos de 7 días y 30 días solo están disponibles para las fechas del domingo **[!UICONTROL Date Through]**.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Para obtener información sobre los segmentos asignados y no asignados, consulte la [Informe de rendimiento del segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentación.
+>Para obtener información sobre los segmentos asignados y no asignados, consulte la documentación de [Informe de rendimiento de segmentos](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).

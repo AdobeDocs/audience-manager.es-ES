@@ -10,8 +10,8 @@ feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 81%
+source-wordcount: '1211'
+ht-degree: 78%
 
 ---
 
@@ -31,7 +31,7 @@ Los rasgos incorporados mediante [!UICONTROL Inbound] se rellenan con [!UICONTRO
 
 <br> 
 
-**¿Puede proporcionarme una lista de las direcciones IP que puedo agregar a una lista de permitidos para dpm.demdex.net?**
+**¿Puede proporcionarme una lista de direcciones IP que puedo agregar a una lista de permitidos para dpm.demdex.net?**
 
 Desafortunadamente, no podemos. Estas direcciones IP se asignan dinámicamente, por región geográfica, a través de [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] no controla el rango de direcciones IP que se pueden asignar a esta dirección.
 
@@ -57,15 +57,15 @@ Los siguientes servidores SFTP están en desuso. No se aprovisionarán nuevas cu
 
  
 
-**¿Cómo configuro la instancia de Audience Manager para que utilice los nuevos servidores SFTP?**
+**¿Cómo configuro mi instancia de Audience Manager para que utilice los nuevos servidores SFTP?**
 
-Póngase en contacto con su [!DNL Audience Manager] o al Servicio de atención al cliente, y configurarán las nuevas cuentas de SFTP.
+Póngase en contacto con su asesor de [!DNL Audience Manager] o con el Servicio de atención al cliente para que configuren sus nuevas cuentas SFTP.
 
  
 
 **¿Cuáles son los métodos de autenticación admitidos para los nuevos servidores SFTP?**
 
-Los nuevos servidores SFTP (`ftp-in-gtw` y `ftp-out-gtw`) soporte [!DNL OpenSSH Key-Based Authentication]. Podemos generar el [!DNL SSH] claves para usted, o puede proporcionarnos su propia clave pública.
+Los nuevos servidores SFTP (`ftp-in-gtw` y `ftp-out-gtw`) admiten [!DNL OpenSSH Key-Based Authentication]. Podemos generar las claves [!DNL SSH] para usted o puede proporcionarnos su propia clave pública.
 
  
 
@@ -83,7 +83,7 @@ Como práctica recomendada, configure la integración entre [!DNL Audience Manag
 
 * Ponga [!UICONTROL DIL] directamente en el `s_code`.
 
-* Servir [!UICONTROL DIL] y el `s_code` mediante [!DNL Adobe Experience Platform Tags].
+* Proporcionar [!UICONTROL DIL] y `s_code` a través de [!DNL Adobe Experience Platform Tags].
 
 Consulte [API de Data Integration Library (DIL)](../dil/dil-overview.md).
 
@@ -150,7 +150,7 @@ Sí, [!DNL Audience Manager] puede proporcionarle los datos recopilados para los
 
 <br> 
 
-**[!DNL Google Ad Manager]Quiero recopilar datos en un sitio y segmentar los usuarios a través de en un sitio diferente. ¿Debo implementar código en la otra propiedad si no quiero recopilar datos de esa ubicación?**
+**Deseo recopilar datos en un sitio y segmentar a los usuarios a través de [!DNL Google Ad Manager] en un sitio diferente. ¿Debo implementar código en la otra propiedad si no quiero recopilar datos de esa ubicación?**
 
 No. Si la recopilación de datos en el segundo sitio no es un requisito, no es necesario implementar DIL allí. Siempre que tenga acceso al inventario en el segundo sitio a través de [!DNL Google Ad Manager], puede utilizar la recopilación de datos del sitio inicial y segmentar mediante [!DNL Google Ad Manager].
 
@@ -162,9 +162,9 @@ Cada proveedor aporta algo único a la tabla, por lo que la respuesta depende de
 
 <br> 
 
-**¿Cómo? [!DNL Audience Manager] establecer cookies y pasar variables a [!DNL Google Ad Manager]?**
+**¿Cómo establece [!DNL Audience Manager] las cookies y pasa las variables a [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager][!DNL Google Ad Manager] establece 2 cookies: Una envía variables de segmento a la etiqueta de publicidad de y la otra establece su ID de usuario único (UUID), que también lo puede leer [!DNL Google Ad Manager]. Añadir el UUID a la etiqueta de publicidad significa que podemos realizar la detección de sistemas de informes y audiencias a nivel de usuario.
+[!DNL Audience Manager] establece 2 cookies: una envía variables de segmento a la etiqueta de publicidad [!DNL Google Ad Manager] y la otra establece su identificador de usuario único (UUID), que también lo lee [!DNL Google Ad Manager]. Añadir el UUID a la etiqueta de publicidad significa que podemos realizar la detección de sistemas de informes y audiencias a nivel de usuario.
 
 <br> 
 
@@ -208,8 +208,8 @@ Normalmente, un perfil de usuario tarda hasta 24 horas en sincronizarse entre re
 
  
 
-**¿Qué les sucede a las claves de acceso de usuario de Amazon S3 inactivas?**
+**¿Qué les sucede a las claves de acceso de usuario inactivas de Amazon S3?**
 
-El Adobe de proporciona a los clientes de Audience Manager claves de acceso de usuario para el Audience Manager [!DNL Amazon S3] depósitos. Por motivos de seguridad, las claves se desactivan automáticamente tras 100 días de inactividad.
+El Adobe proporciona a los clientes de Audience Manager claves de acceso de usuario para los bloques de Audience Manager [!DNL Amazon S3]. Por motivos de seguridad, las claves se desactivan automáticamente tras 100 días de inactividad.
 
 Para volver a habilitar las claves de acceso o solicitar otras nuevas, póngase en contacto con Atención al cliente.

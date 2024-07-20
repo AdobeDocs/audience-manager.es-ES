@@ -10,7 +10,7 @@ exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 9%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos
 
 >[!NOTE]
 >
->Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considere estas etiquetas como si fueran independientes de la taxonomía común.
+>Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considere estas etiquetas como si fueran independientes de la taxonomía común.
 
-Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en la variable [!DNL UI] bajo **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en [!DNL UI] bajo **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Crear nuevo tipo de rasgo {#create-trait-type}
 
-A `POST` que permite crear un nuevo tipo de rasgo.
+Un método `POST` que le permite crear un nuevo tipo de rasgo.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -61,7 +61,7 @@ A `POST` que permite crear un nuevo tipo de rasgo.
 
 ## Devolver propiedades de un tipo de rasgo {#return-props}
 
-A `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
+Un método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -86,7 +86,7 @@ A `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
 
 ## Devolver propiedades para todos los tipos de rasgos {#return-props-all}
 
-A `GET` método que devuelve detalles sobre todos los tipos de rasgos de una matriz.
+Un método `GET` que devuelve detalles sobre todos los tipos de rasgos de una matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

@@ -9,8 +9,8 @@ feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 3%
+source-wordcount: '529'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ c_tb_boolean.xml
 
 **Expresiones booleanas**
 
-La lógica booleana es una rama de álgebra que utiliza algunas expresiones básicas (u operadores) para determinar si una instrucción es verdadera o falsa. Los operadores más comunes son [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL NOT]. Las combinaciones de estas expresiones le ayudan a hacer que las reglas de calificación de segmentos o rasgos centrados se adapten de forma exclusiva a sus requisitos de datos. La siguiente ilustración muestra cómo funcionan las expresiones booleanas básicas.
+La lógica booleana es una rama de álgebra que utiliza algunas expresiones básicas (u operadores) para determinar si una instrucción es verdadera o falsa. Los operadores más comunes son [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL NOT]. Las combinaciones de estas expresiones le ayudan a hacer que las reglas de calificación de segmentos o rasgos centrados se adapten de forma exclusiva a sus requisitos de datos. La siguiente ilustración muestra cómo funcionan las expresiones booleanas básicas.
 
 <br> 
 
@@ -34,11 +34,11 @@ La lógica booleana es una rama de álgebra que utiliza algunas expresiones bás
 
 >[!NOTE]
 >
->El [!UICONTROL NOT] utiliza una condición &quot;and&quot; implícita y, a veces, se escribe como [!UICONTROL AND NOT].
+>El operador [!UICONTROL NOT] usa una condición &quot;and&quot; implícita y a veces se escribe como [!UICONTROL AND NOT].
 
-**Cómo utilizar expresiones booleanas en el generador de rasgos y segmentos**
+**Cómo usar expresiones booleanas en el generador de rasgos y segmentos**
 
-Las reglas de cualificación de rasgos y segmentos se crean con expresiones booleanas. La siguiente tabla describe las prácticas recomendadas generales para crear criterios de cualificación con [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL NOT].
+Las reglas de cualificación de rasgos y segmentos se crean con expresiones booleanas. En la tabla siguiente se describen las prácticas recomendadas generales para crear criterios de calificación con [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL NOT].
 
 <table id="table_C762872C98F54C4A86A2F1C840A86657"> 
  <thead> 
@@ -50,37 +50,36 @@ Las reglas de cualificación de rasgos y segmentos se crean con expresiones bool
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> Y</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> Y </span></b> </p> </td> 
    <td colname="col2"> <p>Requisitos de cualificación de audiencia específicos y restringidos. </p> </td> 
-   <td colname="col3"> <p>Usuarios <i>debe</i> pertenecen a todos los rasgos o segmentos especificados. </p> </td> 
+   <td colname="col3"> <p>Los usuarios <i>deben</i> pertenecer a todos los rasgos o segmentos especificados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> O</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> O </span></b> </p> </td> 
    <td colname="col2"> <p>Requisitos de cualificación de audiencia amplios y menos centrados. </p> </td> 
-   <td colname="col3"> <p>Usuarios <i>lata</i> pertenecen a cualquier rasgo o segmento especificado. </p> </td> 
+   <td colname="col3"> <p>Los usuarios <i>pueden</i> pertenecer a cualquier rasgo o segmento especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> NO</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> NO </span></b> </p> </td> 
    <td colname="col2"> <p>Requisitos de cualificación de audiencia específicos y restringidos. </p> <p>Resulta útil cuando hay varias condiciones que hacen que la definición de requisitos de cualificación de audiencia sea difícil o ineficiente. En ocasiones, es más fácil validarlo con requisitos que excluyen en lugar de incluir. </p> </td> 
-   <td colname="col3"> <p>Usuarios <i>no debe</i> pertenecen a un rasgo o segmento excluido. </p> </td> 
+   <td colname="col3"> <p>Los usuarios <i>no deben</i> pertenecer a un rasgo o segmento excluido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**[!UICONTROL AND]Ejemplo de caso de uso**
+Ejemplo de caso de uso **[!UICONTROL AND]**
 
-El [!UICONTROL AND] es útil cuando se han enumerado fácilmente los requisitos de pertenencia a características. Por ejemplo, supongamos que necesita crear una audiencia de &quot;compradores de cámaras caros&quot;. Con un modelo de píxeles, tendría que crear y colocar píxeles para cámaras y un valor de precio numérico en su página. Por el contrario, con los rasgos puede aplicar operadores booleanos para gestionar ambas condiciones (cámaras) [!UICONTROL AND] precio). El resultado es una recopilación de datos eficaz con menos llamadas HTTP, lo que a su vez ayuda a preservar la experiencia del usuario en el sitio.
+El operador [!UICONTROL AND] es útil cuando se han enumerado fácilmente los requisitos de pertenencia a características. Por ejemplo, supongamos que necesita crear una audiencia de &quot;compradores de cámaras caros&quot;. Con un modelo de píxeles, tendría que crear y colocar píxeles para cámaras y un valor de precio numérico en su página. Por el contrario, con las características puede aplicar operadores booleanos para controlar ambas condiciones (precio de cámaras [!UICONTROL AND]). El resultado es una recopilación de datos eficaz con menos llamadas HTTP, lo que a su vez ayuda a preservar la experiencia del usuario en el sitio.
 
-**[!UICONTROL OR]Ejemplo de caso de uso**
+Ejemplo de caso de uso **[!UICONTROL OR]**
 
-El [!UICONTROL OR] es útil cuando desea crear señales con requisitos amplios de cualificación de audiencia. Si tiene varios requisitos de clasificación de rasgos o segmentos, la variable [!UICONTROL OR] evaluará como verdadero cuando los visitantes del sitio muestren *cualquiera* de dichas características. [!UICONTROL OR] puede resultar muy útil cuando desea crear rápidamente una audiencia amplia de visitantes del sitio cualificados.
+El operador [!UICONTROL OR] es útil cuando desea crear señales con requisitos amplios de cualificación de audiencia. Si tiene varios requisitos de clasificación de rasgos o segmentos, el operador [!UICONTROL OR] evaluará como verdadero cuando los visitantes del sitio muestren *cualquiera* de esas características. [!UICONTROL OR] puede ser muy útil cuando desea crear rápidamente una audiencia amplia de visitantes del sitio calificados.
 
-**[!UICONTROL AND NOT]Ejemplo de caso de uso**
+Ejemplo de caso de uso **[!UICONTROL AND NOT]**
 
-El [!UICONTROL AND NOT] es útil cuando es más fácil definir una audiencia por *exclusión* en lugar de *inclusión*. Por ejemplo, supongamos que tiene una venta y desea segmentar a los visitantes en clientes que solo ven artículos con precio completo. En lugar de crear una lista de señales para todos los artículos aptos completos o con precio de venta, puede ser más fácil calificar a los visitantes si tienen *no* ha visto un artículo con precio de venta. Esto es eficiente desde el punto de vista administrativo, ya que normalmente tiene menos artículos a precio de venta en comparación con los que se ofrecen a precio completo. Con un booleano [!UICONTROL NOT], visitantes *no debe* exhiba la señal de venta para calificar para el abono a precio completo de la audiencia. Por el contrario, [!UICONTROL AND NOT] es lo contrario de [!UICONTROL AND] caso de uso, que mostraba cómo se determina la pertenencia a la audiencia mediante la inclusión (es decir, el visitante cumple los requisitos en función de dos señales explícitamente establecidas).
+El operador [!UICONTROL AND NOT] es útil cuando es más fácil definir una audiencia por *exclusión* que por *inclusión*. Por ejemplo, supongamos que tiene una venta y desea segmentar a los visitantes en clientes que solo ven artículos con precio completo. En lugar de crear una lista de señales para todos los artículos con precio total o precio de venta que cumplen los requisitos, puede ser más fácil calificar a los visitantes si *no* ha visto un artículo con precio de venta. Esto es eficiente desde el punto de vista administrativo, ya que normalmente tiene menos artículos a precio de venta en comparación con los que se ofrecen a precio completo. Con un valor booleano [!UICONTROL NOT], los visitantes *no deben* mostrar la señal de venta para poder pertenecer a la audiencia a precio completo. Por el contrario, [!UICONTROL AND NOT] es lo contrario al caso de uso [!UICONTROL AND], que mostró cómo la pertenencia a la audiencia está determinada por la inclusión (es decir, el visitante se calificó en función de 2 señales explícitamente establecidas).
 
 >[!MORELIKETHIS]
 >
->* [Uso de operadores de comparación en el generador de rasgos](../features/traits/trait-comparison-operators.md)
->* [Orden de las operaciones en expresiones de TraitBuilder](../features/traits/trait-operator-precedence.md)
-
+>* [Trabajando con operadores de comparación en TraitBuilder](../features/traits/trait-comparison-operators.md)
+>* [Orden de operaciones en expresiones de TraitBuilder](../features/traits/trait-operator-precedence.md)

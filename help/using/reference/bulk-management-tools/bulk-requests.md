@@ -10,7 +10,7 @@ exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -30,13 +30,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[Permisos de grupo de RBAC](../../features/administration/administration-overview.md) asignado en el [!DNL Audience Manager] Las IU se respetan en la [!UICONTROL Bulk Management Tools].
+>[Los permisos de grupo RBAC](../../features/administration/administration-overview.md) asignados en la interfaz de usuario de [!DNL Audience Manager] se respetan en [!UICONTROL Bulk Management Tools].
 
-El [!UICONTROL Request] La hoja de cálculo no tiene su propio conjunto de encabezados de columna y no es necesario copiar los ID en ninguna de las columnas. En su lugar, devuelve datos basados en el botón de acción en el que haga clic en la barra de herramientas. Además, una función opcional de creación de informes devuelve un recuento de frecuencia para los disparos de píxeles y un recuento de usuario único para varios intervalos de tiempo fijos.
+La hoja de cálculo [!UICONTROL Request] no tiene su propio conjunto de encabezados de columna y no es necesario copiar los identificadores en ninguna de las columnas. En su lugar, devuelve datos basados en el botón de acción en el que haga clic en la barra de herramientas. Además, una función opcional de creación de informes devuelve un recuento de frecuencia para los disparos de píxeles y un recuento de usuario único para varios intervalos de tiempo fijos.
 
-Para realizar solicitudes masivas, abra el [!UICONTROL Bulk Management Tools] hoja de cálculo y:
+Para realizar solicitudes masivas, abra la hoja de cálculo [!UICONTROL Bulk Management Tools] y:
 
-1. Haga clic en **[!UICONTROL Request]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Request]**.
 2. En la barra de herramientas situada en la parte superior de la hoja de cálculo, haga clic en el botón de solicitud correspondiente a los datos con los que desea trabajar. Puede solicitar:
 
    * Modelos algorítmicos
@@ -44,13 +44,13 @@ Para realizar solicitudes masivas, abra el [!UICONTROL Bulk Management Tools] ho
    * Señales derivadas
    * Asignaciones de destino
    * Características algorítmicas, basadas en reglas e integradas
-   * Segmentos 
+   * Segmentos
    * ID de carpetas de rasgos y segmentos
 
-   El [!DNL Audience Manager] La API escribe datos en bloque en [!UICONTROL Request] hoja de cálculo.
+   La API [!DNL Audience Manager] escribe datos en bloque en la hoja de cálculo [!UICONTROL Request].
 
 >[!NOTE]
 >
->En sus resultados, la variable `createTime` y `updateTime` las columnas devuelven datos en notación exponencial. Las marcas de fecha y hora subyacentes se registran en la hora UNIX UTC. Actualmente, la hoja de cálculo no puede devolver marcas de fecha y hora en un formato legible.
+>En sus resultados, las columnas `createTime` y `updateTime` devuelven datos en notación exponencial. Las marcas de fecha y hora subyacentes se registran en la hora UNIX UTC. Actualmente, la hoja de cálculo no puede devolver marcas de fecha y hora en un formato legible.
 
-Si la actualización masiva devuelve un error o falla, consulte [Solución de problemas para herramientas de administración masiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Si su actualización masiva devuelve un error o falla, consulte [Solución de problemas para herramientas de administración masiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).

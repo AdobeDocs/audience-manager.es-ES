@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: bf445fde-5cac-40ee-aa67-b4523391a6f1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 2%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 El informe Frecuencia óptima le ayuda a descubrir el equilibrio óptimo entre el número de impresiones servidas y las conversiones. Permite ajustar el número de impresiones que desea mostrar antes de comenzar a ver rendimientos decrecientes.
 
-El informe tiene un intervalo retrospectivo de 30 días, desde la fecha elegida en la variable [!UICONTROL Date Through] selector.
+El informe tiene un intervalo retrospectivo de 30 días, a partir de la fecha elegida en el selector [!UICONTROL Date Through].
 
 El volumen de conversión suele disminuir con los bloques de frecuencia de impresión más altos. Menos usuarios ven el mayor número de impresiones. Esto significa que los bloques de mayor frecuencia tienen menos conversiones.
 

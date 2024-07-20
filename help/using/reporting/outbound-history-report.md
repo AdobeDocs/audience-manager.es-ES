@@ -10,7 +10,7 @@ exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -24,14 +24,14 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
-   ![Resultado del paso](assets/outbound_history.png)
+   ![Resultado Del Paso](assets/outbound_history.png)
 
-1. En el **[!UICONTROL Search for a Destination]** , empiece a escribir y seleccione el destino deseado.
-1. En el **[!UICONTROL Select a Date Range]** , especifique las fechas de inicio y finalización del informe y haga clic en **[!UICONTROL Apply Date Filter]**.
+1. En el cuadro **[!UICONTROL Search for a Destination]**, empiece a escribir y seleccione el destino deseado.
+1. En el cuadro **[!UICONTROL Select a Date Range]**, especifique las fechas de inicio y finalización del informe y haga clic en **[!UICONTROL Apply Date Filter]**.
 
-   ![Resultado del paso](assets/outbound_history_stats.png)
+   ![Resultado Del Paso](assets/outbound_history_stats.png)
 
    La siguiente tabla contiene información correspondiente a las columnas del informe:
 
@@ -45,7 +45,7 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre del archivo de sincronización de datos </td> 
-   <td colname="col2"> <p>Lista de todos los archivos salientes que <span class="keyword"> Adobe</span> generados para este destino que se procesaron juntos. </p> </td> 
+   <td colname="col2"> <p>Lista de todos los archivos salientes que <span class="keyword"> Adobe</span> generó para este destino y que se procesaron juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Correcto </td> 
@@ -57,7 +57,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generada en los archivos e intentó enviar al destino. En la mayoría de los casos, debe ser el número total de archivos correctos y fallidos. </p> </td> 
+   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos y que se intentó enviar al destino. En la mayoría de los casos, debe ser el número total de archivos correctos y fallidos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

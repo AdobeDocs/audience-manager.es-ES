@@ -9,8 +9,8 @@ feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantilla
 
 >[!NOTE]
 >
->En las tablas, **negrita** type identifica cada macro con su resultado relacionado. Para los ejemplos de formato, la variable `<` `>` se han agregado símbolos para ayudar a separar visualmente cada macro.
+>En las tablas, el tipo **boldface** identifica cada macro con su resultado relacionado. Para los ejemplos de formato, se han agregado los símbolos `<` `>` para ayudar a separar visualmente cada macro.
 
 ## Nombre de archivo Macros {#file-name-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -50,7 +50,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Macros de
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Formato: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completa: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completo: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -72,7 +72,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Macros de
 
 ## Macros de fila de encabezado {#header-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -91,7 +91,7 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Macros de
 
 ## Macros de contenido de archivo {#file-content-macros}
 
-Para obtener una lista de macros y definiciones disponibles, consulte [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -145,12 +145,12 @@ Para obtener una lista de macros y definiciones disponibles, consulte [Macros de
  </tbody> 
 </table>
 
-### `DPUUID` Ejemplos
+### `DPUUID` ejemplos
 
-Para ayudarle a comprender cómo `DPUUID` la macro genera datos, supongamos que tenemos 2 `DPID`s asignado a `DPUUID`como se muestra a continuación:
+Para ayudarle a comprender cómo la macro `DPUUID` genera datos, supongamos que tenemos 2 `DPID` asignados a `DPUUID` como se muestra a continuación:
 
-* DPID `1111` se asigna a DPUUID `AAAA` (marca de tiempo = 1) y `BBBB` (marca de tiempo = 2).
-* DPID `2222` asigna a DPUUID `CCCC`.
+* DPID `1111` se asigna a los DPUUID `AAAA` (marca de tiempo = 1) y `BBBB` (marca de tiempo = 2).
+* DPID `2222` se asigna a DPUUID `CCCC`.
 
 Dadas estas condiciones, la siguiente tabla enumera algunas posibles cadenas de formato y su salida.
 
@@ -171,12 +171,12 @@ Dadas estas condiciones, la siguiente tabla enumera algunas posibles cadenas de 
   <tr> 
    <td colname="col1"> <p>Devuelve un máximo de 1 asignación para todos los DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, la macro se asigna a DPUUID <code> BBBB </code> solo porque ese ID tiene la marca de tiempo más grande. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para el DPID <code> 1111 </code>, la macro se asigna al DPUUID <code> BBBB </code> solo porque ese ID tiene la marca de tiempo más grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Devolver un máximo de 2 asignaciones para un solo DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>Sin embargo, esta macro devuelve solo 1 DPID a la asignación DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>, esta macro devuelve solamente 1 DPID a la asignación DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

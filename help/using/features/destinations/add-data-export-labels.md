@@ -9,37 +9,35 @@ exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
 # Añadir etiquetas de exportación de datos a un destino {#add-data-export-labels}
 
-[!DNL Data Export Labels] trabajar con [!DNL Export Controls] se establece en una fuente de datos. [!DNL Data Export Labels] evite añadir rasgos restringidos a un segmento y enviar datos de segmento a un destino. Puede establecer varias etiquetas de exportación a una nueva o a una existente [!DNL cookie] o [!DNL URL] destino.
+[!DNL Data Export Labels] trabaja con [!DNL Export Controls] que ha establecido en un origen de datos. [!DNL Data Export Labels] le impide agregar características restringidas a un segmento y enviar datos de segmento a un destino. Puede establecer varias etiquetas de exportación en un destino nuevo o existente [!DNL cookie] o [!DNL URL].
 
 >[!NOTE]
 >
->Para añadir una etiqueta de exportación, necesita permisos de administrador *o* privilegios suficientes para crear o editar un destino.
+>Para agregar una etiqueta de exportación, necesita permisos de administrador *o* suficientes privilegios para crear o editar un destino.
 
 <!-- t_export_labels.xml -->
 
 Para añadir etiquetas de exportación a un destino:
 
 1. Haga clic **[!UICONTROL Audience Data]**:
-   * Para nuevos destinos: haga clic en **[!UICONTROL Create New Destination]**. Complete la [!UICONTROL Basic Information] antes de seleccionar una etiqueta de exportación de datos. Consulte [Crear un destino de cookie](../../features/destinations/create-cookie-destination.md) o [Crear un destino de URL](../../features/destinations/create-url-destination.md) para obtener más información.
-   * Para destinos existentes: utilice [!DNL Search] para encontrar su destino o desplácese por la lista y haga clic en el nombre del destino para abrirlo.
-1. Seleccione una [!DNL Data Export Label]. Deje las casillas de verificación en blanco si no desea establecer restricciones de exportación. Las etiquetas de exportación incluyen las siguientes opciones:
+   * Para nuevos destinos: Haga clic en **[!UICONTROL Create New Destination]**. Complete la sección [!UICONTROL Basic Information] antes de seleccionar una etiqueta de exportación de datos. Consulte [Crear un destino de cookie](../../features/destinations/create-cookie-destination.md) o [Crear un destino de URL](../../features/destinations/create-url-destination.md) para obtener información.
+   * Para destinos existentes: utilice el cuadro [!DNL Search] para buscar el destino o desplácese por la lista y haga clic en el nombre del destino para abrirlo.
+1. Seleccione un(a) [!DNL Data Export Label]. Deje las casillas de verificación en blanco si no desea establecer restricciones de exportación. Las etiquetas de exportación incluyen las siguientes opciones:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
-
    >[!IMPORTANT]
    >
-   >Las restricciones de exportación no funcionarán a menos que establezca un [control de exportación coincidente](../../features/data-export-controls.md) en una fuente de datos.
-1. Haga clic **[!UICONTROL Save]**.
+   >Las restricciones de exportación no funcionarán a menos que establezca un [control de exportación coincidente](../../features/data-export-controls.md) en un origen de datos.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Crear una fuente de datos](../../features/manage-datasources.md#create-data-source)
-

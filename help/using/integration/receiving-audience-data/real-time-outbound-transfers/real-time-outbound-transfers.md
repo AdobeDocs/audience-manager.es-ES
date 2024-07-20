@@ -9,14 +9,14 @@ feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 5%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
 # Transferencias de datos salientes en tiempo real {#real-time-outbound-data-transfers}
 
-El proceso saliente de transferencia de datos en tiempo real ofrece datos de usuario como una serie de [!DNL JSON] mensajes con formato a una plataforma de destino.
+El proceso saliente de transferencia de datos en tiempo real envía datos de usuario como una serie de [!DNL JSON] mensajes con formato a una plataforma de destino.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,9 +24,9 @@ El proceso saliente de transferencia de datos en tiempo real ofrece datos de usu
 
 Para utilizar este método, la plataforma de destino debe cumplir los siguientes requisitos:
 
-* Debe proporcionar un punto final [!DNL URL] que pueden ampliarse para recibir un gran volumen de mensajes del Audience Manager;
-* Debe aceptar datos en [!DNL JSON] format (`Content-type: application/json`);
-* Debe aceptar seguro `HTTPS` transferencias de datos. [!DNL Audience Manager] no enviará mensajes a través de unsecure `HTTP` protocolo.
+* Debe proporcionar un extremo [!DNL URL] que se pueda escalar para recibir un gran volumen de mensajes del Audience Manager;
+* Debe aceptar datos en formato [!DNL JSON] (`Content-type: application/json`);
+* Debe aceptar transferencias de datos seguras de `HTTPS`. [!DNL Audience Manager] no enviará mensajes a través del protocolo no seguro `HTTP`.
 
 ## Frecuencia
 
@@ -42,11 +42,11 @@ No hay límites de velocidad establecidos en el rendimiento de los mensajes envi
 
 ## Respuestas requeridas
 
-De forma predeterminada, el servidor de destinatarios debe devolver `200 OK` código para indicar recepción correcta. Otros códigos se interpretarán como errores. Esta respuesta se espera dentro de los 3000 milisegundos. En respuesta a un error, [!DNL Audience Manager] solo realizará un intento de reintento.
+De forma predeterminada, el servidor de destinatarios debe devolver el código `200 OK` para indicar que la confirmación se ha realizado correctamente. Otros códigos se interpretarán como errores. Esta respuesta se espera dentro de los 3000 milisegundos. En respuesta a un error, [!DNL Audience Manager] realizará un solo intento de reintento.
 
 ## Parámetros
 
-En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos que envía al destino.
+En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] que se envían al destino.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -67,8 +67,8 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
    <td colname="col2"> <p>Número entero </p> </td> 
    <td colname="col3"> <p>Identificador que indica el tipo de identificadores de dispositivo contenidos en el mensaje, en la propiedad User.DataPartner_UUID. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">ID de Android (GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID (IDFA): <code> 20915</code> </li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID (GAID): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID de iOS (IDFA): <code> 20915</code> </li>
      <li>ID de cookies/web: varía según la plataforma de destino</li>
     </ul> </td> 
   </tr> 
@@ -85,7 +85,7 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Número total de usuarios en la <code> POST</code> solicitud. </p> </td> 
+   <td colname="col3"> <p>Número total de usuarios en la solicitud <code> POST</code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -95,7 +95,7 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>El <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>El UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> El <span class="keyword"> Audience Manager</span> ID de región donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tenía alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </td> 
+   <td colname="col3"> El ID de región <span class="keyword"> Audience Manager</span> en el que hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID de región de DCS, ubicaciones y nombres de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -127,10 +127,10 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
     </ul> <p>Los usuarios no están segmentados cuando: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Se ha eliminado de un segmento según la regla de segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se ha eliminado de un segmento en función del <a href="../../../features/traits/segment-ttl-explained.md"> intervalo de tiempo de vida</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se eliminó de un segmento en función del intervalo de duración <a href="../../../features/traits/segment-ttl-explained.md"> del segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se mueve a un estado inactivo si no se han visto en los últimos 120 días. </li>
-     <li>Se ha eliminado debido a una solicitud de cambio de privacidad (por ejemplo, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Todos los ID de socio sincronizados con una <span class="keyword"> Audience Manager</span> El ID recibirá el <code> "Status":"0"</code> marcar cuando un usuario está sin segmentar. </p> </td> 
+     <li>Se eliminó debido a una solicitud de cambio de privacidad (es decir, <span class="keyword"> RGPD</span>)</li>
+    </ul> <p>Todos los identificadores de socio sincronizados con un identificador de Audience Manager <span class="keyword"> </span> recibirán el marcador <code> "Status":"0"</code> cuando un usuario no esté segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ En la tabla siguiente se definen los elementos de [!DNL JSON] archivo de datos q
 
 ## Seguridad
 
-Puede asegurar su proceso de transferencia de datos salientes en tiempo real al [firma de solicitudes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) usando claves privadas o teniendo [!DNL Audience Manager] autenticarse a través de [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocolo.
+Puede asegurar su proceso de transferencia de datos salientes en tiempo real [firmando solicitudes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) con claves privadas o haciendo que [!DNL Audience Manager] se autentique a través del protocolo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Solicitud
 

@@ -8,28 +8,28 @@ feature: Data Explorer
 exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
 # Guardar criterios de búsqueda {#save-search-criteria}
 
-Optimice los esfuerzos de búsqueda de señales guardando hasta 10 conjuntos de criterios de búsqueda para usarlos cuando los necesite y rastree en [!UICONTROL Signals Dashboard]. El Audience Manager vuelve a cargar las búsquedas guardadas cada vez que se carga el [!UICONTROL Signals Dashboard].
+Optimice los esfuerzos de búsqueda de señales guardando hasta 10 conjuntos de criterios de búsqueda para usarlos cuando los necesite y realice un seguimiento de los mismos en [!UICONTROL Signals Dashboard]. El Audience Manager vuelve a cargar las búsquedas guardadas cada vez que se carga [!UICONTROL Signals Dashboard].
 
-1. Ir a **[!UICONTROL Audience Data > Signals > Search]** y ejecute un **[!UICONTROL Signals Search]** con los pares clave-valor o los filtros que desee guardar para futuras búsquedas.
-1. Clic **[!UICONTROL Save this Search]** una vez que obtenga los resultados de búsqueda.
+1. Vaya a **[!UICONTROL Audience Data > Signals > Search]** y ejecute un **[!UICONTROL Signals Search]** con los pares clave-valor o los filtros que desee guardar para futuras búsquedas.
+1. Haga clic en **[!UICONTROL Save this Search]** una vez que obtenga los resultados de la búsqueda.
 
-   ![Resultado del paso](assets/save-search-criteria.png)
+   ![Resultado Del Paso](assets/save-search-criteria.png)
 1. Escriba un nombre sugestivo para la búsqueda, de modo que pueda identificarlo más adelante.
-1. (Opcional) Habilite la opción **[!UICONTROL Track this search result in the dashboard]** si desea que el panel de señales incluya las señales en el conjunto de búsqueda actual.
-1. Seleccione el **[!UICONTROL Default Sorting]** criterios:
+1. (Opcional) Active la opción **[!UICONTROL Track this search result in the dashboard]** si desea que el panel de señales incluya las señales en el conjunto de búsqueda actual.
+1. Seleccione los criterios de **[!UICONTROL Default Sorting]**:
    * **[!UICONTROL Total Counts]**
    * **[!UICONTROL Key Name]**
-1. Elija la **[!UICONTROL Default Sorting]** modo:
+1. Elija el modo **[!UICONTROL Default Sorting]**:
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. Haga clic **[!UICONTROL Save]**. Puede ver la búsqueda guardada en la [!UICONTROL Saved Search] y utilícelo siempre que lo necesite.
+1. Haga clic en **[!UICONTROL Save]**. Puede ver la búsqueda guardada en la sección [!UICONTROL Saved Search] y utilizarla siempre que la necesite.
 
 ![búsqueda guardada](assets/saved-search.png)
 

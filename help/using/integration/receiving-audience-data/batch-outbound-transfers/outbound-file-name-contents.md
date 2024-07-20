@@ -9,8 +9,8 @@ feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 6%
+source-wordcount: '678'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Describe los campos, sintaxis y convenciones requeridos que se utilizan para asi
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Elementos de sintaxis y nombre de archivo {#syntax-file-name}
 
@@ -54,14 +54,14 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destino. </p> <p>Entrada <span class="keyword"> Audience Manager </span>, un destino es la instancia de la integración en la que puede asignar sus segmentos objetivo. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
+   <td colname="col2"> <p>ID de destino. </p> <p>En el Audience Manager </span> de <span class="keyword">, un destino es la instancia de la integración en la que puede asignar los segmentos de destino. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>ID del proveedor de datos o fuente de datos. Este ID identifica el tipo de ID de usuario presente en el contenido del archivo. Las claves de ID de usuario más comunes son: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> ID de anunciante de Google </span> (sin procesar, sin hash) </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID para anunciantes </span> (sin procesar, sin hash) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914: <span class="keyword"> ID de anunciante de Google </span> (sin procesar, sin hash) </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">20915: <span class="keyword"> Apple ID para anunciantes </span> (sin procesar, sin hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID del proveedor - ID de usuarios de terceros (web/cookie) </li> 
      </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
   </tr> 
@@ -71,7 +71,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>El modo de sincronización es un marcador de posición de macro que agrega una etiqueta al nombre del archivo en función del tipo de sincronización. Los tipos de sincronización incluyen completa e incremental. Aparecerán en el nombre del archivo como <code> iter </code> o <code> full </code>. </p> 
+   <td colname="col2"> <p>El modo de sincronización es un marcador de posición de macro que agrega una etiqueta al nombre del archivo en función del tipo de sincronización. Los tipos de sincronización incluyen completa e incremental. Aparecerán en el nombre de archivo como <code> iter </code> o <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: indica una sincronización "iterativa" o incremental. Un archivo incremental contiene únicamente datos nuevos recopilados desde la última sincronización. </li> 
      <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: indica una sincronización "completa". Un archivo totalmente sincronizado contiene datos antiguos y cualquier dato nuevo recopilado desde la última sincronización. </li> 
@@ -96,7 +96,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
 
 ### Escenario 1
 
-Archivos enviados a un [!DNL Amazon S3] ubicación, con *`PID_ALIAS="XYZCustomer"`* y con [!DNL Google Advertiser IDs] en el contenido del archivo.
+Archivos enviados a una ubicación de [!DNL Amazon S3], con *`PID_ALIAS="XYZCustomer"`* y con [!DNL Google Advertiser IDs] en el contenido del archivo.
 
 Por ejemplo, archivos incrementales:
 
@@ -115,7 +115,7 @@ Por ejemplo, archivos completos:
 
 ### Escenario 2
 
-Archivos enviados a [!DNL FTP] ubicación, sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] en el contenido del archivo:
+Archivos enviados a la ubicación [!DNL FTP], sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] en el contenido del archivo:
 
 Por ejemplo, archivos incrementales:
 
@@ -131,7 +131,7 @@ Por ejemplo, archivos completos:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Escenario 3**: Archivos enviados a [!DNL FTP] ubicación, con *`PID_ALIAS="XYZCustomer"`* y con ID de usuario de terceros en el contenido del archivo ( *`Vendor ID=45454`*):
+**Escenario 3**: archivos enviados a la ubicación [!DNL FTP], con *`PID_ALIAS="XYZCustomer"`* y con ID de usuario de terceros en el contenido del archivo ( *`Vendor ID=45454`*):
 
 Por ejemplo, archivos incrementales:
 
@@ -156,7 +156,7 @@ Describe los campos, sintaxis y convenciones necesarios para organizar la inform
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ### Sintaxis
 
@@ -178,7 +178,7 @@ La tabla enumera las variables que definen el contenido de un archivo de datos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de usuario único asignado por <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Identificador de usuario único asignado por el Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
@@ -190,14 +190,14 @@ La tabla enumera las variables que definen el contenido de un archivo de datos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento del que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de segmentos actuales para el usuario. Normalmente, le interesa conocer los segmentos a los que pertenece un usuario en lugar de los que se les ha eliminado. Consulte también <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nombre del archivo de datos de salida: sintaxis y ejemplos </a>. </p> </td> 
+   <td colname="col2"> <p>ID del segmento del que se descalificó al usuario. Separe varios segmentos con una coma. Con una sincronización completa, puede ignorar los segmentos eliminados porque el archivo de datos contendrá la lista completa de segmentos actuales para el usuario. Normalmente, le interesa conocer los segmentos a los que pertenece un usuario en lugar de los que se les ha eliminado. Vea también <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nombre de archivo de datos de salida: Sintaxis y ejemplos </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Ejemplo: Formato de archivo básico
 
-Un archivo de datos con el formato correcto podría ser similar al siguiente ejemplo. Esta entrada de archivo indica que un usuario cumple los requisitos para los segmentos 24, 26 y 27. Si es necesario, un espacio separa la variable `UUID` ID de segmentos de y. Otro espacio separa los conjuntos de ID de segmento. En este ejemplo, un usuario pertenece a los segmentos 24, 26 y 27. Se han eliminado de los segmentos 25 y 28.
+Un archivo de datos con el formato correcto podría ser similar al siguiente ejemplo. Esta entrada de archivo indica que un usuario cumple los requisitos para los segmentos 24, 26 y 27. Si es necesario, hay un espacio entre `UUID` e ID de segmento. Otro espacio separa los conjuntos de ID de segmento. En este ejemplo, un usuario pertenece a los segmentos 24, 26 y 27. Se han eliminado de los segmentos 25 y 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28

@@ -9,8 +9,8 @@ feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->Google ha actualizado la funcionalidad de [!DNL Google Chrome] y todo [!DNL Chromium]exploradores basados en para minimizar la información recopilada mediante el `User-Agent` encabezado.
->A partir de marzo de 2023, Audience Manager admitirá estas actualizaciones aprovechando [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para seguir utilizando la información de rasgos proporcionada mediante `User-Agent` encabezado, debe utilizar [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) y habilitar [Sugerencias del cliente agente de usuario de alta entropía](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->Estas actualizaciones no son compatibles [DIL](../../../using/dil/dil-overview.md), para clientes Audience Manager que utilicen [!DNL DIL] no podrá recopilar información de rasgos mediante el `User-Agent` encabezado.
+>Google ha actualizado la funcionalidad de [!DNL Google Chrome] y de todos los exploradores basados en [!DNL Chromium] para minimizar la información recopilada mediante el encabezado `User-Agent`.
+>A partir de marzo de 2023, Audience Manager admitirá estas actualizaciones mediante [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para seguir usando la información de características proporcionada a través del encabezado `User-Agent`, debe usar [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) y habilitar [sugerencias de cliente de agente de usuario de alta entropía](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>Estas actualizaciones no son compatibles con [DIL](../../../using/dil/dil-overview.md), por lo que los clientes Audience Manager que usen [!DNL DIL] no podrán recopilar información de rasgos a través del encabezado `User-Agent`.
 
 Describe los pares clave-valor comunes a nivel de plataforma que puede utilizar para dirigirse a usuarios con variables relacionadas con dispositivos en todas las propiedades de la cuenta de Audience Manager.
 
@@ -28,11 +28,11 @@ Describe los pares clave-valor comunes a nivel de plataforma que puede utilizar 
 
 <!-- c_tb_device_targeting.xml -->
 
-Las variables de nivel de plataforma permiten tomar datos pasados desde un sitio en particular y hacer que estén disponibles para la segmentación en todas las propiedades de [!DNL Audience Manager] cuenta. Estas variables están formadas por [pares clave-valor](../../reference/key-value-pairs-explained.md) con la clave precedida por `d_` como se muestra a continuación.
+Las variables de nivel de plataforma le permiten tomar datos pasados desde un sitio en particular y hacer que estén disponibles para la segmentación en todas las propiedades de su cuenta de [!DNL Audience Manager]. Estas variables están formadas por [pares clave-valor](../../reference/key-value-pairs-explained.md) con la clave con el prefijo `d_`, como se muestra a continuación.
 
 ## Claves de nivel de plataforma definidas por el agente de usuario {#keys-user-agent}
 
-El [!UICONTROL Data Collection Servers] extraiga los valores de estas claves de [encabezado de agente de usuario](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` solicitudes. Los valores representan información a nivel de dispositivo desde el [!UICONTROL Device Atlas] base de datos. Las señales de la tabla siguiente están disponibles, tal como se extraen del ejemplo del agente de usuario. [Descargar una lista de las claves más comunes](assets/device_keys.csv), según [!UICONTROL Device Atlas] medidas.
+[!UICONTROL Data Collection Servers] extrae los valores de estas claves del [encabezado del agente de usuario](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) en `HTTP` solicitudes. Los valores representan información de nivel de dispositivo de la base de datos [!UICONTROL Device Atlas]. Las señales de la tabla siguiente están disponibles, tal como se extraen del ejemplo del agente de usuario. [Descargue una lista de las claves más comunes](assets/device_keys.csv), según las mediciones de [!UICONTROL Device Atlas].
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -50,9 +50,8 @@ El [!UICONTROL Data Collection Servers] extraiga los valores de estas claves de 
 
 >[!NOTE]
 >
->Aunque no se puedan recuperar una o más señales del encabezado del agente de usuario, las demás señales pasarán al [!UICONTROL Data Collection Servers].
+>Aunque no se puedan recuperar una o más señales del encabezado del agente de usuario, las demás señales se pasarán al [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >
 >* [Requisitos de prefijo para variables clave](../../features/traits/trait-variable-prefixes.md)
-

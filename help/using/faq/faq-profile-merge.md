@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el g
 
 <!-- profile-merge-faq.xml -->
 
-## Conceptos básicos del gráfico de dispositivos {#device-graph-basics}
+## Conceptos básicos de Device Graph {#device-graph-basics}
 
 **¿Qué es un gráfico de dispositivos?**
 
@@ -31,7 +31,7 @@ Un gráfico de dispositivo es un conjunto de asignaciones de ID que define grupo
 
 **¿Qué es un gráfico de dispositivos externos?**
 
-Un gráfico de dispositivos externos es cualquier gráfico de dispositivo en [!DNL Audience Manager] que no se haya creado exclusivamente a partir de sus fuentes de datos entre dispositivos. Por ejemplo, al crear un [Regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md) y elija las opciones de gráfico de dispositivos de terceros; está trabajando con un gráfico de dispositivos externos. Consulte [Opciones de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Un gráfico de dispositivos externos es cualquier gráfico de dispositivo en [!DNL Audience Manager] que no se haya creado exclusivamente a partir de sus fuentes de datos entre dispositivos. Por ejemplo, al crear una [regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md) y elegir las opciones de gráfico de dispositivos de terceros, está trabajando con un gráfico de dispositivos externos. Consulte [Opciones de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -265,7 +265,7 @@ A finales de 2019, publicamos una serie de mejoras en las reglas de combinación
 
 Para garantizar la correcta integración entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
-1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de perfiles debe utilizar la variable [!UICONTROL Last Authenticated Profile] , de modo que todos los perfiles autenticados se puedan incluir en las exportaciones. Si la regla de combinación de perfiles utiliza una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
+1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de perfiles debe utilizar la opción [!UICONTROL Last Authenticated Profile], de modo que todos los perfiles autenticados se puedan incluir en las exportaciones. Si la regla de combinación de perfiles usa una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
 2. Seleccione la fuente de datos de ID declarado de Adobe Campaign en la configuración de la regla de combinación de perfiles.
 
 >[!NOTE]
@@ -275,4 +275,3 @@ Para garantizar la correcta integración entre la instancia de Audience Manager 
 >[!MORELIKETHIS]
 >
 >* [Vínculo de perfil](../features/profile-merge-rules/profile-link-use-case.md)
-

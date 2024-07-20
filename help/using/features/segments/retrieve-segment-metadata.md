@@ -9,30 +9,30 @@ feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 # Recuperación de metadatos del segmento {#retrieving-segment-metadata}
 
-Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
+Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
 
 ## Método manual {#manual-method}
 
-Como socio de datos, probablemente esté acostumbrado a obtener metadatos de audiencia de sus clientes mediante procesos manuales. Esto puede incluir archivos adjuntos a correos electrónicos o de clientes que agregan esos datos a través de una [!DNL UI] ha creado y mantenido para este fin. Estos procesos funcionan, pero a menudo son engorrosos y llevan mucho tiempo, y pueden requerir el trabajo manual de introducción de datos. Estos métodos se utilizan a menudo para ayudar a poner en marcha una integración rápidamente, pero no proporcionan la mejor experiencia del cliente a largo plazo. Como alternativa, puede utilizar la variable [!DNL Audience Manager] [!DNL API] para obtener metadatos de segmentos automáticamente.
+Como socio de datos, probablemente esté acostumbrado a obtener metadatos de audiencia de sus clientes mediante procesos manuales. Esto podría incluir archivos adjuntos a correos electrónicos o de clientes que agregan esos datos a través de un(a) [!DNL UI] que ha creado y mantenido para este propósito. Estos procesos funcionan, pero a menudo son engorrosos y llevan mucho tiempo, y pueden requerir el trabajo manual de introducción de datos. Estos métodos se utilizan a menudo para ayudar a poner en marcha una integración rápidamente, pero no proporcionan la mejor experiencia del cliente a largo plazo. Como alternativa, puede usar [!DNL Audience Manager] [!DNL API] para obtener metadatos de segmentos automáticamente.
 
 ## Método automatizado {#automated-method}
 
-[!DNL Audience Manager] proporciona un conjunto de [API de REST](../../api/rest-api-main/rest-api-main.md) que le permiten recuperar metadatos de segmentos automáticamente. Con el [!DNL API], puede crear trabajos que recuperen metadatos de segmentos a intervalos programados o automáticamente, siempre que procese [!DNL Audience Manager] y buscar un nuevo ID de segmento. Consulte los pasos a continuación para obtener más información.
+[!DNL Audience Manager] proporciona un conjunto de [API de REST](../../api/rest-api-main/rest-api-main.md) que le permiten recuperar metadatos de segmento automáticamente. Con [!DNL API], puede crear trabajos que recuperen metadatos de segmentos a intervalos programados o automáticamente, siempre que procese datos de [!DNL Audience Manager] y encuentre un nuevo ID de segmento. Consulte los pasos a continuación para obtener más información.
 
 ### Paso 1: Revisión de las API de Audience Manager
 
-El [Introducción a las API de REST](../../api/rest-api-main/aam-api-getting-started.md) contiene información sobre requisitos generales, autenticación, métodos disponibles, etc. Este es un buen punto de partida si no ha trabajado con [!DNL Audience Manager] [!DNL API] antes.
+La sección [Introducción a las API de REST](../../api/rest-api-main/aam-api-getting-started.md) contiene información sobre requisitos generales, autenticación, métodos disponibles, etc. Este es un buen punto de partida si no ha trabajado anteriormente con [!DNL Audience Manager] [!DNL API].
 
 ### Paso 2: Solicitar credenciales de acceso a OAuth2
 
-Necesita un ID de cliente y un secreto para realizar [!DNL API] llamadas. Puede obtener un ID de cliente y un secreto de su especialista en integración durante el proceso de configuración de la integración. También puede enviar una solicitud por correo electrónico a [!UICONTROL Audience Manager Customer Care] en [!DNL amsupport@adobe.com].
+Necesita un ID de cliente y un secreto para realizar [!DNL API] llamadas. Puede obtener un ID de cliente y un secreto de su especialista en integración durante el proceso de configuración de la integración. También puede enviar una solicitud por correo electrónico a [!UICONTROL Audience Manager Customer Care] a las [!DNL amsupport@adobe.com].
 
 ### Paso 3: Recopilar información específica del cliente de cada cliente integrado
 
@@ -44,7 +44,7 @@ Solicite lo siguiente a cada cliente integrado:
 
 ### Paso 4: Recuperar metadatos de segmento con una llamada de API
 
-Después de completar los pasos anteriores, puede utilizar un `GET` para recuperar los metadatos del segmento. Para ver una solicitud y una respuesta de ejemplo, consulte [Devolver asignaciones de destino](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Esta llamada devuelve datos de segmento formateados como pares clave-valor en una [!DNL JSON] objeto. Algunos de los atributos de segmento importantes devueltos en la respuesta se enumeran en la siguiente tabla.
+Después de completar los pasos anteriores, puede usar un método `GET` para recuperar los metadatos del segmento. Para ver una solicitud y una respuesta de ejemplo, vea [Asignaciones de destino de retorno](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Esta llamada devuelve datos de segmento formateados como pares clave-valor en un objeto [!DNL JSON]. Algunos de los atributos de segmento importantes devueltos en la respuesta se enumeran en la siguiente tabla.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -56,7 +56,7 @@ Después de completar los pasos anteriores, puede utilizar un `GET` para recuper
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>El <span class="keyword"> Audience Manager</span> ID del segmento. </p> </td> 
+   <td colname="col2"> <p>El identificador de segmento <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 

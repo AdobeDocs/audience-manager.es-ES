@@ -10,7 +10,7 @@ exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Describe los efectos en los usuarios, datos y destinos segmentados cuando se pon
 
 ## Acceso a los controles de pausa y eliminación
 
-Pase el ratón sobre un nombre de segmento en la lista de segmentos para ver el **[!UICONTROL pause]** y **[!UICONTROL delete]** iconos (en el [!UICONTROL Actions] columna). Estas funciones afectan a los segmentos como se describe a continuación.
+Pase el ratón sobre un nombre de segmento en la lista de segmentos para ver los iconos **[!UICONTROL pause]** y **[!UICONTROL delete]** (en la columna [!UICONTROL Actions]). Estas funciones afectan a los segmentos como se describe a continuación.
 
 ## Funcionalidad de segmento en pausa
 
@@ -45,4 +45,4 @@ Un segmento eliminado:
 
 >[!NOTE]
 >
->También puede pausar y eliminar segmentos mediante una [!DNL API] método. Para obtener más información, consulte [API de REST](../../api/rest-api-main/rest-api-main.md).
+>También puede pausar y eliminar segmentos mediante un método [!DNL API]. Para obtener más información, consulte [API de REST](../../api/rest-api-main/rest-api-main.md).

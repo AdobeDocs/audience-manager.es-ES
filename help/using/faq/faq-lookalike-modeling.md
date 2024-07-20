@@ -8,7 +8,7 @@ feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
 source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Este artículo proporciona respuestas a las preguntas más frecuentes acerca de 
 
 ## Preguntas {#questions}
 
-**¿Por qué tengo un piso? [!UICONTROL Accuracy & Reach] ¿Gráfica?**
+**¿Por qué obtengo un gráfico [!UICONTROL Accuracy & Reach] plano?**
 
-Un piso [!UICONTROL Accuracy & Reach] El gráfico significa que casi todos los usuarios recibieron la misma puntuación por parte del modelo. Esto puede suceder cuando se incluye el rasgo de visitante del sitio en las fuentes de datos en las que se ejecutó el modelo. Para evitarlo, quite el rasgo genérico de la entrada del modelo durante el paso de creación del modelo utilizando [!UICONTROL Exclusions] field.
+Un gráfico plano de [!UICONTROL Accuracy & Reach] significa que casi todos los usuarios recibieron la misma puntuación por parte del modelo. Esto puede suceder cuando se incluye el rasgo de visitante del sitio en las fuentes de datos en las que se ejecutó el modelo. Para evitarlo, quite el rasgo genérico de la entrada del modelo durante el paso de creación del modelo, utilizando el campo [!UICONTROL Exclusions].
 
  
 
@@ -53,11 +53,11 @@ Unos pocos miles de usuarios deberían ser suficientes para ejecutar el modelo, 
 
 **¿Qué fuentes de datos de terceros debo elegir para mi modelo?**
 
-Utilice fuentes de datos que tengan al menos alguna superposición con el rasgo o segmento de línea de base, pero que, al mismo tiempo, traigan usuarios adicionales. También debe tener en cuenta el coste asociado a cada fuente de datos. Los modelos de costes y precios varían entre los proveedores de datos en [!UICONTROL Audience Marketplace].
+Utilice fuentes de datos que tengan al menos alguna superposición con el rasgo o segmento de línea de base, pero que, al mismo tiempo, traigan usuarios adicionales. También debe tener en cuenta el coste asociado a cada fuente de datos. Los modelos de costos y precios varían entre los proveedores de datos de [!UICONTROL Audience Marketplace].
 
  
 
-**¿Es costoso utilizar datos de terceros para modelar?**
+**¿Es costoso utilizar datos de terceros para el modelado?**
 
 Depende del modelo de precios de la fuente de datos seleccionada. Algunas fuentes permiten el modelado sin costo alguno, mientras que otras le cobran una tarifa. Consulte [Facturación para compradores de fuentes de datos](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) para obtener más información.
 

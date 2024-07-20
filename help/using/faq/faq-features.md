@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -47,9 +47,9 @@ Sí. Consulte [Herramientas de administración masiva](../reference/bulk-managem
 
  
 
-**Al realizar una exportación masiva de ID a un destino, faltan algunos de los ID de cliente. ¿Por qué ocurre eso?**
+**Al realizar una exportación masiva de ID a un destino, faltan algunos de los ID de cliente. ¿Por qué ocurre esto?**
 
-Cuando un ID de dispositivo ([AAM UUID DE USUARIO](../reference/ids-in-aam.md)) está vinculado a varios ID de CRM ([DPUUID](../reference/ids-in-aam.md)), solo se exporta la asignación más reciente. Por este motivo, es posible que vea un número de ID de dispositivo exportados inferior al esperado.
+AAM Cuando un ID de dispositivo ([UUID de UUID](../reference/ids-in-aam.md)) está vinculado a varios ID de CRM ([DPUUID](../reference/ids-in-aam.md)), solo se exporta la asignación más reciente. Por este motivo, es posible que vea un número de ID de dispositivo exportados inferior al esperado.
 
  
 

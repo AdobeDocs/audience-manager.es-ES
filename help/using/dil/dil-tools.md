@@ -3,28 +3,28 @@ description: Describe los métodos del espacio de nombres DIL.tools. Estas funci
 seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 seo-title: DIL Tools
 solution: Audience Manager
-title: Herramientas DIL
+title: Herramientas de DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
-# Herramientas DIL
+# Herramientas de DIL
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo del [!DNL Data Integration Library (DIL)] y el [!DNL DIL] extensión.
+>A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir utilizando su [!DNL DIL] implementación. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
 >
 >Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
-Describe los métodos en la `DIL.tools` namespace. Estas funciones de utilidad le ayudan a realizar tareas específicas.
+Describe los métodos en el espacio de nombres `DIL.tools`. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
 <!-- 
 
@@ -42,9 +42,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Finalidad de `getSearchReferrer`
+### Propósito de `getSearchReferrer`
 
-En DIL, `getSearchReferrer` devuelve los resultados de la búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o dejarla buscar en los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], y [!DNL Yahoo]) en contra `document.referrer` de forma predeterminada.
+En DIL, `getSearchReferrer` devuelve los resultados de búsqueda (nombres y palabras clave) utilizados para llegar al sitio. Puede pasar términos de búsqueda específicos a esta función o dejarla buscar en los motores de búsqueda admitidos ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] y [!DNL Yahoo]) con `document.referrer` de forma predeterminada.
 
 ### Firma de función
 
@@ -54,12 +54,12 @@ Firma de función: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` acepta:
 
-* *`{string}`*: *(Opcional)* Una cadena que contiene la dirección URL de búsqueda (utiliza `document.referrer` si no está definido).
-* *`{object}`*: *(Opcional)* Un objeto que contiene la configuración de `hostPattern`, `queryParam`, o `queryPattern`.
+* *`{string}`*: *(opcional)* Una cadena que contiene la dirección URL de búsqueda (utiliza `document.referrer` si no está definido).
+* *`{object}`*: *(Opcional)* Un objeto que contiene la configuración de `hostPattern`, `queryParam` o `queryPattern`.
 
 Y devuelve:
 
-* `{object}` Objeto que contiene nombres y palabras clave válidos.
+* `{object}` Un objeto que contiene nombres y palabras clave válidos.
 
 ### Ejemplos
 
@@ -90,7 +90,7 @@ Y devuelve:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Hacer coincidir el nombre de host de la URL con una expresión regular personalizada</b></td> 
+   <td> <b>Asignar nombre de host de URL con una expresión regular personalizada</b></td> 
    <td> Pase una regex personalizada para que coincida con el nombre de host de la dirección URL de referencia. </td> 
    <td> 
   <code>
@@ -121,7 +121,7 @@ Y devuelve:
 
 ## decomposeURI
 
-Desensambla un identificador uniforme de recursos ( [!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, y `[!DNL uriParams]`.
+Desensambla un identificador uniforme de recursos ([!DNL URI]) en sus componentes constitutivos: `hash`, `host`, `href`, `pathname`, `protocol`, `search` y `[!DNL uriParams]`.
 
 <!-- 
 
@@ -135,11 +135,11 @@ Firma de función: `DIL.tools.decomposeURI`
 
 `decomposeURI` acepta:
 
-* *`uri {string}`*: *(Opcional)* Cadena que contiene el URI. El valor predeterminado es `document.location.href` si no se especifica.
+* *`uri {string}`*: *(Opcional)* Una cadena que contiene el URI. Si no se especifica nada, el valor predeterminado es `document.location.href`.
 
 Y devuelve:
 
-* *`{object}`*: Un objeto que contiene nombres y palabras clave válidos.
+* *`{object}`*: objeto que contiene nombres y palabras clave válidos.
 
 ### Código de muestra
 
@@ -177,7 +177,7 @@ Firma de función: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Parámetros de función
 
-`getMetaTags` acepta uno o más parámetros de nombre (tipo de cadena) para buscar. Devuelve un objeto compuesto de pares clave-valor.
+`getMetaTags` acepta uno o más parámetros de nombre (tipo de cadena) para la búsqueda. Devuelve un objeto compuesto de pares clave-valor.
 
 ### Código de muestra
 

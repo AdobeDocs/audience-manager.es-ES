@@ -9,26 +9,26 @@ feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
 # Señales derivadas {#derived-signals}
 
-A [!UICONTROL derived signal] califica a los visitantes del sitio para rasgos adicionales en función de un rasgo que ya han visto. En otras palabras, la clasificación de rasgos adicional se puede derivar de un rasgo mostrado actualmente, incluso si un usuario nunca ha visto el nuevo rasgo antes.
+Un [!UICONTROL derived signal] clasifica a los visitantes del sitio para rasgos adicionales basados en un rasgo que ya han visto. En otras palabras, la clasificación de rasgos adicional se puede derivar de un rasgo mostrado actualmente, incluso si un usuario nunca ha visto el nuevo rasgo antes.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Objetivo de las señales derivadas
 
-Entrada [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de rasgos) pasadas durante una llamada de evento a otras señales o rasgos especificados. Por ejemplo, supongamos que una llamada de evento pasa una señal compuesta por la clave-valor [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otra creada con el [!UICONTROL derived signals] herramienta. Aunque las señales asociadas pueden ser cualquier valor clave especificado, son más útiles cuando se vinculan a señales existentes ya configuradas como [!UICONTROL Trait Builder] reglas. Por ejemplo, en la siguiente ilustración, cuando una acción del usuario activa la señal [!DNL "product = new car"] ese usuario también puede cumplir los requisitos para los rasgos definidos por las señales de clave y valor de target.
+En [!DNL Audience Manager], puede crear una relación entre las señales (o reglas de rasgos) pasadas durante una llamada de evento a otras señales o rasgos especificados. Por ejemplo, supongamos que una llamada de evento pasa una señal compuesta por el valor clave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaría esa señal a cualquier otra creada con la herramienta [!UICONTROL derived signals]. Aunque las señales asociadas pueden ser cualquier clave-valor que especifique, son más útiles cuando se vinculan a señales existentes ya configuradas como reglas de [!UICONTROL Trait Builder]. Por ejemplo, en la ilustración siguiente, cuando una acción del usuario activa la señal [!DNL "product = new car"], ese usuario también puede cumplir los requisitos para los rasgos definidos por las señales de clave y valor de destino.
 
 ![](assets/derived_signal_example.png)
 
 ## Ubicación de señales derivadas
 
-Crear y administrar [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** en la barra lateral de navegación.
+Crear y administrar [!UICONTROL derived signals] en **[!UICONTROL Tools > Derived Signals]** desde la barra lateral de navegación.
 
 ## Crear una señal derivada {#create}
 
@@ -36,30 +36,30 @@ Crear y administrar [!UICONTROL derived signals] in **[!UICONTROL Tools > Derive
 
 Para crear un [!UICONTROL derived signal]:
 
-1. Seleccionar **[!UICONTROL Derived Signals]** desde el [!UICONTROL Tools] menú.
+1. Seleccione **[!UICONTROL Derived Signals]** del menú [!UICONTROL Tools].
 1. Proporcione un:
    * *(Opcional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
    * [!UICONTROL Target Value]
-1. Haga clic **[!UICONTROL Add Signal]**.
+1. Haga clic en **[!UICONTROL Add Signal]**.
 
 >[!NOTE]
 >
->El límite de caracteres del [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key], y [!UICONTROL Target Value] tiene 228 caracteres.
+>El límite de caracteres para los campos [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key] y [!UICONTROL Target Value] es de 228 caracteres.
 
 ## Editar una señal derivada {#edit}
 
 <!-- t_tb_edit_derived.xml -->
 
-Para editar una [!UICONTROL derived signal]:
+Para editar [!UICONTROL derived signal]:
 
-1. Pase el ratón sobre la señal y haga clic en **[!UICONTROL Edit]**.
-2. Realice los cambios necesarios en el código, la clave o el valor y haga clic en **[!UICONTROL Save]**.
+1. Pase el ratón sobre la señal y luego haga clic en **[!UICONTROL Edit]**.
+2. Realice los cambios de código, clave o valor necesarios y, a continuación, haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar una señal derivada {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 
-Para eliminar una [!UICONTROL derived signal], pase el ratón sobre la señal y haga clic en **[!UICONTROL Delete]**.
+Para eliminar un(a) [!UICONTROL derived signal], pase el ratón sobre la señal y haga clic en **[!UICONTROL Delete]**.

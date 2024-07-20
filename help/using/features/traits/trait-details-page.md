@@ -10,79 +10,79 @@ feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Trait] Página de detalles {#trait-details-page}
+# Página de detalles de [!UICONTROL Trait] {#trait-details-page}
 
-La página de detalles de un individuo [!UICONTROL trait] ofrece información general sobre [!UICONTROL trait] detalles, como la [!UICONTROL trait] nombre, ID, métricas de rendimiento y expresiones que definen el [!UICONTROL trait], segmentos a los que pertenece y [!UICONTROL trait] registro de auditoría. Para ver estos detalles, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** y haga clic en el nombre del [!UICONTROL trait] desea trabajar con.
+La página de detalles de un(a) [!UICONTROL trait] individual(a) proporciona una descripción general de los detalles de [!UICONTROL trait], como el nombre de [!UICONTROL trait], el identificador, las métricas de rendimiento, las expresiones que definen a [!UICONTROL trait], los segmentos a los que pertenece y el registro de auditoría [!UICONTROL trait]. Para ver estos detalles, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** y haga clic en el nombre del [!UICONTROL trait] con el que desea trabajar.
 
-## [!UICONTROL Trait] Herramientas de administración {#trait-management-tools}
+## Herramientas de administración de [!UICONTROL Trait] {#trait-management-tools}
 
-La parte superior de la [!UICONTROL trait] página de detalles aloja las herramientas que puede utilizar para administrar sus [!UICONTROL traits]:
+La parte superior de la página de detalles de [!UICONTROL trait] contiene las herramientas que puede usar para administrar su [!UICONTROL traits]:
 
-1. **[!UICONTROL Add New]**: utilice esta opción para crear nuevas [!UICONTROL rule-based], [!UICONTROL algorithmic], o [!UICONTROL onboarded traits].
-2. **[!UICONTROL Edit]**: utilice esta opción para cambiar la configuración del actual [!UICONTROL trait].
-3. **[!UICONTROL Delete]**: utilice esta opción para eliminar el actual [!UICONTROL trait] desde su cuenta de Audience Manager.
-4. **[!UICONTROL Marketplace Recommendations]**: utilice esta opción para buscar elementos similares [!UICONTROL traits] a la que estás viendo, desde [!UICONTROL Audience Marketplace] tarifas de datos a las que no está suscrito. Consulte [Audience Marketplace para compradores de datos](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para aprender a desplazarse por el [!UICONTROL Marketplace] y buscar rasgos similares.
+1. **[!UICONTROL Add New]**: utilice esta opción para crear [!UICONTROL rule-based], [!UICONTROL algorithmic] o [!UICONTROL onboarded traits] nuevos.
+2. **[!UICONTROL Edit]**: utilice esta opción para cambiar la configuración del [!UICONTROL trait] actual.
+3. **[!UICONTROL Delete]**: utilice esta opción para eliminar el(la) [!UICONTROL trait] actual(a) de su cuenta de Audience Manager.
+4. **[!UICONTROL Marketplace Recommendations]**: usa esta opción para encontrar [!UICONTROL traits] similares al que estás viendo, a partir de [!UICONTROL Audience Marketplace] tarifas de datos a las que no estás suscrito. Consulte a [Audience Marketplace de compradores de datos](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para obtener información sobre cómo navegar por [!UICONTROL Marketplace] y encontrar características similares.
 
-![basic-trait-information](assets/basic-trait-information.png)
+![información-rasgos-básicos](assets/basic-trait-information.png)
 
-## [!UICONTROL Trait] Información {#basics}
+## Información de [!UICONTROL Trait] {#basics}
 
-El [!UICONTROL Trait Information] Esta sección muestra detalles sobre los campos obligatorios y opcionales que ha completado al crear el [!UICONTROL trait]. Esto incluye cosas como [!UICONTROL trait] tipo, [!UICONTROL trait] ID, descripción, [!UICONTROL data source]y otros metadatos. Estos detalles varían en función de [!UICONTROL trait] type ([!UICONTROL folder], [!UICONTROL onboarded], o [!UICONTROL rule-based]).
+La sección [!UICONTROL Trait Information] muestra detalles acerca de los campos obligatorios y opcionales que completó al generar [!UICONTROL trait]. Esto incluye elementos como el tipo [!UICONTROL trait], el identificador [!UICONTROL trait], la descripción, [!UICONTROL data source] y otros metadatos. Estos detalles varían según el tipo [!UICONTROL trait] ([!UICONTROL folder], [!UICONTROL onboarded] o [!UICONTROL rule-based]).
 
 ## [!UICONTROL Trait Graph] {#trait-graph}
 
-El [!UICONTROL Trait Graph] proporciona métricas de rendimiento de un vistazo para el [!UICONTROL trait]. Mantenga el cursor sobre una línea de tendencia para ver datos adicionales del [!UICONTROL trait].
+[!UICONTROL Trait Graph] proporciona métricas de rendimiento de un vistazo para los [!UICONTROL trait] seleccionados. Mantenga el cursor sobre una línea de tendencia para ver datos adicionales de la [!UICONTROL trait] seleccionada.
 
-[!UICONTROL Unique Trait Realizations] representan un recuento de usuarios únicos que agregaron esto [!UICONTROL trait] a su perfil durante el intervalo de tiempo dado. El [!UICONTROL Total Trait Population] indica el número de usuarios únicos cualificados actualmente para esto [!UICONTROL trait].
+[!UICONTROL Unique Trait Realizations] representan un recuento de usuarios únicos que agregaron este(a) [!UICONTROL trait] a su perfil durante el intervalo de tiempo dado. [!UICONTROL Total Trait Population] indica la cantidad de usuarios únicos calificados actualmente para este(a) [!UICONTROL trait].
 
-Para [!UICONTROL rule-based traits], [!UICONTROL trait] La calificación de se produce en tiempo real, ya que los usuarios cumplen los requisitos para una [!UICONTROL trait] en su explorador.
+Para [!UICONTROL rule-based traits], la calificación de [!UICONTROL trait] se produce en tiempo real, ya que los usuarios cumplen los requisitos para [!UICONTROL trait] en su explorador.
 
-Para [!UICONTROL onboarded traits], [!UICONTROL trait] la calificación se produce después de procesar un archivo entrante, es decir, cuando el archivo entrante es [introducido en el Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es entonces cuando el [!UICONTROL trait] la calificación se produce.
+Para [!UICONTROL onboarded traits], la calificación de [!UICONTROL trait] se produce después de procesar un archivo entrante, es decir, el archivo entrante es [introducido en el Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es entonces cuando se produce la calificación de [!UICONTROL trait].
 
-El [!UICONTROL Trait Graph] muestra la siguiente información:
+[!UICONTROL Trait Graph] le muestra la siguiente información:
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que recopilan datos para perfiles autenticados. Al seleccionar esta opción, solo se ven datos en la [!UICONTROL Cross-Device ID] informe, y no habrá datos presentes en el [!UICONTROL Device ID] informe.
-   * **[!UICONTROL Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que recopilan datos para perfiles de dispositivos. Al seleccionar esta opción, solo se ven datos en la [!UICONTROL Device ID] informe, y no habrá datos presentes en el [!UICONTROL Cross-Device ID] informe.
+   * **[!UICONTROL Cross-Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles autenticados. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Cross-Device ID], y no habrá datos presentes en el informe [!UICONTROL Device ID].
+   * **[!UICONTROL Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles de dispositivo. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Device ID], y no habrá datos presentes en el informe [!UICONTROL Cross-Device ID].
 
-      ![gráfico de rasgos](assets/trait-summary.gif)
+     ![gráfico de rasgos](assets/trait-summary.gif)
 
-* **[!UICONTROL Unique Trait Realizations]**: un recuento de usuarios únicos que agregaron esto [!UICONTROL trait] a su perfil durante el intervalo de tiempo dado.
-* **[!UICONTROL Total Trait Population]**: el número de usuarios únicos cualificados actualmente para esto [!UICONTROL trait].
+* **[!UICONTROL Unique Trait Realizations]**: un recuento de usuarios únicos que agregaron este(a) [!UICONTROL trait] a su perfil durante el intervalo de tiempo especificado.
+* **[!UICONTROL Total Trait Population]**: número de usuarios únicos cualificados actualmente para este(a) [!UICONTROL trait].
 
-* **[!UICONTROL Identity Type Breakdown]**: las tres primeras entradas muestran las tres principales [!UICONTROL cross-device data sources] con el recuento de población más alto que cumplen los requisitos para la [!UICONTROL trait], en orden descendente. La cuarta entrada muestra la suma de todas las demás [!DNL DPUUIDs] ([!DNL CRM IDs]) que cumplen los requisitos para la [!UICONTROL trait], desde el [!UICONTROL cross-device data sources] que no están entre los tres primeros. Este informe solo aparece si selecciona [!UICONTROL Cross-device ID] en el [!UICONTROL Show Results By] menú desplegable en la parte superior derecha de la página. La opción desplegable predeterminada es [!UICONTROL Device ID], donde no se muestra este informe.
+* **[!UICONTROL Identity Type Breakdown]**: las tres primeras entradas muestran las tres [!UICONTROL cross-device data sources] principales con el mayor recuento de población que cumplen los requisitos para [!UICONTROL trait], en orden descendente. La cuarta entrada muestra la suma de todos los otros [!DNL DPUUIDs] ([!DNL CRM IDs]) que cumplen los requisitos para [!UICONTROL trait], de los [!UICONTROL cross-device data sources] que no están entre los tres primeros. Este informe solo aparece si selecciona [!UICONTROL Cross-device ID] en el menú desplegable [!UICONTROL Show Results By] en la parte superior derecha de la página. La opción desplegable predeterminada es [!UICONTROL Device ID], donde no se muestra este informe.
 
-   ![gráfico de rasgos](assets/trait-identity.png)
+  ![gráfico de rasgos](assets/trait-identity.png)
 
-   >[!NOTE]
-   >
-   >El Audience Manager solo muestra la variable [!UICONTROL Identity Type Breakdown] informar si tiene [!UICONTROL cross-device] ID cualificados para [!UICONTROL trait].
+  >[!NOTE]
+  >
+  >El Audience Manager solo muestra el informe [!UICONTROL Identity Type Breakdown] si cuenta con [!UICONTROL cross-device] ID calificados para [!UICONTROL trait].
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
-## [!UICONTROL Trait] Expresión {#trait-expression}
+## Expresión [!UICONTROL Trait] {#trait-expression}
 
-El [!UICONTROL Trait Expression] Esta sección muestra los criterios que los usuarios deben cumplir para poder optar a la [!UICONTROL trait]. Estas reglas se establecen cuando [crear o editar una característica](../../features/traits/about-trait-builder.md).
+La sección [!UICONTROL Trait Expression] le muestra los criterios que los usuarios deben cumplir para poder optar a [!UICONTROL trait]. Estas reglas se establecen cuando [crea o edita un rasgo](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait]Segmentos  {#trait-segments}
+## [!UICONTROL Trait] Segmentos {#trait-segments}
 
-El [!UICONTROL Segments with this Trait] enumera todos los segmentos seleccionados [!UICONTROL trait] pertenece a. Puede hacer clic en un nombre de segmento para ver detalles sobre ese segmento.
+La sección [!UICONTROL Segments with this Trait] enumera todos los segmentos a los que pertenece el [!UICONTROL trait] seleccionado. Puede hacer clic en un nombre de segmento para ver detalles sobre ese segmento.
 
 ![](assets/traitSegments.png)
 
 ## [!UICONTROL Trait] Registro de auditoría/historial {#trait-audit-history}
 
-Para [!UICONTROL rule-based] y [!UICONTROL onboarded traits], el [!UICONTROL Trait Expression Change History] muestra los últimos 10 cambios realizados en [!UICONTROL trait] reglas de expresión y quién las creó. Si su [!UICONTROL trait] tiene más de 10 cambios, haga clic en **[!UICONTROL Export to CSV]** para descargar todo el registro de auditoría. El registro de auditoría no está disponible para [!UICONTROL folder] o [!UICONTROL algorithmic traits].
+Para [!UICONTROL rule-based] y [!UICONTROL onboarded traits], [!UICONTROL Trait Expression Change History] muestra los últimos 10 cambios realizados en las reglas de expresión de [!UICONTROL trait] y quién los realizó. Si su [!UICONTROL trait] tiene más de 10 cambios, haga clic en **[!UICONTROL Export to CSV]** para descargar todo el registro de auditoría. El registro de auditoría no está disponible para [!UICONTROL folder] o [!UICONTROL algorithmic traits].
 
 >[!NOTE]
 >
->[!UICONTROL Not Available] en el [!UICONTROL By User] columna significa que se ha eliminado la cuenta de ese usuario.
+>[!UICONTROL Not Available] en la columna [!UICONTROL By User] significa que la cuenta de ese usuario se ha eliminado.
 
 ![](assets/traitHistory.png)

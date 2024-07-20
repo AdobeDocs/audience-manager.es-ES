@@ -1,5 +1,5 @@
 ---
-description: Un informe general devuelve datos sobre el rendimiento de los rasgos, los segmentos y los destinos.
+description: Un informe General devuelve datos de rendimiento sobre características, segmentos y destinos.
 seo-description: A General report in Audience Manager returns performance data on traits, segments, and destinations.
 seo-title: General Reports in Audience Manager
 solution: Audience Manager
@@ -9,14 +9,14 @@ feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 1%
+source-wordcount: '860'
+ht-degree: 0%
 
 ---
 
 # Informes generales{#general-reports}
 
-Un [!UICONTROL General] Informe devuelve datos sobre el rendimiento de los rasgos, los segmentos y los destinos.
+Un informe de [!UICONTROL General] devuelve datos de rendimiento sobre características, segmentos y destinos.
 
 ## Información general {#general-reports-overview}
 
@@ -26,18 +26,18 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] utiliza [!UICONTROL Role Based Access Control] ( [!UICONTROL RBAC] ) para ampliar los permisos de grupo usuario a los [!UICONTROL General] informes. Los usuarios solo pueden ver esos rasgos y segmentos en sistema de informes que tienen permisos para vista. [!UICONTROL RBAC] funcionalidad permite controlar qué equipos internos de datos sistema de informes pueden vista. Por ejemplo, una agencia que gestiona diferentes anunciante cuentas puede configurar los permisos usuario grupo de modo que un equipo que administra el cuenta del anunciante A no pueda ver los datos de sistema de informes del anunciante B.
+[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para extender permisos de grupos de usuarios a los informes de [!UICONTROL General]. Los usuarios solo pueden ver los rasgos y segmentos de los informes para los que tienen permisos de visualización. La funcionalidad [!UICONTROL RBAC] permite controlar qué datos de informes pueden ver los equipos internos. Por ejemplo, una agencia que administra diferentes cuentas de anunciante puede configurar permisos de grupos de usuarios para que un equipo que administra la cuenta del anunciante A no pueda ver los datos de informes del anunciante B.
 
-Ejecute un [!UICONTROL General] Informe cuando necesite:
+Ejecute un informe [!UICONTROL General] cuando necesite:
 
 * Revise el rendimiento por rasgo, segmento o destino.
-* Seguimiento de impresiones (totales y únicas) a intervalos de 1, 7, 14, 30, 60 y 90 días.
+* Rastree impresiones (totales y únicas) en intervalos de 1, 7, 14, 30, 60 y 90 días.
 * Revise los recuentos de carga totales y únicos.
 * Comparar el rendimiento de rasgos y segmentos.
 * Identifique segmentos y rasgos de rendimiento sólidos o deficientes, analice la demanda o compare datos de carga o activación con informes de terceros.
 * Exporte datos (formato .csv) para su análisis y uso compartido adicionales.
 
-La siguiente ilustración proporciona información general de alto nivel sobre los elementos clave de la [!UICONTROL General] informe.
+La siguiente ilustración proporciona información general de alto nivel sobre los elementos clave del informe [!UICONTROL General].
 
 ![](assets/general_reports.png)
 
@@ -45,15 +45,15 @@ La siguiente ilustración proporciona información general de alto nivel sobre l
 
    * **Tipo de informe:** Seleccione el tipo de informe deseado (rasgo, segmento o destino).
 
-   * **Para Fechas Hasta:** Especifique el intervalo de fechas para el informe.
+   * **Para fechas hasta:** Especifique el intervalo de fechas para el informe.
 
 2. Busque un rasgo, segmento o destino por nombre o ID.
-3. En la lista de carpetas, arrastre y suelte los rasgos, segmentos o destinos que desee incluir en el informe [!UICONTROL Selections] panel en el lado derecho.
+3. En la lista de carpetas, arrastre y suelte los rasgos, segmentos o destinos que desee incluir en el informe en el panel [!UICONTROL Selections], en el lado derecho.
 4. Genere el informe para mostrarlo en una tabla exportable.
 
 ## Ejecutar un informe general {#run-general-report}
 
-En esta sección se describe cómo ejecutar un [!UICONTROL General] Informe y establecer el tiempo y otras opciones de rendimiento.
+En esta sección se describe cómo ejecutar un informe de [!UICONTROL General] y establecer la hora y otras opciones de rendimiento.
 
 <!-- 
 
@@ -61,37 +61,37 @@ t_run_general_report.xml
 
  -->
 
-1. En la **[!UICONTROL Analytics]** panel, haga clic en **[!UICONTROL General Reports]** .
-1. Desde el **[!UICONTROL Report Type]** , seleccione el tipo que desee: Rasgo, Segmento o Destino.
-1. *Condicional* Haga clic en el cuadro de fecha para mostrar un calendario y, a continuación, seleccione la fecha de finalización del informe si desea especificar una fecha distinta a la de hoy.
-1. Search para una característica, segmento o destino por nombre o ID.
-1. Desde la lista de la carpeta, arrastre y suelte las características, los segmentos o los destinos que desee incluir en el [!UICONTROL Selections] panel del lado derecho.
-1. Haga clic **[!UICONTROL Run Report]**.
+1. En el panel **[!UICONTROL Analytics]**, haga clic en **[!UICONTROL General Reports]**.
+1. En la lista desplegable **[!UICONTROL Report Type]**, seleccione el tipo que desee: Rasgo, Segmento o Destino.
+1. *Condicional* Haga clic en el cuadro de fecha para mostrar un calendario y, a continuación, seleccione la fecha de finalización del informe si desea especificar una fecha distinta de hoy.
+1. Busque un rasgo, segmento o destino por nombre o ID.
+1. En la lista de carpetas, arrastre y suelte los rasgos, segmentos o destinos que desee incluir en el informe en el panel [!UICONTROL Selections], en el lado derecho.
+1. Haga clic en **[!UICONTROL Run Report]**.
 
-   Los resultados se muestran en una tabla exportable. Haga clic en los encabezados de columna para ordenar los resultados en orden ascendente o de bajada.
-1. Seleccione la opción que desee botón en la parte superior del informe para filtrar los datos por rendimiento ( [!UICONTROL Unique Trait Realizations] , [!UICONTROL Total Trait Realizations] o [!UICONTROL Total Trait Population] ) o por tiempo (1, 7, 14, 30, 60 o 90 de día).
+   Los resultados se muestran en una tabla exportable. Haga clic en los encabezados de columna para ordenar los resultados en orden ascendente o descendente.
+1. Seleccione el botón de opción que desee en la parte superior del informe para filtrar los datos por rendimiento ([!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] o [!UICONTROL Total Trait Population]) o por tiempo (intervalo de 1, 7, 14, 30, 60 o 90 días).
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] se calculan para [!UICONTROL Rule-based Traits] solo.
+   >[!UICONTROL Total Trait Realizations] solo se han calculado para [!UICONTROL Rule-based Traits].
 
-1. *Opcional* Clic **[!UICONTROL Export to CSV]**. Esto exporta el [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], y [!UICONTROL Total Trait Population] para todos los intervalos de días.
+1. *Opcional* Haga Clic En **[!UICONTROL Export to CSV]**. Esto exporta [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] y [!UICONTROL Total Trait Population] para todos los intervalos de días.
 
 ## Resultados de informes generales explicados {#general-reports-explained}
 
-Los números del [!UICONTROL General Reports] se generan directamente a partir de [!UICONTROL User Profile Store]. Los resultados reflejan la cantidad de usuarios que [!DNL Audience Manager] contenido en el servidor en el momento en que se generaron estos números de informes.
+Los números del [!UICONTROL General Reports] se generan directamente a partir de nuestro [!UICONTROL User Profile Store]. Los resultados reflejan el número de usuarios que [!DNL Audience Manager] contenían en el backend en el momento en que se generaron estos números de informe.
 
 * Estos números no incluyen los ID de visitante con tráfico excesivo. El tráfico de los bots se filtra antes de llegar a nuestro sistema back-end. Además, parte del tráfico de bots se descarta durante una ejecución semanal de trabajo de limpieza en el backend.
-* Si incorpora datos mediante procesamiento entrante con la clave desactivada en la [!DNL Audience Manager] UUID, y estos ID incluyen usuarios que ya no están activos en nuestro sistema, estos inactivos [!DNL Audience Manager] Los UUID nunca llegan a [!UICONTROL User Profile Store] y no se incluyen en los informes.
-* [!UICONTROL Total Trait Realizations] se calculan para [!UICONTROL Rule-based Traits] solo.
+* Si ha incorporado datos a través del procesamiento entrante con la clave del UUID [!DNL Audience Manager] y estos ID incluyen a usuarios que ya no están activos en nuestro sistema, estos UUID [!DNL Audience Manager] inactivos nunca llegan a [!UICONTROL User Profile Store] y no se informa de ellos.
+* [!UICONTROL Total Trait Realizations] solo se han calculado para [!UICONTROL Rule-based Traits].
 
 ## Resultados de informes generales para características {#general-report-results-traits}
 
-Los filtros siguientes están disponibles cuando se ejecuta un informe General y se selecciona **[!UICONTROL Trait]** como el tipo de informe.
+Los filtros siguientes están disponibles cuando ejecuta un informe General y selecciona **[!UICONTROL Trait]** como tipo de informe.
 
-Al filtrar los resultados por [!UICONTROL Device ID] :
+Al filtrar los resultados por [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] es el número de visitantes de su dispositivo anónimo que han añadido el rasgo a su perfil en el intervalo de tiempo seleccionado.
+* [!UICONTROL Unique Trait Realizations] es el número de visitantes de su dispositivo anónimo que agregaron el rasgo a su perfil dentro del intervalo de tiempo seleccionado.
 * [!UICONTROL Total Trait Realization] es el número total de realizaciones de rasgos anónimas dentro del intervalo de tiempo seleccionado.
 * [!UICONTROL Total Trait Population] es el número de visitantes de su dispositivo anónimo que tienen este rasgo en su perfil.
 
@@ -99,8 +99,8 @@ Al filtrar los resultados por [!UICONTROL Device ID] :
 
 Al filtrar los resultados por [!UICONTROL Cross-Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] es el número de visitantes autenticados que han agregado el rasgo a su perfil, dentro del intervalo de tiempo seleccionado.
-* [!UICONTROL Total Trait Realization] es el número total de realizaciones de rasgos autenticadas dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Unique Trait Realizations] es el número de visitantes autenticados que agregaron el rasgo a su perfil, dentro del intervalo de tiempo seleccionado.
+* [!UICONTROL Total Trait Realization] es el número total de realizaciones de rasgos autenticados dentro del intervalo de tiempo seleccionado.
 * [!UICONTROL Total Trait Population] es el número de los visitantes autenticados que tienen este rasgo en su perfil.
 
 ![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
@@ -137,24 +137,24 @@ Esta métrica representa el número total de UUID de Audience Manager cualificad
 
 >[!NOTE]
 >
->Seleccione **[!UICONTROL Include Destination Mappings]** para ver una desglose de segmento población para los destinos activados.
+>Seleccione **[!UICONTROL Include Destination Mappings]** para ver un desglose de la población del segmento para los destinos activados.
 
-La ilustración siguiente muestra los resultados de la ejecución de un informe general de la Tipo de informe de segmentos.
+La siguiente ilustración muestra los resultados de la ejecución de un informe general para el tipo de informe Segmento.
 
 ![](assets/general_reports_segment_metrics.png)
 
 ## Resultados de informes generales para destinos {#general-report-results-destinations}
 
-Las métricas que se muestran a continuación están disponibles cuando se ejecuta un informe general y se selecciona **[!UICONTROL Destination]** como tipo de informe:
+Las métricas siguientes están disponibles cuando ejecuta un informe General y selecciona **[!UICONTROL Destination]** como tipo de informe:
 
 **Propagación de segmentos en tiempo real**
 
 Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que fueron vistos por el Audience Manager.
 
-**Población total del segmento**
+**Propagación total de segmentos**
 
-Este Métrica representa el número total de Audience Manager UUID que pertenecen a una segmento dentro del período de búsqueda, que se enviaron a un destino.
+Esta métrica representa el número total de UUID de Audience Manager que pertenecen a un segmento dentro del período retrospectivo y que se enviaron a un destino.
 
-La ilustración siguiente muestra los resultados de ejecutar un informe general para los destinos Tipo de informe.
+La siguiente ilustración muestra los resultados de la ejecución de un informe general para el tipo de informe Destinos.
 
 ![](assets/general_reports_destinations.png)

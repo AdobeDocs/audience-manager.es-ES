@@ -10,23 +10,23 @@ exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # Crear destinos {#create-destinations}
 
-Cree destinos con estos [!UICONTROL RESTful API] métodos.
+Crear destinos con estos métodos [!UICONTROL RESTful API].
 
 <!-- c_create_destinations.xml -->
 
 ## Tipos de destino admitidos: solo URL y cookie
 
-Los disponibles `POST` Los métodos de permiten crear [!UICONTROL URL] y [!UICONTROL cookie destinations] solo. Actualmente, no puede crear [!UICONTROL server-to-server destinations] con estos [!DNL REST API] métodos. Sin embargo, el destino relacionado `GET` Los métodos de permiten recuperar información sobre [!UICONTROL server-to-server destinations] creado en la interfaz de usuario de.
+Los métodos `POST` disponibles solo le permiten crear [!UICONTROL URL] y [!UICONTROL cookie destinations]. Actualmente, no puede crear [!UICONTROL server-to-server destinations] con estos métodos [!DNL REST API]. Sin embargo, los métodos relacionados con el destino `GET` le permiten recuperar información sobre [!UICONTROL server-to-server destinations] creado en la interfaz de usuario.
 
 ## Crear un destino de URL no serie {#create-nonserial-dest}
 
-A `POST` método que permite crear un destino que acepta segmentos compuestos de pares clave-valor únicos (por ejemplo, `gender=male` o `gender=female`).
+Un método `POST` que le permite crear un destino que acepta segmentos compuestos de pares clave-valor únicos (por ejemplo, `gender=male` o `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -79,7 +79,7 @@ Una solicitud correcta devuelve `201 created` y el destino.
 
 ## Crear un destino de URL serializado {#create-serial-url-dest}
 
-A `POST` método que permite crear un destino que acepta varios valores asociados a una sola clave (por ejemplo, `color=blue, red, green`).
+Método `POST` que permite crear un destino que acepta varios valores asociados a una sola clave (por ejemplo, `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -89,7 +89,7 @@ A `POST` método que permite crear un destino que acepta varios valores asociado
 
 ### Solicitud de ejemplo
 
-Especifique el seguro [!DNL URL] y delimitador para el par clave-valor pasado al destino. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
+Especifique el [!DNL URL] seguro y el delimitador para el par clave-valor pasado al destino. Todos los valores de solicitud son obligatorios a menos que se indique lo contrario.
 
 ```
 { 
@@ -105,7 +105,7 @@ Especifique el seguro [!DNL URL] y delimitador para el par clave-valor pasado al
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta. `201 created` y el destino.
+Una actualización correcta devuelve el código de respuesta `201 created` y el destino.
 
 ```
 { 
@@ -135,7 +135,7 @@ Una actualización correcta devuelve el código de respuesta. `201 created` y el
 
 ## Crear un destino de cookie: clave única, no serializada {#create-cookie-dest-single}
 
-A `POST` método que permite crear un [!UICONTROL cookie destination] que acepta segmentos compuestos de pares clave-valor únicos (por ejemplo, `gender=male` o `gender=female`).
+Un método `POST` que le permite crear un(a) [!UICONTROL cookie destination] que acepta segmentos compuestos de pares clave-valor únicos (por ejemplo, `gender=male` o `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -170,7 +170,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta. `201 created` y el destino.
+Una actualización correcta devuelve el código de respuesta `201 created` y el destino.
 
 ```
 { 
@@ -204,7 +204,7 @@ Una actualización correcta devuelve el código de respuesta. `201 created` y el
 
 ## Crear un destino de cookie: clave única, serializada {#create-cookie-dest-single-serial}
 
-A `POST` método que permite crear un destino que acepta varios valores asociados a una sola clave (por ejemplo, `color=blue, red, green`).
+Método `POST` que permite crear un destino que acepta varios valores asociados a una sola clave (por ejemplo, `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -240,7 +240,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta. `201 created` y el destino.
+Una actualización correcta devuelve el código de respuesta `201 created` y el destino.
 
 ```
 { 
@@ -275,7 +275,7 @@ Una actualización correcta devuelve el código de respuesta. `201 created` y el
 
 ## Crear un destino de cookie: clave múltiple, no serializado {#create-cookie-dest-multi}
 
-A `POST` método que permite crear un destino que acepta segmentos que contienen varias claves con valores diferentes (por ejemplo, `gender=male; gender=female; color=blue; color=red`).
+Un método `POST` que le permite crear un destino que acepta segmentos que contienen varias claves con valores diferentes (por ejemplo, `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -309,7 +309,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta. `201 created` y el destino.
+Una actualización correcta devuelve el código de respuesta `201 created` y el destino.
 
 ```
 { 
@@ -342,7 +342,7 @@ Una actualización correcta devuelve el código de respuesta. `201 created` y el
 
 ## Crear un destino de cookie: clave múltiple, serializado {#create-cookie-dest-multi-serial}
 
-A `POST` método que permite crear un destino que acepta segmentos que contienen varias claves y valores (por ejemplo, `gender=male, female; color=blue, red, green`).
+Un método `POST` que le permite crear un destino que acepta segmentos que contienen múltiples claves y valores (por ejemplo, `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -377,7 +377,7 @@ Todos los valores de solicitud son obligatorios a menos que se indique lo contra
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta. `201 created` y el destino.
+Una actualización correcta devuelve el código de respuesta `201 created` y el destino.
 
 ```
 { 
@@ -411,7 +411,6 @@ Una actualización correcta devuelve el código de respuesta. `201 created` y el
 
 >[!MORELIKETHIS]
 >
->* [Destinos ](../../../features/destinations/destinations.md)
+>* [Destinos](../../../features/destinations/destinations.md)
 >* [Serialización de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Pares de clave-valor explicados](../../../reference/key-value-pairs-explained.md)
-

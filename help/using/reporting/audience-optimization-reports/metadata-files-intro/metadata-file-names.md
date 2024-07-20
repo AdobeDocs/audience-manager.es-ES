@@ -9,8 +9,8 @@ feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
@@ -20,17 +20,17 @@ Asigne un nombre al archivo de metadatos del Audience Optimization según estas 
 
 ## Sintaxis y categorías de ID {#syntax}
 
-La siguiente sintaxis define la estructura de un nombre de archivo de metadatos bien formado. Nota, *cursiva* indica un marcador de posición variable. Los demás elementos son constantes y no cambian.
+La siguiente sintaxis define la estructura de un nombre de archivo de metadatos bien formado. Tenga en cuenta que *cursiva* indica un marcador de posición de variable. Los demás elementos son constantes y no cambian.
 
 **Sintaxis:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*No hacer* utilice extensiones de archivo en los archivos de metadatos (.txt u otro).
+>*No* use extensiones de archivo en los archivos de metadatos (.txt u otros).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* El componente central **0** es técnicamente el ID principal, que es un campo heredado. El valor siempre debe establecerse como **0**.
+* Técnicamente, el componente central **0** es el Id. principal, que es un campo heredado. El valor siempre debe establecerse como **0**.
 * El ID secundario puede tener un valor entre 1 y 10, según la dimensión. Vea lo siguiente:
 
 ## Dimensiones de ID secundarias {#child-dimension}
@@ -42,7 +42,7 @@ En el nombre del archivo de metadatos, el ID secundario es un identificador que 
 1. Ubicación
 1. Exchange
 1. Sitio
-1. Anunciante (si utiliza códigos de integración en una [fuente de datos](../../../features/manage-datasources.md#details))
+1. Anunciante (si usa códigos de integración en una [fuente de datos](../../../features/manage-datasources.md#details))
 1. Orden de inserción (IO)
 1. Vertical (es decir, una categoría industrial o empresarial específica como &quot;ordenadores&quot;, &quot;automóviles&quot;, &quot;bienes raíces&quot;, etc.)
 1. Táctico

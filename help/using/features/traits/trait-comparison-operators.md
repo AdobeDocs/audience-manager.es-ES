@@ -10,7 +10,7 @@ exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Este artículo describe los operadores de comparación utilizados por [!UICONTRO
 
 <!-- c_tb_comparison_operators.xml -->
 
-Los operadores de comparación (u operadores relacionales) se utilizan para comparar, probar o evaluar la relación entre diferentes valores. Entrada [!UICONTROL Trait Builder]Sin embargo, al crear reglas de señal, los operadores de comparación permiten probar la relación entre diferentes pares clave-valor. Por ejemplo, puede crear una regla de señal para definir una audiencia para compradores de cámaras caros. En este caso, puede crear un par clave-valor cámara/precio y calificar a un usuario si ha buscado una cámara con un precio igual o bueno a una cantidad fija.
+Los operadores de comparación (u operadores relacionales) se utilizan para comparar, probar o evaluar la relación entre diferentes valores. En [!UICONTROL Trait Builder], al crear reglas de señales, los operadores de comparación permiten probar la relación entre diferentes pares clave-valor. Por ejemplo, puede crear una regla de señal para definir una audiencia para compradores de cámaras caros. En este caso, podría crear un par clave-valor cámara/precio y calificar a un usuario si ha buscado una cámara con un precio igual o mayor que una cantidad fija.
 
 ## Ventajas de los operadores de comparación
 
@@ -38,25 +38,24 @@ Puede crear reglas con los siguientes operadores de comparación:
 | **!=** | No igual a |
 | **>** | Mayor que |
 | **&lt;** | Menor que |
-| **=>** | Bueno que/igual a |
+| **=>** | Mayor/igual que |
 | **&lt;=** | Menor/igual que |
 
 ## Operadores con nombre
 
 Puede crear reglas con los siguientes operadores asignados:
 
-| Operador | Se evalúa como [!DNL True] Cuándo |
+| Operador | Se evalúa como [!DNL True] cuando |
 |---|---|
-| **[!UICONTROL Contains]** | El valor en un par clave-valor *contains* caracteres especificados por este operador. |
-| **[!UICONTROL Matcheswords]** | El valor en un par clave-valor *matches* el patrón especificado por este operador. |
-| **[!UICONTROL Startswith]** | El valor en un par clave-valor *empieza por* caracteres especificados por este operador. |
-| **[!UICONTROL Endswith]** | El valor en un par clave-valor *termina por* los caracteres especificados por este operador. |
-| **[!UICONTROL Matchesregex]** | El valor en un par clave-valor *matches* el patrón especificado por una expresión regular. [Más información](../../features/traits/trait-builder-regex.md) acerca del uso de expresiones regulares en [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | El valor de un par clave-valor *contiene* caracteres especificados por este operador. |
+| **[!UICONTROL Matcheswords]** | El valor de un par clave-valor *coincide* con el patrón especificado por este operador. |
+| **[!UICONTROL Startswith]** | El valor de un par clave-valor *comienza con* caracteres especificados por este operador. |
+| **[!UICONTROL Endswith]** | El valor de un par clave-valor *termina con* los caracteres especificados por este operador. |
+| **[!UICONTROL Matchesregex]** | El valor de un par clave-valor *coincide* con el patrón especificado por una expresión regular. [Más información](../../features/traits/trait-builder-regex.md) acerca del uso de expresiones regulares en [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Expresiones booleanas en el Generador de rasgos y segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Explicación de las expresiones booleanas en TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [Orden de las operaciones en expresiones de TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [Orden de operaciones en expresiones de TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Expresiones de muestra con operadores booleanos y de comparación](../../features/traits/trait-expression-samples.md)
-

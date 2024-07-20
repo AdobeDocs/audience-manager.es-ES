@@ -10,19 +10,19 @@ exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 12%
+ht-degree: 2%
 
 ---
 
 # Métodos de API de administración de permisos {#permissions-management-api-methods}
 
-Rest [!DNL API] métodos para administrar permisos para objetos y grupos.
+Métodos Rest [!DNL API] para administrar permisos para objetos y grupos.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Lista de tipos de objetos disponibles {#list-object-types}
 
-A `GET` para enumerar los tipos de objetos disponibles en los que se pueden establecer controles de acceso basados en roles.
+Un método `GET` para enumerar los tipos de objetos disponibles en los que se pueden establecer controles de acceso basados en roles.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -38,7 +38,7 @@ A `GET` para enumerar los tipos de objetos disponibles en los que se pueden esta
 
 ## Lista de permisos disponibles para un tipo de objeto {#list-permissions-object-type}
 
-A `GET` para enumerar los permisos disponibles para un tipo de objeto.
+Un método `GET` para enumerar los permisos disponibles para un tipo de objeto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 

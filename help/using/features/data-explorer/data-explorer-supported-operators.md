@@ -9,7 +9,7 @@ exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -28,17 +28,17 @@ Utilice los siguientes operadores lógicos admitidos para buscar pares clave-val
 | **==** | Igual a |
 | **>** | Mayor que |
 | **&lt;** | Menor que |
-| **=>** | Bueno que/igual a |
+| **=>** | Mayor/igual que |
 | **&lt;=** | Menor/igual que |
 
 ### Operadores con nombre
 
-| Operador | Se evalúa como [!DNL True] Cuándo |
+| Operador | Se evalúa como [!DNL True] cuando |
 |---|---|
-| **[!UICONTROL Contains]** | El valor en un par clave-valor *contains* caracteres especificados por este operador. |
-| **[!UICONTROL Startswith]** | El valor en un par clave-valor *empieza por* caracteres especificados por este operador. |
-| **[!UICONTROL Endswith]** | El valor en un par clave-valor *termina por* los caracteres especificados por este operador. |
+| **[!UICONTROL Contains]** | El valor de un par clave-valor *contiene* caracteres especificados por este operador. |
+| **[!UICONTROL Startswith]** | El valor de un par clave-valor *comienza con* caracteres especificados por este operador. |
+| **[!UICONTROL Endswith]** | El valor de un par clave-valor *termina con* los caracteres especificados por este operador. |
 
 ## Operadores admitidos para el relleno y la estimación de características {#supported-operators-backfilling}
 
-Puede rellenar rasgos que incluyan expresiones que contengan cualquiera de los operadores admitidos por [!UICONTROL Signal Search]. Además de estos operadores, el relleno y la estimación de rasgos también admiten el [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL AND NOT] operadores lógicos, utilizados para combinar pares clave-valor dentro de las expresiones de rasgos rellenadas.
+Puede rellenar características que incluyan expresiones que contengan cualquiera de los operadores admitidos por [!UICONTROL Signal Search]. Además de estos operadores, el relleno y la estimación de características también admiten los operadores lógicos [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL AND NOT], utilizados para combinar pares clave-valor dentro de las expresiones de características rellenadas.

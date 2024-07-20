@@ -9,11 +9,11 @@ exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
-# Guía de preparación del RGPD para clientes de Audience Manager (Controladores de datos) {#gdpr-readiness-guidance}
+# Guía de preparación del RGPD para clientes Audience Manager (responsables del tratamiento de datos) {#gdpr-readiness-guidance}
 
 Audience Manager recomienda una actitud proactiva en la administración de los datos y en la preparación de la organización. Esto contribuye a garantizar que los datos de los consumidores están bien organizados para hacer frente a solicitudes de acceso o supresión, que sus equipos estarán listos para gestionar dichas solicitudes y que sus clientes (sujetos de datos) tendrán una experiencia positiva y diferenciada con su marca.
 

@@ -3,26 +3,26 @@ description: Métodos de API de REST para administrar grupos, incluida la creaci
 seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
 seo-title: Group Management API Methods
 solution: Audience Manager
-title: Métodos de API de administración de grupo
+title: Métodos de API de administración de grupos
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 12%
+ht-degree: 5%
 
 ---
 
-# Métodos de API de administración de grupo {#group-management-api-methods}
+# Métodos de API de administración de grupos {#group-management-api-methods}
 
-Rest [!DNL API] Métodos para administrar grupos, incluidos crear, actualizar, enumerar y eliminar grupos.
+Rest [!DNL API] métodos para administrar grupos, incluyendo la creación, actualización, listado y eliminación de grupos.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Creación de grupos {#create-group}
 
-A `POST` para crear un nuevo grupo de usuarios.
+Un método `POST` para crear un nuevo grupo de usuarios.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -55,7 +55,7 @@ A `POST` para crear un nuevo grupo de usuarios.
 
 ## Actualizar un grupo {#update-group}
 
-A `PUT` para actualizar un grupo de usuarios.
+Un método `PUT` para actualizar un grupo de usuarios.
 
 <!--
 r_rest_api_group_update.xml
@@ -90,7 +90,7 @@ r_rest_api_group_update.xml
 
 ## Grupos de lista {#list-groups}
 
-A `GET` para enumerar los grupos de usuarios.
+Un método `GET` para enumerar grupos de usuarios.
 
 <!--
 r_rest_api_group_list.xml
@@ -118,7 +118,7 @@ r_rest_api_group_list.xml
 
 ## Eliminar un grupo {#delete-groups}
 
-A `DELETE` para eliminar un grupo de usuarios y quitar todos los miembros de ese grupo.
+Un método `DELETE` para eliminar un grupo de usuarios y quitar todos los miembros de ese grupo.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -126,11 +126,11 @@ A `DELETE` para eliminar un grupo de usuarios y quitar todos los miembros de ese
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Devuelve `204 No Content` si tiene éxito. En caso de conflicto, devuelve `409 Conflict`.
+Devuelve `204 No Content` si se realizó correctamente. En caso de conflicto, devuelve `409 Conflict`.
 
 ## Eliminar grupos por lotes {#delete-groups-bulk}
 
-A `DELETE` para eliminar varios grupos de forma masiva y eliminar todos los miembros de ese grupo.
+Un método `DELETE` para eliminar varios grupos de forma masiva y quitar todos los miembros de ese grupo.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -138,11 +138,11 @@ A `DELETE` para eliminar varios grupos de forma masiva y eliminar todos los miem
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Devuelve `204 No Content` si tiene éxito. En caso de conflicto, devuelve `409 Conflict`.
+Devuelve `204 No Content` si se realizó correctamente. En caso de conflicto, devuelve `409 Conflict`.
 
 ## Mostrar todos los permisos de un grupo {#list-permissions-group}
 
-A `GET` para enumerar los objetos de permiso de un grupo.
+Un método `GET` para enumerar los objetos de permiso de un grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -172,11 +172,11 @@ A `GET` para enumerar los objetos de permiso de un grupo.
 ]
 ```
 
-Devuelve `400 Bad Request` si el grupo no es accesible.
+Devuelve `400 Bad Request` si no se puede obtener acceso al grupo.
 
 ## Definición de permisos para un grupo {#set-permissions-group}
 
-A `PUT` para actualizar los permisos de grupo. Este método sobrescribe los permisos antiguos con los nuevos permisos.
+Un método `PUT` para actualizar permisos de grupo. Este método sobrescribe los permisos antiguos con los nuevos permisos.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -209,4 +209,4 @@ A `PUT` para actualizar los permisos de grupo. Este método sobrescribe los perm
 
 La respuesta de ejemplo representa la lista actualizada de objetos de permiso.
 
-Devuelve `200 OK` si tiene éxito. Devuelve `400` si algún permiso dado no es válido. También puede devolver `403` si el usuario que ha iniciado sesión no puede acceder al objeto.
+Devuelve `200 OK` si se realizó correctamente. Devuelve `400` si algún permiso dado no es válido. También puede devolver `403` si el usuario que ha iniciado sesión no puede obtener acceso al objeto.
