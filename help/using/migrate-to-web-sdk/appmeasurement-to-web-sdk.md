@@ -2,18 +2,80 @@
 title: Actualice la biblioteca de recopilación de datos para el Audience Manager de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript del SDK web.
 description: Conozca los pasos para actualizar la biblioteca de recopilación de datos para Audience Manager de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript del SDK web.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
+source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
+
 
 # Actualice la biblioteca de recopilación de datos para el Audience Manager de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript del SDK web
 
 ## Destinatarios previstos {#intended-audience}
 
-Esta página está destinada a los clientes de Audience Manager que utilizan el AppMeasurement para introducir datos de recopilación web en Audience Manager. Para los clientes que usan la [extensión de Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview), lea la guía sobre cómo actualizar la biblioteca de recopilación de datos para el Audience Manager [desde la extensión de Audience Manager a la extensión de etiqueta del SDK web](dil-extension-to-web-sdk.md).
+Esta página es para clientes de Audience Manager y Adobe Analytics que utilizan la biblioteca de JavaScript [!DNL AppMeasurement] para enviar datos web al Audience Manager.
+
+Consulte la tabla siguiente para obtener instrucciones sobre los pasos de migración al SDK web, según el método de recopilación de datos actual.
+
+| Método de recopilación de datos existente | Instrucciones de migración del SDK web |
+|---------|----------|
+| [!DNL AppMeasurement] biblioteca de JavaScript | Siga las instrucciones de esta guía. |
+| [!DNL Audience Manager] [extensión de etiqueta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Siga las instrucciones de [actualización de la biblioteca de recopilación de datos desde la extensión de etiquetas de Audience Manager hasta la extensión de etiquetas de SDK web](dil-extension-to-web-sdk.md). |
+| [!DNL AppMeasurement] biblioteca de JavaScript + [!DNL Audience Manager] [biblioteca de DIL](../dil/dil-overview.md) | Siga las instrucciones de [actualización de la biblioteca de recopilación de datos desde la extensión de etiquetas de Audience Manager hasta la extensión de etiquetas de SDK web](dil-extension-to-web-sdk.md). |
+
+## Información general sobre migración {#overview}
+
+La migración de [!DNL AppMeasurement] a [SDK web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) es principalmente una migración de Adobe Analytics. Para los clientes de Audience Manager, esta migración también incluye Audience Manager. Ambos deben migrarse juntos. Si trabaja principalmente con Audience Manager, asegúrese de que implica al equipo de Analytics en esta migración.
+
+Si usa [!DNL AppMeasurement] para la recopilación de datos de Audience Manager, actualmente está usando el método [!DNL Server-side Forwarding (SSF)] para enviar datos de Analytics a Audience Manager. Con esta configuración, la solicitud de recopilación de datos de Analytics se reenvía al Audience Manager, que también gestiona la respuesta del Audience Manager a la página.
+
+Este ha sido el enfoque estándar durante muchos años y es probable que sea su configuración actual. Si la biblioteca [!DNL AppMeasurement] contiene el módulo `AudienceManagement` y las llamadas de recopilación de datos incluyen la ruta de acceso `/10/` en la solicitud (`/b/ss/examplereportsuite/10/`), esta guía es para usted.
+
+## Reenvío del lado del servidor (SSF) frente a flujos de datos del SDK web {#data-flows}
+
+Comprender las diferencias del flujo de datos entre Analytics y Audience Manager al pasar al SDK web (y el Edge Network) es crucial para las instrucciones siguientes.
+
+Con el reenvío del lado del servidor, el nodo de recopilación de datos regionales de Analytics recopila los datos, los transforma en una señal aceptada por el Audience Manager, los envía al Audience Manager y devuelve la respuesta del Audience Manager a la página. A continuación, el módulo [!DNL AudienceManagement] de la biblioteca [!DNL AppMeasurement] se encarga de la respuesta (por ejemplo, soltar cookies y enviar destinos de URL). Este proceso se denomina reenvío del lado del servidor porque Analytics reenvía los datos al Audience Manager mediante servidores de Adobe.
+
+Con el SDK web, el Edge Network envía datos a Analytics y al Audience Manager en acciones independientes. El SDK web es una biblioteca única que envía datos a todas las soluciones y el Edge Network transforma los puntos de datos no relacionados con las soluciones en formatos específicos de las soluciones.
+
+En este nuevo flujo de datos, todos los datos se envían a un Edge Network [datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview), que puede [configurar](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) para enviar datos a las soluciones de Adobe según sea necesario. Para el Audience Manager, al habilitar el servicio de Audience Manager en el conjunto de datos, se transforman los datos de [!DNL XDM] y Analytics en señales aceptadas por el Audience Manager. El Edge Network también devuelve la respuesta del Audience Manager a la página, donde el SDK web administra la respuesta, de forma similar a como lo hicieron [!DNL AppMeasurement] y el módulo [!DNL AudienceManagement].
+
+## Migración de etiquetas frente a no etiquetas {#tags-vs-non-tags}
+
+Tanto si utiliza etiquetas con la extensión [!DNL AppMeasurement], la biblioteca [!DNL AppMeasurement] en otro sistema de administración de etiquetas como si coloca [!DNL AppMeasurement] directamente en la página, los pasos para migrar el Audience Manager al SDK web son los mismos. Dado que la migración de Audience Manager depende de la migración de Analytics, los pasos para migrar de [!DNL AppMeasurement] a SDK web se determinan durante la migración de Analytics.
+
+Esa información se explica en la documentación de Analytics para implementaciones basadas en [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) o [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk).
+
+## XDM y los nodos `data.__adobe.` {#xdm-data-nodes}
+
+Una de las funciones principales del [SDK web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) es enviar datos a [Real-time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home). Para conseguirlo y seguir recopilando datos para otras soluciones de Experience Cloud sin una reimplementación completa, los datos específicos de la solución se dividen en compartimentos dentro de la llamada al servidor de recopilación de datos. Esta llamada usa un esquema JSON estandarizado denominado [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+
+Los elementos no relacionados con las soluciones, como la información sobre el explorador y el dispositivo, se envían al Edge Network en una estructura XDM predeterminada. El Edge Network transforma estos datos en formatos específicos de la solución. Sin embargo, los datos específicos de Target, Analytics y Audience Manager se almacenan en un nodo `data.__adobe` específico dentro de la carga útil XDM.
+
+Por ejemplo:
+
+* La variable de Analytics `s.eVar1` se representa en la carga útil XDM como `data.__adobe.analytics.evar1`.
+* Un parámetro de Target relacionado con el estado de lealtad del cliente se almacena como `data.__adobe.target.loyaltyStatus`.
+
+Los datos del nodo `__adobe` se envían a las soluciones respectivas (como Analytics y Audience Manager) sin enviarse al Experience Platform, aunque el servicio de Experience Platform esté habilitado en la secuencia de datos. Esto significa que puede mantener las configuraciones actuales para Analytics y Audience Manager, al tiempo que tiene la flexibilidad de asignar los elementos de datos necesarios a elementos de esquema XDM para casos de uso en tiempo real en Experience Platform mediante [Preparación de datos para la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep).
+
+Por ejemplo, la cadena `s.products` de Analytics, que se usa para informar del contenido del carro de compras durante el cierre de compra, se puede enviar a Analytics y al Audience Manager en su formato original. Al mismo tiempo, puede utilizar los elementos de esta cadena para crear esquemas de carro XDM más intuitivos para casos de uso de Experience Platform.
+
+Dado que la mayoría de las implementaciones de Audience Manager dependen de los datos de Analytics reenviados al Audience Manager, es probable que muchas de las expresiones de características de Audience Manager se basen en variables de Analytics (`c_evar#`, `c_prop#` y `c_events`). Para evitar la reconstrucción de expresiones de rasgos mediante formatos XDM durante la migración, el Edge Network está configurado de forma predeterminada para transformar cualquier variable de Analytics que se encuentre en el nodo `data.__adobe.analytics` en señales de Audience Manager. Este proceso es similar al flujo de trabajo del reenvío del lado del servidor.
+
+El Edge Network puede realizar esta transformación porque se envía una sola llamada de recopilación de datos desde la página a un único conjunto de datos que alimenta varias soluciones de Adobe. Por lo tanto, la mayoría de las migraciones de [!DNL AppMeasurement] al SDK web tanto para Analytics como para Audience Manager utilizarán principalmente el nodo `data.__adobe.analytics`.
+
+El Edge Network transforma los datos de dispositivos y exploradores de la carga útil XDM y los encabezados de paquetes en señales de Audience Manager. Esto le permite seguir utilizando `h_` y `d_` claves de plataforma en expresiones de rasgos de Audience Manager.
+
+## El nodo `data.__adobe.audiencemanager` {#data-note}
+
+El nodo `data.__adobe.audiencemanager` se usa para implementaciones de Audience Manager que no dependen de Analytics. Almacena pares de clave/valor de Audience Manager personalizados que se enviaron anteriormente a través de la biblioteca [DIL library](../dil/dil-overview.md), tal como se describe en la [guía de migración de la extensión de etiquetas](dil-extension-to-web-sdk.md).
+
+Aunque el nodo `data.__adobe.audiencemanager` no es necesario para la migración descrita en esta guía, el nuevo flujo de datos que se explica aquí permite enviar datos al Audience Manager sin que se registren en Analytics.
+
+Si necesita enviar un par clave/valor personalizado al Audience Manager sin incluirlo en Analytics, puede utilizar el nodo `data.__adobe.audiencemanager`. Cualquier conjunto de datos de este nodo se anexará a los datos de Analytics transformados por el Audience Manager en la llamada al servidor de recopilación de datos.
 
 ## Ventajas y desventajas de esta ruta de implementación
 
@@ -30,124 +92,77 @@ El Adobe recomienda seguir esta ruta de implementación en los siguientes casos:
 
 ## Pasos necesarios para migrar al SDK web
 
-Las siguientes medidas contienen objetivos concretos para alcanzar. Haga clic en cada paso para obtener instrucciones detalladas sobre cómo hacerlo.
+Siga los pasos a continuación para migrar la integración de recopilación de datos al SDK web.
 
-+++**1. Crear y configurar una secuencia de datos**
++++**1. Migre su implementación de Analytics**.
 
-Cree una secuencia de datos en la recopilación de datos de Adobe Experience Platform. Al enviar datos a este conjunto de datos, se reenvían datos al Audience Manager. En el futuro, este mismo conjunto de datos reenviará datos a Real-Time CDP.
+Trabaje con su equipo de Analytics para seguir los pasos de migración de Analytics en las implementaciones basadas en [Etiquetas](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) o en [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk). Después de migrar su implementación de Analytics, continúe con los siguientes pasos.
+
++++
+
++++**2. Agregar el servicio Audience Manager al conjunto de datos**
+
+Agregue el servicio Audience Manager al conjunto de datos que creó durante el paso 1.
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com) e inicie sesión con sus credenciales.
 1. Utilice la página de inicio o el selector de producto en la parte superior derecha para navegar a **[!UICONTROL Data Collection]**.
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Datastreams]**.
-1. Seleccione **[!UICONTROL New Datastream]**.
-1. Escriba el nombre que desee y seleccione **[!UICONTROL Save]**.
-1. Una vez creada la secuencia de datos, seleccione **[!UICONTROL Add Service]**.
+1. Seleccione el conjunto de datos que creó como parte de la migración de Analytics en el paso 1.
+1. Seleccione **[!UICONTROL Add Service]**.
 1. En el menú desplegable del servicio, seleccione **[!UICONTROL Audience Manager]**.
+1. Compruebe las opciones **[!UICONTROL Cookie Destinations Enabled]** y **[!UICONTROL URL Destinations Enabled]**. Estas opciones permiten al Edge Network devolver esos tipos de destinos de Audience Manager a la página.
+1. Asegúrese de que **[!UICONTROL Enable XDM Flattened Fields]** esté deshabilitado. Esta opción deshabilita la transformación automática de variables de Analytics en señales de Audience Manager. Esta opción está diseñada para mantener la compatibilidad con versiones anteriores para los usuarios que migraron al SDK web antes de que el Edge Network transformara automáticamente los datos de Analytics en señales de Audience Manager.
+
+   >[!NOTE]
+   >
+   >La migración al SDK web con la opción **[!UICONTROL Enabled XDM Flattened Fields]** habilitada requiere que se actualicen todos los datos necesarios en el Audience Manager con formato XDM y todos los rasgos del Audience Manager mediante props, eVars o eventos para buscar datos con formato XDM en su lugar. El Adobe recomienda dejar esta opción desactivada.
+
 
    ![Agregar servicio de Audience Manager](assets/add-service.png) {style="border:1px solid lightslategray"}
+
+1. Seleccione **[!UICONTROL Save]** para guardar la configuración de la secuencia de datos.
 
 El conjunto de datos está listo para recibir y pasar datos al Audience Manager. Tenga en cuenta el ID de la secuencia de datos, ya que este ID es necesario al configurar el SDK web en código.
 
 +++
 
-+++**2. Instale la biblioteca JavaScript del SDK web**
++++**3. Habilite las sincronizaciones de ID de terceros y establezca el ID de contenedor de Audience Manager**
 
-Consulte [Instalar el SDK web mediante la biblioteca JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) para obtener información detallada y bloques de código que utilizar. Hacer referencia a la última versión de `alloy.js` para que se puedan usar sus llamadas al método.
+1. Vaya a [experience.adobe.com](https://experience.adobe.com) e inicie sesión con sus credenciales.
+1. Utilice la página de inicio o el selector de producto en la parte superior derecha para navegar a **[!UICONTROL Data Collection]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Datastreams]**.
+1. Seleccione el conjunto de datos que creó como parte de la migración de Analytics en el paso 1.
+1. Seleccione **[!UICONTROL Edit]** en la esquina superior derecha de la página de configuración de la secuencia de datos.
+1. Expanda el menú desplegable **[!UICONTROL Advanced Options]** y habilite la funcionalidad **[!UICONTROL Third Party ID Sync]** si aún no está habilitada. Esta opción indica al Edge Network que devuelva las sincronizaciones de ID de socio para los socios de datos de Audience Manager y Experience Platform.
 
-+++
+   ![Habilitar sincronización de ID de terceros.](assets/third-party-id-sync.png) {style="border:1px solid lightslategray"}
 
-+++**3. Configurar el SDK web**
+1. En la mayoría de los casos, puede dejar en blanco el campo **[!UICONTROL Third Party ID Sync Container ID]**. Lo hará de forma predeterminada en `0`. Sin embargo, si prefiere asegurarse de que se utiliza el ID de contenedor correcto, siga los siguientes pasos:
+   * Abra una ventana del explorador en modo incógnito o privado y vaya a una página que forme parte de la migración.
+   * Utilice las herramientas para desarrolladores del explorador para filtrar la llamada de red a `dpm.demdex.net/id`. Esta llamada solo se activa en la primera página de una primera visita, por lo que se necesita un explorador de incógnito o privado.
+   * Consultar la carga útil de la solicitud. Si el parámetro `d_nsid` es diferente a cero, cópielo en el campo **[!UICONTROL Third Party ID Sync Container ID]**.
 
-Configure la implementación para que apunte a la secuencia de datos creada en el paso 1 mediante el comando del SDK web [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). El comando `configure` debe estar establecido en todas las páginas para que pueda incluirlo junto con el código de instalación de la biblioteca.
+1. Seleccione **[!UICONTROL Save]**.
 
-Use las propiedades [`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid) y [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) en el comando `configure` del SDK web:
-
-* Establezca `edgeConfigId` en el ID de secuencia de datos recuperado del paso anterior.
-* Establezca `orgId` en el ID de organización de IMS de su organización.
-
-```js
-alloy("configure", {
-    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
-});
-```
-
-Opcionalmente, puede establecer otras propiedades en el comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) en función de los requisitos de implementación de su organización.
+El conjunto de datos está listo para enviar datos al Audience Manager y pasar las respuestas del Audience Manager al SDK web.
 
 +++
 
-+++**4. Actualizar lógica de código para utilizar una carga útil JSON**
+## Configuración del reenvío y el Audience Analytics del lado del servidor en la interfaz de usuario del administrador de grupos de informes de Analytics {#configure-ssf-analytics}
 
-Cambie la implementación del Audience Manager para que no dependa de `AppMeasurement.js` ni del objeto `s`. En su lugar, establezca variables en un objeto JavaScript con formato correcto, que se convierte en un objeto JSON cuando se envía al Adobe. Tener una [capa de datos](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/data-layer) en el sitio ayuda enormemente a la hora de establecer valores, ya que puede seguir haciendo referencia a esos mismos valores.
+Si está familiarizado con la función [reenvío del lado del servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) de Analytics, podría preguntarse: &quot;*¿Debo deshabilitar la configuración del reenvío del lado del servidor en la interfaz de usuario del administrador de grupos de informes de Analytics para evitar que se envíen datos de Analytics al Audience Manager dos veces?*&quot;.
 
-Para enviar datos al Audience Manager, la carga del SDK web debe utilizar `data.__adobe.audiencemanager` con todas las variables de análisis establecidas dentro de este objeto. Las variables de este objeto comparten nombres y formatos idénticos a los de sus equivalentes de variables de AppMeasurement. Por ejemplo, si establece la variable `products`, no la divida en objetos individuales como lo haría con XDM. En su lugar, inclúyala como una cadena exactamente como es si establece la variable `s.products`:
+La respuesta es no, no debe deshabilitar esta configuración. He aquí la razón:
 
-```json
-{
-  "data": {
-    "__adobe": {
-      "audiencemanager": {
-        "products": "Shoes,Men's sneakers,1,49.99"
-      }
-    }
-  }
-}
-```
+Cuando esta configuración está habilitada y el módulo [!DNL AudienceManagement] se agrega a la biblioteca [!DNL AppMeasurement] de la página, todos los datos enviados a ese grupo de informes también fluirán al Audience Manager.
 
-En última instancia, esta carga útil contiene todos los valores deseados y todas las referencias al objeto `s` en su implementación se eliminan. Puede utilizar cualquiera de los recursos que proporciona JavaScript para establecer este objeto de carga útil, incluida la notación de puntos para establecer valores individuales.
+Para cumplir con las normas de privacidad del RGPD, hay escenarios en los que los datos se pueden recopilar en Analytics pero no en Audience Manager. Además, hay casos que implican grupos de informes globales y casos de uso específicos de la región en los que algunas llamadas de recopilación de datos no deben enviarse al Audience Manager. Para solucionarlo, Adobe ha introducido un botón de desactivación del reenvío del lado del servidor.
 
-```js
-// Define the payload and set objects within it
-var dataObj = {data: {__adobe: {audiencemanager: {}}}};
-dataObj.data.__adobe.audiencemanager.pageName = window.document.title;
-dataObj.data.__adobe.audiencemanager.eVar1 = "Example value";
+Como se explica en la [página de cumplimiento de Analytics y RGPD centrada en el reenvío del lado del servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr), al agregar la variable de contexto `cm.ssf=1` a un servidor de recopilación de datos de Analytics se impide que la llamada de recopilación de datos se reenvíe al Audience Manager.
 
-// Alternatively, set values in an object and use a spread operator to achieve identical results
-var a = new Object;
-a.pageName = window.document.title;
-a.eVar1 = "Example value";
-var dataObj = {data:{__adobe:{audiencemanager:{...a}}}};
-```
+Existen dos razones por las que no debe deshabilitar esta configuración.
 
-+++
+1. Cuando el servicio de Audience Manager está habilitado en una secuencia de datos, el Edge Network anexa la variable `cm.ssf` a todas las solicitudes de recopilación de datos enviadas a Analytics. Esto evita que los datos de Analytics también se envíen al Audience Manager. Cualquier registro de Assurance utilizado para validar la migración de Analytics mostrará la variable `cm.ssf=1` cuando el servicio de Audience Manager esté habilitado en la secuencia de datos.
+1. Esta configuración también habilita el flujo de datos para la integración de [!DNL Audience Analytics]. Como se describe en la [descripción general del Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam), se requiere reenvío del lado del servidor para esta integración porque la respuesta del Audience Manager al servidor de recopilación de datos de Analytics se agrega a la visita de Analytics antes de procesarse. Un proceso similar ocurre dentro del Edge Network. Cuando el reenvío del lado del servidor está habilitado, el Edge Network agrega los segmentos necesarios desde la respuesta del Audience Manager a los datos enviados a Analytics.
 
-+++**5. Actualizar las llamadas de método para utilizar el SDK web**
-
-Actualice todas las instancias en las que llame a [`s.t()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/t-method) y [`s.tl()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/tl-method), reemplazándolas por el comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Hay tres escenarios a considerar:
-
-* **Seguimiento de vista de página**: reemplace la llamada de seguimiento de vista de página con el comando `sendEvent` del SDK web:
-
-  ```js
-  // If your current implementation has this line of code:
-  s.t();
-  
-  // Replace it with this line of code. The dataObj object contains the variables to send.
-  alloy("sendEvent", dataObj);
-  ```
-
-* **Seguimiento automático de vínculos**: La propiedad de configuración [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada de manera predeterminada. Establece automáticamente las variables de seguimiento de vínculos correctas para enviar datos al Audience Manager. Si desea deshabilitar el seguimiento automático de vínculos, establezca esta propiedad en `false` dentro del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
-
-* **Seguimiento manual de vínculos**: el SDK web no tiene comandos independientes entre las llamadas a pageview y a las que no son a pageview. Proporcione esa distinción dentro del objeto de carga útil.
-
-  ```js
-  // If your current implementation has this line of code:
-  s.tl(true,"o","Example custom link");
-  
-  // Replace it with these lines of code. Add the required fields to the dataObj object.
-  dataObj.data.__adobe.audiencemanager.linkName = "Example custom link";
-  dataObj.data.__adobe.audiencemanager.linkType = "o";
-  dataObj.data.__adobe.audiencemanager.linkURL = "https://example.com";
-  alloy("sendEvent", dataObj);
-  ```
-
-+++
-
-+++**6. Validar y publicar cambios**
-
-Una vez que haya quitado todas las referencias al AppMeasurement y al objeto `s`, publique los cambios en su entorno de desarrollo para validar que la nueva implementación funciona. Una vez que haya validado que todo funciona correctamente, puede publicar las actualizaciones en producción.
-
-Si se migra correctamente, `AppMeasurement.js` ya no será necesario en el sitio y se podrán eliminar todas las referencias a este script.
-
-+++
-
-En este punto, la implementación de Audience Manager se migra completamente al SDK web y está preparado para pasar a Real-Time CDP en el futuro.
+En resumen, es importante que esta configuración permanezca habilitada para que Audience Analytics siga funcionando con una implementación del SDK web y que no se cuenten dos veces los datos en Audience Manager.
