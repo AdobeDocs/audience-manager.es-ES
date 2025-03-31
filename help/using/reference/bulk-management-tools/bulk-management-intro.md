@@ -8,9 +8,9 @@ title: Introducción A La Administración En Lotes
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
+source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente compatible. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 
@@ -48,7 +48,7 @@ Para usar [!DNL Bulk Management Tools], necesita lo siguiente:
 
 * Su inicio de sesión de [!DNL Experience Cloud]. Como cliente, ya debería tener estas credenciales.
 * La hoja de cálculo [!DNL Bulk Management Tools]. [Descargue la hoja de cálculo](assets/BAAAM_V2_20210609.xlsm) para obtener la versión más reciente.
-* [!DNL Microsoft Excel] se está ejecutando en [!DNL macOS] o en [!DNL Microsoft Windows] de 64 bits. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel].
+* [!DNL Microsoft Excel] se ejecuta en [!DNL Microsoft Windows] de 64 bits. Le recomendamos que utilice la versión más reciente de [!DNL Microsoft Excel]. Las herramientas de administración masiva no son compatibles con [!DNL macOS].
 * Al abrir la hoja de cálculo, debe **Habilitar macros** para que funcione [!DNL Bulk Management Tools].
 
 ## Requisitos y opciones de autenticación {#auth-reqs}
