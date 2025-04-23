@@ -7,7 +7,7 @@ title: Obtención de ID y regiones de usuario a través del servicio de identida
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -38,8 +38,8 @@ El código de *cursiva* representa un marcador de posición de variable.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. Comprueba tu <span class="keyword"> Experience Cloud</span> estado</b> </p> </td> 
-   <td colname="col2"> <p>Necesita una cuenta de Experience Cloud <span class="keyword"></span> para usar el servicio de ID. Si tiene una cuenta de <span class="keyword"> Experience Cloud</span>, ¡genial! </p> <p> Si no forma parte del Experience Cloud <span class="keyword"></span>, regístrese. Nos encantaría tenerte a ti y siempre hay espacio para más. Para obtener instrucciones sobre cómo configurar una cuenta, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Habilitar las soluciones para los servicios principales</a>. </p> </td> 
+   <td colname="col1"> <p> <b>1. Comprueba tu <span class="keyword"> estado de Experience Cloud</span></b> </p> </td> 
+   <td colname="col2"> <p>Necesita una cuenta de <span class="keyword"> Experience Cloud</span> para usar el servicio de ID. Si tiene una cuenta de <span class="keyword"> Experience Cloud</span>, ¡genial! </p> <p> Si no eres parte de <span class="keyword"> Experience Cloud</span>, entonces regístrate. Nos encantaría tenerte a ti y siempre hay espacio para más. Para obtener instrucciones sobre cómo configurar una cuenta, consulte <a href="https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started" format="https" scope="external"> Habilitar las soluciones para los servicios principales</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Configurar el servicio de ID <span class="keyword"></span></b> </p> </td> 
@@ -47,14 +47,14 @@ El código de *cursiva* representa un marcador de posición de variable.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Leer la cookie </b> del servicio de ID <span class="keyword"></span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID <span class="keyword"></span> almacena el ID de usuario y de región en la cookie AMCV. El nombre completo de la cookie es <code>AMCV_<i>###</i>@AdobeOrg</code>. Los elementos <code><i>###</i></code> son marcadores de posición para su ID de organización. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookies y el ID de Experience Cloud </a> para obtener más información. </p> <p>Analice la cookie AMCV para estos pares clave-valor: </p> <p> 
+   <td colname="col2"> <p>El servicio de ID <span class="keyword"></span> almacena el ID de usuario y de región en la cookie AMCV. El nombre completo de la cookie es <code>AMCV_<i>###</i>@AdobeOrg</code>. Los elementos <code><i>###</i></code> son marcadores de posición para su ID de organización. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el Experience Cloud ID</a> para obtener más información. </p> <p>Analice la cookie AMCV para estos pares clave-valor: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: este par clave-valor contiene el identificador de usuario <span class="keyword"> Experience Cloud</span>. </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: este par clave-valor contiene el id. de región (a veces denominado <span class="term"> indicio de ubicación </span>) que está asociado con un nombre de servidor regional. </li> 
      </ul> </p> <p>Puede realizar llamadas al DCS</span> de <span class="wintitle"> una vez que tenga los ID de usuario y región. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4. Recupere el ID de Experience Cloud <span class="keyword"> </span> con getMarketingCloudVisitorID</b> </p> </td> 
+   <td colname="col1"> <p> <b>4. Recupere el Experience Cloud ID <span class="keyword"></span> con getMarketingCloudVisitorID</b> </p> </td> 
    <td colname="col2"> <p><i>(Opcional)</i> Esta función devuelve el ID de visitante <span class="keyword"> Experience Cloud</span>. Está diseñado para soluciones personalizadas y casos de uso específicos. Vea <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> trabajar con getMarketingCloudVisitorID</a> a continuación y la <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external"> documentación del servicio de ID relacionada</a>. </p> <p>No es necesario que utilice esta opción si obtiene los ID de usuario y de ubicación de la cookie del servicio de ID. </p> </td> 
   </tr> 
  </tbody> 

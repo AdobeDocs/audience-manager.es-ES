@@ -8,9 +8,9 @@ title: ID declarados
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---
@@ -37,24 +37,24 @@ Algunos exploradores, y la mayoría de los dispositivos móviles, no aceptan [!D
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Llamada de evento</b> </td> 
-   <td colname="col2"> <p>Para trabajar, necesita el DIL <span class="wintitle"> </span> y el código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> del servicio de identidad de Adobe Experience Platform </a> en la página. El DIL <span class="wintitle"> </span> obtiene <span class="wintitle"> ID declarados </span> de la función <code> setVisitorID </code> proporcionada por el servicio de identidad <span class="keyword"> de Adobe Experience Platform </span> y pasa esto al Audience Manager </span> de <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p>Para trabajar, necesita el código <span class="wintitle"> DIL </span> y el código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> en la página. <span class="wintitle"> DIL </span> obtiene <span class="wintitle"> ID declarados </span> de la función <code> setVisitorID </code> proporcionada por el servicio de identidad de Adobe Experience Platform <span class="keyword"> </span> y pasa eso a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de coincidencia</b> </td> 
-   <td colname="col2"> <p>El Audience Manager intenta hacer coincidir el ID de cliente y el ID de visitante con un ID correspondiente en nuestro sistema. Si no existe ningún ID coincidente, Audience Manager crea un nuevo ID y lo asocia al ID de cliente y al ID de visitante. </p> <p> <p>Nota: Se utilizará la asignación más reciente si el ID se asigna a más de un ID de Audience Manager. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager intenta hacer coincidir el ID de cliente y el ID de visitante con un ID correspondiente en nuestro sistema. Si no existe ningún ID coincidente, Audience Manager crea un nuevo ID y lo asocia al ID de cliente y al ID de visitante. </p> <p> <p>Nota: Se utilizará la asignación más reciente si el ID se asigna a más de un ID de Audience Manager. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identificador de devolución</b> </td> 
-   <td colname="col2"> <p>El Audience Manager escribe su ID sincronizado en una cookie de origen (u otro espacio de almacenamiento direccionable) en el dominio o la aplicación del cliente. </p> </td>
+   <td colname="col2"> <p>Audience Manager escribe su ID sincronizado en una cookie de origen (u otro espacio de almacenamiento direccionable) en el dominio o la aplicación del cliente. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>Llamadas de evento subsiguientes</b> </td>
-   <td colname="col2"> <p>Las llamadas de evento adicionales leen el ID de Audience Manager del dominio del cliente y lo envían al Audience Manager. </p> </td>
+   <td colname="col2"> <p>Las llamadas de evento adicionales leen el Audience Manager ID desde el dominio del cliente y lo envían a Audience Manager. </p> </td>
   </tr> 
  </tbody>
 </table>
 
-Para empezar, debe configurar el servicio de ID de [!DNL Experience Cloud] y [!UICONTROL DIL] en todas las páginas del sitio que desee usar para la recopilación de datos. Ver [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create) y [Variables de ID declaradas](../features/declared-ids.md#declared-id-variables).
+Para empezar, debe configurar el servicio de ID de [!DNL Experience Cloud] y [!UICONTROL DIL] en todas las páginas del sitio que desee usar para la recopilación de datos. Ver [DIL create](../dil/dil-class-overview/dil-create.md#dil-create) y [Variables de ID declaradas](../features/declared-ids.md#declared-id-variables).
 
 ## Llamadas de exclusión {#opt-out-calls}
 
@@ -114,11 +114,11 @@ Estos métodos siguen funcionando, pero se consideran obsoletos. Esta informaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opción de exclusión de nivel de socio </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>AAM Se almacena una exclusión a nivel de socio para la asignación más reciente de este par <code> dpid </code> + <code> dpuuid </code> a un UUID de. Si no hay ninguna asignación existente anteriormente, el Audience Manager AAM comprueba si la solicitud contiene un UUID de en la cookie y, si lo tiene, la utiliza para almacenar la exclusión. De lo contrario, Audience Manager AAM genera un nuevo UUID de UUID y almacena la exclusión en él. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Se almacena una exclusión a nivel de socio para la última asignación de este par <code> dpid </code> + <code> dpuuid </code> a un UUID de AAM. Si no hay ninguna asignación existente anteriormente, Audience Manager comprueba si la solicitud contiene un UUID de AAM en la cookie y, si lo tiene, la utiliza para almacenar la exclusión. De lo contrario, Audience Manager genera un nuevo UUID de AAM y almacena la exclusión en él. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> y <code> d_uuid </code> explícito </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> siempre tiene prioridad. AAM AAM Si la combinación <code> dpid </code> + <code> dpuuid </code> se asigna a otro UUID de, la exclusión se almacena en el UUID de la pasado en la solicitud ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> siempre tiene prioridad. Si la combinación <code> dpid </code> + <code> dpuuid </code> se asigna a otro UUID de AAM, la exclusión se almacena en el UUID de AAM pasado en la solicitud ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor `namespace`, `MCORG` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
+En el par clave-valor `namespace`, `MCORG` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Introducción a los servicios de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Funciones obsoletas {#deprecated-functions}
 
@@ -214,7 +214,7 @@ En la tabla siguiente se describen las variables heredadas que usa el objeto `de
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>ID del socio de datos asignado por el Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID del socio de datos asignado por Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -265,7 +265,7 @@ La solicitud envía un proveedor de datos y un identificador de usuario a [!DNL 
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-La respuesta devuelve el ID del Audience Manager (por ejemplo, `UUID`) que se escribe en una cookie de origen en el dominio de página.
+La respuesta devuelve el Audience Manager ID (por ejemplo, `UUID`) que se escribe en una cookie de origen en el dominio de página.
 
 ```js
 myCallback({
