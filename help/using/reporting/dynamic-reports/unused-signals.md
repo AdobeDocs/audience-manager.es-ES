@@ -1,5 +1,5 @@
 ---
-description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager.
+description: Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager.
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
@@ -7,20 +7,20 @@ title: Informe de señales no utilizadas
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
+source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Informe de señales no utilizadas{#unused-signals-report}
 
-Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada al Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de audiencia > Otros informes > Señales no utilizadas**.
+Este informe devuelve un recuento de frecuencia de toda la información no utilizada recopilada en el inventario y enviada a Audience Manager. Para acceder a este informe, vaya a **Analytics > Informes de audiencia > Otros informes > Señales no utilizadas**.
 
 >[!NOTE]
 >
->Si ve el mensaje &quot;No tiene acceso a los informes de audiencia&quot;, póngase en contacto con su asesor Audience Manager o con el servicio de atención al cliente para que le faciliten el informe.
+>Si ve el mensaje &quot;No tiene acceso a los informes de audiencia&quot;, póngase en contacto con su asesor de Audience Manager o con el servicio de atención al cliente para que le faciliten el informe.
 
 ![Captura de pantalla del informe de señales no utilizadas](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -28,7 +28,9 @@ Este informe devuelve un recuento de frecuencia de toda la información no utili
 
 Una señal es información del sitio web que se pasó a [!DNL Audience Manager] en forma de [pares clave-valor](../../reference/key-value-pairs-explained.md) (por ejemplo, `color=blue, price>100, gender=female`, etc.).
 
-Las señales no utilizadas consisten en datos que recopila, pero que no se han asignado a una característica. El informe [!UICONTROL Unused Signals] muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar que se pase a [!DNL Audience Manager] al menos 100 veces en un día califica para el informe [!UICONTROL Unused Signals]. Las señales que no se utilicen se almacenan durante 45 días y luego se descartan.
+Las señales no utilizadas consisten en datos que recopila, pero que no se han asignado a una característica. El informe [!UICONTROL Unused Signals] muestra los datos de una tabla por fecha, clave, valor y recuento de frecuencia. Cualquier señal sin asignar que se pase a [!DNL Audience Manager] al menos 100 veces en un día califica para el informe [!UICONTROL Unused Signals].
+
+Las señales que no se utilicen se almacenan durante 45 días y luego se descartan. El informe de señales no utilizadas muestra datos de los últimos 10 días.
 
 Revise este informe para identificar las señales huérfanas que pueden asignarse a rasgos nuevos o existentes.
 
