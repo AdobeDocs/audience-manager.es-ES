@@ -44,6 +44,7 @@ Comience por ver el vídeo de [Crear segmentos en el Audience Manager](https://i
    ![rasgos del generador de segmentos](assets/segment-builder-traits.png)
    * Busque el(la) [!UICONTROL trait] que desee agregar a un segmento y haga clic en **[!UICONTROL Add Trait]**. Agregar otro(a) [!UICONTROL trait] para crear un grupo [!UICONTROL trait].
    * Visualice el modal [!UICONTROL Advanced Search] haciendo clic en **[!UICONTROL Browse All Traits]**. Busque [!UICONTROL traits] por nombre, ID, descripción o [!UICONTROL data source]. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar [!UICONTROL traits] por [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] y [!UICONTROL Algorithmic]) o tipo de población ([ID de dispositivo](../../reference/ids-in-aam.md) e [ID entre dispositivos](../../reference/ids-in-aam.md)).
+
      ![rasgos del explorador-generador-de-segmentos](assets/segment-builder-browse-traits.png)
    * Recibe [recomendaciones de características](trait-recommendations.md) mientras creas tu [!UICONTROL segment].
    * Haga clic y arrastre [!UICONTROL traits] para crear grupos separados.

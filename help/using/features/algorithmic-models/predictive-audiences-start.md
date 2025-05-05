@@ -42,6 +42,7 @@ Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuaci
    * **[!UICONTROL Description]**: escriba una descripción del modelo que le ayudará a identificar su caso de uso.
    * **[!UICONTROL Data Source]**: seleccione el origen de datos de origen al que desea que se asignen los segmentos de [!UICONTROL Predictive Audiences] de este modelo.
    * **[!UICONTROL Profile Merge Rule]**: seleccione [!UICONTROL Profile Merge Rule] que se asignará a todos los objetos predictivos [!UICONTROL segments] creados por este modelo. Si la audiencia de destino seleccionada es un [!UICONTROL segment], se recomienda seleccionar el mismo [!UICONTROL Profile Merge Rule] de la audiencia de destino.
+
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Haga clic en **[!UICONTROL Save]**.
 

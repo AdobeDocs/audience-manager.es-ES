@@ -20,7 +20,7 @@ La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobe 
 
 Necesita el destino [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) y [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) en Experience Platform para habilitar el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
 
-Puede usar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del servicio de segmentación del Experience Platform [1}.](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
+Puede usar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del servicio de segmentación del Experience Platform [1&rbrace;.](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
 
 En Audience Manager, puede utilizar segmentos de Experience Platform para casos de uso de Data Management Platform, como:
 * Agregue [datos de terceros](/help/using/overview/data-types-collected.md#third-party-data) a sus segmentos;

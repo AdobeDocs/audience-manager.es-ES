@@ -46,7 +46,7 @@ Los clientes empresariales que usan [!DNL Audience Manager] necesitan una plataf
 > 
 > Una vez migrados todos los clientes, la sección de administración de usuarios de este documento desaparecerá.
 > 
-Cree usuarios en [!DNL Audience Manager] y especifique los detalles del usuario, el estado de inicio de sesión y asigne usuarios a grupos.
+>Cree usuarios en [!DNL Audience Manager] y especifique los detalles del usuario, el estado de inicio de sesión y asigne usuarios a grupos.
 
 1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Haga clic en ![](assets/icon_add.png) para mostrar la página [!UICONTROL Create New User].
