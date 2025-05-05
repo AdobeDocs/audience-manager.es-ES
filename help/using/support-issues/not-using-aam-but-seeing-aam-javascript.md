@@ -23,6 +23,6 @@ No utilizamos Adobe Audience Manager pero vemos llamadas de Javascript de Audien
 
 ## Respuesta
 
-Es probable que esté ejecutando [el servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) en su propiedad. En ese caso, tener esta referencia de Audience Manager no necesariamente hace referencia a la propiedad que ejecuta Audience Manager. En lugar de ello, significa que Audience Manager está alimentando este servicio.
+Es probable que esté ejecutando [el servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) en su propiedad. En ese caso, tener esta referencia de Audience Manager no necesariamente hace referencia a la propiedad que ejecuta Audience Manager. En lugar de ello, significa que Audience Manager está alimentando este servicio.
 
-La llamada al servidor de Audience Manager generalmente se realiza para [sincronizar los ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).
+La llamada al servidor de Audience Manager generalmente se realiza para [sincronizar los ID de cliente](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=es).

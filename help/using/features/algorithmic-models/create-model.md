@@ -55,7 +55,7 @@ Siga los pasos a continuación para generar un [!UICONTROL Look-Alike Model]:
 
 Vea el siguiente vídeo para obtener una visión detallada de cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=es)
 
 ## Información básica para modelos algorítmicos {#basic-information}
 

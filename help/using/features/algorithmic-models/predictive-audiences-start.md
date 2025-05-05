@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Creación de un modelo de Predictive Audiences {#create-predictive-audiences}
 
-Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué origen de datos de origen desea asignar sus rasgos y segmentos de [!UICONTROL Predictive Audiences]. Puede utilizar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obtener detalles sobre cómo crear una nueva fuente de datos propia.
+Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué origen de datos de origen desea asignar sus rasgos y segmentos de [!UICONTROL Predictive Audiences]. Puede utilizar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es) para obtener detalles sobre cómo crear una nueva fuente de datos propia.
 
 Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuación.
 

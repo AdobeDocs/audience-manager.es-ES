@@ -31,11 +31,11 @@ Audience Manager le ofrece sus herramientas para facilitar la obtención de los 
 
 ## Servicio de inclusión de Experience Cloud
 
-El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
 
 Esta es una extensión de [!DNL Experience Cloud ID (ECID) Service], diseñada para que usted pueda controlar si las soluciones de Experience Cloud pueden crear cookies en las páginas web de los visitantes antes del consentimiento del usuario, y cuáles pueden hacerlo.
 
-El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
 
 ## Gestión de la inclusión / Obtención de consentimiento
 

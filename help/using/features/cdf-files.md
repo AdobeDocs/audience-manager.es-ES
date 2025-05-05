@@ -111,7 +111,7 @@ Un archivo de [!UICONTROL CDF] incluye algunos o todos los campos definidos a co
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>El identificador de Experience Cloud </span> (MID) de <span class="keyword"> se asignó al visitante del sitio. Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookies y el servicio de identidad del Experience Platform de Adobe</a>. </p> </td> 
+   <td colname="col3"> <p>El identificador de Experience Cloud </span> (MID) de <span class="keyword"> se asignó al visitante del sitio. Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> cookies y el servicio de identidad del Experience Platform de Adobe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ Enumera y define la estructura de datos de un archivo de [!UICONTROL CDF]. Esto 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parámetros de solicitud </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Dirección IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID del dispositivo del Experience Cloud (o MID). Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookies y el servicio de identidad de Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID del dispositivo del Experience Cloud (o MID). Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> cookies y el servicio de identidad de Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos los segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas las características </li> 
      </ol> </p> <p>Para obtener descripciones de los campos, consulte <a href="#cdf-defined"> Contenido de fuente de datos del cliente definido</a>. </p> </td> 

@@ -82,7 +82,7 @@ Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabaja
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 6 </p> </td> 
-   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
+   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=es">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
    <td colname="col3"> <p>Usted o <span class="keyword"> Audience Manager</span> que asesora a nombre suyo </p> </td> 
   </tr> 
  </tbody> 

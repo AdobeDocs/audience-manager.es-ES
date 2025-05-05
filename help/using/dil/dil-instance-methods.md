@@ -21,9 +21,9 @@ ht-degree: 13%
 >
 >A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
 
 Las API [!UICONTROL DIL] de nivel de instancia le permiten crear y trabajar mediante programación con objetos de Audience Manager. Los métodos de nivel de instancia mejoran la funcionalidad de la API establecida por los métodos de nivel de clase.
 
@@ -727,7 +727,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nombre para variables clave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefijo para variables clave](../features/traits/trait-variable-prefixes.md)
->* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+>* [Funciones de sincronización en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html?lang=es)
 >* [DIL crear](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
+>* [Servicio de identidad de Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html?lang=es)
+>* [Compatibilidad con CORS en el servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html?lang=es)

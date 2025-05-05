@@ -29,7 +29,7 @@ El entorno beta se actualiza al final de cada mes durante las horas de menor act
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que los datos de clientes ([señales, características y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) no se sincronizan entre los entornos de producción y beta.
+>Tenga en cuenta que los datos de clientes ([señales, características y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=es)) no se sincronizan entre los entornos de producción y beta.
 
 ## Tráfico entrante
 

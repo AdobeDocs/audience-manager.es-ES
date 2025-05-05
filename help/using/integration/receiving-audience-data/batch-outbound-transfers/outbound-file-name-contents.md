@@ -63,7 +63,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914: <span class="keyword"> ID de anunciante de Google </span> (sin procesar, sin hash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915: <span class="keyword"> Apple ID para anunciantes </span> (sin procesar, sin hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID del proveedor - ID de usuarios de terceros (web/cookie) </li> 
-     </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
+     </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=es">Fuentes de datos globales</a> para obtener más información.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
