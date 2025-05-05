@@ -21,11 +21,11 @@ Obtenga recomendaciones de características activas a medida que genere sus segm
 
 Empiece por ver el vídeo de [!UICONTROL Trait Recommendations] que aparece a continuación y continúe leyendo para obtener más información. La demostración en vídeo muestra cómo trabajar con recomendaciones de sus propias características de origen, así como con recomendaciones de características de [!UICONTROL Audience Marketplace] fuentes de datos a las que *ya se ha suscrito*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40842?captions=spa)
 
 El siguiente vídeo describe el flujo de trabajo de [!UICONTROL Marketplace Recommendations], y muestra cómo agregar características a los segmentos, según las recomendaciones de las fuentes de datos de [!UICONTROL Audience Marketplace]. Estas recomendaciones se basan en fuentes de datos a las que *no se ha suscrito*.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/32756?captions=spa)
 
 ## Información general
 

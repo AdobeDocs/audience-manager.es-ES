@@ -31,4 +31,4 @@ Esta integración le permite ver los nombres descriptivos de los pares de clave-
 
 El siguiente vídeo muestra cómo usar [!UICONTROL Data Explorer] para detectar y usar los datos de Adobe Analytics, incluida la búsqueda de señales usadas y no usadas, la creación de características de Analytics y la comprensión de los datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/330349?captions=spa)

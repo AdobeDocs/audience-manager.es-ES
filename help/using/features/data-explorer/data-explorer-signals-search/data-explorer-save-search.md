@@ -35,4 +35,4 @@ Optimice los esfuerzos de búsqueda de señales guardando hasta 10 conjuntos de 
 
 Vea el siguiente vídeo para aprender a guardar búsquedas de señal.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30141?captions=spa)

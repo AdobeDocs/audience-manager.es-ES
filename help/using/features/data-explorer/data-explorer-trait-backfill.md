@@ -51,7 +51,7 @@ Una vez que termine de crear el rasgo, verá sus realizaciones rellenadas inclui
 
 Vea el siguiente vídeo para ver un tutorial sobre cómo rellenar rasgos.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/327529?captions=spa)
 
 ## Latencia de relleno de rasgos {#trait-backfilling-latency}
 

@@ -49,4 +49,4 @@ Cuando un proveedor de servicios de viajes añade nuevos destinos a su sitio web
 
 Una de las funciones más potentes de Audience Manager es la capacidad de incorporar datos sin conexión y vincularlos con los datos en línea. En el siguiente vídeo, aprenderá a usar [!UICONTROL Data Explorer] para validar que ha creado todos los rasgos necesarios para aprovechar estos datos incorporados.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/330351?captions=spa)

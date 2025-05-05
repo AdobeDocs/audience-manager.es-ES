@@ -114,7 +114,7 @@ Rellene primero los campos obligatorios de la sección [!UICONTROL Basic Informa
 
 Vea el siguiente vídeo para aprender a crear un modelo de similitud de origen, de modo que pueda encontrar más visitantes propios que se parezcan a sus convertidores.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/328111?captions=spa)
 
 >[!MORELIKETHIS]
 >

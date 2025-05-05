@@ -62,4 +62,4 @@ Para deshabilitar la ofuscación de direcciones IP en países específicos, busq
 
 * [Privacidad de datos](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Demostración en vídeo de ofuscación de direcciones IP
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34969?captions=spa)

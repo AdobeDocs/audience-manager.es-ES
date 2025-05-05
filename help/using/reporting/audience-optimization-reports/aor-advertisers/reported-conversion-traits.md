@@ -22,7 +22,7 @@ Los rasgos de conversión para los grupos de conversión pueden cambiar de la ej
 
 Para aprender a crear características de conversión en Audience Manager, consulte el siguiente vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/23431/)
+>[!VIDEO](https://video.tv.adobe.com/v/328096?captions=spa)
 
 ## Informe de muestra
 
