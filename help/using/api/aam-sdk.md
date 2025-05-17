@@ -30,5 +30,5 @@ El Audience Manager proporciona kits de desarrollo de software ([!DNL SDK]s) par
 
 Seguimos siendo compatibles con los SDK de Android y iOS 4.x. Para ver estas bibliotecas de código SDK, consulte:
 
-* [SDK de Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [SDK de iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [SDK de Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=es)
+* [SDK de iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=es)

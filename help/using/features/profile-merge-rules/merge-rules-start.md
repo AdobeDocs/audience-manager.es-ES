@@ -223,7 +223,7 @@ Compruebe los métodos en su código de [!DNL SDK] que le permiten pasar [!UICON
  </tbody>
 </table>
 
-Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=es) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=es).
 
 >[!MORELIKETHIS]
 >
