@@ -8,12 +8,13 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; dirección SFTP; dirección IP SFTP; dirección FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 78%
+source-wordcount: '1255'
+ht-degree: 74%
 
 ---
+
 
 # Preguntas frecuentes sobre la recopilación de datos y la integración de productos{#data-collection-and-product-integration-faq}
 
@@ -57,7 +58,7 @@ Los siguientes servidores SFTP están en desuso. No se aprovisionarán nuevas cu
 
  
 
-**¿Cómo configuro mi instancia de Audience Manager para que utilice los nuevos servidores SFTP?**
+**¿Cómo configuro mi instancia de Audience Manager para que use los nuevos servidores SFTP?**
 
 Póngase en contacto con su asesor de [!DNL Audience Manager] o con el Servicio de atención al cliente para que configuren sus nuevas cuentas SFTP.
 
@@ -190,7 +191,7 @@ No, no confíe en los [!UICONTROL General Reports] ni en [!UICONTROL Trend Repor
 
 Los informes calculan las poblaciones en función de los registros de perfil no autenticados (UUID) que vemos en el servidor en el momento en que se generan los informes.
 
-En una primera llamada al [!DNL DCS], los ID declarados *no están* vinculados a ningún UUID (es decir, no hay ninguna cookie [demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=es) en el lado del cliente). El [!DNL DCS] generará aleatoriamente un UUID y establecerá una cookie [!DNL demdex] y la transmitirá en la llamada de respuesta, pero no transmitirá el UUID al servidor.
+En una primera llamada al [!DNL DCS], los ID declarados *no están* vinculados a ningún UUID (es decir, no hay ninguna cookie [demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) en el lado del cliente). El [!DNL DCS] generará aleatoriamente un UUID y establecerá una cookie [!DNL demdex] y la transmitirá en la llamada de respuesta, pero no transmitirá el UUID al servidor.
 
 >[!NOTE]
 >
@@ -210,6 +211,8 @@ Normalmente, un perfil de usuario tarda hasta 24 horas en sincronizarse entre re
 
 **¿Qué les sucede a las claves de acceso de usuario inactivas de Amazon S3?**
 
-El Adobe proporciona a los clientes de Audience Manager claves de acceso de usuario para los bloques de Audience Manager [!DNL Amazon S3]. Por motivos de seguridad, las claves se desactivan automáticamente tras 100 días de inactividad.
+Adobe proporciona a los clientes de Audience Manager claves de acceso para [!DNL Amazon S3] bloques. Por motivos de seguridad, estas claves de acceso se desactivan automáticamente si permanecen sin utilizar durante 100 días.
 
-Para volver a habilitar las claves de acceso o solicitar otras nuevas, póngase en contacto con Atención al cliente.
+Si las claves de acceso están desactivadas, puede ponerse en contacto con Asistencia al cliente para volver a activarlas o solicitar nuevas claves.
+
+Para mejorar la seguridad, las claves de acceso que permanezcan inactivas durante 1000 días se eliminarán permanentemente junto con la cuenta de usuario de Amazon S3 IAM. Si es un cliente habitual y necesita acceso después de este período, póngase en contacto con Asistencia al cliente para volver a crear su cuenta y recibir nuevas claves de acceso.
