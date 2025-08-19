@@ -22,4 +22,4 @@ Busque señales utilizadas y no utilizadas recibidas en períodos de tiempo espe
 * [Filtrar resultados de búsqueda](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Guardar criterios de búsqueda](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/25148/)
+>[!VIDEO](https://video.tv.adobe.com/v/330350?captions=spa)

@@ -40,4 +40,4 @@ Esta sección muestra las 50 señales nuevas no utilizadas recibidas en los últ
 Las búsquedas guardadas muestran los 50 resultados principales para los criterios correspondientes.
 
 Vea el vídeo siguiente para aprender a usar el [!UICONTROL Signals Dashboard]archivo .
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/327524?captions=spa)

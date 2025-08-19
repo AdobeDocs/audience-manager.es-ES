@@ -49,11 +49,11 @@ Utilice la [flujo de trabajo Generar un modelo](../../features/algorithmic-model
 
 Si prefiere los tutoriales en vídeo, vea nuestra demostración en vídeo sobre la exclusión de rasgos:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38135/?quality=12&captions=spa)
 
 Además, vea el vídeo siguiente para obtener una visión detallada del funcionamiento de las métricas entre dispositivos.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36789/?quality=12&captions=spa)
 
 ## Aspectos importantes y limitaciones {#important-aspects-and-limitations}
 
@@ -96,7 +96,7 @@ Tenga en cuenta los siguientes aspectos y limitaciones relacionados con [!UICONT
 
 Vea el vídeo siguiente para saber cómo y por qué excluir características específicas de un [!UICONTROL Look-Alike Model]archivo .
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/)
+>[!VIDEO](https://video.tv.adobe.com/v/38135?captions=spa)
 
 ## Enlaces relacionados
 

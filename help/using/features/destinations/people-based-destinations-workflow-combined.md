@@ -63,7 +63,7 @@ En este caso, debe crear una nueva fuente de datos dispositivos cruzada que tien
 
 Vea el vídeo siguiente para ver un vídeo tutorial de cómo crear un fuente de datos para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/32174?captions=spa)
 
 >[!NOTE]
 >

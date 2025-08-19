@@ -113,7 +113,7 @@ Elegir una opción [!UICONTROL device graph] para una regla [!UICONTROL Profile 
 
 Vea el siguiente vídeo para obtener una descripción general de los posibles casos de uso de [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/)
+>[!VIDEO](https://video.tv.adobe.com/v/32171?captions=spa)
 
 >[!MORELIKETHIS]
 >

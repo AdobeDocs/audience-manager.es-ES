@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Crear nuevos rasgos de todas las señales, incluidos los que ya se usan en los rasgos, y capture audiencias futuras que califiquen después de la creación del rasgo. Vea el video para ver una demostración rápida o siga leyendo para obtener información detallada:
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327529/?quality=12&captions=spa)
 
 ## Crear características del panel de señales {#create-traits-from-signal-dashboard}
 

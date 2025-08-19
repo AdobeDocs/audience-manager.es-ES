@@ -21,11 +21,11 @@ Obtenga recomendaciones de características publicadas a medida que versión sus
 
 Inicio viendo el video a [!UICONTROL Trait Recommendations] continuación, luego siga leyendo para obtener más información. La demostración en vídeo le muestra cómo trabajar con recomendaciones de sus propios rasgos propios, así como con recomendaciones de rasgos de fuentes de [!UICONTROL Audience Marketplace] datos a *las que* ya está suscrito.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40842?captions=spa)
 
 En el siguiente vídeo se describen los flujo de trabajo de [!UICONTROL Marketplace Recommendations], en el que se muestra cómo añadir características a los segmentos, basándose en las recomendaciones de las fuentes de datos de [!UICONTROL Audience Marketplace]. Estas recomendaciones se basan en fuentes de datos a *las que* no está suscrito.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/32756?captions=spa)
 
 ## Información general
 
