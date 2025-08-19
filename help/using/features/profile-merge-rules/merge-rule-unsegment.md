@@ -44,7 +44,7 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la secc
 >[!NOTE]
 >
 >**Límite de 100 dispositivos para la evaluación y descalificación de segmentos**.
->>Audience Manager combina hasta 100 dispositivos al evaluar segmentos con una regla de combinación de perfiles que utiliza un gráfico de dispositivos. Audience Manager evalúa el dispositivo actual y hasta 99 dispositivos vinculados al dispositivo actual mediante un [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Si se emite la señal para anular la segmentación, el dispositivo actual y los dispositivos adicionales se eliminarán del segmento en el destino.
+>&#x200B;>Audience Manager combina hasta 100 dispositivos al evaluar segmentos con una regla de combinación de perfiles que utiliza un gráfico de dispositivos. Audience Manager evalúa el dispositivo actual y hasta 99 dispositivos vinculados al dispositivo actual mediante un [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Si se emite la señal para anular la segmentación, el dispositivo actual y los dispositivos adicionales se eliminarán del segmento en el destino.
 
 ![](assets/last-device-graph.png)
 

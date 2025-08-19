@@ -26,7 +26,7 @@ Con el **[!UICONTROL Ad Unit Overlap]** informe, puede obtener conocimiento sobr
 
 Utilice los controles y **[!UICONTROL Top N Base Ad Units]** para seleccionar el **[!UICONTROL Top N Overlapping Ad Units]** número deseado de unidades de anuncios para la superposición. Puede seleccionar un número máximo de 100 artículos para cada uno.
 
-Use los controles Intervalo de días y **Pulsación****de fechas para ajustar el** intervalo de retroactividad. Tenga en cuenta que los períodos de retrospectiva de 7 y 30 días solo están disponibles para las fechas del domingo.
+Use los controles Intervalo de días y **Pulsación**&#x200B;**de fechas para ajustar el** intervalo de retroactividad. Tenga en cuenta que los períodos de retrospectiva de 7 y 30 días solo están disponibles para las fechas del domingo.
 
 Utilice el **[!UICONTROL Base Ad Unit]** y los **[!UICONTROL Overlap Ad Unit]** controles para seleccionar cuál de las unidades de anuncios desea mostrar en el informe de superposición.
 

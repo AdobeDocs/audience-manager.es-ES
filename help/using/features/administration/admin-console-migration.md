@@ -39,7 +39,7 @@ Como Audience Manager usuario, todo lo que necesita hacer es ponerse en contacto
 Audience Manager administradores deben seguir los pasos siguientes para migrar usuarios a [!DNL Admin Console].
 
 1. Vaya a [https://adminconsole.adobe.com](https://adminconsole.adobe.com) e inicie sesión con su Adobe ID o Enterprise ID. Si no tiene acceso al , póngase en contacto con el [!DNL Admin Console]Servicio de atención al cliente o con su Adobe Systems asesor.
-2. Consulte el guía[!DNL Adobe Admin Console] de [ ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)ayuda para obtener instrucciones detalladas sobre cómo crear y administrar usuario cuentas.
+2. Consulte el guía[!DNL Adobe Admin Console] de [&#128279;](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)ayuda para obtener instrucciones detalladas sobre cómo crear y administrar usuario cuentas.
 3. Crear nuevo usuario contabiliza a todos los usuarios de Audience Manager existentes.
 4. Informe a los usuarios sobre las cuentas usuario recientemente creadas. Una vez migrados los usuarios a [!DNL Admin Console], deben dejar de usar inicios de sesión heredados.
 

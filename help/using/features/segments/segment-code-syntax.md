@@ -44,7 +44,7 @@ Para versión grupos de segmentos, ajuste la función Frecuencia entre paréntes
 | Nombre o Variable | Descripción |
 |---|---|
 | `FREQUENCY` | Un literal que debe preceder al expresión. |
-| ` [``traitID`>`T]` | Una matriz de identificadores de rasgos seguida de la letra `T`. Separe las características múltiples con una coma. Por ejemplo, `[123T, 456T]`. |
+| ` [` `traitID`>`T]` | Una matriz de identificadores de rasgos seguida de la letra `T`. Separe las características múltiples con una coma. Por ejemplo, `[123T, 456T]`. |
 | ` <Recency Operator><Numeric Value>D` | *(Opcional)* Establece reglas de actualización sobre las características del segmento. La carta `D` indica lo reciente en días. |
 | ` <Frequency Operator><Numeric Value>` | Establece Frecuencia reglas sobre las características del segmento. |
 

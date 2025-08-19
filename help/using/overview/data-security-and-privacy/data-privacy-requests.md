@@ -173,7 +173,7 @@ Sin embargo, algunos de los socios de activación:
 
 En esos casos, no podrá enviar solicitudes de eliminación a activación socios de forma automatizada a través de [!DNL Audience Manager].
 
-Consulte la lista de destinos [](/help/using/features/destinations/device-based-destinations-list.md) basados en dispositivos para ver qué [!DNL Audience Manager] socios de activación admiten el desegmento.
+Consulte la lista de destinos [&#128279;](/help/using/features/destinations/device-based-destinations-list.md) basados en dispositivos para ver qué [!DNL Audience Manager] socios de activación admiten el desegmento.
 
 ## Solicitudes de corrección de datos {#correction}
 

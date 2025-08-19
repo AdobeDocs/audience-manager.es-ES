@@ -26,7 +26,7 @@ Con el [!UICONTROL Segment to Ad Unit Overlap] informe, puede comprender qué au
 
 Utilice los controles y **[!UICONTROL Top N Ad Units]** para seleccionar el **[!UICONTROL Top N Segments]** número deseado de unidades de anuncios y segmentos para la superposición. Puede seleccionar un número máximo de 100 artículos para cada uno.
 
-Use los controles Intervalo de días y **Pulsación****de fechas para ajustar el** intervalo de retroactividad. Tenga en cuenta que los períodos de retrospectiva de 7 y 30 días solo están disponibles para las fechas del domingo.
+Use los controles Intervalo de días y **Pulsación**&#x200B;**de fechas para ajustar el** intervalo de retroactividad. Tenga en cuenta que los períodos de retrospectiva de 7 y 30 días solo están disponibles para las fechas del domingo.
 
 Utilice las **[!UICONTROL Segment Name]** casillas y para **[!UICONTROL Ad Unit]** filtrar cualquiera de los segmentos y unidades de anuncios.
 

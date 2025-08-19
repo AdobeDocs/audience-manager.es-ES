@@ -32,7 +32,7 @@ Cuando se buscan señales con varios pares clave-valor, [!DNL Audience Manager] 
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Este búsqueda solo devolverá los resultados que califiquen para las tres filtros en la misma convocatoria: `c_creative == "12345"` `AND``c_product == "smartphone"` `AND` `c_location == "europe"` .
+Este búsqueda solo devolverá los resultados que califiquen para las tres filtros en la misma convocatoria: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"` .
 
 ![](assets/signals-search.png)
 

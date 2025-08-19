@@ -24,7 +24,7 @@ Describe los campos obligatorios, la sintaxis, las convenciones de nomenclatura 
 
 >[!NOTE]
 >
->Los estilos de texto (`monospaced text`, cursiva *, corchetes , etc.) de esta documento indican elementos y opciones de* `[ ]``( )`código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los estilos de texto (`monospaced text`, cursiva *, corchetes , etc.) de esta documento indican elementos y opciones de* `[ ]` `( )`código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Sintaxis del nombre Archivo {#file-name-syntax}
 

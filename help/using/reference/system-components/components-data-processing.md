@@ -38,7 +38,7 @@ Los clientes no tienen acceso directo a estos sistemas. Sin embargo, los cliente
 
 ## Copo de nieve {#snowflake}
 
-[](https://www.snowflake.net/) Snowflake es una base de datos nube masiva. Proporciona datos a muchos de los gráficos de panel y sus cuadros de texto relacionados que muestran el % de cambio para cada elemento en el gráfico. Si utiliza [!DNL Audience Manager] y mira los informes panel, está interactuando con los datos proporcionados por [!UICONTROL Snowflake].
+[&#128279;](https://www.snowflake.net/) Snowflake es una base de datos nube masiva. Proporciona datos a muchos de los gráficos de panel y sus cuadros de texto relacionados que muestran el % de cambio para cada elemento en el gráfico. Si utiliza [!DNL Audience Manager] y mira los informes panel, está interactuando con los datos proporcionados por [!UICONTROL Snowflake].
 
 
 
@@ -60,7 +60,7 @@ SOLR es una base de datos de código abierto y un sistema de servidor de Apache.
 
 ## Cuadro {#tableau}
 
-[!DNL Audience Manager]usa [Tableau](https://www.tableausoftware.com/) para mostrar datos en los [informes](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interactivo y Audience Optimization[](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Los informes interactivos muestran datos de rendimiento y superposición para características y segmentos. En lugar de usar números dispuestos en columnas y filas, devuelven datos usando diferentes formas, colores y tamaños. Además, puede elegir puntos de datos individuales o en grupo y explorar en profundidad en los resultados del informe para obtener más detalles. Estas técnicas de visualización y interactividad de informes ayudan a que grandes cantidades de datos de numérica sean más fáciles de entender.
+[!DNL Audience Manager]usa [Tableau](https://www.tableausoftware.com/) para mostrar datos en los [informes](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interactivo y Audience Optimization[&#128279;](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Los informes interactivos muestran datos de rendimiento y superposición para características y segmentos. En lugar de usar números dispuestos en columnas y filas, devuelven datos usando diferentes formas, colores y tamaños. Además, puede elegir puntos de datos individuales o en grupo y explorar en profundidad en los resultados del informe para obtener más detalles. Estas técnicas de visualización y interactividad de informes ayudan a que grandes cantidades de datos de numérica sean más fáciles de entender.
 
 
 

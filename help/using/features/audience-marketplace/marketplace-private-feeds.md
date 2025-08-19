@@ -79,7 +79,7 @@ La siguiente documentación puede ayudarle a empezar con las fuentes de datos pr
 
 ## Fuentes de datos privadas para compradores {#private-data-feeds-for-buyers}
 
-Como comprador, las fuentes de datos privadas aparecen en Marketplace [](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) gustar en cualquier otro oferta. Sin embargo, en este caso, la lista de fuente no muestra información resumida sobre características, usuarios únicos y superposición de usuario. Además, el vendedor de datos tiene la opción de mostrar o ocultar su nombre en la [!UICONTROL Provider] columna del [!UICONTROL Marketplace] lista. Después de que el vendedor apruebe su solicitud de suscripción, todos los datos de un fuente privado estarán disponibles para usted (funciona solo gustar un fuente público). El [!UICONTROL Marketplace] siguiente ejemplo enumera los 3 tipos de fuente diferentes disponibles como comprador.
+Como comprador, las fuentes de datos privadas aparecen en Marketplace [&#128279;](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) gustar en cualquier otro oferta. Sin embargo, en este caso, la lista de fuente no muestra información resumida sobre características, usuarios únicos y superposición de usuario. Además, el vendedor de datos tiene la opción de mostrar o ocultar su nombre en la [!UICONTROL Provider] columna del [!UICONTROL Marketplace] lista. Después de que el vendedor apruebe su solicitud de suscripción, todos los datos de un fuente privado estarán disponibles para usted (funciona solo gustar un fuente público). El [!UICONTROL Marketplace] siguiente ejemplo enumera los 3 tipos de fuente diferentes disponibles como comprador.
 
 ![](assets/buyer_marketplace.png)
 
@@ -140,7 +140,7 @@ En este paso, identificará las características que desea compartir con su soci
 * Para asociarse con la fuente de datos que creó como parte del paso 2.
 * Para ser almacenado en la subcarpeta recién creada, bajo datos de terceros.
 
-Obtenga más información sobre la [creación y ](/help/using/features/traits/create-onboarded-rule-based-traits.md)edición de rasgos[](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+Obtenga más información sobre la [creación y ](/help/using/features/traits/create-onboarded-rule-based-traits.md)edición de rasgos[&#128279;](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
 ### Paso 4: Proveedor de datos: Crear fuente de datos
 

@@ -106,7 +106,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para obt
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de cierre de llaves <code>}</code>. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de cierre de llaves <code>&rbrace;</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -134,7 +134,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para obt
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave <code>{</code> abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave <code>&lbrace;</code> abierto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

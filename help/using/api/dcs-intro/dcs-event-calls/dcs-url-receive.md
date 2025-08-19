@@ -51,7 +51,7 @@ La tabla siguiente enumera y define los parámetros más comunes que puede ver e
 
 | Parámetro | Descripción |
 |--- |--- |
-| `c` | Un URL que se ha establecido como destino [](../../../features/destinations/create-url-destination.md)URL. |
+| `c` | Un URL que se ha establecido como destino [&#128279;](../../../features/destinations/create-url-destination.md)URL. |
 | `cn` | El nombre o ID establecidos en el campo cookie nombre de un [destino](../../../features/destinations/create-cookie-destination.md) cookie. |
 | `cv` | Los valores enviados al destino definidos por el parámetro &quot;cn&quot;:&quot; destinaton name&quot;. |
 | `dcs_region` | Las [llamadas](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) DCS de servidor a servidor. |

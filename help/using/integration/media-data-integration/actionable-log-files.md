@@ -62,7 +62,7 @@ Las señales son las [unidades de datos más pequeñas](../../reference/signal-t
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] son compatibles con los siguientes servidores de publicidad:
->> <br>
+>&#x200B;> <br>
 >
 > * [Administrador de Google Campaign](#dcm-logs-signals)
 > * [Administrador de anuncios de Google](#ad-manager-logs-signals)

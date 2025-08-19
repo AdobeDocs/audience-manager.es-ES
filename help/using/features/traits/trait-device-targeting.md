@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google ha actualizado la funcionalidad de [!DNL Google Chrome] y de todos los exploradores basados en [!DNL Chromium] para minimizar la información recopilada mediante el encabezado `User-Agent`.
->>A partir de marzo de 2023, Audience Manager admitirá estas actualizaciones aprovechando [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para seguir usando la información de rasgos proporcionada a través del encabezado `User-Agent`, debe usar [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) y habilitar [sugerencias de cliente de agente de usuario de alta entropía](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->>Estas actualizaciones no son compatibles con [DIL](../../../using/dil/dil-overview.md), por lo que los clientes de Audience Manager que usen [!DNL DIL] no podrán recopilar información de rasgos a través del encabezado `User-Agent`.
+>&#x200B;>A partir de marzo de 2023, Audience Manager admitirá estas actualizaciones aprovechando [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para seguir usando la información de rasgos proporcionada a través del encabezado `User-Agent`, debe usar [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) y habilitar [sugerencias de cliente de agente de usuario de alta entropía](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>&#x200B;>Estas actualizaciones no son compatibles con [DIL](../../../using/dil/dil-overview.md), por lo que los clientes de Audience Manager que usen [!DNL DIL] no podrán recopilar información de rasgos a través del encabezado `User-Agent`.
 
 Describe los pares clave-valor comunes a nivel de plataforma que puede usar para dirigirse a usuarios con variables relacionadas con dispositivos en todas las propiedades de su cuenta de Audience Manager.
 

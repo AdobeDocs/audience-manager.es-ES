@@ -22,7 +22,7 @@ Consulte la tabla siguiente para obtener instrucciones sobre los pasos de migrac
 |---------|----------|
 | [!DNL AppMeasurement] JavaScript biblioteca con AudienceManagement módulo | Siga las instrucciones de este guía. |
 | [!DNL Audience Manager][etiqueta extensión](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Siga las instrucciones de [actualización del biblioteca de recopilación de datos desde la extensión de etiqueta de Audience Manager a la extensión](dil-extension-to-web-sdk.md) de etiqueta SDK web. |
-| [!DNL AppMeasurement]JavaScript biblioteca + biblioteca DIL independiente [!DNL Audience Manager] [](../dil/dil-overview.md) | Siga las instrucciones de [actualización del biblioteca de recopilación de datos desde la extensión de etiqueta de Audience Manager a la extensión](dil-extension-to-web-sdk.md) de etiqueta SDK web. |
+| [!DNL AppMeasurement]JavaScript biblioteca + biblioteca DIL independiente [!DNL Audience Manager] [&#128279;](../dil/dil-overview.md) | Siga las instrucciones de [actualización del biblioteca de recopilación de datos desde la extensión de etiqueta de Audience Manager a la extensión](dil-extension-to-web-sdk.md) de etiqueta SDK web. |
 
 ## Información general sobre migración {#overview}
 
@@ -156,7 +156,7 @@ Con el SDK web, estas identidades ahora deben enviarse a la red perimetral media
 
 Pasar identidades correctamente en un mapa de identidad requiere comprender [los espacios](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de nombres de identidad y considerar cuidadosamente qué identidades pasar, especialmente cuando se envían datos a un Experience Platform sandbox. [Este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) describe estas consideraciones e instrucciones.
 
-Una vez que determine qué identidades transferir y cuándo, seguir las guías para usar el elemento[!UICONTROL Identity map] de datos dentro de **[!UICONTROL Identity map]**[ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) Etiquetas o configúrelo manualmente como se describe en la información general[ de ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)datos de identidad para alinearlo con su estrategia de implementación del SDK web.
+Una vez que determine qué identidades transferir y cuándo, seguir las guías para usar el elemento[!UICONTROL Identity map] de datos dentro de **[!UICONTROL Identity map]**&#x200B;[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) Etiquetas o configúrelo manualmente como se describe en la información general[ de ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)datos de identidad para alinearlo con su estrategia de implementación del SDK web.
 
 +++
 

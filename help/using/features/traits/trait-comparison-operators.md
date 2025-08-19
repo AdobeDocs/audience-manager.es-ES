@@ -37,7 +37,7 @@ Puede versión reglas con los siguientes operadores de comparación:
 | **==** | Igual a |
 | **!=** | No es igual a |
 | **>** | Mayor que |
-| **** | Menor que |
+| **&#x200B;**&#x200B;| Menor que |
 | **=>** | Mayor que/igual que |
 | **&lt;=** | Menor que/igual que |
 
@@ -51,7 +51,7 @@ Puede versión reglas con los siguientes operadores con nombre:
 | **[!UICONTROL Matcheswords]** | El valor de un par *clave-valor coincide con* el patrón especificado por este operador. |
 | **[!UICONTROL Startswith]** | El valor en un par *clave-valor comienza con* caracteres especificados por este operador. |
 | **[!UICONTROL Endswith]** | El valor de un par *clave-valor termina con* los caracteres especificados por este operador. |
-| **[!UICONTROL Matchesregex]** | El valor de un par *clave-valor coincide con* el patrón especificado por un expresión regular. [](../../features/traits/trait-builder-regex.md) Más información sobre el uso de expresiones regulares en [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | El valor de un par *clave-valor coincide con* el patrón especificado por un expresión regular. [&#128279;](../../features/traits/trait-builder-regex.md) Más información sobre el uso de expresiones regulares en [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >

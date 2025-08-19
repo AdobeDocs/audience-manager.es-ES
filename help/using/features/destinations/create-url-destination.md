@@ -56,7 +56,7 @@ Esto permite enviar segmentos de forma [!DNL destination] secuencial en lugar de
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Base URL] | La parte base de un(a) `HTTP` [!DNL URL] estándar que no cambia. Además, debe colocar la `%ALIAS%` [macro de marcador de posición](../../features/destinations/destination-macros.md#destination-macros-defined) en la dirección URL base. Ejemplo: `https://www.myCompany.com/%alias%...` |
-| [!UICONTROL Secure URL] | La parte base de una caja fuerte `HTTPS` [!DNL URL] que no cambia. Además, debe colocar la macro`%ALIAS%` de marcador de [](../../features/destinations/destination-macros.md#destination-macros-defined)posición en la URL base.   Ejemplo: `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Secure URL] | La parte base de una caja fuerte `HTTPS` [!DNL URL] que no cambia. Además, debe colocar la macro`%ALIAS%` de marcador de [&#128279;](../../features/destinations/destination-macros.md#destination-macros-defined)posición en la URL base.   Ejemplo: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Delimiter] | Símbolo que separa las variables de segmento de la [!DNL URL] cadena. Por lo general, es una coma o un punto y coma. Obtenga esta información de su socio de destino. |
 
 ## [!UICONTROL Segment Mappings] {#segment-mappings}
