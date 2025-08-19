@@ -122,11 +122,11 @@ Al configurar sus modelos de [!UICONTROL Predictive Audiences], tenga en cuenta 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de las siguientes fuentes de datos de origen:
+Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es) de las siguientes fuentes de datos de origen:
 
 1. La fuente de datos de origen que elija al crear el modelo.
 1. Las fuentes de datos de origen de la audiencia de destino. En concreto, los controles de exportación de datos de [!UICONTROL traits] o [!UICONTROL segments] que conforman la audiencia de destino.
-1. [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de [!UICONTROL Profile Merge Rule] que seleccionó para el modelo.
+1. [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es) de [!UICONTROL Profile Merge Rule] que seleccionó para el modelo.
 
 Los predictivos [!UICONTROL traits] y [!UICONTROL segments] recién creados tendrán las mismas restricciones de privacidad que la unión de los orígenes de datos de origen descritos anteriormente.
 
@@ -146,6 +146,6 @@ Si se selecciona un(a) [!UICONTROL Profile Merge Rule] que usa datos de disposit
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Los rasgos y segmentos que elija para las personalidades y la clasificación de audiencias están sujetos a los [controles de acceso basados en roles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) de Audience Manager.
+Los rasgos y segmentos que elija para las personalidades y la clasificación de audiencias están sujetos a los [controles de acceso basados en roles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=es) de Audience Manager.
 
-Los usuarios de Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino para las que tengan [permiso de visualización](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Los usuarios de Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino para las que tengan [permiso de visualización](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=es#wild-card-permissions).

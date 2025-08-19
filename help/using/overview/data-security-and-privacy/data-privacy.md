@@ -43,9 +43,9 @@ Consulte el [Centro de privacidad de Adobe](https://www.adobe.com/es/privacy/opt
 
 ## Cumplimiento de normas {#compliance}
 
-[!DNL Audience Manager] le ayuda a cumplir con sus obligaciones según ciertas regulaciones de privacidad, a través de herramientas de privacidad como [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) para solicitudes de acceso y eliminación de datos.
+[!DNL Audience Manager] le ayuda a cumplir con sus obligaciones según ciertas regulaciones de privacidad, a través de herramientas de privacidad como [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para solicitudes de acceso y eliminación de datos.
 
-Este servicio proporciona una interfaz de usuario y una [!DNL RESTful API] para ayudarle a administrar las solicitudes de datos de los clientes. Mediante [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), puede enviar solicitudes para acceder a datos personales y eliminarlos, de acuerdo a la solicitud presentada por un cliente. Así se facilita la automatización de esta parte de las obligaciones que establece la normativa.
+Este servicio proporciona una interfaz de usuario y una [!DNL RESTful API] para ayudarle a administrar las solicitudes de datos de los clientes. Mediante [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es), puede enviar solicitudes para acceder a datos personales y eliminarlos, de acuerdo a la solicitud presentada por un cliente. Así se facilita la automatización de esta parte de las obligaciones que establece la normativa.
 
 Mientras que las solicitudes de acceso y eliminación de datos se administran a través de Privacy Service, [las solicitudes de exclusión](data-privacy-requests.md#opt-out-requests) son compatibles actualmente con la [API de DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Consulte [Solicitudes sobre privacidad de datos](data-privacy-requests.md) para obtener más información.
 

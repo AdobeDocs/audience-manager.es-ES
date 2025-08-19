@@ -20,9 +20,9 @@ ht-degree: 4%
 >
 >A partir de julio de 2023, Adobe Systems ha interrumpido el desarrollo de la [!DNL Data Integration Library (DIL)] y la [!DNL DIL] extensión.
 >
->Los clientes existentes pueden seguir usando sus [!DNL DIL] implementación. Sin embargo, Adobe Systems no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web según su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando sus [!DNL DIL] implementación. Sin embargo, Adobe Systems no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) web según su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos después de julio de 2023 deberían usar [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos después de julio de 2023 deberían usar [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) web.
 
 ## Creación de DIL {#dil-create-new}
 
@@ -56,12 +56,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>Este Propiedad establece el ID de contenedor que utiliza <span class="keyword"> el Audience Manager </span> para las sincronizaciones de ID. Usted establecería <code> containerNSID </code> si tiene <span class="wintitle"> DIL </span> implementado en varios sitios. Cada uno de estos sitios tendrá su propio ID de contenedor y sincronizaciones de ID. Cuando solo tiene 1 sitio, el ID de contenedor es 0 de forma predeterminada y no es necesario configurarlo correctamente. Póngase en contacto con el consultor para obtener una lista de sus sitios y sus contenedor ID. </p> <p>En el servicio de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> identidad de Adobe Experience Platform, la Propiedad </a> corresponde a <code> idSyncContainerID </code> en <code> containerNSID </code> DIL<span class="wintitle">.</span> Tenga en cuenta lo siguiente si utiliza <span class="wintitle"> DIL </span> <i>y</i> el servicio de ID en varios sitios: </p> <p> 
+   <td colname="col3"> <p>Este Propiedad establece el ID de contenedor que utiliza <span class="keyword"> el Audience Manager </span> para las sincronizaciones de ID. Usted establecería <code> containerNSID </code> si tiene <span class="wintitle"> DIL </span> implementado en varios sitios. Cada uno de estos sitios tendrá su propio ID de contenedor y sincronizaciones de ID. Cuando solo tiene 1 sitio, el ID de contenedor es 0 de forma predeterminada y no es necesario configurarlo correctamente. Póngase en contacto con el consultor para obtener una lista de sus sitios y sus contenedor ID. </p> <p>En el servicio de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es" format="https" scope="external"> identidad de Adobe Experience Platform, la Propiedad </a> corresponde a <code> idSyncContainerID </code> en <code> containerNSID </code> DIL<span class="wintitle">.</span> Tenga en cuenta lo siguiente si utiliza <span class="wintitle"> DIL </span> <i>y</i> el servicio de ID en varios sitios: </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Para cada sitio, establezca los mismos ID de contenedor en <code> containerNSID </code> y <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Tanto DIL <span class="wintitle"> como </span> el servicio de ID intentarán enviar sincronizaciones de ID a nuestro recopilación de datos iFrame. Sin embargo, el iFrame garantiza que <span class="wintitle"> DIL </span> no active un sincronizar de ID. Esto evita la duplicación. </li> 
       <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">Solo <span class="wintitle"> DIL </span> envía datos a un <a href="../../features/destinations/destinations.md"> destino </a>URL. </li> 
-     </ul> </p> <p>Consulte también idSyncContainerID<a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external">. </a> </p> </td> 
+     </ul> </p> <p>Consulte también idSyncContainerID<a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncontainerid.html?lang=es" format="https" scope="external">. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
@@ -71,7 +71,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: ID del socio de datos asignado por <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: su ID único para una usuario. </li> 
-    </ul> <p> <p>Importante: Utilice únicamente valores descodificados para sus ID. La codificación creará identificadores codificados doble. </p> </p> <p> <p>Nota: Si utiliza el servicio de identidad de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform, establezca los ID de cliente con el </a> método en lugar de <code> setCustomerIDs </code> DIL<span class="wintitle">.</span> Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de cliente y Estados </a>Authentication. </p> </p> </td> 
+    </ul> <p> <p>Importante: Utilice únicamente valores descodificados para sus ID. La codificación creará identificadores codificados doble. </p> </p> <p> <p>Nota: Si utiliza el servicio de identidad de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es" format="https" scope="external"> Adobe Experience Platform, establezca los ID de cliente con el </a> método en lugar de <code> setCustomerIDs </code> DIL<span class="wintitle">.</span> Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external"> ID de cliente y Estados </a>Authentication. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -86,12 +86,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Si <code> true </code>, no adjuntará el IFRAME de publicación de destino al DOM ni activará destinos. El valor predeterminado es <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=es" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Si <code> true </code>, no adjuntará el IFRAME de publicación de destino al DOM ni activará destinos. El valor predeterminado es <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p>Deshabilita la sincronización de ID. Debe deshabilitar las sincronizaciones de ID al usar DIL v6.2+ y el servicio de ID de visitante. La <code> visitorService </code> función (consulte el código de ejemplo más abajo) se encarga de esta operación. </p> </td> 
+   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=es" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p>Deshabilita la sincronización de ID. Debe deshabilitar las sincronizaciones de ID al usar DIL v6.2+ y el servicio de ID de visitante. La <code> visitorService </code> función (consulte el código de ejemplo más abajo) se encarga de esta operación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -101,7 +101,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.idSyncSSLUseAkamai </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Especifica si los plantilla de publicación de destino deben utilizar Akamai para conexiones HTTPS. Habilitado por socio. </p> </td> 
+   <td colname="col3"> <p> <p>Importante: Este elemento se ha quedado obsoleto con <span class="wintitle"> la versión 8.0 de DIL </span> (publicada en agosto de 2018). En su lugar, utilice la <code> visitor.idSyncSSLUseAkamai </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncssluseakamai.html?lang=es" format="https" scope="external"> función </a> del servicio de identidad de Adobe Experience Platform. </p> </p> <p> Especifica si los plantilla de publicación de destino deben utilizar Akamai para conexiones HTTPS. Habilitado por socio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -111,7 +111,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>Obligatorio. </p> <p>El <code> namespace </code> par clave-valor contiene su <span class="keyword"> Experience Cloud </span> identificador de organización. Si no dispone de este ID, puede encontrarlo en la <span class="wintitle"> sección Administración </span> del <span class="keyword"> panel de Experience Cloud </span> . Se necesitan permisos de administrador para vista este panel. Consulte las características y funciones del producto, <a href="../../faq/faq-features.md"> preguntas frecuentes </a> y <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> administración: User Management y preguntas más frecuentes </a>. </p> </td> 
+   <td colname="col3"> <p>Obligatorio. </p> <p>El <code> namespace </code> par clave-valor contiene su <span class="keyword"> Experience Cloud </span> identificador de organización. Si no dispone de este ID, puede encontrarlo en la <span class="wintitle"> sección Administración </span> del <span class="keyword"> panel de Experience Cloud </span> . Se necesitan permisos de administrador para vista este panel. Consulte las características y funciones del producto, <a href="../../faq/faq-features.md"> preguntas frecuentes </a> y <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es" format="https" scope="external"> administración: User Management y preguntas más frecuentes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
@@ -131,7 +131,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Objeto </p> </td> 
-   <td colname="col3"> <p>Requerido con <span class="wintitle"> DIL </span> 6.2 o superior. </p> <p> DIL se basa en la función del <code> setCustomerIDs </code> servicio <span class="wintitle"> de identidad de </span> Adobe Experience Platform para pasar los ID declarados a Audience Manager.<span class="keyword"></span> Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de cliente y Estados </a> Authentication para obtener más información. </p> </td> 
+   <td colname="col3"> <p>Requerido con <span class="wintitle"> DIL </span> 6.2 o superior. </p> <p> DIL se basa en la función del <code> setCustomerIDs </code> servicio <span class="wintitle"> de identidad de </span> Adobe Experience Platform para pasar los ID declarados a Audience Manager.<span class="keyword"></span> Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es" format="https" scope="external"> ID de cliente y Estados </a> Authentication para obtener más información. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -60,7 +60,7 @@ En [!UICONTROL Trait Builder], la configuración de [!UICONTROL Basic Informatio
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> tipo de evento</span></b> </td> 
-   <td colname="col2"> Asigna el rasgo a un tipo o categoría, normalmente según la función (por ejemplo, conversión, visitante del sitio, socio, vista de página, etc.). Opcional. <p> Para aprender a crear características de conversión, consulte el vídeo <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creación de características de conversión en Audience Manager</a>. </p></td> 
+   <td colname="col2"> Asigna el rasgo a un tipo o categoría, normalmente según la función (por ejemplo, conversión, visitante del sitio, socio, vista de página, etc.). Opcional. <p> Para aprender a crear características de conversión, consulte el vídeo <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=es">Creación de características de conversión en Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> código de integración</span></b> </td> 

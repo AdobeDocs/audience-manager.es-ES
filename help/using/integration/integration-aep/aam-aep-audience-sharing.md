@@ -18,16 +18,16 @@ ht-degree: 1%
 
 La funcionalidad de uso compartido de audiencias entre Audience Manager y Adobe Experience Platform le permite compartir sus rasgos y segmentos de Audience Manager con Adobe Experience Platform y segmentos de Experience Platform con Audience Manager.
 
-Necesita el destino [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) y [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) en Experience Platform para habilitar el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
+Necesita el destino [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es) y [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=es) en Experience Platform para habilitar el uso compartido de audiencias entre Audience Manager y Adobe Experience Platform.
 
-Puede usar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del [servicio de segmentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+Puede usar rasgos y segmentos de Audience Manager en Experience Platform para agregar datos de Audience Manager a sus perfiles de cliente y beneficiarse del [servicio de segmentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
 
 En Audience Manager, puede utilizar segmentos de Experience Platform para casos de uso de la plataforma de administración de datos, como:
 * Agregue [datos de terceros](/help/using/overview/data-types-collected.md#third-party-data) a sus segmentos;
 * [Modelado](/help/using/features/algorithmic-models/understanding-models.md) algorítmico;
-* Active los segmentos en destinos que aún no se admitan en el catálogo[ de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
+* Active los segmentos en destinos que aún no se admitan en el catálogo[ de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=es).
 
-Además, los segmentos de Experience Platform se comparten con otras soluciones Experience Cloud a través [de los Servicios](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) principales.
+Además, los segmentos de Experience Platform se comparten con otras soluciones Experience Cloud a través [de los Servicios](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es) principales.
 
 >[!IMPORTANT]
 >
@@ -50,8 +50,8 @@ Las secciones siguientes describen cómo habilitar el uso compartido de datos de
 
 Para enviar segmentos y características de Audience Manager a Experience Platform, debe configurar el conector de origen Audience Manager en el catálogo de orígenes de Experience Platform. Se trata de una flujo de trabajo de autoservicio que no requiere la participación de Adobe Systems equipos de ingeniería o del Servicio de atención al cliente. Para configurar el conector de origen de Audience Manager, lea:
 
-* [Origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Crear una conexión de origen de Adobe Audience Manager en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+* [Origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
+* [Crear una conexión de origen de Adobe Audience Manager en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=es)
 
 >[!IMPORTANT]
 >
@@ -63,8 +63,8 @@ Para enviar segmentos y características de Audience Manager a Experience Platfo
 
 Después de configurar el conector de origen de Audience Manager para importar características y segmentos desde Audience Manager, los datos del Audience Manager aparecen en Experience Platform como **Audiences** en el flujo de trabajo de segmento. Para obtener más información sobre los segmentos y características de Audience Manager en Experience Platform, lea:
 
-* [Información general sobre el servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [Experience Platform Generador de segmentos usuario guía](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+* [Información general sobre el servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#audiences)
+* [Experience Platform Generador de segmentos usuario guía](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#audiences)
 
 ## Adobe Experience Platform segmentos en Audience Manager {#aep-segments-in-aam}
 
@@ -74,7 +74,7 @@ Las secciones siguientes describen cómo habilitar el uso compartido de datos de
 
 >[!IMPORTANT]
 >
-> En esta sección se describe la integración heredada del uso compartido de segmento de Experience Platform a Audience Manager. Ahora puede configurar esta integración sin asistencia de Adobe Systems representantes del cliente. Para obtener más información, lea la documentación sobre Experience Cloud [Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) destino.
+> En esta sección se describe la integración heredada del uso compartido de segmento de Experience Platform a Audience Manager. Ahora puede configurar esta integración sin asistencia de Adobe Systems representantes del cliente. Para obtener más información, lea la documentación sobre Experience Cloud [Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=es) destino.
 
 >[!NOTE]
 >
@@ -142,13 +142,13 @@ Para ver un ejemplo de un segmento creado automáticamente a partir de un segmen
 
 ## Compatibilidad con el control de exportación de datos de Audience Manager en Experience Platform {#aam-data-export-control-in-aep}
 
-Para exigir el cumplimiento del uso de datos en Experience Platform, todos los conjuntos de datos y campos aplicables deben recibir las etiquetas de uso de datos adecuadas[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es). Además, las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es) deben habilitarse para acciones de marketing específicas contra esas etiquetas, como se describe en el marco de [etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
+Para exigir el cumplimiento del uso de datos en Experience Platform, todos los conjuntos de datos y campos aplicables deben recibir las etiquetas de uso de datos adecuadas[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es). Además, las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es) deben habilitarse para acciones de marketing específicas contra esas etiquetas, como se describe en el marco de [etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es#dule-framework).
 
 En el proceso de uso compartido de audiencia entre Audience Manager y Experience Platform, todos los controles de exportación de datos que se hayan aplicado a Audience Manager segmentos se traducen en etiquetas y acciones marketing equivalentes reconocidas por Experience Platform gobierno de datos, y viceversa.
 
 >[!NOTE]
 >
->Para obtener más información general sobre los controles de exportación de datos, consulte la documentación[ de los controles de exportación de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)datos.
+>Para obtener más información general sobre los controles de exportación de datos, consulte la documentación[ de los controles de exportación de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es)datos.
 >
 >Este documento proporciona una referencia sobre cómo los controles de exportación de datos específicos de Audience Manager se asignan a las etiquetas de uso de datos y marketing acciones en Platform.
 
@@ -188,15 +188,15 @@ Audience Manager actualiza sistema de informes números de la interfaz una vez a
 
 ### Diferencias entre las reglas de combinación de perfiles y las directivas de combinación
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) En Audience Manager y [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) en Experience Platform funcionan de manera diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre segmento poblaciones.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) En Audience Manager y [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html?lang=es) en Experience Platform funcionan de manera diferente, y el gráfico de identidad utilizado para cada uno varía. Debido a esto, se esperan algunas diferencias entre segmento poblaciones.
 
 >[!NOTE]
 >
-> Al compartir segmentos de Experience Platform a Audience Manager, el directiva de combinación predeterminado de su organización [Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) tiene prioridad sobre el [directiva de combinación utilizado por el segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) compartido con Audience Manager. Por ejemplo, si el directiva de combinación del segmento compartido permite [la unión](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure) de ID, pero el directiva de combinación predeterminado de la organización no, esto podría dar lugar a diferencias de población entre Platform y Audience Manager.
+> Al compartir segmentos de Experience Platform a Audience Manager, el directiva de combinación predeterminado de su organización [Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=es#default-merge-policy) tiene prioridad sobre el [directiva de combinación utilizado por el segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#merge-policies) compartido con Audience Manager. Por ejemplo, si el directiva de combinación del segmento compartido permite [la unión](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#configure) de ID, pero el directiva de combinación predeterminado de la organización no, esto podría dar lugar a diferencias de población entre Platform y Audience Manager.
 
 ### Composición del segmento en Experience Platform
 
-La integración entre Adobe Experience Platform y Audience Manager comparte una serie de espacios[ de nombres de identidad estándar ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types)para todos los clientes: ECID, IDFA, GAID, direcciones correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Si los Experience Platform segmentos utilizan cualquiera de estos como identidad principal para los perfiles cualificados, los perfiles se cuentan en Audience Manager rasgos y segmentos.
+La integración entre Adobe Experience Platform y Audience Manager comparte una serie de espacios[ de nombres de identidad estándar ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es#identity-types)para todos los clientes: ECID, IDFA, GAID, direcciones correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Si los Experience Platform segmentos utilizan cualquiera de estos como identidad principal para los perfiles cualificados, los perfiles se cuentan en Audience Manager rasgos y segmentos.
 
 >[!NOTE]
 >
@@ -217,6 +217,6 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [Resumen del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
->* [Guía del usuario del Generador de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [Conector de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [Resumen del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#audiences)
+>* [Guía del usuario del Generador de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#audiences)
+>* [Conector de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)

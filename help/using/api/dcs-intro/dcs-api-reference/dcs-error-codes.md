@@ -23,7 +23,7 @@ En las tablas siguientes, *la cursiva representa un marcador de* posición varia
 |---|---|---|
 | 0 | Error no especificado | Se trata de un error general que gestiona eventos que no están cubiertos por los demás gestores de errores. Solucionar este error es difícil. Puede ser causada por una variedad de acciones o eventos desconocidos. Si recibe este error, pruebe su [!DNL DCS] solicitud nuevamente. Si el problema continúa, póngase en contacto con su [!DNL Adobe] representante. |
 | 1 | No se pudo encontrar la configuración para el nombre de host: `hostname` | El nombre host enviado en el solicitud no ha sido configurado por nuestra equipo de aprovisionamiento de socio. Póngase en contacto con su [!DNL Adobe] representante si ve este mensaje de error. |
-| 2 | Valor no válido `d_orgid` (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID y vuelva a probar la solicitud. Si no conoce o no tiene su identificador de organización, consulte la sección [&quot;Administración Página&quot; Organizaciones y enlaces de cuenta](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarlo. |
+| 2 | Valor no válido `d_orgid` (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID y vuelva a probar la solicitud. Si no conoce o no tiene su identificador de organización, consulte la sección [&quot;Administración Página&quot; Organizaciones y enlaces de cuenta](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es) para obtener información sobre cómo encontrarlo. |
 | 10 | No se pueden evaluar los rasgos | Los rasgos en el solicitud fueron evaluados parcialmente o no han sido evaluados en absoluto. Si el problema continúa, póngase en contacto con su [!DNL Adobe] representante. |
 
 ## Códigos de Error de integración {#integration-error-codes}
@@ -151,7 +151,7 @@ En las tablas siguientes, *la cursiva representa un marcador de* posición varia
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de cliente no autorizado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de cliente fuente de datos no pertenece al ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar el identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizaciones y vinculación</a> de cuentas para obtener información sobre cómo encontrarlo. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de cliente fuente de datos no pertenece al ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar el identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html" format="https" scope="external"> Organizaciones y vinculación</a> de cuentas para obtener información sobre cómo encontrarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 

@@ -111,7 +111,7 @@ Sí.
 
 **¿Las estimaciones del tamaño del segmento incluyen los dispositivos que se clasifican como segmento basado en conexiones proporcionado por una [!UICONTROL Profile Merge Rule] que usa un gráfico de dispositivos?**
 
-No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
+No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=es).
 
  
 

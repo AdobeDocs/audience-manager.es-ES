@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Previsto audiencia
 
-Este Página está destinado a Audience Manager clientes que utilizan la extensión[ Audience Manager ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)etiqueta para poner en Audience Manager datos de colección web. Para los clientes que utilicen el biblioteca de JavaScript AppMeasurement, lea la guía sobre cómo actualizar su biblioteca de recopilación de datos para Audience Manager [desde el biblioteca de JavaScript de AppMeasurement al biblioteca de JavaScript del](appmeasurement-to-web-sdk.md) SDK web.
+Este Página está destinado a Audience Manager clientes que utilizan la extensión[ Audience Manager ](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/audience-manager/overview)etiqueta para poner en Audience Manager datos de colección web. Para los clientes que utilicen el biblioteca de JavaScript AppMeasurement, lea la guía sobre cómo actualizar su biblioteca de recopilación de datos para Audience Manager [desde el biblioteca de JavaScript de AppMeasurement al biblioteca de JavaScript del](appmeasurement-to-web-sdk.md) SDK web.
 
 ## Ventajas y desventajas de esta ruta de implementación
 

@@ -111,7 +111,7 @@ Un [!UICONTROL CDF] archivo incluye algunos o todos los campos definidos a conti
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>ID <span class="keyword"> de Experience Cloud</span> (MID) asignado al visitante del sitio. Consulte también Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> y el servicio</a> de Adobe Experience Platform ID. </p> </td> 
+   <td colname="col3"> <p>ID <span class="keyword"> de Experience Cloud</span> (MID) asignado al visitante del sitio. Consulte también Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> y el servicio</a> de Adobe Experience Platform ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ Enumera y define la estructura de datos de un [!UICONTROL CDF] archivo. Esto inc
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parámetros de solicitud </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Sitio de referencia </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Dirección IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud ID de dispositivo (o MID). Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies y el servicio de identidad de Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud ID de dispositivo (o MID). Consulte también <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> Cookies y el servicio de identidad de Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos los segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas las características </li> 
      </ol> </p> <p>Para ver descripciones de los campos, consulte <a href="#cdf-defined"> Definición del contenido</a> de la fuente de datos del cliente. </p> </td> 

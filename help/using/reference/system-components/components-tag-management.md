@@ -38,7 +38,7 @@ El portal del cliente es la principal interfaz de usuario (IU) para etiqueta y g
 
 ## Contenedor DIL/TIM {#dil-tim}
 
-El [!UICONTROL DIL] contenedor ayuda a implementar [!DNL Audience Manager] código recopilación de datos a su sitio Web. [!UICONTROL TIM] es el administrador de inserción de etiquetas obsoleto. Ya no es utilizado por [!DNL Audience Manager]. En su lugar, utilice la [!DNL Audience Manager] extensión de Etiquetas[ de ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Adobe Experience Platform para configurar y generar código contenedor que coloque en las páginas de su inventario.
+El [!UICONTROL DIL] contenedor ayuda a implementar [!DNL Audience Manager] código recopilación de datos a su sitio Web. [!UICONTROL TIM] es el administrador de inserción de etiquetas obsoleto. Ya no es utilizado por [!DNL Audience Manager]. En su lugar, utilice la [!DNL Audience Manager] extensión de Etiquetas[ de ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=es)Adobe Experience Platform para configurar y generar código contenedor que coloque en las páginas de su inventario.
 
 ## Biblioteca de integración de datos (DIL) {#dil}
 

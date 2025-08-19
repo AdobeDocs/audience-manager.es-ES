@@ -35,9 +35,9 @@ Para completar la sección [!UICONTROL Data Source Details], rellene los campos 
 1. **[!UICONTROL Description]** (opcional): escriba una descripción para el origen de datos para que le ayude a definir la función o el propósito del origen de datos.
 1. **[!UICONTROL Integration Code]** (opcional): escriba un código de integración. Estos códigos son obligatorios cuando desee:
    * [Crear una fuente de datos entre dispositivos](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Usar [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+   * Usar [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
    * Trabajar con [reglas de combinación de perfiles](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (solo lectura): este campo es de solo lectura y se genera automáticamente al guardar el origen de datos. Si desea exportar segmentos de Audience Manager a Experience Platform, debe crear un [área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) correspondiente en Experience Platform, utilizando el valor generado automáticamente como el área de nombres [identity symbol](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) en Experience Platform.
+1. **[!UICONTROL Namespace]** (solo lectura): este campo es de solo lectura y se genera automáticamente al guardar el origen de datos. Si desea exportar segmentos de Audience Manager a Experience Platform, debe crear un [área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es#manage-namespaces) correspondiente en Experience Platform, utilizando el valor generado automáticamente como el área de nombres [identity symbol](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) en Experience Platform.
 1. **[!UICONTROL ID Type]**: seleccione el tipo de ID que contendrá este origen de datos:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +69,7 @@ Elimine un(a) [!UICONTROL data source] que ya no necesite.
 >Tenga en cuenta las siguientes restricciones:
 >
 >* No puede eliminar una [Audiencia activa o un Rasgo sincronizado de Data Source](../features/traits/client-activity-synced-audience-traits.md).
->* Para clientes que utilizan Adobe Analytics: Audience Manager no permite eliminar fuentes de datos creadas automáticamente a partir de los grupos de informes [!DNL Analytics]. Use el [servicio principal](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) para desasignar estos orígenes de datos.
+>* Para clientes que utilizan Adobe Analytics: Audience Manager no permite eliminar fuentes de datos creadas automáticamente a partir de los grupos de informes [!DNL Analytics]. Use el [servicio principal](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) para desasignar estos orígenes de datos.
 
 1. Haga clic en **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Seleccione la casilla de verificación situada junto a uno o varios orígenes de datos.
