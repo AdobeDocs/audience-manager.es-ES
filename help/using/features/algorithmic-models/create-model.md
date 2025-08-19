@@ -40,22 +40,19 @@ Siga los pasos a continuación para generar un [!UICONTROL Look-Alike Model]:
    * Asigne un nombre al modelo.
    * *(Opcional)* Proporcione una breve descripción sobre el modelo.
    * Establezca el estado del modelo en **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. Los modelos inactivos no se ejecutarán y no producirán ningún dato.
-
      ![aspecto-similar-básico](assets/look-alike-basic.png)
 1. En la sección [Configuración](../../features/algorithmic-models/create-model.md#configuration):
    * Haga clic en **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** para seleccionar un rasgo o segmento con el que desee modelar. Busque rasgos por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas. También puede filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] y [!UICONTROL Algorithmic]) o tipo de población ([ID de dispositivo](../../reference/ids-in-aam.md) e [ID entre dispositivos](../../reference/ids-in-aam.md)).
-
      ![rasgos de exploración](assets/browse-traits.png)
    * Elija un periodo retrospectivo de 30, 60 o 90 días. Esto establece un intervalo de tiempo para el modelo.
    * El algoritmo [!UICONTROL TraitWeight] está seleccionado de manera predeterminada.
    * Seleccione un origen de datos de la lista [!UICONTROL Available Data].
    * Haga clic en **[!UICONTROL Save]** cuando termine.
-
      ![configuración-similitud](assets/look-alike-configuration.png)
 
 Vea el siguiente vídeo para obtener una visión detallada de cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=es)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Información básica para modelos algorítmicos {#basic-information}
 
@@ -99,7 +96,7 @@ Rellene primero los campos obligatorios de la sección [!UICONTROL Basic Informa
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleccionar algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>En este momento, el Generador de modelos funciona únicamente con nuestro algoritmo <span class="keyword"> de propiedad exclusiva de peso de rasgos</span>. El Audience Manager <span class="keyword"> </span> puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
+   <td colname="col2"> <p>En este momento, el Generador de modelos funciona únicamente con nuestro algoritmo <span class="keyword"> de propiedad exclusiva de peso de rasgos</span>. <span class="keyword"> Audience Manager</span> puede agregar otras funciones algorítmicas en versiones posteriores. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleccionar datos de modelo del Source de datos (4)</b> </p> </td> 
@@ -114,7 +111,7 @@ Rellene primero los campos obligatorios de la sección [!UICONTROL Basic Informa
 
 Vea el siguiente vídeo para aprender a crear un modelo de similitud de origen, de modo que pueda encontrar más visitantes propios que se parezcan a sus convertidores.
 
->[!VIDEO](https://video.tv.adobe.com/v/328111?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

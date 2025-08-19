@@ -20,7 +20,7 @@ Métodos que permiten trabajar mediante programación con las características d
 
 <!-- c_destinations_api.xml -->
 
-En Audience Manager, un destino es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, exchange, su propia cookie de origen, etc.) con el que desea compartir datos.
+En Audience Manager, un destino es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, exchange, su propia cookie de origen, etc.) con el que desee compartir datos.
 
 ## Tipos de destino: URL y cookie {#destination-types}
 

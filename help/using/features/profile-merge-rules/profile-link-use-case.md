@@ -1,9 +1,9 @@
 ---
-description: Recommendations y casos de uso para retargeting de segmentos y calificación de segmentos personalizada con el gráfico del dispositivo de enlace de perfil.
+description: Recommendations y casos de uso para la reorientación segmento y la calificación de segmento personalizada con el gráfico de dispositivos Vínculo de perfil.
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
-title: Casos de uso de Device Graph de enlace de perfil
+title: Vínculo de perfil Casos de uso de Device Graph
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
@@ -14,40 +14,40 @@ ht-degree: 4%
 
 ---
 
-# Casos de uso de Device Graph de enlace de perfil {#profile-link-device-graph-use-cases}
+# Vínculo de perfil Casos de uso de Device Graph {#profile-link-device-graph-use-cases}
 
-Recommendations y casos de uso para resegmentación de segmentos y calificación de segmentos personalizada con [!UICONTROL Profile Link Device Graph].
+Recommendations y casos de uso para la reorientación segmento y la calificación de segmento personalizada con el [!UICONTROL Profile Link Device Graph].
 
 ## Las actividades de {#recommendations}
 
-Considere el gráfico del dispositivo [!UICONTROL Profile Link] para las campañas que:
+Tenga en cuenta el gráfico de dispositivos [!UICONTROL Profile Link] para campañas que:
 
-* Tener un alto nivel de autenticación en sus propiedades digitales. Use un gráfico de dispositivos externos [opción](merge-rule-definitions.md#device-options) si tiene una pequeña cantidad de usuarios autenticados.
-* Requiere segmentación precisa de audiencias conocidas. [!UICONTROL Profile Link Device Graph] se ha creado usando datos autenticados de origen.
-* Segmente audiencias conocidas en sus estados autenticado y no autenticado en tiempo real.
+* Tienen un alto nivel de autenticación en todas sus propiedades digitales. Utilice una [opción](merge-rule-definitions.md#device-options) de gráfico de dispositivos externo si tiene una pequeña cantidad de usuarios autenticados.
+* Requieren un direccionamiento preciso de audiencias conocidas. El [!UICONTROL Profile Link Device Graph] se crea utilizando datos propios y autenticados.
+* Target audiencias conocidas en todos sus estados autenticados y no autenticados en tiempo real.
 
 ![](assets/merge-rule-triangle2.png)
 
-## Segmentación entre dispositivos {#cross-device-personalization}
+## Segmentación cruzada por dispositivo {#cross-device-personalization}
 
-Supongamos que John posee tres dispositivos que usa con regularidad para buscar ofertas de paquetes de vacaciones: su portátil ([!DNL Device 1]), su smartphone ([!DNL Device 2]) y su tableta ([!DNL Device 3]). Sin embargo, John utiliza sus dispositivos para buscar diferentes elementos de las ofertas de paquetes:
+Digamos que John posee tres dispositivos que usa regularmente para búsqueda ofertas de paquetes de vacaciones: su computadora portátil ([!DNL Device 1]), su teléfono inteligente ([!DNL Device 2]) y su tableta ([!DNL Device 3]). Sin embargo, John usa su dispositivos para búsqueda diferentes artículos del paquete:
 
-* Usa su portátil para buscar vuelos;
-* Usa su smartphone para buscar hoteles;
-* Usa su tableta para buscar visitas guiadas.
+* Usa su computadora portátil para búsqueda para los vuelos;
+* Usa su teléfono inteligente para búsqueda para hoteles;
+* Usa su tableta para búsqueda visitas guiadas.
 
-Incluso si John no está autenticado en los tres dispositivos mencionados anteriormente, mediante la regla **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, un proveedor de paquetes de vacaciones puede asociar estos dispositivos al perfil autenticado de John, suponiendo que fuera la última persona en autenticarse en los tres dispositivos.
+Incluso si John no está autenticado en los tres dispositivos mencionados anteriormente, mediante el **[!UICONTROL Last Authenticated Profiles]** uso del regla + **[!UICONTROL Profile Link Device Graph]** , un proveedor de paquetes de vacaciones puede asociar estos dispositivos al perfil autenticado de John, suponiendo que él fue la última persona en autenticarse en los tres dispositivos.
 
-![last-device-graph](assets/last-device-graph.png)
+![último gráfico dispositivos](assets/last-device-graph.png)
 
-Dado que Audience Manager clasifica todos los perfiles de dispositivo que participaron en la combinación de perfiles de un segmento, los tres perfiles de dispositivo se segmentan. El [!UICONTROL Profile Link Device Graph] permite al Audience Manager observar el comportamiento en los tres dispositivos y clasificar cada dispositivo para un segmento para el que ningún perfil de dispositivo se califica por sí solo.
+Dado que Audience Manager califica a todos los dispositivos perfil que participaron en la perfil fusión para una segmento, los tres perfiles dispositivos están segmentados. Esto [!UICONTROL Profile Link Device Graph] Audience Manager permite observar el comportamiento en los tres dispositivos y calificar cada dispositivos para un segmento para el que ningún dispositivos perfil califica por sí solo.
 
-Este(a) [!UICONTROL Profile Merge Rule] permite que los especialistas en mercadotecnia brinden una experiencia coherente a todos los dispositivos propiedad de una persona, en función de la actividad del usuario en lugar de la actividad del dispositivo individual.
+Esto [!UICONTROL Profile Merge Rule] permite a los especialistas en marketing ofrecer un experiencia coherente a todas las dispositivos propiedad de una sola persona, en función del usuario actividad en lugar del dispositivos individual actividad.
 
-![personalización entre dispositivos](assets/cross-device-personalization.png)
+![Cross-dispositivos-personalización](assets/cross-device-personalization.png)
 
 >[!MORELIKETHIS]
 >
 >* [Ejemplos de uso de los Gráficos de dispositivos externos](external-graph-use-cases.md)
 >* [Casos generales de uso de las reglas de combinación de Perfiles](merge-rule-targeting-options.md)
->* [Preguntas frecuentes sobre reglas de combinación de perfiles](../../faq/faq-profile-merge.md)
+>* [Preguntas más frecuentes sobre las reglas de combinación de perfiles](../../faq/faq-profile-merge.md)

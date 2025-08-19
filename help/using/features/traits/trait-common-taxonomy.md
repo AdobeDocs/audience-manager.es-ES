@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Este artículo proporciona información general sobre la clasificación de rasgos con una taxonomía común.
 
-## La taxonomía Audience Manager
+## La taxonomía de Audience Manager
 
 <!-- c_common_taxonomy_about.xml -->
 
@@ -31,7 +31,7 @@ Permitir que nuestros clientes creen segmentos personalizados y modelos de datos
 
 ## La Taxonomía Utiliza Categorías De Clasificación Estándar Del Sector
 
-La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [sitio web](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) de [!DNL IAB] para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
+La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [!DNL IAB]sitio web[ de ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
 
 ## Organización taxonómica
 

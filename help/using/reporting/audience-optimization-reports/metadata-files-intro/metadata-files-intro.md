@@ -1,9 +1,9 @@
 ---
-description: Un archivo de datos contiene datos de impresión, clics o conversión que se pueden utilizar en los informes de Audience Optimization y en los archivos de registro procesables. Un archivo de metadatos contiene nombres legibles en lenguaje natural que corresponden a varias opciones de informes y elementos de menú. Dé formato a sus datos y archivos de metadatos según las especificaciones de esta sección.
+description: Un archivo de datos contiene datos impresión, de clics o Conversión que puede utilizar en los informes Audience Optimization y para el Archivos de registro procesable. Un archivo metadatos contiene nombres legibles en lenguaje humano que corresponden a varias opciones de informe y elementos de menú. Formatee sus datos y archivos metadatos de acuerdo con las especificaciones de esta sección.
 seo-description: A data file contains impression, click, or conversion data that you can use in the Audience Optimization reports and for Actionable Log Files. A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
 seo-title: Log Data and Metadata Files
 solution: Audience Manager
-title: Archivos de metadatos y datos de registro
+title: Registrar datos y metadatos Archivos
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 feature: Log Files
 exl-id: c913372f-4a0a-420c-933e-23b30393fbaf
@@ -14,21 +14,21 @@ ht-degree: 1%
 
 ---
 
-# Archivos de metadatos y datos de registro{#data-and-metadata-files}
+# Registrar datos y metadatos Archivos{#data-and-metadata-files}
 
-Un archivo de datos contiene datos de impresión, clics o conversión que puede utilizar para lo siguiente:
+Un archivo de datos contiene datos de impresión, clics o Conversión que puede utilizar para:
 
 * [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md)
-* [Informes del Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization informes](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-Un archivo de metadatos contiene nombres legibles en lenguaje natural que corresponden a varias opciones de informes y elementos de menú. Dé formato a sus datos y archivos de metadatos según las especificaciones de esta sección.
+Un archivo metadatos contiene nombres legibles en lenguaje humano que corresponden a varias opciones de informe y elementos de menú. Formatee sus datos y archivos metadatos de acuerdo con las especificaciones de esta sección.
 
 >[!IMPORTANT]
 >
->Para usar archivos de metadatos, las llamadas de evento deben incluir *todos* los parámetros enumerados en la sección [información general y asignaciones](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+>Para usar metadatos archivos, las llamadas evento deben incluir *todos los* parámetros enumerados en la [sección Información general y asignaciones](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
 
-* [Archivos de datos para informes de Audience Optimization y archivos de registro procesables](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
-* [Información general y asignaciones para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
-* [Convenciones de nomenclatura para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
-* [Formato de contenido para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
-* [Métodos de envío para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
+* [Archivos de datos para informes Audience Optimization y Archivos de registro procesables](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+* [Información general y asignaciones para el Archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
+* [Convenciones de nomenclatura para Archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
+* [Formato de contenido para metadatos Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
+* [Métodos de entrega de metadatos Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)

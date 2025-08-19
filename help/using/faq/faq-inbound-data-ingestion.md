@@ -58,10 +58,10 @@ Consulte [Compresión de archivos de transferencia de datos entrantes](../integr
 
 **¿Puedo cargar un archivo de datos de entrada (archivo [!DNL .sync] o [!DNL .overwrite]) antes de implementar el código de [!DNL Audience Manager] en la producción?**
 
-Sí. Siempre que use un [!UICONTROL cross-device data source] para almacenar los datos CRM que carga, Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras que Audience Manager lanzó en octubre de 2019 y que permiten casos de uso solo sin conexión, puede cargar datos y actuar en ellos sin implementar el código de Audience Manager en la producción. Consulte:
+Sí. Siempre que use un [!UICONTROL cross-device data source] para almacenar los datos CRM que carga, Audience Manager siempre almacena los datos. De hecho, tras las [!UICONTROL Profile Merge Rules] mejoras presentadas por Audience Manager en octubre de 2019, que permiten usos únicamente sin conexión, puede cargar datos y actuar en consecuencia sin implementar el código de Audience Manager en la producción. Consulte:
 
-* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=es)
-* [!UICONTROL People-based Destinations] - [Personalization basado en datos solamente sin conexión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=es)
+* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalization basado en datos solamente sin conexión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 

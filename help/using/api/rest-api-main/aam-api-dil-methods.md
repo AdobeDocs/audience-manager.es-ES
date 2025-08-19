@@ -1,9 +1,9 @@
 ---
-description: Métodos que permiten trabajar de manera programática con la Data Integration Library (DIL).
+description: Métodos que le permiten trabajar mediante programación con la biblioteca de integración de datos (DIL).
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
-title: Métodos de API de Data Integration Library
+title: Métodos de API de la biblioteca de integración de datos
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
@@ -14,47 +14,47 @@ ht-degree: 3%
 
 ---
 
-# Métodos de API de Data Integration Library {#data-integration-library-api-methods}
+# Métodos de API de la biblioteca de integración de datos {#data-integration-library-api-methods}
 
-Métodos que le permiten trabajar mediante programación con [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Métodos que permiten trabajar mediante programación con el [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->La API de Data Integration Library se ha desaprobado. Esta API se usa para generar DIL, que ahora puede descargar aquí: [descarga de DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>La API de la biblioteca de integración de datos ha quedado obsoleta. Esta API solía generar DIL, que ahora puede descargar aquí: [DIL descargar](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Devolver versiones para el DIL {#return-version-dil}
+## Versiones de retorno para DIL {#return-version-dil}
 
-Un método `GET` que devuelve una lista de versiones ordenadas de la más antigua a la más reciente.
+Método `GET` que devuelve una lista de versiones ordenadas de la más antigua a la más reciente.
 
 <!-- r_api_return_versions_dil.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/dil/`
 
 ### Respuesta
 
-Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` como se muestra a continuación.
+Una solicitud correcta devuelve el código `["4.0", "4.1"]` de respuesta, como se muestra a continuación.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Devolver el esquema JSON de la versión {#return-json-schema-version}
+## Devolver esquema JSON para Versión {#return-json-schema-version}
 
-Un método `GET` que devuelve el esquema [!DNL JSON] para la versión [!UICONTROL DIL]. Admite el uso del alias [!UICONTROL LATEST] para la versión con el fin de obtener la última versión de [!UICONTROL DIL].
+Método `GET` que devuelve el [!DNL JSON] esquema de la [!UICONTROL DIL] versión. Admite el uso de alias [!UICONTROL LATEST] para la versión a fin de obtener la versión más reciente de [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/dil/`*`<version>`*
 
 ### Respuesta
 
-Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` y los datos como se muestra a continuación.
+Una solicitud correcta devuelve el código `["4.0", "4.1"]` y los datos de la respuesta, como se muestra a continuación.
 
 ```
 { 
@@ -380,11 +380,11 @@ Una solicitud correcta devuelve el código de respuesta `["4.0", "4.1"]` y los d
 
 ## Generar DIL {#generate-dil}
 
-Un método `GET` que genera [!UICONTROL DIL] basado en el cuerpo de solicitud pasado usando la versión especificada de [!UICONTROL DIL]. Si se usa el alias `LATEST` para la versión en la dirección URL, se generará la última versión de [!UICONTROL DIL].
+Método `GET` que genera [!UICONTROL DIL] datos en función de los datos transmitidos en solicitud cuerpo utilizando la versión especificada de [!UICONTROL DIL]. Si el alias `LATEST` se utiliza para la versión del URL, se genera la versión más reciente de [!UICONTROL DIL] .
 
 <!-- r_api_generate_dil.xml -->
 
-### Solicitud
+### Pedir
 
 `POST https://api.demdex.com/v1/dil/`*`<version>`*`/generate`
 
@@ -464,4 +464,4 @@ Un método `GET` que genera [!UICONTROL DIL] basado en el cuerpo de solicitud pa
 
 ### Respuesta
 
-Una actualización correcta devuelve el código de respuesta `201 created` junto con el código [!UICONTROL DIL] [!DNL JavaScript].
+Una actualización correcta devuelve el código `201 created` de respuesta junto con el [!UICONTROL DIL] [!DNL JavaScript] código.

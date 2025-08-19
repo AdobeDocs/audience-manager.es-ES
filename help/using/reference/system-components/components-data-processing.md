@@ -28,39 +28,39 @@ Audience Manager utiliza los siguientes componentes para procesar los datos:
 
 ## Hadoop {#hadoop}
 
-En [!DNL Audience Manager], el Hadoop es la base de datos principal que contiene todo lo que [!DNL Audience Manager] sabe sobre un usuario. Por ejemplo, cuando los [servidores de caché de perfiles](../../reference/system-components/components-data-collection.md) crean archivos de registro que contienen datos sobre los usuarios, envían esos datos a la Hadoop para su almacenamiento. Otros elementos importantes del Hadoop son:
+En [!DNL Audience Manager], Hadoop es la base de datos principal que contiene todo lo [!DNL Audience Manager] que sabe sobre un usuario. Por ejemplo, cuando los servidores[ de caché de ](../../reference/system-components/components-data-collection.md)perfiles crean archivos de registro que contienen datos sobre los usuarios, envían esos datos a Hadoop para su almacenamiento. Otros elementos importantes de Hadoop incluyen:
 
-* **Hive:** almacén de datos para Hadoop. Hive administra consultas ad hoc a los datos almacenados en el Hadoop.
+* **Hive:** Un almacén de datos para Hadoop. Hive administra consultas anuncios hoc a los datos almacenados en Hadoop.
 
-* **HBase:** Una base de datos de Hadoop muy grande. Procesa y administra datos de entrada y salida, reglas de rasgos, información de modelado algorítmico y realiza muchas otras funciones relacionadas con el almacenamiento y el movimiento de datos a diferentes sistemas.
+* **HBase:** una base de datos Hadoop muy grande. Procesa y administra datos entrantes y salientes, reglas de rasgos, información de modelado algorítmico y realiza muchas otras funciones relacionadas con el almacenamiento y movimiento de datos a diferentes sistemas.
 
-Los clientes no tienen acceso directo a estos sistemas. Sin embargo, los clientes sí trabajan con ellos indirectamente, ya que estos componentes almacenan datos importantes sobre los visitantes del sitio.
+Los clientes no tienen acceso directo a estos sistemas. Sin embargo, los clientes trabajan con ellos indirectamente, ya que estos componentes tienda datos importantes sobre los visitantes de su sitio.
 
-## Snowflake {#snowflake}
+## Copo de nieve {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) es una base de datos masiva en la nube. Proporciona datos a muchos de los gráficos de tableros y a sus cuadros de texto relacionados que muestran el cambio porcentual para cada elemento del gráfico. Si usa [!DNL Audience Manager] y observa los informes del tablero, está interactuando con los datos proporcionados por [!UICONTROL Snowflake].
+[](https://www.snowflake.net/) Snowflake es una base de datos nube masiva. Proporciona datos a muchos de los gráficos de panel y sus cuadros de texto relacionados que muestran el % de cambio para cada elemento en el gráfico. Si utiliza [!DNL Audience Manager] y mira los informes panel, está interactuando con los datos proporcionados por [!UICONTROL Snowflake].
 
 
 
 ![](assets/dashboardreport.png)
 
-Esta no es una lista completa, pero algunos informes comunes del tablero de los que es responsable [!UICONTROL Snowflake] incluyen:
+Esto no es de ninguna manera un lista exhaustivo, pero algunos informes de panel comunes de los que [!UICONTROL Snowflake] es responsable incluyen:
 
 * [Informe de variación del rasgo diario](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Todos los informes de superposición (consulte la sección [Informes interactivos](/help/using/reporting/dynamic-reports/dynamic-reports.md) para obtener información sobre cada informe de superposición).
+* Todos los informes de superposición (consulte la [sección Informes](/help/using/reporting/dynamic-reports/dynamic-reports.md) interactivo para obtener información sobre cada informe de superposición).
 * [Informe de señales no utilizadas](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
-SOLR es una base de datos de código abierto y un sistema de servidor de Apache. Proporciona capacidades de búsqueda sólidas y rápidas en comparación con nuestros grandes conjuntos de datos. Como cliente de [!DNL Audience Manager], puede ver el SOLR en acción cuando genere segmentos. Proporciona datos al informe [!UICONTROL Estimated Historic Segment Size]. SOLR es ideal para este papel debido a su velocidad. Por ejemplo, SOLR puede actualizar los datos de tamaño históricos a medida que crea reglas y añade nuevas características a un segmento.
+SOLR es una base de datos de código abierto y un sistema de servidor de Apache. Proporciona capacidades de búsqueda robustas y rápidas sobre nuestros grandes conjuntos de datos. [!DNL Audience Manager] Como cliente, puede ver SOLR en acción cuando versión segmentos. Proporciona datos al [!UICONTROL Estimated Historic Segment Size] informe. SOLR es ideal para este función debido a su velocidad. Por ejemplo, SOLR puede actualizar los datos de tamaño histórico a medida que versión reglas y agregar nuevos rasgos a un segmento.
 
 
 
 ![](assets/audsize.png)
 
-## Tableau {#tableau}
+## Cuadro {#tableau}
 
-[!DNL Audience Manager] usa [Tableau](https://www.tableausoftware.com/) para mostrar datos en [Informes interactivos](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) y en [Informes del Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Los informes interactivos muestran los datos de rendimiento y superposición de características y segmentos. En lugar de utilizar números organizados en columnas y filas, devuelven datos con diferentes formas, colores y tamaños. Además, puede elegir puntos de datos individuales o en grupos y explorar en profundidad los resultados del informe para obtener más información. Estas técnicas de visualización y la interactividad de informes ayudan a comprender grandes cantidades de datos numéricos.
+[!DNL Audience Manager]usa [Tableau](https://www.tableausoftware.com/) para mostrar datos en los [informes](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interactivo y Audience Optimization[](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Los informes interactivos muestran datos de rendimiento y superposición para características y segmentos. En lugar de usar números dispuestos en columnas y filas, devuelven datos usando diferentes formas, colores y tamaños. Además, puede elegir puntos de datos individuales o en grupo y explorar en profundidad en los resultados del informe para obtener más detalles. Estas técnicas de visualización y interactividad de informes ayudan a que grandes cantidades de datos de numérica sean más fáciles de entender.
 
 
 

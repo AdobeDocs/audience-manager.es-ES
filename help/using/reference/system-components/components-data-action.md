@@ -69,13 +69,13 @@ Para optimizar el tráfico entre [!UICONTROL IRIS] y los destinos del segmento, 
 
 1. **Nueva descalificación de segmento**: cuando un dispositivo ya no cumple los requisitos para un segmento, [!UICONTROL IRIS] envía todas las clasificaciones y desclasificaciones de segmento asociadas a ese dispositivo a todos los destinos asignados a estos segmentos.
 
-1. **Actualizaciones de asignación de destino**: cuando se actualiza una asignación de destino, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
+1. **Actualizaciones de asignación de destino**: cuando se actualiza una asignación de destino, [!UICONTROL IRIS] envía todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos la próxima vez que Audience Manager vea el dispositivo.
 
-1. **Actualizaciones del gráfico de dispositivos**: cuando se agrega o elimina cualquier ID de dispositivo del gráfico de dispositivos utilizado para evaluar un segmento, [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que el Audience Manager vea el dispositivo.
+1. **Actualizaciones del gráfico de dispositivos**: cuando se agrega o elimina cualquier ID de dispositivo del gráfico de dispositivos utilizado para evaluar un segmento, [!UICONTROL IRIS] envía todos los segmentos asociados a ese dispositivo a todos los destinos asignados a estos segmentos, la próxima vez que Audience Manager vea el dispositivo.
 
 >[!IMPORTANT]
 >
->Si el Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] enviará todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos la próxima vez que el Audience Manager vea el dispositivo.
+>Si Audience Manager no detecta ninguna de las actualizaciones anteriores durante 3 días consecutivos, [!UICONTROL IRIS] enviará todos los segmentos asociados a un dispositivo a todos los destinos asignados a estos segmentos la próxima vez que Audience Manager vea el dispositivo.
 
 **Archivo de datos de muestra**
 

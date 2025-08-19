@@ -1,5 +1,5 @@
 ---
-description: Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo de salida.
+description: Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo saliente.
 seo-description: Examples of how some of the common macros are used to create outbound file templates.
 seo-title: Outbound Macro Examples
 solution: Audience Manager
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 # Ejemplos de macros de salida {#outbound-macro-examples}
 
-Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo de salida.
+Ejemplos de cómo se utilizan algunas de las macros comunes para crear plantillas de archivo saliente.
 
 >[!NOTE]
 >
->En las tablas, el tipo **boldface** identifica cada macro con su resultado relacionado. Para los ejemplos de formato, se han agregado los símbolos `<` `>` para ayudar a separar visualmente cada macro.
+>En las tablas, **el tipo de** negrita identifica cada macro con su salida relacionada. Para los formato ejemplos, `<` `>` se han agregado los símbolos para ayudar a separar visualmente cada macro.
 
-## Nombre de archivo Macros {#file-name-macros}
+## Archivo Macros de nombre {#file-name-macros}
 
-Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, vea [Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) de plantillas de salida.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Macro </th> 
-   <th colname="col2" class="entry"> Ejemplos de formato y salida </th> 
+   <th colname="col2" class="entry"> Ejemplos de formato y Output </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -50,7 +50,7 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Formato: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completo: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Lleno: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -72,32 +72,32 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
 
 ## Macros de fila de encabezado {#header-macros}
 
-Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, vea [Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) de plantillas de salida.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Macro </th> 
-   <th colname="col2" class="entry"> Ejemplos de formato y salida </th> 
+   <th colname="col2" class="entry"> Ejemplos de formato y Output </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Salida: <code> 888 full.sync </code> </p> <p>En la salida, el carácter de tabulación no imprimible separa cada elemento. </p> </td>
+   <td colname="col2"> <p>Formato: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Salida: <code> 888 full.sync </code> </p> <p>En el resultado, el carácter de pestaña no imprimible separa cada elemento. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Macros de contenido de archivo {#file-content-macros}
+## Archivo macros de contenido {#file-content-macros}
 
-Para obtener una lista de macros y definiciones disponibles, vea [Macros de plantillas de salida](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obtener una lista de las macros y definiciones disponibles, vea [Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) de plantillas de salida.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Macro </th> 
-   <th colname="col2" class="entry"> Ejemplos de formato y salida </th> 
+   <th colname="col2" class="entry"> Ejemplos de formato y Output </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -111,7 +111,7 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Consulte la sección independiente a continuación. </p> </td> 
+   <td colname="col2"> <p>Consulte la sección separada a continuación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -128,7 +128,7 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Salida:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Nota: En el primer ejemplo, la macro sólo devuelve datos para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vacío. El segundo ejemplo devuelve datos para ambas macros. </p> </p> </td> 
+     </code></p> <p> <p>Nota: En el primer ejemplo, la macro sólo devuelve datos para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vacía. El segundo ejemplo devuelve datos para ambas macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -136,7 +136,7 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Salida: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>En la salida, el carácter de tabulación no imprimible separa cada elemento. </p> </td> 
+   <td colname="col2"> <p>Formato: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Salida: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>En el resultado, el carácter de pestaña no imprimible separa cada elemento. </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
@@ -145,38 +145,38 @@ Para obtener una lista de macros y definiciones disponibles, vea [Macros de plan
  </tbody> 
 </table>
 
-### `DPUUID` ejemplos
+### `DPUUID` Ejemplos
 
-Para ayudarle a comprender cómo la macro `DPUUID` genera datos, supongamos que tenemos 2 `DPID` asignados a `DPUUID` como se muestra a continuación:
+Para ayudarle a comprender cómo `DPUUID` la macro genera datos, supongamos que tenemos 2 `DPID`s asignados a `DPUUID`s como se muestra a continuación:
 
-* DPID `1111` se asigna a los DPUUID `AAAA` (marca de tiempo = 1) y `BBBB` (marca de tiempo = 2).
-* DPID `2222` se asigna a DPUUID `CCCC`.
+* DPID se asigna a DPUUIDs `1111` `AAAA` (timestamp = 1) y `BBBB` (timestamp = 2).
+* DPID se asigna a DPUUID `2222` `CCCC`.
 
-Dadas estas condiciones, la siguiente tabla enumera algunas posibles cadenas de formato y su salida.
+Dadas estas condiciones, en la tabla siguiente se enumeran algunas de las posibles cadenas formato y sus resultados.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Condición de asignación </th> 
+   <th colname="col1" class="entry"> Condición de mapeo </th> 
    <th colname="col2" class="entry"> Formato de macro </th> 
-   <th colname="col3" class="entry"> Output </th> 
+   <th colname="col3" class="entry"> Salida </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Devolver todas las asignaciones para un solo DPID </p> </td> 
+   <td colname="col1"> <p>Devolver todas las asignaciones de un solo DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
    <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Devuelve un máximo de 1 asignación para todos los DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para el DPID <code> 1111 </code>, la macro se asigna al DPUUID <code> BBBB </code> solo porque ese ID tiene la marca de tiempo más grande. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, la macro se asigna a DPUUID <code> BBBB </code> solo porque ese ID tiene la marca de tiempo mayor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Devolver un máximo de 2 asignaciones para un solo DPID </p> </td> 
+   <td colname="col1"> <p>Devuelve un máximo de 2 asignaciones para un solo DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>, esta macro devuelve solamente 1 DPID a la asignación DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Aunque <code> maxMappings=2 </code>, esta macro devuelve solo 1 DPID a la asignación de DPUUID porque el DPID especificado solo tiene un DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -28,32 +28,32 @@ Dependiendo de si sus [DPUUID](../../reference/ids-in-aam.md) son direcciones de
 
 **Escenario 1: sus [DPUUID](../../reference/ids-in-aam.md) ya son direcciones de correo electrónico con hash y en minúsculas.**
 
-En este caso, vaya a [Paso 5 - Configurar la autenticación de plataforma basada en personas](#configure-authentication).
+En este caso, vaya al [paso 5: Configurar el Authentication de Platform](#configure-authentication) basado en personas.
 
  
 
-**Escenario 2: sus [DPUUID](../../reference/ids-in-aam.md) no son direcciones de correo electrónico con hash y en minúsculas.**
+**Escenario 2: los [DPUUID](../../reference/ids-in-aam.md) no son direcciones de correo electrónico con valores hash en minúsculas.**
 
-En este caso, debe crear una nueva fuente de datos entre dispositivos que almacene sus direcciones de correo electrónico con hash. A continuación se indica cómo hacerlo:
+En este caso, debe crear una nueva fuente de datos dispositivos cruzada que tienda sus direcciones correo electrónico hash. A continuación, le indicamos cómo hacerlo:
 
-1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** y haga clic en **[!UICONTROL Add New]**.
+1. Inicie sesión en su Audience Manager cuenta, vaya a **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** y haga clic en **[!UICONTROL Add New]**.
 1. Escriba **[!UICONTROL Name]** y **[!UICONTROL Description]** para el nuevo origen de datos.
 1. En el menú desplegable **[!UICONTROL ID Type]**, seleccione **[!UICONTROL Cross Device]**.
 1. En la sección **[!UICONTROL Data Source Settings]**, seleccione las opciones **[!UICONTROL Inbound]** y **[!UICONTROL Outbound]**, y habilite la opción **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
-1. Utilice el menú desplegable para seleccionar la etiqueta **[!UICONTROL Emails(SHA256, lowercased)]** para este origen de datos.
+1. Utilice el menú desplegable para seleccionar la etiqueta de este **[!UICONTROL Emails(SHA256, lowercased)]** fuente de datos.
    >[!IMPORTANT]
    >
-   >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. El Audience Manager no hace un hash de los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en este origen de datos ya tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá usarlo para [!DNL People-Based Destinations].
+   >Esta opción solo etiqueta el fuente de datos como que contiene datos hash con ese algoritmo específico. Audience Manager no hash los datos en este paso. Asegúrese de que las direcciones correo electrónico que tiene previsto almacenar en este fuente de datos ya tengan valores hash con el [!DNL SHA256] algoritmo. De lo contrario, no podrá usarlo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
    >[!NOTE]
    >
-   > Consulte [Incorporación de datos](people-based-destinations-prerequisites.md#data-onboarding) para ver las preguntas más frecuentes sobre cómo llevar los datos sin conexión a Audience Manager para destinos basados en personas.
+   > Consulte [Incorporación de datos](people-based-destinations-prerequisites.md#data-onboarding) para ver las preguntas más frecuentes sobre cómo debe llevar los datos sin conexión a Audience Manager para destinos basados en personas.
 
 Vea el siguiente vídeo para ver un tutorial sobre cómo crear un origen de datos para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32174?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Paso 2: Uso de ID declarados para hacer coincidir DPUUID con direcciones de correo electrónico con hash a través de llamadas HTTP en tiempo real {#match-email-addresses}
 
@@ -65,14 +65,14 @@ Supongamos que ha creado las dos fuentes de datos siguientes.
 
 | ID de fuente de datos | Contenido de fuente de datos |
 | -------------- | -------------------------- |
-| 999999 | DPUUID existentes (CRM ID) |
-| 987654 | Direcciones de correo electrónico con hash |
+| 999999 | DPUUID existentes (ID CRM) |
+| 987654 | Direcciones correo electrónico hash |
 
  
 
-A continuación, desea clasificar los ID de CRM siguientes para el rasgo de la tabla.
+A continuación, querrá calificar los ID de CRM siguientes para el rasgo de la tabla.
 
-| DPUUID (ID DE CRM) | La dirección de correo electrónico | Dirección de correo electrónico con hash | Rasgo |
+| DPUUID (ID CRM) | La dirección de correo electrónico | Dirección de correo electrónico hash | Rasgo |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
@@ -90,22 +90,22 @@ En el ejemplo anterior, la llamada de ID declarada debe tener este aspecto:
 
 ## Paso 3: Creación de una regla de combinación de perfiles para la segmentación {#create-profile-merge-rule-segmentation}
 
-El siguiente paso es crear una nueva regla de combinación que le ayudará a crear los segmentos de audiencia que desea enviar a su [!DNL People-Based Destinations].
+El siguiente paso es crear un nuevo regla de combinación que le ayudará a crear los segmentos audiencia para enviar a su [!DNL People-Based Destinations]archivo .
 
 >[!IMPORTANT]
 >
->Si ya tiene una regla definida con las opciones **[!UICONTROL Current Authenticated Profiles]** o **[!UICONTROL Last Authenticated Profiles]**, puede saltar a [Paso 4 - Crear segmentos de audiencia](#create-audience-segments).
+>Si ya tiene un regla definido con las opciones o **[!UICONTROL Current Authenticated Profiles]**, puede ir al **[!UICONTROL Last Authenticated Profiles]** paso 4: Crear Segmentos de [ audiencia.](#create-audience-segments)
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Haga clic en **[!UICONTROL Add New Rule]**.
-3. Escriba una regla de combinación de perfiles **[!UICONTROL Name]** y **[!UICONTROL Description]**.
+3. Especifique una combinación perfil regla **[!UICONTROL Name]** y **[!UICONTROL Description]**.
 4. En la sección **[!UICONTROL Profile Merge Rule Setup]**, seleccione la regla **[!UICONTROL Current Authenticated Profiles]** o **[!UICONTROL Last Authenticated Profiles]** de la lista **[!UICONTROL Cross-Device Options]**.
 5. En la lista **[!UICONTROL Cross-Device Profile Options]**, seleccione los orígenes de datos en los que desea ejecutar la segmentación. Estas deben ser las fuentes de datos que contengan los DPUUID existentes.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
-## Paso 4: Creación de segmentos de audiencia {#create-audience-segments}
+## Paso 4: Crear segmentos de audiencia {#create-audience-segments}
 
-Para crear nuevos segmentos, usa el [Generador de segmentos](../segments/segment-builder.md). Si tiene segmentos de audiencia existentes que desea enviar a [!DNL People-Based Destinations], vaya a [Paso 5 - Configurar la autenticación de plataforma basada en personas](#configure-authentication).
+Para crear nuevos segmentos, utilice el Generador[ de ](../segments/segment-builder.md)segmentos. Si ya tiene segmentos de audiencia que desea enviar a [!DNL People-Based Destinations], vaya al [Paso 5: Configurar la Authentication de Platform](#configure-authentication) basadas en personas.
 
 ## Paso 5: Configuración de la autenticación de plataforma basada en personas {#configure-authentication}
 
@@ -120,17 +120,16 @@ Para crear nuevos segmentos, usa el [Generador de segmentos](../segments/segment
 
 >[!IMPORTANT]
 >
->Audience Manager gestiona la integración con las plataformas sociales a través de tokens de autenticación que caducan después de un cierto tiempo. Consulte Renovación del token de autenticación para obtener más información sobre cómo renovar los tokens caducados.
+>Audience Manager gestiona la integración con plataformas sociales a través de tokens de autenticación que caducan después de un cierto período de tiempo. Consulte Authentication renovación de tokens para obtener más información sobre cómo renovar los tokens caducados.
 
-## Paso 6: Creación de un destino basado en personas {#create-destination}
+## Paso 6: Crear un destino basado en personas {#create-destination}
 
-1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** y haga clic en **[!UICONTROL Create Destination]**.
-1. En la sección **[!UICONTROL Basic Information]**, escriba **[!UICONTROL Name]** y **[!UICONTROL Description]** para el nuevo origen de datos y use la siguiente configuración:
-   * **[!UICONTROL Category]**: Plataformas integradas;
+1. Inicie sesión en su Audience Manager cuenta, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** y haga clic en **[!UICONTROL Create Destination]**.
+1. En la **[!UICONTROL Basic Information]** sección, introduzca un **[!UICONTROL Name]** y **[!UICONTROL Description]** para el nuevo fuente de datos y utilice la siguiente configuración:
+   * **[!UICONTROL Category]**: Plataformas Integradas;
    * **[!UICONTROL Type]**: basado en personas;
    * **[!UICONTROL Platform]**: seleccione la plataforma basada en personas a la que desee enviar segmentos de audiencia;
    * **[!UICONTROL Account]**: seleccione la cuenta de anunciante deseada asociada con la plataforma seleccionada.
-
      ![crear destino](assets/pbd-create-destination.png)
 1. Haga clic en **[!UICONTROL Next]**.
 1. Elija el(la) **[!UICONTROL Data Export Labels]** que desea(n) establecer para este destino.

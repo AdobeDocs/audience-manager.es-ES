@@ -1,5 +1,5 @@
 ---
-description: Asigne un nombre al archivo de metadatos del Audience Optimization según estas especificaciones.
+description: Asigne un nombre al archivo de metadatos de Audience Optimization según estas especificaciones.
 seo-description: Name your Audience Optimization metadata file according to these specifications.
 seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Convenciones de nomenclatura para archivos de metadatos{#naming-conventions-for-metadata-files}
 
-Asigne un nombre al archivo de metadatos del Audience Optimization según estas especificaciones.
+Asigne un nombre al archivo de metadatos de Audience Optimization según estas especificaciones.
 
 ## Sintaxis y categorías de ID {#syntax}
 
@@ -50,7 +50,7 @@ En el nombre del archivo de metadatos, el ID secundario es un identificador que 
 
 ## Ejemplo {#example}
 
-Para un archivo de metadatos de Creative, el nombre de archivo puede ser 20190115_0_2.
+Para un archivo de metadatos de Creative, el nombre de archivo podría ser 20190115_0_2.
 
 <!--Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
 

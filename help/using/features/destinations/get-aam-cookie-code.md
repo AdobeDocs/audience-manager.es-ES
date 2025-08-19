@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Código `get_aamCookie` {#get-aamcookie-code}
 
-Código requerido por [!DNL DART Enterprise] (y otros tipos de destino) para capturar el valor de identificador de usuario único de Audience Manager ([!DNL UUID]).
+Código requerido por [!DNL DART Enterprise] (y otros tipos de destino) para capturar el valor de ID de usuario único de Audience Manager ([!DNL UUID]).
 
 Defina esta función en la parte superior de la página, idealmente dentro del bloque de código `<head>`.
 

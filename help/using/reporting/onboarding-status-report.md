@@ -1,9 +1,9 @@
 ---
-description: El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+description: El informe de Estado de incorporación comprueba las tasas de éxito y fracaso del procesamiento de registros en los archivos de fuente de datos entrante. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas resumidas en forma de tabla. Además, incluye una opción que muestrea archivos durante un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Este informe se encuentra en Analytics > Informe de Estado de incorporación. Este informe también está disponible cuando se crea un fuente de datos entrante.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
-title: Informe de estado de integración
+title: Informe de Estado de incorporación
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Informe de estado de integración{#onboarding-status-report-about}
+# Informe de Estado de incorporación{#onboarding-status-report-about}
 
-El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+El informe de Estado de incorporación comprueba las tasas de éxito y fracaso del procesamiento de registros en los archivos de fuente de datos entrante. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas resumidas en forma de tabla. Además, incluye una opción que muestrea archivos durante un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Este informe se encuentra en Analytics > Informe de Estado de incorporación. Este informe también está disponible cuando se crea un fuente de datos entrante.
 
 >[!NOTE]
 >
->Solo los usuarios con privilegios de administrador pueden ver este informe en la interfaz de usuario del Audience Manager. Puede hacer que se notifique a los usuarios que no son administradores del estado de los archivos de entrada cargados añadiendo sus correos electrónicos al informe. Ver [Recibir notificaciones por correo electrónico](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
+>Sólo los usuarios con privilegios de administrador pueden ver este informe en la interfaz de Audience Manager usuario. Puede solicitar que los usuarios que no sean administradores sean notificados sobre el estado de los archivos entrantes cargados agregando sus mensajes de correo electrónico al informe. Consulte [Recibir notificaciones](/help/using/reporting/onboarding-status-report.md#receive-email-notifications) por correo electrónico.
 
-## Informe de estado de carga: Acerca de {#onboarding-status-about}
+## Incorporación Estado informe: acerca de {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report] comprueba las tasas de éxito y error para procesar registros en los archivos de origen de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en **[!UICONTROL Analytics > Onboarding Status Report]**. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+Comprueba [!UICONTROL Onboarding Status Report] las tasas de éxito y fracaso del procesamiento de registros en los archivos de fuente de datos entrante. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas resumidas en forma de tabla. Además, incluye una opción que muestrea archivos durante un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Este informe se encuentra en **[!UICONTROL Analytics > Onboarding Status Report]**. Este informe también está disponible cuando se crea un fuente de datos entrante.
 
-## Informes de errores y muestreo de errores {#error-reporting-sampling}
+## Error Informes y muestreo Error {#error-reporting-sampling}
 
-El informe de errores y el muestreo de errores son dos características independientes del informe [!UICONTROL Onboarding Status].
+Error sistema de informes y muestreo de error son dos características separadas del [!UICONTROL Onboarding Status] informe.
 
 <table id="table_4706D891D4C545E8BF9D8A0CC052CC48"> 
  <thead> 
@@ -39,57 +39,57 @@ El informe de errores y el muestreo de errores son dos características independ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Informes de errores</b> </p> </td>
-   <td colname="col2"> <p>Los informes de errores muestran las tasas de éxito y error correspondientes al número de registros procesados en una fuente de datos de entrada. Devuelve datos en un gráfico de barras apiladas interactivo y como métricas de resumen en tablas debajo del gráfico. </p> <p>El informe de errores es automático. Se ejecuta continuamente para todas las fuentes de datos de entrada. Devuelve datos en función del intervalo de intervalos de tiempo preestablecidos o de un intervalo de tiempo personalizado que haya establecido con un widget de calendario. </p> </td> 
+   <td colname="col1"> <p> <b>Informes Error</b> </p> </td>
+   <td colname="col2"> <p>Error sistema de informes muestra las tasas de éxito y fracaso del número de registros procesados en una fuente de datos entrante. Devuelve datos de forma interactiva, apilada gráfico de barras y como métricas de resumen en las tablas debajo del gráfico. </p> <p>Error sistema de informes es automático. Se ejecuta continuamente para todas las fuentes de datos entrantes. Devuelve datos basados en el rango de intervalos de tiempo preestablecidos o un intervalo de tiempo personalizado que usted estableció con un widget de calendario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Muestreo de errores</b> </p> </td>
-   <td colname="col2"> <p>El muestreo de errores analiza el contenido de los archivos de datos y devuelve los 10 errores más comunes para cada tipo de error. Los errores en los archivos de datos de entrada impiden que se procesen registros individuales. Utilice este informe como herramienta de solución de problemas para ayudar a reducir el número de errores de archivo y mejorar las tasas de procesamiento. </p> <p>Se debe activar el muestreo de errores manualmente. Se ejecuta durante 14 días a partir del día de la activación y luego se apaga a sí mismo. Puede volver a activar el muestreo de errores una vez transcurrido el intervalo de 14 días. Se activa el muestreo de errores al <a href="../features/manage-datasources.md#create-data-source"> crear un origen de datos de entrada </a> o al marcar la casilla de verificación <b><span class="uicontrol"> Error Sampling</span></b> de la sección <span class="wintitle"> Data Source Settings</span> de un origen de datos de entrada existente. </p> <p>El muestreo de errores es un proceso que requiere cálculo. Como resultado, solo devuelve los 10 primeros errores para cada categoría de error. No está diseñado para devolver todos los errores contenidos en una fuente de datos de entrada. Estos errores son una muestra representativa de un grupo potencialmente mayor de errores similares. Revise todo el archivo en busca de los tipos de errores que marca este informe, vuelva a dar formato al archivo y envíelo de nuevo. </p> <p>Consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido del archivo de datos de entrada: sintaxis, variables y ejemplos</a> para obtener más información sobre el formato correcto de un archivo de datos para un origen de datos de entrada. </p> </td> 
+   <td colname="col1"> <p> <b>Muestreo Error</b> </p> </td>
+   <td colname="col2"> <p>Error muestreo analiza el contenido de los archivos de datos y devuelve los 10 errores más comunes para cada tipo de error. Los errores en los archivos de datos de entrada impiden que se procesen registros individuales. Utilice este informe como herramienta de solución de problemas para ayudar a reducir el número de errores de archivos y mejorar las tasas de procesamiento. </p> <p>Debe activar el muestreo de error manualmente. Funciona durante 14 días a partir del día de activación y luego se apaga solo. Puede volver a activar el muestreo de error una vez que expire el intervalo de 14 días. Se activa el muestreo de error al <a href="../features/manage-datasources.md#create-data-source"> crear un fuente de datos</a> entrante o al marcar la casilla de verificación Muestreo <b><span class="uicontrol"></span></b> de Error de la <span class="wintitle"> sección Configuración de Origen</span> de datos de un fuente de datos de entrada existente. </p> <p>Error muestreo es un proceso computacionalmente exigente. Como resultado, solo devuelve los primeros 10 errores para cada categoría. No está diseñado para devolver todos los errores contenidos en un fuente de datos entrante. Estos errores son una muestra representativa de un grupo potencialmente mayor de errores similares. Revise todo el archivo en busca de los tipos de errores que señala este informe, vuelva a formatear el archivo y envíelo de nuevo. </p> <p>Consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido de la Archivo de datos de entrada: sintaxis, variables y ejemplos</a> para obtener más información sobre cómo formato correctamente un archivo de datos para un fuente de datos de entrada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gráfico de barras de informe de errores {#error-report-bar-chart}
+## Gráfico de barras de informes de Error {#error-report-bar-chart}
 
-El informe de errores crea gráficos de los índices de éxito y error para el procesamiento de registros en un gráfico de barras apiladas, como se muestra en el siguiente ejemplo. El gráfico es interactivo. Al hacer clic en una barra, se muestran las métricas de resumen de ese día en una tabla debajo del gráfico.
+El informe de errores representa las tasas de éxito y error para el procesamiento de registros en un gráfico de barras apilado, como se muestra en el ejemplo siguiente. El gráfico es interactivo. Al hacer clic en una barra se muestran las métricas de resumen de ese día en una tabla debajo del gráfico.
 
 ![](assets/stacked-graph.png)
 
-## Tablas de informe de errores {#error-report-tables}
+## Error Tables de informes {#error-report-tables}
 
-El informe de errores muestra datos tabulares debajo del gráfico de barras. La tabla muestra las tasas de éxito y fracaso junto con los totales y porcentajes.
+El informe de errores muestra datos tabulares debajo del gráfico de barras. La tabla muestra las tasas de éxito y fracaso, junto con los totales y porcentajes.
 
-**Registros correctos y con errores**
+**Registros correctos y fallidos**
 
-Esta vista predeterminada muestra un recuento de frecuencia del total de registros del informe e incluye un desglose de los errores por tipo de error.
+Este vista predeterminado muestra un recuento Frecuencia del total de registros del informe e incluye un desglose de los errores por tipo de error.
 
 ![](assets/success-failure.png)
 
 **Totales y porcentajes**
 
-Haga clic en **[!UICONTROL Totals & Percentages]** para ver qué % de los archivos se procesaron correctamente.
+Haga clic **[!UICONTROL Totals & Percentages]** para ver qué % de sus archivos se procesaron correctamente.
 
 ![](assets/totals-percentages.png)
 
-## Informe de muestreo de errores durante 14 días {#error-reporting-14-days}
+## Error informe de muestreo durante 14 días {#error-reporting-14-days}
 
-Con el muestreo de errores activo, el informe mostrará los 10 errores principales para cada tipo de error. Haga clic en un botón de tipo de error en la parte superior del informe para ver cada conjunto de datos muestreados.
+Con la muestreo de errores activa, el informe mostrará los 10 errores principales para cada tipo de error. Haga clic en un botón de tipo de error en la parte superior del informe para ver cada conjunto de datos de muestra.
 
 >[!NOTE]
 >
->El informe no resalta los errores de registro con esta versión actual. Para encontrar y corregir errores de archivo, debe revisar los resultados y compararlos con las especificaciones de la documentación de [Contenido del archivo de datos de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+>El informe no resalta los errores de registro con esta versión actual. Para buscar y corregir errores de archivos, debe revisar los resultados y compararlos con las especificaciones de la documentación de [Inbound Data Archivo Content](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) .
 
 ![](assets/error-samples.png)
 
 ## Recibir notificaciones por correo electrónico {#receive-email-notifications}
 
-Puede añadir las direcciones de correo electrónico de los destinatarios a los que desea que se notifique el estado de los archivos de entrada cargados. Tenga en cuenta que puede seleccionar diferentes destinatarios para diferentes fuentes de datos.
+Puede agregar las direcciones correo electrónico de los destinatarios que desea que se notifiquen el estado de los archivos entrantes cargados. Tenga en cuenta que puede seleccionar distintos destinatarios para distintos orígenes de datos.
 
 ![](assets/mail-notifications.png)
 
-## Creación de un informe de estado de integración {#create-onboard-status-report}
+## Crear un informe de Estado de incorporación {#create-onboard-status-report}
 
-Un [!UICONTROL Sample Error Report] devuelve el número de registros de un origen de datos que se procesaron correctamente y el número de registros con errores. Siga estos pasos para generar un [!UICONTROL Sample Error Report].
+A [!UICONTROL Sample Error Report] devuelve el número de registros de un fuente de datos se procesaron correctamente y cuántos han fallado. Siga estos pasos para generar un [!UICONTROL Sample Error Report]archivo .
 
 <!-- 
 
@@ -98,16 +98,16 @@ create-onboarding-status-report.xml
  -->
 
 
-1. Ir a **[!UICONTROL Analytics > Onboarding Status Report]**. Busque una fuente de datos o elija una en la lista.
+1. Vaya a **[!UICONTROL Analytics > Onboarding Status Report]**. Search un fuente de datos o elija uno de los lista.
 
-2. Seleccione un intervalo de fecha. Las opciones incluyen:
+2. Seleccione una intervalo de fecha. Las opciones incluyen:
 
-   * Un conjunto de intervalos de informes fijos.
-   * Widgets de calendario que permiten crear un intervalo de fechas personalizado.
+   * Un conjunto de intervalos de informe fijos.
+   * Widgets de calendario que permiten crear un intervalo de fecha personalizado.
 
 3. Haga clic en **[!UICONTROL OK]**.
 
-## Términos y definiciones del informe de estado de integración {#report-terms-conditions}
+## Términos y definiciones de los informes de Estado de integración {#report-terms-conditions}
 
 Una guía de referencia para las etiquetas y los términos utilizados en este informe.
 
@@ -120,73 +120,73 @@ Una guía de referencia para las etiquetas y los términos utilizados en este in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Nombre de archivo de sincronización de datos</b> </p> </td> 
-   <td colname="col2"> <p>Enumera los archivos que <span class="keyword"> Audience Manager</span> recibió y procesó desde el origen de datos de entrada seleccionado. </p> <p>El procesamiento de archivos fallará si el nombre de archivo tiene un formato incorrecto. Los requisitos de nombre de archivo varían en función de cómo envíe estos datos a <span class="keyword"> Audience Manager</span>. Los métodos de envío incluyen <span class="keyword"> Amazon S3</span> y FTP. Para obtener instrucciones sobre cómo asignar un nombre a los archivos, consulte: </p> <p> 
+   <td colname="col1"> <p> <b>Nombre del Archivo de sincronización de datos</b> </p> </td> 
+   <td colname="col2"> <p>Enumera los archivos que <span class="keyword"> Audience Manager</span> reciben y procesan del fuente de datos entrante seleccionado. </p> <p>Archivo procesamiento fallará si el nombre de archivo tiene un formato incorrecto. Archivo requisitos de nombre varían en función de cómo se envíen estos datos a <span class="keyword"> Audience Manager</span>. Los métodos de envío incluyen <span class="keyword"> Amazon S3</span> y FTP. Para obtener instrucciones sobre cómo asignar un nombre a los archivos, consulte: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisitos de nombre de Amazon S3 para archivos de datos de entrada </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisitos de nombre de Amazon S3 para el Archivos de datos de entrada </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Errores de formato</b> </p> </td> 
-   <td colname="col2"> <p>Indica el número de registros que no se procesaron correctamente porque no coinciden con los requisitos de sintaxis o formato. Consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido del archivo de datos de entrada: sintaxis, variables y ejemplos</a> para obtener información sobre cómo dar formato a los datos. </p> </td> 
+   <td colname="col2"> <p>Enumera el número de registros que no pudieron procesarse porque no coincidían con los requisitos de sintaxis o formato. Consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido Archivo de datos de entrada: sintaxis, variables y ejemplos</a> para obtener información sobre cómo formato los datos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AAM <b>Id. de no válido</b> </p> </td> 
-   <td colname="col2"> <p>Enumera el número de identificadores de usuario (UUID) del Audience Manager </span> con formato incorrecto. <span class="keyword"> Normalmente, esto indica los ID: </p> 
+   <td colname="col1"> <p> <b>ID de AAM no válido</b> </p> </td> 
+   <td colname="col2"> <p>Muestra el número de ID de usuario de Audience Manager<span class="keyword"> (UUID) con formato </span> incorrecto. Normalmente, esto indica los ID: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
-     <li id="li_B100B4C2623B4E099E022869A4978357">No coincide con el formato esperado de 38 dígitos. </li> 
-     <li id="li_44E8A9AD13174A20A5742E56ED786634">Contener caracteres alfabéticos. Los ID solo deben ser números. </li> 
+     <li id="li_B100B4C2623B4E099E022869A4978357">No coincidió con el formato esperado de 38 dígitos. </li> 
+     <li id="li_44E8A9AD13174A20A5742E56ED786634">Contienen caracteres alfabéticos. Las ID deben ser solo números. </li> 
     </ul> </td> 
   </tr>
 
 <tr> 
    <td colname="col1"> <p> <b>ID de dispositivo no válido</b> </p> </td> 
-   <td colname="col2"> <p>Indica el número de ID de dispositivo globales con formato incorrecto. Consulte <a href="../reference/ids-in-aam.md">Índice de ID en Audience Manager</a> y <a href="../features/global-data-sources.md">Fuentes de datos globales</a> para obtener más información sobre cómo se debe dar formato a los ID de dispositivo y qué fuentes de datos globales se deben usar, según el tipo de dispositivo.</p>
-  <p>La sección de muestreo de errores del informe incluye información detallada sobre los ID de dispositivo no válidos, como:</p>
+   <td colname="col2"> <p>Muestra el número de ID de dispositivo globales con formato incorrecto. Consulte <a href="../reference/ids-in-aam.md">Index de ID en Audience Manager</a> y <a href="../features/global-data-sources.md">Fuentes</a>  de datos globales para obtener detalles sobre cómo se debe formatear dispositivos ID y qué fuentes de datos globales debe utilizar, según el tipo de dispositivo.</p>
+  <p>La sección muestreo de errores del informe incluye información detallada sobre las ID de dispositivos de no válido, como:</p>
    <ul>
-    <li>ID de la fuente de datos correspondiente al ID del dispositivo no válido;</li>
-    <li>ID de dispositivo no válido;</li>
-    <li>El tipo de ID de dispositivo esperado, según la fuente de datos.</li>
+    <li>ID de fuente de datos correspondiente al ID de dispositivos de no válido;</li>
+    <li>El no válido dispositivos ID;</li>
+    <li>Tipo de ID de dispositivos esperado, basado en el fuente de datos.</li>
    </ul>
   </tr>
 
 
 
 <tr> 
-   <td colname="col1"> <p> AAM <b>No hay coincidencias con el identificador de la</b> </p> </td> 
-   <td colname="col2"> <p>Son identificadores incorporados <span class="keyword">. El Audience Manager </span> no puede coincidir con un identificador existente. Los identificadores incorporados pueden tener este estado cuando el Audience Manager <span class="keyword"> </span> aún no ha realizado una sincronización de ID o aún no puede coincidir con el ID incluso después de una sincronización. </p> <p>En el caso de los ID móviles no coincidentes, <span class="keyword"> Audience Manager</span>: </p> 
+   <td colname="col1"> <p> <b>No hay ningún ID de AAM coincidente</b> </p> </td> 
+   <td colname="col2"> <p>Se trata de <span class="keyword"> ID incorporados Audience Manager</span> no coinciden con un ID existente. Los ID incorporados pueden tener este estado cuando <span class="keyword"> aún no Audience Manager</span> realizado un sincronizar de ID o si todavía no pueden coincidir con el ID igualado después de una sincronización. </p> <p>En el caso de ID móviles no coincidentes, <span class="keyword"> Audience Manager</span> hará lo siguiente: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
-     <li id="li_D141000A50D3463182CBA4571DCC5373">Continúe almacenando e intente sincronizar este ID. </li> 
-     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Si el identificador no se puede sincronizar, regístrelo como un <span class="wintitle"> Registro almacenado </span> en el informe. </li> 
-    </ul> <p>Si el archivo incorporado contiene ID móviles, puede tratar estos números un poco más a la ligera que las demás métricas. No afectarán al éxito ni a las tasas de coincidencia de los archivos posteriores. </p> </td> 
+     <li id="li_D141000A50D3463182CBA4571DCC5373">Continuar para tienda e intentar sincronizar este ID. </li> 
+     <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Regístrelo como <span class="wintitle"> registro</span> almacenado en el informe si no se puede sincronizar el ID. </li> 
+    </ul> <p>Si el archivo integrado contiene ID móviles, puede tratar estos números con un poco más de ligereza que el resto de métricas. No afectarán a las tasas de éxito y coincidencia para archivos posteriores. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Ningún rasgo realizado</b> </p> </td> 
-   <td colname="col2"> <p>Enumera características que <span class="keyword"> Audience Manager</span> no puede coincidir con una característica integrada. Este podría ser el resultado de: </p> 
+   <td colname="col1"> <p> <b>No se ha obtenido ningún rasgo</b> </p> </td> 
+   <td colname="col2"> <p>Enumera las características que <span class="keyword"> Audience Manager</span> no pueden coincidir con una característica integrada. Esto podría ser el resultado de: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">Características con formato incorrecto en el archivo de datos de entrada. Para obtener información sobre cómo dar formato al archivo de datos, consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido del archivo de datos de entrada: sintaxis, variables y ejemplos</a>. </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">Características formateadas incorrectamente en el archivo de datos de entrada. Para obtener información sobre cómo formato el archivo de datos, consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenido del Archivo de datos de entrada: sintaxis, variables y ejemplos</a>. </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Características que aún no se han definido en <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Porcentaje de éxito</b> </p> </td> 
-   <td colname="col2"> <p>El porcentaje de registros del archivo que se almacenaron correctamente. Porcentaje de éxito = registros procesados / número de registros en un archivo. </p> </td> 
+   <td colname="col2"> <p>El porcentaje de registros del archivo que se almacenaron correctamente. Porcentaje de éxito = registros procesados/número de registros en un archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Registros Recibidos</b> </p> </td> 
-   <td colname="col2"> <p>Número total de registros recibidos. En la mayoría de los casos, este número debe coincidir con el número total de registros (líneas) del archivo de datos de entrada. </p> </td> 
+   <td colname="col1"> <p> <b>Registros recibidos</b> </p> </td> 
+   <td colname="col2"> <p>El número total de registros recibidos. En la mayoría de los casos, este número debe coincidir con el número total de registros (líneas) en el archivo de datos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Registros almacenados</b> </p> </td> 
-   <td colname="col2"> <p>Número de registros almacenados correctamente. Debido a errores de formato de archivo, es posible que <span class="keyword"> Audience Manager</span> no almacene algunos de los registros recibidos. El número de registros almacenados puede ser menor que el número de registros recibidos. </p> </td> 
+   <td colname="col2"> <p>Número de registros almacenados correctamente. Debido a errores de formato archivos, es posible que Audience Manager<span class="keyword"> no almacene </span> algunos de los registros recibidos. El número de registros almacenados puede ser menor que el número de registros recibidos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Rasgos realizados totales</b> </p> </td> 
-   <td colname="col2"> <p>Número de características de todos los usuarios en todos los archivos de entrada que se almacenan en la plataforma <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p> <b>Total de rasgos realizados</b> </p> </td> 
+   <td colname="col2"> <p>El número de características para todos los usuarios en todos los archivos entrantes que se almacenan en la <span class="keyword"> plataforma Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total de señales no utilizadas</b> </p> </td> 
-   <td colname="col2"> <p>Número total de señales no utilizadas recibidas en el informe. Este total se basa en el número total de registros almacenados correctamente. </p> <p>Consulte <a href="../reporting/dynamic-reports/unused-signals.md"> informe de señales no utilizadas</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>Número total de señales no utilizadas recibidas en el informe. Este total se basa en el número total de registros almacenados correctamente. </p> <p>Consulte <a href="../reporting/dynamic-reports/unused-signals.md"> Informe</a> de señales no utilizadas para obtener más información. </p> </td> 
   </tr> 
  </tbody> 
 </table>

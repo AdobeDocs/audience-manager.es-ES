@@ -1,9 +1,9 @@
 ---
-description: Describe los pares clave-valor comunes a nivel de plataforma que puede utilizar para dirigirse a usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
+description: Describe los pares comunes de clave-valor de nivel de plataforma que puede utilizar para destino a los usuarios variables geográficas en todas las propiedades del Audience Manager cuenta.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 seo-title: Geotargeting With Platform-level Keys
 solution: Audience Manager
-title: Geotargeting Con Claves A Nivel De Plataforma
+title: Geotargeting con claves de Platform nivel
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
@@ -14,46 +14,46 @@ ht-degree: 2%
 
 ---
 
-# Geotargeting Con Claves A Nivel De Plataforma {#geotargeting-with-platform-level-keys}
+# Geotargeting con claves de Platform nivel {#geotargeting-with-platform-level-keys}
 
-Describe los pares clave-valor comunes a nivel de plataforma que puede utilizar para dirigirse a usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
+Describe los pares comunes de clave-valor de nivel de plataforma que puede utilizar para destino a los usuarios variables geográficas en todas las propiedades del Audience Manager cuenta.
 
 <!-- c_tb_platform_vars.xml -->
 
-## Propósito de las variables de nivel de plataforma {#platform-variables}
+## Propósito de las variables de Platform nivel {#platform-variables}
 
-Las variables de nivel de plataforma le permiten tomar datos pasados desde un sitio en particular y hacer que estén disponibles para la segmentación en todas las propiedades de su cuenta de [!DNL Audience Manager]. Estas variables están formadas por [pares clave-valor](../../reference/key-value-pairs-explained.md) con la clave con el prefijo `d_`, como se muestra a continuación.
+Platform variables de nivel le permiten tomar los datos pasados de un sitio en particular y ponerlos a disposición de direccionamiento en todas las propiedades de su [!DNL Audience Manager] cuenta. Estas variables están formadas por [pares clave-valor](../../reference/key-value-pairs-explained.md) con la clave prefijada por `d_` como se muestra a continuación.
 
-## Adición de valores a claves de nivel de plataforma {#adding-values}
+## Adición de valores a claves de Platform nivel {#adding-values}
 
-Para algunas claves a nivel de plataforma, puede especificar el valor usted mismo. Con otras, las claves se asocian con las [!DNL IP] direcciones correspondientes transferidas en una llamada de evento. En cualquier caso, debe especificar el valor cuando genere características en [!UICONTROL Trait Builder].
+Para algunas claves de nivel de plataforma, puede especificar el valor usted mismo. Con otros, las claves se asocian con las direcciones correspondientes [!DNL IP] pasadas en una llamada evento. En cualquier caso, aún tiene que especificar el valor al crear características en [!UICONTROL Trait Builder].
 
-## Claves de nivel de plataforma definidas por el usuario {#user-defined-keys}
+## Claves de nivel de Platform definidas por el usuario {#user-defined-keys}
 
-Si ya tiene o está estableciendo un proceso para definir y recopilar pares clave-valor, utilice esta opción. Si desea utilizar claves predefinidas por dirección IP, continúe a la siguiente sección. En el caso de las claves definidas por el usuario, se especifica el valor al crear rasgos con estos pares clave-valor:
+Si ya tiene, o está estableciendo, un proceso para definir y recopilar pares clave-valor, utilice esta opción. Si desea utilizar claves predefinidas por dirección IP, continúe con la siguiente sección. En el caso de claves definidas por usuario, especifique el valor al crear características con estos pares clave-valor:
 
-| Clave | Para Targeting |
+| Clave | Para la segmentación |
 |---|---|
 | `d_zx` | Código postal (por ejemplo, `d_zx=10022`). |
 
-## Claves de nivel de plataforma definidas por dirección IP {#keys-ip-address}
+## Claves de nivel Platform definidas por una dirección IP {#keys-ip-address}
 
-Trabajamos con [Digital Envoy](https://www.digitalenvoy.com/) para obtener y actualizar los datos demográficos y geográficos de las claves siguientes. Los valores de estas claves se determinan haciendo coincidir [!DNL IP] direcciones con los datos geográficos y demográficos correspondientes. Sin embargo, tendrá que especificar el parámetro value al crear el par clave-valor en [!UICONTROL Trait Builder].
+Trabajamos con [Digital Envoy](https://www.digitalenvoy.com/) para obtener y actualizar los datos demográficos y geográficos para las claves a continuación. Los valores de estas claves se determinan haciendo coincidir [!DNL IP] las direcciones con los datos geográficos y demográficos correspondientes. Sin embargo, aún tendrá que introducir el parámetro value al crear el par clave-valor en [!UICONTROL Trait Builder].
 
-| Clave | Para Targeting |
+| Clave | Para la segmentación |
 |--- |--- |
-| d_area_code | [Códigos de área de Norteamérica](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes).  Por ejemplo: <ul><li>**Rasgo**: d_area_code=801</li><li>**Nombre de característica**: Utah</li></ul> |
-| d_city | Ciudades y pueblos. Descargar la [lista de ciudades](assets/d_city.txt).  Por ejemplo: <ul><li>Característica: d_city=bonn</li><li>Nombre del rasgo: Bonn</li></ul> **Sugerencia**: Puede usar `d_city` junto con `d_country` para asegurarse de que no va a segmentar dos ciudades con el mismo nombre en países diferentes. Puede ser aún más específico en su segmentación usando `d_postal_code`. |
-| d_country | Los valores corresponden a los códigos de país ISO. Para obtener una lista de códigos en la que se pueden realizar búsquedas, consulte la [Plataforma de navegación en línea de ISO](https://www.iso.org/obp/ui/#home). <br>  La segmentación para el Reino Unido es el único caso especial que no obedece la norma ISO 3166. Debe usar &quot;UK&quot; en lugar de &quot;GB&quot; para segmentar en el Reino Unido.  Para dirigirse a las Antillas Neerlandesas, el código &quot;AN&quot; ha quedado obsoleto desde 2010. La zona se ha disuelto en cinco unidades territoriales distintas. Esto implica que, para realizar la segmentación en las Antillas Neerlandesas, no se debe utilizar &quot;AN&quot;, sino una combinación de los códigos de país para &quot;CW&quot;, &quot;SX&quot; y &quot;BQ&quot;.  Por ejemplo: <br>  Característica: d_country=CZ <br>  Nombre del rasgo: República Checa <br>  Característica: d_country=UK <br>  Nombre del rasgo: Reino Unido <br>  Rasgo: d_country=CW O d_country=SX O d_country=BQ <br>  Nombre del rasgo: Antillas Neerlandesas |
-| d_dma_code | Códigos DMA del área metropolitana. Descargar la [lista de región DMA](assets/DMAregions.csv) (formato .csv).  Por ejemplo: <ul><li>Característica: d_dma_code=807</li><li>Nombre del rasgo: San Francisco</li></ul> |
-| d_lat | Latitud (p. ej. d_lat=40,75). Descargar la [lista de latitudes](assets/d_lat.txt). |
-| d_long | Longitud (p. ej. d_long=73.98). Descargar la [lista de longitudes](assets/d_long.txt). |
-| d_postal_code | Códigos postales (excluido el código extendido +4). Descargar la [lista de códigos postales](assets/d_postal_code.txt).  Por ejemplo: <ul><li>Característica: d_postal_code=84004 </li><li>Nombre del rasgo: Alpine</li></ul> |
-| d_state | Abreviatura de 2 caracteres para un estado de EE. UU. Descargar la [lista de códigos de estado](assets/d_state.txt).  Por ejemplo: <ul><li>Característica: d_state=NY </li><li>Nombre del rasgo: Nueva York</li></ul>d_state contiene valores repetidos para diferentes estados en diferentes países. Por ejemplo, d_state == &quot;on&quot; coincide con varios estados: Ontario (en Canadá), Ondo (en Nigeria) y Oshana (en Namibia). Se recomienda emparejar esta señal con otras como d_country para un targeting geográfico más específico. |
-| d_region | ID alfanuméricos regionales. Descargar la [lista de regiones](assets/Country_RegionCodes_City.csv).  A continuación, puede utilizar esta lista para hacer coincidir los ID de región con los nombres de región. |
-| d_isp | ISP/organización. Descargar la [lista de ISP](assets/d_isp.txt). |
+| d_area_code | [Códigos](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes) de área de Norteamérica.  Por ejemplo: <ul><li>**** Rasgo: d_area_code=801</li><li>**Nombre** del rasgo: Utah</li></ul> |
+| d_city | Ciudades y pueblos. Descargue el lista[ de ciudades](assets/d_city.txt).  Por ejemplo: <ul><li>Rasgo: d_city=bonn</li><li>Nombre del rasgo: Bonn</li></ul> **Sugerencia**: Puede usar `d_city` junto con `d_country` para asegurarse de que no está direccionamiento dos ciudades con el mismo nombre en diferentes países. Puede ser igualado más específico en su direccionamiento utilizando `d_postal_code`. |
+| d_country | Los valores corresponden a los códigos ISO de país. Para obtener una lista de códigos con capacidad de búsqueda, consulte el [Platform](https://www.iso.org/obp/ui/#home) de exploración en línea ISO. <br>La segmentación para el Reino Unido es el único caso especial que no obedece a la norma ISO 3166. Debe usar &quot;UK&quot; en lugar de &quot;GB&quot; para direccionamiento en el Reino Unido.  Para destino las Antillas Neerlandesas, el código &quot;AN&quot; ha quedado obsoleto desde 2010. El área se ha disuelto en cinco unidades territoriales separadas. La implicación es que para direccionamiento en las Antillas Neerlandesas, no debe usar &quot;AN&quot;, sino una combinación de los códigos de país para &quot;CW&quot;, &quot;SX&quot; y &quot;BQ&quot;.  Por ejemplo:  <br> Rasgo: d_country=CZ  <br> Nombre de rasgo: Checo Republic <br> Rasgo: d_country=UK <br> Nombre de rasgo: Reino Unido  <br> Rasgo: d_country=CW O d_country=SX OR d_country=BQ  <br> Nombre de rasgo: Antillas Neerlandesas |
+| d_dma_code | Códigos de DMA del área metropolitana. Descargue el [DMA área geográfica lista](assets/DMAregions.csv) (.csv formato).  Por ejemplo: <ul><li>Rasgo: d_dma_code=807</li><li>Nombre del rasgo: San Francisco</li></ul> |
+| d_lat | Latitud (p. ej.  d_lat=40,75). Descargue las [latitudes lista](assets/d_lat.txt). |
+| d_long | Longitud (p. ej.  d_long=73,98). Descargue el lista[ de ](assets/d_long.txt)longitudes. |
+| d_postal_code | Códigos postales (excluya el código +4 extendido). Descargue los  [códigos postales lista](assets/d_postal_code.txt).  Por ejemplo: <ul><li>Rasgo: d_postal_code=84004 </li><li>Nombre del rasgo: alpino</li></ul> |
+| d_state | Abreviatura de 2 caracteres de un estado de EE. UU. Descargue los códigos de [estado lista](assets/d_state.txt).  Por ejemplo: <ul><li>Rasgo: d_state=NY </li><li>Nombre del rasgo: Nuevo York</li></ul>d_state contiene valores repetidos para diferentes estados en diferentes países. Por ejemplo, d_state == &quot;on&quot; coincide con varios estados: Ontario (en Canadá), Ondo (en Nigeria), Oshana (en Namibia). Recomendamos asociar esta señal con otras, como d_country para un targeting geográfico más específico. |
+| d_área geográfica | ID alfanuméricos regionales. Descargue el [área geográfica lista](assets/Country_RegionCodes_City.csv).  A continuación, puede utilizar este lista para hacer coincidir área geográfica ID con área geográfica nombres. |
+| d_isp | ISP/organización. Descargue la lista[ de ](assets/d_isp.txt)ISP. |
 
-La lista de [todas las señales basadas en la ubicación](assets/all.txt) comprende todas las señales anteriores, en el siguiente orden: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
+El lista de [todas las señales](assets/all.txt) basadas en la localización comprende todas las señales anteriores, en el siguiente orden: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
 >[!MORELIKETHIS]
 >

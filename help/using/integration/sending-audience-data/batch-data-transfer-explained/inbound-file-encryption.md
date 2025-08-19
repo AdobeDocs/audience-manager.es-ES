@@ -1,5 +1,5 @@
 ---
-description: Como opción, puede cifrar archivos de datos con cifrado PGP al enviarlos al Audience Manager.
+description: Como opción, puede cifrar archivos de datos con cifrado PGP al enviarlos a Audience Manager.
 seo-description: As an option, you can encrypt data files with PGP encryption when sending them to Audience Manager.
 seo-title: File PGP Encryption for Inbound Data Types
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Cifrado PGP de archivo para tipos de datos de entrada{#file-pgp-encryption-for-inbound-data-types}
 
-Puede cifrar archivos de datos con cifrado de [!DNL PGP] al enviarlos al Audience Manager.
+Puede cifrar archivos de datos con cifrado de [!DNL PGP] al enviarlos a Audience Manager.
 
 <!-- c_encryption.xml -->
 
@@ -24,11 +24,11 @@ Puede cifrar archivos de datos con cifrado de [!DNL PGP] al enviarlos al Audienc
 >
 >El cifrado [!DNL PGP] incluye la compresión de archivos. Al enviar [!DNL PGP] archivos de entrada cifrados, asegúrese de no [comprimirlos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) con gzip (`.gz`).
 >
->[!DNL PGP] archivos de entrada cifrados que también están [comprimidos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) no son válidos en el Audience Manager.
+>[!DNL PGP] archivos de entrada cifrados que también están [comprimidos](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) no son válidos en Audience Manager.
 
 Siga los pasos descritos a continuación para cifrar los archivos de datos de entrada.
 
-1. Descargar la [clave pública del Audience Manager](./assets/adobe_pgp.pub).
+1. Descargar la [clave pública de Audience Manager](./assets/adobe_pgp.pub).
 2. Importe la clave pública a su almacén de confianza.
 
    Por ejemplo, si usa [!DNL GPG], el comando podría ser similar al siguiente:
@@ -55,4 +55,4 @@ Siga los pasos descritos a continuación para cifrar los archivos de datos de en
 
    >[!NOTE]
    >
-   >El Audience Manager solo admite el algoritmo de cifrado de datos [!DNL Advanced Encryption Standard (AES)]. El Audience Manager admite cualquier tamaño de clave.
+   >Audience Manager solo admite el algoritmo de cifrado de datos [!DNL Advanced Encryption Standard (AES)]. Audience Manager admite cualquier tamaño de clave.

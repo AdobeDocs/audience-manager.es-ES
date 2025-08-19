@@ -1,5 +1,5 @@
 ---
-description: Método de GET que devuelve el destino del destinationId especificado.
+description: Una método GET que devuelve el destino para el destinationId especificado.
 seo-description: A GET method that returns the destination for the specified destinationId.
 seo-title: Return A Destination by Destination ID
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 # Devolver un destino por ID de destino {#return-a-destination-by-destination-id}
 
-Un método `GET` que devuelve el destino del `destinationId` especificado.
+Un `GET` método que devuelve el destino del archivo `destinationId`.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
-## Solicitud
+## Pedir
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 
 >[!NOTE]
 >
->Para rellenar el campo `mappings`, pase `includeMappings=true` en la dirección URL.
+>Para rellenar el `mappings` campo, pase `includeMappings=true` por el URL.
 
 ## Respuesta
 
@@ -56,13 +56,13 @@ Un método `GET` que devuelve el destino del `destinationId` especificado.
 }
 ```
 
-## Devolver todos los destinos {#return-all-destinations}
+## Volver todos los destinos {#return-all-destinations}
 
-Un método `GET` que devuelve todos los destinos del socio especificado.
+Un `GET` método que devuelve todos los destinos para el socio especificado.
 
 <!-- r_get_all_destinations.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/destinations`
 
@@ -74,7 +74,7 @@ Un método `GET` que devuelve todos los destinos del socio especificado.
 
 ### Parámetros de consulta opcionales
 
-Puede utilizar estos parámetros opcionales con métodos API que devuelven *todas* las propiedades de un objeto. Establezca estas opciones en la cadena de solicitud al pasar esa consulta al [!DNL API]. Consulte [Parámetros opcionales](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Puede utilizar estos parámetros opcionales con métodos API que devuelven *todas las* propiedades de un objeto. Establezca estas opciones en la cadena solicitud al pasar esa consulta al [!DNL API]archivo . Consulte [Parámetros opcionales](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -86,23 +86,23 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *toda
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Devuelve los resultados por número de página. La numeración comienza en 0. </td>
+   <td colname="col2"> Devuelve los resultados por número Página. La numeración comienza en 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
-   <td colname="col2"> Establece el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). </td>
+   <td colname="col2"> Define el número de resultados de respuesta devueltos por el solicitud (el valor predeterminado es 10). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Ordena y devuelve los resultados según la propiedad <span class="keyword"> JSON</span> especificada. </td>
+   <td colname="col2">Ordena y devuelve resultados según el Propiedad JSON<span class="keyword"> especificado</span>. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Ordena y devuelve los resultados en orden descendente. Ascendente es el valor predeterminado. </td>
+   <td colname="col2"> Ordena y devuelve los resultados en de bajada orden. de subida opción predeterminada. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra "Test" en cualquiera de los campos de valor de ese elemento. La solicitud de ejemplo podría tener este aspecto: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Puede buscar cualquier valor devuelto mediante el método "get all". </p> </td>
+   <td colname="col2">Devuelve los resultados en función de la cadena especificada que desea utilizar como parámetro búsqueda. Por ejemplo, supongamos que desea encontrar los resultados de todos los modelos que tienen la palabra "Prueba" en cualquiera de los campos de valor de ese elemento. Su solicitud de muestra podría verse gustar esto: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Puede búsqueda cualquier valor devuelto por el método "obtener todo". </p> </td>
   </tr>
  </tbody>
 </table>
@@ -141,11 +141,11 @@ Puede utilizar estos parámetros opcionales con métodos API que devuelven *toda
 
 ## Devolver una asignación de destino con el ID de asignación {#return-dest-mapping-id}
 
-Un método `GET` que devuelve una asignación de destino individual basada en `mappingId`.
+Método `GET` que devuelve una asignación de destino individual basada en el `mappingId`método .
 
 <!-- r_get_destination_trait_data_order.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`*`<destinationMappingId>`*
 
@@ -176,9 +176,9 @@ Un método `GET` que devuelve una asignación de destino individual basada en `m
 }
 ```
 
-## Devolver asignaciones de destino {#return-dest-mappings}
+## Asignaciones de regreso a destinos {#return-dest-mappings}
 
-Un método `GET` que devuelve las asignaciones para un destino.
+Método `GET` que devuelve las asignaciones de un destino.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -186,7 +186,7 @@ Un método `GET` que devuelve las asignaciones para un destino.
 >
 >La asignación devuelta es específica para el tipo de destino y la configuración.
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings`
 
@@ -252,11 +252,11 @@ Un método `GET` que devuelve las asignaciones para un destino.
 
 ## Devolver todas las plataformas de destino disponibles {#return-dest-platforms}
 
-Un método `GET` que devuelve todas las plataformas de dispositivo disponibles para los destinos.
+Método `GET` que devuelve todas las plataformas dispositivos disponibles para los destinos.
 
 <!-- r_get_dest_platforms.xml -->
 
-### Solicitud
+### Pedir
 
 `GET /destinations/configurations/available-platforms/`
 
@@ -268,17 +268,17 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Devolver historial de trabajos de destino de S2S y Bulk S2S {#return-job-history}
+## Historial de trabajos de destino de devolución de S2S y S2S a granel {#return-job-history}
 
-Un método `GET` que devuelve información de historial de trabajo de destino saliente [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) y masiva [!UICONTROL S2S].
+Método `GET` que devuelve información del historial de trabajos saliente [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) y de destino masivo [!UICONTROL S2S] .
 
 <!-- r_get_job_history.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parámetros de consulta requeridos: `startDate` = *&lt;`epochtime`>* y `endDate` = *&lt;`epochtime`>*.
+Parámetros de consulta necesarios: `startDate` = *`epochtime`>* y `endDate` = *`epochtime`>*.
 
 ### Respuesta
 

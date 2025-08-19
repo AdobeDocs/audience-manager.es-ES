@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Integrar [!DNL Google Ad Manager] (anteriormente DFP) mediante Google Publisher Tags (GPT)
 
-Los artículos que se enumeran a continuación proporcionan información general sobre cómo integrar [!DNL Google Ad Manager] mediante Google Publisher Tags (GPT). Puede utilizar una integración del lado del servidor o configurar GPT como destino para enviar datos de segmentos del Audience Manager a [!DNL Google Ad Manager]. También aprenderá los pasos necesarios para ingerir [!DNL Google Ad Manager] archivos de registro para la creación de informes en Audience Manager.
+Los artículos que se enumeran a continuación proporcionan información general sobre cómo integrar [!DNL Google Ad Manager] mediante Google Publisher Tags (GPT). Puede usar una integración del lado del servidor o configurar GPT como destino para enviar datos de segmentos de Audience Manager a [!DNL Google Ad Manager]. También aprenderá los pasos necesarios para ingerir [!DNL Google Ad Manager] archivos de registro para la generación de informes en Audience Manager.
 
 * [Requisitos y métodos para enviar segmentos a Google Ad Manager mediante Google Publisher Tags (GPT)](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
@@ -28,6 +28,6 @@ Los artículos que se enumeran a continuación proporcionan información general
 
   Agregue una instrucción if para buscar cookies de Audience Manager antes de llamar al método Google Publisher Tag .setTargeting.
 
-* [Código de Audience Manager para etiquetas de publicador de Google](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Código Audience Manager para etiquetas de publicador de Google](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
   AamGpt es una función de JavaScript que lee datos de cookies de Audience Manager y envía esa información a las etiquetas de publicador de Google.

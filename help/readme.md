@@ -42,8 +42,8 @@ ht-degree: 2%
    + short-title: (campo opcional).
    + index (sí/no): la plataforma de búsqueda de Adobe indexará la página.
    + translate (sí/no): la página se localizará.
-   + AEM version: se utiliza principalmente para la versión de y Campaign, para denotar la versión del producto.
-   + AEM private-feature-pack: se usa principalmente para el uso de la.
+   + version: se utiliza principalmente para AEM y Campaign para denotar la versión del producto.
+   + private-feature-pack: se usa principalmente para AEM.
    + beta: ¿este producto está en fase beta?
    + redirect: se puede utilizar para crear una referencia a una página nueva si es necesario.
    + doc-type: reference (default) / Troubleshooting / developer / tutorial / kb / documentación técnica.

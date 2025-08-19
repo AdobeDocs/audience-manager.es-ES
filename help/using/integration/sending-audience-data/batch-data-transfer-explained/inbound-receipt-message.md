@@ -25,7 +25,7 @@ El siguiente ejemplo es un mensaje de correo electrónico de ejemplo. La tabla d
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Asunto: Resultado Del Procesamiento Servidor A Servidor De Adobe Audience Manager:</b> </p> <p> <b>Estimado socio de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido su envío de archivos de servidor a servidor de Adobe Audience Manager</b> </p> <p> <b>Nombre de archivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> AAM <b>Id. de no válido: 112 </b> </p> <p> AAM <b>No hay coincidencias con el identificador de la: 0 </b> </p> <p> <b>Ningún rasgo realizado: 26730823 </b> </p> <p> <b>Registros procesados: 40669900 </b> </p> <p> <b>Registros almacenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Señales totales: 918878926 </b> </p> <p> <b>Total de señales no utilizadas: 660348376 </b> </p> <p> <b>Rasgos totales realizados: 258086908 </b> </p> <p> <b>Total de rasgos eliminados: 0 </b> </p> <p> <b>Error en la validación del total de rasgos: 0 </b> </p> <p> <b>Usuarios totales que tienen características con error de validación: 0 </b> </p> <p> <b>Hora de inicio del trabajo: 17-05-2018 18:07:49 </b> </p> <p> <b>Hora de finalización del trabajo: 17-05-2018 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Asunto: Resultado Del Procesamiento Servidor A Servidor De Adobe Audience Manager:</b> </p> <p> <b>Estimado socio de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Hemos recibido su envío de archivos de servidor a servidor de Adobe Audience Manager</b> </p> <p> <b>Nombre de archivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recibidos: 40669900</b> </p> <p><b>Errores de formato: 0</b> </p> <p> <b>ID de AAM no válido: 112 </b> </p> <p> <b>No hay ninguna AAM que coincida con el ID: 0 </b> </p> <p> <b>Ningún rasgo realizado: 26730823 </b> </p> <p> <b>Registros procesados: 40669900 </b> </p> <p> <b>Registros almacenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Señales totales: 918878926 </b> </p> <p> <b>Total de señales no utilizadas: 660348376 </b> </p> <p> <b>Rasgos totales realizados: 258086908 </b> </p> <p> <b>Total de rasgos eliminados: 0 </b> </p> <p> <b>Error en la validación del total de rasgos: 0 </b> </p> <p> <b>Usuarios totales que tienen características con error de validación: 0 </b> </p> <p> <b>Hora de inicio del trabajo: 17-05-2018 18:07:49 </b> </p> <p> <b>Hora de finalización del trabajo: 17-05-2018 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,23 +42,23 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre de archivo </td> 
-   <td colname="col2"> <p>Lista de todos los archivos de entrada que el Adobe recibió para este socio y que se procesaron juntos. En el mensaje de correo electrónico de ejemplo anterior, el ID del socio es 7 y el ID del propietario de datos es 901. </p> <p>El número de cola (1,2,3...) es el número de división añadido por el cliente o por el distribuidor entrante. </p> </td> 
+   <td colname="col2"> <p>Lista de todos los archivos entrantes que Adobe recibió para este socio y que se procesaron juntos. En el mensaje de correo electrónico de ejemplo anterior, el ID del socio es 7 y el ID del propietario de datos es 901. </p> <p>El número de cola (1,2,3...) es el número de división añadido por el cliente o por el distribuidor entrante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de Adobes de registros recibidos en todos los archivos. En la mayoría de los casos, este debe ser el número total de líneas en los archivos de entrada. </p> </td> 
+   <td colname="col2"> <p>Número total de registros recibidos por Adobe en todos los archivos. En la mayoría de los casos, este debe ser el número total de líneas en los archivos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Errores de formato </td> 
    <td colname="col2"> <p>Número de líneas que no coinciden con el formato esperado. Estas líneas no eran reconocibles por el trabajo entrante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> AAM ID no válido </td> 
-   <td colname="col2"> <p>Número de UUID de Audience Manager que no coinciden con el formato esperado de 38 dígitos. O los UUID del Audience Manager enviados en el archivo no son números. </p> </td> 
+   <td colname="col1"> ID de AAM no válido </td> 
+   <td colname="col2"> <p>Número de UUID de Audience Manager que no coinciden con el formato esperado de 38 dígitos. O los UUID de Audience Manager enviados en el archivo no son números. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> AAM No hay coincidencias con ID de </td> 
-   <td colname="col2"> <p>Número total de usuarios para los que el Audience Manager no ha podido encontrar un UUID coincidente. Estos archivos no se han sincronizado con el ID, por lo que el Audience Manager no puede buscar el UUID. </p> </td> 
+   <td colname="col1"> No hay AAM ID coincidente </td> 
+   <td colname="col2"> <p>Número total de usuarios para los que Audience Manager no ha podido encontrar un UUID coincidente. Estos archivos no se han sincronizado con el ID, por lo que Audience Manager no puede buscar el UUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Sin rasgo realizado </td> 
@@ -66,11 +66,11 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
   </tr> 
   <tr> 
    <td colname="col1"> Registros procesados </td> 
-   <td colname="col2"> <p>Número total de registros procesados por el Audience Manager. En la mayoría de los casos, este número debe ser el mismo que "Registros recibidos". </p> </td> 
+   <td colname="col2"> <p>Número total de registros procesados por Audience Manager. En la mayoría de los casos, este número debe ser el mismo que "Registros recibidos". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registros almacenados </td> 
-   <td colname="col2"> <p>AAM AAM Número de registros que resultan en datos que se van a cargar en el sistema = Registros procesados - Errores de formato - ID de no válidos - ID sin coincidencias - Sin rasgo realizado. </p> </td> 
+   <td colname="col2"> <p>Número de registros que hacen que se carguen datos en el sistema = Registros procesados - Errores de formato - ID de AAM no válidos - Sin ID de AAM coincidente - Sin rasgo realizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total de dispositivos </td> 
@@ -82,7 +82,7 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
   </tr> 
   <tr> 
    <td colname="col1"> Total de señales no utilizadas </td> 
-   <td colname="col2"> <p>Número total de señales no utilizadas para todos los usuarios en todos los archivos de entrada (pares clave/valor que no se asignaron a características de Audience Manager). En la mayoría de los casos, esto significa que el Audience Manager no tiene reglas definidas para la señal. </p> </td> 
+   <td colname="col2"> <p>Número total de señales no utilizadas para todos los usuarios en todos los archivos de entrada (pares clave/valor que no se asignaron a características de Audience Manager). En la mayoría de los casos, esto significa que Audience Manager no tiene reglas definidas para la señal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Características totales realizadas </td> 

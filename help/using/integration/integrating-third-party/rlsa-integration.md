@@ -30,10 +30,10 @@ Para configurar una lista de remarketing [!DNL Google Ads] como [!DNL Audience M
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. En el Audience Manager, [Cree un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edite un [!DNL destination] existente. Use la siguiente configuración al crear [!DNL destination]:
+1. En Audience Manager, [crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edita un(a) [!DNL destination] existente. Use la siguiente configuración al crear [!DNL destination]:
    * Tipo: URL
    * Serializar: Habilitado
-   * Delimitador: Punto y coma ( &semi; )
+   * Delimitador: Punto y coma ( &amp;semi; )
 
 1. En la sección [!UICONTROL Segment Mappings] de su [!DNL URL] [!DNL destination], agregue el código del paso 2 a los campos [!DNL URL] y [!DNL Secure URL]. Agregue al código `http:` y `https:` los campos [!DNL URL] y [!DNL Secure URL], respectivamente.
 
@@ -61,7 +61,7 @@ Para configurar una lista de remarketing [!DNL Google Ads] como [!DNL Audience M
    >
    >Si está trabajando con varios segmentos, obtenga un nuevo píxel para cada segmento que desee asignar a un [!DNL Google Ads] [!DNL destination]. Esto garantiza que los datos se apliquen a la lista de remarketing adecuada.
 
-1. Al asignar un nuevo segmento a este(a) [!DNL destination] en el Audience Manager, defina la asignación como `aam=segmentID` y reemplace `segmentID` por el ID del segmento.
+1. Al asignar un nuevo segmento a este(a) [!DNL destination] en Audience Manager, defina la asignación como `aam=segmentID` y reemplace `segmentID` por el ID del segmento.
 1. Al definir un bloque en [!DNL Google Ads], cree una regla que coincida con la asignación definida en el paso 6.
 
 Una asignación completada podría tener un aspecto similar a este:

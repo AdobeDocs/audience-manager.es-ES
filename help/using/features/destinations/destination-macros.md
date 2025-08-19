@@ -40,16 +40,16 @@ Al crear un destino [!DNL URL], puede insertar las siguientes macros en la caden
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta el identificador </span> de Audience Manager <span class="keyword"> del usuario en la dirección URL de destino. </p> </td> 
+   <td colname="col2"> <p>Inserta el identificador Audience Manager<span class="keyword"> </span> del usuario en la dirección URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>El <i>id. de origen de datos</i> corresponde al identificador de un origen de datos pasado a la macro. </p> <p>Veamos cómo funciona esto en un ejemplo sencillo. En este caso, tenemos un socio de Audience Manager <span class="keyword"> </span> con las siguientes ID y condiciones: </p> 
+   <td colname="col2"> <p>El <i>id. de origen de datos</i> corresponde al identificador de un origen de datos pasado a la macro. </p> <p>Veamos cómo funciona esto en un ejemplo sencillo. En este caso, tenemos un socio de Audience Manager<span class="keyword"> de </span> con las siguientes ID y condiciones: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Id. de origen de datos: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un id. de cliente interno: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarada: el socio desea pasar estos valores como el ID declarado <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para hacer esto con <code>%dpid_<i>data source id</i>%</code>, el socio de Audience Manager <span class="keyword"> </span> debería dar formato a la macro de esta manera: </p> 
+    </ul> <p>Para hacerlo con <code>%dpid_<i>data source id</i>%</code>, el socio de Audience Manager<span class="keyword"> de </span> debería dar formato a la macro de esta manera: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro reemplazará a <code> 1</code> con <code> CustomerABC</code>. </p> </td> 
@@ -73,11 +73,11 @@ Al crear un destino [!DNL URL], puede insertar las siguientes macros en la caden
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta el identificador <span class="keyword"> Experience Cloud</span> en la dirección URL de destino. </p> </td> 
+   <td colname="col2"> <p>Inserta el identificador Experience Cloud<span class="keyword"> </span> en la dirección URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Inserta la región <span class="wintitle"> Servidor de recopilación de datos (DCS)</span> en la dirección URL de destino. Para minimizar la latencia, cuando el visitante realiza una llamada HTTP al Audience Manager <span class="keyword"></span>, se le está redireccionando al centro de datos <span class="wintitle"> DCS</span> más cercano. Esto se logra a través de DNS, que es capaz de detectar la ubicación del visitante y dirigirlo al centro de datos adecuado. </p> </td> 
+   <td colname="col2"> <p>Inserta la región <span class="wintitle"> Servidor de recopilación de datos (DCS)</span> en la dirección URL de destino. Para minimizar la latencia, cuando el visitante realiza una llamada HTTP a <span class="keyword"> Audience Manager</span>, se le está redireccionando al centro de datos <span class="wintitle"> DCS</span> más cercano. Esto se logra a través de DNS, que es capaz de detectar la ubicación del visitante y dirigirlo al centro de datos adecuado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 

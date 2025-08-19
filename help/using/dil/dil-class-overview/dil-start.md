@@ -1,5 +1,5 @@
 ---
-description: Describe los requisitos de autenticación y el formato de texto utilizado en la documentación del DIL de nivel de clase.
+description: Describe los requisitos de autenticación y el formato de texto utilizado en la documentación de DIL de nivel de clase.
 seo-description: Describes authentication requirements and the text formatting used in the class-level DIL documentation.
 seo-title: Getting Started With Class-level DIL APIs
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
+>Desde julio de 2023, Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, Adobe no desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes evaluar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
-Las API de DIL de nivel de clase permiten crear y trabajar mediante programación con objetos de Audience Manager. Las API de nivel de clase funcionan con las otras funciones de nivel de instancia para establecer valores o devolver datos.
+Las API de DIL de nivel de clase le permiten crear y trabajar con objetos Audience Manager mediante programación. Las API de nivel de clase funcionan con las otras funciones de nivel de instancia para establecer valores o devolver datos.
 
 ## Introducción a las API de DIL de nivel de clase {#get-started}
 

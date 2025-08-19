@@ -1,5 +1,5 @@
 ---
-description: Esta página contiene instrucciones sobre cómo configurar y administrar la integración entre las plataformas basadas en Audience Manager y en personas.
+description: Esta página contiene instrucciones sobre cómo configurar y administrar la integración entre Audience Manager y las plataformas basadas en personas.
 seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
@@ -20,7 +20,7 @@ ht-degree: 0%
 >Este artículo contiene documentación del producto que le guiará a través de la configuración y el uso de esta función. Nada de lo que contiene aquí es asesoramiento legal. Por favor, consulte a su propio asesor legal para obtener orientación legal.
 
 Esta página contiene instrucciones sobre cómo configurar y administrar la integración
-entre plataformas basadas en Audience Manager y personas.
+entre Audience Manager y plataformas basadas en personas.
 
 >[!NOTE]
 >Este es un paso obligatorio para People-Based Destinations, independientemente del escenario de implementación.
@@ -34,11 +34,11 @@ entre plataformas basadas en Audience Manager y personas.
    ![plataforma basada en personas](assets/pbd-add.png)
 4. Haga clic en **[!UICONTROL Confirm]** para que se le redirija a la página de autenticación de la plataforma seleccionada.
 5. Una vez que se haya autenticado en su cuenta de la plataforma social, se le redirigirá a Audience Manager, donde debería ver sus cuentas de anunciante asociadas. Seleccione la cuenta de anunciante que desee usar y haga clic en **[!UICONTROL Confirm]**.
-6. Audience Manager muestra una notificación en la parte superior de la página para informarle de si la cuenta se ha agregado correctamente. La notificación también le permite añadir una dirección de correo electrónico de contacto para recibir notificaciones del Adobe cuando la autenticación de la plataforma social esté a punto de caducar.
+6. Audience Manager muestra una notificación en la parte superior de la página para informarle de si la cuenta se ha agregado correctamente. La notificación también le permite añadir una dirección de correo electrónico de contacto para recibir notificaciones de Adobe cuando la autenticación de la plataforma social esté a punto de caducar.
 
 ## Caducidad del token de autenticación y administración de notificaciones {#token-expiration-notification}
 
-Audience Manager gestiona la integración con las plataformas sociales a través de tokens de autenticación que caducan después de un cierto tiempo. La duración de la validez del token está sujeta a las reglas de integración de cada plataforma social. Una vez que caduca el token de autenticación, el Audience Manager no puede enviar los segmentos de audiencia a su destino. Para evitar este escenario, se recomienda añadir al menos una dirección de correo electrónico de contacto a la integración, de modo que reciba una notificación en cuanto el token de autenticación esté a punto de caducar. Cuando esto sucede, puede volver a autenticarse para asegurarse de que el destino siga recibiendo los segmentos de audiencia.
+Audience Manager gestiona la integración con las plataformas sociales mediante tokens de autenticación que caducan después de un cierto tiempo. La duración de la validez del token está sujeta a las reglas de integración de cada plataforma social. Una vez que caduca el token de autenticación, Audience Manager no puede enviar los segmentos de audiencia a su destino. Para evitar este escenario, se recomienda añadir al menos una dirección de correo electrónico de contacto a la integración, de modo que reciba una notificación en cuanto el token de autenticación esté a punto de caducar. Cuando esto sucede, puede volver a autenticarse para asegurarse de que el destino siga recibiendo los segmentos de audiencia.
 
 A continuación se indica cómo añadir direcciones de correo electrónico a integraciones existentes:
 

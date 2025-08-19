@@ -10,7 +10,7 @@ exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Describe los campos, sintaxis y convenciones de nomenclatura requeridos que se u
 
 >[!NOTE]
 >
->Estilos de texto (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los estilos de texto (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos y opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Sintaxis y ejemplos del nombre del archivo {#file-name-syntax}
 
@@ -48,7 +48,7 @@ Los nombres de archivo de ID contienen los siguientes elementos obligatorios y o
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> <p>El ID del proveedor de datos maestro es el ID principal de los DPID del nombre del archivo. Además, el primer ID de usuario del archivo de datos corresponde al ID de maestro. Los DPID subsiguientes son otros identificadores que pertenecen al maestro. La sincronización asigna los DPID del nombre de archivo a los UUID del archivo.</p> <p>AAM Este DPID solo debe contener ID de dispositivo, como UUID, GAID, IDFA, etc. de la. No puede contener DPUUID. Al hacerlo, la sincronización puede ser incorrecta.</p>  </td> 
+   <td colname="col2"> <p>El ID del proveedor de datos maestro es el ID principal de los DPID del nombre del archivo. Además, el primer ID de usuario del archivo de datos corresponde al ID de maestro. Los DPID subsiguientes son otros identificadores que pertenecen al maestro. La sincronización asigna los DPID del nombre de archivo a los UUID del archivo.</p> <p>Este DPID solo debe contener ID de dispositivo, como UUID de AAM, GAID, IDFA, etc. No puede contener DPUUID. Al hacerlo, la sincronización puede ser incorrecta.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -101,7 +101,7 @@ abc123 def456 ghi789 xyz987
 
 ### Consideraciones sobre contenido de archivo {#considerations}
 
-Al crear los archivos de entrada, asegúrese de que la primera columna solo se rellena con identificadores de dispositivo, como [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], etc. Consulte [Índice de IDs en Audience Manager](../../../reference/ids-in-aam.md) para obtener una explicación detallada de los IDs admitidos por Audience Manager.
+Al crear los archivos de entrada, asegúrese de que la primera columna solo se rellena con identificadores de dispositivo, como [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], etc. Consulte [Índice de ID en Audience Manager](../../../reference/ids-in-aam.md) para obtener una explicación detallada de los ID compatibles con Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -142,7 +142,7 @@ Paso 1: el proceso de sincronización de ID sincronizará los [!DNL DPUUID]s de 
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Paso 2: los 12345 [!DNL DPUUID]s de [!DNL DPID] se han sincronizado en el paso 1 con el Audience Manager [!DNL UUID]s. Lo que esta sincronización de ID hará es sincronizar los [!DNL DPUUID]s de [!DNL DPID] 67890 con el Audience Manager [!DNL UUID]s del paso 1.
+Paso 2: los [!DNL DPUUID]s de [!DNL DPID] 12345 se han sincronizado en el paso 1 con los Audience Manager [!DNL UUID]s. Lo que esta sincronización de ID hará es sincronizar los [!DNL DPUUID]s de [!DNL DPID] 67890 con los Audience Manager [!DNL UUID]s del paso 1.
 
 <br/>
 

@@ -1,9 +1,9 @@
 ---
-description: Métodos de DELETE y POST que permiten eliminar destinos y asignaciones de segmentos.
+description: DELETE y POST métodos que permiten eliminar destinos y segmento asignaciones.
 seo-description: DELETE and POST methods that let you remove destinations and segment mappings.
 seo-title: Delete Destinations
 solution: Audience Manager
-title: Eliminar destinos
+title: Eliminar Destinos
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
 exl-id: eaac3908-75ab-42d2-93bd-e8979f8b2427
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Eliminar destinos {#delete-destinations}
+# Eliminar Destinos {#delete-destinations}
 
-Métodos `DELETE` y `POST` que permiten eliminar destinos y asignaciones de segmentos.
+`DELETE` y `POST` métodos que le permiten eliminar destinos y segmento asignaciones.
 
 <!-- r_delete_destinations_all.xml -->
 
 ## Eliminar un destino
 
-Un método `DELETE` que quita un destino.
+Un método que quita `DELETE` un destino.
 
 >[!NOTE]
 >
->Debe quitar todas las asignaciones de segmentos para poder eliminar un destino.
+>Debe eliminar todas las asignaciones segmento para poder eliminar un destino.
 
-* Solicitud: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
-* Respuesta: Devuelve el código `204 No Content` si se realizó correctamente.
+* Pedir: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+* Respuesta: Devuelve el código `204 No Content` si se realiza correctamente.
 
-## Destinos de eliminación masiva
+## Destinos de Eliminar a granel
 
-Quitar varios destinos con este método `POST`. Pase los identificadores de destino (`destinationId`) con una matriz en el cuerpo de la solicitud.
+Quitar varios destinos con este `POST` método. Pase los ID de destino ( `destinationId`) con una matriz en el cuerpo del solicitud.
 
-* Solicitud: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
-* Respuesta: Devuelve el código `204 No Content` si se realizó correctamente.
+* Pedir: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
+* Respuesta: Devuelve el código `204 No Content` si se realiza correctamente.
 
-## Eliminar asignaciones de destino por ID de asignación de segmento
+## Eliminar asignaciones de destinos por ID de asignación de segmentos
 
-Un método `POST` que elimina las asignaciones de destino según el ID de segmento especificado.
+Método `POST` que elimina las asignaciones de destino según el ID de segmento especificado.
 
-* Solicitud: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
-* Respuesta: Devuelve el código `204 No Content` si se realizó correctamente.
+* Pedir: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* Respuesta: Devuelve el código `204 No Content` si se realiza correctamente.

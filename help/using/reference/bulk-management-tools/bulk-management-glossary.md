@@ -20,7 +20,7 @@ Etiquetas de encabezado de columna definidas.
 
 >[!IMPORTANT]
 >
->Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente compatible. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 
@@ -78,7 +78,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Las señales son bits de datos pasados al Audience Manager <span class="keyword"> </span> según la actividad del usuario. Se transmiten como <a href="../../reference/key-value-pairs-explained.md"> pares clave-valor</a>. La clave de origen es una constante que no cambia. Ayuda a categorizar el valor de origen que puede cambiar. Ver <a href="../../features/derived-signals.md"> señales derivadas </a>. </p> </td> 
+   <td colname="col2"> <p>Las señales son bits de datos pasados a <span class="keyword"> Audience Manager</span> según la actividad del usuario. Se transmiten como <a href="../../reference/key-value-pairs-explained.md"> pares clave-valor</a>. La clave de origen es una constante que no cambia. Ayuda a categorizar el valor de origen que puede cambiar. Ver <a href="../../features/derived-signals.md"> señales derivadas </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -102,7 +102,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Rasgo real o regla de segmento utilizada para recopilar datos. Una solicitud masiva devuelve las reglas creadas en el Audience Manager <span class="keyword"> </span> con el generador de reglas de rasgos <a href="../../features/traits/about-trait-builder.md"> </a> o el generador de reglas de segmentos <a href="../../features/segments/segment-builder.md"> </a>. También puede utilizar estas herramientas para crear reglas y aplicarlas por lotes al actualizar un segmento o característica. </p> <p>Consulte también <a href="../../reference/bulk-management-tools/bulk-rules.md"> Crear o actualizar reglas de rasgos y reglas de segmentos</a>. </p> </td> 
+   <td colname="col2"> <p>Rasgo real o regla de segmento utilizada para recopilar datos. Una solicitud masiva devuelve las reglas creadas en <span class="keyword"> Audience Manager</span> con el generador de reglas de rasgos <a href="../../features/traits/about-trait-builder.md"></a> o el generador de reglas de segmentos <a href="../../features/segments/segment-builder.md"></a>. También puede utilizar estas herramientas para crear reglas y aplicarlas por lotes al actualizar un segmento o característica. </p> <p>Consulte también <a href="../../reference/bulk-management-tools/bulk-rules.md"> Crear o actualizar reglas de rasgos y reglas de segmentos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -115,7 +115,7 @@ Etiquetas de encabezado de columna definidas.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Píxel activado por el DIL cuando un usuario cumple los requisitos para un segmento. </p> </td> 
+   <td colname="col2"> <p>Píxel activado por DIL cuando un usuario cumple los requisitos para un segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 

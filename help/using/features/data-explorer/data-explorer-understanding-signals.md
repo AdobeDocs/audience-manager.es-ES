@@ -1,5 +1,5 @@
 ---
-description: Las señales son la unidad de información más pequeña dentro del Audience Manager. Representan las interacciones del usuario o la actividad del usuario en sus propiedades en línea y se pasan al Audience Manager para su uso en reglas de rasgos.
+description: Las señales son la unidad de información más pequeña de Audience Manager. Representan las interacciones del usuario o la actividad del usuario en sus propiedades en línea y se pasan a Audience Manager para su uso en reglas de rasgos.
 seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 seo-title: Understanding Signals
 title: Explicación de señales
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Explicación de señales
 
-Las señales son la unidad de información más pequeña dentro del Audience Manager. Representan las interacciones del usuario o la actividad del usuario en sus propiedades en línea y se pasan al Audience Manager para su uso en reglas de rasgos.
+Las señales son la unidad de información más pequeña de Audience Manager. Representan las interacciones del usuario o la actividad del usuario en sus propiedades en línea y se pasan a Audience Manager para su uso en reglas de rasgos.
 
 [!DNL Audience Manager] utiliza pares clave-valor para representar señales. Por ejemplo, la siguiente señal podría indicar que un visitante ha llegado a una página web que contiene componentes electrónicos:
 
@@ -38,7 +38,7 @@ El [Tablero de señales](../../features/data-explorer/data-explorer-signals-dash
 
 ## Frecuencia de actualización de datos de señal
 
-Debido a la gran cantidad de datos que procesa diariamente el Audience Manager, [!UICONTROL Data Explorer] actualiza los datos de señal mostrados a intervalos de tiempo fijos, según el tipo de señal:
+Debido a la gran cantidad de datos que Audience Manager procesa diariamente, [!UICONTROL Data Explorer] actualiza los datos de señal mostrados a intervalos de tiempo fijos, según el tipo de señal:
 
 * Los datos de señales en tiempo real (archivos de registro procesables, datos de [!DNL Adobe Analytics] y datos en línea generales) se actualizan cada 4 a 6 horas.
 * Los datos de señal incorporados se actualizan cada 24 horas.

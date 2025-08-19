@@ -1,9 +1,9 @@
 ---
-description: Puede capturar datos de campañas de medios mediante llamadas en píxeles a Audience Manager (a menudo denominadas pixelar el elemento creativo) o mediante la ingesta de archivos de registro.
+description: Puede capturar datos de campañas de medios mediante llamadas de píxeles a Audience Manager (a menudo denominadas pixelación del creativa) o mediante la introducción de archivos de registro.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
-title: Integración de datos de medios
+title: Integración de datos multimedia
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
 feature: Adobe Campaign Integration
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 ---
 
-# Integración de datos de medios {#media-data-integration}
+# Integración de datos multimedia {#media-data-integration}
 
-Puede capturar datos de campañas de medios mediante llamadas en píxeles a Audience Manager (a menudo denominadas pixelar el elemento creativo) o mediante la ingesta de archivos de registro. Lea los artículos de esta sección para comprender el proceso.
+Puede capturar datos de campañas de medios mediante llamadas de píxeles a Audience Manager (a menudo denominadas pixelación del creativa) o mediante la introducción de archivos de registro. Lea los artículos de esta sección para comprender el proceso.
 
 <!-- c_camp_data_int.xml -->
 
 * [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md)
-* [Captura de datos de impresión de campaña mediante llamadas de píxel](/help/using/integration/media-data-integration/impression-data-pixels.md)
-* [Captura de datos de clic de Campaign mediante llamadas de píxel](/help/using/integration/media-data-integration/click-data-pixels.md)
+* [Captura de datos de impresiones de Campaign a través de llamadas de píxeles](/help/using/integration/media-data-integration/impression-data-pixels.md)
+* [Capturación de datos de clics en Campaign a través de Pixel Calls](/help/using/integration/media-data-integration/click-data-pixels.md)
 
 Para configurar la ingesta de registros, lea los siguientes artículos:
 
-* [Importación De Archivos De Datos Del Administrador De Google Campaign En Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importar Archivos De Datos De Google Ad Manager En Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Archivos de metadatos y datos de registro](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) para configurar la ingesta de registros para los archivos de registro genéricos
+* [Importar Archivos de datos de Google Campaign Manager en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Importar Archivos de datos de Google Ad Manager a Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Datos de registro y metadatos Archivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) para configurar la ingesta de registros para archivos de registro genéricos

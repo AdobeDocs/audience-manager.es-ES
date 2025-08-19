@@ -1,5 +1,5 @@
 ---
-description: Audience Manager utiliza topologías distribuidas y de computación de borde para satisfacer las demandas de nuestros sistemas por fuentes externas.
+description: Audience Manager utiliza topologías distribuidas de informática de vanguardia para satisfacer las exigencias que las fuentes externas imponen a nuestros sistemas.
 seo-description: Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
 seo-title: Understanding the Edge Data Center
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Explicación del centro de datos de Edge{#understanding-the-edge-data-center}
 
-Audience Manager utiliza topologías distribuidas y de computación de borde para satisfacer las demandas de nuestros sistemas por fuentes externas.
+Audience Manager utiliza topologías distribuidas de informática de vanguardia para satisfacer las exigencias que las fuentes externas imponen a nuestros sistemas.
 
 ## Conceptos básicos del centro de datos Edge {#edge-data-center-basics}
 
@@ -36,7 +36,7 @@ El centro de datos perimetral [!DNL Audience Manager] incluye:
 
 * **Equilibradores de carga:** Administre las demandas de procesamiento/computación desiguales inherentes a las aplicaciones de Internet. Estos equilibradores evitan que los clústeres de servidores se sobrecarguen mientras otros permanecen inactivos.
 
-El diagrama siguiente ilustra el entorno del centro de datos perimetral Audience Manager.
+El diagrama siguiente ilustra el entorno del centro de datos perimetral de Audience Manager.
 
 ![](assets/edge_data_center.png)
 

@@ -4,7 +4,7 @@ keywords: datos entrantes, por lotes, carga por lotes, datos por lotes
 seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
-title: Resumen de envío de datos por lotes al Audience Manager
+title: Información general sobre el envío de datos por lotes a Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff

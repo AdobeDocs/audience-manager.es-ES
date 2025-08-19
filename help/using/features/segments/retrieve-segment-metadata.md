@@ -1,5 +1,5 @@
 ---
-description: Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
+description: Cuando Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos mismos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario (IU). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
 seo-description: When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces (UI). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.
 seo-title: Retrieving Segment Metadata
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Recuperación de metadatos del segmento {#retrieving-segment-metadata}
 
-Cuando el Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
+Cuando Audience Manager envía información de segmentos a un socio de datos, identifica estos objetos con ID numéricos. Como socio de datos, cuando comparte esta información con sus clientes (o trabaja con ellos), un nombre y una descripción reales proporcionan una mejor experiencia a los clientes en informes, paneles u otras interfaces de usuario ([!DNL UI]). Los socios de datos pueden poner estos nombres descriptivos a disposición de sus clientes mediante los métodos manuales o automatizados descritos en esta sección.
 
 ## Método manual {#manual-method}
 
@@ -26,7 +26,7 @@ Como socio de datos, probablemente esté acostumbrado a obtener metadatos de aud
 
 [!DNL Audience Manager] proporciona un conjunto de [API de REST](../../api/rest-api-main/rest-api-main.md) que le permiten recuperar metadatos de segmento automáticamente. Con [!DNL API], puede crear trabajos que recuperen metadatos de segmentos a intervalos programados o automáticamente, siempre que procese datos de [!DNL Audience Manager] y encuentre un nuevo ID de segmento. Consulte los pasos a continuación para obtener más información.
 
-### Paso 1: Revisión de las API de Audience Manager
+### Paso 1: Revisar las API de Audience Manager
 
 La sección [Introducción a las API de REST](../../api/rest-api-main/aam-api-getting-started.md) contiene información sobre requisitos generales, autenticación, métodos disponibles, etc. Este es un buen punto de partida si no ha trabajado anteriormente con [!DNL Audience Manager] [!DNL API].
 
@@ -56,7 +56,7 @@ Después de completar los pasos anteriores, puede usar un método `GET` para rec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>El identificador de segmento <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Identificador de segmento <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 

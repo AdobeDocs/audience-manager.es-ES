@@ -24,7 +24,7 @@ Las opciones de [!UICONTROL Profile Merge Rules] le permiten expandir o ajustar 
 
 ## Segmentación de dispositivos {#device-personalization}
 
-Este escenario se aplica a los especialistas en marketing que deseen evaluar un perfil de dispositivo único para un segmento de audiencia definido en Audience Manager DSP a fin de ofrecer una experiencia coherente en el dispositivo mediante plataformas de segmentación compatibles con ID de dispositivo (plataformas de personalización en el sitio, plataformas de segmentación basadas en el dispositivo y otras plataformas de segmentación basadas en el dispositivo), sin tener en cuenta la autenticación del usuario.
+Este escenario se aplica a los especialistas en marketing que deseen evaluar un perfil de dispositivo único para un segmento de audiencia definido en Audience Manager con el fin de ofrecer una experiencia coherente en el dispositivo mediante plataformas de segmentación compatibles con ID de dispositivo (DSP, plataformas de personalización en el sitio y otras plataformas de segmentación basadas en el dispositivo), sin tener en cuenta la autenticación del usuario.
 
 Para crear una regla que se dirija solamente a perfiles de dispositivo, seleccione **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -46,7 +46,7 @@ El equipo de marketing de la tienda puede usar la regla **[!UICONTROL Current Au
 
 ![actual-sin-dispositivo](assets/current-no-device.png)
 
-Al utilizar esta regla, Audience Manager ignora completamente el perfil del dispositivo, califica el ID de CRM de John para el segmento y no califica el ID de CRM de Jane.
+Al utilizar esta regla, Audience Manager ignora completamente el perfil del dispositivo, califica el ID de CRM de John para el segmento y no el ID de CRM de Jane.
 
 ![direccionamiento de dispositivos compartidos](assets/shared-device-targeting.png)
 
@@ -58,9 +58,9 @@ Este caso de uso abarca la administración de la identidad doméstica. Una compa
 
 Consideremos un segmento de hogares con ingresos superiores a $100.000/año, que contenga al menos un dispositivo de [!DNL iPhone 7] en [!DNL Data Plan B]. Tenemos dos perfiles domésticos (perfiles multidispositivo), cada uno conectado a dos perfiles de dispositivo diferentes. Los rasgos necesarios para calificar para el segmento se distribuyen entre los perfiles del dispositivo y entre dispositivos.
 
-El Audience Manager combina todos los pares de perfiles entre dispositivos + dispositivos para ver si el conjunto combinado de características cumple los requisitos para el segmento. Dado que el Audience Manager evalúa todos los perfiles incluidos en la combinación, se pueden segmentar tanto un perfil de dispositivo como un perfil doméstico.
+Audience Manager combina todos los pares de perfiles de dispositivos + entre dispositivos para ver si el conjunto combinado de características cumple los requisitos para el segmento. Dado que Audience Manager evalúa todos los perfiles incluidos en la combinación, se pueden segmentar tanto un perfil de dispositivo como un perfil doméstico.
 
-El vínculo entre el dispositivo y el perfil doméstico permite que el Audience Manager califique a [!DNL Household 2] para el segmento, pero no a [!DNL Household 1]. De [!DNL Household 2], solo [!DNL Device 3] cumple los requisitos para el segmento. Este(a) [!UICONTROL Profile Merge Rule] ha permitido al especialista en mercadotecnia enviar un mensaje de mercadotecnia coherente a un dispositivo individual ([!DNL Device 3]) y a toda la familia ([!DNL Household 2]).
+El vínculo entre el dispositivo y el perfil doméstico permite que Audience Manager clasifique a [!DNL Household 2] para el segmento, pero no a [!DNL Household 1]. De [!DNL Household 2], solo [!DNL Device 3] cumple los requisitos para el segmento. Este(a) [!UICONTROL Profile Merge Rule] ha permitido al especialista en mercadotecnia enviar un mensaje de mercadotecnia coherente a un dispositivo individual ([!DNL Device 3]) y a toda la familia ([!DNL Household 2]).
 
 ![administración del hogar](assets/household-management.png)
 
@@ -72,7 +72,7 @@ El vínculo entre el dispositivo y el perfil doméstico permite que el Audience 
 
 Este escenario de segmentación solo está disponible para los clientes que han adquirido el complemento [!DNL People-Based Destinations]. Esta regla permite a los especialistas en marketing llegar a los clientes en función de sus propios datos autenticados.
 
-Supongamos que un minorista en línea desea llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash desde su propio [!DNL CRM] en Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que desean anunciar, utilizando ese identificador con hash, para optimizar el gasto en publicidad.
+Supongamos que una retailer en línea desea llegar a los clientes existentes a través de plataformas sociales y mostrarles ofertas personalizadas basadas en sus pedidos anteriores. Con [!UICONTROL People-Based Destinations], pueden ingerir direcciones de correo electrónico con hash desde su propio [!DNL CRM] en Audience Manager, generar segmentos a partir de los datos sin conexión y enviar estos segmentos a las plataformas sociales en las que desean anunciar, utilizando ese identificador con hash, para optimizar el gasto en publicidad.
 
 Para obtener más información sobre esta opción, consulte [Destinos basados en personas](../destinations/people-based-destinations-overview.md).
 
@@ -101,7 +101,7 @@ Elegir una opción [!UICONTROL device graph] para una regla [!UICONTROL Profile 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de gráfico de dispositivos externos </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Combinación de perfiles</span> Las reglas creadas con cualquier gráfico de dispositivos externos integrado con el Audience Manager <span class="keyword"></span> son ideales para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Combinación de perfiles</span> Las reglas creadas con cualquier gráfico de dispositivos externos integrado con <span class="keyword"> Audience Manager</span> son ideales para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propiedades digitales que tienen un nivel bajo de autenticación del cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campañas de marca amplias y de alto alcance. </li> 
@@ -113,7 +113,7 @@ Elegir una opción [!UICONTROL device graph] para una regla [!UICONTROL Profile 
 
 Vea el siguiente vídeo para obtener una descripción general de los posibles casos de uso de [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/32171?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

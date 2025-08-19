@@ -1,5 +1,5 @@
 ---
-description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los distintos menús de opciones de informe.
+description: Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los distintos menús de opciones de informes.
 seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Información general y asignaciones para archivos de metadatos{#overview-and-mappings-for-metadata-files}
 
-Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los distintos menús de opciones de informe.
+Un archivo de metadatos vincula los ID numéricos con nombres que puede leer y comprender. Los informes de Audience Optimization muestran nombres legibles en los distintos menús de opciones de informes.
 
 ## Información general {#overview}
 
@@ -34,11 +34,11 @@ La llamada de evento organiza la información en conjuntos de pares clave-valor 
 
 El archivo de metadatos es necesario para asociar un ID numérico a un nombre legible. Por ejemplo, supongamos que una llamada de evento contiene un ID creativo en un par clave-valor como el siguiente: `d_creative:1234`. Sin un archivo de metadatos, este elemento creativo aparecería como 1234 en un menú de opciones.
 
-Sin embargo, un archivo de metadatos con el formato correcto puede vincular este elemento creativo con un nombre real como &quot;Anunciante creativo A&quot;, que es un nombre que se puede leer y reconocer en un informe.
+Sin embargo, un archivo de metadatos con el formato correcto puede vincular este elemento creativo con un nombre real como &quot;Anunciante Creative A&quot;, que es un nombre que se puede leer y reconocer en un informe.
 
 ### ¿Cuándo se necesita un archivo de metadatos?
 
-En primer lugar, se requiere un archivo de metadatos, y todos los parámetros que se enumeran a continuación, en una llamada de evento cuando desee utilizar los [informes de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+En primer lugar, se requiere un archivo de metadatos, y todos los parámetros que se enumeran a continuación, en una llamada de evento cuando desee usar los [informes de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Segundo, necesita un archivo de metadatos si está enviando sus propios datos a [!DNL Audience Manager] o si desea ver datos en los informes de otros proveedores con los que no estamos integrados. Por ejemplo, [!DNL Audience Manager] tiene una integración con el [Administrador de campañas](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) de Google que hace doble clic. Debido a esta relación, [!DNL Audience Manager] puede asociar identificadores con nombres y descripciones usados por las opciones del informe. Sin una integración, aún podemos introducir datos, pero las opciones del informe mostrarán ID numéricos en lugar de nombres descriptivos.
 
@@ -129,7 +129,7 @@ Consulte [Convenciones de nomenclatura para archivos de metadatos](../../../repo
 
 ### Contenido de archivo
 
-En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creativo de un informe de [!UICONTROL Audience Optimization].
+En este ejemplo, el contenido del archivo refleja los ID de creativo y de campaña pasados en la llamada de evento. El nuevo elemento es un nombre legible. Una vez procesado, el nombre de este archivo aparecerá como una opción en el menú Creative de un informe [!UICONTROL Audience Optimization].
 
 ![contenido de un archivo de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 

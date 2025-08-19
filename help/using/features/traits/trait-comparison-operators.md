@@ -3,7 +3,7 @@ description: Este artículo describe los operadores de comparación utilizados p
 seo-description: This article describes the comparison operators used by Trait Builder.
 seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
-title: Uso de operadores de comparación en el generador de rasgos
+title: Trabajar con operadores de comparación en el generador de rasgos
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
@@ -14,48 +14,48 @@ ht-degree: 6%
 
 ---
 
-# Uso de operadores de comparación en el generador de rasgos {#working-with-comparison-operators-in-trait-builder}
+# Trabajar con operadores de comparación en el generador de rasgos {#working-with-comparison-operators-in-trait-builder}
 
 Este artículo describe los operadores de comparación utilizados por [!UICONTROL Trait Builder].
 
-## Objetivo de los operadores de comparación
+## Finalidad de los operadores de comparación
 
 <!-- c_tb_comparison_operators.xml -->
 
-Los operadores de comparación (u operadores relacionales) se utilizan para comparar, probar o evaluar la relación entre diferentes valores. En [!UICONTROL Trait Builder], al crear reglas de señales, los operadores de comparación permiten probar la relación entre diferentes pares clave-valor. Por ejemplo, puede crear una regla de señal para definir una audiencia para compradores de cámaras caros. En este caso, podría crear un par clave-valor cámara/precio y calificar a un usuario si ha buscado una cámara con un precio igual o mayor que una cantidad fija.
+Los operadores de comparación (u operadores relacionales) se utilizan para comparar, prueba o evaluar la relación entre diferentes valores. En [!UICONTROL Trait Builder], al crear reglas de señal, los operadores de comparación permiten prueba la relación entre diferentes pares clave-valor. Por ejemplo, puede crear un regla de señal para definir un audiencia para los compradores caros de cámaras. En este caso, puede crear un par clave-valor cámara / precio y calificar a un usuario si han buscado una cámara con un precio igual o superior a una cantidad establecida.
 
-## Ventajas de los operadores de comparación
+## Ventajas de los Operadores de Comparación
 
-Los operadores de comparación son útiles cuando necesita evaluar y crear rasgos basados en varios valores. El examen de los precios de los bienes y servicios puede ilustrar esta condición. Por ejemplo: es posible que su empresa desee identificar a los visitantes en función de los precios de los productos que ven. Sin embargo, puede resultar ineficiente desde el punto de vista administrativo definir segmentos individuales basados en valores específicos. Los operadores de comparación ayudan a superar este obstáculo estableciendo déclencheur de segmentación basados en umbrales o intervalos de precios.
+Los operadores de comparación son útiles cuando necesita evaluar y crear características basadas en varios valores. Mirar los precios de los bienes y servicios puede ilustrar esta condición. Por ejemplo, es posible que su empresa quiera identificar a los visitantes en función de los precios de los productos que vista. Sin embargo, desde el punto de vista administrativo puede ser ineficaz definir segmentos individuales basados en valores específicos. Los operadores de comparación ayudan a superar este obstáculo estableciendo segmentación desencadenantes basados en umbrales o rangos de precios.
 
 ## Operadores de comparación
 
-Puede crear reglas con los siguientes operadores de comparación:
+Puede versión reglas con los siguientes operadores de comparación:
 
 | Operador | Definición |
 |---|---|
 | **==** | Igual a |
-| **!=** | No igual a |
+| **!=** | No es igual a |
 | **>** | Mayor que |
-| **&lt;** | Menor que |
-| **=>** | Mayor/igual que |
-| **&lt;=** | Menor/igual que |
+| **** | Menor que |
+| **=>** | Mayor que/igual que |
+| **&lt;=** | Menor que/igual que |
 
 ## Operadores con nombre
 
-Puede crear reglas con los siguientes operadores asignados:
+Puede versión reglas con los siguientes operadores con nombre:
 
-| Operador | Se evalúa como [!DNL True] cuando |
+| Operador | Se evalúa hasta [!DNL True] cuándo |
 |---|---|
-| **[!UICONTROL Contains]** | El valor de un par clave-valor *contiene* caracteres especificados por este operador. |
-| **[!UICONTROL Matcheswords]** | El valor de un par clave-valor *coincide* con el patrón especificado por este operador. |
-| **[!UICONTROL Startswith]** | El valor de un par clave-valor *comienza con* caracteres especificados por este operador. |
-| **[!UICONTROL Endswith]** | El valor de un par clave-valor *termina con* los caracteres especificados por este operador. |
-| **[!UICONTROL Matchesregex]** | El valor de un par clave-valor *coincide* con el patrón especificado por una expresión regular. [Más información](../../features/traits/trait-builder-regex.md) acerca del uso de expresiones regulares en [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | El valor de un par *clave-valor contiene* caracteres especificados por este operador. |
+| **[!UICONTROL Matcheswords]** | El valor de un par *clave-valor coincide con* el patrón especificado por este operador. |
+| **[!UICONTROL Startswith]** | El valor en un par *clave-valor comienza con* caracteres especificados por este operador. |
+| **[!UICONTROL Endswith]** | El valor de un par *clave-valor termina con* los caracteres especificados por este operador. |
+| **[!UICONTROL Matchesregex]** | El valor de un par *clave-valor coincide con* el patrón especificado por un expresión regular. [](../../features/traits/trait-builder-regex.md) Más información sobre el uso de expresiones regulares en [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Expresiones booleanas en el Generador de rasgos y segmentos](../../reference/boolean-expressions-tsb.md)
->* [Explicación de las expresiones booleanas en TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [Orden de operaciones en expresiones de TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [Descripción de las expresiones booleanas en TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Orden de operaciones en expresiones TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Expresiones de muestra con operadores booleanos y de comparación](../../features/traits/trait-expression-samples.md)

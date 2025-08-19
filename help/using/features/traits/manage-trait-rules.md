@@ -39,7 +39,7 @@ En [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] le permite crear 
    >
    >Esta opción solo está disponible para [!UICONTROL Data Explorer] clientes. Póngase en contacto con su consultor de Adobe para obtener más información.
 
-1. Los campos de prueba permiten validar combinaciones de reglas de señal para los [!DNL URL] que desea utilizar al enviar datos al Audience Manager.
+1. Los campos de prueba permiten validar combinaciones de reglas de señal para los [!DNL URL] que desea utilizar al enviar datos a Audience Manager.
 
 ## Crear una regla de rasgos {#create-trait-rule}
 

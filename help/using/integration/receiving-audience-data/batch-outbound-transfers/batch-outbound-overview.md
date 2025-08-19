@@ -1,5 +1,5 @@
 ---
-description: El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
+description: Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 seo-description: Adobe Audience Manager (AAM) sends batch data to third-party content providers according to these specifications.
 seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
 title: Transferencias de datos salientes por lotes
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Transferencias de datos salientes por lotes
 
-El Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
+Audience Manager envía datos por lotes a proveedores de contenido de terceros según estas especificaciones.
 
 * [Nombre del archivo de datos de salida: sintaxis y ejemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
@@ -26,7 +26,7 @@ El Audience Manager envía datos por lotes a proveedores de contenido de tercero
 
 * [Archivos de transferencia y control para transferencias de archivos de registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-  Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos.
+  Los archivos de control de transferencia (.info) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager ha gestionado correctamente las transferencias de archivos.
 
 * [Macros de plantillas de salida](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 

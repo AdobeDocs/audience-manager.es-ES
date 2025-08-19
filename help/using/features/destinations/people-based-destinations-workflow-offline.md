@@ -22,17 +22,17 @@ Esta página incluye instrucciones paso a paso sobre cómo crear segmentos de au
 
 ## Paso 1: Incorporación de características sin conexión {#step-1-onboard-traits}
 
-El primer paso para crear segmentos de audiencia en este escenario es llevar los datos de clientes sin conexión al Audience Manager.
+El primer paso para crear segmentos de audiencia en este escenario es llevar los datos de clientes sin conexión a Audience Manager.
 
 >[!IMPORTANT]
 >
-> Antes de continuar, asegúrese de que la actividad de cliente que está a punto de incorporar ya está definida en Audience Manager con los [rasgos integrados correspondientes](../traits/trait-and-segment-qualification-reference.md).
+> Antes de continuar, asegúrese de que la actividad de cliente que está a punto de incorporar ya está definida en Audience Manager con las [características integradas](../traits/trait-and-segment-qualification-reference.md) correspondientes.
 
 Independientemente de si los ID de cliente de Audience Manager existentes ([DPUUID](../../reference/ids-in-aam.md)) son correos electrónicos con hash o no, debe incorporar los rasgos en la fuente de datos que contiene los [DPUUID](../../reference/ids-in-aam.md).
 
 ### Ejemplo
 
-Desea clasificar los ID de cliente de la siguiente tabla para los ID de rasgos integrados correspondientes. Consideremos que sus [DPUUID](../../reference/ids-in-aam.md) están almacenados en una fuente de datos con el ID 999999 y el ID de la fuente de datos del Audience Manager es 123.
+Desea clasificar los ID de cliente de la siguiente tabla para los ID de rasgos integrados correspondientes. Consideremos que sus [DPUUID](../../reference/ids-in-aam.md) están almacenados en una fuente de datos con el ID 999999 y que su ID de fuente de datos de Audience Manager es 123.
 
 | ID del cliente (DPUUID) | ID de rasgo incorporado |
 | -------------------------------------- | ------------------- |
@@ -81,17 +81,17 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que almace
 1. Utilice el menú desplegable para seleccionar la etiqueta **[!UICONTROL Emails(SHA256, lowercased)]** para este origen de datos.
    >[!IMPORTANT]
    >
-   >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. El Audience Manager no hace un hash de los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en este origen de datos ya tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá usarlo para [!DNL People-Based Destinations].
+   >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. Audience Manager no almacena en hash los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en este origen de datos ya tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá usarlo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
    >[!NOTE]
    >
-   > Consulte [Incorporación de datos](people-based-destinations-prerequisites.md#data-onboarding) para ver las preguntas más frecuentes sobre cómo llevar los datos sin conexión a Audience Manager para destinos basados en personas.
+   > Consulte [Incorporación de datos](people-based-destinations-prerequisites.md#data-onboarding) para ver las preguntas más frecuentes sobre cómo debe llevar los datos sin conexión a Audience Manager para destinos basados en personas.
 
 Vea el siguiente vídeo para ver un tutorial sobre cómo crear un origen de datos para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32174?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Paso 3: Hacer coincidir DPUUID con direcciones de correo electrónico con hash mediante la sincronización de ID basada en archivos {#match-ids-emails}
 
@@ -137,7 +137,7 @@ En el ejemplo anterior, el nombre de archivo tendría este aspecto:
 
 [Descargue el archivo de ejemplo aquí](assets/c2c_id_999999_987654_1560431657.sync).
 
-Una vez que haya creado el archivo de sincronización de ID, debe cargarlo en un bloque de [!DNL Amazon S3]. Para obtener información sobre cómo cargar archivos de sincronización de ID, consulte [Enviar datos por lotes al Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+Una vez que haya creado el archivo de sincronización de ID, debe cargarlo en un bloque de [!DNL Amazon S3]. Para obtener información sobre cómo cargar archivos de sincronización de ID, consulte [Enviar datos por lotes a Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Paso 4: Creación de una regla de combinación de perfiles para la segmentación {#create-profile-merge-rule}
 
@@ -177,7 +177,6 @@ Para crear nuevos segmentos a partir de datos solo sin conexión, use [Generador
    * **[!UICONTROL Type]**: basado en personas;
    * **[!UICONTROL Platform]**: seleccione la plataforma basada en personas a la que desee enviar segmentos de audiencia;
    * **[!UICONTROL Account]**: seleccione la cuenta de anunciante deseada asociada con la plataforma seleccionada.
-
      ![crear destino](assets/pbd-create-destination.png)
 1. Haga clic en **[!UICONTROL Next]**.
 1. Elija el(la) **[!UICONTROL Data Export Labels]** que desea(n) establecer para este destino.

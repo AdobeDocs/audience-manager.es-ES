@@ -261,7 +261,7 @@ Como comprador de datos, eres responsable de eliminar los rasgos de una fuente c
 
 [Cancele la suscripción a la fuente de datos desactivada](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) después de eliminar todos los rasgos revocados de su cuenta. Si se trata de una desactivación temporal, puede volver a suscribirse una vez que el proveedor de datos termine de realizar los cambios necesarios y reactive la fuente. Al igual que con la mayoría de las cosas, una buena comunicación con sus socios (el proveedor de datos y [!DNL Adobe]) puede ayudarle a llevar a cabo este proceso.
 
-## Explicación de la página Detalles del Plan en Audience Marketplace {#marketplace-buyer-details}
+## Explicación de la página de detalles del plan en Audience Marketplace {#marketplace-buyer-details}
 
 Al hacer clic en el nombre de un plan de datos en [!UICONTROL Marketplace], [!DNL Audience Manager] proporciona información que puede ayudarle a tomar decisiones informadas sobre la suscripción a una fuente de datos.
 
@@ -283,7 +283,7 @@ Esta página le proporciona la siguiente información:
    * Haga clic en **[!UICONTROL Request More Details]** para hacer preguntas al proveedor de datos acerca de la fuente de datos seleccionada o para solicitar un descuento. Esta función envía sus comentarios y preguntas directamente al proveedor de datos.
 
 1. Métricas del informe de fuentes de datos. El diagrama de Venn (y las métricas relacionadas) muestran los datos de superposición de características de los últimos 30 días. Consulte [La tienda: Acerca de](marketplace-data-buyers.md#about-marketplace) para obtener más información.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: número de usuarios únicos en su cuenta que se superponen con los usuarios de la cuenta del proveedor. AAM Para ver una definición de usuarios únicos, consulte UUID de la comunidad de usuarios en el [Índice de ID en el Audience Manager](/help/using/reference/ids-in-aam.md).
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: número de usuarios únicos en su cuenta que se superponen con los usuarios de la cuenta del proveedor. Para ver una definición de usuarios únicos, consulte UUID de AAM en el [Índice de ID en Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: número de usuarios únicos procedentes de la cuenta del proveedor.
    * **[!UICONTROL Your Unique Users]**: el número de usuarios únicos que provienen de su cuenta.
 
@@ -314,7 +314,7 @@ Este caso de uso le permite evaluar las características del proveedor en relaci
 
 ### Activación
 
-Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], exchange, etc.) con el que se desea compartir datos. Sin embargo, con un caso de uso de [!UICONTROL Activation], no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
+Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], exchange, etc.) con el que desee compartir datos. Sin embargo, con un caso de uso de [!UICONTROL Activation], no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
 
 >[!MORELIKETHIS]
 >

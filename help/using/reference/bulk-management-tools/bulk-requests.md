@@ -20,7 +20,7 @@ Una solicitud masiva devuelve datos que puede utilizar con los diferentes encabe
 
 >[!IMPORTANT]
 >
->Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente compatible. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 

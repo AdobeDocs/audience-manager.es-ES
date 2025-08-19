@@ -28,11 +28,11 @@ Cómo afecta el intervalo [!UICONTROL time-to-live] ([!DNL TTL]) del rasgo a la 
 
 Al establecer [!DNL TTL] en 1 día, el temporizador TTL se inicia al día siguiente después de la realización de la característica, sin contar las horas que quedan en el día de la realización de la característica.
 
-El Audience Manager calcula la caducidad de [!DNL TTL] para los rasgos con 1 día [!DNL TTL] según la siguiente fórmula:
+Audience Manager calcula la caducidad de [!DNL TTL] para los rasgos con 1 día [!DNL TTL] según la siguiente fórmula:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Ejemplo 1**: Un rasgo realizado a la 1:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 1 = 47 horas después.
+* **Ejemplo 1**: Un rasgo realizado a las 1:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 1 = 47 horas después.
 * **Ejemplo 2**: Un rasgo realizado a las 23:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 23 = 25 horas después.
 
 ## [!DNL TTL] y abandonando un segmento

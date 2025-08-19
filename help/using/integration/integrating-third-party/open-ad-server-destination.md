@@ -1,5 +1,5 @@
 ---
-description: Configure Abrir servidor de publicidad como destino y envíe datos del Audience Manager a esa plataforma.
+description: Configure Abrir servidor de publicidad como destino y envíe datos de Audience Manager a esa plataforma.
 seo-description: Set up Open Ad Server as a destination and send Audience Manager data to that platform.
 seo-title: OAS as an Audience Manager Destination
 solution: Audience Manager
@@ -10,13 +10,13 @@ exl-id: cf919c27-691f-424b-be83-040f03e34455
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # OAS como destino de Audience Manager {#oas-as-an-audience-manager-destination}
 
-Configure [!DNL Open Ad Server] como destino y envíe datos del Audience Manager a esa plataforma.
+Configure [!DNL Open Ad Server] como destino y envíe datos de Audience Manager a esa plataforma.
 
 ## Requisitos de destino de OAS {#oas-requirements}
 
@@ -27,12 +27,12 @@ Estándares para la colocación de código, formatos de clave-valor admitidos, i
 Este tipo de destino requiere lo siguiente:
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] código debe implementarse en el inventario. [!UICONTROL DIL] ayuda a eliminar la necesidad de escribir código especial para la recopilación, integración, lectura de valores de cookies y recuperación de datos de páginas.
-* Función **`get_aamCookie`:** código que captura el identificador de usuario Audience Manager y los datos de cookies. Coloque [este código](../../features/destinations/get-aam-cookie-code.md) en la parte superior de la página o dentro del bloque de código `<head>`.
-* **Enviar registros de envío al Audience Manager:** Si desea un informe de envío de segmento (opcional), proporcione al Audience Manager un registro diario que contenga los datos de envío en el nivel de impresión. Los datos pueden estar en formato sin procesar, pero cada registro debe contener el Audience Manager [!UICONTROL UUID]. El Audience Manager puede recogerlos o recibirlos a través de [!DNL FTP].
+* Función **`get_aamCookie`:** código que captura el ID de usuario de Audience Manager y los datos de cookies. Coloque [este código](../../features/destinations/get-aam-cookie-code.md) en la parte superior de la página o dentro del bloque de código `<head>`.
+* **Enviar registros de envío a Audience Manager:** Si desea un informe de envío de segmento (opcional), proporcione a Audience Manager un registro diario que contenga los datos de envío en el nivel de impresión. Los datos pueden estar en formato sin procesar, pero cada registro debe contener el Audience Manager [!UICONTROL UUID]. Audience Manager puede recogerlos o recibirlos a través de [!DNL FTP].
 
 ### Formato de cookies y datos de clave-valor
 
-El Audience Manager puede enviar datos de segmentos a una cookie del explorador de la siguiente manera:
+Audience Manager puede enviar datos de segmentos a una cookie del explorador de la siguiente manera:
 
 * Claves únicas (`x=1&x=2`);
 * Claves múltiples (`x=1&x=2&y=3&y=4`);
@@ -50,11 +50,11 @@ La cantidad de datos pasados a [!DNL OAS] depende de para cuántos segmentos cal
 
 ## Crear un destino de OAS {#oas-dest-setup}
 
-Cree un destino basado en cookies para [!DNL OAS] en el Audience Manager.
+Cree un destino basado en cookies para [!DNL OAS] en Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-En el Audience Manager, *destination* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que se desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. Las características de destino de Audience Manager se encuentran en *Datos de audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
+En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que desee compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. Las características de destino de Audience Manager se encuentran en *Datos de audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ### Paso 1: Información básica
 
@@ -86,7 +86,7 @@ Para añadir un segmento a un destino de cookie:
 
 ## Configuración de OAS {#oas-code-setup}
 
-Modifique la configuración de [!DNL OAS] para que funcione con los datos de segmentos del Audience Manager.
+Modifique la configuración de [!DNL OAS] para que funcione con los datos de segmentos de Audience Manager.
 
 <!-- aam-oas-code.xml -->
 

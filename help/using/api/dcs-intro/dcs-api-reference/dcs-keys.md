@@ -37,7 +37,7 @@ El [!DNL DCS] se basa en prefijos específicos agregados a las claves en pares c
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> atributos del Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> atributos Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -80,7 +80,7 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. Este parámetro lo establece dinámicamente el servicio de identidad de Adobe Experience Platform de Adobe y depende de la configuración de <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=es" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
+   <td colname="col2"> <p>Deshabilite el uso de cookies de terceros para cumplir con las regulaciones de protección infantil. Este parámetro lo establece dinámicamente el servicio de identidad de Adobe Adobe Experience Platform y depende de la configuración de <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Compatibilidad con COPPA en el servicio de identidad de Adobe Experience Platform</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> devuelve los ID de segmento de los segmentos. </p> </li>
      </ul> </p> <p>Una respuesta de ejemplo podría parecerse a la de abajo: </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> es un atributo reservado, utilizado en la integración entre Adobe Analytics y Audience Manager. </p> <p>Se recomienda no crear rasgos que utilicen atributos reservados. El Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> es un atributo reservado, utilizado en la integración entre Adobe Analytics y Audience Manager. </p> <p>Se recomienda no crear rasgos que utilicen atributos reservados. Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
@@ -122,15 +122,15 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica el identificador de Experience Cloud establecido y utilizado por el servicio de identificador <span class="keyword"> Experience Cloud</span>. Para obtener más información sobre el ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> cookies y el servicio de identidad del Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica el identificador de Experience Cloud establecido y utilizado por el servicio de identificador de Experience Cloud<span class="keyword"> </span>. Para obtener más información sobre el ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookies y el servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
-   <td colname="col2"> <p>Identificador de espacio de nombre. Indica qué contenedor de JavaScript se utiliza. Utilizado por el DIL <span class="wintitle"> </span> para la sincronización de ID. </p> </td> 
+   <td colname="col2"> <p>Identificador de espacio de nombre. Indica qué contenedor de JavaScript se utiliza. Utilizado por <span class="wintitle"> DIL</span> para la sincronización de ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Permite al Audience Manager distinguir las solicitudes móviles de las solicitudes de escritorio. Los valores admitidos son: </p> <p> 
+   <td colname="col2"> <p>Permite a Audience Manager distinguir las solicitudes móviles de las solicitudes de escritorio. Los valores admitidos son: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -140,22 +140,22 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleta. <code> d_rs</code> es un atributo reservado, usado en la integración heredada entre <span class="keyword"> Adobe Analytics</span> y <span class="keyword"> Audience Manager</span>. </p> <p>Se recomienda no crear rasgos que utilicen atributos reservados. El Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
+   <td colname="col2"> <p>Obsoleta. <code> d_rs</code> es un atributo reservado que se usa en la integración heredada entre <span class="keyword"> Adobe Analytics</span> y <span class="keyword"> Audience Manager</span>. </p> <p>Se recomienda no crear rasgos que utilicen atributos reservados. Adobe puede cambiar los atributos reservados en cualquier momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
    <td colname="col2"> <p>Requerido si desea una respuesta de <code> JSON</code> del DCS <span class="wintitle"></span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si omite esto, el DCS</span> de <span class="wintitle"> devolverá un píxel en el encabezado. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si omite esto, el DCS<span class="wintitle"> de </span> devolverá un píxel en el encabezado. </li> 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si incluye esto, el DCS <span class="wintitle"> </span> devuelve un objeto <code> JSON</code> en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -195,7 +195,7 @@ Estos encabezados contienen información como solicitudes de datos y respuestas 
 
 | Atributo | Descripción |
 | --- | --- | 
-| `h_host` | Se establece en el nombre de host de recopilación de datos específico del cliente. Aparece como `host name .demdex.net`. Consulte [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es). |
+| `h_host` | Se establece en el nombre de host de recopilación de datos específico del cliente. Aparece como `host name .demdex.net`. Consulte [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
 | `h_user-agent` | Establezca en el valor del encabezado `User-Agent`. |
 | `h_accept-language` | Establezca en el valor del encabezado `Accept-Language`. |
 | `h_referer` | Establezca en el valor del encabezado `Referer`. |

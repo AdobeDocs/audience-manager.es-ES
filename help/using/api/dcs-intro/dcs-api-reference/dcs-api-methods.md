@@ -1,5 +1,5 @@
 ---
-description: Envíe datos a la API de DCS mediante métodos de GET o POST.
+description: Envíe datos a la API de DCS mediante los métodos GET o POST.
 seo-description: Send data to the DCS API using GET or POST methods.
 seo-title: DCS API Methods
 solution: Audience Manager

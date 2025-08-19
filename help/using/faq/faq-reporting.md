@@ -45,7 +45,7 @@ Para reducir la demanda computacional, estos informes omiten los datos estadíst
 
 **Si llevo a cabo una campaña de marketing por correo electrónico, ¿cómo puedo establecer si los usuarios redirigidos llegan a mi sitio desde esa campaña o desde otras fuentes?**
 
-Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si la dirección URL pasa un identificador de campaña como este, `www.test123.com/electronics?campaign=123`, cree una regla de rasgos para capturar esos datos de la variable `h_referer` con una regla de rasgos que busque un encabezado como `h_referer = 'campaign=123'`.
+Anexe una cadena de consulta específica de la campaña a la dirección URL de la sección del sitio que quiere controlar. Seguidamente, configure una norma de rasgos para capturar esta variable. Por ejemplo, si el URL transmite un ID de campaña gustar este, `www.test123.com/electronics?campaign=123`cree un regla de características para capturar esos datos desde la `h_referer` variable con un regla de características que busque un encabezado gustar `h_referer = 'campaign=123'`.
 
 <br> 
 

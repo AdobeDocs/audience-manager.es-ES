@@ -1,5 +1,5 @@
 ---
-description: Métodos de API de REST para administrar grupos, incluida la creación, actualización, inclusión en listas y eliminación de grupos.
+description: Métodos de API de REST para administrar grupos, incluida la creación, actualización, listado y eliminación de grupos.
 seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
 seo-title: Group Management API Methods
 solution: Audience Manager
@@ -16,21 +16,21 @@ ht-degree: 5%
 
 # Métodos de API de administración de grupos {#group-management-api-methods}
 
-Rest [!DNL API] métodos para administrar grupos, incluyendo la creación, actualización, listado y eliminación de grupos.
+Métodos de descanso [!DNL API] para administrar grupos, incluida la creación, actualización, listado y eliminación de grupos.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Creación de grupos {#create-group}
 
-Un método `POST` para crear un nuevo grupo de usuarios.
+Un `POST` método para crear un nuevo grupo de usuarios.
 
 <!-- r_rest_api_group_create.xml -->
 
-### Solicitud
+### Pedir
 
 `POST /api/v1/groups/`
 
-### Cuerpo de solicitud de muestra
+### Cuerpo de la solicitud de muestra
 
 ```
  {
@@ -55,17 +55,17 @@ Un método `POST` para crear un nuevo grupo de usuarios.
 
 ## Actualizar un grupo {#update-group}
 
-Un método `PUT` para actualizar un grupo de usuarios.
+Un `PUT` método para actualizar un grupo de usuarios.
 
 <!--
 r_rest_api_group_update.xml
 -->
 
-### Solicitud
+### Pedir
 
 `PUT /api/v1/groups/`*`<groupId>`*
 
-### Cuerpo de solicitud de muestra
+### Cuerpo de la solicitud de muestra
 
 ```
  {
@@ -88,15 +88,15 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Grupos de lista {#list-groups}
+## Lista de grupos {#list-groups}
 
-Un método `GET` para enumerar grupos de usuarios.
+Método `GET` para lista usuario grupos.
 
 <!--
 r_rest_api_group_list.xml
 -->
 
-### Solicitud
+### Pedir
 
 `GET /api/v1/groups/`
 
@@ -118,35 +118,35 @@ r_rest_api_group_list.xml
 
 ## Eliminar un grupo {#delete-groups}
 
-Un método `DELETE` para eliminar un grupo de usuarios y quitar todos los miembros de ese grupo.
+Un `DELETE` método para eliminar un grupo de usuarios y eliminar todos los miembros de ese grupo.
 
 <!-- r_rest_api_group_delete.xml -->
 
-### Solicitud
+### Pedir
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Devuelve `204 No Content` si se realizó correctamente. En caso de conflicto, devuelve `409 Conflict`.
+Regresa `204 No Content` si se realiza correctamente. En caso de conflicto regresa.`409 Conflict`
 
-## Eliminar grupos por lotes {#delete-groups-bulk}
+## Eliminar grupos en masa {#delete-groups-bulk}
 
-Un método `DELETE` para eliminar varios grupos de forma masiva y quitar todos los miembros de ese grupo.
+Un `DELETE` método para eliminar varios grupos en masa y quitar todos los miembros de ese grupo.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
-### Solicitud
+### Pedir
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Devuelve `204 No Content` si se realizó correctamente. En caso de conflicto, devuelve `409 Conflict`.
+Regresa `204 No Content` si se realiza correctamente. En caso de conflicto regresa.`409 Conflict`
 
 ## Mostrar todos los permisos de un grupo {#list-permissions-group}
 
-Un método `GET` para enumerar los objetos de permiso de un grupo.
+Método `GET` para lista los objetos permiso de un grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
-### Solicitud
+### Pedir
 
 `GET /api/v1/groups/{groupId}/permissions`
 
@@ -172,15 +172,15 @@ Un método `GET` para enumerar los objetos de permiso de un grupo.
 ]
 ```
 
-Devuelve `400 Bad Request` si no se puede obtener acceso al grupo.
+Devuelve `400 Bad Request` el valor si no se puede acceder al grupo.
 
-## Definición de permisos para un grupo {#set-permissions-group}
+## Definir permisos para un grupo {#set-permissions-group}
 
-Un método `PUT` para actualizar permisos de grupo. Este método sobrescribe los permisos antiguos con los nuevos permisos.
+Un `PUT` método para actualizar permisos grupo. Este método sobrescribe los permisos antiguos con los permisos nuevos.
 
 <!-- r_rest_api_perm_set.xml -->
 
-### Solicitud
+### Pedir
 
 `PUT /api/v1/groups/{groupId}/permissions/`
 
@@ -207,6 +207,6 @@ Un método `PUT` para actualizar permisos de grupo. Este método sobrescribe los
 ]
 ```
 
-La respuesta de ejemplo representa la lista actualizada de objetos de permiso.
+La respuesta de ejemplo representa el lista actualizado de permiso objetos.
 
-Devuelve `200 OK` si se realizó correctamente. Devuelve `400` si algún permiso dado no es válido. También puede devolver `403` si el usuario que ha iniciado sesión no puede obtener acceso al objeto.
+Regresa `200 OK` si se realiza correctamente. Devuelve el valor `400` si alguno de los permiso es no válido. También se puede devolver `403` si el usuario que ha iniciado sesión no puede acceder al objeto.

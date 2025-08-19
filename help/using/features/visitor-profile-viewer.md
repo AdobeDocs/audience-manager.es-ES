@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Visor de perfiles de visitante {#visitor-profile-viewer}
 
-Use [!UICONTROL Visitor Profile Viewer] para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidos sus rasgos y segmentos. Para cada rasgo, puede ver su [!UICONTROL SID], nombre, detalles sobre cómo se realizaron los rasgos de visitante (de origen o de terceros), la fecha de realización y la frecuencia de las realizaciones. Para cada segmento, puede ver su [!UICONTROL SID], nombre y la fecha de inscripción al segmento. También puede ver el perfil del visitante para otro identificador de perfil de Audience Manager ([!UICONTROL UUID]). [!UICONTROL Visitor Profile Viewer] es útil para solucionar problemas.
+Use [!UICONTROL Visitor Profile Viewer] para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidos sus rasgos y segmentos. Para cada rasgo, puede ver su [!UICONTROL SID], nombre, detalles sobre cómo se realizaron los rasgos de visitante (de origen o de terceros), la fecha de realización y la frecuencia de las realizaciones. Para cada segmento, puede ver su [!UICONTROL SID], nombre y la fecha de inscripción al segmento. También puede ver el perfil del visitante para otro ID de perfil de Audience Manager ([!UICONTROL UUID]). [!UICONTROL Visitor Profile Viewer] es útil para solucionar problemas.
 
 >[!NOTE]
 >

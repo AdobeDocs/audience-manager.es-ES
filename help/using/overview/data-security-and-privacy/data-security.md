@@ -61,7 +61,7 @@ Procesos que ayudan a mantener la seguridad de la información personal. Para ob
 
 Procesos que ayudan a proteger los datos propiedad de clientes individuales.
 
-**Partición de datos de rasgos:** Sus datos ([!UICONTROL traits], ID., etc.) por cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
+**Partición de datos de rasgos:** Sus datos ([!UICONTROL traits], ID., etc.) están particionados por el cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
 
 **Partición de datos en informes:** Los ID de cliente forman parte de la clave de identificación en todas las tablas de los informes y las consultas de informes se filtran por su ID. Esto ayuda a evitar que los datos aparezcan en los informes de otro cliente de Audience Manager.
 

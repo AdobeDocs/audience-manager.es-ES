@@ -1,5 +1,5 @@
 ---
-description: Un método para enviar datos de medios al Audience Manager es usar macros de servidor de publicidad para enviar atributos de campaña al Audience Manager.
+description: Un método para enviar datos de medios a Audience Manager consiste en utilizar macros de servidor de anuncios para enviar atributos de campaña a Audience Manager.
 seo-description: One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
 seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
@@ -10,13 +10,13 @@ exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
 # Captura de datos de impresión de campaña mediante llamadas de píxel{#capturing-campaign-impression-data-via-pixel-calls}
 
-Un método para enviar datos de medios al Audience Manager es usar macros de servidor de publicidad para enviar atributos de campaña al Audience Manager.
+Un método para enviar datos de medios a Audience Manager consiste en utilizar macros de servidor de anuncios para enviar atributos de campaña a Audience Manager.
 
 Esta metodología se conoce a menudo como &quot;pixelar al creativo&quot;. Estos puntos de datos se insertan dinámicamente en el código de píxeles [!DNL Audience Manager] mediante las macros de servidor de publicidad de terceros, que se utilizan para asignar y notificar todas las impresiones y clics según los atributos clave de sistema de informes de la campaña. Los datos agregados proporcionan una vista unificada del rendimiento de la campaña, ayudan a identificar rutas de conversión personalizadas y ayudan a los clientes a mejorar la secuencia de eventos del servidor de publicidad que generan conversiones.
 
@@ -24,7 +24,7 @@ Esta metodología se conoce a menudo como &quot;pixelar al creativo&quot;. Estos
 
 >[!NOTE]
 >
->Estilos de texto (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) indicar elementos y opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../reference/code-style-elements.md) para obtener más información.
+>Los estilos de texto (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) indican elementos y opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../reference/code-style-elements.md) para obtener más información.
 
 La llamada de evento recopila datos de impresión y conversión y los envía a los [!DNL Audience Manager] [servidores de recopilación de datos](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Este proceso se basa en servidores de publicidad de terceros que permiten al creativo decidir qué contenido se inserta en el código. Los servidores de publicidad de terceros (por ejemplo, [!DNL DFA]) pueden colocar este código dentro de cada impresión de publicidad. Además, una llamada de publicidad no utiliza [!DNL JavaScript] ni emplea técnicas de eliminación de fotogramas para acceder a los datos del editor fuera de la etiqueta de publicidad.
 
@@ -38,7 +38,7 @@ En el par clave-valor, la variable de valor es una ID o macro insertada por el s
 
 ## Pares de clave-valor admitidos {#supported-key-value-pairs}
 
-Las llamadas de evento de impresión aceptan datos formados en pares clave-valor. En la tabla siguiente se enumeran y describen las claves utilizadas para contener estas variables. Muchas de ellas son necesarias si desea capturar y analizar datos en los [informes de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Las llamadas de evento de impresión aceptan datos formados en pares clave-valor. En la tabla siguiente se enumeran y describen las claves utilizadas para contener estas variables. Muchos de ellos son necesarios si desea capturar y analizar datos en [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -54,19 +54,19 @@ Las llamadas de evento de impresión aceptan datos formados en pares clave-valor
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>ID de fuente de datos o código de integración para el anunciante. </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> <p>Opcional.</p> </td> 
+   <td colname="col2"> <p>ID de fuente de datos o código de integración para el anunciante. </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> <p>Opcional.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
-   <td colname="col2"> <p>ID de fuente de datos o código de integración para su unidad comercial. </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de fuente de datos o código de integración para su unidad comercial. </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Valor de eliminación de caché. El Audience Manager <span class="keyword"> </span> envía automáticamente encabezados de control de caché que respetan la mayoría de los exploradores y proxies. Si desea realizar una eliminación de caché adicional, incluya este parámetro en una llamada de evento, seguido de una cadena aleatoria. </p> <p> Opcional. </p> </td> 
+   <td colname="col2"> <p>Valor de eliminación de caché. <span class="keyword"> Audience Manager </span> envía automáticamente encabezados de control de caché que respetan la mayoría de los exploradores y proxies. Si desea realizar una eliminación de caché adicional, incluya este parámetro en una llamada de evento, seguido de una cadena aleatoria. </p> <p> Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
-   <td colname="col2"> <p>ID de campaña numérico del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de campaña numérico del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
@@ -78,7 +78,7 @@ Las llamadas de evento de impresión aceptan datos formados en pares clave-valor
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_creative </code> </td> 
-   <td colname="col2"> <p>ID de creatividad numérica del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de creatividad numérica del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_event=imp </code> </td> 
@@ -90,11 +90,11 @@ Las llamadas de evento de impresión aceptan datos formados en pares clave-valor
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
-   <td colname="col2"> <p>ID de sitio numérico del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de sitio numérico del servidor de publicidad. </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_src </code> </td> 
-   <td colname="col2"> <p>ID de fuente de datos o código de integración de la plataforma que proporciona los metadatos (por ejemplo, DFA, Atlas, GBM, Media Math, etc.). </p> <p>Necesario para <span class="wintitle"> informes del Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de fuente de datos o código de integración de la plataforma que proporciona los metadatos (por ejemplo, DFA, Atlas, GBM, Media Math, etc.). </p> <p>Necesario para <span class="wintitle"> informes de Audience Optimization </span>. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
@@ -113,8 +113,8 @@ Las llamadas de evento de impresión aceptan datos formados en pares clave-valor
 
 ## Funcionalidad adicional: [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-Puede usar llamadas en píxeles para activar [Informes del Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Información general y asignaciones para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si desea usar píxeles para alimentar los informes.
+Puede usar llamadas en píxeles para activar [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Información general y asignaciones para archivos de metadatos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si desea usar píxeles para alimentar los informes.
 
 >[!MORELIKETHIS]
 >
->* [Archivos de metadatos y datos para informes de Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Archivos de metadatos y datos para Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

@@ -1,9 +1,9 @@
 ---
-description: El panel Segmentos es un espacio de trabajo centralizado para administrar destinos.
+description: La panel Segmentos es un espacio de trabajo centralizado para la administración de destinos.
 seo-description: The Segments dashboard is a centralized workspace for managing destinations.
 seo-title: Segments List View
 solution: Audience Manager
-title: Vista de lista de segmentos
+title: Lista de segmentos Ver
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 feature: Segments
 exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Vista de lista de segmentos {#segments-list-view}
+# Lista de segmentos Ver {#segments-list-view}
 
-[!UICONTROL Segments dashboard] es un espacio de trabajo centralizado para administrar los segmentos de audiencia. Para ver el panel [!UICONTROL Segments], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+Es [!UICONTROL Segments dashboard] un espacio de trabajo centralizado para la administración de segmentos audiencia. Puede ver el [!UICONTROL Segments] panel navegando hasta **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-![tablero de segmentos](assets/segments-dashboard.png)
+![segmentos-panel](assets/segments-dashboard.png)
 
-La página [!UICONTROL Segments] contiene características y herramientas que le ayudarán a:
+El [!UICONTROL Segments] Página contiene funciones y herramientas que le ayudan a:
 
 * Crear nuevos segmentos;
 * Editar y eliminar segmentos;
-* Clonar (duplicar) segmentos existentes;
-* Ver todos los segmentos en una tabla con columnas que se pueden ordenar;
-* Administrar el almacenamiento de segmentos;
-* Busque segmentos por nombre.
+* Clonar (duplicado) segmentos existentes;
+* Ver todos sus segmentos en una tabla con columnas ordenables;
+* Administrar segmento almacenamiento;
+* Search los segmentos por nombre.

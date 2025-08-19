@@ -1,5 +1,5 @@
 ---
-description: Genere un informe de facturación del Audience Marketplace para ver el uso de las fuentes de datos del mes anterior para cada uno de sus suscriptores. Puede crear un informe del mes anterior en cualquier momento. Sin embargo, el informe es más preciso cuando se genera el décimo día del mes actual o después de este.
+description: Genere un informe de facturación de Audience Marketplace para ver el uso de fuentes de datos del mes anterior para cada uno de sus suscriptores. Puede crear un informe del mes anterior en cualquier momento. Sin embargo, el informe es más preciso cuando se genera el décimo día del mes actual o después de este.
 seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 seo-title: Billing for Data Feed Providers
 solution: Audience Manager
@@ -72,7 +72,7 @@ Un informe de facturación contiene la siguiente información.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> unidad de medida</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica facturación de CPM o tarifa plana. </p> </td> 
+   <td colname="col2"> <p>Indica CPM o facturación de tarifa plana. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> precio de lista</span></b> </p> </td> 
@@ -87,7 +87,7 @@ Un informe de facturación contiene la siguiente información.
    <td colname="col2"> <p>Varía por tipo de precio de fuente: </p> 
     <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
      <li id="li_C589F6A751AB407E853AC6F726A47F14">Fuentes de datos de tarifa plana: solo devuelve 1. </li> 
-     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">Fuentes de datos de CPM: Devuelve la cantidad de uso real de las fuentes de datos de CPM. Si un suscriptor no ha proporcionado datos de impresión para una fuente CPM, la celda Units está vacía y la celda Flag se establece en 1. </li> 
+     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">Fuentes de datos de CPM: Devuelve la cantidad de uso real de las fuentes de datos de CPM. Si un suscriptor no ha proporcionado datos de impresión para una fuente de CPM, la celda Units está vacía y la celda Flag se establece en 1. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -112,10 +112,10 @@ Un informe de facturación contiene la siguiente información.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Indicador</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Solo para fuentes CPM</i>. Las opciones de indicador incluyen: </p> 
+   <td colname="col2"> <p> <i>Solo para fuentes de CPM</i>. Las opciones de indicador incluyen: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que un suscriptor ha informado sobre la información de uso al Audience Manager <span class="keyword"></span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que un suscriptor no ha informado sobre la información de uso al Audience Manager <span class="keyword"></span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que un suscriptor ha informado sobre la información de uso a <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que un suscriptor no ha informado sobre la información de uso a <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -1,5 +1,5 @@
 ---
-description: Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
+description: Métodos opcionales que le permiten asignar características a un tipo o categoría definido por usuario, generalmente según la función o para sus propios procesos sistema de informes internos.
 seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 seo-title: Trait Type Methods
 solution: Audience Manager
@@ -16,23 +16,23 @@ ht-degree: 3%
 
 # Métodos de tipo de rasgo {#trait-type-methods}
 
-Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
+Métodos opcionales que le permiten asignar características a un tipo o categoría definido por usuario, generalmente según la función o para sus propios procesos sistema de informes internos.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considere estas etiquetas como si fueran independientes de la taxonomía común.
+>Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) común. Piense en estos como etiquetas que están separadas de la taxonomía común.
 
-Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en [!DNL UI] bajo **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Como referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en la [!DNL UI] opción .**[!UICONTROL Traits > Create new trait > Basic Information]**
 
-## Crear nuevo tipo de rasgo {#create-trait-type}
+## Crear un Nuevo tipo de rasgo {#create-trait-type}
 
-Un método `POST` que le permite crear un nuevo tipo de rasgo.
+Método `POST` que permite crear un nuevo tipo de rasgo.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
-### Solicitud
+### Pedir
 
 `POST https://api.demdex.com/v1/customer-trait-types`
 
@@ -59,13 +59,13 @@ Un método `POST` que le permite crear un nuevo tipo de rasgo.
 }
 ```
 
-## Devolver propiedades de un tipo de rasgo {#return-props}
+## Devolver Propiedades para un tipo de rasgo {#return-props}
 
-Un método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
+Un `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/customer-trait-types/`*`<customerTraitTypeId>`*
 
@@ -84,13 +84,13 @@ Un método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
 }
 ```
 
-## Devolver propiedades para todos los tipos de rasgos {#return-props-all}
+## Devolver Propiedades para todos los tipos de rasgos {#return-props-all}
 
-Un método `GET` que devuelve detalles sobre todos los tipos de rasgos de una matriz.
+Un `GET` método que devuelve detalles sobre todos los tipos de características de una matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
-### Solicitud
+### Pedir
 
 `GET https://api.demdex.com/v1/customer-trait-types/`
 

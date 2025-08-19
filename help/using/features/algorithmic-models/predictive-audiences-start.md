@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Creación de un modelo de Predictive Audiences {#create-predictive-audiences}
 
-Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué origen de datos de origen desea asignar sus rasgos y segmentos de [!UICONTROL Predictive Audiences]. Puede utilizar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es) para obtener detalles sobre cómo crear una nueva fuente de datos propia.
+Antes de crear un modelo [!UICONTROL Predictive Audiences], debe decidir a qué origen de datos de origen desea asignar sus rasgos y segmentos de [!UICONTROL Predictive Audiences]. Puede utilizar una fuente de datos de origen existente o crear una nueva. Consulte [Administrar fuentes de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obtener detalles sobre cómo crear una nueva fuente de datos propia.
 
 Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuación.
 
@@ -42,13 +42,12 @@ Una vez que sepa qué fuente de datos va a utilizar, siga los pasos a continuaci
    * **[!UICONTROL Description]**: escriba una descripción del modelo que le ayudará a identificar su caso de uso.
    * **[!UICONTROL Data Source]**: seleccione el origen de datos de origen al que desea que se asignen los segmentos de [!UICONTROL Predictive Audiences] de este modelo.
    * **[!UICONTROL Profile Merge Rule]**: seleccione [!UICONTROL Profile Merge Rule] que se asignará a todos los objetos predictivos [!UICONTROL segments] creados por este modelo. Si la audiencia de destino seleccionada es un [!UICONTROL segment], se recomienda seleccionar el mismo [!UICONTROL Profile Merge Rule] de la audiencia de destino.
-
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Haga clic en **[!UICONTROL Save]**.
 
 ## Clonación y edición de modelos de Predictive Audience {#clone-predictive-audiences}
 
-El Audience Manager no admite la edición de los modelos [!UICONTROL Predictive Audiences] existentes. Para cambiar la configuración de un modelo, puede crear un clon de un modelo existente y editarlo. A continuación se muestra cómo puede hacer esto:
+Audience Manager no admite la edición de los modelos [!UICONTROL Predictive Audiences] existentes. Para cambiar la configuración de un modelo, puede crear un clon de un modelo existente y editarlo. A continuación se muestra cómo puede hacer esto:
 
 1. Ir a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
 2. Haga clic en el nombre del modelo [!UICONTROL Predictive Audiences] que desea clonar.

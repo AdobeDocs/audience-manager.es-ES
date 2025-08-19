@@ -21,5 +21,5 @@ Esta sección contiene documentación técnica sobre la funcionalidad del sistem
 * [Componentes del sistema](/help/using/reference/system-components/components-overview.md)
 * [Entorno de Beta](/help/using/reference/beta-environment.md)
 * [Glosario](/help/using/reference/aam-glossary.md)
-* [Índice de ID en el Audience Manager](/help/using/reference/ids-in-aam.md)
+* [Índice de ID en Audience Manager](/help/using/reference/ids-in-aam.md)
 * [Señales, rasgos y segmentos](/help/using/reference/signal-trait-segment.md)

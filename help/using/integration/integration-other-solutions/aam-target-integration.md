@@ -1,9 +1,9 @@
 ---
-description: Esta integración permite enviar segmentos del Audience Manager a Target.
+description: Esta integración le permite enviar segmentos de Audience Manager a Target.
 seo-description: This integration lets you send Audience Manager segments to Target.
 seo-title: Integrate Audience Manager With Target
 solution: Audience Manager
-title: Integrar Audience Manager Con Target
+title: Integración de Audience Manager con Target
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 feature: Adobe Target Integration
 exl-id: a8486778-305a-4f09-a4f8-0e412369228c
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Integrar Audience Manager Con [!DNL Target] {#integrate-audience-manager-with-target}
+# Integrar Audience Manager con [!DNL Target] {#integrate-audience-manager-with-target}
 
-Esta integración le permite enviar segmentos de Audience Manager al Adobe [!DNL Target].
+Esta integración le permite enviar segmentos de Audience Manager a Adobe Systems [!DNL Target].
 
-Un Audience Manager - La integración de [!DNL Target] requiere:
+Una integración Audience Manager [!DNL Target] requiere:
 
-* El [servicio de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Si no usas este servicio, consulta las [guías de implementación](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es) para comenzar.
-* [!DNL Profiles and Audiences]. Si no se le ha proporcionado [!DNL Profiles and Audiences], póngase en contacto con el Servicio de atención al cliente para comenzar.
+* El [servicio](https://experienceleague.adobe.com/docs/id-service/using/home.html) Experience Cloud. Si no está utilizando este servicio, consulte las guías[ de ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)implementación para comenzar.
+* [!DNL Profiles and Audiences]. Si no está aprovisionado para [!DNL Profiles and Audiences], póngase en contacto con el Servicio de atención al cliente para empezar.
 
-Todos los segmentos del Audience Manager aparecerán en [!DNL Target] poco después de completar estos pasos en el proceso de implementación. Busque en **[!UICONTROL Audiences > Audience List]** para ver los segmentos de su Audience Manager en [!DNL Target]. Identifique los segmentos del Audience Manager por Experience Cloud en la columna **[!UICONTROL Source]** y por `aam-integration-user@adobe.com` en la columna **[!UICONTROL Modified]**.
+Todos sus segmentos Audience Manager aparecerán poco [!DNL Target] después de completar estos pasos en el proceso de implementación. Look para **[!UICONTROL Audiences > Audience List]** ver los segmentos de Audience Manager en [!DNL Target]. Identifique Audience Manager segmentos por Experience Cloud en la **[!UICONTROL Source]** columna y por `aam-integration-user@adobe.com` en la **[!UICONTROL Modified]** columna.
 
 ![](../assets/target.png)

@@ -1,5 +1,5 @@
 ---
-description: Recommendations y casos de uso para prospección, redireccionamiento y personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente del Audience Manager. Esto incluye integraciones que el Adobe tiene con compañías de gráficos de dispositivos determinísticos o probabilísticos de terceros.
+description: Recomendaciones y casos de uso para la prospección, el redireccionamiento y la personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente de Audience Manager. Esto incluye integraciones que Adobe tiene con empresas de gráficos de dispositivos determinísticos o probabilísticos de terceros.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Casos de uso de gráficos de dispositivos externos {#external-device-graph-use-cases}
 
-Recommendations y casos de uso para prospección, redireccionamiento y personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente del Audience Manager. Esto incluye integraciones que el Adobe tiene con compañías de gráficos de dispositivos determinísticos o probabilísticos de terceros.
+Recomendaciones y casos de uso para la prospección, el redireccionamiento y la personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente de Audience Manager. Esto incluye integraciones que Adobe tiene con empresas de gráficos de dispositivos determinísticos o probabilísticos de terceros.
 
 ## Las actividades de {#recommendations}
 

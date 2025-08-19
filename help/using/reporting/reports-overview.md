@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Las secciones individuales describen los informes disponibles, sus propósitos y los usos habituales. Todos los informes están disponibles en el tablero [!UICONTROL Analytics].
 
-Para obtener información que describe los lapsos de tiempo en los que el Audience Manager recibe información para rellenar informes, consulte [Cómo afectan los tiempos de entrega de datos y procesamiento de archivos a los informes](/help/using/reference/reporting-file-transfer-timeframe.md).
+Para obtener información que describe los lapsos de tiempo en los que Audience Manager recibe información para rellenar informes, vea [Cómo afectan los tiempos de entrega de datos y procesamiento de archivos a los informes](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Informes del Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Informes de Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-  Los informes de [!UICONTROL Audience Optimization] utilizan métodos de visualización de datos para devolver información sobre los destinos de su cuenta de Audience Manager. En cada informe, puede hacer clic en casi cualquier punto de datos para devolver información detallada sobre ese elemento. Estas perspectivas de optimización de audiencia se pueden aplicar a varios casos de uso en diferentes canales de publicidad y publicación, pero no están disponibles de forma predeterminada. Póngase en contacto con el consultor del Audience Manager para comenzar.
+  Los informes de [!UICONTROL Audience Optimization] utilizan métodos de visualización de datos para devolver información sobre los destinos de su cuenta de Audience Manager. En cada informe, puede hacer clic en casi cualquier punto de datos para devolver información detallada sobre ese elemento. Estas perspectivas de optimización de audiencia se pueden aplicar a varios casos de uso en diferentes canales de publicidad y publicación, pero no están disponibles de forma predeterminada. Póngase en contacto con su consultor de Audience Manager para comenzar.
 
 * [Informes generales](/help/using/reporting/general-reports.md)
 

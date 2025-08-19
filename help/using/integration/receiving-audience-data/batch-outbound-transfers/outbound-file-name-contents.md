@@ -22,7 +22,7 @@ Describe los campos, sintaxis y convenciones requeridos que se utilizan para asi
 
 >[!NOTE]
 >
->Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos de código y opciones. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Elementos de sintaxis y nombre de archivo {#syntax-file-name}
 
@@ -54,7 +54,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destino. </p> <p>En el Audience Manager </span> de <span class="keyword">, un destino es la instancia de la integración en la que puede asignar los segmentos de destino. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
+   <td colname="col2"> <p>ID de destino. </p> <p>En <span class="keyword"> Audience Manager </span>, un destino es la instancia de la integración en la que puede asignar los segmentos segmentables. Los clientes pueden tener varios destinos, según los requisitos comerciales. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
@@ -63,7 +63,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914: <span class="keyword"> ID de anunciante de Google </span> (sin procesar, sin hash) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915: <span class="keyword"> Apple ID para anunciantes </span> (sin procesar, sin hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID del proveedor - ID de usuarios de terceros (web/cookie) </li> 
-     </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=es">Fuentes de datos globales</a> para obtener más información.</p></td> 
+     </ul> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fuentes de datos globales</a> para obtener más información.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -156,7 +156,7 @@ Describe los campos, sintaxis y convenciones necesarios para organizar la inform
 
 >[!NOTE]
 >
->Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos de código y opciones. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ### Sintaxis
 
@@ -178,7 +178,7 @@ La tabla enumera las variables que definen el contenido de un archivo de datos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Identificador de usuario único asignado por el Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col2"> <p>Identificador de usuario único asignado por <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 

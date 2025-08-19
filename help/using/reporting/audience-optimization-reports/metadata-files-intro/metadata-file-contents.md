@@ -1,5 +1,5 @@
 ---
-description: Formatee el contenido del archivo de metadatos del Audience Optimization según estas especificaciones.
+description: Formatee el contenido del archivo de metadatos Audience Optimization según estas especificaciones.
 seo-description: Format the contents of your Audience Optimization metadata file according to these specifications.
 seo-title: Content Format for Metadata Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Formato de contenido para archivos de metadatos{#content-format-for-metadata-files}
 
-Formatee el contenido del archivo de metadatos del Audience Optimization según estas especificaciones.
+Formatee el contenido del archivo de metadatos Audience Optimization según estas especificaciones.
 
 ## Sintaxis {#syntax}
 
@@ -61,9 +61,9 @@ En este ejemplo, el título del archivo es 20180921_0_1 y las tres columnas del 
 333 Campaign C -1
 ```
 
-**Creativo**
+**Creative**
 
-En este ejemplo, el título del archivo es 20180827_0_2 y las tres columnas del archivo son: ID de creativo, Nombre e ID principal.
+En este ejemplo, el título del archivo es 20180827_0_2 y las tres columnas del archivo son: Creative ID, Nombre e ID principal.
 
 ```
 //File Title

@@ -1,10 +1,10 @@
 ---
-description: El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante DESCONOCIDO y DESCONECTADO en las llamadas de evento de la misma manera.
+description: El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. Audience Manager administra los estados de autenticación UNKNOWN y LOGGED_OUT de ID de visitante en las llamadas de evento de la misma manera.
 keywords: dpm.demdex.net
 seo-description: The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
 seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
-title: Estados de autenticación de visitante en Audience Manager
+title: Estados de autenticación de visitantes en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
@@ -15,11 +15,11 @@ ht-degree: 2%
 
 ---
 
-# Estados de autenticación de visitante en Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Estados de autenticación de visitantes en Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo desde el que se recopilaron los datos. El Audience Manager gestiona los estados de autenticación de ID de visitante DESCONOCIDO y DESCONECTADO en las llamadas de evento de la misma manera.
+El estado de autenticación del visitante en Audience Manager determina si la nueva información de rasgos se escribe en el perfil autenticado del visitante o en el perfil del dispositivo, desde donde se recopilaron los datos. Audience Manager administra los estados de autenticación UNKNOWN y LOGGED_OUT de ID de visitante en las llamadas de evento de la misma manera.
 
-A partir del servicio de ID [!DNL Experience Cloud] de la versión 1.5 (o posterior), el método `setCustomerID` incluye el objeto `AuthState` opcional. `AuthState` identifica a los visitantes según su [estado de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es). [!DNL Audience Manager] administra los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y la [regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-dashboard.md) que use para la segmentación.
+A partir del servicio de ID [!DNL Experience Cloud] de la versión 1.5 (o posterior), el método `setCustomerID` incluye el objeto `AuthState` opcional. `AuthState` identifica a los visitantes según su [estado de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] administra los rasgos realizados de forma diferente, según el estado de autenticación pasado en la llamada y la [regla de combinación de perfiles](../features/profile-merge-rules/merge-rules-dashboard.md) que use para la segmentación.
 
 ## Estado de autenticación: DESCONOCIDO {#auth-status-unknown}
 
@@ -57,4 +57,4 @@ Llamada de ejemplo (se resalta el valor de solicitud correspondiente al estado d
 
 >[!MORELIKETHIS]
 >
->* [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es)
+>* [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)

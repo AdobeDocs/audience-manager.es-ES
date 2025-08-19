@@ -16,17 +16,17 @@ ht-degree: 2%
 
 # Métodos de API de administración de permisos {#permissions-management-api-methods}
 
-Métodos Rest [!DNL API] para administrar permisos para objetos y grupos.
+Métodos REST [!DNL API] para administrar permisos para objetos y grupos.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Lista de tipos de objetos disponibles {#list-object-types}
+## Mostrar los tipos de objeto disponibles {#list-object-types}
 
-Un método `GET` para enumerar los tipos de objetos disponibles en los que se pueden establecer controles de acceso basados en roles.
+Método `GET` para lista tipos de objetos disponibles en los que se pueden configurar controles de acceso basados en función.
 
 <!-- r_rest_api_perm_list.xml -->
 
-### Solicitud
+### Pedir
 
 `GET /api/v1/permissionable-object-types/`
 
@@ -36,13 +36,13 @@ Un método `GET` para enumerar los tipos de objetos disponibles en los que se pu
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Lista de permisos disponibles para un tipo de objeto {#list-permissions-object-type}
+## Mostrar los permisos disponibles para un tipo de objeto {#list-permissions-object-type}
 
-Un método `GET` para enumerar los permisos disponibles para un tipo de objeto.
+Método `GET` para lista permisos disponibles para un tipo de objeto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
-### Solicitud
+### Pedir
 
 `GET /api/v1/permissionable-object-types/SEGMENT/`
 
@@ -57,4 +57,4 @@ Un método `GET` para enumerar los permisos disponibles para un tipo de objeto.
 
 >[!NOTE]
 >
->Los tipos de objeto ETIQUETAS y SEÑALES DERIVADAS no tienen permisos regulares para utilizar. Los controles de estos tipos de objetos se cambian únicamente mediante los permisos de comodín Todos o Nada.
+>Los tipos de objeto TAGS y DERIVED SIGNALS no tienen permisos regulares para utilizar. Los controles de estos tipos de objeto se modifican únicamente mediante los permisos comodines Todo o Nada.

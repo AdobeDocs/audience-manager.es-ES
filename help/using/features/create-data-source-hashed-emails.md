@@ -20,12 +20,12 @@ Siga los pasos a continuación para crear y configurar una fuente de datos para 
 1. Inicie sesión en su cuenta de Audience Manager, vaya a **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** y haga clic en **[!UICONTROL Add New]**.
 1. Escriba **[!UICONTROL Name]** y **[!UICONTROL Description]** para el nuevo origen de datos.
 1. En el menú desplegable **[!UICONTROL ID Type]**, seleccione **[!UICONTROL Cross Device]**.
-   ![Imagen de la interfaz de usuario del Audience Manager que muestra la sección de detalles del origen de datos.](../features/assets/create-hashed-email-data-source.png)
+   ![Imagen de la interfaz de usuario de Audience Manager que muestra la sección de detalles de la fuente de datos.](../features/assets/create-hashed-email-data-source.png)
 1. En la sección **[!UICONTROL Data Source Settings]**, seleccione las opciones **[!UICONTROL Inbound]** y **[!UICONTROL Outbound]**, y habilite la opción **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Utilice el menú desplegable para seleccionar la etiqueta **[!UICONTROL Emails(SHA256, lowercased)]** para este origen de datos.
 
    >[!IMPORTANT]
    >
-   >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. El Audience Manager no hace un hash de los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en este origen de datos ya tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá utilizarlo para flujos de trabajo de correo electrónico con hash.
+   >Esta opción solo etiqueta la fuente de datos como que contiene datos con hash con ese algoritmo específico. Audience Manager no almacena en hash los datos en este paso. Asegúrese de que las direcciones de correo electrónico que planea almacenar en este origen de datos ya tengan un cifrado hash con el algoritmo [!DNL SHA256]. De lo contrario, no podrá utilizarlo para flujos de trabajo de correo electrónico con hash.
 
-   ![Imagen de la interfaz de usuario del Audience Manager que muestra la sección de configuración del origen de datos.](../features/assets/data-source-settings.png)
+   ![Imagen de la interfaz de usuario de Audience Manager que muestra la sección de configuración del origen de datos.](../features/assets/data-source-settings.png)

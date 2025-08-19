@@ -1,9 +1,9 @@
 ---
-description: El panel Características es un espacio de trabajo centralizado para administrar características.
+description: La panel Características es una espacio de trabajo centralizada para la administración de características.
 seo-description: The Traits dashboard is a centralized workspace for managing traits.
 seo-title: Traits Dashboard
 solution: Audience Manager
-title: Panel de rasgos
+title: Tablero de características
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 feature: Traits
 exl-id: 752781af-aa67-4978-bd7f-95739dbfcddc
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Panel de rasgos {#traits-dashboard}
+# Tablero de características {#traits-dashboard}
 
-El panel de características es un espacio de trabajo centralizado para administrar características. Para ver el panel [!UICONTROL Traits], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
+El panel de características es una espacio de trabajo centralizada para la administración de características. Puede ver el [!UICONTROL Traits] panel navegando hasta **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-El panel [!UICONTROL Traits] contiene características y herramientas que le ayudarán a:
+El [!UICONTROL Traits] panel contiene funciones y herramientas que le ayudan a:
 
-1. Vea todos sus rasgos y detalles relacionados en una tabla con columnas que puede ordenar.
-2. Revise y trabaje con [Características de audiencia activa y Características sincronizadas de datos de Source](../../features/traits/client-activity-synced-audience-traits.md).
-3. Crear, editar y eliminar rasgos.
-4. Ver y administrar carpetas de almacenamiento de rasgos.
-5. Busque rasgos por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas.
-6. Filtrar rasgos por tipo de rasgos (incorporados, basados en reglas, algorítmicos, de carpeta).
+1. Vea todas sus características y detalles relacionados en una tabla con columnas que puede ordenar.
+2. Revise y trabaje con [los rasgos de audiencia activa y los datos Origen los rasgos sincronizados](../../features/traits/client-activity-synced-audience-traits.md).
+3. Crear, editar y eliminar características.
+4. Ver y administrar carpeta almacenamiento de características.
+5. Search los rasgos por nombre, ID, descripción o fuente de datos. Haga clic en una carpeta mientras busca para limitar los resultados a esa carpeta y sus subcarpetas.
+6. Filtrar características por tipo de característica (integrada, basada en reglas, algorítmica, característica de carpeta).

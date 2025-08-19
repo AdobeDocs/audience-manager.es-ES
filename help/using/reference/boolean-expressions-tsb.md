@@ -1,5 +1,5 @@
 ---
-description: En este artículo se explica cómo las herramientas de rasgos y segmentos de Audience Manager utilizan las expresiones booleanas AND, OR y NOT.
+description: En este artículo se explica cómo las herramientas de rasgo Audience Manager y segmento usan las expresiones booleanas AND, OR y NOT.
 seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
 seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Expresiones booleanas en el Generador de rasgos y segmentos{#boolean-expressions-in-trait-and-segment-builder}
 
-En este artículo se explica cómo las herramientas de rasgos y segmentos de Audience Manager utilizan las expresiones booleanas AND, OR y NOT.
+En este artículo se explica cómo las herramientas de rasgo Audience Manager y segmento usan las expresiones booleanas AND, OR y NOT.
 
 <!-- 
 
@@ -26,7 +26,7 @@ c_tb_boolean.xml
 
 **Expresiones booleanas**
 
-La lógica booleana es una rama de álgebra que utiliza algunas expresiones básicas (u operadores) para determinar si una instrucción es verdadera o falsa. Los operadores más comunes son [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL NOT]. Las combinaciones de estas expresiones le ayudan a hacer que las reglas de calificación de segmentos o rasgos centrados se adapten de forma exclusiva a sus requisitos de datos. La siguiente ilustración muestra cómo funcionan las expresiones booleanas básicas.
+La lógica booleana es un Rama de álgebra que utiliza algunas expresiones básicas (u operadores) para determinar si una afirmación es verdadera o falsa. Los operadores más comunes son [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL NOT]. Las combinaciones de estas expresiones le ayudan a crear reglas de rasgos enfocados o segmento calificación que se adapten exclusivamente a sus requisitos de datos. En la siguiente ilustración se muestra cómo funcionan las expresiones booleanas básicas.
 
 <br> 
 
@@ -34,52 +34,52 @@ La lógica booleana es una rama de álgebra que utiliza algunas expresiones bás
 
 >[!NOTE]
 >
->El operador [!UICONTROL NOT] usa una condición &quot;and&quot; implícita y a veces se escribe como [!UICONTROL AND NOT].
+>El [!UICONTROL NOT] operador utiliza una condición &quot;y&quot; implícita y a veces se escribe como [!UICONTROL AND NOT].
 
-**Cómo usar expresiones booleanas en el generador de rasgos y segmentos**
+**Cómo usar expresiones booleanas en el Generador de rasgos y segmentos**
 
-Las reglas de cualificación de rasgos y segmentos se crean con expresiones booleanas. En la tabla siguiente se describen las prácticas recomendadas generales para crear criterios de calificación con [!UICONTROL AND], [!UICONTROL OR] y [!UICONTROL NOT].
+Se versión reglas de calificación de rasgos y segmento con expresiones booleanas. En la tabla siguiente se describen las prácticas recomendadas generales para crear criterios de cualificación con [!UICONTROL AND], [!UICONTROL OR], y [!UICONTROL NOT].
 
 <table id="table_C762872C98F54C4A86A2F1C840A86657"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Expresión </th> 
-   <th colname="col2" class="entry"> Úselo para crear. </th> 
+   <th colname="col2" class="entry"> Úselo para crear </th> 
    <th colname="col3" class="entry"> Para calificar </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> Y </span></b> </p> </td> 
-   <td colname="col2"> <p>Requisitos de cualificación de audiencia específicos y restringidos. </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> Y</span></b> </p> </td> 
+   <td colname="col2"> <p>Requisitos de calificación de audiencia estrechos y enfocados. </p> </td> 
    <td colname="col3"> <p>Los usuarios <i>deben</i> pertenecer a todos los rasgos o segmentos especificados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> O </span></b> </p> </td> 
-   <td colname="col2"> <p>Requisitos de cualificación de audiencia amplios y menos centrados. </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> O</span></b> </p> </td> 
+   <td colname="col2"> <p>Requisitos de calificación de audiencia amplios, menos enfocados. </p> </td> 
    <td colname="col3"> <p>Los usuarios <i>pueden</i> pertenecer a cualquier rasgo o segmento especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> NO </span></b> </p> </td> 
-   <td colname="col2"> <p>Requisitos de cualificación de audiencia específicos y restringidos. </p> <p>Resulta útil cuando hay varias condiciones que hacen que la definición de requisitos de cualificación de audiencia sea difícil o ineficiente. En ocasiones, es más fácil validarlo con requisitos que excluyen en lugar de incluir. </p> </td> 
-   <td colname="col3"> <p>Los usuarios <i>no deben</i> pertenecer a un rasgo o segmento excluido. </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> NO</span></b> </p> </td> 
+   <td colname="col2"> <p>Requisitos de calificación de audiencia estrechos y enfocados. </p> <p>Útil cuando existen múltiples condiciones que dificultan o ineficientes la definición de audiencia requisitos de cualificación. En ocasiones, es más fácil validar con respecto a los requisitos que excluyen en lugar de incluir. </p> </td> 
+   <td colname="col3"> <p>Los usuarios <i>no</i> deben pertenecer a ningún rasgo o segmento excluido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ejemplo de caso de uso **[!UICONTROL AND]**
+**[!UICONTROL AND]Ejemplo de caso de uso**
 
-El operador [!UICONTROL AND] es útil cuando se han enumerado fácilmente los requisitos de pertenencia a características. Por ejemplo, supongamos que necesita crear una audiencia de &quot;compradores de cámaras caros&quot;. Con un modelo de píxeles, tendría que crear y colocar píxeles para cámaras y un valor de precio numérico en su página. Por el contrario, con las características puede aplicar operadores booleanos para controlar ambas condiciones (precio de cámaras [!UICONTROL AND]). El resultado es una recopilación de datos eficaz con menos llamadas HTTP, lo que a su vez ayuda a preservar la experiencia del usuario en el sitio.
+El [!UICONTROL AND] operador es útil cuando se han enumerado fácilmente los requisitos de la abono de características. Por ejemplo, supongamos que necesita crear un audiencia de &quot;compradores caros de cámaras&quot;. Con un modelo de píxeles, tendría que crear y colocar píxeles para cámaras y un valor de precio numérica en su Página. Por el contrario, con las características se pueden aplicar operadores booleanos para manejar ambas condiciones (precio de la cámara [!UICONTROL AND] ). El resultado es una recopilación de datos eficiente con menos llamadas HTTP, lo que, a su vez, ayuda a preservar el experiencia del usuario en su sitio.
 
-Ejemplo de caso de uso **[!UICONTROL OR]**
+**[!UICONTROL OR]Ejemplo de caso de uso**
 
-El operador [!UICONTROL OR] es útil cuando desea crear señales con requisitos amplios de cualificación de audiencia. Si tiene varios requisitos de clasificación de rasgos o segmentos, el operador [!UICONTROL OR] evaluará como verdadero cuando los visitantes del sitio muestren *cualquiera* de esas características. [!UICONTROL OR] puede ser muy útil cuando desea crear rápidamente una audiencia amplia de visitantes del sitio calificados.
+El [!UICONTROL OR] operador es útil cuando se desea crear señales con amplios requisitos de audiencia cualificación. Si tiene varios requisitos de rasgos o segmento calificación, el [!UICONTROL OR] operador evaluará a verdadero cuando los visitantes de su sitio exhiban *alguna* de esas características. [!UICONTROL OR] puede ser más útil cuando desea crear rápidamente una amplia audiencia de visitantes calificados del sitio.
 
-Ejemplo de caso de uso **[!UICONTROL AND NOT]**
+**[!UICONTROL AND NOT]Ejemplo de caso de uso**
 
-El operador [!UICONTROL AND NOT] es útil cuando es más fácil definir una audiencia por *exclusión* que por *inclusión*. Por ejemplo, supongamos que tiene una venta y desea segmentar a los visitantes en clientes que solo ven artículos con precio completo. En lugar de crear una lista de señales para todos los artículos con precio total o precio de venta que cumplen los requisitos, puede ser más fácil calificar a los visitantes si *no* ha visto un artículo con precio de venta. Esto es eficiente desde el punto de vista administrativo, ya que normalmente tiene menos artículos a precio de venta en comparación con los que se ofrecen a precio completo. Con un valor booleano [!UICONTROL NOT], los visitantes *no deben* mostrar la señal de venta para poder pertenecer a la audiencia a precio completo. Por el contrario, [!UICONTROL AND NOT] es lo contrario al caso de uso [!UICONTROL AND], que mostró cómo la pertenencia a la audiencia está determinada por la inclusión (es decir, el visitante se calificó en función de 2 señales explícitamente establecidas).
+El [!UICONTROL AND NOT] operador es útil cuando resulta más fácil definir un audiencia por exclusión *que* por *inclusión*. Por ejemplo, supongamos que está teniendo una venta y desea segmento visitantes en clientes que solo miran artículos de precio completo. En lugar de crear un lista de señales para todos los artículos completos o de precio de venta que califiquen, puede ser más fácil calificar a los visitantes si no *han* visto un artículo con precio de venta. Esto es administrativamente eficiente porque generalmente tiene menos artículos de precio de venta en comparación con los ofrecidos a precio completo. Con un booleano [!UICONTROL NOT], los visitantes *no* deben exhibir la señal de venta para calificar para el precio completo audiencia abono. Por el contrario, [!UICONTROL AND NOT] es lo opuesto al [!UICONTROL AND] caso de uso, que mostró cómo audiencia abono se determina por inclusión (es decir, el visitante calificado en función de 2 señales explícitamente establecidas).
 
 >[!MORELIKETHIS]
 >
->* [Trabajando con operadores de comparación en TraitBuilder](../features/traits/trait-comparison-operators.md)
->* [Orden de operaciones en expresiones de TraitBuilder](../features/traits/trait-operator-precedence.md)
+>* [Trabajo con operadores de comparación en TraitBuilder](../features/traits/trait-comparison-operators.md)
+>* [Orden de operaciones en expresiones TraitBuilder](../features/traits/trait-operator-precedence.md)

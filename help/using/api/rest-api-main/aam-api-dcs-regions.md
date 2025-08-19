@@ -1,5 +1,5 @@
 ---
-description: Métodos que permiten enumerar mediante programación regiones de DCS Audience Manager.
+description: Métodos que permiten enumerar mediante programación regiones de Audience Manager DCS.
 seo-description: Methods that let you programmatically list Audience Manager DCS regions.
 seo-title: DCS Region API Methods
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Métodos de API de región DCS {#dcs-region-api-methods}
 
-Métodos que permiten enumerar mediante programación las regiones del Audience Manager [!DNL DCS].
+Métodos que permiten enumerar mediante programación las regiones de Audience Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 

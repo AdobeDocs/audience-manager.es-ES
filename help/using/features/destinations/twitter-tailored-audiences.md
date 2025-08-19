@@ -1,9 +1,9 @@
 ---
-description: En este artículo se explica cómo configurar Audiencias personalizadas de Twitter para integraciones nuevas y existentes.
+description: Este artículo explica cómo configurar las audiencias personalizadas de Twitter tanto para las integraciones nuevas como para las existentes.
 seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
 seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
-title: Configuración de Audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
+title: Configuración de las audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 source-git-commit: 72be9e032ec3c92cf09a5286baa872b884feaaa0
@@ -23,7 +23,7 @@ Antes de configurar el destino [!DNL Twitter Custom Audiences], asegúrese de cu
 
 * Su cuenta de [!DNL Twitter Ads] debe cumplir los requisitos para la publicidad. Las nuevas cuentas de [!DNL Twitter Ads] no son elegibles para la publicidad en las primeras 2 semanas después de crearlas.
 * La cuenta de usuario [!DNL Twitter] para la que autorizó el acceso en Audience Manager debe tener habilitado el permiso [Administrador de audiencias de socio](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels).
-* Al crear el primer destino [!DNL Twitter Custom Audiences] en su instancia de Audience Manager, póngase en contacto con Adobe Consulting o con el Servicio de atención al cliente para habilitar la sincronización de ID [!DNL Twitter] (ID de Data Source = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre el Audience Manager y [!DNL Twitter].
+* Al crear el primer destino [!DNL Twitter Custom Audiences] en su instancia de Audience Manager, póngase en contacto con Adobe Consulting o con el Servicio de atención al cliente para habilitar la sincronización de ID [!DNL Twitter] (ID de Data Source = 1123) para su cuenta. Esto es necesario para la sincronización correcta entre Audience Manager y [!DNL Twitter].
 
 ## Agregar nuevo destino [!DNL Twitter Custom Audiences] {#add-new-twitter-destination}
 
@@ -31,7 +31,7 @@ Esta sección describe los pasos que debe seguir al configurar un nuevo destino 
 
 ### Paso 1. Autenticar con [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
 
-Para poder agregar el destino basado en el dispositivo, debe vincular el Audience Manager y la cuenta de [!DNL Twitter Custom Audiences]. A continuación se indica cómo hacerlo:
+Para poder agregar el destino basado en el dispositivo, debe vincular Audience Manager y su cuenta de [!DNL Twitter Custom Audiences]. A continuación se indica cómo hacerlo:
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!DNL Administration > Integrated Accounts]**. Si tiene una integración configurada anteriormente con una plataforma de destino, debería verla en esta página. En caso contrario, la página está vacía.
 1. Haga clic en **[!DNL Add Account]**.
@@ -43,7 +43,7 @@ Para poder agregar el destino basado en el dispositivo, debe vincular el Audienc
 
 ### Paso 2: Crear un nuevo destino basado en dispositivos {#step2-create-new-destination}
 
-Después de haber vinculado al Audience Manager y a su [!DNL Twitter Custom Audiences], puede crear el nuevo destino. A continuación se indica cómo hacerlo:
+Una vez que haya vinculado Audience Manager y su [!DNL Twitter Custom Audiences], podrá crear el nuevo destino. A continuación se indica cómo hacerlo:
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Después de haber vinculado al Audience Manager y a su [!DNL Twitter Custom Audi
 
 Al asignar segmentos de audiencia a [!UICONTROL Twitter], asegúrese de cumplir los siguientes requisitos de nomenclatura de segmentos:
 
-* Proporcione nombres de asignación de segmentos legibles por un humano. Se recomienda utilizar el mismo nombre que utilizó para los segmentos del Audience Manager.
+* Proporcione nombres de asignación de segmentos legibles por un humano. Se recomienda utilizar el mismo nombre que utilizó para los segmentos de Audience Manager.
 * No utilice caracteres especiales (`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`) en los nombres de asignación de segmentos y segmentos. Si el nombre del segmento de Audience Manager contiene estos caracteres, elimínelos antes de asignar el segmento a un destino [!UICONTROL Twitter].
 
 ### Ejemplo
@@ -71,18 +71,18 @@ Al asignar segmentos de audiencia a [!UICONTROL Twitter], asegúrese de cumplir 
 
 >[!IMPORTANT]
 >
->No puede cambiar los nombres de segmentos ya asignados. El Audience Manager utiliza los nombres de segmento para identificar correctamente los segmentos en la integración.
+>No puede cambiar los nombres de segmentos ya asignados. Audience Manager utiliza los nombres de los segmentos para identificar correctamente los segmentos en la integración.
 
 ## Consideraciones de tasas de coincidencia {#match-rates-considerations}
 
-* La integración entre el Audience Manager y [!UICONTROL Twitter Custom Audiences] admite rellenos de audiencia históricos. Todas las calificaciones del segmento se envían a [!UICONTROL Twitter] cuando crea el destino.
+* La integración entre Audience Manager y [!UICONTROL Twitter Custom Audiences] admite rellenos históricos de audiencias. Todas las calificaciones del segmento se envían a [!UICONTROL Twitter] cuando crea el destino.
 
 ## Resolución de problemas {#troubleshooting}
 
-Al configurar o enviar datos al destino de Twitter de Audiencias personalizadas, puede encontrar los errores que se describen a continuación. En esta sección se explica qué puede causar los errores y cómo corregirlos.
+Al configurar o enviar datos al destino de Audiencias personalizadas de Twitter, puede encontrar los errores que se describen a continuación. En esta sección se explica qué puede causar los errores y cómo corregirlos.
 
 | Mensaje de error | Ocurrencia/Motivo | Resolución |
 |---|---|---|
-| `Internal server error` | Este mensaje de error se muestra en la interfaz de usuario del Audience Manager al intentar agregar una nueva cuenta de [!DNL Twitter] mediante una versión obsoleta de la API de Twitter. | Contacte con el Servicio de atención al cliente de Adobe. |
-| `Twitter Error: This request is not properly authenticated` | Este mensaje de error se muestra en la interfaz de usuario del Audience Manager al intentar asignar segmentos con nombres de segmento no admitidos al destino. | Revise los nombres de segmento asignados y asegúrese de que no contengan caracteres no admitidos. Consulte [consideraciones sobre la asignación de segmentos](#segment-mapping-considerations) para ver la lista de caracteres no admitidos. |
-| `Twitter Error: Account XXXXXXXXX was not found` | Este mensaje de error se muestra en la interfaz de usuario del Audience Manager cuando las credenciales configuradas para el destino no tienen autorización para acceder a la cuenta de Twitter Ads correspondiente. | <ul><li>Asegúrese de que las credenciales de la cuenta que está usando cumplan [los requisitos previos](#prerequisites).</li><li>Vaya a la interfaz de usuario de Twitter Ads con las mismas credenciales y compruebe si las audiencias correctas se muestran en la cuenta de `XXXXXXXXX` correspondiente. </li></ul> |
+| `Internal server error` | Este mensaje de error se muestra en la interfaz de usuario de Audience Manager al intentar agregar una nueva cuenta de [!DNL Twitter] mediante una versión obsoleta de la API de Twitter. | Póngase en contacto con el Servicio de atención al cliente de Adobe. |
+| `Twitter Error: This request is not properly authenticated` | Este mensaje de error se muestra en la interfaz de usuario de Audience Manager al intentar asignar segmentos con nombres de segmento no admitidos al destino. | Revise los nombres de segmento asignados y asegúrese de que no contengan caracteres no admitidos. Consulte [consideraciones sobre la asignación de segmentos](#segment-mapping-considerations) para ver la lista de caracteres no admitidos. |
+| `Twitter Error: Account XXXXXXXXX was not found` | Este mensaje de error se muestra en la interfaz de usuario de Audience Manager cuando las credenciales configuradas para el destino no están autorizadas a acceder a la cuenta de Twitter Ads correspondiente. | <ul><li>Asegúrese de que las credenciales de la cuenta que está usando cumplan [los requisitos previos](#prerequisites).</li><li>Vaya a la interfaz de usuario de Twitter Ads con las mismas credenciales y compruebe si las audiencias correctas se muestran en la cuenta de `XXXXXXXXX` correspondiente. </li></ul> |

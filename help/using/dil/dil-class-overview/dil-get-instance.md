@@ -1,6 +1,6 @@
 ---
-description: Recupera una instancia de DIL específica del socio.
-keywords: api de audience manager;api de aam;api de audience manager;api de aam
+description: Recupera un instancia DIL específico de socio.
+keywords: API del administrador de audiencia; API de AAM; API del administrador de audiencia; API de AAM
 seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
+>A partir de julio de 2023, Adobe Systems ha interrumpido el desarrollo de la [!DNL Data Integration Library (DIL)] y la [!DNL DIL] extensión.
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando sus [!DNL DIL] implementación. Sin embargo, Adobe Systems no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web según su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos después de julio de 2023 deberían usar [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web.
 
-Recupera una instancia de DIL específica del socio.
+Recupera un instancia DIL específico de socio.
 
 **Firma de función:** `getDil: function (partner, containerNSID) {}`
 
@@ -35,12 +35,12 @@ Recupera una instancia de DIL específica del socio.
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `partner` | Cadena | El nombre del socio que se va a buscar. |
-| `containerNSID` | Número entero | El valor predeterminado es `0`. El NSID del contenedor que está buscando. Opcional. |
+| `partner` | Cadena | Nombre socio al que búsqueda. |
+| `containerNSID` | Número entero | El valor predeterminado es `0`. El NSID del contenedor está buscando. Opcional. |
 
 ## Respuesta
 
-Una coincidencia correcta de NSID de contenedor y socio devuelve una instancia [!UICONTROL DIL] específica de un socio. Si no hay ninguna coincidencia, la API devuelve (no emite) un error con el mensaje &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Una coincidencia de NSID socio y contenedor correcta devuelve un instancia específico [!UICONTROL DIL] del socio. Si no hay coincidencias, la API devuelve (no arroja) un error con el mensaje &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Código de muestra
 

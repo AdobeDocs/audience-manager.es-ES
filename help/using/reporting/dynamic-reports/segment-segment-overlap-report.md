@@ -68,7 +68,7 @@ La ventana emergente del informe [!UICONTROL Segment-to-Segment Overlap] contien
 | **[!UICONTROL Base Segment Uniques]** | La cantidad de visitantes únicos en su segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | La cantidad de visitantes únicos en su segmento superpuesto. |
 | **[!UICONTROL Overlapping Uniques]** | El número de visitantes únicos compartidos entre segmentos comparados. |
-| **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición, Audience Manager utiliza la siguiente fórmula: Uniques de superposición / (Uniques de segmento base + Uniques de segmento superpuestos - Uniques de superposición) |
+| **[!UICONTROL Overlap %]** | Para obtener el porcentaje de superposición, Audience Manager utiliza la siguiente fórmula: Únicos superpuestos / (Únicos de segmento base + Únicos de segmento superpuestos - Únicos superpuestos) |
 
 
 
@@ -78,5 +78,5 @@ La ventana emergente del informe [!UICONTROL Segment-to-Segment Overlap] contien
 >* [Formas, colores y tamaños utilizados en los informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Iconos y herramientas de informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de error en los informes de Audience Manager seleccionados...](../../reporting/report-sampling.md)
+>* [Muestreo de datos y tasas de error en los informes seleccionados de Audience Manager...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)

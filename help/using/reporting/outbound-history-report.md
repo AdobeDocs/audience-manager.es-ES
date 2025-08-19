@@ -57,7 +57,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 
-   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos y que se intentó enviar al destino. En la mayoría de los casos, debe ser el número total de archivos correctos y fallidos. </p> </td> 
+   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> generados en los archivos y que intentaron enviarse al destino. En la mayoría de los casos, debe ser el número total de archivos correctos y fallidos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

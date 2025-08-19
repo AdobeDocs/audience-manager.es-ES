@@ -23,7 +23,7 @@ Respuestas a preguntas frecuentes sobre [!DNL People-Based Destinations]
 
 [!DNL People-Based Destinations] es una función Premium de Audience Manager que está disponible en el momento de la compra. Póngase en contacto con su representante de ventas de Adobe para obtener más información sobre precios y disponibilidad.
 
-## Incorporación de datos {#data-onboarding}
+## Integración de datos {#data-onboarding}
 
 **¿Cómo puedo incluir direcciones de correo electrónico de clientes en Audience Manager para poder usarlas en [!DNL People-Based Destinations]?**
 
@@ -64,7 +64,7 @@ Si decide activar nuevas audiencias sin conexión en canales basados en personas
 >
 > Solo puede asignar segmentos con datos de origen a [!DNL People-Based Destinations]. Nuestras plataformas de destino no aceptan segmentos con datos de segundas y terceras partes.
 
-## Tasas de coincidencia {#match-rates}
+## Coincidencia de las tarifas {#match-rates}
 
 **¿[!DNL People-Based Destinations] puede ver las tasas de coincidencia o las audiencias a las que se puede dirigir?**
 
@@ -80,7 +80,7 @@ Audience Manager puede recopilar y enviar hasta 10 correos electrónicos por usu
 
 **¿Puedo usar [!DNL People-Based Destinations] en [!DNL Audience Lab]?**
 
-No. Actualmente, todos los destinos de [!DNL People-Based Destinations] se han excluido de [!DNL Audience Lab]. Dado que [!DNL People-Based Destinations] y las plataformas del lado de la demanda utilizan ID diferentes, no puede probar y medir el rendimiento con audiencias divididas equitativamente entre ellas.
+No. Actualmente, todos los [!DNL People-Based Destinations] destinos están excluidos de [!DNL Audience Lab]. Dado que [!DNL People-Based Destinations] las plataformas del lado de la demanda utilizan ID diferentes, no puede prueba y medir rendimiento con audiencias divididas equitativamente entre ellas.
 
 ## Controles de exportación de datos {#data-export-controls}
 
@@ -116,6 +116,6 @@ Puede utilizar la integración [!DNL WCA] de Audience Manager para [!DNL Faceboo
 
 Estas dos integraciones son complementarias; pueden utilizarse las dos para garantizar una mejor cobertura de audiencia. Por ejemplo, [!DNL WCA] se puede utilizar para la prospección cuando una compañía busca visitantes de sitios web de destinatario que no han registrado una cuenta, mientras que [!DNL People-Based Destinations] puede ayudarle a dirigir a los clientes existentes que han proporcionado su dirección de correo electrónico pero que quizá no hayan visitado el sitio web.
 
-**¿Admite la integración de [!DNL People-Based Destinations] con [!DNL Facebook] la descalificación de usuarios de una audiencia cuando ya no cumplen los requisitos?**
+**¿La integración con [!DNL People-Based Destinations] el [!DNL Facebook] soporte descalifica a los usuarios de un audiencia cuando ya no cumplen los requisitos para él?**
 
-Sí, la integración admite la eliminación de usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos para ellas.
+Sí, la integración permite eliminar usuarios de [!DNL Facebook] las audiencias cuando ya no cumplen los requisitos para ellas.

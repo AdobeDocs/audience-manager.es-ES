@@ -37,7 +37,7 @@ Un gráfico de dispositivos externos es cualquier gráfico de dispositivo en [!D
 
 **¿Cuáles son algunos casos de uso comunes para un gráfico de dispositivos externos en una [!UICONTROL Profile Merge Rule]?**
 
-El objetivo principal de utilizar un gráfico de dispositivos en una [!UICONTROL Profile Merge Rule] es evaluar y clasificar varios dispositivos pertenecientes a una sola persona o unidad familiar para un segmento específico. DSP El propio segmento puede tener varios usos, por ejemplo, segmentar una audiencia de clientes potenciales con una publicidad ofrecida por un cliente o personalizar la experiencia en el sitio de un cliente mediante una plataforma de personalización en el sitio. Consulte [Ejemplos de uso de los Gráficos de dispositivos externos](../features/profile-merge-rules/external-graph-use-cases.md).
+El objetivo principal de utilizar un gráfico de dispositivos en una [!UICONTROL Profile Merge Rule] es evaluar y clasificar varios dispositivos pertenecientes a una sola persona o unidad familiar para un segmento específico. El propio segmento puede tener varios usos, por ejemplo, segmentar una audiencia de clientes potenciales con una publicidad ofrecida por un DSP o personalizar la experiencia en el sitio de un cliente mediante una plataforma de personalización en el sitio. Consulte [Ejemplos de uso de los Gráficos de dispositivos externos](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -111,7 +111,7 @@ Sí.
 
 **¿Las estimaciones del tamaño del segmento incluyen los dispositivos que se clasifican como segmento basado en conexiones proporcionado por una [!UICONTROL Profile Merge Rule] que usa un gráfico de dispositivos?**
 
-No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=es).
+No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -261,9 +261,9 @@ No.
 
 **¿Por qué veo una población de segmentos cero para las exportaciones de segmentos a Adobe Campaign después del 16 de marzo de 2020?**
 
-A finales de 2019, publicamos una serie de mejoras en las reglas de combinación de perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se aplicarán estrictamente en la instancia de Audience Manager a partir del lunes, 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID entre dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de perfiles.
+A finales de 2019, publicamos una serie de mejoras en las reglas de combinación de perfiles para mejorar la precisión de los archivos por lotes generados mediante ID entre dispositivos. Estas mejoras se respetarán estrictamente en la instancia de Audience Manager a partir del lunes, 16 de marzo de 2020. Por lo tanto, los segmentos asignados a un destino mediante ID entre dispositivos dejarán de producir exportaciones en algunas configuraciones de reglas de combinación de perfiles.
 
-Para garantizar la correcta integración entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
+Para garantizar la integración correcta entre la instancia de Audience Manager y los destinos que utilizan ID entre dispositivos, como Adobe Campaign, asegúrese de cumplir los siguientes requisitos:
 
 1. Revise la regla de combinación de perfiles utilizada por los segmentos asignados a su destino de ID declarados de Adobe Campaign. La regla de combinación de perfiles debe utilizar la opción [!UICONTROL Last Authenticated Profile], de modo que todos los perfiles autenticados se puedan incluir en las exportaciones. Si la regla de combinación de perfiles usa una opción diferente, cambie a [!UICONTROL Last Authenticated Profile].
 2. Seleccione la fuente de datos de ID declarado de Adobe Campaign en la configuración de la regla de combinación de perfiles.

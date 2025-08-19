@@ -1,9 +1,9 @@
 ---
-description: En esta sección se describen y explican los procesos relacionados con la introducción a Audience Manager Data Management Platform (DMP). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
+description: En esta sección se describen y explican los procesos relacionados con la introducción a la plataforma de administración de datos de Audience Manager (DMP). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación de Audience Manager. Para empezar a usar Audience Manager, puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Audience Manager de implementación
+title: Implementación de Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Audience Manager de implementación {#implementing-audience-manager}
+# Implementación de Audience Manager {#implementing-audience-manager}
 
-En esta sección se describen y explican los procesos relacionados con la plataforma de administración de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación del Audience Manager. La introducción a Audience Manager puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
+En esta sección se describen y explican los procesos relacionados con la plataforma de administración de datos de Audience Manager ([!DNL DMP]). Esta sección está diseñada para ayudar a los equipos empresariales, los jefes de proyecto y los administradores de tecnología a comprender el proceso de implementación de Audience Manager. Para empezar a usar Audience Manager, puede tardar entre seis semanas y tres meses, según sus necesidades de recopilación de datos.
 
 Nuestras técnicas de implementación ayudan a crear asociaciones consultivas con nuevos clientes. Este proceso está diseñado para:
 
 * Descubra y comprenda sus necesidades empresariales;
 * Elaborar un plan procesable para hacer frente a esas demandas;
 * Desarrollar soluciones personalizadas para ayudar a cumplir con requisitos únicos o casos de uso;
-* Asegúrese de que los datos propietarios se importen y se pongan a disposición del Audience Manager.
+* Asegúrese de que los datos de propiedad se importan y se ponen a disposición en Audience Manager.
 
 Nuestros equipos de soluciones de socios y administración de cuentas trabajarán estrechamente con usted antes, durante y después del proceso de implementación.
 
-El Audience Manager adopta un enfoque gradual para la configuración y la implementación.
+Audience Manager adopta un enfoque por fases para la configuración y la implementación.
 
 ## Definir fase {#define-phase}
 
@@ -117,7 +117,7 @@ En la tabla siguiente se describen las actividades clave que tienen lugar durant
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Buscar destinos </td> 
-   <td colname="col2"> DSP Descubra si el cliente envía datos a otros servidores de publicidad, redes o intercambios de datos, entre otros, o si realiza alguna de estas acciones: </td> 
+   <td colname="col2"> Descubra si el cliente envía datos a otros servidores de publicidad, DSP, redes o intercambios </td> 
    <td colname="col3"> Equipos empresariales </td> 
   </tr> 
   <tr valign="top"> 
@@ -153,7 +153,7 @@ En la tabla siguiente se describen las actividades clave que tienen lugar durant
 
 | Actividad | Objetivo/Descripción | Participantes |
 |---|---|---|
-| Preparar una estrategia de recopilación de datos | Trabaje con los equipos técnicos del Adobe para crear un plan de recopilación de datos que satisfaga los requisitos empresariales | Equipos técnicos y empresariales |
+| Preparar una estrategia de recopilación de datos | Trabaje con los equipos técnicos de Adobe para crear un plan de recopilación de datos que satisfaga los requisitos empresariales | Equipos técnicos y empresariales |
 | Implementación y prueba del código | Pruebe la solución propuesta en un entorno de ensayo y realice pruebas entre exploradores | Equipos técnicos |
 | Verificar la funcionalidad y resolver errores | Examine y comunique los resultados, resuelva errores y vuelva a realizar la prueba | Equipos técnicos |
 | Formación del usuario | Proporcionar formación y comprensión sobre las funciones, herramientas e informes de Audience Manager | Equipos empresariales |
@@ -162,7 +162,7 @@ Los entregables para esta fase pueden incluir:
 
 * Un plan de recopilación de datos completado y aceptado;
 * Pruebas de extremo a extremo [!DNL QA];
-* Instrucciones básicas sobre las funciones de la interfaz de usuario del Audience Manager;
+* Instrucciones básicas sobre las funciones de la interfaz de usuario de Audience Manager;
 * Aceptación y aprobación.
 
 ## Fase de inicio, asistencia y optimización {#launch-support-optimize-phase}
@@ -220,9 +220,9 @@ Las tareas de esta fase pueden incluir:
 
 ## Implementación del código {#code-implementation}
 
-El Audience Manager utiliza la Data Integration Library ([!DNL DIL]) para recibir datos de audiencia.
+Audience Manager usa Data Integration Library ([!DNL DIL]) para recibir datos de audiencia.
 
-Para obtener instrucciones detalladas sobre cómo usar [!DNL DIL], consulte [Obtención e implementación del código de DIL](../dil/dil-overview.md).
+Para obtener instrucciones detalladas sobre cómo usar [!DNL DIL], consulte [Obtención e implementación del código DIL](../dil/dil-overview.md).
 
 ### Participantes
 
@@ -232,6 +232,6 @@ Las Soluciones para socios pueden trabajar directamente con sus equipos técnico
 
 Nuestros esfuerzos de colaboración no se detienen con el despliegue final. Una vez completada la implementación, nuestro equipo de administración de cuentas asume el cargo.
 
-Los administradores de cuentas proporcionan un soporte continuo y servicios de consulta una vez completado el proceso de implementación del producto. Puede tener reuniones regulares con su administrador de cuentas. Estas reuniones garantizan que obtenga la máxima cantidad de uso y valor de Audience Manager.
+Los administradores de cuentas proporcionan un soporte continuo y servicios de consulta una vez completado el proceso de implementación del producto. Puede tener reuniones regulares con su administrador de cuentas. Estas reuniones garantizan que obtiene la máxima cantidad de uso y valor de Audience Manager.
 
 Póngase en contacto con nosotros [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y comenzar con Audience Manager.

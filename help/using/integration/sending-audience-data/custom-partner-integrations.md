@@ -3,7 +3,7 @@ description: Esta página muestra las integraciones personalizadas entre Audienc
 seo-description: This page lists custom integrations between Audience Manager and data partners.
 seo-title: Custom Partner Integrations
 solution: Audience Manager
-title: Integraciones de socios personalizadas
+title: Integraciones personalizadas de socios
 feature: Third-party Integration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
@@ -13,45 +13,45 @@ ht-degree: 15%
 
 ---
 
-# Integraciones de socios personalizadas {#custom-partner-integrations}
+# Integraciones personalizadas de socios {#custom-partner-integrations}
 
 Esta página muestra las integraciones personalizadas entre Audience Manager y los socios de datos.
 
-## Oracle Data Cloud {#oracle-data-cloud}
+## Nube de datos de Oracle {#oracle-data-cloud}
 
 ### Descripción
 
-Audience Manager ingesta la cookie y los datos de ID móviles de la nube de datos de Orale para Audience Marketplace a través de archivos de datos entrantes. Las especificaciones de integración personalizadas que se describen a continuación solo hacen referencia a archivos de datos de entrada que contienen ID móviles (IDFA e ID de dispositivo Android).
+Audience Manager ingesta la cookie y los datos de ID móviles de la nube de datos de Orale para Audience Marketplace a través de archivos de datos entrantes. Las especificaciones de integración personalizada que se describen a continuación se refieren únicamente a los archivos de datos de entrada que contienen ID móviles (IDFA e ID de dispositivo Android).
 
-### Detalles de integración
+### Detalles de la integración
 
-Los archivos de datos de entrada recibidos de la nube de datos de Oracle difieren de la sintaxis de nombre de archivo de entrada estándar que se describe en [Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de datos de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) y de la sintaxis de contenido de archivo de entrada estándar que se describe en [Contenido del archivo de datos de entrada: sintaxis, caracteres no válidos, variables y ejemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Los Archivos de datos de entrada recibidos de Oracle Data Cloud difieren de la sintaxis estándar de nombre de archivo de entrada descrita en [Amazon Requisitos de nombre y tamaño de Archivo de S3 para la Archivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de datos de entrada y de la sintaxis de contenido de archivo de entrada estándar descrita en [Contenido de Archivo de datos de entrada: Sintaxis, caracteres no válidos, variables y ejemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
-Los elementos que se resaltan a continuación son obligatorios, además de los campos de implementación estándar para los archivos de datos de entrada. Para obtener descripciones de todos los demás campos estándar y elementos de nombre de archivo, consulte Sintaxis del nombre de archivo y Sintaxis del contenido de archivo en las dos páginas vinculadas anteriormente.
+Los elementos resaltados a continuación son obligatorios, además de los campos de implementación estándar para los archivos de datos de entrada. Para obtener descripciones de todos los demás campos estándar y elementos de nombre de archivo, consulte Sintaxis de nombre de Archivo y Sintaxis de contenido de Archivo en las dos páginas vinculadas anteriormente.
 
-### Nomenclatura de archivo
+### Archivo nomenclatura
 
-Los nombres de archivo ODC se estructuran de la siguiente manera:
+Los nombres de archivo ODC se estructuran como:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-El elemento de nombre de archivo `odc` identifica el archivo como importado desde la nube de datos de Oracle e indica al validador de archivos entrantes del Audience Manager que lo procese como tal.
+El `odc` elemento nombre de archivo identifica el archivo como importado de Oracle Data Cloud e indica al validador de archivos de entrada Audience Manager que lo procese como tal.
 
-### Contenido de archivo
+### Contenido Archivo
 
-Los campos del archivo de datos de entrada ODC deben aparecer en el orden indicado a continuación:
+Los campos del archivo de datos de entrada de ODC deben aparecer en el orden que se muestra a continuación:
 
 `<`**`ID type`**`><TAB><user ID><TAB><trait ID>,<trait ID>,<trait ID>,...`
 
-El(la) `ID type` puede ser:
+El `ID type` puede ser:
 
 * IDFA
 * ID de dispositivo Android
 
 >[!IMPORTANT]
 >
->No envíe ID de dispositivos IDFA y Android en el mismo archivo de datos de entrada.
+>No envíe IDFA e ID de dispositivo Android en el mismo archivo de datos de entrada.
 
-## Archivo entrante de ODC de muestra
+## Archivo de entrada ODC de muestra
 
-Descargar [archivo de muestra](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Este archivo califica varios IDFA para el 38838 de ID de rasgo. Puede abrir este archivo en un editor de texto estándar o en un editor de código.
+Descargue el archivo[ de ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync)muestra. Este archivo califica varios IDFA para el ID de rasgo 38838. Puede abrir este archivo en una editor de texto estándar o en una editor de código.

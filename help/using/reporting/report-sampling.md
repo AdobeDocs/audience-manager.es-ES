@@ -20,7 +20,7 @@ Resumen de la metodología de muestreo utilizada para algunos informes, tasas de
 
 ## Proporción de muestreo de datos {#data-sampling-ratio}
 
-Algunos informes de [!DNL Audience Manager] muestran los resultados basándose en un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos muestreados es de 1:54. En el caso de los informes que utilizan datos de ejemplo, los resultados se basan en 1 registro de cada conjunto de 54 registros.
+Algunos informes de [!DNL Audience Manager] muestran los resultados basándose en un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos muestreados es 1:54. En el caso de los informes que utilizan datos de ejemplo, los resultados se basan en 1 registro de cada conjunto de 54 registros.
 
 Estos informes utilizan datos estadísticos muestreados porque necesitan una enorme cantidad de potencia de cálculo para generar resultados. El muestreo ayuda a lograr un equilibrio entre la reducción de las demandas informáticas, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
 
@@ -88,4 +88,4 @@ Reports that use Minhash sampling methodology:
 |--- |--- |
 | Datos de [Audiencia direccionable](../features/addressable-audiences.md) (datos de nivel de cliente y de segmento). | [Informes de superposición](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (de característica a característica, de segmento a característica y de segmento a segmento) |
 | La métrica [Dispositivos totales](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para un(a) [!UICONTROL Profile Merge Rule]. | [Recomendaciones de rasgos](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa datos muestreados en la ficha [!UICONTROL Search] y en cualquier [!UICONTROL Saved Searches] | [Recommendations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa datos muestreados en la ficha [!UICONTROL Search] y en cualquier [!UICONTROL Saved Searches] | [Recomendaciones de Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

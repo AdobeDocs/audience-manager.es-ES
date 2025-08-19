@@ -1,5 +1,5 @@
 ---
-description: Recupera un valor específico de un servidor de publicidad.
+description: Recupera un valor específico de un servidor de anuncios.
 seo-description: Retrieves a specific value from an ad server.
 seo-title: dexGetQSVars
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
+>A partir de julio de 2023, Adobe Systems ha interrumpido el desarrollo de la [!DNL Data Integration Library (DIL)] y la [!DNL DIL] extensión.
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando sus [!DNL DIL] implementación. Sin embargo, Adobe Systems no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web según su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos después de julio de 2023 deberían usar [Experience Platform SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) web.
 
-Recupera un valor específico de un servidor de publicidad.
+Recupera un valor específico de un servidor de anuncios.
 
 **Firma de función:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
@@ -38,13 +38,13 @@ r_dil_get_dexqsvars.xml
 
 | Nombre | Tipo | Descripción |
 |---|---|---|
-| `variableName` | Cadena | Nombre de la variable para la que desea obtener un valor. |
-| `partner` | Cadena | El nombre del socio que se va a buscar. |
-| `containerNSID` | Número entero | El [!DNL NSID] del contenedor que está buscando. El valor predeterminado es `0`. |
+| `variableName` | Cadena | Nombre de la variable para la que quiere obtener un valor. |
+| `partner` | Cadena | Nombre socio al que búsqueda. |
+| `containerNSID` | Número entero | El [!DNL NSID] de la contenedor que estás buscando. El valor predeterminado es `0`. |
 
 **Respuesta**
 
-Devuelve el valor de la variable para una instancia de [!UICONTROL DIL].
+Devuelve el valor variable de un [!UICONTROL DIL] instancia.
 
 **Código de ejemplo**
 

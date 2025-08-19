@@ -148,7 +148,7 @@ Las opciones de facturación y precio controlan el modo en que los compradores p
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> unidad de medida</span></b> </td> 
-   <td colname="col2">Cobra a los compradores de datos una tarifa CPM o una tarifa plana. 
+   <td colname="col2">Cargar a los compradores de datos una tarifa fija o de CPM. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Con los precios de CPM, los compradores de datos deben informar sobre el uso de forma automática. </li> 
      <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Con un precio fijo, los compradores de datos no informan del uso porque se les cobra una tarifa fija. </li> 
@@ -156,7 +156,7 @@ Las opciones de facturación y precio controlan el modo en que los compradores p
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Precio</span></b> </td>
-   <td colname="col2"> El importe que un vendedor cobra al comprador como tarifa CPM o precio fijo de la tarifa, en dólares. </td>
+   <td colname="col2"> El importe que un vendedor cobra al comprador como tarifa CPM o precio fijo, expresado en dólares. </td>
   </tr> 
  </tbody> 
 </table>

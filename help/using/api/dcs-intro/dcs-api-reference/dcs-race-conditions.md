@@ -27,7 +27,7 @@ Se puede producir una condición de carrera si envía varias llamadas simultáne
 
 ## Limitación de velocidad {#rate-limiting}
 
-El Adobe de puede introducir una limitación de velocidad si detecta llamadas de API de DCS excesivas que podrían tener un impacto negativo en la disponibilidad del servicio.
+Adobe puede introducir una limitación de velocidad si detecta llamadas de API de DCS excesivas que podrían tener un impacto negativo en la disponibilidad del servicio.
 
 Si la limitación de velocidad está habilitada, podría recibir un código de estado de respuesta HTTP `429 Too Many Requests` en sus llamadas DCS. Cuando reciba esta respuesta HTTP, vuelva a intentar las llamadas a la API más adelante.
 
@@ -35,7 +35,7 @@ Si la limitación de velocidad está habilitada, podría recibir un código de e
 
 El control de errores es limitado para consultas no válidas o mal formadas. Una solicitud no válida devuelve una respuesta `HTTP 200 OK` y ningún dato. Además, [!DNL DCS] detiene el procesamiento de una solicitud, descarta los datos de características y devuelve una respuesta `HTTP 200 OK` cuando un usuario:
 
-* Excluye el seguimiento en el nivel de Audience Manager o socio.
+* Excluye el seguimiento en el nivel de Audience Manager o de socio.
 * Proviene de una región geográfica no válida o no seleccionada.
 * Deshabilita las cookies del explorador (todas o de terceros).
 

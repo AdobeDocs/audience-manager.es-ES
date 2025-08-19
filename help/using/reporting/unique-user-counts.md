@@ -30,7 +30,7 @@ Los informes de superposición cuentan a los usuarios como únicos cuando cumple
 
 * Durante el intervalo seleccionado para el informe.
 * Tiene un valor [time-to-live](../features/traits/segment-ttl-explained.md) superior al intervalo de tiempo seleccionado para el informe.
-* Si se les ve como activos en nuestro sistema (es decir, calificados para cualquier otro rasgo, tenían una sincronización de ID, etc.) en los últimos 60 días.
+* Si se les ve como activos en nuestro sistema (es decir, cualificados para cualquier otro rasgo, han tenido una sincronización de ID, etc.) en los últimos 60 días.
 
 ## Informe general: Recuento de usuarios únicos
 

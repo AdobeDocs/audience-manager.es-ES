@@ -24,13 +24,13 @@ El proceso saliente de transferencia de datos en tiempo real envía datos de usu
 
 Para utilizar este método, la plataforma de destino debe cumplir los siguientes requisitos:
 
-* Debe proporcionar un extremo [!DNL URL] que se pueda escalar para recibir un gran volumen de mensajes del Audience Manager;
+* Debe proporcionar un extremo [!DNL URL] que se pueda escalar para recibir un gran volumen de mensajes de Audience Manager;
 * Debe aceptar datos en formato [!DNL JSON] (`Content-type: application/json`);
 * Debe aceptar transferencias de datos seguras de `HTTPS`. [!DNL Audience Manager] no enviará mensajes a través del protocolo no seguro `HTTP`.
 
 ## Frecuencia
 
-Este método de transferencia de datos puede enviar datos en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Los mensajes en tiempo real solo se envían mientras el usuario está en línea y es visible de forma activa en la red de Audience Manager Edge. De forma opcional, este método también puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
+Este método de transferencia de datos puede enviar datos en tiempo casi real a medida que los usuarios cumplen los requisitos para los segmentos. Los mensajes en tiempo real solo se entregan mientras el usuario está en línea y es visible de forma activa en la red Edge de Audience Manager. De forma opcional, este método también puede enviar lotes de datos sin conexión o incorporados con la misma frecuencia que cada 24 horas.
 
 ## Transferencias por lotes
 
@@ -80,7 +80,7 @@ En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>ID del objeto "destination" del Audience Manager. Este ID se origina desde el Audience Manager.</p> </td> 
+   <td colname="col3"> <p>ID del objeto "destination" de Audience Manager. Este ID se origina desde Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -95,7 +95,7 @@ En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Cadena </p> </td> 
-   <td colname="col3"> <p>El UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col3"> <p>El UUID <span class="keyword"> de Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> El ID de región <span class="keyword"> Audience Manager</span> en el que hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID de región de DCS, ubicaciones y nombres de host</a>. </td> 
+   <td colname="col3"> El ID de región Audience Manager<span class="keyword"> </span> donde hemos visto este dispositivo. Por ejemplo, si el dispositivo tuviera alguna actividad en París (Europa), el ID de región sería <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID de región de DCS, ubicaciones y nombres de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -115,7 +115,7 @@ En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Número entero </p> </td> 
-   <td colname="col3"> <p>El identificador del segmento. En la mayoría de los casos, este es el ID del segmento generado por el Audience Manager (un número entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador del segmento en la interfaz de usuario del Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
+   <td colname="col3"> <p>El identificador del segmento. En la mayoría de los casos, este es el ID del segmento generado por Audience Manager (un número entero). En algunos casos, si la plataforma de destino lo permite, los clientes pueden definir el identificador del segmento en la interfaz de usuario de Audience Manager (campo de texto abierto), que luego se reflejaría en esta propiedad. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
@@ -130,7 +130,7 @@ En la tabla siguiente se definen los elementos del archivo de datos [!DNL JSON] 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Se eliminó de un segmento en función del intervalo de duración <a href="../../../features/traits/segment-ttl-explained.md"> del segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se mueve a un estado inactivo si no se han visto en los últimos 120 días. </li>
      <li>Se eliminó debido a una solicitud de cambio de privacidad (es decir, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Todos los identificadores de socio sincronizados con un identificador de Audience Manager <span class="keyword"> </span> recibirán el marcador <code> "Status":"0"</code> cuando un usuario no esté segmentado. </p> </td> 
+    </ul> <p>Todos los identificadores de socio sincronizados con un identificador Audience Manager<span class="keyword"> de </span> recibirán el marcador <code> "Status":"0"</code> cuando un usuario no esté segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 

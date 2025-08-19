@@ -1,5 +1,5 @@
 ---
-description: El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su Audience Manager de Soluciones para socios si está interesado en utilizar el entorno beta.
+description: El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
 keywords: espacio aislado
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Entorno de Beta {#beta-environment}
 
-El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su Audience Manager de Soluciones para socios si está interesado en utilizar el entorno beta.
+El entorno beta sirve para probar la implementación de Audience Manager. Los cambios realizados en la versión beta no afectan a los datos de producción. Póngase en contacto con su representante de soluciones de socios de Audience Manager si está interesado en utilizar el entorno beta.
 
 ## Información general
 
@@ -29,7 +29,7 @@ El entorno beta se actualiza al final de cada mes durante las horas de menor act
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que los datos de clientes ([señales, características y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=es)) no se sincronizan entre los entornos de producción y beta.
+>Tenga en cuenta que los datos de clientes ([señales, características y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) no se sincronizan entre los entornos de producción y beta.
 
 ## Tráfico entrante
 
@@ -47,7 +47,7 @@ El tráfico saliente no está habilitado para el entorno beta.
 
 | Servicio | URL/Nombre de host | Cómo obtener acceso |
 |--- |--- | --- |
-| S3 | Póngase en contacto con su Audience Manager de Soluciones para socios o con el Servicio de atención al cliente | Póngase en contacto con su Audience Manager de Soluciones para socios o con el Servicio de atención al cliente para configurar un contenedor de Amazon S3 para su instancia beta. Obtenga información sobre las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
+| S3 | Póngase en contacto con su representante de soluciones para socios de Audience Manager o con el Servicio de atención al cliente | Póngase en contacto con su representante de soluciones de socios de Audience Manager o con el Servicio de atención al cliente para configurar un contenedor de Amazon S3 para su instancia beta. Obtenga información sobre las [ventajas de usar Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acceso al DCS en el entorno de Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Las credenciales del entorno de producción son válidas para el entorno beta. |
 | API | `https://api-beta.demdex.com/...` | Las credenciales del entorno de producción son válidas para el entorno beta. Le recomendamos que cree un usuario de API genérico, [vea los detalles](../api/rest-api-main/aam-api-getting-started.md#requirements). |

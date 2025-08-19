@@ -1,5 +1,5 @@
 ---
-description: La calificación de características, o la realización de características, se tratan de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la clasificación de rasgos.
+description: La calificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte la tabla siguiente para obtener información detallada sobre la clasificación de rasgos.
 keywords: Calificación de características, Realización de características, Realizaciones de características únicas, UTR, Población total de características, TTP
 seo-description: Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 seo-title: Trait Qualification Reference
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Referencia de calificación de rasgos y segmentos {#trait-qualification-reference}
 
-La calificación de características, o la realización de características, se tratan de forma diferente en Audience Manager, según el tipo de característica. Consulte [Calificación de características por tipo de característica](#trait-type) para obtener más información sobre la calificación de tipos de características.
+La calificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte [Calificación de características por tipo de característica](#trait-type) para obtener más información sobre la calificación de tipos de características.
 
 Además, consulte [Propagación de segmentos en tiempo real y Propagación de segmentos total](#real-time-segment) para obtener detalles sobre la calificación de segmentos.
 
@@ -28,7 +28,7 @@ Además, consulte [Propagación de segmentos en tiempo real y Propagación de se
 | Tipo de rasgo | Criterios de calificación |
 |---|---|
 | Características basadas en reglas | La calificación de características se produce en tiempo real, a medida que los usuarios cumplen los requisitos para una característica en su explorador. Los usuarios comenzarán a calificar para un rasgo basado en reglas aproximadamente 4 horas después de que [cree el rasgo](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) en la interfaz de usuario. Los rasgos basados en reglas permiten usar los controles de [actualización y frecuencia](../segments/recency-and-frequency.md) para la restricción de frecuencia de anuncio y otros casos de uso. |
-| Características integradas | La calificación de características se produce después de procesar un archivo de entrada; es decir, el archivo de entrada se [importa en el Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es entonces cuando se produce la calificación de características. Debe esperar aproximadamente 4 horas después de crear un rasgo incorporado antes de cargar un archivo de entrada para procesarlo. Para los rasgos integrados, el número máximo de clasificaciones para un perfil de usuario es 1. |
+| Características integradas | La calificación de características se produce después de procesar un archivo de entrada; es decir, el archivo de entrada se [importa en Audience Manager](../../faq/faq-inbound-data-ingestion.md) y es entonces cuando se produce la calificación de características. Debe esperar aproximadamente 4 horas después de crear un rasgo incorporado antes de cargar un archivo de entrada para procesarlo. Para los rasgos integrados, el número máximo de clasificaciones para un perfil de usuario es 1. |
 | Características algorítmicas | Para rasgos algorítmicos, el número máximo de clasificaciones para un perfil de usuario es 1. |
 | Características de carpeta | Un rasgo de carpeta resume las clasificaciones de rasgos de los rasgos que contiene. Lea [Características de carpeta: Acerca de](about-folder-traits.md) para obtener más información. |
 | Características de audiencia activa y características sincronizadas de datos de Source | Un rasgo de [!UICONTROL Active Audience] contiene todos los dispositivos que se están administrando en su cuenta de Audience Manager. [!UICONTROL Data Source Synced Traits] hace un seguimiento de todos los usuarios asociados a un origen de datos. Más información sobre [Características de audiencia activa y características sincronizadas de datos de Source](client-activity-synced-audience-traits.md). |

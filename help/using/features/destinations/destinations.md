@@ -12,13 +12,13 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
 # Información general de [!UICONTROL Destinations] {#destinations}
 
-En el Audience Manager, [!UICONTROL destination] es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que se desea compartir datos. [!UICONTROL Destination Builder] es la herramienta que usó para crear y administrar [!UICONTROL cookie], [!DNL URL] o [!UICONTROL server-to-server destinations].
+En Audience Manager, [!UICONTROL destination] es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que desee compartir datos. [!UICONTROL Destination Builder] es la herramienta que usó para crear y administrar [!UICONTROL cookie], [!DNL URL] o [!UICONTROL server-to-server destinations].
 
 ## Finalidad y ventajas {#purposes}
 
@@ -26,7 +26,7 @@ En el Audience Manager, [!UICONTROL destination] es cualquier sistema de tercero
 
 [!UICONTROL Destinations] y [!UICONTROL Destination Builder] le permiten crear [!UICONTROL destinations] y enviar información sobre usuarios segmentados a su socio de datos. Esto le ayuda a:
 
-* **Valor de datos de Protect:** En lugar de enviar todos los datos de usuario a [!UICONTROL destination], [!UICONTROL Destination Builder] le permite compartir información específica únicamente sobre usuarios calificados.
+* **Proteger valor de los datos:** En lugar de enviar todos los datos de usuario a un [!UICONTROL destination], [!UICONTROL Destination Builder] le permite compartir información específica únicamente sobre usuarios calificados.
 * **Tome medidas con sus datos:** El envío de datos a un socio de [!UICONTROL destination] les ayuda a desarrollar y segmentar audiencias calificadas de forma rápida.
 * **Reducir la sobrecarga técnica:** Los usuarios empresariales pueden configurar [!UICONTROL destinations] de forma segura en la interfaz [!UICONTROL Destination Builder]. Esto ayuda a reducir el tiempo necesario para las pruebas previas a la implementación. Con [!UICONTROL Destination Builder], crea, administra y elimina [!UICONTROL destinations] a medida que cambian sus necesidades comerciales, todo sin pasar por un largo ciclo de desarrollo.
 

@@ -1,5 +1,5 @@
 ---
-description: Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
+description: Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
 seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 seo-title: Taxonomic API Methods
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Métodos taxonómicos API {#taxonomic-api-methods}
 
-Métodos que permiten ver la taxonomía común del Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
+Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.
 
 <!-- c_rest_api_taxonomy.xml -->
 

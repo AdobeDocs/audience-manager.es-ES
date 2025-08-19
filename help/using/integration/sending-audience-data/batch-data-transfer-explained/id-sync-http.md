@@ -1,5 +1,5 @@
 ---
-description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los identificadores de usuario entre un proveedor y un Audience Manager. La sincronización de ID puede comenzar después de enviar la taxonomía de datos al Audience Manager.
+description: Describe la sintaxis y los parámetros utilizados en la llamada HTTP inicial para sincronizar los identificadores de usuario entre un proveedor y Audience Manager. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a Audience Manager.
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
 seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
@@ -50,7 +50,7 @@ La [!DNL URL] de su llamada de sincronización de ID entrante debe contener vari
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>ID único del proveedor de contenido (asignado por el Audience Manager <span class="keyword"> </span>). </p> </td> 
+   <td colname="col2"> <p>ID único del proveedor de contenido (asignado por <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
@@ -62,11 +62,11 @@ La [!DNL URL] de su llamada de sincronización de ID entrante debe contener vari
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Agregue este parámetro si está utilizando el complemento de Audience Manager <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">para IAB TCF.</a></p> <p><code> gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Opcional. Agregue este parámetro si está usando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> puede ser 0 (no se aplica el RGPD) o 1 (se aplica el RGPD). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Agregue este parámetro si está utilizando el complemento de Audience Manager <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento RGPD con codificación URL base64 (consulte <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Opcional. Agregue este parámetro si está usando el complemento <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> es la cadena de consentimiento RGPD con codificación URL base64 (consulte <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> especificación IAB</a>). </p> <p> <b>Nota:</b> Este parámetro solo se puede usar junto con <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

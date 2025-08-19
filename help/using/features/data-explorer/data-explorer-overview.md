@@ -1,5 +1,5 @@
 ---
-description: Utilice la Data Explorer para sacar el máximo partido a las audiencias históricas creando rasgos basados en señales utilizadas y no utilizadas y rellenándolas con datos históricos para evitar la posible pérdida de audiencias relevantes.
+description: Utilice Data Explorer para sacar el máximo partido a las audiencias históricas mediante la creación de rasgos basados en señales utilizadas y no utilizadas y rellenándolas con datos históricos para evitar la posible pérdida de audiencias relevantes.
 seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 seo-title: Overview, Benefits, and Use Cases
 title: Información general, beneficios y casos de uso
@@ -39,14 +39,14 @@ Use [!UICONTROL Data Explorer] para optimizar la creación de audiencias de vari
 
 ### Ejemplo 1
 
-Un minorista global de electrónica tiene un gran volumen de tráfico de visitantes, pero las tasas de conversión son inferiores a las esperadas, aunque han optimizado el contenido para varias plataformas. Utilizando el [Tablero de señales](../../features/data-explorer/data-explorer-signals-dashboard.md), identifican un gran volumen de señales no utilizadas, lo que indica que los visitantes están buscando una marca de electrónica específica que no esté disponible en este momento. La compañía puede aprovechar esta perspectiva actualizando sus existencias y dirigiéndose a esos visitantes con campañas personalizadas.
+Un retailer de electrónica global tiene un gran volumen de tráfico de visitantes, pero las tasas de conversión son más bajas de lo esperado, aunque ha optimizado el contenido para varias plataformas. Utilizando el [Tablero de señales](../../features/data-explorer/data-explorer-signals-dashboard.md), identifican un gran volumen de señales no utilizadas, lo que indica que los visitantes están buscando una marca de electrónica específica que no esté disponible en este momento. La compañía puede aprovechar esta insight actualizando sus existencias y dirigiéndose a esos visitantes con campañas personalizadas.
 
 ### Ejemplo 2
 
 Cuando un proveedor de servicios de viajes añade nuevos destinos a su sitio web de reservas, quiere anunciarlos a audiencias históricas, aunque no tiene ningún rasgo creado para ellos. Pueden usar la búsqueda de señales para identificar las señales no utilizadas relacionadas con los nuevos destinos, incluirlas en los nuevos rasgos y [rellenarlas](../../features/data-explorer/data-explorer-trait-backfill.md) con las realizaciones históricas. A continuación, cree nuevos segmentos con las nuevas características y diríjase inmediatamente a ellas con campañas dedicadas.
 
-### Uso de la Data Explorer para validar la creación de características para los datos incorporados
+### Uso de Data Explorer para validar la creación de características para los datos incorporados
 
 Una de las funciones más potentes de Audience Manager es la capacidad de incorporar datos sin conexión y vincularlos con los datos en línea. En el siguiente vídeo, aprenderá a usar [!UICONTROL Data Explorer] para validar que ha creado todos los rasgos necesarios para aprovechar estos datos incorporados.
 
->[!VIDEO](https://video.tv.adobe.com/v/330351?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

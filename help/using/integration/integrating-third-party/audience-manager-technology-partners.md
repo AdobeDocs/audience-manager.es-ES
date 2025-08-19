@@ -1,5 +1,5 @@
 ---
-description: Esta página incluye únicamente las integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobes Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el Servicio de atención al cliente.
+description: Esta página incluye únicamente las integraciones actuales de servidor a servidor. Para obtener más información sobre una integración, consulte su lista de Adobe Exchange (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el Servicio de atención al cliente.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: activación; socios de activación, destino, destinos
@@ -16,15 +16,15 @@ ht-degree: 43%
 
 # Socios de activación de Audience Manager
 
-Esta página incluye solamente las integraciones de servidor a servidor [del Audience Manager actual](/help/using/features/destinations/add-edit-segments.md).  Para obtener más información sobre una integración, consulte su listado de [Adobes Exchange](https://www.adobeexchange.com/experiencecloud.html) (donde esté disponible) o póngase en contacto con su consultor de Adobe o con el Servicio de atención al cliente.
+Esta página incluye solamente las [integraciones de servidor a servidor](/help/using/features/destinations/add-edit-segments.md) actuales de Audience Manager.  Para obtener más información sobre una integración, consulte su listado de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (cuando esté disponible) o póngase en contacto con su consultor de Adobe o con el Servicio de atención al cliente.
 
 <br> 
 
 * **Actualizado** = Muestra la última fecha en que se produjo una actualización para este socio de activación.
-* **Anular la segmentación** = La eliminación de la segmentación describe procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. La posibilidad de quitar un perfil de dispositivo de un segmento depende de la opción de dispositivo que se use para crear una regla de combinación de perfiles. La eliminación de la segmentación también se usa en el contexto de las solicitudes de eliminación del RGPD. Lea [Reglas de combinación de perfiles y procesos de eliminación de la segmentación de dispositivos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) y [Socios Audience Manager con capacidades de eliminación de la segmentación](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). El Audience Manager envía información sin segmentar a los destinos marcados con Sí a continuación.
-* **Recepción de señales de consentimiento TCF de IAB** = El complemento Audience Manager para TCF de IAB le permite reenviar la cadena IAB TC a los socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Leer [complemento de Audience Manager para IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Anular la segmentación** = La eliminación de la segmentación describe procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. La posibilidad de quitar un perfil de dispositivo de un segmento depende de la opción de dispositivo que se use para crear una regla de combinación de perfiles. La eliminación de la segmentación también se usa en el contexto de las solicitudes de eliminación del RGPD. Lea [Reglas de combinación de perfiles y procesos de eliminación de la segmentación de dispositivos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) y [Audience Manager se asocia con capacidades de eliminación de la segmentación](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager envía información sin segmentar a los destinos marcados con Sí a continuación.
+* **Recepción de señales de consentimiento TCF de IAB** = El complemento de Audience Manager para IAB TCF le permite reenviar la cadena IAB TC a los socios de activación, respetando al mismo tiempo las opciones de privacidad de los usuarios. Leer [complemento de Audience Manager para el TCF de IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = En esta columna se enumeran los socios que admiten la eliminación instantánea entre dispositivos. Leer [Eliminación instantánea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID de dispositivos móviles** = Esta columna enumera los socios que pueden recibir ID de dispositivos móviles del Audience Manager.
+* **ID de dispositivos móviles** = Esta columna enumera los socios que pueden recibir ID de dispositivos móviles de Audience Manager.
 
 <br> 
 
@@ -157,7 +157,7 @@ Esta página incluye solamente las integraciones de servidor a servidor [del Aud
 | TubeMogul | 03/03/2017 | Sí | No | Sí | No |
 | Turno / Amobee | 03/03/2027 | No | No | No | Sí |
 | Twenga | 29/10/2018 | Sí | No | No | No |
-| Twitter de audiencias personalizadas | 27/03/2017 | Sí | No | Sí | No |
+| Audiencias personalizadas de Twitter | 27/03/2017 | Sí | No | Sí | No |
 | Cláusula | 07/11/2017 | No | No | No | No |
 | Feroz | 06/15/2017 | Sí | No | No | Sí |
 | VideoAmp | 03/03/2017 | No | No | No | No |

@@ -43,7 +43,7 @@ Utilice el cuadro desplegable **[!UICONTROL Segment]** para seleccionar qué seg
 
 >[!IMPORTANT]
 >
->Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en el Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacerlo, puede asegurarse de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar de como [!UICONTROL Line Item ID].
+>Al habilitar [!UICONTROL Audience Optimization for Publishers], debe incluir metadatos descriptivos para [!UICONTROL Line Item IDs], como se describe en el paso 3 de [Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Al hacerlo, puede asegurarse de que el informe detalle la propiedad web como [!UICONTROL Line Item] en lugar de como [!UICONTROL Line Item ID].
 
 ## Interpretación de los resultados {#interpreting-results}
 
@@ -85,7 +85,7 @@ Su informe [!UICONTROL Segment Performance] podría ser similar al que se muestr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Propagación de segmentos en tiempo real </p> </td> 
-   <td colname="col2"> <p>El número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que fueron calificados para el segmento en el momento en que fueron vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>La cantidad real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que fueron calificados para el segmento en el momento en que fueron vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

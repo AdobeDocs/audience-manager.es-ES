@@ -3,7 +3,7 @@ description: Antes de que Audience Manager pueda habilitar Audience Optimization
 seo-description: Before Audience Manager can enable Audience Optimization for Publishers, you must ensure that all prerequisites outlined in this article are met. Contact Customer Care after checking off all prerequisites.
 seo-title: Import Google Ad Manager Data Files Into Audience Manager
 solution: Audience Manager
-title: Importar Archivos De Datos De Google Ad Manager En Audience Manager
+title: Importación De Archivos De Datos De Google Ad Manager En Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ---
 
-# Importar archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager{#import-dfp-data-files-into-audience-manager}
+# Importación de archivos de datos de Google Ad Manager (anteriormente DFP) en Audience Manager{#import-dfp-data-files-into-audience-manager}
 
 Antes de que Audience Manager pueda habilitar Audience Optimization for Publishers, debe comprobar que se cumplan todos los requisitos descritos previamente en este artículo. Una vez que haya verificado que cumpla dichos requisitos, póngase en contacto con el servicio de atención al cliente.
 
@@ -32,7 +32,7 @@ A continuación se indica cómo establecer el ID [!DNL Audience Manager] en la l
 Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabajar con la asesoría de [!DNL Audience Manager] para comprobar si todo funciona. Ha establecido el ID [!DNL Audience Manager] correctamente si:
 
 * `'aamid'` es la clave utilizada como identificador.
-* El valor de ID de usuario tiene el formato correcto de UUID [!DNL Audience Manager], tal como se describe en nuestro [Índice de ID en el Audience Manager](../../../reference/ids-in-aam.md).
+* El valor de ID de usuario tiene el formato correcto de UUID [!DNL Audience Manager], tal como se describe en nuestro [Índice de ID en Audience Manager](../../../reference/ids-in-aam.md).
 * Ha incluido el UUID [!DNL Audience Manager] en un campo definido en sus registros de [!DNL Google Ad Manager] (por ejemplo, Segmentación personalizada).
 
 ## Requisitos previos para la activación de ingesta de registros {#prereqs-ingestion-enablement}
@@ -48,8 +48,8 @@ Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabaja
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Paso 1 </p> </td> 
-   <td colname="col2"> <p>Confirme que los pasos necesarios para establecer el UUID </span> de Audience Manager <span class="keyword"> (descritos anteriormente) se han completado antes de pasar al paso 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Servicio de atención al cliente o asesoría </p> </td> 
+   <td colname="col2"> <p>Confirme que los pasos necesarios para establecer el UUID <span class="keyword"> de Audience Manager</span> (descritos anteriormente) se han completado antes de pasar al paso 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Servicio de atención al cliente o asesoría de Audience Manager</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 2 </p> </td> 
@@ -82,8 +82,8 @@ Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabaja
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 6 </p> </td> 
-   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=es">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
-   <td colname="col3"> <p>Usted o <span class="keyword"> Audience Manager</span> que asesora a nombre suyo </p> </td> 
+   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
+   <td colname="col3"> <p>Usted o <span class="keyword"> asesoría de Audience Manager</span> a nombre suyo </p> </td> 
   </tr> 
  </tbody> 
 </table>

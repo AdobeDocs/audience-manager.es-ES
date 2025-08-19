@@ -57,7 +57,7 @@ El estado de un grupo de prueba puede ser activo, programado, pausado, en borrad
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> activo </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>active</i> significa que los datos se están enviando a los destinos. Pulse <b><span class="uicontrol"> Pausar prueba </span></b> en la tarjeta del grupo de prueba </span></b> de <b><span class="uicontrol"> para suspender el envío de datos a los destinos. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>active</i> significa que los datos se están enviando a los destinos. Pulse <b><span class="uicontrol"> Pausar prueba </span></b> en la tarjeta del grupo de prueba <b><span class="uicontrol"> de </span></b> para suspender el envío de datos a los destinos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> programado </span></b> </p> </td> 
@@ -65,7 +65,7 @@ El estado de un grupo de prueba puede ser activo, programado, pausado, en borrad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> pausó </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos actualmente a los destinos. Pulse <b><span class="uicontrol"> Hacer activo </span></b> en la tarjeta del grupo de prueba </span></b> de <b><span class="uicontrol"> para reanudar el envío de características. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos actualmente a los destinos. Pulse <b><span class="uicontrol"> Hacer activo </span></b> en la tarjeta del grupo de prueba <b><span class="uicontrol"> de </span></b> para reanudar el envío de características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> borrador </span></b> </p> </td> 

@@ -20,7 +20,7 @@ La eliminación en lote permite eliminar varios segmentos, rasgos, carpetas, se�
 
 >[!IMPORTANT]
 >
->Las herramientas de administración masiva no son una oferta de Adobe oficialmente admitida. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
+>Las herramientas de administración masiva no son una oferta de Adobe oficialmente compatible. La resolución de problemas y la asistencia técnica a través del Servicio de atención al cliente se gestionarán caso por caso.
 
 <!-- 
 

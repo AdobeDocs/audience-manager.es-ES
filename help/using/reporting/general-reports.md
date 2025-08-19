@@ -129,7 +129,7 @@ Las métricas siguientes están disponibles cuando ejecuta un informe General y 
 
 ### Propagación de segmentos en tiempo real
 
-Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que fueron vistos por el Audience Manager.
+Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que Audience Manager los vio.
 
 ### Propagación total de segmentos
 
@@ -149,7 +149,7 @@ Las métricas siguientes están disponibles cuando ejecuta un informe General y 
 
 **Propagación de segmentos en tiempo real**
 
-Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que fueron vistos por el Audience Manager.
+Esta métrica representa el número real de visitantes únicos vistos en tiempo real durante el intervalo de tiempo especificado y que estaban cualificados para el segmento en el momento en que Audience Manager los vio.
 
 **Propagación total de segmentos**
 

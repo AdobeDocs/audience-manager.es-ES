@@ -28,7 +28,7 @@ Los detalles técnicos de la eliminación de la segmentación en tiempo real se 
 
 ## No segmentar una vez convertido {#do-not-target-once}
 
-Asegúrese de que los usuarios que ya se han convertido (han adquirido un producto, una suscripción, etc.) no verá los mismos mensajes que antes de la conversión. Puede obtenerla mediante la lógica [!UICONTROL AND NOT], de la siguiente manera.
+Asegúrese de que los usuarios que ya se hayan convertido (hayan comprado un producto, adquirido una suscripción, etc.) no vean los mismos mensajes que antes de la conversión. Puede obtenerla mediante la lógica [!UICONTROL AND NOT], de la siguiente manera.
 
 1. Cree un segmento con dos características y use la lógica [!UICONTROL AND NOT], como se muestra en la siguiente imagen. Debe utilizar un rasgo basado en reglas para definir el evento de conversión para que la eliminación de la segmentación se active en tiempo real. Obtenga más información sobre cómo [crear características basadas en reglas](../traits/create-onboarded-rule-based-traits.md).
 2. Asigne el segmento a cualquier número de destinos de servidor a servidor en tiempo real. Más información sobre cómo agregar segmentos a [destinos de servidor a servidor](../destinations/add-edit-segments.md).

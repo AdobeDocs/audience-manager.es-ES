@@ -18,7 +18,7 @@ ht-degree: 98%
 
 Preguntas frecuentes sobre los archivos de Fuente de datos de clientes (CDF).
 
-## Almacenamiento de Amazon S3 {#amazon-s3-storage}
+## Amazon almacenamiento S3 {#amazon-s3-storage}
 
 **¿Dónde se almacena mi archivo CDF en [!DNL Amazon]?**
 
@@ -50,7 +50,7 @@ Consulte [Notificaciones sobre procesamiento de archivos de fuentes de datos de 
 
 <br> 
 
-## Tamaños de archivo {#file-sizes}
+## Tamaños Archivo {#file-sizes}
 
 **¿Qué tamaños de archivo puedo esperar? ¿Cuál es el tamaño medio de un archivo CDF?**
 

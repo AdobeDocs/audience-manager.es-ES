@@ -1,5 +1,5 @@
 ---
-description: Ejemplos de código y descripciones para casos de uso de DIL específicos.
+description: Ejemplos de código y descripciones para casos de uso específicos de DIL.
 seo-description: Code samples and descriptions for specific DIL use cases.
 seo-title: DIL Use Cases and Code Samples
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->A partir de julio de 2023, el Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
+>Desde julio de 2023, Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, el Adobe no se desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes que evalúen [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, Adobe no desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes evaluar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
-Ejemplos de código y descripciones para casos de uso de DIL específicos.
+Ejemplos de código y descripciones para casos de uso específicos de DIL.
 
 <!-- 
 
@@ -32,7 +32,7 @@ c_dil_use_case.xml
 
  -->
 
-## Envío de elementos de datos al Audience Manager con el DIL {#send-data-elements-dil}
+## Envío de elementos de datos a Audience Manager con DIL {#send-data-elements-dil}
 
 Cree una variable de objeto que envíe información sobre elementos de página a Audience Manager. Esto resulta útil para la recopilación de datos generales o como alternativa a la recopilación de datos con variables de Analytics.
 
@@ -44,7 +44,7 @@ c_dil_send_page_objects.xml
 
 **Descripción**
 
-El siguiente código muestra cómo recopilar datos de página y enviarlos al Audience Manager con [!UICONTROL DIL]. En estos ejemplos se utiliza una variable para guardar elementos de datos en una lista plana o una matriz. Recuerde, pase las variables como [pares clave-valor](../reference/key-value-pairs-explained.md). Además, observe el prefijo `c_` antes de la clave en el par clave-valor. Este [prefijo obligatorio](../features/traits/trait-variable-prefixes.md) identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar manualmente `c_` a la clave. En el segundo ejemplo, [!UICONTROL DIL] hace esto por usted automáticamente.
+El siguiente código muestra cómo recopilar datos de página y enviarlos a Audience Manager con [!UICONTROL DIL]. En estos ejemplos se utiliza una variable para guardar elementos de datos en una lista plana o una matriz. Recuerde, pase las variables como [pares clave-valor](../reference/key-value-pairs-explained.md). Además, observe el prefijo `c_` antes de la clave en el par clave-valor. Este [prefijo obligatorio](../features/traits/trait-variable-prefixes.md) identifica la información como datos definidos por el usuario. En el primer ejemplo, debe anexar manualmente `c_` a la clave. En el segundo ejemplo, [!UICONTROL DIL] hace esto por usted automáticamente.
 
 **Mantener Coherentes Las Propiedades Del Valor**
 
@@ -52,26 +52,26 @@ Recuerde mantener las mismas propiedades de valor al pasar datos. Por ejemplo, s
 
 **Ejemplo 1: Enviar datos como pares clave-valor**
 
-Este ejemplo básico envía datos de color y precio al Audience Manager en forma de pares clave-valor. Su código puede tener un aspecto similar al siguiente:
+Este ejemplo básico envía datos de color y precio a Audience Manager en forma de pares clave-valor. Su código puede tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
 **Ejemplo 2: Enviar datos en un objeto**
 
-En este ejemplo avanzado se muestra cómo enviar datos en un objeto al Audience Manager. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al método [!DNL signals()]. [!UICONTROL DIL] Su código podría ser similar al siguiente:
+En este ejemplo avanzado se muestra cómo enviar datos en un objeto a Audience Manager. Al trabajar con este método, [!UICONTROL DIL] le permite pasar un objeto como parámetro de función al método [!DNL signals()]. [!UICONTROL DIL] Su código podría ser similar al siguiente:
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,27 +83,27 @@ sample_dil.api.signals(my_object,"c_").submit();
 En este caso, la variable `my_object` utiliza una matriz para contener datos. Este ejemplo se basa en la información pasada por el método recomendado anteriormente, pero agrega una capa adicional para dar cabida a un tipo de producto y a un modelo. Su código puede tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
 ## Capturar URL de referencia {#capture-referring-url}
 
-Capturar y enviar una URL de referencia al Audience Manager.
+Capturar y enviar una dirección URL de referencia a Audience Manager.
 
 <!-- 
 
@@ -126,7 +126,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 ## Capturar tipos de motores de búsqueda y términos de búsqueda de palabras clave {#capture-search-engine-types}
 
-Envíe información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave al Audience Manager.
+Envíe información sobre el tipo de motor de búsqueda y las búsquedas de palabras clave a Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -156,37 +156,37 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Ejemplo de código de motor de búsqueda enumerado**
 
-En este caso, supongamos que un usuario ha buscado el término &quot;home&quot; en [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefija el parámetro `c_` necesario al motor de búsqueda (`c_se`) y al término de búsqueda (`c_st`). `c_` es un [prefijo obligatorio](../features/traits/trait-variable-prefixes.md) que las identifica como variables definidas por el cliente para el Audience Manager.
+En este caso, supongamos que un usuario ha buscado el término &quot;home&quot; en [!DNL Google] Canadá ( `www.google.ca`). Observe cómo el código prefija el parámetro `c_` necesario al motor de búsqueda (`c_se`) y al término de búsqueda (`c_st`). `c_` es un [prefijo obligatorio](../features/traits/trait-variable-prefixes.md) que las identifica como variables definidas por el cliente para Audience Manager.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **Ejemplo de código de motor de búsqueda no enumerado**
 
-En este caso, supongamos que un usuario ha buscado el término &quot;home&quot; en `dogpile.com`. Dado que [!DNL Dogpile] no es compatible de manera predeterminada, puede configurar el DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda al Audience Manager. Su código puede tener un aspecto similar al siguiente:
+En este caso, supongamos que un usuario ha buscado el término &quot;home&quot; en `dogpile.com`. Como [!DNL Dogpile] no es compatible de manera predeterminada, puede configurar DIL para que reconozca este motor de búsqueda y devuelva los términos de búsqueda a Audience Manager. Su código puede tener un aspecto similar al siguiente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## Asignar valores de clave a otras claves {#map-key-values}
@@ -201,9 +201,9 @@ c_dil_map_keys.xml
 
 **Descripción**
 
-En un par clave-valor, el prefijo `c_` anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para la segmentación en el sitio específico que pasó datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de la cuenta de Audience Manager. Para ello, asigne el valor de un par clave-valor de `c_` a una clave de nivel de plataforma. Una clave de nivel de plataforma lleva el prefijo `d_` y hace que la señal esté disponible para la segmentación en todas las propiedades de la cuenta.
+En un par clave-valor, el prefijo `c_` anexado a la clave identifica la señal como datos definidos por el cliente. Los datos definidos por el cliente se utilizan para la segmentación en el sitio específico que pasó datos en una llamada de evento. Sin embargo, a veces desea que esta información esté disponible en todas las propiedades de su cuenta de Audience Manager. Para ello, asigne el valor de un par clave-valor de `c_` a una clave de nivel de plataforma. Una clave de nivel de plataforma lleva el prefijo `d_` y hace que la señal esté disponible para la segmentación en todas las propiedades de la cuenta.
 
-Por ejemplo, puede recopilar datos de código postal de un sitio concreto pero querer segmentarlos para que incluyan todas las propiedades del Audience Manager. Para que el código postal esté disponible en toda la plataforma, puede asignar la clave de código postal definida por el cliente (por ejemplo, `c_zip`) a una clave definida en la plataforma como se muestra a continuación.
+Por ejemplo, puede recopilar datos de código postal de un sitio concreto pero querer segmentarlos para que incluyan todas las propiedades de Audience Manager. Para que el código postal esté disponible en toda la plataforma, puede asignar la clave de código postal definida por el cliente (por ejemplo, `c_zip`) a una clave definida en la plataforma como se muestra a continuación.
 
 **Ejemplo de código**
 
@@ -223,7 +223,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 
 ## DIL de tráfico en Google Tag Manager (GTM) {#traffic-dil-gtm}
 
-Configure y proporcione un DIL con una etiqueta GTM.
+Configure y proporcione DIL con una etiqueta GTM.
 
 <!-- 
 
@@ -231,7 +231,7 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Este procedimiento supone que tiene una cuenta de [!DNL Google Tag Manager], algunos conocimientos prácticos de ese producto y el archivo del Audience Manager `dil.js`.
+Este procedimiento supone que tiene una cuenta de [!DNL Google Tag Manager], algunos conocimientos prácticos de ese producto y el archivo de Audience Manager `dil.js`.
 
 Para enviar tráfico al archivo `dil.js` en GTM:
 
@@ -244,11 +244,11 @@ Para enviar tráfico al archivo `dil.js` en GTM:
    * En el campo HTML, coloque el código [!UICONTROL DIL] (biblioteca + código personalizado) dentro de las etiquetas de script `<script>DIL code</script>`.
    * Haga clic en **[!UICONTROL Save]**.
 
-1. Publish el contenedor.
+1. Publique el contenedor.
 1. Genere el código de la etiqueta contenedora y colóquelo en su inventario.
 
 >[!MORELIKETHIS]
 >
 >* [Centro de ayuda de Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Señales](../dil/dil-instance-methods.md#signals)
->* [Requisitos de prefijo para variables clave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=es#prefix-requirements-for-key-variables)
+>* [Requisitos de prefijo para variables clave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

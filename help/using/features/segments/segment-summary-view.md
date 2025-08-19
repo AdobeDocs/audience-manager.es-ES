@@ -27,7 +27,7 @@ La parte superior de la página de detalles del segmento aloja las herramientas 
 2. **[!UICONTROL Edit]**: utilice esta opción para cambiar la configuración del segmento actual.
 3. **[!UICONTROL Duplicate]**: utilice esta opción para crear una copia del segmento actual.
 4. **[!UICONTROL Delete]**: utilice esta opción para eliminar el segmento actual de su cuenta de Audience Manager.
-5. **[!UICONTROL Marketplace Recommendations]**: use esta opción para encontrar segmentos similares al que está viendo, de [!UICONTROL Audience Marketplace] fuentes de datos a las que no está suscrito. Consulte a [Audience Marketplace de compradores de datos](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para obtener información sobre cómo navegar por el mercado y encontrar segmentos similares.
+5. **[!UICONTROL Marketplace Recommendations]**: use esta opción para encontrar segmentos similares al que está viendo, de [!UICONTROL Audience Marketplace] fuentes de datos a las que no está suscrito. Consulte [Audience Marketplace para compradores de datos](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para obtener información sobre cómo navegar por el mercado y encontrar segmentos similares.
 
 ![información básica del segmento](assets/basic-segment-information.png)
 
@@ -46,10 +46,10 @@ Debajo de las herramientas de administración de segmentos puede encontrar la si
 
    >[!NOTE]
    >
-   >El Audience Manager solo muestra el informe [!UICONTROL Identity Type Breakdown] si cuenta con ID de varios dispositivos calificados para el segmento.
+   >Audience Manager solo muestra el informe [!UICONTROL Identity Type Breakdown] si cuenta con ID de varios dispositivos calificados para el segmento.
 
    Vea el siguiente vídeo para obtener información general sobre [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/32713?captions=spa)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]:** Enumera los rasgos del segmento junto con las reglas de calificación.
 5. **[!UICONTROL Destination Mappings]:** Enumera asignaciones de destino para el segmento.
