@@ -1,7 +1,7 @@
 ---
-description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de audiencia. También encontrará información sobre cómo se transmiten los datos.
-landing-page-description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de audiencia. También encontrará información sobre cómo se transmiten los datos.
-short-description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de audiencia. También encontrará información sobre cómo se transmiten los datos.
+description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de público. También encontrará información sobre cómo se transmiten los datos.
+landing-page-description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de público. También encontrará información sobre cómo se transmiten los datos.
+short-description: Obtenga información acerca de los componentes de un segmento y las expresiones utilizadas para definir los criterios de cualificación de público. También encontrará información sobre cómo se transmiten los datos.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Señales, rasgos y segmentos
