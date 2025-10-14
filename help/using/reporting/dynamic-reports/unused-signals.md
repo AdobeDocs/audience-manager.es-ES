@@ -26,7 +26,7 @@ Este informe devuelve un recuento Frecuencia de toda la información no utilizad
 
 ## Información general
 
-Una señal es la información de su sitio web que [!DNL Audience Manager] se transmite en forma de pares[ clave-valor ](../../reference/key-value-pairs-explained.md)(por ejemplo, `color=blue, price>100, gender=female`, etc.).
+Una señal es la información de su sitio web que [!DNL Audience Manager] se transmite en forma de pares[&#x200B; clave-valor &#x200B;](../../reference/key-value-pairs-explained.md)(por ejemplo, `color=blue, price>100, gender=female`, etc.).
 
 Las señales no utilizadas consisten en datos que usted recopila pero que no se han asignado a un rasgo. El [!UICONTROL Unused Signals] informe muestra los datos en una tabla por fecha, clave, valor y recuento Frecuencia. Cualquier señal no asignada que se pase al [!DNL Audience Manager] menos 100 veces en un día califica para el [!UICONTROL Unused Signals] informe.
 

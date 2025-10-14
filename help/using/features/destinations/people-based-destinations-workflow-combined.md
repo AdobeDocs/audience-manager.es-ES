@@ -75,7 +75,7 @@ Vea el vídeo siguiente para ver un vídeo tutorial de cómo crear un fuente de 
 >
 > Este paso solo se aplica al [escenario 2](people-based-destinations-workflow-combined.md#configure-data-source-settings) descrito anteriormente. Si sus [DPUUID](../../reference/ids-in-aam.md) existentes ya son direcciones correo electrónico hash, vaya al [Paso 3: Crear una regla de combinación de perfiles para segmentación](people-based-destinations-workflow-combined.md#create-merge-rule).
 
-Supongamos que desea hacer coincidir sus DPUUID existentes [con las direcciones de correo electrónico con hash de la tabla siguiente (columna derecha) y tienda las direcciones de correo electrónico con hash en el nuevo fuente de datos que creó en ](../../reference/ids-in-aam.md)Paso 1: Configurar datos Origen Configuración[.](people-based-destinations-workflow-combined.md#configure-data-source-settings)
+Supongamos que desea hacer coincidir sus DPUUID existentes [con las direcciones de correo electrónico con hash de la tabla siguiente (columna derecha) y tienda las direcciones de correo electrónico con hash en el nuevo fuente de datos que creó en &#x200B;](../../reference/ids-in-aam.md)Paso 1: Configurar datos Origen Configuración[.](people-based-destinations-workflow-combined.md#configure-data-source-settings)
 
 | DPUUID (ID CRM) | La dirección de correo electrónico | Dirección de correo electrónico hash |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
@@ -124,17 +124,17 @@ El siguiente paso es crear un nuevo regla de combinación que le ayudará a crea
 
 >[!IMPORTANT]
 >
-> Si ya tiene un regla definido con las opciones o[!UICONTROL Current Authenticated Profiles], puede ir al [!UICONTROL Last Authenticated Profiles]paso 4: Crear Segmentos de [ audiencia.](people-based-destinations-workflow-combined.md#create-audience-segments)
+> Si ya tiene un regla definido con las opciones o[!UICONTROL Current Authenticated Profiles], puede ir al [!UICONTROL Last Authenticated Profiles]paso 4: Crear Segmentos de [&#x200B; audiencia.](people-based-destinations-workflow-combined.md#create-audience-segments)
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
 1. Haga clic en **[!UICONTROL Add New Rule]**.
 1. Especifique una combinación perfil regla **[!UICONTROL Name]** y **[!UICONTROL Description]**.
 1. En la **[!UICONTROL Profile Merge Rule Setup]** sección, seleccione las **[!UICONTROL Current Authenticated Profiles]** opciones o **[!UICONTROL Last Authenticated Profiles]** .
-1. En el **[!UICONTROL Cross-Device Profile Options]** lista, seleccione las fuentes de datos en las que desea ejecutar el segmentación. Estas deben ser las fuentes de datos que contengan sus DPUUID[ existentes](../../reference/ids-in-aam.md).
+1. En el **[!UICONTROL Cross-Device Profile Options]** lista, seleccione las fuentes de datos en las que desea ejecutar el segmentación. Estas deben ser las fuentes de datos que contengan sus DPUUID[&#x200B; existentes](../../reference/ids-in-aam.md).
 
 ## Paso 4: Crear segmentos de audiencia {#create-audience-segments}
 
-Para crear nuevos segmentos audiencia, utilice el Generador[ de ](../segments/segment-builder.md)segmentos. Si ya tiene segmentos de audiencia que desea enviar a [!DNL People-Based Destinations], vaya al [Paso 5: Configurar la Authentication de Platform](people-based-destinations-workflow-combined.md#configure-authentication) basadas en personas.
+Para crear nuevos segmentos audiencia, utilice el Generador[&#x200B; de &#x200B;](../segments/segment-builder.md)segmentos. Si ya tiene segmentos de audiencia que desea enviar a [!DNL People-Based Destinations], vaya al [Paso 5: Configurar la Authentication de Platform](people-based-destinations-workflow-combined.md#configure-authentication) basadas en personas.
 
 ## Paso 5: Configuración de Authentication de Platform basadas en personas {#configure-authentication}
 

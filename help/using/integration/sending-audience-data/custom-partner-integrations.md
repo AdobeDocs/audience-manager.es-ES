@@ -54,4 +54,4 @@ El `ID type` puede ser:
 
 ## Archivo de entrada ODC de muestra
 
-Descargue el archivo[ de ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync)muestra. Este archivo califica varios IDFA para el ID de rasgo 38838. Puede abrir este archivo en una editor de texto estándar o en una editor de código.
+Descargue el archivo[&#x200B; de &#x200B;](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync)muestra. Este archivo califica varios IDFA para el ID de rasgo 38838. Puede abrir este archivo en una editor de texto estándar o en una editor de código.

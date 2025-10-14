@@ -56,7 +56,7 @@ Para completar la [!UICONTROL Data Source Details] sección:
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Este control permite establecer el periodo de retención de datos para los ID de cliente inactivos. Esto determina cuánto tiempo Audience Manager mantiene los ID de cliente en nuestra base de datos después de que se vieron por última vez en la plataforma Audience Manager. El valor predeterminado es 24 meses (720 días). El valor mínimo que puede establecer es de 1 mes y el valor máximo es de 5 años. Tenga en cuenta que contamos todos los meses como 30 días. Audience Manager ejecuta un proceso que elimina los ID de cliente inactivos una vez por semana, de acuerdo con la retención de datos que estableció para los ID de cliente inactivos.
 
-Los campos de texto asociados a esta configuración le permiten cambiar el nombre [!UICONTROL Data Source] con un alias que aparece en las opciones[ de Regla de ](merge-rule-definitions.md)combinación de perfiles. Por ejemplo, si añade un alias a **[!UICONTROL Use as Authenticated Profile]**, ese nombre aparecerá en el [!UICONTROL Authenticated Profile Options] lista. Si añade un alias a **[!UICONTROL Use as a Device Graph]**, ese nombre aparecerá en el [!UICONTROL Device Options] lista.
+Los campos de texto asociados a esta configuración le permiten cambiar el nombre [!UICONTROL Data Source] con un alias que aparece en las opciones[&#x200B; de Regla de &#x200B;](merge-rule-definitions.md)combinación de perfiles. Por ejemplo, si añade un alias a **[!UICONTROL Use as Authenticated Profile]**, ese nombre aparecerá en el [!UICONTROL Authenticated Profile Options] lista. Si añade un alias a **[!UICONTROL Use as a Device Graph]**, ese nombre aparecerá en el [!UICONTROL Device Options] lista.
 
 ## Crear una regla de combinación de perfiles {#create-profile-merge-rule}
 
@@ -122,7 +122,7 @@ Siga estas instrucciones para configurar el código , [!UICONTROL Adobe Experien
 
 ### Requisitos previos
 
-Debe configurar una [fuente de datos dispositivos](#create-data-source) cruzada y [perfil reglas ](#create-profile-merge-rule)*de combinación antes* de completar estos procedimientos.
+Debe configurar una [fuente de datos dispositivos](#create-data-source) cruzada y [perfil reglas &#x200B;](#create-profile-merge-rule)*de combinación antes* de completar estos procedimientos.
 
 ## Para clientes del servicio de identidad Adobe Experience Platform {#id-service-customers}
 

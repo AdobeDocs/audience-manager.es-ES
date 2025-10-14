@@ -41,7 +41,7 @@ Archivo notificaciones y [!UICONTROL CDF] archivos aparecerán en su [!DNL S3] b
 
 ## Pasos siguientes {#next-steps}
 
-Las secciones siguientes y las preguntas frecuentes[ sobre la fuente de datos del ](../faq/faq-cdf.md)cliente pueden ayudarle a familiarizarse con este servicio.
+Las secciones siguientes y las preguntas frecuentes[&#x200B; sobre la fuente de datos del &#x200B;](../faq/faq-cdf.md)cliente pueden ayudarle a familiarizarse con este servicio.
 
 ## [!UICONTROL Customer Data Feed] Contenido definido {#cdf-defined}
 

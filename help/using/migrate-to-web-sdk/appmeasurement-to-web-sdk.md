@@ -26,7 +26,7 @@ Consulte la tabla siguiente para obtener instrucciones sobre los pasos de migrac
 
 ## Información general sobre migración {#overview}
 
-La migración desde al [!DNL AppMeasurement]SDK[ web es principalmente una migración Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home). Para Audience Manager clientes, esta migración también incluye Audience Manager. Ambos deben migrarse juntos. Si trabaja principalmente con Audience Manager, asegúrese de involucrar a los Analytics equipo en esta migración.
+La migración desde al [!DNL AppMeasurement]SDK[&#x200B; web es principalmente una migración Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home). Para Audience Manager clientes, esta migración también incluye Audience Manager. Ambos deben migrarse juntos. Si trabaja principalmente con Audience Manager, asegúrese de involucrar a los Analytics equipo en esta migración.
 
 Si usa [!DNL AppMeasurement] para Audience Manager recopilación de datos, actualmente está utilizando el [!DNL Server-side Forwarding (SSF)] enfoque para enviar datos de Analytics a Audience Manager. En esta configuración, el solicitud recopilación de datos Analytics se reenvía a Audience Manager, que también gestiona la respuesta Audience Manager al Página.
 
@@ -40,7 +40,7 @@ Con del lado del servidor reenvío, el Analytics recopilación de datos regional
 
 Con el SDK web, la red perimetral envía datos a Analytics y Audience Manager en acciones independientes. El SDK web es un biblioteca único que envía datos a todas las soluciones y la red perimetral transforma los puntos de datos independientes de la solución en formatos específicos de la solución.
 
-En este nuevo flujo de datos, todos los datos se envían a un flujo[ de datos de red ](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview)perimetral, que puede [configurar](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para enviar datos a Adobe Systems soluciones según sea necesario. Por Audience Manager, la habilitación del servicio de Audience Manager en el flujo de datos transforma [!DNL XDM] y Analytics los datos en señales aceptadas por Audience Manager. La red perimetral también devuelve la respuesta Audience Manager al Página, donde el SDK web administra la respuesta, de forma similar a cómo [!DNL AppMeasurement] y lo hizo el [!DNL AudienceManagement] módulo.
+En este nuevo flujo de datos, todos los datos se envían a un flujo[&#x200B; de datos de red &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview)perimetral, que puede [configurar](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para enviar datos a Adobe Systems soluciones según sea necesario. Por Audience Manager, la habilitación del servicio de Audience Manager en el flujo de datos transforma [!DNL XDM] y Analytics los datos en señales aceptadas por Audience Manager. La red perimetral también devuelve la respuesta Audience Manager al Página, donde el SDK web administra la respuesta, de forma similar a cómo [!DNL AppMeasurement] y lo hizo el [!DNL AudienceManagement] módulo.
 
 ## Migración de etiquetas frente a migración sin etiquetas {#tags-vs-non-tags}
 
@@ -156,7 +156,7 @@ Con el SDK web, estas identidades ahora deben enviarse a la red perimetral media
 
 Pasar identidades correctamente en un mapa de identidad requiere comprender [los espacios](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de nombres de identidad y considerar cuidadosamente qué identidades pasar, especialmente cuando se envían datos a un Experience Platform sandbox. [Este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-21305) describe estas consideraciones e instrucciones.
 
-Una vez que determine qué identidades transferir y cuándo, seguir las guías para usar el elemento[!UICONTROL Identity map] de datos dentro de **[!UICONTROL Identity map]**&#x200B;[&#128279;](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) Etiquetas o configúrelo manualmente como se describe en la información general[ de ](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/identity/overview)datos de identidad para alinearlo con su estrategia de implementación del SDK web.
+Una vez que determine qué identidades transferir y cuándo, seguir las guías para usar el elemento[!UICONTROL Identity map] de datos dentro de **[!UICONTROL Identity map]**&#x200B;[&#128279;](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) Etiquetas o configúrelo manualmente como se describe en la información general[&#x200B; de &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/identity/overview)datos de identidad para alinearlo con su estrategia de implementación del SDK web.
 
 +++
 
@@ -168,7 +168,7 @@ Para establecer el cookie, debe introducir un nombre de cookie en el **[!UICONTR
 
 Si encuentra que su implementación requiere que este `aam_uuid` cookie se siga configurando después de la migración al SDK web, puede recuperar el UUID de Audience Manager de dos maneras.
 
-1. Cada respuesta del extremo[ de interacción de ](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/)red perimetral contiene una carga útil con `id` nodos. La `id` nodo de la `CORE` carga útil del espacio de nombres contiene el UUID Audience Manager.
+1. Cada respuesta del extremo[&#x200B; de interacción de &#x200B;](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/)red perimetral contiene una carga útil con `id` nodos. La `id` nodo de la `CORE` carga útil del espacio de nombres contiene el UUID Audience Manager.
 
 2. Utilice el [comando getIdentity](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/getidentity) del SDK web para recuperarlo. Utilice el `CORE` espacio de nombres como se describe en la documentación y recupere el valor del `identity.CORE` campo en la respuesta.
 
@@ -178,7 +178,7 @@ Independientemente del método utilizado para recuperar el UUID Audience Manager
 
 ## Configurar el reenvío del lado del servidor y la Analytics de audiencia en el Administrador de grupos de informes de Analytics IU {#configure-ssf-analytics}
 
-Si está familiarizado con la función de reenvío[ de del lado del servidor Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf), es posible que se pregunte: &quot;¿*Debo deshabilitar la configuración de reenvío de del lado del servidor en el Administrador de grupos de informes de Analytics IU para evitar enviar datos de Analytics a Audience Manager dos veces?&quot;.*
+Si está familiarizado con la función de reenvío[&#x200B; de del lado del servidor Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf), es posible que se pregunte: &quot;¿*Debo deshabilitar la configuración de reenvío de del lado del servidor en el Administrador de grupos de informes de Analytics IU para evitar enviar datos de Analytics a Audience Manager dos veces?&quot;.*
 
 La respuesta es no, no debe desactivar esta configuración, por las siguientes razones:
 

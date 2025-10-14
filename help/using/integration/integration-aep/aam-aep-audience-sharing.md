@@ -25,7 +25,7 @@ Puede usar rasgos y segmentos de Audience Manager en Experience Platform para ag
 En Audience Manager, puede utilizar segmentos de Experience Platform para casos de uso de la plataforma de administración de datos, como:
 * Agregue [datos de terceros](/help/using/overview/data-types-collected.md#third-party-data) a sus segmentos;
 * [Modelado](/help/using/features/algorithmic-models/understanding-models.md) algorítmico;
-* Active los segmentos en destinos que aún no se admitan en el catálogo[ de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=es).
+* Active los segmentos en destinos que aún no se admitan en el catálogo[&#x200B; de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=es).
 
 Además, los segmentos de Experience Platform se comparten con otras soluciones Experience Cloud a través [de los Servicios](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es) principales.
 
@@ -148,7 +148,7 @@ En el proceso de uso compartido de audiencia entre Audience Manager y Experience
 
 >[!NOTE]
 >
->Para obtener más información general sobre los controles de exportación de datos, consulte la documentación[ de los controles de exportación de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es)datos.
+>Para obtener más información general sobre los controles de exportación de datos, consulte la documentación[&#x200B; de los controles de exportación de &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es)datos.
 >
 >Este documento proporciona una referencia sobre cómo los controles de exportación de datos específicos de Audience Manager se asignan a las etiquetas de uso de datos y marketing acciones en Platform.
 
@@ -196,7 +196,7 @@ Audience Manager actualiza sistema de informes números de la interfaz una vez a
 
 ### Composición del segmento en Experience Platform
 
-La integración entre Adobe Experience Platform y Audience Manager comparte una serie de espacios[ de nombres de identidad estándar ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es#identity-types)para todos los clientes: ECID, IDFA, GAID, direcciones correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Si los Experience Platform segmentos utilizan cualquiera de estos como identidad principal para los perfiles cualificados, los perfiles se cuentan en Audience Manager rasgos y segmentos.
+La integración entre Adobe Experience Platform y Audience Manager comparte una serie de espacios[&#x200B; de nombres de identidad estándar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es#identity-types)para todos los clientes: ECID, IDFA, GAID, direcciones correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Si los Experience Platform segmentos utilizan cualquiera de estos como identidad principal para los perfiles cualificados, los perfiles se cuentan en Audience Manager rasgos y segmentos.
 
 >[!NOTE]
 >

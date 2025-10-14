@@ -32,7 +32,7 @@ Describe los campos obligatorios, la sintaxis, las convenciones de nomenclatura 
 
 `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Para conocer otros formatos de nombre de archivo aceptados[, consulte ](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Integraciones personalizadas de socios.
+Para conocer otros formatos de nombre de archivo aceptados[, consulte &#x200B;](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Integraciones personalizadas de socios.
 
 >[!NOTE]
 >

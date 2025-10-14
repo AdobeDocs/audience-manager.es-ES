@@ -46,9 +46,9 @@ Para realizar actualizaciones masivas, abra la hoja de [!UICONTROL Bulk Manageme
 5. En la barra de herramientas de la hoja de cálculo, haga clic en un botón de actualización que coincida con el elemento que está actualizando.
 Esta acción abre el cuadro de [!UICONTROL Account Information] diálogo.
 
-6. Proporcione la información[ de inicio de sesión necesaria ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)y haga clic en **[!UICONTROL Submit]**.
+6. Proporcione la información[&#x200B; de inicio de sesión necesaria &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)y haga clic en **[!UICONTROL Submit]**.
 
-   La hoja de cálculo crea una [!UICONTROL Results] columna. La [!UICONTROL Results] columna devuelve la respuesta JSON de una operación correcta. Consulte los ejemplos de las API[ de ](../../api/rest-api-main/rest-api-main.md)REST. Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
+   La hoja de cálculo crea una [!UICONTROL Results] columna. La [!UICONTROL Results] columna devuelve la respuesta JSON de una operación correcta. Consulte los ejemplos de las API[&#x200B; de &#x200B;](../../api/rest-api-main/rest-api-main.md)REST. Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/update.png)
 

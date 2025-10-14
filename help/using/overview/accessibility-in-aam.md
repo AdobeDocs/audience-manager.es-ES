@@ -61,4 +61,4 @@ Por ejemplo, las pantallas de carga incluyen un girador de carga dentro de un cu
 
 [!DNL Audience Manager] se esfuerza por proporcionar un grado cada vez mayor de accesibilidad, haciendo que el producto sea fácil de usar para todos.
 
-Le recomendamos que utilice el Formulario[ de comentarios sobre accesibilidad de la ](https://www.adobe.com/accessibility/feedback.html)Adobe Systems para enviarnos sugerencias de mejora y problemas de accesibilidad con los que se encuentre. Estaremos encantados de tener en cuenta sus comentarios cuenta y mejorar [!DNL Audience Manager].
+Le recomendamos que utilice el Formulario[&#x200B; de comentarios sobre accesibilidad de la &#x200B;](https://www.adobe.com/accessibility/feedback.html)Adobe Systems para enviarnos sugerencias de mejora y problemas de accesibilidad con los que se encuentre. Estaremos encantados de tener en cuenta sus comentarios cuenta y mejorar [!DNL Audience Manager].

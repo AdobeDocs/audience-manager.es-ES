@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Archivos de datos para informes Audience Optimization y Archivos de registro procesables {#data-files-for-audience-optimization-reports}
 
-Un archivo de datos contiene datos impresión, de clics o Conversión. Cuando se formatean correctamente, puede importar estos datos a Audience Manager para vista en los informes[ de Audience Optimization y crear características utilizando los datos a través ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)del [Archivos](/help/using/integration/media-data-integration/actionable-log-files.md) de registro procesable. Dé formato a los archivos de datos según las especificaciones de esta sección.
+Un archivo de datos contiene datos impresión, de clics o Conversión. Cuando se formatean correctamente, puede importar estos datos a Audience Manager para vista en los informes[&#x200B; de Audience Optimization y crear características utilizando los datos a través &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)del [Archivos](/help/using/integration/media-data-integration/actionable-log-files.md) de registro procesable. Dé formato a los archivos de datos según las especificaciones de esta sección.
 
 ## Información general {#overview}
 

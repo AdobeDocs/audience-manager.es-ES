@@ -82,11 +82,11 @@ Los [!UICONTROL PCS] rubores son características si están inactivos durante 17
 
 **Otros [!UICONTROL DCS/PCS] procesos: Exclusión de privacidad**
 
-Estos sistemas de servidor gestionan las solicitudes de privacidad y usuario exclusión. La información del cookie del usuario no se recopila en el archivo de registro si un usuario ha optado por no participar en recopilación de datos. Para obtener más información sobre nuestras políticas de privacidad, consulte el Centro[ de privacidad de Adobe Systems](https://www.adobe.com/es/privacy/advertising-services.html).
+Estos sistemas de servidor gestionan las solicitudes de privacidad y usuario exclusión. La información del cookie del usuario no se recopila en el archivo de registro si un usuario ha optado por no participar en recopilación de datos. Para obtener más información sobre nuestras políticas de privacidad, consulte el Centro[&#x200B; de privacidad de Adobe Systems](https://www.adobe.com/es/privacy/advertising-services.html).
 
 ## Biblioteca de integración de datos (DIL) {#dil}
 
-[!UICONTROL DIL] es el código que coloca en el Página para recopilación de datos. Consulte la API[ de DIL para obtener más información sobre los ](../../dil/dil-overview.md)servicios y métodos disponibles.
+[!UICONTROL DIL] es el código que coloca en el Página para recopilación de datos. Consulte la API[&#x200B; de DIL para obtener más información sobre los &#x200B;](../../dil/dil-overview.md)servicios y métodos disponibles.
 
 ## Servidor a servidor entrante {#inbound-outbound-server}
 

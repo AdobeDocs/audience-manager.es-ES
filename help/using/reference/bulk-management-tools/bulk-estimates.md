@@ -40,7 +40,7 @@ Para realizar actualizaciones masivas, abra la hoja de [!UICONTROL Bulk Manageme
 4. Pegar o escriba los datos que desea convertir en una columna correspondiente basada en la etiqueta de encabezado.
 5. En la barra de herramientas de la hoja de cálculo, haga clic en el botón de creación que coincida con el elemento que está actualizando.
 Esta acción abre el cuadro de [!UICONTROL Account Information] diálogo.
-6. Proporcione la información[ de inicio de sesión necesaria ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)y haga clic en **[!UICONTROL Submit]**.
+6. Proporcione la información[&#x200B; de inicio de sesión necesaria &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)y haga clic en **[!UICONTROL Submit]**.
 
 Esta acción crea una [!UICONTROL Response] columna en la hoja de cálculo que contiene datos de tamaño de segmento estimado. Antes de ingresar datos, la hoja de cálculo de estimación masiva debe tener un aspecto similar al siguiente:
 

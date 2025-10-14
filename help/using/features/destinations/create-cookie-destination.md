@@ -62,7 +62,7 @@ Para completar esta sección:
 Consulte [Pares](../../features/destinations/key-value-pairs.md) Valor clave estándar y serie para obtener más información sobre estos elementos de datos.
 1. Haga clic en **[!UICONTROL Save]**.
 
-Todos los demás ajustes son opcionales. Para obtener más información acerca de la configuración AND **[!UICONTROL Cookie Domain]**, consulte **[!UICONTROL Publish data to]** Configuración opcional para destinos[ de ](/help/using/features/destinations/cookie-destination-options.md) cookies.
+Todos los demás ajustes son opcionales. Para obtener más información acerca de la configuración AND **[!UICONTROL Cookie Domain]**, consulte **[!UICONTROL Publish data to]** Configuración opcional para destinos[&#x200B; de &#x200B;](/help/using/features/destinations/cookie-destination-options.md) cookies.
 
 ## Asignaciones de segmentos {#segments-mapping}
 

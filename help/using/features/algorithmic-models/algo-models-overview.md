@@ -26,7 +26,7 @@ Esto se realiza mediante dos tipos de algoritmos: [!UICONTROL Look-Alike Modelin
 
 [!UICONTROL Look-Alike Modeling] ayuda a descubrir audiencias nuevas y únicas a través de la análisis de datos automatizada. El proceso se inicia al seleccionar un rasgo o una segmento, un intervalo de tiempo y el primer y terceros orígenes de datos. Sus opciones proporcionan las entradas para el modelo algorítmico. Cuando se ejecuta el proceso de análisis, busca usuarios aptos según las características compartidas de la población seleccionada.
 
-Al finalizar, estos datos estarán disponibles en el generador[ de rasgos, donde podrá utilizarlos para crear rasgos basados en ](../../features/traits/about-trait-builder.md)la precisión y el [alcance](../../features/traits/trait-accuracy-reach.md). Además, puede versión segmentos que combinan rasgos algorítmicos con rasgos basados en reglas y agregar otros requisitos de calificación con expresiones booleanas y operadores de comparación.
+Al finalizar, estos datos estarán disponibles en el generador[&#x200B; de rasgos, donde podrá utilizarlos para crear rasgos basados en &#x200B;](../../features/traits/about-trait-builder.md)la precisión y el [alcance](../../features/traits/trait-accuracy-reach.md). Además, puede versión segmentos que combinan rasgos algorítmicos con rasgos basados en reglas y agregar otros requisitos de calificación con expresiones booleanas y operadores de comparación.
 
 [!UICONTROL Look-Alike Modeling] le ofrece una forma dinámica de extracción valor de todos los datos de características disponibles.
 

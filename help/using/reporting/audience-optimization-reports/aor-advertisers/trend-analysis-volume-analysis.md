@@ -36,4 +36,4 @@ El [!UICONTROL Volume Analysis] informe devuelve datos en una gráfico de barras
 
 >[!TIP]
 >
->Para obtener información acerca de los segmentos asignados y no asignados, consulte la documentación del informe[ de rendimiento del ](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)segmento.
+>Para obtener información acerca de los segmentos asignados y no asignados, consulte la documentación del informe[&#x200B; de rendimiento del &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)segmento.

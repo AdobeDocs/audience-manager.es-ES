@@ -32,7 +32,7 @@ En las herramientas , sistema de informes [!UICONTROL Marketplace]permiten reali
 
 >[!TIP]
 >
->Utilice el Buscador **[&#128279;](https://www.adobe-audience-finder.com/) de audiencia de Adobe Systems para encontrar fuentes de datos de alta calidad a las** que puede suscribirse. A continuación, vuelve a la interfaz de [!DNL Audience Manager] usuario o usa la API[ de comprador de Audience Marketplace ](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)para suscribirte a las fuentes que encontraste.
+>Utilice el Buscador **[&#128279;](https://www.adobe-audience-finder.com/) de audiencia de Adobe Systems para encontrar fuentes de datos de alta calidad a las** que puede suscribirse. A continuación, vuelve a la interfaz de [!DNL Audience Manager] usuario o usa la API[&#x200B; de comprador de Audience Marketplace &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)para suscribirte a las fuentes que encontraste.
 
 ![Descripción general de comprador-marketplace](assets/buyer-marketplace-overview.png)
 

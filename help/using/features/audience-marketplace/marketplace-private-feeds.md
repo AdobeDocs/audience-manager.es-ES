@@ -140,7 +140,7 @@ En este paso, identificará las características que desea compartir con su soci
 * Para asociarse con la fuente de datos que creó como parte del paso 2.
 * Para ser almacenado en la subcarpeta recién creada, bajo datos de terceros.
 
-Obtenga más información sobre la [creación y ](/help/using/features/traits/create-onboarded-rule-based-traits.md)edición de rasgos[&#128279;](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+Obtenga más información sobre la [creación y &#x200B;](/help/using/features/traits/create-onboarded-rule-based-traits.md)edición de rasgos[&#128279;](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
 ### Paso 4: Proveedor de datos: Crear fuente de datos
 

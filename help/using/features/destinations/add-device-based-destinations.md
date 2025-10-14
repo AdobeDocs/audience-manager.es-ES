@@ -59,7 +59,7 @@ Una vez configurada la integración de la plataforma de destino, puede crear el 
    * **[!DNL Platform]**: seleccione la plataforma de destino a la que desee enviar audiencia segmentos.
    * **[!DNL Account]**: seleccione la anunciante cuenta asociada a la plataforma seleccionada.
 1. Haga clic en **[!DNL Next]**.
-1. Elija las etiquetas[ de exportación de ](/help/using/features/data-export-controls.md#controls-labels)datos que desea establecer para este destino.
+1. Elija las etiquetas[&#x200B; de exportación de &#x200B;](/help/using/features/data-export-controls.md#controls-labels)datos que desea establecer para este destino.
 1. Haga clic en **[!DNL Save]**.
 1. En la **[!DNL Segment Mappings]** sección, seleccione los audiencia segmentos que desea enviar a este destino.
 1. Guardar el destino.

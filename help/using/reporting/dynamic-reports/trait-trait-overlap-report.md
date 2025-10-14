@@ -20,7 +20,7 @@ Devuelve datos sobre el número de usuarios únicos compartidos entre todas las 
 
 >[!NOTE]
 >
->Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver características de orígenes de datos a los que tiene acceso en función del grupo[ de usuarios de ](/help/using/features/administration/administration-overview.md)RBAC al que pertenece.
+>Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver características de orígenes de datos a los que tiene acceso en función del grupo[&#x200B; de usuarios de &#x200B;](/help/using/features/administration/administration-overview.md)RBAC al que pertenece.
 
 <!-- 
 

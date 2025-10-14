@@ -31,7 +31,7 @@ Entre las ventajas de usar Amazon S3 se incluyen:
 
    * Todos los directorios son accesibles sólo para el cliente o cliente apropiado.
    * Compatibilidad con el protocolo HTTPS para cargas y descargas. Siempre debe usar HTTPS al transferir archivos en [!DNL Audience Manager].
-   * Amazon S3 proporciona cifrado en reposo para cifrar archivos[ de ](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)datos salientes. Utilizamos el [método de cifrado SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) , que permite que las claves de cifrado sean generadas y administradas automáticamente por Amazon S3.
+   * Amazon S3 proporciona cifrado en reposo para cifrar archivos[&#x200B; de &#x200B;](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)datos salientes. Utilizamos el [método de cifrado SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) , que permite que las claves de cifrado sean generadas y administradas automáticamente por Amazon S3.
 
 * **Soporte de depuración y copia de seguridad:** Amazon S3 permite [!DNL Audience Manager] conservar copias exactas de los archivos para facilitar la depuración o las retransferencias.
 

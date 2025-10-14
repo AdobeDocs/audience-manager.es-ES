@@ -21,7 +21,7 @@ Audience Manager establece un límite máximo para el número de característica
 
 ## Límites de asignación de ID {#id-mapping-limits}
 
-La tabla a continuación muestra los límites de asignación[ de ](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)ID para ID de dispositivos. Una vez que un ID alcanza cualquiera de los límites siguientes, Audience Manager agrega nuevas asignaciones de ID basadas en una lógica FIFO (primero en entrar, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte Index [de ID](../../reference/ids-in-aam.md) en Audience Manager para obtener detalles sobre los ID admitidos por Audience Manager.
+La tabla a continuación muestra los límites de asignación[&#x200B; de &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)ID para ID de dispositivos. Una vez que un ID alcanza cualquiera de los límites siguientes, Audience Manager agrega nuevas asignaciones de ID basadas en una lógica FIFO (primero en entrar, primero en salir), eliminando la asignación de ID almacenada más antigua y agregando la nueva. Consulte Index [de ID](../../reference/ids-in-aam.md) en Audience Manager para obtener detalles sobre los ID admitidos por Audience Manager.
 
 | Asignación de ID | Límite máximo |
 |-----------|-------------- |

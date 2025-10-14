@@ -94,7 +94,7 @@ El siguiente paso es crear un nuevo regla de combinación que le ayudará a crea
 
 >[!IMPORTANT]
 >
->Si ya tiene un regla definido con las opciones o **[!UICONTROL Current Authenticated Profiles]**, puede ir al **[!UICONTROL Last Authenticated Profiles]** paso 4: Crear Segmentos de [ audiencia.](#create-audience-segments)
+>Si ya tiene un regla definido con las opciones o **[!UICONTROL Current Authenticated Profiles]**, puede ir al **[!UICONTROL Last Authenticated Profiles]** paso 4: Crear Segmentos de [&#x200B; audiencia.](#create-audience-segments)
 
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Haga clic en **[!UICONTROL Add New Rule]**.
@@ -105,7 +105,7 @@ El siguiente paso es crear un nuevo regla de combinación que le ayudará a crea
 
 ## Paso 4: Crear segmentos de audiencia {#create-audience-segments}
 
-Para crear nuevos segmentos, utilice el Generador[ de ](../segments/segment-builder.md)segmentos. Si ya tiene segmentos de audiencia que desea enviar a [!DNL People-Based Destinations], vaya al [Paso 5: Configurar la Authentication de Platform](#configure-authentication) basadas en personas.
+Para crear nuevos segmentos, utilice el Generador[&#x200B; de &#x200B;](../segments/segment-builder.md)segmentos. Si ya tiene segmentos de audiencia que desea enviar a [!DNL People-Based Destinations], vaya al [Paso 5: Configurar la Authentication de Platform](#configure-authentication) basadas en personas.
 
 ## Paso 5: Configuración de la autenticación de plataforma basada en personas {#configure-authentication}
 

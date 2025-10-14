@@ -77,7 +77,7 @@ La tabla enumera y define las variables utilizadas en un archivo de datos de ent
 
 ## Formateo [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-La tabla siguiente describe los prefijos que identifican [!UICONTROL trait] nombres o ID en un archivo de datos de entrada. Consulte los archivos[ de ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)muestra para ver ejemplos.
+La tabla siguiente describe los prefijos que identifican [!UICONTROL trait] nombres o ID en un archivo de datos de entrada. Consulte los archivos[&#x200B; de &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)muestra para ver ejemplos.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -234,7 +234,7 @@ El formato incorrecto de los nombres de valores en un par clave-valor también c
 
 ## Matriz de ejemplos {#examples-matrix}
 
-El siguiente gráfico muestra ejemplos de la forma correcta de formato los archivos entrantes, según el tipo de ID[ y el método mediante el cual desee agregar ](../../../reference/ids-in-aam.md) a los [!UICONTROL traits]perfiles.
+El siguiente gráfico muestra ejemplos de la forma correcta de formato los archivos entrantes, según el tipo de ID[&#x200B; y el método mediante el cual desee agregar &#x200B;](../../../reference/ids-in-aam.md) a los [!UICONTROL traits]perfiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 

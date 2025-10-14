@@ -20,7 +20,7 @@ Este informe devuelve un lista de características que se han realizado por lo m
 
 >[!NOTE]
 >
->El informe Variación diaria de rasgos de Audience Manager se adhiere a los principios de RBAC. Solo puede ver características de orígenes de datos a los que tiene acceso en función del grupo[ de usuarios de ](/help/using/features/administration/administration-overview.md)RBAC al que pertenece.
+>El informe Variación diaria de rasgos de Audience Manager se adhiere a los principios de RBAC. Solo puede ver características de orígenes de datos a los que tiene acceso en función del grupo[&#x200B; de usuarios de &#x200B;](/help/using/features/administration/administration-overview.md)RBAC al que pertenece.
 
 La desviación estándar mide la cantidad de variación o dispersión de la media (o valor promedio/esperado). Una desviación estándar baja indica que los puntos de datos tienden a estar muy cerca de la media. Una desviación estándar alta indica que los puntos de datos se distribuyen entre un gran rango de valores.
 

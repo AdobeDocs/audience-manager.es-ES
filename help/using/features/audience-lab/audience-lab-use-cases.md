@@ -26,7 +26,7 @@ Puede utilizar varios tipos y fuentes diferentes de modelos en [!DNL Audience Ma
 
 En este caso de uso, está comparando diferentes modelos. Puede utilizar modelos creados mediante un almacén de datos interno e importarlos como [!DNL Audience Manager] [rasgos](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) incorporados o puede utilizar la [función Modelos](../../features/algorithmic-models/understanding-models.md) algorítmicos en [!DNL Audience Manager].
 
-1. Crear dos modelos, ya sea en el Generador[ de ](../../features/algorithmic-models/create-model.md)modelos o a través de una plataforma externa.
+1. Crear dos modelos, ya sea en el Generador[&#x200B; de &#x200B;](../../features/algorithmic-models/create-model.md)modelos o a través de una plataforma externa.
 1. [Crear rasgos](../../features/traits/create-algorithmic-traits.md) algorítmicos del modelo algorítmico o importe sus propios modelos como rasgos incorporados.
 1. Crear segmentos mutuamente excluyentes para que los usuarios de ambos modelos no se superpongan:
 

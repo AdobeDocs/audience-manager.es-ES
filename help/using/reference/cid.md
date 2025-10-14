@@ -83,7 +83,7 @@ Consulte también URL [Variables y Sintaxis de los ID declarados](../features/de
 
 >[!NOTE]
 >
->Puede utilizar códigos de integración para sus propios orígenes de datos y para orígenes[ de datos compartidos globales](../features/datasources-list-and-settings.md#settings-menu-options), a los que tiene acceso. Por ejemplo, puede utilizar códigos de integración al trabajar con orígenes de datos de identificadores móviles. Utilice los siguientes códigos de integración, exactamente como se especifica a continuación:
+>Puede utilizar códigos de integración para sus propios orígenes de datos y para orígenes[&#x200B; de datos compartidos globales](../features/datasources-list-and-settings.md#settings-menu-options), a los que tiene acceso. Por ejemplo, puede utilizar códigos de integración al trabajar con orígenes de datos de identificadores móviles. Utilice los siguientes códigos de integración, exactamente como se especifica a continuación:
 
 * **&#x200B;**&#x200B;DSID_20914 para GAID, que representa dispositivos ejecutan el sistema operativo Android.
 * **&#x200B;**&#x200B;DSID_20915 para IDFA, que representa dispositivos ejecutan el sistema operativo iOS.

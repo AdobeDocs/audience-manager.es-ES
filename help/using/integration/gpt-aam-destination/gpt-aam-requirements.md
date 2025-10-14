@@ -26,7 +26,7 @@ Para una integración lado del cliente, debe configurar un [!DNL GPT] destino en
 
 * **Crear a [!UICONTROL Cookie Destination]:** [!DNL GPT] debe configurarse como destino basado en cookie en Audience Manager.
 
-* **Implementar el Code de comprobación de cookies:** Envuelva el [!DNL GPT] `.setTargeting` método API en nuestro código[ de comprobación de cookie recomendado](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). Este código ayuda a evitar errores al buscar cookies de AAM válidas antes de invocar el `.setTargeting` método.
+* **Implementar el Code de comprobación de cookies:** Envuelva el [!DNL GPT] `.setTargeting` método API en nuestro código[&#x200B; de comprobación de cookie recomendado](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). Este código ayuda a evitar errores al buscar cookies de AAM válidas antes de invocar el `.setTargeting` método.
 
 * **añadir la `AamGpt` función:** El `AamGpt` código captura datos de Audience Manager cookies y los envía a [!DNL GPT]. Coloque el [Code Audience Manager de las etiquetas](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) de editor de Google ( `AamGpt`) en la parte superior del Página o dentro del `<head>` bloque de código.
 

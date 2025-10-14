@@ -20,7 +20,7 @@ La opción Conversión en diferentes canales de los informes Audience Optimizati
 
 Los [!UICONTROL Cross Channel Conversion] informes combinan los resultados de la [!DNL Google Campaign Manager] plataforma con [!DNL Audience Manager] Conversión características. Esto le permite vincular sin conexión conversiones a en línea impresiones o clics.
 
-Puede utilizar para [!UICONTROL Cross Channel Conversion] los informes de rendimiento[ de ](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)segmento y [frecuencia](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) óptima.
+Puede utilizar para [!UICONTROL Cross Channel Conversion] los informes de rendimiento[&#x200B; de &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)segmento y [frecuencia](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) óptima.
 
 Para vista los [!UICONTROL Cross Channel Conversion] informes, seleccione el **[!UICONTROL AAM + Ad Server Name]** elemento en la **[!UICONTROL Platform]** lista desplegable.
 

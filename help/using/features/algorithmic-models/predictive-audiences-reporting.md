@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Informes de Audiences predictivos
 
-Después de guardar un [!UICONTROL Predictive Audiences] modelo, Audience Manager comienza aprendizaje él. En un par de horas, el modelo calculado inicio analizar audiencias en los servidores[ de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=es#dcs-pcs)recopilación de datos. Los informes estarán disponibles al día siguiente.
+Después de guardar un [!UICONTROL Predictive Audiences] modelo, Audience Manager comienza aprendizaje él. En un par de horas, el modelo calculado inicio analizar audiencias en los servidores[&#x200B; de &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=es#dcs-pcs)recopilación de datos. Los informes estarán disponibles al día siguiente.
 
 Para ver los resultados de su [!UICONTROL Predictive Audiences] clasificación, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic en su modelo en el lista.
 
