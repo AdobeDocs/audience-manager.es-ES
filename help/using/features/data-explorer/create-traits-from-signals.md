@@ -21,7 +21,7 @@ Crear nuevos rasgos de todas las señales, incluidos los que ya se usan en los r
 
 ## Crear características del panel de señales {#create-traits-from-signal-dashboard}
 
-El [!UICONTROL Signal Dashboard] le permite crear nuevas características a partir de , [!UICONTROL Top Unused Signals][!UICONTROL New Unused Signals]y de las búsquedas guardadas.
+El [!UICONTROL Signal Dashboard] le permite crear nuevas características a partir de , [!UICONTROL Top Unused Signals]&#x200B;[!UICONTROL New Unused Signals]y de las búsquedas guardadas.
 
 Cuando se crea un rasgo nuevo, el tipo de rasgo se preconfigura en función del tipo de señal:
 

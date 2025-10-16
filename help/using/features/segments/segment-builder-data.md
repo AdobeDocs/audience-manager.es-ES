@@ -20,7 +20,7 @@ añadir y elimine [!UICONTROL traits] [!UICONTROL Segment Builder] para ver las 
 
 ## [!UICONTROL Trait] Datos de población {#trait-population-data}
 
-[!UICONTROL Segment Builder][!UICONTROL Total Trait Population] Le muestra el último día cuando agrega una [!UICONTROL trait] a una segmento. Estos datos aparecen en el campo azul alrededor de la selección [!UICONTROL trait] en la [!UICONTROL Basic View] sección.
+[!UICONTROL Segment Builder]&#x200B;[!UICONTROL Total Trait Population] Le muestra el último día cuando agrega una [!UICONTROL trait] a una segmento. Estos datos aparecen en el campo azul alrededor de la selección [!UICONTROL trait] en la [!UICONTROL Basic View] sección.
 
 ![](assets/trait-size.png)
 

@@ -90,7 +90,7 @@ En la [flujo de trabajo Configurar URL destino](/help/using/features/destination
 
 Ingrese una fecha de finalización si corresponde; de lo contrario, déjela en blanco para que no haya fecha de finalización.
 
-## Paso 3: Crear un [!UICONTROL Audience][!DNL Facebook Ads Manager] {#step-3-create-audience}
+## Paso 3: Crear un [!UICONTROL Audience]&#x200B;[!DNL Facebook Ads Manager] {#step-3-create-audience}
 
 Consulte [Crear una audiencia](https://www.facebook.com/business/help/666509013483225) personalizada de sitio web en la documentación de [!DNL Facebook] ayuda. Seleccione las opciones de [!UICONTROL Create Audience] la siguiente tabla:
 
@@ -102,7 +102,7 @@ Consulte [Crear una audiencia](https://www.facebook.com/business/help/6665090134
 | En los últimos | Configuración opcional. |
 | Nombre de audiencia | Le recomendamos que use el mismo [!DNL Audience Manager] nombre de segmento para mantener la coherencia, a menos que vaya a añadir condiciones adicionales a esta audiencia. |
 
-## Paso 4: Asignar [!UICONTROL Audience] el a un [!UICONTROL Campaign][!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
+## Paso 4: Asignar [!UICONTROL Audience] el a un [!UICONTROL Campaign]&#x200B;[!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
 Después de crear el [!DNL Custom Audience], asígnelo a un campaña de anuncios. Crear una nueva campaña o edite una existente y encontrará que la audiencia recién creada aparece en la interfaz de [!DNL Facebook] usuario. Tu campaña de anuncios destino usuarios que hayan visto el píxel dispararse en su explorador al visitar tu sitio, si [!DNL Audience Manager] los incluye en el segmento.
 

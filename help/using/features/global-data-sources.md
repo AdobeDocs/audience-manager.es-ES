@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Información general
 
-Todos los clientes Audience Manager pueden acceder a las fuentes de datos globales y contienen dispositivos ID de publicidad generados por fabricantes dispositivos, , [!DNL Apple][!DNL Samsung][!DNL Microsoft][!DNL Roku], y [!DNL Android] dispositivos fabricantes. Los fabricantes generan estos ID con fines publicitarios. Audience Manager clientes pueden utilizar fuentes de datos globales para sincronizar ID de dispositivos e importar o exportar datos con claves fuera de esas asignaciones.
+Todos los clientes Audience Manager pueden acceder a las fuentes de datos globales y contienen dispositivos ID de publicidad generados por fabricantes dispositivos, , [!DNL Apple]&#x200B;[!DNL Samsung]&#x200B;[!DNL Microsoft]&#x200B;[!DNL Roku], y [!DNL Android] dispositivos fabricantes. Los fabricantes generan estos ID con fines publicitarios. Audience Manager clientes pueden utilizar fuentes de datos globales para sincronizar ID de dispositivos e importar o exportar datos con claves fuera de esas asignaciones.
 
 En la tabla siguiente se describen los orígenes de datos globales compatibles con Audience Manager.
 

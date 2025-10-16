@@ -36,7 +36,7 @@ Para generar un(a) [!UICONTROL Profile Merge Rule], realice una selección de la
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] | Todos los clientes | Tiempo real y por lotes | No | [Avanzadas Segmentación entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | N/D | Exclusivo para [clientes de destinos](../destinations/people-based-destinations-overview.md) basados en personas | Solo Lote | No | [Segmentación para destinos basados en personas](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule][!UICONTROL Segment] Evaluación {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule]&#x200B;[!UICONTROL Segment] Evaluación {#segment-evaluation}
 
 Dependiendo de su [!UICONTROL Profile Merge Rules] configuración, [!DNL Audience Manager] puede realizar la [!UICONTROL segment] evaluación en tiempo real, en lote, o en ambos.
 

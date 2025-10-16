@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Códigos Error DCS, mensajes y ejemplos {#dcs-error-codes-messages-and-examples}
 
-Error códigos y mensajes generados por () enumerados en numérica orden por ID de [!UICONTROL Data Collection Servers][!DNL DCS]código.
+Error códigos y mensajes generados por () enumerados en numérica orden por ID de [!UICONTROL Data Collection Servers]&#x200B;[!DNL DCS]código.
 
 En las tablas siguientes, *la cursiva representa un marcador de* posición variable.
 

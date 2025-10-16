@@ -105,7 +105,7 @@ Simplifique la gestión de derechos de grupo con [!UICONTROL Wild Card Permissio
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions]Conceder a grupo miembros acceso automático a cada fuente de datos asociado a , [!UICONTROL segment][!UICONTROL destination], o [!UICONTROL trait]. En comparación, los permisos regulares sólo permiten asignar elementos específicos [!UICONTROL data sources] a uno de estos objetos. Y, cuando agrega nuevos [!UICONTROL data sources], grupo miembros no tienen acceso a esas nuevas fuentes.
+[!UICONTROL Wild Card Permissions]Conceder a grupo miembros acceso automático a cada fuente de datos asociado a , [!UICONTROL segment]&#x200B;[!UICONTROL destination], o [!UICONTROL trait]. En comparación, los permisos regulares sólo permiten asignar elementos específicos [!UICONTROL data sources] a uno de estos objetos. Y, cuando agrega nuevos [!UICONTROL data sources], grupo miembros no tienen acceso a esas nuevas fuentes.
 
 Debe abrir los permisos grupo y asignar los nuevos [!UICONTROL data sources] al grupo. [!UICONTROL Wild Card Permissions] permite evitar este proceso de actualización manual [!UICONTROL data source] . Los grupos con [!UICONTROL Wild Card Permissions] obtienen acceso a nuevos [!UICONTROL data sources] sin autorización explícita.
 
