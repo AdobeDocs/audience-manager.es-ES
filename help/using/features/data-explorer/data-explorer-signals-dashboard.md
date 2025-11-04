@@ -41,4 +41,4 @@ Las búsquedas guardadas muestran los 50 resultados principales para los criteri
 
 Vea el siguiente vídeo para aprender a utilizar [!UICONTROL Signals Dashboard].
 
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/327524?captions=spa)

@@ -58,7 +58,7 @@ Comience por ver el vídeo [Crear segmentos en Audience Manager](https://images-
 
 Vea el siguiente vídeo para obtener una visión detallada de cómo funcionan las métricas entre dispositivos.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36789?captions=spa)
 
 ## [!UICONTROL Segment Builder] Controles: Sección [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 

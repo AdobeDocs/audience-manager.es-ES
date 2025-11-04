@@ -92,7 +92,7 @@ En este caso, debe crear una nueva fuente de datos entre dispositivos que almace
 
 Vea el siguiente vídeo para ver un tutorial sobre cómo crear un origen de datos para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/32174?captions=spa)
 
 ## Paso 3: Hacer coincidir DPUUID con direcciones de correo electrónico con hash mediante la sincronización de ID basada en archivos {#match-ids-emails}
 
