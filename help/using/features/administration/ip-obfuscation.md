@@ -31,7 +31,7 @@ Consulte también Recopilación de direcciones IP y Ofuscación de direcciones I
 
 ### Prioridad de confusión de IP {#precedence}
 
-[La confusión de IP en el nivel de secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tiene prioridad sobre cualquier opción de confusión de IP establecida en Audience Manager y se aplica a todas las direcciones IP. Cualquier búsqueda de geolocalización realizada por Audience Manager se ve afectada por la opción [!UICONTROL IP obfuscation] del nivel de secuencia de datos. Una búsqueda de geolocalización en Audience Manager, basada en una IP totalmente ofuscada, dará como resultado una región desconocida y no se realizará ningún segmento basado en los datos de geolocalización resultantes.
+[La confusión de IP en el nivel de secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es#create) tiene prioridad sobre cualquier opción de confusión de IP establecida en Audience Manager y se aplica a todas las direcciones IP. Cualquier búsqueda de geolocalización realizada por Audience Manager se ve afectada por la opción [!UICONTROL IP obfuscation] del nivel de secuencia de datos. Una búsqueda de geolocalización en Audience Manager, basada en una IP totalmente ofuscada, dará como resultado una región desconocida y no se realizará ningún segmento basado en los datos de geolocalización resultantes.
 
 ## Requisitos de ofuscación de direcciones IP {#ip-obfuscation-requirements}
 

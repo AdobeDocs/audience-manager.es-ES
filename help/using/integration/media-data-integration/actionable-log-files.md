@@ -41,7 +41,7 @@ Si ya está importando datos de registro en [!DNL Audience Manager], pídale al 
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) to get started.
 
 -->
 

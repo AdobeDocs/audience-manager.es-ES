@@ -61,7 +61,7 @@ En la [Audiencia a la que se puede dirigir](/help/using/features/addressable-aud
 
 **Atributos del cliente**
 
-Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) en la documentación del producto de [!DNL Experience Cloud Core Services]
+Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la documentación del producto de [!DNL Experience Cloud Core Services]
 
 
 
@@ -113,7 +113,7 @@ La [!UICONTROL Data Integration Library] es una biblioteca de API que utiliza [!
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente conocido como [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Anteriormente conocido como [!DNL Marketing Cloud] ID (MID o MCID). El [!DNL Experience Cloud] ID es fundamental para el servicio de ID. Es un identificador único y persistente para los visitantes del sitio. Consulte Cookies y el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 
 
@@ -270,6 +270,6 @@ TTL define cuántos días permanece un visitante clasificado en un rasgo. El TTL
 
 El servicio [!DNL Experience Cloud]ID (antes conocido como ID de visitante) ofrece un identificador universal y persistente que identifica a los visitantes en todas las soluciones de [!DNL Experience Cloud].
 
-Consulte la documentación del [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+Consulte la documentación del [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
 ## W-X-Y-Z {#w-z}
