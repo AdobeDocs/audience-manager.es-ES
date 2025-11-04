@@ -33,7 +33,7 @@ Además, sus segmentos de Experience Platform se comparten con otras soluciones 
 >[!IMPORTANT]
 >
 > * Necesita una licencia de Audience Manager para habilitar los casos de uso de la plataforma de administración de datos mencionados anteriormente.
-> * No necesita *1} una licencia de Audience Manager para compartir segmentos de Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketo y otras soluciones de Experience Cloud mediante la integración de servicios principales.*
+> * No necesita *1&rbrace; una licencia de Audience Manager para compartir segmentos de Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketo y otras soluciones de Experience Cloud mediante la integración de servicios principales.*
 
 Consulte la tabla siguiente para obtener una descripción general de los casos de uso compartido de audiencias:
 
