@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guía del usuario de Audience Manager
 user-guide-description: Aprenda a utilizar Adobe Audience Manager para recopilar información comercial relevante acerca de los visitantes del sitio y crear segmentos comercializables. También puede encontrar detalles acerca de cómo ofrecer publicidad y contenido segmentados para el público adecuado.
 feature-set: Audience Manager
-source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 16%
@@ -16,7 +16,7 @@ ht-degree: 16%
 # Guía del usuario de Audience Manager {#user-guide}
 
 + [Guía de Audience Manager](aam-home.md)
-+ [Guía de evolución de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=es)
++ [Guía de evolución de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Migrar a Web SDK{#migrate-to-web-sdk}
    + [Migración de la extensión de etiquetas de Adobe Audience Manager a la extensión de etiquetas de Web SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migración de la biblioteca de recopilación de datos de AppMeasurement a Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -152,7 +152,7 @@ ht-degree: 16%
       + [Sintaxis del código utilizada en el Editor de expresiones de segmentos](features/segments/segment-code-syntax.md)
       + [Datos de tamaño de segmentos y rasgos en el Generador de segmentos](features/segments/segment-builder-data.md)
       + [Recomendaciones de rasgos](features/segments/trait-recommendations.md)
-      + [Referencia de cualificación de rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=es)
+      + [Referencia de cualificación de rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Características{#traits}
       + [Resumen de características](/help/using/features/traits/traits-overview.md)
       + [Página Detalles de rasgos](features/traits/trait-details-page.md)
@@ -349,8 +349,8 @@ ht-degree: 16%
    + Integración con otras aplicaciones de Experience Cloud {#integration-other-solutions}
       + [Integración de Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Reenviar datos de Adobe Analytics a Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar un segmento de Adobe Analytics en Experience Cloud (abre la documentación de Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=es)
-      + [Integrar Audience Manager con Adobe Campaign (abre la documentación de Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=es)
+      + [Publicar un segmento de Adobe Analytics en Experience Cloud (abre la documentación de Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrar Audience Manager con Adobe Campaign (abre la documentación de Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referencia{#reference}
    + [Información general de referencia](reference/reference.md)
    + [Amazon S3: Acerca de](reference/amazon-s3.md)

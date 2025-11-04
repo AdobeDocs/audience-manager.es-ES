@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Autenticación con plataformas basadas en personas
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -52,7 +52,9 @@ A continuación se indica cómo añadir direcciones de correo electrónico a int
 Cuando caduca un token de autenticación, se interrumpe la integración entre Audience Manager y la plataforma social correspondiente, por lo que Audience Manager ya no puede enviar segmentos de audiencia al destino. La página [!UICONTROL Integrated Accounts] muestra el estado de caducidad de cada integración en la columna [!UICONTROL Expiration] y le permite renovar la autenticación en cualquier momento.
 
 A continuación se indica cómo renovar una autenticación caducada o a punto de caducar:
+
 1. Inicie sesión en su cuenta de Audience Manager y vaya a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifique la integración para la que necesita renovar la autenticación. Las autenticaciones caducadas se marcan como [!UICONTROL Expired], mientras que las autenticaciones que están a punto de caducar pronto muestran el número restante de días autenticados.
 1. Haga clic en el icono **[!UICONTROL Renew]** correspondiente en la columna [!UICONTROL Expiration]. Esto almacena en déclencheur el flujo de trabajo **[!UICONTROL Renew Account]**, que lo lleva a través de la página de autenticación de la plataforma social. Una vez autenticado, el token se renueva con la nueva fecha de caducidad.
+
    ![pbd-renovar](assets/pbd-renew.png)

@@ -8,7 +8,7 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: desglose de tipo de identidad, desglose de identidad, informes de identidad de audiencia, entre dispositivos, ID de varios dispositivos, ID de dispositivo
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -36,11 +36,11 @@ La parte superior de la página de detalles del segmento aloja las herramientas 
 Debajo de las herramientas de administración de segmentos puede encontrar la siguiente información sobre segmentos:
 
 1. **[!UICONTROL Basic Information]:** Muestra los detalles opcionales y requeridos especificados cuando se creó el segmento. Consulte [Generador de segmentos](segment-builder.md) para obtener una descripción detallada de lo que significan estos campos.
-2. **[!UICONTROL Segment Graph]:** muestra los datos de rendimiento gráficamente y en intervalos fijos de 1, 7, 14, 30, 60 y 90 días. Explicamos los números de población de segmentos en [artículo independiente](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** muestra los datos de rendimiento gráficamente y en intervalos fijos de 1, 7, 14, 30, 60 y 90 días. Explicamos los números de población de segmentos en [artículo independiente](../../features/segments/segment-builder-data.md).
 
    ![segmentos-gráfico](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown]:** El informe muestra el número de personas o hogares que cumplen los requisitos para un segmento contando el número de ID de dispositivos cruzados o ID de gráficos de dispositivos externos vinculados a los dispositivos aptos para el segmento (mostrados por [!UICONTROL Total Segment Population]). Los ID de dispositivos cruzados y los ID de gráficos de dispositivos externos que se muestran en este informe se utilizan para combinar perfiles con la regla de combinación de perfiles que utiliza el segmento. Este informe se muestra únicamente si ha seleccionado un origen de datos entre dispositivos o un gráfico de dispositivos externos en la regla de combinación de perfiles que utiliza el segmento.
+1. **[!UICONTROL Identity Type Breakdown]:** El informe muestra el número de personas o hogares que cumplen los requisitos para un segmento contando el número de ID de dispositivos cruzados o ID de gráficos de dispositivos externos vinculados a los dispositivos aptos para el segmento (mostrados por [!UICONTROL Total Segment Population]). Los ID de dispositivos cruzados y los ID de gráficos de dispositivos externos que se muestran en este informe se utilizan para combinar perfiles con la regla de combinación de perfiles que utiliza el segmento. Este informe se muestra únicamente si ha seleccionado un origen de datos entre dispositivos o un gráfico de dispositivos externos en la regla de combinación de perfiles que utiliza el segmento.
 
    ![segmentos-gráfico](assets/segment-type.png)
 
@@ -49,8 +49,9 @@ Debajo de las herramientas de administración de segmentos puede encontrar la si
    >Audience Manager solo muestra el informe [!UICONTROL Identity Type Breakdown] si cuenta con ID de varios dispositivos calificados para el segmento.
 
    Vea el siguiente vídeo para obtener información general sobre [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/32713?captions=spa)
 
-4. **[!UICONTROL Segment Rules]:** Enumera los rasgos del segmento junto con las reglas de calificación.
-5. **[!UICONTROL Destination Mappings]:** Enumera asignaciones de destino para el segmento.
-6. **[!UICONTROL Management Tools]:** Controles que le permiten crear, editar, clonar y eliminar segmentos.
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
+1. **[!UICONTROL Segment Rules]:** Enumera los rasgos del segmento junto con las reglas de calificación.
+1. **[!UICONTROL Destination Mappings]:** Enumera asignaciones de destino para el segmento.
+1. **[!UICONTROL Management Tools]:** Controles que le permiten crear, editar, clonar y eliminar segmentos.

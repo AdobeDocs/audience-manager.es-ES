@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Preguntas frecuentes sobre People-Based Destinations
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ Respuestas a preguntas frecuentes sobre [!DNL People-Based Destinations]
 
 [!DNL People-Based Destinations] es una función Premium de Audience Manager que está disponible en el momento de la compra. Póngase en contacto con su representante de ventas de Adobe para obtener más información sobre precios y disponibilidad.
 
-## Integración de datos {#data-onboarding}
+## Incorporación de datos {#data-onboarding}
 
 **¿Cómo puedo incluir direcciones de correo electrónico de clientes en Audience Manager para poder usarlas en [!DNL People-Based Destinations]?**
 
@@ -34,7 +34,7 @@ Existen dos maneras de incluir los datos sin conexión a Audience Manager para [
 
 **¿Puedo recopilar direcciones de correo electrónico con hash a través de un formulario web o una aplicación móvil o tienen que pasar por un archivo por lotes?**
 
-Puede recopilar direcciones de correo electrónico con hash mediante la autenticación web utilizando [!DNL ECID] con [ID declarados](../features/declared-ids.md). El archivo por lotes también le permite recopilar direcciones de correo electrónico con hash que no se pueden enviar mediante autenticación (por ejemplo, usuarios inactivos en su ([!DNL CRM]) y activarlas en People-Based Destinations).
+Puede recopilar direcciones de correo electrónico con hash mediante la autenticación web utilizando [!DNL ECID] con [ID declarados](../features/declared-ids.md). El archivo por lotes también le permite recopilar direcciones de correo electrónico con hash que no se pueden enviar mediante autenticación (por ejemplo, usuarios inactivos en su ([!DNL CRM]) y activarlas en destinos basados en personas.
 
 **¿En qué se diferencia la incorporación de direcciones de correo electrónico con hash a través de formularios web de la carga de direcciones de correo electrónico con hash a través de archivos por lotes?**
 
@@ -60,11 +60,12 @@ Sí. Los clientes que compran [!DNL People-Based Destinations] también disponen
 Según su caso de uso. Si decide activar segmentos de origen existentes en canales basados en personas, no necesita crear nuevos segmentos. Puede asignar los segmentos a un destino basado en personas.
 
 Si decide activar nuevas audiencias sin conexión en canales basados en personas, debe crear nuevos segmentos de origen mediante la norma de combinación de [!DNL All Cross-Device Profiles].
+
 >[!NOTE]
 >
 > Solo puede asignar segmentos con datos de origen a [!DNL People-Based Destinations]. Nuestras plataformas de destino no aceptan segmentos con datos de segundas y terceras partes.
 
-## Coincidencia de las tarifas {#match-rates}
+## Tasas de coincidencia {#match-rates}
 
 **¿[!DNL People-Based Destinations] puede ver las tasas de coincidencia o las audiencias a las que se puede dirigir?**
 
@@ -80,7 +81,7 @@ Audience Manager puede recopilar y enviar hasta 10 correos electrónicos por usu
 
 **¿Puedo usar [!DNL People-Based Destinations] en [!DNL Audience Lab]?**
 
-No. Actualmente, todos los [!DNL People-Based Destinations] destinos están excluidos de [!DNL Audience Lab]. Dado que [!DNL People-Based Destinations] las plataformas del lado de la demanda utilizan ID diferentes, no puede prueba y medir rendimiento con audiencias divididas equitativamente entre ellas.
+No. Actualmente, todos los destinos de [!DNL People-Based Destinations] se han excluido de [!DNL Audience Lab]. Dado que [!DNL People-Based Destinations] y las plataformas del lado de la demanda utilizan ID diferentes, no puede probar y medir el rendimiento con audiencias divididas equitativamente entre ellas.
 
 ## Controles de exportación de datos {#data-export-controls}
 
@@ -106,16 +107,16 @@ Antes de poder utilizar [!DNL People-Based Destinations] para enviar segmentos d
 
 **¿[!DNL People-Based Destinations] admite la segmentación por audiencias en otras aplicaciones de [!DNL Facebook], como [!DNL Instagram]?**
 
-Puede usar [!DNL People-Based Destinations] en toda la familia de aplicaciones de [!DNL Facebook]compatibles con [!DNL Custom Audiences], como [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] y [!DNL Messenger]. La selección de la aplicación con la que quiere ejecutar la campaña se indica en el nivel de colocación de [!DNL Facebook Ads Manager].
+Puede usar [!DNL People-Based Destinations] en toda la familia de aplicaciones de [!DNL Facebook] compatibles con [!DNL Custom Audiences], entre ellas [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] y [!DNL Messenger]. La selección de la aplicación con la que quiere ejecutar la campaña se indica en el nivel de colocación de [!DNL Facebook Ads Manager].
 
-**¿Cuál es la diferencia entre [!DNL People-Based Destinations] y [!DNL Website Custom Audiences]?**
+**¿Cuál es la diferencia entre [!DNL People-Based Destinations] y [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] utiliza la integración de [!DNL Custom Audiences (CA)] con [!DNL Facebook]. La diferencia entre las integraciones de [!DNL WCA] y [!DNL CA] es la clave que utilizan los clientes al enviar audiencias a [!DNL Facebook]. [!DNL WCA] utiliza el píxel de [!DNL Facebook] (que sería un ID de usuario del sitio web) y [!DNL People-Based Destinations] utiliza direcciones de correo electrónico con hash para integrarse con [!DNL CA].
 
-Puede utilizar la integración [!DNL WCA] de Audience Manager para [!DNL Facebook] con la función [!DNL URL Destinations] sin coste adicional.
+Puede usar la integración de [!DNL Facebook] [!DNL WCA] de Audience Manager a través de la característica [!DNL URL Destinations] sin costo adicional.
 
 Estas dos integraciones son complementarias; pueden utilizarse las dos para garantizar una mejor cobertura de audiencia. Por ejemplo, [!DNL WCA] se puede utilizar para la prospección cuando una compañía busca visitantes de sitios web de destinatario que no han registrado una cuenta, mientras que [!DNL People-Based Destinations] puede ayudarle a dirigir a los clientes existentes que han proporcionado su dirección de correo electrónico pero que quizá no hayan visitado el sitio web.
 
-**¿La integración con [!DNL People-Based Destinations] el [!DNL Facebook] soporte descalifica a los usuarios de un audiencia cuando ya no cumplen los requisitos para él?**
+**¿Admite la integración de [!DNL People-Based Destinations] con [!DNL Facebook] la descalificación de usuarios de una audiencia cuando ya no cumplen los requisitos?**
 
-Sí, la integración permite eliminar usuarios de [!DNL Facebook] las audiencias cuando ya no cumplen los requisitos para ellas.
+Sí, la integración admite la eliminación de usuarios de [!DNL Facebook] audiencias cuando ya no cumplen los requisitos para ellas.

@@ -7,7 +7,7 @@ title: Controles de exportación de datos
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -48,6 +48,7 @@ Además, al menos una etiqueta de exportación debe coincidir con un control de 
 >[!IMPORTANT]
 >
 >No puede bloquear la exportación de un segmento colocando un control de exportación de datos en el origen de datos del segmento. Debe establecer el control en cualquiera de las siguientes ubicaciones:
+>
 > * Las fuentes de datos de los rasgos utilizados en el segmento;
 > * La regla de combinación de perfiles aprovechada por el segmento;
 > * Cualquiera de las fuentes de datos que utiliza la regla de combinación de perfiles del segmento.

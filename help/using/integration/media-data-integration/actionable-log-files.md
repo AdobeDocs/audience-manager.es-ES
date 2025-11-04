@@ -8,7 +8,7 @@ title: Archivos de registro procesables
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 2%
@@ -25,13 +25,13 @@ ht-degree: 2%
 
 ## Finalidad {#purpose}
 
-[!UICONTROL Actionable Log Files] Optimice la forma en que captura impresiones, clics y conversiones de los servidores de anuncios. Utilice esta información para usuario segmentación sin tener que pixelar manualmente las medios para enviar campaña atributos a [!DNL Audience Manager].
+[!UICONTROL Actionable Log Files] agiliza la forma de capturar impresiones, clics y conversiones desde los servidores de publicidad. Utilice esta información para la segmentación de usuarios sin tener que pixelar manualmente los medios para enviar atributos de campaña a [!DNL Audience Manager].
 
 ## Primeros pasos {#getting-started}
 
-Para empezar con [!UICONTROL Actionable Log Files], debe importar los datos de registro en [!DNL Audience Manager]. Los siguientes vínculos le ayudarán a empezar:
+Para comenzar con [!UICONTROL Actionable Log Files], debe importar los datos de registro en [!DNL Audience Manager]. Los siguientes vínculos le ayudarán a empezar:
 
-* Para obtener [!UICONTROL Google Campaign Manager] registros, consulte [Importar Archivos de datos de Google Campaign Manager en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *y* póngase en contacto con su [!DNL Audience Manager] consultor.
+* Para ver [!UICONTROL Google Campaign Manager] registros, consulte [Importar archivos de datos de Google Campaign Manager en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *y* póngase en contacto con su consultor de [!DNL Audience Manager].
 * Para los registros de [!UICONTROL Google Ad Manager] (anteriormente DFP de Google), consulte [Importar archivos de datos de Google Ad Manager en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *y* póngase en contacto con su consultor de [!DNL Audience Manager].
 * Para ver otros registros del servidor de publicidad, consulta [Archivos de metadatos y datos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *y*, ponte en contacto con tu consultor de [!DNL Audience Manager].
 
@@ -41,13 +41,13 @@ Si ya está importando datos de registro en [!DNL Audience Manager], pídale al 
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/es/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
 ## Trabajar con archivos de registro procesables {#working-with-actionable-log-files}
 
-Con [!UICONTROL Actionable Log Files], la información de los registros de servidor de anuncios se captura de [!DNL Audience Manager] la misma manera que capturaría los datos de las interacciones del sitio web en tiempo real. [!DNL Audience Manager] se conecta a su almacenamiento de registro de servidor de anuncios, analiza la información de los registros y envía los datos de registro como señales procesables a nuestros [servidores](../../reference/system-components/components-data-collection.md#dcs-pcs) de recopilación de datos.
+Con [!UICONTROL Actionable Log Files], la información de los registros del servidor de publicidad se captura en [!DNL Audience Manager] de la misma manera que se capturarían los datos de las interacciones del sitio web en tiempo real. [!DNL Audience Manager] se conecta al almacenamiento de registro del servidor de publicidad, analiza la información de los registros y envía los datos de registro como señales procesables a nuestros [servidores de recopilación de datos](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
 Aún debe configurar rasgos basados en reglas para capturar las señales procesables. Consulte cómo configurar rasgos basados en reglas en la [interfaz de usuario de Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) o con nuestras [herramientas de administración en lotes](../../reference/bulk-management-tools/bulk-create.md). Desplácese hacia abajo hasta la sección [Señales procesables](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) para obtener una lista de todas las claves que puede usar en características basadas en reglas.
 
@@ -62,7 +62,7 @@ Las señales son las [unidades de datos más pequeñas](../../reference/signal-t
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] son compatibles con los siguientes servidores de publicidad:
->&#x200B;> <br>
+> <br>
 >
 > * [Administrador de Google Campaign](#dcm-logs-signals)
 > * [Administrador de anuncios de Google](#ad-manager-logs-signals)
@@ -178,17 +178,17 @@ Removed  {importance="high"} for ExL
 
 <br> 
 
-### Señales procesables de [!DNL Google Ad Manager] los registros {#ad-manager-logs-signals}
+### Señales procesables de [!DNL Google Ad Manager] registros {#ad-manager-logs-signals}
 
-La tabla enumera las señales procesables de los archivos de [!DNL Google Ad Manager] registro:
+En la tabla se enumeran las señales procesables de [!DNL Google Ad Manager] archivos de registro:
 
 
-| Nombre del encabezado en el Archivo de registro | Señal | Descripción |
+| Nombre del encabezado en el archivo de registro | Señal | Descripción |
 |---------|----------|---------|
 | `LineItemId` | `d_lineitem` | El ID numérico para el elemento de línea del administrador de publicidad entregado |
 | `OrderId` | `d_orderid` | El ID numérico del pedido del Administrador de publicidad que contenía el elemento de línea entregado y el creativo. |
 | `CreativeId` | `d_creative` | ID numérico para el creativo del administrador de publicidad enviado. |
-| `-` | `d_event` | Indica el tipo de evento. Audience Manager lee el tipo de evento del nombre del archivo de registro administrador de publicidad y lo transforma en una señal procesable. Los valores aceptados son: <br> <ul><li>d_event = imp para impresiones.</li><li>d_event = clic para clics.</li><li>d_event = conv para conversiones y actividades.</li></ul> |
+| `-` | `d_event` | Indica el tipo de evento. Audience Manager lee el tipo de evento del nombre del archivo de registro del Administrador de publicidad y lo transforma en una señal procesable. Los valores aceptados son: <br> <ul><li>d_event = imp para impresiones.</li><li>d_event = clic para clics.</li><li>d_event = conv para conversiones y actividades.</li></ul> |
 | `-` | `d_src` | El ID de la fuente de datos que utiliza para capturar los datos del Administrador de publicidad. Ver [Cómo crear un Source de datos](/help/using/features/manage-datasources.md). |
 
 Las señales descritas en la tabla se capturan en Audience Manager como una llamada HTTP en tiempo real. La llamada de ejemplo siguiente contiene información sobre un evento de conversión de Google Ad Manager. Las llamadas de no tienen que incluir necesariamente todas las señales de la llamada de ejemplo.
@@ -313,13 +313,13 @@ Una ventaja de implementar [!UICONTROL Actionable Log Files] es la opción de ap
 
 ### Redestinar usuarios
 
-Vuelva a dirigirse a los usuarios que vieron el creativa 123 pero no hicieron clic ni convertir y muéstreles creativa 456. Haga lo siguiente:
+Reasigne a los usuarios que vieron Creative 123 pero no hicieron clic ni convirtieron y muéstreles Creative 456. Haga esto:
 
-1. Crear una característica para capturar a los usuarios que vieron el creativa. Supongamos que nombras el rasgo [!DNL Creative Trait 123]. Utilice el rasgo regla:
+1. Cree un rasgo para capturar a los usuarios que vieron al creativo. Supongamos que asigna un nombre al rasgo [!DNL Creative Trait 123]. Utilice la regla de rasgos:
 
    `d_creative == 123 AND d_event == imp`
 
-2. Crear una característica para capturar a los usuarios que hacen clic o convertir. Digamos que nombras este [!DNL Click and Converter]. Utilice el rasgo regla:
+2. Cree una característica para capturar a los usuarios que hacen clic o convierten. Supongamos que nombra a este [!DNL Click and Converter]. Utilice la regla de rasgos:
 
    `d_event == click OR d_event=conv`
 
@@ -329,11 +329,11 @@ Vuelva a dirigirse a los usuarios que vieron el creativa 123 pero no hicieron cl
 
 4. Asigne el segmento [!DNL Retarget Users] a un destino y dirija a los usuarios en el destino con Creative 456.
 
-### Utilice la actividad de Floodlight de Google Campaign Manager en los informes de Audience Optimization o en Audience Lab
+### Uso de la actividad de Floodlight de Google Campaign Manager en los informes de Audience Optimization o en Audience Lab
 
-[Las etiquetas](https://support.google.com/dcm/partner/answer/4293719?hl=en) de Floodlight permiten a los anunciantes rastrear conversiones usuario. Con [!UICONTROL Actionable Log Files], puede realizar un seguimiento de las [!DNL Google Campaign Manager] conversiones en los [informes](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Optimization o en [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Etiquetas de Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permiten a los anunciantes rastrear las conversiones de los usuarios. Con [!UICONTROL Actionable Log Files], puedes rastrear las conversiones de [!DNL Google Campaign Manager] en los [informes de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md) o en [Audience Lab](../../features/audience-lab/audience-lab.md):
 
-1. Crear un rasgo y use los siguientes regla para capturar un Conversión de los registros de servidor de anuncios:
+1. Cree un rasgo y utilice la siguiente regla de rasgos para capturar una conversión de los registros del servidor de publicidad:
 
    `d_event == conv AND d_conversion == 123`
 

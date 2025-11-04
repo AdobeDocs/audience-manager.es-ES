@@ -8,7 +8,7 @@ title: Información general sobre Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 85%
@@ -42,6 +42,7 @@ Activa los segmentos de audiencia derivándolos a plataformas del lado de la dem
 ## Más información {#more-information}
 
 Consulte los siguientes recursos para obtener más información:
+
 * [Información general sobre Audience Manager](https://www.adobe.com/es/analytics/audience-manager.html)
 * [Ventajas de Audience Manager](https://www.adobe.com/es/analytics/audience-manager/benefits.html)
 * [Funciones de Audience Manager](https://www.adobe.com/es/analytics/audience-manager/features.html)

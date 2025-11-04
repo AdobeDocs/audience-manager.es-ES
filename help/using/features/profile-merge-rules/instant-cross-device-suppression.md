@@ -6,7 +6,7 @@ title: Eliminación instantánea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 6%
@@ -42,11 +42,13 @@ Sus visitantes cumplen los requisitos para el segmento siempre y cuando no se ha
 Puede asegurarse de que no inunda a los usuarios con el mismo elemento creativo configurando los controles de actualización y frecuencia. En este escenario, cree un segmento con dos características, tal como se describe en los pasos siguientes.
 
 1. Cree un segmento con dos características y use la lógica [!UICONTROL AND], como se muestra en la siguiente imagen. Debe utilizar un rasgo basado en reglas para definir el evento de impresión para que la eliminación de la segmentación se active en tiempo real. Obtenga más información sobre cómo [crear características basadas en reglas](../traits/create-onboarded-rule-based-traits.md).
+
    >[!NOTE]
    >
    >Puede usar [!UICONTROL Actionable Log Files] o [!UICONTROL Pixel Calls] para crear características basadas en las impresiones del usuario. Obtenga más información sobre [archivos de registro procesables](../../integration/media-data-integration/actionable-log-files.md) y [llamadas en píxeles](../../integration/media-data-integration/impression-data-pixels.md).
-2. Aplique controles de frecuencia al segundo rasgo. Si lo desea, también puede agregar controles de actualización. Más información sobre [cómo aplicar controles de actualización y frecuencia](../segments/recency-and-frequency.md).
-3. Asigne el segmento a cualquier número de destinos de servidor a servidor en tiempo real. Más información sobre cómo agregar segmentos a [destinos de servidor a servidor](../destinations/add-edit-segments.md).
+
+1. Aplique controles de frecuencia al segundo rasgo. Si lo desea, también puede agregar controles de actualización. Más información sobre [cómo aplicar controles de actualización y frecuencia](../segments/recency-and-frequency.md).
+1. Asigne el segmento a cualquier número de destinos de servidor a servidor en tiempo real. Más información sobre cómo agregar segmentos a [destinos de servidor a servidor](../destinations/add-edit-segments.md).
 
 En esta situación, una vez que los usuarios hayan acumulado más de tres impresiones, se eliminarán de este segmento y ya no verán este elemento creativo en particular.
 

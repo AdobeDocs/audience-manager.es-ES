@@ -8,7 +8,7 @@ title: Clasificación de rasgos con una taxonomía común
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Permitir que nuestros clientes creen segmentos personalizados y modelos de datos
 
 ## La Taxonomía Utiliza Categorías De Clasificación Estándar Del Sector
 
-La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [!DNL IAB]sitio web[&#x200B; de &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
+La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [!DNL IAB]sitio web[ de ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
 
 ## Organización taxonómica
 
@@ -39,7 +39,7 @@ La taxonomía [!DNL Audience Manager] organiza los datos en categorías anidadas
 
 ## Clasificar rasgos en categorías de datos
 
-Las clasificaciones taxonómicas se asignan al crear o editar características en [!UICONTROL Add New Trait Wizard] (ubicado en * **[!UICONTROL Audience Data > Traits]***). Consulte la [documentación sobre la creación de características](../../features/traits/create-onboarded-rule-based-traits.md) para obtener más información.
+Las clasificaciones taxonómicas se asignan al crear o editar características en [!UICONTROL Add New Trait Wizard] (ubicado en ***[!UICONTROL Audience Data > Traits]***). Consulte la [documentación sobre la creación de características](../../features/traits/create-onboarded-rule-based-traits.md) para obtener más información.
 
 ## Uso de la taxonomía: consideraciones adicionales
 
