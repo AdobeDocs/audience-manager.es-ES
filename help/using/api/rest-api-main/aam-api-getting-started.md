@@ -34,7 +34,7 @@ Tenga en cuenta lo siguiente al trabajar con el código [API de Audience Manager
 [!DNL Audience Manager] [!DNL REST APIs] admite tres métodos de autenticación.
 
 * [!BADGE Se ha recomendado]{type=positive} [autenticación de servidor a servidor OAuth](#oauth-adobe-developer) mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/). Esta es la forma recomendada de configurar y usar [!DNL Adobe] [!DNL APIs]. Obtenga más información sobre la [autenticación de servidor a servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) en la documentación para desarrolladores de Adobe.
-* [!BADGE Autenticación &#x200B;]{type=negative}JWT (cuenta de servicio) [&#128279;](#jwt)obsoleta mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Autenticación ]{type=negative}JWT (cuenta de servicio)[ ](#jwt)obsoleta mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/).
 * [!BADGE Obsoleto]{type=negative} [Autenticación OAuth heredada](#oauth-deprecated). Mientras este método esté obsoleto, los clientes con integraciones existentes de [!DNL OAuth] pueden seguir usando este método.
 
 >[!IMPORTANT]
