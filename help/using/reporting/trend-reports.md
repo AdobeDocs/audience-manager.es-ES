@@ -101,7 +101,7 @@ Los ceros indican que [!DNL Audience Manager] no recopiló datos para ese día. 
 
 Vea el siguiente vídeo para obtener una visión detallada de cómo funcionan las métricas entre dispositivos.
 
-[Explicación de las métricas entre dispositivos en Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Explicación de las métricas entre dispositivos en Audience Manager](https://experienceleague.adobe.com/es/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Resultados de informes de tendencias para segmentos {#segment-report-results-traits}
 
