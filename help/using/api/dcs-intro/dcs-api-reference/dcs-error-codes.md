@@ -23,7 +23,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 |---|---|---|
 | 0 | Error no especificado | Este es un error de captador global que controla eventos que no están cubiertos por los otros controladores de errores. Solucionar este error es difícil. Puede deberse a una variedad de acciones o eventos desconocidos. Si recibe este error, intente de nuevo la solicitud [!DNL DCS]. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 | 1 | No se encontró la configuración del nombre de host: `hostname` | El equipo de aprovisionamiento de socios no ha configurado el nombre de host enviado en la solicitud. Póngase en contacto con su representante de [!DNL Adobe] si ve este mensaje de error. |
-| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarlo. |
+| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es) para obtener información sobre cómo encontrarlo. |
 | 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 
 ## Códigos de error de integración {#integration-error-codes}
@@ -151,7 +151,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Id. de cliente no autorizado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar su identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> organizaciones y vinculación de cuentas</a> para obtener información sobre cómo encontrarlo. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar su identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html" format="https" scope="external"> organizaciones y vinculación de cuentas</a> para obtener información sobre cómo encontrarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
