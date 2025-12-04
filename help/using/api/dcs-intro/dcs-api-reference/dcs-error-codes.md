@@ -181,7 +181,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>El ID de cliente se descartó porque superaba el límite de un área de nombres determinada. El identificador del área de nombres es <code><i>ID</i></code>, el identificador de cliente es <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Este código de error se devuelve si hay más de tres ID de cliente declarados para el mismo espacio de nombres (<code> DPID</code>) en una llamada de DCS<span class="wintitle"> de </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>En esta solicitud de muestra <span class="wintitle"> DCS</span>, hay 4 ID declarados para el mismo área de nombres (con el código de integración uno). Se descarta uno de los ID y se devuelve el error 310. </p> </td> 
+   <td colname="col3"> <p>Este código de error se devuelve si hay más de tres ID de cliente declarados para el mismo espacio de nombres (<code> DPID</code>) en una llamada de DCS<span class="wintitle"> de </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>En esta solicitud de muestra <span class="wintitle"> DCS</span>, hay 4 ID declarados para el mismo área de nombres (con el código de integración uno). Se descarta uno de los ID y se devuelve el error 310. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La solicitud contiene un ID de dispositivo global no válido </p> </td> 
    <td colname="col3"> <p>El <span class="wintitle">DCS</span> devuelve este código de error cuando la solicitud contiene un ID de dispositivo global no válido. DCS ignora el ID no válido y genera un error 312 junto con los errores específicos del ID no válido. Consulte <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fuentes de datos globales</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de ID en Audience Manager</a> para obtener información detallada sobre los formatos de ID de publicidad de dispositivo correctos y las fuentes de datos globales correspondientes.</p>
-   <p>Ejemplo de llamada incorrecta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Ejemplo de llamada incorrecta: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicación: Un <span class="keyword">IDFA (DPID 20915)</span> debe ser un ID en mayúsculas. El ID proporcionado en la solicitud está en minúsculas.</p>
    </td>
   </tr>
