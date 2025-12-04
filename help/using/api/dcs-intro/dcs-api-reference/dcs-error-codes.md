@@ -4,9 +4,9 @@ title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
+source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1519'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 |---|---|---|
 | 0 | Error no especificado | Este es un error de captador global que controla eventos que no están cubiertos por los otros controladores de errores. Solucionar este error es difícil. Puede deberse a una variedad de acciones o eventos desconocidos. Si recibe este error, intente de nuevo la solicitud [!DNL DCS]. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 | 1 | No se encontró la configuración del nombre de host: `hostname` | El equipo de aprovisionamiento de socios no ha configurado el nombre de host enviado en la solicitud. Póngase en contacto con su representante de [!DNL Adobe] si ve este mensaje de error. |
-| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es) para obtener información sobre cómo encontrarlo. |
+| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarlo. |
 | 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 
 ## Códigos de error de integración {#integration-error-codes}
@@ -129,92 +129,22 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 
 ## Códigos de advertencia de integración {#integration-warning-codes}
 
-<table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID de código </th> 
-   <th colname="col2" class="entry"> Mensaje </th> 
-   <th colname="col3" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>ID de cliente <code><i>ID</i></code> no válido </p> </td> 
-   <td colname="col3"> <p>El ID de cliente no es válido (faltan valores para la fuente de datos, faltan códigos de integración, formato no válido para las fuentes de datos, ID de cliente bloqueado, ID de cliente en blanco, intento de acceso no autorizado a una fuente de datos que no pertenece al socio). </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Se ha superado el número máximo de ID de cliente. El máximo permitido es <code><i>maximum allowed</i></code>. Se encontró <code><i>maximum found</i></code>.</p> </td> 
-   <td colname="col3"> <p>El número de ID de cliente asociados a una fuente de datos entre dispositivos supera el número permitido de ID entre dispositivos por solicitud. Estos ID incluyen ID de cookies, móviles o entre dispositivos. El límite actual es de 10. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Id. de cliente no autorizado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección "Buscar su identificador de organización" en <a href="https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html" format="https" scope="external"> organizaciones y vinculación de cuentas</a> para obtener información sobre cómo encontrarlo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>ID de cliente bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la lista de distribución de datos de la lista de distribución de. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>ID de origen de datos bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de la fuente de datos se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la fuente de datos de la que se ha hecho clic en el nombre de usuario. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Identificador de dispositivo declarado bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de. Esto puede ocurrir cuando recibimos una cantidad extrema de <span class="wintitle"> solicitudes DCS</span> que contienen este ID de dispositivo en un corto período de tiempo. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Operación de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malintencionado y se ha agregado a una lista de bloqueados de error. Consulte el código de error 306. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>El id. de cliente <code><i>ID</i></code> se descartó porque superó el límite de id de cliente declarados por solicitud </p> </td> 
-   <td colname="col3"> <p>Relacionado con el error 301. Este error especifica qué ID de cliente se descartó porque se superó el límite. </p> <p>Por ejemplo, si hay 12 ID de cliente declarados en la llamada de DCS<span class="wintitle"> de </span>, se descartarán dos de ellos. Para retransmitir cuáles se descartaron, este error aparecerá dos veces en la respuesta (una vez por cada ID de cliente descartado ). </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>El ID de cliente se descartó porque superaba el límite de un área de nombres determinada. El identificador del área de nombres es <code><i>ID</i></code>, el identificador de cliente es <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Este código de error se devuelve si hay más de tres ID de cliente declarados para el mismo espacio de nombres (<code> DPID</code>) en una llamada de DCS<span class="wintitle"> de </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>En esta solicitud de muestra <span class="wintitle"> DCS</span>, hay 4 ID declarados para el mismo área de nombres (con el código de integración uno). Se descarta uno de los ID y se devuelve el error 310. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>311 </p> </td> 
-   <td colname="col2"> <p>La solicitud contiene parámetros no válidos </p> </td> 
-   <td colname="col3"> <p>El DCS<span class="wintitle"> de </span> devuelve este código de error cuando al menos un parámetro de URL no está codificado correctamente. En este caso, el DCS <span class="wintitle"> </span> ignora la solicitud completa. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>En la solicitud de ejemplo anterior, la secuencia <code> %</code> está codificada incorrectamente. En consecuencia, el DCS<span class="wintitle"> de </span> no lo tendrá en cuenta. </p> <p>La muestra codificada correctamente debería tener un aspecto similar al siguiente: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>312 </p> </td> 
-   <td colname="col2"> <p>La solicitud contiene un ID de dispositivo global no válido </p> </td> 
-   <td colname="col3"> <p>El <span class="wintitle">DCS</span> devuelve este código de error cuando la solicitud contiene un ID de dispositivo global no válido. DCS ignora el ID no válido y genera un error 312 junto con los errores específicos del ID no válido. Consulte <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fuentes de datos globales</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de ID en Audience Manager</a> para obtener información detallada sobre los formatos de ID de publicidad de dispositivo correctos y las fuentes de datos globales correspondientes.</p>
-   <p>Ejemplo de llamada incorrecta: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>Explicación: Un <span class="keyword">IDFA (DPID 20915)</span> debe ser un ID en mayúsculas. El ID proporcionado en la solicitud está en minúsculas.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>313 </p> </td> 
-   <td colname="col2"> <p>El ID de CMP no está presente en GCL</p> </td> 
-   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena IAB TC se generan mediante un ID de CMP que no está presente en la versión en caché de Audience Manager de la Lista global de CMP en el momento de la evaluación, el complemento de Audience Manager para el TCF de IAB descarta la cadena IAB TC y procesa la solicitud como de costumbre. La macro TCF v2.2 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>314 </p> </td> 
-   <td colname="col2"> <p>El ID de CMP se marca como eliminado en GCL</p> </td> 
-   <td colname="col3"> <p>Cuando <code>gdpr=1</code> y la cadena IAB TC se generan mediante una CMP marcada como eliminada en la versión en caché de la lista CMP global, el complemento Audience Manager para TCF de IAB descarta la cadena TC y procesa la solicitud como de costumbre si el tiempo de evaluación ha pasado el tiempo de eliminación de la lista CMP global. La macro TCF v2.2 ${GDPR} de IAB está establecida en 0 y la macro ${GDPR_CONSENT_XXX} está vacía.</p></td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>315 </p> </td> 
-   <td colname="col2"> <p>La cadena de consentimiento indica que no hay consentimiento</p> </td> 
-   <td colname="col3"> <p>Cuando no se proporciona ningún consentimiento, el complemento de Audience Manager para el TCF de IAB excluye al usuario de una recopilación de datos adicional o anula la llamada completamente si no se detecta ningún contexto de socio.</p>
-   </td>
-  </tr>
- </tbody>
-</table>
+| ID de código | Mensaje | Descripción |
+| --- | --- | --- |
+| 300 | ID de cliente `_ID_` no válido | El ID de cliente no es válido (faltan valores para la fuente de datos, faltan códigos de integración, formato no válido para las fuentes de datos, ID de cliente bloqueado, ID de cliente en blanco, intento de acceso no autorizado a una fuente de datos que no pertenece al socio). |
+| 301 | Se ha superado el número máximo de ID de cliente. El máximo permitido es `_maximum allowed_`. Se encontró `_maximum found_`. | El número de ID de cliente asociados a una fuente de datos entre dispositivos supera el número permitido de ID entre dispositivos por solicitud. Estos ID incluyen ID de cookies, móviles o entre dispositivos. El límite actual es de 10. |
+| 302 | Id. de cliente no autorizado `_ID_` | Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Buscar su identificador de organización&quot; en [Organizaciones y vinculación de cuentas](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) para obtener información sobre cómo encontrarlo. |
+| 303 | ID de cliente bloqueado `_ID_` | Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la lista de distribución de datos de la lista de distribución de. |
+| 304 | ID de origen de datos bloqueado `_ID_` | Se devuelve cuando el ID de la fuente de datos se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la fuente de datos de la que se ha hecho clic en el nombre de usuario. |
+| 306 | Identificador de dispositivo declarado bloqueado `_ID_` | El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes de DCS que contienen este ID del dispositivo en un corto período de tiempo. |
+| 307 | Operación de perfil bloqueada para `_ID_` | Se ha bloqueado una acción de lectura y escritura porque se ha identificado un ID como malintencionado y se ha agregado a una lista de bloqueados de error. Consulte el código de error 306. |
+| 309 | El id. de cliente `_ID_` se descartó porque superó el límite de id de cliente declarados por solicitud | Relacionado con el error 301. Este error especifica qué ID de cliente se descartó porque se superó el límite.<br><br>Por ejemplo, si hay 12 ID de cliente declarados en la llamada del DCS, se descartarán dos de ellos. Para retransmitir cuáles se descartaron, este error aparecerá dos veces en la respuesta (una vez por cada ID de cliente descartado ). |
+| 310 | El ID de cliente se descartó porque superaba el límite de un área de nombres determinada. El identificador del área de nombres es `_ID_`, el identificador de cliente es `_ID_`. | Este código de error se devuelve si hay más de 3 ID de cliente declarados para el mismo espacio de nombres ( `DPID`) en una llamada del DCS.<br><br>`https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one`<br><br>En esta solicitud de DCS de ejemplo, hay 4 ID declarados para el mismo área de nombres (con el código de integración uno). Se descarta uno de los ID y se devuelve el error 310. |
+| 311 | La solicitud contiene parámetros no válidos | El DCS devuelve este código de error cuando al menos un parámetro de URL no está codificado correctamente. En este caso, el DCS ignora toda la solicitud.<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%esid!&d_creative=%ecid!&d_adgroup=%eaid!&d_placement=%epid!&d_campaign=%ebuy!&d_adsrc=48123`<br><br>En la solicitud de ejemplo anterior, la secuencia `%` está codificada incorrectamente. En consecuencia, el DCS no lo tendrá en cuenta.<br><br>La muestra codificada correctamente debería tener este aspecto:<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%25esid!&d_creative=%25ecid!&d_adgroup=%25eaid!&d_placement=%25epid!&d_campaign=%25ebuy!&d_adsrc=48123` |
+| 312 | La solicitud contiene un ID de dispositivo global no válido | El DCS devuelve este código de error cuando la solicitud contiene un ID de dispositivo global no válido. DCS ignora el ID no válido y genera un error 312 junto con los errores específicos del ID no válido. Consulte [Fuentes de datos globales](../../../features/global-data-sources.md) e [Índice de ID en Audience Manager](../../../reference/ids-in-aam.md) para obtener información detallada sobre los formatos de ID de publicidad de dispositivo correctos y las fuentes de datos globales correspondientes.<br><br>Ejemplo de llamada incorrecta: `"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"`<br><br>Explicación: un IDFA (20915 DPID) debe ser un ID en mayúsculas. El ID proporcionado en la solicitud está en minúsculas. |
+| 313 | El ID de CMP no está presente en GCL | Cuando `gdpr=1` y la cadena IAB TC se generan mediante un ID de CMP que no está presente en la versión en caché de Audience Manager de la Lista global de CMP en el momento de la evaluación, el complemento de Audience Manager para el TCF de IAB descarta la cadena IAB TC y procesa la solicitud como de costumbre. La macro TCF de IAB v2.2 ${GDPR} se establece en 0 y la macro ${GDPR\_CONSENT\_XXX} está vacía. |
+| 314 | El ID de CMP se marca como eliminado en GCL | Cuando `gdpr=1` y la cadena IAB TC se generan mediante una CMP marcada como eliminada en la versión en caché de la lista CMP global, el complemento Audience Manager para TCF de IAB descarta la cadena TC y procesa la solicitud como de costumbre si el tiempo de evaluación ha pasado el tiempo de eliminación de la lista CMP global. La macro TCF de IAB v2.2 ${GDPR} se establece en 0 y la macro ${GDPR\_CONSENT\_XXX} está vacía. |
+| 315 | La cadena de consentimiento indica que no hay consentimiento | Cuando no se proporciona ningún consentimiento, el complemento de Audience Manager para el TCF de IAB excluye al usuario de una recopilación de datos adicional o anula la llamada completamente si no se detecta ningún contexto de socio. |
 
 ## Ejemplos de mensajes de código de error {#sample-error-codes}
 
