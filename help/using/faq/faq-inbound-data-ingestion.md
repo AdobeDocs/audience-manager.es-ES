@@ -60,8 +60,8 @@ Consulte [Compresión de archivos de transferencia de datos entrantes](../integr
 
 Sí. Siempre que use [!UICONTROL cross-device data source] para almacenar los datos de CRM que cargue, Audience Manager siempre almacena los datos. De hecho, tras las mejoras de [!UICONTROL Profile Merge Rules] que Audience Manager lanzó en octubre de 2019 y que permiten casos de uso solo sin conexión, puedes cargar datos y realizar acciones en ellos sin tener que implementar código de Audience Manager en la producción. Consulte:
 
-* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalización basada en datos solo sin conexión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Información general sobre las mejoras de las reglas de combinación de perfiles](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=es)
+* [!UICONTROL People-based Destinations] - [Personalización basada en datos solo sin conexión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=es)
 
 <br> 
 
