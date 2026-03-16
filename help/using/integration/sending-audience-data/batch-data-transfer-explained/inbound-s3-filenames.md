@@ -1,5 +1,5 @@
 ---
-description: Describe los campos, sintaxis, convenciones de nomenclatura y tamaños de archivo necesarios que debe seguir al enviar datos a Audience Manager. Establezca los nombres y tamaños de los archivos según estas especificaciones al enviar datos a un directorio de Audience Manager/Amazon S3.
+description: Describe los campos, sintaxis, convenciones de nomenclatura y tamaños de archivo necesarios que debe seguir al enviar datos a Audience Manager. Configure los nombres y tamaños de los archivos según estas especificaciones cuando envíe datos a un directorio de Audience Manager/Amazon S3.
 seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
 seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
@@ -20,11 +20,11 @@ Describe los campos, sintaxis, convenciones de nomenclatura y tamaños de archiv
 
 >[!NOTE]
 >
->Los estilos de texto (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos de código y opciones. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Los estilos de texto (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos y opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
-## Sintaxis de nombre de archivo {#file-name-syntax}
+## Sintaxis del nombre del archivo {#file-name-syntax}
 
-Los nombres de archivo [!DNL S3] contienen los siguientes elementos obligatorios y opcionales:
+[!DNL S3] nombres de archivo contienen los siguientes elementos obligatorios y opcionales:
 
 * Prefijo **[!DNL S3]:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
@@ -42,12 +42,12 @@ Removed  {importance="high"} for ExL
 
 ### Elementos de nombre
 
-La tabla define los elementos de un nombre de archivo [!DNL S3].
+La tabla define los elementos en un nombre de archivo de [!DNL S3].
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento Name </th> 
+   <th colname="col1" class="entry"> Elemento Nombre </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
@@ -64,18 +64,18 @@ La tabla define los elementos de un nombre de archivo [!DNL S3].
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Un ID que indica a <span class="keyword"> Audience Manager</span> si un archivo de datos contiene sus propios ID de usuario, ID de Android, ID de iOS u otros ID que pertenecen a <a href="/help/using/features/global-data-sources.md"> fuentes de datos globales</a>. Acepta las siguientes opciones:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID de Data Source (también conocido como ID de proveedor de datos):</b> Se trata de un ID único que Audience Manager asigna a un origen de datos (consulte el índice de Audience Manager <a href="/help/using/reference/ids-in-aam.md"> de los ID </a>). Utilice este ID asignado en un nombre de archivo al enviar datos que contengan sus propios ID de usuario. Por ejemplo, <code>...ftp_dpm_21_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> que incorpore datos a ID que pertenecen al origen de datos 21. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID de Data Source (también conocido como ID de proveedor de datos):</b> Se trata de un ID único que Audience Manager asigna a un origen de datos (consulte el índice de Audience Manager <a href="/help/using/reference/ids-in-aam.md"> de los ID </a>). Utilice este ID asignado en un nombre de archivo al enviar datos que contengan sus propios ID de usuario. Por ejemplo, <code>...ftp_dpm_21_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> que incorpore datos a los ID que pertenecen al origen de datos 21. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID (GAID):</b> Use el ID 20914 en un nombre de archivo de datos si contiene Android ID. Debe usar el campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> cuando use Android ID. Por ejemplo, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de Android y que los ID deben cumplir los requisitos para los rasgos que pertenecen al origen de datos <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID (IDFA):</b> Use el ID 20915 en un nombre de archivo de datos si contiene iOS ID. Debe usar el campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> cuando use iOS ID. Por ejemplo, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de iOS y que los ID deben cumplir los requisitos para los rasgos que pertenecen al origen de datos <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li>
-     <li> <b>ID que pertenecen a otras fuentes de datos globales</b>: puedes incorporar ID Roku para publicidad (RIDA), ID de publicidad de Microsoft (MAID) y otros ID. Use el Id. correspondiente a cada origen de datos, como se describe en el artículo <a href="/help/using/features/global-data-sources.md"> orígenes de datos globales </a>.</li> 
-    </ul> <p> <p>Nota: No mezcle tipos de ID en los archivos de datos. Por ejemplo, si su nombre de archivo incluye el identificador de Android, no incluya iOS ID o sus propios ID en el archivo de datos. </p> </p> </td> 
+     <li> <b>ID que pertenecen a otras fuentes de datos globales</b>: Puede incorporar los ID de Roku para Advertising (RIDA), Microsoft Advertising ID (MAID) y otros ID. Use el identificador correspondiente a cada origen de datos, tal como se describe en el artículo <a href="/help/using/features/global-data-sources.md"> orígenes de datos globales </a>.</li> 
+    </ul> <p> <p>Nota: No mezcle tipos de ID en los archivos de datos. Por ejemplo, si el nombre de archivo incluye el identificador de Android, no coloque iOS ID o sus propios ID en el archivo de datos. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Este campo indica al Audience Manager a qué origen de datos se incorporan los datos. Este campo es obligatorio si establece el DPID en un ID de Android o iOS ID u otro ID que pertenezca a orígenes de datos globales. Esto permite que el Audience Manager vincule los datos del archivo a su organización. <br> Este origen de datos de destino debe ser propiedad de su empresa. Para el uso compartido de datos de fuentes secundarias, para ingestar datos en un origen de datos de destino que pertenezca a otra empresa, debe tener una asignación de acceso entre su empresa y el origen de datos de destino. Póngase en contacto con su asesor de Adobe o con Asistencia al cliente para configurar la asignación.</p> <p><b>Nota importante:</b> Usted <i>no</i> necesita solicitar una asignación para las relaciones de uso compartido de datos existentes (para orígenes de datos de destino que pertenecen a otras empresas en las que incorporó datos antes del 14 de marzo de 2022). La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID. </p> <p>Por ejemplo: </p> 
+   <td colname="col2"> <p>Este campo indica a Audience Manager a qué fuente de datos incorporar datos. Este campo es obligatorio si establece el DPID en un Android ID o iOS ID u otro ID que pertenezca a fuentes de datos globales. Esto permite a Audience Manager vincular los datos del archivo de nuevo a su organización. <br>: este origen de datos de destino debe ser propiedad de su compañía. Para compartir datos de segundo nivel, para introducir datos en una fuente de datos de destino perteneciente a otra empresa, debe tener una asignación de acceso entre su empresa y la fuente de datos de destino. Póngase en contacto con su asesor de Adobe o con Asistencia al cliente para configurar la asignación.</p> <p><b>Nota importante:</b> Usted <i>no</i> necesita solicitar una asignación para las relaciones de uso compartido de datos existentes (para orígenes de datos de destino que pertenecen a otras empresas en las que incorporó datos antes del 14 de marzo de 2022). La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID. </p> <p>Por ejemplo: </p> 
     <ul> 
-     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indica al Audience Manager que estás cualificando los ID de cliente pertenecientes al origen de datos 33 para atributos o señales pertenecientes al origen de datos 21. </li> 
-     <li> <b>ID de Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> indica al Audience Manager <span class="keyword"></span> que el archivo de datos solo contiene ID de Android y los ID deben cumplir los requisitos para los atributos que pertenecen al origen de datos 21.</li> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indica a Audience Manager que está calificando a los ID de cliente que pertenecen a la fuente de datos 33 para rasgos o señales que pertenecen a la fuente de datos 21. </li> 
+     <li> <b>Android ID (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene Android ID y que los ID deben cumplir los requisitos para los rasgos que pertenecen a la fuente de datos 21.</li> 
      <li> <b>ID de iOS (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene ID de iOS y que los ID deben cumplir los requisitos para los rasgos que pertenecen a la fuente de datos 21.</li>
      <li> <b>ID que pertenecen a otras fuentes de datos globales</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos contiene solo ID de Roku y que los ID deben cumplir los requisitos para los rasgos que pertenecen a la fuente de datos 21. Use el identificador correspondiente a cada origen de datos, tal como se describe en el artículo <a href="/help/using/features/global-data-sources.md"> orígenes de datos globales </a>.</li> 
     </ul> </td> 
@@ -96,21 +96,21 @@ La tabla define los elementos de un nombre de archivo [!DNL S3].
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Opciones de sincronización que incluyen: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: escenario normal cuando los proveedores de datos de terceros envían atributos por usuario para que se agreguen o quiten en el sistema de Audience Manager. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: escenario normal en el que los proveedores de datos de terceros envían características por usuario para que se agreguen o eliminen en el sistema de Audience Manager. </li> 
       <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: permite que los proveedores de datos envíen una lista de características por usuario que deben sobrescribir todas las características de terceros existentes de este usuario para este proveedor de datos en Audience Manager. No es necesario incluir a todos los usuarios en un archivo de sobrescritura. Incluya solo a los usuarios que desee cambiar. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>Un entero. Se utiliza al dividir archivos grandes en varias partes para mejorar los tiempos de procesamiento. El número indica qué parte del archivo original está enviando. </p> <p>Para un procesamiento de archivos eficaz, divida los archivos de datos como se indica a continuación: </p> 
+   <td colname="col2"> <p>Un entero. Se utiliza al dividir archivos grandes en varias partes para mejorar los tiempos de procesamiento. El número indica qué parte del archivo original está enviando. </p> <p>Para un procesamiento eficaz de los archivos, divida los archivos de datos como se indica a continuación: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Sin comprimir: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Comprimido: 200-300 MB </li> 
-    </ul> <p>Consulte los dos primeros ejemplos de nombre de archivo <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"></a> a continuación. </p> </td> 
+    </ul> <p>Vea los primeros 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> ejemplos de nombre de archivo</a> a continuación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Al enviar archivos a Amazon S3, use solo compresión gzip. Cuando se comprimen, estos archivos obtienen la extensión <code> .gz</code>. No utilice la compresión .zip. </p> <p>Los archivos comprimidos deben tener 3 GB o menos. Si los archivos son más grandes, póngase en contacto con el Servicio de atención al cliente. Aunque Audience Manager puede gestionar archivos de gran tamaño, es posible que podamos ayudarle a reducir el tamaño de sus archivos y hacer que las transferencias de datos sean más eficientes. Consulte Compresión de archivos de transferencia de datos entrantes <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"></a>. </p> </td> 
+   <td colname="col2"> <p>Al enviar archivos a Amazon S3, utilice solo la compresión gzip. Al comprimir, estos archivos obtienen la extensión <code> .gz</code>. No utilice la compresión .zip. </p> <p>Los archivos comprimidos deben tener 3 GB o menos. Si los archivos son más grandes, póngase en contacto con el Servicio de atención al cliente. Aunque Audience Manager puede gestionar archivos de gran tamaño, es posible que podamos ayudarle a reducir el tamaño de sus archivos y hacer que las transferencias de datos sean más eficientes. Consulte Compresión de archivos de transferencia de datos entrantes <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"></a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,7 +127,7 @@ Los siguientes ejemplos muestran nombres de archivo con el formato correcto. Sus
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-Puedes [descargar](assets/ftp_dpm_1234_1445374061.overwrite) el archivo de muestra si deseas obtener ejemplos adicionales. Este archivo se guardó con la extensión de archivo `.overwrite`. Ábralo con un editor de texto simple.
+Puede [descargar](assets/ftp_dpm_1234_1445374061.overwrite) el archivo de muestra si desea ver ejemplos adicionales. Este archivo se guardó con la extensión de archivo `.overwrite`. Ábralo con un editor de texto simple.
 
 ## Tamaños de archivo admitidos {#accepted-file-sizes}
 
@@ -162,7 +162,7 @@ Tenga en cuenta las figuras siguientes para el procesamiento más rápido/más t
 
 ## Límites de longitud de línea {#line-limits}
 
-Los archivos de datos entrantes tienen un límite de longitud de línea de 102400 bytes. Las líneas que excedan este límite se excluyen de la transferencia.
+Los archivos de datos de entrada tienen un límite de longitud de línea de 102400 bytes. Las líneas que excedan este límite se excluirán de la transferencia.
 
 >[!MORELIKETHIS]
 >
