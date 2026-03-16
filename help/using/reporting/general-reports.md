@@ -7,7 +7,7 @@ title: Informes generales
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Un informe de [!UICONTROL General] devuelve datos de rendimiento sobre caracter�
 
 c_general_reports.xml
 
- -->
+-->
 
 [!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para extender permisos de grupos de usuarios a los informes de [!UICONTROL General]. Los usuarios solo pueden ver los rasgos y segmentos de los informes para los que tienen permisos de visualización. La funcionalidad [!UICONTROL RBAC] permite controlar qué datos de informes pueden ver los equipos internos. Por ejemplo, una agencia que administra diferentes cuentas de anunciante puede configurar permisos de grupos de usuarios para que un equipo que administra la cuenta del anunciante A no pueda ver los datos de informes del anunciante B.
 
@@ -59,7 +59,7 @@ En esta sección se describe cómo ejecutar un informe de [!UICONTROL General] y
 
 t_run_general_report.xml
 
- -->
+-->
 
 1. En el panel **[!UICONTROL Analytics]**, haga clic en **[!UICONTROL General Reports]**.
 1. En la lista desplegable **[!UICONTROL Report Type]**, seleccione el tipo que desee: Rasgo, Segmento o Destino.
@@ -118,10 +118,10 @@ This metric represents the total amount of trait fires for the trait in your sel
 
 This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
 
-The illustration below shows the results of running a general report for the Trait report type. -->
-<!-- 
-![](assets/general_reports_metrics.png) -->
+The illustration below shows the results of running a general report for the Trait report type. 
 
+![](assets/general_reports_metrics.png)
+-->
 
 ## Resultados de informes generales para segmentos {#general-report-results-segments}
 
