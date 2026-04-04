@@ -234,4 +234,4 @@ Nuestros esfuerzos de colaboración no se detienen con el despliegue final. Una 
 
 Los administradores de cuentas proporcionan un soporte continuo y servicios de consulta una vez completado el proceso de implementación del producto. Puede tener reuniones regulares con su administrador de cuentas. Estas reuniones garantizan que obtiene la máxima cantidad de uso y valor de Audience Manager.
 
-Póngase en contacto con nosotros [aquí](https://www.adobe.com/products/audiencemanager.html) para obtener más información y comenzar con Audience Manager.
+Póngase en contacto con nosotros [aquí](https://www.adobe.com/es/products/audiencemanager.html) para obtener más información y comenzar con Audience Manager.

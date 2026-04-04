@@ -24,7 +24,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/support.ec.html)
 * [Preguntas rápidas a través de Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
+* [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es-es/)
 
 ## Servicio, funcionalidad y facturación {#billing}
 
