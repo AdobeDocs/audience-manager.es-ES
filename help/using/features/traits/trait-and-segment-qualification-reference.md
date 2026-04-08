@@ -8,9 +8,12 @@ title: Referencia de calificación de rasgos
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-source-git-commit: c844ce5ed85e9071227df67b5b20e6ee674408be
+TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 826
 ht-degree: 0%
 
 ---

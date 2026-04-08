@@ -8,9 +8,18 @@ title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gr
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: 1583
 ht-degree: 81%
 
 ---

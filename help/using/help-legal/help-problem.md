@@ -6,9 +6,14 @@ solution: Audience Manager
 title: En caso de problemas
 feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/9yNQ22FOduvtYsw4ovWOSvyemp5J6edcn3DbLfgpldc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 370
 ht-degree: 100%
 
 ---
@@ -76,7 +81,7 @@ Antes de ponerse en contacto con nosotros, tenga preparados los siguientes datos
 
 ## En caso de una interrupción del servicio {#outage}
 
-Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página [Estado del sistema de Experience Cloud](https://status.adobe.com/es-es) ([!DNL https://status.adobe.com/es-es]). Aquí quedan registradas todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Audience Manager, además de las últimas noticias de nuestro equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada antes, cuando contacte con atención al cliente:
+Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página [Estado del sistema de Experience Cloud](https://status.adobe.com/es-es) ([!DNL https://status.adobe.com/es-es]). Aquí quedan registradas todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Audience Manager, además de las últimas actualizaciones de nuestro equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada antes, cuando contacte con atención al cliente:
 
 * Hora en que se inició la interrupción del servicio
 * Explicación de lo que ocurre

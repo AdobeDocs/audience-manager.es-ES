@@ -7,20 +7,25 @@ title: Requisitos de prefijo para variables clave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
 
 # Requisitos de prefijo para variables clave {#prefix-requirements-for-key-variables}
 
-Este artículo describe los prefijos que se deben adjuntar a las variables clave al crear reglas de características.
+Este artículo describe los prefijos que debe adjuntar a las variables clave al crear reglas de rasgos.
 
 <!-- r_tb_variable_prefixes.xml -->
 
-## Propósito de los prefijos de Variable clave
+## Propósito de los prefijos de variables clave
 
 Cuando se crean reglas de [!UICONTROL Trait Builder], es importante anteponer a la variable clave un prefijo recomendado. Estos prefijos identifican el tipo de datos pasados y ayudan a evitar conflictos de área de nombres dentro de [!DNL Audience Manager]. Por lo general, se puede asignar cualquier nombre a una variable, pero los datos de una regla no se procesarán si el nombre de la variable clave no coincide con el nombre de la variable en una llamada de evento.
 

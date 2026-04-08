@@ -7,9 +7,12 @@ title: Reglas de combinación de perfiles y procesos de eliminación de la segme
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 2%
 
 ---
@@ -44,7 +47,7 @@ Como recordatorio, los [!UICONTROL Device Options] están disponibles en la secc
 >[!NOTE]
 >
 >**Límite de 100 dispositivos para la evaluación y descalificación de segmentos**.
->&#x200B;>Audience Manager combina hasta 100 dispositivos al evaluar segmentos con una regla de combinación de perfiles que utiliza un gráfico de dispositivos. Audience Manager evalúa el dispositivo actual y hasta 99 dispositivos vinculados al dispositivo actual mediante un [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Si se emite la señal para anular la segmentación, el dispositivo actual y los dispositivos adicionales se eliminarán del segmento en el destino.
+>Audience Manager combina hasta 100 dispositivos al evaluar segmentos con una regla de combinación de perfiles que utiliza un gráfico de dispositivos. Audience Manager evalúa el dispositivo actual y hasta 99 dispositivos vinculados al dispositivo actual mediante un [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Si se emite la señal para anular la segmentación, el dispositivo actual y los dispositivos adicionales se eliminarán del segmento en el destino.
 
 ![](assets/last-device-graph.png)
 

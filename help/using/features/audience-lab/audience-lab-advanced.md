@@ -7,9 +7,15 @@ title: Funcionalidad avanzada de Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/9ABdWm61XwzXhFzvAhWhc-u0090yx-G43PH2nlyfLpM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: 446
 ht-degree: 0%
 
 ---

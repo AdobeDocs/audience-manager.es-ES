@@ -7,9 +7,17 @@ title: Sintaxis y ejemplos del nombre del archivo de datos de salida
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 5%
 
 ---

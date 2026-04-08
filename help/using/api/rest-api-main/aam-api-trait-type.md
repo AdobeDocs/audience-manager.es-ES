@@ -1,5 +1,5 @@
 ---
-description: Métodos opcionales que le permiten asignar características a un tipo o categoría definido por usuario, generalmente según la función o para sus propios procesos sistema de informes internos.
+description: Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
 seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 seo-title: Trait Type Methods
 solution: Audience Manager
@@ -7,32 +7,43 @@ title: Métodos de tipo de rasgo
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/IoPUeMYwHk-D5F31Gx76Vmd97yRQqRIHlDWu3-5KZLg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: 151
 ht-degree: 3%
 
 ---
 
 # Métodos de tipo de rasgo {#trait-type-methods}
 
-Métodos opcionales que le permiten asignar características a un tipo o categoría definido por usuario, generalmente según la función o para sus propios procesos sistema de informes internos.
+Métodos opcionales que permiten asignar rasgos a un tipo o categoría definidos por el usuario, normalmente según la función o para sus propios procesos internos de creación de informes.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods) común. Piense en estos como etiquetas que están separadas de la taxonomía común.
+>Los métodos de tipo de rasgo no asignan rasgos a categorías utilizadas por la [taxonomía común](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considere estas etiquetas como si fueran independientes de la taxonomía común.
 
-Como referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en la [!DNL UI] opción .**[!UICONTROL Traits > Create new trait > Basic Information]**
+Para referencia visual, [!UICONTROL Trait Types] es un control desplegable ubicado en [!DNL UI] bajo **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Crear un Nuevo tipo de rasgo {#create-trait-type}
+## Crear nuevo tipo de rasgo {#create-trait-type}
 
-Método `POST` que permite crear un nuevo tipo de rasgo.
+Un método `POST` que le permite crear un nuevo tipo de rasgo.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
-### Pedir
+### Solicitud
 
 `POST https://api.demdex.com/v1/customer-trait-types`
 
@@ -59,13 +70,13 @@ Método `POST` que permite crear un nuevo tipo de rasgo.
 }
 ```
 
-## Devolver Propiedades para un tipo de rasgo {#return-props}
+## Devolver propiedades de un tipo de rasgo {#return-props}
 
-Un `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
+Un método `GET` que devuelve detalles sobre el tipo de rasgo especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
-### Pedir
+### Solicitud
 
 `GET https://api.demdex.com/v1/customer-trait-types/`*`<customerTraitTypeId>`*
 
@@ -84,13 +95,13 @@ Un `GET` método que devuelve detalles sobre el tipo de rasgo especificado.
 }
 ```
 
-## Devolver Propiedades para todos los tipos de rasgos {#return-props-all}
+## Devolver propiedades para todos los tipos de rasgos {#return-props-all}
 
-Un `GET` método que devuelve detalles sobre todos los tipos de características de una matriz.
+Un método `GET` que devuelve detalles sobre todos los tipos de rasgos de una matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
-### Pedir
+### Solicitud
 
 `GET https://api.demdex.com/v1/customer-trait-types/`
 

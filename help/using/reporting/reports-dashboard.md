@@ -1,5 +1,5 @@
 ---
-description: Utilice el panel para vista información sobre los recuentos de visitante único de sus socios desglosados por tipos de características y segmentos para un lapso de tiempo específico.
+description: Utilice el panel para ver información sobre los recuentos de visitantes únicos de sus socios desglosados por tipos de rasgos y segmentos para un lapso de tiempo especificado.
 seo-description: Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
 seo-title: Reports Dashboard
 solution: Audience Manager
@@ -7,9 +7,19 @@ title: Panel de informes
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/UHw6oHv6Q8SzHmyNy3vy-9TXNvIjuKNcdhShKDkcxlc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 0%
 
 ---
@@ -24,15 +34,15 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para extender permisos de grupos de usuarios a [!UICONTROL Dashboard]. Los usuarios solo pueden ver información sobre los panel para los que tienen permisos para vista. [!UICONTROL RBAC] funcionalidad permite controlar qué datos sistema de informes pueden vista los equipos internos.
+[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para extender permisos de grupos de usuarios a [!UICONTROL Dashboard]. Los usuarios solo pueden ver información en el panel para la que tienen permisos de visualización. La funcionalidad [!UICONTROL RBAC] permite controlar qué datos de informes pueden ver los equipos internos.
 
-Por ejemplo, una agencia que administra cuentas de anunciante diferentes puede configurar permisos de usuario grupo para que una equipo que administra los cuenta del anunciante A no pueda ver los datos sistema de informes del anunciante B. Esta panel puede utilizarse para solucionar problemas de envío datos.
+Por ejemplo, una agencia que administra diferentes cuentas de anunciante puede configurar permisos de grupos de usuarios para que un equipo que administra la cuenta del anunciante A no pueda ver los datos de informes del anunciante B. Este tablero se puede utilizar para solucionar problemas de entrega de datos.
 
-Por ejemplo, si observa una caída, o pico, en el total de usuarios únicos con el desglose de tipo de usuario únicos (basados en regla vs. incorporados), tiene un mejor punto de partida para rastrear un posible problema de envío datos. Si observa una caída en el total de usuarios únicos y en los [!UICONTROL On-boarding Status] usuarios únicos incorporados, puede ir al informe para ver si hubo un problema con un archivo entrante.
+Por ejemplo, si observa un descenso o un pico en el total de usuarios únicos con el desglose del tipo de usuario único (basado en reglas o integrado), tiene un mejor punto de partida para rastrear un posible problema de entrega de datos. Si observa un descenso en el total de usuarios únicos y en los usuarios únicos incorporados, puede ir al informe [!UICONTROL On-boarding Status] para ver si hubo un problema con un archivo entrante.
 
-**Para acceder al tablero:**
+**Para tener acceso al panel:**
 
-1. En la menú de navegación superior, haga clic en **[!UICONTROL Dashboard]**.
+1. En el menú de navegación superior, haga clic en **[!UICONTROL Dashboard]**.
 2. *Opcional* Seleccione el lapso de tiempo deseado en la última fecha de generación de informes de la lista desplegable (7 días, 14 días (valor predeterminado), 30 días o 60 días).
 
    Según el período seleccionado, el cambio delta en los paneles [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] y [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] muestra el cambio en los visitantes únicos en la audiencia durante el período que termina hoy en comparación con el período anterior de la misma duración. Por ejemplo, si selecciona 7 días, el delta compara los visitantes únicos de los siete días anteriores que finalizan hoy con los visitantes únicos de los siete días que finalizan hace siete días.
@@ -43,19 +53,19 @@ Por ejemplo, si observa una caída, o pico, en el total de usuarios únicos con 
 
    Según los permisos del usuario que ha iniciado sesión, se muestran los siguientes paneles:
 
-   * [Socios únicos](../reporting/reports-dashboard.md#partner-uniques)
+   * [Exclusivos del socio](../reporting/reports-dashboard.md#partner-uniques)
    * [Características más grandes/Características más cambiadas](../reporting/reports-dashboard.md#largest-traits)
    * [Segmentos más grandes/Segmentos más cambiados](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Opcional* Haga clic **[!UICONTROL Normalize]** sobre cualquier gráfico para ver todos los datos en la misma escala. También puede pasar el cursor sobre cualquier punto de datos para obtener más información.
+3. *Opcional* Haga clic en **[!UICONTROL Normalize]** sobre cualquier gráfico para mostrar todos los datos en la misma escala. También puede pasar el ratón sobre cualquier punto de datos para ver más información.
 
-## Socios únicos {#partner-uniques}
+## Únicos de socio {#partner-uniques}
 
-Se requiere permiso para Ver: [!UICONTROL View All Traits].
+Permiso necesario para ver: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
-Este panel muestra el número de visitantes únicos durante el lapso de tiempo especificado. Las líneas individuales con códigos de color representan la cantidad total de visitantes únicos y la cantidad de visitantes únicos capturados mediante rasgos algorítmicos, basados en reglas e incorporados.
+Este panel muestra la cantidad de visitantes únicos durante el lapso de tiempo especificado. Las líneas individuales con códigos de color representan la cantidad total de visitantes únicos y la cantidad de visitantes únicos capturados mediante rasgos algorítmicos, basados en reglas e incorporados.
 
 >[!NOTE]
 >
@@ -63,15 +73,15 @@ Este panel muestra el número de visitantes únicos durante el lapso de tiempo e
 
 ## Características más grandes/características más cambiadas {#largest-traits}
 
-Se requiere permiso para Ver: [!UICONTROL View Traits].
+Permiso necesario para ver: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
-Este panel muestra el número de visitantes únicos capturados por distintas características.
+Este panel muestra el número de visitantes únicos capturados por varias características.
 
-Utilice la **[!UICONTROL Show]** lista desplegable para mostrar información sobre diferentes tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded], o [!UICONTROL Rule-Based].
+Utilice la lista desplegable **[!UICONTROL Show]** para mostrar información sobre distintos tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] o [!UICONTROL Rule-Based].
 
-Este panel contiene las siguientes fichas:
+Este panel contiene las siguientes pestañas:
 
 <table id="table_DA48BDEB4E0143BEA4EB85AC26FF6AE3"> 
  <thead> 
@@ -94,13 +104,13 @@ Este panel contiene las siguientes fichas:
 
 ## Segmentos más grandes/Segmentos más cambiados {#most-changed-segments}
 
-Se requiere permiso para Ver: [!UICONTROL View Segments].
+Permiso necesario para ver: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
 Este panel muestra el número de visitantes únicos capturados por varios segmentos en tiempo real.
 
-Este panel contiene las siguientes fichas:
+Este panel contiene las siguientes pestañas:
 
 <table id="table_8E22E0579FA74C5A86CC40B40B2548BE"> 
  <thead> 
@@ -111,7 +121,7 @@ Este panel contiene las siguientes fichas:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmentos más grandes</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmentos Más Grandes</span> </p> </td> 
    <td colname="col2"> <p>Muestra información sobre la cantidad de visitantes únicos y el cambio delta de visitantes únicos durante el lapso de tiempo especificado. </p> </td> 
   </tr> 
   <tr> 
