@@ -7,9 +7,13 @@ title: Configuración de un destino de URL
 feature: Destination Basics
 exl-id: b5af87c9-4460-43a7-9808-242eac876c39
 TQID: https://experienceleague.adobe.com/--3mSis3KSVJwDsfQ0-6AZPRL7den1HX5Cf7ovnWPpI
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 487

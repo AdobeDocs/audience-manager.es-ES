@@ -8,10 +8,17 @@ uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 TQID: https://experienceleague.adobe.com/67hm8M7jiloQBgDcJG3fRPZueDPrJPDhfPI69z-ZOZg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: e7029888-c8b0-46a7-849a-cf132a1559bf
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 681

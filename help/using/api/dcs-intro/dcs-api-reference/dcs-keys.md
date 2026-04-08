@@ -9,10 +9,15 @@ uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
 TQID: https://experienceleague.adobe.com/Xe1Do1CYJPTl1-IO63hJl5IDSXUMg9ZVwe2rArbP7Kk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 833
@@ -95,14 +100,14 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> devuelve los ID de segmento de los segmentos. </p> </li>
      </ul> </p> <p>Una respuesta de ejemplo podría parecerse a la de abajo: </p> <p>
      <code class="syntax javascript">
-      {
+      &lbrace;
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      }
+      &rbrace;
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -155,12 +160,12 @@ Todos son opcionales, a menos que desee una respuesta de [!DNL DCS]. Si desea qu
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si incluye esto, el DCS <span class="wintitle"> </span> devuelve un objeto <code> JSON</code> en el cuerpo de la respuesta. Consulte el ejemplo siguiente. Su respuesta podría ser más compleja. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      {
+      &lbrace;
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      }
+      &rbrace;
      </code> </p> </td> 
   </tr> 
   <tr> 

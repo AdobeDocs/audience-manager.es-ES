@@ -9,8 +9,11 @@ uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
 TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 366
@@ -34,7 +37,7 @@ Permitir que nuestros clientes creen segmentos personalizados y modelos de datos
 
 ## La Taxonomía Utiliza Categorías De Clasificación Estándar Del Sector
 
-La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [!DNL IAB]sitio web[ de ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
+La taxonomía común se basa en las clasificaciones creadas por [!DNL Interactive Advertising Bureau (IAB)]. Consulte el [!DNL IAB]sitio web[&#x200B; de &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obtener más información sobre las directrices de garantía de calidad para redes e intercambios.
 
 ## Organización taxonómica
 

@@ -8,9 +8,13 @@ uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
 TQID: https://experienceleague.adobe.com/NPCwMOqwZjtbeS2K9z2Z499bQE3mPp22XWKWVtOPSv0
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 450

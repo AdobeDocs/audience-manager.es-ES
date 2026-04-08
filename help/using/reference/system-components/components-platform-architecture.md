@@ -8,8 +8,11 @@ uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 feature: System Components
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 TQID: https://experienceleague.adobe.com/AuYZKnavjMq-XyilPWgEeWASzFB3K5HuAqx-wsE-H9k
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 170
