@@ -81,7 +81,7 @@ Antes de ponerse en contacto con nosotros, tenga preparados los siguientes datos
 
 ## En caso de una interrupción del servicio {#outage}
 
-Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página [Estado del sistema de Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Aquí quedan registradas todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Audience Manager, además de las últimas actualizaciones de nuestro equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada antes, cuando contacte con atención al cliente:
+Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la página [Estado del sistema de Experience Cloud](https://status.adobe.com/es-es) ([!DNL https://status.adobe.com/es-es]). Aquí quedan registradas todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las soluciones de Experience Cloud, incluida Audience Manager, además de las últimas actualizaciones de nuestro equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada antes, cuando contacte con atención al cliente:
 
 * Hora en que se inició la interrupción del servicio
 * Explicación de lo que ocurre

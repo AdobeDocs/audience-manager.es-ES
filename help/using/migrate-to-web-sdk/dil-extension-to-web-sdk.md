@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Destinatarios previstos
 
-Esta página está dirigida a los clientes de Audience Manager que utilizan la [extensión de etiquetas de Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) para introducir datos de recopilación web en Audience Manager. Para los clientes que utilizan la biblioteca JavaScript de AppMeasurement, lea la guía sobre cómo actualizar la biblioteca de recopilación de datos para Audience Manager [de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript de Web SDK](appmeasurement-to-web-sdk.md).
+Esta página está dirigida a los clientes de Audience Manager que utilizan la [extensión de etiquetas de Audience Manager](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/audience-manager/overview) para introducir datos de recopilación web en Audience Manager. Para los clientes que utilizan la biblioteca JavaScript de AppMeasurement, lea la guía sobre cómo actualizar la biblioteca de recopilación de datos para Audience Manager [de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript de Web SDK](appmeasurement-to-web-sdk.md).
 
 ## Ventajas y desventajas de esta ruta de implementación
 

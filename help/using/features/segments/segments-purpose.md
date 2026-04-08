@@ -39,7 +39,7 @@ Al asignar Adobe Analytics [!UICONTROL segments] o grupos de informes a su organ
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] son diferentes de [!DNL Adobe Analytics] [!UICONTROL segments]. Lea [Explicación de los segmentos en Analytics y Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para ver una descripción detallada de las diferencias.
+>Audience Manager [!UICONTROL segments] son diferentes de [!DNL Adobe Analytics] [!UICONTROL segments]. Lea [Explicación de los segmentos en Analytics y Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=es) para ver una descripción detallada de las diferencias.
 
 ## Crear [!UICONTROL Segments] Basado En Reglas Con [!UICONTROL Segment Builder]
 

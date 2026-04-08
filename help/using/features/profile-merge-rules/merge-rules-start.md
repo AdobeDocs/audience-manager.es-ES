@@ -163,7 +163,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Para obtener más información, consulte [Crear un Source de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
+Para obtener más información, consulte [Crear un Source de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es).
 
 ### Configurar la función `DIL.create`
 
@@ -178,7 +178,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor del área de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+En el par clave-valor del área de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
 ### Configuración de SDK
 
@@ -236,7 +236,7 @@ Compruebe los métodos en su código de [!DNL SDK] que le permiten pasar [!UICON
  </tbody>
 </table>
 
-Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=es) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=es).
 
 >[!MORELIKETHIS]
 >
