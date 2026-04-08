@@ -7,9 +7,11 @@ title: Métricas de informes para reglas de combinación de perfiles
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 693
 ht-degree: 0%
 
 ---
@@ -35,7 +37,7 @@ Los informes devuelven datos en gráficos de barras paralelos cuando las reglas 
    <td colname="col2"> <p>Muestra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> personas activas</span>: El número de personas que se autenticaron en el sitio durante los últimos 60 días. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> entre dispositivos</span>: El número total de <a href="merge-rules-start.md#create-data-source"> identificadores entre dispositivos</a> almacenados en el <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es"> Data Source</a> del <a href="merge-rule-definitions.md"> perfil autenticado </a> seleccionado durante toda la vida que ha existido el origen de datos. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> entre dispositivos</span>: El número total de <a href="merge-rules-start.md#create-data-source"> identificadores entre dispositivos</a> almacenados en el <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Data Source</a> del <a href="merge-rule-definitions.md"> perfil autenticado </a> seleccionado durante toda la vida que ha existido el origen de datos. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de personas activas</span>: muestra <span class="wintitle"> personas activas</span> como un %. </li> 
     </ul> <p> <span class="wintitle"> Actividad autenticada</span> le permite comparar orígenes de datos por actividad, volumen y porcentaje. Puede ayudarle a encontrar una fuente de datos que tenga muchas personas y un alto porcentaje de usuarios activos. O puede encontrar valor en la comparación de fuentes de datos con una alta proporción de usuarios activos en comparación con el tamaño total de la audiencia. Por ejemplo, a veces una fuente de datos con números totales de duración bajos y actividad alta es más valiosa que las que tienen resultados de duración altos y números de actividad bajos. </p> <p> <p>Nota: Las métricas de <span class="wintitle"> actividad autenticada</span> contienen solo datos de <span class="wintitle"> vínculo de perfil</span>. Este informe no incluye datos de <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
   </tr> 

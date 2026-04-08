@@ -8,9 +8,14 @@ title: ID declarados
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: 1151
 ht-degree: 8%
 
 ---
@@ -37,7 +42,7 @@ Algunos exploradores, y la mayoría de los dispositivos móviles, no aceptan [!D
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Llamada de evento</b> </td> 
-   <td colname="col2"> <p>Para trabajar, necesita el código <span class="wintitle"> DIL </span> y el código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es" format="https" scope="external"> Adobe Experience Platform Identity Service </a> en la página. <span class="wintitle"> DIL </span> obtiene <span class="wintitle"> ID declarados </span> de la función <code> setVisitorID </code> proporcionada por el servicio de identidad de Adobe Experience Platform <span class="keyword"> </span> y pasa eso a <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Para trabajar, necesita el código <span class="wintitle"> DIL </span> y el código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> en la página. <span class="wintitle"> DIL </span> obtiene <span class="wintitle"> ID declarados </span> de la función <code> setVisitorID </code> proporcionada por el servicio de identidad de Adobe Experience Platform <span class="keyword"> </span> y pasa eso a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de coincidencia</b> </td> 
@@ -184,7 +189,7 @@ Describe las variables de configuración utilizadas para pasar [!UICONTROL decla
 
 ## [!UICONTROL DIL] usa [!DNL Adobe Experience Platform Identity Service] para pasar [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Cuando se usa con el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es), ya no necesita pasar [!UICONTROL declared IDs] con las variables `dpid` y `dpuuid` obsoletas. En su lugar, las versiones actuales de [!UICONTROL DIL] dependen de la función `visitorService` para obtener [!UICONTROL declared IDs] de la función `setCustomerIDs` en [!UICONTROL Adobe Experience Platform Identity Service]. Para obtener más información, consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es). Llamaría a `visitorService` en `DIL.create` como se muestra a continuación.
+Cuando se usa con el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html), ya no necesita pasar [!UICONTROL declared IDs] con las variables `dpid` y `dpuuid` obsoletas. En su lugar, las versiones actuales de [!UICONTROL DIL] dependen de la función `visitorService` para obtener [!UICONTROL declared IDs] de la función `setCustomerIDs` en [!UICONTROL Adobe Experience Platform Identity Service]. Para obtener más información, consulte [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Llamaría a `visitorService` en `DIL.create` como se muestra a continuación.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +200,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor `namespace`, `MCORG` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Introducción a los servicios de Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/getting-started).
+En el par clave-valor `namespace`, `MCORG` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Introducción a los servicios de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Funciones obsoletas {#deprecated-functions}
 

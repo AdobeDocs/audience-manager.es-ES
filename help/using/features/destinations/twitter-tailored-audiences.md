@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Configuración de las audiencias personalizadas de Twitter como un destino basado en dispositivos de autoservicio
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 72be9e032ec3c92cf09a5286baa872b884feaaa0
+TQID: https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: 689
 ht-degree: 1%
 
 ---
@@ -29,7 +34,7 @@ Antes de configurar el destino [!DNL Twitter Custom Audiences], asegúrese de cu
 
 Esta sección describe los pasos que debe seguir al configurar un nuevo destino basado en dispositivos para [!DNL Twitter Custom Audiences]. En este escenario se da por hecho que no tiene un destino [!DNL Twitter Custom Audiences] configurado a través de su asesor de Adobe o del Servicio de atención al cliente.
 
-### Paso 1. Autenticar con [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
+### Paso 1: Autenticar con [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
 
 Para poder agregar el destino basado en el dispositivo, debe vincular Audience Manager y su cuenta de [!DNL Twitter Custom Audiences]. A continuación se indica cómo hacerlo:
 

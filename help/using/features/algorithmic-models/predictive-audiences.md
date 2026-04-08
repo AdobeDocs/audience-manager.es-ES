@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1470
 ht-degree: 3%
 
 ---
@@ -122,11 +127,11 @@ Al configurar sus modelos de [!UICONTROL Predictive Audiences], tenga en cuenta 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es) de las siguientes fuentes de datos de origen:
+Los segmentos predictivos creados por modelos [!UICONTROL Predictive Audiences] heredan los [controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de las siguientes fuentes de datos de origen:
 
 1. La fuente de datos de origen que elija al crear el modelo.
 1. Las fuentes de datos de origen de la audiencia de destino. En concreto, los controles de exportación de datos de [!UICONTROL traits] o [!UICONTROL segments] que conforman la audiencia de destino.
-1. [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=es) de [!UICONTROL Profile Merge Rule] que seleccionó para el modelo.
+1. [Controles de exportación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de [!UICONTROL Profile Merge Rule] que seleccionó para el modelo.
 
 Los predictivos [!UICONTROL traits] y [!UICONTROL segments] recién creados tendrán las mismas restricciones de privacidad que la unión de los orígenes de datos de origen descritos anteriormente.
 
@@ -146,6 +151,6 @@ Si se selecciona un(a) [!UICONTROL Profile Merge Rule] que usa datos de disposit
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Los rasgos y segmentos que elija para las personalidades y la clasificación de audiencias están sujetos a los [controles de acceso basados en roles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=es) de Audience Manager.
+Los rasgos y segmentos que elija para las personalidades y la clasificación de audiencias están sujetos a los [controles de acceso basados en roles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) de Audience Manager.
 
-Los usuarios de Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino para las que tengan [permiso de visualización](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=es#wild-card-permissions).
+Los usuarios de Audience Manager solo pueden seleccionar características o segmentos para personalidades y audiencias de destino para las que tengan [permiso de visualización](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).

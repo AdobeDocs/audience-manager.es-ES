@@ -3,14 +3,18 @@ description: En este documento se explica la gestión del consentimiento en Audi
 seo-description: This document explains how consent management works in Audience Manager.
 seo-title: Consent Management
 solution: Audience Manager
-keywords: RGPD IU, API RGPD, CCPA, privacidad, consentimiento
+keywords: IU DEL RGPD, API DEL RGPD, CCPA, privacidad, consentimiento
 title: Gestión del consentimiento
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/ky1cNyZ507tDn2FFS6umoWsT-zaZ05wQwvK8xvNc7HU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: 685
 ht-degree: 98%
 
 ---
@@ -31,11 +35,11 @@ Audience Manager le ofrece sus herramientas para facilitar la obtención de los 
 
 ## Servicio de inclusión de Experience Cloud
 
-El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) le permite configurar protocolos para que el visitante de su sitio decida si permite que se establezca una cookie en su dispositivo o navegador.
 
 Esta es una extensión de [!DNL Experience Cloud ID (ECID) Service], diseñada para que usted pueda controlar si las soluciones de Experience Cloud pueden crear cookies en las páginas web de los visitantes antes del consentimiento del usuario, y cuáles pueden hacerlo.
 
-El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
+El [servicio de inclusión de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) también le permite definir protocolos para integrarlos con su Plataforma de gestión de consentimiento (CMP) y con los demás sistemas, como parte de su diseño general.
 
 ## Gestión de la inclusión / Obtención de consentimiento
 
@@ -43,7 +47,7 @@ Los clientes de Audience Manager pueden almacenar el consentimiento del usuario 
 
 ## Gestión de la exclusión / Retirada del consentimiento
 
-En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/es/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=es) y [dispositivos iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=es). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
+En Adobe Experience Cloud, la exclusión se puede administrar en la página [Sus opciones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse). Las funciones de un clic permiten que sus usuarios finales controlen y excluyan la recopilación de datos mediante las soluciones de publicidad de Adobe Experience Cloud (entre ellas, Audience Manager). Para saber más, consulte la [sección de cliente comercial](https://www.adobe.com/es/privacy/opt-out.html#customeruse) de la página Opciones de privacidad. Para exploradores que no admiten cookies de terceros, consulte [Segmentación de ID declarados](../../features/declared-ids.md#declared-id-targeting). En el caso de los dispositivos móviles, recupere los identificadores relevantes de Audience Manager y llame a las API de exclusión de Audience Manager, tal y como se indica en los [ejemplos de exclusión de ID declarados](../../features/declared-ids.md#opt-out-examples). A continuación, puede interrumpir la recopilación de datos de esos usuarios con las API de exclusión del SDK móvil; consulte [dispositivos Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) y [dispositivos iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Puede encontrar más detalles sobre exclusión en la [Documentación de solicitudes de privacidad de datos](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestión del consentimiento para socios de segundo nivel
 

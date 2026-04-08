@@ -7,9 +7,11 @@ title: Expresiones de muestra con operadores booleanos y de comparación
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 3%
 
 ---

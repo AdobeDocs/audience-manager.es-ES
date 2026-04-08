@@ -7,9 +7,13 @@ title: Macros de plantillas de salida
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
+TQID: https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 708
 ht-degree: 1%
 
 ---
@@ -106,7 +110,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para obt
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de cierre de llaves <code>&rbrace;</code>. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de cierre de llaves <code>}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -134,7 +138,7 @@ Macros utilizadas para dar formato al contenido de un archivo de datos. Para obt
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave <code>&lbrace;</code> abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave <code>{</code> abierto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

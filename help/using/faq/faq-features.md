@@ -8,9 +8,14 @@ title: Preguntas frecuentes sobre funciones y características del producto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+TQID: https://experienceleague.adobe.com/gsJ4qXlNDpfWmTq0jjmtjfUWI60yRr7uBTxZjsF-pQE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: 574
 ht-degree: 87%
 
 ---
@@ -33,7 +38,7 @@ El *`Organization ID`* es un identificador único que identifica a su organizaci
 
 Por ejemplo, un *`Organization ID`* tiene esta apariencia: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y otras soluciones de [!DNL Experience Cloud]. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las [preguntas frecuentes sobre Administración - Gestión de usuarios](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+El *`Organization ID`* lo utilizan la API [DIL](../dil/dil-overview.md) de Audience Manager, el [servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) y otras soluciones de [!DNL Experience Cloud]. Los usuarios con permisos de administrador pueden encontrar el *`Organization ID`* en la [!DNL Adobe Admin Console]. Consulte las [preguntas frecuentes sobre Administración - Gestión de usuarios](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -67,7 +72,7 @@ La fuente de datos y todos los rasgos de la fuente se muestran como subcarpetas 
 
 **¿Qué es [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizaba [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. Esta función está obsoleta y primero se ha reemplazado por [!UICONTROL Dynamic Tag Manager (DTM)] y después por [!DNL Adobe Experience Platform Tags]. Para obtener más información, consulte [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
+Audience Manager utilizaba [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. Esta función está obsoleta y primero se ha reemplazado por [!UICONTROL Dynamic Tag Manager (DTM)] y después por [!DNL Adobe Experience Platform Tags]. Para obtener más información, consulte [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 
@@ -95,4 +100,4 @@ Debe usar Recomendaciones de rasgos cuando:
 
 **¿Hay alguna diferencia entre los segmentos de Adobe Analytics y Audience Manager?**
 
-Sí. Consulte la [Explicación de los segmentos en Analytics y Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=es) para ver una descripción detallada de las diferencias.
+Sí. Consulte la [Explicación de los segmentos en Analytics y Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para ver una descripción detallada de las diferencias.

@@ -1,14 +1,17 @@
 ---
-description: La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible de los usuarios con diversas discapacidades, como visuales, auditivas, cognitivas, motoras u otras.
+description: La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible de los usuarios con varias discapacidades, como visual, auditiva, cognitiva, motora o de otro tipo.
 seo-description: Accessibility refers to a series of features that make a software product usable, with as little effort as possible from users with various disabilities, such as visual, auditory, cognitive, motor, or other kind.
 seo-title: Accessibility in Audience Manager
 solution: Audience Manager
 title: Accesibilidad en Audience Manager
 feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+TQID: https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
@@ -17,48 +20,48 @@ ht-degree: 0%
 
 ## Información general {#overview}
 
-La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible de los usuarios con diversas discapacidades, como visuales, auditivas, cognitivas, motoras u otras.
+La accesibilidad se refiere a una serie de características que hacen que un producto de software sea utilizable, con el menor esfuerzo posible de los usuarios con varias discapacidades, como visual, auditiva, cognitiva, motora o de otro tipo.
 
-Adobe Systems es un líder de la industria en accesibilidad y apoya la creación de experiencias web sobresalientes al alentar a los desarrolladores a producir contenido ricas y atractivas que sean accesibles para todos los usuarios. Para obtener más detalles sobre el compromiso de Adobe Systems con la accesibilidad, consulte [Adobe Systems Accesibilidad](https://www.adobe.com/accessibility.html).
+Adobe es líder del sector en accesibilidad y admite la creación de experiencias web destacadas al animar a los desarrolladores a producir contenido enriquecido y atractivo accesible para todos los usuarios. Para obtener más información acerca del compromiso de Adobe con la accesibilidad, consulte [Accesibilidad de Adobe](https://www.adobe.com/accessibility.html).
 
-Las características de accesibilidad más comunes que se encuentran en los productos de software son: navegación de teclado, estructura semántica, contraste suficiente entre elementos de primer plano y elementos de fondo, soporte de tecnología de asistencia, etiquetas de elementos claros, etc.
+Las funciones de accesibilidad más comunes que se encuentran en los productos de software son: navegación mediante el teclado, estructura semántica, suficiente contraste entre elementos en primer plano y elementos en segundo plano, soporte tecnológico de asistencia, etiquetas de elementos claras, etc.
 
-Para que [!DNL Audience Manager] todo el mundo sea más fácil de usar, hemos desarrollado compatibilidad con múltiples funciones de accesibilidad.
+Para que [!DNL Audience Manager] sea más fácil de usar para todos, hemos desarrollado compatibilidad con varias características de accesibilidad.
 
 ## Navegación por teclado {#keyboard-navigation}
 
-[!DNL Audience Manager] Soporta accesibilidad total del teclado:
+[!DNL Audience Manager] admite accesibilidad total mediante el teclado:
 
-* La `Tab` tecla y las flechas se mueven entre elementos individuales de la interfaz de usuario.
+* La clave `Tab` y las flechas se mueven entre elementos individuales de la interfaz de usuario.
 
-  ![accesibilidad-resaltado](assets/accesibility-highlight.png)
+  ![resalte de accesibilidad](assets/accesibility-highlight.png)
 
-* Las `Return` claves (`Enter`) y `Space` activan el elemento seleccionado.
+* Las claves `Return` (`Enter`) y `Space` activan el elemento seleccionado.
 
-## Clasificación de tablas accesible {#table-sorting}
+## Ordenación de tablas accesible {#table-sorting}
 
-Los encabezados de tabla se pueden seleccionar al navegar mediante la `Tab` clave, y puede cambiar el orden de clasificación pulsando `Space`.
+Los encabezados de tabla se pueden seleccionar al navegar mediante la tecla `Tab`, y puede cambiar el orden de clasificación presionando `Space`.
 
-![accessibility-table-headers](assets/accessibility-table-headers.png)
+![encabezados de tabla de accesibilidad](assets/accessibility-table-headers.png)
 
 ## Compatibilidad con tecnologías de asistencia {#assistive-technologies}
 
-Mediante el uso de código semántico y [ARIA,](https://www.w3.org/WAI/standards-guidelines/aria/) los elementos interactivos dentro de la [!DNL Audience Manager] interfaz usuario incluyen etiquetas correspondientes, nombres accesibles y roles que identifican tanto su propósito como su estado actual.
+Mediante el uso de código semántico y [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), los elementos interactivos de la interfaz de usuario [!DNL Audience Manager] incluyen las etiquetas correspondientes, los nombres accesibles y las funciones que identifican tanto su propósito como su estado actual.
 
-Esto garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan leer las etiquetas y otra información a los usuarios para que puedan interactuar fácilmente con los controles aplicación.
+Esto garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan leer las etiquetas y otra información a los usuarios para que puedan interactuar fácilmente con los controles de la aplicación.
 
-Todos los elementos interactivos de la interfaz del usuario de Audience Manager incluyen las etiquetas correspondientes. Esto garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan leer las etiquetas a los usuarios.
+Todos los elementos interactivos de la interfaz de usuario de Audience Manager incluyen las etiquetas correspondientes. Esto garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan leer las etiquetas a los usuarios.
 
-## Colores y Contraste {#colors-contrast}
+## Colores y contraste {#colors-contrast}
 
-La [!DNL Audience Manager] interfaz usuario se esfuerza por proporcionar suficiente contraste en el aplicación para garantizar un experiencia de visualización accesible para usuarios con baja visión o deficiencias de color.
+La interfaz de usuario [!DNL Audience Manager] se esfuerza por ofrecer suficiente contraste en la aplicación para garantizar una experiencia de visualización accesible para los usuarios con deficiencias bajas de visión o color.
 
-Por ejemplo, las pantallas de carga incluyen un girador de carga dentro de un cuadro modal blanco, todo encima de un superposición gris oscuro.
+Por ejemplo, las pantallas de carga incluyen un control de número de carga dentro de un cuadro modal blanco, todo encima de una superposición de gris oscuro.
 
 ![carga de accesibilidad](assets/accessibility-loading.png)
 
-## Lecturas adicionales {#further-reading}
+## Lectura adicional {#further-reading}
 
-[!DNL Audience Manager] se esfuerza por proporcionar un grado cada vez mayor de accesibilidad, haciendo que el producto sea fácil de usar para todos.
+[!DNL Audience Manager] se esfuerza por proporcionar un grado de accesibilidad cada vez mayor, lo que facilita el uso del producto para todos.
 
-Le recomendamos que utilice el Formulario[&#x200B; de comentarios sobre accesibilidad de la &#x200B;](https://www.adobe.com/accessibility/feedback.html)Adobe Systems para enviarnos sugerencias de mejora y problemas de accesibilidad con los que se encuentre. Estaremos encantados de tener en cuenta sus comentarios cuenta y mejorar [!DNL Audience Manager].
+Le recomendamos que use el [Formulario de comentarios de accesibilidad de Adobe](https://www.adobe.com/accessibility/feedback.html) para enviarnos sugerencias de mejora y si encuentra problemas de accesibilidad. Estaremos encantados de tener en cuenta sus comentarios y mejorar [!DNL Audience Manager].

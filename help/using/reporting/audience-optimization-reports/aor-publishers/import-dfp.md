@@ -7,9 +7,13 @@ title: Importación De Archivos De Datos De Google Ad Manager En Audience Manage
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
+TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b89b323a-1e91-40b1-8d20-96b5b726d55a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 511
 ht-degree: 14%
 
 ---
@@ -82,7 +86,7 @@ Necesita establecer el ID de [!DNL Audience Manager] usted mismo y puede trabaja
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paso 6 </p> </td> 
-   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=es">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
+   <td colname="col2"> <p>Compile los requisitos previos y abra un vale de soporte técnico siguiendo las instrucciones detalladas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aquí</a> para iniciar el proceso de ingesta de registros. </p> </td> 
    <td colname="col3"> <p>Usted o <span class="keyword"> asesoría de Audience Manager</span> a nombre suyo </p> </td> 
   </tr> 
  </tbody> 

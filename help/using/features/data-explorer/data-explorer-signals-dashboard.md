@@ -6,9 +6,12 @@ title: Panel de señales
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: 250
 ht-degree: 0%
 
 ---
@@ -41,4 +44,4 @@ Las búsquedas guardadas muestran los 50 resultados principales para los criteri
 
 Vea el siguiente vídeo para aprender a utilizar [!UICONTROL Signals Dashboard].
 
->[!VIDEO](https://video.tv.adobe.com/v/327524?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

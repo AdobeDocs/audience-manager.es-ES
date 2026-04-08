@@ -7,9 +7,12 @@ title: Preguntas frecuentes sobre Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/VDrkY-L2PnhRdSTmZd-0sjpJEI5vHxm9c3uMqtyQd3Y
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: 326
 ht-degree: 94%
 
 ---
@@ -48,6 +51,6 @@ En este caso, [!UICONTROL Audience Lab] cuenta como tres conversiones, una para 
 
 Consulte [Crear grupo de prueba de segmentos](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) para obtener información sobre cómo usar [!UICONTROL Audience Lab] con privilegios [!UICONTROL RBAC].
 
-**¿Puedo usarlo [!UICONTROL Audience Lab] junto con los Gráficos de [!UICONTROL Profile Link Device Graph] dispositivos externos (Tapad Device Graph, Liveramp Device Graph)?**
+**¿Puedo usar [!UICONTROL Audience Lab] junto con [!UICONTROL Profile Link Device Graph] y los gráficos de dispositivos externos ( Tapad Device Graph, Liveramp Device Graph)?**
 
 Por ahora, [!UICONTROL Audience Lab] solo puede dividir las poblaciones de segmentos por los dispositivos conectados a un dispositivo que cumpla los requisitos, al usar el [!UICONTROL Profile Link Device Graph]. Estamos trabajando para que [!UICONTROL Audience Lab] admita los otros gráficos de dispositivos y le informaremos cuando lo consigamos.

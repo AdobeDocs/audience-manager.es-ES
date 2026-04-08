@@ -7,9 +7,13 @@ title: Envío de segmentos a una lista de remarketing de Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: b8d65ef8c27100d174a997eb24a75f37b4e75d40
+TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: 284
 ht-degree: 0%
 
 ---
@@ -33,7 +37,7 @@ Para configurar una lista de remarketing [!DNL Google Ads] como [!DNL Audience M
 1. En Audience Manager, [crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edita un(a) [!DNL destination] existente. Use la siguiente configuración al crear [!DNL destination]:
    * Tipo: URL
    * Serializar: Habilitado
-   * Delimitador: Punto y coma ( &semi; )
+   * Delimitador: Punto y coma ( &amp;semi; )
 
 1. En la sección [!UICONTROL Segment Mappings] de su [!DNL URL] [!DNL destination], agregue el código del paso 2 a los campos [!DNL URL] y [!DNL Secure URL]. Agregue al código `http:` y `https:` los campos [!DNL URL] y [!DNL Secure URL], respectivamente.
 

@@ -7,9 +7,14 @@ title: Herramientas de DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/W3xzJ172rBhQ9Flqs5towA5pE3-nJHpwnJ1jd1mXIyo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 343
 ht-degree: 2%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 2%
 >
 >Desde julio de 2023, Adobe ha interrumpido el desarrollo de la extensión [!DNL Data Integration Library (DIL)] y [!DNL DIL].
 >
->Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, Adobe no desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes evaluar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) para su estrategia de recopilación de datos a largo plazo.
+>Los clientes existentes pueden seguir usando su implementación de [!DNL DIL]. Sin embargo, Adobe no desarrollará [!DNL DIL] más allá de este punto. Se recomienda a los clientes evaluar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para su estrategia de recopilación de datos a largo plazo.
 >
->Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) en su lugar.
+>Los clientes que deseen implementar nuevas integraciones de recopilación de datos a partir de julio de 2023 deben utilizar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en su lugar.
 
 Describe los métodos en el espacio de nombres `DIL.tools`. Estas funciones de utilidad le ayudan a realizar tareas específicas.
 
@@ -76,7 +81,7 @@ Y devuelve:
    <td> Búsqueda predeterminada</td> 
    <td> Devuelve los términos de búsqueda de palabras clave utilizados por los motores de búsqueda AOL, Ask, Bing, Google y Yahoo. </td> 
    <td>
-      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +101,10 @@ Y devuelve:
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",&lbrace; 
+      search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      &rbrace;); 
+      }); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +114,10 @@ Y devuelve:
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      &lbrace;
+      {
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      &rbrace;);
+      });
     </code>
    </td> 
   </tr> 
@@ -182,19 +187,19 @@ Firma de función: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Código de muestra
 
 <pre class="javascript"><code>
-var dataLib = DIL.create(&lbrace; 
+var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create(&lbrace; 
-     partner: <i>&grave;partnerName'</i>, 
+var dataLib = DIL.create({ 
+     partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

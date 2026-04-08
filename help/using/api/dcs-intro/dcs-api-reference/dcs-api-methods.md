@@ -7,9 +7,11 @@ title: Métodos de API de DCS
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
 exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: 99
 ht-degree: 0%
 
 ---

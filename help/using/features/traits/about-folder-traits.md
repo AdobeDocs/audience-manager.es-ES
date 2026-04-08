@@ -1,70 +1,75 @@
 ---
-description: Carpeta características le permiten agregado automáticamente las características que residen dentro de la misma carpeta y todas las carpetas secundarias en una segmento a la que se puede dirigir.
-keywords: segmento estimador de tamaño; Sse
+description: Las características de carpeta permiten agregar automáticamente características que residen en la misma carpeta y en todas las carpetas secundarias a un segmento objetivo.
+keywords: estimador de tamaño de segmento;sse
 seo-description: Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
 seo-title: Folder Traits  About
 solution: Audience Manager
-title: Carpeta Características sobre
+title: Acerca de los rasgos de carpeta
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 533
 ht-degree: 0%
 
 ---
 
-# Carpeta Rasgos: Acerca de {#folder-traits-about}
+# Acerca de los rasgos de carpeta {#folder-traits-about}
 
-[!UICONTROL Folder traits] le permiten agregado automáticamente las características que residen en la misma carpeta y en todas las carpetas secundarias en un segmento de destino.
+[!UICONTROL Folder traits] le permite agregar automáticamente rasgos que residen en la misma carpeta y todas las carpetas secundarias en un segmento de destino.
 
-## Beneficios de usar Carpeta rasgos {#benefits}
+## Ventajas de utilizar las características de carpeta {#benefits}
 
-A [!UICONTROL folder trait] contiene todas las características de una carpeta principal y sus carpetas secundarias asociadas. Esto le permite segmento y destino automáticamente a los usuarios en diferentes niveles de carpeta. Por ejemplo, supongamos que tiene una estructura de carpetas gustar esta:
+Un [!UICONTROL folder trait] contiene todos los rasgos de una carpeta principal y sus carpetas secundarias asociadas. Esto permite segmentar y segmentar automáticamente a los usuarios en diferentes niveles de carpeta. Por ejemplo, supongamos que tiene una estructura de carpetas como esta:
 
-`*` Electrónica (principal)
+`*` elementos electrónicos (principales)
 
-    `*` Portátiles (niños)
+    `*` portátiles (secundarios)
 
-        `*` Marcas (nieto)
+        `*` marcas (nieto)
 
-[!UICONTROL Folder traits] Califique a todos los usuarios de estas carpetas en una creada [!DNL Electronics] [!UICONTROL Folder Trait] automáticamente (según el nombre de la carpeta principal). Además, este proceso se repite a medida que avanza hacia abajo en la estructura de archivos. En este caso, los rasgos de carpeta capturan a todos los usuarios en las carpetas Portátiles y Marcas en un Equipo portátil [!UICONTROL Folder Trait]creado automáticamente.
+[!UICONTROL Folder traits] califica a todos los usuarios de estas carpetas en un(a) [!DNL Electronics] [!UICONTROL Folder Trait] creado(a) automáticamente (según el nombre de la carpeta principal). Y, este proceso se repite a medida que se desplaza hacia abajo en la estructura de archivos. En este caso, las características de carpeta capturan a todos los usuarios de las carpetas Portátiles y Marcas en un Portátil [!UICONTROL Folder Trait] creado automáticamente.
 
-[!UICONTROL Folder traits] se pueden seleccionar en expresiones segmento. Seleccionar una [!UICONTROL folder trait] es equivalente a seleccionar todas las características dentro de esa carpeta y sus subcarpetas con una [!UICONTROL OR] agrupación.
+[!UICONTROL Folder traits] se pueden seleccionar en expresiones de segmento. Seleccionar un(a) [!UICONTROL folder trait] equivale a seleccionar todos los rasgos de esa carpeta y sus subcarpetas con una agrupación [!UICONTROL OR].
 
 ![](assets/folder-traits-compare-border.jpg)
 
-## Carpeta Realización de rasgos - actualización y frecuencia {#folder-traits-realization}
+## Realización de rasgos de carpeta: actualización y frecuencia {#folder-traits-realization}
 
-El recuento Frecuencia de una característica de carpeta es la suma de las realizaciones de las características en su carpeta y sus carpetas secundarias. La siguiente ilustración muestra las características A, B y C, que residen en la carpeta Automóvil. Tenga en cuenta que cada uno de los rasgos tiene las siguientes realizaciones:
+El recuento de frecuencia de una característica de carpeta es la suma de las realizaciones de las características en su carpeta y en sus carpetas secundarias. La siguiente ilustración muestra los rasgos A, B y C, que se encuentran en la carpeta Automóvil. Considere que cada uno de los rasgos tiene las siguientes realizaciones:
 
-* Característica A: 5
-* Característica B: 1
+* Rasgo A: 5
+* Rasgo B: 1
 * Rasgo C: 1
 
-En este caso, el [!DNL Automobile Folder Trait] tiene 7 realizaciones.
+En este caso, [!DNL Automobile Folder Trait] tiene 7 realizaciones.
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Carpeta de informes de características {#folder-traits-reporting}
+## Informes de rasgos de carpeta {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] Capture a todos los usuarios desde las características de la estructura de carpetas debajo de ellos. Si mueve un rasgo de una carpeta a otra carpeta, el cambio se propaga a nuestros [servidores](../../reference/system-components/components-data-collection.md) de recopilación de datos solo gustar un rasgo regla cambio. La sistema de informes se actualizará en la ejecución del sistema de informes siguiente para reflejar este cambio en todos los intervalos de fechas del sistema de informes (1, 7, 14, 30, 60 y 90). Los números de sistema de informes antiguos de los días anteriores no cambiarán.
+[!UICONTROL Folder traits] captura a todos los usuarios a partir de los rasgos de la estructura de carpetas debajo de ellos. Si mueve un rasgo de una carpeta a otra, el cambio se propaga a nuestros [servidores de recopilación de datos](../../reference/system-components/components-data-collection.md) igual que un cambio en la regla de rasgos. Los informes se actualizarán en la siguiente ejecución de informes para reflejar este cambio en los intervalos de fechas de los informes (1, 7, 14, 30, 60, 90). Los números anteriores de los informes de los días anteriores no cambiarán.
 
 ## Permisos de controles de acceso basados en roles (RBAC) {#role-based-access-controls}
 
-Para las empresas que utilizan [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), los usuarios con los permisos adecuados [!UICONTROL RBAC] pueden cambiar las fuente de datos asociadas al [!UICONTROL folder trait]archivo . Un usuario debe pertenecer a una grupo con cualquiera de las siguientes opciones:
+Para las empresas que usan [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), los usuarios con los permisos adecuados de [!UICONTROL RBAC] pueden cambiar el origen de datos asociado a [!UICONTROL folder trait]. Un usuario debe pertenecer a un grupo con cualquiera de las siguientes características:
 
-* `READ` y `WRITE` grupo permisos a un fuente de datos de rasgos.
-* `VIEW_ALL_TRAITS` y `EDIT_ALL_TRAITS` permisos carácter comodín para fuentes de datos de características.
+* Permisos de grupo de `READ` y `WRITE` para un origen de datos de rasgos.
+* `VIEW_ALL_TRAITS` y `EDIT_ALL_TRAITS` permisos de comodines para orígenes de datos de rasgos.
 
-Aprenda a asignar [!UICONTROL RBAC] permisos en nuestra [documentación](../../features/administration/administration-overview.md#create-group) de administración.
+Aprenda a asignar permisos de [!UICONTROL RBAC] en nuestra [documentación de administración](../../features/administration/administration-overview.md#create-group).
 
 ## Límites y otras consideraciones {#limits}
 
 | Elemento | Descripción |
 |---|---|
-| Tipo de rasgo | [!UICONTROL Onboarded traits] y [!UICONTROL algorithmic traits] contribuir como máximo 1 realización a la Frecuencia de A [!UICONTROL folder trait]. |
-| Desplazamiento de características entre carpetas | Mover un rasgo de una carpeta a otra descalificará ese rasgo de la primera característica de carpeta y lo calificará para la segunda [!UICONTROL folder trait]. Esto significa que si elimina o mueve un rasgo de la carpeta, los usuarios de la población del rasgo no se segmentarán de los segmentos utilizando la característica de carpeta como segmento expresión. <br> Al asignar Adobe Analytics segmentos o grupos de informes a su organización Experience Cloud, Audience Manager crea automáticamente segmentos y características de solo lectura que corresponden. No se puede editar ni cambiar la ubicación almacenamiento de estas características desde Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos de Adobe Analytics mapeados o en los grupos de informes se reflejará en Audience Manager. |
-| Variables del sistema | [!UICONTROL Folder traits] no se puede realizar en llamadas evento utilizando el `d_sid` parámetro. |
-| Creación de informes | [!UICONTROL Folder traits] son características calculadas automáticamente y no aparecen en **[!UICONTROL Overlap Reports]**. |
+| Tipo de rasgo | [!UICONTROL Onboarded traits] y [!UICONTROL algorithmic traits] contribuyen como máximo 1 realización a la frecuencia de [!UICONTROL folder trait]. |
+| Desplazamiento de rasgos entre carpetas | Si se mueve un rasgo de una carpeta a otra, se descalificará ese rasgo del primer rasgo de carpeta y se calificará para el segundo [!UICONTROL folder trait]. Esto significa que si elimina o mueve un rasgo de la carpeta, los usuarios de la población del rasgo se dessegmentarán de los segmentos utilizando el rasgo de carpeta como expresión de segmento. <br> Al asignar segmentos de Adobe Analytics o grupos de informes a su organización de Experience Cloud, Audience Manager crea automáticamente segmentos y rasgos nuevos y correspondientes de solo lectura. No se puede editar ni cambiar la ubicación de almacenamiento de estas características desde Audience Manager. Sin embargo, cualquier cambio que realice en los segmentos o grupos de informes asignados de Adobe Analytics se reflejará en Audience Manager. |
+| Variables del sistema | [!UICONTROL Folder traits] no se puede realizar en llamadas de evento usando el parámetro `d_sid`. |
+| Creación de informes | [!UICONTROL Folder traits] son rasgos calculados automáticamente y no aparecen en **[!UICONTROL Overlap Reports]**. |

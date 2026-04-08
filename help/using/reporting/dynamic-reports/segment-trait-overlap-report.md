@@ -1,5 +1,5 @@
 ---
-description: Devuelve datos sobre el número de usuarios únicos compartidos entre un rasgo concreto y un segmento completo.
+description: Devuelve datos sobre la cantidad de usuarios únicos compartidos entre una característica en particular y un segmento completo.
 seo-description: Returns data on the number of unique users shared between a particular trait and an entire segment.
 seo-title: Segment-to-Trait Overlap Report
 solution: Audience Manager
@@ -7,20 +7,25 @@ title: Informe de solapamiento entre segmento y característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/Mc-7B6ZwPMsKttPBLu02SlqwuuwvwMyC80BgbOK42CQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 831
 ht-degree: 3%
 
 ---
 
 # Informe de solapamiento entre segmento y característica{#segment-to-trait-overlap-report}
 
-Devuelve datos sobre el número de usuarios únicos compartidos entre un rasgo concreto y un segmento completo.
+Devuelve datos sobre la cantidad de usuarios únicos compartidos entre una característica en particular y un segmento completo.
 
 >[!NOTE]
 >
->Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver segmentos y características de orígenes de datos a los que tiene acceso en función del grupo[&#x200B; de usuarios de &#x200B;](/help/using/features/administration/administration-overview.md)RBAC al que pertenece.
+>Los informes de superposición de Audience Manager se adhieren a los principios de RBAC. Solo puede ver segmentos y características de orígenes de datos a los que tenga acceso en función del [grupo de usuarios RBAC](/help/using/features/administration/administration-overview.md) al que pertenezca.
 
 <!-- 
 
@@ -30,21 +35,21 @@ c_segment_trait_overlap.xml
 
 ## Información general
 
-Como herramienta de optimización, los [!UICONTROL Segment to Trait Overlap] informes ayudan a versión segmentos muy enfocados o a ampliar segmento alcance. Por ejemplo, puede crear segmentos enfocados y características con una superposición alta para alcanzar un audiencia en particular. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecutar este informe para ayudar a ampliar el alcance eliminando características con mucha superposición de segmento y reemplazándolas con características que tengan menos superposición.
+Como herramienta de optimización, los informes de [!UICONTROL Segment to Trait Overlap] le ayudan a generar segmentos muy centrados o a expandir el alcance de los segmentos. Por ejemplo, puede crear segmentos centrados y rasgos con una alta superposición para llegar a una audiencia determinada. Sin embargo, mucha superposición puede significar menos usuarios únicos (menos alcance). Ejecución de este informe para ampliar el alcance eliminando características con mucha superposición de segmentos y reemplazándolas por características con menos superposición.
 
 ### Informe de muestra
 
-La ilustración siguiente proporciona información general de alto nivel sobre el [!UICONTROL Segment-to-Trait Overlap] informe.
+La siguiente ilustración proporciona información general de alto nivel sobre el informe [!UICONTROL Segment-to-Trait Overlap].
 
 ![](assets/segment-to-trait-overlap.png)
 
-### Profundizar en datos individuales Puntos
+### Profundizar en puntos de datos individuales
 
-Seleccione un punto individual para vista detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos que se muestran en el informe.
+Seleccione un punto individual para ver los detalles de los datos en una ventana emergente. Las acciones de clic actualizan automáticamente los datos mostrados en el informe.
 
 ## Comparación de segmentos con características {#comparing-segments-to-traits}
 
-Describe cómo comparar segmentos y características para obtener información significativa de los resultados.
+Describe cómo se pueden comparar segmentos y características para obtener información significativa de los resultados.
 
 <!-- 
 
@@ -52,22 +57,22 @@ c_compare_s2t.xml
 
  -->
 
-### Comparación de rasgos y segmentos únicos: un ejemplo
+### Comparación de características y exclusiones de segmentos: un ejemplo
 
-A primera vista, puede parecer ilógico comparar segmentos con rasgos e intentar sacar conclusiones de los resultados. Después de todo, los segmentos y las características son diferentes, así que ¿cómo pueden tener significado los datos derivados de elementos dispares? Sin embargo, en este caso, no estamos comparando características y segmentos, sino la cantidad de visitantes únicos compartidos entre ellos. El recuento de visitante único compartidos proporciona el valor común que hace posible una comparación de segmento a rasgos.
+A primera vista, puede parecer ilógico comparar segmentos con rasgos e intentar sacar conclusiones de los resultados. Después de todo, los segmentos y los rasgos son diferentes, así que ¿cómo pueden tener significado los datos derivados de elementos dispares? Sin embargo, en este caso, no se comparan características y segmentos, sino la cantidad de visitantes únicos compartidos entre ellos. La cantidad de visitantes únicos compartidos proporciona el valor común que hace posible la comparación de segmentos y características.
 
-En el diagrama siguiente se ilustra la relación entre un rasgo y el segmento al que pertenece. En este caso, tenemos un rasgo con 10 visitantes y un segmento con 1000 visitantes. Comparten 3 visitantes únicos en común.
+El diagrama siguiente ilustra la relación entre un rasgo y el segmento al que pertenece. En este caso, tenemos un rasgo con 10 visitantes y un segmento con 1000 visitantes. Comparten 3 visitantes únicos en común.
 
 ![](assets/s2t.png)
 
-El recuento de visitante único es el valor común y constante compartido entre estas diferentes clases de objetos. Como resultado, puede determinar la relación visitante único entre ellos de la siguiente manera:
+La cantidad de visitantes únicos es el valor constante común que comparten estas diferentes clases de objetos. Como resultado, puede determinar la relación de visitante único entre ellos de la siguiente manera:
 
-* El rasgo comparte el 30% de sus visitantes únicos con el segmento (3/10 = 0,30).
-* El segmento comparte el 0,3% de sus visitantes únicos con el rasgo (3/1.000 = 0,003)
+* El rasgo comparte el 30 % de sus visitantes únicos con el segmento (3/10 = 0,30).
+* El segmento comparte el 0,3 % de sus visitantes únicos con el rasgo (3/1000 = 0,003)
 
-### Comparaciones de Valor en segmentos y características
+### Buscar valor en las comparaciones de segmento a rasgo
 
-Observar la superposición entre rasgos y segmentos puede ayudarle a estimar el total disponible visitante grupo (previsión) o encontrar segmentos ineficientes con demasiada superposición.
+Observar la superposición entre características y segmentos puede ayudarle a estimar el conjunto total de visitantes disponible (previsión) o a encontrar segmentos ineficientes con demasiada superposición.
 
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
@@ -79,18 +84,18 @@ Observar la superposición entre rasgos y segmentos puede ayudarle a estimar el 
  <tbody> 
   <tr> 
    <td colname="col1"><b>Previsión</b> </td> 
-   <td colname="col2"> <p>Para determinar el grupo de visitante disponibles, sume la diferencia entre el total de características (menos superposición) y el total segmento (menos superposición). </p> <p>Esta combinación de segmento y rasgos podría alcanzar hasta 1004 nuevos usuarios. </p> </td> 
+   <td colname="col2"> <p>Para determinar el grupo de visitantes disponible, sume la diferencia entre el total de rasgos (menos superposición) y el total de segmentos (menos superposición). </p> <p>Esta combinación de segmento y característica podría llegar a 1004 nuevos usuarios. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Encuentre segmentos ineficientes</b> </td> 
-   <td colname="col2"> <p>Si un rasgo forma parte de un <span class="wintitle"> grupo Y</span> en una definición de segmento, los visitantes únicos que tienen ese rasgo ya están en el segmento y no están disponibles para agregar al segmento. Puede utilizar este informe para encontrar características relevantes con poca superposición y agregarlas a la definición de segmento, aumentando así el alcance de esa segmento audiencia grupo. </p> </td> 
+   <td colname="col1"><b>Buscar segmentos ineficientes</b> </td> 
+   <td colname="col2"> <p>Si un rasgo forma parte de un grupo <span class="wintitle"> AND</span> en una definición de segmento, los visitantes únicos que tienen ese rasgo ya están en el segmento y no están disponibles para agregarlos al segmento. Puede utilizar este informe para buscar características relevantes con baja superposición y añadirlas a la definición del segmento, aumentando así el alcance de ese grupo de audiencias del segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Explicación de los filtros de datos en el informe de solapamiento entre segmento y característica {#data-filters-s2t-report}
 
-Describe cómo funcionan los deslizadores % de superposición única y segmento rasgo.
+Describe cómo funcionan los deslizadores % de superposición única de rasgos y segmentos.
 
 <!-- 
 
@@ -98,21 +103,21 @@ r_s2t_sliders.xml
 
  -->
 
-El [!UICONTROL Segment-to-Trait overlap] informe permite utilizar dos controles deslizantes para filtrar los datos por porcentaje de superposición por característica o segmento.
+El informe [!UICONTROL Segment-to-Trait overlap] le permite utilizar dos controles deslizantes para filtrar los datos según el porcentaje de superposición por característica o segmento.
 
-* **[!UICONTROL Filter Trait Uniques %:]** Filtra los datos por el % de visitantes únicos compartidos entre el rasgo y el segmento.
-* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra los datos por el % de visitantes únicos que comparten entre el segmento y el rasgo.
+* **[!UICONTROL Filter Trait Uniques %:]** filtra los datos por el % de visitantes únicos compartidos entre el rasgo y el segmento.
+* **[!UICONTROL Filter Segment Uniques Overlap %:]** filtra los datos por el % de visitantes únicos que comparten entre el segmento y la característica.
 
 ### Ejemplo
 
-En el diagrama siguiente se ilustra la diferencia entre el % de características únicas y el segmento % de valores únicos. En este caso, el rasgo y el segmento comparten 3 visitantes únicos. Como proporciones:
+El diagrama siguiente ilustra la diferencia entre el porcentaje de valores exclusivos de rasgos y el porcentaje de valores exclusivos de segmentos. En este caso, el rasgo y el segmento comparten 3 visitantes únicos. Como proporciones:
 
-* El rasgo comparte el 30% de sus visitantes únicos con el segmento (3/10 = 0,30).
-* El segmento comparte el 0,3% de sus visitantes únicos con el rasgo (3/1.000 = 0,003)
+* El rasgo comparte el 30 % de sus visitantes únicos con el segmento (3/10 = 0,30).
+* El segmento comparte el 0,3 % de sus visitantes únicos con el rasgo (3/1000 = 0,003)
 
 ![](assets/s2t.png)
 
-## Definición de los campos POP de datos de segmento a característica {#fields-defined}
+## Campos emergentes de datos de segmento a característica definidos {#fields-defined}
 
 Describe las métricas que se muestran en la ventana emergente al hacer clic en un punto de datos individual.
 
@@ -122,7 +127,7 @@ r_s2t_data_pop.xml
 
  -->
 
-La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene las métricas a continuación. Tenga en cuenta que los Métrica únicos de la tabla representan a los *usuarios* en tiempo real.
+La ventana emergente del informe [!UICONTROL Segment-to-Trait Overlap] contiene las métricas siguientes. Tenga en cuenta que la métrica exclusivos de la tabla representa a sus *usuarios en tiempo real*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -133,48 +138,48 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID del segmento</span></b> </td> 
-   <td colname="col2"> ID de numérica único para el segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de segmento</span></b> </td> 
+   <td colname="col2"> ID numérico único para el segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Origen de datos de características </span></b> </td> 
-   <td colname="col2"> Nombre del propietario de rasgos. </td> 
+   <td colname="col1"><b><span class="wintitle"> Source de datos de rasgos </span></b> </td> 
+   <td colname="col2"> Nombre del propietario del rasgo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo de Origen datos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> tipo de Source de datos</span></b> </td> 
    <td colname="col2">Define el tipo de proveedor al que pertenece un rasgo. Puede ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
-     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primera parte (su propio rasgo). </li> 
-     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">De terceros (de un socio/proveedor de datos externo). </li> 
+     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Origen (su propio rasgo). </li> 
+     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceros (de un socio o proveedor de datos externo). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID de rasgo</span></b> </td> 
-   <td colname="col2"> ID de numérica única para el rasgo. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID. de rasgo </span></b> </td> 
+   <td colname="col2"> ID numérico único para el rasgo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nombre del rasgo</span></b> </td> 
-   <td colname="col2"> Nombre del rasgo. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nombre de característica</span></b> </td> 
+   <td colname="col2"> Nombre de la característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Superposición de características únicas %</span></b> </td> 
-   <td colname="col2"> % de visitantes únicos que un rasgo comparte con el segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> superposición de valores exclusivos de rasgos %</span></b> </td> 
+   <td colname="col2"> % de visitantes únicos un rasgo comparte con el segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Porcentaje de solapamiento de segmentos únicos</span></b> </td> 
-   <td colname="col2"> % de visitantes únicos que una segmento comparte con un rasgo. </td> 
+   <td colname="col1"><b><span class="wintitle"> superposición de valores exclusivos de segmento %</span></b> </td> 
+   <td colname="col2"> % de visitantes únicos que un segmento comparte con un rasgo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Solapamiento de elementos únicos</span></b> </td> 
-   <td colname="col2"> Número de visitantes únicos compartidos entre el segmento y el rasgo. </td> 
+   <td colname="col1"><b><span class="wintitle"> valores exclusivos de superposición </span></b> </td> 
+   <td colname="col2"> Número de visitantes únicos compartidos entre el segmento y la característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Segmentos únicos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> valores exclusivos de segmento</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos en el segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Características únicas</span></b> </td> 
-   <td colname="col2"> Número de visitantes únicos en la característica. </td> 
+   <td colname="col1"><b><span class="wintitle"> rasgos únicos</span></b> </td> 
+   <td colname="col2"> Número de visitantes únicos en el rasgo. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -182,8 +187,8 @@ La ventana emergente del [!UICONTROL Segment-to-Trait Overlap] informe contiene 
 >[!MORELIKETHIS]
 >
 >* [Filtrar los resultados del informe con las barras de desplazamiento de datos](../../reporting/dynamic-reports/data-sliders.md)
->* [Formas, colores y tamaños utilizados en interactivo informes](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Explicación de los iconos y Herramientas del informe](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Formas, colores y tamaños utilizados en los informes interactivos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Iconos y herramientas de informe explicados](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Informes de superposición: actualizar programación y tamaño mínimo del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Muestreo de datos y tasas de Error en informes Audience Manager seleccionados...](../../reporting/report-sampling.md)
+>* [Muestreo de datos y tasas de error en los informes seleccionados de Audience Manager...](../../reporting/report-sampling.md)
 >* [Archivos CSV para informes superpuestos](../../reporting/dynamic-reports/overlap-csv-files.md)
