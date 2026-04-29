@@ -1,40 +1,33 @@
 ---
-description: Resumen de la metodología de muestreo utilizada para algunos informes, tasas de error de muestreo y lista de informes que devuelven información basada en datos muestreados.
+description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
-title: Muestreo de datos y tasas de error en informes de Audience Manager seleccionados
+title: Data Sampling and Error Rates in Selected Audience Manager Reports
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 TQID: https://experienceleague.adobe.com/VGqto9hCroCmKygXvwZNOiAYnsV9CmdPzAoEvKnkV90
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a2c6d65b-635d-4454-a9cc-9771ed501bb4id: a49258d4-867f-4130-b875-d72c001bdf6cid: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 0%
+source-wordcount: 451
+ht-degree: 1%
 
 ---
 
-# Muestreo de datos y tasas de error en informes de Audience Manager seleccionados{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Data Sampling and Error Rates in Selected Audience Manager Reports{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
-Resumen de la metodología de muestreo utilizada para algunos informes, tasas de error de muestreo y lista de informes que devuelven información basada en datos muestreados.
+A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 
-## Proporción de muestreo de datos {#data-sampling-ratio}
+## Data Sampling Ratio {#data-sampling-ratio}
 
-Algunos informes de [!DNL Audience Manager] muestran los resultados basándose en un conjunto muestreado de la cantidad total de datos disponibles. La proporción de datos muestreados es 1:54. En el caso de los informes que utilizan datos de ejemplo, los resultados se basan en 1 registro de cada conjunto de 54 registros.
+Some [!DNL Audience Manager] reports display results based on a sampled set of the total amount of available data. The sampled data ratio is 1:54. For reports that use sampled data, this means your results are based on 1 record out of every set of 54 records.
 
-Estos informes utilizan datos estadísticos muestreados porque necesitan una enorme cantidad de potencia de cálculo para generar resultados. El muestreo ayuda a lograr un equilibrio entre la reducción de las demandas informáticas, el mantenimiento del rendimiento del sistema y la obtención de resultados precisos.
+These reports use statistical sampled data because they need a tremendous amount of computing power to generate results. Sampling helps strike a balance between reduced computational demands, maintaining system performance, and providing accurate results.
 
 <!--
 
@@ -51,20 +44,20 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 -->
 
-## Tasas de error {#error-rates}
+## Error Rates {#error-rates}
 
-Pueden producirse errores en los informes que generan datos de superposición. Un error se define como el porcentaje de registros que:
+Errors can occur in reports that generate overlap data. An error is defined as the percentage of records that:
 
-* No deberían haberse incluido en un informe, pero se agregaron de todos modos.
-* Debería haberse incluido en un informe, pero no se ha incluido.
+* Should not have been included in a report but were added anyway.
+* Should have been included in a report but were left out.
 
-Es importante tener en cuenta que nuestras pruebas y modelos muestran que la tasa de error *disminuye* en una proporción inversa al número de registros del conjunto de datos. Los conjuntos de datos que tienen muchos registros generan menos errores que los conjuntos con un pequeño número de registros. Veamos esta afirmación de una manera más cuantitativa. Como se muestra en la tabla siguiente, para un número determinado de registros, el 95 % de los resultados del informe se encontrarán por debajo de una tasa de error específica.
+It&#39;s important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Data sets that have a lot of records generate fewer errors than sets with a small number of records. Let&#39;s look at this assertion in a more quantitative manner. As shown in the following table, for a set number of records, 95% of your report results will be below a specific error rate.
 
-| Número de registros | Tasa de error |
+| Number of Records | Error Rate |
 |--- |--- |
-| De 500 a 1.000 | El 95 % tiene una tasa de error inferior al 42 %. |
-| De 1.000 a 1.500 | El 95 % tiene una tasa de error inferior al 34 %. |
-| De 10.000 a 50.000 | El 95 % tiene una tasa de error inferior al 14 %. |
+| 500 - 1,000 | 95% are under a 42% error rate. |
+| 1,000 - 1,500 | 95% are under a 34% error rate. |
+| 10,000 - 50,000 | 95% are under a 14% error rate. |
 | 50 000 | El 95 % tiene una tasa de error inferior al 6 %. |
 | 100.000 | El 95 % tiene una tasa de error inferior al 4 %. |
 | 500.000 (o más) | El 95 % tiene una tasa de error inferior al 2 %. |
@@ -99,5 +92,4 @@ Reports that use Minhash sampling methodology:
 | Muestreo estadístico | Metodología de muestreo de Minhash |
 |--- |--- |
 | Datos de [Audiencia direccionable](../features/addressable-audiences.md) (datos de nivel de cliente y de segmento). | [Informes de superposición](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (de característica a característica, de segmento a característica y de segmento a segmento) |
-| La métrica [Dispositivos totales](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para un(a) [!UICONTROL Profile Merge Rule]. | [Recomendaciones de rasgos](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa datos muestreados en la ficha [!UICONTROL Search] y en cualquier [!UICONTROL Saved Searches] | [Recomendaciones de Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

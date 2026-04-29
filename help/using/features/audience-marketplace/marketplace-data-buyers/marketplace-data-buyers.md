@@ -1,59 +1,52 @@
 ---
-description: Información general y flujo de trabajo para compradores de datos que desean comprar datos de terceros desde Audience Manager
+description: Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
 seo-description: Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
 seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
-title: Audience Marketplace para compradores de datos
+title: Audience Marketplace for Data Buyers
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 TQID: https://experienceleague.adobe.com/7rX24xDAh7PEcN29jLv-b1z0EhSp2Ku5-KlVoBVi4CA
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 1%
+source-wordcount: 729
+ht-degree: 2%
 
 ---
 
-# [!UICONTROL Audience Marketplace] para compradores de datos {#audience-marketplace-for-data-buyers}
+# [!UICONTROL Audience Marketplace] for Data Buyers {#audience-marketplace-for-data-buyers}
 
-Información general y flujo de trabajo para compradores de datos que desean comprar datos de terceros en [!DNL Audience Manager].
+Overview and workflow for data buyers who want to purchase third-party data from within [!DNL Audience Manager].
 
 >[!NOTE]
->[Permisos basados en roles](../../../reporting/reports-dashboard.md) controlan el acceso a las características de [!UICONTROL Audience Marketplace].
+>[Role-based permissions](../../../reporting/reports-dashboard.md) control access to [!UICONTROL Audience Marketplace] features.
 >
->* Los administradores pueden crear fuentes de datos, administrar suscriptores y suscribirse a fuentes de datos.
->* Los usuarios solo pueden buscar y ver fuentes.
+>* Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
+>* Users can search and view feeds only.
 
-## El [!UICONTROL Marketplace]: Acerca de {#about-marketplace}
+## The [!UICONTROL Marketplace]: About {#about-marketplace}
 
-[!UICONTROL Marketplace] es una característica de [!DNL Audience Manager] para compradores de datos que enumera las fuentes de datos a las que puede suscribirse. Enumera fuentes de datos de tarifa plana, [!DNL CPM] y privadas. Estas fuentes las proporcionan proveedores de terceros que utilizan [!DNL Audience Manager] para vender datos.
+The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buyers that lists data feeds you can subscribe to. It lists flat rate, [!DNL CPM], and private data feeds. These feeds are provided by third-party vendors that use [!DNL Audience Manager] to sell data.
 
-En [!UICONTROL Marketplace], las herramientas de creación de informes le permiten hacer un seguimiento del uso de fuentes y de la superposición entre su [!UICONTROL traits] y los de una fuente de datos suscrita. Por último, con [!UICONTROL Audience Marketplace], [!DNL Adobe] se encarga de las facturas y los pagos de tarifas (aunque debe informar automáticamente sobre el uso cuando se suscriba a una fuente de [!DNL CPM]). Estas funciones le permiten encontrar fuentes de datos eficaces sin perder tiempo buscando un proveedor de datos.
+In the [!UICONTROL Marketplace], reporting tools let you track feed usage and the overlap between your [!UICONTROL traits] and those in a subscribed data feed. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoices and fee payments (though you do have to self-report usage when subscribed to a [!DNL CPM] feed). These features let you find effective data sources without wasting time looking for a data provider.
 
 >[!TIP]
 >
->Use **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** para encontrar fuentes de datos de alta calidad a las que pueda suscribirse. A continuación, vuelve a la interfaz de usuario de [!DNL Audience Manager] o usa la [API de comprador de Audience Marketplace](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) para suscribirte a las fuentes que hayas encontrado.
+>Use the **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** to find high quality data feeds that you can subscribe to. Then, go back into the [!DNL Audience Manager] user interface or use the [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) to subscribe to the feeds you found.
 
-![reseña del mercado de compradores](assets/buyer-marketplace-overview.png)
+![buyer-marketplace-overview](assets/buyer-marketplace-overview.png)
 
-La lista [!UICONTROL Marketplace] contiene información que puede ordenar y buscar para encontrar la fuente de datos adecuada para usted. Los artículos de la lista de compradores de [!UICONTROL Marketplace] incluyen:
+The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that&#39;s right for you. Items in the [!UICONTROL Marketplace] buyer&#39;s list include:
 
-* **[!UICONTROL Search]**: buscar fuentes de datos por nombre o descripción de texto.
-* **[!UICONTROL Similar Traits]**: muestra el número de [!UICONTROL traits] similares de una fuente de datos. Esta columna se muestra después de escribir [!UICONTROL trait] o [!UICONTROL segment] para filtrar en la sección **[!UICONTROL Similarity To]**.
-* **[!UICONTROL Name]**: nombre de la fuente de datos.
-* **[!UICONTROL Description]**: información sobre el contenido de una fuente de datos.
+* **[!UICONTROL Search]**: Find data feeds by name or text description.
+* **[!UICONTROL Similar Traits]**: Shows you the number of similar [!UICONTROL traits] from a data feed. This column is shown after you enter a [!UICONTROL trait] or [!UICONTROL segment] to filter by in the **[!UICONTROL Similarity To]** section.
+* **[!UICONTROL Name]**: Name of the data feed.
+* **[!UICONTROL Description]**: Information about the contents of a data feed.
 * **[!UICONTROL Provider]**: nombre del proveedor de datos.
 * **[!UICONTROL Traits]**: el número de [!UICONTROL traits] en una fuente de datos.
 * **[!UICONTROL 30 Day Provider Unique Users]**: número de usuarios únicos vistos en los últimos 30 días.
@@ -67,7 +60,7 @@ La lista [!UICONTROL Marketplace] contiene información que puede ordenar y busc
 Para encontrar fácilmente las mejores fuentes de datos según sus necesidades, utilice los siguientes filtros disponibles a la izquierda de la página [!UICONTROL Marketplace]:
 
 * **[!UICONTROL Similarity To]**: filtre las fuentes de datos en función de su similitud con [!UICONTROL trait] o [!UICONTROL segment] de su elección. Al escribir [!UICONTROL trait] o el segmento con el que comparar, puede usar el identificador [!UICONTROL trait] o [!UICONTROL segment], o sus nombres respectivos.
-* **[!UICONTROL Similarity Cutoff]**: arrastre el control deslizante para filtrar las fuentes de datos en función de lo similares que sean sus [!UICONTROL traits] a los [!UICONTROL trait] o [!UICONTROL segment] seleccionados. Para obtener más información acerca de [!UICONTROL trait] puntuaciones de similitud, consulte [Puntuación de similitud de rasgos](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity Cutoff]**: arrastre el control deslizante para filtrar las fuentes de datos en función de lo similares que sean sus [!UICONTROL traits] a los [!UICONTROL trait] o [!UICONTROL segment] seleccionados.
 * **[!UICONTROL Subscription Status]**: filtre las fuentes de datos en función de su estado de suscripción.
 * **[!UICONTROL Plan Use Case]**: filtre las fuentes de datos según los casos de uso admitidos: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** y **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: filtre las fuentes de datos según su tipo de precios.
