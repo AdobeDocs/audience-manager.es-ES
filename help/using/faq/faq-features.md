@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -82,28 +82,6 @@ La fuente de datos y todos los rasgos de la fuente se muestran como subcarpetas 
 **¿Qué es [!UICONTROL Tag Insertion Manager (TIM)]?**
 
 Audience Manager utilizaba [!UICONTROL Tag Insertion Manager] (TIM) para crear y administrar [!UICONTROL data collection code (DIL)]. Esta función está obsoleta y primero se ha reemplazado por [!UICONTROL Dynamic Tag Manager (DTM)] y después por [!DNL Adobe Experience Platform Tags]. Para obtener más información, consulte [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
-
- 
-
-**¿Cuáles son las diferencias entre los modelos algorítmicos y las recomendaciones de rasgos? ¿Cuándo utilizo unos u otros?**
-
-**Modelos algorítmicos**
-
-Los modelos algorítmicos no solo encuentran los rasgos más influyentes, sino que también puntúan a los usuarios según esos rasgos y asignan a cada usuario una puntuación individual. Seguidamente, puede crear rasgos algorítmicos para segmentar los usuarios. Con los controles de precisión y alcance del Generador de rasgos, puede especificar a qué usuarios quiere dirigirse de entre todos los que tienen los rasgos influyentes.
-
-Los modelos algorítmicos le permiten seleccionar usuarios en diferentes niveles de precisión y probar en Audience Lab qué grupo de usuarios se convierte mejor. Consulte el caso de uso detallado en [Comparar modelos en Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-En Modelos algorítmicos, el modelo se ejecuta cada 8 días y actualiza los usuarios clasificados para rasgos algorítmicos.
-
-**Recomendaciones de rasgos**
-
-Las Recomendaciones de rasgos es una forma rápida de obtener perspectivas sobre otros rasgos parecidos a los utilizados en un segmento.
-
-Debe usar Recomendaciones de rasgos cuando:
-
-* Necesita perspectivas rápidas cuando crea un segmento.
-* Utiliza los segmentos para campañas cortas o cuando quiere suprimir rápidamente la audiencia que convierte.
-* Está intentando maximizar el alcance.
 
  
 

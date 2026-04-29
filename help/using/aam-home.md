@@ -30,10 +30,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 92%
+source-wordcount: 632
+ht-degree: 84%
 
 ---
 
@@ -194,7 +194,6 @@ See the latest [Experience Cloud Release Notes](https://experienceleague.adobe.c
 Read about the latest Audience Manager features:
 * [Activity Usage Reporting](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/activity-usage-reporting.html?lang=es)
 * [California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=es)
-* [Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/trait-recommendations.html?lang=es)
 * [Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html?lang=es)
 * [Bulk Management Tools Update](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=es)
 
