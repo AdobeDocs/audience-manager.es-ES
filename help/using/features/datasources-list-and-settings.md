@@ -8,21 +8,13 @@ uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
 TQID: https://experienceleague.adobe.com/DmanqiC6h-sY52uykeAw-LiqTUbx7qfgE2rEwmLtT28
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1090
 ht-degree: 0%
 
 ---
@@ -125,7 +117,7 @@ Active la casilla de verificación **[!UICONTROL Inbound]** cuando el origen de 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID de cliente</span></b>: identifica los datos de entrada con un ID de cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: Identifica datos de entrada con un ID de <span class="keyword"> Audience Manager</span>. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifica datos de entrada con un ID de <span class="keyword"> Experience Cloud</span>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es" format="https" scope="external"> cookies y el Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifica datos de entrada con un ID de <span class="keyword"> Experience Cloud</span>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookies y el Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +147,7 @@ Active la casilla de verificación **[!UICONTROL Inbound]** cuando el origen de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> usar como perfil autenticado</span></b> </p> </td> 
-   <td colname="col2"> <p>La fuente de datos entre dispositivos contiene un ID autenticado. Se recopila un identificador autenticado y se sincroniza con un identificador Audience Manager<span class="keyword"> de </span> durante un evento de autenticación (por ejemplo, un usuario inicia sesión en el sitio, en la aplicación, etc.). El ID autenticado se puede utilizar para incorporar datos de otras fuentes que almacenan este ID. También se puede usar para vincular varios ID de dispositivo en <span class="wintitle"> vínculo de perfil </span>. </p> <p>Esta opción expone un campo de texto que le permite cambiar el nombre del origen de datos con un alias. Si usa un alias, este nuevo nombre anula el nombre del origen de datos y aparece en las <span class="wintitle"> opciones de perfil autenticado</span> cuando <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> crea una regla de combinación de perfiles</a>. </p> </td> 
+   <td colname="col2"> <p>La fuente de datos entre dispositivos contiene un ID autenticado. Se recopila un identificador autenticado y se sincroniza con un identificador Audience Manager</span> de <span class="keyword"> durante un evento de autenticación (por ejemplo, un usuario inicia sesión en el sitio, en la aplicación, etc.). El ID autenticado se puede utilizar para incorporar datos de otras fuentes que almacenan este ID. También se puede usar para vincular varios ID de dispositivo en <span class="wintitle"> vínculo de perfil </span>. </p> <p>Esta opción expone un campo de texto que le permite cambiar el nombre del origen de datos con un alias. Si usa un alias, este nuevo nombre anula el nombre del origen de datos y aparece en las <span class="wintitle"> opciones de perfil autenticado</span> cuando <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> crea una regla de combinación de perfiles</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> usar como gráfico de dispositivo</span></b> </p> </td> 
@@ -167,7 +159,7 @@ Active la casilla de verificación **[!UICONTROL Inbound]** cuando el origen de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> comparte ID de visitante o dispositivo asociados en toda la plataforma Audience Manager</span></b> </p> </td> 
-   <td colname="col2"> <p>Su fuente de datos contiene ID de visitantes o dispositivos que se pueden compartir en otras soluciones de <span class="keyword"> Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p>Su fuente de datos contiene ID de visitantes o dispositivos que se pueden compartir con otras soluciones de <span class="keyword"> Experience Cloud</span>. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Retención de datos para ID de cliente inactivos</span></b> </p> </td> 
