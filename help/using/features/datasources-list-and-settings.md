@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1090
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Active la casilla de verificación **[!UICONTROL Inbound]** cuando el origen de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> usar como perfil autenticado</span></b> </p> </td> 
-   <td colname="col2"> <p>La fuente de datos entre dispositivos contiene un ID autenticado. Se recopila un identificador autenticado y se sincroniza con un identificador Audience Manager<span class="keyword"> de </span> durante un evento de autenticación (por ejemplo, un usuario inicia sesión en el sitio, en la aplicación, etc.). El ID autenticado se puede utilizar para incorporar datos de otras fuentes que almacenan este ID. También se puede usar para vincular varios ID de dispositivo en <span class="wintitle"> vínculo de perfil </span>. </p> <p>Esta opción expone un campo de texto que le permite cambiar el nombre del origen de datos con un alias. Si usa un alias, este nuevo nombre anula el nombre del origen de datos y aparece en las <span class="wintitle"> opciones de perfil autenticado</span> cuando <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> crea una regla de combinación de perfiles</a>. </p> </td> 
+   <td colname="col2"> <p>La fuente de datos entre dispositivos contiene un ID autenticado. Se recopila un identificador autenticado y se sincroniza con un identificador Audience Manager</span> de <span class="keyword"> durante un evento de autenticación (por ejemplo, un usuario inicia sesión en el sitio, en la aplicación, etc.). El ID autenticado se puede utilizar para incorporar datos de otras fuentes que almacenan este ID. También se puede usar para vincular varios ID de dispositivo en <span class="wintitle"> vínculo de perfil </span>. </p> <p>Esta opción expone un campo de texto que le permite cambiar el nombre del origen de datos con un alias. Si usa un alias, este nuevo nombre anula el nombre del origen de datos y aparece en las <span class="wintitle"> opciones de perfil autenticado</span> cuando <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> crea una regla de combinación de perfiles</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> usar como gráfico de dispositivo</span></b> </p> </td> 
@@ -167,7 +167,7 @@ Active la casilla de verificación **[!UICONTROL Inbound]** cuando el origen de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> comparte ID de visitante o dispositivo asociados en toda la plataforma Audience Manager</span></b> </p> </td> 
-   <td colname="col2"> <p>Su fuente de datos contiene ID de visitantes o dispositivos que se pueden compartir en otras soluciones de <span class="keyword"> Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p>Su fuente de datos contiene ID de visitantes o dispositivos que se pueden compartir con otras soluciones de <span class="keyword"> Experience Cloud</span>. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Retención de datos para ID de cliente inactivos</span></b> </p> </td> 
