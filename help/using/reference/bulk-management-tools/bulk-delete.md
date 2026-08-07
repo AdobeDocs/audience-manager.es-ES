@@ -57,7 +57,7 @@ Para eliminar varios elementos, abra la hoja de cálculo [!UICONTROL Bulk Manage
 5. Proporcione la [información de inicio de sesión](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necesaria y haga clic en **[!UICONTROL Submit]**.
 
    La hoja de cálculo crea una columna [!UICONTROL Results]. La columna [!UICONTROL Results] devuelve un mensaje que indica si el elemento se ha eliminado o un mensaje de error.
-Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
+   Antes de introducir datos, la hoja de cálculo de actualización masiva debe tener un aspecto similar al siguiente:
 
 ![](assets/delete.png)
 

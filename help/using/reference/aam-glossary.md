@@ -26,8 +26,8 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 96%
+source-wordcount: 1232
+ht-degree: 94%
 
 ---
 
@@ -112,7 +112,7 @@ Consulte [Índice de ID en Audience Manager](../reference/ids-in-aam.md).
 
 **Destino**
 
-En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) con el que desee compartir datos. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de envío de datos. Las funcionalidades de destinos de [!DNL Audience Manager] se encuentran en **[!UICONTROL Audience Data > Destinations]**.
+En [!DNL Audience Manager], un destino es cualquier otro sistema (servidor de publicidad, DSP, red de publicidad, etc.) con el que desea compartir datos. El [!UICONTROL Destination Builder] en nuestra interfaz de usuario proporciona las herramientas que le permiten crear y administrar estos procesos de envío de datos. Las funcionalidades de destinos de [!DNL Audience Manager] se encuentran en **[!UICONTROL Audience Data > Destinations]**.
 
 
 

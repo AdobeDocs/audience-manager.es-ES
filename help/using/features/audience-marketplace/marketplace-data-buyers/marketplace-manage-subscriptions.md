@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -318,7 +318,7 @@ Como comprador de datos de [!UICONTROL Audience Marketplace], puedes comprar dat
 
 ### Segmentos y superposición
 
-Este caso de uso le permite comparar sus rasgos con los del proveedor en un informe de superposición de [rasgos a rasgos.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Además, puede crear o agregar características de proveedor a un segmento y realizar comparaciones adicionales con los informes [segmento a característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) y [segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Las comparaciones de superposición pueden ayudarle a lo siguiente:
+Este caso de uso le permite comparar sus características con las características del proveedor en un [informe de superposición de características.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Además, puede crear o agregar características de proveedor a un segmento y realizar comparaciones adicionales con los informes [segmento a característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) y [segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Las comparaciones de superposición pueden ayudarle a lo siguiente:
 
 * **Ampliar el alcance de la audiencia:** La baja superposición sugiere que los rasgos contienen usuarios que no ha visto antes. Es posible que desee que estos rasgos intenten llegar a nuevos usuarios.
 * **Mejore las audiencias existentes:** La superposición alta sugiere que sus rasgos son similares a los que posee el proveedor de datos. Es posible que desee que estos rasgos ayuden a realizar mejoras direccionales e incrementales en una audiencia ya desarrollada.
@@ -329,7 +329,7 @@ Este caso de uso le permite evaluar las características del proveedor en relaci
 
 ### Activación
 
-Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], exchange, etc.) con el que desee compartir datos. Sin embargo, con un caso de uso de [!UICONTROL Activation], no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
+Este caso de uso le permite enviar datos a un [destino](../../../features/destinations/destinations.md). En [!DNL Audience Manager], un destino es cualquier sistema de terceros (servidor de publicidad, [!DNL DSP], [!DNL DMP], exchange, etc.) con el que desea compartir datos. Sin embargo, con un caso de uso de [!UICONTROL Activation], no se pueden ejecutar informes de superposición ni probar los datos en un modelo algorítmico.
 
 >[!MORELIKETHIS]
 >

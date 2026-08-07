@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para realizar actualizaciones masivas, abra la hoja de cálculo [!UICONTROL Bulk
    * Al actualizar segmentos o características, solo necesita el ID de segmento (SID) y el elemento de encabezado que debe cambiarse. Eliminar encabezados no utilizados.
 
 4. Pegue o escriba los datos que desea cambiar en una columna correspondiente basada en la etiqueta del encabezado.
-5. En la barra de herramientas de la hoja de cálculo, haga clic en un botón de actualización que coincida con el        elemento que está actualizando.
+5. En la barra de herramientas de la hoja de cálculo, haga clic en un botón de actualización que coincida con el elemento que está actualizando.
 Esta acción abre el cuadro de diálogo [!UICONTROL Account Information].
 
 6. Proporcione la [información de inicio de sesión](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necesaria y haga clic en **[!UICONTROL Submit]**.

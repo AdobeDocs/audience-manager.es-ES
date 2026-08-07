@@ -14,7 +14,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 633
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Ejecute y compruebe el informe [!UICONTROL Unused Signals]:
 >Cuando busque valores no utilizados en el informe, tenga en cuenta la siguiente particularidad. Hay una diferencia en la expresión entre los dos ejemplos siguientes:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a!=23)
+* T(v=1 [!UICONTROL AND] (a!=23))
 * Ambos ejemplos muestran un rasgo que contiene dos pares clave-valor v y a. La primera expresión se traduce como: el rasgo contiene la clave v con el valor 1 [!UICONTROL AND NOT] y la clave a con el valor 23. La segunda expresión contiene la clave v con el valor 1 [!UICONTROL AND] la clave a con el valor [!UICONTROL NOT EQUAL] 23.
 * Teniendo en cuenta las dos expresiones diferentes anteriores, supongamos que busca en [!UICONTROL Unused Signals Report] los valores que se pasan en la clave a con cualquier valor distinto de 23, solo obtendrá resultados en el primer caso, ya que los valores de la clave no se enviaron en absoluto. En el segundo caso, se han enviado valores diferentes de 23, por lo que la clave a no se utiliza.
 

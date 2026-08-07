@@ -24,7 +24,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: 718
 ht-degree: 1%
 
 ---
@@ -109,7 +109,7 @@ En la tabla siguiente se enumeran las operaciones que puede realizar y los eleme
      <ul id="ul_49F46B9E00C045D29E40258EB7BDCFBB"> 
       <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">Solicitudes </li> 
       <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">Actualización </li> 
-      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Crear  </li> 
+      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Crear </li> 
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimación </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Eliminar </li> 
      </ul> </p> </td> 
