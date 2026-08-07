@@ -8,26 +8,14 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 TQID: https://experienceleague.adobe.com/9-lmPI7-mjYo3AUgFi7L3kB-F0sZsOOVPI7r-sS21Mk
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -51,7 +39,7 @@ Tenga en cuenta lo siguiente al trabajar con el código [API de Audience Manager
 [!DNL Audience Manager] [!DNL REST APIs] admite tres métodos de autenticación.
 
 * [!BADGE Se ha recomendado]{type=positive} [autenticación de servidor a servidor OAuth](#oauth-adobe-developer) mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/). Esta es la forma recomendada de configurar y usar [!DNL Adobe] [!DNL APIs]. Obtenga más información sobre la [autenticación de servidor a servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) en la documentación para desarrolladores de Adobe.
-* [!BADGE Autenticación &#x200B;]{type=negative}JWT (cuenta de servicio) [&#x200B; &#x200B;](#jwt)obsoleta mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Autenticación [JWT (cuenta de servicio)](#jwt) ]{type=negative}obsoleta mediante [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] es el ecosistema y la comunidad de desarrolladores de Adobe. Incluye [API para todos los productos de Adobe](https://developer.adobe.com/apis/).
 * [!BADGE Obsoleto]{type=negative} [Autenticación OAuth heredada](#oauth-deprecated). Mientras este método esté obsoleto, los clientes con integraciones existentes de [!DNL OAuth] pueden seguir usando este método.
 
 >[!IMPORTANT]
@@ -99,7 +87,7 @@ Una vez creado un nuevo proyecto, seleccione **[!UICONTROL Add API]** en la pant
 
 ![Pantalla de Developer Console con la opción Agregar API resaltada.](/help/using/api/rest-api-main/assets/add-api.png)
 
-Aparecerá la pantalla **[!UICONTROL Add an API]**. Seleccione el icono de producto de Adobe Experience Cloud y, a continuación, elija **[!UICONTROL Audience Manager API]** antes de seleccionar **[!UICONTROL Next]**.
+Aparecerá la pantalla **[!UICONTROL Add an API]**. Seleccione el icono de producto para Adobe Experience Cloud y, a continuación, elija **[!UICONTROL Audience Manager API]** antes de seleccionar **[!UICONTROL Next]**.
 
 ![Seleccionar API de Audience Manager.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
@@ -149,7 +137,7 @@ Después de obtener el token de portador de autenticación, realice una llamada 
 
    ![Autorizar llamadas API](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Realice una llamada de GET al extremo de API `/datasources` para recuperar una lista de todos los orígenes de datos disponibles globalmente, tal como se indica en la [documentación de referencia de API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Seleccione **[!UICONTROL Try it out]**, seguido de **[!UICONTROL Execute]**, como se muestra a continuación.
+3. Realice una llamada GET al extremo de la API `/datasources` para recuperar una lista de todos los orígenes de datos disponibles globalmente, tal como se indica en la [documentación de referencia de la API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Seleccione **[!UICONTROL Try it out]**, seguido de **[!UICONTROL Execute]**, como se muestra a continuación.
 
    ![Realizar llamadas API](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -394,7 +382,7 @@ Puede utilizar estos parámetros opcionales con [!DNL API] métodos que devuelve
 | `pageSize` | Establece el número de resultados de respuesta que devuelve la solicitud (10 es el valor predeterminado). |
 | `sortBy` | Ordena y devuelve los resultados según la propiedad [!DNL JSON] especificada. |
 | `descending` | Ordena y devuelve los resultados en orden descendente. `ascending` es el valor predeterminado. |
-| `search` | Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra &quot;Test&quot; en cualquiera de los campos de valor de ese elemento. La solicitud de ejemplo podría tener este aspecto:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Puede buscar cualquier valor devuelto por un método &quot;[!DNL get all]&quot;. |
+| `search` | Devuelve los resultados en función de la cadena especificada que desee utilizar como parámetro de búsqueda. Por ejemplo, supongamos que desea buscar resultados para todos los modelos que tienen la palabra &quot;Test&quot; en cualquiera de los campos de valor de ese elemento. Su solicitud de ejemplo podría tener el siguiente aspecto: `GET https://aam.adobe.io/v1/models/?search=Test`.  Puede buscar cualquier valor devuelto por un método &quot;[!DNL get all]&quot;. |
 | `folderId` | Devuelve todos los identificadores de [!UICONTROL traits] dentro de la carpeta especificada. No disponible para todos los métodos. |
 | `permissions` | Devuelve una lista de segmentos en función del permiso especificado. `READ` es el valor predeterminado. Los permisos incluyen:<ul><li>`READ` : devolver y ver información sobre un segmento.</li><li>`WRITE` : usar `PUT` para actualizar un segmento.</li><li>`CREATE` : usar `POST` para crear un segmento.</li><li>`DELETE` : Eliminar un segmento. Requiere acceso a los rasgos subyacentes, si los hay. Por ejemplo, necesitará derechos para eliminar los rasgos que pertenecen a un segmento si desea eliminarlo.</li></ul><br>Especifique varios permisos con pares clave-valor independientes. Por ejemplo, para devolver una lista de segmentos con `READ` y `WRITE` permisos solamente, pase `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Configúrelo en `true` para devolver sus permisos para el segmento. El valor predeterminado es `false`. |
