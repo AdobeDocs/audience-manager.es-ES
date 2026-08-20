@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -230,8 +230,8 @@ Normalmente, un perfil de usuario tarda hasta 24 horas en sincronizarse entre re
 
 **¿Qué les sucede a las claves de acceso de usuario inactivas de Amazon S3?**
 
-Adobe proporciona a los clientes de Audience Manager claves de acceso para [!DNL Amazon S3] bloques. Por motivos de seguridad, estas claves de acceso se desactivan automáticamente si permanecen sin utilizar durante 100 días.
+Adobe proporciona a los clientes de Audience Manager claves de acceso para [!DNL Amazon S3] bloques. Por motivos de seguridad, estas claves de acceso se desactivan automáticamente si permanecen sin utilizar durante 40 días.
 
 Si las claves de acceso están desactivadas, puede ponerse en contacto con Asistencia al cliente para volver a activarlas o solicitar nuevas claves.
 
-Para mejorar la seguridad, las claves de acceso que permanezcan inactivas durante 1000 días se eliminarán permanentemente junto con la cuenta de usuario de Amazon S3 IAM. Si es un cliente habitual y necesita acceso después de este período, póngase en contacto con Asistencia al cliente para volver a crear su cuenta y recibir nuevas claves de acceso.
+Para mejorar la seguridad, las claves de acceso que permanezcan inactivas durante 180 días se eliminarán permanentemente junto con la cuenta de usuario de Amazon S3 IAM. Si es un cliente habitual y necesita acceso después de este período, póngase en contacto con Asistencia al cliente para volver a crear su cuenta y recibir nuevas claves de acceso.
