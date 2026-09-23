@@ -10,21 +10,25 @@ exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: a3c2901ff307d6c2440cef22181abb854a9743df
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 100%
-
+source-wordcount: '352'
+ht-degree: 48%
 ---
-
 # Requisitos de las contraseñas, cuentas bloqueadas y contraseñas olvidadas{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager se puede configurar para que las contraseñas caduquen cada treinta días. Para habilitar la caducidad de contraseñas, póngase en contacto con el servicio de consultoría de Audience Manager o con el Servicio de atención al cliente. Consulte esta sección para informarse sobre los requisitos de las contraseñas y cómo recuperarlas en caso de pérdida u olvido.
@@ -39,54 +43,26 @@ c_password_requirements.xml
 
 Para ser válida, la contraseña de [!DNL Audience Manager] debe cumplir los siguientes requisitos:
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requisitos </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Longitud</b> </p> </td> 
-   <td colname="col2"> <p>Las contraseñas deben tener entre 12 y 40 caracteres. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Contenido</b> </p> </td> 
-   <td colname="col2"> <p>Las contraseñas deben: </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">Comenzar y terminar con un carácter alfanumérico </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">Incluir al menos un carácter en mayúscula y otro en minúscula </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">Incluir al menos una cifra </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">Incluir al menos un carácter especial (se excluyen los dos puntos “:”). </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">Contener únicamente letras del alfabeto latino. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Versiones</b> </p> </td> 
-   <td colname="col2"> <p> Las contraseñas deben ser diferentes a las doce contraseñas anteriores. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Elementos prohibidos</b> </p> </td> 
-   <td colname="col2"> <p> Las contraseñas no deben incluir: </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">Nombre o apellido </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">La dirección de correo electrónico </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB"><span class="keyword"> El ID de usuario de Adobe</span>. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Requisitos | Descripción |
+|---|---|
+| variables | Las contraseñas deben tener entre 12 y 40 caracteres. |
+| Contenido | Las contraseñas deben:<ul><li>Comenzar y terminar con un carácter alfanumérico</li><li>Incluir al menos un carácter en mayúscula y otro en minúscula</li><li>Incluir al menos un número</li><li>Incluir al menos un carácter especial (se excluyen los dos puntos)</li><li>Contener únicamente letras del alfabeto latino.</li></ul> |
+| Versiones | Las contraseñas deben ser diferentes a las doce contraseñas anteriores. |
+| Elementos prohibidos | Las contraseñas no deben contener:<ul><li>Su nombre o apellidos.</li><li>Su dirección de correo electrónico o id. de usuario [!DNL Adobe].</li><li>Letras o números consecutivos.</li><li>Letras o números secuenciales.</li><li>Contraseñas más utilizadas.</li></ul> |
 
 Para obtener información sobre cómo restablecer la contraseña, consulte [Editar la configuración de la cuenta](../features/administration/edit-account-settings.md).
 
 **Bloqueo de cuenta**
 
-Las cuentas se bloquean tras cinco intentos fallidos de inicio de sesión. Póngase en contacto con el administrador de [!DNL Audience Manager] de su empresa o con un representante de Servicios para socios para desbloquear su cuenta.
+Por motivos de seguridad, [!DNL Audience Manager] limita temporalmente los intentos de inicio de sesión erróneos repetidos. Si supera el límite, [!DNL Audience Manager] bloquea más intentos de inicio de sesión durante un breve período y los vuelve a permitir automáticamente. No es necesario que se ponga en contacto con un administrador o con un representante de Servicios para socios para desbloquear su cuenta.
 
 **Contraseña perdida/olvidada**
 
-Haga clic en el vínculo **[!UICONTROL Forgot password]** de la página de inicio de sesión para restablecer la contraseña. Recibirá un correo electrónico automático con una contraseña provisional que caduca en 24 horas. Haga clic en el vínculo del correo electrónico para acceder a su cuenta y restablecer la contraseña.
+Seleccione **[!UICONTROL Forgot password]** en la página de inicio de sesión para restablecer su contraseña. [!DNL Audience Manager] le envía un mensaje de correo electrónico con un vínculo para restablecer su contraseña. Seleccione el vínculo y, a continuación, cree una nueva contraseña que cumpla los requisitos de contraseña. El vínculo solo funciona una vez.
+
+**Nueva configuración de cuenta**
+
+Cuando un administrador crea su cuenta, [!DNL Audience Manager] le envía un mensaje de correo electrónico con un vínculo para establecer la contraseña. Seleccione el vínculo y, a continuación, cree una contraseña que cumpla los requisitos de contraseña. Debe establecer la contraseña para poder iniciar sesión por primera vez.
 
 >[!MORELIKETHIS]
 >
