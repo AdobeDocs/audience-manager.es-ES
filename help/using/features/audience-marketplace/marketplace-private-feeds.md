@@ -10,17 +10,18 @@ exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 TQID: https://experienceleague.adobe.com/Zu-vprPHjdrKnCmni186mwvNUjwvgFw26nHERL7gBHE
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: c7475dcbcdca8baf647260ea4083c2c3122a8302
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 1%
-
 ---
-
 # Fuentes de datos privadas {#private-data-feeds}
 
 Una fuente de datos privada es una opción que permite a los proveedores limitar el acceso de los compradores a sus datos. Los proveedores y compradores de datos deben revisar esta información antes de crear y suscribirse a fuentes de datos privadas.
