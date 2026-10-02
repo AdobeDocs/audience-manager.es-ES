@@ -1,24 +1,31 @@
 ---
-description: El directorio de estado de S3 contiene un archivo .info con información de éxito y error acerca de los archivos cargados. El archivo contiene datos en formato JSON con resultados de estado en una matriz.
+description: El directorio de estado de S3 contiene un archivo .info con información de éxito y error sobre los archivos cargados. El archivo contiene datos con formato JSON con los resultados de estado en una matriz.
 seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
 seo-title: Status Updates for Metadata Files
 solution: Audience Manager
-title: Actualizaciones de Estado para el Archivos de metadatos
+title: Actualizaciones de estado para archivos de metadatos
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 1%
-
 ---
 
+# Actualizaciones de estado para archivos de metadatos{#status-updates-for-metadata-files}
 
-# Actualizaciones de Estado para el Archivos de metadatos{#status-updates-for-metadata-files}
+El directorio de estado S3 contiene un archivo `.info` con información de éxito y error acerca de los archivos cargados. El archivo contiene datos con formato JSON con los resultados de estado en una matriz.
 
-El directorio de estado de S3 contiene un `.info` archivo con información de éxito y error acerca de los archivos cargados. El archivo contiene datos en formato JSON con resultados de estado en una matriz.
-
-El contenido del archivo será similar al de `.info` este ejemplo.
+El contenido del archivo `.info` será similar al de este ejemplo.
 
 ```js
 //sample file path
@@ -59,11 +66,11 @@ El contenido del archivo será similar al de `.info` este ejemplo.
 }
 ```
 
-## Pares Valor claves de metadatos definidos {#key-value-pairs}
+## Pares de clave-valor de metadatos definidos {#key-value-pairs}
 
-Las tablas siguientes lista y definen las claves de las `Files` secciones and `Summary` de un archivo de estado de metadatos.
+Las siguientes tablas enumeran y definen las claves en las secciones `Files` y `Summary` de un archivo de estado de metadatos.
 
-**Claves de la matriz Archivos**
+**Claves en la matriz de archivos**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -75,31 +82,31 @@ Las tablas siguientes lista y definen las claves de las `Files` secciones and `S
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>Contiene una breve descripción de por qué falló el procesamiento. Este campo está vacío cuando el procesamiento es exitoso. </p> </td> 
+   <td colname="col2"> <p>Contiene una breve descripción de por qué falló el procesamiento. Este campo está vacío cuando el procesamiento se realiza correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
-   <td colname="col2"> <p>Archivo tamaño en bytes. </p> </td> 
+   <td colname="col2"> <p>Tamaño de archivo en bytes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>La suma de comprobación MD 5 para el archivo de metadatos cargado en su <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Suma de comprobación MD 5 para el archivo de metadatos cargado en el directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Nombre del archivo de metadatos cargado en su <code> meta</code> directorio. </p> </td> 
+   <td colname="col2"> <p>Nombre del archivo de metadatos cargado en el directorio <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible por humanos para el tipo de datos que contiene el archivo. Se basa en el ID del niño que figura en el nombre del archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para Archivos</a> de metadatos. </p> </td> 
+   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID secundario del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nombre legible por humanos para el tipo de datos que contiene el archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenciones de nomenclatura para Archivos</a> de metadatos. </p> </td> 
+   <td colname="col2"> <p>El nombre legible en lenguaje natural para el tipo de datos que contiene su archivo. Se basa en el ID principal del nombre de archivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenciones de nomenclatura para archivos de metadatos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
-   <td colname="col2"> <p>Devuelve 2 valores de texto que describen el estado de procesamiento del archivo metadatos: </p> 
+   <td colname="col2"> <p>Devuelve dos valores de texto que describen el estado de procesamiento del archivo de metadatos: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
      <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
      <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
@@ -108,7 +115,7 @@ Las tablas siguientes lista y definen las claves de las `Files` secciones and `S
  </tbody> 
 </table>
 
-**Claves del objeto Resumen**
+**Claves en el objeto de resumen**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,11 +127,11 @@ Las tablas siguientes lista y definen las claves de las `Files` secciones and `S
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Archivo fecha de procesamiento en <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Fecha de procesamiento de archivo en formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
-   <td colname="col2"> <p>Devuelve 2 valores de texto que describen el estado de procesamiento de todos los archivos durante un día completo: </p> 
+   <td colname="col2"> <p>Devuelve dos valores de texto que describen el estado de procesamiento de todos los archivos para un día completo: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
      <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
      <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
@@ -132,27 +139,27 @@ Las tablas siguientes lista y definen las claves de las `Files` secciones and `S
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
-   <td colname="col2"> <p>Número de archivos que se procesaron sin éxito. </p> </td> 
+   <td colname="col2"> <p>Número de archivos que no se procesaron correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 
-   <td colname="col2"> <p>Número de archivos procesados correctamente. </p> </td> 
+   <td colname="col2"> <p>El número de archivos procesados correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Devuelve una marca de hora legible por humanos para procesar inicio tiempo. </p> </td> 
+   <td colname="col2"> <p>Devuelve una marca de tiempo legible en lenguaje natural para las horas de inicio de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Una marca de hora UNIX para procesar tiempos inicio. </p> </td> 
+   <td colname="col2"> <p>Una marca de tiempo UNIX para procesar las horas de inicio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
-   <td colname="col2"> <p>Número total de bytes para todos sus archivos metadatos del día. </p> </td> 
+   <td colname="col2"> <p>Número total de bytes de todos los archivos de metadatos del día. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
-   <td colname="col2"> <p>Número total de todos sus archivos procesados durante el día. </p> </td> 
+   <td colname="col2"> <p>Número total de todos los archivos procesados durante el día. </p> </td> 
   </tr> 
  </tbody> 
 </table>
