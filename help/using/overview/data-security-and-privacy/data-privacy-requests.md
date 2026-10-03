@@ -67,7 +67,7 @@ Puede enviar solicitudes de acceso a datos individuales a través de la [interfa
 
 La [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) permite crear nuevas solicitudes de trabajo mediante el uso del [!UICONTROL Request Builder] o cargando un archivo [!DNL JSON].
 
-Para ver la apariencia de un archivo [!DNL JSON]válido, puede [ descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
+Para ver la apariencia de un archivo [!DNL JSON]válido, puede [&#x200B; descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
 
 Entendemos su compromiso de cumplir con sus solicitudes de privacidad de datos dentro del período de tiempo establecido por la legislación.
 
@@ -77,7 +77,7 @@ Puede enviar solicitudes de eliminación de datos a través de la [interfaz de u
 
 La [interfaz de usuario del Privacy Service](https://privacyui.cloud.adobe.io/) permite crear nuevas solicitudes de trabajo mediante el uso del [!UICONTROL Request Builder] o cargando un archivo [!DNL JSON].
 
-Para ver la apariencia de un archivo [!DNL JSON]válido, puede [ descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
+Para ver la apariencia de un archivo [!DNL JSON]válido, puede [&#x200B; descargar una muestra de JSON](../data-security-and-privacy/assets/access_request.json).
 
 Adobe entiende su compromiso de cumplir sus solicitudes de privacidad de datos en un plazo de 30 días. Por ese motivo, [!DNL Adobe] se compromete a procesar su solicitud de eliminación de datos lo antes posible.
 
