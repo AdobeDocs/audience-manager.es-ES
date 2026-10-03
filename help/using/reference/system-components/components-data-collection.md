@@ -7,31 +7,46 @@ title: Componentes de recopilación de datos
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
+TQID: 'https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
   - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
   - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+    internal-label: ID syncs
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 736
-ht-degree: 3%
-
+source-wordcount: '770'
+ht-degree: 5%
 ---
-
 # Componentes de recopilación de datos{#data-collection-components}
 
 Los componentes de recopilación de datos incluyen los servidores de recopilación de datos, la API de DIL, las transferencias de datos de servidor a servidor entrantes y los archivos de registro.
@@ -79,7 +94,7 @@ Como cliente, interactúa con [!DNL DCS] indirectamente a través de nuestro có
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-[!UICONTROL PCS] es una base de datos grande (básicamente, una cookie enorme del lado del servidor). Almacena los datos recibidos para los usuarios activos desde las transferencias de servidor a servidor y desde [!DNL DCS]. Los datos de [!UICONTROL PCS] constan de los ID de dispositivo, los ID de perfil autenticados y sus rasgos asociados. Cuando [!DNL DCS] recibe una llamada en tiempo real, comprueba si [!UICONTROL PCS] tiene otros rasgos a los que un usuario pueda pertenecer o para los que califique. Y, si se agrega una característica a un segmento más adelante, esos ID de característica se agregan a [!UICONTROL PCS] y los usuarios pueden calificar para ese segmento automáticamente, sin visitar un sitio o aplicación en particular. [!UICONTROL PCS] ayuda a que [!DNL Audience Manager] comprenda mejor a sus usuarios, ya que puede coincidir y segmentar usuarios en tiempo real o entre bastidores con datos de rasgos nuevos e históricos. Este comportamiento le ofrece una imagen más completa y precisa de sus usuarios que solo de las cualificaciones en tiempo real.
+[!UICONTROL PCS] es una base de datos grande (básicamente, una cookie enorme del lado del servidor). Almacena los datos recibidos para los usuarios activos desde las transferencias de servidor a servidor y desde [!DNL DCS]. Los datos [!UICONTROL PCS] constan de los ID de dispositivo, ID de perfil autenticados y sus rasgos asociados. Cuando [!DNL DCS] recibe una llamada en tiempo real, comprueba si [!UICONTROL PCS] tiene otros rasgos a los que un usuario pueda pertenecer o para los que califique. Y, si se agrega una característica a un segmento más adelante, esos ID de característica se agregan a [!UICONTROL PCS] y los usuarios pueden calificar para ese segmento automáticamente, sin visitar un sitio o aplicación en particular. [!UICONTROL PCS] ayuda a que [!DNL Audience Manager] comprenda mejor a sus usuarios, ya que puede coincidir y segmentar usuarios en tiempo real o entre bastidores con datos de rasgos nuevos e históricos. Este comportamiento le ofrece una imagen más completa y precisa de sus usuarios que solo de las cualificaciones en tiempo real.
 
 No hay controles de interfaz de usuario que permitan a nuestros clientes trabajar directamente con [!UICONTROL PCS]. El acceso del cliente a [!UICONTROL PCS] es indirecto, a través de su función de almacén de datos y transferencias de datos. El [!UICONTROL PCS] se ejecuta en Apache Cassandra.
 

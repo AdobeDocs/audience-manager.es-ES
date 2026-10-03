@@ -8,20 +8,26 @@ title: Acerca de los modelos de similitud
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 feature: Algorithmic Models
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
-TQID: https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0
+TQID: 'https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: '1614'
 ht-degree: 0%
-
 ---
-
 # Explicación de [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
 ## Buscar nuevos usuarios con [!UICONTROL Look-Alike Modeling] {#find-new-users}

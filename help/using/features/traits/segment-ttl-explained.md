@@ -7,16 +7,21 @@ title: Tiempo de vida del segmento explicado
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+TQID: 'https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # Duración explicada del segmento y el rasgo {#segment-time-to-live-explained}
 
 Cómo afecta el intervalo [!UICONTROL time-to-live] ([!DNL TTL]) del rasgo a la pertenencia al segmento.
@@ -35,7 +40,7 @@ Audience Manager calcula la caducidad de [!DNL TTL] para los rasgos con 1 día [
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Ejemplo 1**: Un rasgo realizado a las 1:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 1 = 47 horas después.
+* **Ejemplo 1**: Un rasgo realizado a la 1:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 1 = 47 horas después.
 * **Ejemplo 2**: Un rasgo realizado a las 23:00 [!DNL UTC], con un [!DNL TTL] de 1 día. [!DNL TTL] caducará 24 + 24 - 23 = 25 horas después.
 
 ## [!DNL TTL] y abandonando un segmento

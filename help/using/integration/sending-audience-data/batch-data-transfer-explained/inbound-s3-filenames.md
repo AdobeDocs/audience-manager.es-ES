@@ -7,35 +7,41 @@ title: Requisitos de tamaño de archivo y nombre de Amazon S3 para archivos de d
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+TQID: 'https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: '1131'
 ht-degree: 2%
-
 ---
-
 # [!DNL Amazon S3] requisitos de nombre y tamaño de archivo para archivos de datos de entrada {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Describe los campos, sintaxis, convenciones de nomenclatura y tamaños de archivo requeridos que debe seguir al enviar datos a [!DNL Audience Manager]. Establezca los nombres y tamaños de los archivos según estas especificaciones cuando envíe datos a un directorio [!DNL Audience Manager] / [!DNL Amazon S3].
 
 >[!NOTE]
 >
->Los estilos de texto (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos y opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Estilos de texto (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Sintaxis del nombre del archivo {#file-name-syntax}
 
 [!DNL S3] nombres de archivo contienen los siguientes elementos obligatorios y opcionales:
 
-* Prefijo **[!DNL S3]:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* Prefijo **[!DNL S3]:** `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
-* **Elementos de nombre de archivo:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **Elementos de nombre de archivo:** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 Para ver otros formatos de nombre de archivo aceptados, consulte [Integraciones de socios personalizadas](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
@@ -79,7 +85,7 @@ La tabla define los elementos en un nombre de archivo de [!DNL S3].
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Este campo indica a Audience Manager a qué fuente de datos incorporar datos. Este campo es obligatorio si establece el DPID en un Android ID o iOS ID u otro ID que pertenezca a fuentes de datos globales. Esto permite a Audience Manager vincular los datos del archivo de nuevo a su organización. <br>: este origen de datos de destino debe ser propiedad de su compañía. Para compartir datos de segundo nivel, para introducir datos en una fuente de datos de destino perteneciente a otra empresa, debe tener una asignación de acceso entre su empresa y la fuente de datos de destino. Póngase en contacto con su asesor de Adobe o con Asistencia al cliente para configurar la asignación.</p> <p><b>Nota importante:</b> Usted <i>no</i> necesita solicitar una asignación para las relaciones de uso compartido de datos existentes (para orígenes de datos de destino que pertenecen a otras empresas en las que incorporó datos antes del 14 de marzo de 2022). La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID. </p> <p>Por ejemplo: </p> 
+   <td colname="col2"> <p>Este campo indica a Audience Manager a qué fuente de datos incorporar datos. Este campo es obligatorio si establece el DPID en un Android ID o iOS ID u otro ID que pertenezca a fuentes de datos globales. Esto permite a Audience Manager vincular los datos del archivo de nuevo a su organización. <br> La fuente de datos de destino debe ser propiedad de la empresa. Para compartir datos de segundo nivel, para introducir datos en una fuente de datos de destino perteneciente a otra empresa, debe tener una asignación de acceso entre su empresa y la fuente de datos de destino. Póngase en contacto con su asesor de Adobe o con Asistencia al cliente para configurar la asignación.</p> <p><b>Nota importante:</b> Usted <i>no</i> necesita solicitar una asignación para las relaciones de uso compartido de datos existentes (para orígenes de datos de destino que pertenecen a otras empresas en las que incorporó datos antes del 14 de marzo de 2022). La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID. </p> <p>Por ejemplo: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indica a Audience Manager que está calificando a los ID de cliente que pertenecen a la fuente de datos 33 para rasgos o señales que pertenecen a la fuente de datos 21. </li> 
      <li> <b>Android ID (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> indica a <span class="keyword"> Audience Manager</span> que el archivo de datos solo contiene Android ID y que los ID deben cumplir los requisitos para los rasgos que pertenecen a la fuente de datos 21.</li> 

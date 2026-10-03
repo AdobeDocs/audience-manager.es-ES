@@ -7,21 +7,25 @@ title: API de REST
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
 exl-id: 2c5d0567-9d48-48b5-b261-2b00a3070b2f
-TQID: https://experienceleague.adobe.com/TSYgffKqszvLSju464YHTKIqSBlmykqBsOgUd8iBcE4
+TQID: 'https://experienceleague.adobe.com/TSYgffKqszvLSju464YHTKIqSBlmykqBsOgUd8iBcE4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data Collection Server
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 79
+source-wordcount: '84'
 ht-degree: 2%
-
 ---
-
 # [!DNL REST APIs] {#rest-apis}
 
 [!UICONTROL RESTful APIs] le permite trabajar mediante programación con [!DNL Audience Manager].

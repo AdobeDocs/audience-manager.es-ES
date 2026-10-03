@@ -7,25 +7,34 @@ title: OAS como destino de Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: Third-party Integration
 exl-id: cf919c27-691f-424b-be83-040f03e34455
-TQID: https://experienceleague.adobe.com/ObecxWx-zHr7wi9wAVcWjmhAol0L1XbXKUcH-tFlvUU
+TQID: 'https://experienceleague.adobe.com/ObecxWx-zHr7wi9wAVcWjmhAol0L1XbXKUcH-tFlvUU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 640
-ht-degree: 0%
-
+source-wordcount: '647'
+ht-degree: 1%
 ---
-
 # OAS como destino de Audience Manager {#oas-as-an-audience-manager-destination}
 
 Configure [!DNL Open Ad Server] como destino y envíe datos de Audience Manager a esa plataforma.
@@ -66,7 +75,7 @@ Cree un destino basado en cookies para [!DNL OAS] en Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-En Audience Manager, un *destino* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que desee compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. Las características de destino de Audience Manager se encuentran en *Datos de audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
+En Audience Manager, *destination* es cualquier otro sistema (servidor de publicidad, [!DNL DSP], red de publicidad, etc.) con el que desea compartir datos. [!UICONTROL Destination Builder] proporciona las herramientas que le permiten crear y administrar estos procesos de entrega de datos. Las características de destino de Audience Manager se encuentran en *Datos de audiencia > Destinos*. Para comenzar, haga clic en **[!UICONTROL Add New Destination]** y siga los pasos a continuación.
 
 ### Paso 1: Información básica
 

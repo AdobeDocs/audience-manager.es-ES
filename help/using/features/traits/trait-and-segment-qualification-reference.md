@@ -8,16 +8,21 @@ title: Referencia de calificación de rasgos
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+TQID: 'https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '841'
 ht-degree: 0%
-
 ---
-
 # Referencia de calificación de rasgos y segmentos {#trait-qualification-reference}
 
 La calificación de características, o realización de características, se trata de forma diferente en Audience Manager, según el tipo de característica. Consulte [Calificación de características por tipo de característica](#trait-type) para obtener más información sobre la calificación de tipos de características.

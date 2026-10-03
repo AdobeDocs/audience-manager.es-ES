@@ -6,16 +6,21 @@ title: Operadores lógicos admitidos
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
-TQID: https://experienceleague.adobe.com/m9daAh4HRSx5zwBX-ByQU0dLVy-KOt3RMrdjGvFqsMU
+TQID: 'https://experienceleague.adobe.com/m9daAh4HRSx5zwBX-ByQU0dLVy-KOt3RMrdjGvFqsMU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: '158'
 ht-degree: 4%
-
 ---
-
 # Operadores lógicos admitidos {#supported-logical-operators}
 
 Utilice operadores lógicos para agrupar pares de clave-valor y características de relleno.

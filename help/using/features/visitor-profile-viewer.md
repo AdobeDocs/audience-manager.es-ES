@@ -8,19 +8,26 @@ title: Visor de perfiles de visitante
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
-TQID: https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE
+TQID: 'https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '252'
 ht-degree: 0%
-
 ---
-
 # Visor de perfiles de visitante {#visitor-profile-viewer}
 
 Use [!UICONTROL Visitor Profile Viewer] para mostrar el estado actual de un perfil de usuario para el explorador actual, incluidos sus rasgos y segmentos. Para cada rasgo, puede ver su [!UICONTROL SID], nombre, detalles sobre cómo se realizaron los rasgos de visitante (de origen o de terceros), la fecha de realización y la frecuencia de las realizaciones. Para cada segmento, puede ver su [!UICONTROL SID], nombre y la fecha de inscripción al segmento. También puede ver el perfil del visitante para otro ID de perfil de Audience Manager ([!UICONTROL UUID]). [!UICONTROL Visitor Profile Viewer] es útil para solucionar problemas.

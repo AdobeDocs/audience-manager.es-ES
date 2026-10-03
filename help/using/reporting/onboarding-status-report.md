@@ -1,5 +1,5 @@
 ---
-description: El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+description: El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye la opción de los archivos de muestra para un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
@@ -7,28 +7,35 @@ title: Informe de estado de integración
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+TQID: 'https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1421
-ht-degree: 0%
-
+source-wordcount: '1429'
+ht-degree: 5%
 ---
-
 # Informe de estado de integración{#onboarding-status-report-about}
 
-El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+El Informe de estado de carga comprueba las tasas de éxito y error para procesar registros en los archivos de fuente de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye la opción de los archivos de muestra para un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Puede encontrar este informe en Analytics > Informe de estado de integración. Este informe también está disponible cuando se crea una fuente de datos de entrada.
 
 >[!NOTE]
 >
@@ -36,7 +43,7 @@ El Informe de estado de carga comprueba las tasas de éxito y error para procesa
 
 ## Informe de estado de carga: Acerca de {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report] comprueba las tasas de éxito y error para procesar registros en los archivos de origen de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye una opción que muestra los archivos para un intervalo de tiempo fijo y los errores más comunes para cada tipo de error. Puede encontrar este informe en **[!UICONTROL Analytics > Onboarding Status Report]**. Este informe también está disponible cuando se crea una fuente de datos de entrada.
+[!UICONTROL Onboarding Status Report] comprueba las tasas de éxito y error para procesar registros en los archivos de origen de datos de entrada. Este informe muestra los datos en un gráfico de barras interactivo y proporciona métricas de resumen en forma de tabla. Además, incluye la opción de los archivos de muestra para un intervalo de tiempo fijo y muestra los errores más comunes para cada tipo de error. Puede encontrar este informe en **[!UICONTROL Analytics > Onboarding Status Report]**. Este informe también está disponible cuando se crea una fuente de datos de entrada.
 
 ## Informes de errores y muestreo de errores {#error-reporting-sampling}
 

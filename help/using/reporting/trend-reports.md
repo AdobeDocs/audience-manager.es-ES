@@ -7,23 +7,28 @@ title: Informes de tendencias
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-TQID: https://experienceleague.adobe.com/fKSbryohm3Syccv6Q1UTD2rn54SCYHiCTh6YThEwR-M
+TQID: 'https://experienceleague.adobe.com/fKSbryohm3Syccv6Q1UTD2rn54SCYHiCTh6YThEwR-M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c3072557-4f3f-45b7-af4d-083bca98c34f
+    internal-label: General and trend reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: '684'
 ht-degree: 0%
-
 ---
-
 # Informes de tendencias{#trend-reports}
 
 Un informe de tendencias devuelve datos de tendencias sobre características y segmentos.

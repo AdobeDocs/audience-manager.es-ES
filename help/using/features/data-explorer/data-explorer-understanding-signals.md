@@ -6,20 +6,26 @@ title: Explicación de señales
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
-TQID: https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo
+TQID: 'https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '379'
 ht-degree: 1%
-
 ---
-
 # Explicación de señales
 
 Las señales son la unidad de información más pequeña de Audience Manager. Representan las interacciones del usuario o la actividad del usuario en sus propiedades en línea y se pasan a Audience Manager para su uso en reglas de rasgos.
@@ -32,14 +38,14 @@ El [Tablero de señales](../../features/data-explorer/data-explorer-signals-dash
 
 * *Par clave-valor* muestra el par clave-valor de la señal recibida por [!DNL Audience Manager].
 * *Tipo de señal* describe la categoría de cada señal. Las señales se clasifican en una de las siguientes categorías:
-   * [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md): señales en tiempo real recibidas de sus archivos de registro de rendimiento multimedia;
-   * [!DNL Adobe Analytics]: señales en tiempo real recibidas de su cuenta de [!DNL Adobe Analytics];
-   * Datos generales en línea: datos en tiempo real generados por su actividad de audiencia y no incluidos en archivos de registro procesables y [!DNL Adobe Analytics].
-   * Registros incorporados: datos recibidos mediante transferencias de datos por lotes.
+  * [Archivos de registro procesables](/help/using/integration/media-data-integration/actionable-log-files.md): señales en tiempo real recibidas de sus archivos de registro de rendimiento multimedia;
+  * [!DNL Adobe Analytics]: señales en tiempo real recibidas de su cuenta de [!DNL Adobe Analytics];
+  * Datos generales en línea: datos en tiempo real generados por su actividad de audiencia y no incluidos en archivos de registro procesables y [!DNL Adobe Analytics].
+  * Registros incorporados: datos recibidos mediante transferencias de datos por lotes.
 * *La señal Source* depende del tipo de señal:
-   * Para las señales integradas, la fuente de señales es el nombre de la fuente de datos.
-   * Para las señales que se originan desde [!DNL Adobe Analytics], la fuente de datos siempre será un grupo de informes.
-   * En el caso de archivos de registro procesables y datos en línea generales, no se muestra información de la fuente de señal.
+  * Para las señales integradas, la fuente de señales es el nombre de la fuente de datos.
+  * Para las señales que se originan desde [!DNL Adobe Analytics], la fuente de datos siempre será un grupo de informes.
+  * En el caso de archivos de registro procesables y datos en línea generales, no se muestra información de la fuente de señal.
 * *Recuentos totales* muestra la cantidad total de veces que [!DNL Audience Manager] recibió una señal en tiempo real en los últimos siete días.
 * *Incluido en características* le muestra si la señal es parte de alguna característica. Haga clic en la flecha para ver los rasgos que incluyen la señal correspondiente. Para las señales que no forman parte de ningún rasgo, el valor de la columna cambia a [!UICONTROL Create Onboarded Trait] o [!UICONTROL Create Rule-Based Trait].
 

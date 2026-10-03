@@ -7,18 +7,24 @@ title: Precisión y alcance
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
-TQID: https://experienceleague.adobe.com/EBd69CXQbzvMDT-VjZqeZ1Y30LtP4QdkWlmTcCmWax8
+TQID: 'https://experienceleague.adobe.com/EBd69CXQbzvMDT-VjZqeZ1Y30LtP4QdkWlmTcCmWax8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # Precisión y alcance {#accuracy-and-reach}
 
 Describe la relación entre precisión y alcance en rasgos algorítmicos.

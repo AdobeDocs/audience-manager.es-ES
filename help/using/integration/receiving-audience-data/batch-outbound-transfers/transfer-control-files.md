@@ -7,21 +7,28 @@ title: Archivos de transferencia y control para transferencias de archivos de re
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
-TQID: https://experienceleague.adobe.com/aIVWdiY6qjXJI9wGK8U9ey6Awr1S8RzLWD2om6g1wGk
+TQID: 'https://experienceleague.adobe.com/aIVWdiY6qjXJI9wGK8U9ey6Awr1S8RzLWD2om6g1wGk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 # Archivos de transferencia y control para transferencias de archivos de registro {#transfer-control-files-for-log-file-transfers}
 
 Los archivos de control de transferencia ([!DNL .info]) proporcionan información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que Audience Manager ha gestionado las transferencias de archivos correctamente.

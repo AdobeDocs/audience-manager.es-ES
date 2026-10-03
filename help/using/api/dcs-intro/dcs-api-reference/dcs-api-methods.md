@@ -7,16 +7,21 @@ title: Métodos de API de DCS
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
 exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
-TQID: https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY
+TQID: 'https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 99
+source-wordcount: '100'
 ht-degree: 0%
-
 ---
-
 # [!DNL DCS] [!DNL API] métodos {#dcs-api-methods}
 
 Enviar datos a [!DNL DCS] [!DNL API] mediante los métodos `GET` o `POST`.

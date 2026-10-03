@@ -6,28 +6,40 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+TQID: 'https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1543'
 ht-degree: 3%
-
 ---
-
 # Información general de [!UICONTROL Predictive Audiences] {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] le ayuda a clasificar una audiencia desconocida en personalidades distintas, en tiempo real, mediante técnicas avanzadas de ciencia de datos.
@@ -123,16 +135,16 @@ Al evaluar audiencias de origen y asignar puntuaciones, el modelo utiliza el val
 
 Al configurar sus modelos de [!UICONTROL Predictive Audiences], tenga en cuenta las siguientes consideraciones y limitaciones:
 
-* Puede crear hasta 10 [!UICONTROL Predictive Audiences] modelos.
+* Puede crear hasta diez modelos de [!UICONTROL Predictive Audiences].
 * Para cada modelo, puede elegir hasta 50 rasgos o segmentos base.
 * En este momento no se admiten datos de segundo nivel y de terceros en [!UICONTROL Predictive Audiences].
 * [!UICONTROL Predictive Audiences] realiza la clasificación de audiencias en función de sus rasgos de origen, a partir de todas sus fuentes de datos de origen.
 * La evaluación de segmentos de [!UICONTROL Predictive Audiences] usa el **[!UICONTROL Profile Merge Rule]** que eligió durante la creación del modelo. Para obtener más información acerca de [!UICONTROL Profile Merge Rules], consulte la [documentación](../profile-merge-rules/merge-rules-overview.md) dedicada.
 * Algunos rasgos y segmentos no se admiten como líneas de base o audiencias de destino. [!UICONTROL Predictive Audiences] modelos no se podrán guardar al elegir uno de los siguientes como líneas de base o audiencias de destino:
-   * Características predictivas y segmentos creados con características predictivas;
-   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) rasgos o segmentos;
-   * Características algorítmicas;
-   * Rasgos de segundo nivel y de terceros.
+  * Características predictivas y segmentos creados con características predictivas;
+  * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) rasgos o segmentos;
+  * Características algorítmicas;
+  * Rasgos de segundo nivel y de terceros.
 * [!UICONTROL Predictive Audience] [!UICONTROL segments] no se puede usar en [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
@@ -153,8 +165,8 @@ A todos los segmentos predictivos se les asignará el [!UICONTROL Profile Merge 
 
 * Define qué dispositivos o perfiles autenticados deben tenerse en cuenta cuando el modelo analiza el elemento influyente [!UICONTROL traits], en el momento de clasificar un usuario en un elemento predictivo [!UICONTROL segment].
 * Establece qué tipos de [!UICONTROL trait] (nivel de dispositivo o nivel de dispositivo cruzado) deben usarse durante el paso de formación del modelo y mostrarse como influyentes [!UICONTROL traits]. Los predictivos [!UICONTROL segments] son subconjuntos de la audiencia de destino.
-   * Si la audiencia de destino es un segmento, le recomendamos que seleccione el mismo [!UICONTROL Profile Merge Rule] para el modelo que el asignado a su audiencia de destino, o un [!UICONTROL Profile Merge Rule] que incluya el tipo de perfil de su audiencia de destino.
-   * Si la audiencia de destino es un(a) [!UICONTROL trait], le recomendamos que seleccione un(a) [!UICONTROL Profile Merge Rule] que pueda acceder al mismo tipo de datos que el rasgo de audiencia de destino (ya sean datos de perfil de dispositivo o datos de perfil entre dispositivos).
+  * Si la audiencia de destino es un segmento, le recomendamos que seleccione el mismo [!UICONTROL Profile Merge Rule] para el modelo que el asignado a su audiencia de destino, o un [!UICONTROL Profile Merge Rule] que incluya el tipo de perfil de su audiencia de destino.
+  * Si la audiencia de destino es un(a) [!UICONTROL trait], le recomendamos que seleccione un(a) [!UICONTROL Profile Merge Rule] que pueda acceder al mismo tipo de datos que el rasgo de audiencia de destino (ya sean datos de perfil de dispositivo o datos de perfil entre dispositivos).
 * [!UICONTROL Profile Merge Rules] con las opciones [!UICONTROL Current Authenticated Profiles] y [!UICONTROL No Device Profile] solo se admiten para la clasificación de audiencia en tiempo real. Para obtener más información, vea [Opciones definidas de reglas de combinación de perfiles](../profile-merge-rules/merge-rule-definitions.md).
 
 Si se selecciona un(a) [!UICONTROL Profile Merge Rule] que usa datos de dispositivos y entre dispositivos, se maximiza el número de [!UICONTROL traits] que se podrían usar para la formación de modelos y la clasificación de usuarios en el elemento predictivo [!UICONTROL segments].

@@ -5,25 +5,34 @@ solution: Audience Manager
 title: Ofuscación de direcciones IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-TQID: https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo
+TQID: 'https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '526'
 ht-degree: 12%
-
 ---
-
 # Ofuscación de direcciones IP {#ip-obfuscation}
 
 Utilice esta función para ocultar las direcciones IP recopiladas en Audience Manager.

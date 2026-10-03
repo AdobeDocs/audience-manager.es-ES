@@ -7,25 +7,34 @@ title: Informe de variación del rasgo diario
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
-TQID: https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY
+TQID: 'https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '723'
 ht-degree: 0%
-
 ---
-
 # Informe de variación del rasgo diario {#daily-trait-variation-report}
 
 Este informe devuelve una lista de características que se han realizado al menos 10 000 veces en los 30 días anteriores a la fecha o fechas seleccionadas y que tienen una desviación estándar mayor o igual a 1,7 en cualquier dirección y durante el mismo intervalo de tiempo. El informe ayuda a evaluar cómo fluctúa con el tiempo el número de impresiones de usuarios únicos en un rasgo.

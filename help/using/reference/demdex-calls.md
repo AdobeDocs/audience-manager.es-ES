@@ -7,18 +7,21 @@ title: Explicación de las llamadas al dominio Demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
-TQID: https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8
+TQID: 'https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: '325'
 ht-degree: 4%
-
 ---
-
 # Explicación de las llamadas al dominio [!DNL Demdex] {#understanding-calls-to-the-demdex-domain}
 
 [!DNL Audience Manager] y [!DNL Adobe Experience Platform Identity Service] realizan llamadas a y reciben datos del dominio `demdex.net`. Puede parecer que [!DNL Adobe] está trabajando con un dominio de terceros inusual, pero no es el caso. Esta sección describe los elementos de una llamada a `demdex.net`.

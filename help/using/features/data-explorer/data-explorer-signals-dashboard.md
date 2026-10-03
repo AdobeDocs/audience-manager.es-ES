@@ -6,18 +6,24 @@ title: Panel de señales
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+TQID: 'https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # Panel de señales {#signals-dashboard}
 
 Obtenga información general sobre las señales no utilizadas recibidas por Audience Manager en los últimos 7 días e identifique posibles nuevas características. Las señales no utilizadas llegan a Audience Manager desde sus propiedades en línea, pero no se utilizan en ninguno de sus rasgos existentes. Para ver [!UICONTROL Signals Dashboard], vaya a [!UICONTROL Audience Data] > [!UICONTROL Signals]. [!UICONTROL Signals Dashboard] le muestra datos procesables basados en las señales no utilizadas más activas.

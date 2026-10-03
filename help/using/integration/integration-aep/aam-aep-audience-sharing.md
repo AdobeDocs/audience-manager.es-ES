@@ -5,32 +5,48 @@ title: Uso compartido de segmentos en Experience Platform con Audience Manager y
 keywords: Uso compartido de audiencias de AEP, segmentos de AEP, segmentos de Platform, uso compartido de segmentos, uso compartido de audiencias, compartir segmentos, uso compartido de segmentos de AAM AEP
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer profiles
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1799
-ht-degree: 1%
-
+source-wordcount: '2014'
+ht-degree: 2%
 ---
-
 # Uso compartido de segmentos en Experience Platform con Audience Manager y otras soluciones de Experience Cloud
 
 ## Información general {#overview}
@@ -70,7 +86,7 @@ En las secciones siguientes se describe cómo habilitar el uso compartido de dat
 
 Para enviar segmentos y características de Audience Manager a Experience Platform, debe configurar el conector de origen de Audience Manager en el catálogo de fuentes de Experience Platform. Se trata de un flujo de trabajo de autoservicio que no requiere la participación del Servicio de atención al cliente o de equipos de ingeniería de Adobe. Para configurar el conector de origen de Audience Manager, lea:
 
-* [Origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
+* [fuente de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
 * [Crear una conexión de origen de Adobe Audience Manager en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=es)
 
 >[!IMPORTANT]
@@ -94,7 +110,7 @@ Las secciones siguientes describen cómo habilitar el uso compartido de datos de
 
 >[!IMPORTANT]
 >
-> En esta sección se describe la integración de uso compartido de segmentos heredada de Experience Platform a Audience Manager. Ahora puede configurar esta integración sin la asistencia de representantes del cliente de Adobe. Para obtener más información, lea la [Documentación de destino de audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=es).
+> En esta sección se describe la integración de uso compartido de segmentos heredada de Experience Platform a Audience Manager. Ahora puede configurar esta integración sin la asistencia de representantes del cliente de Adobe. Para obtener más información, lea la documentación de destino de [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=es).
 
 >[!NOTE]
 >

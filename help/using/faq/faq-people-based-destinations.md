@@ -6,25 +6,32 @@ solution: Audience Manager
 title: Preguntas frecuentes sobre People-Based Destinations
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-TQID: https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY
+TQID: 'https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 subfeature_v2:
   - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: '1180'
 ht-degree: 86%
-
 ---
-
 # Preguntas frecuentes sobre People-Based Destinations {#people-based-destinations-faq}
 
 Respuestas a preguntas frecuentes sobre [!DNL People-Based Destinations]

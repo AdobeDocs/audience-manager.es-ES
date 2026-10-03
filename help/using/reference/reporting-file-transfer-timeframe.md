@@ -7,24 +7,30 @@ title: Cómo afectan los tiempos de envío de datos y procesamiento de archivos 
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-TQID: https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts
+TQID: 'https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # Cómo afectan los tiempos de envío de datos y procesamiento de archivos a los informes{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager recibe una enorme cantidad de datos todos los días. Esto afecta a la cantidad de tiempo que se tarda en procesar los datos y generar los resultados del informe. El contenido de esta sección describe cómo afectan estos intervalos de tiempo a su cuenta de Audience Manager. Además, los marcos de tiempo y los horarios descritos aquí son solo directrices generales. Estas programaciones no constituyen acuerdos de nivel de servicio (SLA) ni compromisos relacionados con la entrega de datos. Adobe se reserva el derecho de cambiar los plazos y horarios en cualquier momento sin previo aviso.
@@ -42,8 +48,8 @@ En la tabla siguiente se enumeran y describen los intervalos de tiempo de nuestr
 
 | Tipo de datos | Descripción |
 |---|---|
-| Datos en tiempo real | Los números en tiempo real de hoy corresponden a las horas 00:00 a 23:59:59 UTC de ayer. |
-| Datos generales de informes | Los datos de [Informes generales](../reporting/general-reports.md#general-reports-overview) dependen de la finalización correcta de otros procesos de trabajo y de la cantidad de datos recibidos para un día en particular. La mayoría de las veces, los datos de [!UICONTROL General Report] deben actualizarse antes del 18:00 UTC cada día. |
+| Datos en tiempo real | Los números en tiempo real de hoy corresponden a las horas de 00:00 a 23:59:59 UTC de ayer. |
+| Datos generales de informes | Los datos de [Informes generales](../reporting/general-reports.md#general-reports-overview) dependen de la finalización correcta de otros procesos de trabajo y de la cantidad de datos recibidos para un día en particular. La mayoría de las veces, los datos de [!UICONTROL General Report] deben actualizarse antes de las 18:00 UTC todos los días. |
 
 ## Transferencias de archivos entrantes y salientes {#inbound-outbound-file-transfers}
 
@@ -52,7 +58,7 @@ En la tabla siguiente se enumeran y describen los intervalos de tiempo de nuestr
 | Tipo de archivo | Descripción |
 |---|---|
 | Ingesta de archivos entrantes (datos sin conexión) | El procesamiento de archivos se ejecuta dos veces al día. Estos procedimientos consumen datos y los preparan para su envío. Los tiempos de entrega de archivos varían porque se ven afectados por la cantidad total de datos de clientes que deben procesarse. Debería esperar una latencia máxima de 48 horas entre el momento en que el archivo se carga en Audience Manager y el momento en que los datos estén disponibles para la creación de informes y la activación. |
-| Archivos de salida (exportación) | El procesamiento y la entrega de archivos se realizan una vez al día, aproximadamente a las 14:00 UTC. Tenga en cuenta que el procesamiento y la entrega se ven afectados por la cantidad total y el tamaño de estos archivos. En algunos casos, puede haber un retraso en el procesamiento de archivos de hasta 24 horas. Cuando esto sucede, Audience Manager envía 2 archivos para un día en particular en lugar de 1. Notificaremos a nuestros clientes en el improbable caso de que Audience Manager tenga que dejar de procesar un archivo por completo. Dadas estas condiciones, es difícil estimar los tiempos de envío de los datos salientes. Para determinar si ha recibido un conjunto completo de archivos, compruebe la marca de tiempo y busque los días que faltan. Es una marca de tiempo UNIX UTC de 13 dígitos que registra la hora en la que se creó el archivo. Ver [Transferencias de datos salientes en tiempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
+| Archivos de salida (exportación) | El procesamiento y la entrega de archivos tienen lugar una vez al día, aproximadamente a las 14:00 UTC. Tenga en cuenta que el procesamiento y la entrega se ven afectados por la cantidad total y el tamaño de estos archivos. En algunos casos, puede haber un retraso en el procesamiento de archivos de hasta 24 horas. Cuando esto sucede, Audience Manager envía 2 archivos para un día en particular en lugar de 1. Notificaremos a nuestros clientes en el improbable caso de que Audience Manager tenga que dejar de procesar un archivo por completo. Dadas estas condiciones, es difícil estimar los tiempos de envío de los datos salientes. Para determinar si ha recibido un conjunto completo de archivos, compruebe la marca de tiempo y busque los días que faltan. Es una marca de tiempo UNIX UTC de 13 dígitos que registra la hora en la que se creó el archivo. Ver [Transferencias de datos salientes en tiempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Archivos de registro del servidor de publicidad | El procesamiento de archivos se ejecuta en tiempo casi real para introducir registros de archivos de registro a medida que los archivos por hora están listos. El proceso de preparación de los archivos para la creación de informes se ejecuta una vez al día. Los tiempos de entrega de archivos varían porque se ven afectados por la cantidad total de datos de clientes que deben procesarse. Debería esperar una latencia máxima de 48 horas entre el momento en que carga el archivo en Audience Manager y el momento en que los datos están disponibles para la creación de informes y la activación. |
 
 >[!MORELIKETHIS]

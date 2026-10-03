@@ -7,16 +7,21 @@ title: Actualización y frecuencia
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
-TQID: https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k
+TQID: 'https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '726'
 ht-degree: 1%
-
 ---
-
 # Actualización y frecuencia {#recency-and-frequency}
 
 En [!UICONTROL Segment Builder], la actualización y la frecuencia le permiten segmentar a los visitantes en función de las acciones que se producen o que se repiten a lo largo de un intervalo diario establecido.

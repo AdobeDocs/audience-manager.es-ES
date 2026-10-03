@@ -7,21 +7,28 @@ title: Sintaxis y ejemplos del nombre del archivo de datos de salida
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+TQID: 'https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '692'
 ht-degree: 5%
-
 ---
-
 # Nombre del archivo de datos de salida: sintaxis y ejemplos{#outbound-data-file-name-syntax-and-examples}
 
 Describe los campos, sintaxis y convenciones requeridos que se utilizan para asignar un nombre a un archivo de datos de salida.
@@ -30,7 +37,7 @@ Describe los campos, sintaxis y convenciones requeridos que se utilizan para asi
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos de código y opciones. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ## Elementos de sintaxis y nombre de archivo {#syntax-file-name}
 
@@ -106,7 +113,7 @@ La tabla define los elementos de un nombre de archivo de datos de salida.
 
 Archivos enviados a una ubicación de [!DNL Amazon S3], con *`PID_ALIAS="XYZCustomer"`* y con [!DNL Google Advertiser IDs] en el contenido del archivo.
 
-Por ejemplo, archivos incrementales:
+E.g. archivos incrementales:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
@@ -114,7 +121,7 @@ Por ejemplo, archivos incrementales:
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
-Por ejemplo, archivos completos:
+E.g. archivos completos:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
@@ -125,14 +132,14 @@ Por ejemplo, archivos completos:
 
 Archivos enviados a la ubicación [!DNL FTP], sin *`PID_ALIAS`* y con [!DNL Apple Advertiser IDs] en el contenido del archivo:
 
-Por ejemplo, archivos incrementales:
+E.g. archivos incrementales:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-Por ejemplo, archivos completos:
+E.g. archivos completos:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
@@ -141,7 +148,7 @@ Por ejemplo, archivos completos:
 
 **Escenario 3**: archivos enviados a la ubicación [!DNL FTP], con *`PID_ALIAS="XYZCustomer"`* y con ID de usuario de terceros en el contenido del archivo ( *`Vendor ID=45454`*):
 
-Por ejemplo, archivos incrementales:
+E.g. archivos incrementales:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
@@ -149,7 +156,7 @@ Por ejemplo, archivos incrementales:
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-Por ejemplo, archivos completos:
+E.g. archivos completos:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
@@ -164,7 +171,7 @@ Describe los campos, sintaxis y convenciones necesarios para organizar la inform
 
 >[!NOTE]
 >
->Los elementos de estilo (`monospaced text`, *cursiva*, corchetes `[ ]` `( )`, etc.) de este documento indican elementos de código y opciones. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
+>Elementos de estilo (`monospaced text`, *cursiva*, paréntesis `[ ]` `( )`, etc.) en este documento, indique los elementos y las opciones de código. Consulte [Convenciones de estilo para elementos de código y texto](../../../reference/code-style-elements.md) para obtener más información.
 
 ### Sintaxis
 

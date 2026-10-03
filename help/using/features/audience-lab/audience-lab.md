@@ -7,23 +7,30 @@ title: Audience Lab
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
-TQID: https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg
+TQID: 'https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '550'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Audience Lab] {#audience-lab}
 
 Cree segmentos de prueba mutuamente excluyentes en [!UICONTROL Segment Test Groups] para comparar y medir la efectividad de diferentes destinos. Puede apartar un grupo de control y dividir el segmento en porcentajes de un todo para probar la eficacia.
@@ -67,7 +74,7 @@ El estado de un grupo de prueba puede ser activo, programado, pausado, en borrad
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> activo </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>active</i> significa que los datos se están enviando a los destinos. Pulse <b><span class="uicontrol"> Pausar prueba </span></b> en la tarjeta del grupo de prueba <b><span class="uicontrol"> de </span></b> para suspender el envío de datos a los destinos. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>active</i> significa que los datos se están enviando a los destinos. Pulse <b><span class="uicontrol"> Pausar prueba </span></b> en la tarjeta del grupo de prueba </span></b> de <b><span class="uicontrol"> para suspender el envío de datos a los destinos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> programado </span></b> </p> </td> 
@@ -75,7 +82,7 @@ El estado de un grupo de prueba puede ser activo, programado, pausado, en borrad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> pausó </span></b> </p> </td> 
-   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos actualmente a los destinos. Pulse <b><span class="uicontrol"> Hacer activo </span></b> en la tarjeta del grupo de prueba <b><span class="uicontrol"> de </span></b> para reanudar el envío de características. </p> </td> 
+   <td colname="col2"> <p>Un grupo de prueba <i>pausado</i> no envía datos actualmente a los destinos. Pulse <b><span class="uicontrol"> Hacer activo </span></b> en la tarjeta del grupo de prueba </span></b> de <b><span class="uicontrol"> para reanudar el envío de características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> borrador </span></b> </p> </td> 

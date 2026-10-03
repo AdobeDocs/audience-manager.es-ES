@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Información general y casos de uso
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-TQID: https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y
+TQID: 'https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 # Información general y casos de uso {#overview-use-cases}
 
 Utilice [!DNL People-Based Destinations] para enviar segmentos de audiencia de origen a entornos basados en personas. Estos entornos son ecosistemas cerrados que pertenecen a una entidad que controla el contenido que se muestra dentro de ella. Incluyen plataformas sociales como [!DNL Facebook] y otras plataformas que dependen de cuentas de clientes para personalizar el contenido mostrado.
@@ -40,7 +46,7 @@ Utilice [!DNL People-Based Destinations] para enviar segmentos de audiencia de o
 * Audiencias de Target en entornos sin cookies;
 * Segmente las audiencias deduplicando las direcciones de correo electrónico con hash coincidentes con los ID de cliente.
 
-Puede usar [!DNL People-Based Destinations] para segmentar y segmentar a clientes de alto valor que quizá no hayan visitado su sitio web, o bien dejar de segmentar a aquellos que ya se hayan convertido sin conexión. Además, puede aprovechar [!DNL Profile Merge Rules] para combinar los datos de origen sin conexión con los datos de origen en línea, incluidos los datos de clientes de otras soluciones de Adobe Experience Cloud, a fin de optimizar los esfuerzos de publicidad en medios sociales.
+Puede usar [!DNL People-Based Destinations] para segmentar y segmentar a clientes de alto valor que quizá no hayan visitado su sitio web, o bien dejar de segmentar a aquellos que ya se hayan convertido sin conexión. Además, puede aprovechar [!DNL Profile Merge Rules] para combinar sus datos de origen sin conexión con los datos de origen en línea, incluidos los datos de clientes de otras soluciones de Adobe Experience Cloud, a fin de optimizar sus esfuerzos publicitarios en medios sociales.
 
 ![pbd-overview](assets/pbd-overview.png)
 

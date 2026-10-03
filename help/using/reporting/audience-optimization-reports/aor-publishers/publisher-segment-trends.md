@@ -7,20 +7,28 @@ title: Informe de tendencias del segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
-TQID: https://experienceleague.adobe.com/EUu52qZvB-oRsIunk-ZNXxgRfdYFUmamyQ-Yk1lG-4Q
+TQID: 'https://experienceleague.adobe.com/EUu52qZvB-oRsIunk-ZNXxgRfdYFUmamyQ-Yk1lG-4Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '546'
 ht-degree: 0%
-
 ---
-
 # Informe de tendencias del segmento{#segment-trend-report}
 
 El informe Tendencia de segmentos devuelve datos sobre las impresiones y las tasas de pulsaciones de los segmentos asignados y no asignados a lo largo del tiempo.

@@ -6,23 +6,30 @@ solution: Audience Manager
 title: Requisitos previos y consideraciones
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+TQID: 'https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1069'
 ht-degree: 2%
-
 ---
-
 # Requisitos previos y consideraciones {#prerequisites-considerations}
 
 >[!IMPORTANT]
@@ -46,7 +53,7 @@ Póngase en contacto con su representante de Adobe para aprovechar esta función
 Antes de poder usar [!UICONTROL People-Based Destinations] para enviar la audiencia de origen [!UICONTROL segments] a [!DNL Facebook], asegúrese de cumplir los siguientes requisitos:
 
 1. La cuenta de usuario [!DNL Facebook] debe tener habilitado el permiso **Administrar campañas** para la cuenta de publicidad que planea usar.
-2. Agrega la cuenta comercial de **Adobe Experience Cloud** como socio de publicidad en tu [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. Consulte [Agregar socios a su administrador comercial](https://www.facebook.com/business/help/1717412048538897) para obtener más información.
+2. Agregue la cuenta empresarial de **Adobe Experience Cloud** como socio de publicidad en [!DNL Facebook Ad Account]. Utilice `business ID=206617933627973`. Consulte [Agregar socios a su administrador comercial](https://www.facebook.com/business/help/1717412048538897) para obtener más información.
 
    >[!IMPORTANT]
    >Al configurar los permisos para Adobe Experience Cloud, debe habilitar el permiso **Administrar campañas**. Es necesario para la integración de [!UICONTROL People-Based Destinations].
@@ -99,16 +106,16 @@ Al crear valores hash de las direcciones de correo electrónico, asegúrese de c
 
 * Recortar todos los espacios iniciales y finales de la cadena de correo electrónico; ejemplo: `johndoe@example.com`, no `<space>johndoe@example.com<space>`;
 * Al crear valores hash de las cadenas de correo electrónico, asegúrese de usar la cadena en minúsculas;
-   * Ejemplo: `example@email.com`, no `EXAMPLE@EMAIL.COM`;
+  * Ejemplo: `example@email.com`, no `EXAMPLE@EMAIL.COM`;
 * Asegúrese de que la cadena con hash esté en minúscula
-   * Ejemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, no `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+  * Ejemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, no `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * No salar la cuerda.
 
 Vea el siguiente vídeo para conocer los requisitos de hash de [!UICONTROL People-Based Destinations].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud le da la opción de hash los ID de cliente mediante [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Soporte hash SHA256 para setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=es) para obtener información detallada sobre cómo usar ECID para hash los ID de cliente.
+Adobe Experience Cloud le da la opción de hash los ID de cliente con [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte [Soporte hash SHA256 para setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=es) para obtener información detallada sobre cómo usar ECID para hash los ID de cliente.
 
 ## Obteniendo permiso de usuario {#obtaining-user-permission}
 

@@ -7,16 +7,21 @@ title: Condiciones de carrera y gestión de errores
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
-TQID: https://experienceleague.adobe.com/UwYrrF5zUD-hUESWPe82KAWVeNfo7M-hcJW6ep0Ov1Y
+TQID: 'https://experienceleague.adobe.com/UwYrrF5zUD-hUESWPe82KAWVeNfo7M-hcJW6ep0Ov1Y'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # Condiciones de carrera, limitación de velocidad y gestión de errores {#race-conditions-and-error-handling}
 
 Describe cómo evitar condiciones de carrera y [!DNL DCS] control de errores.
