@@ -7,23 +7,32 @@ title: Importación De Archivos De Datos Del Administrador De Google Campaign En
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
-TQID: https://experienceleague.adobe.com/-LD2jsXjdqhRjhXJfabCiOdw-WNeji-GECu1uunomVU
+TQID: 'https://experienceleague.adobe.com/-LD2jsXjdqhRjhXJfabCiOdw-WNeji-GECu1uunomVU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 556
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 # Importación De Archivos De Datos Del Administrador De Google Campaign En Audience Manager {#import-dcm-data-files-into-audience-manager}
 
 Configure un grupo [!DNL Google] para incorporar los archivos de datos de [!DNL Google Campaign Manager] a Audience Manager. El contenido de esta sección resume el proceso de integración y le proporciona vínculos a [!DNL Google Campaign Manager] recursos para ayudarle a empezar.

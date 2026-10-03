@@ -6,20 +6,26 @@ solution: Audience Manager
 title: Añadir controles de exportación de datos a un destino
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-TQID: https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ
+TQID: 'https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 2%
-
 ---
-
 # Añadir etiquetas de exportación de datos a un destino {#add-data-export-labels}
 
 [!DNL Data Export Labels] trabaja con [!DNL Export Controls] que ha establecido en un origen de datos. [!DNL Data Export Labels] le impide agregar características restringidas a un segmento y enviar datos de segmento a un destino. Puede establecer varias etiquetas de exportación en un destino nuevo o existente [!DNL cookie] o [!DNL URL].

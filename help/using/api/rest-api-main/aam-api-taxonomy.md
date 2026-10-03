@@ -7,20 +7,24 @@ title: Métodos taxonómicos API
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
-TQID: https://experienceleague.adobe.com/LIHEWvF3t-VNHJEviomvCF-dxE2Jy-BFxBynonvwP3w
+TQID: 'https://experienceleague.adobe.com/LIHEWvF3t-VNHJEviomvCF-dxE2Jy-BFxBynonvwP3w'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '176'
 ht-degree: 1%
-
 ---
-
 # Métodos taxonómicos API {#taxonomic-api-methods}
 
 Métodos que permiten ver la taxonomía común de Audience Manager. Este esquema de clasificación opcional organiza los rasgos por categorías estándar del sector.

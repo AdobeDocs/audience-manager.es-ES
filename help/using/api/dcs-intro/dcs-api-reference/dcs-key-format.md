@@ -7,16 +7,21 @@ title: Formato de pares de clave-valor en llamadas DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
-TQID: https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4
+TQID: 'https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '242'
 ht-degree: 4%
-
 ---
-
 # Formato de pares de clave-valor en llamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
 Al realizar una llamada, [!DNL DCS] acepta datos de clave-valor en formato estándar o serializado. Consulte esta sección para obtener información sobre el formato de datos de clave-valor estándar y serializados.

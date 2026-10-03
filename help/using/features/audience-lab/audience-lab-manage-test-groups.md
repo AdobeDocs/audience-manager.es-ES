@@ -7,27 +7,38 @@ title: Administrar grupos de prueba
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # Administrar grupos de prueba {#manage-test-groups}
 
 Este procedimiento lo guiará para crear, editar o eliminar un grupo de prueba en [!UICONTROL Audience Lab].
@@ -45,9 +56,9 @@ Este procedimiento lo guiará para crear, editar o eliminar un grupo de prueba e
   >[Los rasgos de carpeta](../../features/traits/about-folder-traits.md) son **no compatibles** con [!UICONTROL Audience Lab]. Si se establece el [Tipo de evento](../../features/traits/create-onboarded-rule-based-traits.md) de un rasgo de carpeta en **conversión**, no se generará ningún dato en [!UICONTROL Audience Lab] para ese rasgo de carpeta específico.
 
 * Para empresas que usan [Control de acceso basado en roles](../../features/administration/administration-overview.md): asigne el [!UICONTROL Audience Lab] [permiso comodín](../../features/administration/administration-overview.md#wild-card-permissions) a **[!UICONTROL User Groups]** para proporcionar acceso. Permite al usuario crear y ver los resultados de una prueba. Un usuario solo podrá usar segmentos de una fuente de datos para la que tenga privilegios de **read** y **map to destination**. El usuario solamente podrá usar características de conversión de un origen de datos para el cual tenga permisos de **&quot;leer&quot;**. Un usuario solo podrá ver los destinos a los que tiene acceso. Por lo tanto, antes de agregar el permiso comodín [!DNL Audience Lab] a un grupo, asegúrese de que el grupo tenga:
-   * acceso para leer los rasgos de conversión relevantes;
-   * acceso para leer y asignar segmentos relevantes para las pruebas;
-   * acceso a destinos relevantes.
+  * acceso para leer los rasgos de conversión relevantes;
+  * acceso para leer y asignar segmentos relevantes para las pruebas;
+  * acceso a destinos relevantes.
 
 Para crear un nuevo(a) [!UICONTROL Segment Test Group]:
 

@@ -8,21 +8,28 @@ title: Monitorización de ID e Inclusión en la lista de bloqueados de
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+TQID: 'https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # Monitorización de ID e Inclusión en la lista de bloqueados de
 
 El [!DNL DCS] supervisa los identificadores que recibe y agrega a una lista de bloqueados los que se envían a una tasa inusualmente alta en un corto período de tiempo.

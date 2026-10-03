@@ -7,19 +7,25 @@ title: Funcionalidad avanzada de Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
-TQID: https://experienceleague.adobe.com/9ABdWm61XwzXhFzvAhWhc-u0090yx-G43PH2nlyfLpM
+TQID: 'https://experienceleague.adobe.com/9ABdWm61XwzXhFzvAhWhc-u0090yx-G43PH2nlyfLpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '447'
 ht-degree: 0%
-
 ---
-
 # [!DNL Audience Lab] funcionalidad avanzada {#audience-lab-advanced-functionality}
 
 Este artículo describe dos características que proporcionan funcionalidad avanzada para [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] y [!DNL Segment Holdout].

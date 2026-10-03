@@ -7,16 +7,21 @@ title: Reglas de combinación de perfiles y procesos de eliminación de la segme
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+TQID: 'https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # Reglas de combinación de perfiles y procesos de eliminación de la segmentación de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
 
 La eliminación de la segmentación describe procesos que descalifican y eliminan perfiles de dispositivos de los segmentos. La posibilidad de quitar un perfil de dispositivo de un segmento depende de la opción de dispositivo utilizada para crear un(a) [!UICONTROL Profile Merge Rule].

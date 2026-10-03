@@ -7,24 +7,32 @@ title: Informe de solapamiento entre características
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-TQID: https://experienceleague.adobe.com/1E6FfKrz49D98hav839-xm2igkY48YvNdXODWmWC5wU
+TQID: 'https://experienceleague.adobe.com/1E6FfKrz49D98hav839-xm2igkY48YvNdXODWmWC5wU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '520'
 ht-degree: 4%
-
 ---
-
 # Informe de solapamiento entre características{#trait-to-trait-overlap-report}
 
 Devuelve datos sobre la cantidad de usuarios únicos compartidos entre todas las características de origen y de terceros.

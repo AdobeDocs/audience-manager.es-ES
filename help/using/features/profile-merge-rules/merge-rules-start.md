@@ -7,26 +7,36 @@ title: Introducción a las reglas de combinación de perfiles
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-TQID: https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc
+TQID: 'https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: e8a4c7eb-7254-4984-ac46-e651a57c7e39
+    internal-label: SDKs
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1325'
 ht-degree: 1%
-
 ---
-
 # Introducción a las reglas de combinación de perfiles {#getting-started-with-profile-merge-rules}
 
 Para crear [!UICONTROL Profile Merge Rules], revise y complete los pasos de cada uno de los procedimientos descritos en esta sección.
@@ -163,7 +173,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Para obtener más información, consulte [Crear un Source de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=es).
+Para obtener más información, consulte [Crear un Source de datos entre dispositivos](#create-data-source) y [ID de cliente y estados de autenticación](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configurar la función `DIL.create`
 
@@ -178,7 +188,7 @@ var vDil = DIL.create({
 });
 ```
 
-En el par clave-valor del área de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+En el par clave-valor del área de nombres, la variable `*`MCORG`*` es su ID de organización [!DNL Experience Cloud]. Si no tiene este identificador, puede encontrarlo en la sección [!UICONTROL Administration] del panel [!DNL Experience Cloud]. Necesita permisos de administrador para ver este tablero. Consulte [Administración: servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuración de SDK
 
@@ -228,15 +238,15 @@ Compruebe los métodos en su código de [!DNL SDK] que le permiten pasar [!UICON
     </code></p>
     <p> <b>Ejemplo:</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=es) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=es).
+Vea también [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) y [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >

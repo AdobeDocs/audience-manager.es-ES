@@ -7,20 +7,26 @@ title: Casos de uso de gráficos de dispositivos externos
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-TQID: https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es
+TQID: 'https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: '304'
 ht-degree: 4%
-
 ---
-
 # Casos de uso de gráficos de dispositivos externos {#external-device-graph-use-cases}
 
 Recomendaciones y casos de uso para la prospección, el redireccionamiento y la personalización para usuarios desconocidos con un gráfico de dispositivos externos. Un gráfico de dispositivos externos se define como un gráfico de dispositivos independiente de Audience Manager. Esto incluye integraciones que Adobe tiene con empresas de gráficos de dispositivos determinísticos o probabilísticos de terceros.

@@ -7,21 +7,28 @@ title: Envío de segmentos a una lista de remarketing de Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
+TQID: 'https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # Envío de segmentos a una lista de remarketing de Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
 Este procedimiento requiere una lista de remarketing [!DNL Google Ads], un código de píxel y un Audience Manager [!DNL URL] [!DNL destination]. También se conoce como lista de remarketing para la integración de anuncios de búsqueda ([!DNL RLSA]). Solo se aplica a la búsqueda de pago.
@@ -41,7 +48,7 @@ Para configurar una lista de remarketing [!DNL Google Ads] como [!DNL Audience M
 1. En Audience Manager, [crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o edita un(a) [!DNL destination] existente. Use la siguiente configuración al crear [!DNL destination]:
    * Tipo: URL
    * Serializar: Habilitado
-   * Delimitador: Punto y coma ( &semi; )
+   * Delimitador: Punto y coma ( &amp;semi; )
 
 1. En la sección [!UICONTROL Segment Mappings] de su [!DNL URL] [!DNL destination], agregue el código del paso 2 a los campos [!DNL URL] y [!DNL Secure URL]. Agregue al código `http:` y `https:` los campos [!DNL URL] y [!DNL Secure URL], respectivamente.
 

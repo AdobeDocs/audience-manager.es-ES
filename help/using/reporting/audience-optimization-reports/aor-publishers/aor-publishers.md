@@ -7,20 +7,28 @@ title: Audience Optimization para editores
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: Audience Optimization Reports
 exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
-TQID: https://experienceleague.adobe.com/5SM5KM03Zc9BhdXa6DtIpuPFn7JP9QGJ-nAiJFuKBNI
+TQID: 'https://experienceleague.adobe.com/5SM5KM03Zc9BhdXa6DtIpuPFn7JP9QGJ-nAiJFuKBNI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '235'
 ht-degree: 19%
-
 ---
-
 # Audience Optimization para editores{#audience-optimization-for-publishers}
 
 Audience Optimization for Publishers puede ayudar a identificar posibles mejoras de rendimiento para segmentos de Audience Manager relativas a contenido de su propiedad o que usted gestione. Estos informes combinan datos de rendimiento de campañas en el nivel del registro con métricas de Audience Manager para informar sobre las optimizaciones de audiencia y las oportunidades de monetización.

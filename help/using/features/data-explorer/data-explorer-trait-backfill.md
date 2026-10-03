@@ -6,22 +6,28 @@ title: Realizaciones de rasgos de relleno
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 exl-id: 6be54999-eeeb-48cd-a630-021f17289431
-TQID: https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA
+TQID: 'https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Realizaciones de rasgos de relleno {#backfill-trait-realizations}
 
 Rellene las realizaciones de características para capturar audiencias históricas y evitar la pérdida de datos relevantes antes de una fecha de creación de características.
@@ -60,7 +66,7 @@ Una vez que termine de crear el rasgo, verá sus realizaciones rellenadas inclui
 
 Vea el siguiente vídeo para ver un tutorial sobre cómo rellenar rasgos.
 
->[!VIDEO](https://video.tv.adobe.com/v/327529?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Latencia de relleno de rasgos {#trait-backfilling-latency}
 

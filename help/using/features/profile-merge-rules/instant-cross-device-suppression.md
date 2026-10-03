@@ -1,27 +1,35 @@
 ---
-description: La eliminación instantánea entre dispositivos corresponde a la capacidad de eliminar usuarios de varios dispositivos a la vez, siempre que los usuarios estén conectados a ellos, cuando en uno de los dispositivos se produce una experiencia particular. Utilice la capacidad de eliminación instantánea entre dispositivos para ofrecer una experiencia coherente entre dispositivos a los usuarios. Esta experiencia es posible gracias a las capacidades de desegmentación en tiempo real de Audience Manager.
+description: La eliminación instantánea entre dispositivos corresponde a la capacidad de eliminar usuarios de varios dispositivos a la vez, siempre que los usuarios estén conectados a ellos, cuando en uno de los dispositivos se produce una experiencia particular. Utilice esta capacidad para ofrecer a los usuarios una experiencia coherente en distintos dispositivos. Esta experiencia es posible gracias a las capacidades de desegmentación en tiempo real de Audience Manager.
 seo-description: Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 seo-title: Instant Cross-Device Suppression
 title: Eliminación instantánea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
+TQID: 'https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 778
-ht-degree: 6%
-
+source-wordcount: '812'
+ht-degree: 8%
 ---
-
 # Eliminación instantánea entre dispositivos {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] es la capacidad de suprimir usuarios en varios dispositivos conectados a ellos cuando se produce una experiencia concreta en cualquiera de estos dispositivos. Utilice la capacidad [!UICONTROL Instant Cross-Device Suppression] para ofrecer una experiencia coherente entre dispositivos a los usuarios. Esta experiencia es posible gracias a las capacidades de desegmentación en tiempo real de Audience Manager.
@@ -37,7 +45,7 @@ Los detalles técnicos de la eliminación de la segmentación en tiempo real se 
 
 ## No segmentar una vez convertido {#do-not-target-once}
 
-Asegúrese de que los usuarios que ya se hayan convertido (hayan comprado un producto, adquirido una suscripción, etc.) no vean los mismos mensajes que antes de la conversión. Puede obtenerla mediante la lógica [!UICONTROL AND NOT], de la siguiente manera.
+Asegúrese de que los usuarios que ya se han convertido (han adquirido un producto, una suscripción, etc.) no verá los mismos mensajes que antes de la conversión. Puede obtenerla mediante la lógica [!UICONTROL AND NOT], de la siguiente manera.
 
 1. Cree un segmento con dos características y use la lógica [!UICONTROL AND NOT], como se muestra en la siguiente imagen. Debe utilizar un rasgo basado en reglas para definir el evento de conversión para que la eliminación de la segmentación se active en tiempo real. Obtenga más información sobre cómo [crear características basadas en reglas](../traits/create-onboarded-rule-based-traits.md).
 2. Asigne el segmento a cualquier número de destinos de servidor a servidor en tiempo real. Más información sobre cómo agregar segmentos a [destinos de servidor a servidor](../destinations/add-edit-segments.md).
@@ -70,7 +78,7 @@ Tenga en cuenta estos aspectos relacionados con el procesamiento:
 * Para que funcione la capacidad de eliminación de segmentos en tiempo real, debe asignar los segmentos deseados a destinos de servidor a servidor en tiempo real.
 * Para los dispositivos conectados a un dispositivo mediante un [gráfico de dispositivos](profile-link-use-case.md#recommendations), aplicamos un límite de cuatro dispositivos con respecto a la evaluación y la eliminación de la segmentación. Esta limitación se describe en [Opciones de gráfico de dispositivos y eliminación de la segmentación de dispositivos](merge-rule-unsegment.md#device-graph-options-unsegmentation).&#x200B;
 * El comando de eliminación de la segmentación se incluye en un archivo por lotes, que se envía a los destinos cada 24 horas, para varios dispositivos conectados mediante el gráfico de dispositivos.
-* El dispositivo se debe ver en tiempo real (en el [Edge](../../reference/system-components/components-edge.md)) para solicitar la evaluación de segmentos en tiempo real. En el caso de los rasgos que tienen un [!UICONTROL time-to-live (TTL)] cuando se cumple el rasgo [!DNL TTL], el dispositivo se dessegmentará automáticamente en un plazo de 24 horas mediante el archivo por lotes..&#x200B; Obtenga más información sobre cómo [establecer un intervalo de caducidad de rasgos](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* El dispositivo se debe ver en tiempo real (en el [Edge](../../reference/system-components/components-edge.md)) para solicitar la evaluación de segmentos en tiempo real. En el caso de los rasgos que tienen un [!UICONTROL time-to-live (TTL)] cuando se cumple el rasgo [!DNL TTL], el dispositivo se dessegmentará automáticamente en un plazo de 24 horas mediante el archivo por lotes..&#x200B; Más información sobre cómo [Establecer un intervalo de caducidad de rasgo](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Si está usando [!UICONTROL DCS API] para incorporar características basadas en reglas en tiempo real, puede almacenar en déclencheur la eliminación de la segmentación con el uso de la lógica [!UICONTROL AND NOT]. Más información sobre [el envío de datos a la API de DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
 
 ## Aspectos importantes que debe tener en cuenta: calendario {#timing-notes}

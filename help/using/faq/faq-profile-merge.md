@@ -8,22 +8,30 @@ title: Preguntas frecuentes sobre las reglas de combinación de perfiles y el gr
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+TQID: 'https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1583
-ht-degree: 81%
-
+source-wordcount: '1623'
+ht-degree: 80%
 ---
-
 # Preguntas frecuentes sobre las reglas de combinación de perfiles y el gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respuestas a preguntas comunes sobre la regla de combinación de perfiles y el gráfico de dispositivos.
@@ -120,7 +128,7 @@ Sí.
 
 **¿Las estimaciones del tamaño del segmento incluyen los dispositivos que se clasifican como segmento basado en conexiones proporcionado por una [!UICONTROL Profile Merge Rule] que usa un gráfico de dispositivos?**
 
-No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=es).
+No. Consulte las definiciones de [!UICONTROL Estimated Real-Time Population] y [!UICONTROL Estimated Total Population] en [Rasgos y datos de población de segmentos en el Generador de segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 

@@ -7,24 +7,32 @@ title: Preguntas frecuentes sobre segmentación
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
-TQID: https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk
+TQID: 'https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Behavioral data
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 100%
-
+source-wordcount: '944'
+ht-degree: 98%
 ---
-
 # Preguntas frecuentes sobre segmentación{#targeting-faq}
 
 Preguntas y problemas comunes relacionados con la segmentación
@@ -51,7 +59,7 @@ La respuesta depende de los objetivos perseguidos. Por ejemplo, si la campaña e
 
 **¿Puedo comercializar con particulares?**
 
-Audience Manager le permite juntar usuarios y hacerles llegar ofertas en función de rasgos o atributos compartidos. Sin embargo, en cumplimiento de las normas del sector, los clientes de [!DNL Audience Manager] no pueden enviar información personal identificable (PII) a nuestros sistemas. Como resultado, no se pueden utilizar direcciones de correo electrónico, nombres individuales, direcciones postales, etc. para la segmentación.
+Audience Manager le permite juntar usuarios y hacerles llegar ofertas en función de rasgos o atributos compartidos. Sin embargo, en cumplimiento de las normas del sector, los clientes de [!DNL Audience Manager] no pueden enviar información personal identificable (PII) a nuestros sistemas. Como resultado, no se pueden usar direcciones de correo electrónico, nombres individuales, direcciones físicas, etc. para la segmentación.
 
 <br> 
 

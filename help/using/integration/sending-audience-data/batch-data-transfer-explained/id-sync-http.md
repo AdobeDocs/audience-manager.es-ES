@@ -7,23 +7,32 @@ title: Sincronización de ID para transferencias de datos entrantes
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
-TQID: https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk
+TQID: 'https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 1%
-
+source-wordcount: '455'
+ht-degree: 5%
 ---
-
 # Sincronización de ID para transferencias de datos entrantes {#id-synchronization-for-inbound-data-transfers}
 
 Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los identificadores de usuario entre un proveedor y [!DNL Audience Manager]. La sincronización de ID puede comenzar después de enviar la taxonomía de datos a [!DNL Audience Manager].

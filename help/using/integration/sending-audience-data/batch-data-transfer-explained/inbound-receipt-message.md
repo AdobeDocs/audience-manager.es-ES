@@ -7,20 +7,26 @@ title: Mensaje de muestra a los socios después del procesamiento entrante
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
-TQID: https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ
+TQID: 'https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
 # Mensaje de muestra a los socios después del procesamiento entrante{#sample-message-to-partners-after-inbound-processing}
 
 Cada vez que se procesa un archivo [!UICONTROL Server-to-Server] entrante, se envía una confirmación por correo electrónico a las soluciones del socio y, si se configura, al socio.
@@ -49,7 +55,7 @@ La siguiente tabla contiene las filas correspondientes a las líneas del mensaje
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre de archivo </td> 
-   <td colname="col2"> <p>Lista de todos los archivos entrantes que Adobe recibió para este socio y que se procesaron juntos. En el mensaje de correo electrónico de ejemplo anterior, el ID del socio es 7 y el ID del propietario de datos es 901. </p> <p>El número de cola (1,2,3...) es el número de división añadido por el cliente o por el distribuidor entrante. </p> </td> 
+   <td colname="col2"> <p>Lista de todos los archivos entrantes que Adobe recibió para este socio y que se procesaron juntos. En el mensaje de correo electrónico de ejemplo anterior, el ID del socio es 7 y el ID del propietario de datos es 901. </p> <p>El número de cola (1,2,3...) es el número dividido que añade el cliente o el distribuidor entrante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registros recibidos </td> 

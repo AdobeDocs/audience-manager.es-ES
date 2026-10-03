@@ -6,21 +6,26 @@ title: Crear rasgos a partir de señales
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
-TQID: https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M
+TQID: 'https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '338'
 ht-degree: 0%
-
 ---
-
 # Crear rasgos a partir de señales
 
 Cree nuevos rasgos a partir de todas las señales, incluidos los que ya se utilizan en rasgos, y capture audiencias futuras que se clasifiquen después de la creación de rasgos. Vea el vídeo para ver una demostración rápida o siga leyendo para obtener información detallada:
 
->[!VIDEO](https://video.tv.adobe.com/v/327529/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## Crear rasgos del panel de señales {#create-traits-from-signal-dashboard}
 

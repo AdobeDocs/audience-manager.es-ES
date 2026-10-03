@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Directrices para la implementación
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
-TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
+TQID: 'https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1350
-ht-degree: 2%
-
+source-wordcount: '1362'
+ht-degree: 3%
 ---
-
 # Directrices para la implementación {#implementation-guidance}
 
 >[!IMPORTANT]
@@ -54,7 +60,7 @@ Para dirigirlas a través de los medios sociales y canales similares basados en 
 
 Su compañía, un proveedor de servicios de telecomunicaciones, guarda los datos de los clientes, como las direcciones de correo electrónico y los planes de telecomunicaciones comprados, en un [!DNL CRM] interno. Desea segmentar clientes existentes en plataformas sociales para ofrecerles paquetes de actualización basados en sus suscripciones existentes. Para ello, puede introducir sus direcciones de correo electrónico de clientes con hash en Audience Manager y crear segmentos basados en las suscripciones de clientes existentes. A continuación, puede enviar estos segmentos a [!DNL People-Based Destinations] para que se dirijan a sus clientes con ofertas personalizadas.
 
-## &#x200B;2. Defina el tipo de direcciones de correo electrónico objetivo {#define-target-email}
+## &#x200B;2. Definir el tipo de direcciones de correo electrónico de destino {#define-target-email}
 
 El segundo paso para definir la estrategia de implementación es decidir a qué tipo de direcciones de correo electrónico del cliente desea dirigirse.
 
@@ -74,13 +80,13 @@ La segmentación de audiencias en [!DNL People-Based Destinations] requiere que 
 
 Para dirigirse a la audiencia con precisión en [!DNL People-Based Destinations], los usuarios deben cumplir los requisitos para rasgos basados en reglas o incorporados, según el tipo de segmentación de audiencia que desee realizar.
 
-**A) Califique sus ID de cliente e ID de dispositivo en tiempo real para los rasgos basados en reglas**. Esta opción se aplica al caso de uso A de [1. Definición del caso de uso &#x200B;](people-based-destinations-workflow.md#defining-your-use-case). Si su plan es segmentar audiencias en función de la actividad en línea y sin conexión, es probable que ya esté calificando a su audiencia para [rasgos basados en reglas](../traits/trait-and-segment-qualification-reference.md).
+**A) Califique sus ID de cliente e ID de dispositivo en tiempo real para los rasgos basados en reglas**. Esta opción se aplica al caso de uso A de [1. Definición del caso de uso ](people-based-destinations-workflow.md#defining-your-use-case). Si su plan es segmentar audiencias en función de la actividad en línea y sin conexión, es probable que ya esté calificando a su audiencia para [rasgos basados en reglas](../traits/trait-and-segment-qualification-reference.md).
 
-**B) Incorpore rasgos en sus ID de cliente mediante archivos de datos de entrada**. Esta opción se aplica al caso de uso B de [1. Definición del caso de uso &#x200B;](people-based-destinations-workflow.md#defining-your-use-case). Al segmentar la audiencia según una actividad puramente sin conexión, debe calificar los ID de cliente para rasgos incorporados mediante [archivos de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+**B) Incorpore rasgos en sus ID de cliente mediante archivos de datos de entrada**. Esta opción se aplica al caso de uso B de [1. Definición del caso de uso ](people-based-destinations-workflow.md#defining-your-use-case). Al segmentar la audiencia según una actividad puramente sin conexión, debe calificar los ID de cliente para rasgos incorporados mediante [archivos de datos de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ## &#x200B;5. Crear o etiquetar fuentes de datos y direcciones de correo electrónico con hash integradas {#create-label-data-sources}
 
-Según el tipo de ID de cliente que tenga en Audience Manager (consulte [3). Identifique el tipo de ID de cliente (CRM ID) que tiene &#x200B;](people-based-destinations-workflow.md#identify-customer-id), en uno de los siguientes casos:
+Según el tipo de ID de cliente que tenga en Audience Manager (consulte [3). Identifique el tipo de ID de cliente (CRM ID) que tiene ](people-based-destinations-workflow.md#identify-customer-id), en uno de los siguientes casos:
 
 **A) Etiquete un origen de datos existente**. Esta opción se aplica al escenario en el que los ID de cliente de Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ya sean direcciones de correo electrónico con hash y en minúsculas. En este caso, lo que debe hacer es etiquetar el origen de datos en el que almacena los ID como origen de datos de [!DNL PII]. Consulte [Configuración de Data Source](../datasources-list-and-settings.md) para obtener más información sobre la configuración del origen de datos. Lo que debe hacer es asegurarse de que la opción No se puede asociar a información de identificación personal esté desmarcada.
 

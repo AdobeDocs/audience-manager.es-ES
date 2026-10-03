@@ -4,22 +4,30 @@ title: Códigos de error DCS, mensajes y ejemplos
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+TQID: 'https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1519
+source-wordcount: '1546'
 ht-degree: 3%
-
 ---
-
 # Códigos de error DCS, mensajes y ejemplos {#dcs-error-codes-messages-and-examples}
 
 Códigos de error y mensajes generados por [!UICONTROL Data Collection Servers] ([!DNL DCS]) enumerados en orden numérico por identificador de código.
@@ -32,7 +40,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 |---|---|---|
 | 0 | Error no especificado | Este es un error de captador global que controla eventos que no están cubiertos por los otros controladores de errores. Solucionar este error es difícil. Puede deberse a una variedad de acciones o eventos desconocidos. Si recibe este error, intente de nuevo la solicitud [!DNL DCS]. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 | 1 | No se encontró la configuración del nombre de host: `hostname` | El equipo de aprovisionamiento de socios no ha configurado el nombre de host enviado en la solicitud. Póngase en contacto con su representante de [!DNL Adobe] si ve este mensaje de error. |
-| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es) para obtener información sobre cómo encontrarlo. |
+| 2 | Valor `d_orgid` no válido (no se pudo encontrar una configuración para este identificador de organización): `ID` | El ID de organización es incorrecto. Compruebe su ID e inténtelo de nuevo. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Página de administración&quot; [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obtener información sobre cómo encontrarlo. |
 | 10 | No se pueden evaluar los rasgos | Los rasgos de la solicitud se evaluaron parcialmente o no se evaluaron en absoluto. Póngase en contacto con su representante de [!DNL Adobe] si el problema persiste. |
 
 ## Códigos de error de integración {#integration-error-codes}
@@ -75,7 +83,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
    <td colname="col2"> <p>El socio ha bloqueado las solicitudes de este país </p> </td> 
-   <td colname="col3"> <p>En función de la dirección IP, el DCS<span class="wintitle"> de </span> bloquea las solicitudes de países donde el socio ha limitado deliberadamente el tráfico. </p> </td> 
+   <td colname="col3"> <p>En función de la dirección IP, el DCS</span> de <span class="wintitle"> bloquea las solicitudes de países donde el socio ha limitado deliberadamente el tráfico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>199 </p> </td> 
@@ -116,7 +124,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
    <td colname="col2"> <p>No se puede leer el cliente relacionado para el id. de dispositivo: <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Se devuelve cuando el ID de cliente (UUID) <a href="../../../reference/ids-in-aam.md"> de </a> asociado a un ID de dispositivo no se puede recuperar para una regla de combinación de Last Authenticated de nuestro almacenamiento interno. </p> </td> 
+   <td colname="col3"> <p>Se devuelve cuando el ID de cliente (UUID) </a> de <a href="../../../reference/ids-in-aam.md"> asociado a un ID de dispositivo no se puede recuperar para una regla de combinación de Last Authenticated de nuestro almacenamiento interno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
@@ -142,7 +150,7 @@ En las tablas siguientes, *cursiva* representa un marcador de posición de varia
 | --- | --- | --- |
 | 300 | ID de cliente `_ID_` no válido | El ID de cliente no es válido (faltan valores para la fuente de datos, faltan códigos de integración, formato no válido para las fuentes de datos, ID de cliente bloqueado, ID de cliente en blanco, intento de acceso no autorizado a una fuente de datos que no pertenece al socio). |
 | 301 | Se ha superado el número máximo de ID de cliente. El máximo permitido es `_maximum allowed_`. Se encontró `_maximum found_`. | El número de ID de cliente asociados a una fuente de datos entre dispositivos supera el número permitido de ID entre dispositivos por solicitud. Estos ID incluyen ID de cookies, móviles o entre dispositivos. El límite actual es de 10. |
-| 302 | Id. de cliente no autorizado `_ID_` | Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Buscar su identificador de organización&quot; en [Organizaciones y vinculación de cuentas](https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html) para obtener información sobre cómo encontrarlo. |
+| 302 | Id. de cliente no autorizado `_ID_` | Se devuelve cuando el origen de datos del ID de cliente no es propiedad del ID de organización actual. Si no conoce o no tiene su identificador de organización, consulte la sección &quot;Buscar su identificador de organización&quot; en [Organizaciones y vinculación de cuentas](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) para obtener información sobre cómo encontrarlo. |
 | 303 | ID de cliente bloqueado `_ID_` | Se devuelve cuando el ID de cliente se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la lista de distribución de datos de la lista de distribución de. |
 | 304 | ID de origen de datos bloqueado `_ID_` | Se devuelve cuando el ID de la fuente de datos se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de la fuente de datos de la que se ha hecho clic en el nombre de usuario. |
 | 306 | Identificador de dispositivo declarado bloqueado `_ID_` | El ID del dispositivo se ha identificado como malintencionado y se ha agregado a una lista de bloqueados de. Esto puede ocurrir cuando recibimos una cantidad extrema de solicitudes de DCS que contienen este ID del dispositivo en un corto período de tiempo. |

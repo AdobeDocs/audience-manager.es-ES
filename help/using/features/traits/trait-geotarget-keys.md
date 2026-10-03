@@ -7,16 +7,21 @@ title: Geotargeting Con Claves A Nivel De Plataforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-TQID: https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao
+TQID: 'https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '650'
 ht-degree: 2%
-
 ---
-
 # Geotargeting Con Claves A Nivel De Plataforma {#geotargeting-with-platform-level-keys}
 
 Describe los pares clave-valor comunes a nivel de plataforma que puede usar para dirigirse a usuarios con variables geográficas en todas las propiedades de la cuenta de Audience Manager.
@@ -47,7 +52,7 @@ Trabajamos con [Digital Envoy](https://www.digitalenvoy.com/) para obtener y act
 |--- |--- |
 | d_area_code | [Códigos de área de Norteamérica](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes).  Por ejemplo: <ul><li>**Rasgo**: d_area_code=801</li><li>**Nombre de característica**: Utah</li></ul> |
 | d_city | Ciudades y pueblos. Descargar la [lista de ciudades](assets/d_city.txt).  Por ejemplo: <ul><li>Característica: d_city=bonn</li><li>Nombre del rasgo: Bonn</li></ul> **Sugerencia**: Puede usar `d_city` junto con `d_country` para asegurarse de que no va a segmentar dos ciudades con el mismo nombre en países diferentes. Puede ser aún más específico en su segmentación usando `d_postal_code`. |
-| d_country | Los valores corresponden a los códigos de país ISO. Para obtener una lista de códigos en la que se pueden realizar búsquedas, consulte la [Plataforma de navegación en línea de ISO](https://www.iso.org/obp/ui/#home). <br>  La segmentación para el Reino Unido es el único caso especial que no obedece la norma ISO 3166. Debe usar &quot;UK&quot; en lugar de &quot;GB&quot; para segmentar en el Reino Unido.  Para dirigirse a las Antillas Neerlandesas, el código &quot;AN&quot; ha quedado obsoleto desde 2010. La zona se ha disuelto en cinco unidades territoriales distintas. Esto implica que, para realizar la segmentación en las Antillas Neerlandesas, no se debe utilizar &quot;AN&quot;, sino una combinación de los códigos de país para &quot;CW&quot;, &quot;SX&quot; y &quot;BQ&quot;.  Por ejemplo: <br>  Característica: d_country=CZ <br>  Nombre del rasgo: República Checa <br>  Característica: d_country=UK <br>  Nombre del rasgo: Reino Unido <br>  Rasgo: d_country=CW O d_country=SX O d_country=BQ <br>  Nombre del rasgo: Antillas Neerlandesas |
+| d_country | Los valores corresponden a los códigos de país ISO. Para obtener una lista de códigos en la que se pueden realizar búsquedas, consulte la [Plataforma de navegación en línea de ISO](https://www.iso.org/obp/ui/#home). <br> La segmentación para el Reino Unido es el único caso especial que no cumple la norma ISO 3166. Debe usar &quot;UK&quot; en lugar de &quot;GB&quot; para segmentar en el Reino Unido.  Para dirigirse a las Antillas Neerlandesas, el código &quot;AN&quot; ha quedado obsoleto desde 2010. La zona se ha disuelto en cinco unidades territoriales distintas. Esto implica que, para realizar la segmentación en las Antillas Neerlandesas, no se debe utilizar &quot;AN&quot;, sino una combinación de los códigos de país para &quot;CW&quot;, &quot;SX&quot; y &quot;BQ&quot;.  Por ejemplo: <br> Rasgo: d_country=CZ <br> Nombre del rasgo: República Checa <br> Rasgo: d_country=UK <br> Nombre del rasgo: Reino Unido <br> Rasgo: d_country=CW O d_country=SX O d_country=BQ <br> Nombre del rasgo: Antillas Holandesas |
 | d_dma_code | Códigos DMA del área metropolitana. Descargar la [lista de región DMA](assets/DMAregions.csv) (formato .csv).  Por ejemplo: <ul><li>Característica: d_dma_code=807</li><li>Nombre del rasgo: San Francisco</li></ul> |
 | d_lat | Latitud (p. ej. d_lat=40,75). Descargar la [lista de latitudes](assets/d_lat.txt). |
 | d_long | Longitud (p. ej. d_long=73.98). Descargar la [lista de longitudes](assets/d_long.txt). |

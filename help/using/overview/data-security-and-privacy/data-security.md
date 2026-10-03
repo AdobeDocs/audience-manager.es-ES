@@ -7,27 +7,38 @@ title: Seguridad de datos en Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
+TQID: 'https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 92%
-
+source-wordcount: '1022'
+ht-degree: 89%
 ---
-
 # Seguridad de datos en Audience Manager {#data-security}
 
 Audience Manager se toma muy en serio la seguridad de los datos y la privacidad. Trabajamos para mantener nuestros sistemas seguros y proteger sus valiosos datos.
@@ -75,7 +86,7 @@ Procesos que ayudan a mantener la seguridad de la información personal. Para ob
 
 Procesos que ayudan a proteger los datos propiedad de clientes individuales.
 
-**Partición de datos de rasgos:** Sus datos ([!UICONTROL traits], ID., etc.) están particionados por el cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
+**Partición de datos de rasgos:** Sus datos ([!UICONTROL traits], ID., etc.) está particionado por el cliente. Esto ayuda a evitar la exposición accidental de información entre diferentes clientes. Por ejemplo, los datos de rasgos de las cookies se dividen por cliente y se almacenan en un subdominio específico del cliente. Otro cliente de Audience Manager no podrá leer estos datos ni utilizarlos accidentalmente. Además, los datos de rasgos almacenados en los [!UICONTROL Profile Cache Servers (PCS)] también se dividen por cliente. Esto evita que otros clientes utilicen accidentalmente sus datos en una llamada de evento u otra solicitud.
 
 **Partición de datos en informes:** Los ID de cliente forman parte de la clave de identificación en todas las tablas de los informes y las consultas de informes se filtran por su ID. Esto ayuda a evitar que los datos aparezcan en los informes de otro cliente de Audience Manager.
 

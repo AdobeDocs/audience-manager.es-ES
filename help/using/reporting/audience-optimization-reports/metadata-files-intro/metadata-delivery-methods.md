@@ -7,20 +7,28 @@ title: Métodos de envío para archivos de metadatos
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-TQID: https://experienceleague.adobe.com/1WX2-VoBmcDsUqntootQYpwQRtAOktxompEZfxVE9TE
+TQID: 'https://experienceleague.adobe.com/1WX2-VoBmcDsUqntootQYpwQRtAOktxompEZfxVE9TE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # Métodos de envío para archivos de metadatos{#delivery-methods-for-metadata-files}
 
 Envíe o actualice archivos de metadatos enviándolos a un directorio [!DNL Amazon S3] especial para su cuenta de Audience Manager. Consulte esta sección para obtener información sobre las rutas de entrega/directorio, los tiempos de procesamiento de archivos y las actualizaciones.

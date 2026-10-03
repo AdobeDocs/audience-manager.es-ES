@@ -7,16 +7,21 @@ title: Métricas de informes para reglas de combinación de perfiles
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+TQID: 'https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: '727'
 ht-degree: 0%
-
 ---
-
 # Métricas de informes para reglas de combinación de perfiles {#report-metrics-for-profile-merge-rules}
 
 Las métricas de [!UICONTROL Profile Merge Rule] proporcionan datos sobre personas y dispositivos que se autentican en el sitio. Los datos y gráficos de [!UICONTROL Profile Merge Rule Reports] se actualizan dinámicamente al crear una regla de combinación o al hacer clic en una regla existente del panel [!UICONTROL Profile Merge Rules]. Estas métricas pueden incluir gráficos de dispositivos de otras fuentes de gráficos de dispositivos de terceros.
@@ -38,7 +43,7 @@ Los informes devuelven datos en gráficos de barras paralelos cuando las reglas 
    <td colname="col2"> <p>Muestra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> personas activas</span>: El número de personas que se autenticaron en el sitio durante los últimos 60 días. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> entre dispositivos</span>: El número total de <a href="merge-rules-start.md#create-data-source"> identificadores entre dispositivos</a> almacenados en el <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es"> Data Source</a> del <a href="merge-rule-definitions.md"> perfil autenticado </a> seleccionado durante toda la vida que ha existido el origen de datos. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> entre dispositivos</span>: El número total de <a href="merge-rules-start.md#create-data-source"> identificadores entre dispositivos</a> almacenados en el <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Data Source</a> del <a href="merge-rule-definitions.md"> perfil autenticado </a> seleccionado durante toda la vida que ha existido el origen de datos. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de personas activas</span>: muestra <span class="wintitle"> personas activas</span> como un %. </li> 
     </ul> <p> <span class="wintitle"> Actividad autenticada</span> le permite comparar orígenes de datos por actividad, volumen y porcentaje. Puede ayudarle a encontrar una fuente de datos que tenga muchas personas y un alto porcentaje de usuarios activos. O puede encontrar valor en la comparación de fuentes de datos con una alta proporción de usuarios activos en comparación con el tamaño total de la audiencia. Por ejemplo, a veces una fuente de datos con números totales de duración bajos y actividad alta es más valiosa que las que tienen resultados de duración altos y números de actividad bajos. </p> <p> <p>Nota: Las métricas de <span class="wintitle"> actividad autenticada</span> contienen solo datos de <span class="wintitle"> vínculo de perfil</span>. Este informe no incluye datos de <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
   </tr> 

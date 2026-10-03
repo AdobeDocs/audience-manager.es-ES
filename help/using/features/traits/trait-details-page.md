@@ -8,23 +8,30 @@ uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: desglose de tipo de identidad, desglose de identidad, informes de identidad de audiencia, entre dispositivos, ID de varios dispositivos, ID de dispositivo
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
-TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
+TQID: 'https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # Página de detalles de [!UICONTROL Trait] {#trait-details-page}
 
 La página de detalles de un(a) [!UICONTROL trait] individual(a) proporciona una descripción general de los detalles de [!UICONTROL trait], como el nombre de [!UICONTROL trait], el identificador, las métricas de rendimiento, las expresiones que definen a [!UICONTROL trait], los segmentos a los que pertenece y el registro de auditoría [!UICONTROL trait]. Para ver estos detalles, vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** y haga clic en el nombre del [!UICONTROL trait] con el que desea trabajar.
@@ -57,10 +64,10 @@ Para [!UICONTROL onboarded traits], la calificación de [!UICONTROL trait] se pr
 [!UICONTROL Trait Graph] le muestra la siguiente información:
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles autenticados. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Cross-Device ID], y no habrá datos presentes en el informe [!UICONTROL Device ID].
-   * **[!UICONTROL Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles de dispositivo. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Device ID], y no habrá datos presentes en el informe [!UICONTROL Cross-Device ID].
+  * **[!UICONTROL Cross-Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles autenticados. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Cross-Device ID], y no habrá datos presentes en el informe [!UICONTROL Device ID].
+  * **[!UICONTROL Device ID]**: seleccione esta opción para ver los resultados de [!UICONTROL traits] que están recopilando datos para perfiles de dispositivo. Al seleccionar esta opción, sólo se ven datos en el informe [!UICONTROL Device ID], y no habrá datos presentes en el informe [!UICONTROL Cross-Device ID].
 
-     ![gráfico de rasgos](assets/trait-summary.gif)
+    ![gráfico de rasgos](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: un recuento de usuarios únicos que agregaron este(a) [!UICONTROL trait] a su perfil durante el intervalo de tiempo especificado.
 * **[!UICONTROL Total Trait Population]**: número de usuarios únicos cualificados actualmente para este(a) [!UICONTROL trait].
@@ -73,7 +80,7 @@ Para [!UICONTROL onboarded traits], la calificación de [!UICONTROL trait] se pr
   >
   >Audience Manager solo muestra el informe [!UICONTROL Identity Type Breakdown] si cuenta con [!UICONTROL cross-device] ID calificados para [!UICONTROL trait].
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32713?captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## Expresión [!UICONTROL Trait] {#trait-expression}
 

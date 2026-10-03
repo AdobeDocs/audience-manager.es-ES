@@ -7,20 +7,28 @@ title: Superposición de segmento a unidad de anuncio
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
-TQID: https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE
+TQID: 'https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 390
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 # Superposición de segmento a unidad de anuncio{#segment-to-ad-unit-overlap}
 
 El informe Superposición de segmento a unidad de anuncio se muestra como un gráfico de calor que resalta las superposiciones altas y bajas entre las unidades de anuncio y los segmentos de Audience Manager.

@@ -7,21 +7,28 @@ title: Requisitos y métodos para enviar segmentos a Google Ad Manager mediante 
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
+TQID: 'https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # Requisitos y métodos para enviar segmentos a Google Ad Manager mediante etiquetas de publicador de Google ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 Puede enviar segmentos calificados a [!DNL Google Ad Manager] (anteriormente DFP) a través de una integración del lado del cliente o del lado del servidor. A continuación se enumeran los requisitos e información relacionada sobre ambos métodos.

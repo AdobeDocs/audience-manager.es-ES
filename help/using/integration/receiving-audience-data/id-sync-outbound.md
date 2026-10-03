@@ -7,22 +7,30 @@ title: Sincronización de ID para transferencias de datos salientes
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
 exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
-TQID: https://experienceleague.adobe.com/SlU-K--Wrb6Yvu0XHHdz1S-N8SN92N4B0OQn8DRUsfs
+TQID: 'https://experienceleague.adobe.com/SlU-K--Wrb6Yvu0XHHdz1S-N8SN92N4B0OQn8DRUsfs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 2%
-
+source-wordcount: '349'
+ht-degree: 7%
 ---
-
 # Sincronización de ID para transferencias de datos salientes{#id-synchronization-for-outbound-data-transfers}
 
 Describe la sintaxis y los parámetros utilizados en la llamada inicial `HTTP` para sincronizar los identificadores de usuario entre Audience Manager y un proveedor de datos de terceros. Póngase en contacto con su consultor de Adobe Audience Manager antes de intentar realizar la primera sincronización de ID.

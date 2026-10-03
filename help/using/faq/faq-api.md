@@ -7,21 +7,25 @@ title: Preguntas frecuentes sobre API
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
-TQID: https://experienceleague.adobe.com/IKztfem2G3SCH36c-2Qe5cJWVhPWRLQXjU5TEgF9Cgs
+TQID: 'https://experienceleague.adobe.com/IKztfem2G3SCH36c-2Qe5cJWVhPWRLQXjU5TEgF9Cgs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: REST APIs
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: '243'
 ht-degree: 100%
-
 ---
-
 # Preguntas frecuentes sobre API{#api-faq}
 
 Preguntas y problemas comunes de API.

@@ -7,30 +7,44 @@ title: Preguntas frecuentes sobre la privacidad y retención de datos
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-TQID: https://experienceleague.adobe.com/olj76RlEM8Hc6cBdOrdR-kye-bsaCBbkQEHJWNuAXh8
+TQID: 'https://experienceleague.adobe.com/olj76RlEM8Hc6cBdOrdR-kye-bsaCBbkQEHJWNuAXh8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 82%
-
+source-wordcount: '783'
+ht-degree: 81%
 ---
-
 # Preguntas frecuentes sobre la privacidad y retención de datos{#privacy-and-data-retention-faq}
 
 Responde a las preguntas comunes sobre privacidad en relación con los datos, además de proporcionar soluciones para los problemas relacionados.
@@ -45,7 +59,7 @@ Responde a las preguntas comunes sobre privacidad en relación con los datos, ad
 
 **¿Cómo utiliza Audience Manager las cookies y qué cookies establece?**
 
-Consulte [Cookies de Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=es).
+Consulte [Cookies de Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **¿Pueden los clientes de Audience Manager de EE. UU. segmentar campañas para usuarios de la UE?**
 
@@ -104,7 +118,7 @@ La siguiente tabla incluye los tiempos de retención para diferentes tipos de da
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datos de entrada </p> </td> 
-   <td colname="col2"> <p>Se trata de datos de entrada que se envían a <span class="keyword">Audience Manager</span> por FTP o directamente a un directorio de <span class="keyword">Amazon S3</span>. Consulte las <a href="../faq/faq-inbound-data-ingestion.md">Preguntas frecuentes sobre la ingestión de datos de clientes entrantes</a>.  </p> </td> 
+   <td colname="col2"> <p>Se trata de datos de entrada que se envían a <span class="keyword">Audience Manager</span> por FTP o directamente a un directorio de <span class="keyword">Amazon S3</span>. Consulte las <a href="../faq/faq-inbound-data-ingestion.md">Preguntas frecuentes sobre la ingestión de datos de clientes entrantes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datos salientes </p> </td> 

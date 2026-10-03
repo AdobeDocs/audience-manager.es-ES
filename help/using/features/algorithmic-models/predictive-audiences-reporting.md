@@ -6,26 +6,33 @@ solution: Audience Manager
 title: Informes de Predictive Audiences
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-TQID: https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8
+TQID: 'https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '632'
 ht-degree: 2%
-
 ---
-
 # Informes de Predictive Audiences
 
-Después de guardar un modelo [!UICONTROL Predictive Audiences], Audience Manager comienza a entrenarlo. En un par de horas, el modelo calculado empezará a analizar audiencias en los [servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=es#dcs-pcs). Los informes estarán disponibles al día siguiente.
+Después de guardar un modelo [!UICONTROL Predictive Audiences], Audience Manager comienza a entrenarlo. En un par de horas, el modelo calculado empezará a analizar audiencias en los [servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Los informes estarán disponibles al día siguiente.
 
 Para ver los resultados de la clasificación [!UICONTROL Predictive Audiences], vaya a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** y haga clic en el modelo en la lista.
 
@@ -40,10 +47,10 @@ La tabla de modelos muestra la siguiente información:
 * **[!UICONTROL Description]**: la descripción proporcionada en el paso de creación del modelo;
 * **[!UICONTROL Model Type]**: el tipo de cada modelo ([!UICONTROL Look-Alike Modeling] o [!UICONTROL Predictive Audiences]);
 * **[!UICONTROL Status]**: el estado de cada modelo:
-   * **[!UICONTROL Pending]**: el modelo se está inicializando y empezará a producir resultados en breve;
-   * **[!UICONTROL Active]**: el modelo se está ejecutando correctamente y produce resultados;
-   * **[!UICONTROL Warning]**: el modelo no produjo resultados debido a datos insuficientes (es decir, población de líneas de base baja, los perfiles de usuario no son enriquecidos);
-   * **[!UICONTROL Error]**: no se pudo ejecutar el modelo. Póngase en contacto con su representante de Adobe.
+  * **[!UICONTROL Pending]**: el modelo se está inicializando y empezará a producir resultados en breve;
+  * **[!UICONTROL Active]**: el modelo se está ejecutando correctamente y produce resultados;
+  * **[!UICONTROL Warning]**: el modelo no produjo resultados debido a datos insuficientes (es decir, población de líneas de base baja, los perfiles de usuario no son enriquecidos);
+  * **[!UICONTROL Error]**: no se pudo ejecutar el modelo. Póngase en contacto con su representante de Adobe.
 
 ## Informe general de modelo{#model-report}
 
