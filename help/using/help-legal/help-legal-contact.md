@@ -35,7 +35,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 * [Consulte las páginas de ayuda de Experience Cloud para obtener consejos, sugerencias y preguntas frecuentes](https://helpx.adobe.com/es/support.ec.html)
 * [Preguntas rápidas por Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Póngase directamente en contacto con el equipo de Atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/)
+* [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es-es/)
 
 ## Servicio, funcionalidad y facturación {#billing}
 
@@ -49,4 +49,4 @@ Published by Adobe Systems Incorporated.
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un símbolo de marca (®, ™, etc.) indica una marca comercial de Adobe.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/es/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_es](https://www.adobe.com/es/products/eula/third_party/).
